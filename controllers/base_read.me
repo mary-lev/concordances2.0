@@ -1,0 +1,47 @@
+База данных text:
+- text.author (храним авторов)
+    id
+    name
+    surname
+    family
+    year_birth
+    year_death
+    gender
+    birth_location
+    death_location
+
+- text.group_text (информация о группе текстов)
+    title
+    author -> text.author
+    v
+    genre
+    year
+
+- text.text (информация о тексте и сам текст)
+    title
+    author -> text.author (принадлежность к автору)
+    year_writing
+    month_writing
+    season_writing
+    day_writing
+    writing_location
+    year_publishing
+    genre
+    dedication
+    epigraph
+    epigraph_author
+    epigraph_text_name
+    v
+    body
+    group_text -> text.group_text (принадлежность к группе)
+    n_in_group
+
+- text.words
+    word
+    title -> text.text (принадлежность к тексту)
+    partos (часть речи)
+    text_location (место в тексте)
+    lexical_group
+    author -> text.author (?)
+
+

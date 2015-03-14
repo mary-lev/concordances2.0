@@ -1,0 +1,94 @@
+{{import json}}
+{{response.files.append(URL(r=request,c='static',f='/js/d3.js'))}}
+
+{{response.files.append(URL('static', 'js/d3.v3.min.js'))}}
+{{response.files.append(URL('static', 'js/d3.layout.js'))}}
+{{response.files.append(URL('static', 'js/mapper.js'))}}
+{{response.files.append(URL('static', 'js/underscore.js'))}}
+{{extend 'layout.html'}}
+<div id="chart"></div>
+
+<script>
+
+var labels=["Зеленый","Bridgeport","Douglas","Hyde Park","Little Italy, UIC","Loop","Lower West Side","Museum Campus","Near South Side","West Loop","West Town","East Village","Grand Boulevard","Greektown","Kenwood","Lake View","Lincoln Park","Lincoln Square","Logan Square","North Lawndale","Old Town","Printers Row","River North","Rush & Division","Sheffield & DePaul","Streeterville","Uptown","Washington Park"];
+var chord = d3.layout.chord()
+  .padding(.07)
+  .sortSubgroups(d3.descending)
+  .matrix([[15,2090,55,0,9,6,17,2,15,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,43,46,1,24,186,69,25,28,45,31,16,0,3,2,75,174,8,0,5,1,2,32,8,22,244,6,2,0,0,0,0,0],[61,23,2807,476,47,1306,191,966,710,174,20,4,205,4,144,24,43,2,2,0,4,84,40,12,2,258,19,14,0,0,0,1,0],[0,2,440,1885,22,471,2,220,76,85,15,4,59,0,293,13,19,1,0,2,0,17,41,2,7,150,4,171,0,0,0,0,0],[13,33,43,23,7033,2547,860,166,680,5517,703,195,68,207,39,131,271,1,38,10,14,184,294,69,131,296,40,2,7,13,16,68,0],[7,241,1059,439,2400,57811,650,7470,7471,29718,6879,1167,253,815,331,2337,7797,183,263,27,1131,1779,10273,3747,824,25330,450,3,94,81,86,226,10],[25,122,178,1,791,596,2009,90,677,1052,225,29,24,37,11,9,38,1,12,13,2,33,39,9,5,75,8,0,1,11,1,22,0],[0,25,832,198,183,7207,58,3209,1577,921,142,51,75,19,85,325,465,22,3,4,40,237,362,103,53,2958,86,7,0,0,2,1,4],[19,35,819,62,566,6688,567,1788,4553,1923,178,43,83,25,84,109,233,7,4,2,26,436,357,126,28,1376,95,10,0,0,0,6,0],[11,40,208,105,5572,30471,1063,1128,2285,27150,7940,1379,161,1252,209,1189,2575,48,297,5,346,1100,8734,1656,649,6429,188,0,68,87,101,393,0],[0,23,23,26,680,6535,217,119,131,7574,14473,3441,91,186,47,2056,6526,104,1343,15,800,67,4082,1243,1327,3118,141,0,412,566,369,358,7],[0,10,1,10,240,1194,59,54,53,1288,3467,1230,7,30,8,281,957,24,342,2,51,16,474,121,176,532,38,0,96,198,84,121,2],[5,0,164,78,80,256,25,72,72,159,88,8,381,6,83,11,25,0,0,0,0,17,29,10,8,41,3,29,0,0,0,4,0],[2,1,5,0,194,674,63,12,24,1069,214,55,5,72,3,23,88,0,6,0,9,14,78,42,23,124,2,0,2,1,6,38,0],[0,0,138,355,37,325,14,91,90,174,69,8,79,3,297,14,58,0,3,0,4,9,53,24,9,96,6,9,0,0,3,2,0],[0,43,28,20,99,1748,17,281,68,834,1888,296,8,68,11,22284,9505,846,336,22,426,31,1087,668,3446,3151,5302,0,171,29,1437,7,175],[0,164,32,12,252,5510,25,428,185,2207,6766,934,32,99,41,10622,21420,267,947,62,1591,50,3063,1798,5480,10297,1827,0,426,95,500,32,87],[0,1,2,3,3,114,2,19,4,25,87,38,0,2,0,764,308,1438,77,2,8,1,47,12,132,129,1139,0,18,4,382,0,62],[0,0,2,0,22,230,7,1,2,306,1362,280,0,5,1,271,767,75,1579,0,18,5,125,20,170,62,36,0,240,208,94,9,0],[0,1,0,2,7,29,23,5,1,3,10,1,0,0,0,16,64,1,0,18,1,0,8,2,18,67,0,0,0,0,0,0,0],[0,8,5,0,21,982,3,42,19,349,921,58,0,14,8,521,1703,9,13,3,374,18,719,370,202,606,44,0,13,1,23,3,0],[0,1,63,12,156,1733,46,277,476,1006,106,15,13,19,8,36,68,3,3,0,13,232,182,107,15,413,23,0,0,0,2,0,0],[0,39,49,30,272,8989,48,357,478,8480,4313,480,45,108,100,1230,3354,47,126,11,700,251,4956,1525,515,5256,73,0,28,63,64,24,1],[0,19,12,1,54,2831,21,92,82,1505,1300,132,16,41,17,831,1944,16,38,2,384,51,1640,1127,183,1784,58,0,25,6,16,7,0],[0,11,2,1,153,490,9,48,14,513,1331,138,1,27,9,3789,5348,159,236,23,173,9,418,152,2994,711,209,0,51,4,199,4,2],[0,294,242,149,290,21068,38,2827,1363,6258,3077,515,68,111,91,3269,10432,119,54,76,524,455,4814,1860,808,22623,409,2,17,27,44,21,17],[0,6,14,8,40,357,9,97,114,166,209,57,1,3,3,4814,1727,1136,52,0,29,14,75,66,206,376,5799,0,15,14,300,1,335],[0,0,9,145,0,7,0,5,4,0,0,0,19,0,6,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0]]);
+
+		var w = 1100, h = 1100, r0 = Math.min(w, h) * .30, r1 = r0 * 1.1;
+
+		//		var fill = d3.scale.ordinal().domain(d3.range(4)).range(
+		//				[ "black", "#FFDD89", "#957244", "#F26223", "blue", "green",
+		//						"purple", "red", "orange", "cyan", "grey", "lightblue",
+		//						"lightgrey", "lightpurple", "lightred", "pink",
+		//						"yellow", "violet", "brown" ]);
+
+var colors=["#3db8e4","#3db8e4","#3db8e4","#3db8e4","#0033FF","#141005","#0033FF","#141005","#141005","#0033FF","#0033FF","#0033FF","#3db8e4","#0033FF","#3db8e4","#88abff","#88abff","#3366FF","#88abff","#0033FF","#141005","#141005","#141005","#141005","#88abff","#141005","#3366FF","#3db8e4","#0033FF","#0033FF","#88abff","#0033FF","#3366FF"]
+
+		var fill = d3.scale.ordinal().domain(d3.range(colors.length)).range(
+				colors);
+
+		var svg = d3.select("#chart").append("svg").attr("width", w).attr(
+				"height", h).append("g").attr("transform",
+				"translate(" + w / 2 + "," + h / 2 + ")");
+
+		svg.append("g").selectAll("path").data(chord.groups).enter().append(
+				"path").style("fill", function(d) {
+			return fill(d.index);
+		}).style("stroke", function(d) {
+			return fill(d.index);
+		}).attr("d", d3.svg.arc().innerRadius(r0).outerRadius(r1)).on(
+				"mouseover", fade(.01)).on("mouseout", fade(1));
+
+		var ticks = svg.append("g").selectAll("g").data(chord.groups).enter()
+				.append("g").selectAll("g").data(groupTicks).enter()
+				.append("g").attr(
+						"transform",
+						function(d) {
+							return "rotate(" + (d.angle * 180 / Math.PI - 90)
+									+ ")" + "translate(" + r1 + ",0)";
+						});
+
+		ticks.append("line").attr("x1", 1).attr("y1", 0).attr("x2", 5).attr(
+				"y2", 0).style("stroke", "#000");
+
+		ticks.append("text").style("font-size", "14px").attr("x", 10).attr("dy", ".35em").attr(
+				"text-anchor", function(d) {
+					return d.angle > Math.PI ? "end" : null;
+				}).attr("transform", function(d) {
+			return d.angle > Math.PI ? "rotate(180)translate(-16)" : null;
+		}).text(function(d) {
+			return d.label;
+		});
+
+		// This fills in the lines.
+		svg.append("g").attr("class", "chord").selectAll("path").data(
+				chord.chords).enter().append("path").style("fill", function(d) {
+			return fill(d.target.index);
+		}).attr("d", d3.svg.chord().radius(r0)).style("opacity", 1);
+
+		/** Returns an array of tick angles and labels, given a group. */
+		function groupTicks(d) {
+			var k = (d.endAngle - d.startAngle) / d.value;
+			return d3.range(d.value / 2, d.value, d.value / 2).map(
+					function(v, i) {
+						return {
+							angle : v * k + d.startAngle,
+							label : labels[d.index]
+						//label: d.groups
+						};
+					});
+		}
+
+		/** Returns an event handler for fading a given chord group. */
+		function fade(opacity) {
+			return function(g, i) {
+				svg.selectAll("g.chord path").filter(function(d) {
+					return d.source.index != i && d.target.index != i;
+				}).transition().style("opacity", opacity);
+			};
+		}
+		
+
+</script>

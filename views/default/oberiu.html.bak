@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+<h1>Сравнение лексики</h1>
+Геннадий Гор. Корова - {{=l1}} словоформ, <br>
+Даниил Хармс. Старуха — {{=l2}} словоформ.<br>
+Общего в словаре: {{=all}}<br>
+<table>
+    
+<tr><td>Чего нет в "Корове" ({{=len(result)}})
+    
+<ul>
+{{for word in result:}}
+<li>{{=word}}</li>
+{{pass}}
+    </ul></td>
+<td>
+Чего нет в "Старухе" ({{=len(result2)}}):
+<ul>
+    {{for word in result2:}}
+    <li>{{=word}}</li>{{pass}}
+    </ul></td></tr></table>

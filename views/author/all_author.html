@@ -1,0 +1,8 @@
+{{extend 'layout.html'}}
+<h1>{{=author.name}} {{=author.family}}</h1>
+{{for all in texts:}}
+<li>{{if all.title:}} {{=A(all.title, _href=URL("control", "show1", args=all.id))}} {{pass}}
+    {{if all.first_string:}}"{{=A(all.first_string, _href=URL("control", "show1", args=all.id))}}" {{pass}}
+    {{if all.year_writing:}} ({{=all.year_writing}}) {{pass}}
+    {{if all.group_text:}}({{=all.group_text.title}}){{pass}}</li>
+{{pass}}

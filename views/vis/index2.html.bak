@@ -1,0 +1,15 @@
+{{extend 'layout.html'}}
+<h1>Корреляция двух текстов по словарю</h1>
+<h3>
+    Исходный текст: {{=author}}. {{=selected.title}}</h3>
+<h4>
+    Близкие тексты:
+</h4>
+{{for all in relevant_list:}}
+<li>{{=all.author.name}} {{=all.author.family}}. {{=A(all.title, _href=URL("control", "show1", args=all.id))}} {{=A("Сравнить лексику", _href=URL('default', 'compare', args=(old, all.id)))}}</li>
+{{pass}}
+
+<h3>Список слов:</h3>
+{{for word in words:}}
+<li>{{=word}}</li>
+{{pass}}

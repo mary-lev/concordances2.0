@@ -1,0 +1,41 @@
+# coding: utf8
+import pymorphy2
+morph = pymorphy2.MorphAnalyzer()
+
+words1 = ["гулять", "бег", "и", "я", "вокруг", "зеленый", "мария", "москва", "первый", "быстрей", "очевидно", "ножницы", "идемте"]
+names = ['Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
+style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
+other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
+
+def index():
+    titles = [x for x in range(1800,2000)]
+    texts = trymysql(trymysql.allword.title.belongs(titles)).select()
+    for all in texts:
+        the_word = all.lemma.decode("utf-8")
+        normal = morph.parse(the_word)[0]
+        parsed_other = parse_tags(normal.tag, other)['result']
+        parsed_style = parse_tags(normal.tag, style)['result']
+        parsed_name = parse_tags(normal.tag, names)['result']
+        if all.partos != 'None' and all.partos == normal.tag.POS and all.partos != 'PNCT':
+            all.update_record(anim = str(normal.tag.animacy), gendr=str(normal.tag.gender), number = str(normal.tag.number), cas = str(normal.tag.case), tense = str(normal.tag.tense), aspect = str(normal.tag.aspect), person = str(normal.tag.person), transitivity= str(normal.tag.transitivity), mood = str(normal.tag.mood), involvment = str(normal.tag.involvement), voice = str(normal.tag.voice), sobstv=parsed_name, style = parsed_style, other = parsed_other)
+    return dict(parsed_other=parsed_other)
+
+def parse_tags(tags, list_tags):
+    parsed = [x for x in list_tags if x in tags]
+    result = 'None'
+    for all in parsed:
+        if all != 'None':
+            result = str(all)
+    return dict(result=result)
+
+def index1():
+    texts = text(text.words.title == 1).select()
+    words = [all.word for all in texts]
+#    texts = ["гулять", "бег", "и", "я", "вокруг", "зеленый", "мария"]
+    partos=[]
+    for all in words:
+        the_word = all.decode("utf-8")
+        morph = pymorphy2.MorphAnalyzer()
+        normal = morph.parse(the_word)[0]
+        partos.append((normal.tag, type(normal.tag)))
+    return dict(partos=partos)

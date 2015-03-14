@@ -1,0 +1,82 @@
+{{response.files.append(URL(r=request,c='static',f='/js/d3.js'))}}
+
+{{response.files.append(URL('static', 'js/d3pie.min.js'))}}
+{{response.files.append(URL('static', 'js/d3pie.js'))}}
+{{extend 'layout.html'}}
+<h1>
+    Стихи Блока по годам
+</h1>
+<svg id="visualisation" width="1000" height="500"></svg>
+{{=DIV(_id="barData")}}
+<script>
+InitChart();
+
+function InitChart() {
+
+    var barData = [{{for one in year:}}
+                   {
+                   'x': {{=one[0]}},
+                       'y': {{=one[1]}}
+    },
+{{pass}}
+];
+
+  var vis = d3.select('#visualisation'),
+    WIDTH = 1000,
+    HEIGHT = 500,
+    MARGINS = {
+      top: 20,
+      right: 20,
+      bottom: 20,
+      left: 50
+    },
+    xRange = d3.scale.ordinal().rangeRoundBands([MARGINS.left, WIDTH - MARGINS.right], 0.1).domain(barData.map(function (d) {
+      return d.x;
+    })),
+
+
+    yRange = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([0,
+      d3.max(barData, function (d) {
+        return d.y;
+      })
+    ]),
+
+    xAxis = d3.svg.axis()
+      .scale(xRange)
+      .tickSize(5)
+      .tickSubdivide(true),
+
+    yAxis = d3.svg.axis()
+      .scale(yRange)
+      .tickSize(5)
+      .orient("left")
+      .tickSubdivide(true);
+
+  vis.append('svg:g')
+    .attr('class', 'x axis')
+    .attr('transform', 'translate(0,' + (HEIGHT - MARGINS.bottom) + ')')
+    .call(xAxis);
+
+  vis.append('svg:g')
+    .attr('class', 'y axis')
+    .attr('transform', 'translate(' + (MARGINS.left) + ',0)')
+    .call(yAxis);
+
+  vis.selectAll('rect')
+    .data(barData)
+    .enter()
+    .append('rect')
+    .attr('x', function (d) {
+      return xRange(d.x);
+    })
+    .attr('y', function (d) {
+      return yRange(d.y);
+    })
+    .attr('width', xRange.rangeBand())
+    .attr('height', function (d) {
+      return ((HEIGHT - MARGINS.bottom) - yRange(d.y));
+    })
+    .attr('fill', 'lightblue');
+
+}
+</script>

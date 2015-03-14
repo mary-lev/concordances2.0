@@ -1,0 +1,10 @@
+# coding: utf8
+
+def index():
+    authors = text().select(text.author.ALL, orderby=text.author.id)
+    return dict(authors=authors)
+
+def all_author():
+    texts=text(text.text.author==request.args(0)).select()
+    author= text(text.author.id==request.args(0)).select()[0]
+    return dict(texts=texts, author=author)

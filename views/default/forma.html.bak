@@ -1,0 +1,19 @@
+{{extend 'layout.html'}}
+<h1>Тексты</h1>
+
+
+
+ {{=FORM(TR("Select a user :", 
+          SELECT(_name='staffselect', 
+          *[OPTION(forma[i].meaning, _value=str(forma[i].id)) for i in range(len(forma))])), 
+          TR(INPUT(_type='submit')))}}
+
+{{pass}}
+
+
+{{for forms in forma:}}
+
+<li>Предложение: {{=forms['sent']}}
+<li>слово: {{=forms['number']}}</li>{{pass}}
+
+<li>Формы <select name='meaning'> <option value="{{for ff in forms['meaning']:}}"> {{ff}} </option>{{pass}}</li>

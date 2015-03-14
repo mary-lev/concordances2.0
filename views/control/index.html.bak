@@ -1,0 +1,21 @@
+{{right_sidebar_enabled=True}}
+{{extend 'layout.html'}}
+
+        <h1>Авторы</h1>
+<ul>
+{{for text in texts:}}
+       <li> {{=A(text.name, " ", text.family, ". ", _href=URL('author', "all_author", args=text.id))}} </li>
+{{pass}} </ul>
+
+{{block right_sidebar}}
+{{=A(T("Админка"), _href=URL('admin','default','index', scheme='https'), _class='btn',
+     _style='margin-top: 1em;')}}
+<h6>{{=T("Доступные функции")}}</h6>
+<ul>
+  <li>{{=A("Цвета", _href=URL("color", "index"))}}</li>
+  <li>{{=A("Контекстный поиск", _href=URL("context", "index"))}}</li>
+  <li>{{=A("По частям речи", _href=URL("count", "index"))}}</li>
+    <li><a href = 'https://concordance.pythonanywhere.com/test/morpho/count_partos.html'>Морфологическая статистика</a></li>
+    <li>{{=A("Test it", _href=("search_for_files"))}}</li>
+</ul>
+{{end}}

@@ -1,0 +1,49 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон morpho/count_partos.html</h1>
+<table>
+    
+<tr><td>Автор</td>
+    <td>nomn</td>
+    <td>gent</td> 
+    <td>datv</td> 
+    <td>accs</td>
+    <td>ablt</td>
+    <td>loct</td>
+    <td>voct</td>
+    <td>gen1</td>
+    <td>gen2</td>
+    <td>acc2</td>
+    <td>loc1</td>
+    <td>loc2</td>
+    <td>NOUN</td>
+    <td>ADJF</td>
+    <td>ADJS</td>
+    <td>VERB</td>
+    <td>INFN</td>
+    <td>GRND</td>
+    <td>PRTF</td>
+    <td>PRTS</td>
+    <td>ADVB</td>
+    <td>PREP</td>
+    <td>CONJ</td>
+    <td>NPRO</td>
+    <td>PRCL</td>
+    <td>1per</td>
+    <td>2per</td>
+    <td>3per</td></tr>
+{{for all in new:}}
+    <tr> {{for each in all:}} <td>{{=each}}</td>{{pass}}</tr>
+    {{pass}}
+
+</table>
+<h2>
+    Времена глагольных форм
+</h2>
+<table>
+
+<tr><td>Автор</td><td>pres</td><td>past</td><td>futr</td></tr>
+    {{for all in new_tense:}}
+
+<tr><td>{{=all[0]}}</td><td>{{=all[1][0]}}</td><td>{{=all[1][1]}}</td><td>{{=all[1][2]}}</td>{{pass}}</tr>
+{{pass}}
+    </table>

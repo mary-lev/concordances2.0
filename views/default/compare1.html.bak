@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+<h1>Сравнение лексики</h1>
+Блок. Город - {{=l1}} словоформ, <br>
+Блок. Сненая маска — {{=l2}} словоформ.<br>
+Общего в словаре: {{=all}}<br>
+<table>
+    
+<tr><td>Чего нет в "Снежной маске" ({{=len(result)}})
+    
+<ul>
+{{for word in result:}}
+<li>{{=word}}</li>
+{{pass}}
+    </ul></td>
+<td>
+Чего нет в "Городе" ({{=len(result2)}}):
+<ul>
+    {{for word in result2:}}
+    <li>{{=word}}</li>{{pass}}
+    </ul></td></tr></table>

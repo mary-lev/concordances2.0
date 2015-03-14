@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+{{for author in authors:}}
+        {{=A(author.name, " ", author.family, ". ", _href=URL('count_all', args=author.id))}}
+
+{{pass}}
+
+<table>
+{{for text in authors:}}
+        {{=TR(TD(text.name, " ", text.family, ". "), TD(A("Насыщенность словаря", _href=URL("words_range", args=text.id))), TD(A("Средняя длина слова", _href=URL("words_len", args=text.id))), TD(A("Средняя длина предложения", _href=URL("sentence_len", args=text.id))), TD(A("Части речи", _href=URL("count_partos", args=text.id))))}}
+    {{pass}}
+</table>

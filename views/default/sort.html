@@ -1,0 +1,15 @@
+{{extend 'layout.html'}}
+
+<h3>
+{{=text2.author}}. {{=text2.title}}
+    </h3>
+<table>
+    <tr><th>Словоформа</th><th>Количество в тексте</th><th>Term frequency</th></tr>
+{{for item in normal:}}
+    <tr>
+        <td>{{=item[0]}}</td>
+        <td>{{=item[1]}}</td>
+        <td>{{=item[2]}} %</td>
+    </tr>{{pass}}
+</table>
+<a href="https://concordance.pythonanywhere.com/test/default/index.html">Тексты</a>

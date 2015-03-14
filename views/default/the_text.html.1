@@ -1,0 +1,13 @@
+{{extend 'layout.html'}}
+
+<h3><a href="https://concordance.pythonanywhere.com/test/default/texts.html">Все тексты</a></h3>
+<h1>{{=text.author}}. {{=text.title}} ({{=text.year}})</h1>
+
+<ul>
+    <li>{{=A("Частотный словарь по алфавиту", _href=URL("tokenize", args=text.id))}}</li>
+    <li>{{=A("Словарь по убыванию частотности", _href=URL("sort", args=text.id))}}</li>
+    <li>{{=A("Статистика текста", _href=URL("info", args=text.id))}}</li>
+    <li>{{=A("Части речи", _href=URL("chast_rechi", args=text.id))}}</li>
+    <li>{{=A("Топ глаголов", _href=URL("verbalize", args=text.id))}}</li>
+    <li>Считается по изданию: {{=text.book}}</li>
+</ul>

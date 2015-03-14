@@ -1,0 +1,22 @@
+# coding: utf8
+
+color=["зелёный", "золотой", "голубой", "красный", "белый", "жёлтый", "чёрный", "коричневый", "синий", "розовый", "пурпурный", "фиолетовый", "серый", "жолтый", "лазурный", "алый", "лазоревый", "синева", "золотистый", "рыжий", "голубоватый", "златой"]
+
+def index():
+    colours=[text(text.words.word==all).count() for all in color]
+    all_colours = sum([int(x) for x in colours])
+    return dict(colours=colours, all_colours=all_colours)
+
+def image_compare():
+    base_id = [int(all.id) for all in text(text.text.group_text=='1').select()] + [int(all.id) for all in text(text.text.group_text=='2').select()] + [int(all.id) for all in text(text.text.group_text=='3').select()]
+    base_id0 = [int(all.id) for all in text(text.text.group_text=='4').select()] + [int(all.id) for all in text(text.text.group_text=='5').select()] + [int(all.id) for all in text(text.text.group_text=='6').select()] + [int(all.id) for all in text(text.text.group_text=='7').select()] + [int(all.id) for all in text(text.text.group_text=='8').select()] + [int(all.id) for all in text(text.text.group_text=='9').select()] + [int(all.id) for all in text(text.text.group_text=='12').select()] + [int(all.id) for all in text(text.text.group_text=='13').select()] + [int(all.id) for all in text(text.text.group_text=='14').select()]
+    colours=[]
+    colours2=[]
+    for all in color:
+        green=text((text.words.word==all)&(text.words.title.belongs(base_id))).count()
+        blue=text((text.words.word==all)&(text.words.title.belongs(base_id0))).count()
+        colours.append(green)
+        colours2.append(blue)
+    all_colours = sum([int(x) for x in colours])
+    all_colours2 = sum([int(x) for x in colours2])
+    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2)

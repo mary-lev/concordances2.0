@@ -1,0 +1,48 @@
+{{response.files.append(URL(r=request,c='static',f='/js/jquery.min.js'))}}
+
+{{response.files.append(URL('static', 'js/moment.min.js'))}}
+{{response.files.append(URL('static', 'js/fullcalendar.min.js'))}}
+
+{{extend 'base.html'}}
+
+{{=DIV(_id="#calendar")}}
+
+<script>
+
+	$(document).ready(function() {
+		
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month'
+			},
+			defaultDate: '1900-01-01',
+			defaultView: 'month',
+			editable: true,
+			events: [
+                {{for date in dates:}}
+				{
+                title: "{{=date.author.family}}. {{=date.title}}",
+                start: "{{=date.year_writing}}-{{=date.month_writing}}-{{=date.day_writing}}",
+                url: "http://concordance.pythonanywhere.com/test/control/show1/{{=date.id}}"
+				},
+                {{pass}}
+				
+				{
+					title: 'Click for Google',
+					url: 'http://google.com/',
+					start: '2014-06-28'
+				}
+			]
+		});
+		
+	});
+
+</script>
+</head>
+<body>
+<div id='calendar'></div>
+    
+</body>
+</html>

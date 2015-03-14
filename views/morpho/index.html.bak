@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<h1>Морфология по авторам</h1>
+<table>
+{{for text in authors:}}
+        {{=TR(TD(text.name, " ", text.family, ". "), TD(A("Времена глагольных форм", _href=URL("words_range", args=text.id))))}}
+    {{pass}}
+</table>

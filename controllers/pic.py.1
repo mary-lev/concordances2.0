@@ -1,0 +1,13 @@
+# coding: utf8
+
+from random import gauss
+from math import sin, cos
+from canvas import Canvas
+
+def index():
+    return dict(message="hello from pic.py")
+
+def my_image():
+    points=[('Пушкин', 'Лермонтов') for x in range(2)]
+    response.headers['Content-type'] = 'image/png'
+    return Canvas('title').errorbar(points).plot(points).binary()

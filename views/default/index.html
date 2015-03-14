@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+
+<h3><a href="tabliza.html">Сводная таблица со статистикой</a></h3>
+<h3><a href="pos_table.html">Сводная таблица по частям речи</a></h3>
+<h3><a href="texts.html">Данные по всем текстам</a></h3>
+<h1>Тексты в базе:</h1>
+<a href='dost.html'>Достоевский</a> * <a href='pushkin.html'>Пушкин</a> * <a href='blok.html'>Блок</a>
+    <table>
+{{for text in texts:}}
+        {{=TR(TD(text.author), TD(A(text.title, _href=URL("the_text", args=text.id))))}}
+{{pass}}
+
+</table>
+<h3><a href="index1.html">Сравнить лексику двух текстов из базы</a></h3>
+<h3><a href="form1.html">Добавьте новый текст</a> или <a href="url.html">адрес страницы</a></h3>
+Еще можно загрузить <a href="from_file.html">текст из файла</a>.

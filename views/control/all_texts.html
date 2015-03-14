@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+<h1>Тексты</h1>
+
+    <table>
+{{for text in texts:}}
+        {{=TR(TD(text.author.name, " ", text.author.family, ". "), TD(A(text.title, _href=URL("show1", args=text.id))), TD(A("Concordance", _href=URL("concordance", args=text.id))), TD(A("Проверить морфологию", _href=URL("edit_forms", args=text.id))), TD(A("Verbs", _href=URL("verbs_all", args=text.id))), TD(A("По алфавиту", _href=URL("tokenize_new", args=text.id))))}}
+
+{{pass}}
+
+</table>
+
+{{=A("Test it", _href=("search_for_files"))}}

@@ -1,0 +1,8 @@
+{{extend 'layout.html'}}
+<h1>{{=author1.name}} {{=author1.family}}</h1>
+
+    <table>
+{{for text in texts:}}
+        {{=TR(TD(text.author.name, " ", text.author.family, ". "), TD(A(text.title, _href=URL("show1", args=text.id))), TD(text.year_writing))}}
+
+{{pass}}</table>

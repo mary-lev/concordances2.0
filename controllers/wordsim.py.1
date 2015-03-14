@@ -1,0 +1,24 @@
+# coding: utf8
+
+color=["день", "ночь", "утро", "вечер", "сумерки", "рассвет", "заря", "дневной", "утренний", "вечерний", "ночной", "дневной", "земля", "небо", "лес"]
+colors1 = color
+def index():
+    numbers=[]
+    lists=[]
+    for each in color:
+        newnew=[]
+        list1=text((text.words.word==each)&(text.words.author==9)).select()
+        list2 = [int(all.title) for all in list1]
+        list2 = sorted(set(list2))
+        numbers.append(list2)
+    for all in numbers:
+        lists.append([len(text((text.words.title.belongs(all))&(text.words.word==every)).select(groupby=text.words.title)) for every in colors1])
+    newnew=[]
+    for all in lists:
+        newlist=[]
+        for each in all:
+            if lists.index(all) == all.index(each):
+                each = 0
+            newlist.append(each)
+        newnew.append(newlist)
+    return dict(lists=lists, color=color, newnew=newnew)

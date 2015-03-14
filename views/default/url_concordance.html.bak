@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+
+
+import cStringIO
+stream=cStringIO.StringIO()
+animals.export_to_csv_file(stream)
+response.headers['Content-Type']='application/vnd.ms-excel'
+response.write(stream.getvalue(), escape=False)
+
+
+{{for item in normal:}}<li>{{=item[0]}}: {{=item[1]}}, {{=item[2]}}</li>{{pass}}

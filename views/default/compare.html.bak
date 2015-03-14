@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+<h1>Сравнение лексики</h1>
+{{=text1.author}}. {{=text1.title}} - {{=l1}} словоформ, <br>
+{{=text2.author}}. {{=text2.title}} — {{=l2}} словоформ.<br>
+Общего в словаре: {{=all}}<br>
+<table>
+    
+<tr><td>Чего нет в тексте {{=text2.title}} "Стихах о прекрасной даме" ({{=len(result)}})
+    
+<ul>
+{{for word in result:}}
+<li>{{=word}}</li>
+{{pass}}
+    </ul></td>
+<td>
+Чего нет в тексте {{=text1.title}} "Городе" ({{=len(result2)}}):
+<ul>
+    {{for word in result2:}}
+    <li>{{=word}}</li>{{pass}}
+    </ul></td></tr></table>

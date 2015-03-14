@@ -1,0 +1,17 @@
+{{extend 'layout.html'}}
+<h1>Тексты</h1>
+<ul>
+{{for text in texts:}}
+<li>
+    {{=A(text.author, ". ", text.title, _href=URL("show", args=text.id))}}: <ul><li> {{=A("частотный словарь по алфавиту", _href=URL("tokenize", args=text.id))}}</li>
+<li>                {{=A("словарь по убыванию частотности", _href=URL("sort", args=text.id))}}</li>
+<li>        {{=A("Снять морфологическую неоднозначность вручную", _href=URL("morpho", args=text.id))}} </li> 
+    <li>{{=A("Статистика текста", _href=URL("info", args=text.id))}}</li>
+      <li>{{=A("Части речи", _href=URL("chast_rechi", args=text.id))}}</li>
+    </li>
+    </ul>
+{{pass}}
+</ul>
+
+<h3><a href="form1.html">Добавьте новый текст</a> или <a href="url.html">адрес страницы</a></h3>
+Еще можно загрузить <a href="from_file.html">текст из файла</a>.
