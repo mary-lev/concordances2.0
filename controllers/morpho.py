@@ -22,7 +22,7 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(1990,1993)]
+    titles = [x for x in range(3292,3335)]
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")

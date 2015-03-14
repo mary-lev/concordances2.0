@@ -22,7 +22,7 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(1990,1993)]
+    titles = [x for x in range(3092,3292)]
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
@@ -44,7 +44,7 @@ def parse_tags(tags, list_tags):
 
 def count_partos(): # count categories by author
     new = []
-    authors = [1,4,5,7,8,9,10,11]
+    authors = [1,4,5,7,8,9,10,11, 12]
     for each in authors:
         family = trymysql(trymysql.author.id==each).select()[0]
         result = [family['family']]

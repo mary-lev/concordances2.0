@@ -53,7 +53,7 @@ def show3():
     return dict(text_view=text_view, form=form)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database text.words
-    for x in range(3258,3336): # if text not yet in database text.words
+    for x in range(3258,3336): # if text not yet in database trymysql.allword
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -67,14 +67,6 @@ def tokenize_all(): # prepares text for tokenization (decoding) and write result
         for token in normal:
             trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
             message = "Все добавлено в базу"
-    return dict(message=message)
-
-def tokenize_all1(): # database migration
-    titles = [x for x in range(1600,1777)] # if text not yet in database text.words
-    text2 = text(text.words.title.belongs(titles)).select()
-    for all in text2:
-        trymysql.allword.insert(title=all.title, word = str(all.word).decode('utf-8'), lemma = str(all.lemma).decode('utf-8'), partos=all.partos, tense = all.tense, text_location=all.text_location, author = all.author)
-        message = "Все добавлено в базу"
     return dict(message=message)
 
 def tokenize_new(): # prepares text for tokenization (decoding) and write result in database text.words

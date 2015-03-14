@@ -52,8 +52,8 @@ def show3():
         response.flash="form accepted"
     return dict(text_view=text_view, form=form)
 
-def tokenize_all(): # prepares text for tokenization (decoding) and write result in database text.words
-    for x in range(3258,3336): # if text not yet in database trymysql.allword
+def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
+    for x in range(3258,3336): # if text not yet in database
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -67,34 +67,6 @@ def tokenize_all(): # prepares text for tokenization (decoding) and write result
         for token in normal:
             trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
             message = "Все добавлено в базу"
-    return dict(message=message)
-
-def tokenize_all1(): # database migration
-    titles = [x for x in range(1600,1777)] # if text not yet in database text.words
-    text2 = text(text.words.title.belongs(titles)).select()
-    for all in text2:
-        trymysql.allword.insert(title=all.title, word = str(all.word).decode('utf-8'), lemma = str(all.lemma).decode('utf-8'), partos=all.partos, tense = all.tense, text_location=all.text_location, author = all.author)
-        message = "Все добавлено в базу"
-    return dict(message=message)
-
-def tokenize_new(): # prepares text for tokenization (decoding) and write result in database text.words
-    base_id = [int(all.title) for all in trymysql().select(trymysql.allword.ALL)]
-    if int(request.args(0)) not in base_id: # if text not yet in database text.words
-        text2 = trymysql(trymysql.text1.id==request.args(0)).select().first()
-        text1 = text2['body'].decode('utf-8')
-        path = "/home/concordance/web2py/applications/test/uploads/"
-        filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str('.txt')
-        filename= str(path) + str(filename1)
-        f = open(filename, 'w')
-        f.write(text1.encode('utf-8'))
-        f.close()
-        text2.update_record(filename=filename)
-        normal = normalize_new2(text1)
-        for token in normal:
-            text.words.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
-            message = "Все добавлено в базу"
-    else:
-        message = "Все уже в базе"
     return dict(message=message)
 
 def search_for_files():

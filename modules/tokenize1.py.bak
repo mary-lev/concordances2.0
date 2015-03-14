@@ -50,12 +50,24 @@ def normalize_new2(text1):
     count=0
     for w in text3:
         p = morph.parse(w)[0]
-        normal.append([p.normal_form, p.tag.POS, w, count, p.tag.tense])
+        normal.append([p.normal_form, p.tag.POS, w, count, p.tag.tense, p.tag.animacy, p.tag.aspect, p.tag.case, p.tag.gender, p.tag.involvment, p.tag.mood, p.tag.number, p.tag.person, p.tag.transitivity, p.tag.voice])
         count +=1
     else:
         pass
     return normal
 
+def normalize_save_partos(text1):
+    text3 = nltk.wordpunct_tokenize(text1)
+    morph = pymorphy2.MorphAnalyzer()
+    normal = []
+    count=0
+    for w in text3:
+        p = morph.parse(w)[0]
+        normal.append([p.normal_form, p.tag.POS, w, count, p.tag.tense])
+        count +=1
+    else:
+        pass
+    return normal
 def verbalize1(tokens): # get tokens and return top-10 of verbs
     morph = pymorphy2.MorphAnalyzer()
     list_verb=[]
