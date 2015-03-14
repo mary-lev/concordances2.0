@@ -2,13 +2,8 @@
 from operator import itemgetter
 
 def index():
-    authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.id)
+    authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
     return dict(authors=authors)
-
-def count_all():
-    texts = trymysql(trymysql.text1.author==request.args(0)).select()
-    author1=trymysql(trymysql.author.id==request.args(0)).select().first()
-    return dict(texts=texts, author1=author1)
 
 def count_partos():
     part = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
@@ -47,14 +42,3 @@ def words_range(): # count variety of dictionary of the author
     lemmas_sort = sorted(set(words))
     w_range = float(len(lemmas_sort)/(len(words)*1.0))
     return dict(w_range=w_range)
-
-def test_bar():
-    authors = text(text.text.author=='1').select()
-    years = [all.year_writing for all in authors]
-    words1 = [(all, years.count(all)) for all in years]
-    words1=sorted(set(words1))
-    new_author = text(text.text.author=='5').select()
-    years2 = [all.year_writing for all in new_author]
-    words2 = [(all, years2.count(all)) for all in years2]
-    words2 = sorted(set(words2))
-    return dict(words1=words1, words2=words2)

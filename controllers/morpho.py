@@ -87,6 +87,3 @@ def count_tense_group():
         name = trymysql(trymysql.group_text.id==every).select()[0]
         new.append((name['title'], tense))
     return dict(new=new)
-
-def visual():
-    return dict()

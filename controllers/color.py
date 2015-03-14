@@ -63,34 +63,6 @@ def author_compare(): # Сравниваем цвета двух авторов
     author2 = trymysql(trymysql.author.id==request.args(1)).select().first()
     return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, author1=author1.family, author2=author2.family)
 
-def image_compare1():
-    base_id = [int(all.id) for all in text(text.text.group_text=='1').select()] + [int(all.id) for all in text(text.text.group_text=='2').select()] + [int(all.id) for all in text(text.text.group_text=='3').select()]
-    base_id0 = [int(all.id) for all in text(text.text.group_text=='4').select()] + [int(all.id) for all in text(text.text.group_text=='5').select()] + [int(all.id) for all in text(text.text.group_text=='6').select()] + [int(all.id) for all in text(text.text.group_text=='7').select()] + [int(all.id) for all in text(text.text.group_text=='8').select()] + [int(all.id) for all in text(text.text.group_text=='9').select()] + [int(all.id) for all in text(text.text.group_text=='12').select()] + [int(all.id) for all in text(text.text.group_text=='13').select()] + [int(all.id) for all in text(text.text.group_text=='14').select()]
-    colours=[]
-    colours2=[]
-    for all in color:
-        green=text((text.words.word==all)&(text.words.title.belongs(base_id))).count()
-        blue=text((text.words.word==all)&(text.words.title.belongs(base_id0))).count()
-        colours.append(green)
-        colours2.append(blue)
-    all_colours = sum([int(x) for x in colours])
-    all_colours2 = sum([int(x) for x in colours2])
-    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2)
-
-def image_compare1():
-    base_id = [int(all.id) for all in text(text.text.group_text=='1').select()] + [int(all.id) for all in text(text.text.group_text=='2').select()] + [int(all.id) for all in text(text.text.group_text=='3').select()]
-    base_id0 = [int(all.id) for all in text(text.text.group_text=='4').select()] + [int(all.id) for all in text(text.text.group_text=='5').select()] + [int(all.id) for all in text(text.text.group_text=='6').select()] + [int(all.id) for all in text(text.text.group_text=='7').select()] + [int(all.id) for all in text(text.text.group_text=='8').select()] + [int(all.id) for all in text(text.text.group_text=='9').select()] + [int(all.id) for all in text(text.text.group_text=='12').select()] + [int(all.id) for all in text(text.text.group_text=='13').select()] + [int(all.id) for all in text(text.text.group_text=='14').select()]
-    colours=[]
-    colours2=[]
-    for all in color:
-        green=text((text.words.word==all)&(text.words.title.belongs(base_id))).count()
-        blue=text((text.words.word==all)&(text.words.title.belongs(base_id0))).count()
-        colours.append(green)
-        colours2.append(blue)
-    all_colours = sum([int(x) for x in colours])
-    all_colours2 = sum([int(x) for x in colours2])
-    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2)
-
 def imemine():
     mine = [trymysql((trymysql.allword.word==all)&(trymysql.allword.author=='1')).count() for all in imemines]
     return dict(mine=mine, all_mine=mine)
