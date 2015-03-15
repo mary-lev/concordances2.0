@@ -146,7 +146,7 @@ def month():
 def create_xml():
     page = etree.Element('results') # create xml tree
     doc = etree.ElementTree(page)
-    author_texts = [all.id for all in trymysql(trymysql.text1.author==4).select()]
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==11).select()]
     for x in author_texts:
         texts = trymysql(trymysql.text1.id==x).select()[0] # select a poem
         words_from_base = trymysql(trymysql.allword.title==x).select() # select a poem words from allword base

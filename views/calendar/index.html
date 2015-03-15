@@ -41,8 +41,11 @@
 
 </script>
 </head>
-<body>
+<body><h3>Хронология текстов</h3>
+<center><h4>    {{for year in range(1900, 1917):}}
+    {{=A(year,  _href=URL('year', args=year))}}
+    {{pass}}</h4></center>
 <div id='calendar'></div>
-    
+
 </body>
 </html>

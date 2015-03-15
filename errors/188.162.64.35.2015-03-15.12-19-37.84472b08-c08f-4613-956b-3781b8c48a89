@@ -1,0 +1,1317 @@
+(dp1
+S'output'
+p2
+S"<class 'sqlite3.OperationalError'> no such table: auth_user"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/controllers/appadmin.py'
+p5
+sS'code'
+p6
+S'# -*- coding: utf-8 -*-\n\n# ##########################################################\n# ## make sure administrator is on localhost\n# ###########################################################\n\nimport os\nimport socket\nimport datetime\nimport copy\nimport gluon.contenttype\nimport gluon.fileutils\n\ntry:\n    import pygraphviz as pgv\nexcept ImportError:\n    pgv = None\n\nis_gae = request.env.web2py_runtime_gae or False\n\n# ## critical --- make a copy of the environment\n\nglobal_env = copy.copy(globals())\nglobal_env[\'datetime\'] = datetime\n\nhttp_host = request.env.http_host.split(\':\')[0]\nremote_addr = request.env.remote_addr\ntry:\n    hosts = (http_host, socket.gethostname(),\n             socket.gethostbyname(http_host),\n             \'::1\', \'127.0.0.1\', \'::ffff:127.0.0.1\')\nexcept:\n    hosts = (http_host, )\n\nif request.env.http_x_forwarded_for or request.is_https:\n    session.secure()\nelif (remote_addr not in hosts) and (remote_addr != "127.0.0.1") and \\\n    (request.function != \'manage\'):\n    raise HTTP(200, T(\'appadmin is disabled because insecure channel\'))\n\nif request.function == \'manage\':\n    if not \'auth\' in globals() or not request.args:\n        redirect(URL(request.controller, \'index\'))\n    manager_action = auth.settings.manager_actions.get(request.args(0), None)\n    if manager_action is None and request.args(0) == \'auth\':\n        manager_action = dict(role=auth.settings.auth_manager_role,\n                              heading=T(\'Manage Access Control\'),\n                              tables=[auth.table_user(),\n                                      auth.table_group(),\n                                      auth.table_permission()])\n    manager_role = manager_action.get(\'role\', None) if manager_action else None\n    auth.requires_membership(manager_role)(lambda: None)()\n    menu = False\nelif (request.application == \'admin\' and not session.authorized) or \\\n        (request.application != \'admin\' and not gluon.fileutils.check_credentials(request)):\n    redirect(URL(\'admin\', \'default\', \'index\',\n                 vars=dict(send=URL(args=request.args, vars=request.vars))))\nelse:\n    response.subtitle = T(\'Database Administration (appadmin)\')\n    menu = True\n\nignore_rw = True\nresponse.view = \'appadmin.html\'\nif menu:\n    response.menu = [[T(\'design\'), False, URL(\'admin\', \'default\', \'design\',\n                 args=[request.application])], [T(\'db\'), False,\n                 URL(\'index\')], [T(\'state\'), False,\n                 URL(\'state\')], [T(\'cache\'), False,\n                 URL(\'ccache\')]]\n\n# ##########################################################\n# ## auxiliary functions\n# ###########################################################\n\nif False and request.tickets_db:\n    from gluon.restricted import TicketStorage\n    ts = TicketStorage()\n    ts._get_table(request.tickets_db, ts.tablename, request.application)\n\ndef get_databases(request):\n    dbs = {}\n    for (key, value) in global_env.items():\n        cond = False\n        try:\n            cond = isinstance(value, GQLDB)\n        except:\n            cond = isinstance(value, SQLDB)\n        if cond:\n            dbs[key] = value\n    return dbs\n\n\ndatabases = get_databases(None)\n\n\ndef eval_in_global_env(text):\n    exec (\'_ret=%s\' % text, {}, global_env)\n    return global_env[\'_ret\']\n\n\ndef get_database(request):\n    if request.args and request.args[0] in databases:\n        return eval_in_global_env(request.args[0])\n    else:\n        session.flash = T(\'invalid request\')\n        redirect(URL(\'index\'))\n\n\ndef get_table(request):\n    db = get_database(request)\n    if len(request.args) > 1 and request.args[1] in db.tables:\n        return (db, request.args[1])\n    else:\n        session.flash = T(\'invalid request\')\n        redirect(URL(\'index\'))\n\n\ndef get_query(request):\n    try:\n        return eval_in_global_env(request.vars.query)\n    except Exception:\n        return None\n\n\ndef query_by_table_type(tablename, db, request=request):\n    keyed = hasattr(db[tablename], \'_primarykey\')\n    if keyed:\n        firstkey = db[tablename][db[tablename]._primarykey[0]]\n        cond = \'>0\'\n        if firstkey.type in [\'string\', \'text\']:\n            cond = \'!=""\'\n        qry = \'%s.%s.%s%s\' % (\n            request.args[0], request.args[1], firstkey.name, cond)\n    else:\n        qry = \'%s.%s.id>0\' % tuple(request.args[:2])\n    return qry\n\n\n# ##########################################################\n# ## list all databases and tables\n# ###########################################################\ndef index():\n    return dict(databases=databases)\n\n\n# ##########################################################\n# ## insert a new record\n# ###########################################################\n\n\ndef insert():\n    (db, table) = get_table(request)\n    form = SQLFORM(db[table], ignore_rw=ignore_rw)\n    if form.accepts(request.vars, session):\n        response.flash = T(\'new record inserted\')\n    return dict(form=form, table=db[table])\n\n\n# ##########################################################\n# ## list all records in table and insert new record\n# ###########################################################\n\n\ndef download():\n    import os\n    db = get_database(request)\n    return response.download(request, db)\n\n\ndef csv():\n    import gluon.contenttype\n    response.headers[\'Content-Type\'] = \\\n        gluon.contenttype.contenttype(\'.csv\')\n    db = get_database(request)\n    query = get_query(request)\n    if not query:\n        return None\n    response.headers[\'Content-disposition\'] = \'attachment; filename=%s_%s.csv\'\\\n        % tuple(request.vars.query.split(\'.\')[:2])\n    return str(db(query, ignore_common_filters=True).select())\n\n\ndef import_csv(table, file):\n    table.import_from_csv_file(file)\n\n\ndef select():\n    import re\n    db = get_database(request)\n    dbname = request.args[0]\n    try:\n        is_imap = db._uri.startswith("imap://")\n    except (KeyError, AttributeError, TypeError):\n        is_imap = False\n    regex = re.compile(\'(?P<table>\\w+)\\.(?P<field>\\w+)=(?P<value>\\d+)\')\n    if len(request.args) > 1 and hasattr(db[request.args[1]], \'_primarykey\'):\n        regex = re.compile(\'(?P<table>\\w+)\\.(?P<field>\\w+)=(?P<value>.+)\')\n    if request.vars.query:\n        match = regex.match(request.vars.query)\n        if match:\n            request.vars.query = \'%s.%s.%s==%s\' % (request.args[0],\n                                                   match.group(\'table\'), match.group(\'field\'),\n                                                   match.group(\'value\'))\n    else:\n        request.vars.query = session.last_query\n    query = get_query(request)\n    if request.vars.start:\n        start = int(request.vars.start)\n    else:\n        start = 0\n    nrows = 0\n\n    step = 100\n    fields = []\n\n    if is_imap:\n        step = 3\n \n    stop = start + step\n\n    table = None\n    rows = []\n    orderby = request.vars.orderby\n    if orderby:\n        orderby = dbname + \'.\' + orderby\n        if orderby == session.last_orderby:\n            if orderby[0] == \'~\':\n                orderby = orderby[1:]\n            else:\n                orderby = \'~\' + orderby\n    session.last_orderby = orderby\n    session.last_query = request.vars.query\n    form = FORM(TABLE(TR(T(\'Query:\'), \'\', INPUT(_style=\'width:400px\',\n                _name=\'query\', _value=request.vars.query or \'\',\n                requires=IS_NOT_EMPTY(\n                    error_message=T("Cannot be empty")))), TR(T(\'Update:\'),\n                INPUT(_name=\'update_check\', _type=\'checkbox\',\n                value=False), INPUT(_style=\'width:400px\',\n                _name=\'update_fields\', _value=request.vars.update_fields\n                                    or \'\')), TR(T(\'Delete:\'), INPUT(_name=\'delete_check\',\n                _class=\'delete\', _type=\'checkbox\', value=False), \'\'),\n                TR(\'\', \'\', INPUT(_type=\'submit\', _value=T(\'submit\')))),\n                _action=URL(r=request, args=request.args))\n\n    tb = None\n    if form.accepts(request.vars, formname=None):\n        regex = re.compile(request.args[0] + \'\\.(?P<table>\\w+)\\..+\')\n        match = regex.match(form.vars.query.strip())\n        if match:\n            table = match.group(\'table\')\n        try:\n            nrows = db(query, ignore_common_filters=True).count()\n            if form.vars.update_check and form.vars.update_fields:\n                db(query, ignore_common_filters=True).update(\n                    **eval_in_global_env(\'dict(%s)\' % form.vars.update_fields))\n                response.flash = T(\'%s %%{row} updated\', nrows)\n            elif form.vars.delete_check:\n                db(query, ignore_common_filters=True).delete()\n                response.flash = T(\'%s %%{row} deleted\', nrows)\n            nrows = db(query, ignore_common_filters=True).count()\n\n            if is_imap:\n                fields = [db[table][name] for name in\n                    ("id", "uid", "created", "to",\n                     "sender", "subject")]\n            if orderby:\n                rows = db(query, ignore_common_filters=True).select(\n                              *fields, limitby=(start, stop),\n                              orderby=eval_in_global_env(orderby))\n            else:\n                rows = db(query, ignore_common_filters=True).select(\n                    *fields, limitby=(start, stop))\n        except Exception, e:\n            import traceback\n            tb = traceback.format_exc()\n            (rows, nrows) = ([], 0)\n            response.flash = DIV(T(\'Invalid Query\'), PRE(str(e)))\n    # begin handle upload csv\n    csv_table = table or request.vars.table\n    if csv_table:\n        formcsv = FORM(str(T(\'or import from csv file\')) + " ",\n                       INPUT(_type=\'file\', _name=\'csvfile\'),\n                       INPUT(_type=\'hidden\', _value=csv_table, _name=\'table\'),\n                       INPUT(_type=\'submit\', _value=T(\'import\')))\n    else:\n        formcsv = None\n    if formcsv and formcsv.process().accepted:\n        try:\n            import_csv(db[request.vars.table],\n                       request.vars.csvfile.file)\n            response.flash = T(\'data uploaded\')\n        except Exception, e:\n            response.flash = DIV(T(\'unable to parse csv file\'), PRE(str(e)))\n    # end handle upload csv\n\n    return dict(\n        form=form,\n        table=table,\n        start=start,\n        stop=stop,\n        step=step,\n        nrows=nrows,\n        rows=rows,\n        query=request.vars.query,\n        formcsv=formcsv,\n        tb=tb\n    )\n\n\n# ##########################################################\n# ## edit delete one record\n# ###########################################################\n\n\ndef update():\n    (db, table) = get_table(request)\n    keyed = hasattr(db[table], \'_primarykey\')\n    record = None\n    db[table]._common_filter = None\n    if keyed:\n        key = [f for f in request.vars if f in db[table]._primarykey]\n        if key:\n            record = db(db[table][key[0]] == request.vars[key[\n                        0]]).select().first()\n    else:\n        record = db(db[table].id == request.args(\n            2)).select().first()\n\n    if not record:\n        qry = query_by_table_type(table, db)\n        session.flash = T(\'record does not exist\')\n        redirect(URL(\'select\', args=request.args[:1],\n                     vars=dict(query=qry)))\n\n    if keyed:\n        for k in db[table]._primarykey:\n            db[table][k].writable = False\n\n    form = SQLFORM(\n        db[table], record, deletable=True, delete_label=T(\'Check to delete\'),\n        ignore_rw=ignore_rw and not keyed,\n        linkto=URL(\'select\',\n                   args=request.args[:1]), upload=URL(r=request,\n                                                      f=\'download\', args=request.args[:1]))\n\n    if form.accepts(request.vars, session):\n        session.flash = T(\'done!\')\n        qry = query_by_table_type(table, db)\n        redirect(URL(\'select\', args=request.args[:1],\n                 vars=dict(query=qry)))\n    return dict(form=form, table=db[table])\n\n\n# ##########################################################\n# ## get global variables\n# ###########################################################\n\n\ndef state():\n    return dict()\n\n\ndef ccache():\n    if is_gae:\n        form = FORM(\n            P(TAG.BUTTON(T("Clear CACHE?"), _type="submit", _name="yes", _value="yes")))\n    else:\n        cache.ram.initialize()\n        cache.disk.initialize()\n\n        form = FORM(\n            P(TAG.BUTTON(\n                T("Clear CACHE?"), _type="submit", _name="yes", _value="yes")),\n            P(TAG.BUTTON(\n                T("Clear RAM"), _type="submit", _name="ram", _value="ram")),\n            P(TAG.BUTTON(\n                T("Clear DISK"), _type="submit", _name="disk", _value="disk")),\n        )\n\n    if form.accepts(request.vars, session):\n        session.flash = ""\n        if is_gae:\n            if request.vars.yes:\n                cache.ram.clear()\n                session.flash += T("Cache Cleared")\n        else:\n            clear_ram = False\n            clear_disk = False\n            if request.vars.yes:\n                clear_ram = clear_disk = True\n            if request.vars.ram:\n                clear_ram = True\n            if request.vars.disk:\n                clear_disk = True\n            if clear_ram:\n                cache.ram.clear()\n                session.flash += T("Ram Cleared")\n            if clear_disk:\n                cache.disk.clear()\n                session.flash += T("Disk Cleared")\n        redirect(URL(r=request))\n\n    try:\n        from guppy import hpy\n        hp = hpy()\n    except ImportError:\n        hp = False\n\n    import shelve\n    import os\n    import copy\n    import time\n    import math\n    from gluon import portalocker\n\n    ram = {\n        \'entries\': 0,\n        \'bytes\': 0,\n        \'objects\': 0,\n        \'hits\': 0,\n        \'misses\': 0,\n        \'ratio\': 0,\n        \'oldest\': time.time(),\n        \'keys\': []\n    }\n\n    disk = copy.copy(ram)\n    total = copy.copy(ram)\n    disk[\'keys\'] = []\n    total[\'keys\'] = []\n\n    def GetInHMS(seconds):\n        hours = math.floor(seconds / 3600)\n        seconds -= hours * 3600\n        minutes = math.floor(seconds / 60)\n        seconds -= minutes * 60\n        seconds = math.floor(seconds)\n\n        return (hours, minutes, seconds)\n\n    if is_gae:\n        gae_stats = cache.ram.client.get_stats()\n        try:\n            gae_stats[\'ratio\'] = ((gae_stats[\'hits\'] * 100) /\n                (gae_stats[\'hits\'] + gae_stats[\'misses\']))\n        except ZeroDivisionError:\n            gae_stats[\'ratio\'] = T("?")\n        gae_stats[\'oldest\'] = GetInHMS(time.time() - gae_stats[\'oldest_item_age\'])\n        total.update(gae_stats)\n    else:\n        for key, value in cache.ram.storage.iteritems():\n            if isinstance(value, dict):\n                ram[\'hits\'] = value[\'hit_total\'] - value[\'misses\']\n                ram[\'misses\'] = value[\'misses\']\n                try:\n                    ram[\'ratio\'] = ram[\'hits\'] * 100 / value[\'hit_total\']\n                except (KeyError, ZeroDivisionError):\n                    ram[\'ratio\'] = 0\n            else:\n                if hp:\n                    ram[\'bytes\'] += hp.iso(value[1]).size\n                    ram[\'objects\'] += hp.iso(value[1]).count\n                ram[\'entries\'] += 1\n                if value[0] < ram[\'oldest\']:\n                    ram[\'oldest\'] = value[0]\n                ram[\'keys\'].append((key, GetInHMS(time.time() - value[0])))\n        folder = os.path.join(request.folder,\'cache\')\n        if not os.path.exists(folder):\n            os.mkdir(folder)\n        locker = open(os.path.join(folder, \'cache.lock\'), \'a\')\n        portalocker.lock(locker, portalocker.LOCK_EX)\n        disk_storage = shelve.open(\n            os.path.join(folder, \'cache.shelve\'))\n        try:\n            for key, value in disk_storage.items():\n                if isinstance(value, dict):\n                    disk[\'hits\'] = value[\'hit_total\'] - value[\'misses\']\n                    disk[\'misses\'] = value[\'misses\']\n                    try:\n                        disk[\'ratio\'] = disk[\'hits\'] * 100 / value[\'hit_total\']\n                    except (KeyError, ZeroDivisionError):\n                        disk[\'ratio\'] = 0\n                else:\n                    if hp:\n                        disk[\'bytes\'] += hp.iso(value[1]).size\n                        disk[\'objects\'] += hp.iso(value[1]).count\n                    disk[\'entries\'] += 1\n                    if value[0] < disk[\'oldest\']:\n                        disk[\'oldest\'] = value[0]\n                    disk[\'keys\'].append((key, GetInHMS(time.time() - value[0])))\n        finally:\n            portalocker.unlock(locker)\n            locker.close()\n            disk_storage.close()\n\n        total[\'entries\'] = ram[\'entries\'] + disk[\'entries\']\n        total[\'bytes\'] = ram[\'bytes\'] + disk[\'bytes\']\n        total[\'objects\'] = ram[\'objects\'] + disk[\'objects\']\n        total[\'hits\'] = ram[\'hits\'] + disk[\'hits\']\n        total[\'misses\'] = ram[\'misses\'] + disk[\'misses\']\n        total[\'keys\'] = ram[\'keys\'] + disk[\'keys\']\n        try:\n            total[\'ratio\'] = total[\'hits\'] * 100 / (total[\'hits\'] +\n                                                total[\'misses\'])\n        except (KeyError, ZeroDivisionError):\n            total[\'ratio\'] = 0\n\n        if disk[\'oldest\'] < ram[\'oldest\']:\n            total[\'oldest\'] = disk[\'oldest\']\n        else:\n            total[\'oldest\'] = ram[\'oldest\']\n\n        ram[\'oldest\'] = GetInHMS(time.time() - ram[\'oldest\'])\n        disk[\'oldest\'] = GetInHMS(time.time() - disk[\'oldest\'])\n        total[\'oldest\'] = GetInHMS(time.time() - total[\'oldest\'])\n\n    def key_table(keys):\n        return TABLE(\n            TR(TD(B(T(\'Key\'))), TD(B(T(\'Time in Cache (h:m:s)\')))),\n            *[TR(TD(k[0]), TD(\'%02d:%02d:%02d\' % k[1])) for k in keys],\n            **dict(_class=\'cache-keys\',\n                   _style="border-collapse: separate; border-spacing: .5em;"))\n\n    if not is_gae:\n        ram[\'keys\'] = key_table(ram[\'keys\'])\n        disk[\'keys\'] = key_table(disk[\'keys\'])\n        total[\'keys\'] = key_table(total[\'keys\'])\n\n    return dict(form=form, total=total,\n                ram=ram, disk=disk, object_stats=hp != False)\n\n\ndef table_template(table):\n    from gluon.html import TR, TD, TABLE, TAG\n\n    def FONT(*args, **kwargs):\n        return TAG.font(*args, **kwargs)\n\n    def types(field):\n        f_type = field.type\n        if not isinstance(f_type,str):\n            return \' \'\n        elif f_type == \'string\':\n            return field.length\n        elif f_type == \'id\':\n            return B(\'pk\')\n        elif f_type.startswith(\'reference\') or \\\n                f_type.startswith(\'list:reference\'):\n            return B(\'fk\')\n        else:\n            return \' \'\n\n    # This is horribe HTML but the only one graphiz understands\n    rows = []\n    cellpadding = 4\n    color = "#000000"\n    bgcolor = "#FFFFFF"\n    face = "Helvetica"\n    face_bold = "Helvetica Bold"\n    border = 0\n\n    rows.append(TR(TD(FONT(table, _face=face_bold, _color=bgcolor),\n                           _colspan=3, _cellpadding=cellpadding,\n                           _align="center", _bgcolor=color)))\n    for row in db[table]:\n        rows.append(TR(TD(FONT(row.name, _color=color, _face=face_bold),\n                              _align="left", _cellpadding=cellpadding,\n                              _border=border),\n                       TD(FONT(row.type, _color=color, _face=face),\n                               _align="left", _cellpadding=cellpadding,\n                               _border=border),\n                       TD(FONT(types(row), _color=color, _face=face),\n                               _align="center", _cellpadding=cellpadding,\n                               _border=border)))\n    return "< %s >" % TABLE(*rows, **dict(_bgcolor=bgcolor, _border=1,\n                                          _cellborder=0, _cellspacing=0)\n                             ).xml()\n\n\ndef bg_graph_model():\n    graph = pgv.AGraph(layout=\'dot\',  directed=True,  strict=False,  rankdir=\'LR\')\n\n    subgraphs = dict()\n    for tablename in db.tables:\n        if hasattr(db[tablename],\'_meta_graphmodel\'):\n            meta_graphmodel = db[tablename]._meta_graphmodel\n        else:\n            meta_graphmodel = dict(group=\'Undefined\', color=\'#ECECEC\')\n\n        group = meta_graphmodel[\'group\'].replace(\' \', \'\')\n        if not subgraphs.has_key(group):\n            subgraphs[group] = dict(meta=meta_graphmodel, tables=[])\n            subgraphs[group][\'tables\'].append(tablename)\n        else:\n            subgraphs[group][\'tables\'].append(tablename)\n\n        graph.add_node(tablename, name=tablename, shape=\'plaintext\',\n                       label=table_template(tablename))\n\n    for n, key in enumerate(subgraphs.iterkeys()):\n        graph.subgraph(nbunch=subgraphs[key][\'tables\'],\n                    name=\'cluster%d\' % n,\n                    style=\'filled\',\n                    color=subgraphs[key][\'meta\'][\'color\'],\n                    label=subgraphs[key][\'meta\'][\'group\'])\n\n    for tablename in db.tables:\n        for field in db[tablename]:\n            f_type = field.type\n            if isinstance(f_type,str) and (\n                f_type.startswith(\'reference\') or\n                f_type.startswith(\'list:reference\')):\n                referenced_table = f_type.split()[1].split(\'.\')[0]\n                n1 = graph.get_node(tablename)\n                n2 = graph.get_node(referenced_table)\n                graph.add_edge(n1, n2, color="#4C4C4C", label=\'\')\n\n    graph.layout()\n    if not request.args:\n        response.headers[\'Content-Type\'] = \'image/png\'\n        return graph.draw(format=\'png\', prog=\'dot\')\n    else:\n        response.headers[\'Content-Disposition\']=\'attachment;filename=graph.%s\'%request.args(0)\n        if request.args(0) == \'dot\':\n            return graph.string()\n        else:\n            return graph.draw(format=request.args(0), prog=\'dot\')\n\ndef graph_model():\n    return dict(databases=databases, pgv=pgv)\n\ndef manage():\n    tables = manager_action[\'tables\']\n    if isinstance(tables[0], str):\n        db = manager_action.get(\'db\', auth.db)\n        db = globals()[db] if isinstance(db, str) else db\n        tables = [db[table] for table in tables]\n    if request.args(0) == \'auth\':\n        auth.table_user()._plural = T(\'Users\')\n        auth.table_group()._plural = T(\'Roles\')\n        auth.table_membership()._plural = T(\'Memberships\')\n        auth.table_permission()._plural = T(\'Permissions\')\n    if request.extension != \'load\':\n        return dict(heading=manager_action.get(\'heading\',\n                    T(\'Manage %(action)s\') % dict(action=request.args(0).replace(\'_\', \' \').title())),\n                    tablenames=[table._tablename for table in tables],\n                    labels=[table._plural.title() for table in tables])\n\n    table = tables[request.args(1, cast=int)]\n    formname = \'%s_grid\' % table._tablename\n    linked_tables = orderby = None\n    if request.args(0) == \'auth\':\n        auth.table_group()._id.readable = \\\n        auth.table_membership()._id.readable = \\\n        auth.table_permission()._id.readable = False\n        auth.table_membership().user_id.label = T(\'User\')\n        auth.table_membership().group_id.label = T(\'Role\')\n        auth.table_permission().group_id.label = T(\'Role\')\n        auth.table_permission().name.label = T(\'Permission\')\n        if table == auth.table_user():\n            linked_tables=[auth.settings.table_membership_name]\n        elif table == auth.table_group():\n            orderby = \'role\' if not request.args(3) or \'.group_id\' not in request.args(3) else None\n        elif table == auth.table_permission():\n            orderby = \'group_id\'\n    kwargs = dict(user_signature=True, maxtextlength=1000,\n                  orderby=orderby, linked_tables=linked_tables)\n    smartgrid_args = manager_action.get(\'smartgrid_args\', {})\n    kwargs.update(**smartgrid_args.get(\'DEFAULT\', {}))\n    kwargs.update(**smartgrid_args.get(table._tablename, {}))\n    grid = SQLFORM.smartgrid(table, args=request.args[:2], formname=formname, **kwargs)\n    return grid\n\nresponse._vars=response._caller(insert)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'sqlite3'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of OperationalError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of OperationalError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of OperationalError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of OperationalError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of OperationalError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of OperationalError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of OperationalError object>'
+p31
+sS'__new__'
+p32
+S'<built-in method __new__ of type object>'
+p33
+sS'__format__'
+p34
+S'<built-in method __format__ of OperationalError object>'
+p35
+sS'__class__'
+p36
+S"<class 'sqlite3.OperationalError'>"
+p37
+sS'__doc__'
+p38
+S'None'
+p39
+sS'__getitem__'
+p40
+S"<method-wrapper '__getitem__' of OperationalError object>"
+p41
+sS'__setstate__'
+p42
+S'<built-in method __setstate__ of OperationalError object>'
+p43
+sS'__getattribute__'
+p44
+S"<method-wrapper '__getattribute__' of OperationalError object>"
+p45
+sS'args'
+p46
+S"('no such table: auth_user',)"
+p47
+sS'__subclasshook__'
+p48
+S'<built-in method __subclasshook__ of type object>'
+p49
+sS'__unicode__'
+p50
+S'<built-in method __unicode__ of OperationalError object>'
+p51
+sS'__delattr__'
+p52
+S"<method-wrapper '__delattr__' of OperationalError object>"
+p53
+sS'__repr__'
+p54
+S"<method-wrapper '__repr__' of OperationalError object>"
+p55
+sS'__hash__'
+p56
+S"<method-wrapper '__hash__' of OperationalError object>"
+p57
+ssS'evalue'
+p58
+S'no such table: auth_user'
+p59
+sS'request'
+p60
+cgluon.html
+XML_unpickle
+p61
+(S'sE_\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>db</div></td></tr><tr><td><div>auth_user</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35-3d4da7d0-30ef-4f20-9782-73e2ad8e916d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35-45023900-13c6-42fa-8281-4a7412348b79<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>1040</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryf3rOioebpP0s68mP</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>1040</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryf3rOioebpP0s68mP</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=188.162.64.35-45023900-13c6-42fa-8281-4a7412348b79; __utmt=1; __utma=133430031.1614519635.1426408223.1426417587.1426421593.5; __utmb=133430031.6.10.1426421593; __utmc=133430031; __utmz=133430031.1426408223.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_test=188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93; __utma=134993891.1259065625.1426407951.1426415833.1426419753.3; __utmb=134993891.34.10.1426419753; __utmc=134993891; __utmz=134993891.1426407951.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=188.162.64.35-3d4da7d0-30ef-4f20-9782-73e2ad8e916d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ORIGIN</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.125 Amigo/32.0.1709.125 MRCHROME SOC Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.233.129.161</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>43565</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div>1040</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryf3rOioebpP0s68mP</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_length</td><td style="vertical-align:top;">:</td><td><div>1040</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryf3rOioebpP0s68mP</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=188.162.64.35-45023900-13c6-42fa-8281-4a7412348b79; __utmt=1; __utma=133430031.1614519635.1426408223.1426417587.1426421593.5; __utmb=133430031.6.10.1426421593; __utmc=133430031; __utmz=133430031.1426408223.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_test=188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93; __utma=134993891.1259065625.1426407951.1426415833.1426419753.3; __utmb=134993891.34.10.1426419753; __utmc=134993891; __utmz=134993891.1426407951.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=188.162.64.35-3d4da7d0-30ef-4f20-9782-73e2ad8e916d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_origin</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1709.125 Amigo/32.0.1709.125 MRCHROME SOC Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.233.129.161</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>43565</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f83c61f79d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f83d0547bb8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f83c61f79d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f83d0547bb8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>insert</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 15, 12, 19, 37, 232351)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div>db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/insert/db/auth_user</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 15, 12, 19, 37, 232367)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/188.162.64.35.2015-03-15.12-19-37.84472b08-c08f-4613-956b-3781b8c48a89</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f83b86be850&gt;</div></td></tr></table></div>'
+tRp62
+sS'frames'
+p63
+(lp64
+(dp65
+S'file'
+p66
+S'/home/concordance/web2py/gluon/restricted.py'
+p67
+sS'dump'
+p68
+(dp69
+S'environment'
+p70
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p71
+sS'ccode'
+p72
+S'<code object <module> at 0x7f83b85ed330, file "/...plications/test/controllers/appadmin.py", line 7>'
+p73
+ssS'lnum'
+p74
+I220
+sS'lines'
+p75
+(dp76
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p77
+sI215
+S'    try:'
+p78
+sI216
+S'        if isinstance(code, types.CodeType):'
+p79
+sI217
+S'            ccode = code'
+p80
+sI218
+S'        else:'
+p81
+sI219
+S'            ccode = compile2(code, layer)'
+p82
+sI220
+S'        exec ccode in environment'
+p83
+sI221
+S'    except HTTP:'
+p84
+sI222
+S'        raise'
+p85
+sI223
+S'    except RestrictedError:'
+p86
+ssS'call'
+p87
+S"(code='# -*- coding: utf-8 -*-\\n\\n# #####################...rn grid\\n\\nresponse._vars=response._caller(insert)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}, layer='/home/concordance/web2py/applications/test/controllers/appadmin.py')"
+p88
+sS'func'
+p89
+S'restricted'
+p90
+sa(dp91
+g66
+S'/home/concordance/web2py/applications/test/controllers/appadmin.py'
+p92
+sg68
+(dp93
+sg74
+I674
+sg75
+(dp94
+I672
+S'    return grid'
+p95
+sI663
+S"            orderby = 'role' if not request.args(3) or '.group_id' not in request.args(3) else None"
+p96
+sI664
+S'        elif table == auth.table_permission():'
+p97
+sI665
+S"            orderby = 'group_id'"
+p98
+sI666
+S'    kwargs = dict(user_signature=True, maxtextlength=1000,'
+p99
+sI667
+S'                  orderby=orderby, linked_tables=linked_tables)'
+p100
+sI668
+S"    smartgrid_args = manager_action.get('smartgrid_args', {})"
+p101
+sI669
+S"    kwargs.update(**smartgrid_args.get('DEFAULT', {}))"
+p102
+sI670
+S'    kwargs.update(**smartgrid_args.get(table._tablename, {}))'
+p103
+sI671
+S'    grid = SQLFORM.smartgrid(table, args=request.args[:2], formname=formname, **kwargs)'
+p104
+ssg87
+S'()'
+p105
+sg89
+S'<module>'
+p106
+sa(dp107
+g66
+S'/home/concordance/web2py/gluon/globals.py'
+p108
+sg68
+(dp109
+S'self'
+p110
+S'undefined'
+p111
+sS'f'
+S'<function insert>'
+p112
+ssg74
+I385
+sg75
+(dp113
+I384
+S'        self._vars = None'
+p114
+sI385
+S'        self._caller = lambda f: f()'
+p115
+sI386
+S'        self._view_environment = None'
+p116
+sI387
+S'        self._custom_commit = None'
+p117
+sI388
+S'        self._custom_rollback = None'
+p118
+sI389
+S''
+sI380
+S'        self.menu = []             # used by the default view layout'
+p119
+sI381
+S'        self.files = []            # used by web2py_ajax.html'
+p120
+sI382
+S'        self.generic_patterns = []  # patterns to allow generic views'
+p121
+sI383
+S"        self.delimiters = ('{{', '}}')"
+p122
+ssg87
+S'(f=<function insert>)'
+p123
+sg89
+S'<lambda>'
+p124
+sa(dp125
+g66
+S'/home/concordance/web2py/applications/test/controllers/appadmin.py'
+p126
+sg68
+(dp127
+S'global request'
+p128
+S"<Storage {'_vars': <Storage {'first_name': '\\xd0...: '/home/concordance/web2py/applications/test/'}>"
+p129
+sS'request.vars'
+p130
+S"<Storage {'first_name': '\\xd0\\x9c\\xd0\\xb0\\xd1\\x8...on_key': '', 'email': 'marylevchenko@gmail.com'}>"
+p131
+sS'global session'
+p132
+S"<Storage {'last_orderby': None, 'last_query': 'd...e4149', '03e89b9e-2347-4c81-9ff7-02d7caa37426']}>"
+p133
+sS'form'
+p134
+S'<gluon.sqlhtml.SQLFORM object>'
+p135
+sS'form.accepts'
+p136
+S'<bound method SQLFORM.accepts of <gluon.sqlhtml.SQLFORM object>>'
+p137
+ssg74
+I154
+sg75
+(dp138
+I149
+S''
+sI150
+S''
+sI151
+S'def insert():'
+p139
+sI152
+S'    (db, table) = get_table(request)'
+p140
+sI153
+S'    form = SQLFORM(db[table], ignore_rw=ignore_rw)'
+p141
+sI154
+S'    if form.accepts(request.vars, session):'
+p142
+sI155
+S"        response.flash = T('new record inserted')"
+p143
+sI156
+S'    return dict(form=form, table=db[table])'
+p144
+sI157
+S''
+sI158
+S''
+ssg87
+S'()'
+p145
+sg89
+S'insert'
+p146
+sa(dp147
+g66
+S'/home/concordance/web2py/gluon/sqlhtml.py'
+p148
+sg68
+(dp149
+S'kwargs'
+p150
+g21
+ssg74
+I1381
+sg75
+(dp151
+I1376
+S'            session,'
+p152
+sI1377
+S'            formname,'
+p153
+sI1378
+S'            keepvalues,'
+p154
+sI1379
+S'            onvalidation,'
+p155
+sI1380
+S'            hideerror=hideerror,'
+p156
+sI1381
+S'            **kwargs'
+p157
+sI1382
+S'        )'
+p158
+sI1383
+S''
+sI1384
+S'        self.deleted = \\'
+p159
+sI1385
+S'            request_vars.get(self.FIELDNAME_REQUEST_DELETE, False)'
+p160
+ssg87
+S"(self=<gluon.sqlhtml.SQLFORM object>, request_vars=<Storage {'first_name': '\\xd0\\x9c\\xd0\\xb0\\xd1\\x8...on_key': '', 'email': 'marylevchenko@gmail.com'}>, session=<Storage {'last_orderby': None, 'last_query': 'd...e4149', '03e89b9e-2347-4c81-9ff7-02d7caa37426']}>, formname='auth_user/create', keepvalues=False, onvalidation=None, dbio=True, hideerror=False, detect_record_change=False, **kwargs={})"
+p161
+sg89
+S'accepts'
+p162
+sa(dp163
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p164
+sg68
+(dp165
+S'status'
+p166
+S'True'
+p167
+sS'self'
+p168
+S'<gluon.sqlhtml.SQLFORM object>'
+p169
+sS'self._traverse'
+p170
+S'<bound method SQLFORM._traverse of <gluon.sqlhtml.SQLFORM object>>'
+p171
+sS'hideerror'
+p172
+S'False'
+p173
+ssg74
+I2100
+sg75
+(dp174
+I2095
+S'        if status and session:'
+p175
+sI2096
+S'            # check if editing a record that has been modified by the server'
+p176
+sI2097
+S"            if hasattr(self, 'record_hash') and self.record_hash != formkey:"
+p177
+sI2098
+S'                status = False'
+p178
+sI2099
+S'                self.record_changed = changed = True'
+p179
+sI2100
+S'        status = self._traverse(status, hideerror)'
+p180
+sI2101
+S'        status = self.assert_status(status, request_vars)'
+p181
+sI2102
+S'        if onvalidation:'
+p182
+sI2103
+S'            if isinstance(onvalidation, dict):'
+p183
+sI2104
+S"                onsuccess = onvalidation.get('onsuccess', None)"
+p184
+ssg87
+S"(self=<gluon.sqlhtml.SQLFORM object>, request_vars=<Storage {'first_name': '\\xd0\\x9c\\xd0\\xb0\\xd1\\x8...ation_key': '', '_formname': 'auth_user/create'}>, session=<Storage {'last_orderby': None, 'last_query': 'd...e4149', '03e89b9e-2347-4c81-9ff7-02d7caa37426']}>, formname='auth_user/create', keepvalues=False, onvalidation=None, hideerror=False, **kwargs={})"
+p185
+sg89
+g162
+sa(dp186
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p187
+sg68
+(dp188
+S'status'
+p189
+g167
+sS'newstatus'
+p190
+g167
+sS'c'
+S'<gluon.html.TABLE object>'
+p191
+sS'hideerror'
+p192
+g173
+sS'c._traverse'
+p193
+S'<bound method TABLE._traverse of <gluon.html.TABLE object>>'
+p194
+ssg74
+I872
+sg75
+(dp195
+I867
+S'                c.latest = self.latest'
+p196
+sI868
+S'                c.session = self.session'
+p197
+sI869
+S'                c.formname = self.formname'
+p198
+sI870
+S"                if not c.attributes.get('hideerror'):"
+p199
+sI871
+S"                    c['hideerror'] = hideerror or self.attributes.get('hideerror')"
+p200
+sI872
+S'                newstatus = c._traverse(status, hideerror) and newstatus'
+p201
+sI873
+S''
+sI874
+S'        # for input, textarea, select, option'
+p202
+sI875
+S"        # deal with 'value' and 'validation'"
+p203
+sI876
+S''
+ssg87
+S'(self=<gluon.sqlhtml.SQLFORM object>, status=True, hideerror=False)'
+p204
+sg89
+S'_traverse'
+p205
+sa(dp206
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p207
+sg68
+(dp208
+S'status'
+p209
+g167
+sS'newstatus'
+p210
+g167
+sS'c'
+S'<gluon.html.TR object>'
+p211
+sS'hideerror'
+p212
+g173
+sS'c._traverse'
+p213
+S'<bound method TR._traverse of <gluon.html.TR object>>'
+p214
+ssg74
+I872
+sg75
+(dp215
+I867
+S'                c.latest = self.latest'
+p216
+sI868
+S'                c.session = self.session'
+p217
+sI869
+S'                c.formname = self.formname'
+p218
+sI870
+S"                if not c.attributes.get('hideerror'):"
+p219
+sI871
+S"                    c['hideerror'] = hideerror or self.attributes.get('hideerror')"
+p220
+sI872
+S'                newstatus = c._traverse(status, hideerror) and newstatus'
+p221
+sI873
+S''
+sI874
+S'        # for input, textarea, select, option'
+p222
+sI875
+S"        # deal with 'value' and 'validation'"
+p223
+sI876
+S''
+ssg87
+S'(self=<gluon.html.TABLE object>, status=True, hideerror=False)'
+p224
+sg89
+g205
+sa(dp225
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p226
+sg68
+(dp227
+S'status'
+p228
+g167
+sS'newstatus'
+p229
+g167
+sS'c'
+S'<gluon.html.TD object>'
+p230
+sS'hideerror'
+p231
+g173
+sS'c._traverse'
+p232
+S'<bound method TD._traverse of <gluon.html.TD object>>'
+p233
+ssg74
+I872
+sg75
+(dp234
+I867
+S'                c.latest = self.latest'
+p235
+sI868
+S'                c.session = self.session'
+p236
+sI869
+S'                c.formname = self.formname'
+p237
+sI870
+S"                if not c.attributes.get('hideerror'):"
+p238
+sI871
+S"                    c['hideerror'] = hideerror or self.attributes.get('hideerror')"
+p239
+sI872
+S'                newstatus = c._traverse(status, hideerror) and newstatus'
+p240
+sI873
+S''
+sI874
+S'        # for input, textarea, select, option'
+p241
+sI875
+S"        # deal with 'value' and 'validation'"
+p242
+sI876
+S''
+ssg87
+S'(self=<gluon.html.TR object>, status=True, hideerror=False)'
+p243
+sg89
+g205
+sa(dp244
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p245
+sg68
+(dp246
+S'status'
+p247
+g167
+sS'newstatus'
+p248
+g167
+sS'c'
+S'<gluon.html.INPUT object>'
+p249
+sS'hideerror'
+p250
+g173
+sS'c._traverse'
+p251
+S'<bound method INPUT._traverse of <gluon.html.INPUT object>>'
+p252
+ssg74
+I872
+sg75
+(dp253
+I867
+S'                c.latest = self.latest'
+p254
+sI868
+S'                c.session = self.session'
+p255
+sI869
+S'                c.formname = self.formname'
+p256
+sI870
+S"                if not c.attributes.get('hideerror'):"
+p257
+sI871
+S"                    c['hideerror'] = hideerror or self.attributes.get('hideerror')"
+p258
+sI872
+S'                newstatus = c._traverse(status, hideerror) and newstatus'
+p259
+sI873
+S''
+sI874
+S'        # for input, textarea, select, option'
+p260
+sI875
+S"        # deal with 'value' and 'validation'"
+p261
+sI876
+S''
+ssg87
+S'(self=<gluon.html.TD object>, status=True, hideerror=False)'
+p262
+sg89
+g205
+sa(dp263
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p264
+sg68
+(dp265
+S'newstatus'
+p266
+g167
+sS'self'
+p267
+S'<gluon.html.INPUT object>'
+p268
+sS'self._validate'
+p269
+S'<bound method INPUT._validate of <gluon.html.INPUT object>>'
+p270
+ssg74
+I879
+sg75
+(dp271
+I874
+S'        # for input, textarea, select, option'
+p272
+sI875
+S"        # deal with 'value' and 'validation'"
+p273
+sI876
+S''
+sI877
+S"        name = self['_name']"
+p274
+sI878
+S'        if newstatus:'
+p275
+sI879
+S'            newstatus = self._validate()'
+p276
+sI880
+S'            self._postprocessing()'
+p277
+sI881
+S"        elif 'old_value' in self.attributes:"
+p278
+sI882
+S"            self['value'] = self['old_value']"
+p279
+sI883
+S'            self._postprocessing()'
+p280
+ssg87
+S'(self=<gluon.html.INPUT object>, status=True, hideerror=False)'
+p281
+sg89
+g205
+sa(dp282
+g66
+S'/home/concordance/web2py/gluon/html.py'
+p283
+sg68
+(dp284
+S'errors'
+p285
+S'None'
+p286
+sS'value'
+p287
+S"'marylevchenko@gmail.com'"
+p288
+sS'validator'
+p289
+S'<gluon.validators.IS_NOT_IN_DB object>'
+p290
+ssg74
+I1843
+sg75
+(dp291
+I1838
+S"        requires = self['requires']"
+p292
+sI1839
+S'        if requires:'
+p293
+sI1840
+S'            if not isinstance(requires, (list, tuple)):'
+p294
+sI1841
+S'                requires = [requires]'
+p295
+sI1842
+S'            for validator in requires:'
+p296
+sI1843
+S'                (value, errors) = validator(value)'
+p297
+sI1844
+S'                if not errors is None:'
+p298
+sI1845
+S'                    self.vars[name] = value'
+p299
+sI1846
+S'                    self.errors[name] = errors'
+p300
+sI1847
+S'                    break'
+p301
+ssg87
+S'(self=<gluon.html.INPUT object>)'
+p302
+sg89
+S'_validate'
+p303
+sa(dp304
+g66
+S'/home/concordance/web2py/gluon/validators.py'
+p305
+sg68
+(dp306
+S'subset'
+p307
+S"<Set (auth_user.email = 'marylevchenko@gmail.com')>"
+p308
+sS'orderby_on_limitby'
+p309
+g111
+sS'table._id'
+p310
+S'<gluon.dal.Field object>'
+p311
+sS'builtinFalse'
+p312
+g173
+sS'subset.select'
+p313
+S"<bound method Set.select of <Set (auth_user.email = 'marylevchenko@gmail.com')>>"
+p314
+sS'limitby'
+p315
+g111
+sS'field'
+p316
+S'<gluon.dal.Field object>'
+p317
+sS'table'
+p318
+S'<Table auth_user (id,first_name,last_name,email,...stration_key,reset_password_key,registration_id)>'
+p319
+sS').first'
+p320
+g111
+sS'row'
+p321
+g111
+ssg74
+I668
+sg75
+(dp322
+I672
+S''
+sI663
+S'            fields = [table[f] for f in id]'
+p323
+sI664
+S'            row = subset.select(*fields, **dict(limitby=(0, 1), orderby_on_limitby=False)).first()'
+p324
+sI665
+S'            if row and any(str(row[f]) != str(id[f]) for f in id):'
+p325
+sI666
+S'                return (value, translate(self.error_message))'
+p326
+sI667
+S'        else:'
+p327
+sI668
+S'            row = subset.select(table._id, field, limitby=(0, 1), orderby_on_limitby=False).first()'
+p328
+sI669
+S'            if row and str(row.id) != str(id):'
+p329
+sI670
+S'                return (value, translate(self.error_message))'
+p330
+sI671
+S'        return (value, None)'
+p331
+ssg87
+S"(self=<gluon.validators.IS_NOT_IN_DB object>, value='marylevchenko@gmail.com')"
+p332
+sg89
+S'__call__'
+p333
+sa(dp334
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p335
+sg68
+(dp336
+S'self.query'
+p337
+S"<Query (auth_user.email = 'marylevchenko@gmail.com')>"
+p338
+sS'adapter.select'
+p339
+S'<bound method SQLiteAdapter.select of <gluon.dal.SQLiteAdapter object>>'
+p340
+sS'fields'
+p341
+S'[<gluon.dal.Field object>, <gluon.dal.Field object>]'
+p342
+sS'adapter'
+p343
+S'<gluon.dal.SQLiteAdapter object>'
+p344
+sS'attributes'
+p345
+S"{'limitby': (0, 1), 'orderby_on_limitby': False}"
+p346
+sS'self'
+p347
+S"<Set (auth_user.email = 'marylevchenko@gmail.com')>"
+p348
+ssg74
+I10525
+sg75
+(dp349
+I10528
+S'        return Expression(self.db,self._select(*fields,**attributes))'
+p350
+sI10529
+S''
+sI10520
+S"                                    attributes.get('join',None),"
+p351
+sI10521
+S"                                    attributes.get('left',None),"
+p352
+sI10522
+S"                                    attributes.get('orderby',None),"
+p353
+sI10523
+S"                                    attributes.get('groupby',None))"
+p354
+sI10524
+S'        fields = adapter.expand_all(fields, tablenames)'
+p355
+sI10525
+S'        return adapter.select(self.query,fields,attributes)'
+p356
+sI10526
+S''
+sI10527
+S'    def nested_select(self,*fields,**attributes):'
+p357
+ssg87
+S"(self=<Set (auth_user.email = 'marylevchenko@gmail.com')>, *fields=[<gluon.dal.Field object>, <gluon.dal.Field object>], **attributes={'limitby': (0, 1), 'orderby_on_limitby': False})"
+p358
+sg89
+S'select'
+p359
+sa(dp360
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p361
+sg68
+(dp362
+S'fields'
+p363
+S'[<gluon.dal.Field object>, <gluon.dal.Field object>]'
+p364
+sS'self'
+p365
+S'<gluon.dal.SQLiteAdapter object>'
+p366
+sS').select'
+p367
+S'<bound method SQLiteAdapter.select of <gluon.dal.SQLiteAdapter object>>'
+p368
+sS'attributes'
+p369
+S"{'limitby': (0, 1), 'orderby_on_limitby': False}"
+p370
+sS'global SQLiteAdapter'
+p371
+S"<class 'gluon.dal.SQLiteAdapter'>"
+p372
+sS'query'
+p373
+S"<Query (auth_user.email = 'marylevchenko@gmail.com')>"
+p374
+sS'builtinsuper'
+p375
+S"<type 'super'>"
+p376
+ssg74
+I2458
+sg75
+(dp377
+I2453
+S'        Note that the entire database, rather than one record, is locked'
+p378
+sI2454
+S'        (it will be locked eventually anyway by the following UPDATE).'
+p379
+sI2455
+S'        """'
+p380
+sI2456
+S"        if attributes.get('for_update', False) and not 'cache' in attributes:"
+p381
+sI2457
+S"            self.execute('BEGIN IMMEDIATE TRANSACTION;')"
+p382
+sI2458
+S'        return super(SQLiteAdapter, self).select(query, fields, attributes)'
+p383
+sI2459
+S''
+sI2460
+S'class SpatiaLiteAdapter(SQLiteAdapter):'
+p384
+sI2461
+S"    drivers = ('sqlite3','sqlite2')"
+p385
+sI2462
+S''
+ssg87
+S"(self=<gluon.dal.SQLiteAdapter object>, query=<Query (auth_user.email = 'marylevchenko@gmail.com')>, fields=[<gluon.dal.Field object>, <gluon.dal.Field object>], attributes={'limitby': (0, 1), 'orderby_on_limitby': False})"
+p386
+sg89
+g359
+sa(dp387
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p388
+sg68
+(dp389
+S'fields'
+p390
+S'[<gluon.dal.Field object>, <gluon.dal.Field object>]'
+p391
+sS'self'
+p392
+S'<gluon.dal.SQLiteAdapter object>'
+p393
+sS'attributes'
+p394
+S"{'limitby': (0, 1), 'orderby_on_limitby': False}"
+p395
+sS'self._select_aux'
+p396
+S'<bound method SQLiteAdapter._select_aux of <gluon.dal.SQLiteAdapter object>>'
+p397
+sS'sql'
+p398
+S'"SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;"'
+p399
+ssg74
+I1882
+sg75
+(dp400
+I1877
+S'            return cache_model('
+p401
+sI1878
+S'                key,'
+p402
+sI1879
+S'                lambda self=self,args=args:self._select_aux(*args),'
+p403
+sI1880
+S'                time_expire)'
+p404
+sI1881
+S'        else:'
+p405
+sI1882
+S'            return self._select_aux(sql,fields,attributes)'
+p406
+sI1883
+S''
+sI1884
+S'    def _count(self, query, distinct=None):'
+p407
+sI1885
+S'        tablenames = self.tables(query)'
+p408
+sI1886
+S'        if query:'
+p409
+ssg87
+S"(self=<gluon.dal.SQLiteAdapter object>, query=<Query (auth_user.email = 'marylevchenko@gmail.com')>, fields=[<gluon.dal.Field object>, <gluon.dal.Field object>], attributes={'limitby': (0, 1), 'orderby_on_limitby': False})"
+p410
+sg89
+g359
+sa(dp411
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p412
+sg68
+(dp413
+S'self'
+p414
+S'<gluon.dal.SQLiteAdapter object>'
+p415
+sS'self.execute'
+p416
+S'<bound method SQLiteAdapter.execute of <gluon.dal.SQLiteAdapter object>>'
+p417
+sS'sql'
+p418
+S'"SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;"'
+p419
+ssg74
+I1847
+sg75
+(dp420
+I1842
+S''
+sI1843
+S'    def _select_aux(self,sql,fields,attributes):'
+p421
+sI1844
+S'        args_get = attributes.get'
+p422
+sI1845
+S"        cache = args_get('cache',None)"
+p423
+sI1846
+S'        if not cache:'
+p424
+sI1847
+S'            self.execute(sql)'
+p425
+sI1848
+S'            rows = self._fetchall()'
+p426
+sI1849
+S'        else:'
+p427
+sI1850
+S'            (cache_model, time_expire) = cache'
+p428
+sI1851
+S"            key = self.uri + '/' + sql + '/rows'"
+p429
+ssg87
+S'(self=<gluon.dal.SQLiteAdapter object>, sql="SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;", fields=[<gluon.dal.Field object>, <gluon.dal.Field object>], attributes={\'limitby\': (0, 1), \'orderby_on_limitby\': False})'
+p430
+sg89
+S'_select_aux'
+p431
+sa(dp432
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p433
+sg68
+(dp434
+S'a'
+S'("SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;",)'
+p435
+sS'self'
+p436
+S'<gluon.dal.SQLiteAdapter object>'
+p437
+sS'b'
+g21
+sS'self.log_execute'
+p438
+S'<bound method SQLiteAdapter.log_execute of <gluon.dal.SQLiteAdapter object>>'
+p439
+ssg74
+I1969
+sg75
+(dp440
+I1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p441
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p442
+sI1966
+S'        return ret'
+p443
+sI1967
+S''
+sI1968
+S'    def execute(self, *a, **b):'
+p444
+sI1969
+S'        return self.log_execute(*a, **b)'
+p445
+sI1970
+S''
+sI1971
+S'    def represent(self, obj, fieldtype):'
+p446
+sI1972
+S'        field_is_type = fieldtype.startswith'
+p447
+sI1973
+S'        if isinstance(obj, CALLABLETYPES):'
+p448
+ssg87
+S'(self=<gluon.dal.SQLiteAdapter object>, *a=("SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;",), **b={})'
+p449
+sg89
+S'execute'
+p450
+sa(dp451
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p452
+sg68
+(dp453
+S'a'
+S'("SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;",)'
+p454
+sS'b'
+g21
+sS'self'
+p455
+S'<gluon.dal.SQLiteAdapter object>'
+p456
+sS'ret'
+p457
+g111
+sS'self.cursor'
+p458
+S'<sqlite3.Cursor object>'
+p459
+sS'command'
+p460
+S'"SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;"'
+p461
+sS'self.cursor.execute'
+p462
+S'<built-in method execute of sqlite3.Cursor object>'
+p463
+ssg74
+I1963
+sg75
+(dp464
+I1958
+S'            command = self.filter_sql_command(command)'
+p465
+sI1959
+S'        if self.db._debug:'
+p466
+sI1960
+S"            LOGGER.debug('SQL: %s' % command)"
+p467
+sI1961
+S'        self.db._lastsql = command'
+p468
+sI1962
+S'        t0 = time.time()'
+p469
+sI1963
+S'        ret = self.cursor.execute(command, *a[1:], **b)'
+p470
+sI1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p471
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p472
+sI1966
+S'        return ret'
+p473
+sI1967
+S''
+ssg87
+S'(self=<gluon.dal.SQLiteAdapter object>, *a=("SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;",), **b={})'
+p474
+sg89
+S'log_execute'
+p475
+sasS'pyver'
+p476
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p477
+sS'session'
+p478
+g61
+(S's:\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>db.auth_user.id&gt;0</div></td></tr></table></div>'
+tRp479
+sS'etype'
+p480
+S"<class 'sqlite3.OperationalError'>"
+p481
+sS'date'
+p482
+S'Sun Mar 15 12:19:37 2015'
+p483
+sS'response'
+p484
+g61
+(S's\r\x1e\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f83b89c26c0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>\xd0\xb4\xd0\xb8\xd0\xb7\xd0\xb0\xd0\xb9\xd0\xbd</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x91\xd0\x94</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd1\x81\xd0\xbe\xd1\x81\xd1\x82\xd0\xbe\xd1\x8f\xd0\xbd\xd0\xb8\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/appadmin/state</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>cache</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/appadmin/ccache</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/insert/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93&#x27;, mode &#x27;rb+&#x27; at 0x7f83b89b8930&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>469eac1c1149d2b2ee1e9e1366497918</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>188.162.64.35-208bdb50-b98d-4912-8e4f-975cafbdeb93</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div>Database Administration (appadmin)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>appadmin.html</div></td></tr></table></div>'
+tRp485
+sS'locals'
+p486
+(dp487
+S'a'
+S'("SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;",)'
+p488
+sS'self'
+p489
+S'<gluon.dal.SQLiteAdapter object>'
+p490
+sS'b'
+g21
+sS'command'
+p491
+S'"SELECT  auth_user.id, auth_user.email FROM auth_...il = \'marylevchenko@gmail.com\') LIMIT 1 OFFSET 0;"'
+p492
+sS't0'
+p493
+S'1426421977.660339'
+p494
+sssS'traceback'
+p495
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/controllers/appadmin.py", line 674, in <module>\n  File "/home/concordance/web2py/gluon/globals.py", line 385, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/concordance/web2py/applications/test/controllers/appadmin.py", line 154, in insert\n    if form.accepts(request.vars, session):\n  File "/home/concordance/web2py/gluon/sqlhtml.py", line 1381, in accepts\n    **kwargs\n  File "/home/concordance/web2py/gluon/html.py", line 2100, in accepts\n    status = self._traverse(status, hideerror)\n  File "/home/concordance/web2py/gluon/html.py", line 872, in _traverse\n    newstatus = c._traverse(status, hideerror) and newstatus\n  File "/home/concordance/web2py/gluon/html.py", line 872, in _traverse\n    newstatus = c._traverse(status, hideerror) and newstatus\n  File "/home/concordance/web2py/gluon/html.py", line 872, in _traverse\n    newstatus = c._traverse(status, hideerror) and newstatus\n  File "/home/concordance/web2py/gluon/html.py", line 872, in _traverse\n    newstatus = c._traverse(status, hideerror) and newstatus\n  File "/home/concordance/web2py/gluon/html.py", line 879, in _traverse\n    newstatus = self._validate()\n  File "/home/concordance/web2py/gluon/html.py", line 1843, in _validate\n    (value, errors) = validator(value)\n  File "/home/concordance/web2py/gluon/validators.py", line 668, in __call__\n    row = subset.select(table._id, field, limitby=(0, 1), orderby_on_limitby=False).first()\n  File "/home/concordance/web2py/gluon/dal.py", line 10525, in select\n    return adapter.select(self.query,fields,attributes)\n  File "/home/concordance/web2py/gluon/dal.py", line 2458, in select\n    return super(SQLiteAdapter, self).select(query, fields, attributes)\n  File "/home/concordance/web2py/gluon/dal.py", line 1882, in select\n    return self._select_aux(sql,fields,attributes)\n  File "/home/concordance/web2py/gluon/dal.py", line 1847, in _select_aux\n    self.execute(sql)\n  File "/home/concordance/web2py/gluon/dal.py", line 1969, in execute\n    return self.log_execute(*a, **b)\n  File "/home/concordance/web2py/gluon/dal.py", line 1963, in log_execute\n    ret = self.cursor.execute(command, *a[1:], **b)\nOperationalError: no such table: auth_user\n'
+p496
+s.

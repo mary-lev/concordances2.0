@@ -17,7 +17,7 @@
 				center: 'title',
 				right: 'month'
 			},
-			defaultDate: '1893-01-01',
+			defaultDate: '1900-01-01',
 			defaultView: 'month',
 			editable: true,
 			events: [
@@ -42,7 +42,10 @@
 </script>
 </head>
 <body>
+<center><h3>    {{for year in range(1900, 1917):}}
+    {{=A(year,  _href=URL('year', args=year))}}
+    {{pass}}</h3></center>
 <div id='calendar'></div>
-    
+
 </body>
 </html>
