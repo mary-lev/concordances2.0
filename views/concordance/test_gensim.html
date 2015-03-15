@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон control/test_gensim.html</h1>
+{{=BEAUTIFY(response._vars)}}
+{{for doc in corpus_tfidf:}}
+{{=doc}}
+{{pass}}

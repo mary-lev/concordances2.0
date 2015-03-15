@@ -1,6 +1,0 @@
-{{extend 'layout.html'}}
-<h1>Это шаблон control/concordance.html</h1>
-{{=lens}}<br>
-{{for w in vocab:}}
-{{=w[0]}} — {{=w[1]}}% <br>
-{{pass}}

@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+<h1>
+    {{=texts.title}}
+</h1>
+<h2>
+   {{=texts.author.name}} {{=texts.author.family}}
+</h2>
+{{for line in content:}}
+{{=line}}<br>
+{{pass}}
+{{=texts.day_writing}} {{=texts.month_writing}} {{=texts.year_writing}}

@@ -1,5 +1,0 @@
-{{extend 'layout.html'}}
-<h1>Это шаблон control/show2.html</h1>
-{{for words in text_view:}}
-{{=DIV(words[0], _onclick="jQuery(this).slideToggle()")}}
-{{pass}}

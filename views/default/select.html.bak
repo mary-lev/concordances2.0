@@ -1,4 +1,0 @@
-{{extend 'layout.html'}}
-{{for auth in author:}}
-{{=auth}}
-{{pass}}

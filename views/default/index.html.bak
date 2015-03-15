@@ -1,16 +1,37 @@
+{{right_sidebar_enabled=True}}
+{{left_sidebar_enabled=True}}
 {{extend 'layout.html'}}
 
-<h3><a href="tabliza.html">Сводная таблица со статистикой</a></h3>
-<h3><a href="pos_table.html">Сводная таблица по частям речи</a></h3>
-<h3><a href="texts.html">Данные по всем текстам</a></h3>
-<h1>Тексты в базе:</h1>
-<a href='dost.html'>Достоевский</a> * <a href='pushkin.html'>Пушкин</a> * <a href='blok.html'>Блок</a>
-    <table>
-{{for text in texts:}}
-        {{=TR(TD(text.author), TD(A(text.title, _href=URL("the_text", args=text.id))))}}
-{{pass}}
+        <h1>Авторы</h1>
 
-</table>
-<h3><a href="index1.html">Сравнить лексику двух текстов из базы</a></h3>
-<h3><a href="form1.html">Добавьте новый текст</a> или <a href="url.html">адрес страницы</a></h3>
-Еще можно загрузить <a href="from_file.html">текст из файла</a>.
+
+<div class="span3 left-sidebar">
+            {{block left_sidebar}}
+            <h4>Авторы</h4>
+            <ul>
+{{for text in texts:}}
+       <li> {{=A(text.name, " ", text.family, ". ", _href=URL('author', "all_author", args=text.id))}} </li>
+{{pass}} </ul>
+            {{end}}
+        </div>
+        {{pass}}
+
+        <div class="{{=middle_columns}}">
+            {{block center}}<h4>Тест</h4>
+            <p>Концептуальный текст тут.</p>
+            {{include}}
+            {{end}}
+        </div>
+
+{{block right_sidebar}}
+
+<h4>{{=T("Доступные функции")}}</h4>
+<ul>
+    <li> {{=A("Хронология", _href=URL("calendar", "index"))}}</li>
+  <li>{{=A("Цвета", _href=URL("color", "index"))}}</li>
+  <li>{{=A("Контекстный поиск", _href=URL("context", "index"))}}</li>
+  <li>{{=A("По частям речи", _href=URL("count", "index"))}}</li>
+    <li><a href = 'https://concordance.pythonanywhere.com/test/morpho/count_partos.html'>Морфологическая статистика</a></li>
+    <li>{{=A("Test it", _href=("search_for_files"))}}</li>
+</ul>
+{{end}}

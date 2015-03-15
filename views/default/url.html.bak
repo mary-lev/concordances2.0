@@ -1,7 +1,0 @@
-{{extend 'layout.html'}}
-
-{{=form}}
-
-<h2>Submitted variables</h2>
-{{=URL_CONCORDANCE(request.vars)}}
-<a href="index.html">Список всех текстов</a>

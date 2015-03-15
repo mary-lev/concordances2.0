@@ -12,6 +12,7 @@
      _style='margin-top: 1em;')}}
 <h6>{{=T("Доступные функции")}}</h6>
 <ul>
+    <li> {{=A("Хронология", _href=URL("calendar", "index"))}}</li>
   <li>{{=A("Цвета", _href=URL("color", "index"))}}</li>
   <li>{{=A("Контекстный поиск", _href=URL("context", "index"))}}</li>
   <li>{{=A("По частям речи", _href=URL("count", "index"))}}</li>
