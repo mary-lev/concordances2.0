@@ -1,0 +1,1099 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.ValueError'> All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/controllers/control.py'
+p5
+sS'code'
+p6
+S'# coding: utf8\nimport nltk\nimport pymorphy2\nfrom tokenize1 import *\nimport os\nfrom os import listdir\nfrom os.path import isfile, join\nfrom operator import itemgetter\nimport subprocess\nimport select\nfrom lxml import etree\nfrom gensim import corpora, models, similarities\nfrom plugin_sqleditable.editable import SQLEDITABLE\nSQLEDITABLE.init()\n\ndef index():\n    texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)\n    return dict(texts=texts)\n\ndef all_texts():\n    texts = trymysql().select(trymysql.text1.ALL, orderby=trymysql.text1.id)\n    return dict(texts=texts)\n\ndef show1():   # show text from file\n    texts = trymysql(trymysql.text1.id==request.args(0)).select().first()\n    f = open(texts.filename, \'rb\')\n    content = f.readlines()\n    return dict(texts=texts, content=content)\n\ndef show2(): # color the verbs\n    words = trymysql(trymysql.allword.title==request.args(0)).select()\n    content = []\n    for row in words:\n        if row.partos==\'VERB\':\n            new_words=str(row.lemma)+str(\'&\')\n            content.append(new_words)\n        else:\n            content.append(row.lemma)\n    return dict(content=content)\n\ndef show3():\n    texts = trymysql(trymysql.text1.id==request.args(0)).select().first()\n    rows = trymysql(trymysql.allword.title==request.args(0)).select()\n    text_view = []\n    for row in rows:\n        text_view.append((row.lemma, row.id))\n    options = [OPTION(row.lemma, _value=row.id) for row in rows]\n    form=FORM(TABLE(TR("\xd0\x92\xd1\x8b\xd0\xb1\xd0\xb5\xd1\x80\xd0\xb8\xd1\x82\xd0\xb5 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82"),\n                    TR("\xd0\x9d\xd0\xb0\xd0\xbf\xd1\x80\xd0\xb8\xd0\xbc\xd0\xb5\xd1\x80, \xd1\x82\xd0\xb0\xd0\xba:",SELECT(*options, _name="first")),\n                    TR("",INPUT(_type="submit",_value="SUBMIT"))))\n    if form.accepts(request,session):\n        response.flash="form accepted"\n    return dict(text_view=text_view, form=form)\n\ndef tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html\n    for x in range(3258,3336): # if text not yet in database\n        text2 = trymysql(trymysql.text1.id==x).select().first()\n        text1 = text2[\'body\'].decode(\'utf-8\')\n        path = "/home/concordance/web2py/applications/test/uploads/"\n        filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str(\'.txt\')\n        filename= str(path) + str(filename1)\n        f = open(filename, \'w\')\n        f.write(text1.encode(\'utf-8\'))\n        f.close()\n        text2.update_record(filename=filename)\n        normal = normalize_new2(text1)\n        for token in normal:\n            trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode(\'utf-8\')))\n            message = "\xd0\x92\xd1\x81\xd0\xb5 \xd0\xb4\xd0\xbe\xd0\xb1\xd0\xb0\xd0\xb2\xd0\xbb\xd0\xb5\xd0\xbd\xd0\xbe \xd0\xb2 \xd0\xb1\xd0\xb0\xd0\xb7\xd1\x83"\n    return dict(message=message)\n\ndef search_for_files():\n    path = "/home/concordance/web2py/applications/test/corpus/"\n    files = [f for f in listdir(path) if isfile(join(path,f)) ]\n    return dict(files=files)\n\ndef verbs_all(): # show verbs in the text\n    verbs1=[row[\'word\'] for row in trymysql((trymysql.allword.author==\'1\')&(trymysql.allword.partos==\'VERB\')).select()]\n    verbs1=sorted(set(verbs1))\n    return dict(verbs1=verbs1)\n\ndef concordance(): # concordance of one text\n    all_words = trymysql(trymysql.allword.title==request.args(0)).select()\n    lens=len(all_words)\n    vocab = []\n    for row in all_words:\n        w = row.word\n        q = trymysql((trymysql.allword.word==row.word)&(trymysql.allword.title==request.args(0))).select()\n        qq = round(((len(q)/float(lens))*100), 2)\n        c = [w, len(q), qq]\n        if c not in vocab:\n            vocab.append(c)\n    vocab.sort(key = itemgetter(0), reverse=False)\n    return dict(lens=lens, vocab=vocab)\n\ndef mystem():\n    word="\xd1\x81\xd1\x82\xd0\xbe\xd1\x8f\xd0\xbb\xd0\xb0"\n    path = "/home/concordance/mystem/"\n    myste=subprocess.Popen([path, \'-nlc\', \'-e utf-8\'],\n                                        stdout=subprocess.PIPE,\n                                        stdin=subprocess.PIPE, shell=True)\n    new=myste.stdin.write(word)\n    readable, _, _ = select.select([myste.stdout], [], [], 5e-3)\n    stem = readable[0].readline().strip().lower()\n    return dict(new=new, stem=stem)\n\ndef edit_forms():\n    def record():\n        rows = trymysql(trymysql.allword.title ==request.args(0)).select()\n        return [row.id for row in rows]\n    trymysql.allword.id.readable = True\n    trymysql.allword.word.writable = True\n    trymysql.allword.title.readable = True\n    trymysql.allword.partos.writable = True\n    trymysql.allword.tense.writable = True\n    trymysql.allword.lexical_group.readable=False\n    trymysql.allword.lemma.writable=True\n\n    response.title = \'demo020\'\n    response.view = \'plugin_sqleditable/sample.html\'\n    editable = SQLEDITABLE(trymysql.allword, record=record(), deletable=True).process()\n    return dict(editable=editable)\n\ndef edit_forms1():\n    def record():\n        titles = [x for x in range(600,700)]\n        rows = trymysql((trymysql.allword.sobstv == "Geox")&(trymysql.allword.title.belongs(titles))).select()\n        return [row.id for row in rows]\n    trymysql.allword.id.readable = True\n    trymysql.allword.word.writable = True\n    trymysql.allword.title.writable = True\n    trymysql.allword.partos.writable = True\n    trymysql.allword.tense.writable = True\n    trymysql.allword.lexical_group.readable=False\n    trymysql.allword.lemma.writable=True\n\n    response.title = \'demo020\'\n    response.view = \'plugin_sqleditable/sample.html\'\n    editable = SQLEDITABLE(trymysql.allword, record=record(), deletable=True).process()\n    return dict(editable=editable)\n\ndef month():\n    months = [(x, trymysql(trymysql.text1.month_writing==x).count()) for x in range(1,13)]\n    return dict(months=months)\n\ndef create_xml():\n    texts = trymysql(trymysql.text1.id==request.args(0)).select().first()\n    title = texts.title\n    author = texts.author\n    f = open(texts.filename, \'rb\')\n    content = f.readlines()\n    page = etree.Element(\'results\')\n    doc = etree.ElementTree(page)\n    new = etree.SubElement(page, \'text\')\n    info = etree.SubElement(new, \'info\')\n    one = etree.SubElement(info, \'title\', title = title.decode(\'utf-8\'))\n    two = etree.SubElement(info, \'name\', name = author.name.decode(\'utf-8\'))\n    three = etree.SubElement(info, \'author\', family = author.family.decode(\'utf-8\'))\n    poem = etree.SubElement(new, \'poem\', name = \'Poem\')\n    count = 1\n    stanza = etree.SubElement(poem,  \'stanza\', number = str(count))\n    for lines in content:\n        if lines in [\'\\n\', \'\\r\\n\']:\n            count += 1\n            stanza = etree.SubElement(poem, \'stanza\', number = str(count))\n        else:\n            string = etree.SubElement(stanza, \'line\', text=lines.decode(\'utf-8\'))\n            for words in tokenize1(lines):\n                slovo = etree.SubElement(string, \'word\', text = words)\n    new_name=texts.filename[:-4]+".xml"\n    outFile = open(new_name, \'w\')\n    doc.write(outFile, xml_declaration=True, encoding=\'utf-16\')\n    outFile.close()\n\ndef create_concordance():\n    all_words = trymysql().select(trymysql.allword.ALL)\n    part=[\'VERB\', \'NOUN\', \'ADJF\', \'ADJS\', \'INFN\', \'GRND\', \'PRTF\', \'PRTS\', \'ADVB\']\n    all1=[all.word for all in all_words if all.partos in part]\n    words=sorted(set(all1))\n    for token in words:\n            text.concordance.insert(word=token)\n    return dict(words=words)\n\ndef create_number():\n    all_texts=trymysql(trymysql.allword.title<10).select()\n    concor=trymysql(trymysql.concordance.id>0).select()\n    words_concordance = [one.word for one in concor]\n    for all in all_texts:\n        if all.word in words_concordance:\n            number = trymysql(trymysql.concordance.word==all.word).select()[0]\n            number_id=number.id\n            all.update_record(concordance_number=number_id)\n        else:\n            all.update_record(concordance_number=0)\n    return dict(words=words_concordance[:10], all_texts=all_texts)\n\ndef create_vector():\n    all_texts=trymysql(trymysql.text1.id<10).select()\n    vector = []\n    for all in all_texts:\n        numbers = [all.concordance_number for all in trymysql(trymysql.allword.title==all.id).select()]\n        vector.append(numbers)\n    return dict(vector=vector)\n\ndef test_gensim():\n    all_texts = trymysql(trymysql.text1.author==4).select()\n    alles = []\n    for all in all_texts:\n        part=[\'VERB\', \'NOUN\', \'ADJF\', \'ADJS\', \'INFN\', \'GRND\', \'PRTF\', \'PRTS\', \'ADVB\']\n        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]\n        alles.append(one)\n    dictionary = corpora.Dictionary(alles)\n    doc = [new.word for new in trymysql((trymysql.allword.title==24)&(trymysql.allword.partos.belongs(part))).select()]\n    vec_bow = dictionary.doc2bow(doc)\n    corpus = [dictionary.doc2bow(alle) for alle in alles]\n    tfidf = models.TfidfModel(corpus)\n    corpus_tfidf = tfidf[corpus]\n    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=5)\n    corpus_lsi = lsi[corpus_tfidf]\n    vec_lsi = lsi[vec_bow]\n    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])\n    sims = index[vec_lsi]\n    sims = sorted(enumerate(sims), key=lambda item: -item[1])\n    topics=lsi.print_topics(5)\n    return dict(sims=sims,vec_bow=vec_bow, corpus_tfidf=corpus_tfidf, topics=topics)\n\nresponse._vars=response._caller(create_xml)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.ValueError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.ValueError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.ValueError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.ValueError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.ValueError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.ValueError object>'
+p23
+sS'args'
+p24
+S"('All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters',)"
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.ValueError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.ValueError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.ValueError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.ValueError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.ValueError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.ValueError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.ValueError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.ValueError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.ValueError object>'
+p47
+sS'__doc__'
+p48
+S"'Inappropriate argument value (of correct type).'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.ValueError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S'All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters'
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's5b\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1396</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>control</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_books</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">sessionid</td><td style="vertical-align:top;">:</td><td><div>e939ace853bb6db68047bfaedf425d47<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>sessionid=e939ace853bb6db68047bfaedf425d47; session_id_welcome=109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa; session_id_books=109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d; __utma=134993891.745451564.1404743691.1426313052.1426318918.48; __utmc=134993891; __utmz=134993891.1404743691.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=133430031.117798768.1404299048.1426315843.1426325131.17; __utmc=133430031; __utmz=133430031.1404299048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_test=109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928; session_id_admin=93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/control/create_xml/1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.233.129.161</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>49159</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/control/create_xml/1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>sessionid=e939ace853bb6db68047bfaedf425d47; session_id_welcome=109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa; session_id_books=109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d; __utma=134993891.745451564.1404743691.1426313052.1426318918.48; __utmc=134993891; __utmz=134993891.1404743691.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=133430031.117798768.1404299048.1426315843.1426325131.17; __utmc=133430031; __utmz=133430031.1404299048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_test=109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928; session_id_admin=93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/control/create_xml/1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.233.129.161</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>49159</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/control/create_xml/1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f054eb1a9d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f0524cd4630&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f054eb1a9d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f0524cd4630&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>create_xml</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 15, 2, 29, 42, 436359)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div>1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/control/create_xml/1396</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 15, 2, 29, 42, 436378)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/109.172.15.35.2015-03-15.02-29-42.cea85603-c5f9-4854-a162-146a5b0a1b1c</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f0522f70050&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/concordance/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7f053ff80030, file "/...pplications/test/controllers/control.py", line 2>'
+p69
+ssS'lnum'
+p70
+I220
+sS'lines'
+p71
+(dp72
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p73
+sI215
+S'    try:'
+p74
+sI216
+S'        if isinstance(code, types.CodeType):'
+p75
+sI217
+S'            ccode = code'
+p76
+sI218
+S'        else:'
+p77
+sI219
+S'            ccode = compile2(code, layer)'
+p78
+sI220
+S'        exec ccode in environment'
+p79
+sI221
+S'    except HTTP:'
+p80
+sI222
+S'        raise'
+p81
+sI223
+S'    except RestrictedError:'
+p82
+ssS'call'
+p83
+S"(code='# coding: utf8\\nimport nltk\\nimport pymorphy2\\nfrom...cs)\\n\\nresponse._vars=response._caller(create_xml)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}, layer='/home/concordance/web2py/applications/test/controllers/control.py')"
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/home/concordance/web2py/applications/test/controllers/control.py'
+p88
+sg64
+(dp89
+sg70
+I227
+sg71
+(dp90
+I224
+S'    topics=lsi.print_topics(5)'
+p91
+sI225
+S'    return dict(sims=sims,vec_bow=vec_bow, corpus_tfidf=corpus_tfidf, topics=topics)'
+p92
+sI216
+S'    tfidf = models.TfidfModel(corpus)'
+p93
+sI217
+S'    corpus_tfidf = tfidf[corpus]'
+p94
+sI218
+S'    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=5)'
+p95
+sI219
+S'    corpus_lsi = lsi[corpus_tfidf]'
+p96
+sI220
+S'    vec_lsi = lsi[vec_bow]'
+p97
+sI221
+S'    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])'
+p98
+sI222
+S'    sims = index[vec_lsi]'
+p99
+sI223
+S'    sims = sorted(enumerate(sims), key=lambda item: -item[1])'
+p100
+ssg83
+S'()'
+p101
+sg85
+S'<module>'
+p102
+sa(dp103
+g62
+S'/home/concordance/web2py/applications/test/modules/plugin_sqleditable/editable.py'
+p104
+sg64
+(dp105
+S'r'
+S'undefined'
+p106
+sS'func'
+p107
+S'<function create_xml>'
+p108
+ssg70
+I394
+sg71
+(dp109
+I389
+S'        self.next = None'
+p110
+sI390
+S''
+sI391
+S'    @staticmethod'
+p111
+sI392
+S'    def init():'
+p112
+sI393
+S'        def extract(func):'
+p113
+sI394
+S'            r=func()'
+p114
+sI395
+S'            if request.ajax:'
+p115
+sI396
+S'                if isinstance(r, dict):'
+p116
+sI397
+S'                    for v in r.values():'
+p117
+sI398
+S'                        if isinstance(v, SQLEDITABLE):'
+p118
+ssg83
+S'(func=<function create_xml>)'
+p119
+sg85
+S'extract'
+p120
+sa(dp121
+g62
+S'/home/concordance/web2py/applications/test/controllers/control.py'
+p122
+sg64
+(dp123
+S'global text'
+p124
+S'<DAL uri="sqlite://storage.sqlite">'
+p125
+sS'string'
+p126
+S'<Element line>'
+p127
+sS'etree.SubElement'
+p128
+S'<built-in function SubElement>'
+p129
+sS'global etree'
+p130
+S"<module 'lxml.etree' from '/usr/local/lib/python2.7/dist-packages/lxml/etree.so'>"
+p131
+sS'words'
+p132
+S"'\\xd0'"
+p133
+sS'slovo'
+p134
+g106
+ssg70
+I169
+sg71
+(dp135
+I164
+S'            count += 1'
+p136
+sI165
+S"            stanza = etree.SubElement(poem, 'stanza', number = str(count))"
+p137
+sI166
+S'        else:'
+p138
+sI167
+S"            string = etree.SubElement(stanza, 'line', text=lines.decode('utf-8'))"
+p139
+sI168
+S'            for words in tokenize1(lines):'
+p140
+sI169
+S"                slovo = etree.SubElement(string, 'word', text = words)"
+p141
+sI170
+S'    new_name=texts.filename[:-4]+".xml"'
+p142
+sI171
+S"    outFile = open(new_name, 'w')"
+p143
+sI172
+S"    doc.write(outFile, xml_declaration=True, encoding='utf-16')"
+p144
+sI173
+S'    outFile.close()'
+p145
+ssg83
+S'()'
+p146
+sg85
+S'create_xml'
+p147
+sa(dp148
+g62
+S'/home/concordance/web2py/lxml.etree.pyx'
+p149
+sg64
+(dp150
+sg70
+I2935
+sg71
+(dp151
+sg83
+S'()'
+p152
+sg85
+S'lxml.etree.SubElement (src/lxml/lxml.etree.c:67070)'
+p153
+sa(dp154
+g62
+S'/home/concordance/web2py/apihelpers.pxi'
+p155
+sg64
+(dp156
+sg70
+I201
+sg71
+(dp157
+sg83
+S'()'
+p158
+sg85
+S'lxml.etree._makeSubElement (src/lxml/lxml.etree.c:15492)'
+p159
+sa(dp160
+g62
+S'/home/concordance/web2py/apihelpers.pxi'
+p161
+sg64
+(dp162
+sg70
+I196
+sg71
+(dp163
+sg83
+S'()'
+p164
+sg85
+S'lxml.etree._makeSubElement (src/lxml/lxml.etree.c:15423)'
+p165
+sa(dp166
+g62
+S'/home/concordance/web2py/apihelpers.pxi'
+p167
+sg64
+(dp168
+sg70
+I268
+sg71
+(dp169
+sg83
+S'()'
+p170
+sg85
+S'lxml.etree._initNodeAttributes (src/lxml/lxml.etree.c:16296)'
+p171
+sa(dp172
+g62
+S'/home/concordance/web2py/apihelpers.pxi'
+p173
+sg64
+(dp174
+sg70
+I290
+sg71
+(dp175
+sg83
+S'()'
+p176
+sg85
+S'lxml.etree._addAttributeToNode (src/lxml/lxml.etree.c:16701)'
+p177
+sa(dp178
+g62
+S'/home/concordance/web2py/apihelpers.pxi'
+p179
+sg64
+(dp180
+sg70
+I1395
+sg71
+(dp181
+sg83
+S'()'
+p182
+sg85
+S'lxml.etree._utf8 (src/lxml/lxml.etree.c:26485)'
+p183
+sasS'pyver'
+p184
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p185
+sS'session'
+p186
+g57
+(S's>\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>trymysql.allword.id&gt;0</div></td></tr></table></div>'
+tRp187
+sS'etype'
+p188
+S"<type 'exceptions.ValueError'>"
+p189
+sS'date'
+p190
+S'Sun Mar 15 02:29:42 2015'
+p191
+sS'response'
+p192
+g57
+(S's\xe4\x1e\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f05233ff730&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>/test/static/plugin_sqleditable/js/mindmup-editabletable.js</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div><span class="highlighted">web2py</span></div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://concordances.ru</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xd0\x9e \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb5\xd0\xba\xd1\x82\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x90\xd0\xb4\xd0\xbc\xd0\xb8\xd0\xbd\xd0\xba\xd0\xb0</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/test/controllers/control.py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^control/\\w+\\.py$</div></td></tr><tr><td><div>^control/create_xml/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928&#x27;, mode &#x27;rb+&#x27; at 0x7f052372a540&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>22cf02261e5407fd5f00836e7d4a2dc9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-d5e8160c-1bec-4802-815c-3e1a54802928</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>control/create_xml.html</div></td></tr></table></div>'
+tRp193
+sS'locals'
+p194
+(dp195
+S'ParserBasedElementClassLookup'
+p196
+S"<type 'lxml.etree.ParserBasedElementClassLookup'>"
+p197
+sS'xmlfile'
+p198
+S"<type 'lxml.etree.xmlfile'>"
+p199
+sS'register_namespace'
+p200
+S'<built-in function register_namespace>'
+p201
+sS'NamespaceRegistryError'
+p202
+S"<class 'lxml.etree.NamespaceRegistryError'>"
+p203
+sS'XPathEvaluator'
+p204
+S'<built-in function XPathEvaluator>'
+p205
+sS'strip_attributes'
+p206
+S'<built-in function strip_attributes>'
+p207
+sS'SiblingsIterator'
+p208
+S"<type 'lxml.etree.SiblingsIterator'>"
+p209
+sS'LIBXSLT_VERSION'
+p210
+S'(1, 1, 28)'
+p211
+sS'XMLDTDID'
+p212
+S'<built-in function XMLDTDID>'
+p213
+sS'ElementTree'
+p214
+S'<built-in function ElementTree>'
+p215
+sS'cleanup_namespaces'
+p216
+S'<built-in function cleanup_namespaces>'
+p217
+sS'set_default_parser'
+p218
+S'<built-in function set_default_parser>'
+p219
+sS'ElementClassLookup'
+p220
+S"<type 'lxml.etree.ElementClassLookup'>"
+p221
+sS'parseid'
+p222
+S'<built-in function parseid>'
+p223
+sS'LxmlSyntaxError'
+p224
+S"<class 'lxml.etree.LxmlSyntaxError'>"
+p225
+sS'_XSLTProcessingInstruction'
+p226
+S"<type 'lxml.etree._XSLTProcessingInstruction'>"
+p227
+sS'__pyx_capi__'
+p228
+S'{\'appendChild\': <capsule object "void (struct LxmlElement *, struct LxmlElement *)">, \'appendChildToElement\': <capsule object "int (struct LxmlElement *, struct LxmlElement *)">, \'attributeValue\': <capsule object "PyObject *(xmlNode *, xmlAttr *)">, \'attributeValueFromNsName\': <capsule object "PyObject *(xmlNode *, const xmlChar *, const xmlChar *)">, \'callLookupFallback\': <capsule object "PyObject *(struct LxmlFallbackE...lassLookup *, struct LxmlDocument *, xmlNode *)">, \'collectAttributes\': <capsule object "PyObject *(xmlNode *, int)">, \'deepcopyNodeToDocument\': <capsule object "struct LxmlElement *(struct LxmlDocument *, xmlNode *)">, \'delAttribute\': <capsule object "int (struct LxmlElement *, PyObject *)">, \'delAttributeFromNsName\': <capsule object "int (xmlNode *, const xmlChar *, const xmlChar *)">, \'documentOrRaise\': <capsule object "struct LxmlDocument *(PyObject *)">, ...}'
+p229
+sS'LIBXML_VERSION'
+p230
+S'(2, 9, 1)'
+p231
+sS'XSLTParseError'
+p232
+S"<class 'lxml.etree.XSLTParseError'>"
+p233
+sS'_ElementMatchIterator'
+p234
+S"<type 'lxml.etree._ElementMatchIterator'>"
+p235
+sS'XPathEvalError'
+p236
+S"<class 'lxml.etree.XPathEvalError'>"
+p237
+sS'LxmlRegistryError'
+p238
+S"<class 'lxml.etree.LxmlRegistryError'>"
+p239
+sS'__file__'
+p240
+S"'/usr/local/lib/python2.7/dist-packages/lxml/etree.so'"
+p241
+sS'TreeBuilder'
+p242
+S"<type 'lxml.etree.TreeBuilder'>"
+p243
+sS'ParseError'
+p244
+S"<class 'lxml.etree.ParseError'>"
+p245
+sS'C14NError'
+p246
+S"<class 'lxml.etree.C14NError'>"
+p247
+sS'XMLPullParser'
+p248
+S"<type 'lxml.etree.XMLPullParser'>"
+p249
+sS'CommentBase'
+p250
+S"<type 'lxml.etree.CommentBase'>"
+p251
+sS'tostring'
+p252
+S'<built-in function tostring>'
+p253
+sS'iselement'
+p254
+S'<built-in function iselement>'
+p255
+sS'_FeedParser'
+p256
+S"<type 'lxml.etree._FeedParser'>"
+p257
+sS'XPathError'
+p258
+S"<class 'lxml.etree.XPathError'>"
+p259
+sS'LxmlError'
+p260
+S"<class 'lxml.etree.LxmlError'>"
+p261
+sS'__version__'
+p262
+S"u'3.3.5'"
+p263
+sS'XMLID'
+p264
+S'<built-in function XMLID>'
+p265
+sS'DocumentInvalid'
+p266
+S"<class 'lxml.etree.DocumentInvalid'>"
+p267
+sS'FunctionNamespace'
+p268
+S'<built-in function FunctionNamespace>'
+p269
+sS'XSLTExtensionError'
+p270
+S"<class 'lxml.etree.XSLTExtensionError'>"
+p271
+sS'Entity'
+p272
+S'<built-in function Entity>'
+p273
+sS'_Entity'
+p274
+S"<type 'lxml.etree._Entity'>"
+p275
+sS'iterparse'
+p276
+S"<type 'lxml.etree.iterparse'>"
+p277
+sS'ElementTextIterator'
+p278
+S"<type 'lxml.etree.ElementTextIterator'>"
+p279
+sS'ElementChildIterator'
+p280
+S"<type 'lxml.etree.ElementChildIterator'>"
+p281
+sS'XPath'
+p282
+S"<type 'lxml.etree.XPath'>"
+p283
+sS'_LogEntry'
+p284
+S"<type 'lxml.etree._LogEntry'>"
+p285
+sg64
+S'<built-in function dump>'
+p286
+sS'PyErrorLog'
+p287
+S"<type 'lxml.etree.PyErrorLog'>"
+p288
+sS'_ElementTree'
+p289
+S"<type 'lxml.etree._ElementTree'>"
+p290
+sS'_ListErrorLog'
+p291
+S"<type 'lxml.etree._ListErrorLog'>"
+p292
+sS'DTD'
+p293
+S"<type 'lxml.etree.DTD'>"
+p294
+sS'HTMLParser'
+p295
+S"<type 'lxml.etree.HTMLParser'>"
+p296
+sS'ElementNamespaceClassLookup'
+p297
+S"<type 'lxml.etree.ElementNamespaceClassLookup'>"
+p298
+sS'XPathFunctionError'
+p299
+S"<class 'lxml.etree.XPathFunctionError'>"
+p300
+sS'ElementDepthFirstIterator'
+p301
+S"<type 'lxml.etree.ElementDepthFirstIterator'>"
+p302
+sS'XMLParser'
+p303
+S"<type 'lxml.etree.XMLParser'>"
+p304
+sS'XInclude'
+p305
+S"<type 'lxml.etree.XInclude'>"
+p306
+sS'ETXPath'
+p307
+S"<type 'lxml.etree.ETXPath'>"
+p308
+sS'Schematron'
+p309
+S"<type 'lxml.etree.Schematron'>"
+p310
+sS'XPathDocumentEvaluator'
+p311
+S"<type 'lxml.etree.XPathDocumentEvaluator'>"
+p312
+sS'__all__'
+p313
+S"['AttributeBasedElementClassLookup', 'C14NError', 'CDATA', 'Comment', 'CommentBase', 'CustomElementClassLookup', 'DEBUG', 'DTD', 'DTDError', 'DTDParseError', 'DTDValidateError', 'DocumentInvalid', 'ETCompatXMLParser', 'ETXPath', 'Element', 'ElementBase', 'ElementClassLookup', 'ElementDefaultClassLookup', 'ElementNamespaceClassLookup', 'ElementTree', ...]"
+p314
+sS'_Attrib'
+p315
+S"<type 'lxml.etree._Attrib'>"
+p316
+sS'_Document'
+p317
+S"<type 'lxml.etree._Document'>"
+p318
+sS'strip_elements'
+p319
+S'<built-in function strip_elements>'
+p320
+sS'HTML'
+p321
+S'<built-in function HTML>'
+p322
+sS'memory_debugger'
+p323
+S'<lxml.etree._MemDebug object>'
+p324
+sS'RelaxNG'
+p325
+S"<type 'lxml.etree.RelaxNG'>"
+p326
+sS'_BaseErrorLog'
+p327
+S"<type 'lxml.etree._BaseErrorLog'>"
+p328
+sS'PI'
+p329
+S'<built-in function ProcessingInstruction>'
+p330
+sS'Extension'
+p331
+S'<built-in function Extension>'
+p332
+sS'__builtins__'
+p333
+S"<module '__builtin__' (built-in)>"
+p334
+sS'SchematronParseError'
+p335
+S"<class 'lxml.etree.SchematronParseError'>"
+p336
+sS'_Element'
+p337
+S"<type 'lxml.etree._Element'>"
+p338
+sS'XSLTExtension'
+p339
+S"<type 'lxml.etree.XSLTExtension'>"
+p340
+sS'XMLSchemaValidateError'
+p341
+S"<class 'lxml.etree.XMLSchemaValidateError'>"
+p342
+sS'XMLSchema'
+p343
+S"<type 'lxml.etree.XMLSchema'>"
+p344
+sS'DEBUG'
+p345
+S'1'
+sS'__name__'
+p346
+S"'lxml.etree'"
+p347
+sS'_ElementUnicodeResult'
+p348
+S"<type 'lxml.etree._ElementUnicodeResult'>"
+p349
+sS'ErrorTypes'
+p350
+S"<class 'lxml.etree.ErrorTypes'>"
+p351
+sS'Comment'
+p352
+S'<built-in function Comment>'
+p353
+sS'XMLTreeBuilder'
+p354
+S"<type 'lxml.etree.ETCompatXMLParser'>"
+p355
+sS'RelaxNGErrorTypes'
+p356
+S"<class 'lxml.etree.RelaxNGErrorTypes'>"
+p357
+sS'iterwalk'
+p358
+S"<type 'lxml.etree.iterwalk'>"
+p359
+sS'ProcessingInstruction'
+p360
+S'<built-in function ProcessingInstruction>'
+p361
+sS'LXML_VERSION'
+p362
+S'(3, 3, 5, 0)'
+p363
+sS'LIBXML_COMPILED_VERSION'
+p364
+S'(2, 9, 1)'
+p365
+sS'RelaxNGValidateError'
+p366
+S"<class 'lxml.etree.RelaxNGValidateError'>"
+p367
+sS'strip_tags'
+p368
+S'<built-in function strip_tags>'
+p369
+sS'XIncludeError'
+p370
+S"<class 'lxml.etree.XIncludeError'>"
+p371
+sS'tounicode'
+p372
+S'<built-in function tounicode>'
+p373
+sS'ElementBase'
+p374
+S"<type 'lxml.etree.ElementBase'>"
+p375
+sS'ParserError'
+p376
+S"<class 'lxml.etree.ParserError'>"
+p377
+sS'__docformat__'
+p378
+S"u'restructuredtext en'"
+p379
+sS'SerialisationError'
+p380
+S"<class 'lxml.etree.SerialisationError'>"
+p381
+sS'DocInfo'
+p382
+S"<type 'lxml.etree.DocInfo'>"
+p383
+sS'XSLTSaveError'
+p384
+S"<class 'lxml.etree.XSLTSaveError'>"
+p385
+sS'LIBXSLT_COMPILED_VERSION'
+p386
+S'(1, 1, 28)'
+p387
+sg48
+S"'The ``lxml.etree`` module implements the extended ElementTree API\\nfor XML.\\n'"
+p388
+sS'XPathElementEvaluator'
+p389
+S"<type 'lxml.etree.XPathElementEvaluator'>"
+p390
+sS'XML'
+p391
+S'<built-in function XML>'
+p392
+sS'XSLTError'
+p393
+S"<class 'lxml.etree.XSLTError'>"
+p394
+sS'XSLT'
+p395
+S"<type 'lxml.etree.XSLT'>"
+p396
+sS'_DomainErrorLog'
+p397
+S"<type 'lxml.etree._DomainErrorLog'>"
+p398
+sS'AncestorsIterator'
+p399
+S"<type 'lxml.etree.AncestorsIterator'>"
+p400
+sS'__test__'
+p401
+S"{u'XML (line 2987)': u'XML(text, parser=None, base_url=None)\\n\\n    P...ternal entities\\n    (DTD, XInclude, ...).\\n    '}"
+p402
+sS'Error'
+p403
+S"<class 'lxml.etree.Error'>"
+p404
+sS'ErrorLevels'
+p405
+S"<class 'lxml.etree.ErrorLevels'>"
+p406
+sS'_IDDict'
+p407
+S"<type 'lxml.etree._IDDict'>"
+p408
+sS'XPathResultError'
+p409
+S"<class 'lxml.etree.XPathResultError'>"
+p410
+sS'XSLTAccessControl'
+p411
+S"<type 'lxml.etree.XSLTAccessControl'>"
+p412
+sS'XMLSyntaxError'
+p413
+S"<class 'lxml.etree.XMLSyntaxError'>"
+p414
+sS'XMLSchemaParseError'
+p415
+S"<class 'lxml.etree.XMLSchemaParseError'>"
+p416
+sS'EntityBase'
+p417
+S"<type 'lxml.etree.EntityBase'>"
+p418
+sS'SubElement'
+p419
+S'<built-in function SubElement>'
+p420
+sS'CDATA'
+p421
+S"<type 'lxml.etree.CDATA'>"
+p422
+sS'_ElementTagMatcher'
+p423
+S"<type 'lxml.etree._ElementTagMatcher'>"
+p424
+sS'DTDError'
+p425
+S"<class 'lxml.etree.DTDError'>"
+p426
+sS'_ProcessingInstruction'
+p427
+S"<type 'lxml.etree._ProcessingInstruction'>"
+p428
+sS'get_default_parser'
+p429
+S'<built-in function get_default_parser>'
+p430
+sS'ErrorDomains'
+p431
+S"<class 'lxml.etree.ErrorDomains'>"
+p432
+sS'DTDValidateError'
+p433
+S"<class 'lxml.etree.DTDValidateError'>"
+p434
+sS'_SaxParserTarget'
+p435
+S"<type 'lxml.etree._SaxParserTarget'>"
+p436
+sS'parse'
+p437
+S'<built-in function parse>'
+p438
+sS'set_element_class_lookup'
+p439
+S'<built-in function set_element_class_lookup>'
+p440
+sS'CustomElementClassLookup'
+p441
+S"<type 'lxml.etree.CustomElementClassLookup'>"
+p442
+sS'_TargetParserResult'
+p443
+S"<class 'lxml.etree._TargetParserResult'>"
+p444
+sS'FallbackElementClassLookup'
+p445
+S"<type 'lxml.etree.FallbackElementClassLookup'>"
+p446
+sS'RelaxNGError'
+p447
+S"<class 'lxml.etree.RelaxNGError'>"
+p448
+sS'HTMLPullParser'
+p449
+S"<type 'lxml.etree.HTMLPullParser'>"
+p450
+sS'PythonElementClassLookup'
+p451
+S"<type 'lxml.etree.PythonElementClassLookup'>"
+p452
+sS'clear_error_log'
+p453
+S'<built-in function clear_error_log>'
+p454
+sS'_RotatingErrorLog'
+p455
+S"<type 'lxml.etree._RotatingErrorLog'>"
+p456
+sS'__package__'
+p457
+S'None'
+p458
+sS'AttributeBasedElementClassLookup'
+p459
+S"<type 'lxml.etree.AttributeBasedElementClassLookup'>"
+p460
+sS'SchematronError'
+p461
+S"<class 'lxml.etree.SchematronError'>"
+p462
+sS'Resolver'
+p463
+S"<type 'lxml.etree.Resolver'>"
+p464
+sS'fromstringlist'
+p465
+S'<built-in function fromstringlist>'
+p466
+sS'XSLTApplyError'
+p467
+S"<class 'lxml.etree.XSLTApplyError'>"
+p468
+sS'_Comment'
+p469
+S"<type 'lxml.etree._Comment'>"
+p470
+sS'_Validator'
+p471
+S"<type 'lxml.etree._Validator'>"
+p472
+sS'DTDParseError'
+p473
+S"<class 'lxml.etree.DTDParseError'>"
+p474
+sS'_ElementIterator'
+p475
+S"<type 'lxml.etree._ElementIterator'>"
+p476
+sS'_ErrorLog'
+p477
+S"<type 'lxml.etree._ErrorLog'>"
+p478
+sS'Element'
+p479
+S'<built-in function Element>'
+p480
+sS'PIBase'
+p481
+S"<type 'lxml.etree.PIBase'>"
+p482
+sS'_ElementStringResult'
+p483
+S"<class 'lxml.etree._ElementStringResult'>"
+p484
+sS'XPathSyntaxError'
+p485
+S"<class 'lxml.etree.XPathSyntaxError'>"
+p486
+sS'_XSLTResultTree'
+p487
+S"<type 'lxml.etree._XSLTResultTree'>"
+p488
+sS'XMLSchemaError'
+p489
+S"<class 'lxml.etree.XMLSchemaError'>"
+p490
+sS'use_global_python_log'
+p491
+S'<built-in function use_global_python_log>'
+p492
+sS'_XPathEvaluatorBase'
+p493
+S"<type 'lxml.etree._XPathEvaluatorBase'>"
+p494
+sS'tostringlist'
+p495
+S'<built-in function tostringlist>'
+p496
+sS'fromstring'
+p497
+S'<built-in function fromstring>'
+p498
+sS'QName'
+p499
+S"<type 'lxml.etree.QName'>"
+p500
+sS'SchematronValidateError'
+p501
+S"<class 'lxml.etree.SchematronValidateError'>"
+p502
+sS'ETCompatXMLParser'
+p503
+S"<type 'lxml.etree.ETCompatXMLParser'>"
+p504
+sS'RelaxNGParseError'
+p505
+S"<class 'lxml.etree.RelaxNGParseError'>"
+p506
+sS'ElementDefaultClassLookup'
+p507
+S"<type 'lxml.etree.ElementDefaultClassLookup'>"
+p508
+sssS'traceback'
+p509
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/controllers/control.py", line 227, in <module>\n  File "applications/test/modules/plugin_sqleditable/editable.py", line 394, in extract\n    r=func()\n  File "/home/concordance/web2py/applications/test/controllers/control.py", line 169, in create_xml\n    slovo = etree.SubElement(string, \'word\', text = words)\n  File "lxml.etree.pyx", line 2935, in lxml.etree.SubElement (src/lxml/lxml.etree.c:67070)\n  File "apihelpers.pxi", line 201, in lxml.etree._makeSubElement (src/lxml/lxml.etree.c:15492)\n  File "apihelpers.pxi", line 196, in lxml.etree._makeSubElement (src/lxml/lxml.etree.c:15423)\n  File "apihelpers.pxi", line 268, in lxml.etree._initNodeAttributes (src/lxml/lxml.etree.c:16296)\n  File "apihelpers.pxi", line 290, in lxml.etree._addAttributeToNode (src/lxml/lxml.etree.c:16701)\n  File "apihelpers.pxi", line 1395, in lxml.etree._utf8 (src/lxml/lxml.etree.c:26485)\nValueError: All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters\n'
+p510
+s.

@@ -52,8 +52,8 @@ def show3():
         response.flash="form accepted"
     return dict(text_view=text_view, form=form)
 
-def tokenize_all(): # prepares text for tokenization (decoding) and write result in database text.words
-    for x in range(3258,3336): # if text not yet in database trymysql.allword
+def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
+    for x in range(3258,3336): # if text not yet in database
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -67,26 +67,6 @@ def tokenize_all(): # prepares text for tokenization (decoding) and write result
         for token in normal:
             trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
             message = "Все добавлено в базу"
-    return dict(message=message)
-
-def tokenize_new(): # prepares text for tokenization (decoding) and write result in database text.words
-    base_id = [int(all.title) for all in trymysql().select(trymysql.allword.ALL)]
-    if int(request.args(0)) not in base_id: # if text not yet in database text.words
-        text2 = trymysql(trymysql.text1.id==request.args(0)).select().first()
-        text1 = text2['body'].decode('utf-8')
-        path = "/home/concordance/web2py/applications/test/uploads/"
-        filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str('.txt')
-        filename= str(path) + str(filename1)
-        f = open(filename, 'w')
-        f.write(text1.encode('utf-8'))
-        f.close()
-        text2.update_record(filename=filename)
-        normal = normalize_new2(text1)
-        for token in normal:
-            text.words.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
-            message = "Все добавлено в базу"
-    else:
-        message = "Все уже в базе"
     return dict(message=message)
 
 def search_for_files():
@@ -171,13 +151,23 @@ def create_xml():
     content = f.readlines()
     page = etree.Element('results')
     doc = etree.ElementTree(page)
-    info = etree.SubElement(page, 'Info', name = 'Info')
-    one = etree.SubElement(info, 'Title', name = title.decode('utf-8'))
-    two = etree.SubElement(info, 'Name', name = author.name.decode('utf-8'))
-    three = etree.SubElement(info, 'Author', name = author.family.decode('utf-8'))
+    new = etree.SubElement(page, 'text')
+    info = etree.SubElement(new, 'info')
+    one = etree.SubElement(info, 'title', title = title.decode('utf-8'))
+    two = etree.SubElement(info, 'name', name = author.name.decode('utf-8'))
+    three = etree.SubElement(info, 'author', family = author.family.decode('utf-8'))
+    poem = etree.SubElement(new, 'poem', name = 'Poem')
+    count = 1
+    stanza = etree.SubElement(poem,  'stanza', number = str(count))
     for lines in content:
-        pageElement = etree.SubElement(page, 'String', name=lines.decode('utf-8'))
-    new_name=texts.filename+".xml"
+        if lines in ['\n', '\r\n']:
+            count += 1
+            stanza = etree.SubElement(poem, 'stanza', number = str(count))
+        else:
+            string = etree.SubElement(stanza, 'line', text=lines.decode('utf-8'))
+            for words in tokenize1(lines.decode('utf-8')):
+                slovo = etree.SubElement(string, 'word', text = words)
+    new_name=texts.filename[:-4]+".xml"
     outFile = open(new_name, 'w')
     doc.write(outFile, xml_declaration=True, encoding='utf-16')
     outFile.close()

@@ -151,13 +151,23 @@ def create_xml():
     content = f.readlines()
     page = etree.Element('results')
     doc = etree.ElementTree(page)
-    info = etree.SubElement(page, 'Info', name = 'Info')
-    one = etree.SubElement(info, 'Title', name = title.decode('utf-8'))
-    two = etree.SubElement(info, 'Name', name = author.name.decode('utf-8'))
-    three = etree.SubElement(info, 'Author', name = author.family.decode('utf-8'))
+    new = etree.SubElement(page, 'text')
+    info = etree.SubElement(new, 'info')
+    one = etree.SubElement(info, 'title', title = title.decode('utf-8'))
+    two = etree.SubElement(info, 'name', name = author.name.decode('utf-8'))
+    three = etree.SubElement(info, 'author', family = author.family.decode('utf-8'))
+    poem = etree.SubElement(new, 'poem', name = 'Poem')
+    count = 1
+    stanza = etree.SubElement(poem,  'stanza', number = str(count))
     for lines in content:
-        pageElement = etree.SubElement(page, 'String', name=lines.decode('utf-8'))
-    new_name=texts.filename+".xml"
+        if lines in ['\n', '\r\n']:
+            count += 1
+            stanza = etree.SubElement(poem, 'stanza', number = str(count))
+        else:
+            string = etree.SubElement(stanza, 'line', text=lines.decode('utf-8'))
+            for words in tokenize2(lines.decode('utf-8')):
+                slovo = etree.SubElement(string, 'word', text = words)
+    new_name=texts.filename[:-4]+".xml"
     outFile = open(new_name, 'w')
     doc.write(outFile, xml_declaration=True, encoding='utf-16')
     outFile.close()

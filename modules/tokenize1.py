@@ -7,9 +7,13 @@ from operator import itemgetter
 
 def tokenize1(text1): # tokenization of decoded text, returns list of tokens
     text3 = nltk.wordpunct_tokenize(text1)
-    stop = [',', '.', ';', ':', '!', '?', '!"', '..', '!.', '...', '—', '-', '«', '»', '»', '"', '— ', '—', '!».', '!»', '4', '5', '6', '7', '8', '9', '0']
+    stop = [',', '.', ';', ':', '!', '?', '!"', '..', '!.', '...', '—', '-', '«', '»', '»', '"', '— ', '—', '!».', '!»', '4', '5', '6', '7', '8', '9', '0', " "]
     tokens = [s.lower() for s in text3 if s not in stop]
     return tokens
+
+def tokenize2(text1): # tokenization of decoded text, returns list of tokens, for def_create_xml
+    text3 = nltk.wordpunct_tokenize(text1)
+    return text3
 
 def normalize_new2(text1):
     text3 = nltk.wordpunct_tokenize(text1)
