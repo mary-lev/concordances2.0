@@ -16,7 +16,7 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(1777,1944): # if text not yet in database
+    for x in range(3336,3500): # if text not yet in database
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -71,6 +71,7 @@ def edit_forms():
     editable = SQLEDITABLE(trymysql.allword, record=record(), deletable=True).process()
     return dict(editable=editable)
 
+@auth.requires_login()
 def edit_forms1():
     def record():
         titles = [x for x in range(600,700)]

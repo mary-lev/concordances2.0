@@ -1,0 +1,3 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон morpho/search.html</h1>
+{{=BEAUTIFY(response._vars)}}

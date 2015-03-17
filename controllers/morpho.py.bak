@@ -6,10 +6,10 @@ names = ['Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
 style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
 other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
 partos = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
-animacy = ['anim', 'inan']
-gender = ['masc', 'femn', 'neut', 'Ms-f']
+animacy = ['None','anim', 'inan']
+gender = ['None','masc', 'femn', 'neut', 'Ms-f']
 number = ['sing', 'plur', 'Sgtm', 'Pltm']
-case = ['nomn', 'gent', 'datv', 'accs', 'ablt', 'loct', 'voct', 'gen1', 'gen2', 'acc2', 'loc1', 'loc2']
+case = ['None','nomn', 'gent', 'datv', 'accs', 'ablt', 'loct', 'voct', 'gen1', 'gen2', 'acc2', 'loc1', 'loc2']
 aspect = ['perf', 'impf']
 trans = ['tran', 'intr']
 person = ['1per', '2per', '3per']
@@ -22,7 +22,7 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(3292,3335)]
+    titles = [x for x in range(3335,3500)]
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
@@ -88,5 +88,55 @@ def count_tense_group():
         new.append((name['title'], tense))
     return dict(new=new)
 
-def visual():
-    return dict()
+def search():
+    options2 = [OPTION(texts.name, " ", texts.family, _value=texts.id) for texts in trymysql().select(trymysql.author.ALL)]
+    form=FORM(TABLE(TR("Часть речи",SELECT(*partos, _name="first")),
+                    TR("Падеж",SELECT(*case, _name="second")),
+                    TR("Одушевленность",SELECT(*animacy, _name="animacy")),
+                    TR("Род", SELECT(*gender, _name="gender")),
+                    TR("Автор", SELECT(*options2, _name="author")),
+                    TR("",INPUT(_type="submit",_value="SUBMIT"))))
+    if form.process(formname='form_one').accepted:
+        redirect(URL('search_result', args =
+                     [form.vars['first'],
+                      form.vars['second'],
+                      form.vars['animacy'],
+                      form.vars['gender'],
+                      form.vars['author']]))
+        response.flash="form accepted"
+    return dict(form=form)
+
+def search_result():
+    selected_partos = request.args(0)
+    selected_form = request.args(1)
+    anim = request.args(2)
+    gender = request.args(3)
+    author= request.args(4)
+    words = trymysql((trymysql.allword.partos==request.args(0))&
+                     (trymysql.allword.anim==request.args(2))&
+                     (trymysql.allword.gendr==request.args(3))&
+                     (trymysql.allword.author==request.args(4))&
+                     (trymysql.allword.cas==request.args(1))).select()
+    strings =[]
+    for all in words[:30]:
+        location = all.text_location
+        title1 = trymysql(trymysql.text1.id==int(all.title)).select()[0]
+        title=title1.title
+        author= (title1.author.name, title1.author.family)
+        string="..."
+        for x in range(all.id-6, all.id+6):
+            for_string = trymysql(trymysql.allword.id==x).select()[0]
+            string= string + " " + str(for_string.lemma)
+        strings.append((string +"...", title, author, int(title1.id)))
+    return dict(p = selected_partos, f = selected_form, strings=strings)
+    
+def draft():
+    base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]
+    base_id0=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(1)).select()]
+    colours=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id))).count() for all in color]
+    colours2=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id0))).count() for all in color]
+    all_colours = sum([int(x) for x in colours])
+    all_colours2 = sum([int(x) for x in colours2])
+    title_1 = trymysql(trymysql.group_text.id==request.args(0)).select().first()
+    title_2 = trymysql(trymysql.group_text.id==request.args(1)).select().first()
+    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, title1=title_1.title, author1=title_1.author.family, title2=title_2.title, author2=title_2.author.family)

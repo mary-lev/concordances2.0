@@ -19,7 +19,11 @@ def index():
     return auth.wiki()
     """
     texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
-    return dict(texts=texts)
+    numbers = []
+    for all in texts:
+        number = trymysql(trymysql.text1.author==all.id).count()
+        numbers.append([all.name, all.family,all.id, number])
+    return dict(texts=texts, numbers=numbers)
 
 def user():
     """

@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<h1>Результаты морфологического поиска {{=I(request.args(0))}}</h1>
+<ul>
+{{for all in strings:}}
+<li>{{=all[0]}} ({{=A(all[1], _href=URL("show", "show1", args=all[3]))}}, {{=all[2][0]}} {{=all[2][1]}}) </li>
+{{pass}}
+</ul>

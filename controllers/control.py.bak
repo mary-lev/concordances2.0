@@ -16,7 +16,7 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(1777,1944): # if text not yet in database
+    for x in range(3336,3500): # if text not yet in database
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -41,20 +41,6 @@ def verbs_all(): # show verbs in the text
     verbs1=[row['word'] for row in trymysql((trymysql.allword.author=='1')&(trymysql.allword.partos=='VERB')).select()]
     verbs1=sorted(set(verbs1))
     return dict(verbs1=verbs1)
-
-def concordance(): # concordance of one text
-    all_words = trymysql(trymysql.allword.title==request.args(0)).select()
-    lens=len(all_words)
-    vocab = []
-    for row in all_words:
-        w = row.word
-        q = trymysql((trymysql.allword.word==row.word)&(trymysql.allword.title==request.args(0))).select()
-        qq = round(((len(q)/float(lens))*100), 2)
-        c = [w, len(q), qq]
-        if c not in vocab:
-            vocab.append(c)
-    vocab.sort(key = itemgetter(0), reverse=False)
-    return dict(lens=lens, vocab=vocab)
 
 def mystem():
     word="стояла"
@@ -85,6 +71,7 @@ def edit_forms():
     editable = SQLEDITABLE(trymysql.allword, record=record(), deletable=True).process()
     return dict(editable=editable)
 
+@auth.requires_login()
 def edit_forms1():
     def record():
         titles = [x for x in range(600,700)]
