@@ -1,5 +1,8 @@
 {{extend 'layout.html'}}
-<h1>Результаты морфологического поиска {{=I(request.args(0))}} + {{=I(request.args(1), request.args(2))}}</h1>
+<h1>Результаты морфологического поиска {{for all in request.args:}} {{if all != 'None':}} {{=I(all)}} {{pass}} {{pass}}</h1>
+<right><h5><a href="https://concordance.pythonanywhere.com/test/morpho/search">Обратно к выбору морфологии</a></h5></right>
+{{=message}}
+
 <ol>
 {{for all in strings:}}
 <li>{{for word in all[0].split():}}
@@ -7,6 +10,6 @@
         <span style="color:blue; font-weight: bold">{{=word}}</span>
 {{else:}}
 {{=word}} {{pass}} {{pass}}
-    ({{=A(all[1], _href=URL("show", "show1", args=all[3]))}}, {{=all[2][0]}} {{=all[2][1]}}) </li>
+    ({{=A(all[1], " ", all[2][0], " ", all[2][1], _href=URL("show", "show1", args=all[3]))}}) </li>
 {{pass}}
 </ol>

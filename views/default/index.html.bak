@@ -7,11 +7,11 @@
             <h4>Корпус</h4>
             <ul>
 {{for number in numbers:}}
-       <li> {{=A(number[0], " ", number[1], ". ", _href=URL('author', "all_author", args=number[2]))}} ({{=number[3]}})</li>
+       <li> {{=A(number[0], " ", number[1], _href=URL('author', "all_author", args=number[2]))}} ({{=number[3]}})</li>
 {{pass}} </ul>
-            {{end}}
-        </div>
-        {{pass}}
+      {{end}}
+      </div>
+      {{pass}}
 
         <div class="{{=middle_columns}}">
             {{block center}}<h4>Концептуальный текст тут.</h4>
@@ -28,8 +28,9 @@
     <li> {{=A("Хронология", _href=URL("calendar", "index"))}}</li>
   <li>{{=A("Цвета", _href=URL("color", "index"))}}</li>
   <li>{{=A("Контекстный поиск", _href=URL("context", "index"))}}</li>
+  <li>{{=A("Морфологический поиск", _href=URL("morpho", "search"))}}</li>
   <li>{{=A("По частям речи", _href=URL("count", "index"))}}</li>
-    <li><a href = 'https://concordance.pythonanywhere.com/test/morpho/count_partos.html'>Морфологическая статистика</a></li>
+<!--  <li><a href = 'https://concordance.pythonanywhere.com/test/morpho/count_partos.html'>Морфологическая статистика</a></li> --!>
     <li>{{=A("Test it", _href=("search_for_files"))}}</li>
 </ul>
 {{end}}
