@@ -7,10 +7,10 @@ style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
 other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
 
 partos = ['None', 'NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
-animacy = ['None','anim', 'inan']
-gender = ['None','masc', 'femn', 'neut', 'Ms-f']
+animacy = ['None', 'anim', 'inan']
+gender = ['None', 'masc', 'femn', 'neut', 'Ms-f']
 number = ['None', 'sing', 'plur', 'Sgtm', 'Pltm']
-case = ['None','nomn', 'gent', 'datv', 'accs', 'ablt', 'loct', 'voct', 'gen1', 'gen2', 'acc2', 'loc1', 'loc2']
+case = ['None', 'nomn', 'gent', 'datv', 'accs', 'ablt', 'loct', 'voct', 'gen1', 'gen2', 'acc2', 'loc1', 'loc2']
 aspect = ['None', 'perf', 'impf']
 trans = ['None', 'tran', 'intr']
 person = ['None', '1per', '2per', '3per']
@@ -23,17 +23,17 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(3335,3500)]
+    titles = [x for x in range(1156,1157)] # last: 3500
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
         normal = morph.parse(the_word)[0]
         parsed_other = parse_tags(normal.tag, other)['result']
         parsed_style = parse_tags(normal.tag, style)['result']
-        parsed_name = parse_tags(normal.tag, names)['result']
-        if all.partos != 'None' and all.partos != 'PNCT':
+        parsed_name = parse_tags(normal.tag, names[1:])['result']
+        if all.partos != 'None':
             all.update_record(anim = str(normal.tag.animacy), gendr=str(normal.tag.gender), number = str(normal.tag.number), cas = str(normal.tag.case), tense = str(normal.tag.tense), aspect = str(normal.tag.aspect), person = str(normal.tag.person), transitivity= str(normal.tag.transitivity), mood = str(normal.tag.mood), involvment = str(normal.tag.involvement), voice = str(normal.tag.voice), sobstv=parsed_name, style = parsed_style, other = parsed_other)
-    return dict(parsed_other=parsed_other)
+    return dict()
 
 def parse_tags(tags, list_tags):
     parsed = [x for x in list_tags if x in tags]
@@ -174,14 +174,3 @@ def search_result():
                     pass
             strings.append((string +"...", title, author, int(title1.id)))
     return dict(strings=strings, message=message)
-
-def draft():
-    base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]
-    base_id0=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(1)).select()]
-    colours=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id))).count() for all in color]
-    colours2=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id0))).count() for all in color]
-    all_colours = sum([int(x) for x in colours])
-    all_colours2 = sum([int(x) for x in colours2])
-    title_1 = trymysql(trymysql.group_text.id==request.args(0)).select().first()
-    title_2 = trymysql(trymysql.group_text.id==request.args(1)).select().first()
-    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, title1=title_1.title, author1=title_1.author.family, title2=title_2.title, author2=title_2.author.family)

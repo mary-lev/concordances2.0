@@ -133546,3 +133546,39 @@ CREATE TABLE wiki_media(
     modified_by INTEGER REFERENCES auth_user (id) ON DELETE CASCADE
 );
 success!
+timestamp: 2015-03-20T04:45:00.058340
+CREATE TABLE comments(
+    id INT AUTO_INCREMENT NOT NULL,
+    title INT, INDEX title__idx (title), FOREIGN KEY (title) REFERENCES text1 (id) ON DELETE CASCADE,
+    word_first INT, INDEX word_first__idx (word_first), FOREIGN KEY (word_first) REFERENCES allword (id) ON DELETE CASCADE,
+    word_last INT, INDEX word_last__idx (word_last), FOREIGN KEY (word_last) REFERENCES allword (id) ON DELETE CASCADE,
+    comment_text VARCHAR(512),
+    comment_book VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2015-03-20T04:55:29.011995
+ALTER TABLE comments ADD comment_year VARCHAR(512);
+success!
+success!
+timestamp: 2015-03-20T04:56:26.037758
+ALTER TABLE comments ADD comment_text__tmp LONGTEXT;
+success!
+UPDATE comments SET comment_text__tmp=comment_text;
+success!
+ALTER TABLE comments DROP COLUMN comment_text;
+success!
+ALTER TABLE comments ADD comment_text LONGTEXT;
+success!
+UPDATE comments SET comment_text=comment_text__tmp;
+success!
+ALTER TABLE comments DROP COLUMN comment_text__tmp;
+success!
+success!
+timestamp: 2015-03-21T06:50:09.748274
+ALTER TABLE comments ADD stanza VARCHAR(512);
+success!
+timestamp: 2015-03-21T06:50:10.027397
+ALTER TABLE comments ADD line VARCHAR(512);
+success!
+success!

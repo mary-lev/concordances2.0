@@ -78,8 +78,17 @@ trymysql.define_table('allword',
 trymysql.define_table('concordance',
                   Field('word', label="Слово"),
                   Field('partos', label="Часть речи"),
-                  Field('lexical', label="Лексическая группа"),
-                  migrate=False,fake_migrate=True)
+                  Field('lexical', label="Лексическая группа"))
+
+trymysql.define_table('comments',
+                      Field('title', trymysql.text1, label = "Номер текста"),
+                      Field('stanza', label = "Номер строфы в тексте"),
+                      Field('line', label = "Номер строки в тексте"),
+                      Field('word_first', trymysql.allword, label="Номер первого слова"),
+                      Field('word_last', trymysql.allword, label="Номер последнего слова"),
+                      Field('comment_text', 'text', label = "Комментарий"),
+                      Field('comment_book', label = "Источник"),
+                      Field('comment_year', label="Год публикации комментария"))
 
 trymysql.define_table('data',
                   Field('author', trymysql.author),

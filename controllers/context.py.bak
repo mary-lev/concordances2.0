@@ -8,19 +8,22 @@ def index(): # get text from user's file
 
 def context1():
     text1 = request.vars.word
-    texts = text(text.words.word==request.vars.word).select()
+    texts = trymysql(trymysql.allword.word==request.vars.word).select()
     strings=[]
     for all in texts:
         location = all.text_location
-        title1 = text(text.text.id==int(all.title)).select()[0]
+        title1 = trymysql(trymysql.text1.id==int(all.title)).select()[0]
         title=title1.title
         author= (title1.author.name, title1.author.family)
         string="..."
         for x in range(all.id-6, all.id+6):
-            for_string = text(text.words.id==x).select()[0]
-            if for_string.lemma=="," or for_string.lemma=='.':
-                string = string + str(for_string.lemma)
-            else:
-                string= string + " " + str(for_string.lemma)
-        strings.append((string +"...", title, author, int(title1.id)))
+            try:
+                for_string = trymysql(trymysql.allword.id==x).select()[0]
+                if for_string.lemma=="," or for_string.lemma=='.':
+                    string = string + str(for_string.lemma)
+                else:
+                    string= string + " " + str(for_string.lemma)
+                strings.append((string +"...", title, author, int(title1.id)))
+            except:
+                pass
     return dict(strings=strings)

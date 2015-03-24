@@ -16,7 +16,7 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(3336,3500): # if text not yet in database
+    for x in range(1156,1157): # if text not yet in database (last:3500)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -95,25 +95,29 @@ def month():
     return dict(months=months)
 
 def create_xml():
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==8).select()]
     page = etree.Element('results') # create xml tree
     doc = etree.ElementTree(page)
-    author_texts = [all.id for all in trymysql(trymysql.text1.author==11).select()]
-    for x in author_texts:
-        texts = trymysql(trymysql.text1.id==x).select()[0] # select one poem
-        words_from_base = trymysql(trymysql.allword.title==x).select().first().id # select the poem's words from allword base
-        title = texts.title
-        author = texts.author
+    for x in author_texts[1:]:
+        texts = trymysql(trymysql.text1.id==int(x)).select()[0] # select one poem
+        words_from_base = trymysql(trymysql.allword.title==int(x)).select() # select the poem's words from allword base
         f = open(texts.filename, 'rb')
         content = f.readlines()
+        f.close()
         text = etree.SubElement(page, 'text')
         info = etree.SubElement(text, 'info')
-        one = etree.SubElement(info, 'title').text = title.decode('utf-8')
-        two = etree.SubElement(info, 'name').text = author.name.decode('utf-8')
-        three = etree.SubElement(info, 'author').text = author.family.decode('utf-8')
+        one = etree.SubElement(info, 'title').text = texts.title.decode('utf-8')
+        two = etree.SubElement(info, 'name').text = texts.author.name.decode('utf-8')
+        three = etree.SubElement(info, 'author').text = texts.author.family.decode('utf-8')
+        try:
+            date = etree.SubElement(info, 'year').text = texts.year_writing
+        except:
+            pass
         poem = etree.SubElement(text, 'poem')
         count_stanza = 1                                             # count stanzas
-        line_count = 1
-        word_number = words_from_base                          # get first word's id from allword base
+        line_count = 1                   # get first word's id from allword base
+        word_count = 0
+        word_number = words_from_base[0].id
         stanza = etree.SubElement(poem,  'stanza', number = str(count_stanza))
         for lines in content:
             if lines in ['\n', '\r\n']:
@@ -124,61 +128,81 @@ def create_xml():
                 right_line = tokenize2(lines.decode('utf-8'))
                 line_count +=1
                 for word in right_line:
-                    slovo_from_base = trymysql(trymysql.allword.id==word_number).select()[0]
-                    slovo = etree.SubElement(string, 'word', pos = slovo_from_base.partos).text=word
+                    if len(words_from_base)>0:
+                        if words_from_base[word_count].id != word_number:
+                            slovo=etree.SubElement(string, 'werd')
+                            word_number+=1
+                        else:
+                            slovo = etree.SubElement(string, 'word', number=str(words_from_base[word_count].id), pos = words_from_base[word_count].partos).text=words_from_base[word_count].lemma.decode('utf-8')
+                            word_count +=1
+                            word_number +=1
+                    else:
+                        slovo=etree.SubElement(string, 'wurd')
+                        word_number +=1
+                        word_count += 1
+    path = "applications/test/uploads/xml/8"
+    new_name=path + ".xml"
+    outFile = open(new_name, 'w')
+    doc.write(outFile, pretty_print=True, xml_declaration=True, encoding='utf-16')
+    outFile.close()
+
+def create_xml_unique(): # create one xml for one text
+    ## author_texts = [all.id for all in trymysql(trymysql.text1.author==11).select()]
+    for x in range(1827,1877):
+        page = etree.Element('results') # create xml tree
+        doc = etree.ElementTree(page)
+        texts = trymysql(trymysql.text1.id==int(x)).select().first() # select one poem
+        words_from_base = trymysql(trymysql.allword.title==int(x)).select().first().id # select the poem's words from allword base
+        title = texts.title
+        author = texts.author
+        f = open(texts.filename, 'rb')
+        content = f.readlines()
+        f.close()
+        text = etree.SubElement(page, 'text')
+        info = etree.SubElement(text, 'info')
+        one = etree.SubElement(info, 'title').text = title.decode('utf-8')
+        two = etree.SubElement(info, 'name').text = author.name.decode('utf-8')
+        three = etree.SubElement(info, 'author').text = author.family.decode('utf-8')
+        poem = etree.SubElement(text, 'poem')
+        count_stanza = 1                                             # count stanzas
+        line_count = 1
+        word_number = words_from_base                       # get first word's id from allword base
+        stanza = etree.SubElement(poem,  'stanza', number = str(count_stanza))
+        for lines in content:
+            if lines in ['\n', '\r\n']:
+                count_stanza += 1
+                stanza = etree.SubElement(poem, 'stanza', number = str(count_stanza))
+            else:
+                string = etree.SubElement(stanza, 'line', number=str(line_count))
+                right_line = tokenize2(lines.decode('utf-8'))
+                line_count +=1
+                for word in right_line:
+                    if trymysql(trymysql.allword.id==word_number).select().first() is None:
+                        slovo = etree.SubElement(string, 'werd', number = str(word_number))
+                    else:
+                        if trymysql(trymysql.allword.id==word_number).select().first().id in [all.id for all in trymysql(trymysql.allword.title==x).select()]:
+                            slovo_from_base = trymysql(trymysql.allword.id==word_number).select().first()
+                            slovo = etree.SubElement(string, 'word', number=str(slovo_from_base.id), pos = slovo_from_base.partos).text=slovo_from_base.lemma.decode('utf-8')
                     word_number+=1 # update word's id
-        path = "applications/test/uploads/xml/"
-        new_name=path+str(texts.author.id) + ".xml"
+        path = "applications/test/uploads/xml/12/"
+        new_name=path+str(x) + ".xml"
         outFile = open(new_name, 'w')
         doc.write(outFile, pretty_print=True, xml_declaration=True, encoding='utf-16')
         outFile.close()
 
-def create_xml1(): # save draft
-    texts = trymysql(trymysql.text1.id==request.args(0)).select().first() # select a poem
-    words_from_base = trymysql(trymysql.allword.title==request.args(0)).select() # select a poem words from allword base
-    stop = [',', '.', ';', ':', '!', '?', '!"', '..', '!.', '...', '—', '-', '«', '»', '»', '"', '— ', '—', '!».', '!»', '4', '5', '6', '7', '8', '9', '0', " "]
-    title = texts.title
-    author = texts.author
-    f = open(texts.filename, 'rb')
-    content = f.readlines()
-    page = etree.Element('results') # create xml tree
-    doc = etree.ElementTree(page)
-    new = etree.SubElement(page, 'text')
-    info = etree.SubElement(new, 'info')
-    one = etree.SubElement(info, 'title', title = title.decode('utf-8'))
-    two = etree.SubElement(info, 'name', name = author.name.decode('utf-8'))
-    three = etree.SubElement(info, 'author', family = author.family.decode('utf-8'))
-    poem = etree.SubElement(new, 'poem', name = 'Poem')
-    count_stanza = 1                                             # count stanzas
-    line_count = 1
-    word_number = words_from_base[0].id                          # get first word's id from allword base
-    stanza = etree.SubElement(poem,  'stanza', number = str(count_stanza))
-    for lines in content:
-        if lines in ['\n', '\r\n']:
-            count_stanza += 1
-            stanza = etree.SubElement(poem, 'stanza', number = str(count_stanza))
-        else:
-            new_line = tokenize1(lines.decode('utf-8'))
-            string = etree.SubElement(stanza, 'line', number=str(line_count), length = str(len(new_line)))
-            right_line = tokenize2(lines.decode('utf-8'))
-            line_count +=1
-            for word in right_line:
-                slovo_from_base = trymysql(trymysql.allword.id==word_number).select()[0]
-                if word == new_line[-1]:
-                    slovo = etree.SubElement(string, 'word', text = word, pos = slovo_from_base.partos, type='rhyme')
-                else:
-                    slovo = etree.SubElement(string, 'word', text = word, pos = slovo_from_base.partos)
-                word_number+=1 # update word's id
-    new_name=texts.filename[:-4]+".xml"
-    outFile = open(new_name, 'w')
-    doc.write(outFile, xml_declaration=True, encoding='utf-16')
-    outFile.close()
 
 def create_concordance():
-    all_words = trymysql().select(trymysql.allword.ALL)
     part=['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
-    all1=[all.word for all in all_words if all.partos in part]
+    all1=[all.word for all in trymysql(trymysql.allword.author==1).select()]
+    slovar = [all.word for all in trymysql(trymysql.concordance.id>0).select()]
     words=sorted(set(all1))
-    for token in words:
-            trymysql.concordance.insert(word=token)
-    return dict(words=words)
+    for x in words:
+        if x not in slovar:
+            trymysql.concordance.insert(word=x)
+    return dict(part=words[:100])
+
+def create_number():
+    for all in trymysql((trymysql.allword.id>4999)&(trymysql.allword.id<10000)).select():
+        number = trymysql(trymysql.concordance.word==all.word).select().first().id
+        all.update_record(concordance_number= number)
+    return dict(message="OK")
