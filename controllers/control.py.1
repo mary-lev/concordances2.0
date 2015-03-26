@@ -16,7 +16,7 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(594,595): # if text not yet in database (last:3500)
+    for x in range(1156,1157): # if text not yet in database (last:3500)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -95,22 +95,26 @@ def month():
     return dict(months=months)
 
 def create_xml():
-    author_texts = [all.id for all in trymysql(trymysql.text1.author==4).select()]
-    page = etree.Element('results') # create xml tree
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==8).select()]
+    page = etree.Element('all') # create xml tree
     doc = etree.ElementTree(page)
+    a = etree.SubElement(page, 'author')
     for x in author_texts[1:]:
         texts = trymysql(trymysql.text1.id==int(x)).select()[0] # select one poem
         words_from_base = trymysql(trymysql.allword.title==int(x)).select() # select the poem's words from allword base
-        title = texts.title
-        author = texts.author
         f = open(texts.filename, 'rb')
         content = f.readlines()
         f.close()
         text = etree.SubElement(page, 'text')
         info = etree.SubElement(text, 'info')
-        one = etree.SubElement(info, 'title').text = title.decode('utf-8')
-        two = etree.SubElement(info, 'name').text = author.name.decode('utf-8')
-        three = etree.SubElement(info, 'author').text = author.family.decode('utf-8')
+        one = etree.SubElement(info, 'title').text = texts.title.decode('utf-8')
+        two = etree.SubElement(info, 'name').text = texts.author.name.decode('utf-8')
+        try:
+            year = etree.SubElement(info, 'year').text = texts.year_writing
+            month = etree.SubElement(info, 'month').text = texts.month_writing
+            day = etree.SubElement(info, 'day').text = texts.day_writing
+        except:
+            pass
         poem = etree.SubElement(text, 'poem')
         count_stanza = 1                                             # count stanzas
         line_count = 1                   # get first word's id from allword base
@@ -138,7 +142,7 @@ def create_xml():
                         slovo=etree.SubElement(string, 'wurd')
                         word_number +=1
                         word_count += 1
-    path = "applications/test/uploads/xml/4"
+    path = "applications/test/uploads/xml/8"
     new_name=path + ".xml"
     outFile = open(new_name, 'w')
     doc.write(outFile, pretty_print=True, xml_declaration=True, encoding='utf-16')

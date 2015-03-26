@@ -16,7 +16,7 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(1155,1156): # if text not yet in database (last:3500)
+    for x in range(1156,1157): # if text not yet in database (last:3500)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
         path = "/home/concordance/web2py/applications/test/uploads/"
@@ -95,9 +95,14 @@ def month():
     return dict(months=months)
 
 def create_xml():
-    author_texts = [all.id for all in trymysql(trymysql.text1.author==8).select()]
-    page = etree.Element('results') # create xml tree
+    n = 1
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==n).select()]
+    author_id = trymysql(trymysql.author.id==n).select().first()
+    page = etree.Element('all') # create xml tree
     doc = etree.ElementTree(page)
+    author = etree.SubElement(page, 'author')
+    family = etree.SubElement(author, 'family').text=author_id.family.decode('utf-8')
+    name = etree.SubElement(author, 'family').text=author_id.name.decode('utf-8')
     for x in author_texts[1:]:
         texts = trymysql(trymysql.text1.id==int(x)).select()[0] # select one poem
         words_from_base = trymysql(trymysql.allword.title==int(x)).select() # select the poem's words from allword base
@@ -107,10 +112,16 @@ def create_xml():
         text = etree.SubElement(page, 'text')
         info = etree.SubElement(text, 'info')
         one = etree.SubElement(info, 'title').text = texts.title.decode('utf-8')
-        two = etree.SubElement(info, 'name').text = texts.author.name.decode('utf-8')
-        three = etree.SubElement(info, 'author').text = texts.author.family.decode('utf-8')
+        if isinstance(texts.under_title, str):
+            subtitle = etree.SubElement(info, 'subtitle').text=texts.under_title.decode('utf-8')
+        if len(texts.group_text.title) > 0:
+            group = etree.SubElement(info, 'group').text=texts.group_text.title.decode('utf-8')
+        if len(texts.dedication)>0:
+            dedication = etree.SubElement(info, 'dedication').text = texts.dedication.decode('utf-8')
         try:
-            date = etree.SubElement(info, 'year').text = texts.year_writing
+            year = etree.SubElement(info, 'year').text = texts.year_writing
+            month = etree.SubElement(info, 'month').text = texts.month_writing
+            day = etree.SubElement(info, 'day').text = texts.day_writing
         except:
             pass
         poem = etree.SubElement(text, 'poem')
@@ -140,8 +151,8 @@ def create_xml():
                         slovo=etree.SubElement(string, 'wurd')
                         word_number +=1
                         word_count += 1
-    path = "applications/test/uploads/xml/8"
-    new_name=path + ".xml"
+    path = "applications/test/uploads/xml/"
+    new_name=path + str(n) + ".xml"
     outFile = open(new_name, 'w')
     doc.write(outFile, pretty_print=True, xml_declaration=True, encoding='utf-16')
     outFile.close()
