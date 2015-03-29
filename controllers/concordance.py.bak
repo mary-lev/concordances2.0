@@ -57,18 +57,16 @@ def word2vec():
     part=['NOUN', 'ADJF', 'VERB']
     sentences = []
     sentences1 = []
-    for all in trymysql(trymysql.text1.author==5).select():
-        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
-        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
-        sentences.append(one)
-    for all in trymysql(trymysql.text1.author==1).select():
+    #for all in trymysql(trymysql.text1.author==5).select():
+     #   one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
+      #  sentences.append(one)
+    for all in trymysql(trymysql.text1.author==4).select():
         part=['NOUN', 'ADJF']
-        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
         one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
         sentences1.append(one)
-    model = gensim.models.Word2Vec(sentences, min_count=5, size=15)
-    model1 = gensim.models.Word2Vec(sentences1, min_count=5, size=15)
-    return dict(model=model, model1=model1)
+    #model = gensim.models.Word2Vec(sentences, min_count=15, size=15)
+    model1 = gensim.models.Word2Vec(sentences1, min_count=20, size=15)
+    return dict(model1=model1)
 
 def test_gensim():
     alles = []

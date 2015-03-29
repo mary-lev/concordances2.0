@@ -69,11 +69,11 @@ trymysql.define_table('allword',
                   Field('style', label="Стиль"),
                   Field('other', label="Другое"),
                   Field('text_location', label="Место в тексте"),
+                  Field('string_number', label="Номер строки"),
                   Field('lexical_group', label="Лексическая группа"),
                   Field('concordance_number', label="Номер в конкордансе"),
                   Field('warning', label = "Warning"),
-                  Field('author', label="Автор"),
-                  migrate=False,fake_migrate=True)
+                  Field('author', label="Автор"))
 
 trymysql.define_table('concordance',
                   Field('word', label="Слово"),

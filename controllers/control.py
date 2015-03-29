@@ -35,7 +35,51 @@ def tokenize_all(): # prepares text for tokenization (decoding) and write result
 def search_for_files():
     path = "/home/concordance/web2py/applications/test/corpus/"
     files = [f for f in listdir(path) if isfile(join(path,f)) ]
-    return dict(files=files)
+    filename=str(path)+files[0]
+    new = open(filename, 'rb')
+    content = new.readlines()
+    poems = []
+    text = {}
+    n=0
+    stih=[]
+    string_number=0
+    for all in select_one(content):
+        string_number +=1
+        if 'N' in all:
+            zagl = all[1:]
+            text['z']=zagl
+        elif 'g' in all:
+            year = all[1:]
+            text['y']=year
+        elif 'm' in all:
+            month = all[1:]
+            text['m']=month
+        elif 'd' in all:
+            text['d']=all[1:]
+        elif 'l' in all:
+            location = all[1:]
+            text['l']=location
+        elif '*' in all:
+            text['t']=stih
+            poems.append(text)
+            stih = []
+            text= {}
+            n+=1
+            string_number=0
+        else:
+            stih.append(all)
+    return dict(content=content, poems=poems)
+
+def select_one(content):
+    new = content.count('*')
+    poems = []
+    for all in range(new):
+        begin = content.find('*')
+        end = contend.find('*', content[begin:])
+        poems.append(content[:end])
+        content = content[end-1:]
+    return dict(poems=poems)
+
 
 def verbs_all(): # show verbs in the text
     verbs1=[row['word'] for row in trymysql((trymysql.allword.author=='1')&(trymysql.allword.partos=='VERB')).select()]

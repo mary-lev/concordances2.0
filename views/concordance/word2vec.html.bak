@@ -3,12 +3,18 @@
 {{=BEAUTIFY(response._vars)}}
 
 <table>
-<tr><td>{{for all in model.most_similar(positive=['золотой'], topn=20):}}
-<li> {{=all[0]}}</li>
+<tr>
+<td>
+{{for all in model1.most_similar(positive=['синий'], topn=20):}}
+<li>{{=all[0]}}</li>
 {{pass}}
     </td>
-<td>
+    <td>
 {{for all in model1.most_similar(positive=['золотой'], topn=20):}}
 <li>{{=all[0]}}</li>
 {{pass}}
-    </td></tr></table>
+    </td>
+    </tr></table>
+{{=model1.similarity('белый', 'чёрный')}}
+{{=model1.similarity('белый', 'красный')}}
+{{=model1.similarity('красный', 'чёрный')}}

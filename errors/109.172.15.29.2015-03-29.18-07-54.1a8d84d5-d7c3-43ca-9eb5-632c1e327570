@@ -1,0 +1,842 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.AttributeError'> 'list' object has no attribute 'decode'"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/views/control/search_for_files.html'
+p5
+sS'code'
+p6
+S'response.write(\'<!--[if HTML5]><![endif]-->\\n<!DOCTYPE html>\\n<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->\\n<!--[if lt IE 7]><html class="ie ie6 ie-lte9 ie-lte8 ie-lte7 no-js" lang="\', escape=False)\nresponse.write(T.accepted_language or \'en\')\nresponse.write(\'"> <![endif]-->\\n<!--[if IE 7]><html class="ie ie7 ie-lte9 ie-lte8 ie-lte7 no-js" lang="\', escape=False)\nresponse.write(T.accepted_language or \'en\')\nresponse.write(\'"> <![endif]-->\\n<!--[if IE 8]><html class="ie ie8 ie-lte9 ie-lte8 no-js" lang="\', escape=False)\nresponse.write(T.accepted_language or \'en\')\nresponse.write(\'"> <![endif]-->\\n<!--[if IE 9]><html class="ie9 ie-lte9 no-js" lang="\', escape=False)\nresponse.write(T.accepted_language or \'en\')\nresponse.write(\'"> <![endif]-->\\n<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="\', escape=False)\nresponse.write(T.accepted_language or \'en\')\nresponse.write(\'"> <!--<![endif]-->\\n<head>\\n<title>\', escape=False)\nresponse.write(response.title or request.application)\nresponse.write(\'</title>\\n  <!--[if !HTML5]>\\n      <meta http-equiv="X-UA-Compatible" content="IE=edge\', escape=False)\nresponse.write(not request.is_local and \',chrome=1\' or \'\')\nresponse.write(\'">\\n  <![endif]-->\\n  <!-- www.phpied.com/conditional-comments-block-downloads/ -->\\n  <!-- Always force latest IE rendering engine\\n       (even in intranet) & Chrome Frame\\n       Remove this if you use the .htaccess -->\\n\\n  <meta charset="utf-8" />\\n\\n  <!-- http://dev.w3.org/html5/markup/meta.name.html -->\\n  <meta name="application-name" content="\', escape=False)\nresponse.write(request.application)\nresponse.write(\'" />\\n\\n  <!-- Speaking of Google, don\\\'t forget to set your site up:\\n       http://google.com/webmasters -->\\n  <meta name="google-site-verification" content="" />\\n\\n  <!--  Mobile Viewport Fix\\n        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag\\n        device-width: Occupy full width of the screen in its current orientation\\n        initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height\\n        user-scalable = yes allows the user to zoom in -->\\n  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\\n\\n  <link rel="shortcut icon" href="\', escape=False)\nresponse.write(URL(\'static\',\'images/favicon.ico\'))\nresponse.write(\'" type="image/x-icon">\\n  <link rel="apple-touch-icon" href="\', escape=False)\nresponse.write(URL(\'static\',\'images/favicon.png\'))\nresponse.write(\'">\\n\\n  <!-- All JavaScript at the bottom, except for Modernizr which enables\\n       HTML5 elements & feature detects -->\\n  <script src="\', escape=False)\nresponse.write(URL(\'static\',\'js/modernizr.custom.js\'))\nresponse.write(\'"></script>\\n\\n  <!-- include stylesheets -->\\n  \', escape=False)\nresponse.files.insert(0,URL(\'static\',\'css/web2py.css\'))\nresponse.files.insert(1,URL(\'static\',\'css/bootstrap.min.css\'))\nresponse.files.insert(2,URL(\'static\',\'css/bootstrap-responsive.min.css\'))\nresponse.files.insert(3,URL(\'static\',\'css/web2py_bootstrap.css\'))\nresponse.write(\'\\n\\n  \', escape=False)\nresponse.write(\'<script type="text/javascript"><!--\\n    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).\\n    var w2p_ajax_confirm_message = "\', escape=False)\nresponse.write(T(\'Are you sure you want to delete this object?\'))\nresponse.write(\'";\\n    var w2p_ajax_disable_with_message = "\', escape=False)\nresponse.write(T(\'Working...\'))\nresponse.write(\'";\\n    var w2p_ajax_date_format = "\', escape=False)\nresponse.write(T(\'%Y-%m-%d\'))\nresponse.write(\'";\\n    var w2p_ajax_datetime_format = "\', escape=False)\nresponse.write(T(\'%Y-%m-%d %H:%M:%S\'))\nresponse.write(\'";\\n    var ajax_error_500 = \\\'\', escape=False)\nresponse.write(T.M(\'An error occured, please [[reload %s]] the page\') % URL(args=request.args, vars=request.get_vars))\nresponse.write("\'\\n    //--></script>\\n", escape=False)\nresponse.files.insert(0,URL(\'static\',\'js/jquery.js\'))\nresponse.files.insert(1,URL(\'static\',\'css/calendar.css\'))\nresponse.files.insert(2,URL(\'static\',\'js/calendar.js\'))\nresponse.files.insert(3,URL(\'static\',\'js/web2py.js\'))\nresponse.include_meta()\nresponse.include_files()\nresponse.write(\'\\n\', escape=False)\nresponse.write(\'\\n\\n  \', escape=False)\n# using sidebars need to know what sidebar you want to use\nleft_sidebar_enabled = globals().get(\'left_sidebar_enabled\',False)\nright_sidebar_enabled = globals().get(\'right_sidebar_enabled\',False)\nmiddle_columns = {0:\'span12\',1:\'span9\',2:\'span6\'}[\n(left_sidebar_enabled and 1 or 0)+(right_sidebar_enabled and 1 or 0)]\nresponse.write(\'\\n\\n  <!-- uncomment here to load jquery-ui\\n       <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />\\n       <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>\\n       uncomment to load jquery-ui //-->\\n  <noscript><link href="\', escape=False)\nresponse.write(URL(\'static\', \'css/web2py_bootstrap_nojs.css\'))\nresponse.write(\'" rel="stylesheet" type="text/css" /></noscript>\\n  \', escape=False)\nresponse.write(\'\\n</head>\\n\\n<body>\\n  <!-- Navbar ================================================== -->\\n  <div class="navbar navbar-inverse">\\n    <div class="flash">\', escape=False)\nresponse.write(response.flash or \'\')\nresponse.write(\'</div>\\n    <div class="navbar-inner">\\n      <div class="container">\\n        \', escape=False)\nis_mobile=request.user_agent().is_mobile\nresponse.write(\'\\n        <!-- the next tag is necessary for bootstrap menus, do not remove -->\\n        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="\', escape=False)\nresponse.write(\'display:none;\' if not is_mobile else \'\')\nresponse.write(\'">\\n          <span class="icon-bar"></span>\\n          <span class="icon-bar"></span>\\n          <span class="icon-bar"></span>\\n        </button>\\n        \', escape=False)\nresponse.write(response.logo or \'\')\nresponse.write(\'\\n        <ul id="navbar" class="nav pull-right">\', escape=False)\nresponse.write(\'auth\' in globals() and auth.navbar(mode="dropdown") or \'\')\nresponse.write(\'</ul>\\n        <div class="\', escape=False)\nresponse.write(\'nav-collapse\' if is_mobile else \'nav\')\nresponse.write(\'">\\n          \', escape=False)\nif response.menu:\n    response.write(\'\\n          \', escape=False)\n    response.write(MENU(response.menu, _class=\'mobile-menu nav\' if is_mobile else \'nav\',mobile=is_mobile,li_class=\'dropdown\',ul_class=\'dropdown-menu\'))\n    response.write(\'\\n          \', escape=False)\n    pass\nresponse.write(\'\\n        </div><!--/.nav-collapse -->\\n      </div>\\n    </div>\\n  </div><!--/top navbar -->\\n\\n  <div class="container">\\n    <!-- Masthead ================================================== -->\\n    <header class="mastheader row" id="header">\\n      \', escape=False)\nif response.title:\n    response.write(\'\\n        <div class="span12">\\n            <div class="page-header">\\n                <h1>\\n                    <a href="https://concordance.pythonanywhere.com/">Concordances 1.0</a>\\n                    <p><small>\', escape=False)\n    response.write(response.subtitle or \'\xd0\x9f\xd0\xbe\xd0\xbf\xd1\x8b\xd1\x82\xd0\xba\xd0\xb0 \xd0\xbf\xd0\xbe\xd1\x8d\xd1\x82\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd0\xba\xd0\xbe\xd0\xb3\xd0\xbe \xd0\xba\xd0\xbe\xd1\x80\xd0\xbf\xd1\x83\xd1\x81\xd0\xb0 \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b \xd0\xa5\xd0\xa5 \xd0\xb2\xd0\xb5\xd0\xba\xd0\xb0 \xd1\x81 \xd1\x84\xd1\x83\xd0\xbd\xd0\xba\xd1\x86\xd0\xb8\xd1\x8f\xd0\xbc\xd0\xb8 \xd1\x81\xd1\x82\xd0\xb0\xd1\x82\xd0\xb8\xd1\x81\xd1\x82\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd0\xba\xd0\xbe\xd0\xb3\xd0\xbe \xd0\xb0\xd0\xbd\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xb0.\')\n    response.write(\'</small></p>\\n                </h1>\\n            </div>\\n        </div>\\n\\t\', escape=False)\n    pass\nresponse.write(\'\\n    </header>\\n\\n    <section id="main" class="main row">\\n        \', escape=False)\nif left_sidebar_enabled:\n    response.write(\'\\n        <div class="span3 left-sidebar">\\n            \', escape=False)\n    response.write(\'\\n            <h3>Left Sidebar</h3>\\n            <p></p>\\n            \', escape=False)\n    response.write(\'\\n        </div>\\n        \', escape=False)\n    pass\nresponse.write(\'\\n\\n        <div class="\', escape=False)\nresponse.write(middle_columns)\nresponse.write(\'">\\n            \', escape=False)\nresponse.write(\'\\n            \', escape=False)\nresponse.write(\'\\n<h1>\\xd0\\xad\\xd1\\x82\\xd0\\xbe \\xd1\\x88\\xd0\\xb0\\xd0\\xb1\\xd0\\xbb\\xd0\\xbe\\xd0\\xbd control/search_for_files.html</h1>\\n\', escape=False)\nfor f in content:\n    response.write(\'\\n\', escape=False)\n    response.write(f.decode(\'utf-8\'))\n    response.write(\'<br>\\n\', escape=False)\n    pass\nresponse.write(\'\\n\\n\', escape=False)\nfor all in poems:\n    response.write(\'\\n\', escape=False)\n    response.write(all.decode(\'utf-8\'))\n    response.write(\'\\n\', escape=False)\n    pass\nresponse.write(\'\\n\', escape=False)\nresponse.write(\'\\n            \', escape=False)\nresponse.write(\'\\n        </div>\\n\\n        \', escape=False)\nif right_sidebar_enabled:\n    response.write(\'\\n        <div class="span3">\\n            \', escape=False)\n    response.write(\'\\n            <h3>Right Sidebar</h3>\\n            <p></p>\\n            \', escape=False)\n    response.write(\'\\n        </div>\\n        \', escape=False)\n    pass\nresponse.write(\'\\n    </section><!--/main-->\\n\\n    <!-- Footer ================================================== -->\\n    <div class="row">\\n        <footer class="footer span12" id="footer">\\n            <div class="footer-content">\\n                \', escape=False)\nresponse.write(\' <!-- this is default footer -->\\n                <div class="copyright pull-left">\', escape=False)\nresponse.write(T(\'Copyright\'))\nresponse.write(\' &#169; \', escape=False)\nresponse.write(request.now.year)\nresponse.write(\'</div>\\n                <div id="poweredBy" class="pull-right">\\n                    \', escape=False)\nresponse.write(T(\'Powered by\'))\nresponse.write(\'\\n                    <a href="http://www.web2py.com/">web2py</a>\\n                </div>\\n                \', escape=False)\nresponse.write(\'\\n            </div>\\n        </footer>\\n    </div>\\n\\n  </div> <!-- /container -->\\n\\n  <!-- The javascript =============================================\\n       (Placed at the end of the document so the pages load faster) -->\\n  <script src="\', escape=False)\nresponse.write(URL(\'static\',\'js/bootstrap.min.js\'))\nresponse.write(\'"></script>\\n  <script src="\', escape=False)\nresponse.write(URL(\'static\',\'js/web2py_bootstrap.js\'))\nresponse.write(\'"></script>\\n  <!--[if lt IE 7 ]>\\n      <script src="\', escape=False)\nresponse.write(URL(\'static\',\'js/dd_belatedpng.js\'))\nresponse.write(\'"></script>\\n      <script> DD_belatedPNG.fix(\\\'img, .png_bg\\\'); //fix any <img> or .png_bg background-images </script>\\n      <![endif]-->\\n\\n  \', escape=False)\nif response.google_analytics_id:\n    response.write(\'\\n  <script src="\', escape=False)\n    response.write(URL(\'static\',\'js/analytics.min.js\'))\n    response.write(\'"></script>\\n  <script type="text/javascript">\\n  analytics.initialize({\\n    \\\'Google Analytics\\\':{trackingId:\\\'\', escape=False)\n    response.write(response.google_analytics_id)\n    response.write("\'}\\n  });</script>\\n  ", escape=False)\n    pass\nresponse.write(\'\\n  <script src="\', escape=False)\nresponse.write(URL(\'static\',\'js/share.js\',vars=dict(static=URL(\'static\',\'images\'))))\nresponse.write(\'"></script>\\n</body>\\n</html>\\n\', escape=False)'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.AttributeError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.AttributeError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.AttributeError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.AttributeError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.AttributeError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.AttributeError object>'
+p23
+sS'args'
+p24
+S'("\'list\' object has no attribute \'decode\'",)'
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.AttributeError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.AttributeError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.AttributeError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.AttributeError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.AttributeError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.AttributeError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.AttributeError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.AttributeError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.AttributeError object>'
+p47
+sS'__doc__'
+p48
+S"'Attribute not found.'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.AttributeError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S"'list' object has no attribute 'decode'"
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S'sZ_\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>control</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>93.185.176.186-f00594a2-9273-4a12-a90e-57ccfaf6dbc0<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>93.185.176.186-84566653-56bf-42b6-bbcd-82c69ded41f6<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">sessionid</td><td style="vertical-align:top;">:</td><td><div>78e59081fc39edd967f51e51bca2d142<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>__utma=133430031.498134778.1411055673.1417592085.1418758331.35; __utmc=133430031; __utmz=133430031.1411055673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_welcome=93.185.176.186-84566653-56bf-42b6-bbcd-82c69ded41f6; sessionid=78e59081fc39edd967f51e51bca2d142; session_id_test=109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4; __utma=134993891.2005790410.1411054907.1427555780.1427638352.95; __utmb=134993891.74.10.1427638352; __utmc=134993891; __utmz=134993891.1411054907.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.498134778.1411055673; _gat=1; session_id_admin=93.185.176.186-f00594a2-9273-4a12-a90e-57ccfaf6dbc0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.157.107.232</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>59283</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>__utma=133430031.498134778.1411055673.1417592085.1418758331.35; __utmc=133430031; __utmz=133430031.1411055673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_welcome=93.185.176.186-84566653-56bf-42b6-bbcd-82c69ded41f6; sessionid=78e59081fc39edd967f51e51bca2d142; session_id_test=109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4; __utma=134993891.2005790410.1411054907.1427555780.1427638352.95; __utmb=134993891.74.10.1427638352; __utmc=134993891; __utmz=134993891.1411054907.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.498134778.1411055673; _gat=1; session_id_admin=93.185.176.186-f00594a2-9273-4a12-a90e-57ccfaf6dbc0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>giles-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.157.107.232</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>59283</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7fb498567e50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7fb46db29720&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7fb498567e50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7fb46db29720&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>giles-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 29, 18, 7, 54, 353129)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/control/search_for_files</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 29, 18, 7, 54, 353146)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/109.172.15.29.2015-03-29.18-07-54.1a8d84d5-d7c3-43ca-9eb5-632c1e327570</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7fb46bc6a890&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/concordance/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7fb46de89bb0, file "/...est/views/control/search_for_files.html", line 1>'
+p69
+ssS'lnum'
+p70
+I220
+sS'lines'
+p71
+(dp72
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p73
+sI215
+S'    try:'
+p74
+sI216
+S'        if isinstance(code, types.CodeType):'
+p75
+sI217
+S'            ccode = code'
+p76
+sI218
+S'        else:'
+p77
+sI219
+S'            ccode = compile2(code, layer)'
+p78
+sI220
+S'        exec ccode in environment'
+p79
+sI221
+S'    except HTTP:'
+p80
+sI222
+S'        raise'
+p81
+sI223
+S'    except RestrictedError:'
+p82
+ssS'call'
+p83
+S'(code=\'response.write(\\\'<!--[if HTML5]><![endif]-->\\\\n<!D...(\\\'"></script>\\\\n</body>\\\\n</html>\\\\n\\\', escape=False)\', environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, \'CENTER\': <class \'gluon.html.CENTER\'>, ...}, layer=\'/home/concordance/web2py/applications/test/views/control/search_for_files.html\')'
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/home/concordance/web2py/applications/test/views/control/search_for_files.html'
+p88
+sg64
+(dp89
+sg70
+I99
+sg71
+(dp90
+I96
+S"response.write('\\n\\n', escape=False)"
+p91
+sI97
+S'for all in poems:'
+p92
+sI98
+S"    response.write('\\n', escape=False)"
+p93
+sI99
+S"    response.write(all.decode('utf-8'))"
+p94
+sI100
+S"    response.write('\\n', escape=False)"
+p95
+sI101
+S'    pass'
+p96
+sI102
+S"response.write('\\n', escape=False)"
+p97
+sI103
+S"response.write('\\n            ', escape=False)"
+p98
+sI104
+S"response.write('\\n        </div>\\n\\n        ', escape=False)"
+p99
+sI105
+S'if right_sidebar_enabled:'
+p100
+sI106
+S'    response.write(\'\\n        <div class="span3">\\n            \', escape=False)'
+p101
+sI107
+S"    response.write('\\n            <h3>Right Sidebar</h3>\\n            <p></p>\\n            ', escape=False)"
+p102
+sI108
+S"    response.write('\\n        </div>\\n        ', escape=False)"
+p103
+sI109
+S'    pass'
+p104
+sI90
+S"response.write('\\n<h1>\\xd0\\xad\\xd1\\x82\\xd0\\xbe \\xd1\\x88\\xd0\\xb0\\xd0\\xb1\\xd0\\xbb\\xd0\\xbe\\xd0\\xbd control/search_for_files.html</h1>\\n', escape=False)"
+p105
+sI91
+S'for f in content:'
+p106
+sI92
+S"    response.write('\\n', escape=False)"
+p107
+sI93
+S"    response.write(f.decode('utf-8'))"
+p108
+sI94
+S"    response.write('<br>\\n', escape=False)"
+p109
+sI95
+S'    pass'
+p110
+ssg83
+S'()'
+p111
+sg85
+S'<module>'
+p112
+sasS'pyver'
+p113
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p114
+sS'session'
+p115
+g57
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp116
+sS'etype'
+p117
+S"<type 'exceptions.AttributeError'>"
+p118
+sS'date'
+p119
+S'Sun Mar 29 18:07:54 2015'
+p120
+sS'response'
+p121
+g57
+(S's\xd1 \x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7fb46ceb2810&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>/test/static/js/jquery.js</div></td></tr><tr><td><div>/test/static/css/calendar.css</div></td></tr><tr><td><div>/test/static/js/calendar.js</div></td></tr><tr><td><div>/test/static/js/web2py.js</div></td></tr><tr><td><div>/test/static/css/web2py.css</div></td></tr><tr><td><div>/test/static/css/bootstrap.min.css</div></td></tr><tr><td><div>/test/static/css/bootstrap-responsive.min.css</div></td></tr><tr><td><div>/test/static/css/web2py_bootstrap.css</div></td></tr><tr><td><div>/test/static/plugin_sqleditable/js/mindmup-editabletable.js</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div><span class="highlighted">web2py</span></div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://concordances.ru</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xd0\x9e \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb5\xd0\xba\xd1\x82\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x90\xd0\xb4\xd0\xbc\xd0\xb8\xd0\xbd\xd0\xba\xd0\xb0</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/test/controllers/control.py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^control/\\w+\\.py$</div></td></tr><tr><td><div>^control/search_for_files/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4&#x27;, mode &#x27;rb+&#x27; at 0x7fb46de509c0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>1fa4cb1ad95e63de4c02f08ebfcf5319</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>109.172.15.29-a2b3e4a5-3227-4f28-ba75-c68f67fe8cf4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>control/search_for_files.html</div></td></tr></table></div>'
+tRp122
+sS'locals'
+p123
+(dp124
+S'all'
+p125
+S"['\\xd0\\xaf \\xd0\\xbb\\xd0\\xb8\\xd0\\xbb\\xd0\\xb8\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x80\\xd0\\xb2\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd0\\xbf\\xd1\\x80\\xd0\\xb5\\xd0\\xba\\xd1\\x80\\xd0\\xb0\\xd1\\x81\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd0\\xb8 \\xd0\\xb4\\xd1\\x83\\xd1\\x88\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\xa1\\xd1\\x82\\xd1\\x8b\\xd0\\xb4\\xd0\\xbb\\xd0\\xb8\\xd0\\xb2\\xd0\\xbe-\\xd0\\xb7\\xd0\\xb0\\xd0\\xbc\\xd0\\xba\\xd0\\xbd\\xd1\\x83\\xd1\\x82\\xd1\\x8b\\xd1\\x85, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xb4\\xd0\\xb5\\xd0\\xb2 \\xd0\\xbd\\xd0\\xb5\\xd0\\xb2\\xd0\\xb8\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd1\\x80\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\xa1 \\xd0\\xb8\\xd1\\x85 \\xd0\\xbb\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x81\\xd1\\x82\\xd0\\xba\\xd0\\xbe\\xd0\\xb2, \\xd0\\xb4\\xd1\\x80\\xd0\\xbe\\xd0\\xb6\\xd0\\xb0\\xd1\\x89\\xd0\\xb8\\xd1\\x85 \\xd0\\xb8 \\xd1\\x80\\xd0\\xbe\\xd1\\x81\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\x9f\\xd0\\xb8\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xb0\\xd1\\x80\\xd0\\xbe\\xd0\\xbc\\xd0\\xb0\\xd1\\x82 \\xd0\\xb8 \\xd1\\x81\\xd1\\x87\\xd0\\xb0\\xd1\\x81\\xd1\\x82\\xd1\\x8c\\xd0\\xb5 \\xd0\\xb8 \\xd0\\xbf\\xd0\\xbe\\xd0\\xba\\xd0\\xbe\\xd0\\xb9.\\n', '\\n', '\\xd0\\x98 \\xd1\\x81\\xd0\\xb5\\xd1\\x80\\xd0\\xb4\\xd1\\x86\\xd0\\xb5 \\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe \\xd1\\x81\\xd0\\xb6\\xd0\\xb8\\xd0\\xbc\\xd0\\xb0\\xd0\\xbb\\xd0\\xbe\\xd1\\x81\\xd1\\x8c, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xbe\\xd1\\x82 \\xd0\\xb1\\xd0\\xbe\\xd0\\xbb\\xd0\\xb8,\\n', '\\xd0\\x90 \\xd0\\xb1\\xd0\\xbb\\xd0\\xb5\\xd0\\xb4\\xd0\\xbd\\xd1\\x8b\\xd0\\xb5 \\xd1\\x86\\xd0\\xb2\\xd0\\xb5\\xd1\\x82\\xd1\\x8b \\xd0\\xba\\xd0\\xb0\\xd1\\x87\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8 \\xd0\\xb3\\xd0\\xbe\\xd0\\xbb\\xd0\\xbe\\xd0\\xb2\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\x98 \\xd0\\xb2\\xd0\\xbd\\xd0\\xbe\\xd0\\xb2\\xd1\\x8c \\xd0\\xbc\\xd0\\xb5\\xd1\\x87\\xd1\\x82\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xbe \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb5\\xd0\\xba\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb2\\xd0\\xbe\\xd0\\xbb\\xd0\\xb5,\\n', '\\xd0\\x9e \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81\\xd1\\x82\\xd1\\x80\\xd0\\xb0\\xd0\\xbd\\xd0\\xb5, \\xd0\\xb3\\xd0\\xb4\\xd0\\xb5 \\xd1\\x8f \\xd0\\xb1\\xd1\\x8b\\xd0\\xbb\\xd0\\xb0 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd0\\xb9...\\n', 'd22\\n', '\\n', 'ded\\xd0\\x90. \\xd0\\x9c. \\xd0\\xa4\\xd0\\xb5\\xd0\\xb4\\xd0\\xbe\\xd1\\x80\\xd0\\xbe\\xd0\\xb2\\xd1\\x83\\n', '\\xd0\\x9d\\xd0\\xb0\\xd0\\xb4 \\xd1\\x87\\xd0\\xb5\\xd1\\x80\\xd0\\xbd\\xd0\\xbe\\xd1\\x8e \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7\\xd0\\xb4\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd1\\x8e \\xd1\\x8f \\xd1\\x88\\xd0\\xbb\\xd0\\xb0,\\n', '\\xd0\\x9c\\xd0\\xb5\\xd1\\x80\\xd1\\x86\\xd0\\xb0\\xd1\\x8f, \\xd0\\xb7\\xd0\\xb0\\xd1\\x80\\xd0\\xbd\\xd0\\xb8\\xd1\\x86\\xd1\\x8b \\xd1\\x81\\xd0\\xb2\\xd0\\xb5\\xd1\\x80\\xd0\\xba\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', '\\xd0\\x92 \\xd1\\x82\\xd0\\xbe\\xd1\\x82 \\xd0\\xb2\\xd0\\xb5\\xd1\\x87\\xd0\\xb5\\xd1\\x80 \\xd1\\x8f \\xd0\\xba\\xd0\\xbb\\xd0\\xb0\\xd0\\xb4 \\xd0\\xbd\\xd0\\xb5\\xd0\\xbe\\xd1\\x86\\xd0\\xb5\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x88\\xd0\\xbb\\xd0\\xb0\\n', '\\xd0\\x92 \\xd0\\xb7\\xd0\\xb0\\xd0\\xb3\\xd0\\xb0\\xd0\\xb4\\xd0\\xbe\\xd1\\x87\\xd0\\xbd\\xd0\\xbe-\\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', '\\xd0\\x98 \\xd0\\xbf\\xd0\\xb5\\xd1\\x81\\xd0\\xbd\\xd1\\x8f \\xd0\\xbb\\xd1\\x8e\\xd0\\xb1\\xd0\\xb2\\xd0\\xb8 \\xd0\\xbd\\xd0\\xb0\\xd1\\x88\\xd0\\xb5\\xd0\\xb9 \\xd1\\x87\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb1\\xd1\\x8b\\xd0\\xbb\\xd0\\xb0,\\n', '\\xd0\\x9f\\xd1\\x80\\xd0\\xbe\\xd0\\xb7\\xd1\\x80\\xd0\\xb0\\xd1\\x87\\xd0\\xbd\\xd0\\xb5\\xd0\\xb5 \\xd0\\xbb\\xd1\\x83\\xd0\\xbd\\xd0\\xbd\\xd0\\xbe\\xd0\\xb3\\xd0\\xbe \\xd1\\x81\\xd0\\xb2\\xd0\\xb5\\xd1\\x82\\xd0\\xb0,\\n', '\\xd0\\x90 \\xd1\\x87\\xd0\\xb5\\xd1\\x80\\xd0\\xbd\\xd0\\xb0\\xd1\\x8f \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7\\xd0\\xb4\\xd0\\xbd\\xd0\\xb0, \\xd0\\xbf\\xd1\\x80\\xd0\\xbe\\xd1\\x81\\xd0\\xbd\\xd1\\x83\\xd0\\xb2\\xd1\\x88\\xd0\\xb8\\xd1\\x81\\xd1\\x8c, \\xd0\\xb6\\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0\\n', '\\xd0\\x92 \\xd0\\xbc\\xd0\\xbe\\xd0\\xbb\\xd1\\x87\\xd0\\xb0\\xd0\\xbd\\xd0\\xb8\\xd0\\xb8 \\xd1\\x81\\xd1\\x82\\xd1\\x80\\xd0\\xb0\\xd1\\x81\\xd1\\x82\\xd0\\xb8 \\xd0\\xbe\\xd0\\xb1\\xd0\\xb5\\xd1\\x82\\xd0\\xb0.\\n', ...]"
+p126
+sS'Service'
+p127
+S"<class 'gluon.tools.Service'>"
+p128
+sS'OBJECT'
+p129
+S"<class 'gluon.html.OBJECT'>"
+p130
+sS'SQLDB'
+p131
+S"<class 'gluon.dal.DAL'>"
+p132
+sg115
+S"<Storage {'_formkey[no_table/create]': ['769fb94...version': '41.0.2272.101', 'name': 'Chrome'}>}>}>"
+p133
+sS'LINK'
+p134
+S"<class 'gluon.html.LINK'>"
+p135
+sS'BR'
+p136
+S"<class 'gluon.html.BR'>"
+p137
+sS'local_import'
+p138
+S'<function <lambda>>'
+p139
+sS'OPTGROUP'
+p140
+S"<class 'gluon.html.OPTGROUP'>"
+p141
+sS'__package__'
+p142
+S'None'
+p143
+sS'PRE'
+p144
+S"<class 'gluon.html.PRE'>"
+p145
+sS'IS_INT_IN_RANGE'
+p146
+S"<class 'gluon.validators.IS_INT_IN_RANGE'>"
+p147
+sS'left_sidebar_enabled'
+p148
+S'False'
+p149
+sS'IS_LOWER'
+p150
+S"<class 'gluon.validators.IS_LOWER'>"
+p151
+sS'IS_STRONG'
+p152
+S"<class 'gluon.validators.IS_STRONG'>"
+p153
+sS'cache'
+p154
+S'<gluon.cache.Cache object>'
+p155
+sS'IS_IN_DB'
+p156
+S"<class 'gluon.validators.IS_IN_DB'>"
+p157
+sS'TAG'
+p158
+S'<gluon.html.__TAG__ object>'
+p159
+sS'SQLField'
+p160
+S"<class 'gluon.dal.Field'>"
+p161
+sS'mail'
+p162
+S'<gluon.tools.Mail object>'
+p163
+sS'BODY'
+p164
+S"<class 'gluon.html.BODY'>"
+p165
+sS'IS_DATE_IN_RANGE'
+p166
+S"<class 'gluon.validators.IS_DATE_IN_RANGE'>"
+p167
+sS'IFRAME'
+p168
+S"<class 'gluon.html.IFRAME'>"
+p169
+sS'URL'
+p170
+S'<function URL>'
+p171
+sS'__file__'
+p172
+S"'/home/concordance/web2py/applications/test/views/control/search_for_files.html'"
+p173
+sS'db'
+p174
+S'<DAL uri="sqlite://storage.sqlite">'
+p175
+sS'auth'
+p176
+S'<gluon.tools.Auth object>'
+p177
+sS'P'
+S"<class 'gluon.html.P'>"
+p178
+sS'TFOOT'
+p179
+S"<class 'gluon.html.TFOOT'>"
+p180
+sS'XHTML'
+p181
+S"<class 'gluon.html.XHTML'>"
+p182
+sS'ON'
+p183
+S'True'
+p184
+sS'OL'
+p185
+S"<class 'gluon.html.OL'>"
+p186
+sS'TEXTAREA'
+p187
+S"<class 'gluon.html.TEXTAREA'>"
+p188
+sS'MENU'
+p189
+S"<class 'gluon.html.MENU'>"
+p190
+sS'IS_IMAGE'
+p191
+S"<class 'gluon.validators.IS_IMAGE'>"
+p192
+sS'EM'
+p193
+S"<class 'gluon.html.EM'>"
+p194
+sS'CODE'
+p195
+S"<class 'gluon.html.CODE'>"
+p196
+sS'HTTP'
+p197
+S"<class 'gluon.http.HTTP'>"
+p198
+sS'HR'
+p199
+S"<class 'gluon.html.HR'>"
+p200
+sS'IS_DATETIME'
+p201
+S"<class 'gluon.validators.IS_DATETIME'>"
+p202
+sS'STYLE'
+p203
+S"<class 'gluon.html.STYLE'>"
+p204
+sS'LABEL'
+p205
+S"<class 'gluon.html.LABEL'>"
+p206
+sS'CLEANUP'
+p207
+S"<class 'gluon.validators.CLEANUP'>"
+p208
+sS'plugins'
+p209
+S'<gluon.tools.PluginManager object>'
+p210
+sS'SELECT'
+p211
+S"<class 'gluon.html.SELECT'>"
+p212
+sS'use_janrain'
+p213
+S'<function use_janrain>'
+p214
+sS'CENTER'
+p215
+S"<class 'gluon.html.CENTER'>"
+p216
+sS'prettydate'
+p217
+S'<function prettydate>'
+p218
+sS'Crud'
+p219
+S"<class 'gluon.tools.Crud'>"
+p220
+sS'Auth'
+p221
+S"<class 'gluon.tools.Auth'>"
+p222
+sS'DEVELOPMENT_MENU'
+p223
+g184
+sS'content'
+p224
+S"['N\\xd0\\x9b\\xd0\\x98\\xd0\\x9b\\xd0\\x98\\xd0\\x98\\n', '\\xd0\\xaf \\xd0\\xbb\\xd0\\xb8\\xd0\\xbb\\xd0\\xb8\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x80\\xd0\\xb2\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd0\\xbf\\xd1\\x80\\xd0\\xb5\\xd0\\xba\\xd1\\x80\\xd0\\xb0\\xd1\\x81\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd0\\xb8 \\xd0\\xb4\\xd1\\x83\\xd1\\x88\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\xa1\\xd1\\x82\\xd1\\x8b\\xd0\\xb4\\xd0\\xbb\\xd0\\xb8\\xd0\\xb2\\xd0\\xbe-\\xd0\\xb7\\xd0\\xb0\\xd0\\xbc\\xd0\\xba\\xd0\\xbd\\xd1\\x83\\xd1\\x82\\xd1\\x8b\\xd1\\x85, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xb4\\xd0\\xb5\\xd0\\xb2 \\xd0\\xbd\\xd0\\xb5\\xd0\\xb2\\xd0\\xb8\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd1\\x80\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\xa1 \\xd0\\xb8\\xd1\\x85 \\xd0\\xbb\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x81\\xd1\\x82\\xd0\\xba\\xd0\\xbe\\xd0\\xb2, \\xd0\\xb4\\xd1\\x80\\xd0\\xbe\\xd0\\xb6\\xd0\\xb0\\xd1\\x89\\xd0\\xb8\\xd1\\x85 \\xd0\\xb8 \\xd1\\x80\\xd0\\xbe\\xd1\\x81\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\x9f\\xd0\\xb8\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xb0\\xd1\\x80\\xd0\\xbe\\xd0\\xbc\\xd0\\xb0\\xd1\\x82 \\xd0\\xb8 \\xd1\\x81\\xd1\\x87\\xd0\\xb0\\xd1\\x81\\xd1\\x82\\xd1\\x8c\\xd0\\xb5 \\xd0\\xb8 \\xd0\\xbf\\xd0\\xbe\\xd0\\xba\\xd0\\xbe\\xd0\\xb9.\\n', '\\n', '\\xd0\\x98 \\xd1\\x81\\xd0\\xb5\\xd1\\x80\\xd0\\xb4\\xd1\\x86\\xd0\\xb5 \\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe \\xd1\\x81\\xd0\\xb6\\xd0\\xb8\\xd0\\xbc\\xd0\\xb0\\xd0\\xbb\\xd0\\xbe\\xd1\\x81\\xd1\\x8c, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xbe\\xd1\\x82 \\xd0\\xb1\\xd0\\xbe\\xd0\\xbb\\xd0\\xb8,\\n', '\\xd0\\x90 \\xd0\\xb1\\xd0\\xbb\\xd0\\xb5\\xd0\\xb4\\xd0\\xbd\\xd1\\x8b\\xd0\\xb5 \\xd1\\x86\\xd0\\xb2\\xd0\\xb5\\xd1\\x82\\xd1\\x8b \\xd0\\xba\\xd0\\xb0\\xd1\\x87\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8 \\xd0\\xb3\\xd0\\xbe\\xd0\\xbb\\xd0\\xbe\\xd0\\xb2\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\x98 \\xd0\\xb2\\xd0\\xbd\\xd0\\xbe\\xd0\\xb2\\xd1\\x8c \\xd0\\xbc\\xd0\\xb5\\xd1\\x87\\xd1\\x82\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xbe \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb5\\xd0\\xba\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb2\\xd0\\xbe\\xd0\\xbb\\xd0\\xb5,\\n', '\\xd0\\x9e \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81\\xd1\\x82\\xd1\\x80\\xd0\\xb0\\xd0\\xbd\\xd0\\xb5, \\xd0\\xb3\\xd0\\xb4\\xd0\\xb5 \\xd1\\x8f \\xd0\\xb1\\xd1\\x8b\\xd0\\xbb\\xd0\\xb0 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd0\\xb9...\\n', 'd22\\n', 'm\\xd0\\xb8\\xd1\\x8e\\xd0\\xbd\\xd1\\x8f\\n', 'g1904\\n', 'mesto\\xd0\\x9e\\xd0\\xb4\\xd0\\xb5\\xd1\\x81\\xd1\\x81\\xd0\\xb0\\n', '\\n', 'ded\\xd0\\x90. \\xd0\\x9c. \\xd0\\xa4\\xd0\\xb5\\xd0\\xb4\\xd0\\xbe\\xd1\\x80\\xd0\\xbe\\xd0\\xb2\\xd1\\x83\\n', '\\xd0\\x9d\\xd0\\xb0\\xd0\\xb4 \\xd1\\x87\\xd0\\xb5\\xd1\\x80\\xd0\\xbd\\xd0\\xbe\\xd1\\x8e \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7\\xd0\\xb4\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd1\\x8e \\xd1\\x8f \\xd1\\x88\\xd0\\xbb\\xd0\\xb0,\\n', '\\xd0\\x9c\\xd0\\xb5\\xd1\\x80\\xd1\\x86\\xd0\\xb0\\xd1\\x8f, \\xd0\\xb7\\xd0\\xb0\\xd1\\x80\\xd0\\xbd\\xd0\\xb8\\xd1\\x86\\xd1\\x8b \\xd1\\x81\\xd0\\xb2\\xd0\\xb5\\xd1\\x80\\xd0\\xba\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', '\\xd0\\x92 \\xd1\\x82\\xd0\\xbe\\xd1\\x82 \\xd0\\xb2\\xd0\\xb5\\xd1\\x87\\xd0\\xb5\\xd1\\x80 \\xd1\\x8f \\xd0\\xba\\xd0\\xbb\\xd0\\xb0\\xd0\\xb4 \\xd0\\xbd\\xd0\\xb5\\xd0\\xbe\\xd1\\x86\\xd0\\xb5\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x88\\xd0\\xbb\\xd0\\xb0\\n', '\\xd0\\x92 \\xd0\\xb7\\xd0\\xb0\\xd0\\xb3\\xd0\\xb0\\xd0\\xb4\\xd0\\xbe\\xd1\\x87\\xd0\\xbd\\xd0\\xbe-\\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', ...]"
+p225
+sS'__builtins__'
+p226
+S"{'ArithmeticError': <type 'exceptions.ArithmeticError'>, 'AssertionError': <type 'exceptions.AssertionError'>, 'AttributeError': <type 'exceptions.AttributeError'>, 'BaseException': <type 'exceptions.BaseException'>, 'BufferError': <type 'exceptions.BufferError'>, 'BytesWarning': <type 'exceptions.BytesWarning'>, 'DeprecationWarning': <type 'exceptions.DeprecationWarning'>, 'EOFError': <type 'exceptions.EOFError'>, 'Ellipsis': Ellipsis, 'EnvironmentError': <type 'exceptions.EnvironmentError'>, ...}"
+p227
+sS'HTML'
+p228
+S"<class 'gluon.html.HTML'>"
+p229
+sS'SQLFORM'
+p230
+S"<class 'gluon.sqlhtml.SQLFORM'>"
+p231
+sS'LOAD'
+p232
+S'<function LOAD>'
+p233
+sS'redirect'
+p234
+S'<function redirect>'
+p235
+sS'FIELDSET'
+p236
+S"<class 'gluon.html.FIELDSET'>"
+p237
+sS'IS_EQUAL_TO'
+p238
+S"<class 'gluon.validators.IS_EQUAL_TO'>"
+p239
+sS'embed64'
+p240
+S'<function embed64>'
+p241
+sS'IS_LIST_OF'
+p242
+S"<class 'gluon.validators.IS_LIST_OF'>"
+p243
+sS'INPUT'
+p244
+S"<class 'gluon.html.INPUT'>"
+p245
+sS'EMBED'
+p246
+S"<class 'gluon.html.EMBED'>"
+p247
+sS'_'
+S'<function _>'
+p248
+sS'H2'
+p249
+S"<class 'gluon.html.H2'>"
+p250
+sS'H3'
+p251
+S"<class 'gluon.html.H3'>"
+p252
+sS'BUTTON'
+p253
+S"<class 'gluon.html.BUTTON'>"
+p254
+sS'H1'
+p255
+S"<class 'gluon.html.H1'>"
+p256
+sS'H6'
+p257
+S"<class 'gluon.html.H6'>"
+p258
+sS'H4'
+p259
+S"<class 'gluon.html.H4'>"
+p260
+sS'H5'
+p261
+S"<class 'gluon.html.H5'>"
+p262
+sS'UL'
+p263
+S"<class 'gluon.html.UL'>"
+p264
+sS'IS_UPPER'
+p265
+S"<class 'gluon.validators.IS_UPPER'>"
+p266
+sS'xmlescape'
+p267
+S'<function xmlescape>'
+p268
+sS'IS_TIME'
+p269
+S"<class 'gluon.validators.IS_TIME'>"
+p270
+sS'OPTION'
+p271
+S"<class 'gluon.html.OPTION'>"
+p272
+sS'TITLE'
+p273
+S"<class 'gluon.html.TITLE'>"
+p274
+sS'CRYPT'
+p275
+S"<class 'gluon.validators.CRYPT'>"
+p276
+sS'IS_EMPTY_OR'
+p277
+S"<class 'gluon.validators.IS_EMPTY_OR'>"
+p278
+sS'MARKMIN'
+p279
+S"<class 'gluon.html.MARKMIN'>"
+p280
+sS'__name__'
+p281
+S"'__restricted__'"
+p282
+sS'STRONG'
+p283
+S"<class 'gluon.html.STRONG'>"
+p284
+sS'COL'
+p285
+S"<class 'gluon.html.COL'>"
+p286
+sS'service'
+p287
+S'<gluon.tools.Service object>'
+p288
+sS'SCRIPT'
+p289
+S"<class 'gluon.html.SCRIPT'>"
+p290
+sS'is_mobile'
+p291
+g149
+sS'TABLE'
+p292
+S"<class 'gluon.html.TABLE'>"
+p293
+sS'IS_IPV4'
+p294
+S"<class 'gluon.validators.IS_IPV4'>"
+p295
+sS'IS_LENGTH'
+p296
+S"<class 'gluon.validators.IS_LENGTH'>"
+p297
+sS'IS_IPV6'
+p298
+S"<class 'gluon.validators.IS_IPV6'>"
+p299
+sS'XML'
+p300
+S"<class 'gluon.html.XML'>"
+p301
+sS'B'
+S"<class 'gluon.html.B'>"
+p302
+sS'IMG'
+p303
+S"<class 'gluon.html.IMG'>"
+p304
+sS'SQLTABLE'
+p305
+S"<class 'gluon.sqlhtml.SQLTABLE'>"
+p306
+sS'IS_MATCH'
+p307
+S"<class 'gluon.validators.IS_MATCH'>"
+p308
+sS'IS_ALPHANUMERIC'
+p309
+S"<class 'gluon.validators.IS_ALPHANUMERIC'>"
+p310
+sS'SPAN'
+p311
+S"<class 'gluon.html.SPAN'>"
+p312
+sS'IS_JSON'
+p313
+S"<class 'gluon.validators.IS_JSON'>"
+p314
+sS'f'
+S"'g1904-1905'"
+p315
+sS'IS_IPADDRESS'
+p316
+S"<class 'gluon.validators.IS_IPADDRESS'>"
+p317
+sS'IS_SLUG'
+p318
+S"<class 'gluon.validators.IS_SLUG'>"
+p319
+sS'BEAUTIFY'
+p320
+S"<class 'gluon.html.BEAUTIFY'>"
+p321
+sS'META'
+p322
+S"<class 'gluon.html.META'>"
+p323
+sS'IS_DATE'
+p324
+S"<class 'gluon.validators.IS_DATE'>"
+p325
+sS'IS_EMAIL'
+p326
+S"<class 'gluon.validators.IS_EMAIL'>"
+p327
+sS'IS_NOT_EMPTY'
+p328
+S"<class 'gluon.validators.IS_NOT_EMPTY'>"
+p329
+sS'IS_FLOAT_IN_RANGE'
+p330
+S"<class 'gluon.validators.IS_FLOAT_IN_RANGE'>"
+p331
+sS'trymysql'
+p332
+S'<DAL uri="mysql:******@mysql.server/concordance$new">'
+p333
+sS'TBODY'
+p334
+S"<class 'gluon.html.TBODY'>"
+p335
+sS'CAT'
+p336
+S"<class 'gluon.html.CAT'>"
+p337
+sS'Field'
+p338
+S"<class 'gluon.dal.Field'>"
+p339
+sS'IS_LIST_OF_EMAILS'
+p340
+S"<class 'gluon.validators.IS_LIST_OF_EMAILS'>"
+p341
+sS'middle_columns'
+p342
+S"'span12'"
+p343
+sS'DIV'
+p344
+S"<class 'gluon.html.DIV'>"
+p345
+sS'LEGEND'
+p346
+S"<class 'gluon.html.LEGEND'>"
+p347
+sS'COLGROUP'
+p348
+S"<class 'gluon.html.COLGROUP'>"
+p349
+sS'DAL'
+p350
+S"<class 'gluon.dal.DAL'>"
+p351
+sS'TT'
+p352
+S"<class 'gluon.html.TT'>"
+p353
+sS'TR'
+p354
+S"<class 'gluon.html.TR'>"
+p355
+sS'LI'
+p356
+S"<class 'gluon.html.LI'>"
+p357
+sS'right_sidebar_enabled'
+p358
+g149
+sS'TH'
+p359
+S"<class 'gluon.html.TH'>"
+p360
+sS'TD'
+p361
+S"<class 'gluon.html.TD'>"
+p362
+sS'PluginManager'
+p363
+S"<class 'gluon.tools.PluginManager'>"
+p364
+sS'IS_URL'
+p365
+S"<class 'gluon.validators.IS_URL'>"
+p366
+sS'A'
+S"<class 'gluon.html.A'>"
+p367
+sS'HEAD'
+p368
+S"<class 'gluon.html.HEAD'>"
+p369
+sS'IS_DATETIME_IN_RANGE'
+p370
+S"<class 'gluon.validators.IS_DATETIME_IN_RANGE'>"
+p371
+sS'FORM'
+p372
+S"<class 'gluon.html.FORM'>"
+p373
+sS'I'
+S"<class 'gluon.html.I'>"
+p374
+sS'crud'
+p375
+S'<gluon.tools.Crud object>'
+p376
+sS'poems'
+p377
+S"['\\xd0\\x9b\\xd0\\x98\\xd0\\x9b\\xd0\\x98\\xd0\\x98\\n', '\\xd0\\x9b\\xd0\\x98\\xd0\\x9b\\xd0\\x98\\xd0\\x98\\n', '\\xd0\\xb8\\xd1\\x8e\\xd0\\xbd\\xd1\\x8f\\n', '1904\\n', 'esto\\xd0\\x9e\\xd0\\xb4\\xd0\\xb5\\xd1\\x81\\xd1\\x81\\xd0\\xb0\\n', '\\xd0\\xb8\\xd1\\x8e\\xd0\\xbb\\xd1\\x8f\\n', '1904\\n', ['\\xd0\\xaf \\xd0\\xbb\\xd0\\xb8\\xd0\\xbb\\xd0\\xb8\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x80\\xd0\\xb2\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd0\\xbf\\xd1\\x80\\xd0\\xb5\\xd0\\xba\\xd1\\x80\\xd0\\xb0\\xd1\\x81\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd0\\xb8 \\xd0\\xb4\\xd1\\x83\\xd1\\x88\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\xa1\\xd1\\x82\\xd1\\x8b\\xd0\\xb4\\xd0\\xbb\\xd0\\xb8\\xd0\\xb2\\xd0\\xbe-\\xd0\\xb7\\xd0\\xb0\\xd0\\xbc\\xd0\\xba\\xd0\\xbd\\xd1\\x83\\xd1\\x82\\xd1\\x8b\\xd1\\x85, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xb4\\xd0\\xb5\\xd0\\xb2 \\xd0\\xbd\\xd0\\xb5\\xd0\\xb2\\xd0\\xb8\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd1\\x85 \\xd1\\x80\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\xa1 \\xd0\\xb8\\xd1\\x85 \\xd0\\xbb\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x81\\xd1\\x82\\xd0\\xba\\xd0\\xbe\\xd0\\xb2, \\xd0\\xb4\\xd1\\x80\\xd0\\xbe\\xd0\\xb6\\xd0\\xb0\\xd1\\x89\\xd0\\xb8\\xd1\\x85 \\xd0\\xb8 \\xd1\\x80\\xd0\\xbe\\xd1\\x81\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd1\\x8b\\xd1\\x85,\\n', '\\xd0\\x9f\\xd0\\xb8\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xb0\\xd1\\x80\\xd0\\xbe\\xd0\\xbc\\xd0\\xb0\\xd1\\x82 \\xd0\\xb8 \\xd1\\x81\\xd1\\x87\\xd0\\xb0\\xd1\\x81\\xd1\\x82\\xd1\\x8c\\xd0\\xb5 \\xd0\\xb8 \\xd0\\xbf\\xd0\\xbe\\xd0\\xba\\xd0\\xbe\\xd0\\xb9.\\n', '\\n', '\\xd0\\x98 \\xd1\\x81\\xd0\\xb5\\xd1\\x80\\xd0\\xb4\\xd1\\x86\\xd0\\xb5 \\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe \\xd1\\x81\\xd0\\xb6\\xd0\\xb8\\xd0\\xbc\\xd0\\xb0\\xd0\\xbb\\xd0\\xbe\\xd1\\x81\\xd1\\x8c, \\xd0\\xba\\xd0\\xb0\\xd0\\xba \\xd0\\xbe\\xd1\\x82 \\xd0\\xb1\\xd0\\xbe\\xd0\\xbb\\xd0\\xb8,\\n', '\\xd0\\x90 \\xd0\\xb1\\xd0\\xbb\\xd0\\xb5\\xd0\\xb4\\xd0\\xbd\\xd1\\x8b\\xd0\\xb5 \\xd1\\x86\\xd0\\xb2\\xd0\\xb5\\xd1\\x82\\xd1\\x8b \\xd0\\xba\\xd0\\xb0\\xd1\\x87\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8 \\xd0\\xb3\\xd0\\xbe\\xd0\\xbb\\xd0\\xbe\\xd0\\xb2\\xd0\\xbe\\xd0\\xb9,\\n', '\\xd0\\x98 \\xd0\\xb2\\xd0\\xbd\\xd0\\xbe\\xd0\\xb2\\xd1\\x8c \\xd0\\xbc\\xd0\\xb5\\xd1\\x87\\xd1\\x82\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0 \\xd1\\x8f \\xd0\\xbe \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb5\\xd0\\xba\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb2\\xd0\\xbe\\xd0\\xbb\\xd0\\xb5,\\n', '\\xd0\\x9e \\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81\\xd1\\x82\\xd1\\x80\\xd0\\xb0\\xd0\\xbd\\xd0\\xb5, \\xd0\\xb3\\xd0\\xb4\\xd0\\xb5 \\xd1\\x8f \\xd0\\xb1\\xd1\\x8b\\xd0\\xbb\\xd0\\xb0 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd0\\xb9...\\n', 'd22\\n', '\\n', 'ded\\xd0\\x90. \\xd0\\x9c. \\xd0\\xa4\\xd0\\xb5\\xd0\\xb4\\xd0\\xbe\\xd1\\x80\\xd0\\xbe\\xd0\\xb2\\xd1\\x83\\n', '\\xd0\\x9d\\xd0\\xb0\\xd0\\xb4 \\xd1\\x87\\xd0\\xb5\\xd1\\x80\\xd0\\xbd\\xd0\\xbe\\xd1\\x8e \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7\\xd0\\xb4\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd1\\x81 \\xd1\\x82\\xd0\\xbe\\xd0\\xb1\\xd0\\xbe\\xd1\\x8e \\xd1\\x8f \\xd1\\x88\\xd0\\xbb\\xd0\\xb0,\\n', '\\xd0\\x9c\\xd0\\xb5\\xd1\\x80\\xd1\\x86\\xd0\\xb0\\xd1\\x8f, \\xd0\\xb7\\xd0\\xb0\\xd1\\x80\\xd0\\xbd\\xd0\\xb8\\xd1\\x86\\xd1\\x8b \\xd1\\x81\\xd0\\xb2\\xd0\\xb5\\xd1\\x80\\xd0\\xba\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', '\\xd0\\x92 \\xd1\\x82\\xd0\\xbe\\xd1\\x82 \\xd0\\xb2\\xd0\\xb5\\xd1\\x87\\xd0\\xb5\\xd1\\x80 \\xd1\\x8f \\xd0\\xba\\xd0\\xbb\\xd0\\xb0\\xd0\\xb4 \\xd0\\xbd\\xd0\\xb5\\xd0\\xbe\\xd1\\x86\\xd0\\xb5\\xd0\\xbd\\xd0\\xbd\\xd1\\x8b\\xd0\\xb9 \\xd0\\xbd\\xd0\\xb0\\xd1\\x88\\xd0\\xbb\\xd0\\xb0\\n', '\\xd0\\x92 \\xd0\\xb7\\xd0\\xb0\\xd0\\xb3\\xd0\\xb0\\xd0\\xb4\\xd0\\xbe\\xd1\\x87\\xd0\\xbd\\xd0\\xbe-\\xd1\\x82\\xd1\\x80\\xd0\\xb5\\xd0\\xbf\\xd0\\xb5\\xd1\\x82\\xd0\\xbd\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb8.\\n', '\\xd0\\x98 \\xd0\\xbf\\xd0\\xb5\\xd1\\x81\\xd0\\xbd\\xd1\\x8f \\xd0\\xbb\\xd1\\x8e\\xd0\\xb1\\xd0\\xb2\\xd0\\xb8 \\xd0\\xbd\\xd0\\xb0\\xd1\\x88\\xd0\\xb5\\xd0\\xb9 \\xd1\\x87\\xd0\\xb8\\xd1\\x81\\xd1\\x82\\xd0\\xbe\\xd0\\xb9 \\xd0\\xb1\\xd1\\x8b\\xd0\\xbb\\xd0\\xb0,\\n', '\\xd0\\x9f\\xd1\\x80\\xd0\\xbe\\xd0\\xb7\\xd1\\x80\\xd0\\xb0\\xd1\\x87\\xd0\\xbd\\xd0\\xb5\\xd0\\xb5 \\xd0\\xbb\\xd1\\x83\\xd0\\xbd\\xd0\\xbd\\xd0\\xbe\\xd0\\xb3\\xd0\\xbe \\xd1\\x81\\xd0\\xb2\\xd0\\xb5\\xd1\\x82\\xd0\\xb0,\\n', '\\xd0\\x90 \\xd1\\x87\\xd0\\xb5\\xd1\\x80\\xd0\\xbd\\xd0\\xb0\\xd1\\x8f \\xd0\\xb1\\xd0\\xb5\\xd0\\xb7\\xd0\\xb4\\xd0\\xbd\\xd0\\xb0, \\xd0\\xbf\\xd1\\x80\\xd0\\xbe\\xd1\\x81\\xd0\\xbd\\xd1\\x83\\xd0\\xb2\\xd1\\x88\\xd0\\xb8\\xd1\\x81\\xd1\\x8c, \\xd0\\xb6\\xd0\\xb4\\xd0\\xb0\\xd0\\xbb\\xd0\\xb0\\n', '\\xd0\\x92 \\xd0\\xbc\\xd0\\xbe\\xd0\\xbb\\xd1\\x87\\xd0\\xb0\\xd0\\xbd\\xd0\\xb8\\xd0\\xb8 \\xd1\\x81\\xd1\\x82\\xd1\\x80\\xd0\\xb0\\xd1\\x81\\xd1\\x82\\xd0\\xb8 \\xd0\\xbe\\xd0\\xb1\\xd0\\xb5\\xd1\\x82\\xd0\\xb0.\\n', ...], '1904-1905']"
+p378
+sS'IS_NOT_IN_DB'
+p379
+S"<class 'gluon.validators.IS_NOT_IN_DB'>"
+p380
+sg121
+S"<Storage {'body': <cStringIO.StringO object at 0...62758>, 'view': 'control/search_for_files.html'}>"
+p381
+sS'THEAD'
+p382
+S"<class 'gluon.html.THEAD'>"
+p383
+sS'ANY_OF'
+p384
+S"<class 'gluon.validators.ANY_OF'>"
+p385
+sS'IS_NULL_OR'
+p386
+S"<class 'gluon.validators.IS_EMPTY_OR'>"
+p387
+sg56
+S"<Storage {'_vars': None, 'function': 'search_for...: '/home/concordance/web2py/applications/test/'}>"
+p388
+sS'IS_EXPR'
+p389
+S"<class 'gluon.validators.IS_EXPR'>"
+p390
+sS'T'
+S'<gluon.languages.translator object>'
+p391
+sS'IS_IN_SET'
+p392
+S"<class 'gluon.validators.IS_IN_SET'>"
+p393
+sS'IS_UPLOAD_FILENAME'
+p394
+S"<class 'gluon.validators.IS_UPLOAD_FILENAME'>"
+p395
+sS'IS_DECIMAL_IN_RANGE'
+p396
+S"<class 'gluon.validators.IS_DECIMAL_IN_RANGE'>"
+p397
+sssS'traceback'
+p398
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/views/control/search_for_files.html", line 99, in <module>\nAttributeError: \'list\' object has no attribute \'decode\'\n'
+p399
+s.
