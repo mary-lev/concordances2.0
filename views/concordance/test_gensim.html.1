@@ -1,0 +1,8 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон control/test_gensim.html</h1>
+{{=BEAUTIFY(response._vars)}}
+<ul>
+{{for all in model.most_similar(positive=['ночь', 'день'], topn=20):}}
+<li>{{=all}}, {{=all[0]}}</li>
+{{pass}}
+    </ul>

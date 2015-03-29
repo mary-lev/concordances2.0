@@ -5,6 +5,10 @@ import pymorphy2
 from operator import itemgetter
 import select
 from gensim import corpora, models, similarities
+import gensim, logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
+partos = ['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
 
 def index(): # concordance of one text
     all_words = trymysql(trymysql.allword.title==request.args(0)).select()
@@ -22,8 +26,7 @@ def index(): # concordance of one text
 
 def create_concordance():
     all_words = trymysql().select(trymysql.allword.ALL)
-    part=['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
-    all1=[all.word for all in all_words if all.partos in part]
+    all1=[all.word for all in all_words if all.partos in partos]
     words=sorted(set(all1))
     for token in words:
             trymysql.concordance.insert(word=token)
@@ -50,24 +53,33 @@ def create_vector():
         vector.append(numbers)
     return dict(vector=vector)
 
-def test_gensim():
-    all_texts = trymysql(trymysql.text1.author==4).select()
-    alles = []
-    for all in all_texts:
-        part=['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
+def word2vec():
+    part=['NOUN', 'ADJF', 'VERB']
+    sentences = []
+    sentences1 = []
+    for all in trymysql(trymysql.text1.author==5).select():
+        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
         one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
+        sentences.append(one)
+    for all in trymysql(trymysql.text1.author==1).select():
+        part=['NOUN', 'ADJF']
+        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
+        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]
+        sentences1.append(one)
+    model = gensim.models.Word2Vec(sentences, min_count=5, size=25)
+    model1 = gensim.models.Word2Vec(sentences1, min_count=5, size=25)
+    return dict(model=model, model1=model1)
+
+def test_gensim():
+    alles = []
+    for all in trymysql(trymysql.text1.id>0).select():
+        one=[new.word for new in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(("NOUN", "VERB")))).select()]
         alles.append(one)
-    dictionary = corpora.Dictionary(alles)
-    doc = [new.word for new in trymysql((trymysql.allword.title==24)&(trymysql.allword.partos.belongs(part))).select()]
-    vec_bow = dictionary.doc2bow(doc)
+    dictionary = gensim.corpora.Dictionary(alles)
     corpus = [dictionary.doc2bow(alle) for alle in alles]
     tfidf = models.TfidfModel(corpus)
     corpus_tfidf = tfidf[corpus]
-    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=5)
-    corpus_lsi = lsi[corpus_tfidf]
-    vec_lsi = lsi[vec_bow]
-    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])
-    sims = index[vec_lsi]
-    sims = sorted(enumerate(sims), key=lambda item: -item[1])
-    topics=lsi.print_topics(5)
-    return dict(sims=sims,vec_bow=vec_bow, corpus_tfidf=corpus_tfidf, topics=topics)
+    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=15)
+    #lda = gensim.models.ldamodel.LdaModel(corpus_tfidf, id2word=dictionary, num_topics=15, update_every=1, chunksize=10000, passes=1)
+    topics=lsi.print_topics(15)
+    return dict(topics=topics)

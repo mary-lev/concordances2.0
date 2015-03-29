@@ -1,0 +1,14 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон concordance/word2vec.html</h1>
+{{=BEAUTIFY(response._vars)}}
+
+<table>
+<tr><td>{{for all in model.most_similar(positive=['город'], topn=20):}}
+<li> {{=all[0]}}</li>
+{{pass}}
+    </td>
+<td>
+{{for all in model1.most_similar(positive=['город'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td></tr></table>

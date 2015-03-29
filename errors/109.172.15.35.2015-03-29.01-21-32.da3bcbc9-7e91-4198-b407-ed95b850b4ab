@@ -1,0 +1,618 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.SyntaxError'> Set: no tables selected"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/controllers/concordance.py'
+p5
+sS'code'
+p6
+S'# coding: utf8\n# coding: utf8\nimport nltk\nimport pymorphy2\nfrom operator import itemgetter\nimport select\nfrom gensim import corpora, models, similarities\nimport gensim, logging\nlogging.basicConfig(format=\'%(asctime)s : %(levelname)s : %(message)s\', level=logging.INFO)\n\npartos = [\'VERB\', \'NOUN\', \'ADJF\', \'ADJS\', \'INFN\', \'GRND\', \'PRTF\', \'PRTS\', \'ADVB\']\n\ndef index(): # concordance of one text\n    all_words = trymysql(trymysql.allword.title==request.args(0)).select()\n    lens=len(all_words)\n    vocab = []\n    for row in all_words:\n        w = row.word\n        q = trymysql((trymysql.allword.word==row.word)&(trymysql.allword.title==request.args(0))).select()\n        qq = round(((len(q)/float(lens))*100), 2)\n        c = [w, len(q), qq]\n        if c not in vocab:\n            vocab.append(c)\n    vocab.sort(key = itemgetter(0), reverse=False)\n    return dict(lens=lens, vocab=vocab)\n\ndef create_concordance():\n    all_words = trymysql().select(trymysql.allword.ALL)\n    all1=[all.word for all in all_words if all.partos in partos]\n    words=sorted(set(all1))\n    for token in words:\n            trymysql.concordance.insert(word=token)\n    return dict(words=words)\n\ndef create_number():\n    all_texts=trymysql(trymysql.allword.title<10).select()\n    concor=trymysql(trymysql.concordance.id>0).select()\n    words_concordance = [one.word for one in concor]\n    for all in all_texts:\n        if all.word in words_concordance:\n            number = trymysql(trymysql.concordance.word==all.word).select()[0]\n            number_id=number.id\n            all.update_record(concordance_number=number_id)\n        else:\n            all.update_record(concordance_number=0)\n    return dict(words=words_concordance[:10], all_texts=all_texts)\n\ndef create_vector():\n    all_texts=trymysql(trymysql.text1.id<10).select()\n    vector = []\n    for all in all_texts:\n        numbers = [all.concordance_number for all in trymysql(trymysql.allword.title==all.id).select()]\n        vector.append(numbers)\n    return dict(vector=vector)\n\ndef word2vec():\n    all_texts = trymysql(trymysql.text1.author==1).select()\n    sentences = []\n    sentences1 = []\n    for all in trymysql(trymysql.text1.author==5).select():\n        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]\n        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos=="NOUN")).select()]\n        sentences.append(one)\n    for all in trymysql(trymysql.text1.author==1).select():\n        part=[\'NOUN\', \'ADJF\']\n        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]\n        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos=="NOUN")).select()]\n        sentences1.append(one)\n    model = gensim.models.Word2Vec(sentences, min_count=10, size=15)\n    model1 = gensim.models.Word2Vec(sentences1, min_count=10, size=15)\n    return dict(model=model, model1=model1)\n\ndef test_gensim():\n    alles = []\n    for all in trymysql(trymysql.text1.author==1).select():\n        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]\n        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&trymysql.allword.partos=="NOUN").select()]\n        alles.append(one)\n    dictionary = corpora.Dictionary(alles)\n    doc = [new.word for new in trymysql((trymysql.allword.title==24)&(trymysql.allword.partos=="NOUN")).select()]\n    vec_bow = dictionary.doc2bow(doc)\n    corpus = [dictionary.doc2bow(alle) for alle in alles]\n    tfidf = models.TfidfModel(corpus, normalize=True)\n    corpus_tfidf = tfidf[corpus]\n    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=3)\n    corpus_lsi = lsi[corpus_tfidf]\n    vec_lsi = lsi[vec_bow]\n    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])\n    sims = index[vec_lsi]\n    sims = sorted(enumerate(sims), key=lambda item: -item[1])\n    topics=lsi.print_topics(5)\n    return dict(topics=topics)\n\nresponse._vars=response._caller(test_gensim)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.SyntaxError object>"
+p13
+sS'text'
+p14
+S'None'
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of exceptions.SyntaxError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of exceptions.SyntaxError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of exceptions.SyntaxError object>'
+p23
+sS'__init__'
+p24
+S"<method-wrapper '__init__' of exceptions.SyntaxError object>"
+p25
+sS'__setattr__'
+p26
+S"<method-wrapper '__setattr__' of exceptions.SyntaxError object>"
+p27
+sS'__reduce_ex__'
+p28
+S'<built-in method __reduce_ex__ of exceptions.SyntaxError object>'
+p29
+sS'__new__'
+p30
+S'<built-in method __new__ of type object>'
+p31
+sS'__format__'
+p32
+S'<built-in method __format__ of exceptions.SyntaxError object>'
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.SyntaxError'>"
+p35
+sS'filename'
+p36
+S'None'
+p37
+sS'lineno'
+p38
+S'None'
+p39
+sS'msg'
+p40
+S"'Set: no tables selected'"
+p41
+sS'__doc__'
+p42
+S"'Invalid syntax.'"
+p43
+sS'__getitem__'
+p44
+S"<method-wrapper '__getitem__' of exceptions.SyntaxError object>"
+p45
+sS'__setstate__'
+p46
+S'<built-in method __setstate__ of exceptions.SyntaxError object>'
+p47
+sS'__getattribute__'
+p48
+S"<method-wrapper '__getattribute__' of exceptions.SyntaxError object>"
+p49
+sS'print_file_and_line'
+p50
+S'None'
+p51
+sS'args'
+p52
+S"('Set: no tables selected',)"
+p53
+sS'__subclasshook__'
+p54
+S'<built-in method __subclasshook__ of type object>'
+p55
+sS'offset'
+p56
+S'None'
+p57
+sS'__unicode__'
+p58
+S'<built-in method __unicode__ of exceptions.SyntaxError object>'
+p59
+sS'__delattr__'
+p60
+S"<method-wrapper '__delattr__' of exceptions.SyntaxError object>"
+p61
+sS'__repr__'
+p62
+S"<method-wrapper '__repr__' of exceptions.SyntaxError object>"
+p63
+sS'__hash__'
+p64
+S"<method-wrapper '__hash__' of exceptions.SyntaxError object>"
+p65
+ssS'evalue'
+p66
+S'Set: no tables selected'
+p67
+sS'request'
+p68
+cgluon.html
+XML_unpickle
+p69
+(S'sq^\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>concordance</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_books</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa; session_id_books=109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d; __utma=133430031.117798768.1404299048.1426480086.1426498492.23; __utmc=133430031; __utmz=133430031.1404299048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.117798768.1404299048; __utmt=1; session_id_test=109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57; __utma=134993891.745451564.1404743691.1427575482.1427591774.83; __utmb=134993891.4.10.1427591774; __utmc=134993891; __utmz=134993891.1404743691.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.157.107.232</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>46913</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=109.172.15.35-e4501077-0fc4-4740-b67c-af19a127bbaa; session_id_books=109.172.15.35-81f6382a-d143-45a6-b4f2-445510872b2d; __utma=133430031.117798768.1404299048.1426480086.1426498492.23; __utmc=133430031; __utmz=133430031.1404299048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.117798768.1404299048; __utmt=1; session_id_test=109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57; __utma=134993891.745451564.1404743691.1427575482.1427591774.83; __utmb=134993891.4.10.1427591774; __utmc=134993891; __utmz=134993891.1404743691.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=93.185.176.186-5307d37a-6252-4082-a4b4-427f83975220</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>giles-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.157.107.232</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>46913</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f04702e6e50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f047a64ac18&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f04702e6e50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f047a64ac18&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>test_gensim</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>giles-liveweb1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 29, 1, 21, 32, 613140)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/concordance/test_gensim.html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2015, 3, 29, 1, 21, 32, 613154)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/109.172.15.35.2015-03-29.01-21-32.da3bcbc9-7e91-4198-b407-ed95b850b4ab</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f045f416910&gt;</div></td></tr></table></div>'
+tRp70
+sS'frames'
+p71
+(lp72
+(dp73
+S'file'
+p74
+S'/home/concordance/web2py/gluon/restricted.py'
+p75
+sS'dump'
+p76
+(dp77
+S'environment'
+p78
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p79
+sS'ccode'
+p80
+S'<code object <module> at 0x7f045f76ee30, file "/...cations/test/controllers/concordance.py", line 3>'
+p81
+ssS'lnum'
+p82
+I220
+sS'lines'
+p83
+(dp84
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p85
+sI215
+S'    try:'
+p86
+sI216
+S'        if isinstance(code, types.CodeType):'
+p87
+sI217
+S'            ccode = code'
+p88
+sI218
+S'        else:'
+p89
+sI219
+S'            ccode = compile2(code, layer)'
+p90
+sI220
+S'        exec ccode in environment'
+p91
+sI221
+S'    except HTTP:'
+p92
+sI222
+S'        raise'
+p93
+sI223
+S'    except RestrictedError:'
+p94
+ssS'call'
+p95
+S"(code='# coding: utf8\\n# coding: utf8\\nimport nltk\\nimport...s)\\n\\nresponse._vars=response._caller(test_gensim)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}, layer='/home/concordance/web2py/applications/test/controllers/concordance.py')"
+p96
+sS'func'
+p97
+S'restricted'
+p98
+sa(dp99
+g74
+S'/home/concordance/web2py/applications/test/controllers/concordance.py'
+p100
+sg76
+(dp101
+sg82
+I94
+sg83
+(dp102
+I83
+S'    tfidf = models.TfidfModel(corpus, normalize=True)'
+p103
+sI84
+S'    corpus_tfidf = tfidf[corpus]'
+p104
+sI85
+S'    lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=3)'
+p105
+sI86
+S'    corpus_lsi = lsi[corpus_tfidf]'
+p106
+sI87
+S'    vec_lsi = lsi[vec_bow]'
+p107
+sI88
+S'    index = similarities.MatrixSimilarity(lsi[corpus_tfidf])'
+p108
+sI89
+S'    sims = index[vec_lsi]'
+p109
+sI90
+S'    sims = sorted(enumerate(sims), key=lambda item: -item[1])'
+p110
+sI91
+S'    topics=lsi.print_topics(5)'
+p111
+sI92
+S'    return dict(topics=topics)'
+p112
+ssg95
+S'()'
+p113
+sg97
+S'<module>'
+p114
+sa(dp115
+g74
+S'/home/concordance/web2py/gluon/globals.py'
+p116
+sg76
+(dp117
+S'self'
+p118
+S'undefined'
+p119
+sS'f'
+S'<function test_gensim>'
+p120
+ssg82
+I385
+sg83
+(dp121
+I384
+S'        self._vars = None'
+p122
+sI385
+S'        self._caller = lambda f: f()'
+p123
+sI386
+S'        self._view_environment = None'
+p124
+sI387
+S'        self._custom_commit = None'
+p125
+sI388
+S'        self._custom_rollback = None'
+p126
+sI389
+S''
+sI380
+S'        self.menu = []             # used by the default view layout'
+p127
+sI381
+S'        self.files = []            # used by web2py_ajax.html'
+p128
+sI382
+S'        self.generic_patterns = []  # patterns to allow generic views'
+p129
+sI383
+S"        self.delimiters = ('{{', '}}')"
+p130
+ssg95
+S'(f=<function test_gensim>)'
+p131
+sg97
+S'<lambda>'
+p132
+sa(dp133
+g74
+S'/home/concordance/web2py/applications/test/controllers/concordance.py'
+p134
+sg76
+(dp135
+S'all.word'
+p136
+g119
+sS'all'
+p137
+S"<Row {'dmonth_writing': None, 'dyear_writing': N...: '', 'v': '', 'epigraph': '', 'group_text': 1L}>"
+p138
+sS'trymysql.allword.partos'
+p139
+S'<gluon.dal.Field object>'
+p140
+sS'all.id'
+p141
+S'1L'
+p142
+sS').select'
+p143
+g119
+sS'one'
+p144
+g119
+sS'trymysql.allword'
+p145
+S'<Table allword (id,word,lemma,title,partos,anim,...lexical_group,concordance_number,warning,author)>'
+p146
+sS'trymysql.allword.title'
+p147
+S'<gluon.dal.Field object>'
+p148
+sS'global trymysql'
+p149
+S'<DAL uri="mysql:******@mysql.server/concordance$new">'
+p150
+ssg82
+I77
+sg83
+(dp151
+I72
+S''
+sI73
+S'def test_gensim():'
+p152
+sI74
+S'    alles = []'
+p153
+sI75
+S'    for all in trymysql(trymysql.text1.author==1).select():'
+p154
+sI76
+S'        # one = [all.word for all in trymysql((trymysql.allword.title==all.id)&(trymysql.allword.partos.belongs(part))).select()]'
+p155
+sI77
+S'        one = [all.word for all in trymysql((trymysql.allword.title==all.id)&trymysql.allword.partos=="NOUN").select()]'
+p156
+sI78
+S'        alles.append(one)'
+p157
+sI79
+S'    dictionary = corpora.Dictionary(alles)'
+p158
+sI80
+S'    doc = [new.word for new in trymysql((trymysql.allword.title==24)&(trymysql.allword.partos=="NOUN")).select()]'
+p159
+sI81
+S'    vec_bow = dictionary.doc2bow(doc)'
+p160
+ssg95
+S'()'
+p161
+sg97
+S'test_gensim'
+p162
+sa(dp163
+g74
+S'/home/concordance/web2py/gluon/dal.py'
+p164
+sg76
+(dp165
+S'self.query'
+p166
+S'False'
+p167
+sS'adapter.select'
+p168
+S'<bound method MySQLAdapter.select of <gluon.dal.MySQLAdapter object>>'
+p169
+sS'fields'
+p170
+S'[]'
+p171
+sS'adapter'
+p172
+S'<gluon.dal.MySQLAdapter object>'
+p173
+sS'attributes'
+p174
+g21
+sS'self'
+p175
+S'<Set 0>'
+p176
+ssg82
+I10525
+sg83
+(dp177
+I10528
+S'        return Expression(self.db,self._select(*fields,**attributes))'
+p178
+sI10529
+S''
+sI10520
+S"                                    attributes.get('join',None),"
+p179
+sI10521
+S"                                    attributes.get('left',None),"
+p180
+sI10522
+S"                                    attributes.get('orderby',None),"
+p181
+sI10523
+S"                                    attributes.get('groupby',None))"
+p182
+sI10524
+S'        fields = adapter.expand_all(fields, tablenames)'
+p183
+sI10525
+S'        return adapter.select(self.query,fields,attributes)'
+p184
+sI10526
+S''
+sI10527
+S'    def nested_select(self,*fields,**attributes):'
+p185
+ssg95
+S'(self=<Set 0>, *fields=[], **attributes={})'
+p186
+sg97
+S'select'
+p187
+sa(dp188
+g74
+S'/home/concordance/web2py/gluon/dal.py'
+p189
+sg76
+(dp190
+S'self._select'
+p191
+S'<bound method MySQLAdapter._select of <gluon.dal.MySQLAdapter object>>'
+p192
+sS'fields'
+p193
+S'[]'
+p194
+sS'self'
+p195
+S'<gluon.dal.MySQLAdapter object>'
+p196
+sS'sql'
+p197
+g119
+sS'query'
+p198
+g167
+sS'attributes'
+p199
+g21
+ssg82
+I1869
+sg83
+(dp200
+I1864
+S''
+sI1865
+S'    def select(self, query, fields, attributes):'
+p201
+sI1866
+S'        """'
+p202
+sI1867
+S'        Always returns a Rows object, possibly empty.'
+p203
+sI1868
+S'        """'
+p204
+sI1869
+S'        sql = self._select(query, fields, attributes)'
+p205
+sI1870
+S"        cache = attributes.get('cache', None)"
+p206
+sI1871
+S"        if cache and attributes.get('cacheable',False):"
+p207
+sI1872
+S"            del attributes['cache']"
+p208
+sI1873
+S'            (cache_model, time_expire) = cache'
+p209
+ssg95
+S'(self=<gluon.dal.MySQLAdapter object>, query=False, fields=[], attributes={})'
+p210
+sg97
+g187
+sa(dp211
+g74
+S'/home/concordance/web2py/gluon/dal.py'
+p212
+sg76
+(dp213
+S'builtinSyntaxError'
+p214
+S"<type 'exceptions.SyntaxError'>"
+p215
+ssg82
+I1708
+sg83
+(dp216
+I1703
+S'            for tablename in tables(field):'
+p217
+sI1704
+S'                if not tablename in tablenames:'
+p218
+sI1705
+S'                    tablenames.append(tablename)'
+p219
+sI1706
+S''
+sI1707
+S'        if len(tablenames) < 1:'
+p220
+sI1708
+S"            raise SyntaxError('Set: no tables selected')"
+p221
+sI1709
+S'        def colexpand(field):'
+p222
+sI1710
+S'            return self.expand(field, colnames=True)'
+p223
+sI1711
+S'        self._colnames = map(colexpand, fields)'
+p224
+sI1712
+S'        def geoexpand(field):'
+p225
+ssg95
+S'(self=<gluon.dal.MySQLAdapter object>, query=False, fields=[], attributes={})'
+p226
+sg97
+S'_select'
+p227
+sasS'pyver'
+p228
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p229
+sS'session'
+p230
+g69
+(S's\xc4\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>trymysql.concordance.id&gt;0</div></td></tr></table></div>'
+tRp231
+sS'etype'
+p232
+S"<type 'exceptions.SyntaxError'>"
+p233
+sS'date'
+p234
+S'Sun Mar 29 01:21:34 2015'
+p235
+sS'response'
+p236
+g69
+(S's\x9e\x1e\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f045f433c70&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div><span class="highlighted">web2py</span></div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://concordances.ru</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xd0\x9e \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb5\xd0\xba\xd1\x82\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x90\xd0\xb4\xd0\xbc\xd0\xb8\xd0\xbd\xd0\xba\xd0\xb0</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/test/controllers/concordance.py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^concordance/\\w+\\.py$</div></td></tr><tr><td><div>^concordance/test_gensim/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57&#x27;, mode &#x27;rb+&#x27; at 0x7f045f74ced0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>7fa85f22493e2aa4f7306d9edc14adba</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>109.172.15.35-af34a2ce-3806-4b0b-b09d-1a71a0b96d57</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>concordance/test_gensim.html</div></td></tr></table></div>'
+tRp237
+sS'locals'
+p238
+(dp239
+S'tables'
+p240
+S'<bound method MySQLAdapter.tables of <gluon.dal.MySQLAdapter object>>'
+p241
+sS'tablenames_for_common_filters'
+p242
+S'[]'
+p243
+sS'fields'
+p244
+S'[]'
+p245
+sS'self'
+p246
+S'<gluon.dal.MySQLAdapter object>'
+p247
+sS'tablenames'
+p248
+S'[]'
+p249
+sS'query'
+p250
+g167
+sS'attributes'
+p251
+g21
+sS'args_get'
+p252
+S'<built-in method get of dict object>'
+p253
+sssS'traceback'
+p254
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/controllers/concordance.py", line 94, in <module>\n  File "/home/concordance/web2py/gluon/globals.py", line 385, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/concordance/web2py/applications/test/controllers/concordance.py", line 77, in test_gensim\n    one = [all.word for all in trymysql((trymysql.allword.title==all.id)&trymysql.allword.partos=="NOUN").select()]\n  File "/home/concordance/web2py/gluon/dal.py", line 10525, in select\n    return adapter.select(self.query,fields,attributes)\n  File "/home/concordance/web2py/gluon/dal.py", line 1869, in select\n    sql = self._select(query, fields, attributes)\n  File "/home/concordance/web2py/gluon/dal.py", line 1708, in _select\n    raise SyntaxError(\'Set: no tables selected\')\nSyntaxError: Set: no tables selected\n'
+p255
+s.
