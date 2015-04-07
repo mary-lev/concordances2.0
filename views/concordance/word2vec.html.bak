@@ -5,16 +5,18 @@
 <table>
 <tr>
 <td>
-{{for all in model1.most_similar(positive=['синий'], topn=20):}}
+{{for all in model1.most_similar(positive=['красный'], topn=20):}}
 <li>{{=all[0]}}</li>
 {{pass}}
     </td>
     <td>
-{{for all in model1.most_similar(positive=['золотой'], topn=20):}}
+{{for all in model1.most_similar(positive=['сон'], topn=20):}}
 <li>{{=all[0]}}</li>
 {{pass}}
     </td>
     </tr></table>
 {{=model1.similarity('белый', 'чёрный')}}
-{{=model1.similarity('белый', 'красный')}}
-{{=model1.similarity('красный', 'чёрный')}}
+{{=model1.similarity('утро', 'вечер')}}
+{{=model1.similarity('закат', 'заря')}}
+{{=model1.similarity('день', 'ночь')}}
+{{=model1.similarity('город', 'улица')}}

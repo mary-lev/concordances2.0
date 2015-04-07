@@ -23,7 +23,7 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(1156,1157)] # last: 3500
+    titles = [x for x in range(5600,5700)] # last: 3500
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
@@ -169,19 +169,11 @@ def search_result():
             for x in range(all.id-6, all.id+6):
                 try:
                     for_string = trymysql(trymysql.allword.id==x).select()[0]
-                    string= string + " " + str(for_string.lemma)
+                    if for_string.lemma=="," or for_string.lemma=='.':
+                        string = string + str(for_string.lemma)
+                    else:
+                        string= string + " " + str(for_string.lemma)
                 except:
                     pass
             strings.append((string +"...", title, author, int(title1.id)))
     return dict(strings=strings, message=message)
-
-def draft():
-    base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]
-    base_id0=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(1)).select()]
-    colours=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id))).count() for all in color]
-    colours2=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id0))).count() for all in color]
-    all_colours = sum([int(x) for x in colours])
-    all_colours2 = sum([int(x) for x in colours2])
-    title_1 = trymysql(trymysql.group_text.id==request.args(0)).select().first()
-    title_2 = trymysql(trymysql.group_text.id==request.args(1)).select().first()
-    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, title1=title_1.title, author1=title_1.author.family, title2=title_2.title, author2=title_2.author.family)

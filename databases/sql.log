@@ -133586,3 +133586,19 @@ timestamp: 2015-03-29T18:56:56.721679
 ALTER TABLE allword ADD string_number VARCHAR(512);
 success!
 success!
+timestamp: 2015-04-02T00:29:48.119485
+ALTER TABLE concordance ADD number VARCHAR(512);
+success!
+timestamp: 2015-04-02T02:22:12.858898
+ALTER TABLE concordance ADD number__tmp INT;
+success!
+UPDATE concordance SET number__tmp=number;
+success!
+ALTER TABLE concordance DROP COLUMN number;
+success!
+ALTER TABLE concordance ADD number INT;
+success!
+UPDATE concordance SET number=number__tmp;
+success!
+ALTER TABLE concordance DROP COLUMN number__tmp;
+success!

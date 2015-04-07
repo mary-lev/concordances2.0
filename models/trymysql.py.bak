@@ -73,13 +73,13 @@ trymysql.define_table('allword',
                   Field('lexical_group', label="Лексическая группа"),
                   Field('concordance_number', label="Номер в конкордансе"),
                   Field('warning', label = "Warning"),
-                  Field('author', label="Автор"),
-                  migrate=False,fake_migrate=True)
+                  Field('author', label="Автор"))
 
 trymysql.define_table('concordance',
                   Field('word', label="Слово"),
                   Field('partos', label="Часть речи"),
-                  Field('lexical', label="Лексическая группа"))
+                  Field('lexical', label="Лексическая группа"),
+                  Field('number', 'integer', label="Число"))
 
 trymysql.define_table('comments',
                       Field('title', trymysql.text1, label = "Номер текста"),

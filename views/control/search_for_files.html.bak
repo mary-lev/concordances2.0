@@ -1,11 +1,10 @@
 {{extend 'layout.html'}}
 <h1>Это шаблон control/search_for_files.html</h1>
-{{for f in content:}}
-{{=f.decode('utf-8')}}<br>
-{{pass}}
 
 {{for all in poems:}}
-{{for string in all['t']:}}
-{{=string}}<br>
+{{for strings in all['t']:}}
+{{=string.decode('utf-8')}}<br>
 {{pass}}
+
+*
 {{pass}}

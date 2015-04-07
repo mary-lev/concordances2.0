@@ -22,8 +22,9 @@ def index():
     numbers = []
     for all in texts:
         number = trymysql(trymysql.text1.author==all.id).count()
-        numbers.append([texts.name, texts.family, texts.id, number])
-    return dict(texts=texts, numbers=numbers)
+        numbers.append([all.name, all.family,all.id, number])
+    n = texts.count()
+    return dict(texts=texts, numbers=numbers, n = n)
 
 def user():
     """

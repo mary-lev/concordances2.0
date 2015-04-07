@@ -13,13 +13,14 @@ def count_partos():
     return dict(parts=parts, author=author)
 
 def count_concordance():
-    texts = trymysql(trymysql.allword.partos=='NOUN').select()
-    c = len(texts)
-    words=[all['word'] for all in texts]
-    words1 = [(word, words.count(word)) for word in words]
-    words1=sorted(set(words1))
-    words1.sort(key = itemgetter(1), reverse = True)
-    return dict(c=c, words1=words1)
+    for all in trymysql((trymysql.concordance.id>13500)&(trymysql.concordance.id<14500)).select():
+        summa = trymysql((trymysql.allword.word==all.word)&(trymysql.allword.partos=='NOUN')).count()
+        all.update_record(number=int(summa))
+    #words1=sorted(set(words1))
+    #words1.sort(key = itemgetter(1), reverse = True)
+    new=[all.word for all in trymysql(trymysql.concordance.number>500).select()]
+    t = type(trymysql(trymysql.concordance.id==100).select()[0].number)
+    return dict(new=new, t=t)
 
 def sentence_len(): # count mean of length of centences of the author
     texts = trymysql(trymysql.allword.author==request.args(0)).select()

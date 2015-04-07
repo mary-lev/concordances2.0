@@ -16,10 +16,10 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(1156,1157): # if text not yet in database (last:3500)
+    for x in range(5600,5700): # if text not yet in database (last:4811)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
-        path = "/home/concordance/web2py/applications/test/uploads/"
+        path = "/home/concordance/web2py/applications/test/uploads/balmont/"
         filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str('.txt')
         filename= str(path) + str(filename1)
         f = open(filename, 'w')
@@ -32,6 +32,7 @@ def tokenize_all(): # prepares text for tokenization (decoding) and write result
             message = "Все добавлено в базу"
     return dict(message=message)
 
+@auth.requires_login()
 def search_for_files():
     path = "/home/concordance/web2py/applications/test/corpus/"
     files = [f for f in listdir(path) if isfile(join(path,f)) ]
@@ -42,42 +43,52 @@ def search_for_files():
     text = {}
     n=0
     stih=[]
+    zagl=ded=year=day=month=location=epi=a_epi=''
     string_number=0
-    for all in select_one(content):
+    for all in content:
         string_number +=1
-        if 'N' in all:
-            zagl = all[1:]
-            text['z']=zagl
-        elif 'g' in all:
-            year = all[1:]
-            text['y']=year
-        elif 'm' in all:
-            month = all[1:]
-            text['m']=month
-        elif 'd' in all:
-            text['d']=all[1:]
-        elif 'l' in all:
-            location = all[1:]
-            text['l']=location
-        elif '*' in all:
+        if 'NNN' in all:
+            zagl = all[3:]
+        elif 'ggg' in all:
+            year = all[3:]
+        elif 'mmm' in all:
+            month = all[3:]
+        elif 'dday' in all:
+            day = all[4:]
+        elif 'lll' in all:
+            location = all[3:]
+        elif 'DDD' in all:
+            ded = all[3:]
+        elif 'EPI' in all:
+            epi = all[3:]
+        elif 'AUT' in all:
+            a_epi = all[3:]
+        elif "*" in all:
             text['t']=stih
             poems.append(text)
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=14, writing_location=location, body = ''.join(text['t']))
             stih = []
             text= {}
+            year=''
+            zagl=''
+            month=''
+            day=''
+            location=''
+            ded=edi=a_epi=''
             n+=1
             string_number=0
         else:
             stih.append(all)
-    return dict(content=content, poems=poems)
+    return dict(poems=poems)
 
 def select_one(content):
     new = content.count('*')
     poems = []
+    content = ' '.join(content)
     for all in range(new):
-        begin = content.find('*')
-        end = contend.find('*', content[begin:])
+        end = content.index('*')
         poems.append(content[:end])
-        content = content[end:]
+        content = content[end-1:]
     return dict(poems=poems)
 
 
