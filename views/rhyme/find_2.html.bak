@@ -1,0 +1,4 @@
+{{extend 'layout.html'}}
+{{for all in r:}}
+<li>{{=all[0]}} — {{=all[1]}}</li>
+{{pass}}

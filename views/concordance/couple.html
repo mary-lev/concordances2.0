@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>Тексты со словами {{=I(one, ", ", two)}} </h1>
+
+{{for one in texts:}}
+<li>{{=A(one.author.name, " ", one.author.family, ". ", one.title, _href=URL('show', 'show1', args=one.id))}}</li>
+{{pass}}

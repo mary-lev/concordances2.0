@@ -1,0 +1,7 @@
+# coding: utf8
+d = DAL('mysql://concordance:sosnora@concordance.mysql.pythonanywhere-services.com/concordance$try')
+
+d.define_table('stress',
+               Field('lemma', label = "Начальная форма"),
+               Field('form', label = "Слово"),
+               Field('stress', label = "Слово с ударением"))

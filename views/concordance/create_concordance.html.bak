@@ -1,0 +1,5 @@
+{{extend 'layout.html'}}
+<h1>Частотный словарь по корпусу</h1>
+{{for w in words[:3000]:}}
+<li>{{=w}}</li>
+{{pass}}

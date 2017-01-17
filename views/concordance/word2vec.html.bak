@@ -4,19 +4,36 @@
 
 <table>
 <tr>
-<td>
+<td><h4>Город</h4>
+{{for all in model1.most_similar(positive=['город'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+    <td><h4>Красный</h4>
 {{for all in model1.most_similar(positive=['красный'], topn=20):}}
 <li>{{=all[0]}}</li>
 {{pass}}
     </td>
-    <td>
-{{for all in model1.most_similar(positive=['сон'], topn=20):}}
+       <td><h4>День</h4>
+{{for all in model1.most_similar(positive=['день'], topn=20):}}
 <li>{{=all[0]}}</li>
 {{pass}}
     </td>
-    </tr></table>
-{{=model1.similarity('белый', 'чёрный')}}
-{{=model1.similarity('утро', 'вечер')}}
-{{=model1.similarity('закат', 'заря')}}
-{{=model1.similarity('день', 'ночь')}}
-{{=model1.similarity('город', 'улица')}}
+           <td><h4>Душа</h4>
+{{for all in model1.most_similar(positive=['душа'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>Рука</h4>
+{{for all in model1.most_similar(positive=['рука'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+        </tr></table>
+Белый/черный{{=model1.similarity('белый', 'чёрный')}}<br/>
+Тьма/мрак{{=model1.similarity('тьма', 'мрак')}}<br/>
+День/вечер{{=model1.similarity('день', 'вечер')}}<br/>
+День/час{{=model1.similarity('день', 'час')}}<br/>
+День/ночь{{=model1.similarity('день', 'ночь')}}<br/>
+День/утро{{=model1.similarity('день', 'утро')}}<br/

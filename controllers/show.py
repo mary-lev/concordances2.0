@@ -5,7 +5,8 @@ def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
     f = open(texts.filename, 'rb')
     content = f.readlines()
-    return dict(texts=texts, content=content)
+    image = [all.url for all in d(d.pages.text==request.args(0)).select()]
+    return dict(texts=texts, content=content, image=image)
 
 def show2(): # color the verbs
     words = trymysql(trymysql.allword.title==request.args(0)).select()
@@ -18,7 +19,7 @@ def show2(): # color the verbs
             content.append(row.lemma)
     return dict(content=content)
 
-def show3():
+def show3(): #delete words
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
     rows = trymysql(trymysql.allword.title==request.args(0)).select()
     text_view = []
@@ -31,3 +32,13 @@ def show3():
     if form.accepts(request,session):
         response.flash="form accepted"
     return dict(text_view=text_view, form=form)
+
+def show_variants(): # doesn't work
+    texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
+    filename = "/home/concordance/web2py/applications/test/uploads/xml//4/481.xml"
+    f = open(filename, 'rb')
+    content = f.read()
+    #if texts.id in [all.title for all in trymysql(trymysql.variants.id>0).select()]:
+    #    word = trymysql(trymysql.variants.title==texts.id).select().first()
+     #   word=word['comment_text']
+    return dict(content=content)

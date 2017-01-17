@@ -6,10 +6,10 @@
 <ol>
 {{for all in strings:}}
 <li>{{for word in all[0].split():}}
-    {{if word == all[0].split()[7]:}}
+    {{if word == all[5]:}}
         <span style="color:blue; font-weight: bold">{{=word}}</span>
 {{else:}}
 {{=word}} {{pass}} {{pass}}
-    ({{=A(all[1], " ", all[2][0], " ", all[2][1], _href=URL("show", "show1", args=all[3]))}}) </li>
+    ({{=A(all[1], " ", all[2][0], " ", all[2][1], _href=URL("show", "show1", args=all[3]))}}); ({{=A("Correct", _href=URL("morpho", "correct", args=all[4]))}}) </li>
 {{pass}}
 </ol>

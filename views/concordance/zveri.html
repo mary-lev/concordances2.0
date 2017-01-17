@@ -1,0 +1,56 @@
+{{extend 'layout.html'}}
+<h1>Векторная модель</h1>
+
+<table>
+
+<tr>
+<td><h4>{{=words[0]}}</h4>
+{{for all in model1.most_similar(positive=['волк'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+    <td><h4>{{=words[1]}}</h4>
+{{for all in model1.most_similar(positive=['зверь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+       <td><h4>{{=words[2]}}</h4>
+{{for all in model1.most_similar(positive=['конь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+     
+               <td>
+                   <h4>{{=words[3]}}</h4>
+{{for all in model1.most_similar(positive=['лошадь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+<tr>
+
+       <td><h4>{{=words[4]}}</h4>
+{{for all in model1.most_similar(positive=['мышь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+           <td><h4>{{=words[5]}}</h4>
+{{for all in model1.most_similar(positive=['пёс'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>{{=words[6]}}</h4>
+{{for all in model1.most_similar(positive=['собака'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+</table>
+День/ночь{{=model1.similarity('день', 'ночь')}}<br/>
+
+<ul>
+    <li><a href="/test/concordance/birds.html">Птицы</a></li>
+</ul>

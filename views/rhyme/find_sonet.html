@@ -1,0 +1,7 @@
+{{extend 'layout.html'}}
+<h1>Сонеты</h1>
+<ol>
+{{for all in ttt:}}
+<li> {{=A(all.author.name, " ", all.author.family, ". ", all.title, _href=URL("show", "show1", args=all.id))}} </li>
+{{pass}}
+</ol>

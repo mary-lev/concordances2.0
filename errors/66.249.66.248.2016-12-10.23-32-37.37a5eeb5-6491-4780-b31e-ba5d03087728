@@ -1,0 +1,380 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.ZeroDivisionError'> float division by zero"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/controllers/count.py'
+p5
+sS'code'
+p6
+S'# coding: utf8\nfrom operator import itemgetter\n\ndef index():\n    authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)\n    return dict(authors=authors)\n\ndef count_partos():\n    part = [\'NOUN\', \'ADJF\', \'ADJS\', \'VERB\', \'INFN\', \'GRND\', \'PRTF\', \'PRTS\', \'ADVB\', \'PREP\', \'CONJ\', \'NPRO\', \'PRCL\' ]\n    parts=[trymysql((trymysql.allword.partos==all)&(trymysql.allword.author==request.args(0))).count() for all in part]\n    author1=trymysql(trymysql.author.id==request.args(0)).select()[0]\n    author=author1[\'family\']\n    return dict(parts=parts, author=author)\n\ndef count_concordance():\n    for all in trymysql((trymysql.concordance.id>13500)&(trymysql.concordance.id<14500)).select():\n        summa = trymysql((trymysql.allword.word==all.word)&(trymysql.allword.partos==\'NOUN\')).count()\n        all.update_record(number=int(summa))\n    #words1=sorted(set(words1))\n    #words1.sort(key = itemgetter(1), reverse = True)\n    new=[all.word for all in trymysql(trymysql.concordance.number>500).select()]\n    t = type(trymysql(trymysql.concordance.id==100).select()[0].number)\n    return dict(new=new, t=t)\n\ndef sentence_len(): # count mean of length of centences of the author\n    texts = trymysql(trymysql.allword.author==request.args(0)).select()\n    part = [\'.\', \'!\', \'...\', \'?\']\n    points = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word.belongs(part))).count()\n    words = trymysql(trymysql.allword.author==request.args(0)).count()\n    sentence=float(words/(points*1.0))\n    return dict(sentence=sentence)\n\ndef words_len(): # count mean of length of all words of the author and draw a distribution histogram\n    texts = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!=\'None\')&(trymysql.allword.partos!="PNCT")).select()\n    list_lemma = [len(all.lemma.decode(\'utf-8\')) for all in texts]\n    distribution = sorted(set([(all, list_lemma.count(all)) for all in list_lemma]))\n    words_length = round(sum(list_lemma)/(len(texts)*1.0), 3)\n    return dict(words_length=words_length, distribution=distribution)\n\ndef words_range(): # count variety of dictionary of the author\n    words1 = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!=\'None\')&(trymysql.allword.partos!="PNCT")).select()\n    words = [all.word for all in words1]\n    lemmas_sort = sorted(set(words))\n    w_range = float(len(lemmas_sort)/(len(words)*1.0))\n    return dict(w_range=w_range)\n\nresponse._vars=response._caller(sentence_len)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.ZeroDivisionError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.ZeroDivisionError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.ZeroDivisionError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.ZeroDivisionError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.ZeroDivisionError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.ZeroDivisionError object>'
+p23
+sS'args'
+p24
+S"('float division by zero',)"
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.ZeroDivisionError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.ZeroDivisionError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.ZeroDivisionError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.ZeroDivisionError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.ZeroDivisionError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.ZeroDivisionError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.ZeroDivisionError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.ZeroDivisionError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.ZeroDivisionError object>'
+p47
+sS'__doc__'
+p48
+S"'Second argument to a division or modulo operation was zero.'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.ZeroDivisionError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S'float division by zero'
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's\xe3B\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>6</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>count</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip,deflate,br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_FROM</td><td style="vertical-align:top;">:</td><td><div>googlebot(at)googlebot.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.47.203.135</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>56437</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip,deflate,br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_from</td><td style="vertical-align:top;">:</td><td><div>googlebot(at)googlebot.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb7</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.47.203.135</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>56437</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb7</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>harry-liveweb7</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f621e4aee50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f62080053a8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f621e4aee50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f62080053a8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>sentence_len</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>harry-liveweb7</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>localhost</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 12, 10, 23, 32, 37, 653754)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div>6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/count/sentence_len/6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 12, 10, 23, 32, 37, 653775)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/66.249.66.248.2016-12-10.23-32-37.37a5eeb5-6491-4780-b31e-ba5d03087728</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f6208026850&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/concordance/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7f62288a2430, file "/.../applications/test/controllers/count.py", line 2>'
+p69
+ssS'lnum'
+p70
+I220
+sS'lines'
+p71
+(dp72
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p73
+sI215
+S'    try:'
+p74
+sI216
+S'        if isinstance(code, types.CodeType):'
+p75
+sI217
+S'            ccode = code'
+p76
+sI218
+S'        else:'
+p77
+sI219
+S'            ccode = compile2(code, layer)'
+p78
+sI220
+S'        exec ccode in environment'
+p79
+sI221
+S'    except HTTP:'
+p80
+sI222
+S'        raise'
+p81
+sI223
+S'    except RestrictedError:'
+p82
+ssS'call'
+p83
+S"(code='# coding: utf8\\nfrom operator import itemgetter\\n\\n...)\\n\\nresponse._vars=response._caller(sentence_len)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}, layer='/home/concordance/web2py/applications/test/controllers/count.py')"
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/home/concordance/web2py/applications/test/controllers/count.py'
+p88
+sg64
+(dp89
+sg70
+I47
+sg71
+(dp90
+I36
+S'    distribution = sorted(set([(all, list_lemma.count(all)) for all in list_lemma]))'
+p91
+sI37
+S'    words_length = round(sum(list_lemma)/(len(texts)*1.0), 3)'
+p92
+sI38
+S'    return dict(words_length=words_length, distribution=distribution)'
+p93
+sI39
+S''
+sI40
+S'def words_range(): # count variety of dictionary of the author'
+p94
+sI41
+S'    words1 = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!=\'None\')&(trymysql.allword.partos!="PNCT")).select()'
+p95
+sI42
+S'    words = [all.word for all in words1]'
+p96
+sI43
+S'    lemmas_sort = sorted(set(words))'
+p97
+sI44
+S'    w_range = float(len(lemmas_sort)/(len(words)*1.0))'
+p98
+sI45
+S'    return dict(w_range=w_range)'
+p99
+ssg83
+S'()'
+p100
+sg85
+S'<module>'
+p101
+sa(dp102
+g62
+S'/home/concordance/web2py/gluon/globals.py'
+p103
+sg64
+(dp104
+S'self'
+p105
+S'undefined'
+p106
+sS'f'
+S'<function sentence_len>'
+p107
+ssg70
+I385
+sg71
+(dp108
+I384
+S'        self._vars = None'
+p109
+sI385
+S'        self._caller = lambda f: f()'
+p110
+sI386
+S'        self._view_environment = None'
+p111
+sI387
+S'        self._custom_commit = None'
+p112
+sI388
+S'        self._custom_rollback = None'
+p113
+sI389
+S''
+sI380
+S'        self.menu = []             # used by the default view layout'
+p114
+sI381
+S'        self.files = []            # used by web2py_ajax.html'
+p115
+sI382
+S'        self.generic_patterns = []  # patterns to allow generic views'
+p116
+sI383
+S"        self.delimiters = ('{{', '}}')"
+p117
+ssg83
+S'(f=<function sentence_len>)'
+p118
+sg85
+S'<lambda>'
+p119
+sa(dp120
+g62
+S'/home/concordance/web2py/applications/test/controllers/count.py'
+p121
+sg64
+(dp122
+S'points'
+p123
+S'0L'
+p124
+sS'builtinfloat'
+p125
+S"<type 'float'>"
+p126
+sS'words'
+p127
+S'0L'
+p128
+sS'sentence'
+p129
+g106
+ssg70
+I30
+sg71
+(dp130
+I32
+S''
+sI33
+S'def words_len(): # count mean of length of all words of the author and draw a distribution histogram'
+p131
+sI34
+S'    texts = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!=\'None\')&(trymysql.allword.partos!="PNCT")).select()'
+p132
+sI25
+S'def sentence_len(): # count mean of length of centences of the author'
+p133
+sI26
+S'    texts = trymysql(trymysql.allword.author==request.args(0)).select()'
+p134
+sI27
+S"    part = ['.', '!', '...', '?']"
+p135
+sI28
+S'    points = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word.belongs(part))).count()'
+p136
+sI29
+S'    words = trymysql(trymysql.allword.author==request.args(0)).count()'
+p137
+sI30
+S'    sentence=float(words/(points*1.0))'
+p138
+sI31
+S'    return dict(sentence=sentence)'
+p139
+ssg83
+S'()'
+p140
+sg85
+S'sentence_len'
+p141
+sasS'pyver'
+p142
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p143
+sS'session'
+p144
+g57
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp145
+sS'etype'
+p146
+S"<type 'exceptions.ZeroDivisionError'>"
+p147
+sS'date'
+p148
+S'Sat Dec 10 23:32:40 2016'
+p149
+sS'response'
+p150
+g57
+(S'sT\x1d\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f61f653ae30&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248-49d76db2-0fbd-4a5d-a5ec-639c4d8bb709<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div><span class="highlighted">web2py</span></div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://concordances.ru</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xd0\x9e \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb5\xd0\xba\xd1\x82\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x90\xd0\xb4\xd0\xbc\xd0\xb8\xd0\xbd\xd0\xba\xd0\xb0</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/test/controllers/count.py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^count/\\w+\\.py$</div></td></tr><tr><td><div>^count/sentence_len/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/66.249.66.248-49d76db2-0fbd-4a5d-a5ec-639c4d8bb709</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>106f4c22ca06cc343e42b73a0d8492f6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>66.249.66.248-49d76db2-0fbd-4a5d-a5ec-639c4d8bb709</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>count/sentence_len.html</div></td></tr></table></div>'
+tRp151
+sS'locals'
+p152
+(dp153
+S'texts'
+p154
+S'<Rows (0)>'
+p155
+sS'part'
+p156
+S"['.', '!', '...', '?']"
+p157
+sS'words'
+p158
+S'0L'
+p159
+sS'points'
+p160
+S'0L'
+p161
+sssS'traceback'
+p162
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/controllers/count.py", line 47, in <module>\n  File "/home/concordance/web2py/gluon/globals.py", line 385, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/concordance/web2py/applications/test/controllers/count.py", line 30, in sentence_len\n    sentence=float(words/(points*1.0))\nZeroDivisionError: float division by zero\n'
+p163
+s.

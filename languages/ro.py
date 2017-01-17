@@ -1,4 +1,4 @@
-# coding: utf8
+# -*- coding: utf-8 -*-
 {
 '!=': '!=',
 '!langcode!': 'ro',
@@ -20,6 +20,7 @@
 '=': '=',
 '>': '>',
 '>=': '>=',
+'@markmin\x01An error occured, please [[reload %s]] the page': 'An error occured, please [[reload %s]] the page',
 'A new version of web2py is available': 'O nouă versiune de web2py este disponibilă',
 'A new version of web2py is available: %s': 'O nouă versiune de web2py este disponibilă: %s',
 'About': 'Despre',
@@ -135,6 +136,7 @@
 'Editing file "%s"': 'Editare fișier "%s"',
 'Email and SMS': 'E-mail și SMS',
 'enter a number between %(min)g and %(max)g': 'introduceți un număr între %(min)g și %(max)g',
+'Enter an integer between %(min)g and %(max)g': 'Enter an integer between %(min)g and %(max)g',
 'enter an integer between %(min)g and %(max)g': 'introduceți un întreg între %(min)g și %(max)g',
 'Error logs for "%(app)s"': 'Log erori pentru "%(app)s"',
 'errors': 'erori',
@@ -316,6 +318,7 @@
 'There are no views': 'Nu există vederi',
 'these files are served without processing, your images go here': 'aceste fișiere sunt servite fără procesare, imaginea se plasează acolo',
 'This App': 'Această aplicație',
+'This email already has an account': 'This email already has an account',
 'This is a copy of the scaffolding application': 'Aceasta este o copie a aplicației schelet',
 'This is the %(filename)s template': 'Aceasta este șablonul fișierului %(filename)s',
 'Ticket': 'Tichet',
@@ -366,8 +369,11 @@
 'Welcome to web2py': 'Bun venit la web2py',
 'Welcome to web2py!': 'Bun venit la web2py!',
 'Which called the function %s located in the file %s': 'Care a apelat funcția %s prezentă în fișierul %s',
+'Working...': 'Working...',
 'YES': 'DA',
 'You are successfully running web2py': 'Rulați cu succes web2py',
 'You can modify this application and adapt it to your needs': 'Puteți modifica și adapta aplicația nevoilor dvs.',
 'You visited the url %s': 'Ați vizitat adresa %s',
+'Админка': 'Админка',
+'О проекте': 'О проекте',
 }

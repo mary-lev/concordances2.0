@@ -1,9 +1,10 @@
-trymysql = DAL('mysql://concordance:sosnora@mysql.server/concordance$new')
+trymysql = DAL('mysql://concordance:sosnora@concordance.mysql.pythonanywhere-services.com/concordance$new')
 
 trymysql.define_table('author',
                   Field('name', label="Имя"),
                   Field('surname', label="Отчество"),
                   Field('family', label="Фамилия"),
+                  Field('real_name', label="Настоящее имя"),
                   Field('year_birth', label="Год рождения"),
                   Field('year_death', label="Год смерти"),
                   Field('gender', label="Пол"),
@@ -40,14 +41,26 @@ trymysql.define_table('text1',
                   Field('genre', label="Жанр"),
                   Field('under_title', label="Подзаголовок"),
                   Field('dedication', label="Посвящение"),
-                  Field('epigraph', label="Текст эпиграфа"),
+                  Field('epigraph', 'text', label="Текст эпиграфа"),
                   Field('epigraph_author', label="Автор эпиграфа"),
                   Field('epigraph_text_name', label="Источник эпиграфа"),
                   Field('v', label="Объем текста"),
                   Field('book', label="Источник текста"),
                   Field('group_text', trymysql.group_text, label="Принадлежность к группе текстов"),
                   Field('n_in_group', label="Порядковый номер в группе текстов"),
-                  Field('author', trymysql.author, label="Номер автора"))
+                  Field('author', trymysql.author, label="Номер автора"),
+                  migrate=False,fake_migrate=True)
+
+trymysql.define_table('stih',
+                      Field('title', trymysql.text1, label="Текст"),
+                      Field('author', trymysql.author, label="Автор"),
+                      Field('strofa', label="Строфа"),
+                      Field('kol_strok', label = "Количество строф"),
+                      Field('type_s', label = "Тип строфы"),
+                      Field('rhymes', 'text', label = "Рифмы"),
+                      Field('trhymes', 'text', label="ТРифмы"),
+                      Field('type_r', label = "Схема рифмовки"),
+                      migrate=False,fake_migrate=True)
 
 trymysql.define_table('allword',
                   Field('word', label="Слово"),
@@ -71,15 +84,22 @@ trymysql.define_table('allword',
                   Field('text_location', label="Место в тексте"),
                   Field('string_number', label="Номер строки"),
                   Field('lexical_group', label="Лексическая группа"),
-                  Field('concordance_number', label="Номер в конкордансе"),
+                  Field('concordance_number',  label="Номер в конкордансе"),
                   Field('warning', label = "Warning"),
-                  Field('author', label="Автор"))
+                  Field('author', label="Автор"),
+                  migrate=False,fake_migrate=True)
 
-trymysql.define_table('concordance',
+trymysql.define_table('concordances',
                   Field('word', label="Слово"),
                   Field('partos', label="Часть речи"),
                   Field('lexical', label="Лексическая группа"),
-                  Field('number', 'integer', label="Число"))
+                  migrate=False,fake_migrate=True)
+
+trymysql.define_table('color',
+                  Field('word', label="Слово"),
+                  Field('partos', label="Часть речи"),
+                  Field('lexical', label="Лексическая группа"),
+                  migrate=False,fake_migrate=True)
 
 trymysql.define_table('comments',
                       Field('title', trymysql.text1, label = "Номер текста"),
@@ -89,7 +109,19 @@ trymysql.define_table('comments',
                       Field('word_last', trymysql.allword, label="Номер последнего слова"),
                       Field('comment_text', 'text', label = "Комментарий"),
                       Field('comment_book', label = "Источник"),
-                      Field('comment_year', label="Год публикации комментария"))
+                      Field('comment_year', label="Год публикации комментария"),
+                      migrate=False,fake_migrate=True)
+
+trymysql.define_table('variants',
+                      Field('title', trymysql.text1, label = "Номер текста"),
+                      Field('stanza', label = "Номер строфы в тексте"),
+                      Field('line', label = "Номер строки в тексте"),
+                      Field('word_first', trymysql.allword, label="Номер первого слова"),
+                      Field('word_last', trymysql.allword, label="Номер последнего слова"),
+                      Field('comment_text', 'text', label = "Вариант"),
+                      Field('comment_book', label = "Издание"),
+                      Field('comment_year', label="Год публикации комментария"),
+                      migrate=False,fake_migrate=True)
 
 trymysql.define_table('data',
                   Field('author', trymysql.author),
@@ -117,7 +149,24 @@ trymysql.define_table('data',
                   Field('length_sentence', label="Средняя длина предложения"),
                   Field('length_words', label="Средняя длина слова"),
                   Field('words_range', label="Насыщенность словаря"),
-                  migrate=False,fake_migrate=True)
+                  migrate = False, fake_migrate=True)
+
+trymysql.define_table('grammar',
+                  Field('author', trymysql.author),
+                  Field('book', trymysql.group_text),
+                  Field('year', label="Год"),
+                  Field('masc', label="Мужской род"),
+                  Field('femn', label="Женский род"),
+                  Field('inan', label="Неодушевленные"),
+                  Field('anim', label="Одушевленные"),
+                  Field('past', label="Прошедшее время"),
+                  Field('pres', label="Настоящее время"),
+                  Field('futr', label="Будущее время"),
+                  Field('name', label="Имен собственных"),
+                  Field('len_text', label="Средняя длина текста, строк"),
+                  Field('len_line', label="Средняя длина строки, слова"),
+                  Field('len_line_w', label="Средняя длина строки, буквы"),
+                  migrate=False, fake_migrate=False)
 
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)

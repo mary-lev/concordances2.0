@@ -1,9 +1,12 @@
 # coding: utf8
+from plugin_sqleditable.editable import SQLEDITABLE
+SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
+from pymystem3 import Mystem
 
 names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
-style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
+style = ['None', 'Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
 other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
 
 partos = ['None', 'NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
@@ -22,8 +25,18 @@ def index():
     authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.id)
     return dict(authors=authors)
 
+m = Mystem()
+
+def stem():
+    words = [all.lemma for all in trymysql(trymysql.allword.title==3863).select()]
+    w = ' '.join(words)
+    lemmas = m.lemmatize(w)
+    t = m.analyze(w)
+    l = ''.join(lemmas)
+    return dict(l=l, t=t)
+
 def index1():
-    titles = [x for x in range(5600,5700)] # last: 3500
+    titles = [x for x in range(7848,7941)] # last: 3500, 7088, 10261
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
@@ -166,14 +179,63 @@ def search_result():
             title=title1.title
             author= (title1.author.name, title1.author.family)
             string="..."
+            blue_word = all.lemma
             for x in range(all.id-6, all.id+6):
                 try:
                     for_string = trymysql(trymysql.allword.id==x).select()[0]
-                    if for_string.lemma=="," or for_string.lemma=='.':
-                        string = string + str(for_string.lemma)
-                    else:
-                        string= string + " " + str(for_string.lemma)
+                    string= string + " " + str(for_string.lemma)
                 except:
                     pass
-            strings.append((string +"...", title, author, int(title1.id)))
+            strings.append((string +"...", title, author, int(title1.id), all.id, blue_word))
+    response.title = 'Результаты поиска'
     return dict(strings=strings, message=message)
+
+@auth.requires_login()
+def correct_word():
+    record = trymysql.allword(request.args(0))
+    form = SQLFORM(trymysql.allword, record)
+    if form.process().accepted:
+       response.flash = 'form accepted'
+    return dict(form=form)
+
+def correct():
+    record = trymysql(trymysql.allword.id==request.args(0)).select()[0]
+    text= trymysql(trymysql.text1.id == record.title).select()[0]
+    f = open(text.filename, 'rb')
+    author = text.author.family
+    a_name = text.author.name
+    title = text.title
+    content = f.readlines()
+    form=FORM(TABLE(TR("Слово", INPUT(_type='text', _name="word", value=record.word)),
+                    TR("Форма", INPUT(_type='text', _name = "lemma", value = record.lemma)),
+                    TR("Часть речи",SELECT(*partos, _name="first", value = record.partos)),
+                    TR("Падеж",SELECT(*case, _name="second", value=record.cas)),
+                    TR("Одушевленность",SELECT(*animacy, _name="animacy", value = record.anim)),
+                    TR("Род", SELECT(*gender, _name="gender", value = record.gendr)),
+                    TR("Время", SELECT(*tenses, _name="tenses", value = record.tense)),
+                    TR("Вид", SELECT(*aspect, _name = "aspect", value= record.aspect)),
+                    TR("Залог", SELECT(*voice, _name = "voice", value = record.voice)),
+                    TR("Лицо", SELECT(*person, _name = "person", value = record.person)),
+                    TR("Переходность", SELECT(*trans, _name = "trans", value = record.transitivity)),
+                    TR("Число", SELECT(*number, _name = "number", value = record.number)),
+                    TR("Наклонение", SELECT(*mood, _name="mood", value = record.mood)),
+                    TR("Имена собственные", SELECT(*names, _name="names", value = record.sobstv)),
+                    TR("Стиль", SELECT(*style, _name="style", value = record.style)),
+                    TR("",INPUT(_type="submit",_value="SUBMIT"))))
+    if form.process().accepted:
+        record.update_record(word = form.vars['word'],
+                      partos = form.vars['first'],
+                      cas = form.vars['second'],
+                      anim = form.vars['animacy'],
+                      gendr = form.vars['gender'],
+                      tense = form.vars['tense'],
+                      aspect = form.vars['aspect'],
+                      voice = form.vars['voice'],
+                      person = form.vars['person'],
+                      transitivity = form.vars['trans'],
+                      number = form.vars['number'],
+                      mood = form.vars['mood'],
+                      sobstv = form.vars['names'],
+                      style = form.vars['style'])
+        response.flash="form accepted"
+    return dict(form=form, content = content, author=author, a_name = a_name, title = title, word=record.lemma)

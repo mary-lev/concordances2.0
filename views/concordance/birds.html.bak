@@ -1,0 +1,74 @@
+{{extend 'layout.html'}}
+<h1>Векторная модель</h1>
+
+<table>
+
+<tr>
+<td><h4>Аист</h4>
+{{for all in model1.most_similar(positive=['аист'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+    <td><h4>Ворона</h4>
+{{for all in model1.most_similar(positive=['ворон'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+       <td><h4>Голубь</h4>
+{{for all in model1.most_similar(positive=['голубь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+     
+               <td>
+                   <h4>Орел</h4>
+{{for all in model1.most_similar(positive=['орёл'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+<tr>
+<td><h4>Воробей</h4>
+{{for all in model1.most_similar(positive=['воробей'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+       <td><h4>Коршун</h4>
+{{for all in model1.most_similar(positive=['коршун'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+           <td><h4>Ласточка</h4>
+{{for all in model1.most_similar(positive=['ласточка'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>Лебедь</h4>
+{{for all in model1.most_similar(positive=['лебедь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td></tr>
+ 
+<tr>    <td><h4>Птица</h4>
+{{for all in model1.most_similar(positive=['птица'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+           <td><h4>Сова</h4>
+{{for all in model1.most_similar(positive=['сова'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>Сокол</h4>
+{{for all in model1.most_similar(positive=['сокол'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+</table>
+День/ночь{{=model1.similarity('день', 'ночь')}}<br/>

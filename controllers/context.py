@@ -19,7 +19,7 @@ def context1():
         for x in range(all.id-6, all.id+6):
             try:
                 for_string = trymysql(trymysql.allword.id==x).select()[0]
-                if for_string.lemma=="," or for_string.lemma=='.':
+                if for_string.lemma=="," or for_string.lemma=='.' or for_string.lemma=='!':
                     string = string + str(for_string.lemma)
                 else:
                     string= string + " " + str(for_string.lemma)

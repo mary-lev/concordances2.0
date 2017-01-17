@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+<style>
+ul {
+    padding: 20;
+}
+
+ul li {
+    display: inline;
+}
+
+</style>
+{{=TAG(c.encode('utf-8'))}}

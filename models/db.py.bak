@@ -66,7 +66,7 @@ use_janrain(auth, filename='private/janrain.key')
 #########################################################################
 ## Define your tables below (or better in another model file) for example
 ##
-db.define_table('auth_user',Field('myfield','string'))
+# db.define_table('auth_user',Field('myfield','string'))
 ##
 ## Fields can be 'string','text','password','integer','double','boolean'
 ##       'date','time','datetime','blob','upload', 'reference TABLENAME'

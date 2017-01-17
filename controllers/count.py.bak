@@ -1,6 +1,8 @@
 # coding: utf8
 from operator import itemgetter
 
+partos = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
+
 def index():
     authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
     return dict(authors=authors)
@@ -13,7 +15,7 @@ def count_partos():
     return dict(parts=parts, author=author)
 
 def count_concordance():
-    for all in trymysql((trymysql.concordance.id>13000)&(trymysql.concordance.id<13500)).select():
+    for all in trymysql((trymysql.concordance.id>13500)&(trymysql.concordance.id<14500)).select():
         summa = trymysql((trymysql.allword.word==all.word)&(trymysql.allword.partos=='NOUN')).count()
         all.update_record(number=int(summa))
     #words1=sorted(set(words1))
@@ -38,8 +40,37 @@ def words_len(): # count mean of length of all words of the author and draw a di
     return dict(words_length=words_length, distribution=distribution)
 
 def words_range(): # count variety of dictionary of the author
-    words1 = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!='None')&(trymysql.allword.partos!="PNCT")).select()
-    words = [all.word for all in words1]
+    words = [all.word for all in trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!='None')&(trymysql.allword.partos!="PNCT")).select()]
     lemmas_sort = sorted(set(words))
     w_range = float(len(lemmas_sort)/(len(words)*1.0))
     return dict(w_range=w_range)
+
+punct = ['.', ',', '!', '?', '—']
+
+def table_data():
+    all_words = trymysql(trymysql.allword.author==request.args(0)).count()
+    all_texts = trymysql(trymysql.text1.author==request.args(0)).count()
+    data = []
+    for all in partos:
+        words = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos==all)).count()
+        data.append(words)
+    pun = []
+    all_pun = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word.belongs(punct))).count()
+    for all in punct:
+        words = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word==all)).count()
+        pun.append(words)
+    # length of words
+    words = [all.lemma for all in trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos.belongs(partos))).select()]
+    len_words = 0
+    for all in words:
+        len_words = len_words+len(all)
+    lw = len_words/len(words)
+    inan = trymysql(trymysql.allword.anim=='inan').count()
+    anim = trymysql(trymysql.allword.anim=='anim').count()
+    masc = trymysql(trymysql.allword.gendr=='masc').count()
+    femn = trymysql(trymysql.allword.gendr=='femn').count()
+    past = trymysql(trymysql.allword.tense=='past').count()
+    pres = trymysql(trymysql.allword.tense=='pres').count()
+    futr = trymysql(trymysql.allword.tense=='futr').count()
+    name = trymysql(trymysql.allword.sobstv=='Name').count()
+    return dict(data=data, all_words=all_words, all_texts=all_texts, pun = pun, all_pun=all_pun, lw=lw, inan=inan, anim=anim)

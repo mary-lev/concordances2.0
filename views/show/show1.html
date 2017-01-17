@@ -5,7 +5,31 @@
 <h2>
    {{=texts.author.name}} {{=texts.author.family}}
 </h2>
-{{for line in content:}}
+<table>
+    <tr>
+        <td>{{if texts.dedication: }}
+            <p><i>{{=texts.dedication}}</i>
+                {{pass}}
+                {{if texts.epigraph:}}
+            <p>{{=texts.epigraph}}
+                {{pass}}
+                {{if texts.epigraph_author:}}
+            <p><i>{{=texts.epigraph_author}}</i>
+                {{pass}}
+                {{if texts.epigraph_text_name:}}
+            <p><i>{{=texts.epigraph_text_name}}</i>
+                {{pass}}
+<p>            {{for line in content:}}
 {{=line}}<br>
 {{pass}}
-{{=texts.day_writing}} {{=texts.month_writing}} {{=texts.year_writing}}
+<p>
+<p>{{=texts.day_writing}} {{=texts.month_writing}} {{=texts.year_writing}}<br>
+    <p>{{=texts.writing_location}}
+<p>Источник текста: {{=texts.book}}</td>
+        <td>{{ for all in image:}}
+            {{=IMG(_src=URL('static', all), _alt="My Logo")}}
+        {{pass}}</td>
+    </tr>
+    </table>
+
+<h6>{{=A("Предыдущий текст", _href=URL("show1", args=texts.id-1))}} | {{=A(texts.author.name, " ", texts.author.family, _href=URL("author", "all_author", args=texts.author.id))}} | {{=A("Следующий текст", _href=URL("show1", args=texts.id+1))}}</h6>

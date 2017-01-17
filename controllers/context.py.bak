@@ -23,7 +23,7 @@ def context1():
                     string = string + str(for_string.lemma)
                 else:
                     string= string + " " + str(for_string.lemma)
-                strings.append((string +"...", title, author, int(title1.id)))
             except:
                 pass
+        strings.append((string +"...", title, author, int(title1.id)))
     return dict(strings=strings)

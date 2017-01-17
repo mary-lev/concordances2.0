@@ -133602,3 +133602,446 @@ UPDATE concordance SET number=number__tmp;
 success!
 ALTER TABLE concordance DROP COLUMN number__tmp;
 success!
+timestamp: 2015-07-11T15:53:27.944866
+CREATE TABLE variants(
+    id INT AUTO_INCREMENT NOT NULL,
+    title INT, INDEX title__idx (title), FOREIGN KEY (title) REFERENCES text1 (id) ON DELETE CASCADE,
+    stanza VARCHAR(512),
+    line VARCHAR(512),
+    word_first INT, INDEX word_first__idx (word_first), FOREIGN KEY (word_first) REFERENCES allword (id) ON DELETE CASCADE,
+    word_last INT, INDEX word_last__idx (word_last), FOREIGN KEY (word_last) REFERENCES allword (id) ON DELETE CASCADE,
+    comment_text LONGTEXT,
+    comment_book VARCHAR(512),
+    comment_year VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2015-07-21T10:59:17.389891
+ALTER TABLE author ADD real_name VARCHAR(512);
+success!
+success!
+timestamp: 2015-08-11T11:39:42.423690
+CREATE TABLE concordances(
+    id INT AUTO_INCREMENT NOT NULL,
+    word VARCHAR(512),
+    partos VARCHAR(512),
+    lexical VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2015-08-12T03:55:05.673457
+CREATE TABLE color(
+    id INT AUTO_INCREMENT NOT NULL,
+    word VARCHAR(512),
+    partos VARCHAR(512),
+    lexical VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2015-08-30T09:47:51.557685
+CREATE TABLE stih(
+    id INT AUTO_INCREMENT NOT NULL,
+    title INT, INDEX title__idx (title), FOREIGN KEY (title) REFERENCES text1 (id) ON DELETE CASCADE,
+    strofa VARCHAR(512),
+    kol_strof VARCHAR(512),
+    type_r VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2015-08-31T03:17:09.508024
+ALTER TABLE stih ADD rhymes VARCHAR(512);
+success!
+success!
+timestamp: 2015-08-31T03:20:59.992712
+ALTER TABLE stih ADD author INT, ADD INDEX author__idx (author), ADD FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE;
+success!
+success!
+timestamp: 2015-08-31T05:07:52.609985
+ALTER TABLE stih ADD rhymes__tmp LONGTEXT;
+success!
+UPDATE stih SET rhymes__tmp=rhymes;
+success!
+ALTER TABLE stih DROP COLUMN rhymes;
+success!
+ALTER TABLE stih ADD rhymes LONGTEXT;
+success!
+UPDATE stih SET rhymes=rhymes__tmp;
+success!
+ALTER TABLE stih DROP COLUMN rhymes__tmp;
+success!
+success!
+timestamp: 2015-08-31T07:15:38.729639
+ALTER TABLE stih ADD trhymes LONGTEXT;
+success!
+success!
+timestamp: 2015-09-01T07:23:43.614343
+ALTER TABLE stih ADD kol_strok VARCHAR(512);
+success!
+timestamp: 2015-09-01T07:23:44.675377
+ALTER TABLE stih DROP COLUMN kol_strof;
+success!
+timestamp: 2015-09-04T15:36:53.454486
+ALTER TABLE stih ADD type_s VARCHAR(512);
+success!
+success!
+timestamp: 2016-04-29T06:54:17.737322
+CREATE TABLE author(
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(512),
+    surname VARCHAR(512),
+    family VARCHAR(512),
+    real_name VARCHAR(512),
+    year_birth VARCHAR(512),
+    year_death VARCHAR(512),
+    gender VARCHAR(512),
+    birth_location VARCHAR(512),
+    death_location VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2016-04-29T06:54:25.307295
+CREATE TABLE author(
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(512),
+    surname VARCHAR(512),
+    family VARCHAR(512),
+    real_name VARCHAR(512),
+    year_birth VARCHAR(512),
+    year_death VARCHAR(512),
+    gender VARCHAR(512),
+    birth_location VARCHAR(512),
+    death_location VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2016-04-29T06:55:03.842780
+CREATE TABLE author(
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(512),
+    surname VARCHAR(512),
+    family VARCHAR(512),
+    real_name VARCHAR(512),
+    year_birth VARCHAR(512),
+    year_death VARCHAR(512),
+    gender VARCHAR(512),
+    birth_location VARCHAR(512),
+    death_location VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2016-04-29T06:55:58.991480
+CREATE TABLE text1(
+    id INT AUTO_INCREMENT NOT NULL,
+    title VARCHAR(512),
+    first_string VARCHAR(512),
+    body LONGTEXT,
+    filename VARCHAR(512),
+    year_writing VARCHAR(512),
+    month_writing VARCHAR(512),
+    day_writing VARCHAR(512),
+    dyear_writing VARCHAR(512),
+    dmonth_writing VARCHAR(512),
+    season_writing VARCHAR(512),
+    dday_writing VARCHAR(512),
+    writing_location VARCHAR(512),
+    year_publishing VARCHAR(512),
+    genre VARCHAR(512),
+    under_title VARCHAR(512),
+    dedication VARCHAR(512),
+    epigraph VARCHAR(512),
+    epigraph_author VARCHAR(512),
+    epigraph_text_name VARCHAR(512),
+    v VARCHAR(512),
+    book VARCHAR(512),
+    group_text INT, INDEX group_text__idx (group_text), FOREIGN KEY (group_text) REFERENCES group_text (id) ON DELETE CASCADE,
+    n_in_group VARCHAR(512),
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2016-04-29T06:56:07.138901
+CREATE TABLE text1(
+    id INT AUTO_INCREMENT NOT NULL,
+    title VARCHAR(512),
+    first_string VARCHAR(512),
+    body LONGTEXT,
+    filename VARCHAR(512),
+    year_writing VARCHAR(512),
+    month_writing VARCHAR(512),
+    day_writing VARCHAR(512),
+    dyear_writing VARCHAR(512),
+    dmonth_writing VARCHAR(512),
+    season_writing VARCHAR(512),
+    dday_writing VARCHAR(512),
+    writing_location VARCHAR(512),
+    year_publishing VARCHAR(512),
+    genre VARCHAR(512),
+    under_title VARCHAR(512),
+    dedication VARCHAR(512),
+    epigraph VARCHAR(512),
+    epigraph_author VARCHAR(512),
+    epigraph_text_name VARCHAR(512),
+    v VARCHAR(512),
+    book VARCHAR(512),
+    group_text INT, INDEX group_text__idx (group_text), FOREIGN KEY (group_text) REFERENCES group_text (id) ON DELETE CASCADE,
+    n_in_group VARCHAR(512),
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2017-01-11T10:51:16.901714
+CREATE TABLE data(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES group_text (id) ON DELETE CASCADE,
+    year VARCHAR(512),
+    alltexts VARCHAR(512),
+    allwords VARCHAR(512),
+    all_nouns VARCHAR(512),
+    all_verbs VARCHAR(512),
+    all_infn VARCHAR(512),
+    all_adjf VARCHAR(512),
+    all_adjs VARCHAR(512),
+    all_grnd VARCHAR(512),
+    all_prtf VARCHAR(512),
+    all_prts VARCHAR(512),
+    all_advb VARCHAR(512),
+    all_prep VARCHAR(512),
+    all_conj VARCHAR(512),
+    all_prcl VARCHAR(512),
+    all_npro VARCHAR(512),
+    masc VARCHAR(512),
+    femn VARCHAR(512),
+    inan VARCHAR(512),
+    anim VARCHAR(512),
+    past VARCHAR(512),
+    pres VARCHAR(512),
+    futr VARCHAR(512),
+    name VARCHAR(512),
+    all_point VARCHAR(512),
+    all_exclam VARCHAR(512),
+    all_comma VARCHAR(512),
+    all_question VARCHAR(512),
+    length_sentence VARCHAR(512),
+    length_words VARCHAR(512),
+    words_range VARCHAR(512),
+    len_text VARCHAR(512),
+    len_line VARCHAR(512),
+    len_line_w VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-11T13:34:29.893648
+CREATE TABLE dataset(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES group_text (id) ON DELETE CASCADE,
+    year VARCHAR(512),
+    alltexts VARCHAR(512),
+    allwords VARCHAR(512),
+    all_nouns VARCHAR(512),
+    all_verbs VARCHAR(512),
+    all_infn VARCHAR(512),
+    all_adjf VARCHAR(512),
+    all_adjs VARCHAR(512),
+    all_grnd VARCHAR(512),
+    all_prtf VARCHAR(512),
+    all_prts VARCHAR(512),
+    all_advb VARCHAR(512),
+    all_prep VARCHAR(512),
+    all_conj VARCHAR(512),
+    all_prcl VARCHAR(512),
+    all_npro VARCHAR(512),
+    masc VARCHAR(512),
+    femn VARCHAR(512),
+    inan VARCHAR(512),
+    anim VARCHAR(512),
+    past VARCHAR(512),
+    pres VARCHAR(512),
+    futr VARCHAR(512),
+    name VARCHAR(512),
+    all_point VARCHAR(512),
+    all_exclam VARCHAR(512),
+    all_comma VARCHAR(512),
+    all_question VARCHAR(512),
+    length_sentence VARCHAR(512),
+    length_words VARCHAR(512),
+    words_range VARCHAR(512),
+    len_text VARCHAR(512),
+    len_line VARCHAR(512),
+    len_line_w VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-11T13:41:15.900230
+CREATE TABLE data(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES group_text (id) ON DELETE CASCADE,
+    year VARCHAR(512),
+    alltexts VARCHAR(512),
+    allwords VARCHAR(512),
+    all_nouns VARCHAR(512),
+    all_verbs VARCHAR(512),
+    all_infn VARCHAR(512),
+    all_adjf VARCHAR(512),
+    all_adjs VARCHAR(512),
+    all_grnd VARCHAR(512),
+    all_prtf VARCHAR(512),
+    all_prts VARCHAR(512),
+    all_advb VARCHAR(512),
+    all_prep VARCHAR(512),
+    all_conj VARCHAR(512),
+    all_prcl VARCHAR(512),
+    all_npro VARCHAR(512),
+    masc VARCHAR(512),
+    femn VARCHAR(512),
+    inan VARCHAR(512),
+    anim VARCHAR(512),
+    past VARCHAR(512),
+    pres VARCHAR(512),
+    futr VARCHAR(512),
+    name VARCHAR(512),
+    all_point VARCHAR(512),
+    all_exclam VARCHAR(512),
+    all_comma VARCHAR(512),
+    all_question VARCHAR(512),
+    length_sentence VARCHAR(512),
+    length_words VARCHAR(512),
+    words_range VARCHAR(512),
+    len_text VARCHAR(512),
+    len_line VARCHAR(512),
+    len_line_w VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-11T13:42:12.001524
+CREATE TABLE dataset(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES group_text (id) ON DELETE CASCADE,
+    year VARCHAR(512),
+    alltexts VARCHAR(512),
+    allwords VARCHAR(512),
+    all_nouns VARCHAR(512),
+    all_verbs VARCHAR(512),
+    all_infn VARCHAR(512),
+    all_adjf VARCHAR(512),
+    all_adjs VARCHAR(512),
+    all_grnd VARCHAR(512),
+    all_prtf VARCHAR(512),
+    all_prts VARCHAR(512),
+    all_advb VARCHAR(512),
+    all_prep VARCHAR(512),
+    all_conj VARCHAR(512),
+    all_prcl VARCHAR(512),
+    all_npro VARCHAR(512),
+    masc VARCHAR(512),
+    femn VARCHAR(512),
+    inan VARCHAR(512),
+    anim VARCHAR(512),
+    past VARCHAR(512),
+    pres VARCHAR(512),
+    futr VARCHAR(512),
+    name VARCHAR(512),
+    all_point VARCHAR(512),
+    all_exclam VARCHAR(512),
+    all_comma VARCHAR(512),
+    all_question VARCHAR(512),
+    length_sentence VARCHAR(512),
+    length_words VARCHAR(512),
+    words_range VARCHAR(512),
+    len_text VARCHAR(512),
+    len_line VARCHAR(512),
+    len_line_w VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-11T13:50:08.375065
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+timestamp: 2017-01-11T13:50:28.510999
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+timestamp: 2017-01-11T13:50:47.898221
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+timestamp: 2017-01-11T13:50:59.916922
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+timestamp: 2017-01-11T18:47:50.707378
+CREATE TABLE grammar(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES group_text (id) ON DELETE CASCADE,
+    year VARCHAR(512),
+    masc VARCHAR(512),
+    femn VARCHAR(512),
+    inan VARCHAR(512),
+    anim VARCHAR(512),
+    past VARCHAR(512),
+    pres VARCHAR(512),
+    futr VARCHAR(512),
+    name VARCHAR(512),
+    len_text VARCHAR(512),
+    len_line VARCHAR(512),
+    len_line_w VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-15T00:50:41.353858
+CREATE TABLE stress(
+    id INT AUTO_INCREMENT NOT NULL,
+    lemma VARCHAR(512),
+    form VARCHAR(512),
+    stress VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+faked!
+timestamp: 2017-01-15T01:44:44.267489
+CREATE TABLE stress(
+    id INT AUTO_INCREMENT NOT NULL,
+    lemma VARCHAR(512),
+    form VARCHAR(512),
+    stress VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-01-16T10:24:34.758094
+CREATE TABLE pages(
+    id INT AUTO_INCREMENT NOT NULL,
+    author VARCHAR(512),
+    edition VARCHAR(512),
+    text VARCHAR(512),
+    page_number VARCHAR(512),
+    url VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!

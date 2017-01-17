@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf8
-from gluon import *
+
 import nltk
 import pymorphy2
 from operator import itemgetter
@@ -15,15 +15,26 @@ def tokenize2(text1): # tokenization of decoded text, returns list of tokens, fo
     text3 = nltk.wordpunct_tokenize(text1)
     return text3
 
-def normalize_new2(text1):
+def normalize_new2(text1, n):
     text3 = nltk.wordpunct_tokenize(text1)
     morph = pymorphy2.MorphAnalyzer()
     normal = []
     count=0
     for w in text3:
-        p = morph.parse(w)[0]
+        p = morph.parse(w)[n]
         normal.append([p.normal_form, p.tag.POS, w, count, p.tag.tense])
         count +=1
+    else:
+        pass
+    return normal
+
+def normalize_new3(text1, n): # return only lemma
+    text3 = nltk.wordpunct_tokenize(text1)
+    morph = pymorphy2.MorphAnalyzer()
+    normal = []
+    for w in text3:
+        p = morph.parse(w)[n]
+        normal.append(p.normal_form)
     else:
         pass
     return normal

@@ -3,7 +3,7 @@
 {{response.files.append(URL('static', 'js/d3pie.min.js'))}}
 {{response.files.append(URL('static', 'js/d3pie.js'))}}
 {{extend 'layout.html'}}
-
+<h1>{{=author}}</h1>
 {{=DIV(_id="pieChart")}}
 {{=all_mine}}
 
@@ -33,7 +33,7 @@
 		"canvasWidth": 590
 	},
 	"data": {
-
+imemines = ["я", "мой", "мы", "себя", "ты", "твой", "он", "она", "они"]
 		"content": [
             {
 				"label": "Я",
@@ -42,7 +42,7 @@
 			},
                 {
 				"label": "себя",
-				"value": {{=all_mine[4]}},
+				"value": {{=all_mine[3]}},
 				"color": "#cb2121"
 			},
             {
@@ -50,44 +50,36 @@
 				"value": {{=all_mine[1]}},
 				"color": "#cb2121"
 			},
-                        {
-				"label": "меня",
-				"value": {{=all_mine[2]}},
-				"color": "#cb2121"
-			},
+                  
 			{
 				"label": "мы",
-				"value": {{=all_mine[3]}},
+				"value": {{=all_mine[2]}},
 				"color": "#4daa4b"
 			},
                         {
 				"label": "ты",
-            "value": {{=all_mine[5]}},
+            "value": {{=all_mine[4]}},
 				"color": "#F7D358"
 			},
-                          {
-				"label": "тебя",
-            "value": {{=all_mine[6]}},
-				"color": "#F7D358"
-			},
+                   
                          {
 				"label": "твой",
-            "value": {{=all_mine[7]}},
+            "value": {{=all_mine[5]}},
 				"color": "#F7D358"
 			},
                         {
 				"label": "он",
-            "value": {{=all_mine[8]}},
-				"color": "#F7D358"
+            "value": {{=all_mine[6]}},
+				"color": "#00FFFF"
 			},
 			{
 				"label": "она",
-                "value": {{=all_mine[9]}},
-				"color": "#4daa4b"
+                "value": {{=all_mine[7]}},
+				"color": "#00FFFF"
 			},
                         {
 				"label": "они",
-				"value": {{=all_mine[10]}},
+				"value": {{=all_mine[8]}},
 				"color": "#00FFFF"
 			}
 		]

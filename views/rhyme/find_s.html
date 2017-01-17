@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+<h1>Поиск по {{=request.args(0)}}-стишиям</h1>
+<ol>
+{{for all in ttt:}}
+<li>{{=all.author.name}} {{=all.author.family}}. {{if all.title:}} {{=A(all.title, _href=URL("show", "show1", args=all.id))}} {{pass}}
+    {{if all.first_string:}}"{{=A(all.first_string, _href=URL("show", "show1", args=all.id))}}" {{pass}}
+</li>
+{{pass}}
+</ol>

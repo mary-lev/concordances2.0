@@ -1,3 +1,5 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон concordance/create_concordance.html</h1>
-{{=BEAUTIFY(response._vars)}}
+<h1>Частотный словарь по корпусу: {{=count}} слов</h1>
+{{for w in words[:3000]:}}
+<li>{{=w}}</li>
+{{pass}}

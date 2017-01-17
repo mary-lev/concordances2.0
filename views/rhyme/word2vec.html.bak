@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>Рифмы</h1>
+{{for new in sentences:}}
+{{for all in new:}}
+{{=all}}
+{{pass}}{{pass}}

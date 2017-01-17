@@ -2,8 +2,6 @@
 
 color=["зелёный", "золотой", "голубой", "красный", "белый", "жёлтый", "чёрный", "коричневый", "синий", "розовый", "пурпурный", "фиолетовый", "серый", "жолтый", "лазурный", "алый", "лазоревый", "синева", "золотистый", "рыжий", "голубоватый", "златой", "бирюзовый", "лазурь", "бирюза", "пурпуровый", "чернеть", "белеть"]
 
-imemines = ["я", "мой", "меня", "мы", "себя", "ты", "тебя", "твой", "он", "она", "они"]
-
 def index():
     colours=[trymysql(trymysql.allword.word==all).count() for all in color]
     all_colours = sum([int(x) for x in colours])
@@ -63,9 +61,13 @@ def author_compare(): # Сравниваем цвета двух авторов
     author2 = trymysql(trymysql.author.id==request.args(1)).select().first()
     return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, author1=author1.family, author2=author2.family)
 
+imemines = ["я", "мой", "мы", "себя", "ты", "твой", "он", "она", "они"]
+
 def imemine():
-    mine = [trymysql((trymysql.allword.word==all)&(trymysql.allword.author=='1')).count() for all in imemines]
-    return dict(mine=mine, all_mine=mine)
+    mine = [trymysql((trymysql.allword.word==all)&(trymysql.allword.author==request.args(0))).count() for all in imemines]
+    author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
+    author=author1['family']
+    return dict(mine=mine, all_mine=mine, author=author)
 
 months = ['январь', 'январский', 'февраль', 'февральский', 'март', 'мартовский', 'апрель', 'апрельский', 'май', 'майский', 'июнь', 'июньский', 'июль', 'июльский', 'август', 'августовский', 'сентябрь', 'сентябрьский', 'октябрь', 'октябрьский', 'ноябрь', 'ноябрьский', 'декабрь', 'декабрьский']
 

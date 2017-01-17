@@ -1,0 +1,86 @@
+{{extend 'layout.html'}}
+<h1>Векторная модель</h1>
+
+<table>
+
+<tr>
+<td><h4>Любовь</h4>
+{{for all in model1.most_similar(positive=['любовь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+    <td><h4>Окно</h4>
+{{for all in model1.most_similar(positive=['окно'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+       <td><h4>{{=words[2]}}</h4>
+{{for all in model1.most_similar(positive=['сон'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+     
+               <td>
+                   <h4>{{=words[3]}}</h4>
+{{for all in model1.most_similar(positive=['огонь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+<tr>
+<td><h4>{{=words[4]}}</h4>
+{{for all in model1.most_similar(positive=['мир'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+       <td><h4>{{=words[5]}}</h4>
+{{for all in model1.most_similar(positive=['море'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+           <td><h4>{{=words[6]}}</h4>
+{{for all in model1.most_similar(positive=['день'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>{{=words[7]}}</h4>
+{{for all in model1.most_similar(positive=['дом'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+    <tr>
+<td><h4>Дождь</h4>
+{{for all in model1.most_similar(positive=['дождь'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+       <td><h4>Ливень</h4>
+{{for all in model1.most_similar(positive=['ливень'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+           <td><h4>Снег</h4>
+{{for all in model1.most_similar(positive=['снег'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>Ветер</h4>
+{{for all in model1.most_similar(positive=['ветер'], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+{{pass}}
+    </td>
+
+        </tr>
+</table>
+День/ночь{{=model1.similarity('день', 'ночь')}}<br/>
+
+<ul>
+    <li><a href="/test/concordance/birds.html">Птицы</a></li>
+</ul>

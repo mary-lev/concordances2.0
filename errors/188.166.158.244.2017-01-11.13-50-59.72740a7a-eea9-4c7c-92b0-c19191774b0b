@@ -1,0 +1,705 @@
+(dp1
+S'output'
+p2
+S"<class 'sqlite3.OperationalError'> table auth_user already exists"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/models/db.py'
+p5
+sS'code'
+p6
+S"# -*- coding: utf-8 -*-\n\n#########################################################################\n## This scaffolding model makes your app work on Google App Engine too\n## File is released under public domain and you can use without limitations\n#########################################################################\n\n## if SSL/HTTPS is properly configured and you want all HTTP requests to\n## be redirected to HTTPS, uncomment the line below:\n# request.requires_https()\n\nif not request.env.web2py_runtime_gae:\n    ## if NOT running on Google App Engine use SQLite or other DB\n    db = DAL('sqlite://storage.sqlite',pool_size=1,check_reserved=['all'])\nelse:\n    ## connect to Google BigTable (optional 'google:datastore://namespace')\n    db = DAL('google:datastore')\n    ## store sessions and tickets there\n    session.connect(request, response, db=db)\n    ## or store session in Memcache, Redis, etc.\n    ## from gluon.contrib.memdb import MEMDB\n    ## from google.appengine.api.memcache import Client\n    ## session.connect(request, response, db = MEMDB(Client()))\n\n## by default give a view/generic.extension to all actions from localhost\n## none otherwise. a pattern can be 'controller/function.extension'\nresponse.generic_patterns = ['*'] if request.is_local else []\n## (optional) optimize handling of static files\n# response.optimize_css = 'concat,minify,inline'\n# response.optimize_js = 'concat,minify,inline'\n## (optional) static assets folder versioning\n# response.static_version = '0.0.0'\n#########################################################################\n## Here is sample code if you need for\n## - email capabilities\n## - authentication (registration, login, logout, ... )\n## - authorization (role based authorization)\n## - services (xml, csv, json, xmlrpc, jsonrpc, amf, rss)\n## - old style crud actions\n## (more options discussed in gluon/tools.py)\n#########################################################################\n\nfrom gluon.tools import Auth, Crud, Service, PluginManager, prettydate\nauth = Auth(db)\ncrud, service, plugins = Crud(db), Service(), PluginManager()\n\n## create all tables needed by auth if not custom tables\nauth.define_tables(username=False, signature=False)\n\n## configure email\nmail = auth.settings.mailer\nmail.settings.server = 'logging' or 'smtp.gmail.com:587'\nmail.settings.sender = 'you@gmail.com'\nmail.settings.login = 'username:password'\n\n## configure auth policy\nauth.settings.registration_requires_verification = False\nauth.settings.registration_requires_approval = False\nauth.settings.reset_password_requires_verification = True\n\n## if you need to use OpenID, Facebook, MySpace, Twitter, Linkedin, etc.\n## register with janrain.com, write your domain:api_key in private/janrain.key\nfrom gluon.contrib.login_methods.rpx_account import use_janrain\nuse_janrain(auth, filename='private/janrain.key')\n\n#########################################################################\n## Define your tables below (or better in another model file) for example\n##\n# db.define_table('auth_user',Field('myfield','string'))\n##\n## Fields can be 'string','text','password','integer','double','boolean'\n##       'date','time','datetime','blob','upload', 'reference TABLENAME'\n## There is an implicit 'id integer autoincrement' field\n## Consult manual for more options, validators, etc.\n##\n## More API examples for controllers:\n##\n## >>> db.mytable.insert(myfield='value')\n## >>> rows=db(db.mytable.myfield=='value').select(db.mytable.ALL)\n## >>> for row in rows: print row.id, row.myfield\n#########################################################################\n\n## after defining tables, uncomment below to enable auditing\n# auth.enable_record_versioning(db)\n"
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'sqlite3'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of OperationalError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of OperationalError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of OperationalError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of OperationalError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of OperationalError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of OperationalError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of OperationalError object>'
+p31
+sS'__new__'
+p32
+S'<built-in method __new__ of type object>'
+p33
+sS'__format__'
+p34
+S'<built-in method __format__ of OperationalError object>'
+p35
+sS'__class__'
+p36
+S"<class 'sqlite3.OperationalError'>"
+p37
+sS'__doc__'
+p38
+S'None'
+p39
+sS'__getitem__'
+p40
+S"<method-wrapper '__getitem__' of OperationalError object>"
+p41
+sS'__setstate__'
+p42
+S'<built-in method __setstate__ of OperationalError object>'
+p43
+sS'__getattribute__'
+p44
+S"<method-wrapper '__getattribute__' of OperationalError object>"
+p45
+sS'args'
+p46
+S"('table auth_user already exists',)"
+p47
+sS'__subclasshook__'
+p48
+S'<built-in method __subclasshook__ of type object>'
+p49
+sS'__unicode__'
+p50
+S'<built-in method __unicode__ of OperationalError object>'
+p51
+sS'__delattr__'
+p52
+S"<method-wrapper '__delattr__' of OperationalError object>"
+p53
+sS'__repr__'
+p54
+S"<method-wrapper '__repr__' of OperationalError object>"
+p55
+sS'__hash__'
+p56
+S"<method-wrapper '__hash__' of OperationalError object>"
+p57
+ssS'evalue'
+p58
+S'table auth_user already exists'
+p59
+sS'request'
+p60
+cgluon.html
+XML_unpickle
+p61
+(S's\x18S\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>178.62.89.121-cac448c2-09cd-48d5-ba41-3e90ddfe709d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>__utmt=1; session_id_test=178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd; __utma=134993891.2009921225.1482865438.1484136985.1484141361.13; __utmb=134993891.24.10.1484141361; __utmc=134993891; __utmz=134993891.1484005687.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.2009921225.1482865438; _gat=1; session_id_admin=178.62.89.121-cac448c2-09cd-48d5-ba41-3e90ddfe709d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/select/trymysql?query=trymysql.color.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.0.0.236</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>41708</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>__utmt=1; session_id_test=178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd; __utma=134993891.2009921225.1482865438.1484136985.1484141361.13; __utmb=134993891.24.10.1484141361; __utmc=134993891; __utmz=134993891.1484005687.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.2009921225.1482865438; _gat=1; session_id_admin=178.62.89.121-cac448c2-09cd-48d5-ba41-3e90ddfe709d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/select/trymysql?query=trymysql.color.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.0.0.236</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>41708</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7fad3d088150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7fad51a4bcd8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7fad3d088150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7fad51a4bcd8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>giles-liveweb6</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>localhost</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 1, 11, 13, 50, 59, 608452)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 1, 11, 13, 50, 59, 608597)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/188.166.158.244.2017-01-11.13-50-59.72740a7a-eea9-4c7c-92b0-c19191774b0b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7fad3d0883d0&gt;</div></td></tr></table></div>'
+tRp62
+sS'frames'
+p63
+(lp64
+(dp65
+S'file'
+p66
+S'/home/concordance/web2py/gluon/restricted.py'
+p67
+sS'dump'
+p68
+(dp69
+S'environment'
+p70
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p71
+sS'ccode'
+p72
+S'<code object <module> at 0x7fad3d0865b0, file "/.../web2py/applications/test/models/db.py", line 12>'
+p73
+ssS'lnum'
+p74
+I220
+sS'lines'
+p75
+(dp76
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p77
+sI215
+S'    try:'
+p78
+sI216
+S'        if isinstance(code, types.CodeType):'
+p79
+sI217
+S'            ccode = code'
+p80
+sI218
+S'        else:'
+p81
+sI219
+S'            ccode = compile2(code, layer)'
+p82
+sI220
+S'        exec ccode in environment'
+p83
+sI221
+S'    except HTTP:'
+p84
+sI222
+S'        raise'
+p85
+sI223
+S'    except RestrictedError:'
+p86
+ssS'call'
+p87
+S"(code='# -*- coding: utf-8 -*-\\n\\n#######################...ble auditing\\n# auth.enable_record_versioning(db)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}, layer='/home/concordance/web2py/applications/test/models/db.py')"
+p88
+sS'func'
+p89
+S'restricted'
+p90
+sa(dp91
+g66
+S'/home/concordance/web2py/applications/test/models/db.py'
+p92
+sg68
+(dp93
+S'username'
+p94
+S'undefined'
+p95
+sS'auth.define_tables'
+p96
+S'<bound method Auth.define_tables of <gluon.tools.Auth object>>'
+p97
+sS'builtinFalse'
+p98
+S'False'
+p99
+sS'auth'
+p100
+S'<gluon.tools.Auth object>'
+p101
+sS'signature'
+p102
+g95
+ssg74
+I48
+sg75
+(dp103
+I43
+S'from gluon.tools import Auth, Crud, Service, PluginManager, prettydate'
+p104
+sI44
+S'auth = Auth(db)'
+p105
+sI45
+S'crud, service, plugins = Crud(db), Service(), PluginManager()'
+p106
+sI46
+S''
+sI47
+S'## create all tables needed by auth if not custom tables'
+p107
+sI48
+S'auth.define_tables(username=False, signature=False)'
+p108
+sI49
+S''
+sI50
+S'## configure email'
+p109
+sI51
+S'mail = auth.settings.mailer'
+p110
+sI52
+S"mail.settings.server = 'logging' or 'smtp.gmail.com:587'"
+p111
+ssg87
+S'()'
+p112
+sg89
+S'<module>'
+p113
+sa(dp114
+g66
+S'/home/concordance/web2py/gluon/tools.py'
+p115
+sg68
+(dp116
+S'builtinformat'
+p117
+S'<built-in function format>'
+p118
+ssg74
+I1784
+sg75
+(dp119
+I1779
+S'                    *extra_fields,'
+p120
+sI1780
+S'                    **dict('
+p121
+sI1781
+S'                        migrate=self.__get_migrate(settings.table_user_name,'
+p122
+sI1782
+S'                                                   migrate),'
+p123
+sI1783
+S'                        fake_migrate=fake_migrate,'
+p124
+sI1784
+S"                        format='%(first_name)s %(last_name)s (%(id)s)'))"
+p125
+sI1785
+S"        reference_table_user = 'reference %s' % settings.table_user_name"
+p126
+sI1786
+S'        if not settings.table_group_name in db.tables:'
+p127
+sI1787
+S'            extra_fields = settings.extra_fields.get('
+p128
+sI1788
+S'                settings.table_group_name, []) + signature_list'
+p129
+ssg87
+S'(self=<gluon.tools.Auth object>, username=False, signature=False, migrate=True, fake_migrate=False)'
+p130
+sg89
+S'define_tables'
+p131
+sa(dp132
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p133
+sg68
+(dp134
+S'fields'
+p135
+S'(<gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>)'
+p136
+sS'self'
+p137
+S'<DAL uri="sqlite://storage.sqlite">'
+p138
+sS'args'
+p139
+S"{'fake_migrate': False, 'format': '%(first_name)s %(last_name)s (%(id)s)', 'migrate': True}"
+p140
+sS'tablename'
+p141
+S"'auth_user'"
+p142
+sS'table'
+p143
+g95
+sS'self.lazy_define_table'
+p144
+S'<bound method DAL.lazy_define_table of <DAL uri="sqlite://storage.sqlite">>'
+p145
+ssg74
+I8223
+sg75
+(dp146
+I8224
+S'        if not tablename in self.tables:'
+p147
+sI8225
+S'            self.tables.append(tablename)'
+p148
+sI8226
+S'        return table'
+p149
+sI8227
+S''
+sI8218
+S'                    % (tablename,invalid_args))'
+p150
+sI8219
+S'        if self._lazy_tables and not tablename in self._LAZY_TABLES:'
+p151
+sI8220
+S'            self._LAZY_TABLES[tablename] = (tablename,fields,args)'
+p152
+sI8221
+S'            table = None'
+p153
+sI8222
+S'        else:'
+p154
+sI8223
+S'            table = self.lazy_define_table(tablename,*fields,**args)'
+p155
+ssg87
+S'(self=<DAL uri="sqlite://storage.sqlite">, tablename=\'auth_user\', *fields=(<gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>), **args={\'fake_migrate\': False, \'format\': \'%(first_name)s %(last_name)s (%(id)s)\', \'migrate\': True})'
+p156
+sg89
+S'define_table'
+p157
+sa(dp158
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p159
+sg68
+(dp160
+S'polymodel'
+p161
+S'None'
+p162
+ssg74
+I8260
+sg75
+(dp163
+I8256
+S'                GLOBAL_LOCKER.acquire()'
+p164
+sI8257
+S'                self._lastsql = self._adapter.create_table('
+p165
+sI8258
+S'                    table,migrate=migrate,'
+p166
+sI8259
+S'                    fake_migrate=fake_migrate,'
+p167
+sI8260
+S'                    polymodel=polymodel)'
+p168
+sI8261
+S'            finally:'
+p169
+sI8262
+S'                GLOBAL_LOCKER.release()'
+p170
+sI8263
+S'        else:'
+p171
+sI8264
+S'            table._dbt = None'
+p172
+sI8255
+S'            try:'
+p173
+ssg87
+S'(self=<DAL uri="sqlite://storage.sqlite">, tablename=\'auth_user\', *fields=(<gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>, <gluon.dal.Field object>), **args={\'fake_migrate\': False, \'format\': \'%(first_name)s %(last_name)s (%(id)s)\', \'migrate\': True})'
+p174
+sg89
+S'lazy_define_table'
+p175
+sa(dp176
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p177
+sg68
+(dp178
+S'query'
+p179
+S"'CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);'"
+p180
+sS'self'
+p181
+S'<gluon.dal.SQLiteAdapter object>'
+p182
+sS'table'
+p183
+S'<Table auth_user (id,first_name,last_name,email,...stration_key,reset_password_key,registration_id)>'
+p184
+sS'self.create_sequence_and_triggers'
+p185
+S'<bound method SQLiteAdapter.create_sequence_and_triggers of <gluon.dal.SQLiteAdapter object>>'
+p186
+ssg74
+I1104
+sg75
+(dp187
+I1099
+S'            if table._dbt:'
+p188
+sI1100
+S"                self.log('timestamp: %s\\n%s\\n'"
+p189
+sI1101
+S'                         % (datetime.datetime.today().isoformat(),'
+p190
+sI1102
+S'                            query), table)'
+p191
+sI1103
+S'            if not fake_migrate:'
+p192
+sI1104
+S'                self.create_sequence_and_triggers(query,table)'
+p193
+sI1105
+S'                table._db.commit()'
+p194
+sI1106
+S'                # Postgres geom fields are added now,'
+p195
+sI1107
+S'                # after the table has been created'
+p196
+sI1108
+S'                for query in postcreation_fields:'
+p197
+ssg87
+S'(self=<gluon.dal.SQLiteAdapter object>, table=<Table auth_user (id,first_name,last_name,email,...stration_key,reset_password_key,registration_id)>, migrate=True, fake_migrate=False, polymodel=None)'
+p198
+sg89
+S'create_table'
+p199
+sa(dp200
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p201
+sg68
+(dp202
+S'query'
+p203
+S"'CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);'"
+p204
+sS'self'
+p205
+S'<gluon.dal.SQLiteAdapter object>'
+p206
+sS'self.execute'
+p207
+S'<bound method SQLiteAdapter.execute of <gluon.dal.SQLiteAdapter object>>'
+p208
+ssg74
+I1950
+sg75
+(dp209
+I1952
+S''
+sI1953
+S'    def log_execute(self, *a, **b):'
+p210
+sI1954
+S'        if not self.connection: raise ValueError(a[0])'
+p211
+sI1945
+S''
+sI1946
+S'    def constraint_name(self, table, fieldname):'
+p212
+sI1947
+S"        return '%s_%s__constraint' % (table,fieldname)"
+p213
+sI1948
+S''
+sI1949
+S'    def create_sequence_and_triggers(self, query, table, **args):'
+p214
+sI1950
+S'        self.execute(query)'
+p215
+sI1951
+S''
+ssg87
+S"(self=<gluon.dal.SQLiteAdapter object>, query='CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);', table=<Table auth_user (id,first_name,last_name,email,...stration_key,reset_password_key,registration_id)>, **args={})"
+p216
+sg89
+S'create_sequence_and_triggers'
+p217
+sa(dp218
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p219
+sg68
+(dp220
+S'a'
+S"('CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);',)"
+p221
+sS'self'
+p222
+S'<gluon.dal.SQLiteAdapter object>'
+p223
+sS'b'
+g21
+sS'self.log_execute'
+p224
+S'<bound method SQLiteAdapter.log_execute of <gluon.dal.SQLiteAdapter object>>'
+p225
+ssg74
+I1969
+sg75
+(dp226
+I1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p227
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p228
+sI1966
+S'        return ret'
+p229
+sI1967
+S''
+sI1968
+S'    def execute(self, *a, **b):'
+p230
+sI1969
+S'        return self.log_execute(*a, **b)'
+p231
+sI1970
+S''
+sI1971
+S'    def represent(self, obj, fieldtype):'
+p232
+sI1972
+S'        field_is_type = fieldtype.startswith'
+p233
+sI1973
+S'        if isinstance(obj, CALLABLETYPES):'
+p234
+ssg87
+S"(self=<gluon.dal.SQLiteAdapter object>, *a=('CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);',), **b={})"
+p235
+sg89
+S'execute'
+p236
+sa(dp237
+g66
+S'/home/concordance/web2py/gluon/dal.py'
+p238
+sg68
+(dp239
+S'a'
+S"('CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);',)"
+p240
+sS'b'
+g21
+sS'self'
+p241
+S'<gluon.dal.SQLiteAdapter object>'
+p242
+sS'ret'
+p243
+g95
+sS'self.cursor'
+p244
+S'<sqlite3.Cursor object>'
+p245
+sS'command'
+p246
+S"'CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);'"
+p247
+sS'self.cursor.execute'
+p248
+S'<built-in method execute of sqlite3.Cursor object>'
+p249
+ssg74
+I1963
+sg75
+(dp250
+I1958
+S'            command = self.filter_sql_command(command)'
+p251
+sI1959
+S'        if self.db._debug:'
+p252
+sI1960
+S"            LOGGER.debug('SQL: %s' % command)"
+p253
+sI1961
+S'        self.db._lastsql = command'
+p254
+sI1962
+S'        t0 = time.time()'
+p255
+sI1963
+S'        ret = self.cursor.execute(command, *a[1:], **b)'
+p256
+sI1964
+S'        self.db._timings.append((command,time.time()-t0))'
+p257
+sI1965
+S'        del self.db._timings[:-TIMINGSSIZE]'
+p258
+sI1966
+S'        return ret'
+p259
+sI1967
+S''
+ssg87
+S"(self=<gluon.dal.SQLiteAdapter object>, *a=('CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);',), **b={})"
+p260
+sg89
+S'log_execute'
+p261
+sasS'pyver'
+p262
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p263
+sS'session'
+p264
+g61
+(S's\xbe\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>trymysql.color.id&gt;0</div></td></tr></table></div>'
+tRp265
+sS'etype'
+p266
+S"<class 'sqlite3.OperationalError'>"
+p267
+sS'date'
+p268
+S'Wed Jan 11 13:50:59 2017'
+p269
+sS'response'
+p270
+g61
+(S's\xbe\x16\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7fad3d07bd18&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>188.166.158.244</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd&#x27;, mode &#x27;rb+&#x27; at 0x7fad3fd05a50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>13db2f5f4eeeab8274a41566faaad51c</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>178.62.89.121-fc8a6e46-d0da-44db-959c-a1fb89698afd</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>appadmin/index.html</div></td></tr></table></div>'
+tRp271
+sS'locals'
+p272
+(dp273
+S'a'
+S"('CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);',)"
+p274
+sS'self'
+p275
+S'<gluon.dal.SQLiteAdapter object>'
+p276
+sS'b'
+g21
+sS'command'
+p277
+S"'CREATE TABLE auth_user(\\n    id INTEGER PRIMARY K...d_key CHAR(512),\\n    registration_id CHAR(512)\\n);'"
+p278
+sS't0'
+p279
+S'1484142659.928247'
+p280
+sssS'traceback'
+p281
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/models/db.py", line 48, in <module>\n    auth.define_tables(username=False, signature=False)\n  File "/home/concordance/web2py/gluon/tools.py", line 1784, in define_tables\n    format=\'%(first_name)s %(last_name)s (%(id)s)\'))\n  File "/home/concordance/web2py/gluon/dal.py", line 8223, in define_table\n    table = self.lazy_define_table(tablename,*fields,**args)\n  File "/home/concordance/web2py/gluon/dal.py", line 8260, in lazy_define_table\n    polymodel=polymodel)\n  File "/home/concordance/web2py/gluon/dal.py", line 1104, in create_table\n    self.create_sequence_and_triggers(query,table)\n  File "/home/concordance/web2py/gluon/dal.py", line 1950, in create_sequence_and_triggers\n    self.execute(query)\n  File "/home/concordance/web2py/gluon/dal.py", line 1969, in execute\n    return self.log_execute(*a, **b)\n  File "/home/concordance/web2py/gluon/dal.py", line 1963, in log_execute\n    ret = self.cursor.execute(command, *a[1:], **b)\nOperationalError: table auth_user already exists\n'
+p282
+s.

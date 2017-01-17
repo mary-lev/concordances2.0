@@ -5,6 +5,8 @@ import json
 from wikitools import wiki
 from wikitools import api
 
+stress= "о́,э́,я́́,и́,ю́,у́"
+
 def index1():
     # create a Wiki object
     site = wiki.Wiki("http://ru.wiktionary.org/w/api.php")
@@ -41,7 +43,7 @@ def index():
         end = rod1.find("Этимология")
         rod2 = rod1[:end-4]
     t = type(text)
-    return dict(text=text, new4=new4, rod2=rod2)
+    return dict(text=text, new4=new4, rod2=rod2, a = stress)
 
 def index2():
     enwp = mw.Wiki('https://ru.wiktionary.org/w/api.php')

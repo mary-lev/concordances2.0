@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+<h1>Поиск близких текстов</h1>
+Исходный текст: {{=osn.title}} {{=osn.first_string}}. {{=osn.author.family}}
+<ul>
+    {{for all in docs:}}
+    <li>
+        {{=all.author.name}} {{=all.author.family}}. {{if all.title:}} {{=A(all.title, _href=URL("show", "show1", args=all.id))}} {{pass}}
+        {{if all.first_string:}}"{{=A(all.first_string, _href=URL("show", "show1", args=all.id))}}" {{pass}}
+    </li>
+    {{pass}}
+</ul>

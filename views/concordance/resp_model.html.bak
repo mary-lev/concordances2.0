@@ -1,0 +1,21 @@
+{{extend 'layout.html'}}
+{{word = words +'_S'}}
+<h1>Семантические аналоги для слова {{=I(words)}}</h1>
+<table>
+    <th>Поэтический корпус</th> <th>Stihi.Ru</th> <th>Подкорпус НКРЯ</th>
+<tr>
+  <td>
+    {{for all in model.most_similar(positive=[words], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+    {{pass}}
+   </td>
+    <td>    {{for all in model1.most_similar(positive=[words.decode('utf-8')], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+    {{pass}}
+    </td>
+     <td>    {{for all in model2.most_similar(positive=[word], topn=20):}}
+<li>{{=all[0]}}, {{=all[1]}}</li>
+    {{pass}}
+    </td>
+    </tr>
+    </table>

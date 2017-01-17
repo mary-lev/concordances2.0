@@ -1,0 +1,256 @@
+# coding: utf8
+import nltk
+import pymorphy2
+from operator import itemgetter
+import string
+import os
+from os import listdir
+from os.path import isfile, join
+import lxml.etree
+
+def index():
+    tt = trymysql(trymysql.text1.author==14).select()
+    ids = [all.id for all in tt]
+    for x in ids:
+        words=[]
+        text = trymysql(trymysql.text1.id==x).select().first()
+        f = open(text.filename, 'rb')
+        content = f.readlines()
+        f.close()
+        morph = pymorphy2.MorphAnalyzer()
+        for all in content:
+            new = nltk.wordpunct_tokenize(all.decode('utf-8'))
+            new = [x for x in new if x.isalpha() or x.isspace()] # delete punctuation and numbers
+            if len(new)>0:
+                words.append(new[-1].lower())
+        #ff = open('/home/concordance/web2py/applications/test/rhymes/hodasevich.txt', 'a') # save to file
+        #ff.write((' '.join(words)).encode('utf-8') + '\n')
+        #ff.close()
+        r = (' '.join(words)).encode('utf-8')
+        trymysql.stih.insert(title=text.id, author=text.author, rhymes = r) # insert into database, not in file
+    return dict(words=words)
+
+def search():
+    f = open('/home/concordance/web2py/applications/test/rhymes/t_balmont.txt', 'r')
+    content = f.readlines()
+    f.close()
+    rhyme = []
+    a = 0
+    for all in content:
+        poem = all.split()
+        if len(poem)>3:
+            if test_ABAB(poem) is True:
+                rhyme.append(rhymes(poem, 'ABAB'))
+            elif test_AABB(poem) is True:
+                rhyme.append(rhymes(poem, 'AABB'))
+            elif test_ABBA(poem) is True:
+                rhyme.append(rhymes(poem, 'ABBA'))
+            elif test_ABAC(poem) is True:
+                rhyme.append(rhymes(poem, 'ABAC'))
+            elif test_ABCB(poem) is True:
+                rhyme.append(rhymes(poem, 'ABCB'))
+            else:
+                rhyme.append('Don\'t know')
+                a += 1
+        else:
+            rhyme.append(len(poem))
+    return dict(rhyme=rhyme, a=a)
+
+dubl = ['с', 'п', 'т', 'к', 'ш', 'ф', 'а', 'и']
+dubl2 = ['з', 'б', 'д', 'г', 'ж', 'в', 'о', 'е']
+
+def test_dubl(a, b): # проверяем звонкие и глухие согласные
+    if a in dubl and b in dubl2:
+        if dubl.index(a) == dubl2.index(b):
+            return True
+    if a in dubl2 and b in dubl:
+        if dubl2.index(a) == dubl.index(b):
+            return True
+
+def test_ABCB(poem):
+    t = []
+    for all in poem[1::2]:
+        try:
+            if all[-1] == poem[poem.index(all)+2][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+2][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    return c_t(t)
+
+def test_ABAC(poem):
+    t = []
+    for all in poem[::2]:
+        try:
+            if all[-1] == poem[poem.index(all)+2][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+2][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    return c_t(t)
+
+def test_AABB(poem):
+    t = []
+    for all in poem[::2]:
+        try:
+            if all[-1] == poem[poem.index(all)+1][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+1][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    return c_t(t)
+
+def test_ABAB(poem):
+    t = []
+    for all in poem[::2]:
+        try:
+            if all[-1] == poem[poem.index(all)+2][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+2][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    for all in poem[1::2]:
+        try:
+            if all[-1] == poem[poem.index(all)+2][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+2][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    return c_t(t)
+
+def test_ABBA(poem):
+    t = []
+    for all in poem[::4]:
+        try:
+            if all[-1] == poem[poem.index(all)+3][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+3][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    for all in poem[1::4]:
+        try:
+            if all[-1] == poem[poem.index(all)+1][-1]:
+                t.append('1')
+            elif test_dubl(all[-1], poem[poem.index(all)+1][-1]) is True:
+                t.append('1')
+            else:
+                t.append('0')
+        except:
+            pass
+    return c_t(t)
+
+def rhymes(line, type_r):
+    rhymes = []
+    if type_r == 'ABBA':
+        for all in line:
+            if all != 'None':
+                if line.index(all)%2 == 0:
+                    try:
+                        rhymes.append([all, line[line.index(all)+3], type_r])
+                        line[line.index(all)+3] = 'None'
+                    except:
+                        rhymes.append('end')
+                else:
+                    try:
+                        rhymes.append([all, line[line.index(all)+1], type_r])
+                        line[line.index(all)+1] = 'None'
+                    except:
+                        rhymes.append('end')
+    if type_r == 'AABB':
+        p1 = line[::2]
+        p2 = line[1::2]
+        if len(p1)==len(p2):
+            for x in p1:
+                rhymes.append([x, p2[p1.index(x)], type_r])
+        else:
+            rhymes = 'uneven'
+    if type_r == 'ABAB':
+        for all in line:
+            try:
+                if all != 'None':
+                    rhymes.append([all, line[line.index(all)+2], type_r])
+                    line[line.index(all)+2] = 'None'
+            except:
+                pass
+    if type_r == 'ABAC':
+        for all in line[::2]:
+            if all != 'None':
+                try:
+                    rhymes.append([all, line[line.index(all)+2], type_r])
+                    line[line.index(all)+2] = 'None'
+                except:
+                    pass
+    if type_r == 'ABCB':
+        for all in line[1::2]:
+            if all != 'None':
+                try:
+                    rhymes.append([all, line[line.index(all)+2], type_r])
+                    line[line.index(all)+2] = 'None'
+                except:
+                    pass
+    return rhymes
+
+def c_t(t):
+    if t.count('1') >= t.count('0'):
+        return True
+    else:
+        return False
+
+def count_stanza():
+    texts = trymysql(trymysql.text1.author==19).select()
+    i = [all.id for all in texts]
+    path = '/home/concordance/web2py/applications/test/uploads/xml/'
+    a = []
+    for all in texts:
+        res = []
+        filename = path + str(all.author) + '/' + str(all.id) + '.xml'
+        doc = lxml.etree.parse(filename)
+        count = doc.xpath('count(//line)')
+        cars = doc.xpath('//stanza')
+        n = []
+        for car in cars:
+            colors = car.xpath('count(.//line)')
+            n.append(str(int(colors)))
+        t = trymysql(trymysql.stih.title == all.id).select()[0]
+        t.update_record(kol_strok=int(count), strofa = n)
+    return dict()
+
+def find_sonet():
+    sonnet = ['|4|4|3|3|', '|4|4|4|2|']
+    texts = [t.title for t in trymysql(trymysql.stih.strofa.belongs(sonnet)).select()]
+    ttt = trymysql(trymysql.text1.id.belongs(texts)).select()
+    return dict(ttt=ttt)
+
+def word2vec():
+    sentences = []
+    path = "/home/concordance/web2py/applications/test/rhymes/"
+    files = [f for f in listdir(path) if isfile(join(path,f)) ]
+    for all in files:
+        filename=str(path)+all
+        new = open(filename, 'rb')
+        lines = new.readlines()
+        new.close()
+        for line in lines:
+            new = nltk.wordpunct_tokenize(line.decode('utf-8'))
+            sentences.append(new)
+    model1 = gensim.models.Word2Vec(sentences, min_count=1, window=4, size=300)
+    model1.save("/home/concordance/web2py/applications/test/uploads/models/rhyme")
+    return dict(sentences=sentences, new=new, model1=model1)

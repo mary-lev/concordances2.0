@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон control/see_concordances.html</h1>
+
+{{for all in n:}}
+<li>{{=all}}</li>
+<div id = 'target'></div>
+{{pass}}
+
+
+<script>
+jQuery('#myform').submit(function() {
+  ajax('{{=URL('new_post')}}',
+       ['your_message'], 'target');
+  return false;
+});
+</script>

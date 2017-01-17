@@ -191,6 +191,7 @@
 'Registration key': 'Ключ регистрации',
 'Registration successful': 'Registration successful',
 'Remember me (for 30 days)': 'Запомнить меня (на 30 дней)',
+'Request reset password': 'Request reset password',
 'Reset Password key': 'Сбросить ключ пароля',
 'Role': 'Роль',
 'Rows in Table': 'Строк в таблице',
@@ -252,6 +253,7 @@
 'Доступные функции': 'Доступные функции',
 'Зарегистрироваться': 'Зарегистрироваться',
 'О проекте': 'О проекте',
+'Слово': 'Слово',
 'Справка': 'Справка',
 'Цвета по авторам': 'Цвета по авторам',
 }

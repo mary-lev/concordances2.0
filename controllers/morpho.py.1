@@ -1,4 +1,6 @@
 # coding: utf8
+from plugin_sqleditable.editable import SQLEDITABLE
+SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
 
@@ -23,7 +25,7 @@ def index():
     return dict(authors=authors)
 
 def index1():
-    titles = [x for x in range(1103,1104)] # last: 3500
+    titles = [x for x in range(7848,7941)] # last: 3500, 7088, 10261
     texts = trymysql(trymysql.allword.title.belongs(titles)).select()
     for all in texts:
         the_word = all.lemma.decode("utf-8")
@@ -172,16 +174,48 @@ def search_result():
                     string= string + " " + str(for_string.lemma)
                 except:
                     pass
-            strings.append((string +"...", title, author, int(title1.id)))
+            strings.append((string +"...", title, author, int(title1.id), all.id))
+    response.title = 'Результаты поиска'
     return dict(strings=strings, message=message)
 
-def draft():
-    base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]
-    base_id0=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(1)).select()]
-    colours=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id))).count() for all in color]
-    colours2=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id0))).count() for all in color]
-    all_colours = sum([int(x) for x in colours])
-    all_colours2 = sum([int(x) for x in colours2])
-    title_1 = trymysql(trymysql.group_text.id==request.args(0)).select().first()
-    title_2 = trymysql(trymysql.group_text.id==request.args(1)).select().first()
-    return dict(colours=colours, colours2=colours2, all_colours=all_colours, all_colours2=all_colours2, title1=title_1.title, author1=title_1.author.family, title2=title_2.title, author2=title_2.author.family)
+@auth.requires_login()
+def correct_word():
+    record = trymysql.allword(request.args(0))
+    form = SQLFORM(trymysql.allword, record)
+    if form.process().accepted:
+       response.flash = 'form accepted'
+    return dict(form=form)
+
+def correct():
+    options2 = [OPTION(texts.name, " ", texts.family, _value=texts.id) for texts in trymysql().select(trymysql.author.ALL)]
+    record = trymysql.allword(request.args(0))
+    form=FORM(TABLE(TR("Часть речи",SELECT(*partos, _name="first", default = record.partos)),
+                    TR("Падеж",SELECT(*case, _name="second")),
+                    TR("Одушевленность",SELECT(*animacy, _name="animacy")),
+                    TR("Род", SELECT(*gender, _name="gender")),
+                    TR("Время", SELECT(*tenses, _name="tenses")),
+                    TR("Вид", SELECT(*aspect, _name = "aspect")),
+                    TR("Залог", SELECT(*voice, _name = "voice")),
+                    TR("Лицо", SELECT(*person, _name = "person")),
+                    TR("Переходность", SELECT(*trans, _name = "trans")),
+                    TR("Число", SELECT(*number, _name = "number")),
+                    TR("Наклонение", SELECT(*mood, _name="mood")),
+                    TR("Имена собственные", SELECT(*names, _name="names")),
+                    TR("",INPUT(_type="submit",_value="SUBMIT"))))
+    if form.process(formname='form_one').accepted:
+        redirect(URL('search_result', args =
+                     [form.vars['first'],
+                      form.vars['second'],
+                      form.vars['animacy'],
+                      form.vars['gender'],
+                      form.vars['author'],
+                      form.vars['tenses'],
+                      form.vars['aspect'],
+                      form.vars['voice'],
+                      form.vars['person'],
+                      form.vars['trans'],
+                      form.vars['number'],
+                      form.vars['mood'],
+                      form.vars['names']]))
+        response.flash="form accepted"
+    return dict(form=form)

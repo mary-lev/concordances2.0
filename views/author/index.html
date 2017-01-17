@@ -1,5 +1,7 @@
 {{extend 'layout.html'}}
 <h1>Авторы</h1>
+<ol>
 {{for all in authors:}}
 <li>{{=A(all.name, " ", all.family, _href=URL('all_author', args=all.id))}} </li>
 {{pass}}
+</ol>

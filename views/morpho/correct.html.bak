@@ -1,0 +1,15 @@
+{{extend 'layout.html'}}
+<h1>Редактирование грамматических категорий</h1>
+<table>
+<tr>
+    <td>{{=form}}</td> <td>
+  <h3>  {{=a_name}} {{=author}}. {{=title}} </h3>
+    {{for line in content:}}
+    {{if word in line:}}
+        <i>{{=line}}</i><br>
+    {{else:}}
+        {{=line}} <br>
+    {{pass}}
+{{pass}}</td>
+    </tr>
+    </table>
