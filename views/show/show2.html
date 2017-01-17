@@ -1,9 +1,17 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон control/show2.html</h1>
-{{for words in content:}}
-{{if words.endswith('&'):}}
-    <span style="color:red; font-weight: bold">{{=words[:-1]}}</span>
+<h1>Текст с вариантами</h1>
+<h2>{{=text.author.name}} {{=text.author.family}}. {{=text.title}}</h2>
+
+<form>
+<input type="button" onclick="fade('test',-0.2);fade('that',+0.2)" value={{=text.book}}/>
+<input type="button" onclick="fade('test',+0.2);fade('that',-0.2)" value={{=varbook[0]}}/>
+</form>
+
+{{for all in content:}}
+{{if content.index(all) == int(line_number[0]):}}
+  <div id="test">{{=word[0]}}</div>
+<div id =that> {{=all}}</div>
 {{else:}}
-{{=words}}
+{{=all}}<br>
 {{pass}}
-{{pass}}
+    {{pass}}

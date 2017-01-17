@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон control/show2.html</h1>
+
+<form>
+<input type="button" onclick="fade('test',-0.2);" value="Первый вариант"/>
+<input type="button" onclick="fade('test',+0.2);" value="Второй вариант"/>
+</form>
+
+{{for all in content:}}
+    {{=all}}
+{{if content.index(all) == int(line_number[0]):}}
+  <div id="test">{{=word[0]}}</div>
+{{pass}}
+    {{pass}}
+
+{{=word[0]}}

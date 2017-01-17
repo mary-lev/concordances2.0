@@ -9,15 +9,17 @@ def show1():   # show text from file
     return dict(texts=texts, content=content, image=image)
 
 def show2(): # color the verbs
-    words = trymysql(trymysql.allword.title==request.args(0)).select()
-    content = []
-    for row in words:
-        if row.partos=='VERB':
-            new_words=str(row.lemma)+str('&')
-            content.append(new_words)
-        else:
-            content.append(row.lemma)
-    return dict(content=content)
+    text = trymysql(trymysql.text1.id==481).select()[0]
+    words_numbers = [all.id for all in trymysql(trymysql.allword.title==text.id).select()]
+    f = open(text.filename, 'rb')
+    content = f.readlines()
+    f.close()
+    var = trymysql(trymysql.variants.title==text.id).select()
+    line_number = [a.line for a in var]
+    word = [a.comment_text for a in var]
+    varbook = [a.comment_book for a in var]
+
+    return dict(text=text, content = content, line_number = line_number, word=word, varbook = varbook)
 
 def show3(): #delete words
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
