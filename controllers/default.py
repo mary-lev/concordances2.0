@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # this file is released under public domain and you can use without limitations
+from datetime import date
 
 #########################################################################
 ## This is a sample controller
@@ -9,6 +10,7 @@
 ## - call exposes all registered services (none by default)
 #########################################################################
 
+months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
 
 def index():
     """
@@ -21,11 +23,18 @@ def index():
     texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
     numbers = []
     n = 0
+    today = date.today()
+    m = months[today.month-1]
+    if today.month < 10:
+        month = '0' + str(today.month)
+    else:
+        month = str(today.month)
+    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select()
     for all in texts:
         number = trymysql(trymysql.text1.author==all.id).count()
         numbers.append([all.name, all.family,all.id, number])
         n += number
-    return dict(texts=texts, numbers=numbers, n = n)
+    return dict(texts=texts, numbers=numbers, n = n, day=day, d = today.day, m = m)
 
 def user():
     """

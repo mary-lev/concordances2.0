@@ -13,28 +13,11 @@ def index():
     texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
     return dict(texts=texts)
 
-def corpus():
-    texts = [[all.filename, int(all.id)] for all in trymysql(trymysql.text1.author==21).select()]
-    for all in texts:
-        f = open(all[0], 'rb')
-        new = f.readlines()
-        f.close()
-        path = '/home/concordance/web2py/applications/test/corpus/21/' + str(all[1]) + '.txt'
-        newf = open(path, 'wb')
-        newf.writelines(new)
-        newf.close()
-        os.remove(all[0])
-        record = trymysql(trymysql.text1.id == str(all[1])).select().first()
-        record.update_record(filename=path)
-    return dict(new=new, texts=texts, path=path)
-
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
     for x in range(10260,10275): # if text not yet in database (last:4811,7088, 10260)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
-        path = "/home/concordance/web2py/applications/test/uploads/sologub/"
-        filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str('.txt')
-        filename= str(path) + str(filename1)
+        filename = "/home/concordance/web2py/applications/test/corpus/" + str(text2.author.id) + str(text2.id) + '.txt'
         f = open(filename, 'w')
         f.write(text1.encode('utf-8'))
         f.close()

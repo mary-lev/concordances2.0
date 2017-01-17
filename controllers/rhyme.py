@@ -256,7 +256,7 @@ def find_s():
 def find_sonet():
     sonnet = ['|4|4|3|3|', '|4|4|4|2|', '|4|4|6|', '|4|4|2|2|2|', '|12|2|']
     texts = [t.title for t in trymysql(trymysql.stih.strofa.belongs(sonnet)).select()]
-    ttt = trymysql(trymysql.text1.id.belongs(texts)).select()
+    ttt = trymysql(trymysql.text1.id.belongs(texts)).select(orderby=trymysql.text1.author)
     return dict(ttt=ttt)
 
 def find_2():

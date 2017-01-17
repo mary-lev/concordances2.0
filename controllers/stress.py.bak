@@ -63,7 +63,7 @@ def stress():
             else:
                 words_new.append(all)
         line = ' '.join(words_new)
-        metr = re.sub(u'[.|,|—|?|«|»|;|-| ]', '', line, flags=re.U)
+        metr = re.sub(u'[.|,|—|?|«|»|;|:|-| ]', '', line, flags=re.U)
         metr = re.sub(u".'|ё", '— '.decode('utf-8'), metr, flags=re.U)
         #metr = re.sub(u'ё', '— '.decode('utf-8'), metr, flags=re.U)
         metr = re.sub(u'а|о|е|и|у|ю|я|ы|э', 'U ', metr, flags=re.U)
