@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон show/show_variants.html</h1>
+{{for all in s:}}
+<p>{{for l in all.children:}}
+    {{for w in l.chidren:}}
+        {{=w}}
+{{pass}}
+    {{pass}}
+{{pass}}

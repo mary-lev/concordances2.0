@@ -1,16 +1,19 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон control/show2.html</h1>
+<h1>Текст с вариантами</h1>
+<h2>{{=text.author.name}} {{=text.author.family}}. {{=text.title}}</h2>
 
 <form>
-<input type="button" onclick="fade('test',-0.2);" value="Первый вариант"/>
-<input type="button" onclick="fade('test',+0.2);" value="Второй вариант"/>
+<input type="button" onclick="fade('test',-0.2);fade('that',+0.2)" value={{=text.book}}/>
+<input type="button" onclick="fade('test',+0.2);fade('that',-0.2)" value={{=var[1].comment_book}}/>
 </form>
 
 {{for all in content:}}
-    {{=all}}
-{{if content.index(all) == int(line_number[0]):}}
-  <div id="test">{{=word[0]}}</div>
+{{if str(content.index(all)) in lines:}}
+  <div style="color:blue" id="test">{{=words[0]}}</div>
+<div style="color:blue" id = "that"> {{=all}}</div></font-color>
+{{else:}}
+{{=all}}<br>
 {{pass}}
     {{pass}}
 
-{{=word[0]}}
+{{=var}}

@@ -1,0 +1,796 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.NameError'> name 'biblio' is not defined"
+p3
+sS'layer'
+p4
+S'/home/concordance/web2py/applications/test/models/trymysql.py'
+p5
+sS'code'
+p6
+S'trymysql = DAL(\'mysql://concordance:sosnora@concordance.mysql.pythonanywhere-services.com/concordance$new\')\n\ntrymysql.define_table(\'author\',\n                  Field(\'name\', label="\xd0\x98\xd0\xbc\xd1\x8f"),\n                  Field(\'surname\', label="\xd0\x9e\xd1\x82\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe"),\n                  Field(\'family\', label="\xd0\xa4\xd0\xb0\xd0\xbc\xd0\xb8\xd0\xbb\xd0\xb8\xd1\x8f"),\n                  Field(\'real_name\', label="\xd0\x9d\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x8f\xd1\x89\xd0\xb5\xd0\xb5 \xd0\xb8\xd0\xbc\xd1\x8f"),\n                  Field(\'year_birth\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd1\x80\xd0\xbe\xd0\xb6\xd0\xb4\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'year_death\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd1\x81\xd0\xbc\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8"),\n                  Field(\'gender\', label="\xd0\x9f\xd0\xbe\xd0\xbb"),\n                  Field(\'birth_location\', label="\xd0\x9c\xd0\xb5\xd1\x81\xd1\x82\xd0\xbe \xd1\x80\xd0\xbe\xd0\xb6\xd0\xb4\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'death_location\', label="\xd0\x9c\xd0\xb5\xd1\x81\xd1\x82\xd0\xbe \xd1\x81\xd0\xbc\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'group_text\',\n                  Field(\'title\', label="\xd0\x9d\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5"),\n                  Field(\'author\', trymysql.author),\n                  Field(\'v\', label="\xd0\x9e\xd0\xb1\xd1\x8a\xd0\xb5\xd0\xbc \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0"),\n                  Field(\'genre\', label="\xd0\x96\xd0\xb0\xd0\xbd\xd1\x80"),\n                  Field(\'dedication\', label = \'\xd0\x9f\xd0\xbe\xd1\x81\xd0\xb2\xd1\x8f\xd1\x89\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb5\'),\n                  Field(\'epigraph\', label="\xd0\xad\xd0\xbf\xd0\xb8\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84"),\n                  Field(\'epigraph_text_name\', label="\xd0\x98\xd1\x81\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd0\xb8\xd0\xba \xd1\x8d\xd0\xbf\xd0\xb8\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84\xd0\xb0"),\n                  Field(\'year\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'superpgroup\', label="\xd0\x93\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb0 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xbe\xd0\xb2"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'text1\',\n                  Field(\'title\', label="\xd0\x9d\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5"),\n                  Field(\'first_string\', label="\xd0\x9f\xd0\xb5\xd1\x80\xd0\xb2\xd0\xb0\xd1\x8f \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb0"),\n                  Field(\'body\', \'text\', label="\xd0\xa2\xd0\xb5\xd0\xba\xd1\x81\xd1\x82"),\n                  Field(\'filename\', \'string\'),\n                  Field(\'year_writing\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'month_writing\', label="\xd0\x9c\xd0\xb5\xd1\x81\xd1\x8f\xd1\x86 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'day_writing\', label="\xd0\x94\xd0\xb5\xd0\xbd\xd1\x8c \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'dyear_writing\', label="\xd0\x9d\xd0\xb5\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xb3\xd0\xbe\xd0\xb4 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'dmonth_writing\', label="\xd0\x9d\xd0\xb5\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xb5\xd1\x81\xd1\x8f\xd1\x86 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'season_writing\', label="\xd0\xa1\xd0\xb5\xd0\xb7\xd0\xbe\xd0\xbd"),\n                  Field(\'dday_writing\', label="\xd0\x9d\xd0\xb5\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xb4\xd0\xb5\xd0\xbd\xd1\x8c \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'writing_location\', label="\xd0\x9c\xd0\xb5\xd1\x81\xd1\x82\xd0\xbe \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xb8\xd1\x81\xd0\xb0\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'year_publishing\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbf\xd0\xb5\xd1\x80\xd0\xb2\xd0\xbe\xd0\xb9 \xd0\xbf\xd1\x83\xd0\xb1\xd0\xbb\xd0\xb8\xd0\xba\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8"),\n                  Field(\'genre\', label="\xd0\x96\xd0\xb0\xd0\xbd\xd1\x80"),\n                  Field(\'under_title\', label="\xd0\x9f\xd0\xbe\xd0\xb4\xd0\xb7\xd0\xb0\xd0\xb3\xd0\xbe\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xbe\xd0\xba"),\n                  Field(\'dedication\', label="\xd0\x9f\xd0\xbe\xd1\x81\xd0\xb2\xd1\x8f\xd1\x89\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb5"),\n                  Field(\'epigraph\', \'text\', label="\xd0\xa2\xd0\xb5\xd0\xba\xd1\x81\xd1\x82 \xd1\x8d\xd0\xbf\xd0\xb8\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84\xd0\xb0"),\n                  Field(\'epigraph_author\', label="\xd0\x90\xd0\xb2\xd1\x82\xd0\xbe\xd1\x80 \xd1\x8d\xd0\xbf\xd0\xb8\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84\xd0\xb0"),\n                  Field(\'epigraph_text_name\', label="\xd0\x98\xd1\x81\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd0\xb8\xd0\xba \xd1\x8d\xd0\xbf\xd0\xb8\xd0\xb3\xd1\x80\xd0\xb0\xd1\x84\xd0\xb0"),\n                  Field(\'v\', label="\xd0\x9e\xd0\xb1\xd1\x8a\xd0\xb5\xd0\xbc \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0"),\n                  Field(\'book\', label="\xd0\x98\xd1\x81\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd0\xb8\xd0\xba \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0"),\n                  Field(\'group_text\', trymysql.group_text, label="\xd0\x9f\xd1\x80\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb4\xd0\xbb\xd0\xb5\xd0\xb6\xd0\xbd\xd0\xbe\xd1\x81\xd1\x82\xd1\x8c \xd0\xba \xd0\xb3\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb5 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xbe\xd0\xb2"),\n                  Field(\'n_in_group\', label="\xd0\x9f\xd0\xbe\xd1\x80\xd1\x8f\xd0\xb4\xd0\xba\xd0\xbe\xd0\xb2\xd1\x8b\xd0\xb9 \xd0\xbd\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xb2 \xd0\xb3\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb5 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xbe\xd0\xb2"),\n                  Field(\'author\', trymysql.author, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xb0\xd0\xb2\xd1\x82\xd0\xbe\xd1\x80\xd0\xb0"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'stih\',\n                      Field(\'title\', trymysql.text1, label="\xd0\xa2\xd0\xb5\xd0\xba\xd1\x81\xd1\x82"),\n                      Field(\'author\', trymysql.author, label="\xd0\x90\xd0\xb2\xd1\x82\xd0\xbe\xd1\x80"),\n                      Field(\'strofa\', label="\xd0\xa1\xd1\x82\xd1\x80\xd0\xbe\xd1\x84\xd0\xb0"),\n                      Field(\'kol_strok\', label = "\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd1\x84"),\n                      Field(\'type_s\', label = "\xd0\xa2\xd0\xb8\xd0\xbf \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd1\x84\xd1\x8b"),\n                      Field(\'rhymes\', \'text\', label = "\xd0\xa0\xd0\xb8\xd1\x84\xd0\xbc\xd1\x8b"),\n                      Field(\'trhymes\', \'text\', label="\xd0\xa2\xd0\xa0\xd0\xb8\xd1\x84\xd0\xbc\xd1\x8b"),\n                      Field(\'type_r\', label = "\xd0\xa1\xd1\x85\xd0\xb5\xd0\xbc\xd0\xb0 \xd1\x80\xd0\xb8\xd1\x84\xd0\xbc\xd0\xbe\xd0\xb2\xd0\xba\xd0\xb8"),\n                      migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'allword\',\n                  Field(\'word\', label="\xd0\xa1\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xbe"),\n                  Field(\'lemma\'),\n                  Field(\'title\', trymysql.text1, label="\xd0\xa2\xd0\xb5\xd0\xba\xd1\x81\xd1\x82"),\n                  Field(\'partos\', label="\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd1\x8c \xd1\x80\xd0\xb5\xd1\x87\xd0\xb8"),\n                  Field(\'anim\', label="\xd0\x9e\xd0\xb4\xd1\x83\xd1\x88\xd0\xb5\xd0\xb2\xd0\xbb\xd0\xb5\xd0\xbd\xd0\xbd\xd0\xbe\xd1\x81\xd1\x82\xd1\x8c"),\n                  Field(\'gendr\', label="\xd0\xa0\xd0\xbe\xd0\xb4"),\n                  Field(\'number\', label="\xd0\xa7\xd0\xb8\xd1\x81\xd0\xbb\xd0\xbe"),\n                  Field(\'cas\', label="\xd0\x9f\xd0\xb0\xd0\xb4\xd0\xb5\xd0\xb6"),\n                  Field(\'tense\', label="\xd0\x92\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f"),\n                  Field(\'aspect\', label="\xd0\x92\xd0\xb8\xd0\xb4"),\n                  Field(\'person\', label="\xd0\x9b\xd0\xb8\xd1\x86\xd0\xbe"),\n                  Field(\'transitivity\', label="\xd0\x9f\xd0\xb5\xd1\x80\xd0\xb5\xd1\x85\xd0\xbe\xd0\xb4\xd0\xbd\xd0\xbe\xd1\x81\xd1\x82\xd1\x8c"),\n                  Field(\'mood\', label="\xd0\x9d\xd0\xb0\xd0\xba\xd0\xbb\xd0\xbe\xd0\xbd\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb5"),\n                  Field(\'involvment\', label="\xd0\xa1\xd0\xbe\xd0\xb2\xd0\xbc\xd0\xb5\xd1\x81\xd1\x82\xd0\xbd\xd0\xbe\xd1\x81\xd1\x82\xd1\x8c"),\n                  Field(\'voice\', label="\xd0\x97\xd0\xb0\xd0\xbb\xd0\xbe\xd0\xb3"),\n                  Field(\'sobstv\', label="\xd0\x98\xd0\xbc\xd1\x8f \xd1\x81\xd0\xbe\xd0\xb1\xd1\x81\xd1\x82\xd0\xb2\xd0\xb5\xd0\xbd\xd0\xbd\xd0\xbe\xd0\xb5"),\n                  Field(\'style\', label="\xd0\xa1\xd1\x82\xd0\xb8\xd0\xbb\xd1\x8c"),\n                  Field(\'other\', label="\xd0\x94\xd1\x80\xd1\x83\xd0\xb3\xd0\xbe\xd0\xb5"),\n                  Field(\'text_location\', label="\xd0\x9c\xd0\xb5\xd1\x81\xd1\x82\xd0\xbe \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),\n                  Field(\'string_number\', label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8"),\n                  Field(\'lexical_group\', label="\xd0\x9b\xd0\xb5\xd0\xba\xd1\x81\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd0\xba\xd0\xb0\xd1\x8f \xd0\xb3\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb0"),\n                  Field(\'concordance_number\',  label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xb2 \xd0\xba\xd0\xbe\xd0\xbd\xd0\xba\xd0\xbe\xd1\x80\xd0\xb4\xd0\xb0\xd0\xbd\xd1\x81\xd0\xb5"),\n                  Field(\'warning\', label = "Warning"),\n                  Field(\'author\', label="\xd0\x90\xd0\xb2\xd1\x82\xd0\xbe\xd1\x80"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'concordances\',\n                  Field(\'word\', label="\xd0\xa1\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xbe"),\n                  Field(\'partos\', label="\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd1\x8c \xd1\x80\xd0\xb5\xd1\x87\xd0\xb8"),\n                  Field(\'lexical\', label="\xd0\x9b\xd0\xb5\xd0\xba\xd1\x81\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd0\xba\xd0\xb0\xd1\x8f \xd0\xb3\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb0"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'color\',\n                  Field(\'word\', label="\xd0\xa1\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xbe"),\n                  Field(\'partos\', label="\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd1\x8c \xd1\x80\xd0\xb5\xd1\x87\xd0\xb8"),\n                  Field(\'lexical\', label="\xd0\x9b\xd0\xb5\xd0\xba\xd1\x81\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd0\xba\xd0\xb0\xd1\x8f \xd0\xb3\xd1\x80\xd1\x83\xd0\xbf\xd0\xbf\xd0\xb0"),\n                  migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'comments\',\n                      Field(\'title\', trymysql.text1, label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0"),\n                      Field(\'stanza\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd1\x84\xd1\x8b \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),\n                      Field(\'line\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8 \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),\n                      Field(\'word_first\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xb5\xd1\x80\xd0\xb2\xd0\xbe\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                      Field(\'word_last\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xbe\xd1\x81\xd0\xbb\xd0\xb5\xd0\xb4\xd0\xbd\xd0\xb5\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                      Field(\'comment_text\', \'text\', label = "\xd0\x9a\xd0\xbe\xd0\xbc\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd0\xb0\xd1\x80\xd0\xb8\xd0\xb9"),\n                      Field(\'comment_book\', label = "\xd0\x98\xd1\x81\xd1\x82\xd0\xbe\xd1\x87\xd0\xbd\xd0\xb8\xd0\xba"),\n                      Field(\'comment_year\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbf\xd1\x83\xd0\xb1\xd0\xbb\xd0\xb8\xd0\xba\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8 \xd0\xba\xd0\xbe\xd0\xbc\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd0\xb0\xd1\x80\xd0\xb8\xd1\x8f"),\n                      migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'variants\',\n                      Field(\'title\', trymysql.text1, label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0"),\n                      Field(\'stanza\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd1\x84\xd1\x8b \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),\n                      Field(\'line\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8 \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),\n                      Field(\'word_first\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xb5\xd1\x80\xd0\xb2\xd0\xbe\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                      Field(\'word_last\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xbe\xd1\x81\xd0\xbb\xd0\xb5\xd0\xb4\xd0\xbd\xd0\xb5\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                      Field(\'comment_text\', \'text\', label = "\xd0\x92\xd0\xb0\xd1\x80\xd0\xb8\xd0\xb0\xd0\xbd\xd1\x82"),\n                      Field(\'comment_book\', biblio.short, label = "\xd0\x98\xd0\xb7\xd0\xb4\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5"),\n                      Field(\'comment_year\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbf\xd1\x83\xd0\xb1\xd0\xbb\xd0\xb8\xd0\xba\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8 \xd0\xba\xd0\xbe\xd0\xbc\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd0\xb0\xd1\x80\xd0\xb8\xd1\x8f"),\n                      migrate=False,fake_migrate=True)\n\ntrymysql.define_table(\'data\',\n                  Field(\'author\', trymysql.author),\n                  Field(\'book\', trymysql.group_text),\n                  Field(\'year\', label="\xd0\x93\xd0\xbe\xd0\xb4"),\n                  Field(\'alltexts\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xbe\xd0\xb2"),\n                  Field(\'allwords\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2"),\n                  Field(\'all_nouns\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x81\xd1\x83\xd1\x89\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xb8\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd0\xbd\xd1\x8b\xd1\x85"),\n                  Field(\'all_verbs\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb3\xd0\xbb\xd0\xb0\xd0\xb3\xd0\xbe\xd0\xbb\xd0\xbe\xd0\xb2"),\n                  Field(\'all_infn\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb8\xd0\xbd\xd1\x84\xd0\xb8\xd0\xbd\xd0\xb8\xd1\x82\xd0\xb8\xd0\xb2\xd0\xbe\xd0\xb2"),\n                  Field(\'all_adjf\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xbf\xd0\xbe\xd0\xbb\xd0\xbd\xd1\x8b\xd1\x85 \xd0\xbf\xd1\x80\xd0\xb8\xd0\xbb\xd0\xb0\xd0\xb3\xd0\xb0\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd0\xbd\xd1\x8b\xd1\x85"),\n                  Field(\'all_adjs\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xba\xd1\x80\xd0\xb0\xd1\x82\xd0\xba\xd0\xb8\xd1\x85 \xd0\xbf\xd1\x80\xd0\xb8\xd0\xbb\xd0\xb0\xd0\xb3\xd0\xb0\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd0\xbd\xd1\x8b\xd1\x85"),\n                  Field(\'all_grnd\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb4\xd0\xb5\xd0\xb5\xd0\xbf\xd1\x80\xd0\xb8\xd1\x87\xd0\xb0\xd1\x81\xd1\x82\xd0\xb8\xd0\xb9"),\n                  Field(\'all_prtf\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xbf\xd0\xbe\xd0\xbb\xd0\xbd\xd1\x8b\xd1\x85 \xd0\xbf\xd1\x80\xd0\xb8\xd1\x87\xd0\xb0\xd1\x81\xd1\x82\xd0\xb8\xd0\xb9"),\n                  Field(\'all_prts\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xba\xd1\x80\xd0\xb0\xd1\x82\xd0\xba\xd0\xb8\xd1\x85 \xd0\xbf\xd1\x80\xd0\xb8\xd1\x87\xd0\xb0\xd1\x81\xd1\x82\xd0\xb8\xd0\xb9"),\n                  Field(\'all_advb\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xbd\xd0\xb0\xd1\x80\xd0\xb5\xd1\x87\xd0\xb8\xd0\xb9"),\n                  Field(\'all_prep\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xbf\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbb\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb2"),\n                  Field(\'all_conj\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x81\xd0\xbe\xd1\x8e\xd0\xb7\xd0\xbe\xd0\xb2"),\n                  Field(\'all_prcl\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x87\xd0\xb0\xd1\x81\xd1\x82\xd0\xb8\xd1\x86"),\n                  Field(\'all_npro\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xbc\xd0\xb5\xd1\x81\xd1\x82\xd0\xbe\xd0\xb8\xd0\xbc\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb9"),\n                  Field(\'all_point\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd1\x82\xd0\xbe\xd1\x87\xd0\xb5\xd0\xba"),\n                  Field(\'all_exclam\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb2\xd0\xbe\xd1\x81\xd0\xba\xd0\xbb\xd0\xb8\xd1\x86\xd0\xb0\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd0\xbd\xd1\x8b\xd1\x85 \xd0\xb7\xd0\xbd\xd0\xb0\xd0\xba\xd0\xbe\xd0\xb2"),\n                  Field(\'all_comma\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb7\xd0\xb0\xd0\xbf\xd1\x8f\xd1\x82\xd1\x8b\xd1\x85"),\n                  Field(\'all_question\', label="\xd0\x9a\xd0\xbe\xd0\xbb\xd0\xb8\xd1\x87\xd0\xb5\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe \xd0\xb2\xd0\xbe\xd0\xbf\xd1\x80\xd0\xbe\xd1\x81\xd0\xb8\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd0\xbd\xd1\x8b\xd1\x85 \xd0\xb7\xd0\xbd\xd0\xb0\xd0\xba\xd0\xbe\xd0\xb2"),\n                  Field(\'length_sentence\', label="\xd0\xa1\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbd\xd1\x8f\xd1\x8f \xd0\xb4\xd0\xbb\xd0\xb8\xd0\xbd\xd0\xb0 \xd0\xbf\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbb\xd0\xbe\xd0\xb6\xd0\xb5\xd0\xbd\xd0\xb8\xd1\x8f"),\n                  Field(\'length_words\', label="\xd0\xa1\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbd\xd1\x8f\xd1\x8f \xd0\xb4\xd0\xbb\xd0\xb8\xd0\xbd\xd0\xb0 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                  Field(\'words_range\', label="\xd0\x9d\xd0\xb0\xd1\x81\xd1\x8b\xd1\x89\xd0\xb5\xd0\xbd\xd0\xbd\xd0\xbe\xd1\x81\xd1\x82\xd1\x8c \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8f"),\n                  migrate = False, fake_migrate=True)\n\ntrymysql.define_table(\'grammar\',\n                  Field(\'author\', trymysql.author),\n                  Field(\'book\', trymysql.group_text),\n                  Field(\'year\', label="\xd0\x93\xd0\xbe\xd0\xb4"),\n                  Field(\'masc\', label="\xd0\x9c\xd1\x83\xd0\xb6\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd1\x80\xd0\xbe\xd0\xb4"),\n                  Field(\'femn\', label="\xd0\x96\xd0\xb5\xd0\xbd\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd1\x80\xd0\xbe\xd0\xb4"),\n                  Field(\'inan\', label="\xd0\x9d\xd0\xb5\xd0\xbe\xd0\xb4\xd1\x83\xd1\x88\xd0\xb5\xd0\xb2\xd0\xbb\xd0\xb5\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb5"),\n                  Field(\'anim\', label="\xd0\x9e\xd0\xb4\xd1\x83\xd1\x88\xd0\xb5\xd0\xb2\xd0\xbb\xd0\xb5\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb5"),\n                  Field(\'past\', label="\xd0\x9f\xd1\x80\xd0\xbe\xd1\x88\xd0\xb5\xd0\xb4\xd1\x88\xd0\xb5\xd0\xb5 \xd0\xb2\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f"),\n                  Field(\'pres\', label="\xd0\x9d\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x8f\xd1\x89\xd0\xb5\xd0\xb5 \xd0\xb2\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f"),\n                  Field(\'futr\', label="\xd0\x91\xd1\x83\xd0\xb4\xd1\x83\xd1\x89\xd0\xb5\xd0\xb5 \xd0\xb2\xd1\x80\xd0\xb5\xd0\xbc\xd1\x8f"),\n                  Field(\'name\', label="\xd0\x98\xd0\xbc\xd0\xb5\xd0\xbd \xd1\x81\xd0\xbe\xd0\xb1\xd1\x81\xd1\x82\xd0\xb2\xd0\xb5\xd0\xbd\xd0\xbd\xd1\x8b\xd1\x85"),\n                  Field(\'len_text\', label="\xd0\xa1\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbd\xd1\x8f\xd1\x8f \xd0\xb4\xd0\xbb\xd0\xb8\xd0\xbd\xd0\xb0 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0, \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba"),\n                  Field(\'len_line\', label="\xd0\xa1\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbd\xd1\x8f\xd1\x8f \xd0\xb4\xd0\xbb\xd0\xb8\xd0\xbd\xd0\xb0 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8, \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),\n                  Field(\'len_line_w\', label="\xd0\xa1\xd1\x80\xd0\xb5\xd0\xb4\xd0\xbd\xd1\x8f\xd1\x8f \xd0\xb4\xd0\xbb\xd0\xb8\xd0\xbd\xd0\xb0 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8, \xd0\xb1\xd1\x83\xd0\xba\xd0\xb2\xd1\x8b"),\n                  migrate=False, fake_migrate=False)\n\ntrymysql.define_table(\'biblio\',\n                      Field(\'title\', label=\'\xd0\x9d\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5\'),\n                      Field(\'author\', label=\'\xd0\x90\xd0\xb2\xd1\x82\xd0\xbe\xd1\x80\'),\n                      Field(\'city\', label=\'\xd0\x93\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb4\'),\n                      Field(\'editor\', label=\'\xd0\x98\xd0\xb7\xd0\xb4\xd0\xb0\xd1\x82\xd0\xb5\xd0\xbb\xd1\x8c\xd1\x81\xd1\x82\xd0\xb2\xd0\xbe\'),\n                      Field(\'year\', label=\'\xd0\x93\xd0\xbe\xd0\xb4\'),\n                      Field(\'part\', label=\'\xd0\xa2\xd0\xbe\xd0\xbc\'),\n                      Field(\'short\', label = \'\xd0\xa1\xd0\x9e\xd0\xba\xd1\x80\xd0\xb0\xd1\x89\xd0\xb5\xd0\xbd\xd0\xbd\xd0\xbe\'))\n\n#purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)\n#n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.NameError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.NameError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.NameError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.NameError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.NameError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.NameError object>'
+p23
+sS'args'
+p24
+S'("name \'biblio\' is not defined",)'
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.NameError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.NameError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.NameError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.NameError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.NameError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.NameError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.NameError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.NameError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.NameError object>'
+p47
+sS'__doc__'
+p48
+S"'Name not found globally.'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.NameError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S"name 'biblio' is not defined"
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's\'U\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>46.101.16.229-66ba3a19-410e-462f-b6b9-57f04f1b0572<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>_ga=GA1.2.2009921225.1482865438; __utmt=1; session_id_test=217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678; __utma=134993891.2009921225.1482865438.1484731433.1484748884.30; __utmb=134993891.7.10.1484748884; __utmc=134993891; __utmz=134993891.1484355529.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=46.101.16.229-66ba3a19-410e-462f-b6b9-57f04f1b0572</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/select/trymysql?query=trymysql.biblio.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.0.0.236</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>49219</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>ru,en;q=0.8,en-US;q=0.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>_ga=GA1.2.2009921225.1482865438; __utmt=1; session_id_test=217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678; __utma=134993891.2009921225.1482865438.1484731433.1484748884.30; __utmb=134993891.7.10.1484748884; __utmc=134993891; __utmz=134993891.1484355529.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_admin=46.101.16.229-66ba3a19-410e-462f-b6b9-57f04f1b0572</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://concordance.pythonanywhere.com/test/appadmin/select/trymysql?query=trymysql.biblio.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>giles-liveweb6</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>localhost</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.0.0.236</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>49219</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f2718531150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f26f8a445a0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f2718531150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f26f8a445a0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/concordance/web2py/applications/admin/&#x27;, &#x27;/home/concordance/web2py/applications/test/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>giles-liveweb6</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>concordance.pythonanywhere.com</div></td></tr><tr><td><div>localhost</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 1, 18, 14, 38, 49, 80296)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2017, 1, 18, 14, 38, 49, 80313)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>test/217.118.78.84.2017-01-18.14-38-49.7f273b33-b0c8-4755-a60e-5e394c6a796f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f26f9cb20d0&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/concordance/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7f26f8948ab0, file "/...py/applications/test/models/trymysql.py", line 1>'
+p69
+ssS'lnum'
+p70
+I220
+sS'lines'
+p71
+(dp72
+I224
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p73
+sI215
+S'    try:'
+p74
+sI216
+S'        if isinstance(code, types.CodeType):'
+p75
+sI217
+S'            ccode = code'
+p76
+sI218
+S'        else:'
+p77
+sI219
+S'            ccode = compile2(code, layer)'
+p78
+sI220
+S'        exec ccode in environment'
+p79
+sI221
+S'    except HTTP:'
+p80
+sI222
+S'        raise'
+p81
+sI223
+S'    except RestrictedError:'
+p82
+ssS'call'
+p83
+S'(code="trymysql = DAL(\'mysql://concordance:sosnora@conc...title)&(trymysql.text1.id==trymysql.words.title)\\n", environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, \'CENTER\': <class \'gluon.html.CENTER\'>, ...}, layer=\'/home/concordance/web2py/applications/test/models/trymysql.py\')'
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/home/concordance/web2py/applications/test/models/trymysql.py'
+p88
+sg64
+(dp89
+S'Field'
+p90
+S"<class 'gluon.dal.Field'>"
+p91
+sS'label'
+p92
+S'undefined'
+p93
+sS'biblio'
+p94
+g93
+ssg70
+I122
+sg71
+(dp95
+I117
+S'                      Field(\'stanza\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd1\x84\xd1\x8b \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),'
+p96
+sI118
+S'                      Field(\'line\', label = "\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd1\x81\xd1\x82\xd1\x80\xd0\xbe\xd0\xba\xd0\xb8 \xd0\xb2 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb5"),'
+p97
+sI119
+S'                      Field(\'word_first\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xb5\xd1\x80\xd0\xb2\xd0\xbe\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),'
+p98
+sI120
+S'                      Field(\'word_last\', trymysql.allword, label="\xd0\x9d\xd0\xbe\xd0\xbc\xd0\xb5\xd1\x80 \xd0\xbf\xd0\xbe\xd1\x81\xd0\xbb\xd0\xb5\xd0\xb4\xd0\xbd\xd0\xb5\xd0\xb3\xd0\xbe \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0"),'
+p99
+sI121
+S'                      Field(\'comment_text\', \'text\', label = "\xd0\x92\xd0\xb0\xd1\x80\xd0\xb8\xd0\xb0\xd0\xbd\xd1\x82"),'
+p100
+sI122
+S'                      Field(\'comment_book\', biblio.short, label = "\xd0\x98\xd0\xb7\xd0\xb4\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5"),'
+p101
+sI123
+S'                      Field(\'comment_year\', label="\xd0\x93\xd0\xbe\xd0\xb4 \xd0\xbf\xd1\x83\xd0\xb1\xd0\xbb\xd0\xb8\xd0\xba\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8 \xd0\xba\xd0\xbe\xd0\xbc\xd0\xbc\xd0\xb5\xd0\xbd\xd1\x82\xd0\xb0\xd1\x80\xd0\xb8\xd1\x8f"),'
+p102
+sI124
+S'                      migrate=False,fake_migrate=True)'
+p103
+sI125
+S''
+sI126
+S"trymysql.define_table('data',"
+p104
+ssg83
+S'()'
+p105
+sg85
+S'<module>'
+p106
+sasS'pyver'
+p107
+S'Python 2.7.6: /usr/local/bin/uwsgi (prefix: /usr)'
+p108
+sS'session'
+p109
+g57
+(S's\xbf\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>trymysql.biblio.id&gt;0</div></td></tr></table></div>'
+tRp110
+sS'etype'
+p111
+S"<type 'exceptions.NameError'>"
+p112
+sS'date'
+p113
+S'Wed Jan 18 14:38:49 2017'
+p114
+sS'response'
+p115
+g57
+(S's\x86\x1e\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f26f9e4ec70&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>UA-52567545-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="http://concordances.ru"><b>concor<span>dances</span></b>.ru</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/test/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div><span class="highlighted">web2py</span></div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://concordances.ru</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xd0\x9e \xd0\xbf\xd1\x80\xd0\xbe\xd0\xb5\xd0\xba\xd1\x82\xd0\xb5</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/test</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xd0\x90\xd0\xb4\xd0\xbc\xd0\xb8\xd0\xbd\xd0\xba\xd0\xb0</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/test/controllers/appadmin.py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Maria Levchenko &lt;marylevchenko@gmail.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>\xd0\xa7\xd0\xb0\xd1\x81\xd1\x82\xd0\xbe\xd1\x82\xd0\xbd\xd1\x8b\xd0\xb9 \xd1\x81\xd0\xbb\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd1\x8c \xd1\x80\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xbe\xd0\xb9 \xd0\xbb\xd0\xb8\xd1\x82\xd0\xb5\xd1\x80\xd0\xb0\xd1\x82\xd1\x83\xd1\x80\xd1\x8b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>concordance, natural language processing, critics</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/home/concordance/web2py/applications/test/sessions/217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678&#x27;, mode &#x27;rb+&#x27; at 0x7f26fa7c7b70&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/concordance/web2py/applications/test/sessions/217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>0e36c3f7f67e8b5cb5cd0206539f6bbb</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>217.118.78.84-af7ac002-84a3-4ec7-b952-0cf6d8838678</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>appadmin/index.html</div></td></tr></table></div>'
+tRp116
+sS'locals'
+p117
+(dp118
+S'Service'
+p119
+S"<class 'gluon.tools.Service'>"
+p120
+sS'OBJECT'
+p121
+S"<class 'gluon.html.OBJECT'>"
+p122
+sS'SQLDB'
+p123
+S"<class 'gluon.dal.DAL'>"
+p124
+sg109
+S"<Storage {'last_query': 'trymysql.biblio.id>0', ...9286d', '3397996f-87c0-4c92-a136-291252cafb3b']}>"
+p125
+sS'LINK'
+p126
+S"<class 'gluon.html.LINK'>"
+p127
+sS'BR'
+p128
+S"<class 'gluon.html.BR'>"
+p129
+sS'local_import'
+p130
+S'<function <lambda>>'
+p131
+sS'OPTGROUP'
+p132
+S"<class 'gluon.html.OPTGROUP'>"
+p133
+sS'LI'
+p134
+S"<class 'gluon.html.LI'>"
+p135
+sS'PRE'
+p136
+S"<class 'gluon.html.PRE'>"
+p137
+sS'IS_INT_IN_RANGE'
+p138
+S"<class 'gluon.validators.IS_INT_IN_RANGE'>"
+p139
+sS'IS_LOWER'
+p140
+S"<class 'gluon.validators.IS_LOWER'>"
+p141
+sS'IS_STRONG'
+p142
+S"<class 'gluon.validators.IS_STRONG'>"
+p143
+sS'cache'
+p144
+S'<gluon.cache.Cache object>'
+p145
+sS'IS_IN_DB'
+p146
+S"<class 'gluon.validators.IS_IN_DB'>"
+p147
+sS'TAG'
+p148
+S'<gluon.html.__TAG__ object>'
+p149
+sS'SQLField'
+p150
+S"<class 'gluon.dal.Field'>"
+p151
+sS'mail'
+p152
+S'<gluon.tools.Mail object>'
+p153
+sS'BODY'
+p154
+S"<class 'gluon.html.BODY'>"
+p155
+sS'IS_DATE_IN_RANGE'
+p156
+S"<class 'gluon.validators.IS_DATE_IN_RANGE'>"
+p157
+sS'TH'
+p158
+S"<class 'gluon.html.TH'>"
+p159
+sS'URL'
+p160
+S'<function URL>'
+p161
+sS'__file__'
+p162
+S"'/home/concordance/web2py/applications/test/models/trymysql.py'"
+p163
+sS'db'
+p164
+S'<DAL uri="sqlite://storage.sqlite">'
+p165
+sS'auth'
+p166
+S'<gluon.tools.Auth object>'
+p167
+sS'P'
+S"<class 'gluon.html.P'>"
+p168
+sS'TFOOT'
+p169
+S"<class 'gluon.html.TFOOT'>"
+p170
+sS'XHTML'
+p171
+S"<class 'gluon.html.XHTML'>"
+p172
+sS'ON'
+p173
+S'True'
+p174
+sS'OL'
+p175
+S"<class 'gluon.html.OL'>"
+p176
+sS'd'
+S'<DAL uri="mysql:******@concordance.mysql.pythonanywhere-services.com/concordance$try">'
+p177
+sS'TEXTAREA'
+p178
+S"<class 'gluon.html.TEXTAREA'>"
+p179
+sS'MENU'
+p180
+S"<class 'gluon.html.MENU'>"
+p181
+sS'LOAD'
+p182
+S'<function LOAD>'
+p183
+sS'CODE'
+p184
+S"<class 'gluon.html.CODE'>"
+p185
+sS'HTTP'
+p186
+S"<class 'gluon.http.HTTP'>"
+p187
+sS'HR'
+p188
+S"<class 'gluon.html.HR'>"
+p189
+sS'IS_DATETIME'
+p190
+S"<class 'gluon.validators.IS_DATETIME'>"
+p191
+sS'HEAD'
+p192
+S"<class 'gluon.html.HEAD'>"
+p193
+sS'LABEL'
+p194
+S"<class 'gluon.html.LABEL'>"
+p195
+sS'CLEANUP'
+p196
+S"<class 'gluon.validators.CLEANUP'>"
+p197
+sS'plugins'
+p198
+S'<gluon.tools.PluginManager object>'
+p199
+sS'SELECT'
+p200
+S"<class 'gluon.html.SELECT'>"
+p201
+sS'use_janrain'
+p202
+S'<function use_janrain>'
+p203
+sS'CENTER'
+p204
+S"<class 'gluon.html.CENTER'>"
+p205
+sS'prettydate'
+p206
+S'<function prettydate>'
+p207
+sS'Crud'
+p208
+S"<class 'gluon.tools.Crud'>"
+p209
+sS'Auth'
+p210
+S"<class 'gluon.tools.Auth'>"
+p211
+sS'DEVELOPMENT_MENU'
+p212
+g174
+sS'__builtins__'
+p213
+S"{'ArithmeticError': <type 'exceptions.ArithmeticError'>, 'AssertionError': <type 'exceptions.AssertionError'>, 'AttributeError': <type 'exceptions.AttributeError'>, 'BaseException': <type 'exceptions.BaseException'>, 'BufferError': <type 'exceptions.BufferError'>, 'BytesWarning': <type 'exceptions.BytesWarning'>, 'DeprecationWarning': <type 'exceptions.DeprecationWarning'>, 'EOFError': <type 'exceptions.EOFError'>, 'Ellipsis': Ellipsis, 'EnvironmentError': <type 'exceptions.EnvironmentError'>, ...}"
+p214
+sS'HTML'
+p215
+S"<class 'gluon.html.HTML'>"
+p216
+sS'SQLFORM'
+p217
+S"<class 'gluon.sqlhtml.SQLFORM'>"
+p218
+sS'EM'
+p219
+S"<class 'gluon.html.EM'>"
+p220
+sS'redirect'
+p221
+S'<function redirect>'
+p222
+sS'FIELDSET'
+p223
+S"<class 'gluon.html.FIELDSET'>"
+p224
+sS'IS_EQUAL_TO'
+p225
+S"<class 'gluon.validators.IS_EQUAL_TO'>"
+p226
+sS'embed64'
+p227
+S'<function embed64>'
+p228
+sS'IS_LIST_OF'
+p229
+S"<class 'gluon.validators.IS_LIST_OF'>"
+p230
+sS'__name__'
+p231
+S"'__restricted__'"
+p232
+sS'EMBED'
+p233
+S"<class 'gluon.html.EMBED'>"
+p234
+sS'_'
+S'<function _>'
+p235
+sS'FORM'
+p236
+S"<class 'gluon.html.FORM'>"
+p237
+sS'H2'
+p238
+S"<class 'gluon.html.H2'>"
+p239
+sS'H3'
+p240
+S"<class 'gluon.html.H3'>"
+p241
+sS'BUTTON'
+p242
+S"<class 'gluon.html.BUTTON'>"
+p243
+sS'H1'
+p244
+S"<class 'gluon.html.H1'>"
+p245
+sS'H6'
+p246
+S"<class 'gluon.html.H6'>"
+p247
+sS'H4'
+p248
+S"<class 'gluon.html.H4'>"
+p249
+sS'H5'
+p250
+S"<class 'gluon.html.H5'>"
+p251
+sS'UL'
+p252
+S"<class 'gluon.html.UL'>"
+p253
+sS'IS_UPPER'
+p254
+S"<class 'gluon.validators.IS_UPPER'>"
+p255
+sS'xmlescape'
+p256
+S'<function xmlescape>'
+p257
+sS'IS_TIME'
+p258
+S"<class 'gluon.validators.IS_TIME'>"
+p259
+sS'OPTION'
+p260
+S"<class 'gluon.html.OPTION'>"
+p261
+sS'TITLE'
+p262
+S"<class 'gluon.html.TITLE'>"
+p263
+sS'CRYPT'
+p264
+S"<class 'gluon.validators.CRYPT'>"
+p265
+sS'IS_EMPTY_OR'
+p266
+S"<class 'gluon.validators.IS_EMPTY_OR'>"
+p267
+sS'MARKMIN'
+p268
+S"<class 'gluon.html.MARKMIN'>"
+p269
+sS'INPUT'
+p270
+S"<class 'gluon.html.INPUT'>"
+p271
+sS'STRONG'
+p272
+S"<class 'gluon.html.STRONG'>"
+p273
+sS'COL'
+p274
+S"<class 'gluon.html.COL'>"
+p275
+sS'service'
+p276
+S'<gluon.tools.Service object>'
+p277
+sS'SCRIPT'
+p278
+S"<class 'gluon.html.SCRIPT'>"
+p279
+sS'TABLE'
+p280
+S"<class 'gluon.html.TABLE'>"
+p281
+sS'IS_IPV4'
+p282
+S"<class 'gluon.validators.IS_IPV4'>"
+p283
+sS'IS_LENGTH'
+p284
+S"<class 'gluon.validators.IS_LENGTH'>"
+p285
+sS'IS_IPV6'
+p286
+S"<class 'gluon.validators.IS_IPV6'>"
+p287
+sS'XML'
+p288
+S"<class 'gluon.html.XML'>"
+p289
+sS'B'
+S"<class 'gluon.html.B'>"
+p290
+sS'IMG'
+p291
+S"<class 'gluon.html.IMG'>"
+p292
+sS'SQLTABLE'
+p293
+S"<class 'gluon.sqlhtml.SQLTABLE'>"
+p294
+sS'IS_MATCH'
+p295
+S"<class 'gluon.validators.IS_MATCH'>"
+p296
+sS'IS_ALPHANUMERIC'
+p297
+S"<class 'gluon.validators.IS_ALPHANUMERIC'>"
+p298
+sS'SPAN'
+p299
+S"<class 'gluon.html.SPAN'>"
+p300
+sS'IS_JSON'
+p301
+S"<class 'gluon.validators.IS_JSON'>"
+p302
+sS'IS_IPADDRESS'
+p303
+S"<class 'gluon.validators.IS_IPADDRESS'>"
+p304
+sS'IS_SLUG'
+p305
+S"<class 'gluon.validators.IS_SLUG'>"
+p306
+sS'BEAUTIFY'
+p307
+S"<class 'gluon.html.BEAUTIFY'>"
+p308
+sS'META'
+p309
+S"<class 'gluon.html.META'>"
+p310
+sS'IS_DATE'
+p311
+S"<class 'gluon.validators.IS_DATE'>"
+p312
+sS'IS_EMAIL'
+p313
+S"<class 'gluon.validators.IS_EMAIL'>"
+p314
+sS'IS_NOT_EMPTY'
+p315
+S"<class 'gluon.validators.IS_NOT_EMPTY'>"
+p316
+sS'IS_FLOAT_IN_RANGE'
+p317
+S"<class 'gluon.validators.IS_FLOAT_IN_RANGE'>"
+p318
+sS'trymysql'
+p319
+S'<DAL uri="mysql:******@concordance.mysql.pythonanywhere-services.com/concordance$new">'
+p320
+sS'TBODY'
+p321
+S"<class 'gluon.html.TBODY'>"
+p322
+sS'CAT'
+p323
+S"<class 'gluon.html.CAT'>"
+p324
+sS'Field'
+p325
+S"<class 'gluon.dal.Field'>"
+p326
+sS'IS_LIST_OF_EMAILS'
+p327
+S"<class 'gluon.validators.IS_LIST_OF_EMAILS'>"
+p328
+sS'DIV'
+p329
+S"<class 'gluon.html.DIV'>"
+p330
+sS'LEGEND'
+p331
+S"<class 'gluon.html.LEGEND'>"
+p332
+sS'COLGROUP'
+p333
+S"<class 'gluon.html.COLGROUP'>"
+p334
+sS'DAL'
+p335
+S"<class 'gluon.dal.DAL'>"
+p336
+sS'TT'
+p337
+S"<class 'gluon.html.TT'>"
+p338
+sS'TR'
+p339
+S"<class 'gluon.html.TR'>"
+p340
+sS'__package__'
+p341
+S'None'
+p342
+sS'IFRAME'
+p343
+S"<class 'gluon.html.IFRAME'>"
+p344
+sS'TD'
+p345
+S"<class 'gluon.html.TD'>"
+p346
+sS'PluginManager'
+p347
+S"<class 'gluon.tools.PluginManager'>"
+p348
+sS'IS_URL'
+p349
+S"<class 'gluon.validators.IS_URL'>"
+p350
+sS'A'
+S"<class 'gluon.html.A'>"
+p351
+sS'STYLE'
+p352
+S"<class 'gluon.html.STYLE'>"
+p353
+sS'IS_DATETIME_IN_RANGE'
+p354
+S"<class 'gluon.validators.IS_DATETIME_IN_RANGE'>"
+p355
+sS'IS_IMAGE'
+p356
+S"<class 'gluon.validators.IS_IMAGE'>"
+p357
+sS'I'
+S"<class 'gluon.html.I'>"
+p358
+sS'crud'
+p359
+S'<gluon.tools.Crud object>'
+p360
+sS'IS_NOT_IN_DB'
+p361
+S"<class 'gluon.validators.IS_NOT_IN_DB'>"
+p362
+sg115
+S"<Storage {'body': <cStringIO.StringO object at 0... 0x7f26f8b3ad70>, 'view': 'appadmin/index.html'}>"
+p363
+sS'THEAD'
+p364
+S"<class 'gluon.html.THEAD'>"
+p365
+sS'ANY_OF'
+p366
+S"<class 'gluon.validators.ANY_OF'>"
+p367
+sS'IS_NULL_OR'
+p368
+S"<class 'gluon.validators.IS_EMPTY_OR'>"
+p369
+sg56
+S"<Storage {'_vars': None, 'function': 'index', 'c...: '/home/concordance/web2py/applications/test/'}>"
+p370
+sS'IS_EXPR'
+p371
+S"<class 'gluon.validators.IS_EXPR'>"
+p372
+sS'IS_IN_SET'
+p373
+S"<class 'gluon.validators.IS_IN_SET'>"
+p374
+sS'IS_UPLOAD_FILENAME'
+p375
+S"<class 'gluon.validators.IS_UPLOAD_FILENAME'>"
+p376
+sS'IS_DECIMAL_IN_RANGE'
+p377
+S"<class 'gluon.validators.IS_DECIMAL_IN_RANGE'>"
+p378
+sS'T'
+S'<gluon.languages.translator object>'
+p379
+sssS'traceback'
+p380
+S'Traceback (most recent call last):\n  File "/home/concordance/web2py/gluon/restricted.py", line 220, in restricted\n    exec ccode in environment\n  File "/home/concordance/web2py/applications/test/models/trymysql.py", line 122, in <module>\n    Field(\'comment_book\', biblio.short, label = "\xd0\x98\xd0\xb7\xd0\xb4\xd0\xb0\xd0\xbd\xd0\xb8\xd0\xb5"),\nNameError: name \'biblio\' is not defined\n'
+p381
+s.

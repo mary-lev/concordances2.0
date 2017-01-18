@@ -134045,3 +134045,19 @@ CREATE TABLE pages(
     PRIMARY KEY (id)
 ) ENGINE=InnoDB CHARACTER SET utf8;
 success!
+timestamp: 2017-01-18T14:32:23.702640
+CREATE TABLE biblio(
+    id INT AUTO_INCREMENT NOT NULL,
+    title VARCHAR(512),
+    author VARCHAR(512),
+    city VARCHAR(512),
+    editor VARCHAR(512),
+    year VARCHAR(512),
+    part VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-01-18T14:40:28.972568
+ALTER TABLE biblio ADD short VARCHAR(512);
+success!
+success!

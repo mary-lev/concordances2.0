@@ -1,3 +1,27 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон show/show_variants.html</h1>
-{{=XML(content)}}
+<h1>Текст с вариантами</h1>
+<script>
+function fade(div_id1, div_id2, button) {
+
+        $('.'+div_id1).fadeOut('slow');
+        $('.'+div_id2).fadeIn('slow');
+
+}
+</script>
+
+<input type="button" onclick="fade('test', 'that', this)" value="{{=books[1]}}" class="content-button">
+<input type="button" onclick="fade('that', 'test', this)" value="{{=books[0]}}" class="content-button">
+<p>
+{{for all in s:}}
+    {{for line in all:}}
+        {{if line[1] not in var_numbers:}}
+           <div> {{=line[0]}}</div>
+        {{else:}}
+                {{if line[0].startswith('&'):}}
+                <div style="color:blue" class="test">{{=line[0][1:]}}</div>
+                  {{else:}}
+                <div style="color:red" class="that">{{=line[0]}}</div>
+                {{pass}}
+        {{pass}}
+    {{pass}}<br>
+{{pass}}

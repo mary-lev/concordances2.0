@@ -4,14 +4,22 @@
 
 <form>
 <input type="button" onclick="fade('test',-0.2);fade('that',+0.2)" value={{=text.book}}/>
-<input type="button" onclick="fade('test',+0.2);fade('that',-0.2)" value={{=varbook[0]}}/>
+<input type="button" onclick="fade('test',+0.2);fade('that',-0.2)" value={{=var[0].comment_book}}/>
 </form>
 
 {{for all in content:}}
-{{if content.index(all) == int(line_number[0]):}}
-  <div id="test">{{=word[0]}}</div>
-<div id =that> {{=all}}</div>
+{{if str(content.index(all)) in lines:}}
+    <div style="color:blue" id="test">{{=words[lines.index(str(content.index(all)))]}}</div>
+    <div style="color:blue" id="that"> {{=all}} {{=content.index(all)}}</div></font-color>
 {{else:}}
-{{=all}}<br>
+    {{=all}}, {{=content.index(all)}}<br>
 {{pass}}
-    {{pass}}
+{{pass}}
+
+{{=var}}
+
+lines
+{{=lines}}
+
+words
+{{=words}}

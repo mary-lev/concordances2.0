@@ -29,7 +29,7 @@ def index():
         month = '0' + str(today.month)
     else:
         month = str(today.month)
-    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select()
+    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select(orderby=trymysql.text1.year_writing)
     for all in texts:
         number = trymysql(trymysql.text1.author==all.id).count()
         numbers.append([all.name, all.family,all.id, number])

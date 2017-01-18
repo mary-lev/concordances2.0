@@ -41,7 +41,7 @@ trymysql.define_table('text1',
                   Field('genre', label="Жанр"),
                   Field('under_title', label="Подзаголовок"),
                   Field('dedication', label="Посвящение"),
-                  Field('epigraph', label="Текст эпиграфа"),
+                  Field('epigraph', 'text', label="Текст эпиграфа"),
                   Field('epigraph_author', label="Автор эпиграфа"),
                   Field('epigraph_text_name', label="Источник эпиграфа"),
                   Field('v', label="Объем текста"),
@@ -121,6 +121,7 @@ trymysql.define_table('variants',
                       Field('comment_text', 'text', label = "Вариант"),
                       Field('comment_book', label = "Издание"),
                       Field('comment_year', label="Год публикации комментария"),
+                      Field('book', trymysql.biblio),
                       migrate=False,fake_migrate=True)
 
 trymysql.define_table('data',
@@ -168,5 +169,16 @@ trymysql.define_table('grammar',
                   Field('len_line_w', label="Средняя длина строки, буквы"),
                   migrate=False, fake_migrate=False)
 
+trymysql.define_table('biblio',
+                      Field('title', label='Название'),
+                      Field('author', label='Автор'),
+                      Field('city', label='Город'),
+                      Field('editor', label='Издательство'),
+                      Field('year', label='Год'),
+                      Field('part', label='Том'),
+                      Field('short', label = 'Сокращенно'),
+                      migrate = False, fake_migrate=True)
+
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)
+b = (trymysql.variants.comment_book==trymysql.biblio.id)

@@ -1,38 +1,27 @@
 # coding: utf8
 # попробовать что-либо вида
-
-#from tei_transformer.transform import *
-
-def show():
-    filename = "/home/concordance/web2py/applications/test/views/show/test.xml"
-    f = open(filename, 'rb')
-    parsed = f.read()
-    return dict(text=filename)
-
-def show_xml():
-    filename = "/home/concordance/web2py/applications/test/uploads/xml/12/2193.xml"
-    f = open(filename, 'rb')
-    parsed = f.read()
-    return dict(parsed=parsed)
+from xml.etree import cElementTree as ET
 
 def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
     f = open(texts.filename, 'rb')
     content = f.readlines()
-    return dict(texts=texts, content=content)
+    image = [all.url for all in d(d.pages.text==request.args(0)).select()]
+    return dict(texts=texts, content=content, image=image)
 
 def show2(): # color the verbs
-    words = trymysql(trymysql.allword.title==request.args(0)).select()
-    content = []
-    for row in words:
-        if row.partos=='VERB':
-            new_words=str(row.lemma)+str('&')
-            content.append(new_words)
-        else:
-            content.append(row.lemma)
-    return dict(content=content)
+    text = trymysql(trymysql.text1.id==483).select()[0]
+    words_numbers = [all.id for all in trymysql(trymysql.allword.title==text.id).select()]
+    f = open(text.filename, 'rb')
+    content = f.readlines()
+    f.close()
+    var = trymysql(trymysql.variants.title==text.id).select(orderby=trymysql.variants.line)
+    words = [all.comment_text for all in var]
+    lines = [all.line for all in var]
+    #lines=[1,15]
+    return dict(text=text, content = content, words=words, lines=lines, var=var)
 
-def show3():
+def show3(): #delete words
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
     rows = trymysql(trymysql.allword.title==request.args(0)).select()
     text_view = []
@@ -46,12 +35,14 @@ def show3():
         response.flash="form accepted"
     return dict(text_view=text_view, form=form)
 
-def show_variants():
-    texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
-    filename = "/home/concordance/web2py/applications/test/uploads/xml/12/481.xml"
-    f = open(filename, 'rb')
-    content = f.read()
-    #if texts.id in [all.title for all in trymysql(trymysql.variants.id>0).select()]:
-    #    word = trymysql(trymysql.variants.title==texts.id).select().first()
-     #   word=word['comment_text']
-    return dict(content=content)
+def show_variants(): # try to show xml
+    #texts = trymysql(trymysql.text1.id==481).select().first()
+    filename = "/home/concordance/web2py/applications/test/uploads/xml/4/481.xml"
+    x = open(filename, 'rb').read()
+    root = ET.fromstring(x)
+    #s = [[child.tag, child.attrib] for child in root[0][0]]
+    s= []
+    for neighbor in root.iter('word'):
+        s.append(neighbor.text)
+
+    return dict(s=s)

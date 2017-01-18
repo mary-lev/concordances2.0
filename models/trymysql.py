@@ -168,5 +168,16 @@ trymysql.define_table('grammar',
                   Field('len_line_w', label="Средняя длина строки, буквы"),
                   migrate=False, fake_migrate=False)
 
+trymysql.define_table('biblio',
+                      Field('title', label='Название'),
+                      Field('author', label='Автор'),
+                      Field('city', label='Город'),
+                      Field('editor', label='Издательство'),
+                      Field('year', label='Год'),
+                      Field('part', label='Том'),
+                      Field('short', label = 'Сокращенно'),
+                      migrate = False, fake_migrate=True)
+
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)
+b = (trymysql.variants.comment_book==trymysql.biblio.id)

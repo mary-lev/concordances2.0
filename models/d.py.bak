@@ -5,3 +5,20 @@ d.define_table('stress',
                Field('lemma', label = "Начальная форма"),
                Field('form', label = "Слово"),
                Field('stress', label = "Слово с ударением"))
+
+d.define_table('pages',
+               Field('author', label = "Автор"),
+               Field('edition', label = "Издание"),
+               Field('text', label = "Текст"),
+               Field('page_number', label = "Страница"),
+               Field('url', label = "Url"))
+
+d.define_table('biblio',
+               Field('title', label='Название'),
+               Field('author', label='Автор'),
+               Field('city', label='Город'),
+               Field('editor', label='Издательство'),
+               Field('year', label='Год'),
+               Field('part', label='Том'),
+               Field('short', label = 'Сокращенно'),
+               migrate = False, fake_migrate=True)
