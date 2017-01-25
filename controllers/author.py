@@ -10,7 +10,7 @@ def all_author():
     books = trymysql(trymysql.group_text.author==request.args(0)).select(groupby=trymysql.group_text.id)
     variants = [all.text for all in trymysql(trymysql.drafts.author==request.args(0)).select()]
     book = [all.book for all in trymysql((trymysql.drafts.text.belongs(variants))&(trymysql.drafts.author==request.args(0))).select(trymysql.drafts.book, groupby=trymysql.drafts.book)]
-    publ = trymysql(trymysql.biblio.id.belongs(book)).select()
+    publ = trymysql((trymysql.biblio.id.belongs(book))&(trymysql.biblio.year!='')).select(orderby=trymysql.biblio.year)
     return dict(texts=texts, variants=variants, publ=publ, books=books)
 
 def years():

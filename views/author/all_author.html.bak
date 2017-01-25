@@ -7,7 +7,6 @@
 {{block left_sidebar}}
 {{if books:}}
     <h3>Сборники</h3>
-
     {{for all in books:}}
         <li>{{=all.title}} ({{=I(all.year)}})</li>
 {{pass}}    {{pass}}
@@ -34,6 +33,6 @@
 
 <h3>{{=T("Публикации")}}</h3>
 {{for all in publ:}}
-{{if all.year:}} <li> {{=all.title}} ({{=all.year}}) {{pass}}</li>
+ <li> {{=A(all.title, _href=URL("show", "show_book", args=all.id))}} ({{=all.year}})</li>
 {{pass}}
 {{end}}
