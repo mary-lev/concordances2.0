@@ -134061,3 +134061,58 @@ timestamp: 2017-01-18T14:40:28.972568
 ALTER TABLE biblio ADD short VARCHAR(512);
 success!
 success!
+timestamp: 2017-01-19T02:35:23.032893
+CREATE TABLE drafts(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    text INT, INDEX text__idx (text), FOREIGN KEY (text) REFERENCES text1 (id) ON DELETE CASCADE,
+    title VARCHAR(512),
+    filename VARCHAR(512),
+    epi LONGTEXT,
+    epi_author VARCHAR(512),
+    epi_book VARCHAR(512),
+    dedication VARCHAR(512),
+    day VARCHAR(512),
+    month VARCHAR(512),
+    year VARCHAR(512),
+    date VARCHAR(512),
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES biblio (id) ON DELETE CASCADE,
+    book_page VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-01-20T21:35:57.100124
+CREATE TABLE page(
+    id INT AUTO_INCREMENT NOT NULL,
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES biblio (id) ON DELETE CASCADE,
+    number VARCHAR(512),
+    filename VARCHAR(512),
+    text INT, INDEX text__idx (text), FOREIGN KEY (text) REFERENCES text1 (id) ON DELETE CASCADE,
+    variant INT, INDEX variant__idx (variant), FOREIGN KEY (variant) REFERENCES drafts (id) ON DELETE CASCADE,
+    old_text VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-01-20T21:44:43.719353
+CREATE TABLE old(
+    id INT AUTO_INCREMENT NOT NULL,
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    text INT, INDEX text__idx (text), FOREIGN KEY (text) REFERENCES text1 (id) ON DELETE CASCADE,
+    title VARCHAR(512),
+    filename VARCHAR(512),
+    epi LONGTEXT,
+    epi_author VARCHAR(512),
+    epi_book VARCHAR(512),
+    dedication VARCHAR(512),
+    day VARCHAR(512),
+    month VARCHAR(512),
+    year VARCHAR(512),
+    date VARCHAR(512),
+    book INT, INDEX book__idx (book), FOREIGN KEY (book) REFERENCES biblio (id) ON DELETE CASCADE,
+    book_page VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-01-21T14:52:35.056185
+ALTER TABLE old ADD first_string VARCHAR(512);
+success!

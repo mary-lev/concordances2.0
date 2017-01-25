@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+<h1>{{=text.author.name}} {{=text.author.family}}</h1>
+<table>
+    <tr>
+        <td><h3>{{=text.title}}</h3></td>
+        <td><h3>{{=old_text.title}}</h3></td>
+    </tr>
+    <tr>
+        <td>{{for all in content:}} {{if '|' not in all:}} {{=all}}<br> {{else:}} <br>{{pass}}{{pass}}</td>
+        <td>{{for n in ocontent:}} {{=n}}<br>{{pass}}</td>
+    </tr>
+    </table>

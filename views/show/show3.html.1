@@ -1,0 +1,60 @@
+{{extend 'layout.html'}}
+<h1>Варианты текста</h1>
+<h3>{{=text.author.name}} {{=text.author.family}}. {{=text.title}}</h3>
+<script>
+function fade(div_id1, div_id2, button) {
+        $('.'+div_id1).fadeOut('slow');
+        $('.'+div_id2).fadeIn('slow');
+        $(button).css('color','red');
+}
+</script>
+
+<p>
+<table>
+<tr>
+{{for result in table:}}
+<td>        <input type="button" onclick="fade('test', '{{=table.index(result)}}', this)" value={{=book[0]}} class="content-button">
+        <input type="button" onclick="fade('{{=table.index(result)}}', 'test', this)" value={{=book[table.index(result)+1]}} class="content-button">
+    <p>&nbsp;
+
+{{# <!-- подключаем заголовки, если они есть --> }}
+
+        {{if text.title:}}
+        <h4 style="color:green" class="{{=table.index(result)}}">{{=text.title}}</h4>
+        {{else:}}
+        {{if other[table.index(result)]['title']:}}
+        <h4 class="test" style="color:blue">{{=other[table.index(result)]['title']}}</h4>
+        {{else:}}
+            <h4>* * *</h4>
+{{pass}}        {{pass}}
+
+<p>{{for r in result:}}
+
+      {{if r.startswith('+'):}}
+            <p style="color:blue" class="test">{{=r[2:]}}</p>
+      {{elif r.startswith('-'):}}
+            <p style="color:green" class="{{=table.index(result)}}">{{=r[2:]}}</p>
+      {{elif not r.startswith('?'):}}
+            <p>{{=r}}
+      {{else:}}
+           {{r=r}}
+      {{pass}}
+   {{pass}}
+</td>
+{{pass}}
+</tr>
+</table>
+
+<ul>
+    <li>{{=biblio[0]}}</li>
+{{for all in biblio1:}}
+<li>{{=A(all.short, ' — ', all.title, '. ', all.city, ': ', all.editor, ', ', all.year, '.', _href=URL('show', 'show_book', args=all.id))}}</li>
+{{pass}}
+    </ul>
+
+<h4>{{=text.author.name}} {{=text.author.family}}: {{=A("другие тексты", _href=URL("author", "all_author", args=text.author.id))}} </h4>
+{{for result in table:}}
+{{for r in result:}}
+<p>{{=r}}
+{{pass}}
+{{pass}}

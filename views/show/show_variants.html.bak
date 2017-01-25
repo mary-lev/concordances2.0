@@ -1,16 +1,24 @@
 {{extend 'layout.html'}}
-<h1>Текст с вариантами</h1>
+
 <script>
-function fade(div_id1, div_id2, button) {
-
+function fade(div_id1, div_id2, div_id3, button) {
         $('.'+div_id1).fadeOut('slow');
+        $('.'+div_id3).fadeOut('slow');
         $('.'+div_id2).fadeIn('slow');
-
+}
+function fade2(div_id1, div_id2, button) {
+        $('.'+div_id1).fadeIn('slow');
+        $('.'+div_id2).fadeOut('slow');
 }
 </script>
 
-<input type="button" onclick="fade('test', 'that', this)" value="{{=books[1]}}" class="content-button">
-<input type="button" onclick="fade('that', 'test', this)" value="{{=books[0]}}" class="content-button">
+<h1>Текст с вариантами</h1>
+<h2>{{=texts.author.name}} {{=texts.author.family}} </h2>
+{{if '0' in var_numbers:}}
+<div class="third"><h2>{{=var_lines[0]}}</h2></div>
+{{pass}}
+<h2>{{=texts.title}}</h2>
+
 <p>
 {{for all in s:}}
     {{for line in all:}}
@@ -20,8 +28,18 @@ function fade(div_id1, div_id2, button) {
                 {{if line[0].startswith('&'):}}
                 <div style="color:blue" class="test">{{=line[0][1:]}}</div>
                   {{else:}}
-                <div style="color:red" class="that">{{=line[0]}}</div>
+                <div style="color:green" class="that">{{=line[0]}}</div>
                 {{pass}}
         {{pass}}
     {{pass}}<br>
+{{pass}}
+
+{{if len(books) == 2:}}
+<input type="button" onclick="fade2('test', 'that', this)" value="{{=books[0]}}" class="content-button">
+<input type="button" onclick="fade2('that', 'test', this)" value="{{=books[1]}}" class="content-button">
+
+{{else:}}
+<input type="button" onclick="fade('test', 'that', 'third', this)" value="{{=books[0]}}" class="content-button">
+<input type="button" onclick="fade('none', 'third', 'none', this)" value="{{=books[1]}}" class="content-button">
+<input type="button" onclick="fade('that', 'test', 'third', this)" value="{{=books[2]}}" class="content-button">
 {{pass}}

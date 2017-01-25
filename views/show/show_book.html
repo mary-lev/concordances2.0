@@ -1,0 +1,29 @@
+{{left_sidebar_enabled=True}}
+{{extend 'layout.html'}}
+
+<div class="span3 left-sidebar">
+{{block left_sidebar}}
+{{=IMG(_src=URL('static', obl), _width="200px", _float="left")}}
+     {{end}}
+      </div>
+
+<div class="{{=middle_columns}}">
+            {{block center}}
+    <h1>{{if book.author:}} {{=book.author.name}} {{=book.author.family}}. {{pass}} {{=book.title}} ({{=book.year}})</h1>
+    {{if old:}}
+    <h4>В старой орфографии</h4>
+
+{{for all in old:}}
+    {{if all.title:}} {{c = all.title}} {{else:}} {{c = all.first_string}} {{pass}}
+    C. {{=all.book_page}}. {{=A(c, _href=URL('show', 'show_page', args=[all.text, book.id]))}}. {{=A('(Страница, ', _href=URL('show', 'show_page', args=[all.text.id, book.id]))}} {{=I(A('варианты)', _href=URL('show', 'show3', args=all.text.id)))}}   <br>
+{{pass}}
+{{pass}}
+
+    {{for all in drafts:}}
+    {{if all.title:}} {{c = all.title}} {{else:}} {{if all.text.title:}} {{c=all.text.title}} {{else:}} {{c = all.text.first_string}} {{pass}} {{pass}}
+    C. {{=all.book_page}}. {{=c}}  {{=I(A('(Варианты)', _href=URL('show', 'show3', args=all.text.id)))}}   <br>
+{{pass}}
+
+    {{include}}
+            {{end}}
+        </div>

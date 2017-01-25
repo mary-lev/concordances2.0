@@ -14,10 +14,10 @@
             <p>{{=texts.epigraph}}
                 {{pass}}
                 {{if texts.epigraph_author:}}
-            <p>{{=texts.epigraph_author}}
+            <p><i>{{=texts.epigraph_author}}</i>
                 {{pass}}
                 {{if texts.epigraph_text_name:}}
-            <p>{{=texts.epigraph_text_name}}
+            <p><i>{{=texts.epigraph_text_name}}</i>
                 {{pass}}
 <p>            {{for line in content:}}
 {{=line}}<br>

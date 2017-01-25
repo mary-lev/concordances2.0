@@ -1,10 +1,38 @@
+{{left_sidebar_enabled=True}}
+{{right_sidebar_enabled=True}}
 {{extend 'layout.html'}}
-<h1>{{=author.name}} {{=author.family}}</h1>
+
+
+<div class="span3 left-sidebar">
+{{block left_sidebar}}
+{{if books:}}
+    <h3>Сборники</h3>
+    {{for all in books:}}
+        <li>{{=all.title}} ({{=I(all.year)}})</li>
+{{pass}}    {{pass}}
+{{end}}
+</div>
+
+<div class="{{=middle_columns}}">
+    {{block center}}
+    <h1>{{=texts[0].author.name}} {{=texts[0].author.family}}</h1>
+    <h3>Тексты</h3>
 <ol>
 {{for all in texts:}}
 <li>{{if all.title:}} {{=A(all.title, _href=URL("show", "show1", args=all.id))}} {{pass}}
     {{if all.first_string:}}"{{=A(all.first_string, _href=URL("show", "show1", args=all.id))}}" {{pass}}
     {{if all.year_writing:}} ({{=all.year_writing}}) {{pass}}
-    {{if all.group_text:}}({{=all.group_text.title}}){{pass}}</li>
+    {{if all.group_text:}}({{=all.group_text.title}}){{pass}}
+    {{if all.id in variants:}} {{=I(A("Варианты", _href=URL("show", "show3", args=all.id)))}} {{pass}}</li>
 {{pass}}
 </ol>
+    {{end}}
+        </div>
+
+{{block right_sidebar}}
+
+<h3>{{=T("Публикации")}}</h3>
+{{for all in publ:}}
+{{if all.year:}} <li> {{=A(all.title, _href=URL("show", "show_book", args=all.id))}} ({{=all.year}}) {{pass}}</li>
+{{pass}}
+{{end}}

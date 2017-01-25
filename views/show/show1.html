@@ -20,8 +20,11 @@
             <p><i>{{=texts.epigraph_text_name}}</i>
                 {{pass}}
 <p>            {{for line in content:}}
-{{=line}}<br>
-{{pass}}
+    {{if '|' in line:}}
+    <br>
+    {{else:}}
+    {{=line}}<br>
+    {{pass}}{{pass}}
 <p>
 <p>{{=texts.day_writing}} {{=texts.month_writing}} {{=texts.year_writing}}<br>
     <p>{{=texts.writing_location}}

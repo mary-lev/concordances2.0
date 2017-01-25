@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+
+<h1>{{=text.author.name}} {{=text.author.family}}. {{=text.title}} {{if text.first_string:}} {{=text.first_string}} {{pass}}</h1>
+<table>
+    <tr>
+        <td style="vertical-align: middle"> {{for all in new:}} {{if '|' not in all:}} {{=all}}<br> {{else:}} <br>{{pass}}{{pass}}</td>
+        <td style="vertical-align: middle"> {{for all in old:}} {{=all}} <br> {{pass}}</td>
+        <td>{{=IMG(_src=URL('static', u), _width="500px", _style='border-image: blue 1px')}}</td>
+   </tr>
+</table>
+
+<p> {{=A('Назад к книге', _href=URL('show', 'show_book', args=book))}}

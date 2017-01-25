@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>{{=book.title}} {{if book.author:}} {{=book.author.name}} {{=book.author.family}} {{pass}} {{=book.year}}</h1>
+{{=IMG(_src=URL('static', obl), _width="200px", _float="left")}}
+{{for all in old:}}
+C. {{=all.book_page}}. {{if all.title:}} {{=all.title}}{{pass}}<br>
+{{pass}}

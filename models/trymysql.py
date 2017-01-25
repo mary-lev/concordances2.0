@@ -170,13 +170,54 @@ trymysql.define_table('grammar',
 
 trymysql.define_table('biblio',
                       Field('title', label='Название'),
-                      Field('author', label='Автор'),
+                      Field('author', trymysql.author),
                       Field('city', label='Город'),
                       Field('editor', label='Издательство'),
                       Field('year', label='Год'),
                       Field('part', label='Том'),
                       Field('short', label = 'Сокращенно'),
                       migrate = False, fake_migrate=True)
+
+trymysql.define_table('drafts',
+                      Field('author', trymysql.author),
+                      Field('text', trymysql.text1),
+                      Field('title', label="Название"),
+                      Field('filename', 'string'),
+                      Field('epi', 'text', label="Эпиграф"),
+                      Field('epi_author', label="Автор эпиграфа"),
+                      Field('epi_book', label="Источник эпиграфа"),
+                      Field('dedication', 'string', label='Посвящение'),
+                      Field('day', label=''),
+                      Field('month', label=''),
+                      Field('year', label='Год'),
+                      Field('date', label='Неточная дата'),
+                      Field('book', trymysql.biblio),
+                      Field('book_page', label='Страница'))
+
+trymysql.define_table('page',
+                       Field('book', trymysql.biblio),
+                       Field('number', label="Страница"),
+                       Field('filename', label="Файл"),
+                       Field('text', trymysql.text1),
+                       Field('variant', trymysql.drafts),
+                       Field('old_text', label='В старой орфографии'))
+
+trymysql.define_table('old',
+                      Field('author', trymysql.author),
+                      Field('text', trymysql.text1),
+                      Field('title', label="Название"),
+                      Field('first_string', label="Первая строка"),
+                      Field('filename', 'string'),
+                      Field('epi', 'text', label="Эпиграф"),
+                      Field('epi_author', label="Автор эпиграфа"),
+                      Field('epi_book', label="Источник эпиграфа"),
+                      Field('dedication', 'string', label='Посвящение'),
+                      Field('day', label=''),
+                      Field('month', label=''),
+                      Field('year', label='Год'),
+                      Field('date', label='Неточная дата'),
+                      Field('book', trymysql.biblio),
+                      Field('book_page', label='Страница'))
 
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)

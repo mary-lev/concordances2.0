@@ -1,0 +1,10 @@
+{{extend 'layout.html'}}
+
+<h1>Это шаблон show/show_page.html</h1>
+<table>
+    <tr>
+        <td> {{for all in new:}} {{if '|' not in all:}} {{=all}}<br> {{else:}} <br>{{pass}}{{pass}}</td>
+        <td> {{for all in old:}} {{=all}} <br> {{pass}}</td>
+        <td>{{=IMG(_src=URL('static', page.filename), _width="400px")}}</td>
+   </tr>
+</table>
