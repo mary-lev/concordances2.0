@@ -32,6 +32,7 @@ def show3(): #variants from txt files
     variant = trymysql(trymysql.drafts.text==request.args(0)).select()
     table = []
     biblio = [text.book]
+    biblio1=[]
     other = []
     for all in variant:
         filename2 = all.filename
@@ -42,7 +43,8 @@ def show3(): #variants from txt files
         d = difflib.Differ()
         result = list(d.compare(text1, text2))
         table.append(result)
-        biblio.append(str(all.book.author) + '. ' + all.book.title + '. ' + all.book.city + ': ' + all.book.editor + ', ' + all.book.year + '. ' + all.book.part + ". C. " + all.book_page + '.')
+        biblio1.append(trymysql(trymysql.biblio.id==all.book).select()[0])
+#str(all.book.id) + '. '+ all.book.title + '. ' + all.book.city + ': ' + all.book.editor + ', ' + all.book.year + '. ' + all.book.part + ". C. " + all.book_page + '.')
         n = {}
         n['title'] = all.title.upper()
         n['dedication'] = all.dedication
@@ -50,7 +52,20 @@ def show3(): #variants from txt files
         n['epi_author'] = all.epi_author
         n['epi_book'] = all.epi_book
         other.append(n)
-    return dict(book=book, table=table, text=text, biblio=biblio, other=other)
+    test = []
+    for all in variant:
+        ch = ','
+        filename2 = all.filename
+        book.append(all.book.short)
+        t2 = open(filename2, 'rb')
+        text2 = t2.readlines()
+        # сравниваем тексты
+        d = difflib.Differ(linejunk=None, charjunk=lambda c:c==',')
+        result = list(d.compare(text1, text2))
+        test.append(result)
+
+
+    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, test=test)
 
 def show_variants(): # try to show xml
     t = '483'
@@ -89,23 +104,36 @@ def pun(line):
     l = l.replace(' - ', '-')
     return l
 
-def show_old():
-    text = trymysql((trymysql.drafts.text==483)&(trymysql.drafts.book==4)).select().first()
+def show_old(): # показываем текст в старой орфографии и параллельно в современной
+    text = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first()
     f = open(text.filename, 'rb')
     content = f.readlines()
     f.close()
-    old_text = trymysql((trymysql.old.text==483)&(trymysql.old.book==4)).select().first()
+    old_text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first()
     f1 = open(old_text.filename, 'rb')
     ocontent = f1.readlines()
     f1.close()
     return dict(text=text, old_text=old_text, content=content, ocontent=ocontent)
 
-def show_page():
-    text = trymysql((trymysql.old.text==486)&(trymysql.old.book==4)).select().first()
+def show_page(): # показываем страницу книги, текст в оригинальной орфографии и текст в старой орфографии
+    text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first()
     with open(text.filename, 'rb') as f:
         old = f.readlines()
-    page = trymysql((trymysql.page.text==486)&(trymysql.page.book==4)).select().first()
-    new = trymysql((trymysql.draft.text==486)&(trymysql.draft.book==4)).select().first()
+    # page = trymysql((trymysql.page.text==request.args(0))&(trymysql.page.book==request.args(1))).select().first()
+    u = 'books/' + str(request.args(1)) + '/' + text.book_page + '.png'
+    book = request.args(1)
+    new = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first()
     with open(new.filename, 'rb') as f1:
         new = f1.readlines()
-    return dict(old=old, page=page, new=new)
+    return dict(old=old, new=new, text=text, u=u, book=book)
+
+def show_book():
+    book = trymysql(trymysql.biblio.id==request.args(0)).select()[0]
+    pages = trymysql(trymysql.page.book==request.args(0)).select()
+    texts = trymysql(trymysql.drafts.book==request.args(0)).select()
+    old = trymysql(trymysql.old.book==request.args(0)).select()
+    obl = 'books/' + str(book.id) + '/obl.png'
+    drafts = []
+    if len(old)==0:
+        drafts = trymysql(trymysql.drafts.book==request.args(0)).select()
+    return dict(book=book, pages=pages, texts=texts, old=old, obl=obl, drafts=drafts)

@@ -21,7 +21,7 @@
 
 <h6> Сегодня, {{=d}} {{=m}}, были написаны тексты:</h6>
             {{for all in day:}}
-            <li>{{=A(all.title, ". ", all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            <li>{{=A(all.title, ' ', all.first_string, ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
             {{pass}}
 
             {{include}}

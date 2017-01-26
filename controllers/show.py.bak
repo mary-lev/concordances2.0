@@ -52,7 +52,24 @@ def show3(): #variants from txt files
         n['epi_author'] = all.epi_author
         n['epi_book'] = all.epi_book
         other.append(n)
-    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other)
+    test = []
+    for all in variant:
+        text1 = [w.replace(',', '') for w in text1]
+        text1 = [w.replace('.', '') for w in text1]
+        ch = ','
+        filename2 = all.filename
+        book.append(all.book.short)
+        t2 = open(filename2, 'rb')
+        text2 = t2.readlines()
+        text2 = [all.replace(',', '') for all in text2]
+        text2 = [all.replace('.', '') for all in text2]
+        # сравниваем тексты
+        d = difflib.Differ()
+        result = list(d.compare(text1, text2))
+        test.append(result)
+
+
+    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, test=test)
 
 def show_variants(): # try to show xml
     t = '483'
@@ -122,5 +139,5 @@ def show_book():
     obl = 'books/' + str(book.id) + '/obl.png'
     drafts = []
     if len(old)==0:
-        drafts = trymysq(trymysql.drafts.book==request.args(0)).select()
+        drafts = trymysql(trymysql.drafts.book==request.args(0)).select()
     return dict(book=book, pages=pages, texts=texts, old=old, obl=obl, drafts=drafts)

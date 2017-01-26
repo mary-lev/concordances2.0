@@ -21,11 +21,13 @@ function fade(div_id1, div_id2, button) {
 
         {{if text.title:}}
         <h4 style="color:green" class="{{=table.index(result)}}">{{=text.title}}</h4>
+        {{else:}}
+        {{pass}}
         {{if other[table.index(result)]['title']:}}
         <h4 class="test" style="color:blue">{{=other[table.index(result)]['title']}}</h4>
         {{else:}}
             <h4>* * *</h4>
-{{pass}}        {{pass}}
+{{pass}}
 
 <p>{{for r in result:}}
 
@@ -52,3 +54,7 @@ function fade(div_id1, div_id2, button) {
     </ul>
 
 <h4>{{=text.author.name}} {{=text.author.family}}: {{=A("другие тексты", _href=URL("author", "all_author", args=text.author.id))}} </h4>
+
+{{for t in test:}}
+{{for all in t:}} <li> {{=all}} {{pass}}</li>
+{{pass}}
