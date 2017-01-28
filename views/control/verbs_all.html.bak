@@ -1,5 +1,7 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон control/verbs_all.html</h1>
-{{for verb in verbs1:}}
-{{=verb}}<br>
+{{=a}}
+{{for all in c:}}
+{{=all[1]}}<br>
+{{=all[2]}}<br>
+{{=all[3]}}<br>
 {{pass}}

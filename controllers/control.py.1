@@ -1,36 +1,75 @@
 # coding: utf8
-import nltk
+import simplejson
+import codecs, json
 import pymorphy2
 from tokenize1 import *
 import os
 from os import listdir
 from os.path import isfile, join
-from operator import itemgetter
-import select
 from lxml import etree
 from plugin_sqleditable.editable import SQLEDITABLE
 SQLEDITABLE.init()
+from collections import Counter
 
 def index():
     texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(8041,8150): # if text not yet in database (last:4811,7088)
+    for x in range(10260,10275): # if text not yet in database (last:4811,7088, 10260)
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
-        path = "/home/concordance/web2py/applications/test/uploads/sologub/"
-        filename1=str(text2.author.id) + "_" + str(text2.n_in_group) + "_" + str(text2.id) + str('.txt')
-        filename= str(path) + str(filename1)
+        filename = "/home/concordance/web2py/applications/test/corpus/" + str(text2.author.id) + str(text2.id) + '.txt'
         f = open(filename, 'w')
         f.write(text1.encode('utf-8'))
         f.close()
         text2.update_record(filename=filename)
-        normal = normalize_new2(text1)
+        normal = normalize_new2(text1, 0)
         for token in normal:
             trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
             message = "Все добавлено в базу"
     return dict(message=message)
+
+names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
+style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
+other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
+
+def check_old():
+    n = []
+    filename2="/home/concordance/web2py/applications/test/uploads/newdict/verbs.txt"
+    with open(filename2,'rb') as inf:
+        ispr = inf.read()
+        inf.close()
+    for new in ispr.split():
+        words = trymysql(trymysql.allword.lemma==new).select()
+        for all in words:
+            n.append(all.word)
+            all.update_record(partos='VERB', word=new, gendr='None', number='None', cas='None', tense='None', aspect='None', person='None', transitivity= 'None', mood = 'None', involvment = 'None', voice = 'None', sobstv='None', style = 'Infr')
+    return dict(ispr=ispr, n=n)
+
+def check_old1():
+    morph = pymorphy2.MorphAnalyzer()
+    mist = []
+    filename2="/home/concordance/web2py/applications/test/uploads/newdict/ispr3.txt"
+    with open(filename2,'rb') as inf:
+        ispr = eval(inf.read())
+    for new in ispr.keys():
+        words = trymysql(trymysql.allword.lemma==new).select()
+        normal = morph.parse(new.decode('utf-8'))[ispr[new]]
+        parsed_other = parse_tags(normal.tag, other)['result']
+        parsed_style = parse_tags(normal.tag, style)['result']
+        parsed_name = parse_tags(normal.tag, names[1:])['result']
+        for all in words:
+            all.update_record(word=normal.normal_form, partos = str(normal.tag.POS), anim = str(normal.tag.animacy), gendr=str(normal.tag.gender), number = str(normal.tag.number), cas = str(normal.tag.case), tense = str(normal.tag.tense), aspect = str(normal.tag.aspect), person = str(normal.tag.person), transitivity= str(normal.tag.transitivity), mood = str(normal.tag.mood), involvment = str(normal.tag.involvement), voice = str(normal.tag.voice), sobstv=parsed_name, style = parsed_style, other = parsed_other)
+    return dict(ispr=ispr, mist = mist)
+
+def parse_tags(tags, list_tags):
+    parsed = [x for x in list_tags if x in tags]
+    result = 'None'
+    for all in parsed:
+        if all != 'None':
+            result = str(all)
+    return dict(result=result)
 
 @auth.requires_login()
 def search_for_files():
@@ -66,7 +105,7 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=9, group_text=71, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=8, group_text=81, writing_location=location, body = ''.join(text['t']))
             stih = []
             text= {}
             year=''
@@ -91,22 +130,28 @@ def select_one(content):
         content = content[end-1:]
     return dict(poems=poems)
 
+ypart = ['A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V']
 
-def verbs_all(): # show verbs in the text
-    verbs1=[row['word'] for row in trymysql((trymysql.allword.author=='1')&(trymysql.allword.partos=='VERB')).select()]
-    verbs1=sorted(set(verbs1))
-    return dict(verbs1=verbs1)
+# bash: for file in /home/concordance/web2py/applications/test/corpus/5/*; do mystem -nigc --format json --weight --eng-gr "$file" >> bel.json; done
 
-def mystem():
-    word="стояла"
-    path = "/home/concordance/mystem/"
-    myste=subprocess.Popen([path, '-nlc', '-e utf-8'],
-                                        stdout=subprocess.PIPE,
-                                        stdin=subprocess.PIPE, shell=True)
-    new=myste.stdin.write(word)
-    readable, _, _ = select.select([myste.stdout], [], [], 5e-3)
-    stem = readable[0].readline().strip().lower()
-    return dict(new=new, stem=stem)
+def verbs_all(): # parse mystem result
+    f = '/home/concordance/stem/bel.json'
+    data=[]
+    c = []
+    with open(f, 'rb') as fi:
+        for line in fi:
+            data.append(json.loads(line))
+    for all in data[:1000]:
+        try:
+            #s = ypart.intersection(all['analysis'][0]['gr'].split())
+            l=''
+            if ypart[0] in all['analysis'][0]['gr']:
+                l=yapart[0]
+            c.append([len(all['analysis']), all['analysis'][0]['lex'], all['analysis'][0]['gr'], l])
+            
+        except:
+            pass
+    return dict(c=c)
 
 @auth.requires_login()
 def edit_forms():
@@ -144,10 +189,6 @@ def edit_forms1():
     response.view = 'plugin_sqleditable/sample.html'
     editable = SQLEDITABLE(trymysql.allword, record=record(), deletable=True).process()
     return dict(editable=editable)
-
-def month():
-    months = [(x, trymysql(trymysql.text1.month_writing==x).count()) for x in range(1,13)]
-    return dict(months=months)
 
 def create_xml():
     n = 1
@@ -264,19 +305,65 @@ def create_xml_unique(): # create one xml for one text
             output.write(DECLARATION)
             doc.write(output, xml_declaration=False, pretty_print=True, encoding='utf-8')
 
+def table_as_xml(): #no view yet, for view: {{=TAG(r)}}
+    words = trymysql(trymysql.allword.title==15).select()
+    r = words.xml()
+    return dict(r=r)
 
 def create_concordance():
-    part=['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
-    all1=[all.word for all in trymysql(trymysql.allword.author==1).select()]
-    slovar = [all.word for all in trymysql(trymysql.concordance.id>0).select()]
-    words=sorted(set(all1))
-    for x in words:
-        if x not in slovar:
-            trymysql.concordance.insert(word=x)
-    return dict(part=words[:100])
+    update_word= []
+    for x in range(9700, 10000):
+        texts = trymysql(trymysql.allword.title==x).select()
+        words = [all.word for all in texts]
+        for w in words:
+            if trymysql(trymysql.concordances.word==w).isempty()==True:
+                trymysql.concordances.insert(word=w)
+                update_word.append(w) # words inserted in concordances table
+    return dict(update_word=update_word)
+#    part=['VERB', 'NOUN', 'ADJF', 'ADJS', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB']
+#    all1=[all.word for all in trymysql(trymysql.allword.author==1).select()]
+#    slovar = [all.word for all in trymysql(trymysql.concordance.id>0).select()]
+#    words=sorted(set(all1))
+#    for x in words:
+#        if x not in slovar:
+#            trymysql.concordance.insert(word=x)
+#    return dict(part=words[:100])
 
-def create_number():
-    for all in trymysql((trymysql.allword.id>4999)&(trymysql.allword.id<10000)).select():
-        number = trymysql(trymysql.concordance.word==all.word).select().first().id
-        all.update_record(concordance_number= number)
+def see_concordances():
+    n=[]
+    s = 1
+    words = trymysql(trymysql.concordances.word.like('а%')).select()
+    w = [all.word for all in words]
+    w = sorted(w)
+    for all in w:
+        name = 'nomer'+str(s)
+        name = FORM(INPUT(_name='myform', value=all, requires=IS_NOT_EMPTY()),
+                    INPUT(_type='submit'), action='', method="GET")
+        if name.accepts(request, session, keepvalues=True, formname=all):
+ #           response.flash = 'yes!'
+            trymysql.color.insert(word=all)
+            s+=1
+        n.append(name)
+    return dict(n=n)
+
+def create_number(): #intrymysql.allword.concordance_number connected to trymysql.concordances.id
+    for all in trymysql((trymysql.concordances.id>3499)&(trymysql.concordances.id<3550)).select():
+        words = trymysql((trymysql.allword.word==all.word)&(trymysql.allword.partos!='PNCT')).select()
+        for w in words:
+            w.update_record(concordance_number=all.id)
+    #for all in trymysql((trymysql.allword.id>49999)&(trymysql.allword.id<60000)).select():
+    #    number = trymysql(trymysql.concordances.word==all.word).select().first().id
+     #   all.update_record(concordance_number= number)
     return dict(message="OK")
+
+def save_files():
+    t = []
+    texts = [all.filename for all in trymysql(trymysql.text1.author==request.args(0)).select()]
+    for all in texts:
+        f = open(all, 'rb')
+        content = f.readlines()
+        t.append(content)
+    f = '/home/concordance/deposit/poems.txt'
+    with open(f, 'w') as ff:
+        for all in t:
+            print>>ff, all

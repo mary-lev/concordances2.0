@@ -1,5 +1,6 @@
 # coding: utf8
 import simplejson
+import codecs, json
 import pymorphy2
 from tokenize1 import *
 import os
@@ -8,16 +9,10 @@ from os.path import isfile, join
 from lxml import etree
 from plugin_sqleditable.editable import SQLEDITABLE
 SQLEDITABLE.init()
+from collections import Counter
 
 def index():
     texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
-    return dict(texts=texts)
-
-def fstring():
-    texts = trymysql(trymysql.text1.id>0).select()
-    for all in texts:
-        if all.title.endswith('...'):
-            all.update_record(first_string = all.title, title = '')
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
@@ -135,10 +130,28 @@ def select_one(content):
         content = content[end-1:]
     return dict(poems=poems)
 
-def verbs_all(): # show verbs in the text
-    verbs1=[row['word'] for row in trymysql((trymysql.allword.author=='1')&(trymysql.allword.partos=='VERB')).select()]
-    verbs1=sorted(set(verbs1))
-    return dict(verbs1=verbs1)
+ypart = ['A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V']
+
+# bash: for file in /home/concordance/web2py/applications/test/corpus/5/*; do mystem -nigc --format json --weight --eng-gr "$file" >> bel.json; done
+
+def verbs_all(): # parse mystem result
+    f = '/home/concordance/stem/bel.json'
+    data=[]
+    c = []
+    with open(f, 'rb') as fi:
+        for line in fi:
+            data.append(json.loads(line))
+    for all in data[:1000]:
+        try:
+            #s = ypart.intersection(all['analysis'][0]['gr'].split())
+            l=''
+            if ypart[11] in all['analysis'][0]['gr']:
+                l=yapart[11]
+            c.append([len(all['analysis']), all['analysis'][0]['lex'], all['analysis'][0]['gr'], l])
+
+        except:
+            pass
+    return dict(c=c)
 
 @auth.requires_login()
 def edit_forms():

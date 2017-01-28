@@ -3,7 +3,9 @@ from plugin_sqleditable.editable import SQLEDITABLE
 SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
-from pymystem3 import Mystem
+#from pymystem3 import Mystem
+import subprocess
+from subprocess import Popen, PIPE, STDOUT
 
 names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
 style = ['None', 'Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
@@ -25,15 +27,20 @@ def index():
     authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.id)
     return dict(authors=authors)
 
-m = Mystem()
+#m = Mystem()
 
 def stem():
-    words = [all.lemma for all in trymysql(trymysql.allword.title==3863).select()]
-    w = ' '.join(words)
-    lemmas = m.lemmatize(w)
-    t = m.analyze(w)
-    l = ''.join(lemmas)
-    return dict(l=l, t=t)
+    #words = [all.lemma for all in trymysql(trymysql.allword.title==3865).select()]
+    args = ['/home/concordance/stem/mystem', '/home/concordance/stem/1.txt', '/home/concordance/stem/2.txt']
+    process = subprocess.call(args, shell=True)
+    #with open('2.txt', 'wb') as f:
+    #    s = subprocess.Popen(args, stdin = '/home/concordance/stem/1.txt', stdout=f)
+    #w = ' '.join(words)
+    #lemmas = m.lemmatize(w)
+    #t = m.analyze(w)
+    #l = ''.join(lemmas)
+    #return dict(l=l, t=t)
+    return dict()
 
 def index1():
     titles = [x for x in range(7848,7941)] # last: 3500, 7088, 10261
