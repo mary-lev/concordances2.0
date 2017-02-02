@@ -2,6 +2,7 @@
 # попробовать что-либо вида
 from xml.etree import cElementTree as ET
 import difflib
+import re
 
 def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
@@ -34,6 +35,7 @@ def show3(): #variants from txt files
     biblio = [text.book]
     biblio1=[]
     other = []
+    seq = []
     for all in variant:
         filename2 = all.filename
         book.append(all.book.short)
@@ -52,20 +54,24 @@ def show3(): #variants from txt files
         n['epi_author'] = all.epi_author
         n['epi_book'] = all.epi_book
         other.append(n)
-    test = []
-    for all in variant:
-        ch = ','
-        filename2 = all.filename
-        book.append(all.book.short)
-        t2 = open(filename2, 'rb')
-        text2 = t2.readlines()
-        # сравниваем тексты
-        d = difflib.Differ(linejunk=None, charjunk=lambda c:c==',')
-        result = list(d.compare(text1, text2))
-        test.append(result)
-
-
-    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, test=test)
+    #for res in table:
+    count = 0
+    s = []
+    clear = [line for line in table[0] if not line.startswith('?') and '|' not in line]
+    while len(clear)>0:
+        if clear[count].startswith('-'):
+            next_line = clear[count+1][2:]
+            next_line = re.findall(r"[\w']+|[.,!?;]", next_line, re.UNICODE)
+            cline = re.findall(r"[\w']+|[.,!?;]", clear[count][2:], re.UNICODE)
+            comp = difflib.Differ()
+            s1 = list(comp.compare(cline, next_line))
+            s.append(s1)
+            clear.remove(clear[count+1])
+        else:
+            s.append(clear[count][2:].split())
+            c = re.findall(r"\w+|[^\w\s]", clear[count][2:], re.UNICODE)
+        clear.remove(clear[count])
+    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, cline=cline)
 
 def show_variants(): # try to show xml
     t = '483'

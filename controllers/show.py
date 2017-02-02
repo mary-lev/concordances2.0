@@ -2,6 +2,7 @@
 # попробовать что-либо вида
 from xml.etree import cElementTree as ET
 import difflib
+import re
 
 def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
@@ -34,6 +35,7 @@ def show3(): #variants from txt files
     biblio = [text.book]
     biblio1=[]
     other = []
+    seq = []
     for all in variant:
         filename2 = all.filename
         book.append(all.book.short)
@@ -52,7 +54,67 @@ def show3(): #variants from txt files
         n['epi_author'] = all.epi_author
         n['epi_book'] = all.epi_book
         other.append(n)
-    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other)
+    #for res in table:
+    count = 0
+    s = []
+    n = 0
+    clear = [line for line in table[n] if not line.startswith('?') and '|' not in line]
+    while len(clear)>0:
+        if clear[count].startswith('-'):
+            try:
+                next_line = clear[count+1][2:]
+                cline = clear[count][2:]
+                p = ['(', ')', '[', ']', "’"]
+                for all in p:
+                    next_line = next_line.replace(all, '')
+                    cline = cline.replace(all, '')
+                next_line = re.findall(ur"\w+[ ]|\w+|[,]|[.]", next_line.decode('utf-8'), re.U)
+                next_line = [all.replace(' ', '') for all in next_line]
+                cline = re.findall(ur"\w+[ ]|\w+|[,]|[.]", cline.decode('utf-8'), re.U)
+                cline = [all.replace(' ', '') for all in cline]
+                d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
+                s1 = list(d.compare(cline, next_line))
+                s.append(s1)
+                clear.remove(clear[count+1])
+                c= next_line
+            except:
+                pass
+        else:
+            s.append(clear[count][2:].split())
+            #c = re.findall(ur"\w+[ ]|\w+|[,]|[.]", clear[count].decode('utf-8'), re.U)
+        clear.remove(clear[count])
+    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, n=n)
+
+def zatochnik():
+    #text = trymysql(trymysql.text1.id==10277).select().first()
+    variant = trymysql(trymysql.drafts.text==10277).select()
+    text = variant[int(request.args(0))]
+    variant.exclude((lambda r: r.id == text.id))
+    t1 = open(text.filename, 'rb')
+    text1 = t1.readlines()
+    table = []
+    for all in variant:
+        result = []
+        filename2 = all.filename
+        t2 = open(filename2, 'rb')
+        text2 = t2.readlines()
+        # сравниваем тексты
+        for l in text2:
+            t = text1[text2.index(l)]
+            p = ['(', ')', '[', ']', "’"]
+            for all in p:
+                t = t.replace(all, '')
+                l = l.replace(all, '')
+            l = re.findall(ur"\w+[ ]|\w+|[,]|[.]", l.decode('utf-8'), re.U)
+            l = [all.replace(' ', '') for all in l]
+            t = re.findall(ur"\w+[ ]|\w+|[,]|[.]", t.decode('utf-8'), re.U)
+            t = [all.replace(' ', '') for all in t]
+            d = difflib.Differ()
+            r = list(d.compare(l, t))
+            result.append(r)
+            t=''
+        table.append(result)
+    return dict(table=table, text=text)
 
 def show_variants(): # try to show xml
     t = '483'

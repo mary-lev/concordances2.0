@@ -16,6 +16,7 @@ function fade(div_id1, div_id2, button) {
 <td>        <input type="button" onclick="fade('test', '{{=table.index(result)}}', this)" value={{=book[0]}} class="content-button">
         <input type="button" onclick="fade('{{=table.index(result)}}', 'test', this)" value={{=book[table.index(result)+1]}} class="content-button">
     <p>&nbsp;
+     
 
 {{# <!-- подключаем заголовки, если они есть --> }}
 
@@ -54,3 +55,27 @@ function fade(div_id1, div_id2, button) {
     </ul>
 
 <h4>{{=text.author.name}} {{=text.author.family}}: {{=A("другие тексты", _href=URL("author", "all_author", args=text.author.id))}} </h4>
+<table>
+<tr>
+   <td> <p>{{=text.title}} and {{=other[n]['title']}}</p>
+{{count=0}}
+       <ol>
+{{for a in s:}}
+  <li>  {{for aa in a:}}
+        {{if aa.startswith('?'):}}
+
+        {{elif aa.startswith('+'):}}
+            <b>{{=aa}}</b>
+        {{elif aa.startswith('-'):}}
+            <i><strike>{{=aa}}</strike></i>
+        {{else:}}
+            {{=aa}} {{count +=1}}
+        {{pass}}
+    {{pass}} </li><br>
+{{pass}} </ol>
+
+{{=count}}
+</td>
+    <td>&nbsp;
+    </td>
+    </tr></table>

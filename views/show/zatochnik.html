@@ -1,0 +1,27 @@
+{{extend 'layout.html'}}
+<h1>Сравнение со списком: {{=text.title}}</h1>
+ <table>  <tr>
+     {{for all in table:}}
+    <td>
+         {{count=0}}
+         {{bcount=0}}
+         {{icount=0}}
+  <ol>
+        {{for a in all:}} 
+          <li>  {{for aa in a:}}
+                    {{if aa.startswith('?'):}}
+
+                    {{elif aa.startswith('+'):}}
+                        <b>{{=aa}}</b> {{bcount+=1}}
+                    {{elif aa.startswith('-'):}}
+                        <i><strike>{{=aa}}</strike></i> {{icount+=1}}
+                    {{else:}}
+                        {{=aa}} {{count+=1}}
+                    {{pass}}
+                {{pass}} </li><br>
+        {{pass}} </ol>
+        <p>Совпадения: {{=count}}
+        <p> Bold: {{=bcount}}
+        <p>Italic: {{=icount}} </td>
+    {{pass}}
+   </tr> </table>
