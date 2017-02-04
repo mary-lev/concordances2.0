@@ -3,6 +3,7 @@
 from xml.etree import cElementTree as ET
 import difflib
 import re
+import gensim
 
 def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
@@ -86,10 +87,9 @@ def show3(): #variants from txt files
     return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, n=n)
 
 def zatochnik():
-    #text = trymysql(trymysql.text1.id==10277).select().first()
     variant = trymysql(trymysql.drafts.text==10277).select()
     text = variant[int(request.args(0))]
-    variant.exclude((lambda r: r.id == text.id))
+    variant.exclude(lambda r: r.id == text.id)
     t1 = open(text.filename, 'rb')
     text1 = t1.readlines()
     table = []
@@ -110,11 +110,47 @@ def zatochnik():
             t = re.findall(ur"\w+[ ]|\w+|[,]|[.]", t.decode('utf-8'), re.U)
             t = [all.replace(' ', '') for all in t]
             d = difflib.Differ()
-            r = list(d.compare(l, t))
+            r = list(d.compare(t, l))
             result.append(r)
-            t=''
         table.append(result)
-    return dict(table=table, text=text)
+    counts = []
+    for result in table:
+        plus = 0
+        minus = 0
+        right = 0
+        for r in result:
+            for w in r:
+                if w.startswith('+'):
+                    plus += 1
+                elif w.startswith('-'):
+                    minus += 1
+                elif w.startswith('?') or w.startswith('.'):
+                    pass
+                else:
+                    right += 1
+        pr = (right*100)/(right+plus+minus)
+        counts.append([right, plus, minus, pr])
+    return dict(table=table, text=text, counts = counts)
+
+def all_zatochnik():
+    variant = trymysql(trymysql.drafts.text==10277).select()
+    text = []
+    titles = []
+    documents=[]
+    for all in variant:
+        docs = []
+        doc = []
+        titles.append(all.title)
+        t1 = open(all.filename, 'rb')
+        text1 = t1.readlines()
+        text.append(text1)
+        for l in text1:
+            doc = doc + l.split()
+        docs = gensim.models.doc2vec.TaggedDocument(words=doc, tags=[all.title])
+        documents.append(docs)
+    model = gensim.models.doc2vec.Doc2Vec(documents, size=100, window=5, min_count=1, workers=3)
+    c = model.docvecs.most_similar(1)
+    return dict(text=text, docs = docs, model=model, c=c, titles=titles)
 
 def show_variants(): # try to show xml
     t = '483'
