@@ -1,0 +1,13 @@
+{{extend 'layout.html'}}
+<h1>Слово Даниила Заточника</h1>
+<table border='1px'>
+    {{for x in range(0, 788):}}
+<tr>
+    <td>{{=text1[x]}} </td> <td>{{for n in range(0,10):}} {{if len(text[n][x])<=3:}} — {{else:}} {{=text[n][x]}} {{pass}} <br>{{pass}} </td> <td>{{for x in range(0,10):}} {{=text[x][0]}}<br>{{pass}}</td>
+
+</tr>
+
+{{pass}}
+    </table>
+
+{{=' '.join(text1)}}

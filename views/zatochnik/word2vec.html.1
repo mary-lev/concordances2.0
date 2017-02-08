@@ -1,0 +1,28 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон zatochnik/word2vec.html</h1>
+
+{{for all in titles:}}
+<h6>    {{=all}}</h6>
+    {{for s in model.docvecs.most_similar(titles.index(all)):}}
+        {{=s[0]}} {{=s[1]}} <br>
+    {{pass}}
+{{pass}}
+
+{{=IMG(_src=URL('static','plot2.png'))}}
+<img src='../static/images/plot2.png'>
+
+<p>{{=len(model.docvecs)}}</p>
+<p>
+{{=m}}
+    {{for all in dist:}}
+    {{=all}}<br>
+    {{pass}}
+
+<p>    {{=clusters}}
+    <p>{{for all in titles:}}
+        {{=all}}<br>
+        {{pass}}
+
+{{for all in docs:}}
+        {{=all}}<br>
+        {{pass}}

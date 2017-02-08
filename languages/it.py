@@ -248,5 +248,6 @@
 'You can modify this application and adapt it to your needs': 'Puoi modificare questa applicazione adattandola alle tue necessità',
 'You visited the url %s': "Hai visitato l'URL %s",
 'Админка': 'Админка',
+'Доступные функции': 'Доступные функции',
 'О проекте': 'О проекте',
 }

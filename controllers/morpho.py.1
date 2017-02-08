@@ -3,9 +3,10 @@ from plugin_sqleditable.editable import SQLEDITABLE
 SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
+import csv
 
 names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
-style = ['Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
+style = ['None', 'Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
 other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
 
 partos = ['None', 'NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
@@ -44,6 +45,18 @@ def parse_tags(tags, list_tags):
         if all != 'None':
             result = str(all)
     return dict(result=result)
+
+def slovar():
+    f = '/home/concordance/web2py/applications/test/corpus/slovar5.csv'
+    lines = []
+    with open(f, 'rb') as csvfile:
+        c = csv.reader(csvfile)
+        for all in c:
+            l = all.pop(0)
+            for w in all:
+                if len(w) > 0:
+                    trymysql.slovar.insert(word = l, pro = w)
+    return dict(message='OK')
 
 def count_partos(): # count categories by author
     new = []
@@ -168,13 +181,14 @@ def search_result():
             title=title1.title
             author= (title1.author.name, title1.author.family)
             string="..."
+            blue_word = all.lemma
             for x in range(all.id-6, all.id+6):
                 try:
                     for_string = trymysql(trymysql.allword.id==x).select()[0]
                     string= string + " " + str(for_string.lemma)
                 except:
                     pass
-            strings.append((string +"...", title, author, int(title1.id), all.id))
+            strings.append((string +"...", title, author, int(title1.id), all.id, blue_word))
     response.title = 'Результаты поиска'
     return dict(strings=strings, message=message)
 
@@ -187,35 +201,43 @@ def correct_word():
     return dict(form=form)
 
 def correct():
-    options2 = [OPTION(texts.name, " ", texts.family, _value=texts.id) for texts in trymysql().select(trymysql.author.ALL)]
-    record = trymysql.allword(request.args(0))
-    form=FORM(TABLE(TR("Часть речи",SELECT(*partos, _name="first", default = record.partos)),
-                    TR("Падеж",SELECT(*case, _name="second")),
-                    TR("Одушевленность",SELECT(*animacy, _name="animacy")),
-                    TR("Род", SELECT(*gender, _name="gender")),
-                    TR("Время", SELECT(*tenses, _name="tenses")),
-                    TR("Вид", SELECT(*aspect, _name = "aspect")),
-                    TR("Залог", SELECT(*voice, _name = "voice")),
-                    TR("Лицо", SELECT(*person, _name = "person")),
-                    TR("Переходность", SELECT(*trans, _name = "trans")),
-                    TR("Число", SELECT(*number, _name = "number")),
-                    TR("Наклонение", SELECT(*mood, _name="mood")),
-                    TR("Имена собственные", SELECT(*names, _name="names")),
+    record = trymysql(trymysql.allword.id==request.args(0)).select()[0]
+    text= trymysql(trymysql.text1.id == record.title).select()[0]
+    f = open(text.filename, 'rb')
+    author = text.author.family
+    a_name = text.author.name
+    title = text.title
+    content = f.readlines()
+    form=FORM(TABLE(TR("Слово", INPUT(_type='text', _name="word", value=record.word)),
+                    TR("Форма", INPUT(_type='text', _name = "lemma", value = record.lemma)),
+                    TR("Часть речи",SELECT(*partos, _name="first", value = record.partos)),
+                    TR("Падеж",SELECT(*case, _name="second", value=record.cas)),
+                    TR("Одушевленность",SELECT(*animacy, _name="animacy", value = record.anim)),
+                    TR("Род", SELECT(*gender, _name="gender", value = record.gendr)),
+                    TR("Время", SELECT(*tenses, _name="tenses", value = record.tense)),
+                    TR("Вид", SELECT(*aspect, _name = "aspect", value= record.aspect)),
+                    TR("Залог", SELECT(*voice, _name = "voice", value = record.voice)),
+                    TR("Лицо", SELECT(*person, _name = "person", value = record.person)),
+                    TR("Переходность", SELECT(*trans, _name = "trans", value = record.transitivity)),
+                    TR("Число", SELECT(*number, _name = "number", value = record.number)),
+                    TR("Наклонение", SELECT(*mood, _name="mood", value = record.mood)),
+                    TR("Имена собственные", SELECT(*names, _name="names", value = record.sobstv)),
+                    TR("Стиль", SELECT(*style, _name="style", value = record.style)),
                     TR("",INPUT(_type="submit",_value="SUBMIT"))))
-    if form.process(formname='form_one').accepted:
-        redirect(URL('search_result', args =
-                     [form.vars['first'],
-                      form.vars['second'],
-                      form.vars['animacy'],
-                      form.vars['gender'],
-                      form.vars['author'],
-                      form.vars['tenses'],
-                      form.vars['aspect'],
-                      form.vars['voice'],
-                      form.vars['person'],
-                      form.vars['trans'],
-                      form.vars['number'],
-                      form.vars['mood'],
-                      form.vars['names']]))
+    if form.process().accepted:
+        record.update_record(word = form.vars['word'],
+                      partos = form.vars['first'],
+                      cas = form.vars['second'],
+                      anim = form.vars['animacy'],
+                      gendr = form.vars['gender'],
+                      tense = form.vars['tense'],
+                      aspect = form.vars['aspect'],
+                      voice = form.vars['voice'],
+                      person = form.vars['person'],
+                      transitivity = form.vars['trans'],
+                      number = form.vars['number'],
+                      mood = form.vars['mood'],
+                      sobstv = form.vars['names'],
+                      style = form.vars['style'])
         response.flash="form accepted"
-    return dict(form=form)
+    return dict(form=form, content = content, author=author, a_name = a_name, title = title, word=record.lemma)

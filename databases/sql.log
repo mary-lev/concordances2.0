@@ -134116,3 +134116,19 @@ success!
 timestamp: 2017-01-21T14:52:35.056185
 ALTER TABLE old ADD first_string VARCHAR(512);
 success!
+timestamp: 2017-02-07T18:39:55.893602
+CREATE TABLE slovar(
+    id INT AUTO_INCREMENT NOT NULL,
+    word VARCHAR(512),
+    pro VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-02-08T10:33:50.108912
+CREATE TABLE slovar1(
+    id INT AUTO_INCREMENT NOT NULL,
+    word VARCHAR(512),
+    pro VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!

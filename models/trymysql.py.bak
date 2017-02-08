@@ -89,6 +89,10 @@ trymysql.define_table('allword',
                   Field('author', label="Автор"),
                   migrate=False,fake_migrate=True)
 
+trymysql.define_table('slovar',
+                      Field('word', label='Основа'),
+                      Field('pro', label='Производные'))
+
 trymysql.define_table('concordances',
                   Field('word', label="Слово"),
                   Field('partos', label="Часть речи"),
@@ -206,6 +210,7 @@ trymysql.define_table('old',
                       Field('author', trymysql.author),
                       Field('text', trymysql.text1),
                       Field('title', label="Название"),
+                      Field('first_string', label="Первая строка"),
                       Field('filename', 'string'),
                       Field('epi', 'text', label="Эпиграф"),
                       Field('epi_author', label="Автор эпиграфа"),

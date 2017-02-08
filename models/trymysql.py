@@ -89,6 +89,14 @@ trymysql.define_table('allword',
                   Field('author', label="Автор"),
                   migrate=False,fake_migrate=True)
 
+trymysql.define_table('slovar',
+                      Field('word', label='Основа'),
+                      Field('pro', label='Производные'))
+
+trymysql.define_table('slovar1',
+                      Field('word', label='Основа'),
+                      Field('pro', label='Производные'))
+
 trymysql.define_table('concordances',
                   Field('word', label="Слово"),
                   Field('partos', label="Часть речи"),

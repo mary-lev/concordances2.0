@@ -3,9 +3,7 @@ from plugin_sqleditable.editable import SQLEDITABLE
 SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
-#from pymystem3 import Mystem
-import subprocess
-from subprocess import Popen, PIPE, STDOUT
+import csv
 
 names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
 style = ['None', 'Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
@@ -47,6 +45,17 @@ def parse_tags(tags, list_tags):
         if all != 'None':
             result = str(all)
     return dict(result=result)
+
+def slovar():
+    for all in xrange(2000000, 2100000):
+        w = trymysql(trymysql.slovar.id==all).select()
+        if w:
+            w1 = trymysql(trymysql.slovar1.pro==w[0].pro).select()
+            if w1:
+                pass
+            else:
+                trymysql.slovar1.insert(word = w[0].word, pro = w[0].pro)
+    return dict(message='ok')
 
 def count_partos(): # count categories by author
     new = []

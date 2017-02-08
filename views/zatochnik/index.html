@@ -1,3 +1,29 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон zatochnik/index.html</h1>
-{{=BEAUTIFY(response._vars)}}
+<h1>Манипуляции со «Словом Даниила Заточника»</h1>
+
+<h3>
+    Сравнение списков
+</h3>
+<ul>
+    {{for all in texts:}}
+    <li>{{=all.title}}, {{=all.epi_author}}: {{=A('(в оригинальной орфографии', _href=URL('zatochnik', 'compare', args=[all.id, '0']))}}, {{=A('со снятием орфографических разночтений)', _href=URL('zatochnik', 'compare', args=[all.id, '1']))}} </li>
+    {{pass}}
+</ul>
+
+
+<h3>
+    Таблица построчная
+</h3>
+<ul>
+    {{for all in texts:}}
+    <li>{{=all.title}} ({{=A('со снятием орфографии', _href=URL('zatochnik', 'table', args=[all.id, '0']))}}, {{=A('в оригинальной орфографии', _href=URL('zatochnik', 'table', args=[all.id, '1']))}})</li>
+    {{pass}}
+</ul>
+
+
+<h3>Векторный анализ близости списков</h3>
+    <ul>
+        <li>{{=A('Оригинальная орфография', _href=URL('zatochnik', 'word2vec', args='0'))}}</li>
+        <li>{{=A('Со снятием орфографических и пунктуационных разночтений', _href=URL('zatochnik', 'word2vec', args='1'))}}</li>
+    </ul>
+</h3>

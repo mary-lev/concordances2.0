@@ -82,8 +82,9 @@ def ask_model():
 def resp_model():
     model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/model_from_10_win2_size300")
     model1 = gensim.models.Word2Vec.load('/home/concordance/deposit/model10t_20_15')
+    model2 = gensim.models.Word2Vec.load('/home/concordance/web2py/applications/test/uploads/models/xx_stemmed_10_10_300')
     words = request.vars.first
-    return dict(model=model, words=words, model1=model1)
+    return dict(model=model, words=words, model1=model1, model2=model2)
 
 def doc2vec():
     documents = []
