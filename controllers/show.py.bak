@@ -47,7 +47,6 @@ def show3(): #variants from txt files
         result = list(d.compare(text1, text2))
         table.append(result)
         biblio1.append(trymysql(trymysql.biblio.id==all.book).select()[0])
-#str(all.book.id) + '. '+ all.book.title + '. ' + all.book.city + ': ' + all.book.editor + ', ' + all.book.year + '. ' + all.book.part + ". C. " + all.book_page + '.')
         n = {}
         n['title'] = all.title.upper()
         n['dedication'] = all.dedication
@@ -55,102 +54,37 @@ def show3(): #variants from txt files
         n['epi_author'] = all.epi_author
         n['epi_book'] = all.epi_book
         other.append(n)
-    #for res in table:
-    count = 0
-    s = []
-    n = 0
-    clear = [line for line in table[n] if not line.startswith('?') and '|' not in line]
-    while len(clear)>0:
-        if clear[count].startswith('-'):
-            try:
-                next_line = clear[count+1][2:]
-                cline = clear[count][2:]
-                p = ['(', ')', '[', ']', "’"]
-                for all in p:
-                    next_line = next_line.replace(all, '')
-                    cline = cline.replace(all, '')
-                next_line = re.findall(ur"\w+[ ]|\w+|[,]|[.]", next_line.decode('utf-8'), re.U)
-                next_line = [all.replace(' ', '') for all in next_line]
-                cline = re.findall(ur"\w+[ ]|\w+|[,]|[.]", cline.decode('utf-8'), re.U)
-                cline = [all.replace(' ', '') for all in cline]
-                d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
-                s1 = list(d.compare(cline, next_line))
-                s.append(s1)
-                clear.remove(clear[count+1])
-                c= next_line
-            except:
-                pass
-        else:
-            s.append(clear[count][2:].split())
-            #c = re.findall(ur"\w+[ ]|\w+|[,]|[.]", clear[count].decode('utf-8'), re.U)
-        clear.remove(clear[count])
-    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, n=n)
-
-def zatochnik():
-    variant = trymysql(trymysql.drafts.text==10277).select()
-    text = variant[int(request.args(0))]
-    variant.exclude(lambda r: r.id == text.id)
-    t1 = open(text.filename, 'rb')
-    text1 = t1.readlines()
-    table = []
-    for all in variant:
-        result = []
-        filename2 = all.filename
-        t2 = open(filename2, 'rb')
-        text2 = t2.readlines()
-        # сравниваем тексты
-        for l in text2:
-            t = text1[text2.index(l)]
-            p = ['(', ')', '[', ']', "’"]
-            for all in p:
-                t = t.replace(all, '')
-                l = l.replace(all, '')
-            l = re.findall(ur"\w+[ ]|\w+|[,]|[.]", l.decode('utf-8'), re.U)
-            l = [all.replace(' ', '') for all in l]
-            t = re.findall(ur"\w+[ ]|\w+|[,]|[.]", t.decode('utf-8'), re.U)
-            t = [all.replace(' ', '') for all in t]
-            d = difflib.Differ()
-            r = list(d.compare(t, l))
-            result.append(r)
-        table.append(result)
-    counts = []
-    for result in table:
-        plus = 0
-        minus = 0
-        right = 0
-        for r in result:
-            for w in r:
-                if w.startswith('+'):
-                    plus += 1
-                elif w.startswith('-'):
-                    minus += 1
-                elif w.startswith('?') or w.startswith('.'):
+    ss = []
+    for res in table:
+        count = 0
+        s = []
+        n = 0
+        clear = [line for line in res if not line.startswith('?')]
+        while len(clear)>0:
+            if clear[count].startswith('-') and clear[count+1].startswith('+'):
+                try:
+                    next_line = clear_line(clear[count+1][2:])
+                    cline = clear_line(clear[count][2:])
+                    d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
+                    s1 = list(d.compare(cline, next_line))
+                    s.append(s1)
+                    clear.remove(clear[count+1])
+                except:
                     pass
-                else:
-                    right += 1
-        pr = (right*100)/(right+plus+minus)
-        counts.append([right, plus, minus, pr])
-    return dict(table=table, text=text, counts = counts)
+            elif clear[count].startswith('-'):
+                s.append(['- ' + all for all in clear[count][2:].split()])
+            elif clear[count].startswith('+'):
+                s.append(['+ ' + all for all in clear[count][2:].split()])
+            else:
+                s.append(clear[count].split())
+            clear.remove(clear[count])
+        ss.append(s)
+    return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, ss=ss, n=n)
 
-def all_zatochnik():
-    variant = trymysql(trymysql.drafts.text==10277).select()
-    text = []
-    titles = []
-    documents=[]
-    for all in variant:
-        docs = []
-        doc = []
-        titles.append(all.title)
-        t1 = open(all.filename, 'rb')
-        text1 = t1.readlines()
-        text.append(text1)
-        for l in text1:
-            doc = doc + l.split()
-        docs = gensim.models.doc2vec.TaggedDocument(words=doc, tags=[all.title])
-        documents.append(docs)
-    model = gensim.models.doc2vec.Doc2Vec(documents, size=100, window=8, min_count=1, workers=3)
-    c = model.docvecs.most_similar(1)
-    return dict(text=text, docs = docs, model=model, c=c, titles=titles)
+def clear_line(line):
+    line = re.findall(ur"\w+[ ]|\w+|[,]|[.][—]", line.decode('utf-8'), re.U)
+    line = [all.replace(' ', '') for all in line]
+    return line
 
 def show_variants(): # try to show xml
     t = '483'

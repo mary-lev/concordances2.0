@@ -9,43 +9,40 @@ function fade(div_id1, div_id2, button) {
 }
 </script>
 
-<p>
 <table>
-<tr>
-{{for result in table:}}
-<td>        <input type="button" onclick="fade('test', '{{=table.index(result)}}', this)" value={{=book[0]}} class="content-button">
-        <input type="button" onclick="fade('{{=table.index(result)}}', 'test', this)" value={{=book[table.index(result)+1]}} class="content-button">
+<tr>{{for s in ss:}}
+<td>        <input type="button" onclick="fade('test', '{{=ss.index(s)}}', this)" value={{=book[0]}} class="content-button">
+        <input type="button" onclick="fade('{{=ss.index(s)}}', 'test', this)" value={{=book[ss.index(s)+1]}} class="content-button">
     <p>&nbsp;
-     
-
 {{# <!-- подключаем заголовки, если они есть --> }}
-
         {{if text.title:}}
-        <h4 style="color:green" class="{{=table.index(result)}}">{{=text.title}}</h4>
+        <h4 style="color:green" class="{{=ss.index(s)}}">{{=text.title}}</h4>
         {{else:}}
         {{pass}}
-        {{if other[table.index(result)]['title']:}}
-        <h4 class="test" style="color:blue">{{=other[table.index(result)]['title']}}</h4>
+        {{if other[ss.index(s)]['title']:}}
+        <h4 class="test" style="color:blue">{{=other[ss.index(s)]['title']}}</h4>
         {{else:}}
             <h4>* * *</h4>
 {{pass}}
 
-<p>{{for r in result:}}
-
-      {{if r.startswith('+'):}}
-            <p style="color:blue" class="test">{{=r[2:]}}</p>
-      {{elif r.startswith('-'):}}
-            <p style="color:green" class="{{=table.index(result)}}">{{=r[2:]}}</p>
-      {{elif not r.startswith('?'):}}
-            <p>{{=r}}
-      {{else:}}
-           {{r=r}}
-      {{pass}}
-   {{pass}}
-</td>
+<p>
+{{for w in s:}}
+  {{for aa in w:}}
+        {{if '|' in aa or aa.startswith('?'):}}
+            {{aa=aa}}
+        {{elif aa.startswith('+'):}}
+            <u><b style="color:blue" class="test">{{=aa[2:]}}</b></u>
+        {{elif aa.startswith('-'):}}
+            <i style="color:green" class="{{=ss.index(s)}}">{{=aa[2:]}}</i>
+        {{else:}}
+            {{=aa}}
+        {{pass}}
+    {{pass}} <br>
+{{pass}}</td>
 {{pass}}
-</tr>
-</table>
+
+  </tr></table>
+
 
 <ul>
     <li>{{=biblio[0]}}</li>
@@ -55,27 +52,3 @@ function fade(div_id1, div_id2, button) {
     </ul>
 
 <h4>{{=text.author.name}} {{=text.author.family}}: {{=A("другие тексты", _href=URL("author", "all_author", args=text.author.id))}} </h4>
-<table>
-<tr>
-   <td> <p>{{=text.title}} and {{=other[n]['title']}}</p>
-{{count=0}}
-       <ol>
-{{for a in s:}}
-  <li>  {{for aa in a:}}
-        {{if aa.startswith('?'):}}
-
-        {{elif aa.startswith('+'):}}
-            <b>{{=aa}}</b>
-        {{elif aa.startswith('-'):}}
-            <i><strike>{{=aa}}</strike></i>
-        {{else:}}
-            {{=aa}} {{count +=1}}
-        {{pass}}
-    {{pass}} </li><br>
-{{pass}} </ol>
-
-{{=count}}
-</td>
-    <td>&nbsp;
-    </td>
-    </tr></table>
