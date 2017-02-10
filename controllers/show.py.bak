@@ -63,8 +63,10 @@ def show3(): #variants from txt files
         while len(clear)>0:
             if clear[count].startswith('-') and clear[count+1].startswith('+'):
                 try:
-                    next_line = clear_line(clear[count+1][2:])
-                    cline = clear_line(clear[count][2:])
+                    #next_line = clear_line(clear[count+1][2:])
+                    next_line=clear[count+1][2:].split()
+                    #cline = clear_line(clear[count][2:])
+                    cline = clear[count][2:].split()
                     d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
                     s1 = list(d.compare(cline, next_line))
                     s.append(s1)
@@ -135,16 +137,33 @@ def show_old(): # показываем текст в старой орфогра
     return dict(text=text, old_text=old_text, content=content, ocontent=ocontent)
 
 def show_page(): # показываем страницу книги, текст в оригинальной орфографии и текст в старой орфографии
-    text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first()
+    text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first() # вариант текста в книге в старой орфографии
     with open(text.filename, 'rb') as f:
         old = f.readlines()
-    # page = trymysql((trymysql.page.text==request.args(0))&(trymysql.page.book==request.args(1))).select().first()
-    u = 'books/' + str(request.args(1)) + '/' + text.book_page + '.png'
-    book = request.args(1)
-    new = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first()
+    u = 'books/' + str(request.args(1)) + '/' + text.book_page + '.png' # файл со сканом страницы
+    pages = [all.book_page for all in trymysql(trymysql.old.book==request.args(1)).select()] # все первые страницы текстов книги (типа оглавление)
+    page_num = int(request.args(2)) + int(text.book_page) # номер страницы со стихотворением
+    if page_num in pages:
+        pass
+    else:
+        u = 'books/' + str(request.args(1)) + '/' + str(page_num) + '.png'
+    next_page = page_num + 1
+    if str(next_page) not in pages:
+        if text_book.page == pages[-1]:
+            u2 = False
+        else:
+            u2 = [request.args(0), request.args(1), int(request.args(2))+1]
+    else:
+        next_text = trymysql((trymysql.old.book_page==str(next_page))&(trymysql.old.book==request.args(1))).select().first()
+        if next_text:
+            u2 = [next_text.text.id, request.args(1), '0']
+        else:
+            u2 = False
+    book = request.args(1) # номер книги
+    new = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first() # вариант текста в книге (в новой орфографии)
     with open(new.filename, 'rb') as f1:
         new = f1.readlines()
-    return dict(old=old, new=new, text=text, u=u, book=book)
+    return dict(old=old, new=new, text=text, u=u, book=book, u2=u2, pages=pages, next_page=next_page)
 
 def show_book():
     book = trymysql(trymysql.biblio.id==request.args(0)).select()[0]

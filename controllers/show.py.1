@@ -63,27 +63,28 @@ def show3(): #variants from txt files
         while len(clear)>0:
             if clear[count].startswith('-') and clear[count+1].startswith('+'):
                 try:
-                    next_line = clear_line(clear[count+1][2:])
-                    cline = clear_line(clear[count][2:])
+                    #next_line = clear_line(clear[count+1][2:])
+                    next_line=clear[count+1][2:].split()
+                    #cline = clear_line(clear[count][2:])
+                    cline = clear[count][2:].split()
                     d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
                     s1 = list(d.compare(cline, next_line))
                     s.append(s1)
                     clear.remove(clear[count+1])
                 except:
                     pass
+            elif clear[count].startswith('-'):
+                s.append(['- ' + all for all in clear[count][2:].split()])
             elif clear[count].startswith('+'):
-                s.append(['+' + all for all in clear[count].split()])
+                s.append(['+ ' + all for all in clear[count][2:].split()])
             else:
                 s.append(clear[count].split())
             clear.remove(clear[count])
         ss.append(s)
     return dict(book=book, table=table, text=text, biblio=biblio, biblio1=biblio1, other=other, s=s, ss=ss, n=n)
 
-p = ['(', ')', '[', ']', "’"]
 def clear_line(line):
-    for all in p:
-        line = line.replace(all, '')
-    line = re.findall(ur"\w+[ ]|\w+|[,]|[.]", line.decode('utf-8'), re.U)
+    line = re.findall(ur"\w+[ ]|\w+|[,]|[.][—]", line.decode('utf-8'), re.U)
     line = [all.replace(' ', '') for all in line]
     return line
 
@@ -136,13 +137,18 @@ def show_old(): # показываем текст в старой орфогра
     return dict(text=text, old_text=old_text, content=content, ocontent=ocontent)
 
 def show_page(): # показываем страницу книги, текст в оригинальной орфографии и текст в старой орфографии
-    text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first()
+    text = trymysql((trymysql.old.text==request.args(0))&(trymysql.old.book==request.args(1))).select().first() # вариант текста в книге в старой орфографии
     with open(text.filename, 'rb') as f:
         old = f.readlines()
-    # page = trymysql((trymysql.page.text==request.args(0))&(trymysql.page.book==request.args(1))).select().first()
-    u = 'books/' + str(request.args(1)) + '/' + text.book_page + '.png'
-    book = request.args(1)
-    new = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first()
+    u = 'books/' + str(request.args(1)) + '/' + text.book_page + '.png' # файл со сканом страницы
+    pages = trymysql(trymysql.old.book==request.args(1)).select(trymysql.old.book_page) # все первые страницы текстов книги (типа оглавление)
+    page_num = int(request.args(2)) + int(text.book_page) # номер страницы со стихотворением
+    if page_num in pages:
+        pass
+    else:
+        u = 'books/' + str(request.args(1)) + '/' + str(page_num) + '.png'
+    book = request.args(1) # номер книги
+    new = trymysql((trymysql.drafts.text==request.args(0))&(trymysql.drafts.book==request.args(1))).select().first() # вариант текста в книге (в новой орфографии)
     with open(new.filename, 'rb') as f1:
         new = f1.readlines()
     return dict(old=old, new=new, text=text, u=u, book=book)

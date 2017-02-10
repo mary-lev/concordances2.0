@@ -15,7 +15,7 @@
 
 {{for all in old:}}
     {{if all.title:}} {{c = all.title}} {{else:}} {{c = all.first_string}} {{pass}}
-    C. {{=all.book_page}}. {{=A(c, _href=URL('show', 'show_page', args=[all.text, book.id]))}}. {{=A('(Страница, ', _href=URL('show', 'show_page', args=[all.text.id, book.id]))}} {{=I(A('варианты)', _href=URL('show', 'show3', args=all.text.id)))}}   <br>
+    C. {{=all.book_page}}. {{=A(c, _href=URL('show', 'show_page', args=[all.text, book.id, '0']))}}. {{=A('(Страница, ', _href=URL('show', 'show_page', args=[all.text.id, book.id, '0']))}} {{=I(A('варианты)', _href=URL('show', 'show3', args=all.text.id)))}}   <br>
 {{pass}}
 {{pass}}
 

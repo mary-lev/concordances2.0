@@ -21,7 +21,11 @@
 
 <h6> Сегодня, {{=d}} {{=m}}, были написаны тексты:</h6>
             {{for all in day:}}
-            <li>{{=A(all.title, ". ", all.first_string, ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            {{if all.title:}}
+            <li>{{=A(all.title, ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            {{else:}}
+            <li>{{=A('«', all.first_string, '»', ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            {{pass}}
             {{pass}}
 
             {{include}}
@@ -40,8 +44,16 @@
   <li>{{=A("Стихосложение", _href=URL("rhyme", "index"))}}</li>
     <li>{{=A("Частотный словарь", _href=URL('concordance', 'create_concordance'))}}</li>
     <li>{{=A("Векторная модель", _href=URL('concordance', 'ask_model'))}}</li>
+    <li>{{=A("Слово Даниила Заточника", _href=URL('zatochnik', 'index'))}}</li>
 
 <!--  <li><a href = 'https://concordance.pythonanywhere.com/test/morpho/count_partos.html'>Морфологическая статистика</a></li> -->
 
+</ul>
+
+<h4>Издания</h4>
+<ul>
+    {{for all in books:}}
+    <li>{{if all.author:}} {{=all.author.family}} {{=all.author.name}}. {{else:}} {{pass}} {{=A(all.title, _href=URL('show', 'show_book', args=all.id))}}. {{=all.year}}{{if all.part:}}. {{=all.part}} {{pass}}</li>
+    {{pass}}
 </ul>
 {{end}}

@@ -5,8 +5,19 @@
     <tr>
         <td style="vertical-align: middle"> {{for all in new:}} {{if '|' not in all:}} {{=all}}<br> {{else:}} <br>{{pass}}{{pass}}</td>
         <td style="vertical-align: middle"> {{for all in old:}} {{=all}} <br> {{pass}}</td>
-        <td>{{=IMG(_src=URL('static', u), _width="500px", _style='border-image: blue 1px')}}</td>
+        <td>{{=IMG(_src=URL('static', u), _width="500px", _style='border: 1px solid blue;')}}</td>
    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        {{if u2:}}
+        <td>{{=A('Следующая страница', _href=URL('show', 'show_page', args=u2))}}</td>
+        {{else:}}
+        <td>{{=A('Оглавление книги', _href=URL('show', 'show_book', args=book))}}</td>
+        {{pass}}
+    </tr>
 </table>
 
 <p> {{=A('Назад к книге', _href=URL('show', 'show_book', args=book))}}
+
+<p> {{=A('Варианты текста', _href=URL('show', 'show3', args=text.text.id))}}

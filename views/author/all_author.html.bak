@@ -33,6 +33,6 @@
 
 <h3>{{=T("Публикации")}}</h3>
 {{for all in publ:}}
- <li> {{=A(all.title, _href=URL("show", "show_book", args=all.id))}} ({{=all.year}})</li>
+ <li> {{=A(all.title, _href=URL("show", "show_book", args=all.id))}} {{if all.part:}} {{=all.year}}. {{=all.part}} {{else:}} ({{=all.year}}) {{pass}}</li>
 {{pass}}
 {{end}}

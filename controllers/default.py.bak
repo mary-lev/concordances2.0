@@ -13,14 +13,9 @@ from datetime import date
 months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
 
 def index():
-    """
-    example action using the internationalization operator T and flash
-    rendered by views/default/index.html or views/generic.html
+    texts = trymysql(trymysql.author!='23').select(orderby=trymysql.author.family)
 
-    if you need a simple wiki simply replace the two lines below with:
-    return auth.wiki()
-    """
-    texts = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
+    # Блок "Сегодня написаны тексты"
     numbers = []
     n = 0
     today = date.today()
@@ -29,12 +24,15 @@ def index():
         month = '0' + str(today.month)
     else:
         month = str(today.month)
-    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select()
+    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select(orderby=trymysql.text1.year_writing)
     for all in texts:
         number = trymysql(trymysql.text1.author==all.id).count()
         numbers.append([all.name, all.family,all.id, number])
         n += number
-    return dict(texts=texts, numbers=numbers, n = n, day=day, d = today.day, m = m)
+
+    ex = ['5', '7', '10', '11', '17'] # исключаем не-книжки из блока "Издания"
+    books = trymysql(~trymysql.biblio.id.belongs(ex)).select(orderby=trymysql.biblio.short)
+    return dict(texts=texts, numbers=numbers, n = n, day=day, d = today.day, m = m, books=books)
 
 def user():
     """
