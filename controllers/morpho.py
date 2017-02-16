@@ -46,16 +46,73 @@ def parse_tags(tags, list_tags):
             result = str(all)
     return dict(result=result)
 
+ytense = ['tense', 'praes',	'inpraes', 'praet']
+ycase = ['case', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
+ynum = ['number', 'sg', 'pl']
+yverb = ['verb', 'ger', 'inf', 'partcp', 'indic', 'imper']
+yform = ['form', 'brev', 'plen', 'poss']
+ycomp = ['comp', 'supr', 'comp']
+yperson = ['person', '1p', '2p', '3p']
+ygender = ['gender', 'm', 'f', 'n']
+yaspect = ['aspect', 'ipf', 'pf']
+yvoice = ['voice', 'act', 'pass']
+yanim = ['anim', 'anim', 'inan']
+ytrans = ['trans', 'tran', 'intr']
+yother = ['other', 'parenth', 'geo', 'awkw', 'persn', 'dist', 'mf', 'obsc', 'patrn', 'praed', 'inform', 'rare', 'abbr', 'obsol', 'famn']
+
+all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect, yvoice, yanim, ytrans, yother]
+
+@auth.requires_login()
 def slovar():
-    for all in xrange(2000000, 2100000):
-        w = trymysql(trymysql.slovar.id==all).select()
-        if w:
-            w1 = trymysql(trymysql.slovar1.pro==w[0].pro).select()
-            if w1:
-                pass
+    all_texts = trymysql((trymysql.text1.id>9999)&(trymysql.text1.id<10261)).select()
+    all_texts = [[all.id, all.filename, all.author] for all in all_texts]
+    for f in all_texts:
+        #f = '/home/concordance/web2py/applications/test/corpus/1/gram/1.txt'
+        text = f[0]
+        z = 'corpus/' + str(f[2]) + '/'
+        z2 = 'corpus/' + str(f[2]) + '/gram/'
+        filename = f[1].replace(z, z2)
+        author = f[2]
+        with open (filename, 'rb') as fi:
+            texts = fi.readlines()
+        #words = []
+        for all in texts:
+            num = {}
+            if '_' not in all and '.' not in all and '\\' not in all:
+                new = all.split('=')
+                num['word'] = new[0]
+                l = []
+                if len(new) > 2:
+                    if '|' in new[2]:
+                        point = new[2].find('|')
+                        ptime = new[2][1:point].split(',')
+                    else:
+                        ptime = new[2].split(',')
+                    l += ptime
+                if len(new) > 1:
+                    partos = new[1].split(',')
+                    num['part'] = partos.pop(0)
+                    l += partos
+                num['l'] = l
+                l = [all.replace('\n', '') for all in l]
+                for p in all_parts:
+                    num[p[0]] = ''.join(set(p).intersection(l))
+                try:
+                    d.mystem.insert(word = num['word'], title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], comp = num['comp'], number = num['number'], \
+                               cas = num['case'], tense = num['tense'], aspect = num['aspect'], person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
+                               other = num['other'], author = author)
+                except:
+                    d.mystem.insert(word = new, title=text, author=author, partos = 'None')
             else:
-                trymysql.slovar1.insert(word = w[0].word, pro = w[0].pro)
-    return dict(message='ok')
+                if all != '_':
+                    num['all'] = all
+                    w = all.replace('_', '').replace('\\\n', '').replace('\\u2014', '').replace('\\n', '').replace('\n', '')
+                    if len(w) > 0:
+                        #num['word'] = w
+                        #num['part'] = 'PNCT'
+                        d.mystem.insert(title=text, author =author, word=w, partos='PNCT')
+            #words.append(num)
+    return dict(new=new)
 
 def count_partos(): # count categories by author
     new = []

@@ -9,9 +9,6 @@ function fade(div_id1, div_id2, button) {
 }
 </script>
 
-<p>
-<h4>{{if text.title or other[n]['title']:}} {{=text.title}} {{=other[n]['title']}} {{else:}} * * * {{pass}}</h4>
-
 <table>
 <tr>{{for s in ss:}}
 <td>        <input type="button" onclick="fade('test', '{{=ss.index(s)}}', this)" value={{=book[0]}} class="content-button">
@@ -50,7 +47,7 @@ function fade(div_id1, div_id2, button) {
 <ul>
     <li>{{=biblio[0]}}</li>
 {{for all in biblio1:}}
-<li>{{=A(all.short, ' — ', all.title, '. ', all.city, ': ', all.editor, ', ', all.year, '.', _href=URL('show', 'show_book', args=all.id))}}</li>
+<li>{{=A(all.short, ' — ', all.title, '.', _href=URL('show', 'show_book', args=all.id))}} {{if all.city:}} {{=all.city}}, ': ',{{pass}} {{if all.editor:}} {{=all.editor}}, ', ', {{pass}} {{if all.year:}} {{=all.year}}, '.', {{pass}} {{if all.part:}} {{=all.part}} {{pass}}</li>
 {{pass}}
     </ul>
 

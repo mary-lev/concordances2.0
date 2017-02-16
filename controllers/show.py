@@ -61,20 +61,19 @@ def show3(): #variants from txt files
         n = 0
         clear = [line for line in res if not line.startswith('?')]
         while len(clear)>0:
-            if clear[count].startswith('-') and clear[count+1].startswith('+'):
-                try:
-                    #next_line = clear_line(clear[count+1][2:])
-                    next_line=clear[count+1][2:].split()
-                    #cline = clear_line(clear[count][2:])
-                    cline = clear[count][2:].split()
-                    d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
-                    s1 = list(d.compare(cline, next_line))
-                    s.append(s1)
-                    clear.remove(clear[count+1])
-                except:
-                    pass
-            elif clear[count].startswith('-'):
-                s.append(['- ' + all for all in clear[count][2:].split()])
+            if clear[count].startswith('-'):
+                if len(clear)>1:
+                    if clear[count+1].startswith('+'):
+                        next_line=clear[count+1][2:].split()
+                        cline = clear[count][2:].split()
+                        d = difflib.Differ(charjunk=difflib.IS_CHARACTER_JUNK )
+                        s1 = list(d.compare(cline, next_line))
+                        s.append(s1)
+                        clear.remove(clear[count+1])
+                    else:
+                        s.append(['- ' + all for all in clear[count][2:].split()])
+                else:
+                     s.append(['- ' + all for all in clear[count][2:].split()])
             elif clear[count].startswith('+'):
                 s.append(['+ ' + all for all in clear[count][2:].split()])
             else:
