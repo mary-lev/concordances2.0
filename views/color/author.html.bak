@@ -11,7 +11,7 @@
     var pie = new d3pie("pieChart2", {
 	"header": {
 		"title": { "text": "Цвета в русской поэзии", "fontSize": 24, "font": "open sans"},
-        "subtitle": {"text": "Автор: {{=author.family}}", "color": "#999999", "fontSize": 12, "font": "open sans" },
+        "subtitle": {"text": "Автор: {{=author.name}} {{=author.family}}", "color": "#999999", "fontSize": 12, "font": "open sans" },
 		"titleSubtitlePadding": 9
             },
 	"footer": {	"color": "#999999", "fontSize": 10, "font": "open sans", "location": "bottom-left"	},
@@ -19,10 +19,10 @@
 	"data": {
 
 		"content": [
+            {"label": "Розовый", "value": {{=colours2[9]}},	"color": "#E7ACCF"},
             {"label": "Красный", "value": {{=colours2[3]}},	"color": "#cb2121"},
             {"label": "Багровый", "value": {{=colours2[18]}},	"color": "#cb2121"},
             {"label": "Багряный", "value": {{=colours2[19]}},	"color": "#cb2121"},
-            {"label": "Розовый", "value": {{=colours2[9]}},	"color": "#E7ACCF"},
             {"label": "Алый",	"value": {{=colours2[14]}},	"color": "#FF2400"},
 			{"label": "Желтый",	"value": {{=colours2[5]}},	"color": "#FFF44F"},
             {"label": "Золотой",  "value": {{=colours2[1]}}, "color": "#F7D358"},

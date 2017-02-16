@@ -6,7 +6,10 @@
 {{extend 'layout.html'}}
 
 {{=DIV(_id="pieChart")}}
-{{=all_colours}} / {{=all}}
+{{=all_colours}} цветообозначений на {{=all_words}} слов корпуса<br>
+Это {{=proc}} %.
+{{=colours2}}
+
 
 <h3>Сравнить поэтические сборники:</h3>
 {{=form}}
@@ -62,12 +65,12 @@
 			{"label": "Синий",	"value": {{=colours2[8]}},	"color": "#0000FF"},
             {"label": "Пурпур",	"value": {{=colours2[10]}},	"color": "#800080"},
 			{"label": "Фиолетовый",	"value": {{=colours2[11]}},	"color": "#8F00FF"},
-                        {"label": "Лиловый",	"value": {{=colours2[20]}},	"color": "#B666D2"},
-                         {"label": "Сиреневый",	"value": {{=colours2[21]}},	"color": "#9F00FF"},
+            {"label": "Лиловый",	"value": {{=colours2[20]}},	"color": "#B666D2"},
+            {"label": "Сиреневый",	"value": {{=colours2[21]}},	"color": "#9F00FF"},
 			{"label": "Коричневый",	"value": {{=colours2[7]}},	"color": "#6B420F"},
 			{"label": "Серый",	"value": {{=colours2[12]}},	"color": "#808080"},
-                        {"label": "Серебряный",	"value": {{=colours2[23]}},	"color": "#C0C0C0"},
-                        {"label": "Сизый",	"value": {{=colours2[22]}},	"color": "#7C7474"},
+            {"label": "Серебряный",	"value": {{=colours2[23]}},	"color": "#C0C0C0"},
+            {"label": "Сизый",	"value": {{=colours2[22]}},	"color": "#7C7474"},
             {"label": "Черный",	"value": {{=colours2[6]}},	"color": "#000000"},
             {"label": "Белый",	"value": {{=colours2[4]}},	"color": "#FFFFFF"}
 		]

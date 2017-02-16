@@ -4,14 +4,17 @@ color=["зелёный", "золотой", "голубой", "красный", "
 
 color2=["зеленый", "золото", "голубой", "красный", "белый", "желтый", "черный", "коричневый", "синий", "розовый", "пурпур", "фиолетовый", "серый", "лазурь", "алый", "рыжий", "бирюза", 'оранжевый', 'багровый', 'багряный', 'лиловый', 'сирень', 'сизый', 'серебро']
 
+colorfile = '/home/concordance/web2py/applications/test/corpus/colors.txt'
+
 def index():
-    colours2 = []
-    for all in color2:
-        all_words = [w.pro for w in trymysql(trymysql.slovar1.word==all).select()]
-        words_count = d(d.mystem.word.belongs(all_words)).count()
-        colours2.append(words_count)
-    all_colours = sum(colours2)
-    all_w = d(d.mystem.partos!="None").count()
+    with open(colorfile, 'r') as f:
+        data = f.readlines()
+    ints = [[int(a) for a in i.split(',')] for i in data]
+    colours2 = [sum(i) for i in zip(*ints)]
+    colours2.pop(0) # убираем первый элемент списка (id авторов)
+    all_words = colours2.pop(-1) # выбираем последний элемент списка - сумма всех слов всех авторов
+    all_colours = sum(colours2) # считаем количество цветообозначений
+    proc = round(float(all_colours)/float(all_words) * 100, 3) # считаем процент цветообозначений
     authors = trymysql().select(trymysql.author.ALL)
     options = [OPTION(texts.title, _value=texts.id) for texts in trymysql().select(trymysql.group_text.ALL)]
     form=FORM(TABLE(TR("Выберите первый текст",SELECT(*options, _name="first")),
@@ -27,7 +30,7 @@ def index():
     if form2.process(formname='form_two').accepted:
         redirect(URL('author_compare', args = [form2.vars['first1'], form2.vars['second1']]))
         response.flash="form accepted"
-    return dict(colours2=colours2, all_colours=all_colours, all_w=all_w, authors=authors, form=form, form2=form2)
+    return dict(colours2=colours2, all_colours=all_colours, all_words=all_words, authors=authors, form=form, form2=form2, proc=proc)
 
 def index1():
     authors = trymysql().select(trymysql.author.ALL)
@@ -48,24 +51,31 @@ def index1():
 
 def author():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
-    all_colours2=[]
+    with open(colorfile, 'r') as f:
+        data = f.readlines()
+    for all in data:
+        all = all.split(',')
+        if all[0] == str(author1.id):
+            all.pop(0)
+            all_words2 = int(all.pop(-1))
+            colours2 = [int(d) for d in all]
+    proc = round(float(sum(colours2))/float(all_words2) * 100, 3)
+    return dict(colours2=colours2, all_words2=all_words2, author=author1, proc=proc)
+
+def author_index(): # сохраняем авторские данные в текстовый файл для ускорения рисования кружочков
+    author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
+    result=[str(author1.id)]
     for all in color2:
         all_word = [w.pro for w in trymysql(trymysql.slovar1.word==all).select()]
         all_word.append(all)
         summa = d((d.mystem.word.belongs(all_word))&(d.mystem.author==request.args(0))).count()
-        all_colours2.append(summa)
+        result.append(str(summa))
     all_words2 = d((d.mystem.author==request.args(0))&(d.mystem.partos!='None')).count()
-    return dict(colours2=all_colours2, all_words2=all_words2, author=author1)
-
-def author_index(): # форма для выбора двух текстов, передает id текста для операци сравнения лексики (compare)
-    options2 = [OPTION(texts.name, " ", texts.family, _value=texts.id) for texts in trymysql().select(trymysql.author.ALL)]
-    form=FORM(TABLE(TR("Выберите первый текст",SELECT(*options2, _name="first1")),
-                    TR("Выберите второй текст",SELECT(*options2, _name="second1")),
-                    TR("",INPUT(_type="submit",_value="SUBMIT"))))
-    if form.process(formname='form_two').accepted:
-        redirect(URL('author_compare', args = [form.vars['first1'], form.vars['second1']]))
-        response.flash="form accepted"
-    return dict(form=form)
+    result.append(str(all_words2))
+    result = ','.join(result) + '\n'
+    with open(colorfile, 'a') as f:
+        f.write(result)
+    return dict(message=result)
 
 def image_compare(): # Сравниваем цвета двух текстов
     base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]

@@ -5,7 +5,7 @@
 {{extend 'layout.html'}}
 
 {{=DIV(_id="pieChart2")}}
-{{=sum(colours2)}} / {{=all_words2}}
+{{=sum(colours2)}} / {{=all_words2}}, {{=proc}} %
 
 <script>
     var pie = new d3pie("pieChart2", {
