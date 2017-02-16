@@ -6,8 +6,10 @@
 {{extend 'layout.html'}}
 
 {{=DIV(_id="pieChart")}}
-{{=all_colours}} / {{=all_w}}<br>
-{{=colours2[24]}}
+{{=all_colours}} цветообозначений на {{=all_words}} словоупотреблений корпуса.<br>
+Это {{=proc}} %. <br>
+{{=au_pro}}<br>
+{{=average_pro}}
 
 <h3>Сравнить поэтические сборники:</h3>
 {{=form}}
@@ -33,7 +35,7 @@
      _style='margin-top: 1em;')}}
 <h6>{{=T("Цвета по авторам")}}</h6>
 {{for one in authors:}}
-<li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}}</li>
+<li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}} ({{=au_pro[int(one.id)-1]}} %)</li>
 {{pass}}
 {{end}}
 
