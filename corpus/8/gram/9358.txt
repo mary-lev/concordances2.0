@@ -1,60 +1,9 @@
-растапливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-вечереть=V,ipf=inpraes,sg,indic,3p
-,\n
-бесцветный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-померкнуть=V,pf,intr=praet,sg,indic,n
-,\n
-и=CONJ=
-_
-призрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-светло=ADV=comp
-\n
-над=PR=
-_
-редкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сетка=S,f,inan=ins,sg
-_
-из=PR=
-_
-ветка=S,f,inan=gen,pl
-.\n\n
-затеплиться=V,pf,intr=praet,pl,indic
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-под=PR=
-_
-крыша=S,f,inan=ins,sg
-,\n
-в=PR=
-_
-сад=S,m,inan=abl,pl
-_
-освещать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-,_
-словно=CONJ=
-_
-летучий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-,\n
-шнырять=V,ipf,intr=inpraes,pl,indic,3p
-_
-круг=S,m,inan=ins,sg
-_
-самокат=S,m,inan=(acc,pl|nom,pl)
-.\n
+{растапливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {день=S,m,inan=(acc,sg|nom,sg)} {вечереть=V,ipf=inpraes,sg,indic,3p},
+{бесцветный=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {померкнуть=V,pf,intr=praet,sg,indic,n},
+{и=CONJ=} {призрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {месяц=S,m,inan=(acc,sg|nom,sg)} {светло=ADV=comp}
+{над=PR=} {редкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сетка=S,f,inan=ins,sg} {из=PR=} {ветка=S,f,inan=gen,pl}.
+
+{затеплиться=V,pf,intr=praet,pl,indic} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {под=PR=} {крыша=S,f,inan=ins,sg},
+{в=PR=} {сад=S,m,inan=abl,pl} {освещать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=}, {словно=CONJ=} {летучий=A=(acc,pl,plen,inan|nom,pl,plen)} {мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)},
+{шнырять=V,ipf,intr=inpraes,pl,indic,3p} {круг=S,m,inan=ins,sg} {самокат=S,m,inan=(acc,pl|nom,pl)}.

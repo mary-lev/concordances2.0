@@ -1,124 +1,19 @@
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-улица=S,f,inan=nom,sg
-_
-пустынный=A=sg,brev,f
-.\n
-так=ADVPRO=
-_
-всегда=ADVPRO=
-!\n
-для=PR=
-_
-кто=SPRO,sg,m,anim=(acc|gen)
-_
-же=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-невинный=A=sg,brev,f
-\n
-и=CONJ=
-_
-гордый=A=sg,brev,f
-?\n\n
-лишь=PART=
-_
-сырой=A=nom,sg,plen,f
-_
-капать=V,ipf,intr=inpraes,sg,indic,3p
-_
-мгла=S,f,inan=nom,sg
-_
-с=PR=
-_
-карниз=S,m,inan=gen,pl
-.\n
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-\n
-собираться=V,intr=inpraes,sg,indic,1p,ipf
-_
-бросать=V=inf,pf
-_
-злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вызов=S,m,inan=(acc,sg|nom,sg)
-\n
-небо=S,n,inan=dat,pl
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-,_
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-знать=V,ipf,tran=inpraes,pl,indic,3p
-:\n
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-.\n
-и=CONJ=
-_
-который=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-в=PR=
-_
-рука=S,f,inan=abl,pl
-_
-сжимать=V=inpraes,pl,indic,3p,ipf,tran
-\n
-пистолет=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-и=CONJ=
-_
-который=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,_
-смеяться=V,ipf,intr=inpraes,ger
-_
-и=CONJ=
-_
-плакать=V,ipf,intr=inpraes,ger
-,\n
-вновь=ADV=
-_
-жить=V,ipf,intr=inpraes,pl,indic,3p
-!\n
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-;_
-ведь=PART=
-_
-решать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-задача=S,f,inan=nom,sg
-:\n
-все=SPRO,pl=(acc|nom)
-_
-умирать=V,intr=inpraes,pl,indic,3p,pf
-.\n
+{ночь=S,f,inan=(acc,sg|nom,sg)}, {как=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {улица=S,f,inan=nom,sg} {пустынный=A=sg,brev,f}.
+{так=ADVPRO=} {всегда=ADVPRO=}!
+{для=PR=} {кто=SPRO,sg,m,anim=(acc|gen)} {же=PART=} {ты=SPRO,sg,2p=nom} {быть=V,intr=praet,sg,indic,f,ipf} {невинный=A=sg,brev,f}
+{и=CONJ=} {гордый=A=sg,brev,f}?
+
+{лишь=PART=} {сырой=A=nom,sg,plen,f} {капать=V,ipf,intr=inpraes,sg,indic,3p} {мгла=S,f,inan=nom,sg} {с=PR=} {карниз=S,m,inan=gen,pl}.
+{я=SPRO,sg,1p=nom} {и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)}
+{собираться=V,intr=inpraes,sg,indic,1p,ipf} {бросать=V=inf,pf} {злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вызов=S,m,inan=(acc,sg|nom,sg)}
+{небо=S,n,inan=dat,pl}.
+
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl}, {все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {знать=V,ipf,tran=inpraes,pl,indic,3p}:
+{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=}.
+{и=CONJ=} {который=APRO=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {в=PR=} {рука=S,f,inan=abl,pl} {сжимать=V=inpraes,pl,indic,3p,ipf,tran}
+{пистолет=S,m,inan=(acc,sg|nom,sg)}!
+
+{и=CONJ=} {который=APRO=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}, {смеяться=V,ipf,intr=inpraes,ger} {и=CONJ=} {плакать=V,ipf,intr=inpraes,ger},
+{вновь=ADV=} {жить=V,ipf,intr=inpraes,pl,indic,3p}!
+{день=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)}; {ведь=PART=} {решать=V,tran=praet,sg,partcp,brev,f,pf,pass} {задача=S,f,inan=nom,sg}:
+{все=SPRO,pl=(acc|nom)} {умирать=V,intr=inpraes,pl,indic,3p,pf}.

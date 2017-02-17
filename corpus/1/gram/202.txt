@@ -1,138 +1,19 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-страшно=ADV=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-встречаться=V,intr=inf,ipf
-._\n
-страшный=A=comp
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-встречать=V,tran=inf,ipf
-._\n
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-все=SPRO,sg,n,inan=dat
-_
-удивляться=V,intr=inf,ipf
-,_\n
-на=PR=
-_
-все=SPRO,pl=dat
-_
-улавливать=V,tran=praet,sg,indic,m,pf
-_
-печать=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-по=PR=
-_
-улица=S,f,inan=(abl,sg|dat,sg)
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-не=PART=
-_
-понимать=V=inpraes,sg,indic,1p,pf
-_-_
-жить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-или=CONJ=
-_
-спать=V,ipf,intr=inpraes,pl,indic,3p
-..._\n
-прильнуть=V,pf,intr=praet,ger
-_
-к=PR=
-_
-церковный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-бояться=V,ipf,intr=inpraes,sg,indic,1p
-_
-оглянуться=V,pf,intr=inf
-_
-назад=ADV=
-.\n\n
-класть=V,ipf=inpraes,pl,indic,3p,tran
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-на=PR=
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,sg,indic,1p
-_
-имя=S,n,inan=gen,pl
-._\n
-в=PR=
-_
-ухо=S,n,inan=abl,pl
-_
-раздаваться=V,intr=inpraes,pl,indic,3p,ipf
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-_\n
-недавний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-большой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-похороны=S,pl,inan=gen
-.\n\n
-а=CONJ=
-_
-хмурый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-низко=ADV=
-_-_\n
-покрывать=V=praet,sg,indic,n,pf
-_
-и=CONJ=
-_
-самый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-._\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_-_
-ты=SPRO,sg,2p=nom
-_
-здесь=ADVPRO=
-,_
-ты=SPRO,sg,2p=nom
-_
-близко=ADV=
-._\n
-ты=SPRO,sg,2p=(acc|gen)
-_
-здесь=ADVPRO=
-_
-нет=ADV,praed=
-._
-ты=SPRO,sg,2p=nom
-_-_
-там=ADVPRO=
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {страшно=ADV=} {с=PR=} {ты=SPRO,sg,2p=ins} {встречаться=V,intr=inf,ipf}. 
+{страшный=A=comp} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {встречать=V,tran=inf,ipf}. 
+{я=SPRO,sg,1p=nom} {становиться=V,intr=praet,sg,indic,m,pf} {все=SPRO,sg,n,inan=dat} {удивляться=V,intr=inf,ipf}, 
+{на=PR=} {все=SPRO,pl=dat} {улавливать=V,tran=praet,sg,indic,m,pf} {печать=S,f,inan=(acc,sg|nom,sg)}.
+
+{по=PR=} {улица=S,f,inan=(abl,sg|dat,sg)} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{не=PART=} {понимать=V=inpraes,sg,indic,1p,pf} - {жить=V,ipf,intr=inpraes,pl,indic,3p}, {или=CONJ=} {спать=V,ipf,intr=inpraes,pl,indic,3p}... 
+{прильнуть=V,pf,intr=praet,ger} {к=PR=} {церковный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{бояться=V,ipf,intr=inpraes,sg,indic,1p} {оглянуться=V,pf,intr=inf} {назад=ADV=}.
+
+{класть=V,ipf=inpraes,pl,indic,3p,tran} {я=SPRO,sg,1p=(abl|dat)} {на=PR=} {плечо=S,n,inan=(acc,pl|nom,pl)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{но=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {помнить=V,ipf,tran=inpraes,sg,indic,1p} {имя=S,n,inan=gen,pl}. 
+{в=PR=} {ухо=S,n,inan=abl,pl} {раздаваться=V,intr=inpraes,pl,indic,3p,ipf} {звук=S,m,inan=(acc,pl|nom,pl)} 
+{недавний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {большой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {похороны=S,pl,inan=gen}.
+
+{а=CONJ=} {хмурый=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {низко=ADV=} - 
+{покрывать=V=praet,sg,indic,n,pf} {и=CONJ=} {самый=APRO=(acc,sg,m,inan|nom,sg,m)} {храм=S,m,inan=(acc,sg|nom,sg)}. 
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p} - {ты=SPRO,sg,2p=nom} {здесь=ADVPRO=}, {ты=SPRO,sg,2p=nom} {близко=ADV=}. 
+{ты=SPRO,sg,2p=(acc|gen)} {здесь=ADVPRO=} {нет=ADV,praed=}. {ты=SPRO,sg,2p=nom} - {там=ADVPRO=}.

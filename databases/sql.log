@@ -134445,3 +134445,9 @@ CREATE TABLE mystem(
     PRIMARY KEY (id)
 ) ENGINE=InnoDB CHARACTER SET utf8;
 success!
+timestamp: 2017-02-16T22:11:53.079351
+ALTER TABLE mystem ADD location VARCHAR(512);
+timestamp: 2017-02-16T22:12:29.893717
+ALTER TABLE mystem ADD location VARCHAR(512);
+success!
+success!

@@ -1,100 +1,14 @@
-зачем=ADVPRO=
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-мария=S,persn,f,anim=nom,sg
-,\n
-любимый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-?\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-огневой=A=nom,sg,plen,f
-_
-стихия=S,f,inan=nom,sg
-,\n
-но=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-увлекать=V=inpraes,sg,indic,2p,ipf,tran
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-.\n\n
-зачем=ADVPRO=
-_
-с=PR=
-_
-утомлять=V,tran=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-дрожь=S,f,inan=ins,sg
-\n
-сжимать=V=inpraes,sg,indic,1p,ipf,tran
-_
-я=SPRO,sg,1p=nom
-_
-рука=S,f,inan=acc,sg
-_
-твой=APRO=acc,sg,f
-\n
-и=CONJ=
-_
-страсть=S,f,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-посланница=S,f,anim=acc,sg
-_
-божий=A,plen=acc,sg,f
-,\n
-в=PR=
-_
-гореть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-мечта=S,f,inan=(abl,sg|dat,sg)
-_
-узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-?\n\n
-ты=SPRO,sg,2p=nom
-_
-шептать=V,ipf,tran=inpraes,sg,indic,2p
-,_
-лицо=S,n,inan=(acc,sg|nom,sg)
-_
-уклонять=V,tran=inpraes,ger,ipf
-:\n\xAB
-зачем=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-слабый=A=sg,brev,f
-?_\u2014_
-ты=SPRO,sg,2p=nom
-_
-сильно=ADV=comp
-\xBB,\n
-и=CONJ=
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-дорога=S,f,inan=nom,sg
-_
-ночной=A=nom,sg,plen,f
-\n
-по=PR=
-_
-царство=S,n,inan=dat,sg
-_
-тень=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-огонь=S,m,inan=gen,pl
-.\n
+{зачем=ADVPRO=} {твой=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)} {мария=S,persn,f,anim=nom,sg},
+{любимый=A=(acc,sg,plen,n|nom,sg,plen,n)} {имя=S,n,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)}?
+{любовь=S,f,inan=(acc,sg|nom,sg)} — {огневой=A=nom,sg,plen,f} {стихия=S,f,inan=nom,sg},
+{но=CONJ=} {ты=SPRO,sg,2p=nom} {увлекать=V=inpraes,sg,indic,2p,ipf,tran} {в=PR=} {она=SPRO,sg,3p,f=(acc|gen)}.
+
+{зачем=ADVPRO=} {с=PR=} {утомлять=V,tran=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {дрожь=S,f,inan=ins,sg}
+{сжимать=V=inpraes,sg,indic,1p,ipf,tran} {я=SPRO,sg,1p=nom} {рука=S,f,inan=acc,sg} {твой=APRO=acc,sg,f}
+{и=CONJ=} {страсть=S,f,inan=(acc,sg|nom,sg)}, {как=CONJ=} {посланница=S,f,anim=acc,sg} {божий=A,plen=acc,sg,f},
+{в=PR=} {гореть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {мечта=S,f,inan=(abl,sg|dat,sg)} {узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}?
+
+{ты=SPRO,sg,2p=nom} {шептать=V,ipf,tran=inpraes,sg,indic,2p}, {лицо=S,n,inan=(acc,sg|nom,sg)} {уклонять=V,tran=inpraes,ger,ipf}:
+«{зачем=ADVPRO=} {я=SPRO,sg,1p=nom} {слабый=A=sg,brev,f}? — {ты=SPRO,sg,2p=nom} {сильно=ADV=comp}»,
+{и=CONJ=} {виться=V,ipf,intr=inpraes,sg,indic,3p} {дорога=S,f,inan=nom,sg} {ночной=A=nom,sg,plen,f}
+{по=PR=} {царство=S,n,inan=dat,sg} {тень=S,f,inan=gen,pl} {и=CONJ=} {огонь=S,m,inan=gen,pl}.

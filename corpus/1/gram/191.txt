@@ -1,136 +1,19 @@
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-багровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-звезда=S,f,inan=nom,sg
--
-предвестница=S,f,anim=nom,sg
-_
-восходить=V,intr=praet,sg,indic,f,pf
-._\n
-над=PR=
-_
-бездна=S,f,inan=ins,sg
-_
-плакать=V,ipf,intr=praet,sg,indic,m
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_-\n
-младенец=S,m,anim=(acc,sg|gen,sg)
-_
-дева=S,f,anim=nom,sg
-_
-рожать=V=praet,sg,indic,f,pf,tran
-.\n\n
-на=PR=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-тонкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-протяжный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-как=ADVPRO=
-_
-долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-визг=S,m,inan=(acc,sg|nom,sg)
-_
-веретено=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-пойти=V,pf,intr=praet,pl,indic
-_
-в=PR=
-_
-смятение=S,n,inan=abl,sg
-_
-старец=S,m,anim=nom,sg
-_
-важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-и=CONJ=
-_
-царь=S,m,anim=nom,sg
-,_
-и=CONJ=
-_
-отрок=S,m,anim=nom,sg
-,_
-и=CONJ=
-_
-жена=S,f,anim=nom,sg
-.\n\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-знамение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-чудо=S,n,inan=(acc,sg|nom,sg)
-:\n
-в=PR=
-_
-невозмутимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-_\n
-среди=PR=
-_
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-возникать=V,intr=praet,sg,indic,m,pf
-_
-иуда=S,persn,m,anim=nom,sg
-_\n
-в=PR=
-_
-холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-маска=S,f,inan=(abl,sg|dat,sg)
-,_
-на=PR=
-_
-конь=S,m,anim=abl,sg
-.\n\n
-владыка=S,m,anim=(gen,sg|nom,pl)
-,_
-полный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-забота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-посылать=V=praet,pl,indic,pf
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-_
-во=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-конец=S,m,inan=(acc,pl|nom,pl)
-,_\n
-и=CONJ=
-_
-на=PR=
-_
-губа=S,f,inan=abl,pl
-_
-искариот=S,m,anim=(acc,sg|gen,sg)
-_\n
-улыбка=S,f,inan=acc,sg
-_
-видеть=V,ipf,tran=praet,pl,indic
-_
-гонец=S,m,anim=nom,pl
-.\n
+{быть=V,intr=praet,sg,indic,m,ipf} {вечер=S,m,inan=(acc,sg|nom,sg)} {поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {багровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{звезда=S,f,inan=nom,sg}-{предвестница=S,f,anim=nom,sg} {восходить=V,intr=praet,sg,indic,f,pf}. 
+{над=PR=} {бездна=S,f,inan=ins,sg} {плакать=V,ipf,intr=praet,sg,indic,m} {голос=S,m,inan=(acc,sg|nom,sg)} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} -
+{младенец=S,m,anim=(acc,sg|gen,sg)} {дева=S,f,anim=nom,sg} {рожать=V=praet,sg,indic,f,pf,tran}.
+
+{на=PR=} {голос=S,m,inan=(acc,sg|nom,sg)} {тонкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {протяжный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{как=ADVPRO=} {долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {визг=S,m,inan=(acc,sg|nom,sg)} {веретено=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{пойти=V,pf,intr=praet,pl,indic} {в=PR=} {смятение=S,n,inan=abl,sg} {старец=S,m,anim=nom,sg} {важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{и=CONJ=} {царь=S,m,anim=nom,sg}, {и=CONJ=} {отрок=S,m,anim=nom,sg}, {и=CONJ=} {жена=S,f,anim=nom,sg}.
+
+{и=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {знамение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {чудо=S,n,inan=(acc,sg|nom,sg)}:
+{в=PR=} {невозмутимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=(abl|dat)} 
+{среди=PR=} {толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {возникать=V,intr=praet,sg,indic,m,pf} {иуда=S,persn,m,anim=nom,sg} 
+{в=PR=} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {маска=S,f,inan=(abl,sg|dat,sg)}, {на=PR=} {конь=S,m,anim=abl,sg}.
+
+{владыка=S,m,anim=(gen,sg|nom,pl)}, {полный=A=(acc,pl,plen,inan|nom,pl,plen)} {забота=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{посылать=V=praet,pl,indic,pf} {весть=S,f,inan=(acc,sg|nom,sg)} {во=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {конец=S,m,inan=(acc,pl|nom,pl)}, 
+{и=CONJ=} {на=PR=} {губа=S,f,inan=abl,pl} {искариот=S,m,anim=(acc,sg|gen,sg)} 
+{улыбка=S,f,inan=acc,sg} {видеть=V,ipf,tran=praet,pl,indic} {гонец=S,m,anim=nom,pl}.

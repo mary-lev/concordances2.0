@@ -1,110 +1,16 @@
-идти=V,ipf,intr=praet,pl,indic
-_
-мы=SPRO,pl,1p=nom
-_
-стезя=S,f,inan=ins,sg
-_
-лазурный=A=ins,sg,plen,f
-,_\n
-только=PART=
-_
-расставаться=V,intr=praet,pl,indic,pf
-_
-давно=ADV=
-..._\n
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-непроглядный=A=acc,sg,plen,f
-,_
-бурный=A=acc,sg,plen,f
-_\n
-вдруг=ADV=
-_
-распахиваться=V,intr=praet,sg,indic,n,pf
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-..._\n
-ты=SPRO,sg,2p=nom
-_
-ли=PART=
-,_
-видение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-неясный=A=(acc,sg,plen,n|nom,sg,plen,n)
-?_\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-остыть=V,pf,tran=praet,sg,indic,n
-_
-едва=ADV=
-..._\n
-чуять=V,ipf,tran=inpraes,sg,indic,1p
-_
-дыхание=S,n,inan=(acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-прежний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-уносить=V=inpraes,sg,indic,3p,ipf,tran
-_
-стенание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мешать=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-дождь=S,m,inan=ins,sg
-..._\n
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-обнимать=V,tran=inf,pf
-_
-на=PR=
-_
-прощание=S,n,inan=(acc,sg|nom,sg)
-?_\n
-прошлое=S,n,inan=(acc,sg|nom,sg)
-_
-вспомнить=V,pf,tran=inf
-_
-вдвоем=ADV=
-?_\n
-мимо=PR=
-,_
-видение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)
-!_\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-сжимать=V=inpraes,sg,indic,3p,ipf,tran
-_
-тоска=S,f,inan=ins,sg
-_\n
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-непроглядный=A=acc,sg,plen,f
-,_
-бурный=A=acc,sg,plen,f
-_\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-да=CONJ=
-_
-образ=S,m,inan=(acc,sg|nom,sg)
-_
-былой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n
+{идти=V,ipf,intr=praet,pl,indic} {мы=SPRO,pl,1p=nom} {стезя=S,f,inan=ins,sg} {лазурный=A=ins,sg,plen,f}, 
+{только=PART=} {расставаться=V,intr=praet,pl,indic,pf} {давно=ADV=}... 
+{в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {непроглядный=A=acc,sg,plen,f}, {бурный=A=acc,sg,plen,f} 
+{вдруг=ADV=} {распахиваться=V,intr=praet,sg,indic,n,pf} {окно=S,n,inan=(acc,sg|nom,sg)}... 
+{ты=SPRO,sg,2p=nom} {ли=PART=}, {видение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {неясный=A=(acc,sg,plen,n|nom,sg,plen,n)}? 
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {остыть=V,pf,tran=praet,sg,indic,n} {едва=ADV=}... 
+{чуять=V,ipf,tran=inpraes,sg,indic,1p} {дыхание=S,n,inan=(acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{прежний=A=(acc,pl,plen,inan|nom,pl,plen)} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{ветер=S,m,inan=(acc,sg|nom,sg)} {уносить=V=inpraes,sg,indic,3p,ipf,tran} {стенание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мешать=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {дождь=S,m,inan=ins,sg}... 
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {обнимать=V,tran=inf,pf} {на=PR=} {прощание=S,n,inan=(acc,sg|nom,sg)}? 
+{прошлое=S,n,inan=(acc,sg|nom,sg)} {вспомнить=V,pf,tran=inf} {вдвоем=ADV=}? 
+{мимо=PR=}, {видение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)}! 
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сжимать=V=inpraes,sg,indic,3p,ipf,tran} {тоска=S,f,inan=ins,sg} 
+{в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {непроглядный=A=acc,sg,plen,f}, {бурный=A=acc,sg,plen,f} 
+{ветер=S,m,inan=(acc,sg|nom,sg)}, {да=CONJ=} {образ=S,m,inan=(acc,sg|nom,sg)} {былой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!

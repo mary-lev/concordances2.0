@@ -1,72 +1,9 @@
-наставать=V,intr=praet,sg,indic,m,pf
-_
-заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-дремотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-без=PR=
-_
-слово=S,n,inan=gen,pl
-,_
-покорствовать=V,ipf,intr=inpraes,ger
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-,\n
-клониться=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-бездна=S,f,inan=(abl,sg|dat,sg)
-_
-безотчетный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-с=PR=
-_
-последний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дума=S,f,inan=ins,sg
-_\u2014_
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-!\n\n
-в=PR=
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-ты=SPRO,sg,2p=nom
-_
-лить=V,ipf,tran=inpraes,sg,indic,2p
-,_
-царица=S,f,anim=nom,sg
-,\n
-свет=S,sg,m,inan=(acc|nom)
-_
-с=PR=
-_
-изумрудный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-венец=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-день=S,m,inan=gen,sg
-_
-прочитывать=V=praet,nom,sg,partcp,plen,f,pf,pass
-_
-страница=S,f,inan=nom,sg
-\n
-ты=SPRO,sg,2p=ins
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-.\n
+{наставать=V,intr=praet,sg,indic,m,pf} {заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {дремотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{без=PR=} {слово=S,n,inan=gen,pl}, {покорствовать=V,ipf,intr=inpraes,ger} {судьба=S,f,inan=(abl,sg|dat,sg)},
+{клониться=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {к=PR=} {бездна=S,f,inan=(abl,sg|dat,sg)} {безотчетный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{с=PR=} {последний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дума=S,f,inan=ins,sg} — {о=PR=} {ты=SPRO,sg,2p=(abl|dat)}!
+
+{в=PR=} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {ты=SPRO,sg,2p=nom} {лить=V,ipf,tran=inpraes,sg,indic,2p}, {царица=S,f,anim=nom,sg},
+{свет=S,sg,m,inan=(acc|nom)} {с=PR=} {изумрудный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {венец=S,m,inan=gen,sg},
+{и=CONJ=} {день=S,m,inan=gen,sg} {прочитывать=V=praet,nom,sg,partcp,plen,f,pf,pass} {страница=S,f,inan=nom,sg}
+{ты=SPRO,sg,2p=ins} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {до=PR=} {конец=S,m,inan=gen,sg}.

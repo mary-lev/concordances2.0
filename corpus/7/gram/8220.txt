@@ -1,34 +1,4 @@
-игра=S,f,inan=nom,sg
-_
-природа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-немой=A=sg,brev,m
-_
-видный=A=sg,brev,f
-,\n
-язык=S,m,inan=(acc,sg|nom,sg)
-_
-трибуна=S,f,inan=nom,sg
-_
-с=PR=
-_
-сердце=S,n,inan=ins,sg
-_
-лань=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-,\n
-воображение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-без=PR=
-_
-желание=S,n,inan=gen,pl
-\n
-и=CONJ=
-_
-сновидение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-без=PR=
-_
-сон=S,m,inan=gen,sg
-.\n
+{игра=S,f,inan=nom,sg} {природа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {немой=A=sg,brev,m} {видный=A=sg,brev,f},
+{язык=S,m,inan=(acc,sg|nom,sg)} {трибуна=S,f,inan=nom,sg} {с=PR=} {сердце=S,n,inan=ins,sg} {лань=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)},
+{воображение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {без=PR=} {желание=S,n,inan=gen,pl}
+{и=CONJ=} {сновидение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {без=PR=} {сон=S,m,inan=gen,sg}.

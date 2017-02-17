@@ -1,110 +1,14 @@
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-образ=S,m,inan=(acc,sg|nom,sg)
-_
-чудиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-невольно=ADV=
-_\n
-среди=PR=
-_
-знакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лицо=S,n,inan=gen,pl
-._\n
-пора=S,f,inan=ins,sg
-_
-легко=ADV=
-,_
-пора=S,f,inan=ins,sg
-_
-больно=ADV=
-_\n
-перед=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-не=PART=
-_
-падать=V,ipf,intr=inf
-_
-ниц=ADV=
-.\n\n
-в=PR=
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-забвение=S,n,inan=abl,sg
-_
-без=PR=
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-забывать=V=inf,pf
-_
-пора=S,f,inan=ins,sg
-,_\n
-как=ADVPRO=
-_
-неутешно=ADV=
-_
-тосковать=V,ipf,intr=praet,pl,indic
-_\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-жить=V,ipf,intr=praet,sg,indic,f
-_
-в=PR=
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-волнение=S,n,inan=abl,sg
-,_\n
-но=CONJ=
-_
-в=PR=
-_
-тот=APRO=(abl,sg,m|abl,sg,n)
-_
-родной=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_\n
-и=CONJ=
-_
-в=PR=
-_
-одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-поклонение=S,n,inan=abl,sg
-_\n
-познавать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-истинность=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=acc,sg,f
-.\n
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {образ=S,m,inan=(acc,sg|nom,sg)} {чудиться=V,ipf,intr=inpraes,sg,indic,3p} {невольно=ADV=} 
+{среди=PR=} {знакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лицо=S,n,inan=gen,pl}. 
+{пора=S,f,inan=ins,sg} {легко=ADV=}, {пора=S,f,inan=ins,sg} {больно=ADV=} 
+{перед=PR=} {ты=SPRO,sg,2p=ins} {не=PART=} {падать=V,ipf,intr=inf} {ниц=ADV=}.
+
+{в=PR=} {мой=APRO=(abl,sg,m|abl,sg,n)} {забвение=S,n,inan=abl,sg} {без=PR=} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{я=SPRO,sg,1p=nom} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {забывать=V=inf,pf} {пора=S,f,inan=ins,sg}, 
+{как=ADVPRO=} {неутешно=ADV=} {тосковать=V,ipf,intr=praet,pl,indic} 
+{мой=APRO=(nom,pl|acc,pl,inan)} {созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {ты=SPRO,sg,2p=ins}.
+
+{ты=SPRO,sg,2p=nom} {не=PART=} {жить=V,ipf,intr=praet,sg,indic,f} {в=PR=} {мой=APRO=(abl,sg,m|abl,sg,n)} {волнение=S,n,inan=abl,sg}, 
+{но=CONJ=} {в=PR=} {тот=APRO=(abl,sg,m|abl,sg,n)} {родной=A=(abl,sg,plen,m|abl,sg,plen,n)} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {край=S,m,inan=(dat,sg|loc,sg)} 
+{и=CONJ=} {в=PR=} {одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)} {поклонение=S,n,inan=abl,sg} 
+{познавать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {истинность=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=acc,sg,f}.

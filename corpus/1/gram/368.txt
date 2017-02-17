@@ -1,100 +1,19 @@
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-бросать=V=praet,sg,indic,f,pf
-_
-в=PR=
-_
-город=S,m,inan=(acc,sg|nom,sg)
-\n____
-оловянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-.\n
-край=S,m,inan=(acc,sg|nom,sg)
-_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-распарывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n____
-переулок=S,m,inan=(acc,pl|nom,pl)
-_
-гудеть=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-гадание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n____
-у=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-на=PR=
-_
-плечо=S,n,inan=abl,pl
-.\n
-в=PR=
-_
-окно=S,n,inan=abl,pl
-_
-фабрика=S,f,inan=gen,pl
-_\u2014_
-предание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n____
-о=PR=
-_
-разгульный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ночь=S,f,inan=abl,pl
-.\n\n
-оловянный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n____
-все=SPRO,pl=dat
-_
-безумный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-приют=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-торговля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n____
-небо=S,n,inan=(acc,pl|nom,pl)
-_
-не=PART=
-_
-сходить=V,intr=inpraes,pl,indic,3p,pf
-.\n\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-гулкий=A=sg,brev,m
-,\n____
-так=ADVPRO=
-_
-заманчивый=A=sg,brev,m
-_
-обман=S,m,inan=(acc,sg|nom,sg)
-.\n
-уводить=V=sg,imper,2p,ipf,tran
-,_
-переулок=S,m,inan=(acc,sg|nom,sg)
-,\n____
-в=PR=
-_
-дымно=ADV=
--
-сизый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-...\n
+{вечность=S,f,inan=(acc,sg|nom,sg)} {бросать=V=praet,sg,indic,f,pf} {в=PR=} {город=S,m,inan=(acc,sg|nom,sg)}
+    {оловянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {закат=S,m,inan=(acc,sg|nom,sg)}.
+{край=S,m,inan=(acc,sg|nom,sg)} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {распарывать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+    {переулок=S,m,inan=(acc,pl|nom,pl)} {гудеть=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {гадание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+    {у=PR=} {я=SPRO,sg,1p=(acc|gen)} {на=PR=} {плечо=S,n,inan=abl,pl}.
+{в=PR=} {окно=S,n,inan=abl,pl} {фабрика=S,f,inan=gen,pl} — {предание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+    {о=PR=} {разгульный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=abl,pl}.
+
+{оловянный=A=(acc,pl,plen,inan|nom,pl,plen)} {кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+    {все=SPRO,pl=dat} {безумный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {приют=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {город=S,m,inan=(acc,sg|nom,sg)} {торговля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+    {небо=S,n,inan=(acc,pl|nom,pl)} {не=PART=} {сходить=V,intr=inpraes,pl,indic,3p,pf}.
+
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {воздух=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {гулкий=A=sg,brev,m},
+    {так=ADVPRO=} {заманчивый=A=sg,brev,m} {обман=S,m,inan=(acc,sg|nom,sg)}.
+{уводить=V=sg,imper,2p,ipf,tran}, {переулок=S,m,inan=(acc,sg|nom,sg)},
+    {в=PR=} {дымно=ADV=}-{сизый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {туман=S,m,inan=(acc,sg|nom,sg)}...

@@ -1,94 +1,21 @@
-пожертвовать=V,pf,tran=pl,imper,2p
-,_
-благодетель=S,m,anim=nom,pl
-,\n
-на=PR=
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-колокол=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-глас=S,m,inan=(acc,sg|nom,sg)
-_
-господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)
-.\n
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-колокольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-с=PR=
-_
-напев=S,m,inan=ins,sg
-_
-ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-дивно=ADV=
-_
-сходный=A=sg,brev,m
-.\n\n
-святой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отшельник=S,m,anim=nom,pl
-\n
-в=PR=
-_
-видение=S,n,inan=abl,pl
-_
-слышать=V,ipf,tran=praet,pl,indic
-\n
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-;\n
-святой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отшельник=S,m,anim=nom,pl
-\n
-верно=ADV,parenth=
-_
-запоминать=V,tran=praet,pl,indic,pf
-\n
-нездешний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-православный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-напев=S,m,inan=ins,sg
-_
-ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-трубить=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-пожертвовать=V,pf,tran=pl,imper,2p
-,_
-православный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-на=PR=
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-колокол=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-милость=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=inpraes,sg,indic,3p
-.\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-бог=S,m,anim=nom,sg
-_
-не=PART=
-_
-забывать=V=inpraes,sg,indic,3p,pf
-.\n
+{пожертвовать=V,pf,tran=pl,imper,2p}, {благодетель=S,m,anim=nom,pl},
+{на=PR=} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {колокол=S,m,inan=(acc,sg|nom,sg)} —
+{глас=S,m,inan=(acc,sg|nom,sg)} {господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)}.
+{звон=S,m,inan=(acc,sg|nom,sg)} {колокольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{с=PR=} {напев=S,m,inan=ins,sg} {ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{дивно=ADV=} {сходный=A=sg,brev,m}.
+
+{святой=A=(acc,pl,plen,inan|nom,pl,plen)} {отшельник=S,m,anim=nom,pl}
+{в=PR=} {видение=S,n,inan=abl,pl} {слышать=V,ipf,tran=praet,pl,indic}
+{лик=S,m,inan=(acc,sg|nom,sg)} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)};
+{святой=A=(acc,pl,plen,inan|nom,pl,plen)} {отшельник=S,m,anim=nom,pl}
+{верно=ADV,parenth=} {запоминать=V,tran=praet,pl,indic,pf}
+{нездешний=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {звон=S,m,inan=(acc,sg|nom,sg)} {православный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{напев=S,m,inan=ins,sg} {ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{петь=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {трубить=V,ipf,tran=inpraes,sg,indic,3p}.
+{пожертвовать=V,pf,tran=pl,imper,2p}, {православный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{на=PR=} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {колокол=S,m,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {милость=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=inpraes,sg,indic,3p}.
+{вы=SPRO,pl,2p=(abl|acc|gen)} {бог=S,m,anim=nom,sg} {не=PART=} {забывать=V=inpraes,sg,indic,3p,pf}.

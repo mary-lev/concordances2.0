@@ -1,56 +1,8 @@
-дочь=S,f,anim=(acc,sg|nom,sg)
-_
-андроника=S,persn,f,anim=nom,sg
-_
-комнить?=V,pf,tran=praet,sg,partcp,brev,f,pass
-,\n
-византийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-!\n
-помогать=V,intr=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-в=PR=
-_
-этот=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-выручать=V,tran=inf,pf
-_
-из=PR=
-_
-плен=S,m,inan=gen,sg
-,\n
-помогать=V,intr=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-пышность=S,f,inan=(acc,sg|nom,sg)
-_
-тлен=S,m,inan=gen,sg
-\n
-стройный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-песнь=S,f,inan=ins,sg
-_
-превозмогать=V=inf,pf
-,\n
-дочь=S,f,anim=(acc,sg|nom,sg)
-_
-андроника=S,persn,f,anim=nom,sg
-_
-комнить?=V,pf,tran=praet,sg,partcp,brev,f,pass
-,\n
-византийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-!\n
+{дочь=S,f,anim=(acc,sg|nom,sg)} {андроника=S,persn,f,anim=nom,sg} {комнить?=V,pf,tran=praet,sg,partcp,brev,f,pass},
+{византийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дочь=S,f,anim=(acc,sg|nom,sg)}!
+{помогать=V,intr=sg,imper,2p,pf} {я=SPRO,sg,1p=(abl|dat)} {в=PR=} {этот=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)}
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {выручать=V,tran=inf,pf} {из=PR=} {плен=S,m,inan=gen,sg},
+{помогать=V,intr=sg,imper,2p,pf} {я=SPRO,sg,1p=(abl|dat)} {пышность=S,f,inan=(acc,sg|nom,sg)} {тлен=S,m,inan=gen,sg}
+{стройный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песнь=S,f,inan=ins,sg} {превозмогать=V=inf,pf},
+{дочь=S,f,anim=(acc,sg|nom,sg)} {андроника=S,persn,f,anim=nom,sg} {комнить?=V,pf,tran=praet,sg,partcp,brev,f,pass},
+{византийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дочь=S,f,anim=(acc,sg|nom,sg)}!

@@ -1,116 +1,14 @@
-ангел=S,m,anim=nom,sg
-_
-ложиться=V,intr=praet,sg,indic,m,pf
-_
-у=PR=
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-небосклон=S,m,inan=gen,sg
-.\n
-наклоняться=V,intr=inpraes,ger,ipf
-,_
-удивляться=V,intr=praet,sg,indic,m,ipf
-_
-бездна=S,f,inan=dat,pl
-.\n
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-беззвездный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-ад=S,sg,m,inan=(acc|nom)
-_
-молчать=V,ipf,intr=praet,sg,indic,m
-._
-не=PART=
-_
-слышаться=V,ipf,intr=praet,sg,indic,n
-_
-ни=CONJ=
-_
-стон=S,m,inan=gen,sg
-.\n\n
-алый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-робкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-биение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-хрупкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-рука=S,f,inan=gen,pl
-_
-испуг=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-содрогание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-мир=S,m,inan=dat,sg
-_
-сон=S,m,inan=gen,pl
-_
-доставаться=V,intr=praet,sg,indic,n,pf
-_
-в=PR=
-_
-обладание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-ангел=S,m,anim=(acc,sg|gen,sg)
-_
-святой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-отражение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-тесно=ADV=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-!_
-пусть=PART=
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-мечтать=V,ipf,intr=inpraes,ger
-\n
-о=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-о=PR=
-_
-грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-о=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-предвечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-открывать=V=inpraes,ger,ipf,tran
-\n
-азбука=S,f,inan=acc,sg
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-же=PART=
-_
-откровение=S,n,inan=gen,pl
-.\n
+{ангел=S,m,anim=nom,sg} {ложиться=V,intr=praet,sg,indic,m,pf} {у=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {небосклон=S,m,inan=gen,sg}.
+{наклоняться=V,intr=inpraes,ger,ipf}, {удивляться=V,intr=praet,sg,indic,m,ipf} {бездна=S,f,inan=dat,pl}.
+{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {беззвездный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{ад=S,sg,m,inan=(acc|nom)} {молчать=V,ipf,intr=praet,sg,indic,m}. {не=PART=} {слышаться=V,ipf,intr=praet,sg,indic,n} {ни=CONJ=} {стон=S,m,inan=gen,sg}.
+
+{алый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {робкий=A=(acc,sg,plen,n|nom,sg,plen,n)} {биение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{хрупкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {рука=S,f,inan=gen,pl} {испуг=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {содрогание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{мир=S,m,inan=dat,sg} {сон=S,m,inan=gen,pl} {доставаться=V,intr=praet,sg,indic,n,pf} {в=PR=} {обладание=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{ангел=S,m,anim=(acc,sg|gen,sg)} {святой=A=(acc,sg,plen,n|nom,sg,plen,n)} {отражение=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{тесно=ADV=} {в=PR=} {мир=S,m,inan=abl,sg}! {пусть=PART=} {жить=V,ipf,intr=inpraes,sg,indic,3p}, {мечтать=V,ipf,intr=inpraes,ger}
+{о=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {о=PR=} {грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {о=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{в=PR=} {сумрак=S,m,inan=abl,sg} {предвечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {открывать=V=inpraes,ger,ipf,tran}
+{азбука=S,f,inan=acc,sg} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {же=PART=} {откровение=S,n,inan=gen,pl}.

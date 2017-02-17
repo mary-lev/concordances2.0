@@ -1,128 +1,19 @@
-сыпать=V,ipf,tran=inpraes,sg,indic,3p
-_
-черемуха=S,f,inan=nom,sg
-_
-снег=S,m,inan=ins,sg
-,\n
-зелень=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-цвет=S,m,inan=dat,sg
-_
-и=CONJ=
-_
-роса=S,f,inan=(abl,sg|dat,sg)
-.\n
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-склоняться=V,intr=inpraes,ger,ipf
-_
-к=PR=
-_
-побег=S,m,inan=dat,pl
-,\n
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-грач=S,m,anim=nom,pl
-_
-в=PR=
-_
-полоса=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-никнуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-шелковый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-смолистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сосна=S,f,inan=ins,sg
-.\n
-ой=INTJ=
-_
-вы=SPRO,pl,2p=nom
-,_
-луг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-дубрава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\u2014\n
-я=SPRO,sg,1p=nom
-_
-одурманивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-весна=S,f,inan=ins,sg
-.\n\n
-радуга=S,f,inan=ins,sg
-_
-тайный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-весть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-светиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-душа=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-.\n
-думать=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-о=PR=
-_
-невеста=S,f,anim=(abl,sg|dat,sg)
-,\n
-только=PART=
-_
-о=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-лишь=PART=
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-сыпь=S,f,inan=(acc,sg|nom,sg)
-_
-ты=SPRO,sg,2p=nom
-,_
-черемуха=S,f,inan=nom,sg
-,_
-снег=S,m,inan=ins,sg
-,\n
-петь=V,ipf,tran=pl,imper,2p
-_
-вы=SPRO,pl,2p=nom
-,_
-птаха=S,f,anim=(gen,sg|nom,pl)
-,_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
-по=PR=
-_
-поле=S,n,inan=dat,sg
-_
-зыбистый?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-бегом=ADV=
-\n
-пена=S,f,inan=ins,sg
-_
-я=SPRO,sg,1p=nom
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-разнести=V,pf=inpraes,sg,indic,1p
-.\n
+{сыпать=V,ipf,tran=inpraes,sg,indic,3p} {черемуха=S,f,inan=nom,sg} {снег=S,m,inan=ins,sg},
+{зелень=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {цвет=S,m,inan=dat,sg} {и=CONJ=} {роса=S,f,inan=(abl,sg|dat,sg)}.
+{в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {склоняться=V,intr=inpraes,ger,ipf} {к=PR=} {побег=S,m,inan=dat,pl},
+{ходить=V,ipf,intr=inpraes,pl,indic,3p} {грач=S,m,anim=nom,pl} {в=PR=} {полоса=S,f,inan=(abl,sg|dat,sg)}.
+
+{никнуть=V,ipf,intr=inpraes,pl,indic,3p} {шелковый=A=(acc,pl,plen,inan|nom,pl,plen)} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {смолистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сосна=S,f,inan=ins,sg}.
+{ой=INTJ=} {вы=SPRO,pl,2p=nom}, {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {дубрава=S,f,inan=(acc,pl|gen,sg|nom,pl)},—
+{я=SPRO,sg,1p=nom} {одурманивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {весна=S,f,inan=ins,sg}.
+
+{радуга=S,f,inan=ins,sg} {тайный=A=(acc,pl,plen,inan|nom,pl,plen)} {весть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{светиться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {душа=S,f,inan=acc,sg} {мой=APRO=acc,sg,f}.
+{думать=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {о=PR=} {невеста=S,f,anim=(abl,sg|dat,sg)},
+{только=PART=} {о=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {лишь=PART=} {петь=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{сыпь=S,f,inan=(acc,sg|nom,sg)} {ты=SPRO,sg,2p=nom}, {черемуха=S,f,inan=nom,sg}, {снег=S,m,inan=ins,sg},
+{петь=V,ipf,tran=pl,imper,2p} {вы=SPRO,pl,2p=nom}, {птаха=S,f,anim=(gen,sg|nom,pl)}, {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+{по=PR=} {поле=S,n,inan=dat,sg} {зыбистый?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {бегом=ADV=}
+{пена=S,f,inan=ins,sg} {я=SPRO,sg,1p=nom} {цвет=S,m,inan=(acc,sg|nom,sg)} {разнести=V,pf=inpraes,sg,indic,1p}.

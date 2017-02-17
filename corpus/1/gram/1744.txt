@@ -1,100 +1,19 @@
-золотистый=A=ins,sg,plen,f
-_
-долина=S,f,inan=ins,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-уходить=V,intr=inpraes,sg,indic,2p,ipf
-,_
-он=SPRO,sg,3p,m=abl
-_
-и=CONJ=
-_
-дикий=A=sg,brev,m
-.\n
-таять=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-журавлиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-удаляться=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-замирать=V,intr=praet,sg,indic,m,pf
-,_
-кажется=ADV,parenth=
-,_
-в=PR=
-_
-зенит=S,m,inan=abl,sg
-\n
-грустный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-,_
-долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звук=S,m,inan=(acc,sg|nom,sg)
-.\n
-бесконечно=ADV=
-_
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-торжествующий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-паук=S,m,anim=nom,sg
-.\n\n
-сквозь=PR=
-_
-прозрачный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-свет=S,sg,m,inan=gen
-_
-не=PART=
-_
-таять=V,ipf,intr=inpraes,ger
-,\n
-праздно=ADV=
-_
-бить=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-слепой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-опустелый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-жилье=S,sg,n,inan=gen
-.\n\n
-за=PR=
-_
-нарядный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-солнце=S,n,inan=dat,sg
-_
-отдавать=V,tran=praet,sg,indic,f,pf
-\n
-улетать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вдохновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-тепло=S,sg,n,inan=gen
-.\n
+{золотистый=A=ins,sg,plen,f} {долина=S,f,inan=ins,sg}
+{ты=SPRO,sg,2p=nom} {уходить=V,intr=inpraes,sg,indic,2p,ipf}, {он=SPRO,sg,3p,m=abl} {и=CONJ=} {дикий=A=sg,brev,m}.
+{таять=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {небо=S,n,inan=abl,sg} {журавлиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{удаляться=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {крик=S,m,inan=(acc,sg|nom,sg)}.
+
+{замирать=V,intr=praet,sg,indic,m,pf}, {кажется=ADV,parenth=}, {в=PR=} {зенит=S,m,inan=abl,sg}
+{грустный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {голос=S,m,inan=(acc,sg|nom,sg)}, {долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звук=S,m,inan=(acc,sg|nom,sg)}.
+{бесконечно=ADV=} {тянуть=V,ipf,tran=inpraes,sg,indic,3p} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{торжествующий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {паук=S,m,anim=nom,sg}.
+
+{сквозь=PR=} {прозрачный=A=(acc,pl,plen,inan|nom,pl,plen)} {волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {свет=S,sg,m,inan=gen} {не=PART=} {таять=V,ipf,intr=inpraes,ger},
+{праздно=ADV=} {бить=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {слепой=A=(acc,pl,plen,inan|nom,pl,plen)} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{опустелый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {жилье=S,sg,n,inan=gen}.
+
+{за=PR=} {нарядный=A=(acc,pl,plen,inan|nom,pl,plen)} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{осень=S,f,inan=(acc,sg|nom,sg)} {солнце=S,n,inan=dat,sg} {отдавать=V,tran=praet,sg,indic,f,pf}
+{улетать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{вдохновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {тепло=S,sg,n,inan=gen}.

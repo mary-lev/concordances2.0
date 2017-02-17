@@ -1,56 +1,9 @@
-сусальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-золото=S,sg,n,inan=ins
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-\n
-в=PR=
-_
-лес=S,m,inan=abl,pl
-_
-рождественский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-елка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-;\n
-в=PR=
-_
-куст=S,m,inan=abl,pl
-_
-игрушечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волк=S,m,anim=nom,pl
-\n
-глаз=S,m,inan=ins,pl
-_
-страшный=A=ins,pl,plen
-_
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-.\n|\n
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-вещий=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-,\n
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-тихий=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-_
-свобода=S,f,inan=nom,sg
-\n
-и=CONJ=
-_
-неживой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-небосвод=S,m,inan=gen,sg
-\n
-всегда=ADVPRO=
-_
-смеяться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-хрусталь=S,m,inan=(acc,sg|nom,sg)
-!\n
+{сусальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {золото=S,sg,n,inan=ins} {гореть=V,ipf,intr=inpraes,pl,indic,3p}
+{в=PR=} {лес=S,m,inan=abl,pl} {рождественский=A=(acc,pl,plen,inan|nom,pl,plen)} {елка=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+{в=PR=} {куст=S,m,inan=abl,pl} {игрушечный=A=(acc,pl,plen,inan|nom,pl,plen)} {волк=S,m,anim=nom,pl}
+{глаз=S,m,inan=ins,pl} {страшный=A=ins,pl,plen} {глядеть=V,ipf,tran=inpraes,pl,indic,3p}.
+|
+{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {вещий=A=nom,sg,plen,f} {мой=APRO=nom,sg,f} {печаль=S,f,inan=(acc,sg|nom,sg)},
+{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {тихий=A=nom,sg,plen,f} {мой=APRO=nom,sg,f} {свобода=S,f,inan=nom,sg}
+{и=CONJ=} {неживой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {небосвод=S,m,inan=gen,sg}
+{всегда=ADVPRO=} {смеяться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {хрусталь=S,m,inan=(acc,sg|nom,sg)}!

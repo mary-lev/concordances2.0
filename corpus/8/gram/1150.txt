@@ -1,92 +1,14 @@
-тонкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-но=CONJ=
-_
-частый=A=ins,sg,plen,f
-_
-сетка=S,f,inan=ins,sg
-\n
-завтрашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-отделять=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-ничтожный=A=sg,brev,m
-,_
-и=CONJ=
-_
-редко=ADV=
-\n
-видный=A=sg,brev,m
-_
-мы=SPRO,pl,1p=dat
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-небосклон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-страх=S,m,inan=abl,sg
-_
-оглянуться=V,pf,intr=inpraes,sg,indic,2p
-_\u2014_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)
-,_
-голос=S,m,inan=(acc,sg|nom,sg)
-_\xAB
-идти=V,ipf,intr=sg,imper,2p
-!\xBB...\n
-гнуться=V,ipf,intr=inpraes,pl,indic,3p
-_
-невольно=ADV=
-_
-колено=S,n,inan=(acc,pl|nom,pl)
-,\n
-плескать=V,ipf,tran=inpraes,pl,indic,3p
-_
-молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-плакать=V,ipf,intr=inf
-_
-и=CONJ=
-_
-биться=V,ipf,intr=inf
-_
-уставать=V,intr=inpraes,sg,indic,2p,pf
-;\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-скрывать=V=inpraes,ger,ipf,tran
-_
-укор=S,m,inan=(acc,sg|nom,sg)
-,\n
-на=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-черный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-взглядывать=V,intr=inpraes,sg,indic,2p,pf
-...\n
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-скользнуть=V,pf,intr=inpraes,sg,indic,3p
-_
-метеор=S,m,inan=(acc,sg|nom,sg)
-.\n
+{тонкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {но=CONJ=} {частый=A=ins,sg,plen,f} {сетка=S,f,inan=ins,sg}
+{завтрашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {отделять=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+{мир=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {ничтожный=A=sg,brev,m}, {и=CONJ=} {редко=ADV=}
+{видный=A=sg,brev,m} {мы=SPRO,pl,1p=dat} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {небосклон=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {страх=S,m,inan=abl,sg} {оглянуться=V,pf,intr=inpraes,sg,indic,2p} — {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)}, {голос=S,m,inan=(acc,sg|nom,sg)} «{идти=V,ipf,intr=sg,imper,2p}!»...
+{гнуться=V,ipf,intr=inpraes,pl,indic,3p} {невольно=ADV=} {колено=S,n,inan=(acc,pl|nom,pl)},
+{плескать=V,ipf,tran=inpraes,pl,indic,3p} {молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{плакать=V,ipf,intr=inf} {и=CONJ=} {биться=V,ipf,intr=inf} {уставать=V,intr=inpraes,sg,indic,2p,pf};
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {скрывать=V=inpraes,ger,ipf,tran} {укор=S,m,inan=(acc,sg|nom,sg)},
+{на=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {черный=A=(acc,sg,plen,n|nom,sg,plen,n)} {взглядывать=V,intr=inpraes,sg,indic,2p,pf}...
+{с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {скользнуть=V,pf,intr=inpraes,sg,indic,3p} {метеор=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,122 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-всегдашний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-случайность=S,f,inan=dat,pl
-,\n
-следить=V,ipf,intr=inpraes,sg,indic,1p
-,_
-любопытствовать=V,ipf,intr=inpraes,ger
-,_
-миг=S,m,inan=(acc,pl|nom,pl)
-.\n
-так=ADVPRO=
-_
-сладко=ADV=
-_
-доверяться=V,intr=inf,pf
-_
-крайность=S,f,inan=dat,pl
-,\n
-вертеп=S,m,inan=(acc,pl|nom,pl)
-_
-менять=V,ipf,tran=inf
-_
-на=PR=
-_
-верига=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-раздумье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свободно=ADV=
-_
-качаться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-покорный=A=pl,brev
-_
-и=CONJ=
-_
-рад=A,brev=pl
-_
-мгновение=S,n,inan=dat,sg
-;\n
-и=CONJ=
-_
-жизнь=S,f,inan=ins,pl
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сменяться=V,ipf,intr=inpraes,pl,indic,3p
-...\n
-действительность=S,f,inan=(acc,sg|nom,sg)
-_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-тень=S,f,inan=ins,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inf,ipf
-_
-не=PART=
-_
-желать=V,ipf,tran=inpraes,sg,indic,1p
-_
-властитель=S,m,anim=ins,sg
-\n
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-подчиняться=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-мера=S,f,inan=(abl,sg|dat,sg)
-.\n
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-по=PR=
-_
-звездный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-обитель=S,f,inan=dat,pl
-,\n
-вскрывать=V=inpraes,ger,ipf,tran
-_
-безвестный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-направляться=V,intr=inpraes,pl,indic,3p,ipf
-_
-случай=S,m,inan=ins,sg
-,_\u2014\n
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-упиваться=V,intr=inf,ipf
-_
-я=SPRO,sg,1p=nom
-_
-все=SPRO,pl=ins
-,_\u2014\n
-и=CONJ=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-подобный=A=pl,brev
-_
-созвучие=S,n,inan=dat,pl
-\n
-в=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-беспредельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-поэма=S,f,inan=(abl,sg|dat,sg)
-.\n
+{я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} {всегдашний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {случайность=S,f,inan=dat,pl},
+{следить=V,ipf,intr=inpraes,sg,indic,1p}, {любопытствовать=V,ipf,intr=inpraes,ger}, {миг=S,m,inan=(acc,pl|nom,pl)}.
+{так=ADVPRO=} {сладко=ADV=} {доверяться=V,intr=inf,pf} {крайность=S,f,inan=dat,pl},
+{вертеп=S,m,inan=(acc,pl|nom,pl)} {менять=V,ipf,tran=inf} {на=PR=} {верига=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{раздумье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свободно=ADV=} {качаться=V,ipf,intr=inpraes,pl,indic,3p},
+{покорный=A=pl,brev} {и=CONJ=} {рад=A,brev=pl} {мгновение=S,n,inan=dat,sg};
+{и=CONJ=} {жизнь=S,f,inan=ins,pl} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сменяться=V,ipf,intr=inpraes,pl,indic,3p}...
+{действительность=S,f,inan=(acc,sg|nom,sg)} {казаться=V,ipf,intr=inpraes,sg,indic,3p} {тень=S,f,inan=ins,sg}.
+
+{я=SPRO,sg,1p=nom} {быть=V,intr=inf,ipf} {не=PART=} {желать=V,ipf,tran=inpraes,sg,indic,1p} {властитель=S,m,anim=ins,sg}
+{судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {подчиняться=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {мера=S,f,inan=(abl,sg|dat,sg)}.
+{идти=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {по=PR=} {звездный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {обитель=S,f,inan=dat,pl},
+{вскрывать=V=inpraes,ger,ipf,tran} {безвестный=A=(acc,pl,plen,inan|nom,pl,plen)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}.
+
+{все=SPRO,pl=(acc|nom)} {день=S,m,inan=(acc,pl|nom,pl)} {направляться=V,intr=inpraes,pl,indic,3p,ipf} {случай=S,m,inan=ins,sg}, —
+{мочь=V,ipf,intr=inpraes,sg,indic,1p} {упиваться=V,intr=inf,ipf} {я=SPRO,sg,1p=nom} {все=SPRO,pl=ins}, —
+{и=CONJ=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {подобный=A=pl,brev} {созвучие=S,n,inan=dat,pl}
+{в=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {беспредельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {поэма=S,f,inan=(abl,sg|dat,sg)}.

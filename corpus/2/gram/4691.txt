@@ -1,166 +1,24 @@
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-рожать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)
-_
-словом=ADV,parenth=
-,\n
-гигант=S,m,anim=nom,pl
-_
-пить=V,ipf,tran=praet,pl,indic
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-\n
-весь=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-багровый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-страшный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-оно=SPRO,sg,3p,n=nom
-.\n\n
-о=INTJ=
-,_
-если=CONJ=
-_
-б=PART=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-_
-пить=V,ipf,tran=praet,pl,indic
-,\n
-я=SPRO,sg,1p=nom
-_
-мало=ADV=comp
-_
-бы=PART=
-_
-изнемогать=V,intr=praet,sg,indic,m,pf
-,\n
-и=CONJ=
-_
-палец=S,m,inan=(acc,pl|nom,pl)
-_
-заря=S,f,inan=gen,sg
-_
-бродить=V,ipf,intr=praet,pl,indic
-\n
-по=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-когда=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-прилегать=V,intr=praet,sg,indic,m,pf
-.\n\n
-просыпаться=V,intr=praet,sg,indic,m,pf
-,_
-когда=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-.\n
-вставать=V,intr=praet,sg,indic,m,ipf
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-болото=S,n,inan=gen,pl
-,\n
-тревожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-теплый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-\n
-дышать=V,ipf,intr=praet,sg,indic,m
-_
-из=PR=
-_
-южный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ворота=S,pl,inan=gen
-.\n\n
-и=CONJ=
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-вдруг=ADV=
-_
-так=ADVPRO=
-_
-больно=ADV=
-,\n
-так=ADVPRO=
-_
-жалко=ADV=parenth
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-день=S,m,inan=gen,sg
-,\n
-свой=APRO=ins,sg,f
-_
-дорогой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-проходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-без=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-...\n\n
-умчаться=V,pf,intr=inf
-_
-б=PART=
-_
-вдогонку=ADV=
-_
-свет=S,sg,m,inan=(dat|loc|part)
-!\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-_
-порывать=V,tran=inf,pf
-\n
-мой=APRO=acc,sg,f
-_
-зловещий=A=acc,sg,plen,f
-_
-этот=APRO=acc,sg,f
-\n
-ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-видение=S,n,inan=gen,pl
-_
-тетрадь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {рожать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)} {словом=ADV,parenth=},
+{гигант=S,m,anim=nom,pl} {пить=V,ipf,tran=praet,pl,indic} {вино=S,n,inan=(acc,sg|nom,sg)}
+{весь=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {багровый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {страшный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {оно=SPRO,sg,3p,n=nom}.
+
+{о=INTJ=}, {если=CONJ=} {б=PART=} {кровь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f} {пить=V,ipf,tran=praet,pl,indic},
+{я=SPRO,sg,1p=nom} {мало=ADV=comp} {бы=PART=} {изнемогать=V,intr=praet,sg,indic,m,pf},
+{и=CONJ=} {палец=S,m,inan=(acc,pl|nom,pl)} {заря=S,f,inan=gen,sg} {бродить=V,ipf,intr=praet,pl,indic}
+{по=PR=} {я=SPRO,sg,1p=(abl|dat)}, {когда=CONJ=} {я=SPRO,sg,1p=nom} {прилегать=V,intr=praet,sg,indic,m,pf}.
+
+{просыпаться=V,intr=praet,sg,indic,m,pf}, {когда=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {вечер=S,m,inan=(acc,sg|nom,sg)}.
+{вставать=V,intr=praet,sg,indic,m,ipf} {туман=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {болото=S,n,inan=gen,pl},
+{тревожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {теплый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)}
+{дышать=V,ipf,intr=praet,sg,indic,m} {из=PR=} {южный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ворота=S,pl,inan=gen}.
+
+{и=CONJ=} {становиться=V,intr=praet,sg,indic,n,pf} {я=SPRO,sg,1p=(abl|dat)} {вдруг=ADV=} {так=ADVPRO=} {больно=ADV=},
+{так=ADVPRO=} {жалко=ADV=parenth} {я=SPRO,sg,1p=(abl|dat)} {становиться=V,intr=praet,sg,indic,n,pf} {день=S,m,inan=gen,sg},
+{свой=APRO=ins,sg,f} {дорогой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{проходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {без=PR=} {я=SPRO,sg,1p=(acc|gen)}...
+
+{умчаться=V,pf,intr=inf} {б=PART=} {вдогонку=ADV=} {свет=S,sg,m,inan=(dat|loc|part)}!
+{но=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {в=PR=} {сила=S,f,inan=abl,pl} {порывать=V,tran=inf,pf}
+{мой=APRO=acc,sg,f} {зловещий=A=acc,sg,plen,f} {этот=APRO=acc,sg,f}
+{ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {видение=S,n,inan=gen,pl} {тетрадь=S,f,inan=(acc,sg|nom,sg)}.

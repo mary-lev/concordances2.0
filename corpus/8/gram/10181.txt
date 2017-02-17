@@ -1,166 +1,29 @@
-давать=V,tran=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-ваня=S,persn,m,anim=nom,sg
-,_
-четвертак=S,m,inan=(acc,sg|nom,sg)
-,\n
-пожертвовать=V,pf,tran=sg,imper,2p
-_
-полтинник=S,m,inan=(acc,sg|nom,sg)
-!\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=nom
-_
-нынче=ADV=
-_
-веселый=A=sg,brev,m
-_
-так=ADVPRO=
-,\n
-словно=CONJ=
-_
-именинник=S,m,anim=nom,sg
-?\n\n
-раскошеливаться=V,intr=sg,imper,2p,pf
-_
-до=PR=
-_
-грош=S,m,inan=gen,sg
-,\n
-не=PART=
-_
-терять=V,ipf,tran=sg,imper,2p
-_
-минута=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-или=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-хороший=A=sg,brev,f
-?\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-_
-крутой=A=pl,brev
-!\n\n
-надо=ADV,praed=
-_
-жить=V,ipf,intr=inf
-,_
-чтоб=CONJ=
-_
-пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=inf,ipf
-\n
-до=PR=
-_
-обед=S,m,inan=gen,sg
-,_
-в=PR=
-_
-лежка=S,f,inan=acc,sg
-,\n
-чтоб=CONJ=
-_
-поутру=ADV=
-_
-не=PART=
-_
-тужить=V,ipf,intr=inf
-\n
-про=PR=
-_
-наш=APRO=acc,sg,f
-_
-дорожка=S,f,inan=acc,sg
-.\n\n
-чтобы=CONJ=
-_
-щека=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-от=PR=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-слеза=S,f,inan=gen,pl
-,\n
-белый=S,famn,m,anim=nom,pl
-,_
-не=PART=
-_
-пухнуть=V,ipf,intr=praet,pl,indic
-,\n
-я=SPRO,sg,1p=nom
-_
-румяниться=V,ipf,intr=inpraes,sg,indic,1p
-_
-ярко=ADV=comp
-_
-роза=S,f,inan=gen,pl
-,\n
-подвивать=V=inpraes,sg,indic,1p,ipf,tran
-_
-букля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-если=CONJ=
-_
-ж=PART=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-невтерпеж=ADV=
-\n
-с=PR=
-_
-мутный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-похмелье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ты=SPRO,sg,2p=nom
-_
-опять=ADV=
-,_
-опять=ADV=
-_
-прийти=V,pf,intr=inpraes,sg,indic,2p
-,\n
-приносить=V=inpraes,sg,indic,2p,pf
-_
-веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-ждать=V,ipf,tran=inf
-_
-я=SPRO,sg,1p=nom
-_
-час=S,m,inan=(acc,sg|nom,sg)
--
-другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,\n
-где-то=ADVPRO=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-сударик=S,m,anim=nom,sg
-?\n
-помнить=V,ipf,tran=sg,imper,2p
-,_
-помнить=V,ipf,tran=sg,imper,2p
-,_
-друг=S,m,anim=nom,sg
-_
-милая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-красненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-фонарик=S,m,inan=(acc,sg|nom,sg)
-!\n
+{давать=V,tran=sg,imper,2p,pf} {я=SPRO,sg,1p=(abl|dat)}, {ваня=S,persn,m,anim=nom,sg}, {четвертак=S,m,inan=(acc,sg|nom,sg)},
+{пожертвовать=V,pf,tran=sg,imper,2p} {полтинник=S,m,inan=(acc,sg|nom,sg)}!
+{что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=nom} {нынче=ADV=} {веселый=A=sg,brev,m} {так=ADVPRO=},
+{словно=CONJ=} {именинник=S,m,anim=nom,sg}?
+
+{раскошеливаться=V,intr=sg,imper,2p,pf} {до=PR=} {грош=S,m,inan=gen,sg},
+{не=PART=} {терять=V,ipf,tran=sg,imper,2p} {минута=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{или=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {хороший=A=sg,brev,f}?
+{мой=APRO=(nom,pl|acc,pl,inan)} {плечо=S,n,inan=(acc,pl|nom,pl)} {крутой=A=pl,brev}!
+
+{надо=ADV,praed=} {жить=V,ipf,intr=inf}, {чтоб=CONJ=} {пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=inf,ipf}
+{до=PR=} {обед=S,m,inan=gen,sg}, {в=PR=} {лежка=S,f,inan=acc,sg},
+{чтоб=CONJ=} {поутру=ADV=} {не=PART=} {тужить=V,ipf,intr=inf}
+{про=PR=} {наш=APRO=acc,sg,f} {дорожка=S,f,inan=acc,sg}.
+
+{чтобы=CONJ=} {щека=S,f,inan=(acc,pl|gen,sg|nom,pl)} {от=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {слеза=S,f,inan=gen,pl},
+{белый=S,famn,m,anim=nom,pl}, {не=PART=} {пухнуть=V,ipf,intr=praet,pl,indic},
+{я=SPRO,sg,1p=nom} {румяниться=V,ipf,intr=inpraes,sg,indic,1p} {ярко=ADV=comp} {роза=S,f,inan=gen,pl},
+{подвивать=V=inpraes,sg,indic,1p,ipf,tran} {букля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{если=CONJ=} {ж=PART=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {невтерпеж=ADV=}
+{с=PR=} {мутный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {похмелье=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{ты=SPRO,sg,2p=nom} {опять=ADV=}, {опять=ADV=} {прийти=V,pf,intr=inpraes,sg,indic,2p},
+{приносить=V=inpraes,sg,indic,2p,pf} {веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{быть=V,intr=inpraes,sg,indic,1p} {ждать=V,ipf,tran=inf} {я=SPRO,sg,1p=nom} {час=S,m,inan=(acc,sg|nom,sg)}-{другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)},
+{где-то=ADVPRO=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {сударик=S,m,anim=nom,sg}?
+{помнить=V,ipf,tran=sg,imper,2p}, {помнить=V,ipf,tran=sg,imper,2p}, {друг=S,m,anim=nom,sg} {милая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{красненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {фонарик=S,m,inan=(acc,sg|nom,sg)}!

@@ -1,116 +1,19 @@
-сумерки=S,pl,inan=(acc|nom)
-,_
-сумерки=S,pl,inan=(acc|nom)
-_
-вешний=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-хладный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-у=PR=
-_
-нога=S,f,inan=gen,pl
-,_\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_-_
-надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нездешний=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-_
-на=PR=
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-отзвук=S,m,inan=(acc,pl|nom,pl)
-,_
-песня=S,f,inan=nom,sg
-_
-далекий=A=nom,sg,plen,f
-,_\n
-но=CONJ=
-_
-различать=V,tran=inf,pf
-_-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-._\n
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-душа=S,f,inan=nom,sg
-_
-одинокий=A=nom,sg,plen,f
-_\n
-там=ADVPRO=
-,_
-на=PR=
-_
-другой=APRO=(abl,sg,m|abl,sg,n)
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-тайна=S,f,inan=nom,sg
-_
-ль=PART=
-_
-мой=APRO=nom,sg,f
-_
-совершаться=V,intr=inpraes,sg,indic,3p,ipf
-,_\n
-ты=SPRO,sg,2p=nom
-_
-ли=PART=
-_
-звать=V,ipf,tran=inpraes,sg,indic,2p
-_
-вдалеке=ADV=
-?_\n
-лодка=S,f,inan=nom,sg
-_
-нырять=V,ipf,intr=inpraes,sg,indic,3p
-,_
-качаться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-по=PR=
-_
-река=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_-_
-надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нездешний=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-кто-то=SPRO,sg,m,anim=nom
-_
-навстречу=ADV=
-_-_
-бежать=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-..._\n
-отблеск=S,m,inan=(acc,pl|nom,pl)
-,_
-сумерки=S,pl,inan=(acc|nom)
-_
-вешний=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-клика=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-тот=APRO=(abl,sg,m|abl,sg,n)
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-.\n
+{сумерки=S,pl,inan=(acc|nom)}, {сумерки=S,pl,inan=(acc|nom)} {вешний=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{хладный=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {у=PR=} {нога=S,f,inan=gen,pl}, 
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} - {надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нездешний=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {на=PR=} {песок=S,m,inan=(acc,sg|nom,sg)}.
+
+{отзвук=S,m,inan=(acc,pl|nom,pl)}, {песня=S,f,inan=nom,sg} {далекий=A=nom,sg,plen,f}, 
+{но=CONJ=} {различать=V,tran=inf,pf} - {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}. 
+{плакать=V,ipf,intr=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg} {одинокий=A=nom,sg,plen,f} 
+{там=ADVPRO=}, {на=PR=} {другой=APRO=(abl,sg,m|abl,sg,n)} {берег=S,m,inan=(dat,sg|loc,sg)}.
+
+{тайна=S,f,inan=nom,sg} {ль=PART=} {мой=APRO=nom,sg,f} {совершаться=V,intr=inpraes,sg,indic,3p,ipf}, 
+{ты=SPRO,sg,2p=nom} {ли=PART=} {звать=V,ipf,tran=inpraes,sg,indic,2p} {вдалеке=ADV=}? 
+{лодка=S,f,inan=nom,sg} {нырять=V,ipf,intr=inpraes,sg,indic,3p}, {качаться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{что-то=SPRO,sg,n,inan=(acc|nom)} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {по=PR=} {река=S,f,inan=(abl,sg|dat,sg)}.
+
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} - {надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нездешний=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{кто-то=SPRO,sg,m,anim=nom} {навстречу=ADV=} - {бежать=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}... 
+{отблеск=S,m,inan=(acc,pl|nom,pl)}, {сумерки=S,pl,inan=(acc|nom)} {вешний=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{клика=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {тот=APRO=(abl,sg,m|abl,sg,n)} {берег=S,m,inan=(dat,sg|loc,sg)}.

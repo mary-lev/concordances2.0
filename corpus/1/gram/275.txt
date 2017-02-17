@@ -1,128 +1,19 @@
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-поздний=A=nom,sg,plen,f
-._
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-открывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-,\n
-и=CONJ=
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-сквозить=V,ipf,intr=inpraes,pl,indic,3p
-_
-тишина=S,sg,f,inan=ins
-.\n
-прилегать=V,intr=praet,sg,indic,f,pf
-_
-на=PR=
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-размытый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-голова=S,f,inan=nom,sg
-_
-русалка=S,f,anim=(gen,sg|nom,pl)
-_
-больной=S,m,anim=nom,sg
-.\n\n
-низко=ADV=
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-туманный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-полоса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-пронизывать=V=praet,pl,indic,pf
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-камыш=S,m,inan=gen,sg
-.\n
-на=PR=
-_
-зеленый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-длинный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волос=S,m,inan=(acc,pl|nom,pl)
-\n
-упадать=V,ipf,intr=inpraes,pl,indic,3p
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,_
-шуршать=V,ipf,intr=inpraes,ger
-.\n\n
-и=CONJ=
-_
-опушка=S,f,inan=ins,pl
-_
-отдаленный=A=ins,pl,plen
-\n
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-легкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-хруст=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-,_
-запутывать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-узел=S,m,inan=ins,pl
-_
-зеленый=A=ins,pl,plen
-,\n
-не=PART=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-_
-и=CONJ=
-_
-не=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-бездыханный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-покой=S,m,inan=(acc,sg|nom,sg)
-_
-очаровывать=V=praet,sg,partcp,brev,m,pf,pass
-.\n
-несказанный=A=nom,sg,plen,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-улечься=V,pf,intr=praet,sg,indic,f
-.\n
-и=CONJ=
-_
-над=PR=
-_
-мир=S,m,inan=ins,sg
-,_
-холод=S,m,inan=ins,sg
-_
-сковывать=V=praet,sg,partcp,brev,m,pf,pass
-,\n
-проливаться=V,intr=praet,sg,indic,m,pf
-_
-звонко=ADV=
--
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-.\n
+{осень=S,f,inan=(acc,sg|nom,sg)} {поздний=A=nom,sg,plen,f}. {небо=S,n,inan=(acc,sg|nom,sg)} {открывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)},
+{и=CONJ=} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {сквозить=V,ipf,intr=inpraes,pl,indic,3p} {тишина=S,sg,f,inan=ins}.
+{прилегать=V,intr=praet,sg,indic,f,pf} {на=PR=} {берег=S,m,inan=(acc,sg|nom,sg)} {размытый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{голова=S,f,inan=nom,sg} {русалка=S,f,anim=(gen,sg|nom,pl)} {больной=S,m,anim=nom,sg}.
+
+{низко=ADV=} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {туманный=A=(acc,pl,plen,inan|nom,pl,plen)} {полоса=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{пронизывать=V=praet,pl,indic,pf} {тень=S,f,inan=(acc,sg|nom,sg)} {камыш=S,m,inan=gen,sg}.
+{на=PR=} {зеленый=A=(acc,pl,plen,inan|nom,pl,plen)} {длинный=A=(acc,pl,plen,inan|nom,pl,plen)} {волос=S,m,inan=(acc,pl|nom,pl)}
+{упадать=V,ipf,intr=inpraes,pl,indic,3p} {лист=S,m,inan=(acc,pl|nom,pl)}, {шуршать=V,ipf,intr=inpraes,ger}.
+
+{и=CONJ=} {опушка=S,f,inan=ins,pl} {отдаленный=A=ins,pl,plen}
+{месяц=S,m,inan=(acc,sg|nom,sg)} {ходить=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {легкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {хруст=S,m,inan=ins,sg} {и=CONJ=} {глядеть=V,ipf,tran=inpraes,sg,indic,3p},
+{но=CONJ=}, {запутывать=V,tran=praet,sg,partcp,brev,f,pf,pass} {узел=S,m,inan=ins,pl} {зеленый=A=ins,pl,plen},
+{не=PART=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom} {и=CONJ=} {не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{бездыханный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {покой=S,m,inan=(acc,sg|nom,sg)} {очаровывать=V=praet,sg,partcp,brev,m,pf,pass}.
+{несказанный=A=nom,sg,plen,f} {боль=S,f,inan=(acc,sg|nom,sg)} {улечься=V,pf,intr=praet,sg,indic,f}.
+{и=CONJ=} {над=PR=} {мир=S,m,inan=ins,sg}, {холод=S,m,inan=ins,sg} {сковывать=V=praet,sg,partcp,brev,m,pf,pass},
+{проливаться=V,intr=praet,sg,indic,m,pf} {звонко=ADV=}-{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}.

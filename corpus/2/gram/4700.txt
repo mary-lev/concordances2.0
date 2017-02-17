@@ -1,174 +1,24 @@
-страна=S,f,inan=nom,sg
-_
-живительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-прохлада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-лес=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-гора=S,f,inan=gen,pl
-_
-гудеть=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-,_
-где=ADVPRO=
-\n
-всклокочивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-водопад=S,m,inan=(acc,pl|nom,pl)
-\n
-реветь=V,ipf,intr=inpraes,pl,indic,3p
-,_
-как=ADVPRO=
-_
-будто=PART=
-_
-быть=V,intr=inf,ipf
-_
-беда=S,f,inan=(abl,sg|dat,sg)
-;\n\n
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-священный=A=nom,sg,plen,f
-_
-навеки=ADV=
-\n
-страна=S,f,inan=nom,sg
-,_
-ты=SPRO,sg,2p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-ли=PART=
-,_
-сказать=V,pf,tran=sg,imper,2p
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-из=PR=
-_
-варяг=S,m,anim=(acc,pl|gen,pl)
-_
-в=PR=
-_
-грек=S,m,anim=nom,pl
-\n
-пойти=V,pf,intr=praet,pl,indic
-_
-суровый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-муж=S,m,anim=nom,pl
-?\n\n
-отвечать=V,intr=sg,imper,2p,pf
-,_
-ужели=PART=
-_
-так=ADVPRO=
-_
-и=CONJ=
-_
-надо=ADV,praed=
-,\n
-чтоб=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-свидетель=S,m,anim=nom,sg
-_
-злой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-обида=S,f,inan=gen,pl
-,\n
-у=PR=
-_
-золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ворота=S,pl,inan=gen
-_
-царьград=S,m,inan=gen,sg
-\n
-забывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-олегов=S,famn,m,anim=nom,sg
-_
-медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-щит=S,m,inan=(acc,sg|nom,sg)
-?\n\n
-чтобы=CONJ=
-_
-в=PR=
-_
-томительный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-бреды=S,pl,inan=(acc|nom)
-\n
-опять=ADV=
-_
-поникать=V,intr=praet,sg,indic,f,pf
-,_
-как=CONJ=
-_
-вчера=ADV=
-,\n
-для=PR=
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-победа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-ты=SPRO,sg,2p=ins
-_
-подъять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-сестра=S,f,anim=nom,sg
-?\n\n
-и=CONJ=
-_
-неужель?=S,geo,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-вотще=ADV=
-_
-мы=SPRO,pl,1p=dat
-_
-в=PR=
-_
-ухо=S,n,inan=(acc,pl|nom,pl)
-_
-сладко=ADV=
-_
-выть=V,ipf,intr=praet,sg,indic,m
-,\n
-к=PR=
-_
-русь=S,geo,sg,f,inan=(abl|dat|gen)
-_
-славянский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-печенежий?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-вотще=ADV=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-рюрик=S,persn,m,anim=nom,sg
-_
-приходить=V,intr=praet,sg,indic,m,ipf
-?\n
+{страна=S,f,inan=nom,sg} {живительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прохлада=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{лес=S,m,inan=gen,pl} {и=CONJ=} {гора=S,f,inan=gen,pl} {гудеть=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}, {где=ADVPRO=}
+{всклокочивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {водопад=S,m,inan=(acc,pl|nom,pl)}
+{реветь=V,ipf,intr=inpraes,pl,indic,3p}, {как=ADVPRO=} {будто=PART=} {быть=V,intr=inf,ipf} {беда=S,f,inan=(abl,sg|dat,sg)};
+
+{для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {священный=A=nom,sg,plen,f} {навеки=ADV=}
+{страна=S,f,inan=nom,sg}, {ты=SPRO,sg,2p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,2p} {ли=PART=}, {сказать=V,pf,tran=sg,imper,2p},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {из=PR=} {варяг=S,m,anim=(acc,pl|gen,pl)} {в=PR=} {грек=S,m,anim=nom,pl}
+{пойти=V,pf,intr=praet,pl,indic} {суровый=A=(acc,pl,plen,inan|nom,pl,plen)} {муж=S,m,anim=nom,pl}?
+
+{отвечать=V,intr=sg,imper,2p,pf}, {ужели=PART=} {так=ADVPRO=} {и=CONJ=} {надо=ADV,praed=},
+{чтоб=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf}, {свидетель=S,m,anim=nom,sg} {злой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {обида=S,f,inan=gen,pl},
+{у=PR=} {золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ворота=S,pl,inan=gen} {царьград=S,m,inan=gen,sg}
+{забывать=V=praet,sg,partcp,brev,m,pf,pass} {олегов=S,famn,m,anim=nom,sg} {медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {щит=S,m,inan=(acc,sg|nom,sg)}?
+
+{чтобы=CONJ=} {в=PR=} {томительный=A=(acc,pl,plen,inan|nom,pl,plen)} {бреды=S,pl,inan=(acc|nom)}
+{опять=ADV=} {поникать=V,intr=praet,sg,indic,f,pf}, {как=CONJ=} {вчера=ADV=},
+{для=PR=} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {победа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{ты=SPRO,sg,2p=ins} {подъять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {сестра=S,f,anim=nom,sg}?
+
+{и=CONJ=} {неужель?=S,geo,f,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{вотще=ADV=} {мы=SPRO,pl,1p=dat} {в=PR=} {ухо=S,n,inan=(acc,pl|nom,pl)} {сладко=ADV=} {выть=V,ipf,intr=praet,sg,indic,m},
+{к=PR=} {русь=S,geo,sg,f,inan=(abl|dat|gen)} {славянский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {печенежий?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{вотще=ADV=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {рюрик=S,persn,m,anim=nom,sg} {приходить=V,intr=praet,sg,indic,m,ipf}?

@@ -1,86 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-уметь=V,ipf,intr=inpraes,sg,indic,2p
-_
-улыбаться=V,intr=inf,ipf
-\n
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-трепет=S,m,inan=ins,sg
-_
-ресница=S,f,inan=gen,pl
-...\n
-сладкий=A=sg,brev,n
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-колыхаться=V,ipf,intr=inf
-\n
-перелетный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-стая=S,f,inan=dat,pl
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-уметь=V,ipf,intr=inpraes,sg,indic,2p
-_
-быть=V,intr=inf,ipf
-_
-желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-сквозь=PR=
-_
-вседневный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-над=PR=
-_
-саванна=S,f,inan=ins,sg
-,\n
-знойно=ADV=
-_
-клониться=V,ipf,intr=inpraes,sg,indic,3p
-_
-трава=S,f,inan=nom,sg
-.\n\n
-рука=S,f,inan=gen,pl
-_
-любовный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-приближение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-нежно=ADV=
-_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-у=PR=
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-движение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-конец=S,m,inan=gen,sg
-!\n
+{ты=SPRO,sg,2p=nom} {уметь=V,ipf,intr=inpraes,sg,indic,2p} {улыбаться=V,intr=inf,ipf}
+{тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {трепет=S,m,inan=ins,sg} {ресница=S,f,inan=gen,pl}...
+{сладкий=A=sg,brev,n} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {колыхаться=V,ipf,intr=inf}
+{перелетный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {стая=S,f,inan=dat,pl} {птица=S,f,anim=(acc,pl|gen,pl)}.
+
+{ты=SPRO,sg,2p=nom} {уметь=V,ipf,intr=inpraes,sg,indic,2p} {быть=V,intr=inf,ipf} {желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{сквозь=PR=} {вседневный=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{ветер=S,m,inan=(acc,sg|nom,sg)} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {над=PR=} {саванна=S,f,inan=ins,sg},
+{знойно=ADV=} {клониться=V,ipf,intr=inpraes,sg,indic,3p} {трава=S,f,inan=nom,sg}.
+
+{рука=S,f,inan=gen,pl} {любовный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {приближение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{нежно=ADV=} {веять=V,ipf,tran=inpraes,sg,indic,3p} {у=PR=} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{даль=S,f,inan=(acc,sg|nom,sg)} {без=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {движение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {небо=S,n,inan=(acc,sg|nom,sg)} {без=PR=} {конец=S,m,inan=gen,sg}!

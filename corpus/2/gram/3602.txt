@@ -1,166 +1,28 @@
-из=PR=
-_
-логово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-змиев=S,geo,m,inan=gen,sg
-,\n
-из=PR=
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-киев=S,geo,m,inan=gen,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-взять=V,pf,tran=praet,sg,indic,m
-_
-не=PART=
-_
-жена=S,f,anim=acc,sg
-,_
-а=CONJ=
-_
-колдунья=S,f,anim=acc,sg
-.\n
-а=CONJ=
-_
-думать=V,ipf,intr=praet,sg,indic,m
-_
-забавница=S,f,anim=acc,sg
-,\n
-гадать=V,ipf,intr=praet,sg,indic,m
-_-_
-своенравница?=S,f,inan=acc,sg
-,_\n
-веселый=A=acc,sg,plen,f
-_
-птица=S,f,anim=acc,sg
--
-певунья=S,f,anim=acc,sg
-.\n\n
-покликать=V,pf,tran=inpraes,sg,indic,2p
-_-_
-морщиться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-обнимать=V,tran=inpraes,sg,indic,2p,pf
-_-_
-топорщиться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-а=CONJ=
-_
-выходить=V,intr=inpraes,sg,indic,3p,pf
-_
-луна=S,f,inan=nom,sg
-_-_
-затомиться=V,pf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-стонать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-хоронить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-кто-то=SPRO,sg,m,anim=(acc|gen)
-,_-_
-и=CONJ=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-топиться=V,ipf,intr=inf
-.\n\n
-твердить=V,ipf,tran=inpraes,sg,indic,1p
-_
-она=SPRO,sg,3p,f=(dat|ins)
-:_
-крещеный=A=(dat,sg,plen,m|dat,sg,plen,n)
-,\n
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-по=PR=
--
-мудреный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_\n
-возиться=V,ipf,intr=inf
-_
-теперь=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-в=PR=
-_
-пора=S,f,inan=acc,sg
-;_\n
-снести=V,pf=sg,imper,2p
--
-ка=PART=
-_
-истома=S,f,inan=acc,sg
-_
-ты=SPRO,sg,2p=nom
-_\n
-в=PR=
-_
-днепровский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-омут=S,m,inan=(acc,pl|nom,pl)
-,\n
-на=PR=
-_
-грешный=A=acc,sg,plen,f
-_
-лысый=A=acc,sg,plen,f
-_
-гора=S,f,inan=acc,sg
-.\n\n
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-_-_
-только=PART=
-_
-ежиться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-и=CONJ=
-_
-все=ADV=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-неможется=V,inpraes,sg,indic,3p,ipf,intr=
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-жалко=ADV=parenth
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-,_
-виноватый=A=acc,sg,plen,f
-,\n
-как=ADVPRO=
-_
-птица=S,f,anim=acc,sg
-_
-подбивать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass
-,_\n
-береза=S,f,inan=acc,sg
-_
-подрыть=V,pf,tran=praet,acc,sg,partcp,plen,f,pass
-_\n
-над=PR=
-_
-очасть?=S,f,inan=ins,sg
-,_
-бог=S,m,anim=ins,sg
-_
-заклинать=V=praet,ins,sg,partcp,plen,f,pf,pass
-.\n\n
+{из=PR=} {логово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {змиев=S,geo,m,inan=gen,sg},
+{из=PR=} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {киев=S,geo,m,inan=gen,sg},
+{я=SPRO,sg,1p=nom} {взять=V,pf,tran=praet,sg,indic,m} {не=PART=} {жена=S,f,anim=acc,sg}, {а=CONJ=} {колдунья=S,f,anim=acc,sg}.
+{а=CONJ=} {думать=V,ipf,intr=praet,sg,indic,m} {забавница=S,f,anim=acc,sg},
+{гадать=V,ipf,intr=praet,sg,indic,m} - {своенравница?=S,f,inan=acc,sg}, 
+{веселый=A=acc,sg,plen,f} {птица=S,f,anim=acc,sg}-{певунья=S,f,anim=acc,sg}.
+
+{покликать=V,pf,tran=inpraes,sg,indic,2p} - {морщиться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{обнимать=V,tran=inpraes,sg,indic,2p,pf} - {топорщиться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{а=CONJ=} {выходить=V,intr=inpraes,sg,indic,3p,pf} {луна=S,f,inan=nom,sg} - {затомиться=V,pf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p}, {и=CONJ=} {стонать=V,ipf,intr=inpraes,sg,indic,3p},
+{как=ADVPRO=} {будто=PART=} {хоронить=V,ipf,tran=inpraes,sg,indic,3p} 
+{кто-то=SPRO,sg,m,anim=(acc|gen)}, - {и=CONJ=} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {топиться=V,ipf,intr=inf}.
+
+{твердить=V,ipf,tran=inpraes,sg,indic,1p} {она=SPRO,sg,3p,f=(dat|ins)}: {крещеный=A=(dat,sg,plen,m|dat,sg,plen,n)},
+{с=PR=} {ты=SPRO,sg,2p=ins} {по=PR=}-{мудреный=A=(dat,sg,plen,m|dat,sg,plen,n)} 
+{возиться=V,ipf,intr=inf} {теперь=ADV=} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {в=PR=} {пора=S,f,inan=acc,sg}; 
+{снести=V,pf=sg,imper,2p}-{ка=PART=} {истома=S,f,inan=acc,sg} {ты=SPRO,sg,2p=nom} 
+{в=PR=} {днепровский=A=(acc,pl,plen,inan|nom,pl,plen)} {омут=S,m,inan=(acc,pl|nom,pl)},
+{на=PR=} {грешный=A=acc,sg,plen,f} {лысый=A=acc,sg,plen,f} {гора=S,f,inan=acc,sg}.
+
+{молчать=V,ipf,intr=inpraes,sg,indic,3p} - {только=PART=} {ежиться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{и=CONJ=} {все=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {неможется=V,inpraes,sg,indic,3p,ipf,intr=},
+{я=SPRO,sg,1p=(abl|dat)} {жалко=ADV=parenth} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)}, {виноватый=A=acc,sg,plen,f},
+{как=ADVPRO=} {птица=S,f,anim=acc,sg} {подбивать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass}, 
+{береза=S,f,inan=acc,sg} {подрыть=V,pf,tran=praet,acc,sg,partcp,plen,f,pass} 
+{над=PR=} {очасть?=S,f,inan=ins,sg}, {бог=S,m,anim=ins,sg} {заклинать=V=praet,ins,sg,partcp,plen,f,pf,pass}.
+

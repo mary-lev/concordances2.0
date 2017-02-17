@@ -1,108 +1,14 @@
-покраснеть=V,pf,intr=praet,pl,indic
-_
-и=CONJ=
-_
-гаснуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=praet,sg,indic,f
-_
-сам=APRO=nom,sg,f
-:_\xAB
-прийти=V,pf,intr=inpraes,sg,indic,1p
-\xBB.\n
-у=PR=
-_
-вход=S,m,inan=gen,sg
-_
-в=PR=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-моление=S,n,inan=gen,pl
-\n
-я=SPRO,sg,1p=nom
-_
-открывать=V=praet,sg,indic,m,pf
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\u2014_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-сказать=V,pf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_\u2014_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-от=PR=
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-умирать=V,intr=inpraes,sg,indic,1p,pf
-.\n
-но=CONJ=
-,_
-огонь=S,m,inan=ins,sg
-_
-вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сгорать=V,intr=inpraes,ger,ipf
-,\n
-привлекать=V=inpraes,sg,indic,1p,pf
-_
-и=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-к=PR=
-_
-костер=S,m,inan=dat,sg
-.\n\n
-расцветать=V,intr=inpraes,sg,indic,3p,ipf
-_
-красный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-.\n
-неожиданно=ADV=
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-сбываться=V,intr=praet,pl,indic,pf
-.\n
-ты=SPRO,sg,2p=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,2p
-._
-над=PR=
-_
-храм=S,m,inan=ins,sg
-,_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014\n
-беззакатный=A=nom,sg,plen,f
-_
-глубь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-высь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{покраснеть=V,pf,intr=praet,pl,indic} {и=CONJ=} {гаснуть=V,ipf,intr=inpraes,pl,indic,3p} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=praet,sg,indic,f} {сам=APRO=nom,sg,f}: «{прийти=V,pf,intr=inpraes,sg,indic,1p}».
+{у=PR=} {вход=S,m,inan=gen,sg} {в=PR=} {сумрак=S,m,inan=(acc,sg|nom,sg)} {моление=S,n,inan=gen,pl}
+{я=SPRO,sg,1p=nom} {открывать=V=praet,sg,indic,m,pf} {мой=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}. — {ждать=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {сказать=V,pf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} — {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}.
+{мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {от=PR=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {умирать=V,intr=inpraes,sg,indic,1p,pf}.
+{но=CONJ=}, {огонь=S,m,inan=ins,sg} {вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сгорать=V,intr=inpraes,ger,ipf},
+{привлекать=V=inpraes,sg,indic,1p,pf} {и=CONJ=} {ты=SPRO,sg,2p=(acc|gen)} {к=PR=} {костер=S,m,inan=dat,sg}.
+
+{расцветать=V,intr=inpraes,sg,indic,3p,ipf} {красный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пламень=S,inan=(acc,sg,n|nom,sg,n)}.
+{неожиданно=ADV=} {сон=S,m,inan=(acc,pl|nom,pl)} {сбываться=V,intr=praet,pl,indic,pf}.
+{ты=SPRO,sg,2p=nom} {идти=V,ipf,intr=inpraes,sg,indic,2p}. {над=PR=} {храм=S,m,inan=ins,sg}, {над=PR=} {мы=SPRO,pl,1p=ins} —
+{беззакатный=A=nom,sg,plen,f} {глубь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {высь=S,f,inan=(acc,sg|nom,sg)}.

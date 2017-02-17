@@ -1,142 +1,19 @@
-вот=PART=
-_
-он=SPRO,sg,3p,m=nom
-_\u2014_
-ряд=S,m,inan=(acc,sg|nom,sg)
-_
-гробовой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ступень=S,f,inan=gen,pl
-.\n
-и=CONJ=
-_
-меж=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-никто=SPRO,sg,m,anim=(acc|gen)
-._
-мы=SPRO,pl,1p=nom
-_
-вдвоем=ADV=
-.\n
-спать=V,ipf,intr=sg,imper,2p
-_
-ты=SPRO,sg,2p=nom
-,_
-нежный=A=nom,sg,plen,f
-_
-спутница=S,f,anim=nom,sg
-_
-день=S,m,inan=gen,pl
-,\n
-заливать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-небывалый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-луч=S,m,inan=ins,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-покоиться=V,ipf,intr=inpraes,sg,indic,2p
-_
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-.\n
-ты=SPRO,sg,2p=nom
-_
-с=PR=
-_
-улыбка=S,f,inan=ins,sg
-_
-звать=V,ipf,tran=inpraes,sg,indic,2p
-:_
-не=PART=
-_
-будить=V,ipf,tran=sg,imper,2p
-.\n
-золотистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-на=PR=
-_
-лоб=S,m,inan=(dat,sg|loc,sg)
-.\n
-золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-образок=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-отпраздновать=V,pf,tran=praet,sg,indic,m
-_
-светлый=A=acc,sg,plen,f
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-,\n
-прикасаться=V,intr=praet,ger,pf
-_
-к=PR=
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-_
-восковой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-остальное=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-бездонный=A=nom,sg,plen,f
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-\n
-схоронить=V,pf,tran=praet,sg,indic,f
-_
-во=PR=
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-спать=V,ipf,intr=sg,imper,2p
-_\u2014_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-отдых=S,m,inan=(acc,sg|nom,sg)
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-прерывать=V,tran=inpraes,sg,indic,3p,pf
-.\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-окрай?=S,m,inan=(acc,sg|nom,sg)
-_
-неизвестный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дорога=S,f,inan=gen,pl
-.\n
-весь=APRO=acc,sg,f
-_
-ненастный=A=acc,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-напролет=ADV=
-_\u2014\n
-здесь=ADVPRO=
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-.\n
+{вот=PART=} {он=SPRO,sg,3p,m=nom} — {ряд=S,m,inan=(acc,sg|nom,sg)} {гробовой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ступень=S,f,inan=gen,pl}.
+{и=CONJ=} {меж=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} — {никто=SPRO,sg,m,anim=(acc|gen)}. {мы=SPRO,pl,1p=nom} {вдвоем=ADV=}.
+{спать=V,ipf,intr=sg,imper,2p} {ты=SPRO,sg,2p=nom}, {нежный=A=nom,sg,plen,f} {спутница=S,f,anim=nom,sg} {день=S,m,inan=gen,pl},
+{заливать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {небывалый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {луч=S,m,inan=ins,sg}.
+
+{ты=SPRO,sg,2p=nom} {покоиться=V,ipf,intr=inpraes,sg,indic,2p} {в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {гроб=S,m,inan=(dat,sg|loc,sg)}.
+{ты=SPRO,sg,2p=nom} {с=PR=} {улыбка=S,f,inan=ins,sg} {звать=V,ipf,tran=inpraes,sg,indic,2p}: {не=PART=} {будить=V,ipf,tran=sg,imper,2p}.
+{золотистый=A=(acc,pl,plen,inan|nom,pl,plen)} {прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {на=PR=} {лоб=S,m,inan=(dat,sg|loc,sg)}.
+{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {образок=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{я=SPRO,sg,1p=nom} {отпраздновать=V,pf,tran=praet,sg,indic,m} {светлый=A=acc,sg,plen,f} {смерть=S,f,inan=(acc,sg|nom,sg)},
+{прикасаться=V,intr=praet,ger,pf} {к=PR=} {рука=S,f,inan=(abl,sg|dat,sg)} {восковой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{остальное=S,n,inan=(acc,sg|nom,sg)} — {бездонный=A=nom,sg,plen,f} {твердь=S,f,inan=(acc,sg|nom,sg)}
+{схоронить=V,pf,tran=praet,sg,indic,f} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{спать=V,ipf,intr=sg,imper,2p} — {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {отдых=S,m,inan=(acc,sg|nom,sg)} {никто=SPRO,sg,m,anim=nom} {не=PART=} {прерывать=V,tran=inpraes,sg,indic,3p,pf}.
+{мы=SPRO,pl,1p=nom} — {окрай?=S,m,inan=(acc,sg|nom,sg)} {неизвестный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl}.
+{весь=APRO=acc,sg,f} {ненастный=A=acc,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {напролет=ADV=} —
+{здесь=ADVPRO=} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {чертог=S,m,inan=(acc,sg|nom,sg)}.

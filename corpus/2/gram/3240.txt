@@ -1,148 +1,24 @@
-в=PR=
-_
-красный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-фрак=S,m,inan=abl,sg
-_
-с=PR=
-_
-галун=S,m,inan=ins,pl
-,\n
-надушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-,_
-вставать=V,intr=praet,sg,indic,m,pf
-_
-маэстро=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-рассыпать=V,pf,tran=praet,sg,indic,m
-_
-перед=PR=
-_
-мы=SPRO,pl,1p=ins
-\n
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-легкое=S,n,inan=(acc,pl|nom,pl)
-_
-оркестр=S,m,inan=gen,sg
-.\n\n
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-мчаться=V,ipf,intr=praet,pl,indic
-_
-и=CONJ=
-_
-кричать=V,ipf,intr=praet,pl,indic
-,\n
-как=CONJ=
-_
-видение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-гигант=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-метаться=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-гулкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-зала=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-ронять=V,ipf,tran=praet,pl,indic
-_
-бриллиант=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-к=PR=
-_
-золотой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сбегать=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)
-_
-рыбка=S,f,anim=dat,pl
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-плескаться=V,ipf,intr=praet,pl,indic
-_
-там=ADVPRO=
-,_
-в=PR=
-_
-бассейн=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-по=PR=
-_
-девичий=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-_
-улыбка=S,f,inan=dat,pl
-\n
-плыть=V,ipf,intr=praet,pl,indic
-_
-тихо=ADV=comp
-_
-и=CONJ=
-_
-лилейный=A=comp
-.\n\n
-созидать=V,ipf,tran=praet,pl,indic
-_
-башня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-храм=S,m,inan=dat,pl
-\n
-голубеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)
-_
-рай=S,sg,m,inan=gen
-\n
-и=CONJ=
-_
-ласкать=V,ipf,tran=praet,pl,indic
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-_
-дама=S,f,anim=dat,pl
-,\n
-улыбаться=V,intr=inpraes,ger,ipf
-_
-и=CONJ=
-_
-играть=V,ipf,tran=inpraes,ger
-.\n\n
-а=CONJ=
-_
-потом=ADVPRO=
-_
-с=PR=
-_
-веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дрожь=S,f,inan=ins,sg
-,\n
-закружиться=V,pf,intr=praet,ger
-_
-вкруг=PR=
-_
-оркестр=S,m,inan=gen,sg
-,\n
-тихо=ADV=
-_
-падать=V,ipf,intr=praet,pl,indic
-_
-к=PR=
-_
-подножие=S,n,inan=dat,sg
-\n
-надушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-_
-маэстро=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n
+{в=PR=} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {фрак=S,m,inan=abl,sg} {с=PR=} {галун=S,m,inan=ins,pl},
+{надушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}, {вставать=V,intr=praet,sg,indic,m,pf} {маэстро=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{он=SPRO,sg,3p,m=nom} {рассыпать=V,pf,tran=praet,sg,indic,m} {перед=PR=} {мы=SPRO,pl,1p=ins}
+{звук=S,m,inan=(acc,pl|nom,pl)} {легкое=S,n,inan=(acc,pl|nom,pl)} {оркестр=S,m,inan=gen,sg}.
+
+{звук=S,m,inan=(acc,pl|nom,pl)} {мчаться=V,ipf,intr=praet,pl,indic} {и=CONJ=} {кричать=V,ipf,intr=praet,pl,indic},
+{как=CONJ=} {видение=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {как=CONJ=} {гигант=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {метаться=V,ipf,intr=praet,pl,indic} {в=PR=} {гулкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {зала=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {ронять=V,ipf,tran=praet,pl,indic} {бриллиант=S,m,inan=(acc,pl|nom,pl)}.
+
+{к=PR=} {золотой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сбегать=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)} {рыбка=S,f,anim=dat,pl},
+{что=SPRO,sg,n,inan=(acc|nom)} {плескаться=V,ipf,intr=praet,pl,indic} {там=ADVPRO=}, {в=PR=} {бассейн=S,m,inan=abl,sg},
+{и=CONJ=} {по=PR=} {девичий=A,plen=(dat,pl|ins,sg,m|ins,sg,n)} {улыбка=S,f,inan=dat,pl}
+{плыть=V,ipf,intr=praet,pl,indic} {тихо=ADV=comp} {и=CONJ=} {лилейный=A=comp}.
+
+{созидать=V,ipf,tran=praet,pl,indic} {башня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {храм=S,m,inan=dat,pl}
+{голубеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)} {рай=S,sg,m,inan=gen}
+{и=CONJ=} {ласкать=V,ipf,tran=praet,pl,indic} {плечо=S,n,inan=(acc,pl|nom,pl)} {дама=S,f,anim=dat,pl},
+{улыбаться=V,intr=inpraes,ger,ipf} {и=CONJ=} {играть=V,ipf,tran=inpraes,ger}.
+
+{а=CONJ=} {потом=ADVPRO=} {с=PR=} {веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дрожь=S,f,inan=ins,sg},
+{закружиться=V,pf,intr=praet,ger} {вкруг=PR=} {оркестр=S,m,inan=gen,sg},
+{тихо=ADV=} {падать=V,ipf,intr=praet,pl,indic} {к=PR=} {подножие=S,n,inan=dat,sg}
+{надушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)} {маэстро=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.

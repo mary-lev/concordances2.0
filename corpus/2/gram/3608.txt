@@ -1,108 +1,15 @@
-о=INTJ=
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-скучный=A=nom,sg,plen,f
-_
-забота=S,f,inan=nom,sg
-_\n
-пускание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мыльный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пузырь=S,m,inan=gen,pl
-.\n
-ну=PART=
-_
-так=ADVPRO=
-_
-и=CONJ=
-_
-кажется=ADV,parenth=
-,_
-что=CONJ=
-_
-кто-то=SPRO,sg,m,anim=nom
-_\n
-вы=SPRO,pl,2p=dat
-_
-карта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сдавать=V,tran=praet,sg,indic,m,pf
-_
-без=PR=
-_
-козырь=S,m=(acc,pl,anim|gen,pl,anim|gen,pl,inan)
-.\n\n
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-лучезарный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-горение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-в=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-тяжелый=A=nom,sg,plen,f
-_
-тоска=S,f,inan=nom,sg
-_-\n
-вы=SPRO,pl,2p=dat
-_
-без=PR=
-_
-надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-без=PR=
-_
-волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-проигрывать=V,tran=inf,ipf
-_
-наверняка=PART=
-.\n\n
-о=PR=
-_
-нет=PART=
-!_
-из=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-возможный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-счастие=S,n,inan=gen,pl
-_\n
-мы=SPRO,pl,1p=nom
-_
-выбирать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-_
-лишь=PART=
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-,\n
-лишь=PART=
-_
-то=PART=
-,_
-что=CONJ=
-_
-синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свет=S,sg,m,inan=ins
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-опаливать=V,tran=inf,pf
-_
-осуждать=V=praet,sg,partcp,brev,n,pf,pass,tran
-.\n\n
+{о=INTJ=}, {что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {скучный=A=nom,sg,plen,f} {забота=S,f,inan=nom,sg} 
+{пускание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мыльный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пузырь=S,m,inan=gen,pl}.
+{ну=PART=} {так=ADVPRO=} {и=CONJ=} {кажется=ADV,parenth=}, {что=CONJ=} {кто-то=SPRO,sg,m,anim=nom} 
+{вы=SPRO,pl,2p=dat} {карта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сдавать=V,tran=praet,sg,indic,m,pf} {без=PR=} {козырь=S,m=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}.
+
+{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {лучезарный=A=(acc,sg,plen,n|nom,sg,plen,n)} {горение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{а=CONJ=} {в=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {тяжелый=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg} -
+{вы=SPRO,pl,2p=dat} {без=PR=} {надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {без=PR=} {волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{проигрывать=V,tran=inf,ipf} {наверняка=PART=}.
+
+{о=PR=} {нет=PART=}! {из=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {возможный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {счастие=S,n,inan=gen,pl} 
+{мы=SPRO,pl,1p=nom} {выбирать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)} {лишь=PART=} {один=APRO=(acc,sg,n|nom,sg,n)},
+{лишь=PART=} {то=PART=}, {что=CONJ=} {синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свет=S,sg,m,inan=ins} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{мы=SPRO,pl,1p=(abl|acc|gen)} {опаливать=V,tran=inf,pf} {осуждать=V=praet,sg,partcp,brev,n,pf,pass,tran}.
+

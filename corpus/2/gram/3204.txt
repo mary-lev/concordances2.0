@@ -1,136 +1,24 @@
-захотеться=V,pf,intr=praet,sg,indic,n
-_
-жаба=S,f,anim=(abl,sg|dat,sg)
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-заползать=V,intr=inf,pf
-_
-на=PR=
-_
-царский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-трон=S,m,inan=(acc,sg|nom,sg)
-,\n
-яд=S,m,inan=(acc,sg|nom,sg)
-_
-жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-яд=S,m,inan=(acc,sg|nom,sg)
-_
-упорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-жаба=S,f,anim=(abl,sg|dat,sg)
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-затаивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-двор=S,m,inan=(acc,sg|nom,sg)
-_
-смущенно=ADV=
-_
-умолкать=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-любопытно=ADV=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-голь=S,f,inan=(acc,sg|nom,sg)
-,\n
-место=S,n,inan=(acc,sg|nom,sg)
-_
-жаба=S,f,anim=(abl,sg|dat,sg)
-_
-уступать=V,tran=inpraes,sg,indic,3p,ipf
-\n
-обезуметь=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-король=S,m,anim=nom,sg
-.\n\n
-чтоб=CONJ=
-_
-спасать=V=inf,pf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-седина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-оставаться=V,intr=praet,acc,sg,partcp,plen,f,pf,act
-_
-власть=S,f,inan=(acc,sg|nom,sg)
-,\n
-свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-\n
-он=SPRO,sg,3p,m=nom
-_
-бросать=V=inpraes,sg,indic,3p,ipf,tran
-_
-жаба=S,f,anim=(abl,sg|dat,sg)
-_
-в=PR=
-_
-пасть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-жаба=S,f,anim=nom,sg
-_
-властвовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-сердито=ADV=
-,\n
-жаба=S,f,anim=nom,sg
-_
-любить=V,ipf,tran=inpraes,sg,indic,3p
-_
-треск=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-.\n
-пена=S,f,inan=ins,sg
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-ядовитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-все=SPRO,pl=(acc|nom)
-_
-обрызгивать=V=praet,sg,indic,f,pf
-_
-кругом=ADV=
-.\n\n
-после=ADV=
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-прибывать=V,intr=inpraes,sg,indic,3p,pf
-\n
-победитель=S,m,anim=nom,sg
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чары=S,pl,inan=gen
-,\n
-но=CONJ=
-_
-предание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-забывать=V=inpraes,sg,indic,3p,pf
-\n
-отвратительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-кошмар=S,m,inan=(acc,sg|nom,sg)
-.\n
+{захотеться=V,pf,intr=praet,sg,indic,n} {жаба=S,f,anim=(abl,sg|dat,sg)} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{заползать=V,intr=inf,pf} {на=PR=} {царский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {трон=S,m,inan=(acc,sg|nom,sg)},
+{яд=S,m,inan=(acc,sg|nom,sg)} {жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {яд=S,m,inan=(acc,sg|nom,sg)} {упорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {жаба=S,f,anim=(abl,sg|dat,sg)} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {затаивать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+
+{двор=S,m,inan=(acc,sg|nom,sg)} {смущенно=ADV=} {умолкать=V,intr=inpraes,sg,indic,3p,ipf},
+{любопытно=ADV=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {голь=S,f,inan=(acc,sg|nom,sg)},
+{место=S,n,inan=(acc,sg|nom,sg)} {жаба=S,f,anim=(abl,sg|dat,sg)} {уступать=V,tran=inpraes,sg,indic,3p,ipf}
+{обезуметь=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {король=S,m,anim=nom,sg}.
+
+{чтоб=CONJ=} {спасать=V=inf,pf} {свой=APRO=(nom,pl|acc,pl,inan)} {седина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {оставаться=V,intr=praet,acc,sg,partcp,plen,f,pf,act} {власть=S,f,inan=(acc,sg|nom,sg)},
+{свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сын=S,m,anim=(acc,sg|gen,sg)}
+{он=SPRO,sg,3p,m=nom} {бросать=V=inpraes,sg,indic,3p,ipf,tran} {жаба=S,f,anim=(abl,sg|dat,sg)} {в=PR=} {пасть=S,f,inan=(acc,sg|nom,sg)}.
+
+{жаба=S,f,anim=nom,sg} {властвовать=V,ipf,intr=inpraes,sg,indic,3p} {сердито=ADV=},
+{жаба=S,f,anim=nom,sg} {любить=V,ipf,tran=inpraes,sg,indic,3p} {треск=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {гром=S,m,inan=(acc,sg|nom,sg)}.
+{пена=S,f,inan=ins,sg} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {ядовитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{все=SPRO,pl=(acc|nom)} {обрызгивать=V=praet,sg,indic,f,pf} {кругом=ADV=}.
+
+{после=ADV=}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {прибывать=V,intr=inpraes,sg,indic,3p,pf}
+{победитель=S,m,anim=nom,sg} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чары=S,pl,inan=gen},
+{но=CONJ=} {предание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {забывать=V=inpraes,sg,indic,3p,pf}
+{отвратительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кошмар=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,72 +1,13 @@
-тот=APRO=nom,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-проходить=V,intr=praet,sg,indic,f,pf
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-утомлять=V,tran=praet,sg,partcp,brev,n,pf,pass
-.\n
-и=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-опять=ADV=
-_
-приходить=V,intr=praet,sg,indic,f,pf
-,\n
-бесстрашный=A=nom,sg,plen,f
-_\u2014_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-выпадать=V,intr=praet,sg,indic,m,pf
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-прогнать=V,pf,tran=inf
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-зимний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чары=S,pl,inan=gen
-.\n
-и=CONJ=
-_
-не=PART=
-_
-вернуть=V,pf,tran=inf
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-нега=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-странно=ADV=
-_
-вспоминать=V,ipf,tran=inf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-пожар=S,m,inan=(acc,sg|nom,sg)
-.\n
+{тот=APRO=nom,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {проходить=V,intr=praet,sg,indic,f,pf},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {спать=V,ipf,intr=inpraes,sg,indic,3p},
+{утомлять=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+{и=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} {опять=ADV=} {приходить=V,intr=praet,sg,indic,f,pf},
+{бесстрашный=A=nom,sg,plen,f} — {глядеть=V,ipf,tran=inpraes,sg,indic,3p}
+{в=PR=} {мой=APRO=(acc,sg,n|nom,sg,n)} {окно=S,n,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {выпадать=V,intr=praet,sg,indic,m,pf} {снег=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {не=PART=} {прогнать=V,pf,tran=inf}
+{я=SPRO,sg,1p=(abl|dat)} {зимний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чары=S,pl,inan=gen}.
+{и=CONJ=} {не=PART=} {вернуть=V,pf,tran=inf} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {нега=S,f,inan=gen,pl},
+{и=CONJ=} {странно=ADV=} {вспоминать=V,ipf,tran=inf},
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,m,ipf} {пожар=S,m,inan=(acc,sg|nom,sg)}.

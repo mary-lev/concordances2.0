@@ -1,92 +1,12 @@
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-,_\n
-вдохновенный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-,\n
-пролетать=V,ipf,tran=inpraes,pl,indic,3p
-_
-забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-,_\n
-воскресать=V,intr=inpraes,pl,indic,3p,ipf
-_
-видение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-и=CONJ=
-_
-на=PR=
-_
-розовый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-облако=S,n,inan=abl,sg
-_
-греза=S,f,inan=gen,pl
-_\n
-в=PR=
-_
-вышина=S,f,inan=(abl,sg|dat,sg)
-_
-чей-то=APRO=acc,sg,f
-_
-душа=S,f,inan=acc,sg
-_
-пронести=V,pf=praet,sg,indic,m
-_\n
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-нарождаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-бог=S,m,anim=nom,sg
-..._\n
-покидать=V,tran=sg,imper,2p,ipf
-_
-же=PART=
-_
-тлетворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-,_\n
-улетать=V,intr=sg,imper,2p,ipf
-_
-в=PR=
-_
-бесконечный=A=acc,sg,plen,f
-_
-высь=S,f,inan=(acc,sg|nom,sg)
-,_\n
-за=PR=
-_
-крылатый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-видение=S,n,inan=ins,sg
-_
-гнаться=V,ipf,intr=sg,imper,2p
-._\n
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-стремление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-,_\n
-вдохновенный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-!\n
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} {утро=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {окошко=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)}, 
+{вдохновенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)},
+{пролетать=V,ipf,tran=inpraes,pl,indic,3p} {забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {сон=S,m,inan=(acc,pl|nom,pl)}, 
+{воскресать=V,intr=inpraes,pl,indic,3p,ipf} {видение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{и=CONJ=} {на=PR=} {розовый=A=(abl,sg,plen,m|abl,sg,plen,n)} {облако=S,n,inan=abl,sg} {греза=S,f,inan=gen,pl} 
+{в=PR=} {вышина=S,f,inan=(abl,sg|dat,sg)} {чей-то=APRO=acc,sg,f} {душа=S,f,inan=acc,sg} {пронести=V,pf=praet,sg,indic,m} 
+{молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {нарождаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {бог=S,m,anim=nom,sg}... 
+{покидать=V,tran=sg,imper,2p,ipf} {же=PART=} {тлетворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чертог=S,m,inan=(acc,sg|nom,sg)}, 
+{улетать=V,intr=sg,imper,2p,ipf} {в=PR=} {бесконечный=A=acc,sg,plen,f} {высь=S,f,inan=(acc,sg|nom,sg)}, 
+{за=PR=} {крылатый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {видение=S,n,inan=ins,sg} {гнаться=V,ipf,intr=sg,imper,2p}. 
+{утро=S,n,inan=(acc,sg|nom,sg)} {знать=V,ipf,tran=inpraes,sg,indic,3p} {стремление=S,n,inan=(abl,sg|acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)}, 
+{вдохновенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)}!

@@ -1,96 +1,19 @@
-как=ADVPRO=
-_
-расти=V,ipf,intr=inpraes,sg,indic,3p
-_
-хлеб=S,m,inan=gen,pl
-_
-опара=S,f,inan=nom,sg
-,\n
-поначалу=ADV=
-_
-хороший=A=sg,brev,f
-,\n
-и=CONJ=
-_
-бесноваться=V,ipf,intr=inpraes,sg,indic,3p
-_
-от=PR=
-_
-жар=S,sg,m,inan=(dat|loc|part)
-\n
-домовитый=A=nom,sg,plen,f
-_
-душа=S,f,inan=nom,sg
-.\n\n
-словно=CONJ=
-_
-хлебный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-софия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-с=PR=
-_
-херувимский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-стол=S,m,inan=gen,sg
-\n
-круглый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жар=S,sg,m,inan=ins
-_
-наливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-\n
-подымать=V,ipf,tran=inpraes,pl,indic,3p
-_
-купол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-чтобы=CONJ=
-_
-сила=S,f,inan=ins,sg
-_
-или=CONJ=
-_
-ласка=S,f,inan=ins,sg
-\n
-чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-выманивать=V,tran=inf,pf
-_
-припек=S,m,inan=(acc,sg|nom,sg)
-,\n
-время=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-царственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-подпасок=S,m,anim=nom,sg
-_\u2014\n
-ловить=V,ipf,tran=inpraes,sg,indic,3p
-_
-слово=S,n,inan=(acc,sg|nom,sg)
--
-колобок=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-свое=SPRO,sg,n,inan=(acc|nom)
-_
-находить=V=inpraes,sg,indic,3p,ipf
-_
-место=S,n,inan=(acc,sg|nom,sg)
-\n
-черствый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пасынок=S,m,anim=nom,sg
-_
-век=S,m,inan=gen,pl
-_\u2014\n
-усыхать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-довесок=S,m,inan=(acc,sg|nom,sg)
-\n
-прежде=PR=
-_
-вынимать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-хлеб=S,m,inan=gen,pl
-.\n
+{как=ADVPRO=} {расти=V,ipf,intr=inpraes,sg,indic,3p} {хлеб=S,m,inan=gen,pl} {опара=S,f,inan=nom,sg},
+{поначалу=ADV=} {хороший=A=sg,brev,f},
+{и=CONJ=} {бесноваться=V,ipf,intr=inpraes,sg,indic,3p} {от=PR=} {жар=S,sg,m,inan=(dat|loc|part)}
+{домовитый=A=nom,sg,plen,f} {душа=S,f,inan=nom,sg}.
+
+{словно=CONJ=} {хлебный=A=(acc,pl,plen,inan|nom,pl,plen)} {софия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{с=PR=} {херувимский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {стол=S,m,inan=gen,sg}
+{круглый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жар=S,sg,m,inan=ins} {наливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}
+{подымать=V,ipf,tran=inpraes,pl,indic,3p} {купол=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{чтобы=CONJ=} {сила=S,f,inan=ins,sg} {или=CONJ=} {ласка=S,f,inan=ins,sg}
+{чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {выманивать=V,tran=inf,pf} {припек=S,m,inan=(acc,sg|nom,sg)},
+{время=S,n,inan=(acc,sg|nom,sg)} — {царственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подпасок=S,m,anim=nom,sg} —
+{ловить=V,ipf,tran=inpraes,sg,indic,3p} {слово=S,n,inan=(acc,sg|nom,sg)}-{колобок=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {свое=SPRO,sg,n,inan=(acc|nom)} {находить=V=inpraes,sg,indic,3p,ipf} {место=S,n,inan=(acc,sg|nom,sg)}
+{черствый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пасынок=S,m,anim=nom,sg} {век=S,m,inan=gen,pl} —
+{усыхать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {довесок=S,m,inan=(acc,sg|nom,sg)}
+{прежде=PR=} {вынимать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {хлеб=S,m,inan=gen,pl}.

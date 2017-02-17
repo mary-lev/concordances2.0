@@ -1,90 +1,14 @@
-медленно=ADV=
-_
-в=PR=
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-церковный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-идти=V,ipf,intr=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-,_
-душа=S,f,inan=ins,sg
-_
-несвободный=A=nom,sg,plen,f
-,\n
-слышаться=V,ipf,intr=praet,pl,indic
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-любовный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-молиться=V,ipf,intr=praet,pl,indic
-_
-народный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-или=CONJ=
-_
-в=PR=
-_
-минута=S,f,inan=acc,sg
-_
-безверие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-он=SPRO,sg,3p,m=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-посылать=V=praet,sg,indic,m,pf
-_
-облегчение=S,n,inan=(acc,sg|nom,sg)
-?\n
-часто=ADV=
-_
-в=PR=
-_
-церковный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-я=SPRO,sg,1p=nom
-\n
-ныне=ADV=
-_
-входить=V,intr=inpraes,sg,indic,1p,ipf
-_
-без=PR=
-_
-сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вечерний=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-тихо=ADV=
-,_
-медлительно=ADV=
-.\n
-я=SPRO,sg,1p=nom
-_
-же=PART=
-_
-молиться=V,ipf,intr=inpraes,sg,indic,1p
-_
-суеверно=ADV=comp
-,\n
-плакать=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-каяться=V,ipf,intr=inpraes,sg,indic,1p
-_
-мучительно=ADV=
-.\n
+{медленно=ADV=} {в=PR=} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {церковный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{идти=V,ipf,intr=praet,sg,indic,f} {я=SPRO,sg,1p=nom}, {душа=S,f,inan=ins,sg} {несвободный=A=nom,sg,plen,f},
+{слышаться=V,ipf,intr=praet,pl,indic} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {любовный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {молиться=V,ipf,intr=praet,pl,indic} {народный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{или=CONJ=} {в=PR=} {минута=S,f,inan=acc,sg} {безверие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{он=SPRO,sg,3p,m=nom} {я=SPRO,sg,1p=(abl|dat)} {посылать=V=praet,sg,indic,m,pf} {облегчение=S,n,inan=(acc,sg|nom,sg)}?
+{часто=ADV=} {в=PR=} {церковный=A=(acc,pl,plen,inan|nom,pl,plen)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {я=SPRO,sg,1p=nom}
+{ныне=ADV=} {входить=V,intr=inpraes,sg,indic,1p,ipf} {без=PR=} {сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{падать=V,ipf,intr=inpraes,pl,indic,3p} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вечерний=A=(acc,pl,plen,inan|nom,pl,plen)},
+{падать=V,ipf,intr=inpraes,pl,indic,3p} {тихо=ADV=}, {медлительно=ADV=}.
+{я=SPRO,sg,1p=nom} {же=PART=} {молиться=V,ipf,intr=inpraes,sg,indic,1p} {суеверно=ADV=comp},
+{плакать=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {каяться=V,ipf,intr=inpraes,sg,indic,1p} {мучительно=ADV=}.

@@ -1,112 +1,14 @@
-флоренция=S,geo,f,inan=nom,sg
-,_
-ты=SPRO,sg,2p=nom
-_
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-;\n
-по=PR=
-_
-кто=SPRO,sg,m,anim=abl
-_
-томиться=V,ipf,intr=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-\n
-любовь=S,f,inan=ins,sg
-_
-длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-безнадежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-кашин=S,famn,m,anim=nom,sg
-!\n\n
-о=PR=
-,_
-сладко=ADV=
-_
-вспомнить=V,pf,tran=inf
-_
-безнадежность=S,f,inan=(acc,sg|nom,sg)
-:\n
-мечтать=V,ipf,intr=inf
-_
-и=CONJ=
-_
-жить=V,ipf,intr=inf
-_
-в=PR=
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-;\n
-уходить=V,intr=inf,pf
-_
-в=PR=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-древний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зной=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-в=PR=
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-\n
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-стареть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-но=CONJ=
-_
-суждено=ADV,praed=
-_
-мы=SPRO,pl,1p=dat
-_
-разлучаться=V,intr=inf,pf
-,\n
-и=CONJ=
-_
-через=PR=
-_
-дальний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-сниться=V,ipf,intr=inf
-,\n
-как=CONJ=
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-ранний=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-.\n
+{флоренция=S,geo,f,inan=nom,sg}, {ты=SPRO,sg,2p=nom} {ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)};
+{по=PR=} {кто=SPRO,sg,m,anim=abl} {томиться=V,ipf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {один=APRO=(acc,sg,m,inan|nom,sg,m)}
+{любовь=S,f,inan=ins,sg} {длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {безнадежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {кашин=S,famn,m,anim=nom,sg}!
+
+{о=PR=}, {сладко=ADV=} {вспомнить=V,pf,tran=inf} {безнадежность=S,f,inan=(acc,sg|nom,sg)}:
+{мечтать=V,ipf,intr=inf} {и=CONJ=} {жить=V,ipf,intr=inf} {в=PR=} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)};
+{уходить=V,intr=inf,pf} {в=PR=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {древний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зной=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {в=PR=} {нежность=S,f,inan=(acc,sg|nom,sg)}
+{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {стареть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{но=CONJ=} {суждено=ADV,praed=} {мы=SPRO,pl,1p=dat} {разлучаться=V,intr=inf,pf},
+{и=CONJ=} {через=PR=} {дальний=A=(acc,pl,plen,inan|nom,pl,plen)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)} {быть=V,intr=inpraes,sg,indic,3p} {сниться=V,ipf,intr=inf},
+{как=CONJ=} {юность=S,f,inan=(acc,sg|nom,sg)} {ранний=A=nom,sg,plen,f} {мой=APRO=nom,sg,f}.

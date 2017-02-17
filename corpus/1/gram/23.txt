@@ -1,92 +1,12 @@
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-друг=S,m,anim=nom,sg
-!_
-ты=SPRO,sg,2p=nom
-_
-юный=A=ins,sg,plen,f
-_
-душа=S,f,inan=ins,sg
-\n______
-так=ADVPRO=
-_
-чистый=A=sg,brev,f
-!_\n
-спать=V,ipf,intr=sg,imper,2p
-_
-пока=ADV=
-!_
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,\n______
-красота=S,f,inan=nom,sg
-!_\n
-ты=SPRO,sg,2p=nom
-_
-просыпаться=V,intr=inpraes,sg,indic,2p,pf
-,_
-быть=V,intr=inpraes,sg,indic,3p
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-вьюга=S,f,inan=nom,sg
-\n______
-холодный=A=sg,brev,f
-._\n
-ты=SPRO,sg,2p=nom
-_
-тогда=ADVPRO=
-_
-с=PR=
-_
-душа=S,f,inan=ins,sg
-_
-надежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-\n______
-не=PART=
-_
-один=APRO=nom,sg,f
-._\n
-пусть=PART=
-_
-вокруг=PR=
-_
-зима=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-выть=V,ipf,intr=inpraes,sg,indic,3p
-_-\n______
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-!_\n
-друг=S,m,anim=nom,sg
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-от=PR=
-_
-зимний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-буря=S,f,inan=gen,pl
-_
-укрывать=V=inpraes,sg,indic,3p,pf
-\n______
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=ins,sg
-!\n
+{милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {друг=S,m,anim=nom,sg}! {ты=SPRO,sg,2p=nom} {юный=A=ins,sg,plen,f} {душа=S,f,inan=ins,sg}
+      {так=ADVPRO=} {чистый=A=sg,brev,f}! 
+{спать=V,ipf,intr=sg,imper,2p} {пока=ADV=}! {душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} {с=PR=} {ты=SPRO,sg,2p=ins},
+      {красота=S,f,inan=nom,sg}! 
+{ты=SPRO,sg,2p=nom} {просыпаться=V,intr=inpraes,sg,indic,2p,pf}, {быть=V,intr=inpraes,sg,indic,3p} {ночь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {вьюга=S,f,inan=nom,sg}
+      {холодный=A=sg,brev,f}. 
+{ты=SPRO,sg,2p=nom} {тогда=ADVPRO=} {с=PR=} {душа=S,f,inan=ins,sg} {надежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {друг=S,m,anim=(acc,sg|gen,sg)}
+      {не=PART=} {один=APRO=nom,sg,f}. 
+{пусть=PART=} {вокруг=PR=} {зима=S,f,inan=nom,sg} {и=CONJ=} {ветер=S,m,inan=(acc,sg|nom,sg)} {выть=V,ipf,intr=inpraes,sg,indic,3p} -
+      {я=SPRO,sg,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins}! 
+{друг=S,m,anim=nom,sg} {ты=SPRO,sg,2p=(acc|gen)} {от=PR=} {зимний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {буря=S,f,inan=gen,pl} {укрывать=V=inpraes,sg,indic,3p,pf}
+      {весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=ins,sg}!

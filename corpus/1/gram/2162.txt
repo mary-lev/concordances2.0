@@ -1,166 +1,24 @@
-задебренный?=A,plen=(nom,pl|acc,pl,inan)
-_
-лес=S,m,inan=ins,sg
-_
-круча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-когда-то=ADVPRO=
-_
-там=ADVPRO=
-,_
-на=PR=
-_
-высота=S,f,inan=(abl,sg|dat,sg)
-,\n
-рубить=V,ipf,tran=praet,pl,indic
-_
-дед=S,m,anim=nom,pl
-_
-сруб=S,m,inan=(acc,sg|nom,sg)
-_
-горючий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-и=CONJ=
-_
-петь=V,ipf,tran=praet,pl,indic
-_
-о=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-христос=S,famn,m,anim=abl,sg
-.\n\n
-теперь=ADV=
-_
-пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-кнут=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-свистнуть=V,pf,tran=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-спеть=V,pf,tran=inpraes,sg,indic,3p
-_
-свирель=S,f,inan=(acc,sg|nom,sg)
-.\n
-лишь=PART=
-_
-мох=S,m,inan=(acc,sg|nom,sg)
-_
-сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-с=PR=
-_
-обрыв=S,m,inan=gen,sg
-_
-виснуть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-как=CONJ=
-_
-ведьма=S,f,anim=(gen,sg|nom,pl)
-_
-сбивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-кудель=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-навеки=ADV=
-_
-непробудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тень=S,f,inan=ins,sg
-\n
-ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мох=S,m,inan=gen,pl
-_
-опушать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-спать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-убаюкивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-лень=S,f,inan=ins,sg
-\n
-людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-врагиня=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-тишина=S,sg,f,inan=gen
-.\n\n
-и=CONJ=
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-_
-печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-цапля=S,f,anim=(gen,sg|nom,pl)
-\n
-с=PR=
-_
-болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-спугивать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-но=CONJ=
-_
-в=PR=
-_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-ржавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-капля=S,f,inan=(abl,sg|dat,sg)
-_\u2014\n
-зачинать=V,tran=praet,sg,indic,n,pf
-_
-река=S,f,inan=gen,pl
-,_
-озеро=S,n,inan=gen,pl
-,_
-болото=S,n,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-капля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ржавый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-лесной=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-родясь?=ADV=
-_
-в=PR=
-_
-глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-темнота=S,sg,f,inan=(abl|dat)
-,\n
-нести=V,ipf,tran=inpraes,pl,indic,3p
-_
-испуганный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-весть=S,f,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-сжигать=V=(inpraes,abl,sg,partcp,plen,m,ipf,act,tran|inpraes,abl,sg,partcp,plen,n,ipf,act,tran)
-_
-христос=S,famn,m,anim=abl,sg
-.\n
+{задебренный?=A,plen=(nom,pl|acc,pl,inan)} {лес=S,m,inan=ins,sg} {круча=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{когда-то=ADVPRO=} {там=ADVPRO=}, {на=PR=} {высота=S,f,inan=(abl,sg|dat,sg)},
+{рубить=V,ipf,tran=praet,pl,indic} {дед=S,m,anim=nom,pl} {сруб=S,m,inan=(acc,sg|nom,sg)} {горючий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{и=CONJ=} {петь=V,ipf,tran=praet,pl,indic} {о=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {христос=S,famn,m,anim=abl,sg}.
+
+{теперь=ADV=} {пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)} {кнут=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {свистнуть=V,pf,tran=inpraes,sg,indic,3p},
+{и=CONJ=} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {спеть=V,pf,tran=inpraes,sg,indic,3p} {свирель=S,f,inan=(acc,sg|nom,sg)}.
+{лишь=PART=} {мох=S,m,inan=(acc,sg|nom,sg)} {сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {с=PR=} {обрыв=S,m,inan=gen,sg} {виснуть=V,ipf,intr=inpraes,sg,indic,3p},
+{как=CONJ=} {ведьма=S,f,anim=(gen,sg|nom,pl)} {сбивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {кудель=S,f,inan=(acc,sg|nom,sg)}.
+
+{навеки=ADV=} {непробудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тень=S,f,inan=ins,sg}
+{ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мох=S,m,inan=gen,pl} {опушать=V,tran=praet,pl,partcp,brev,pf,pass},
+{спать=V,ipf,intr=inpraes,pl,indic,3p}, {убаюкивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {лень=S,f,inan=ins,sg}
+{людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {врагиня=S,f,anim=(gen,sg|nom,pl)} — {тишина=S,sg,f,inan=gen}.
+
+{и=CONJ=} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {цапля=S,f,anim=(gen,sg|nom,pl)}
+{с=PR=} {болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {спугивать=V,tran=inpraes,sg,indic,3p,pf},
+{но=CONJ=} {в=PR=} {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {ржавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {капля=S,f,inan=(abl,sg|dat,sg)} —
+{зачинать=V,tran=praet,sg,indic,n,pf} {река=S,f,inan=gen,pl}, {озеро=S,n,inan=gen,pl}, {болото=S,n,inan=gen,pl}.
+
+{и=CONJ=} {капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ржавый=A=(acc,pl,plen,inan|nom,pl,plen)}, {лесной=A=(acc,pl,plen,inan|nom,pl,plen)},
+{родясь?=ADV=} {в=PR=} {глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {темнота=S,sg,f,inan=(abl|dat)},
+{нести=V,ipf,tran=inpraes,pl,indic,3p} {испуганный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{весть=S,f,inan=(acc,sg|nom,sg)} {о=PR=} {сжигать=V=(inpraes,abl,sg,partcp,plen,m,ipf,act,tran|inpraes,abl,sg,partcp,plen,n,ipf,act,tran)} {христос=S,famn,m,anim=abl,sg}.

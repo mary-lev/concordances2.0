@@ -1,114 +1,14 @@
-она=SPRO,sg,3p,f=(acc|gen)
-_
-факел=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-огненный=A=sg,brev,m
-_
-и=CONJ=
-_
-алый=A=sg,brev,m
-,\n
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-талый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-сумрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-:\n
-он=SPRO,sg,3p,m=nom
-_
-глядеть=V,ipf,tran=praet,sg,indic,m
-_
-на=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-и=CONJ=
-_
-сгорать=V,intr=praet,sg,indic,m,ipf
-,\n
-и=CONJ=
-_
-сгорать=V,intr=praet,sg,indic,m,ipf
-_
-от=PR=
-_
-непознанный=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-нега=S,f,inan=gen,pl
-.\n\n
-лоно=S,n,inan=(acc,sg|nom,sg)
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-открываться=V,intr=praet,sg,indic,n,pf
-_
-черно=ADV=
-_\u2014\n
-он=SPRO,sg,3p,m=nom
-_
-не=PART=
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-_
-призыв=S,m,inan=gen,sg
-:_\xAB
-жить=V,ipf,intr=sg,imper,2p
-\xBB,\n
-и=CONJ=
-_
-оставаться=V,intr=praet,sg,indic,n,pf
-_
-в=PR=
-_
-эфир=S,m,inan=abl,sg
-_
-один=ANUM=(acc,sg,n|nom,sg,n)
-\n
-безнадежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-да=CONJ=
-_
-на=PR=
-_
-ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-глубокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ров=S,m,inan=gen,sg
-,\n
-пенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-риза=S,f,inan=ins,sg
-_
-покрывать=V=praet,sg,partcp,brev,f,pf,pass
-_
-до=PR=
-_
-пята=S,f,inan=gen,pl
-,\n
-одинокий=A=nom,sg,plen,f
-_
-грезить=V,ipf,intr=inpraes,sg,indic,3p
-_
-вдова=S,f,anim=nom,sg
-_\u2014\n
-и=CONJ=
-_
-холодный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кипеть=V,ipf,intr=inpraes,pl,indic,3p
-...\n
+{она=SPRO,sg,3p,f=(acc|gen)} {факел=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {огненный=A=sg,brev,m} {и=CONJ=} {алый=A=sg,brev,m},
+{он=SPRO,sg,3p,m=nom} {быть=V,intr=praet,sg,indic,m,ipf} {талый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {сумрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {снег=S,m,inan=(acc,sg|nom,sg)}:
+{он=SPRO,sg,3p,m=nom} {глядеть=V,ipf,tran=praet,sg,indic,m} {на=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {и=CONJ=} {сгорать=V,intr=praet,sg,indic,m,ipf},
+{и=CONJ=} {сгорать=V,intr=praet,sg,indic,m,ipf} {от=PR=} {непознанный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {нега=S,f,inan=gen,pl}.
+
+{лоно=S,n,inan=(acc,sg|nom,sg)} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {открываться=V,intr=praet,sg,indic,n,pf} {черно=ADV=} —
+{он=SPRO,sg,3p,m=nom} {не=PART=} {слышать=V,ipf,tran=praet,sg,indic,m} {призыв=S,m,inan=gen,sg}: «{жить=V,ipf,intr=sg,imper,2p}»,
+{и=CONJ=} {оставаться=V,intr=praet,sg,indic,n,pf} {в=PR=} {эфир=S,m,inan=abl,sg} {один=ANUM=(acc,sg,n|nom,sg,n)}
+{безнадежный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{да=CONJ=} {на=PR=} {ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)} {глубокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ров=S,m,inan=gen,sg},
+{пенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {риза=S,f,inan=ins,sg} {покрывать=V=praet,sg,partcp,brev,f,pf,pass} {до=PR=} {пята=S,f,inan=gen,pl},
+{одинокий=A=nom,sg,plen,f} {грезить=V,ipf,intr=inpraes,sg,indic,3p} {вдова=S,f,anim=nom,sg} —
+{и=CONJ=} {холодный=A=(acc,pl,plen,inan|nom,pl,plen)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кипеть=V,ipf,intr=inpraes,pl,indic,3p}...

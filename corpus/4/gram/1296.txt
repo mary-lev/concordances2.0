@@ -1,88 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-около=PR=
-_
-кольцов=S,famn,m,anim=(acc,sg|gen,sg)
-\n
-как=ADVPRO=
-_
-сокол=S,m,inan=(acc,sg|nom,sg)
-_
-закольцовывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-и=CONJ=
-_
-нет=PART=
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-гонец=S,m,anim=(acc,sg|gen,sg)
-,\n
-и=CONJ=
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-без=PR=
-_
-крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-к=PR=
-_
-нога=S,f,inan=(abl,sg|dat,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-привязывать=V=praet,sg,partcp,brev,m,pf,pass
-\n
-сосновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бор=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-вестник=S,m,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-указ=S,m,inan=gen,sg
-\n
-распахнуть=V,pf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)
-_
-кругозор=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-кочевать=V,ipf,intr=inpraes,pl,indic,3p
-_
-кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-,_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-\n
-ночлег=S,m,inan=(acc,pl|nom,pl)
-,_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_
-ночка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-как=ADVPRO=
-_
-бы=PART=
-_
-слепой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-везти=V=inpraes,pl,indic,3p,ipf
-.\n
+{я=SPRO,sg,1p=nom} {около=PR=} {кольцов=S,famn,m,anim=(acc,sg|gen,sg)}
+{как=ADVPRO=} {сокол=S,m,inan=(acc,sg|nom,sg)} {закольцовывать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{и=CONJ=} {нет=PART=} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {гонец=S,m,anim=(acc,sg|gen,sg)},
+{и=CONJ=} {дом=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {без=PR=} {крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{к=PR=} {нога=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {привязывать=V=praet,sg,partcp,brev,m,pf,pass}
+{сосновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бор=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {вестник=S,m,inan=(acc,sg|nom,sg)} {без=PR=} {указ=S,m,inan=gen,sg}
+{распахнуть=V,pf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)} {кругозор=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {кочевать=V,ipf,intr=inpraes,pl,indic,3p} {кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {идти=V,ipf,intr=inpraes,pl,indic,3p}, {идти=V,ipf,intr=inpraes,pl,indic,3p}
+{ночлег=S,m,inan=(acc,pl|nom,pl)}, {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {ночка=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{как=ADVPRO=} {бы=PART=} {слепой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {везти=V=inpraes,pl,indic,3p,ipf}.

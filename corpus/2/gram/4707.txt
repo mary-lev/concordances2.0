@@ -1,128 +1,19 @@
-и=CONJ=
-_
-вот=PART=
-_
-весь=APRO=nom,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-!_
-кружение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-мелькать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,n,act|inpraes,nom,sg,partcp,plen,n,act)
-_
-отражение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-потерять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-_
-навсегда=ADV=
-.\n\n
-бушевать=V,ipf,intr=inpraes,sg,indic,3p
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-,_
-трубить=V,ipf,tran=inpraes,pl,indic,3p
-_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-конь=S,m,anim=nom,pl
-_
-рыжий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-потом=ADVPRO=
-_
-волнующий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-о=PR=
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-кажется=ADV,parenth=
-,_
-твердить=V,ipf,tran=inpraes,pl,indic,3p
-.\n\n
-и=CONJ=
-_
-вот=PART=
-_
-опять=ADV=
-_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-горе=S,sg,n,inan=(abl|acc|nom)
-,\n
-опять=ADV=
-,_
-как=CONJ=
-_
-прежде=ADV=
-,_
-как=CONJ=
-_
-всегда=ADVPRO=
-,\n
-седой=A=ins,sg,plen,f
-_
-грива=S,f,inan=ins,sg
-_
-махать=V,ipf,intr=inpraes,sg,indic,3p
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-вставать=V,intr=inpraes,pl,indic,3p,ipf
-_
-пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-когда=ADVPRO=
-_
-же=PART=
-,_
-наконец=ADV,parenth=
-,_
-восставать=V,intr=praet,ger,pf
-\n
-от=PR=
-_
-сон=S,m,inan=gen,sg
-,_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-снова=ADV=
-_
-я=SPRO,sg,1p=nom
-,_\u2014\n
-простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-индиец=S,m,anim=nom,sg
-,_
-задремать=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-\n
-в=PR=
-_
-священный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-ручей=S,m,inan=gen,sg
-?\n
+{и=CONJ=} {вот=PART=} {весь=APRO=nom,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)}! {кружение=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {пение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{море=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {город=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{мелькать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,n,act|inpraes,nom,sg,partcp,plen,n,act)} {отражение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{потерять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)} {навсегда=ADV=}.
+
+{бушевать=V,ipf,intr=inpraes,sg,indic,3p} {пламень=S,inan=(acc,sg,n|nom,sg,n)}, {трубить=V,ipf,tran=inpraes,pl,indic,3p} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {конь=S,m,anim=nom,pl} {рыжий=A=(acc,pl,plen,inan|nom,pl,plen)} {лететь=V,ipf,intr=inpraes,pl,indic,3p},
+{потом=ADVPRO=} {волнующий=A=(acc,pl,plen,inan|nom,pl,plen)} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{о=PR=} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {кажется=ADV,parenth=}, {твердить=V,ipf,tran=inpraes,pl,indic,3p}.
+
+{и=CONJ=} {вот=PART=} {опять=ADV=} {восторг=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {горе=S,sg,n,inan=(abl|acc|nom)},
+{опять=ADV=}, {как=CONJ=} {прежде=ADV=}, {как=CONJ=} {всегда=ADVPRO=},
+{седой=A=ins,sg,plen,f} {грива=S,f,inan=ins,sg} {махать=V,ipf,intr=inpraes,sg,indic,3p} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{вставать=V,intr=inpraes,pl,indic,3p,ipf} {пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {город=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{когда=ADVPRO=} {же=PART=}, {наконец=ADV,parenth=}, {восставать=V,intr=praet,ger,pf}
+{от=PR=} {сон=S,m,inan=gen,sg}, {я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {снова=ADV=} {я=SPRO,sg,1p=nom}, —
+{простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {индиец=S,m,anim=nom,sg}, {задремать=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)}
+{в=PR=} {священный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечер=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {ручей=S,m,inan=gen,sg}?

@@ -1,106 +1,14 @@
-разлестись?=V,pf,intr=praet,ger
-_
-по=PR=
-_
-весь=APRO=(dat,sg,m|dat,sg,n)
-_
-небосклон=S,m,inan=dat,sg
-,\n
-огнекрасный?=A=nom,sg,plen,f
-_
-туча=S,f,inan=nom,sg
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-я=SPRO,sg,1p=nom
-_
-писать=V,ipf,tran=inpraes,sg,indic,1p
-_
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-келья=S,f,inan=(abl,sg|dat,sg)
-_
-мадонна=S,f,anim=acc,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-писать=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-мой=APRO=nom,sg,f
-_
-дума=S,f,inan=nom,sg
-_
-расти=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-вычерчивать=V,tran=praet,sg,indic,m,pf
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-вот=PART=
-_
-под=PR=
-_
-кисть=S,f,inan=ins,sg
-_
-рука=S,f,inan=nom,sg
-_
-расцветать=V,intr=praet,sg,indic,f,pf
-,\n
-вот=PART=
-_
-сиять=V,ipf,intr=inpraes,pl,indic,3p
-_
-краса=S,f,inan=ins,sg
-_
-белоснежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-легкое=S,n,inan=(abl,pl|gen,pl)
-_
-крыло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-огнекрасный?=A=(acc,pl,plen,inan|nom,pl,plen)|огнекрасный?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отсвет=S,m,inan=(acc,pl|nom,pl)
-_
-ярко=ADV=comp
-\n
-на=PR=
-_
-суровый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-полотно=S,n,inan=abl,sg
-...\n
-неотступный=A=nom,sg,plen,f
-_
-дума=S,f,inan=nom,sg
-_
-все=ADV=
-_
-жарко=ADV=comp
-\n
-обнимать=V,tran=inpraes,sg,indic,3p,ipf
-,_
-прильнуть=V,pf,intr=praet,sg,indic,f
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-...\n
+{разлестись?=V,pf,intr=praet,ger} {по=PR=} {весь=APRO=(dat,sg,m|dat,sg,n)} {небосклон=S,m,inan=dat,sg},
+{огнекрасный?=A=nom,sg,plen,f} {туча=S,f,inan=nom,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}.
+{я=SPRO,sg,1p=nom} {писать=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {келья=S,f,inan=(abl,sg|dat,sg)} {мадонна=S,f,anim=acc,sg},
+{я=SPRO,sg,1p=nom} {писать=V,ipf,tran=inpraes,sg,indic,1p} — {мой=APRO=nom,sg,f} {дума=S,f,inan=nom,sg} {расти=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{вот=PART=} {я=SPRO,sg,1p=nom} {вычерчивать=V,tran=praet,sg,indic,m,pf} {лик=S,m,inan=(acc,sg|nom,sg)} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{вот=PART=} {под=PR=} {кисть=S,f,inan=ins,sg} {рука=S,f,inan=nom,sg} {расцветать=V,intr=praet,sg,indic,f,pf},
+{вот=PART=} {сиять=V,ipf,intr=inpraes,pl,indic,3p} {краса=S,f,inan=ins,sg} {белоснежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {легкое=S,n,inan=(abl,pl|gen,pl)} {крыло=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{огнекрасный?=A=(acc,pl,plen,inan|nom,pl,plen)|огнекрасный?=A=(acc,pl,plen,inan|nom,pl,plen)} {отсвет=S,m,inan=(acc,pl|nom,pl)} {ярко=ADV=comp}
+{на=PR=} {суровый=A=(abl,sg,plen,m|abl,sg,plen,n)} {мой=APRO=(abl,sg,m|abl,sg,n)} {полотно=S,n,inan=abl,sg}...
+{неотступный=A=nom,sg,plen,f} {дума=S,f,inan=nom,sg} {все=ADV=} {жарко=ADV=comp}
+{обнимать=V,tran=inpraes,sg,indic,3p,ipf}, {прильнуть=V,pf,intr=praet,sg,indic,f} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}...

@@ -1,82 +1,14 @@
-месяц=S,m,inan=gen,sg
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-электрический=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-дрожать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-извиваться=V,intr=inpraes,sg,indic,3p,ipf
-;\n
-сила=S,f,inan=(abl,sg|dat,sg)
-_
-подвластный=A=sg,brev,n
-_
-магический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-вздыматься=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-взбегать=V,intr=inpraes,pl,indic,3p,ipf
-_
-упорный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-метаться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-дикий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-пленный=S,m,anim=nom,pl
-,\n
-гибнуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-борьба=S,sg,f,inan=(abl|dat)
-,_
-непокорный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-гаснуть=V,ipf,intr=inpraes,pl,indic,3p
-,_
-разбитый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-пенный=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n\n
-месяц=S,m,inan=gen,sg
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-электрический=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-змеиться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-свиваться=V,intr=inpraes,sg,indic,3p,ipf
-;\n
-сила=S,f,inan=(abl,sg|dat,sg)
-_
-подвластный=A=sg,brev,n
-_
-магический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-вздыматься=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+{месяц=S,m,inan=gen,sg} {свет=S,sg,m,inan=(acc|nom)} {электрический=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {дрожать=V,ipf,intr=inpraes,sg,indic,3p}, {извиваться=V,intr=inpraes,sg,indic,3p,ipf};
+{сила=S,f,inan=(abl,sg|dat,sg)} {подвластный=A=sg,brev,n} {магический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кипеть=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {вздыматься=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {взбегать=V,intr=inpraes,pl,indic,3p,ipf} {упорный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{метаться=V,ipf,intr=inpraes,pl,indic,3p}, {дикий=A=(acc,pl,plen,inan|nom,pl,plen)}, {пленный=S,m,anim=nom,pl},
+{гибнуть=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {борьба=S,sg,f,inan=(abl|dat)}, {непокорный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{гаснуть=V,ipf,intr=inpraes,pl,indic,3p}, {разбитый=A=(acc,pl,plen,inan|nom,pl,plen)}, {пенный=A=(acc,pl,plen,inan|nom,pl,plen)}...
+
+{месяц=S,m,inan=gen,sg} {свет=S,sg,m,inan=(acc|nom)} {электрический=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {змеиться=V,ipf,intr=inpraes,sg,indic,3p}, {свиваться=V,intr=inpraes,sg,indic,3p,ipf};
+{сила=S,f,inan=(abl,sg|dat,sg)} {подвластный=A=sg,brev,n} {магический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кипеть=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {вздыматься=V,ipf,intr=inpraes,sg,indic,3p}.

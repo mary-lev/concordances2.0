@@ -1,60 +1,9 @@
-признак=S,m,inan=(acc,sg|nom,sg)
-_
-истинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-полночный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-темнота=S,sg,f,inan=gen
-_-_\n
-мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-камень=S,m,inan=gen,pl
-_
-груда=S,f,inan=nom,sg
-,_\n
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,2p
-_
-алмаз=S,m,inan=ins,sg
-_
-ты=SPRO,sg,2p=nom
-.\n\n
-а=CONJ=
-_
-сам=APRO=nom,sg,f
-_-_
-за=PR=
-_
-мгла=S,f,inan=ins,sg
-_
-речной=A=ins,sg,plen,f
-_\n
-направлять=V,tran=inpraes,sg,indic,2p,ipf
-_
-горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бег=S,sg,m,inan=(acc|nom)
-_\n
-ты=SPRO,sg,2p=nom
-_
-лазурь=S,f,inan=ins,sg
-_
-золотой=A=ins,sg,plen,f
-_\n
-просиять=V,pf,intr=praet,nom,sg,partcp,plen,f,act
-_
-навек=ADV=
-\n
+{признак=S,m,inan=(acc,sg|nom,sg)} {истинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {полночный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {темнота=S,sg,f,inan=gen} - 
+{мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрак=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {камень=S,m,inan=gen,pl} {груда=S,f,inan=nom,sg}, 
+{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {гореть=V,ipf,intr=inpraes,sg,indic,2p} {алмаз=S,m,inan=ins,sg} {ты=SPRO,sg,2p=nom}.
+
+{а=CONJ=} {сам=APRO=nom,sg,f} - {за=PR=} {мгла=S,f,inan=ins,sg} {речной=A=ins,sg,plen,f} 
+{направлять=V,tran=inpraes,sg,indic,2p,ipf} {горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бег=S,sg,m,inan=(acc|nom)} 
+{ты=SPRO,sg,2p=nom} {лазурь=S,f,inan=ins,sg} {золотой=A=ins,sg,plen,f} 
+{просиять=V,pf,intr=praet,nom,sg,partcp,plen,f,act} {навек=ADV=}

@@ -1,84 +1,14 @@
-поздно=ADV=
-._
-в=PR=
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-закрытый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-горький=A=nom,sg,plen,f
-_
-мудрость=S,f,inan=(acc,sg|nom,sg)
-_
-стучать=V,ipf,intr=inpraes,sg,indic,3p
-._\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-ликование=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-забывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_\n
-перелетать=V=praet,sg,indic,n,pf
-_
-в=PR=
-_
-зенит=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-поздно=ADV=
-._
-я=SPRO,sg,1p=(acc|gen)
-_
-не=PART=
-_
-обманывать=V,tran=inpraes,sg,indic,2p,pf
-_
-ты=SPRO,sg,2p=nom
-._\n
-смеяться=V,ipf,intr=sg,imper,2p
-_
-же=PART=
-,_
-светлый=A=nom,sg,plen,f
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-!_\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-купаться=V,ipf,intr=inf
-_
-уставать=V,intr=inpraes,sg,indic,2p,pf
-_
-ты=SPRO,sg,2p=nom
-_-_\n
-вечер=S,m,inan=ins,sg
-_
-смениться=V,pf,intr=inpraes,sg,indic,3p
-_
-день=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-смениться=V,pf,intr=inpraes,sg,indic,3p
-_
-мертвенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-скука=S,f,inan=ins,sg
-_-\n
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-поблекнуть=V,pf,intr=inpraes,pl,indic,3p
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-..._\n
-мудрость=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-_
-близорукий=A=nom,sg,plen,f
-!\n
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-год=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-!\n
+{поздно=ADV=}. {в=PR=} {окошко=S,n,inan=(acc,sg|nom,sg)} {закрытый=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{горький=A=nom,sg,plen,f} {мудрость=S,f,inan=(acc,sg|nom,sg)} {стучать=V,ipf,intr=inpraes,sg,indic,3p}. 
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ликование=S,n,inan=(abl,sg|acc,sg|nom,sg)} {забывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} 
+{перелетать=V=praet,sg,indic,n,pf} {в=PR=} {зенит=S,m,inan=(acc,sg|nom,sg)}.
+
+{поздно=ADV=}. {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {обманывать=V,tran=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom}. 
+{смеяться=V,ipf,intr=sg,imper,2p} {же=PART=}, {светлый=A=nom,sg,plen,f} {тень=S,f,inan=(acc,sg|nom,sg)}! 
+{в=PR=} {небо=S,n,inan=abl,sg} {купаться=V,ipf,intr=inf} {уставать=V,intr=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom} - 
+{вечер=S,m,inan=ins,sg} {смениться=V,pf,intr=inpraes,sg,indic,3p} {день=S,m,inan=(acc,sg|nom,sg)}.
+
+{смениться=V,pf,intr=inpraes,sg,indic,3p} {мертвенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {скука=S,f,inan=ins,sg} -
+{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {поблекнуть=V,pf,intr=inpraes,pl,indic,3p} {твой=APRO=(nom,pl|acc,pl,inan)}... 
+{мудрость=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f} {близорукий=A=nom,sg,plen,f}!
+{темный=A=(acc,pl,plen,inan|nom,pl,plen)} {год=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}!

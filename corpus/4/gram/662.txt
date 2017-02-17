@@ -1,120 +1,19 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-часы=S,pl,inan=(acc|nom)
--
-кузнечик=S,m,anim=nom,sg
-,\n
-лихорадка=S,f,inan=nom,sg
-_
-шелестеть=V,ipf,intr=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-шуршать=V,ipf,intr=inpraes,sg,indic,3p
-_
-сухой=A=nom,sg,plen,f
-_
-печка=S,f,inan=nom,sg
-_\u2014\n
-это=PART=
-_
-красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шелк=S,m,inan=(acc,sg|nom,sg)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-.\n|\n
-что=CONJ=
-_
-зуб=S,m,inan=ins,pl
-_
-мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-точить=V,ipf,tran=inpraes,pl,indic,3p
-\n
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тоненький=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-_\u2014\n
-это=PART=
-_
-ласточка=S,f,anim=nom,sg
-_
-и=CONJ=
-_
-дочка=S,f,anim=nom,sg
-\n
-отвязывать=V=praet,sg,indic,f,pf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-челнок=S,m,inan=(acc,sg|nom,sg)
-.\n|\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-на=PR=
-_
-крыша=S,f,inan=(abl,sg|dat,sg)
-_
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-бормотать=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014\n
-это=PART=
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шелк=S,m,inan=(acc,sg|nom,sg)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-_
-черемуха=S,f,inan=nom,sg
-_
-услышать=V,pf,tran=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-на=PR=
-_
-дно=S,n,inan=abl,sg
-_
-морской=A,plen=(abl,sg,m|abl,sg,n)
-_
-прощать=V=inpraes,sg,indic,3p,pf
-.\n|\n
-потому=ADVPRO=
-_
-что=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-невинный=A=sg,brev,f
-,\n
-и=CONJ=
-_
-ничто=SPRO,sg,n=ins
-_
-нельзя=ADV,praed=
-_
-помогать=V,intr=inf,pf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-в=PR=
-_
-горячка=S,f,inan=(abl,sg|dat,sg)
-_
-соловьиный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-теплый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-еще=ADV=
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {петь=V,ipf,tran=inpraes,pl,indic,3p} {часы=S,pl,inan=(acc|nom)}-{кузнечик=S,m,anim=nom,sg},
+{лихорадка=S,f,inan=nom,sg} {шелестеть=V,ipf,intr=inpraes,sg,indic,3p}
+{и=CONJ=} {шуршать=V,ipf,intr=inpraes,sg,indic,3p} {сухой=A=nom,sg,plen,f} {печка=S,f,inan=nom,sg} —
+{это=PART=} {красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шелк=S,m,inan=(acc,sg|nom,sg)} {гореть=V,ipf,intr=inpraes,sg,indic,3p}.
+|
+{что=CONJ=} {зуб=S,m,inan=ins,pl} {мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {точить=V,ipf,tran=inpraes,pl,indic,3p}
+{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тоненький=A=(acc,sg,plen,n|nom,sg,plen,n)} {дно=S,n,inan=(acc,sg|nom,sg)} —
+{это=PART=} {ласточка=S,f,anim=nom,sg} {и=CONJ=} {дочка=S,f,anim=nom,sg}
+{отвязывать=V=praet,sg,indic,f,pf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {челнок=S,m,inan=(acc,sg|nom,sg)}.
+|
+{что=SPRO,sg,n,inan=(acc|nom)} {на=PR=} {крыша=S,f,inan=(abl,sg|dat,sg)} {дождь=S,m,inan=(acc,sg|nom,sg)} {бормотать=V,ipf,tran=inpraes,sg,indic,3p} —
+{это=PART=} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шелк=S,m,inan=(acc,sg|nom,sg)} {гореть=V,ipf,intr=inpraes,sg,indic,3p},
+{но=CONJ=} {черемуха=S,f,inan=nom,sg} {услышать=V,pf,tran=inpraes,sg,indic,3p}
+{и=CONJ=} {на=PR=} {дно=S,n,inan=abl,sg} {морской=A,plen=(abl,sg,m|abl,sg,n)} {прощать=V=inpraes,sg,indic,3p,pf}.
+|
+{потому=ADVPRO=} {что=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {невинный=A=sg,brev,f},
+{и=CONJ=} {ничто=SPRO,sg,n=ins} {нельзя=ADV,praed=} {помогать=V,intr=inf,pf},
+{что=SPRO,sg,n,inan=(acc|nom)} {в=PR=} {горячка=S,f,inan=(abl,sg|dat,sg)} {соловьиный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {теплый=A=(acc,sg,plen,n|nom,sg,plen,n)} {еще=ADV=}.

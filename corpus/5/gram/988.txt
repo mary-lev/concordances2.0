@@ -1,110 +1,18 @@
-заря=S,f,inan=acc,sg
-_
-я=SPRO,sg,1p=nom
-_
-зреть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-ты=SPRO,sg,2p=(acc|gen)
-...\n
-прощать=V=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-прощать=V=sg,imper,2p,pf
-_
-же=PART=
-:\n
-неметь=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-\n
-не=PART=
-_
-сметь=V,ipf,intr=inpraes,sg,indic,1p
-_
-подходить=V,intr=inf,pf
-...\n\n
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-заря=S,f,inan=nom,sg
-,_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014\n
-и=CONJ=
-_
-никнуть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-никнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-ниже=ADV=
-.\n
-бить=V,ipf,tran=inpraes,sg,indic,3p
-_
-час=S,m,inan=(acc,sg|nom,sg)
-:_\xAB
-вперед=ADV=
-\xBB._
-ты=SPRO,sg,2p=nom
-_\u2014_
-вот=PART=
-:\n
-и=CONJ=
-_
-нет=ADV,praed=
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-:_
-тенить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-тень=S,f,inan=ins,sg
-_
-лизать=V,ipf,tran=inpraes,sg,indic,3p
-_
-близко=ADV=comp
-,\n
-поток=S,m,inan=ins,sg
-_(
-ток=S,m,inan=ins,sg
-_
-год=S,m,inan=gen,pl
-)\n
-замывать=V=inpraes,sg,indic,3p,pf
-_
-свет=S,sg,m,inan=(acc|nom)
-..._
-прощать=V=sg,imper,2p,pf
-!\n\n
-замывать=V=inpraes,sg,indic,3p,pf
-_
-ток=S,m,inan=ins,sg
-_
-год=S,m,inan=gen,pl
-\n
-в=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ты=SPRO,sg,2p=(acc|gen)
-..._
-прощать=V=sg,imper,2p,pf
-_
-же=PART=
-_\u2014\n
-прощать=V=sg,imper,2p,pf
-!\n
+{заря=S,f,inan=acc,sg} {я=SPRO,sg,1p=nom} {зреть=V,ipf,tran=inpraes,sg,indic,1p} — {ты=SPRO,sg,2p=(acc|gen)}...
+{прощать=V=sg,imper,2p,pf} {я=SPRO,sg,1p=(acc|gen)}, {прощать=V=sg,imper,2p,pf} {же=PART=}:
+{неметь=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}
+{не=PART=} {сметь=V,ipf,intr=inpraes,sg,indic,1p} {подходить=V,intr=inf,pf}...
+
+{гореть=V,ipf,intr=inpraes,sg,indic,3p} {заря=S,f,inan=nom,sg}, {гореть=V,ipf,intr=inpraes,sg,indic,3p} —
+{и=CONJ=} {никнуть=V,ipf,intr=inpraes,sg,indic,3p}, {никнуть=V,ipf,intr=inpraes,sg,indic,3p} {ниже=ADV=}.
+{бить=V,ipf,tran=inpraes,sg,indic,3p} {час=S,m,inan=(acc,sg|nom,sg)}: «{вперед=ADV=}». {ты=SPRO,sg,2p=nom} — {вот=PART=}:
+{и=CONJ=} {нет=ADV,praed=} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{и=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} {вставать=V,intr=inpraes,sg,indic,3p,ipf}: {тенить=V,ipf,tran=inpraes,sg,indic,3p},
+{и=CONJ=} {тень=S,f,inan=ins,sg} {лизать=V,ipf,tran=inpraes,sg,indic,3p} {близко=ADV=comp},
+{поток=S,m,inan=ins,sg} ({ток=S,m,inan=ins,sg} {год=S,m,inan=gen,pl})
+{замывать=V=inpraes,sg,indic,3p,pf} {свет=S,sg,m,inan=(acc|nom)}... {прощать=V=sg,imper,2p,pf}!
+
+{замывать=V=inpraes,sg,indic,3p,pf} {ток=S,m,inan=ins,sg} {год=S,m,inan=gen,pl}
+{в=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ты=SPRO,sg,2p=(acc|gen)}... {прощать=V=sg,imper,2p,pf} {же=PART=} —
+{прощать=V=sg,imper,2p,pf}!

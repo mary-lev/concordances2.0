@@ -1,140 +1,17 @@
-хорошо=ADV=parenth
-_
-один=APRO=(dat,sg,m|dat,sg,n)
-_
-у=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-вновь=ADV=
-_
-голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-для=PR=
-_
-взор=S,m,inan=gen,pl
-_
-обычный=A=sg,brev,f
-_
-луна=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-сплетать=V=inpraes,sg,indic,3p,ipf,tran
-_
-опять=ADV=
-_
-тишина=S,sg,f,inan=nom
-\n
-вдохновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-с=PR=
-_
-раздумье=S,n,inan=ins,sg
-_
-святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n
-и=CONJ=
-_
-гирлянда=S,f,inan=acc,sg
-_
-пылать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-роза=S,f,inan=gen,pl
-\n
-я=SPRO,sg,1p=nom
-_
-добросить=V,pf,tran=inpraes,sg,indic,1p
-_
-до=PR=
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мир=S,m,inan=gen,pl
-,\n
-и=CONJ=
-_
-по=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-погружаться=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-хаос=S,m,inan=(acc,sg|nom,sg)
-\n
-неизведанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-творческий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-греза=S,f,inan=gen,pl
-,\n
-несказанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-слово=S,n,inan=gen,pl
-.\n\n
-этот=APRO=nom,sg,f
-_
-воля=S,f,inan=nom,sg
-_\u2014_
-свободный=A=sg,brev,f
-_
-опять=ADV=
-,\n
-этот=APRO=nom,sg,f
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-как=CONJ=
-_
-комета=S,f,inan=nom,sg
-_\u2014_
-вольный=A=sg,brev,f
-!\n
-все=SPRO,pl=(acc|nom)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-улавливать=V,tran=inf,pf
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-понимать=V=inf,pf
-...\n
-и=CONJ=
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-целовать=V,ipf,tran=inf
-,\n
-о=PR=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-друг=S,m,anim=nom,sg
-,_
-у=PR=
-_
-ночной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{хорошо=ADV=parenth} {один=APRO=(dat,sg,m|dat,sg,n)} {у=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{небо=S,n,inan=(acc,sg|nom,sg)} {казаться=V,ipf,intr=inpraes,sg,indic,3p} {вновь=ADV=} {голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {для=PR=} {взор=S,m,inan=gen,pl} {обычный=A=sg,brev,f} {луна=S,f,inan=nom,sg},
+{и=CONJ=} {сплетать=V=inpraes,sg,indic,3p,ipf,tran} {опять=ADV=} {тишина=S,sg,f,inan=nom}
+{вдохновение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {с=PR=} {раздумье=S,n,inan=ins,sg} {святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+{и=CONJ=} {гирлянда=S,f,inan=acc,sg} {пылать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {роза=S,f,inan=gen,pl}
+{я=SPRO,sg,1p=nom} {добросить=V,pf,tran=inpraes,sg,indic,1p} {до=PR=} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мир=S,m,inan=gen,pl},
+{и=CONJ=} {по=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {погружаться=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {в=PR=} {хаос=S,m,inan=(acc,sg|nom,sg)}
+{неизведанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {творческий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {греза=S,f,inan=gen,pl},
+{несказанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слово=S,n,inan=gen,pl}.
+
+{этот=APRO=nom,sg,f} {воля=S,f,inan=nom,sg} — {свободный=A=sg,brev,f} {опять=ADV=},
+{этот=APRO=nom,sg,f} {мысль=S,f,inan=(acc,sg|nom,sg)} — {как=CONJ=} {комета=S,f,inan=nom,sg} — {вольный=A=sg,brev,f}!
+{все=SPRO,pl=(acc|nom)} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {улавливать=V,tran=inf,pf}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {понимать=V=inf,pf}...
+{и=CONJ=} {не=PART=} {надо=ADV,praed=} {ты=SPRO,sg,2p=(acc|gen)} {целовать=V,ipf,tran=inf},
+{о=PR=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg}, {у=PR=} {ночной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}!

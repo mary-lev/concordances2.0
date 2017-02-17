@@ -1,122 +1,19 @@
-о=INTJ=
-,_
-как=ADVPRO=
-_
-же=PART=
-_
-я=SPRO,sg,1p=nom
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-не=PART=
-_
-чуять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)
-_
-никто=SPRO,sg,m,anim=ins
-,\n
-лететь=V,ipf,intr=inf
-_
-вослед=PR=
-_
-луч=S,m,inan=dat,sg
-,\n
-где=ADVPRO=
-_
-нет=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-совсем=ADV=
-.\n\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-круг=S,m,inan=(dat,sg|loc,sg)
-_
-лучиться=V,ipf,intr=sg,imper,2p
-_\u2014_\n
-другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-_\u2014_\n
-и=CONJ=
-_
-у=PR=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-учиться=V,ipf,intr=sg,imper,2p
-\n
-то=SPRO,sg,n,inan=dat
-,_
-что=CONJ=
-_
-значит=ADV,parenth=
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-только=PART=
-_
-то=SPRO,sg,n,inan=ins
-_
-и=CONJ=
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-только=PART=
-_
-то=SPRO,sg,n,inan=ins
-_
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-шопот?=S,m,inan=ins,sg
-_
-могучий=A=sg,brev,m
-\n
-и=CONJ=
-_
-лепет=S,m,inan=ins,sg
-_
-согревать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-\n
-сказать=V,pf,tran=inf
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-шептать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-что=CONJ=
-_
-шопот?=S,m,inan=ins,sg
-_
-луч=S,m,inan=dat,sg
-\n
-ты=SPRO,sg,2p=(acc|gen)
-,_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-,_
-вручать=V,tran=inpraes,sg,indic,1p,pf
-...\n
+{о=INTJ=}, {как=ADVPRO=} {же=PART=} {я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=inpraes,sg,indic,1p},
+{не=PART=} {чуять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)} {никто=SPRO,sg,m,anim=ins},
+{лететь=V,ipf,intr=inf} {вослед=PR=} {луч=S,m,inan=dat,sg},
+{где=ADVPRO=} {нет=PART=} {я=SPRO,sg,1p=(acc|gen)} {совсем=ADV=}.
+
+{а=CONJ=} {ты=SPRO,sg,2p=nom} {в=PR=} {круг=S,m,inan=(dat,sg|loc,sg)} {лучиться=V,ipf,intr=sg,imper,2p} — 
+{другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=} — 
+{и=CONJ=} {у=PR=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {учиться=V,ipf,intr=sg,imper,2p}
+{то=SPRO,sg,n,inan=dat}, {что=CONJ=} {значит=ADV,parenth=} {свет=S,sg,m,inan=(acc|nom)}.
+
+{он=SPRO,sg,3p,m=nom} {только=PART=} {то=SPRO,sg,n,inan=ins} {и=CONJ=} {луч=S,m,inan=(acc,sg|nom,sg)},
+{он=SPRO,sg,3p,m=nom} {только=PART=} {то=SPRO,sg,n,inan=ins} {и=CONJ=} {свет=S,sg,m,inan=(acc|nom)},
+{что=SPRO,sg,n,inan=(acc|nom)} {шопот?=S,m,inan=ins,sg} {могучий=A=sg,brev,m}
+{и=CONJ=} {лепет=S,m,inan=ins,sg} {согревать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+
+{и=CONJ=} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}
+{сказать=V,pf,tran=inf}, {что=CONJ=} {я=SPRO,sg,1p=nom} {шептать=V,ipf,tran=inpraes,sg,indic,1p},
+{что=CONJ=} {шопот?=S,m,inan=ins,sg} {луч=S,m,inan=dat,sg}
+{ты=SPRO,sg,2p=(acc|gen)}, {дитя=S,obsol,sg,n,anim=(acc|nom)}, {вручать=V,tran=inpraes,sg,indic,1p,pf}...

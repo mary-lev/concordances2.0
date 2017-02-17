@@ -1,110 +1,14 @@
-сквозь=PR=
-_
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_
-и=CONJ=
-_
-до=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-\n
-багряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-\n
-звать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-звать=V,ipf,tran=inpraes,sg,indic,3p
-_
-к=PR=
-_
-неслыханный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-рай=S,sg,m,inan=(dat|loc)
-,\n
-но=CONJ=
-_
-рая=S,persn,f,anim=nom,sg
-_\u2014_
-нет=ADV,praed=
-.\n\n
-о=PR=
-_
-чем=CONJ=
-_
-в=PR=
-_
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-безумная=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-,_
-красный=A=sg,brev,n
--
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-о=PR=
-_
-чем=CONJ=
-_
-гласить=V,ipf,tran=inpraes,pl,indic,3p
-_
-с=PR=
-_
-несбыточный=A=ins,sg,plen,f
-_
-вера=S,f,inan=ins,sg
-?\n
-ведь=PART=
-_
-мгла=S,f,inan=nom,sg
-_\u2014_
-все=ADV=
-_
-мгла=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-_
-чем=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-громко=ADV=comp
-_
-спорить=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-мгла=S,f,inan=ins,sg
-_
-будни=S,pl,inan=gen
-,\n
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-праздный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-,\n
-то=SPRO,sg,n,inan=ins
-_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-железный=A=comp
-,_
-непробудный=A=comp
-\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n
+{сквозь=PR=} {серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дым=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {край=S,m,inan=(dat,sg|loc,sg)} {и=CONJ=} {до=PR=} {край=S,m,inan=(dat,sg|loc,sg)}
+{багряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}
+{звать=V,ipf,tran=inpraes,sg,indic,3p}, {звать=V,ipf,tran=inpraes,sg,indic,3p} {к=PR=} {неслыханный=A=(dat,sg,plen,m|dat,sg,plen,n)} {рай=S,sg,m,inan=(dat|loc)},
+{но=CONJ=} {рая=S,persn,f,anim=nom,sg} — {нет=ADV,praed=}.
+
+{о=PR=} {чем=CONJ=} {в=PR=} {сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {мгла=S,f,inan=(abl,sg|dat,sg)} {безумная=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}, {красный=A=sg,brev,n}-{серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{о=PR=} {чем=CONJ=} {гласить=V,ipf,tran=inpraes,pl,indic,3p} {с=PR=} {несбыточный=A=ins,sg,plen,f} {вера=S,f,inan=ins,sg}?
+{ведь=PART=} {мгла=S,f,inan=nom,sg} — {все=ADV=} {мгла=S,f,inan=nom,sg}.
+
+{и=CONJ=} {чем=CONJ=} {он=SPRO,sg,3p,m=nom} {громко=ADV=comp} {спорить=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {мгла=S,f,inan=ins,sg} {будни=S,pl,inan=gen},
+{сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {праздный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)},
+{то=SPRO,sg,n,inan=ins} {казаться=V,ipf,intr=inpraes,sg,indic,3p} {железный=A=comp}, {непробудный=A=comp}
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}.

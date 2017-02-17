@@ -1,152 +1,19 @@
-дремать=V,ipf,intr=praet,sg,indic,f
-_
-душа=S,f,inan=nom,sg
-,_
-как=CONJ=
-_
-слепая=S,f,anim=nom,sg
-.\n
-так=ADVPRO=
-_
-пыльный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-спать=V,ipf,intr=inpraes,pl,indic,3p
-_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-но=CONJ=
-_
-солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-облако=S,n,inan=ins,sg
-_
-рая=S,persn,f,anim=nom,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-темный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-входить=V,intr=praet,sg,indic,f,pf
-.\n\n
-не=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-,_
-что=CONJ=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-много=ADV,praed=
-\n
-созвездие=S,n,inan=gen,pl
-_
-слепящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,\n
-чтоб=CONJ=
-_
-вымаливать=V,tran=inf,pf
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-у=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-\n
-для=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-говорить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n\n
-не=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-,_
-что=CONJ=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-много=ADV,praed=
-\n
-созвучие=S,n,inan=gen,pl
-_
-звенящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,\n
-чтоб=CONJ=
-_
-вымаливать=V,tran=inf,pf
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-у=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-\n
-для=PR=
-_
-губа=S,f,inan=gen,pl
-_
-полудетский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n\n
-и=CONJ=
-_
-рад=A,brev=sg,m
-_
-я=SPRO,sg,1p=nom
-,_
-что=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-богато=ADV=
-,\n
-ведь=PART=
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-из=PR=
-_
-огонь=S,m,inan=gen,sg
-,\n
-душа=S,f,inan=nom,sg
-_
-твой=APRO=nom,sg,f
-_
-дивно=ADV=
-_
-крылатый=A=sg,brev,f
-,\n
-певучий=A=nom,sg,plen,f
-_
-ты=SPRO,sg,2p=nom
-_
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{дремать=V,ipf,intr=praet,sg,indic,f} {душа=S,f,inan=nom,sg}, {как=CONJ=} {слепая=S,f,anim=nom,sg}.
+{так=ADVPRO=} {пыльный=A=(acc,pl,plen,inan|nom,pl,plen)} {спать=V,ipf,intr=inpraes,pl,indic,3p} {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{но=CONJ=} {солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {облако=S,n,inan=ins,sg} {рая=S,persn,f,anim=nom,sg}
+{ты=SPRO,sg,2p=nom} {в=PR=} {темный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {входить=V,intr=praet,sg,indic,f,pf}.
+
+{не=PART=} {знать=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom}, {что=CONJ=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {так=ADVPRO=} {много=ADV,praed=}
+{созвездие=S,n,inan=gen,pl} {слепящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {такой=APRO=(abl,pl|gen,pl|acc,pl,anim)},
+{чтоб=CONJ=} {вымаливать=V,tran=inf,pf} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {у=PR=} {бог=S,m,anim=(acc,sg|gen,sg)}
+{для=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {говорить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.
+
+{не=PART=} {знать=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom}, {что=CONJ=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {так=ADVPRO=} {много=ADV,praed=}
+{созвучие=S,n,inan=gen,pl} {звенящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {такой=APRO=(abl,pl|gen,pl|acc,pl,anim)},
+{чтоб=CONJ=} {вымаливать=V,tran=inf,pf} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {у=PR=} {бог=S,m,anim=(acc,sg|gen,sg)}
+{для=PR=} {губа=S,f,inan=gen,pl} {полудетский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.
+
+{и=CONJ=} {рад=A,brev=sg,m} {я=SPRO,sg,1p=nom}, {что=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {богато=ADV=},
+{ведь=PART=} {тело=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} {из=PR=} {огонь=S,m,inan=gen,sg},
+{душа=S,f,inan=nom,sg} {твой=APRO=nom,sg,f} {дивно=ADV=} {крылатый=A=sg,brev,f},
+{певучий=A=nom,sg,plen,f} {ты=SPRO,sg,2p=nom} {для=PR=} {я=SPRO,sg,1p=(acc|gen)}.

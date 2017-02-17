@@ -1,116 +1,27 @@
-вечер=S,m,inan=(acc,sg|nom,sg)
-._
-коса=S,f,inan=nom,sg
-_
-золотистый=A=nom,sg,plen,f
-,\n
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-,\u2014_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-замелькать=V,pf,intr=praet,sg,indic,f
-_
-осиновый=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-ветка=S,f,inan=nom,sg
-_
-далекий=A=nom,sg,plen,f
-,\n
-росистый=A=nom,sg,plen,f
-,\n
-наклоняться=V,intr=inpraes,sg,indic,3p,ipf
-\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-малиновый=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-и=CONJ=
-_
-сорока=S,f,anim=nom,sg
-_
-качаться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-на=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-белобокий=A=nom,sg,plen,f
-.\n\n
-следить=V,ipf,intr=inpraes,sg,indic,1p
-_
-за=PR=
-_
-малютка=S,mf,anim=ins,sg
-:\n
-с=PR=
-_
-вид=S,m,inan=ins,sg
-_
-рассеянный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-постоять=V,pf,intr=inpraes,sg,indic,3p
-\n
-над=PR=
-_
-незабудка=S,f,inan=ins,sg
-,\n
-то=CONJ=
-_
-побежать=V,pf,intr=inpraes,sg,indic,3p
-\n
-за=PR=
-_
-одуванчик=S,m,inan=gen,sg
-_
-пух=S,sg,m,inan=ins
-_
-развеивать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-.\n\n
-милый=A=nom,sg,plen,f
-,_
-ясный=A=nom,sg,plen,f
-,\n
-синеокий=A=nom,sg,plen,f
-,\u2014\n
-засматриваться=V,intr=praet,sg,indic,f,pf
-,_
-как=CONJ=
-_
-белочка=S,f,anim=nom,sg
-_
-красный=A=nom,sg,plen,f
-\n
-проскакать=V,pf,tran=praet,sg,indic,f
-_
-по=PR=
-_
-веточка=S,f,inan=(abl,sg|dat,sg)
-,_
-цокать=V,ipf,intr=inpraes,ger
-.\n\n
-ласковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-розовый=A=sg,brev,n
--
-матовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-вечер=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-возноситься=V,intr=praet,sg,indic,m,pf
-_
-агатовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-блистать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-глетчер=S,m,inan=(acc,sg|nom,sg)
-.\n
+{вечер=S,m,inan=(acc,sg|nom,sg)}. {коса=S,f,inan=nom,sg} {золотистый=A=nom,sg,plen,f},
+{видеть=V,ipf,tran=inpraes,sg,indic,2p},— {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)} {замелькать=V,pf,intr=praet,sg,indic,f} {осиновый=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{ветка=S,f,inan=nom,sg} {далекий=A=nom,sg,plen,f},
+{росистый=A=nom,sg,plen,f},
+{наклоняться=V,intr=inpraes,sg,indic,3p,ipf}
+{в=PR=} {небо=S,n,inan=abl,sg} {малиновый=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{и=CONJ=} {сорока=S,f,anim=nom,sg} {качаться=V,ipf,intr=inpraes,sg,indic,3p}
+{на=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {белобокий=A=nom,sg,plen,f}.
+
+{следить=V,ipf,intr=inpraes,sg,indic,1p} {за=PR=} {малютка=S,mf,anim=ins,sg}:
+{с=PR=} {вид=S,m,inan=ins,sg} {рассеянный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{то=SPRO,sg,n,inan=(acc|nom)} {постоять=V,pf,intr=inpraes,sg,indic,3p}
+{над=PR=} {незабудка=S,f,inan=ins,sg},
+{то=CONJ=} {побежать=V,pf,intr=inpraes,sg,indic,3p}
+{за=PR=} {одуванчик=S,m,inan=gen,sg} {пух=S,sg,m,inan=ins} {развеивать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}.
+
+{милый=A=nom,sg,plen,f}, {ясный=A=nom,sg,plen,f},
+{синеокий=A=nom,sg,plen,f},—
+{засматриваться=V,intr=praet,sg,indic,f,pf}, {как=CONJ=} {белочка=S,f,anim=nom,sg} {красный=A=nom,sg,plen,f}
+{проскакать=V,pf,tran=praet,sg,indic,f} {по=PR=} {веточка=S,f,inan=(abl,sg|dat,sg)}, {цокать=V,ipf,intr=inpraes,ger}.
+
+{ласковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {розовый=A=sg,brev,n}-{матовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{вечер=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {возноситься=V,intr=praet,sg,indic,m,pf} {агатовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{блистать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {глетчер=S,m,inan=(acc,sg|nom,sg)}.

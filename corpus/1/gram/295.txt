@@ -1,108 +1,21 @@
-подарить=V,pf,tran=praet,sg,indic,n
-_
-мы=SPRO,pl,1p=dat
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-обручальный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-!\n
-целовать=V,ipf,tran=praet,sg,indic,n
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-в=PR=
-_
-загорелый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-!\n
-приневеститься?=V,ipf,intr=praet,sg,indic,f
-\n
-морской=A,plen=nom,sg,f
-_
-глубина=S,f,inan=nom,sg
-!\n
-неневестная?=S,f,anim=nom,sg
-\n
-морской=A,plen=nom,sg,f
-_
-быстрина=S,f,inan=nom,sg
-!\n
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-вольный=A=sg,brev,f
-,\n
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-страшный=A=sg,brev,f
-,\n
-она=SPRO,sg,3p,f=nom
-,_
-матушка=S,f,anim=nom,sg
-,_
-свободный=A=sg,brev,f
-,_
-холодный=A=sg,brev,f
-!\n
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-погулять=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-\n
-на=PR=
-_
-вольный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-простор=S,m,inan=abl,sg
-!\n
-синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-красный=S,m,anim=nom,pl
-_
-заря=S,f,inan=(acc,pl|nom,pl)
-!\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-ты=SPRO,sg,2p=nom
-,_
-пьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-трепать=V,ipf,tran=sg,imper,2p
-_
-волос=S,m,inan=gen,sg
-!\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-соленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-нести=V,ipf,tran=sg,imper,2p
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-ты=SPRO,sg,2p=nom
-,_
-вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-раздувать=V,tran=sg,imper,2p,pf
-_
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{подарить=V,pf,tran=praet,sg,indic,n} {мы=SPRO,pl,1p=dat} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{обручальный=A=(acc,sg,plen,n|nom,sg,plen,n)} {кольцо=S,n,inan=(acc,sg|nom,sg)}!
+{целовать=V,ipf,tran=praet,sg,indic,n} {мы=SPRO,pl,1p=(abl|acc|gen)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{в=PR=} {загорелый=A=(acc,sg,plen,n|nom,sg,plen,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}!
+{приневеститься?=V,ipf,intr=praet,sg,indic,f}
+{морской=A,plen=nom,sg,f} {глубина=S,f,inan=nom,sg}!
+{неневестная?=S,f,anim=nom,sg}
+{морской=A,plen=nom,sg,f} {быстрина=S,f,inan=nom,sg}!
+{с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {жизнь=S,f,inan=(acc,sg|nom,sg)} {вольный=A=sg,brev,f},
+{с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {смерть=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {страшный=A=sg,brev,f},
+{она=SPRO,sg,3p,f=nom}, {матушка=S,f,anim=nom,sg}, {свободный=A=sg,brev,f}, {холодный=A=sg,brev,f}!
+{с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {погулять=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}
+{на=PR=} {вольный=A=(abl,sg,plen,m|abl,sg,plen,n)} {простор=S,m,inan=abl,sg}!
+{синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{красный=S,m,anim=nom,pl} {заря=S,f,inan=(acc,pl|nom,pl)}!
+{ветер=S,m,inan=(acc,sg|nom,sg)}, {ты=SPRO,sg,2p=nom}, {пьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{трепать=V,ipf,tran=sg,imper,2p} {волос=S,m,inan=gen,sg}!
+{ветер=S,m,inan=(acc,sg|nom,sg)} {соленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{нести=V,ipf,tran=sg,imper,2p} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
+{ветер=S,m,inan=(acc,sg|nom,sg)}, {ты=SPRO,sg,2p=nom}, {вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{раздувать=V,tran=sg,imper,2p,pf} {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)}!

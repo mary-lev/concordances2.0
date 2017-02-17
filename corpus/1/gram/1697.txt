@@ -1,102 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-недаром=ADV=
-_
-бояться=V,ipf,intr=praet,sg,indic,m
-_
-открывать=V=inf,pf
-\n
-в=PR=
-_
-непогодный?=A=acc,sg,plen,f
-_
-полночь=S,f,inan=(acc,sg|nom,sg)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n
-как=ADVPRO=
-_
-и=CONJ=
-_
-встарь=ADV=
-,_
-приводиться=V,intr=praet,sg,indic,n,pf
-_
-отравлять=V,tran=inf,pf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-надежда=S,f,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-полно=ADV=
-.\n\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-прежний=A=ins,sg,plen,f
-_
-дума=S,f,inan=ins,sg
-_
-болеть=V,ipf,intr=inf
-\n
-в=PR=
-_
-непогодный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-полуночный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-,\n
-но=CONJ=
-_
-молитвенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мир=S,m,inan=ins,sg
-_
-гореть=V,ipf,intr=inf
-\n
-и=CONJ=
-_
-таиться=V,ipf,intr=inf
-_
-на=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-в=PR=
-_
-непрестанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-молитва=S,f,inan=(abl,sg|dat,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-под=PR=
-_
-враждовать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-сила=S,f,inan=ins,sg
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-я=SPRO,sg,1p=nom
-_
-хранилище=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-утаивать=V,tran=inpraes,sg,indic,1p,pf
-_
-от=PR=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-зверь=S,m,anim=(acc,pl|gen,pl)
-.\n
+{я=SPRO,sg,1p=nom} {недаром=ADV=} {бояться=V,ipf,intr=praet,sg,indic,m} {открывать=V=inf,pf}
+{в=PR=} {непогодный?=A=acc,sg,plen,f} {полночь=S,f,inan=(acc,sg|nom,sg)} {окно=S,n,inan=(acc,sg|nom,sg)}.
+{как=ADVPRO=} {и=CONJ=} {встарь=ADV=}, {приводиться=V,intr=praet,sg,indic,n,pf} {отравлять=V,tran=inf,pf},
+{что=SPRO,sg,n,inan=(acc|nom)} {надежда=S,f,inan=ins,sg} {быть=V,intr=praet,sg,indic,n,ipf} {полно=ADV=}.
+
+{быть=V,intr=inpraes,sg,indic,1p} {прежний=A=ins,sg,plen,f} {дума=S,f,inan=ins,sg} {болеть=V,ipf,intr=inf}
+{в=PR=} {непогодный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {полуночный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)},
+{но=CONJ=} {молитвенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мир=S,m,inan=ins,sg} {гореть=V,ipf,intr=inf}
+{и=CONJ=} {таиться=V,ipf,intr=inf} {на=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {земля=S,f,inan=(abl,sg|dat,sg)}.
+
+{в=PR=} {непрестанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {молитва=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{под=PR=} {враждовать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {сила=S,f,inan=ins,sg} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{я=SPRO,sg,1p=nom} {хранилище=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{утаивать=V,tran=inpraes,sg,indic,1p,pf} {от=PR=} {человек=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {зверь=S,m,anim=(acc,pl|gen,pl)}.

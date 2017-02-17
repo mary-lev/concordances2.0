@@ -1,106 +1,14 @@
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-ли=PART=
-_
-меркнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=nom,sg
-,\n
-пытка=S,f,inan=nom,sg
-_
-ль=PART=
-_
-земной=A=nom,sg,plen,f
-_
-все=SPRO,pl=(acc|nom)
-_
-длиться=V,ipf,intr=inpraes,sg,indic,3p
-;\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-молиться=V,ipf,intr=inpraes,sg,indic,1p
-_
-никогда=ADVPRO=
-,\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-уметь=V,ipf,intr=inpraes,sg,indic,1p
-_
-молиться=V,ipf,intr=inf
-.\n\n
-время=S,n,inan=(acc,sg|nom,sg)
-_
-погасить=V,pf,tran=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=acc,sg
-,\n
-пытка=S,f,inan=acc,sg
-_
-ж=PART=
-_
-и=CONJ=
-_
-так=ADVPRO=
-_
-одолевать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-...\n
-если=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-церковь=S,f,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-там=ADVPRO=
-_
-становиться=V,intr=inpraes,sg,indic,1p,ipf
-_
-с=PR=
-_
-фарисей=S,m,anim=ins,sg
-.\n\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-упадать=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-он=SPRO,sg,3p,m=abl
-,\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-и=CONJ=
-_
-воспрянуть=V,pf,intr=inpraes,sg,indic,1p
-,_
-ликовать=V,ipf,intr=inpraes,ger
-...\n
-только=PART=
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
--
-то=CONJ=
-_
-зачем=ADVPRO=
-\n
-мытарь=S,m,anim=nom,sg
-_
-мястись=V,ipf,intr=inpraes,sg,indic,3p
-,_
-тосковать=V,ipf,intr=inpraes,ger
-?..\n
+{в=PR=} {небо=S,n,inan=abl,sg} {ли=PART=} {меркнуть=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=nom,sg},
+{пытка=S,f,inan=nom,sg} {ль=PART=} {земной=A=nom,sg,plen,f} {все=SPRO,pl=(acc|nom)} {длиться=V,ipf,intr=inpraes,sg,indic,3p};
+{я=SPRO,sg,1p=nom} {не=PART=} {молиться=V,ipf,intr=inpraes,sg,indic,1p} {никогда=ADVPRO=},
+{я=SPRO,sg,1p=nom} {не=PART=} {уметь=V,ipf,intr=inpraes,sg,indic,1p} {молиться=V,ipf,intr=inf}.
+
+{время=S,n,inan=(acc,sg|nom,sg)} {погасить=V,pf,tran=inpraes,sg,indic,3p} {звезда=S,f,inan=acc,sg},
+{пытка=S,f,inan=acc,sg} {ж=PART=} {и=CONJ=} {так=ADVPRO=} {одолевать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}...
+{если=CONJ=} {я=SPRO,sg,1p=nom} {в=PR=} {церковь=S,f,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=inpraes,sg,indic,1p},
+{там=ADVPRO=} {становиться=V,intr=inpraes,sg,indic,1p,ipf} {с=PR=} {фарисей=S,m,anim=ins,sg}.
+
+{с=PR=} {он=SPRO,sg,3p,m=ins} {упадать=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {он=SPRO,sg,3p,m=abl},
+{с=PR=} {он=SPRO,sg,3p,m=ins} {и=CONJ=} {воспрянуть=V,pf,intr=inpraes,sg,indic,1p}, {ликовать=V,ipf,intr=inpraes,ger}...
+{только=PART=} {во=PR=} {я=SPRO,sg,1p=(abl|dat)}-{то=CONJ=} {зачем=ADVPRO=}
+{мытарь=S,m,anim=nom,sg} {мястись=V,ipf,intr=inpraes,sg,indic,3p}, {тосковать=V,ipf,intr=inpraes,ger}?..

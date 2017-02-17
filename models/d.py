@@ -31,5 +31,6 @@ d.define_table('mystem',
                Field('voice', label="Залог"),
                Field('other', label="Другое"),
                Field('lexical_group', label="Лексическая группа"),
+               Field('location', label='Номер в тексте'),
                Field('concordance_number',  label="Номер в конкордансе"),
                Field('author', label="Автор") )

@@ -1,130 +1,24 @@
-уже=ADV=
-_
-светло=ADV=
-,_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-сирена=S,f,inan=nom,sg
-\n
-в=PR=
-_
-седьмой=ANUM=(abl,sg,m|abl,sg,n)
-_
-час=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-старик=S,m,anim=nom,sg
-,_
-похожий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-на=PR=
-_
-верлэн?=S,persn,m,anim=(acc,sg|gen,sg)
-,\n
-теперь=ADV=
-_
-твой=APRO=nom,sg,f
-_
-пора=S,f,inan=nom,sg
-!\n|\n
-в=PR=
-_
-глаз=S,m,inan=abl,pl
-_
-лукавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-или=CONJ=
-_
-детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-огонек=S,m,inan=(acc,sg|nom,sg)
-;\n
-на=PR=
-_
-шея=S,f,inan=acc,sg
-_
-нацепить=V,pf,tran=praet,sg,indic,m
-_
-турецкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-узорчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-платок=S,m,inan=(acc,sg|nom,sg)
-.\n|\n
-он=SPRO,sg,3p,m=nom
-_
-богохульствовать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-бормотать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-несвязный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-;\n
-он=SPRO,sg,3p,m=nom
-_
-исповедоваться=V,ipf,intr=inf
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014\n
-но=CONJ=
-_
-согрешать=V,intr=inf,pf
-_
-сперва=ADV=
-.\n|\n
-разочарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рабочий=S,m,anim=nom,sg
-\n
-иль=CONJ=
-_
-огорченный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мот=S,m,anim=nom,sg
-_\u2014\n
-а=CONJ=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,_
-подбивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-в=PR=
-_
-недра=S,pl,inan=abl
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,\n
-как=CONJ=
-_
-радуга=S,f,inan=nom,sg
-_
-цвести=V,ipf,intr=inpraes,sg,indic,3p
-.\n|\n
-а=CONJ=
-_
-дома=ADV=
-_\u2014_
-ругань=S,f,inan=ins,sg
-_
-крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-от=PR=
-_
-ярость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-бледный=A=sg,brev,f
-,\n
-встречать=V,tran=inpraes,sg,indic,3p,ipf
-_
-пьяный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сократ=S,persn,m,anim=(acc,sg|gen,sg)
-\n
-суровый=A=nom,sg,plen,f
-_
-жена=S,f,anim=nom,sg
-!\n
+{уже=ADV=} {светло=ADV=}, {петь=V,ipf,tran=inpraes,sg,indic,3p} {сирена=S,f,inan=nom,sg}
+{в=PR=} {седьмой=ANUM=(abl,sg,m|abl,sg,n)} {час=S,m,inan=(dat,sg|part,sg|loc,sg)} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{старик=S,m,anim=nom,sg}, {похожий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {на=PR=} {верлэн?=S,persn,m,anim=(acc,sg|gen,sg)},
+{теперь=ADV=} {твой=APRO=nom,sg,f} {пора=S,f,inan=nom,sg}!
+|
+{в=PR=} {глаз=S,m,inan=abl,pl} {лукавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {или=CONJ=} {детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {огонек=S,m,inan=(acc,sg|nom,sg)};
+{на=PR=} {шея=S,f,inan=acc,sg} {нацепить=V,pf,tran=praet,sg,indic,m} {турецкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{узорчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {платок=S,m,inan=(acc,sg|nom,sg)}.
+|
+{он=SPRO,sg,3p,m=nom} {богохульствовать=V,ipf,intr=inpraes,sg,indic,3p}, {бормотать=V,ipf,tran=inpraes,sg,indic,3p}
+{несвязный=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)};
+{он=SPRO,sg,3p,m=nom} {исповедоваться=V,ipf,intr=inf} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} —
+{но=CONJ=} {согрешать=V,intr=inf,pf} {сперва=ADV=}.
+|
+{разочарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рабочий=S,m,anim=nom,sg}
+{иль=CONJ=} {огорченный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мот=S,m,anim=nom,sg} —
+{а=CONJ=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}, {подбивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {в=PR=} {недра=S,pl,inan=abl} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+{как=CONJ=} {радуга=S,f,inan=nom,sg} {цвести=V,ipf,intr=inpraes,sg,indic,3p}.
+|
+{а=CONJ=} {дома=ADV=} — {ругань=S,f,inan=ins,sg} {крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{от=PR=} {ярость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бледный=A=sg,brev,f},
+{встречать=V,tran=inpraes,sg,indic,3p,ipf} {пьяный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сократ=S,persn,m,anim=(acc,sg|gen,sg)}
+{суровый=A=nom,sg,plen,f} {жена=S,f,anim=nom,sg}!

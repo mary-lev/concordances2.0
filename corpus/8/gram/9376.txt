@@ -1,110 +1,14 @@
-в=PR=
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-слово=S,n,inan=abl,pl
-_
-бесстыдство=S,n,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,\n
-в=PR=
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-око=S,n,inan=abl,pl
-_\u2014_
-упорство=S,n,inan=(acc,sg|nom,sg)
-_
-день=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-бороться=V,ipf,intr=praet,pl,indic
-_
-с=PR=
-_
-равный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сила=S,f,inan=ins,sg
-,\n
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-жаждь?=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-клясть=V,ipf,tran=inpraes,ger
-,\n\n
-а=CONJ=
-_
-мальва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лист=S,m,inan=ins,pl
-_
-встречаться=V,intr=praet,pl,indic,ipf
-,\n
-клониться=V,ipf,intr=inpraes,ger
-_
-под=PR=
-_
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ветерок=S,m,inan=ins,sg
-,\n
-и=CONJ=
-_
-сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-яростно=ADV=
-_
-качаться=V,ipf,intr=praet,pl,indic
-\n
-в=PR=
-_
-простор=S,m,inan=abl,sg
-_
-слишком=ADV=
-_
-голубой=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-о=PR=
-,_
-если=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-образ=S,m,inan=(acc,sg|nom,sg)
-_
-вечный=A=sg,brev,m
-\n
-и=CONJ=
-_
-полный=A=pl,brev
-_
-прошлое=S,n,inan=(dat,pl|ins,sg)
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-,\n
-то=CONJ=
-_
-в=PR=
-_
-бездна=S,f,inan=abl,pl
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-отмечать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-как=CONJ=
-_
-огневой=A=nom,sg,plen,f
-_
-полоса=S,f,inan=nom,sg
-!\n
+{в=PR=} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {слово=S,n,inan=abl,pl} {бесстыдство=S,n,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,n,ipf},
+{в=PR=} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {око=S,n,inan=abl,pl} — {упорство=S,n,inan=(acc,sg|nom,sg)} {день=S,m,inan=gen,sg},
+{и=CONJ=} {мы=SPRO,pl,1p=nom} {бороться=V,ipf,intr=praet,pl,indic} {с=PR=} {равный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сила=S,f,inan=ins,sg},
+{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {жаждь?=S,m,inan=gen,sg} {и=CONJ=} {клясть=V,ipf,tran=inpraes,ger},
+
+{а=CONJ=} {мальва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лист=S,m,inan=ins,pl} {встречаться=V,intr=praet,pl,indic,ipf},
+{клониться=V,ipf,intr=inpraes,ger} {под=PR=} {тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ветерок=S,m,inan=ins,sg},
+{и=CONJ=} {сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {яростно=ADV=} {качаться=V,ipf,intr=praet,pl,indic}
+{в=PR=} {простор=S,m,inan=abl,sg} {слишком=ADV=} {голубой=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{о=PR=}, {если=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {образ=S,m,inan=(acc,sg|nom,sg)} {вечный=A=sg,brev,m}
+{и=CONJ=} {полный=A=pl,brev} {прошлое=S,n,inan=(dat,pl|ins,sg)} {небо=S,n,inan=(acc,pl|nom,pl)},
+{то=CONJ=} {в=PR=} {бездна=S,f,inan=abl,pl} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)} {отмечать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{как=CONJ=} {огневой=A=nom,sg,plen,f} {полоса=S,f,inan=nom,sg}!

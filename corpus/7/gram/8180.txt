@@ -1,130 +1,17 @@
-колокольчик=S,m,inan=gen,sg
-_
-ль=PART=
-_
-гулкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пеня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-дымный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ль=PART=
-_
-далекий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-...\n
-снова=ADV=
-_
-снег=S,m,inan=ins,sg
-_
-заносить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-_
-полоса=S,f,inan=nom,sg
-_
-от=PR=
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-кто=SPRO,sg,m,anim=nom
-_
-сенинка?=S,f,anim=ins,sg
-_
-играть=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-тристень?=S,m,inan=abl,sg
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-седой=A=ins,sg,plen,f
-_
-макушка=S,f,inan=ins,sg
-_
-копна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ни=PART=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-беспокойный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-кладбище=S,n,inan=ins,sg
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-_
-отдавать=V,tran=praet,pl,partcp,brev,pf,pass
-.\n\n
-свист=S,m,inan=(dat,sg|part,sg)
-_
-медь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-послушный=A=sg,brev,m
-_
-дрожать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-,\n
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-куст=S,m,inan=(acc,sg|nom,sg)
-_
-отделяться=V,intr=praet,sg,indic,m,pf
-_
-от=PR=
-_
-чаща=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-дорога=S,f,inan=acc,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-сторожить=V,ipf,tran=inf
-...\n\n
-следом=ADV=
-_
-чаща=S,f,inan=nom,sg
-_
-посылать=V=praet,sg,indic,f,pf
-_
-стенание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-во=PR=
-_
-все=SPRO,pl=dat
-_
-безнадежность=S,f,inan=(acc,sg|nom,sg)
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n\xAB
-только=PART=
-_
-б=PART=
-_
-жить=V,ipf,intr=inf
-,_
-долго=ADV=comp
-_
-жить=V,ipf,intr=inf
-,_
-вечно=ADV=
-_
-жить=V,ipf,intr=inf
-...\xBB\n
+{колокольчик=S,m,inan=gen,sg} {ль=PART=} {гулкий=A=(acc,pl,plen,inan|nom,pl,plen)} {пеня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{дымный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ль=PART=} {далекий=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)}...
+{снова=ADV=} {снег=S,m,inan=ins,sg} {заносить=V,ipf,tran=inpraes,sg,indic,3p} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{на=PR=} {стена=S,f,inan=(abl,sg|dat,sg)} {полоса=S,f,inan=nom,sg} {от=PR=} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{кто=SPRO,sg,m,anim=nom} {сенинка?=S,f,anim=ins,sg} {играть=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {тристень?=S,m,inan=abl,sg},
+{кто=SPRO,sg,m,anim=nom} {седой=A=ins,sg,plen,f} {макушка=S,f,inan=ins,sg} {копна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{что=SPRO,sg,n,inan=(acc|nom)} {ни=PART=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {беспокойный=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{все=SPRO,pl=(acc|nom)} {кладбище=S,n,inan=ins,sg} {луна=S,f,inan=(abl,sg|dat,sg)} {отдавать=V,tran=praet,pl,partcp,brev,pf,pass}.
+
+{свист=S,m,inan=(dat,sg|part,sg)} {медь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {послушный=A=sg,brev,m} {дрожать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)},
+{видеть=V,ipf,tran=inpraes,sg,indic,1p} — {куст=S,m,inan=(acc,sg|nom,sg)} {отделяться=V,intr=praet,sg,indic,m,pf} {от=PR=} {чаща=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {дорога=S,f,inan=acc,sg} {я=SPRO,sg,1p=(acc|gen)} {сторожить=V,ipf,tran=inf}...
+
+{следом=ADV=} {чаща=S,f,inan=nom,sg} {посылать=V=praet,sg,indic,f,pf} {стенание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {во=PR=} {все=SPRO,pl=dat} {безнадежность=S,f,inan=(acc,sg|nom,sg)} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+«{только=PART=} {б=PART=} {жить=V,ipf,intr=inf}, {долго=ADV=comp} {жить=V,ipf,intr=inf}, {вечно=ADV=} {жить=V,ipf,intr=inf}...»

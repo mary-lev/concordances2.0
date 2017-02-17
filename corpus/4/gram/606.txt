@@ -1,102 +1,14 @@
-о=PR=
-_
-время=S,n,inan=abl,pl
-_
-простой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-и=CONJ=
-_
-грубый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-копыто=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-конский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-твердить=V,ipf,tran=inpraes,pl,indic,3p
-.\n
-и=CONJ=
-_
-дворник=S,m,anim=nom,pl
-_
-в=PR=
-_
-тяжелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-шуба=S,f,inan=abl,pl
-\n
-на=PR=
-_
-деревянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лавка=S,f,inan=abl,pl
-_
-спать=V,ipf,intr=inpraes,pl,indic,3p
-.\n|\n
-на=PR=
-_
-стук=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-железный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ворота=S,pl,inan=(acc|nom)
-\n
-привратник=S,m,anim=nom,sg
-,_
-царственно=ADV=
-_
-ленивый=A=sg,brev,m
-,\n
-вставать=V,intr=praet,sg,indic,m,pf
-,_
-и=CONJ=
-_
-звериный=A=nom,sg,plen,f
-_
-зевота=S,f,inan=nom,sg
-\n
-напоминать=V,tran=praet,sg,indic,f,pf
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-образ=S,m,inan=(acc,sg|nom,sg)
-,_
-скиф=S,m,anim=nom,sg
-!\n|\n
-когда=CONJ=
-,_
-с=PR=
-_
-дряхлеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-любовь=S,f,inan=ins,sg
-\n
-мешать=V,ipf,intr=inpraes,ger
-_
-в=PR=
-_
-песня=S,f,inan=abl,pl
-_
-рим=S,geo,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,\n
-овидий=S,persn,m,anim=nom,sg
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_
-арба=S,f,inan=acc,sg
-_
-воловий=A,plen=acc,sg,f
-\n
-в=PR=
-_
-поход=S,m,inan=abl,sg
-_
-варварский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-телега=S,f,inan=gen,pl
-.\n
+{о=PR=} {время=S,n,inan=abl,pl} {простой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {и=CONJ=} {грубый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{копыто=S,n,inan=(acc,pl|gen,sg|nom,pl)} {конский=A=(acc,pl,plen,inan|nom,pl,plen)} {твердить=V,ipf,tran=inpraes,pl,indic,3p}.
+{и=CONJ=} {дворник=S,m,anim=nom,pl} {в=PR=} {тяжелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {шуба=S,f,inan=abl,pl}
+{на=PR=} {деревянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лавка=S,f,inan=abl,pl} {спать=V,ipf,intr=inpraes,pl,indic,3p}.
+|
+{на=PR=} {стук=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {железный=A=(acc,pl,plen,inan|nom,pl,plen)} {ворота=S,pl,inan=(acc|nom)}
+{привратник=S,m,anim=nom,sg}, {царственно=ADV=} {ленивый=A=sg,brev,m},
+{вставать=V,intr=praet,sg,indic,m,pf}, {и=CONJ=} {звериный=A=nom,sg,plen,f} {зевота=S,f,inan=nom,sg}
+{напоминать=V,tran=praet,sg,indic,f,pf} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {образ=S,m,inan=(acc,sg|nom,sg)}, {скиф=S,m,anim=nom,sg}!
+|
+{когда=CONJ=}, {с=PR=} {дряхлеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {любовь=S,f,inan=ins,sg}
+{мешать=V,ipf,intr=inpraes,ger} {в=PR=} {песня=S,f,inan=abl,pl} {рим=S,geo,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {снег=S,m,inan=(acc,sg|nom,sg)},
+{овидий=S,persn,m,anim=nom,sg} {петь=V,ipf,tran=praet,sg,indic,m} {арба=S,f,inan=acc,sg} {воловий=A,plen=acc,sg,f}
+{в=PR=} {поход=S,m,inan=abl,sg} {варварский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {телега=S,f,inan=gen,pl}.

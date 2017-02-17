@@ -1,122 +1,19 @@
-он=SPRO,sg,3p,m=nom
-_
-входить=V,intr=praet,sg,indic,m,ipf
-,_
-простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-скудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-не=PART=
-_
-дышать=V,ipf,intr=inpraes,ger
-,_
-молчать=V,ipf,intr=praet,sg,indic,m
-_
-и=CONJ=
-_
-гаснуть=V,ipf,intr=praet,sg,indic,m
-.\n
-неотступный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-на=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-смеяться=V,ipf,intr=praet,sg,indic,m
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n\n
-или=CONJ=
-_
-тайно=ADV=
-_
-изумлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-\n
-на=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-.\n
-он=SPRO,sg,3p,m=nom
-_
-молчать=V,ipf,intr=praet,sg,indic,m
-,_
-завороженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-близость=S,f,inan=ins,sg
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-но=CONJ=
-_
-всегда=ADVPRO=
-,_
-считать=V,ipf,tran=inpraes,ger
-_
-миг=S,m,inan=(acc,pl|nom,pl)
-,\n
-знать=V,ipf,tran=praet,sg,indic,m
-_\u2014_
-изменяться=V,intr=inpraes,sg,indic,3p,pf
-_
-она=SPRO,sg,3p,f=nom
-.\n
-на=PR=
-_
-страница=S,f,inan=abl,pl
-_
-тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-книга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-письмена=S,pl,inan=(acc|nom)
-.\n\n
-странный=A=sg,brev,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-скудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-молчаливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-нелюдимый=A=sg,brev,m
-.\n
-и=CONJ=
-_
-внимательный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-и=CONJ=
-_
-чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-следить=V,ipf,intr=praet,sg,indic,m
-_
-за=PR=
-_
-он=SPRO,sg,3p,m=ins
-.\n
+{он=SPRO,sg,3p,m=nom} {входить=V,intr=praet,sg,indic,m,ipf}, {простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {скудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{не=PART=} {дышать=V,ipf,intr=inpraes,ger}, {молчать=V,ipf,intr=praet,sg,indic,m} {и=CONJ=} {гаснуть=V,ipf,intr=praet,sg,indic,m}.
+{неотступный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{на=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {смеяться=V,ipf,intr=praet,sg,indic,m} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+
+{или=CONJ=} {тайно=ADV=} {изумлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
+{на=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {смотреть=V,ipf,tran=praet,sg,indic,m} {в=PR=} {тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}.
+{он=SPRO,sg,3p,m=nom} {молчать=V,ipf,intr=praet,sg,indic,m}, {завороженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {близость=S,f,inan=ins,sg} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{но=CONJ=} {всегда=ADVPRO=}, {считать=V,ipf,tran=inpraes,ger} {миг=S,m,inan=(acc,pl|nom,pl)},
+{знать=V,ipf,tran=praet,sg,indic,m} — {изменяться=V,intr=inpraes,sg,indic,3p,pf} {она=SPRO,sg,3p,f=nom}.
+{на=PR=} {страница=S,f,inan=abl,pl} {тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {книга=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{видеть=V,ipf,tran=praet,sg,indic,m} {тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {письмена=S,pl,inan=(acc|nom)}.
+
+{странный=A=sg,brev,m} {быть=V,intr=praet,sg,indic,m,ipf} {простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {скудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{молчаливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {нелюдимый=A=sg,brev,m}.
+{и=CONJ=} {внимательный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {и=CONJ=} {чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {следить=V,ipf,intr=praet,sg,indic,m} {за=PR=} {он=SPRO,sg,3p,m=ins}.

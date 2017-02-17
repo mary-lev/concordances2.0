@@ -1,150 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-предавать=V,tran=praet,sg,indic,m,pf
-_
-белый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-знамя=S,n,inan=(acc,sg|nom,sg)
-,\n
-оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-крик=S,m,inan=ins,sg
-_
-враг=S,m,anim=(acc,pl|gen,pl)
-,\n
-ты=SPRO,sg,2p=nom
-_
-проходить=V,intr=praet,sg,indic,f,pf
-_
-ночной=A=ins,pl,plen
-_
-путь=S,m,inan=ins,pl
-,\n
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_\u2014_
-один=APRO=(nom,pl|acc,pl,inan)
-_
-у=PR=
-_
-вал=S,m,inan=gen,pl
-.\n\n
-да=CONJ=
-,_
-ночной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-роковый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-разводить=V=praet,pl,indic,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-и=CONJ=
-_
-вновь=ADV=
-_
-сводить=V=praet,pl,indic,pf
-,\n
-и=CONJ=
-_
-опять=ADV=
-_
-мы=SPRO,pl,1p=nom
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-россия=S,geo,f,inan=nom,sg
-,\n
-добредать=V,intr=praet,pl,indic,pf
-_
-из=PR=
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-крест=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-насыпь=S,f,inan=(acc,sg|nom,sg)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-братский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-вот=PART=
-_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-теперь=ADV=
-,_
-тишина=S,sg,f,inan=nom
-!\n
-лишь=PART=
-_
-щемящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-солдатский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-издали=ADV=
-_
-нестись=V,ipf,intr=inpraes,sg,indic,3p
-_
-волна=S,f,inan=nom,sg
-.\n\n
-а=CONJ=
-_
-вблизи=ADV=
-_\u2014_
-все=SPRO,pl=(acc|nom)
-_
-пустой=A=sg,brev,n
-_
-и=CONJ=
-_
-немо=ADV=
-,\n
-в=PR=
-_
-смертный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сон=S,m,inan=abl,sg
-_\u2014_
-враг=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-друг=S,m,anim=nom,pl
-.\n
-и=CONJ=
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=nom,sg
-_
-вифлеем=S,geo,m,inan=gen,sg
-\n
-так=ADVPRO=
-_
-светло=ADV=
-,_
-как=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-.\n
+{я=SPRO,sg,1p=nom} {не=PART=} {предавать=V,tran=praet,sg,indic,m,pf} {белый=A=(acc,sg,plen,n|nom,sg,plen,n)} {знамя=S,n,inan=(acc,sg|nom,sg)},
+{оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {крик=S,m,inan=ins,sg} {враг=S,m,anim=(acc,pl|gen,pl)},
+{ты=SPRO,sg,2p=nom} {проходить=V,intr=praet,sg,indic,f,pf} {ночной=A=ins,pl,plen} {путь=S,m,inan=ins,pl},
+{мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} — {один=APRO=(nom,pl|acc,pl,inan)} {у=PR=} {вал=S,m,inan=gen,pl}.
+
+{да=CONJ=}, {ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {роковый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{разводить=V=praet,pl,indic,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} {и=CONJ=} {вновь=ADV=} {сводить=V=praet,pl,indic,pf},
+{и=CONJ=} {опять=ADV=} {мы=SPRO,pl,1p=nom} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}, {россия=S,geo,f,inan=nom,sg},
+{добредать=V,intr=praet,pl,indic,pf} {из=PR=} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{крест=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {насыпь=S,f,inan=(acc,sg|nom,sg)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {братский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{вот=PART=} {где=ADVPRO=} {ты=SPRO,sg,2p=nom} {теперь=ADV=}, {тишина=S,sg,f,inan=nom}!
+{лишь=PART=} {щемящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {солдатский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{издали=ADV=} {нестись=V,ipf,intr=inpraes,sg,indic,3p} {волна=S,f,inan=nom,sg}.
+
+{а=CONJ=} {вблизи=ADV=} — {все=SPRO,pl=(acc|nom)} {пустой=A=sg,brev,n} {и=CONJ=} {немо=ADV=},
+{в=PR=} {смертный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сон=S,m,inan=abl,sg} — {враг=S,m,anim=nom,pl} {и=CONJ=} {друг=S,m,anim=nom,pl}.
+{и=CONJ=} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=nom,sg} {вифлеем=S,geo,m,inan=gen,sg}
+{так=ADVPRO=} {светло=ADV=}, {как=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f}.

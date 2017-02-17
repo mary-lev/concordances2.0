@@ -1,82 +1,11 @@
-луна=S,f,inan=nom,sg
-_
-в=PR=
-_
-облако=S,n,inan=abl,pl
-_\u2014_
-далекий=A=sg,brev,f
-,_
-хороший=A=sg,brev,f
-.\n
-челнок=S,m,inan=(acc,sg|nom,sg)
-_
-неподвижный=A=sg,brev,m
-_
-в=PR=
-_
-куст=S,m,inan=abl,pl
-_
-камыш=S,m,inan=gen,sg
-.\n\n
-дробиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-неспокойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(abl,sg|dat,sg)
-.\n
-задумчиво=ADV=
-_
-кто-то=SPRO,sg,m,anim=nom
-_
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-челнок=S,m,inan=abl,sg
-.\n\n
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-_
-вкруг=PR=
-_
-холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-чей=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-стон=S,m,inan=ins,sg
-_
-нарушать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-покой=S,m,inan=(acc,sg|nom,sg)
-_
-тишина=S,sg,f,inan=gen
-?\n\n
-в=PR=
-_
-таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-даль=S,f,inan=abl,pl
-,_
-как=CONJ=
-_
-утро=S,n,inan=ins,sg
-,_
-светло=ADV=
-.\n
-чу=INTJ=
-!_
-кто-то=SPRO,sg,m,anim=nom
-_
-рыдать=V,ipf,intr=inpraes,sg,indic,3p
-..._
-упасть=V,pf,intr=praet,sg,indic,n
-_
-весло=S,n,inan=(acc,sg|nom,sg)
-...\n
+{луна=S,f,inan=nom,sg} {в=PR=} {облако=S,n,inan=abl,pl} — {далекий=A=sg,brev,f}, {хороший=A=sg,brev,f}.
+{челнок=S,m,inan=(acc,sg|nom,sg)} {неподвижный=A=sg,brev,m} {в=PR=} {куст=S,m,inan=abl,pl} {камыш=S,m,inan=gen,sg}.
+
+{дробиться=V,ipf,intr=inpraes,pl,indic,3p} {луч=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {неспокойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(abl,sg|dat,sg)}.
+{задумчиво=ADV=} {кто-то=SPRO,sg,m,anim=nom} {сидеть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {челнок=S,m,inan=abl,sg}.
+
+{сиять=V,ipf,intr=inpraes,sg,indic,3p} {венец=S,m,inan=(acc,sg|nom,sg)} {вкруг=PR=} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{чей=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {стон=S,m,inan=ins,sg} {нарушать=V,tran=praet,sg,partcp,brev,m,pf,pass} {покой=S,m,inan=(acc,sg|nom,sg)} {тишина=S,sg,f,inan=gen}?
+
+{в=PR=} {таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {даль=S,f,inan=abl,pl}, {как=CONJ=} {утро=S,n,inan=ins,sg}, {светло=ADV=}.
+{чу=INTJ=}! {кто-то=SPRO,sg,m,anim=nom} {рыдать=V,ipf,intr=inpraes,sg,indic,3p}... {упасть=V,pf,intr=praet,sg,indic,n} {весло=S,n,inan=(acc,sg|nom,sg)}...

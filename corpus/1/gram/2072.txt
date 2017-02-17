@@ -1,108 +1,14 @@
-душа=S,f,inan=nom,sg
-!_
-когда=CONJ=
-_
-уставать=V,intr=inpraes,sg,indic,2p,pf
-_
-верить=V,ipf,intr=inf
-?\n
-весна=S,f,inan=nom,sg
-,_
-весна=S,f,inan=nom,sg
-!_
-она=SPRO,sg,3p,f=nom
-_
-томный=A=sg,brev,f
-,\n
-как=ADVPRO=
-_
-тайна=S,f,inan=nom,sg
-_
-приоткрывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-\n
-в=PR=
-_
-кумирня=S,f,inan=acc,sg
-_
-золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сон=S,m,inan=gen,sg
-...\n\n
-едва=CONJ=
-,_
-подруга=S,f,anim=acc,sg
-_
-покидать=V,tran=inpraes,ger,ipf
-,\n
-уходить=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-тишина=S,sg,f,inan=acc
-_
-и=CONJ=
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-вот=PART=
-_
-опять=ADV=
-_\u2014_
-звать=V,ipf,tran=inpraes,sg,indic,3p
-_
-другой=APRO=nom,sg,f
-,\n
-другой=APRO=nom,sg,f
-_
-вызывать=V,tran=inpraes,sg,indic,3p,ipf
-_
-день=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-но=CONJ=
-_
-мгла=S,f,inan=ins,sg
-_
-весенний=A=ins,sg,plen,f
-_
-повивать=V,tran=praet,sg,partcp,brev,n,pf,pass
-\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-кипеть=V,ipf,intr=praet,sg,indic,n
-_
-здесь=ADVPRO=
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-не=PART=
-_
-петь=V,ipf,tran=sg,imper,2p
-,_
-не=PART=
-_
-требовать=V,ipf,tran=sg,imper,2p
-,_
-маргарита=S,persn,f,anim=nom,sg
-,\n
-в=PR=
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-ты=SPRO,sg,2p=nom
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-глядеть=V,ipf,tran=sg,imper,2p
-...\n
+{душа=S,f,inan=nom,sg}! {когда=CONJ=} {уставать=V,intr=inpraes,sg,indic,2p,pf} {верить=V,ipf,intr=inf}?
+{весна=S,f,inan=nom,sg}, {весна=S,f,inan=nom,sg}! {она=SPRO,sg,3p,f=nom} {томный=A=sg,brev,f},
+{как=ADVPRO=} {тайна=S,f,inan=nom,sg} {приоткрывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}
+{в=PR=} {кумирня=S,f,inan=acc,sg} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сон=S,m,inan=gen,sg}...
+
+{едва=CONJ=}, {подруга=S,f,anim=acc,sg} {покидать=V,tran=inpraes,ger,ipf},
+{уходить=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {в=PR=} {тишина=S,sg,f,inan=acc} {и=CONJ=} {тень=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {вот=PART=} {опять=ADV=} — {звать=V,ipf,tran=inpraes,sg,indic,3p} {другой=APRO=nom,sg,f},
+{другой=APRO=nom,sg,f} {вызывать=V,tran=inpraes,sg,indic,3p,ipf} {день=S,m,inan=(acc,sg|nom,sg)}...
+
+{но=CONJ=} {мгла=S,f,inan=ins,sg} {весенний=A=ins,sg,plen,f} {повивать=V,tran=praet,sg,partcp,brev,n,pf,pass}
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {кипеть=V,ipf,intr=praet,sg,indic,n} {здесь=ADVPRO=} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{не=PART=} {петь=V,ipf,tran=sg,imper,2p}, {не=PART=} {требовать=V,ipf,tran=sg,imper,2p}, {маргарита=S,persn,f,anim=nom,sg},
+{в=PR=} {мой=APRO=(acc,sg,n|nom,sg,n)} {ты=SPRO,sg,2p=nom} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {глядеть=V,ipf,tran=sg,imper,2p}...

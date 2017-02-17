@@ -1,114 +1,20 @@
-прохлада=S,f,inan=nom,sg
-_
-утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-пьянить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ласкать=V,ipf,tran=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-намек=S,m,inan=ins,sg
-;\n
-о=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-горестно=ADV=
-_
-далекий=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-осмеивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-бред=S,sg,m,inan=(dat|loc|part)
-_
-в=PR=
-_
-молчание=S,n,inan=abl,sg
-_
-одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-о=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-горестно=ADV=
-_
-далекий=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-осмеивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-,\n
-о=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-чистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-высокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-как=CONJ=
-_
-дуновение=S,n,inan=(acc,sg|nom,sg)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-бред=S,sg,m,inan=(dat|loc|part)
-_
-в=PR=
-_
-молчание=S,n,inan=abl,sg
-_
-одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-о=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-странный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-высокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-как=CONJ=
-_
-приближение=S,n,inan=(acc,sg|nom,sg)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-,_
-с=PR=
-_
-привет=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-упрек=S,m,inan=ins,sg
-,\n
-вставать=V,intr=inpraes,pl,indic,3p,ipf
-_
-отвергать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-бред=S,sg,m,inan=(dat|loc|part)
-_
-в=PR=
-_
-молчание=S,n,inan=abl,sg
-_
-одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n
+{прохлада=S,f,inan=nom,sg} {утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{пьянить=V,ipf,tran=inpraes,sg,indic,3p} {ласкать=V,ipf,tran=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {намек=S,m,inan=ins,sg};
+{о=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {горестно=ADV=} {далекий=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{петь=V,ipf,tran=inpraes,pl,indic,3p} {осмеивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{бред=S,sg,m,inan=(dat|loc|part)} {в=PR=} {молчание=S,n,inan=abl,sg} {одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{о=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {горестно=ADV=} {далекий=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{петь=V,ipf,tran=inpraes,pl,indic,3p} {осмеивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {сон=S,m,inan=(acc,pl|nom,pl)},
+{о=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {чистый=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {высокий=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{как=CONJ=} {дуновение=S,n,inan=(acc,sg|nom,sg)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{бред=S,sg,m,inan=(dat|loc|part)} {в=PR=} {молчание=S,n,inan=abl,sg} {одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{о=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {странный=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {высокий=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{как=CONJ=} {приближение=S,n,inan=(acc,sg|nom,sg)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)}, {с=PR=} {привет=S,m,inan=ins,sg} {и=CONJ=} {упрек=S,m,inan=ins,sg},
+{вставать=V,intr=inpraes,pl,indic,3p,ipf} {отвергать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{бред=S,sg,m,inan=(dat|loc|part)} {в=PR=} {молчание=S,n,inan=abl,sg} {одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)}.

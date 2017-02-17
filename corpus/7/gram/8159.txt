@@ -1,90 +1,14 @@
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тяжкий=A=pl,brev
-_
-и=CONJ=
-_
-свинцовый=A=pl,brev
-,\n
-казать=V,ipf,tran=inpraes,sg,indic,3p
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-ковать=V,ipf,tran=inpraes,sg,indic,3p
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-оковы=S,pl,inan=(acc|nom)
-\n
-позабывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-небо=S,n,inan=ins,sg
-_
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-.\n\n
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-повисать=V,intr=praet,pl,indic,pf
-_
-с=PR=
-_
-высь=S,f,inan=gen,pl
-,\n
-помутнелый?=A,inform,obsc=pl,brev
-_\u2014_
-ослабелый=A=pl,brev
-,\n
-точно=CONJ=
-_
-кисть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-кипарис=S,m,inan=abl,sg
-\n
-над=PR=
-_
-могила=S,f,inan=ins,sg
-_
-сизо=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
--
-белый=A=pl,brev
-.\n\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-мягкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-но=CONJ=
-_
-без=PR=
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-есть=V,ipf,tran=praet,pl,indic
-,_
-мшистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-каменья=S,pl,inan=(acc|nom)
-...\n
-это=PART=
-_\u2014_
-братский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-полно=ADV=comp
-_
-уж=PART=
-_
-нет=ADV,praed=
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тяжкий=A=pl,brev} {и=CONJ=} {свинцовый=A=pl,brev},
+{казать=V,ipf,tran=inpraes,sg,indic,3p} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {камень=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {ковать=V,ipf,tran=inpraes,sg,indic,3p} {земля=S,f,inan=(abl,sg|dat,sg)} {оковы=S,pl,inan=(acc|nom)}
+{позабывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {небо=S,n,inan=ins,sg} {пламень=S,inan=(nom,sg,m|acc,sg,m)}.
+
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {повисать=V,intr=praet,pl,indic,pf} {с=PR=} {высь=S,f,inan=gen,pl},
+{помутнелый?=A,inform,obsc=pl,brev} — {ослабелый=A=pl,brev},
+{точно=CONJ=} {кисть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {кипарис=S,m,inan=abl,sg}
+{над=PR=} {могила=S,f,inan=ins,sg} {сизо=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{белый=A=pl,brev}.
+
+{воздух=S,m,inan=(acc,sg|nom,sg)} {мягкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {но=CONJ=} {без=PR=} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{есть=V,ipf,tran=praet,pl,indic}, {мшистый=A=(acc,pl,plen,inan|nom,pl,plen)} {каменья=S,pl,inan=(acc|nom)}...
+{это=PART=} — {братский=A=(acc,pl,plen,inan|nom,pl,plen)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {полно=ADV=comp} {уж=PART=} {нет=ADV,praed=} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

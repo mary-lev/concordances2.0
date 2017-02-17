@@ -1,42 +1,9 @@
-отреченный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-озарять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-:\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-ласковый=A=nom,sg,plen,f
-_
-келья=S,f,inan=nom,sg
-,\n
-кропотливый=A=nom,sg,plen,f
-_
-медаль=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-,_
-за=PR=
-_
-грань=S,f,inan=ins,sg
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-желание=S,n,inan=gen,pl
-,\n
-бледно-палевый=A,plen=nom,sg,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-:\n
-это=PART=
-_\u2014_
-новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-испытание=S,n,inan=gen,pl
-\n
-несказанный=A=nom,sg,plen,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-.\n
+{отреченный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{озарять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {печаль=S,f,inan=(acc,sg|nom,sg)}:
+{это=SPRO,sg,n,inan=(acc|nom)} — {ласковый=A=nom,sg,plen,f} {келья=S,f,inan=nom,sg},
+{кропотливый=A=nom,sg,plen,f} {медаль=S,f,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=}, {за=PR=} {грань=S,f,inan=ins,sg} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {желание=S,n,inan=gen,pl},
+{бледно-палевый=A,plen=nom,sg,f} {даль=S,f,inan=(acc,sg|nom,sg)}:
+{это=PART=} — {новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {испытание=S,n,inan=gen,pl}
+{несказанный=A=nom,sg,plen,f} {печаль=S,f,inan=(acc,sg|nom,sg)}.

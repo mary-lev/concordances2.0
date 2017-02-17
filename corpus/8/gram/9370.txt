@@ -1,130 +1,19 @@
-я=SPRO,sg,1p=nom
-_\u2014_
-мотылек=S,m,anim=nom,sg
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-._
-послушно=ADV=
-\n
-кружиться=V,ipf,intr=inpraes,sg,indic,1p
-_
-над=PR=
-_
-яркость=S,f,inan=ins,sg
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-равнодушно=ADV=
-,\n
-но=CONJ=
-_
-так=ADVPRO=
-_
-ласкательный=A=pl,brev
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-ласка=S,f,inan=ins,sg
-_
-не=PART=
-_
-обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-,\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-гибель=S,f,inan=(acc,sg|nom,sg)
-_
-наизусть=ADV=
-,_\u2014\n
-но=CONJ=
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-биться=V,ipf,intr=inf
-_
-не=PART=
-_
-уставать=V,intr=inpraes,pl,indic,3p,pf
-,\n
-с=PR=
-_
-услада=S,f,inan=ins,sg
-_
-повторять=V,tran=inpraes,sg,indic,1p,ipf
-:_
-пусть=PART=
-!\n\n
-вот=PART=
-_
-все=SPRO,pl=(acc|nom)
-_
-невыносимый=A=comp
-_
-жгучесть=S,f,inan=(acc,sg|nom,sg)
-,\n
-тесно=ADV=comp
-_
-и=CONJ=
-_
-опьяненный?=A=comp
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-,\n
-так=ADVPRO=
-_
-явно=ADV=
-_
-неизбежный=A=sg,brev,f
-_
-участь=S,f,inan=(acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-в=PR=
-_
-падание=S,n,inan=abl,sg
-_
-захватить=V,pf,tran=praet,sg,partcp,brev,m,pass
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-упиваться=V,intr=inf,pf
-_
-смерть=S,f,inan=ins,sg
-_
-знойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-изведывать=V,tran=inf,pf
-_
-сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-огонь=S,m,inan=gen,sg
-.\n
-еще=ADV=
-_
-один=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-полет=S,m,inan=(acc,sg|nom,sg)
-_
-нестройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014\n
-и=CONJ=
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-обвивать=V=inpraes,sg,indic,3p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{я=SPRO,sg,1p=nom} — {мотылек=S,m,anim=nom,sg} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}. {послушно=ADV=}
+{кружиться=V,ipf,intr=inpraes,sg,indic,1p} {над=PR=} {яркость=S,f,inan=ins,sg} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{сиять=V,ipf,intr=inpraes,sg,indic,3p} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {равнодушно=ADV=},
+{но=CONJ=} {так=ADVPRO=} {ласкательный=A=pl,brev} {луч=S,m,inan=(acc,pl|nom,pl)}.
+
+{я=SPRO,sg,1p=nom} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {ласка=S,f,inan=ins,sg} {не=PART=} {обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)},
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p} {гибель=S,f,inan=(acc,sg|nom,sg)} {наизусть=ADV=}, —
+{но=CONJ=} {крыло=S,n,inan=(acc,pl|nom,pl)} {биться=V,ipf,intr=inf} {не=PART=} {уставать=V,intr=inpraes,pl,indic,3p,pf},
+{с=PR=} {услада=S,f,inan=ins,sg} {повторять=V,tran=inpraes,sg,indic,1p,ipf}: {пусть=PART=}!
+
+{вот=PART=} {все=SPRO,pl=(acc|nom)} {невыносимый=A=comp} {жгучесть=S,f,inan=(acc,sg|nom,sg)},
+{тесно=ADV=comp} {и=CONJ=} {опьяненный?=A=comp} {круг=S,m,inan=(acc,sg|nom,sg)},
+{так=ADVPRO=} {явно=ADV=} {неизбежный=A=sg,brev,f} {участь=S,f,inan=(acc,sg|nom,sg)},
+{но=CONJ=} {в=PR=} {падание=S,n,inan=abl,sg} {захватить=V,pf,tran=praet,sg,partcp,brev,m,pass} {дух=S,m,inan=(acc,sg|nom,sg)}.
+
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {упиваться=V,intr=inf,pf} {смерть=S,f,inan=ins,sg} {знойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{изведывать=V,tran=inf,pf} {сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {огонь=S,m,inan=gen,sg}.
+{еще=ADV=} {один=ANUM=(acc,sg,m,inan|nom,sg,m)} {полет=S,m,inan=(acc,sg|nom,sg)} {нестройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
+{и=CONJ=} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {обвивать=V=inpraes,sg,indic,3p,pf} {я=SPRO,sg,1p=(acc|gen)}.

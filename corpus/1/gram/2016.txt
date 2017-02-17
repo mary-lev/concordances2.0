@@ -1,68 +1,9 @@
-я=SPRO,sg,1p=nom
-_\u2014_
-гамлет=S,persn,m,anim=nom,sg
-._
-холодеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,\n
-когда=CONJ=
-_
-плести=V,ipf,tran=inpraes,sg,indic,3p
-_
-коварство=S,n,inan=(acc,sg|nom,sg)
-_
-сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-первый=ANUM=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-\n
-живой=A=sg,brev,f
-_\u2014_
-к=PR=
-_
-единственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-.\n\n
-ты=SPRO,sg,2p=(acc|gen)
-,_
-офелия=S,persn,f,anim=acc,sg
-_
-мой=APRO=acc,sg,f
-,\n
-уводить=V=praet,sg,indic,m,pf
-_
-далеко=ADV=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-гибнуть=V,ipf,intr=inpraes,sg,indic,1p
-,_
-принц=S,m,anim=nom,sg
-,_
-в=PR=
-_
-родной=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-край=S,m,inan=(dat,sg|loc,sg)
-\n
-клинок=S,m,inan=ins,sg
-_
-отравлять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-_
-закалывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n
+{я=SPRO,sg,1p=nom} — {гамлет=S,persn,m,anim=nom,sg}. {холодеть=V,ipf,intr=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)},
+{когда=CONJ=} {плести=V,ipf,tran=inpraes,sg,indic,3p} {коварство=S,n,inan=(acc,sg|nom,sg)} {сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {первый=ANUM=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)}
+{живой=A=sg,brev,f} — {к=PR=} {единственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {на=PR=} {свет=S,sg,m,inan=abl}.
+
+{ты=SPRO,sg,2p=(acc|gen)}, {офелия=S,persn,f,anim=acc,sg} {мой=APRO=acc,sg,f},
+{уводить=V=praet,sg,indic,m,pf} {далеко=ADV=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {холод=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {гибнуть=V,ipf,intr=inpraes,sg,indic,1p}, {принц=S,m,anim=nom,sg}, {в=PR=} {родной=A=(abl,sg,plen,m|abl,sg,plen,n)} {край=S,m,inan=(dat,sg|loc,sg)}
+{клинок=S,m,inan=ins,sg} {отравлять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {закалывать=V,tran=praet,sg,partcp,brev,m,pf,pass}.

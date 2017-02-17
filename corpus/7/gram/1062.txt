@@ -1,130 +1,20 @@
-зимний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-долгий=A=sg,brev,m
-,\n
-зимний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=ins,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-спаться=V,ipf,intr=inpraes,indic
-:\n
-из=PR=
-_
-угол=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-с=PR=
-_
-книжный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-полка=S,f,inan=gen,pl
-\n
-сквозь=PR=
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-полог=S,m,inan=(acc,sg|nom,sg)
-\n
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-струиться=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-серебристый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-фиал=S,m,inan=(acc,pl|nom,pl)
-\n
-опрокидывать=V,tran=praet,ger,pf
-_
-в=PR=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-лить=V,ipf,tran=inpraes,pl,indic,3p
-_
-лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-небывалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-напиток=S,m,inan=(acc,sg|nom,sg)
-_
-благовонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,-\n\n
-и=CONJ=
-_
-из=PR=
-_
-кубок=S,m,inan=gen,sg
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-в=PR=
-_
-поэтический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-оправа=S,f,inan=(abl,sg|dat,sg)
-\n
-рад=A,brev=sg,m
-_
-я=SPRO,sg,1p=nom
-_
-сладостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-отрава=S,f,inan=(abl,sg|dat,sg)
-\n
-напряжение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мозговой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_...\n\n
-в=PR=
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чаша=S,f,inan=(abl,sg|dat,sg)
-_
-таять=V,ipf,intr=inpraes,pl,indic,3p
-_
-звено=S,n,inan=(acc,pl|nom,pl)
-\n
-из=PR=
-_
-цепь=S,f,inan=gen,pl
-_
-воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-от=PR=
-_
-яд=S,m,inan=(dat,sg|part,sg)
-_
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-знание=S,n,inan=ins,sg
-_
-кажется=ADV,parenth=
-_
-незнание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
+{зимний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {путь=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {долгий=A=sg,brev,m},
+{зимний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=ins,sg} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {спаться=V,ipf,intr=inpraes,indic}:
+{из=PR=} {угол=S,m,inan=gen,pl} {и=CONJ=} {с=PR=} {книжный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {полка=S,f,inan=gen,pl}
+{сквозь=PR=} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {полог=S,m,inan=(acc,sg|nom,sg)}
+{сумрак=S,m,inan=(acc,sg|nom,sg)} {розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {струиться=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{серебристый=A=(acc,pl,plen,inan|nom,pl,plen)} {фиал=S,m,inan=(acc,pl|nom,pl)}
+{опрокидывать=V,tran=praet,ger,pf} {в=PR=} {воздух=S,m,inan=(acc,sg|nom,sg)} {сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{лить=V,ipf,tran=inpraes,pl,indic,3p} {лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)} {небывалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{я=SPRO,sg,1p=(abl|dat)} {напиток=S,m,inan=(acc,sg|nom,sg)} {благовонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},-
+
+{и=CONJ=} {из=PR=} {кубок=S,m,inan=gen,sg} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{в=PR=} {поэтический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {оправа=S,f,inan=(abl,sg|dat,sg)}
+{рад=A,brev=sg,m} {я=SPRO,sg,1p=nom} {сладостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {отрава=S,f,inan=(abl,sg|dat,sg)}
+{напряжение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мозговой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} ...
+
+{в=PR=} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чаша=S,f,inan=(abl,sg|dat,sg)} {таять=V,ipf,intr=inpraes,pl,indic,3p} {звено=S,n,inan=(acc,pl|nom,pl)}
+{из=PR=} {цепь=S,f,inan=gen,pl} {воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {от=PR=} {яд=S,m,inan=(dat,sg|part,sg)} {на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{знание=S,n,inan=ins,sg} {кажется=ADV,parenth=} {незнание=S,n,inan=(abl,sg|acc,sg|nom,sg)}.

@@ -1,68 +1,14 @@
-ночь=S,f,inan=ins,sg
-_
-вьюга=S,f,inan=nom,sg
-_
-снежный=A=nom,sg,plen,f
-_\n
-заметать=V=praet,sg,indic,f,ipf,tran
-_
-след=S,m,inan=(acc,sg|nom,sg)
-._\n
-розовый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-нежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-будить=V,ipf,tran=inpraes,sg,indic,3p
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n\n
-вставать=V,intr=praet,pl,indic,pf
-_
-заря=S,f,inan=(acc,pl|nom,pl)
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-озарять=V,tran=inpraes,ger,ipf
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-._\n
-яркий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-и=CONJ=
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-всколыхивать=V=praet,sg,indic,n,pf
-_
-брег=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-вслед=ADV=
-_
-за=PR=
-_
-льдина=S,f,inan=ins,sg
-_
-синий=A=ins,sg,plen,f
-_\n
-в=PR=
-_
-полдень=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-всплывать=V,intr=inpraes,sg,indic,1p,pf
-._\n
-дева=S,f,anim=acc,sg
-_
-в=PR=
-_
-снежный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-иней=S,m,inan=abl,sg
-_\n
-встреча=S,f,inan=acc,sg
-_
-наяву=ADV=
-.\n
+{ночь=S,f,inan=ins,sg} {вьюга=S,f,inan=nom,sg} {снежный=A=nom,sg,plen,f} 
+{заметать=V=praet,sg,indic,f,ipf,tran} {след=S,m,inan=(acc,sg|nom,sg)}. 
+{розовый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {нежный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{утро=S,n,inan=(acc,sg|nom,sg)} {будить=V,ipf,tran=inpraes,sg,indic,3p} {свет=S,sg,m,inan=(acc|nom)}.
+
+{вставать=V,intr=praet,pl,indic,pf} {заря=S,f,inan=(acc,pl|nom,pl)} {красный=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{озарять=V,tran=inpraes,ger,ipf} {снег=S,m,inan=(acc,sg|nom,sg)}. 
+{яркий=A=(acc,sg,plen,n|nom,sg,plen,n)} {и=CONJ=} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{всколыхивать=V=praet,sg,indic,n,pf} {брег=S,m,inan=(acc,sg|nom,sg)}.
+
+{вслед=ADV=} {за=PR=} {льдина=S,f,inan=ins,sg} {синий=A=ins,sg,plen,f} 
+{в=PR=} {полдень=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom} {всплывать=V,intr=inpraes,sg,indic,1p,pf}. 
+{дева=S,f,anim=acc,sg} {в=PR=} {снежный=A=(abl,sg,plen,m|abl,sg,plen,n)} {иней=S,m,inan=abl,sg} 
+{встреча=S,f,inan=acc,sg} {наяву=ADV=}.

@@ -1,156 +1,24 @@
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-встречать=V,tran=inf,ipf
-_
-на=PR=
-_
-улица=S,f,inan=(abl,sg|dat,sg)
-\n
-слепой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-без=PR=
-_
-провожатый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-рука=S,f,inan=acc,sg
-_
-подавать=V,tran=inpraes,sg,indic,1p,ipf
-_
-они=SPRO,pl=dat
-,\n
-вести=V,ipf,tran=inpraes,sg,indic,1p
-_
-меж=PR=
-_
-экипаж=S,m,inan=gen,pl
-.\n\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-предразлучный?=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-они=SPRO,pl=(acc|gen)
-_
-тихий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-спасибо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-;\n
-вслед=PR=
-_
-спутник=S,m=(dat,sg,anim|dat,sg,inan)
-_
-минутный=A=(dat,sg,plen,m|dat,sg,plen,n)
-\n
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-долго=ADV=
-,_
-смутно=ADV=
-.\n\n
-и=CONJ=
-_
-думать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-и=CONJ=
-_
-думать=V,ipf,intr=inpraes,sg,indic,1p
-:\n
-куда=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-_
-пробираться=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-к=PR=
-_
-племянница=S,f,anim=(abl,sg|dat,sg)
-_
-ли=CONJ=
-,_
-к=PR=
-_
-друг=S,m,anim=dat,sg
-_
-ли=PART=
-?\n
-он=SPRO,sg,3p,m=(acc|gen)
-_
-кто=SPRO,sg,m,anim=nom
-_
-дожидаться=V,ipf,intr=inpraes,sg,indic,3p
-?\n\n
-пойти=V,pf,intr=praet,sg,indic,m
-_
-без=PR=
-_
-провожатый=S,m,anim=(acc,sg|gen,sg)
-\n
-в=PR=
-_
-путин=S,famn,m,anim=dat,sg
-_
-он=SPRO,sg,3p,m=nom
-_
-далекий=A=acc,sg,plen,f
-;\n
-не=PART=
-_
-принимать=V=inpraes,pl,indic,3p,pf
-_
-ли=CONJ=
-_
-там=ADVPRO=
-_
-старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-с=PR=
-_
-обычный=A=ins,pl,plen
-_
-попрек=S,m,inan=ins,pl
-?\n\n
-и=CONJ=
-_
-встречаться=V,intr=inpraes,sg,indic,3p,pf
-_
-ль=PART=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-старик=S,m,anim=nom,sg
-,\n
-бродяга=S,mf,anim=nom,sg
-_
-вновь=ADV=
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_
-как=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-же=PART=
-?\n
-иль=CONJ=
-_
-заводить=V=inpraes,sg,indic,3p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-шутник=S,m,anim=nom,sg
-\n
-и=CONJ=
-_
-бросать=V=inpraes,sg,indic,3p,pf
-_
-вдруг=ADV=
-_
-меж=PR=
-_
-экипаж=S,m,inan=gen,pl
-?\n
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {встречать=V,tran=inf,ipf} {на=PR=} {улица=S,f,inan=(abl,sg|dat,sg)}
+{слепой=S,m,anim=(abl,pl|acc,pl|gen,pl)} {без=PR=} {провожатый=S,m,anim=(abl,pl|acc,pl|gen,pl)}.
+{я=SPRO,sg,1p=nom} {рука=S,f,inan=acc,sg} {подавать=V,tran=inpraes,sg,indic,1p,ipf} {они=SPRO,pl=dat},
+{вести=V,ipf,tran=inpraes,sg,indic,1p} {меж=PR=} {экипаж=S,m,inan=gen,pl}.
+
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {предразлучный?=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{они=SPRO,pl=(acc|gen)} {тихий=A=(acc,sg,plen,n|nom,sg,plen,n)} {спасибо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)};
+{вслед=PR=} {спутник=S,m=(dat,sg,anim|dat,sg,inan)} {минутный=A=(dat,sg,plen,m|dat,sg,plen,n)}
+{смотреть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {долго=ADV=}, {смутно=ADV=}.
+
+{и=CONJ=} {думать=V,ipf,intr=inpraes,sg,indic,1p}, {и=CONJ=} {думать=V,ipf,intr=inpraes,sg,indic,1p}:
+{куда=ADVPRO=} {он=SPRO,sg,3p,m=nom} {пробираться=V,intr=inpraes,sg,indic,3p,ipf},
+{к=PR=} {племянница=S,f,anim=(abl,sg|dat,sg)} {ли=CONJ=}, {к=PR=} {друг=S,m,anim=dat,sg} {ли=PART=}?
+{он=SPRO,sg,3p,m=(acc|gen)} {кто=SPRO,sg,m,anim=nom} {дожидаться=V,ipf,intr=inpraes,sg,indic,3p}?
+
+{пойти=V,pf,intr=praet,sg,indic,m} {без=PR=} {провожатый=S,m,anim=(acc,sg|gen,sg)}
+{в=PR=} {путин=S,famn,m,anim=dat,sg} {он=SPRO,sg,3p,m=nom} {далекий=A=acc,sg,plen,f};
+{не=PART=} {принимать=V=inpraes,pl,indic,3p,pf} {ли=CONJ=} {там=ADVPRO=} {старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{с=PR=} {обычный=A=ins,pl,plen} {попрек=S,m,inan=ins,pl}?
+
+{и=CONJ=} {встречаться=V,intr=inpraes,sg,indic,3p,pf} {ль=PART=} {ты=SPRO,sg,2p=(abl|dat)}, {старик=S,m,anim=nom,sg},
+{бродяга=S,mf,anim=nom,sg} {вновь=ADV=} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {как=CONJ=} {я=SPRO,sg,1p=nom} {же=PART=}?
+{иль=CONJ=} {заводить=V=inpraes,sg,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {шутник=S,m,anim=nom,sg}
+{и=CONJ=} {бросать=V=inpraes,sg,indic,3p,pf} {вдруг=ADV=} {меж=PR=} {экипаж=S,m,inan=gen,pl}?

@@ -1,128 +1,19 @@
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-баловень=S,m,anim=ins,sg
-_
-мамаша=S,f,anim=(gen,sg|nom,pl)
-\n
-то=CONJ=
-_
-большаться?=V,intr=inf,pf
-,_
-то=CONJ=
-_
-шалить=V,ipf,intr=inf
-_...\n
-и=CONJ=
-_
-рассеянно=ADV=
-_
-из=PR=
-_
-чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-пена=S,f,inan=acc,sg
-_
-пить=V,ipf,tran=inf
-,_
-а=CONJ=
-_
-влага=S,f,inan=acc,sg
-_
-лить=V,ipf,tran=inf
-_...\n\n
-сила=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-день=S,m,inan=gen,pl
-_
-гордиться=V,ipf,intr=inpraes,ger
-_
-избыток=S,m,inan=ins,sg
-,\n
-мимоходом=ADV=
-,_
-на=PR=
-_
-лет=S,m,inan=(dat,sg|part,sg|loc,sg)
-\n
-хмельно=ADV=
--
-розовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-напиток=S,m,inan=ins,sg
-\n
-усыплять=V,tran=inf,ipf
-_
-свой=APRO=acc,sg,f
-_
-мечта=S,f,inan=acc,sg
-.\n\n
-увидать=V,pf=praet,ger,tran
-,_
-что=CONJ=
-_
-невозможно=ADV=
-\n
-ни=CONJ=
-_
-вернуться=V,pf,intr=inf
-,_
-ни=CONJ=
-_
-забывать=V=inf,pf
-_...\n
-пить=V,ipf,tran=inf
-_
-поспешно=ADV=
-,_
-пить=V,ipf,tran=inf
-_
-тревожно=ADV=
-,\n
-рядом=ADV=
-_
-с=PR=
-_
-сын=S,m,anim=ins,sg
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,\n\n
-под=PR=
-_
-наплыв=S,m,inan=ins,sg
-_
-год=S,m,inan=gen,pl
-_
-сгибаться=V,intr=inf,pf
-,\n
-но=CONJ=
-,_
-забывать=V=praet,ger,pf
-_
-и=CONJ=
-_
-вкус=S,m,inan=(acc,sg|nom,sg)
-_
-вино=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_...\n
-по=PR=
-_
-привычка=S,f,inan=(abl,sg|dat,sg)
-_
-все=ADV=
-_
-тянуться=V,ipf,intr=inf
-\n
-к=PR=
-_
-чаша=S,f,inan=(abl,sg|dat,sg)
-,_
-выпивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-до=PR=
-_
-дно=S,n,inan=gen,sg
-.\n
+{нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {баловень=S,m,anim=ins,sg} {мамаша=S,f,anim=(gen,sg|nom,pl)}
+{то=CONJ=} {большаться?=V,intr=inf,pf}, {то=CONJ=} {шалить=V,ipf,intr=inf} ...
+{и=CONJ=} {рассеянно=ADV=} {из=PR=} {чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{пена=S,f,inan=acc,sg} {пить=V,ipf,tran=inf}, {а=CONJ=} {влага=S,f,inan=acc,sg} {лить=V,ipf,tran=inf} ...
+
+{сила=S,f,inan=gen,pl} {и=CONJ=} {день=S,m,inan=gen,pl} {гордиться=V,ipf,intr=inpraes,ger} {избыток=S,m,inan=ins,sg},
+{мимоходом=ADV=}, {на=PR=} {лет=S,m,inan=(dat,sg|part,sg|loc,sg)}
+{хмельно=ADV=}-{розовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {напиток=S,m,inan=ins,sg}
+{усыплять=V,tran=inf,ipf} {свой=APRO=acc,sg,f} {мечта=S,f,inan=acc,sg}.
+
+{увидать=V,pf=praet,ger,tran}, {что=CONJ=} {невозможно=ADV=}
+{ни=CONJ=} {вернуться=V,pf,intr=inf}, {ни=CONJ=} {забывать=V=inf,pf} ...
+{пить=V,ipf,tran=inf} {поспешно=ADV=}, {пить=V,ipf,tran=inf} {тревожно=ADV=},
+{рядом=ADV=} {с=PR=} {сын=S,m,anim=ins,sg}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf},
+
+{под=PR=} {наплыв=S,m,inan=ins,sg} {год=S,m,inan=gen,pl} {сгибаться=V,intr=inf,pf},
+{но=CONJ=}, {забывать=V=praet,ger,pf} {и=CONJ=} {вкус=S,m,inan=(acc,sg|nom,sg)} {вино=S,n,inan=(acc,pl|gen,sg|nom,pl)} ...
+{по=PR=} {привычка=S,f,inan=(abl,sg|dat,sg)} {все=ADV=} {тянуться=V,ipf,intr=inf}
+{к=PR=} {чаша=S,f,inan=(abl,sg|dat,sg)}, {выпивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {до=PR=} {дно=S,n,inan=gen,sg}.

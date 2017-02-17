@@ -1,84 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-далекий=A=sg,brev,f
-,_
-как=CONJ=
-_
-прежде=ADV=
-,_
-так=ADVPRO=
-_
-и=CONJ=
-_
-ныне=ADV=
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-находить=V=inf,pf,tran
-_
-родной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-берег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-мой=APRO=nom,sg,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-_
-чуждый=A=sg,brev,f
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-святыня=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-радость=S,f,inan=ins,sg
-_
-душа=S,f,inan=nom,sg
-_
-не=PART=
-_
-дорога=S,f,inan=nom,sg
-.\n\n
-суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-хлад=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-твой=APRO=nom,sg,f
-_
-святой=A=nom,sg,plen,f
-_
-сила=S,f,inan=nom,sg
-:\n
-безбожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жар=S,sg,m,inan=(acc|nom)
-_
-нейти=V,ipf,intr=inpraes,sg,indic,3p
-_
-святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-место=S,n,inan=dat,pl
-.\n
-пускай=PART=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-могила=S,f,inan=nom,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-над=PR=
-_
-могила=S,f,inan=ins,sg
-_\u2014_
-лучезарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-.\n
+{ты=SPRO,sg,2p=nom} {далекий=A=sg,brev,f}, {как=CONJ=} {прежде=ADV=}, {так=ADVPRO=} {и=CONJ=} {ныне=ADV=},
+{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {находить=V=inf,pf,tran} {родной=A=(acc,pl,plen,inan|nom,pl,plen)} {берег=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{мой=APRO=nom,sg,f} {печаль=S,f,inan=(acc,sg|nom,sg)} {чуждый=A=sg,brev,f} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {святыня=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {радость=S,f,inan=ins,sg} {душа=S,f,inan=nom,sg} {не=PART=} {дорога=S,f,inan=nom,sg}.
+
+{суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хлад=S,m,inan=(acc,sg|nom,sg)} — {твой=APRO=nom,sg,f} {святой=A=nom,sg,plen,f} {сила=S,f,inan=nom,sg}:
+{безбожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жар=S,sg,m,inan=(acc|nom)} {нейти=V,ipf,intr=inpraes,sg,indic,3p} {святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {место=S,n,inan=dat,pl}.
+{пускай=PART=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {могила=S,f,inan=nom,sg},
+{ты=SPRO,sg,2p=nom} {над=PR=} {могила=S,f,inan=ins,sg} — {лучезарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {храм=S,m,inan=(acc,sg|nom,sg)}.

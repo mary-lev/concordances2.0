@@ -1,28 +1,4 @@
-нереида=S,f,anim=(gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,_
-нереида=S,f,anim=(gen,sg|nom,pl)
-,\n
-вы=SPRO,pl,2p=dat
-_
-рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-еда=S,sg,f,inan=nom
-_
-и=CONJ=
-_
-питие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-дочь=S,f,anim=dat,pl
-_
-средиземный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-обида=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сострадание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-обидно=ADV=
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-.\n
+{нереида=S,f,anim=(gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}, {нереида=S,f,anim=(gen,sg|nom,pl)},
+{вы=SPRO,pl,2p=dat} {рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {еда=S,sg,f,inan=nom} {и=CONJ=} {питие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{дочь=S,f,anim=dat,pl} {средиземный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {обида=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сострадание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {обидно=ADV=} {мой=APRO=(acc,sg,n|nom,sg,n)}.

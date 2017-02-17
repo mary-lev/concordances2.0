@@ -1,84 +1,14 @@
-с=PR=
-_
-неустанный=A=ins,pl,plen
-_
-молитва=S,f,inan=ins,pl
-,\n
-повторять=V,tran=inpraes,ins,pl,partcp,plen,ipf,pass
-_
-вслух=ADV=
-,\n
-проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)
-_
-я=SPRO,sg,1p=nom
-_
-между=PR=
-_
-битва=S,f,inan=ins,pl
-,\n
-ускользать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-,_
-как=CONJ=
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-от=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-друг=S,m,anim=(acc,pl|gen,pl)
-_
-отторженный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-предвещать=V,tran=inpraes,sg,indic,1p,ipf
-_
-я=SPRO,sg,1p=nom
-_
-венец=S,m,inan=(acc,pl|nom,pl)
-;\n
-и=CONJ=
-_
-на=PR=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-восторженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-откликаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-боец=S,m,anim=nom,pl
-.\n\n
-но=CONJ=
-_
-наставать=V,intr=inpraes,sg,indic,3p,pf
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-ведать=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014\n
-побеждать=V=inpraes,pl,indic,3p,pf
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-друг=S,m,anim=nom,pl
-,\n
-и=CONJ=
-_
-над=PR=
-_
-жалкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-они=SPRO,pl=(acc|gen)
-_
-победа=S,f,inan=ins,sg
-\n
-засмеюся?=S,persn,m,anim=nom,sg
-_
-первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_\u2014_
-я=SPRO,sg,1p=nom
-.\n
+{с=PR=} {неустанный=A=ins,pl,plen} {молитва=S,f,inan=ins,pl},
+{повторять=V,tran=inpraes,ins,pl,partcp,plen,ipf,pass} {вслух=ADV=},
+{проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)} {я=SPRO,sg,1p=nom} {между=PR=} {битва=S,f,inan=ins,pl},
+{ускользать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}, {как=CONJ=} {дух=S,m,inan=(acc,sg|nom,sg)}.
+
+{от=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {друг=S,m,anim=(acc,pl|gen,pl)} {отторженный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{предвещать=V,tran=inpraes,sg,indic,1p,ipf} {я=SPRO,sg,1p=nom} {венец=S,m,inan=(acc,pl|nom,pl)};
+{и=CONJ=} {на=PR=} {голос=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {восторженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{откликаться=V,intr=inpraes,pl,indic,3p,ipf} {боец=S,m,anim=nom,pl}.
+
+{но=CONJ=} {наставать=V,intr=inpraes,sg,indic,3p,pf} {миг=S,m,inan=(acc,sg|nom,sg)} — {я=SPRO,sg,1p=nom} {ведать=V,ipf,tran=inpraes,sg,indic,1p} —
+{побеждать=V=inpraes,pl,indic,3p,pf} {мой=APRO=(nom,pl|acc,pl,inan)} {друг=S,m,anim=nom,pl},
+{и=CONJ=} {над=PR=} {жалкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {они=SPRO,pl=(acc|gen)} {победа=S,f,inan=ins,sg}
+{засмеюся?=S,persn,m,anim=nom,sg} {первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} — {я=SPRO,sg,1p=nom}.

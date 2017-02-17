@@ -1,103 +1,15 @@
+{адис=S,persn,m,anim=nom,sg}-{абеба?=S,geo,f,inan=nom,sg}, {город=S,m,inan=(acc,sg|nom,sg)} {роза=S,f,inan=gen,pl}.
+{на=PR=} {берег=S,m,inan=(dat,sg|loc,sg)} {ручей=S,m,inan=gen,pl} {прозрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, 
+{небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {диво=S,n,inan=gen,pl} {ты=SPRO,sg,2p=(acc|gen)} {приносить=V=praet,sg,indic,m,pf}, 
+{алмазный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {средь=PR=} {ущелие=S,n,inan=gen,pl} {мрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
 
-адис=S,persn,m,anim=nom,sg
--
-абеба?=S,geo,f,inan=nom,sg
-,_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-роза=S,f,inan=gen,pl
-.\n
-на=PR=
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-_
-ручей=S,m,inan=gen,pl
-_
-прозрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_\n
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-диво=S,n,inan=gen,pl
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-приносить=V=praet,sg,indic,m,pf
-,_\n
-алмазный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-средь=PR=
-_
-ущелие=S,n,inan=gen,pl
-_
-мрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-армидин?=S,famn,m,anim=nom,sg
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-..._
-там=ADVPRO=
-_
-пилигрим=S,m,anim=nom,sg
-_
-хранить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-обет=S,m,inan=(acc,sg|nom,sg)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-неясный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_(
-мы=SPRO,pl,1p=nom
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_\n
-склоняться=V,intr=inpraes,pl,indic,1p,ipf
-_
-пред=PR=
-_
-он=SPRO,sg,3p,m=ins
-),\n
-а=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-душный=A=pl,brev
-,_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-красный=A=(pl,brev|gen,sg,brev,f)
-.\n\n
-там=ADVPRO=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-душа=S,f,inan=acc,sg
-_
-чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-,_\n
-отрава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-обман=S,m,inan=gen,pl
-,\n
-в=PR=
-_
-сад=S,m,inan=abl,pl
-_
-высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сикомор=S,m,inan=(acc,sg|nom,sg)
-,_\n
-аллея=S,f,inan=abl,pl
-_
-сумрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-платан=S,m,inan=gen,pl
-.\n\n
+{армидин?=S,famn,m,anim=nom,sg} {сад=S,m,inan=(acc,sg|nom,sg)}... {там=ADVPRO=} {пилигрим=S,m,anim=nom,sg} {хранить=V,ipf,tran=inpraes,sg,indic,3p} 
+{обет=S,m,inan=(acc,sg|nom,sg)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {неясный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ({мы=SPRO,pl,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} 
+{склоняться=V,intr=inpraes,pl,indic,1p,ipf} {пред=PR=} {он=SPRO,sg,3p,m=ins}),
+{а=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {душный=A=pl,brev}, {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {красный=A=(pl,brev|gen,sg,brev,f)}.
+
+{там=ADVPRO=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {душа=S,f,inan=acc,sg} {чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)} {взор=S,m,inan=(acc,sg|nom,sg)}, 
+{отрава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {обман=S,m,inan=gen,pl},
+{в=PR=} {сад=S,m,inan=abl,pl} {высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сикомор=S,m,inan=(acc,sg|nom,sg)}, 
+{аллея=S,f,inan=abl,pl} {сумрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {платан=S,m,inan=gen,pl}.
+

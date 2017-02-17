@@ -1,132 +1,19 @@
-правда=S,f,inan=acc,sg
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-говорить=V,ipf,tran=praet,sg,indic,n
-,\n
-и=CONJ=
-_
-ограда=S,f,inan=nom,sg
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-не=PART=
-_
-страшный=A=sg,brev,f
-,\n
-не=PART=
-_
-стучать=V,ipf,intr=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-сам=APRO=nom,sg,f
-_
-отворять=V,tran=praet,sg,indic,f,pf
-\n
-неприступный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-она=SPRO,sg,3p,f=nom
-.\n\n
-вдоль=PR=
-_
-прохладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-меж=PR=
-_
-лилия=S,f,inan=gen,pl
-,\n
-однозвучный=A=sg,brev,n
-_
-запевать=V,tran=praet,pl,indic,pf
-_
-ручей=S,m,inan=(acc,pl|nom,pl)
-,\n
-сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-песнь=S,f,inan=ins,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-оглушать=V,tran=praet,pl,indic,pf
-,\n
-взять=V,pf,tran=praet,pl,indic
-_
-душа=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-_
-соловей=S,m,anim=nom,pl
-.\n\n
-чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-_
-незнакомый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-открывать=V=praet,pl,indic,pf
-_
-объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-,\n
-и=CONJ=
-_
-звенеть=V,ipf,intr=praet,pl,indic
-,_
-спадать=V,intr=inpraes,ger,ipf
-,_
-запястье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-громко=ADV=comp
-,_
-чем=CONJ=
-_
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-мечта=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-опьянять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-вино=S,n,inan=ins,sg
-_
-золотистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-золотой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-огонь=S,m,inan=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-забывать=V=praet,sg,indic,m,pf
-_
-о=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-каменистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-о=PR=
-_
-товарищ=S,m,anim=abl,sg
-_
-бедный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-.\n
+{правда=S,f,inan=acc,sg} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {говорить=V,ipf,tran=praet,sg,indic,n},
+{и=CONJ=} {ограда=S,f,inan=nom,sg} {быть=V,intr=praet,sg,indic,f,ipf} {не=PART=} {страшный=A=sg,brev,f},
+{не=PART=} {стучать=V,ipf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=nom} — {сам=APRO=nom,sg,f} {отворять=V,tran=praet,sg,indic,f,pf}
+{неприступный=A=(acc,pl,plen,inan|nom,pl,plen)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {она=SPRO,sg,3p,f=nom}.
+
+{вдоль=PR=} {прохладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {меж=PR=} {лилия=S,f,inan=gen,pl},
+{однозвучный=A=sg,brev,n} {запевать=V,tran=praet,pl,indic,pf} {ручей=S,m,inan=(acc,pl|nom,pl)},
+{сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песнь=S,f,inan=ins,sg} {я=SPRO,sg,1p=(acc|gen)} {оглушать=V,tran=praet,pl,indic,pf},
+{взять=V,pf,tran=praet,pl,indic} {душа=S,f,inan=acc,sg} {мой=APRO=acc,sg,f} {соловей=S,m,anim=nom,pl}.
+
+{чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {край=S,m,inan=(acc,sg|nom,sg)} {незнакомый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{я=SPRO,sg,1p=(abl|dat)} {открывать=V=praet,pl,indic,pf} {объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тот=APRO=(nom,pl|acc,pl,inan)},
+{и=CONJ=} {звенеть=V,ipf,intr=praet,pl,indic}, {спадать=V,intr=inpraes,ger,ipf}, {запястье=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{громко=ADV=comp}, {чем=CONJ=} {в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {мечта=S,f,inan=(abl,sg|dat,sg)}.
+
+{опьянять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {вино=S,n,inan=ins,sg} {золотистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{золотой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {огонь=S,m,inan=ins,sg},
+{я=SPRO,sg,1p=nom} {забывать=V=praet,sg,indic,m,pf} {о=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {каменистый=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{о=PR=} {товарищ=S,m,anim=abl,sg} {бедный=A=(abl,sg,plen,m|abl,sg,plen,n)} {свой=APRO=(abl,sg,m|abl,sg,n)}.

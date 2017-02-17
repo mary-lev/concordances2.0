@@ -1,100 +1,11 @@
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-волна=S,f,inan=nom,sg
--
-волна=S,f,inan=ins,sg
-,_
-волна=S,f,inan=(abl,sg|dat,sg)
-_
-хребет=S,m,inan=(acc,sg|nom,sg)
-_
-ломать=V,ipf,tran=inpraes,ger
-,\n
-кидаться=V,ipf,intr=inpraes,ger
-_
-на=PR=
-_
-луна=S,f,inan=acc,sg
-_
-в=PR=
-_
-невольничий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тоска=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-янычарский=A=nom,sg,plen,f
-_
-пучина=S,f,inan=nom,sg
-_
-молодой=A=nom,sg,plen,f
-,\n
-неусыплять?=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-столица=S,f,inan=nom,sg
-_
-волновой=A=nom,sg,plen,f
-,\n
-криветь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-метаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-рыть=V,ipf,tran=inpraes,sg,indic,3p
-_
-ров=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-песок=S,m,inan=abl,sg
-.\n\n
-а=CONJ=
-_
-через=PR=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-сумрачно=ADV=
--
-хлопчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-неначинать?=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-стена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мерещиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-зубец=S,m,inan=(acc,pl|nom,pl)
-,\n
-а=CONJ=
-_
-с=PR=
-_
-пенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лестница=S,f,inan=gen,pl
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-солдат=S,m,anim=nom,pl
-\n
-султан=S,m,anim=(acc,pl|gen,pl)
-_
-мнительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\u2014_
-разбрызгивать=V=praet,pl,partcp,brev,pf,pass
-,_
-разъять=V,tran=praet,pl,partcp,brev,pf,pass
-_\u2014_\n
-и=CONJ=
-_
-яд=S,m,inan=(acc,sg|nom,sg)
-_
-разносить=V,ipf,tran=inpraes,pl,indic,3p
-_
-хладный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-скопец=S,m,anim=nom,pl
-.\n
+{бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {волна=S,f,inan=nom,sg}-{волна=S,f,inan=ins,sg}, {волна=S,f,inan=(abl,sg|dat,sg)} {хребет=S,m,inan=(acc,sg|nom,sg)} {ломать=V,ipf,tran=inpraes,ger},
+{кидаться=V,ipf,intr=inpraes,ger} {на=PR=} {луна=S,f,inan=acc,sg} {в=PR=} {невольничий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тоска=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {янычарский=A=nom,sg,plen,f} {пучина=S,f,inan=nom,sg} {молодой=A=nom,sg,plen,f},
+{неусыплять?=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {столица=S,f,inan=nom,sg} {волновой=A=nom,sg,plen,f},
+{криветь=V,ipf,intr=inpraes,sg,indic,3p}, {метаться=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {рыть=V,ipf,tran=inpraes,sg,indic,3p} {ров=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {песок=S,m,inan=abl,sg}.
+
+{а=CONJ=} {через=PR=} {воздух=S,m,inan=(acc,sg|nom,sg)} {сумрачно=ADV=}-{хлопчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{неначинать?=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {стена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мерещиться=V,ipf,intr=inpraes,pl,indic,3p} {зубец=S,m,inan=(acc,pl|nom,pl)},
+{а=CONJ=} {с=PR=} {пенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лестница=S,f,inan=gen,pl} {падать=V,ipf,intr=inpraes,pl,indic,3p} {солдат=S,m,anim=nom,pl}
+{султан=S,m,anim=(acc,pl|gen,pl)} {мнительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} — {разбрызгивать=V=praet,pl,partcp,brev,pf,pass}, {разъять=V,tran=praet,pl,partcp,brev,pf,pass} — 
+{и=CONJ=} {яд=S,m,inan=(acc,sg|nom,sg)} {разносить=V,ipf,tran=inpraes,pl,indic,3p} {хладный=A=(acc,pl,plen,inan|nom,pl,plen)} {скопец=S,m,anim=nom,pl}.

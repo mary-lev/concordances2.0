@@ -1,78 +1,9 @@
-и=CONJ=
-_
-снова=ADV=
-_
-брести=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-толпа=S,f,inan=(abl,sg|dat,sg)
-_
-неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-желание=S,n,inan=gen,pl
-_
-земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n
-мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-тайна=S,f,inan=nom,sg
-,_
-мгновение=S,n,inan=abl,sg
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-вспомнить=V,pf,tran=inpraes,sg,indic,3p
-_
-об=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-у=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-утомленно=ADV=
--
-больной=A=nom,sg,plen,f
-,\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-бледнеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-;\n
-и=CONJ=
-_
-близко=ADV=comp
-,_
-и=CONJ=
-_
-близко=ADV=comp
-_\u2014_
-ночной=A=nom,sg,plen,f
-,_
-земной=A=nom,sg,plen,f
-,\n
-всегда=ADVPRO=
-_
-сладострастный=A=nom,sg,plen,f
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-.\n
+{и=CONJ=} {снова=ADV=} {брести=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {в=PR=} {толпа=S,f,inan=(abl,sg|dat,sg)} {неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass} {желание=S,n,inan=gen,pl} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+{мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {как=CONJ=} {тайна=S,f,inan=nom,sg}, {мгновение=S,n,inan=abl,sg},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {вспомнить=V,pf,tran=inpraes,sg,indic,3p} {об=PR=} {они=SPRO,pl=(abl|acc|gen)}.
+
+{она=SPRO,sg,3p,f=nom} {у=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {утомленно=ADV=}-{больной=A=nom,sg,plen,f},
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {бледнеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {день=S,m,inan=(acc,sg|nom,sg)};
+{и=CONJ=} {близко=ADV=comp}, {и=CONJ=} {близко=ADV=comp} — {ночной=A=nom,sg,plen,f}, {земной=A=nom,sg,plen,f},
+{всегда=ADVPRO=} {сладострастный=A=nom,sg,plen,f} {тень=S,f,inan=(acc,sg|nom,sg)}.

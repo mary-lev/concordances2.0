@@ -1,64 +1,9 @@
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-взбегать=V,intr=inpraes,pl,indic,3p,ipf
-_
-и=CONJ=
-_
-пениться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-шумный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-прибой=S,m,inan=abl,sg
-;\n
-вставать=V,intr=inpraes,pl,indic,3p,pf
-_
-и=CONJ=
-_
-странно=ADV=
-_
-изменяться=V,intr=inpraes,pl,indic,3p,pf
-,\n
-гаснуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-минутный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-покой=S,m,inan=abl,sg
-.\n\n
-только=PART=
-_
-что=CONJ=
-_
-в=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-_
-сверкающий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-миг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-с=PR=
-_
-волна=S,f,inan=ins,sg
-_
-отбегать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-\n
-тихо=ADV=
-_
-грохотать=V,ipf,intr=inpraes,pl,indic,3p
-_
-каменья=S,pl,inan=(acc|nom)
-.\n
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {взбегать=V,intr=inpraes,pl,indic,3p,ipf} {и=CONJ=} {пениться=V,ipf,intr=inpraes,pl,indic,3p},
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {шумный=A=(abl,sg,plen,m|abl,sg,plen,n)} {прибой=S,m,inan=abl,sg};
+{вставать=V,intr=inpraes,pl,indic,3p,pf} {и=CONJ=} {странно=ADV=} {изменяться=V,intr=inpraes,pl,indic,3p,pf},
+{гаснуть=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {минутный=A=(abl,sg,plen,m|abl,sg,plen,n)} {покой=S,m,inan=abl,sg}.
+
+{только=PART=} {что=CONJ=} {в=PR=} {давать=V,tran=praet,pl,indic,pf} {сверкающий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{видеть=V,ipf,tran=praet,sg,indic,m} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{миг=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {с=PR=} {волна=S,f,inan=ins,sg} {отбегать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)}
+{тихо=ADV=} {грохотать=V,ipf,intr=inpraes,pl,indic,3p} {каменья=S,pl,inan=(acc|nom)}.

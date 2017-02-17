@@ -1,180 +1,25 @@
-сырой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-пустота=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-незнакомый=A=sg,brev,n
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-как=ADVPRO=
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-тишина=S,sg,f,inan=(abl|dat)
-!\n
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-хладный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-место=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-куда=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-приводить=V=praet,sg,partcp,brev,m,pf,pass
-_
-судьба=S,f,inan=ins,sg
-?..\n
-в=PR=
-_
-пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-бить=V,ipf,tran=inpraes,sg,indic,3p
-_
-коцит?=S,m,inan=(acc,sg|nom,sg)
-;\n
-и=CONJ=
-_
-пена=S,f,inan=nom,sg
-_
-бисерный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кайма=S,f,inan=ins,sg
-\n
-в=PR=
-_
-прибрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-голыш=S,m,inan=abl,pl
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-.\n
-свежеть=V,ipf,intr=inpraes,sg,indic,3p
-..._
-плескаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-прибой=S,m,inan=(acc,sg|nom,sg)
-;\n
-в=PR=
-_
-кудрявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пена=S,f,inan=(abl,sg|dat,sg)
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-волна=S,f,inan=gen,pl
-,\n
-направлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-судьба=S,f,inan=ins,sg
-,\n
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-причаливать=V,tran=praet,sg,indic,m,pf
-_
-утлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-челн=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=(acc|gen)
-_
-влечь=V,ipf,tran=inpraes,pl,indic,3p
-_
-слепой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-покой=S,m,inan=(acc,sg|nom,sg)
-_
-отрадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-хладный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-страна=S,f,inan=gen,pl
-;_\u2014\n
-и=CONJ=
-_
-различать=V,tran=inpraes,sg,indic,1p,ipf
-_
-сквозь=PR=
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-\n
-я=SPRO,sg,1p=nom
-_
-закоцитный?=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-рыдать=V,ipf,intr=inpraes,pl,indic,3p
-_
-жалобный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пеня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-взлетать=V,intr=inpraes,sg,indic,3p,ipf
-_
-гребень=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-волна=S,f,inan=(abl,sg|dat,sg)
-,\n
-безгласный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-немой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-протягивать=V,tran=inpraes,pl,indic,3p,ipf
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-багровый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-аврора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сурово=ADV=
-_
-озарять=V,tran=inpraes,pl,indic,3p,ipf
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-.\n
-уныло=ADV=
-_
-подымать=V=inpraes,sg,indic,1p,ipf,tran
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-,\n
-уныло=ADV=
-_
-призывать=V,tran=inpraes,sg,indic,1p,ipf
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-...\n
+{сырой=A=(acc,sg,plen,n|nom,sg,plen,n)} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {пустота=S,f,inan=nom,sg},
+{и=CONJ=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {незнакомый=A=sg,brev,n} {я=SPRO,sg,1p=(abl|dat)}.
+{как=ADVPRO=} {биться=V,ipf,intr=inpraes,sg,indic,3p} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {тишина=S,sg,f,inan=(abl|dat)}!
+{какой=APRO=(nom,pl|acc,pl,inan)} {хладный=A=(acc,pl,plen,inan|nom,pl,plen)} {место=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{куда=ADVPRO=} {я=SPRO,sg,1p=nom} {приводить=V=praet,sg,partcp,brev,m,pf,pass} {судьба=S,f,inan=ins,sg}?..
+{в=PR=} {пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {берег=S,m,inan=(acc,sg|nom,sg)} {бить=V,ipf,tran=inpraes,sg,indic,3p} {коцит?=S,m,inan=(acc,sg|nom,sg)};
+{и=CONJ=} {пена=S,f,inan=nom,sg} {бисерный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кайма=S,f,inan=ins,sg}
+{в=PR=} {прибрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {голыш=S,m,inan=abl,pl} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}.
+{свежеть=V,ipf,intr=inpraes,sg,indic,3p}... {плескаться=V,ipf,intr=inpraes,sg,indic,3p} {прибой=S,m,inan=(acc,sg|nom,sg)};
+{в=PR=} {кудрявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пена=S,f,inan=(abl,sg|dat,sg)} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {волна=S,f,inan=gen,pl},
+{направлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {судьба=S,f,inan=ins,sg},
+{ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {причаливать=V,tran=praet,sg,indic,m,pf} {утлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {челн=S,m,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=(acc|gen)} {влечь=V,ipf,tran=inpraes,pl,indic,3p} {слепой=A=(acc,pl,plen,inan|nom,pl,plen)} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {покой=S,m,inan=(acc,sg|nom,sg)} {отрадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хладный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страна=S,f,inan=gen,pl}; —
+{и=CONJ=} {различать=V,tran=inpraes,sg,indic,1p,ipf} {сквозь=PR=} {туман=S,m,inan=(acc,sg|nom,sg)}
+{я=SPRO,sg,1p=nom} {закоцитный?=A,plen=(acc,sg,m,inan|nom,sg,m)} {берег=S,m,inan=(acc,sg|nom,sg)} {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{рыдать=V,ipf,intr=inpraes,pl,indic,3p} {жалобный=A=(acc,pl,plen,inan|nom,pl,plen)} {пеня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{взлетать=V,intr=inpraes,sg,indic,3p,ipf} {гребень=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {волна=S,f,inan=(abl,sg|dat,sg)},
+{безгласный=A=(acc,pl,plen,inan|nom,pl,plen)}, {немой=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{протягивать=V,tran=inpraes,pl,indic,3p,ipf} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=(abl|dat)}.
+{багровый=A=(acc,pl,plen,inan|nom,pl,plen)} {луч=S,m,inan=(acc,pl|nom,pl)} {аврора=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сурово=ADV=} {озарять=V,tran=inpraes,pl,indic,3p,ipf} {твердь=S,f,inan=(acc,sg|nom,sg)}.
+{уныло=ADV=} {подымать=V=inpraes,sg,indic,1p,ipf,tran} {взор=S,m,inan=(acc,pl|nom,pl)},
+{уныло=ADV=} {призывать=V,tran=inpraes,sg,indic,1p,ipf} {смерть=S,f,inan=(acc,sg|nom,sg)}...

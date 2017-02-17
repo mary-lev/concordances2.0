@@ -1,110 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-ведать=V,ipf,tran=praet,sg,indic,f
-_
-слово=S,n,inan=gen,pl
-_
-отречение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-опускать=V=praet,ger,pf
-_
-задумчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-,\n
-точно=CONJ=
-_
-в=PR=
-_
-церковь=S,f,inan=(acc,sg|nom,sg)
-,_
-ты=SPRO,sg,2p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,f
-_
-на=PR=
-_
-мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-обнаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-забывать=V=praet,sg,indic,f,pf
-_
-позор=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-весь=APRO=nom,sg,f
-_
-полный=A=sg,brev,f
-_
-неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-прислоняться=V,intr=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=nom
-_
-молча=ADV=
-_
-к=PR=
-_
-столб=S,m,inan=dat,sg
-,\u2014\n
-и=CONJ=
-_
-солома=S,f,inan=ins,sg
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-увенчивать=V,tran=praet,pl,indic,pf
-,\n
-и=INTJ=
-_
-клеймо=S,n,inan=(acc,sg|nom,sg)
-_
-налагать=V,tran=praet,pl,indic,pf
-_
-на=PR=
-_
-лоб=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-а=CONJ=
-_
-потом=ADVPRO=
-,_
-когда=CONJ=
-_
-сметь=V,ipf,intr=praet,pl,indic
-_
-бич=S,m,inan=ins,pl
-\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-детский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-терзать=V,ipf,tran=inf
-,\n
-весь=APRO=nom,sg,f
-_
-в=PR=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-подымать=V=praet,sg,partcp,brev,f,pf,pass
-_
-палач=S,m,anim=ins,pl
-,\n\xAB
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-\xBB_
-ты=SPRO,sg,2p=nom
-_
-хотеть=V,ipf,tran=praet,sg,indic,f
-_
-сказать=V,pf,tran=inf
-.\n
+{ты=SPRO,sg,2p=nom} {не=PART=} {ведать=V,ipf,tran=praet,sg,indic,f} {слово=S,n,inan=gen,pl} {отречение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{опускать=V=praet,ger,pf} {задумчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взор=S,m,inan=(acc,sg|nom,sg)},
+{точно=CONJ=} {в=PR=} {церковь=S,f,inan=(acc,sg|nom,sg)}, {ты=SPRO,sg,2p=nom} {идти=V,ipf,intr=praet,sg,indic,f} {на=PR=} {мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{обнаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {забывать=V=praet,sg,indic,f,pf} {позор=S,m,inan=(acc,sg|nom,sg)}.
+
+{весь=APRO=nom,sg,f} {полный=A=sg,brev,f} {неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{прислоняться=V,intr=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=nom} {молча=ADV=} {к=PR=} {столб=S,m,inan=dat,sg},—
+{и=CONJ=} {солома=S,f,inan=ins,sg} {ты=SPRO,sg,2p=(acc|gen)} {увенчивать=V,tran=praet,pl,indic,pf},
+{и=INTJ=} {клеймо=S,n,inan=(acc,sg|nom,sg)} {налагать=V,tran=praet,pl,indic,pf} {на=PR=} {лоб=S,m,inan=(dat,sg|loc,sg)}.
+
+{а=CONJ=} {потом=ADVPRO=}, {когда=CONJ=} {сметь=V,ipf,intr=praet,pl,indic} {бич=S,m,inan=ins,pl}
+{это=SPRO,sg,n,inan=(acc|nom)} {детский=A=(acc,sg,plen,n|nom,sg,plen,n)} {тело=S,n,inan=(acc,sg|nom,sg)} {терзать=V,ipf,tran=inf},
+{весь=APRO=nom,sg,f} {в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {подымать=V=praet,sg,partcp,brev,f,pf,pass} {палач=S,m,anim=ins,pl},
+«{я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p}» {ты=SPRO,sg,2p=nom} {хотеть=V,ipf,tran=praet,sg,indic,f} {сказать=V,pf,tran=inf}.

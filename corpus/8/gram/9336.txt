@@ -1,70 +1,9 @@
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-встревожить=V,pf,tran=(praet,acc,sg,partcp,plen,n,pass|praet,nom,sg,partcp,plen,n,pass)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-мястись=V,ipf,intr=inpraes,pl,indic,3p
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-в=PR=
-_
-плен=S,m,inan=(dat,sg|loc,sg)
-;\n
-померкнуть=V,pf,intr=praet,sg,indic,m
-_
-маяк=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-ай=INTJ=
--
-тодор=S,persn,m,anim=abl,sg
-,\n
-весь=APRO=nom,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-приветствовать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-луна=S,f,inan=acc,sg
-.\n\n
-луна=S,f,inan=nom,sg
-_
-державно=ADV=
-_
-делить=V,ipf,tran=inpraes,sg,indic,3p
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-:\n
-то=PART=
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-,_
-то=CONJ=
-_
-отблеск=S,m,inan=gen,pl
-_
-игра=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-серебряный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-простор=S,m,inan=abl,sg
-\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-парус=S,m,inan=gen,pl
-_
-из=PR=
-_
-серебро=S,sg,n,inan=gen
-.\n
+{кипеть=V,ipf,intr=inpraes,sg,indic,3p} {встревожить=V,pf,tran=(praet,acc,sg,partcp,plen,n,pass|praet,nom,sg,partcp,plen,n,pass)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{мястись=V,ipf,intr=inpraes,pl,indic,3p} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {как=CONJ=} {в=PR=} {плен=S,m,inan=(dat,sg|loc,sg)};
+{померкнуть=V,pf,intr=praet,sg,indic,m} {маяк=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {ай=INTJ=}-{тодор=S,persn,m,anim=abl,sg},
+{весь=APRO=nom,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {приветствовать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {луна=S,f,inan=acc,sg}.
+
+{луна=S,f,inan=nom,sg} {державно=ADV=} {делить=V,ipf,tran=inpraes,sg,indic,3p} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
+{то=PART=} {мрак=S,m,inan=(acc,sg|nom,sg)}, {то=CONJ=} {отблеск=S,m,inan=gen,pl} {игра=S,f,inan=nom,sg}.
+{и=CONJ=} {спать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {серебряный=A=(abl,sg,plen,m|abl,sg,plen,n)} {простор=S,m,inan=abl,sg}
+{мир=S,m,inan=(acc,sg|nom,sg)} {парус=S,m,inan=gen,pl} {из=PR=} {серебро=S,sg,n,inan=gen}.

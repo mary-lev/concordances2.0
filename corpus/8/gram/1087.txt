@@ -1,134 +1,19 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-?_
-неужели=PART=
-?\n
-нет=PART=
-!_
-и=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-то=PART=
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,n
-.\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рдеть=V,ipf,intr=praet,pl,indic
-_
-на=PR=
-_
-постель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-светло=ADV=
-.\n\n
-обвиваться=V,intr=praet,pl,indic,ipf
-_
-нежно=ADV=
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-падать=V,ipf,intr=praet,pl,indic
-_
-к=PR=
-_
-губа=S,f,inan=dat,pl
-...\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ужас=S,m,inan=(acc,sg|nom,sg)
-,_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-я=SPRO,sg,1p=nom
-_
-за=PR=
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-отдавать=V,tran=inpraes,sg,indic,1p,pf
-!\n\n
-странно=ADV=
--
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-покорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-приникать=V,intr=praet,sg,indic,f,ipf
-_
-ты=SPRO,sg,2p=nom
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-,_\u2014\n
-и=CONJ=
-_
-фонарь=S,m,inan=(acc,sg|nom,sg)
-,_
-сквозь=PR=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-так=ADVPRO=
-_
-явственный=A=sg,brev,m
-_
-в=PR=
-_
-окно=S,n,inan=abl,sg
-.\n\n
-не=PART=
-_
-фонарь=S,m,inan=(acc,sg|nom,sg)
-,_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-светить=V,ipf,intr=praet,sg,indic,f
-,\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сыпать=V,ipf,tran=praet,sg,indic,f
-_
-светло=ADV=
-...\n
-неужели=PART=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-?\n
-нет=PART=
-!_
-и=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-то=PART=
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,n
-!\n
+{это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf}? {неужели=PART=}?
+{нет=PART=}! {и=CONJ=} {быть=V,intr=inf,ipf} {то=PART=} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,n}.
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рдеть=V,ipf,intr=praet,pl,indic} {на=PR=} {постель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{быть=V,intr=praet,sg,indic,n,ipf} {в=PR=} {сумрак=S,m,inan=abl,sg} {светло=ADV=}.
+
+{обвиваться=V,intr=praet,pl,indic,ipf} {нежно=ADV=} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {падать=V,ipf,intr=praet,pl,indic} {к=PR=} {губа=S,f,inan=dat,pl}...
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {ужас=S,m,inan=(acc,sg|nom,sg)}, {этот=APRO=(nom,pl|acc,pl,inan)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{я=SPRO,sg,1p=nom} {за=PR=} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {отдавать=V,tran=inpraes,sg,indic,1p,pf}!
+
+{странно=ADV=}-{нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {покорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{приникать=V,intr=praet,sg,indic,f,ipf} {ты=SPRO,sg,2p=nom} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}, —
+{и=CONJ=} {фонарь=S,m,inan=(acc,sg|nom,sg)}, {сквозь=PR=} {сумрак=S,m,inan=(acc,sg|nom,sg)} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{быть=V,intr=praet,sg,indic,m,ipf} {так=ADVPRO=} {явственный=A=sg,brev,m} {в=PR=} {окно=S,n,inan=abl,sg}.
+
+{не=PART=} {фонарь=S,m,inan=(acc,sg|nom,sg)}, — {любовь=S,f,inan=(acc,sg|nom,sg)} {светить=V,ipf,intr=praet,sg,indic,f},
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сыпать=V,ipf,tran=praet,sg,indic,f} {светло=ADV=}...
+{неужели=PART=} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf}?
+{нет=PART=}! {и=CONJ=} {быть=V,intr=inf,ipf} {то=PART=} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,n}!

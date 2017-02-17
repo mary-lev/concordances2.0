@@ -1,126 +1,19 @@
-лед=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-уголь=S,m,inan=(acc,sg|nom,sg)
-,_
-вы=SPRO,pl,2p=nom
-_\u2014_
-могильный=A=pl,brev
-!\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-и=CONJ=
-_
-проходить=V,intr=praet,sg,indic,n,pf
-,\n
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-уголь=S,m,inan=(acc,sg|nom,sg)
-,_
-тусклый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-пыльный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-лед=S,m,inan=(acc,sg|nom,sg)
-,_
-блестящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-как=CONJ=
-_
-стекло=S,n,inan=(acc,sg|nom,sg)
-!\n\n
-что=CONJ=
-_
-вы=SPRO,pl,2p=nom
-,_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-урод=S,m,anim=nom,pl
-,\n
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-прорезать=V,tran=(praet,ger,ipf|praet,ger,pf)
-,_
-гордый=A=pl,brev
-?\n
-удвояет?=ADV,parenth=
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-природа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-гладь=S,f,inan=(acc,sg|nom,sg)
-_
-затихать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n\n
-пусть=PART=
-_
-все=SPRO,pl=(acc|nom)
-_
-отживать=V,tran=praet,sg,indic,n,pf
-,_
-застыть=V,pf,intr=praet,sg,indic,n
-,\n
-зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=PART=
-,_
-луч=S,m,inan=dat,pl
-_
-конец=S,m,inan=(acc,sg|nom,sg)
-:\n
-лед=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-над=PR=
-_
-водный=A=ins,sg,plen,f
-_
-могила=S,f,inan=ins,sg
-,\n
-уголь=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-без=PR=
-_
-надежда=S,f,inan=gen,pl
-_
-мертвец=S,m,anim=nom,sg
-!\n\n
-он=SPRO,sg,3p,m=nom
-_
-под=PR=
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вспышка=S,f,inan=ins,sg
-_
-жара=S,sg,f,inan=nom
-\n
-лишь=PART=
-_
-кровавиться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-бес=S,m,anim=nom,sg
-,\n
-но=CONJ=
-_
-свободный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тень=S,f,inan=ins,sg
-_
-пара=S,f,inan=nom,sg
-\n
-лед=S,m,inan=(acc,sg|nom,sg)
-_
-восходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-до=PR=
-_
-небо=S,n,inan=gen,pl
-.\n
+{лед=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {уголь=S,m,inan=(acc,sg|nom,sg)}, {вы=SPRO,pl,2p=nom} — {могильный=A=pl,brev}!
+{что-то=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {и=CONJ=} {проходить=V,intr=praet,sg,indic,n,pf},
+{черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {уголь=S,m,inan=(acc,sg|nom,sg)}, {тусклый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {пыльный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{лед=S,m,inan=(acc,sg|nom,sg)}, {блестящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {как=CONJ=} {стекло=S,n,inan=(acc,sg|nom,sg)}!
+
+{что=CONJ=} {вы=SPRO,pl,2p=nom}, {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {урод=S,m,anim=nom,pl},
+{дым=S,m,inan=(acc,sg|nom,sg)} {прорезать=V,tran=(praet,ger,ipf|praet,ger,pf)}, {гордый=A=pl,brev}?
+{удвояет?=ADV,parenth=} {лик=S,m,inan=(acc,sg|nom,sg)} {природа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{гладь=S,f,inan=(acc,sg|nom,sg)} {затихать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+
+{пусть=PART=} {все=SPRO,pl=(acc|nom)} {отживать=V,tran=praet,sg,indic,n,pf}, {застыть=V,pf,intr=praet,sg,indic,n},
+{зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=PART=}, {луч=S,m,inan=dat,pl} {конец=S,m,inan=(acc,sg|nom,sg)}:
+{лед=S,m,inan=(acc,sg|nom,sg)} — {над=PR=} {водный=A=ins,sg,plen,f} {могила=S,f,inan=ins,sg},
+{уголь=S,m,inan=(acc,sg|nom,sg)} — {без=PR=} {надежда=S,f,inan=gen,pl} {мертвец=S,m,anim=nom,sg}!
+
+{он=SPRO,sg,3p,m=nom} {под=PR=} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вспышка=S,f,inan=ins,sg} {жара=S,sg,f,inan=nom}
+{лишь=PART=} {кровавиться=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {бес=S,m,anim=nom,sg},
+{но=CONJ=} {свободный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тень=S,f,inan=ins,sg} {пара=S,f,inan=nom,sg}
+{лед=S,m,inan=(acc,sg|nom,sg)} {восходить=V,intr=inpraes,sg,indic,3p,ipf} {до=PR=} {небо=S,n,inan=gen,pl}.

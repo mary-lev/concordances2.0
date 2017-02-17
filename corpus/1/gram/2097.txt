@@ -1,110 +1,14 @@
-все=SPRO,pl=(acc|nom)
-_
-тот=APRO=nom,sg,f
-_
-же=PART=
-_
-озерный=A=nom,sg,plen,f
-_
-гладь=S,f,inan=(acc,sg|nom,sg)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-так=ADVPRO=
-_
-же=PART=
-_
-капать=V,ipf,intr=inpraes,sg,indic,3p
-_
-соль=S,f,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-градирня=S,f,inan=gen,pl
-.\n
-теперь=ADV=
-,_
-когда=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-старый=A=sg,brev,m
-_
-и=CONJ=
-_
-мирный=A=sg,brev,m
-,\n
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-волноваться=V,ipf,intr=inpraes,sg,indic,2p
-_
-опять=ADV=
-?\n\n
-иль=CONJ=
-_
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гений=S,m,anim=nom,sg
-\n
-еще=ADV=
-_
-с=PR=
-_
-душа=S,f,inan=ins,sg
-_
-неразлучный=A=sg,brev,m
-,\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-навеки=ADV=
-_
-обручать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-давний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-незабвенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-?\n\n
-ты=SPRO,sg,2p=nom
-_
-позвать=V,pf,tran=sg,imper,2p
-_\u2014_
-она=SPRO,sg,3p,f=nom
-_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-:\n
-мелькнуть=V,pf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-прежде=PR=
-,_
-профиль=S,m,inan=(acc,sg|nom,sg)
-_
-важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-,_
-вкрадчивый=A=sg,brev,n
--
-протяжный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-бывалый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-шепнуть=V,pf,tran=inpraes,sg,indic,3p
-.\n
+{все=SPRO,pl=(acc|nom)} {тот=APRO=nom,sg,f} {же=PART=} {озерный=A=nom,sg,plen,f} {гладь=S,f,inan=(acc,sg|nom,sg)},
+{все=SPRO,pl=(acc|nom)} {так=ADVPRO=} {же=PART=} {капать=V,ipf,intr=inpraes,sg,indic,3p} {соль=S,f,inan=(acc,sg|nom,sg)} {с=PR=} {градирня=S,f,inan=gen,pl}.
+{теперь=ADV=}, {когда=CONJ=} {ты=SPRO,sg,2p=nom} {старый=A=sg,brev,m} {и=CONJ=} {мирный=A=sg,brev,m},
+{о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {волноваться=V,ipf,intr=inpraes,sg,indic,2p} {опять=ADV=}?
+
+{иль=CONJ=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гений=S,m,anim=nom,sg}
+{еще=ADV=} {с=PR=} {душа=S,f,inan=ins,sg} {неразлучный=A=sg,brev,m},
+{и=CONJ=} {ты=SPRO,sg,2p=nom} {навеки=ADV=} {обручать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {давний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {незабвенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}?
+
+{ты=SPRO,sg,2p=nom} {позвать=V,pf,tran=sg,imper,2p} — {она=SPRO,sg,3p,f=nom} {прийти=V,pf,intr=inpraes,sg,indic,3p}:
+{мелькнуть=V,pf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {прежде=PR=}, {профиль=S,m,inan=(acc,sg|nom,sg)} {важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)}, {вкрадчивый=A=sg,brev,n}-{протяжный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {бывалый=A=(acc,pl,plen,inan|nom,pl,plen)} {шепнуть=V,pf,tran=inpraes,sg,indic,3p}.

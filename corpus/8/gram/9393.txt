@@ -1,80 +1,19 @@
-мы=SPRO,pl,1p=nom
-_
-забавляться=V,ipf,intr=inpraes,pl,indic,1p
-\n
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-судьба=S,f,inan=ins,sg
-,\n
-тихо=ADV=
-_
-качаться=V,ipf,intr=inpraes,pl,indic,1p
-\n
-в=PR=
-_
-люлька=S,f,inan=(abl,sg|dat,sg)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n\n
-фея=S,f,anim=nom,sg
--
-кудесница=S,f,anim=nom,sg
-\n
-песня=S,f,inan=acc,sg
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-к=PR=
-_
-месяц=S,m,inan=dat,sg
-_\u2014_
-лестница=S,f,inan=nom,sg
-\n
-свет=S,sg,m,inan=gen
-_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-ангел=S,m,anim=nom,pl
-_
-мирный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-сходить=V,intr=inpraes,pl,indic,3p,ipf
-_
-по=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-,\n
-светить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-эфирный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-тень=S,f,inan=gen,pl
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-улыбаться=V,intr=inpraes,pl,indic,1p,ipf
-\n
-с=PR=
-_
-томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мольба=S,f,inan=ins,sg
-.\n
-тихо=ADV=
-_
-качаться=V,ipf,intr=inpraes,pl,indic,1p
-\n
-в=PR=
-_
-люлька=S,f,inan=(abl,sg|dat,sg)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-...\n
+{мы=SPRO,pl,1p=nom} {забавляться=V,ipf,intr=inpraes,pl,indic,1p}
+{наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {судьба=S,f,inan=ins,sg},
+{тихо=ADV=} {качаться=V,ipf,intr=inpraes,pl,indic,1p}
+{в=PR=} {люлька=S,f,inan=(abl,sg|dat,sg)} {с=PR=} {ты=SPRO,sg,2p=ins}.
+
+{фея=S,f,anim=nom,sg}-{кудесница=S,f,anim=nom,sg}
+{песня=S,f,inan=acc,sg} {петь=V,ipf,tran=inpraes,sg,indic,3p},
+{к=PR=} {месяц=S,m,inan=dat,sg} — {лестница=S,f,inan=nom,sg}
+{свет=S,sg,m,inan=gen} {вести=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{ангел=S,m,anim=nom,pl} {мирный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{сходить=V,intr=inpraes,pl,indic,3p,ipf} {по=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)},
+{светить=V,ipf,intr=inpraes,pl,indic,3p}, {эфирный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{в=PR=} {мир=S,m,inan=abl,sg} {тень=S,f,inan=gen,pl}.
+
+{мы=SPRO,pl,1p=nom} {улыбаться=V,intr=inpraes,pl,indic,1p,ipf}
+{с=PR=} {томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мольба=S,f,inan=ins,sg}.
+{тихо=ADV=} {качаться=V,ipf,intr=inpraes,pl,indic,1p}
+{в=PR=} {люлька=S,f,inan=(abl,sg|dat,sg)} {с=PR=} {ты=SPRO,sg,2p=ins}...

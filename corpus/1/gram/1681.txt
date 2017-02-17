@@ -1,112 +1,13 @@
-погибать=V,intr=praet,sg,indic,n,pf
-_
-все=SPRO,pl=(acc|nom)
-._
-палящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)
-\n
-по-прежнему=ADV=
-_
-вершить=V,ipf,tran=inpraes,sg,indic,3p
-_
-год=S,m,inan=gen,pl
-_
-круговорот=S,m,inan=(acc,sg|nom,sg)
-.\n
-под=PR=
-_
-холм=S,m,inan=ins,pl
-_
-тоскливый=A=nom,sg,plen,f
-_
-могила=S,f,inan=nom,sg
-\n
-о=PR=
-_
-прежний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-бытие=S,n,inan=abl,sg
-_
-прекрасный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-вопиять=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-и=CONJ=
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=ins,sg
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-тень=S,f,inan=gen,pl
-_
-безмолвно=ADV=
-_
-и=CONJ=
-_
-уныло=ADV=
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-обретать=V=inpraes,sg,indic,2p,pf
-,_
-белеть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-,\n
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-утрачивать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-былой=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-миновать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-просыпаться=V,intr=inpraes,sg,indic,3p,pf
-_
-долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-опять=ADV=
-_
-восходить=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-палящий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-зной=S,m,inan=abl,sg
-\n
-светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)
-_
-день=S,m,inan=gen,sg
-,_
-светить=V,ipf,intr=praet,sg,indic,n
-_
-огневой=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-жечь=V,ipf,tran=inf
-_
-тоскующий=A=acc,sg,plen,f
-_
-сень=S,sg,f,inan=(acc|nom)
-.\n
+{погибать=V,intr=praet,sg,indic,n,pf} {все=SPRO,pl=(acc|nom)}. {палящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)}
+{по-прежнему=ADV=} {вершить=V,ipf,tran=inpraes,sg,indic,3p} {год=S,m,inan=gen,pl} {круговорот=S,m,inan=(acc,sg|nom,sg)}.
+{под=PR=} {холм=S,m,inan=ins,pl} {тоскливый=A=nom,sg,plen,f} {могила=S,f,inan=nom,sg}
+{о=PR=} {прежний=A=(abl,sg,plen,m|abl,sg,plen,n)} {бытие=S,n,inan=abl,sg} {прекрасный=A=(abl,sg,plen,m|abl,sg,plen,n)} {вопиять=V,ipf,intr=inpraes,sg,indic,3p}.
+{и=CONJ=} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=ins,sg} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {ждать=V,ipf,tran=inpraes,sg,indic,3p}
+{другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {тень=S,f,inan=gen,pl} {безмолвно=ADV=} {и=CONJ=} {уныло=ADV=}.
+
+{ты=SPRO,sg,2p=nom} {обретать=V=inpraes,sg,indic,2p,pf}, {белеть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {тень=S,f,inan=(acc,sg|nom,sg)},
+{толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {утрачивать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {былой=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{миновать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {ночь=S,f,inan=(acc,sg|nom,sg)}, {просыпаться=V,intr=inpraes,sg,indic,3p,pf} {долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} —
+{опять=ADV=} {восходить=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {палящий=A=(abl,sg,plen,m|abl,sg,plen,n)} {зной=S,m,inan=abl,sg}
+{светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)} {день=S,m,inan=gen,sg}, {светить=V,ipf,intr=praet,sg,indic,n} {огневой=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {жечь=V,ipf,tran=inf} {тоскующий=A=acc,sg,plen,f} {сень=S,sg,f,inan=(acc|nom)}.

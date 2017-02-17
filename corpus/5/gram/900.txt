@@ -1,114 +1,19 @@
-чего=ADVPRO=
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-одинокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-ждать=V,ipf,tran=inf
-?\n
-от=PR=
-_
-радость=S,f,inan=gen,pl
-_
-душа=S,f,inan=nom,sg
-_
-отвыкать=V,intr=praet,sg,indic,f,pf
-...\n
-и=CONJ=
-_
-бледный=A=nom,sg,plen,f
-_
-старушка=S,f,anim=nom,sg
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-\n
-в=PR=
-_
-воздушный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-капор=S,m,inan=abl,sg
-_
-поникать=V,intr=praet,sg,indic,f,pf
-,\u2014\n\n
-у=PR=
-_
-вырезать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-в=PR=
-_
-синь=S,f,inan=(acc,sg|nom,sg)
-_
-лист=S,m,inan=gen,pl
-\n
-завиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-виноград=S,m,inan=gen,sg
-...\n
-поскрипывать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-шаг=S,m,inan=gen,pl
-\n
-из=PR=
-_
-глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-немой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сад=S,m,inan=gen,sg
-\n\n
-шуршание=S,n,inan=(acc,sg|nom,sg)
-:_
-в=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-аллея=S,f,inan=gen,pl
-\n
-урод=S,m,anim=nom,sg
-_
-на=PR=
-_
-костыль=S,m,inan=abl,pl
-,_
-с=PR=
-_
-горб=S,m,inan=ins,pl
-,\n
-у=PR=
-_
-задрожать=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-_
-тополь=S,m,inan=gen,pl
-,\n
-переливать=V,tran=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-_
-лист=S,m,inan=ins,pl
-,\n\n
-подсматривать=V,tran=inpraes,sg,indic,3p,ipf
-_
-все=ADV=
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-,\n
-хихикать=V,ipf,intr=inpraes,sg,indic,3p
-_
-там=ADVPRO=
-_
-незаметно=ADV=
-...\n
-я=SPRO,sg,1p=nom
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-заламывать=V,tran=inpraes,sg,indic,1p,ipf
-_
-безответный=A=sg,brev,n
-.\n
+{чего=ADVPRO=} {я=SPRO,sg,1p=(abl|dat)}, {одинокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {ждать=V,ipf,tran=inf}?
+{от=PR=} {радость=S,f,inan=gen,pl} {душа=S,f,inan=nom,sg} {отвыкать=V,intr=praet,sg,indic,f,pf}...
+{и=CONJ=} {бледный=A=nom,sg,plen,f} {старушка=S,f,anim=nom,sg} {мать=S,f,anim=(acc,sg|nom,sg)}
+{в=PR=} {воздушный=A=(abl,sg,plen,m|abl,sg,plen,n)} {капор=S,m,inan=abl,sg} {поникать=V,intr=praet,sg,indic,f,pf},—
+
+{у=PR=} {вырезать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {в=PR=} {синь=S,f,inan=(acc,sg|nom,sg)} {лист=S,m,inan=gen,pl}
+{завиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {виноград=S,m,inan=gen,sg}...
+{поскрипывать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {шаг=S,m,inan=gen,pl}
+{из=PR=} {глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {немой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сад=S,m,inan=gen,sg}
+
+{шуршание=S,n,inan=(acc,sg|nom,sg)}: {в=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {аллея=S,f,inan=gen,pl}
+{урод=S,m,anim=nom,sg} {на=PR=} {костыль=S,m,inan=abl,pl}, {с=PR=} {горб=S,m,inan=ins,pl},
+{у=PR=} {задрожать=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {тополь=S,m,inan=gen,pl},
+{переливать=V,tran=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {лист=S,m,inan=ins,pl},
+
+{подсматривать=V,tran=inpraes,sg,indic,3p,ipf} {все=ADV=} {за=PR=} {я=SPRO,sg,1p=ins},
+{хихикать=V,ipf,intr=inpraes,sg,indic,3p} {там=ADVPRO=} {незаметно=ADV=}...
+{я=SPRO,sg,1p=nom} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{заламывать=V,tran=inpraes,sg,indic,1p,ipf} {безответный=A=sg,brev,n}.

@@ -1,58 +1,8 @@
-вы=SPRO,pl,2p=nom
-_
-помнить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-,_
-как=CONJ=
-_
-бегун=S,m,anim=nom,pl
-\n
-в=PR=
-_
-окрестности=S,pl,inan=abl
-_
-верона=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-еще=ADV=
-_
-разматывать=V,tran=inf,ipf
-_
-должный=A=pl,brev
-\n
-кусок=S,m,inan=(acc,sg|nom,sg)
-_
-сукно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-но=CONJ=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-опережать=V=inpraes,sg,indic,3p,pf
-\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-самый=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-который=APRO=(acc,sg,m,inan|nom,sg,m)
-\n
-из=PR=
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дант?=S,m,anim=(acc,sg|gen,sg)
-_
-убегать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-вести=V,ipf,tran=inpraes,ger
-_
-по=PR=
-_
-круг=S,m,inan=(dat,sg|loc,sg)
-_
-спор=S,m,inan=(acc,pl|nom,pl)
-.\n
+{вы=SPRO,pl,2p=nom} {помнить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, {как=CONJ=} {бегун=S,m,anim=nom,pl}
+{в=PR=} {окрестности=S,pl,inan=abl} {верона=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)}
+{еще=ADV=} {разматывать=V,tran=inf,ipf} {должный=A=pl,brev}
+{кусок=S,m,inan=(acc,sg|nom,sg)} {сукно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{но=CONJ=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {опережать=V=inpraes,sg,indic,3p,pf}
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {самый=APRO=(acc,sg,m,inan|nom,sg,m)}, {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {который=APRO=(acc,sg,m,inan|nom,sg,m)}
+{из=PR=} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дант?=S,m,anim=(acc,sg|gen,sg)} {убегать=V,intr=inpraes,sg,indic,3p,pf},
+{вести=V,ipf,tran=inpraes,ger} {по=PR=} {круг=S,m,inan=(dat,sg|loc,sg)} {спор=S,m,inan=(acc,pl|nom,pl)}.

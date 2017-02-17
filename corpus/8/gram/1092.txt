@@ -1,82 +1,14 @@
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-полоска=S,f,inan=ins,sg
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-\n
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-темнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)
-_
-фон=S,m,inan=abl,sg
-;\n
-на=PR=
-_
-голубой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-небосклон=S,m,inan=abl,sg
-\n
-сонм=S,m,inan=(acc,sg|nom,sg)
-_
-зажигаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-звезда=S,f,inan=gen,pl
-.\n\n
-символ=S,m,inan=(acc,sg|nom,sg)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-человек=S,m,anim=(acc,sg|gen,sg)
-\n
-что=SPRO,sg,n,inan=(acc|nom)
-,_
-с=PR=
-_
-обаяние=S,n,inan=ins,sg
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-!\n
-перед=PR=
-_
-глагол=S,m,inan=ins,sg
-_
-святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-данный=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-_
-вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-от=PR=
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-!\n\n
-так=ADVPRO=
-_
-не=PART=
-_
-потеря=S,f,inan=ins,sg
-_
-звать=V,ipf,tran=sg,imper,2p
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-опочить=V,pf,intr=praet,sg,indic,n
-_
-в=PR=
-_
-покой=S,m,inan=abl,sg
-!\n
-то=CONJ=
-_
-уступать=V,tran=inpraes,sg,indic,3p,ipf
-_
-земной=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-звезда=S,f,inan=dat,pl
-_
-небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {полоска=S,f,inan=ins,sg} {крест=S,m,inan=(acc,sg|nom,sg)}
+{тонуть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {темнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)} {фон=S,m,inan=abl,sg};
+{на=PR=} {голубой=A=(abl,sg,plen,m|abl,sg,plen,n)} {небосклон=S,m,inan=abl,sg}
+{сонм=S,m,inan=(acc,sg|nom,sg)} {зажигаться=V,intr=inpraes,sg,indic,3p,ipf} {звезда=S,f,inan=gen,pl}.
+
+{символ=S,m,inan=(acc,sg|nom,sg)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {человек=S,m,anim=(acc,sg|gen,sg)}
+{что=SPRO,sg,n,inan=(acc|nom)}, {с=PR=} {обаяние=S,n,inan=ins,sg} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}!
+{перед=PR=} {глагол=S,m,inan=ins,sg} {святой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{данный=A,plen=(dat,pl|ins,sg,m|ins,sg,n)} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {от=PR=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
+
+{так=ADVPRO=} {не=PART=} {потеря=S,f,inan=ins,sg} {звать=V,ipf,tran=sg,imper,2p},
+{что=SPRO,sg,n,inan=(acc|nom)} {опочить=V,pf,intr=praet,sg,indic,n} {в=PR=} {покой=S,m,inan=abl,sg}!
+{то=CONJ=} {уступать=V,tran=inpraes,sg,indic,3p,ipf} {земной=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{звезда=S,f,inan=dat,pl} {небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

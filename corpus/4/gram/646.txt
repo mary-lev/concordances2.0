@@ -1,102 +1,19 @@
-этот=APRO=nom,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-непоправимый=A=sg,brev,f
-,\n
-а=CONJ=
-_
-у=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-еще=ADV=
-_
-светло=ADV=
-.\n
-у=PR=
-_
-ворота=S,pl,inan=gen
-_
-ерусалим=S,persn,m,anim=(acc,sg|gen,sg)
-\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-черный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-восходить=V,intr=praet,sg,indic,n,pf
-.\n|\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-желтый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-страшный=A=comp
-,_\u2014\n
-баю-баюшки-баю=INTJ=
-,_\u2014\n
-в=PR=
-_
-светлый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-храм=S,m,inan=abl,sg
-_
-иудей=S,m,anim=nom,pl
-\n
-хоронить=V,ipf,tran=praet,pl,indic
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-.\n|\n
-благодать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-иметь=V,ipf,tran=inpraes,ger
-\n
-и=CONJ=
-_
-священство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-лишать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-в=PR=
-_
-светлый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-храм=S,m,inan=abl,sg
-_
-иудей=S,m,anim=nom,pl
-\n
-отпевать=V,tran=praet,pl,indic,ipf
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-_
-жена=S,f,anim=(gen,sg|nom,pl)
-.\n|\n
-и=CONJ=
-_
-над=PR=
-_
-мать=S,f,anim=ins,sg
-_
-звенеть=V,ipf,intr=praet,pl,indic
-\n
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-израильтянин=S,m,anim=(acc,pl|gen,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-просыпаться=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-колыбель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014\n
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-солнце=S,n,inan=ins,sg
-_
-осиять=V,pf,tran=praet,sg,partcp,brev,m,pass
-.\n
+{этот=APRO=nom,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {непоправимый=A=sg,brev,f},
+{а=CONJ=} {у=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {еще=ADV=} {светло=ADV=}.
+{у=PR=} {ворота=S,pl,inan=gen} {ерусалим=S,persn,m,anim=(acc,sg|gen,sg)}
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {черный=A=(acc,sg,plen,n|nom,sg,plen,n)} {восходить=V,intr=praet,sg,indic,n,pf}.
+|
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {желтый=A=(acc,sg,plen,n|nom,sg,plen,n)} {страшный=A=comp}, —
+{баю-баюшки-баю=INTJ=}, —
+{в=PR=} {светлый=A=(abl,sg,plen,m|abl,sg,plen,n)} {храм=S,m,inan=abl,sg} {иудей=S,m,anim=nom,pl}
+{хоронить=V,ipf,tran=praet,pl,indic} {мать=S,f,anim=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f}.
+|
+{благодать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {иметь=V,ipf,tran=inpraes,ger}
+{и=CONJ=} {священство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лишать=V,tran=praet,pl,partcp,brev,pf,pass},
+{в=PR=} {светлый=A=(abl,sg,plen,m|abl,sg,plen,n)} {храм=S,m,inan=abl,sg} {иудей=S,m,anim=nom,pl}
+{отпевать=V,tran=praet,pl,indic,ipf} {прах=S,m,inan=(acc,sg|nom,sg)} {жена=S,f,anim=(gen,sg|nom,pl)}.
+|
+{и=CONJ=} {над=PR=} {мать=S,f,anim=ins,sg} {звенеть=V,ipf,intr=praet,pl,indic}
+{голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} {израильтянин=S,m,anim=(acc,pl|gen,pl)}.
+{я=SPRO,sg,1p=nom} {просыпаться=V,intr=praet,sg,indic,m,pf} {в=PR=} {колыбель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} —
+{черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {солнце=S,n,inan=ins,sg} {осиять=V,pf,tran=praet,sg,partcp,brev,m,pass}.

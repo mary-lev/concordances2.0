@@ -1,68 +1,9 @@
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тихонько=ADV=
-_
-шептаться=V,ipf,intr=praet,pl,indic
-,\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-смотреть=V,ipf,tran=praet,pl,indic
-_
-на=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
-милый=A=nom,sg,plen,f
-,_
-верить=V,ipf,intr=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-,_\u2014_
-в=PR=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-смеяться=V,ipf,intr=praet,pl,indic
-.\n\n
-спрашивать=V=praet,sg,indic,m,ipf,tran
-_
-я=SPRO,sg,1p=nom
-:_\xAB
-не=PART=
-_
-мечта=S,f,inan=nom,sg
-_
-ли=PART=
-?\xBB\n
-ты=SPRO,sg,2p=nom
-_
-отвечать=V,intr=praet,sg,indic,f,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-:_\xAB
-да=PART=
-!\xBB\n
-верить=V,ipf,intr=sg,imper,2p
-,_
-дорогой=A=nom,sg,plen,f
-,_
-тогда=ADVPRO=
-\n
-оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-мы=SPRO,pl,1p=nom
-_
-лгать=V,ipf,intr=praet,pl,indic
-.\n
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тихонько=ADV=} {шептаться=V,ipf,intr=praet,pl,indic},
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {смотреть=V,ipf,tran=praet,pl,indic} {на=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+{милый=A=nom,sg,plen,f}, {верить=V,ipf,intr=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)}, — {в=PR=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {мы=SPRO,pl,1p=ins} {смеяться=V,ipf,intr=praet,pl,indic}.
+
+{спрашивать=V=praet,sg,indic,m,ipf,tran} {я=SPRO,sg,1p=nom}: «{не=PART=} {мечта=S,f,inan=nom,sg} {ли=PART=}?»
+{ты=SPRO,sg,2p=nom} {отвечать=V,intr=praet,sg,indic,f,ipf} {я=SPRO,sg,1p=(abl|dat)}: «{да=PART=}!»
+{верить=V,ipf,intr=sg,imper,2p}, {дорогой=A=nom,sg,plen,f}, {тогда=ADVPRO=}
+{оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {с=PR=} {ты=SPRO,sg,2p=ins} {мы=SPRO,pl,1p=nom} {лгать=V,ipf,intr=praet,pl,indic}.

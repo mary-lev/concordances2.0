@@ -1,78 +1,14 @@
-в=PR=
-_
-простор=S,m,inan=abl,pl
-_
-сумеречный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-зала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-почтительный=A=nom,sg,plen,f
-_
-тишина=S,sg,f,inan=nom
-.\n
-как=CONJ=
-_
-в=PR=
-_
-ожидание=S,n,inan=abl,sg
-_
-вино=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-зыбиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-кристалл=S,m,inan=(acc,pl|nom,pl)
-;\n\n
-окровавленный=A=ins,pl,plen
-_
-в=PR=
-_
-луч=S,m,inan=abl,pl
-,\n
-вытягивать=V,tran=inpraes,ger,ipf
-_
-безнадежно=ADV=
-\n
-уста=S,pl,inan=(acc|nom)
-,_
-открываться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-нежно=ADV=
-\n
-на=PR=
-_
-целомудренный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стебель=S,m,inan=abl,pl
-:\n\n
-смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-:_
-мы=SPRO,pl,1p=nom
-_
-упоить=V,pf,tran=praet,pl,partcp,brev,pass
-\n
-вино=S,n,inan=ins,sg
-,_
-который=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-не=PART=
-_
-вливать=V=praet,pl,indic,pf
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-_
-слабый=A=comp
-_
-лилия=S,f,inan=gen,pl
-\n
-и=CONJ=
-_
-сладостный=A=comp
-_
-тишина=S,sg,f,inan=gen
-?\n
+{в=PR=} {простор=S,m,inan=abl,pl} {сумеречный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {зала=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{почтительный=A=nom,sg,plen,f} {тишина=S,sg,f,inan=nom}.
+{как=CONJ=} {в=PR=} {ожидание=S,n,inan=abl,sg} {вино=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{пустой=A=(acc,pl,plen,inan|nom,pl,plen)} {зыбиться=V,ipf,intr=inpraes,pl,indic,3p} {кристалл=S,m,inan=(acc,pl|nom,pl)};
+
+{окровавленный=A=ins,pl,plen} {в=PR=} {луч=S,m,inan=abl,pl},
+{вытягивать=V,tran=inpraes,ger,ipf} {безнадежно=ADV=}
+{уста=S,pl,inan=(acc|nom)}, {открываться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {нежно=ADV=}
+{на=PR=} {целомудренный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стебель=S,m,inan=abl,pl}:
+
+{смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}: {мы=SPRO,pl,1p=nom} {упоить=V,pf,tran=praet,pl,partcp,brev,pass}
+{вино=S,n,inan=ins,sg}, {который=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {не=PART=} {вливать=V=praet,pl,indic,pf}.
+{что=SPRO,sg,n,inan=(acc|nom)} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf} {слабый=A=comp} {лилия=S,f,inan=gen,pl}
+{и=CONJ=} {сладостный=A=comp} {тишина=S,sg,f,inan=gen}?

@@ -1,56 +1,9 @@
-день=S,m,inan=(acc,sg|nom,sg)
-_
-растапливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-;_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-синий=A=sg,brev,n
-;\n
-подступать=V,intr=praet,pl,indic,pf
-_
-близко=ADV=
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-чистый=A=sg,brev,m
-,_
-и=CONJ=
-_
-четкость=S,f,inan=(acc,sg|nom,sg)
-_
-линия=S,f,inan=gen,pl
-\n
-утомлять=V,tran=inpraes,sg,indic,3p,ipf
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-под=PR=
-_
-столетний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-кедр=S,m,inan=ins,sg
-_\u2014_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-отзвук=S,m,inan=(acc,sg|nom,sg)
-_
-утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-прохлада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-слушать=V,ipf,tran=sg,imper,2p
-_
-здесь=ADVPRO=
-,_
-отдаваться=V,intr=praet,ger,pf
-_
-лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-трещать=V,ipf,intr=inpraes,pl,indic,3p
-_
-цикада=S,f,anim=(gen,sg|nom,pl)
-.\n
+{день=S,m,inan=(acc,sg|nom,sg)} {растапливать=V,tran=praet,sg,partcp,brev,m,pf,pass}; {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {синий=A=sg,brev,n};
+{подступать=V,intr=praet,pl,indic,pf} {близко=ADV=} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{воздух=S,m,inan=(acc,sg|nom,sg)} {чистый=A=sg,brev,m}, {и=CONJ=} {четкость=S,f,inan=(acc,sg|nom,sg)} {линия=S,f,inan=gen,pl}
+{утомлять=V,tran=inpraes,sg,indic,3p,ipf} {взор=S,m,inan=(acc,pl|nom,pl)}.
+
+{под=PR=} {столетний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {кедр=S,m,inan=ins,sg} — {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{отзвук=S,m,inan=(acc,sg|nom,sg)} {утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прохлада=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{слушать=V,ipf,tran=sg,imper,2p} {здесь=ADVPRO=}, {отдаваться=V,intr=praet,ger,pf} {лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{как=CONJ=} {трещать=V,ipf,intr=inpraes,pl,indic,3p} {цикада=S,f,anim=(gen,sg|nom,pl)}.

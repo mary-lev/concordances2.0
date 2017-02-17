@@ -1,144 +1,25 @@
-подводить=V=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n____
-поглядеть=V,pf,tran=praet,sg,indic,f
-_
-и=CONJ=
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:\n____\"
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,f
-:\n
-тоже=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,2p
-_
-быть=V,intr=inf,ipf
-_
-прекрасный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n____
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рыцарь=S,m,anim=nom,sg
-,_
-ты=SPRO,sg,2p=nom
-!\"\n\n
-и=CONJ=
-,_
-смеяться=V,ipf,intr=inpraes,ger
-,_
-уходить=V,intr=praet,sg,indic,f,pf
-_
-с=PR=
-_
-другой=APRO=ins,pl
-.\n
-а=CONJ=
-_
-под=PR=
-_
-свод=S,m,inan=ins,pl
-_
-ночной=A=ins,pl,plen
-\n____
-плыть=V,ipf,intr=praet,pl,indic
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n____
-догорать=V,intr=praet,pl,indic,ipf
-_
-хрусталь=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-плыть=V,ipf,intr=praet,pl,indic
-,_
-колдовать=V,ipf,intr=praet,pl,indic
-,\n
-струйка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-винный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дремать=V,ipf,intr=praet,pl,indic
-,\n____
-и=CONJ=
-_
-вдали=ADV=
-\n
-заливаться=V,intr=praet,sg,indic,n,ipf
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-крик=S,m,inan=ins,sg
-\n____
-петух=S,m,anim=(acc,sg|gen,sg)
-...\n
-и=CONJ=
-_
-лететь=V,ipf,intr=praet,pl,indic
-_
-тройка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-гик=S,m,inan=ins,sg
-...\n\n
-и=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-приходить=V,intr=praet,sg,indic,f,pf
-_
-опять=ADV=
-\n
-и=CONJ=
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:_\"
-рыцарь=S,m,anim=nom,sg
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-?\n____
-это=PART=
-_-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-дремота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n____
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=nom
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-услыхать=V,pf,tran=inf
-?\n____
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-глухой=A=sg,brev,f
-.\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-понимать=V=inf,ipf,tran
-\n____
-петух=S,m,anim=(acc,sg|gen,sg)
-\".\n
+{подводить=V=praet,sg,indic,f,pf} {я=SPRO,sg,1p=(abl|dat)} {бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+    {поглядеть=V,pf,tran=praet,sg,indic,f} {и=CONJ=} {сказать=V,pf,tran=praet,sg,indic,f}:
+    "{я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=praet,sg,indic,f}:
+{тоже=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,2p} {быть=V,intr=inf,ipf} {прекрасный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+    {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рыцарь=S,m,anim=nom,sg}, {ты=SPRO,sg,2p=nom}!"
+
+{и=CONJ=}, {смеяться=V,ipf,intr=inpraes,ger}, {уходить=V,intr=praet,sg,indic,f,pf} {с=PR=} {другой=APRO=ins,pl}.
+{а=CONJ=} {под=PR=} {свод=S,m,inan=ins,pl} {ночной=A=ins,pl,plen}
+    {плыть=V,ipf,intr=praet,pl,indic} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+    {догорать=V,intr=praet,pl,indic,ipf} {хрусталь=S,m,inan=(acc,pl|nom,pl)}.
+
+{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {плыть=V,ipf,intr=praet,pl,indic}, {колдовать=V,ipf,intr=praet,pl,indic},
+{струйка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {винный=A=(acc,pl,plen,inan|nom,pl,plen)} {дремать=V,ipf,intr=praet,pl,indic},
+    {и=CONJ=} {вдали=ADV=}
+{заливаться=V,intr=praet,sg,indic,n,ipf} {утро=S,n,inan=(acc,sg|nom,sg)} {крик=S,m,inan=ins,sg}
+    {петух=S,m,anim=(acc,sg|gen,sg)}...
+{и=CONJ=} {лететь=V,ipf,intr=praet,pl,indic} {тройка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {гик=S,m,inan=ins,sg}...
+
+{и=CONJ=} {она=SPRO,sg,3p,f=nom} {приходить=V,intr=praet,sg,indic,f,pf} {опять=ADV=}
+{и=CONJ=} {сказать=V,pf,tran=praet,sg,indic,f}: "{рыцарь=S,m,anim=nom,sg}, {что=CONJ=} {ты=SPRO,sg,2p=nom}?
+    {это=PART=} - {сон=S,m,inan=(acc,pl|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {дремота=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+    {что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=nom} {хотеть=V,ipf,tran=inpraes,sg,indic,2p} {услыхать=V,pf,tran=inf}?
+    {ночь=S,f,inan=(acc,sg|nom,sg)} {глухой=A=sg,brev,f}.
+{ночь=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {понимать=V=inf,ipf,tran}
+    {петух=S,m,anim=(acc,sg|gen,sg)}".

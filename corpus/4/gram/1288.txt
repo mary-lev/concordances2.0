@@ -1,90 +1,10 @@
-сосновый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-рощица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-закон=S,m,inan=(acc,sg|nom,sg)
-:\n
-виола=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-арфа=S,f,inan=gen,pl
-_
-семейный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-.\n
-ствол=S,m,inan=(acc,pl|nom,pl)
-_
-извилистый=A=pl,brev
-_
-и=CONJ=
-_
-гол=S,m,inan=(acc,pl|nom,pl)
-,\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-же=PART=
-_\u2014_
-арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-виола=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-расти=V,ipf,intr=inpraes,pl,indic,3p
-,_
-как=ADVPRO=
-_
-будто=PART=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ствол=S,m,inan=(acc,sg|nom,sg)
-\n
-на=PR=
-_
-арфа=S,f,inan=acc,sg
-_
-начинать=V,tran=praet,sg,indic,m,pf
-_
-гнуть=V,ipf,tran=inf
-_
-эол?=S,inform,obsc,m,anim=nom,sg
-\n
-и=CONJ=
-_
-бросать=V=praet,sg,indic,m,pf
-,_
-о=PR=
-_
-корень=S,m,inan=abl,pl
-_
-жалеть=V,ipf,tran=inpraes,ger
-,\n
-жалеть=V,ipf,tran=inpraes,ger
-_
-ствол=S,m,inan=(acc,sg|nom,sg)
-,_
-жалеть=V,ipf,tran=inpraes,ger
-_
-сила=S,f,inan=gen,pl
-,\n
-виола=S,f,inan=acc,sg
-_
-с=PR=
-_
-арфа=S,f,inan=ins,sg
-_
-пробуждать=V=praet,sg,indic,m,pf
-\n
-звучать=V,ipf,intr=inf
-_
-в=PR=
-_
-кора=S,sg,f,inan=(abl|dat)
-,_
-коричневеть=V,ipf=inpraes,ger
-.\n
+{сосновый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рощица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {закон=S,m,inan=(acc,sg|nom,sg)}:
+{виола=S,f,inan=gen,pl} {и=CONJ=} {арфа=S,f,inan=gen,pl} {семейный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)}.
+{ствол=S,m,inan=(acc,pl|nom,pl)} {извилистый=A=pl,brev} {и=CONJ=} {гол=S,m,inan=(acc,pl|nom,pl)},
+{но=CONJ=} {все=SPRO,pl=(acc|nom)} {же=PART=} — {арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {виола=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{расти=V,ipf,intr=inpraes,pl,indic,3p}, {как=ADVPRO=} {будто=PART=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {ствол=S,m,inan=(acc,sg|nom,sg)}
+{на=PR=} {арфа=S,f,inan=acc,sg} {начинать=V,tran=praet,sg,indic,m,pf} {гнуть=V,ipf,tran=inf} {эол?=S,inform,obsc,m,anim=nom,sg}
+{и=CONJ=} {бросать=V=praet,sg,indic,m,pf}, {о=PR=} {корень=S,m,inan=abl,pl} {жалеть=V,ipf,tran=inpraes,ger},
+{жалеть=V,ipf,tran=inpraes,ger} {ствол=S,m,inan=(acc,sg|nom,sg)}, {жалеть=V,ipf,tran=inpraes,ger} {сила=S,f,inan=gen,pl},
+{виола=S,f,inan=acc,sg} {с=PR=} {арфа=S,f,inan=ins,sg} {пробуждать=V=praet,sg,indic,m,pf}
+{звучать=V,ipf,intr=inf} {в=PR=} {кора=S,sg,f,inan=(abl|dat)}, {коричневеть=V,ipf=inpraes,ger}.

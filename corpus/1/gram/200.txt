@@ -1,138 +1,19 @@
-он=SPRO,sg,3p,m=(acc|gen)
-_
-встречать=V,tran=praet,pl,indic,ipf
-_
-повсюду=ADV=
-_\n
-на=PR=
-_
-улица=S,f,inan=abl,pl
-_
-в=PR=
-_
-сонный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-._\n
-он=SPRO,sg,3p,m=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-и=CONJ=
-_
-нести=V,ipf,tran=praet,sg,indic,m
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-чудо=S,n,inan=(acc,sg|nom,sg)
-,_\n
-спотыкаться=V,intr=inpraes,ger,ipf
-_
-в=PR=
-_
-морозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-входить=V,intr=praet,sg,indic,m,ipf
-_
-в=PR=
-_
-свой=APRO=acc,sg,f
-_
-тихий=A=acc,sg,plen,f
-_
-келья=S,f,inan=acc,sg
-,_\n
-зажигать=V=praet,sg,indic,m,ipf,tran
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-,_\n
-ставить=V,ipf,tran=praet,sg,indic,m
-_
-лампада=S,f,inan=acc,sg
-_
-веселие=S,n,inan=dat,sg
-_\n
-и=CONJ=
-_
-пышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лилия=S,f,inan=gen,pl
-_
-букет=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-он=SPRO,sg,3p,m=dat
-_
-дивиться=V,ipf,intr=praet,pl,indic
-_
-со=PR=
-_
-смех=S,m,inan=ins,sg
-,_\n
-говорить=V,ipf,tran=praet,pl,indic
-,_
-что=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-чудак=S,m,anim=nom,sg
-._\n
-он=SPRO,sg,3p,m=nom
-_
-думать=V,ipf,intr=praet,sg,indic,m
-_
-о=PR=
-_
-шубка=S,f,inan=(abl,sg|dat,sg)
-_
-с=PR=
-_
-мех=S,m,inan=ins,sg
-_\n
-и=CONJ=
-_
-опять=ADV=
-_
-скрываться=V,intr=praet,sg,indic,m,ipf
-_
-во=PR=
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-однажды=ADV=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-проводить=V=praet,pl,indic,ipf,tran
-,\n
-он=SPRO,sg,3p,m=nom
-_
-веселый=A=sg,brev,m
-_
-и=CONJ=
-_
-счастливый=A=sg,brev,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_\n
-а=CONJ=
-_
-утро=S,n,inan=ins,sg
-_
-в=PR=
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-_
-укладывать=V,tran=praet,pl,indic,pf
-,_\n
-и=CONJ=
-_
-священник=S,m,anim=nom,sg
-_
-тихо=ADV=
-_
-служить=V,ipf,tran=praet,sg,indic,m
-.\n
+{он=SPRO,sg,3p,m=(acc|gen)} {встречать=V,tran=praet,pl,indic,ipf} {повсюду=ADV=} 
+{на=PR=} {улица=S,f,inan=abl,pl} {в=PR=} {сонный=A=(acc,pl,plen,inan|nom,pl,plen)} {день=S,m,inan=(acc,pl|nom,pl)}. 
+{он=SPRO,sg,3p,m=nom} {идти=V,ipf,intr=praet,sg,indic,m} {и=CONJ=} {нести=V,ipf,tran=praet,sg,indic,m} {свой=APRO=(acc,sg,n|nom,sg,n)} {чудо=S,n,inan=(acc,sg|nom,sg)}, 
+{спотыкаться=V,intr=inpraes,ger,ipf} {в=PR=} {морозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{входить=V,intr=praet,sg,indic,m,ipf} {в=PR=} {свой=APRO=acc,sg,f} {тихий=A=acc,sg,plen,f} {келья=S,f,inan=acc,sg}, 
+{зажигать=V=praet,sg,indic,m,ipf,tran} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}, 
+{ставить=V,ipf,tran=praet,sg,indic,m} {лампада=S,f,inan=acc,sg} {веселие=S,n,inan=dat,sg} 
+{и=CONJ=} {пышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лилия=S,f,inan=gen,pl} {букет=S,m,inan=(acc,sg|nom,sg)}.
+
+{он=SPRO,sg,3p,m=dat} {дивиться=V,ipf,intr=praet,pl,indic} {со=PR=} {смех=S,m,inan=ins,sg}, 
+{говорить=V,ipf,tran=praet,pl,indic}, {что=CONJ=} {он=SPRO,sg,3p,m=nom} {чудак=S,m,anim=nom,sg}. 
+{он=SPRO,sg,3p,m=nom} {думать=V,ipf,intr=praet,sg,indic,m} {о=PR=} {шубка=S,f,inan=(abl,sg|dat,sg)} {с=PR=} {мех=S,m,inan=ins,sg} 
+{и=CONJ=} {опять=ADV=} {скрываться=V,intr=praet,sg,indic,m,ipf} {во=PR=} {мрак=S,m,inan=(acc,sg|nom,sg)}.
+
+{однажды=ADV=} {он=SPRO,sg,3p,m=(acc|gen)} {проводить=V=praet,pl,indic,ipf,tran},
+{он=SPRO,sg,3p,m=nom} {веселый=A=sg,brev,m} {и=CONJ=} {счастливый=A=sg,brev,m} {быть=V,intr=praet,sg,indic,m,ipf}, 
+{а=CONJ=} {утро=S,n,inan=ins,sg} {в=PR=} {гроб=S,m,inan=(acc,sg|nom,sg)} {укладывать=V,tran=praet,pl,indic,pf}, 
+{и=CONJ=} {священник=S,m,anim=nom,sg} {тихо=ADV=} {служить=V,ipf,tran=praet,sg,indic,m}.

@@ -1,72 +1,9 @@
-летать=V,ipf,intr=inpraes,pl,indic,3p
-_
-валкирия?=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-смычок=S,m,inan=(acc,pl|nom,pl)
-_\u2014\n
-громоздкий=A=nom,sg,plen,f
-_
-опера=S,f,inan=nom,sg
-_
-к=PR=
-_
-конец=S,m,inan=dat,sg
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-с=PR=
-_
-тяжелый=A=ins,pl,plen
-_
-шуба=S,f,inan=ins,pl
-_
-гайдук=S,m,anim=nom,pl
-\n
-на=PR=
-_
-мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лестница=S,f,inan=abl,pl
-_
-ждать=V,ipf,tran=inpraes,pl,indic,3p
-_
-господин=S,m,anim=(acc,pl|gen,pl)
-.\n|\n
-уж=PART=
-_
-занавес=S,m,inan=(acc,sg|nom,sg)
-_
-наглухо=ADV=
-_
-упасть=V,pf,intr=inf
-_
-готовый=A=sg,brev,m
-,\n
-еще=ADV=
-_
-рукоплескать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-раек=S,m,inan=abl,sg
-_
-глупец=S,m,anim=nom,sg
-,\n
-извозчик=S,m,anim=nom,pl
-_
-плясать=V,ipf,tran=inpraes,pl,indic,3p
-_
-вокруг=PR=
-_
-костер=S,m,inan=gen,pl
-...\n\xAB
-карета=S,f,inan=acc,sg
-_
-такой-то=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-!\xBB_\u2014_
-разъезд=S,m,inan=(acc,sg|nom,sg)
-._
-конец=S,m,inan=(acc,sg|nom,sg)
-.\n
+{летать=V,ipf,intr=inpraes,pl,indic,3p} {валкирия?=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {петь=V,ipf,tran=inpraes,pl,indic,3p} {смычок=S,m,inan=(acc,pl|nom,pl)} —
+{громоздкий=A=nom,sg,plen,f} {опера=S,f,inan=nom,sg} {к=PR=} {конец=S,m,inan=dat,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}.
+{с=PR=} {тяжелый=A=ins,pl,plen} {шуба=S,f,inan=ins,pl} {гайдук=S,m,anim=nom,pl}
+{на=PR=} {мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лестница=S,f,inan=abl,pl} {ждать=V,ipf,tran=inpraes,pl,indic,3p} {господин=S,m,anim=(acc,pl|gen,pl)}.
+|
+{уж=PART=} {занавес=S,m,inan=(acc,sg|nom,sg)} {наглухо=ADV=} {упасть=V,pf,intr=inf} {готовый=A=sg,brev,m},
+{еще=ADV=} {рукоплескать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {раек=S,m,inan=abl,sg} {глупец=S,m,anim=nom,sg},
+{извозчик=S,m,anim=nom,pl} {плясать=V,ipf,tran=inpraes,pl,indic,3p} {вокруг=PR=} {костер=S,m,inan=gen,pl}...
+«{карета=S,f,inan=acc,sg} {такой-то=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}!» — {разъезд=S,m,inan=(acc,sg|nom,sg)}. {конец=S,m,inan=(acc,sg|nom,sg)}.

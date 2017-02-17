@@ -1,78 +1,9 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-демон=S,m,anim=nom,sg
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._
-дымно=ADV=
--
-светлый=A=sg,brev,m
-_
-он=SPRO,sg,3p,m=nom
-,\n
-золотокудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-счастливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-как=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,_
-синь=S,f,inan=(acc,sg|nom,sg)
-_
-струиться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-хитон=S,m,inan=(acc,sg|nom,sg)
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-перламутр=S,m,inan=gen,sg
-_
-перелив=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-но=CONJ=
-,_
-как=CONJ=
-_
-ночной=A=ins,sg,plen,f
-_
-тьма=S,f,inan=ins,sg
-_
-сквозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-лазурь=S,f,inan=(acc,sg|nom,sg)
-,\n
-так=ADVPRO=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-сквозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-пора=S,f,inan=ins,sg
-_
-ужасный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-золото=S,sg,n,inan=(acc|nom)
-_
-кудри=S,pl,inan=gen
-_\u2014_
-червонный=A=sg,brev,n
--
-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-рокот=S,m,inan=ins,sg
-_
-забывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-буря=S,f,inan=gen,pl
-.\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {демон=S,m,anim=nom,sg} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)}. {дымно=ADV=}-{светлый=A=sg,brev,m} {он=SPRO,sg,3p,m=nom},
+{золотокудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {счастливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{как=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)}, {синь=S,f,inan=(acc,sg|nom,sg)} {струиться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {хитон=S,m,inan=(acc,sg|nom,sg)},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} — {перламутр=S,m,inan=gen,sg} {перелив=S,m,inan=(acc,pl|nom,pl)}.
+
+{но=CONJ=}, {как=CONJ=} {ночной=A=ins,sg,plen,f} {тьма=S,f,inan=ins,sg} {сквозить=V,ipf,intr=inpraes,sg,indic,3p} {лазурь=S,f,inan=(acc,sg|nom,sg)},
+{так=ADVPRO=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {лик=S,m,inan=(acc,sg|nom,sg)} {сквозить=V,ipf,intr=inpraes,sg,indic,3p} {пора=S,f,inan=ins,sg} {ужасный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {золото=S,sg,n,inan=(acc|nom)} {кудри=S,pl,inan=gen} — {червонный=A=sg,brev,n}-{красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} — {рокот=S,m,inan=ins,sg} {забывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {буря=S,f,inan=gen,pl}.

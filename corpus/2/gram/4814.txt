@@ -1,122 +1,24 @@
-после=PR=
-_
-столько=NUM=(abl|acc|gen)
-_
-год=S,m,inan=gen,pl
-\n
-я=SPRO,sg,1p=nom
-_
-приходить=V,intr=praet,sg,indic,m,pf
-_
-назад=ADV=
-.\n
-но=CONJ=
-_
-изгнанник=S,m,anim=nom,sg
-_
-я=SPRO,sg,1p=nom
-,\n
-и=CONJ=
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-_
-следить=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-я=SPRO,sg,1p=nom
-_
-ждать=V,ipf,tran=praet,sg,indic,f
-_
-ты=SPRO,sg,2p=(acc|gen)
-\n
-столько=NUM=(acc|nom)
-_
-долгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-,\n
-для=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-расстояние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-.\n\n
-в=PR=
-_
-сторона=S,f,inan=(abl,sg|dat,sg)
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-проходить=V,intr=praet,sg,indic,f,pf
-_
-мой=APRO=nom,sg,f
-.\n
-как=ADVPRO=
-_
-украсть=V,pf,tran=praet,pl,indic
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,\n
-не=PART=
-_
-замечать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-.\n\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-_
-быть=V,intr=praet,sg,indic,f,ipf
-\n
-сладостный=A=ins,sg,plen,f
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-я=SPRO,sg,1p=nom
-_
-ждать=V,ipf,tran=praet,sg,indic,f
-_
-ты=SPRO,sg,2p=(acc|gen)
-,\n
-видеть=V,ipf,tran=praet,sg,indic,f
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-.\n\n
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-\n
-и=CONJ=
-_
-в=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-.\n
-ничего=ADV=
-,_
-что=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-,\n
-если=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-вдвоем=ADV=
-.\n
+{после=PR=} {столько=NUM=(abl|acc|gen)} {год=S,m,inan=gen,pl}
+{я=SPRO,sg,1p=nom} {приходить=V,intr=praet,sg,indic,m,pf} {назад=ADV=}.
+{но=CONJ=} {изгнанник=S,m,anim=nom,sg} {я=SPRO,sg,1p=nom},
+{и=CONJ=} {за=PR=} {я=SPRO,sg,1p=ins} {следить=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=praet,sg,indic,f} {ты=SPRO,sg,2p=(acc|gen)}
+{столько=NUM=(acc|nom)} {долгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl},
+{для=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{расстояние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=}.
+
+{в=PR=} {сторона=S,f,inan=(abl,sg|dat,sg)} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {проходить=V,intr=praet,sg,indic,f,pf} {мой=APRO=nom,sg,f}.
+{как=ADVPRO=} {украсть=V,pf,tran=praet,pl,indic} {жизнь=S,f,inan=(acc,sg|nom,sg)},
+{не=PART=} {замечать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}.
+
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f} {быть=V,intr=praet,sg,indic,f,ipf}
+{сладостный=A=ins,sg,plen,f} {я=SPRO,sg,1p=(abl|dat)}.
+{я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=praet,sg,indic,f} {ты=SPRO,sg,2p=(acc|gen)},
+{видеть=V,ipf,tran=praet,sg,indic,f} {во=PR=} {сон=S,m,inan=abl,sg}.
+
+{смерть=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)} {мой=APRO=(abl,sg,m|abl,sg,n)}
+{и=CONJ=} {в=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)} {твой=APRO=(abl,sg,m|abl,sg,n)}.
+{ничего=ADV=}, {что=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)},
+{если=CONJ=} {мы=SPRO,pl,1p=nom} {вдвоем=ADV=}.

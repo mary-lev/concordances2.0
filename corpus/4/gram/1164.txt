@@ -1,54 +1,9 @@
-орать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-камень=S,m,inan=gen,pl
-_
-государство=S,n,inan=(acc,sg|nom,sg)
-_\u2014_\n
-армения=S,geo,f,inan=nom,sg
-,_
-армения=S,geo,f,inan=nom,sg
-!\n
-хриплый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-оружие=S,n,inan=dat,sg
-_
-звать=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,act
-_\u2014_\n
-армения=S,geo,f,inan=nom,sg
-,_
-армения=S,geo,f,inan=nom,sg
-!\n\n
-к=PR=
-_
-труба=S,f,inan=dat,pl
-_
-серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-азия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вечно=ADV=
-_
-лететь=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_\u2014_\n
-армения=S,geo,f,inan=nom,sg
-,_
-армения=S,geo,f,inan=nom,sg
-!\n
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-персидский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-деньги=S,pl,inan=(acc|nom)
-_
-щедро=ADV=
-_
-раздаривать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act
-_\u2014_\n
-армения=S,geo,f,inan=nom,sg
-,_
-армения=S,geo,f,inan=nom,sg
-!\n
+{орать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {камень=S,m,inan=gen,pl} {государство=S,n,inan=(acc,sg|nom,sg)} — 
+{армения=S,geo,f,inan=nom,sg}, {армения=S,geo,f,inan=nom,sg}!
+{хриплый=A=(acc,pl,plen,inan|nom,pl,plen)} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {оружие=S,n,inan=dat,sg} {звать=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,act} — 
+{армения=S,geo,f,inan=nom,sg}, {армения=S,geo,f,inan=nom,sg}!
+
+{к=PR=} {труба=S,f,inan=dat,pl} {серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {азия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вечно=ADV=} {лететь=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} — 
+{армения=S,geo,f,inan=nom,sg}, {армения=S,geo,f,inan=nom,sg}!
+{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {персидский=A=(acc,pl,plen,inan|nom,pl,plen)} {деньги=S,pl,inan=(acc|nom)} {щедро=ADV=} {раздаривать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act} — 
+{армения=S,geo,f,inan=nom,sg}, {армения=S,geo,f,inan=nom,sg}!

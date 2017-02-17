@@ -1,64 +1,11 @@
-как=CONJ=
-_
-народный=A=nom,sg,plen,f
-_
-громада=S,f,inan=nom,sg
-,\n
-прошибать=V,tran=inpraes,ger,ipf
-_
-земля=S,f,inan=acc,sg
-_
-в=PR=
-_
-пот=S,m,inan=(acc,sg|nom,sg)
-,\n
-многоярусный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-стадо=S,n,inan=(acc,sg|nom,sg)
-\n
-пропылить=V,pf,tran=praet,ins,sg,partcp,plen,f,pass
-_
-армада=S,f,inan=ins,sg
-\n
-ровно=ADV=
-_
-в=PR=
-_
-голова=S,f,inan=acc,sg
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-:\n\n
-телка=S,f,anim=(gen,sg|nom,pl)
-_
-с=PR=
-_
-нежный=A=ins,pl,plen
-_
-бок=S,m,inan=ins,pl
-\n
-и=CONJ=
-_
-бычок=S,m,anim=nom,pl
--
-баловник=S,m,anim=nom,pl
-,\n
-а=CONJ=
-_
-за=PR=
-_
-они=SPRO,pl=ins
-_
-корабль=S,m,inan=ins,pl
-\n
-буйволица=S,f,anim=(gen,sg|nom,pl)
-_
-с=PR=
-_
-буйвол=S,m,inan=ins,pl
-\n
-и=CONJ=
-_
-священник=S,m,anim=nom,pl
--
-бык=S,m,anim=nom,pl
-.\n
+{как=CONJ=} {народный=A=nom,sg,plen,f} {громада=S,f,inan=nom,sg},
+{прошибать=V,tran=inpraes,ger,ipf} {земля=S,f,inan=acc,sg} {в=PR=} {пот=S,m,inan=(acc,sg|nom,sg)},
+{многоярусный=A=(acc,sg,plen,n|nom,sg,plen,n)} {стадо=S,n,inan=(acc,sg|nom,sg)}
+{пропылить=V,pf,tran=praet,ins,sg,partcp,plen,f,pass} {армада=S,f,inan=ins,sg}
+{ровно=ADV=} {в=PR=} {голова=S,f,inan=acc,sg} {плыть=V,ipf,intr=inpraes,sg,indic,3p}:
+
+{телка=S,f,anim=(gen,sg|nom,pl)} {с=PR=} {нежный=A=ins,pl,plen} {бок=S,m,inan=ins,pl}
+{и=CONJ=} {бычок=S,m,anim=nom,pl}-{баловник=S,m,anim=nom,pl},
+{а=CONJ=} {за=PR=} {они=SPRO,pl=ins} {корабль=S,m,inan=ins,pl}
+{буйволица=S,f,anim=(gen,sg|nom,pl)} {с=PR=} {буйвол=S,m,inan=ins,pl}
+{и=CONJ=} {священник=S,m,anim=nom,pl}-{бык=S,m,anim=nom,pl}.

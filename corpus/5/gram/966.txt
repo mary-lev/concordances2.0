@@ -1,108 +1,17 @@
-много=ADV,praed=
-_
-он=SPRO,sg,3p,m=dat
-,_
-родненький=A=(dat,sg,plen,m|dat,sg,plen,n)
-,_
-год=S,m,inan=gen,pl
-:\n
-волос=S,m,inan=(acc,pl|nom,pl)
-_
-седой=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-как=CONJ=
-_
-у=PR=
-_
-тучка=S,f,inan=gen,pl
-.\n\n\u2014_
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-дед=S,m,anim=nom,sg
-!\n\u2014_
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-внучка=S,f,anim=(acc,pl|gen,pl)
-!\n\n\u2014_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-,_
-давать=V,tran=inpraes,sg,indic,1p,pf
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-:\n
-заплетать=V=inpraes,sg,indic,1p,pf
-_
-лазуревый?=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-венок=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-аукаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-да=CONJ=
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-да=CONJ=
-_
-за=PR=
-_
-внучок=S,m,anim=ins,sg
-,_
-шамкать=V,ipf,intr=inpraes,ger
-,_
-плестись=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-ли=PART=
-_
-утречко=S,n,inan=ins,sg
-_
-румяный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014_
-мы=SPRO,pl,1p=dat
-_
-клюка=S,f,inan=ins,sg
-_
-не=PART=
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-\n
-он=SPRO,sg,3p,m=nom
-_
-ли=PART=
-_
-ноченька=S,f,inan=ins,sg
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-под=PR=
-_
-окошко=S,n,inan=ins,sg
-_
-не=PART=
-_
-стучать=V,ipf,intr=inpraes,sg,indic,3p
-?\n\n
-хата=S,f,inan=nom,sg
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-кривенький=A=nom,sg,plen,f
-_
-с=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-:\n
-проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)
-_\u2014_
-бояться=V,ipf,intr=inpraes,sg,indic,1p
-:_
-что=SPRO,sg,n,inan=gen
-_\u2014_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-.\n
+{много=ADV,praed=} {он=SPRO,sg,3p,m=dat}, {родненький=A=(dat,sg,plen,m|dat,sg,plen,n)}, {год=S,m,inan=gen,pl}:
+{волос=S,m,inan=(acc,pl|nom,pl)} {седой=A=(acc,pl,plen,inan|nom,pl,plen)}, {как=CONJ=} {у=PR=} {тучка=S,f,inan=gen,pl}.
+
+— {здравствовать=V,ipf,intr=sg,imper,2p}, {дед=S,m,anim=nom,sg}!
+— {здравствовать=V,ipf,intr=sg,imper,2p}, {внучка=S,f,anim=(acc,pl|gen,pl)}!
+
+— {хотеть=V,ipf,tran=inpraes,sg,indic,2p}, {давать=V,tran=inpraes,sg,indic,1p,pf} {ты=SPRO,sg,2p=(abl|dat)} {цветок=S,m,inan=(acc,sg|nom,sg)}:
+{заплетать=V=inpraes,sg,indic,1p,pf} {лазуревый?=A,plen=(acc,sg,m,inan|nom,sg,m)} {венок=S,m,inan=(acc,sg|nom,sg)}.
+
+{аукаться=V,ipf,intr=inpraes,sg,indic,3p} {да=CONJ=} {смеяться=V,ipf,intr=inpraes,sg,indic,3p},
+{да=CONJ=} {за=PR=} {внучок=S,m,anim=ins,sg}, {шамкать=V,ipf,intr=inpraes,ger}, {плестись=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{он=SPRO,sg,3p,m=nom} {ли=PART=} {утречко=S,n,inan=ins,sg} {румяный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {мы=SPRO,pl,1p=dat} {клюка=S,f,inan=ins,sg} {не=PART=} {грозить=V,ipf,intr=inpraes,sg,indic,3p}
+{он=SPRO,sg,3p,m=nom} {ли=PART=} {ноченька=S,f,inan=ins,sg} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {под=PR=} {окошко=S,n,inan=ins,sg} {не=PART=} {стучать=V,ipf,intr=inpraes,sg,indic,3p}?
+
+{хата=S,f,inan=nom,sg} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {кривенький=A=nom,sg,plen,f} {с=PR=} {край=S,m,inan=(dat,sg|loc,sg)}:
+{проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)} — {бояться=V,ipf,intr=inpraes,sg,indic,1p}: {что=SPRO,sg,n,inan=gen} — {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}.

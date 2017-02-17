@@ -1,82 +1,10 @@
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-четверг=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сделать=V,pf,tran=praet,sg,indic,m
-_
-предложение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-в=PR=
-_
-пятница=S,f,inan=acc,sg
-_
-отвечать=V,intr=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=nom
-_\"
-да=PART=
-\".\n\"
-навсегда=ADV=
-?\"_-_
-спрашивать=V=praet,sg,indic,m,pf
-_
-он=SPRO,sg,3p,m=nom
-._\"
-навсегда=ADV=
-\",_\n
-и=CONJ=
-_
-конечно=ADV,parenth=
-_
-отказывать=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-вдруг=ADV=
-_
-становиться=V,intr=praet,pl,indic,pf
-_
-много=ADV=comp
-,_\n
-тонкий=A=comp
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-румяный=A=comp
-_
-щека=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-у=PR=
-_
-девушка=S,f,anim=(acc,pl|gen,pl)
-_
-веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-польша=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-любить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-обман=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-намек=S,m,inan=(acc,pl|nom,pl)
-.\n\n
+{он=SPRO,sg,3p,m=nom} {в=PR=} {четверг=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)} {сделать=V,pf,tran=praet,sg,indic,m} {предложение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{в=PR=} {пятница=S,f,inan=acc,sg} {отвечать=V,intr=praet,sg,indic,f,pf} {я=SPRO,sg,1p=nom} "{да=PART=}".
+"{навсегда=ADV=}?" - {спрашивать=V=praet,sg,indic,m,pf} {он=SPRO,sg,3p,m=nom}. "{навсегда=ADV=}", 
+{и=CONJ=} {конечно=ADV,parenth=} {отказывать=V,intr=praet,sg,indic,f,pf} {в=PR=} {воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{но=CONJ=} {мой=APRO=(nom,pl|acc,pl,inan)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {вдруг=ADV=} {становиться=V,intr=praet,pl,indic,pf} {много=ADV=comp}, 
+{тонкий=A=comp} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {румяный=A=comp} {щека=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {у=PR=} {девушка=S,f,anim=(acc,pl|gen,pl)} {веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {польша=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{любить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {обман=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {намек=S,m,inan=(acc,pl|nom,pl)}.
+

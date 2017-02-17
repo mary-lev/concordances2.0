@@ -1,156 +1,27 @@
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-зима=S,f,inan=nom,sg
-_\u2014_
-аукать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-мохнатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-баюкать=V,ipf,tran=inpraes,sg,indic,3p
-\n________
-стозвон?=S,m,anim=ins,sg
-_
-сосняк=S,m,inan=gen,sg
-.\n
-кругом=ADV=
-_
-с=PR=
-_
-тоска=S,f,inan=ins,sg
-_
-глубокий=A=ins,sg,plen,f
-\n
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-страна=S,f,inan=acc,sg
-_
-далекий=A=acc,sg,plen,f
-\n________
-седой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-а=CONJ=
-_
-по=PR=
-_
-двор=S,m,inan=dat,sg
-_
-метелица=S,f,inan=nom,sg
-\n
-ковер=S,m,inan=ins,sg
-_
-шелковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-стлаться=V,ipf,intr=inpraes,sg,indic,3p
-,\n________
-но=CONJ=
-_
-больно=ADV=
-_
-холодный=A=sg,brev,f
-.\n
-воробышек=S,m,anim=nom,pl
-_
-игривый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-как=CONJ=
-_
-ребеночек=S,m,anim=nom,pl
-_
-сиротливый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n________
-прижиматься=V,intr=praet,pl,indic,pf
-_
-у=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-озябнуть=V,pf,intr=praet,pl,indic
-_
-пташка=S,f,anim=(gen,sg|nom,pl)
-_
-малый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-голодный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n________
-и=CONJ=
-_
-жаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-плотно=ADV=comp
-.\n
-а=CONJ=
-_
-вьюга=S,f,inan=nom,sg
-_
-с=PR=
-_
-рев=S,m,inan=ins,sg
-_
-бешеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-стучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-по=PR=
-_
-ставня=S,f,inan=dat,pl
-_
-свешивать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-\n________
-и=CONJ=
-_
-злиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-сильно=ADV=comp
-.\n\n
-и=CONJ=
-_
-дремать=V,ipf,intr=inpraes,pl,indic,3p
-_
-пташка=S,f,anim=(gen,sg|nom,pl)
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-под=PR=
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-вихорь=S,m,inan=(acc,pl|nom,pl)
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n________
-у=PR=
-_
-мерзлый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=ins
-_
-прекрасный=A=nom,sg,plen,f
-,\n
-в=PR=
-_
-улыбка=S,f,inan=abl,pl
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-ясный=A=nom,sg,plen,f
-\n________
-красавица=S,f,anim=nom,sg
-_
-весна=S,f,inan=nom,sg
-.\n
+{петь=V,ipf,tran=inpraes,sg,indic,3p} {зима=S,f,inan=nom,sg} — {аукать=V,ipf,intr=inpraes,sg,indic,3p},
+{мохнатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)} {баюкать=V,ipf,tran=inpraes,sg,indic,3p}
+        {стозвон?=S,m,anim=ins,sg} {сосняк=S,m,inan=gen,sg}.
+{кругом=ADV=} {с=PR=} {тоска=S,f,inan=ins,sg} {глубокий=A=ins,sg,plen,f}
+{плыть=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {страна=S,f,inan=acc,sg} {далекий=A=acc,sg,plen,f}
+        {седой=A=(acc,pl,plen,inan|nom,pl,plen)} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{а=CONJ=} {по=PR=} {двор=S,m,inan=dat,sg} {метелица=S,f,inan=nom,sg}
+{ковер=S,m,inan=ins,sg} {шелковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {стлаться=V,ipf,intr=inpraes,sg,indic,3p},
+        {но=CONJ=} {больно=ADV=} {холодный=A=sg,brev,f}.
+{воробышек=S,m,anim=nom,pl} {игривый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{как=CONJ=} {ребеночек=S,m,anim=nom,pl} {сиротливый=A=(acc,pl,plen,inan|nom,pl,plen)},
+        {прижиматься=V,intr=praet,pl,indic,pf} {у=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{озябнуть=V,pf,intr=praet,pl,indic} {пташка=S,f,anim=(gen,sg|nom,pl)} {малый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{голодный=A=(acc,pl,plen,inan|nom,pl,plen)}, {усталый=A=(acc,pl,plen,inan|nom,pl,plen)},
+        {и=CONJ=} {жаться=V,ipf,intr=inpraes,pl,indic,3p} {плотно=ADV=comp}.
+{а=CONJ=} {вьюга=S,f,inan=nom,sg} {с=PR=} {рев=S,m,inan=ins,sg} {бешеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{стучать=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {ставня=S,f,inan=dat,pl} {свешивать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}
+        {и=CONJ=} {злиться=V,ipf,intr=inpraes,sg,indic,3p} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {сильно=ADV=comp}.
+
+{и=CONJ=} {дремать=V,ipf,intr=inpraes,pl,indic,3p} {пташка=S,f,anim=(gen,sg|nom,pl)} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{под=PR=} {этот=APRO=(nom,pl|acc,pl,inan)} {вихорь=S,m,inan=(acc,pl|nom,pl)} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)}
+        {у=PR=} {мерзлый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {сниться=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=ins} {прекрасный=A=nom,sg,plen,f},
+{в=PR=} {улыбка=S,f,inan=abl,pl} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {ясный=A=nom,sg,plen,f}
+        {красавица=S,f,anim=nom,sg} {весна=S,f,inan=nom,sg}.

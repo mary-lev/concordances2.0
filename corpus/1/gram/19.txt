@@ -1,108 +1,14 @@
-в=PR=
-_
-толпа=S,f,inan=(abl,sg|dat,sg)
-,_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-по=PR=
-_
-вдохновение=S,n,inan=dat,sg
-,_\n
-в=PR=
-_
-туман=S,m,inan=abl,sg
-,_
-наполнять=V,tran=(praet,abl,sg,partcp,plen,m,ipf,act|praet,abl,sg,partcp,plen,n,ipf,act)
-_
-зал=S,m,inan=(acc,sg|nom,sg)
-,_\n
-средь=PR=
-_
-блеск=S,m,inan=gen,sg
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-средь=PR=
-_
-волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-я=SPRO,sg,1p=nom
-_
-роковой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-минута=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ждать=V,ipf,tran=praet,sg,indic,m
-...\n\n
-но=CONJ=
-_
-прежний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-холод=S,m,inan=ins,sg
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-дышать=V,ipf,intr=praet,pl,indic
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-уста=S,pl,inan=(acc|nom)
-,\n
-как=CONJ=
-_
-прежде=ADV=
-,_
-гибнуть=V,ipf,intr=praet,pl,indic
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-надежда=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-мечта=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-хотеться=V,ipf,intr=praet,sg,indic,n
-_
-блеск=S,m,inan=ins,sg
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-зажигать=V=inf,pf
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,_\n
-как=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-старец=S,m,anim=nom,sg
-_
-величавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-себя=SPRO=(acc|gen)
-_
-кумир=S,m,anim=ins,sg
-_
-здесь=ADVPRO=
-_
-воздвигать=V,tran=praet,sg,indic,m,pf
-!..\n
+{в=PR=} {толпа=S,f,inan=(abl,sg|dat,sg)}, {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {по=PR=} {вдохновение=S,n,inan=dat,sg}, 
+{в=PR=} {туман=S,m,inan=abl,sg}, {наполнять=V,tran=(praet,abl,sg,partcp,plen,m,ipf,act|praet,abl,sg,partcp,plen,n,ipf,act)} {зал=S,m,inan=(acc,sg|nom,sg)}, 
+{средь=PR=} {блеск=S,m,inan=gen,sg} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {средь=PR=} {волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{я=SPRO,sg,1p=nom} {роковой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {минута=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ждать=V,ipf,tran=praet,sg,indic,m}...
+
+{но=CONJ=} {прежний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {холод=S,m,inan=ins,sg} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{дышать=V,ipf,intr=praet,pl,indic} {я=SPRO,sg,1p=(abl|dat)} {твой=APRO=(nom,pl|acc,pl,inan)} {уста=S,pl,inan=(acc|nom)},
+{как=CONJ=} {прежде=ADV=}, {гибнуть=V,ipf,intr=praet,pl,indic} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{любовь=S,f,inan=(acc,sg|nom,sg)}, {надежда=S,f,inan=nom,sg} {и=CONJ=} {мечта=S,f,inan=nom,sg}.
+
+{и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {хотеться=V,ipf,intr=praet,sg,indic,n} {блеск=S,m,inan=ins,sg} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{зажигать=V=inf,pf} {любовь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {ты=SPRO,sg,2p=(abl|dat)} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)}, 
+{как=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {старец=S,m,anim=nom,sg} {величавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{себя=SPRO=(acc|gen)} {кумир=S,m,anim=ins,sg} {здесь=ADVPRO=} {воздвигать=V,tran=praet,sg,indic,m,pf}!..

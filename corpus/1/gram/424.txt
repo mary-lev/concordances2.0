@@ -1,70 +1,19 @@
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-затягивать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-\n
-лента=S,f,inan=ins,sg
-_
-млечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n
-ты=SPRO,sg,2p=ins
-_
-обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-,\n____
-о=PR=
-,_
-вечность=S,f,inan=(acc,sg|nom,sg)
-!\n\n
-подо=PR=
-_
-я=SPRO,sg,1p=ins
-_
-растянутый=A=sg,brev,m
-\n
-в=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-_
-бесконечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-узор=S,m,inan=(acc,sg|nom,sg)
-,_
-бесконечность=S,f,inan=(acc,sg|nom,sg)
-,\n____
-темница=S,f,inan=nom,sg
-_
-мир=S,m,inan=gen,sg
-!\n\n
-узкий=A=nom,sg,plen,f
-_
-лира=S,f,inan=nom,sg
-,\n
-звезда=S,f,inan=nom,sg
-_
-богиня=S,f,anim=(gen,sg|nom,pl)
-,\n
-снежно=ADV=
-_
-стонать=V,ipf,intr=inpraes,sg,indic,3p
-\n____
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-и=CONJ=
-_
-корабль=S,m,inan=(acc,sg|nom,sg)
-_
-закатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-нежно=ADV=
--
-синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-глубина=S,f,inan=(abl,sg|dat,sg)
-.\n
+{и=CONJ=} {я=SPRO,sg,1p=nom} {затягивать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)}
+{лента=S,f,inan=ins,sg} {млечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+{ты=SPRO,sg,2p=ins} {обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)},
+    {о=PR=}, {вечность=S,f,inan=(acc,sg|nom,sg)}!
+
+{подо=PR=} {я=SPRO,sg,1p=ins} {растянутый=A=sg,brev,m}
+{в=PR=} {давать=V,tran=praet,pl,indic,pf} {бесконечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {узор=S,m,inan=(acc,sg|nom,sg)}, {бесконечность=S,f,inan=(acc,sg|nom,sg)},
+    {темница=S,f,inan=nom,sg} {мир=S,m,inan=gen,sg}!
+
+{узкий=A=nom,sg,plen,f} {лира=S,f,inan=nom,sg},
+{звезда=S,f,inan=nom,sg} {богиня=S,f,anim=(gen,sg|nom,pl)},
+{снежно=ADV=} {стонать=V,ipf,intr=inpraes,sg,indic,3p}
+    {я=SPRO,sg,1p=(abl|dat)}.
+
+{и=CONJ=} {корабль=S,m,inan=(acc,sg|nom,sg)} {закатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{тонуть=V,ipf,intr=inpraes,sg,indic,3p}
+{в=PR=} {нежно=ADV=}-{синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{глубина=S,f,inan=(abl,sg|dat,sg)}.

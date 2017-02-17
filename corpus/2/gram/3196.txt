@@ -1,156 +1,19 @@
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-в=PR=
-_
-пепельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-одежда=S,f,inan=(abl,sg|dat,sg)
-\n
-ты=SPRO,sg,2p=nom
-_
-являться=V,intr=praet,sg,indic,f,pf
-_
-с=PR=
-_
-ласка=S,f,inan=ins,sg
-_
-око=S,n,inan=gen,pl
-.\n
-не=PART=
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-встречать=V,tran=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-прежде=ADV=
-\n
-в=PR=
-_
-трубный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-вой=S,m,inan=abl,sg
-,_
-в=PR=
-_
-лязгание?=S,n,inan=abl,sg
-_
-меч=S,m,inan=gen,pl
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-казаться=V,ipf,intr=praet,sg,indic,f
-_
-золотисто=ADV=
--
-пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-обнажать=V,tran=praet,ger,pf
-_
-сверкать=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act
-_
-грудь=S,f,inan=(acc,sg|nom,sg)
-.\n
-ты=SPRO,sg,2p=nom
-_
-среди=PR=
-_
-кровавый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-туман=S,m,inan=gen,sg
-\n
-к=PR=
-_
-небо=S,n,inan=dat,pl
-_
-прорезывать=V,ipf,tran=praet,sg,indic,f
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-как=ADVPRO=
-_
-у=PR=
-_
-вечно=ADV=
-_
-жаждать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-астрея?=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-дивно=ADV=
-_
-глубокий=A=pl,brev
-,\n
-и=CONJ=
-_
-нестись=V,ipf,intr=praet,sg,indic,f
-_
-по=PR=
-_
-жила=S,f,inan=dat,pl
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-быстро=ADV=comp
-,\n
-и=CONJ=
-_
-крепчать=V,ipf,intr=praet,pl,indic
-_
-мускул=S,m,inan=(acc,pl|nom,pl)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-но=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-хоть=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-теперь=ADV=
-_
-иной=APRO=nom,sg,f
-,\n
-я=SPRO,sg,1p=nom
-_
-мечта=S,f,inan=ins,sg
-_
-прежний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-.\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-манить=V,ipf,tran=praet,sg,indic,f
-_
-песня=S,f,inan=ins,sg
-_
-рая=S,persn,f,anim=nom,sg
-,\n
-и=CONJ=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-мы=SPRO,pl,1p=nom
-_
-встречаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-в=PR=
-_
-рай=S,sg,m,inan=(dat|loc)
-.\n
+{нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {в=PR=} {пепельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {одежда=S,f,inan=(abl,sg|dat,sg)}
+{ты=SPRO,sg,2p=nom} {являться=V,intr=praet,sg,indic,f,pf} {с=PR=} {ласка=S,f,inan=ins,sg} {око=S,n,inan=gen,pl}.
+{не=PART=} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {ты=SPRO,sg,2p=(acc|gen)} {встречать=V,tran=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {прежде=ADV=}
+{в=PR=} {трубный=A=(abl,sg,plen,m|abl,sg,plen,n)} {вой=S,m,inan=abl,sg}, {в=PR=} {лязгание?=S,n,inan=abl,sg} {меч=S,m,inan=gen,pl}.
+
+{ты=SPRO,sg,2p=nom} {казаться=V,ipf,intr=praet,sg,indic,f} {золотисто=ADV=}-{пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{обнажать=V,tran=praet,ger,pf} {сверкать=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act} {грудь=S,f,inan=(acc,sg|nom,sg)}.
+{ты=SPRO,sg,2p=nom} {среди=PR=} {кровавый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {туман=S,m,inan=gen,sg}
+{к=PR=} {небо=S,n,inan=dat,pl} {прорезывать=V,ipf,tran=praet,sg,indic,f} {путь=S,m,inan=(acc,sg|nom,sg)}.
+
+{как=ADVPRO=} {у=PR=} {вечно=ADV=} {жаждать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {астрея?=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)},
+{взор=S,m,inan=(acc,pl|nom,pl)} {быть=V,intr=praet,pl,indic,ipf} {дивно=ADV=} {глубокий=A=pl,brev},
+{и=CONJ=} {нестись=V,ipf,intr=praet,sg,indic,f} {по=PR=} {жила=S,f,inan=dat,pl} {кровь=S,f,inan=(acc,sg|nom,sg)} {быстро=ADV=comp},
+{и=CONJ=} {крепчать=V,ipf,intr=praet,pl,indic} {мускул=S,m,inan=(acc,pl|nom,pl)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{но=CONJ=} {ты=SPRO,sg,2p=(acc|gen)}, {хоть=PART=} {ты=SPRO,sg,2p=nom} {теперь=ADV=} {иной=APRO=nom,sg,f},
+{я=SPRO,sg,1p=nom} {мечта=S,f,inan=ins,sg} {прежний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}.
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {манить=V,ipf,tran=praet,sg,indic,f} {песня=S,f,inan=ins,sg} {рая=S,persn,f,anim=nom,sg},
+{и=CONJ=} {с=PR=} {ты=SPRO,sg,2p=ins} {мы=SPRO,pl,1p=nom} {встречаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {в=PR=} {рай=S,sg,m,inan=(dat|loc)}.

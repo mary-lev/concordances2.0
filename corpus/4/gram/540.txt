@@ -1,86 +1,19 @@
-когда=CONJ=
-_
-подымать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-опускать=V=inpraes,sg,indic,1p,ipf,tran
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-чаша=S,f,inan=gen,pl
-_
-встречать=V,tran=inpraes,sg,indic,1p,ipf
-\n
-зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-разговор=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-мука=S,f,inan=ins,sg
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-\n
-взносить=V=praet,pl,partcp,brev,pf,pass
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-\n
-тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гиря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-шаткий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ладья=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-знать=V,ipf,tran=inpraes,pl,indic,3p
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-\n
-отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-власть=S,f,inan=(acc,sg|nom,sg)
-:\n
-и=CONJ=
-_
-подымать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-чаша=S,f,inan=(abl,sg|dat,sg)
-\n
-суждено=ADV,praed=
-_
-упасть=V,pf,intr=inf
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-в=PR=
-_
-тяжесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-падение=S,n,inan=abl,sg
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-\n
-колебание=S,n,inan=gen,pl
-_
-сладость=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-острый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стрелка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-месть=S,f,inan=(acc,sg|nom,sg)
-!\n
+{когда=CONJ=} {подымать=V,ipf,tran=inpraes,sg,indic,1p},
+{опускать=V=inpraes,sg,indic,1p,ipf,tran} {взор=S,m,inan=(acc,sg|nom,sg)} —
+{я=SPRO,sg,1p=nom} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {чаша=S,f,inan=gen,pl} {встречать=V,tran=inpraes,sg,indic,1p,ipf}
+{зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {разговор=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {мука=S,f,inan=ins,sg} {в=PR=} {мир=S,m,inan=abl,sg}
+{взносить=V=praet,pl,partcp,brev,pf,pass} {мой=APRO=(nom,pl|acc,pl,inan)}
+{тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)} {гиря=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{шаткий=A=(acc,pl,plen,inan|nom,pl,plen)} {ладья=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{знать=V,ipf,tran=inpraes,pl,indic,3p} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)}
+{отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {власть=S,f,inan=(acc,sg|nom,sg)}:
+{и=CONJ=} {подымать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {чаша=S,f,inan=(abl,sg|dat,sg)}
+{суждено=ADV,praed=} {упасть=V,pf,intr=inf}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {тяжесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {радость=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {падение=S,n,inan=abl,sg} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}
+{колебание=S,n,inan=gen,pl} {сладость=S,f,inan=(acc,sg|nom,sg)} —
+{острый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стрелка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {месть=S,f,inan=(acc,sg|nom,sg)}!

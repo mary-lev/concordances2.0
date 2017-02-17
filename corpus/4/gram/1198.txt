@@ -1,114 +1,13 @@
-захотеть=V,pf,tran=inpraes,sg,indic,2p
-_
-жить=V,ipf,intr=inf
-,_
-тогда=ADVPRO=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-с=PR=
-_
-улыбка=S,f,inan=ins,sg
-\n
-на=PR=
-_
-молоко=S,n,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-буддийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-синева=S,f,inan=ins,sg
-,\n
-проводить=V=inpraes,sg,indic,2p,ipf,tran
-_
-взгляд=S,m,inan=ins,sg
-_
-барабан=S,m,inan=(acc,sg|nom,sg)
-_
-турецкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-когда=CONJ=
-_
-обратно=ADV=
-_
-он=SPRO,sg,3p,m=nom
-_
-на=PR=
-_
-красный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дроги=S,pl,inan=abl
-\n
-нестись=V,ipf,intr=inpraes,sg,indic,3p
-_
-вскачь=ADV=
-_
-с=PR=
-_
-гражданский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-похороны=S,pl,inan=gen
-,\n
-иль=CONJ=
-_
-встречать=V,tran=inpraes,sg,indic,2p,pf
-_
-воз=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-поклажа=S,f,inan=ins,sg
-_
-из=PR=
-_
-подушка=S,f,inan=gen,pl
-\n
-и=CONJ=
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-:_\xAB
-гусь=S,m,anim=nom,pl
--
-лебедь=S,m,anim=nom,pl
-,_
-домой=ADV=
-!\xBB\n\n
-не=PART=
-_
-разбираться=V,intr=sg,imper,2p,ipf
-,_
-щелкать=V,ipf,tran=sg,imper,2p
-,_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-кодак=S,m,inan=(acc,sg|nom,sg)
-,\n
-покуда=CONJ=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\u2014_
-хрусталик=S,m,inan=(acc,sg|nom,sg)
-_
-кравчий?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-не=PART=
-_
-стекляшка=S,f,inan=nom,sg
-!\n_____
-много=ADV=comp
-_
-светотень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_\n
-еще=ADV=
-,_
-еще=ADV=
-!_
-сетчатка=S,f,inan=nom,sg
-_
-голодный=A=sg,brev,f
-!\n
+{захотеть=V,pf,tran=inpraes,sg,indic,2p} {жить=V,ipf,intr=inf}, {тогда=ADVPRO=} {глядеть=V,ipf,tran=inpraes,sg,indic,2p} {с=PR=} {улыбка=S,f,inan=ins,sg}
+{на=PR=} {молоко=S,n,inan=(acc,sg|nom,sg)} {с=PR=} {буддийский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {синева=S,f,inan=ins,sg},
+{проводить=V=inpraes,sg,indic,2p,ipf,tran} {взгляд=S,m,inan=ins,sg} {барабан=S,m,inan=(acc,sg|nom,sg)} {турецкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{когда=CONJ=} {обратно=ADV=} {он=SPRO,sg,3p,m=nom} {на=PR=} {красный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дроги=S,pl,inan=abl}
+{нестись=V,ipf,intr=inpraes,sg,indic,3p} {вскачь=ADV=} {с=PR=} {гражданский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {похороны=S,pl,inan=gen},
+{иль=CONJ=} {встречать=V,tran=inpraes,sg,indic,2p,pf} {воз=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {поклажа=S,f,inan=ins,sg} {из=PR=} {подушка=S,f,inan=gen,pl}
+{и=CONJ=} {сказать=V,pf,tran=inpraes,sg,indic,2p}: «{гусь=S,m,anim=nom,pl}-{лебедь=S,m,anim=nom,pl}, {домой=ADV=}!»
+
+{не=PART=} {разбираться=V,intr=sg,imper,2p,ipf}, {щелкать=V,ipf,tran=sg,imper,2p}, {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кодак=S,m,inan=(acc,sg|nom,sg)},
+{покуда=CONJ=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} — {хрусталик=S,m,inan=(acc,sg|nom,sg)} {кравчий?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {птица=S,f,anim=(gen,sg|nom,pl)},
+{а=CONJ=} {не=PART=} {стекляшка=S,f,inan=nom,sg}!
+     {много=ADV=comp} {светотень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — 
+{еще=ADV=}, {еще=ADV=}! {сетчатка=S,f,inan=nom,sg} {голодный=A=sg,brev,f}!

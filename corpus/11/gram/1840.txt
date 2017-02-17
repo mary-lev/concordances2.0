@@ -1,96 +1,14 @@
-глянуть=V,pf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-глянуть=V,pf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-поле=S,n,inan=abl,pl
-_
-и=CONJ=
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-рай=S,sg,m,inan=(acc|nom)
-.\n
-снова=ADV=
-_
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-копна=S,f,inan=abl,pl
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-незапахивать?=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-снова=ADV=
-_
-в=PR=
-_
-роща=S,f,inan=abl,pl
-_
-непасеный?=A,obsc=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-неизбывный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-струиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-гора=S,f,inan=gen,pl
-_
-зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-златоструйный?=A=nom,sg,plen,f
-_
-вода=S,f,inan=nom,sg
-.\n\n
-о=INTJ=
-,_
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_
-знать=V,ipf,tran=inf
-,_
-за=PR=
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-над=PR=
-_
-пропащий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мужик=S,m,anim=ins,sg
-\n
-кто-то=SPRO,sg,m,anim=nom
-_
-ласковый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-проливать=V,tran=inpraes,sg,indic,3p,ipf
-_
-молоко=S,n,inan=ins,sg
-.\n
+{глянуть=V,pf,intr=inpraes,sg,indic,1p} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {глянуть=V,pf,intr=inpraes,sg,indic,1p} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {поле=S,n,inan=abl,pl} {и=CONJ=} {в=PR=} {небо=S,n,inan=abl,sg} {рай=S,sg,m,inan=(acc|nom)}.
+{снова=ADV=} {тонуть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {копна=S,f,inan=abl,pl} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{незапахивать?=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {край=S,m,inan=(acc,sg|nom,sg)}.
+
+{снова=ADV=} {в=PR=} {роща=S,f,inan=abl,pl} {непасеный?=A,obsc=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{неизбывный=A=(acc,pl,plen,inan|nom,pl,plen)} {стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {струиться=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {гора=S,f,inan=gen,pl} {зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{златоструйный?=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg}.
+
+{о=INTJ=}, {я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} — {знать=V,ipf,tran=inf}, {за=PR=} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{над=PR=} {пропащий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мужик=S,m,anim=ins,sg}
+{кто-то=SPRO,sg,m,anim=nom} {ласковый=A=(acc,pl,plen,inan|nom,pl,plen)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{проливать=V,tran=inpraes,sg,indic,3p,ipf} {молоко=S,n,inan=ins,sg}.

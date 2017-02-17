@@ -1,130 +1,16 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-в=PR=
-_
-дикий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-роща=S,f,inan=(abl,sg|dat,sg)
-,_
-у=PR=
-_
-овраг=S,m,inan=gen,sg
-,_\n
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-холм=S,m,inan=(acc,sg|nom,sg)
-._
-там=ADVPRO=
-_
-вечно=ADV=
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-._\n
-вокруг=PR=
-_-_
-ручей=S,m,inan=gen,sg
-_
-живой=A=nom,sg,plen,f
-_
-влага=S,f,inan=nom,sg
-_\n
-журчание=S,n,inan=ins,sg
-_
-нагонять=V=inpraes,sg,indic,3p,ipf,tran
-_
-лень=S,f,inan=(acc,sg|nom,sg)
-._\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-покрывать=V=inpraes,pl,indic,3p,ipf,tran
-_\n
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-холм=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-никогда=ADVPRO=
-_\n
-сюда=ADVPRO=
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-не=PART=
-_
-проникать=V,intr=inpraes,pl,indic,3p,ipf
-,_\n
-лишь=PART=
-_
-тихо=ADV=
-_
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-вода=S,f,inan=nom,sg
-._\n
-любовник=S,m,anim=nom,pl
-,_
-таиться=V,ipf,intr=inpraes,ger
-,_
-не=PART=
-_
-становиться=V,intr=inpraes,pl,indic,3p,pf
-_\n
-заглядывать=V,intr=inf,ipf
-_
-в=PR=
-_
-прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-._\n
-сказать=V,pf,tran=inf
-,_
-зачем=ADVPRO=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-не=PART=
-_
-вянуть=V,ipf,intr=inpraes,pl,indic,3p
-,_\n
-зачем=ADVPRO=
-_
-источник=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-иссякать=V,intr=praet,sg,indic,m,pf
-?_-_\n
-там=ADVPRO=
-,_
-там=ADVPRO=
-,_
-глубоко=ADV=
-,_
-под=PR=
-_
-корень=S,m,inan=ins,pl
-_\n
-лежать=V,ipf,intr=inpraes,pl,indic,3p
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,_\n
-питать=V,ipf,tran=inpraes,ger
-_
-вечный=A=ins,pl,plen
-_
-слеза=S,f,inan=ins,pl
-,_\n
-офелия=S,persn,f,anim=nom,sg
-,_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-!\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {дикий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роща=S,f,inan=(abl,sg|dat,sg)}, {у=PR=} {овраг=S,m,inan=gen,sg}, 
+{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {холм=S,m,inan=(acc,sg|nom,sg)}. {там=ADVPRO=} {вечно=ADV=} {тень=S,f,inan=(acc,sg|nom,sg)}. 
+{вокруг=PR=} - {ручей=S,m,inan=gen,sg} {живой=A=nom,sg,plen,f} {влага=S,f,inan=nom,sg} 
+{журчание=S,n,inan=ins,sg} {нагонять=V=inpraes,sg,indic,3p,ipf,tran} {лень=S,f,inan=(acc,sg|nom,sg)}. 
+{цветок=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {покрывать=V=inpraes,pl,indic,3p,ipf,tran} 
+{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {холм=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {никогда=ADVPRO=} 
+{сюда=ADVPRO=} {луч=S,m,inan=(acc,pl|nom,pl)} {не=PART=} {проникать=V,intr=inpraes,pl,indic,3p,ipf}, 
+{лишь=PART=} {тихо=ADV=} {катиться=V,ipf,intr=inpraes,sg,indic,3p} {вода=S,f,inan=nom,sg}. 
+{любовник=S,m,anim=nom,pl}, {таиться=V,ipf,intr=inpraes,ger}, {не=PART=} {становиться=V,intr=inpraes,pl,indic,3p,pf} 
+{заглядывать=V,intr=inf,ipf} {в=PR=} {прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрак=S,m,inan=(acc,sg|nom,sg)}. 
+{сказать=V,pf,tran=inf}, {зачем=ADVPRO=} {цветок=S,m,inan=(acc,pl|nom,pl)} {не=PART=} {вянуть=V,ipf,intr=inpraes,pl,indic,3p}, 
+{зачем=ADVPRO=} {источник=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {иссякать=V,intr=praet,sg,indic,m,pf}? - 
+{там=ADVPRO=}, {там=ADVPRO=}, {глубоко=ADV=}, {под=PR=} {корень=S,m,inan=ins,pl} 
+{лежать=V,ipf,intr=inpraes,pl,indic,3p} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}, 
+{питать=V,ipf,tran=inpraes,ger} {вечный=A=ins,pl,plen} {слеза=S,f,inan=ins,pl}, 
+{офелия=S,persn,f,anim=nom,sg}, {цветок=S,m,inan=(acc,pl|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)}!

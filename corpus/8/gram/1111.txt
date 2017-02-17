@@ -1,108 +1,13 @@
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-же=PART=
-_
-печалиться=V,ipf,intr=inf
-!\n
-встрестись?=V,pf,intr=praet,ger
-,_
-шутить=V,ipf,intr=praet,pl,indic
-,_
-шутя=ADV=
-_
-целовалися?=S,persn,f,anim=nom,sg
-,\n
-гордый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-победа=S,f,inan=ins,sg
-_
-она=SPRO,sg,3p,f=nom
-_
-не=PART=
-_
-похвалиться=V,pf,intr=inpraes,sg,indic,3p
-,\n
-в=PR=
-_
-память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-минута=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-осталисить?=V,ipf,intr=inpraes,ger
-...\n
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-же=PART=
-_
-печалиться=V,ipf,intr=inf
-?\n\n
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-безмолвный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-снежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-дремать=V,ipf,intr=inpraes,pl,indic,3p
-_
-березка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-безжизненный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-иней=S,m,inan=abl,sg
-,\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-нависать=V,intr=praet,sg,indic,n,pf
-_\u2014_
-уныло=ADV=
--
-безбрежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-странно=ADV=
--
-неясный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-серый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-,\n
-замирать=V,intr=praet,sg,indic,n,pf
-,_
-умирать=V,intr=praet,sg,indic,n,pf
-,_
-будто=CONJ=
-_
-бы=PART=
-_
-снежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-...\n\n
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-же=PART=
-_
-печалиться=V,ipf,intr=inf
-!\n
+{глупый=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {же=PART=} {печалиться=V,ipf,intr=inf}!
+{встрестись?=V,pf,intr=praet,ger}, {шутить=V,ipf,intr=praet,pl,indic}, {шутя=ADV=} {целовалися?=S,persn,f,anim=nom,sg},
+{гордый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {победа=S,f,inan=ins,sg} {она=SPRO,sg,3p,f=nom} {не=PART=} {похвалиться=V,pf,intr=inpraes,sg,indic,3p},
+{в=PR=} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {минута=S,f,inan=(acc,pl|gen,sg|nom,pl)} {осталисить?=V,ipf,intr=inpraes,ger}...
+{глупый=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {же=PART=} {печалиться=V,ipf,intr=inf}?
+
+{тянуться=V,ipf,intr=inpraes,sg,indic,3p} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {безмолвный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {снежный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{дремать=V,ipf,intr=inpraes,pl,indic,3p} {березка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {безжизненный=A=(abl,sg,plen,m|abl,sg,plen,n)} {иней=S,m,inan=abl,sg},
+{небо=S,n,inan=(acc,sg|nom,sg)} {нависать=V,intr=praet,sg,indic,n,pf} — {уныло=ADV=}-{безбрежный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{странно=ADV=}-{неясный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {серый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)},
+{замирать=V,intr=praet,sg,indic,n,pf}, {умирать=V,intr=praet,sg,indic,n,pf}, {будто=CONJ=} {бы=PART=} {снежный=A=(acc,sg,plen,n|nom,sg,plen,n)}...
+
+{глупый=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {же=PART=} {печалиться=V,ipf,intr=inf}!

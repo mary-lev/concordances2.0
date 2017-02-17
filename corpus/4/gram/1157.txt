@@ -1,60 +1,10 @@
-куда=ADVPRO=
-_
-как=ADVPRO=
-_
-страшно=ADV=
-_
-мы=SPRO,pl,1p=dat
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,\n
-товарищ=S,m,anim=nom,sg
-_
-большеротый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-!\n\n
-ох=INTJ=
-,_
-как=ADVPRO=
-_
-крошиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-табак=S,m,inan=(acc,sg|nom,sg)
-,\n
-щелкунчик=S,m,anim=nom,sg
-,_
-дружок=S,m,anim=nom,sg
-,_
-дурак=S,m,anim=nom,sg
-!\n\n
-а=CONJ=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-бы=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-просвистывать=V=inf,pf
-_
-скворец=S,m,anim=ins,sg
-,\n
-заедать=V=inf,pf
-_
-ореховый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-пирог=S,m,inan=ins,sg
-,\n\n
-да=CONJ=
-,_
-видно=ADV,praed=
-,_
-нельзя=ADV,praed=
-_
-никак=ADVPRO,parenth=
-...\n
+{куда=ADVPRO=} {как=ADVPRO=} {страшно=ADV=} {мы=SPRO,pl,1p=dat} {с=PR=} {ты=SPRO,sg,2p=ins},
+{товарищ=S,m,anim=nom,sg} {большеротый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}!
+
+{ох=INTJ=}, {как=ADVPRO=} {крошиться=V,ipf,intr=inpraes,sg,indic,3p} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {табак=S,m,inan=(acc,sg|nom,sg)},
+{щелкунчик=S,m,anim=nom,sg}, {дружок=S,m,anim=nom,sg}, {дурак=S,m,anim=nom,sg}!
+
+{а=CONJ=} {мочь=V,ipf,intr=praet,sg,indic,m} {бы=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {просвистывать=V=inf,pf} {скворец=S,m,anim=ins,sg},
+{заедать=V=inf,pf} {ореховый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {пирог=S,m,inan=ins,sg},
+
+{да=CONJ=}, {видно=ADV,praed=}, {нельзя=ADV,praed=} {никак=ADVPRO,parenth=}...

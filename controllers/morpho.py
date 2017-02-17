@@ -64,10 +64,65 @@ all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect
 
 @auth.requires_login()
 def slovar():
-    all_texts = trymysql((trymysql.text1.id>9999)&(trymysql.text1.id<10261)).select()
+    all_text = trymysql(trymysql.text1.author==8).select()
+    for row in all_text:
+        text = row.id
+        z = 'corpus/' + str(row.author) + '/'
+        z2 = 'corpus/' + str(row.author) + '/gram/'
+        filename = row.filename.replace(z, z2)
+        author = row.author
+        with open(filename, 'rb') as fi:
+            lines = fi.readlines()
+        n = 0
+        for line in lines:
+            n += 1
+            if '{' in line:
+                line = line.split(' ')
+                for word in line:
+                    punct=''
+                    if not word.startswith('{'):
+                        punct = word.split('{')[0]
+                        if punct:
+                            d.mystem.insert(word = punct, title=text, author=author, partos = 'PNCT', location = n)
+                        punct = ''
+                        word = ''.join(word.split('{')[1:])
+                    if not word.endswith('}'):
+                        punct = word.split('}')[-1]
+                        punct = punct.replace('\n', '')
+                        word = ''.join(word.split('}')[:-1])
+                    num = {}
+                    new = word.replace('{', '').replace('}', '').split('=')
+                    num['word'] = new[0]
+                    l = []
+                    if len(new) > 2:
+                        if '|' in new[2]:
+                            point = new[2].find('|')
+                            ptime = new[2][1:point].split(',')
+                        else:
+                            ptime = new[2].split(',')
+                        l += ptime
+                    if len(new) > 1:
+                        partos = new[1].split(',')
+                        num['part'] = partos.pop(0)
+                        l += partos
+                    num['l'] = l
+                    for p in all_parts:
+                        num[p[0]] = ''.join(set(p).intersection(l))
+                    try:
+                        d.mystem.insert(word = num['word'], title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], \
+                                    comp = num['comp'], number = num['number'], cas = num['case'], tense = num['tense'], aspect = num['aspect'], \
+                                    person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
+                                    other = num['other'], author = author, location = n)
+                    except:
+                        pass
+                    if punct:
+                        d.mystem.insert(word = punct, title=text, author=author, partos = 'PNCT', location = n)
+    return dict(new=new, n=n)
+
+def slovar1():
+    all_texts = trymysql((trymysql.text1.id>1776)&(trymysql.text1.id<1780)).select()
     all_texts = [[all.id, all.filename, all.author] for all in all_texts]
     for f in all_texts:
-        #f = '/home/concordance/web2py/applications/test/corpus/1/gram/1.txt'
         text = f[0]
         z = 'corpus/' + str(f[2]) + '/'
         z2 = 'corpus/' + str(f[2]) + '/gram/'
@@ -75,9 +130,10 @@ def slovar():
         author = f[2]
         with open (filename, 'rb') as fi:
             texts = fi.readlines()
-        #words = []
         for all in texts:
             num = {}
+            if all.endswith('_\n'):
+                n +=1
             if '_' not in all and '.' not in all and '\\' not in all:
                 new = all.split('=')
                 num['word'] = new[0]
@@ -98,9 +154,10 @@ def slovar():
                 for p in all_parts:
                     num[p[0]] = ''.join(set(p).intersection(l))
                 try:
-                    d.mystem.insert(word = num['word'], title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], comp = num['comp'], number = num['number'], \
-                               cas = num['case'], tense = num['tense'], aspect = num['aspect'], person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
-                               other = num['other'], author = author)
+                    d.mystem.insert(word = num['word'], title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], \
+                                    comp = num['comp'], number = num['number'], cas = num['case'], tense = num['tense'], aspect = num['aspect'], \
+                                    person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
+                                    other = num['other'], author = author, location = n)
                 except:
                     d.mystem.insert(word = new, title=text, author=author, partos = 'None')
             else:

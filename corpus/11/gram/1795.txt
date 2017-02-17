@@ -1,128 +1,19 @@
-проходить=V=(praet,pl,indic,pf,tran|praet,pl,indic,ipf,tran)
-_
-калика=S,mf,anim=(gen,sg|nom,pl)
-_
-деревня=S,f,inan=ins,pl
-,\n
-выпивать=V,tran=praet,pl,indic,ipf
-_
-под=PR=
-_
-окно=S,n,inan=ins,pl
-_
-квас=S,m,inan=(dat,sg|part,sg)
-,\n
-у=PR=
-_
-церковь=S,f,inan=gen,pl
-_
-пред=PR=
-_
-затвор=S,m,inan=ins,pl
-_
-древний=A=ins,pl,plen
-\n
-поклоняться=V,ipf,intr=praet,pl,indic
-_
-пречистый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-спас=S,m,anim=dat,sg
-.\n\n
-пробиралисить?=V,ipf,intr=inpraes,ger
-_
-странник=S,m,anim=nom,pl
-_
-по=PR=
-_
-поле=S,n,inan=dat,sg
-,\n
-петь=V,ipf,tran=praet,pl,indic
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-сладкий=A=(abl,sg,plen,supr,m|abl,sg,plen,supr,n)
-_
-исус=S,persn,m,anim=abl,sg
-.\n
-мимо=PR=
-_
-кляча=S,f,anim=(gen,sg|nom,pl)
-_
-с=PR=
-_
-поклажа=S,f,inan=ins,sg
-_
-топать=V,ipf,intr=praet,pl,indic
-,\n
-подпевать=V,tran=praet,pl,indic,ipf
-_
-горластый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гусь=S,m,anim=nom,pl
-.\n\n
-ковылять=V,ipf,intr=praet,pl,indic
-_
-убогий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-по=PR=
-_
-стадо=S,n,inan=dat,sg
-,\n
-говорить=V,ipf,tran=praet,pl,indic
-_
-страдальный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-:\n\xAB
-все=SPRO,pl=(acc|nom)
-_
-единый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-служить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-мы=SPRO,pl,1p=nom
-_
-господь=S,sg,m,anim=dat
-,\n
-возлагать=V,tran=inpraes,ger,ipf
-_
-верига=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-\xBB.\n\n
-вынимать=V,tran=praet,pl,indic,ipf
-_
-калика=S,mf,anim=(gen,sg|nom,pl)
-_
-поспешливо?=ADV=
-\n
-для=PR=
-_
-корова=S,f,anim=(acc,pl|gen,pl)
-_
-сберегать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-кроха=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-кричать=V,ipf,intr=praet,pl,indic
-_
-пастушка=S,f,anim=(gen,sg|nom,pl)
-_
-насмешливо=ADV=
-:\n\xAB
-девка=S,f,anim=(gen,sg|nom,pl)
-,_
-в=PR=
-_
-пляска=S,f,inan=acc,sg
-._
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-скоморох=S,m,anim=nom,pl
-\xBB.\n
+{проходить=V=(praet,pl,indic,pf,tran|praet,pl,indic,ipf,tran)} {калика=S,mf,anim=(gen,sg|nom,pl)} {деревня=S,f,inan=ins,pl},
+{выпивать=V,tran=praet,pl,indic,ipf} {под=PR=} {окно=S,n,inan=ins,pl} {квас=S,m,inan=(dat,sg|part,sg)},
+{у=PR=} {церковь=S,f,inan=gen,pl} {пред=PR=} {затвор=S,m,inan=ins,pl} {древний=A=ins,pl,plen}
+{поклоняться=V,ipf,intr=praet,pl,indic} {пречистый=A=(dat,sg,plen,m|dat,sg,plen,n)} {спас=S,m,anim=dat,sg}.
+
+{пробиралисить?=V,ipf,intr=inpraes,ger} {странник=S,m,anim=nom,pl} {по=PR=} {поле=S,n,inan=dat,sg},
+{петь=V,ipf,tran=praet,pl,indic} {стих=S,m,inan=(acc,sg|nom,sg)} {о=PR=} {сладкий=A=(abl,sg,plen,supr,m|abl,sg,plen,supr,n)} {исус=S,persn,m,anim=abl,sg}.
+{мимо=PR=} {кляча=S,f,anim=(gen,sg|nom,pl)} {с=PR=} {поклажа=S,f,inan=ins,sg} {топать=V,ipf,intr=praet,pl,indic},
+{подпевать=V,tran=praet,pl,indic,ipf} {горластый=A=(acc,pl,plen,inan|nom,pl,plen)} {гусь=S,m,anim=nom,pl}.
+
+{ковылять=V,ipf,intr=praet,pl,indic} {убогий=A=(acc,pl,plen,inan|nom,pl,plen)} {по=PR=} {стадо=S,n,inan=dat,sg},
+{говорить=V,ipf,tran=praet,pl,indic} {страдальный=A=(acc,pl,plen,inan|nom,pl,plen)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}:
+«{все=SPRO,pl=(acc|nom)} {единый=A=(dat,sg,plen,m|dat,sg,plen,n)} {служить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {мы=SPRO,pl,1p=nom} {господь=S,sg,m,anim=dat},
+{возлагать=V,tran=inpraes,ger,ipf} {верига=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {плечо=S,n,inan=(acc,pl|nom,pl)}».
+
+{вынимать=V,tran=praet,pl,indic,ipf} {калика=S,mf,anim=(gen,sg|nom,pl)} {поспешливо?=ADV=}
+{для=PR=} {корова=S,f,anim=(acc,pl|gen,pl)} {сберегать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {кроха=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {кричать=V,ipf,intr=praet,pl,indic} {пастушка=S,f,anim=(gen,sg|nom,pl)} {насмешливо=ADV=}:
+«{девка=S,f,anim=(gen,sg|nom,pl)}, {в=PR=} {пляска=S,f,inan=acc,sg}. {идти=V,ipf,intr=inpraes,pl,indic,3p} {скоморох=S,m,anim=nom,pl}».

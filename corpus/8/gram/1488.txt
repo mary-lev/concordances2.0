@@ -1,64 +1,9 @@
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-словно=CONJ=
-_
-облако=S,n,inan=(acc,sg|nom,sg)
-,\n
-неподвижный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-,\n
-там=ADVPRO=
-_
-далеко=ADV=
-_
-шпиль=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-около=ADV=
-\n
-золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-блестящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-поезд=S,m,inan=(acc,sg|nom,sg)
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-быстро=ADV=
-,_
-медленно=ADV=
-,\n
-скрываться=V,intr=praet,sg,indic,m,pf
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-нет=ADV,praed=
-_
-крест=S,m,inan=gen,sg
-,_\u2014\n
-но=CONJ=
-_
-в=PR=
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тайна=S,f,inan=nom,sg
-_
-месяц=S,m,inan=gen,sg
-\n
-неизменный=A=sg,brev,f
-_
-и=CONJ=
-_
-чистый=A=sg,brev,f
-.\n
+{месяц=S,m,inan=(acc,sg|nom,sg)} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {словно=CONJ=} {облако=S,n,inan=(acc,sg|nom,sg)},
+{неподвижный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)},
+{там=ADVPRO=} {далеко=ADV=} {шпиль=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {около=ADV=}
+{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {блестящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крест=S,m,inan=(acc,sg|nom,sg)}.
+
+{поезд=S,m,inan=(acc,sg|nom,sg)} {виться=V,ipf,intr=inpraes,sg,indic,3p} {быстро=ADV=}, {медленно=ADV=},
+{скрываться=V,intr=praet,sg,indic,m,pf} {лес=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {нет=ADV,praed=} {крест=S,m,inan=gen,sg}, —
+{но=CONJ=} {в=PR=} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тайна=S,f,inan=nom,sg} {месяц=S,m,inan=gen,sg}
+{неизменный=A=sg,brev,f} {и=CONJ=} {чистый=A=sg,brev,f}.

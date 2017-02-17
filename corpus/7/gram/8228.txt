@@ -1,72 +1,9 @@
-седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!.._
-пора=S,f,inan=nom,sg
-..._
-седой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_\u2014_
-мат=S,m,inan=(acc,sg|nom,sg)
-...\n
-июль=S,m,inan=(acc,sg|nom,sg)
-_
-уголь=S,m,inan=gen,pl
-_
-насыпать=V,pf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-яма=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-ночь=S,f,inan=ins,sg
-,_
-черный=A=sg,brev,m
-_
-и=CONJ=
-_
-лохматый=A=sg,brev,m
-,\n
-вздувать=V,tran=inpraes,sg,indic,3p,ipf
-_
-голубой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-...\n\n
-где=ADVPRO=
-_
-розоветь=V,ipf,intr=praet,sg,indic,f
-_
-полоса=S,f,inan=nom,sg
-,\n
-там=ADVPRO=
-_
-знойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-асфальт=S,m,inan=abl,sg
-_
-пытать=V,ipf,tran=praet,sg,partcp,brev,m,pass
-.\n
-бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-_
-на=PR=
-_
-башня=S,f,inan=acc,sg
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-а=CONJ=
-_
-сверху=ADV=
-_
-шепот=S,m,inan=(acc,sg|nom,sg)
-:_\xAB
-тихо=ADV=comp
-_\u2014_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-\xBB.\n
+{седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!.. {пора=S,f,inan=nom,sg}... {седой=A=(dat,sg,plen,m|dat,sg,plen,n)} — {мат=S,m,inan=(acc,sg|nom,sg)}...
+{июль=S,m,inan=(acc,sg|nom,sg)} {уголь=S,m,inan=gen,pl} {насыпать=V,pf,tran=praet,sg,indic,m} {в=PR=} {яма=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {ночь=S,f,inan=ins,sg}, {черный=A=sg,brev,m} {и=CONJ=} {лохматый=A=sg,brev,m},
+{вздувать=V,tran=inpraes,sg,indic,3p,ipf} {голубой=A=(acc,sg,plen,n|nom,sg,plen,n)} {пламень=S,inan=(acc,sg,n|nom,sg,n)}...
+
+{где=ADVPRO=} {розоветь=V,ipf,intr=praet,sg,indic,f} {полоса=S,f,inan=nom,sg},
+{там=ADVPRO=} {знойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {асфальт=S,m,inan=abl,sg} {пытать=V,ipf,tran=praet,sg,partcp,brev,m,pass}.
+{бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {на=PR=} {башня=S,f,inan=acc,sg} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+{а=CONJ=} {сверху=ADV=} {шепот=S,m,inan=(acc,sg|nom,sg)}: «{тихо=ADV=comp} — {спать=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}».

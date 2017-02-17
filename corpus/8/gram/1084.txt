@@ -1,84 +1,9 @@
-в=PR=
-_
-серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-полуночный=A=nom,sg,plen,f
-_
-влага=S,f,inan=nom,sg
-\n
-пленять=V,tran=inpraes,sg,indic,3p,ipf
-_
-отдых=S,m,inan=ins,sg
-_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-зыбкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-_
-речной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-саркофаг=S,m,inan=gen,sg
-\n
-отверженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-герой=S,m,anim=nom,sg
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-_
-клевета=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-не=PART=
-_
-проклинать=V=sg,imper,2p,ipf,tran
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-!_
-наставать=V,intr=inpraes,sg,indic,3p,pf
-_
-трепет=S,m,inan=(acc,sg|nom,sg)
-,_
-стон=S,m,inan=(acc,pl|nom,pl)
-\n
-вновь=ADV=
-_
-быть=V,intr=inpraes,pl,indic,3p
-_
-искренний=A=pl,brev
-,_
-молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-горячий=A=pl,brev
-,\n
-смущаться=V,intr=inpraes,sg,indic,3p,pf
-_
-яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-,\u2014_
-и=CONJ=
-_
-солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-корона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-заблестеть=V,pf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-полутьма=S,f,inan=(abl,sg|dat,sg)
-_
-священный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-!\n
+{в=PR=} {серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {полуночный=A=nom,sg,plen,f} {влага=S,f,inan=nom,sg}
+{пленять=V,tran=inpraes,sg,indic,3p,ipf} {отдых=S,m,inan=ins,sg} {усталый=A=(acc,pl,plen,inan|nom,pl,plen)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {в=PR=} {зыбкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=(abl|dat)} {речной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {саркофаг=S,m,inan=gen,sg}
+{отверженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {герой=S,m,anim=nom,sg} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,3p} {клевета=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{не=PART=} {проклинать=V=sg,imper,2p,ipf,tran} {человек=S,m,anim=(acc,pl|gen,pl)}! {наставать=V,intr=inpraes,sg,indic,3p,pf} {трепет=S,m,inan=(acc,sg|nom,sg)}, {стон=S,m,inan=(acc,pl|nom,pl)}
+{вновь=ADV=} {быть=V,intr=inpraes,pl,indic,3p} {искренний=A=pl,brev}, {молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {горячий=A=pl,brev},
+{смущаться=V,intr=inpraes,sg,indic,3p,pf} {яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)},— {и=CONJ=} {солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {корона=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{заблестеть=V,pf,intr=inpraes,pl,indic,3p} {в=PR=} {полутьма=S,f,inan=(abl,sg|dat,sg)} {священный=A=(acc,pl,plen,inan|nom,pl,plen)} {луч=S,m,inan=(acc,pl|nom,pl)}!

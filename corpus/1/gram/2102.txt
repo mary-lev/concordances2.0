@@ -1,120 +1,19 @@
-в=PR=
-_
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=nom
-_
-встречаться=V,intr=praet,pl,indic,ipf
-\n(
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-помнить=V,ipf,tran=inpraes,sg,indic,3p
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-).\n
-дерево=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-едва=ADV=
-_
-венчаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)
-\n
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-зелень=S,f,inan=ins,sg
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-ясный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-зарево=S,n,inan=ins,sg
-_
-алей=S,persn,m,anim=(acc,sg|gen,sg)
-,\n
-уводить=V=praet,sg,indic,f,ipf,tran
-_
-вдоль=PR=
-_
-пруд=S,m,inan=gen,sg
-\n
-этот=APRO=nom,sg,f
-_
-узкий=A=nom,sg,plen,f
-_
-аллея=S,f,inan=nom,sg
-\n
-в=PR=
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-навсегда=ADV=
-.\n\n
-этот=APRO=nom,sg,f
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-,_
-этот=APRO=nom,sg,f
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-она=SPRO,sg,3p,f=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-?\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-стих=S,m,inan=gen,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мятежность?=S,f,inan=(acc,sg|nom,sg)
-\n
-не=PART=
-_
-она=SPRO,sg,3p,f=nom
-_
-ли=PART=
-_
-создавать=V,tran=praet,sg,indic,f,pf
-?\n\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-занятый=A=sg,brev,n
-_
-мечта=S,f,inan=ins,pl
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-помнить=V,ipf,tran=inpraes,sg,indic,3p
-_
-долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-срок=S,m,inan=(acc,sg|nom,sg)
-,\n
-поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-пруд=S,m,inan=ins,pl
-,\n
-раздушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-платок=S,m,inan=(acc,sg|nom,sg)
-.\n
+{в=PR=} {тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечер=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=nom} {встречаться=V,intr=praet,pl,indic,ipf}
+({сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {помнить=V,ipf,tran=inpraes,sg,indic,3p} {этот=APRO=(nom,pl|acc,pl,inan)} {сон=S,m,inan=(acc,pl|nom,pl)}).
+{дерево=S,n,inan=(acc,pl|gen,sg|nom,pl)} {едва=ADV=} {венчаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)}
+{первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {зелень=S,f,inan=ins,sg} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{ясный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зарево=S,n,inan=ins,sg} {алей=S,persn,m,anim=(acc,sg|gen,sg)},
+{уводить=V=praet,sg,indic,f,ipf,tran} {вдоль=PR=} {пруд=S,m,inan=gen,sg}
+{этот=APRO=nom,sg,f} {узкий=A=nom,sg,plen,f} {аллея=S,f,inan=nom,sg}
+{в=PR=} {сон=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {навсегда=ADV=}.
+
+{этот=APRO=nom,sg,f} {юность=S,f,inan=(acc,sg|nom,sg)}, {этот=APRO=nom,sg,f} {нежность=S,f,inan=(acc,sg|nom,sg)} —
+{что=SPRO,sg,n,inan=(acc|nom)} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {она=SPRO,sg,3p,f=nom} {быть=V,intr=praet,sg,indic,f,ipf}?
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стих=S,m,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мятежность?=S,f,inan=(acc,sg|nom,sg)}
+{не=PART=} {она=SPRO,sg,3p,f=nom} {ли=PART=} {создавать=V,tran=praet,sg,indic,f,pf}?
+
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {занятый=A=sg,brev,n} {мечта=S,f,inan=ins,pl},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {помнить=V,ipf,tran=inpraes,sg,indic,3p} {долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {срок=S,m,inan=(acc,sg|nom,sg)},
+{поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечер=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {пруд=S,m,inan=ins,pl},
+{раздушить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {платок=S,m,inan=(acc,sg|nom,sg)}.

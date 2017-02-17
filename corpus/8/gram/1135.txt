@@ -1,88 +1,14 @@
-три=NUM=(nom|acc,inan)
-_
-женщина=S,f,anim=(gen,sg|nom,pl)
-,_
-грязный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-пьяный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-обниматься=V,intr=praet,ger,pf
-,_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-шататься=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-дрожать=V,ipf,intr=inpraes,pl,indic,3p
-_
-колокольня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-туманный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-крест=S,m,inan=(acc,pl|nom,pl)
-_
-у=PR=
-_
-церковь=S,f,inan=gen,pl
-_
-наклоняться=V,intr=inpraes,pl,indic,3p,ipf
-.\n\n
-заслышать=V,pf,tran=praet,ger
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-бессвязный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-на=PR=
-_
-хриплый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-похожий=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-смеяться=V,ipf,intr=inpraes,pl,indic,3p
-_
-извозчик=S,m,anim=nom,pl
-_
-праздный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-сторониться=V,ipf,intr=inpraes,pl,indic,3p
-_
-грубо=ADV=
-_
-прохожий=S,m,anim=nom,pl
-.\n\n
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-,_
-грязный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-пьяный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ругаться=V,ipf,intr=inpraes,pl,indic,3p
-...\n
-и=CONJ=
-_
-горестно=ADV=
-_
-церковь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-туманный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-пред=PR=
-_
-они=SPRO,pl=ins
-_
-крест=S,m,inan=ins,pl
-_
-склоняться=V,intr=inpraes,pl,indic,3p,ipf
-.\n
+{три=NUM=(nom|acc,inan)} {женщина=S,f,anim=(gen,sg|nom,pl)}, {грязный=A=(acc,pl,plen,inan|nom,pl,plen)}, {пьяный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{обниматься=V,intr=praet,ger,pf}, {идти=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {шататься=V,ipf,intr=inpraes,pl,indic,3p}.
+{дрожать=V,ipf,intr=inpraes,pl,indic,3p} {колокольня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {туманный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{крест=S,m,inan=(acc,pl|nom,pl)} {у=PR=} {церковь=S,f,inan=gen,pl} {наклоняться=V,intr=inpraes,pl,indic,3p,ipf}.
+
+{заслышать=V,pf,tran=praet,ger} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бессвязный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{на=PR=} {хриплый=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {похожий=A=(acc,pl,plen,inan|nom,pl,plen)},
+{смеяться=V,ipf,intr=inpraes,pl,indic,3p} {извозчик=S,m,anim=nom,pl} {праздный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{сторониться=V,ipf,intr=inpraes,pl,indic,3p} {грубо=ADV=} {прохожий=S,m,anim=nom,pl}.
+
+{идти=V,ipf,intr=inpraes,pl,indic,3p} {они=SPRO,pl=nom}, {грязный=A=(acc,pl,plen,inan|nom,pl,plen)}, {пьяный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{петь=V,ipf,tran=inpraes,pl,indic,3p} {свой=APRO=(nom,pl|acc,pl,inan)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ругаться=V,ipf,intr=inpraes,pl,indic,3p}...
+{и=CONJ=} {горестно=ADV=} {церковь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {туманный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{пред=PR=} {они=SPRO,pl=ins} {крест=S,m,inan=ins,pl} {склоняться=V,intr=inpraes,pl,indic,3p,ipf}.

@@ -1,58 +1,9 @@
-не=PART=
-_
-доверять=V,tran=sg,imper,2p,ipf
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-дорога=S,f,inan=gen,pl
-\n
-толпа=S,f,inan=(abl,sg|dat,sg)
-_
-ласкатель=S,m,anim=(acc,pl|gen,pl)
-_
-несметный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-:\n
-они=SPRO,pl=nom
-_
-сломать=V,pf,tran=inpraes,pl,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-,\n
-погасить=V,pf,tran=inpraes,pl,indic,3p
-_
-жертвенник=S,m,inan=(acc,sg|nom,sg)
-_
-заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-все=SPRO,pl=(acc|nom)
-,_
-дух=S,m,inan=ins,sg
-_
-сильный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\u2014_
-один=APRO=(nom,pl|acc,pl,inan)
-\n
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нестройный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-убегать=V,intr=inpraes,pl,indic,3p,ipf
-,\n
-один=APRO=(nom,pl|acc,pl,inan)
-_
-на=PR=
-_
-холм=S,m,inan=abl,pl
-_
-жечь=V,ipf,tran=inpraes,pl,indic,3p
-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-,\n
-завеса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мрак=S,m,inan=gen,sg
-_
-разрывать=V,tran=inpraes,pl,indic,3p,ipf
-.\n
+{не=PART=} {доверять=V,tran=sg,imper,2p,ipf} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дорога=S,f,inan=gen,pl}
+{толпа=S,f,inan=(abl,sg|dat,sg)} {ласкатель=S,m,anim=(acc,pl|gen,pl)} {несметный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}:
+{они=SPRO,pl=nom} {сломать=V,pf,tran=inpraes,pl,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {чертог=S,m,inan=(acc,sg|nom,sg)},
+{погасить=V,pf,tran=inpraes,pl,indic,3p} {жертвенник=S,m,inan=(acc,sg|nom,sg)} {заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{все=SPRO,pl=(acc|nom)}, {дух=S,m,inan=ins,sg} {сильный=A=(acc,pl,plen,inan|nom,pl,plen)}, — {один=APRO=(nom,pl|acc,pl,inan)}
+{толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нестройный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {убегать=V,intr=inpraes,pl,indic,3p,ipf},
+{один=APRO=(nom,pl|acc,pl,inan)} {на=PR=} {холм=S,m,inan=abl,pl} {жечь=V,ipf,tran=inpraes,pl,indic,3p} {огонь=S,m,inan=(acc,pl|nom,pl)},
+{завеса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мрак=S,m,inan=gen,sg} {разрывать=V,tran=inpraes,pl,indic,3p,ipf}.

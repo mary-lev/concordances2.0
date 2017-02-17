@@ -1,116 +1,19 @@
-холодок=S,m,inan=(acc,sg|nom,sg)
-_
-щекотать=V,ipf,tran=inpraes,sg,indic,3p
-_
-темя=S,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-нельзя=ADV,praed=
-_
-признаваться=V,intr=inf,pf
-_
-вдруг=ADV=
-,_\u2014\n
-и=CONJ=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-срезать=V,ipf,tran=inpraes,sg,indic,3p
-_
-время=S,n,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-скашивать=V=praet,sg,indic,n,pf
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-каблук=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-себя=SPRO=(acc|gen)
-_
-перемогать=V=inpraes,sg,indic,3p,ipf,tran
-,\n
-понемногу=ADV=
-_
-таять=V,ipf,intr=inpraes,sg,indic,3p
-_
-звук=S,m,inan=(acc,sg|nom,sg)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-что-то=SPRO,sg,n,inan=gen
-_
-не=PART=
-_
-хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)
-,\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-вспомнить=V,pf,tran=inf
-_
-недосуг=ADV,praed=
-.\n\n
-а=CONJ=
-_
-ведь=PART=
-_
-рано=ADV=comp
-_
-хорошо=ADV=comp,parenth
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,\n
-и=CONJ=
-,_
-пожалуй=PART,parenth=
-,_
-не=PART=
-_
-сравнивать=V,tran=inpraes,sg,indic,2p,pf
-,\n
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-прежде=ADV=
-_
-шелещивать?=V=praet,sg,indic,f,pf
-,\n
-кровь=S,f,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-нынче=ADV=
-_
-шелестеть=V,ipf,intr=inpraes,sg,indic,2p
-.\n\n
-видно=ADV,parenth=
-,_
-даром=ADV=
-_
-не=PART=
-_
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-\n
-шевеление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-губа=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-вершина=S,f,inan=nom,sg
-_
-колобродить=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-обреченный=A=nom,sg,plen,f
-_
-на=PR=
-_
-сруб=S,m,inan=(acc,sg|nom,sg)
-.\n
+{холодок=S,m,inan=(acc,sg|nom,sg)} {щекотать=V,ipf,tran=inpraes,sg,indic,3p} {темя=S,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {нельзя=ADV,praed=} {признаваться=V,intr=inf,pf} {вдруг=ADV=}, —
+{и=CONJ=} {я=SPRO,sg,1p=(acc|gen)} {срезать=V,ipf,tran=inpraes,sg,indic,3p} {время=S,n,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {скашивать=V=praet,sg,indic,n,pf} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {каблук=S,m,inan=(acc,sg|nom,sg)}.
+
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {себя=SPRO=(acc|gen)} {перемогать=V=inpraes,sg,indic,3p,ipf,tran},
+{понемногу=ADV=} {таять=V,ipf,intr=inpraes,sg,indic,3p} {звук=S,m,inan=(acc,sg|nom,sg)},
+{все=SPRO,pl=(acc|nom)} {что-то=SPRO,sg,n,inan=gen} {не=PART=} {хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)},
+{что-то=SPRO,sg,n,inan=(acc|nom)} {вспомнить=V,pf,tran=inf} {недосуг=ADV,praed=}.
+
+{а=CONJ=} {ведь=PART=} {рано=ADV=comp} {хорошо=ADV=comp,parenth} {быть=V,intr=praet,sg,indic,n,ipf},
+{и=CONJ=}, {пожалуй=PART,parenth=}, {не=PART=} {сравнивать=V,tran=inpraes,sg,indic,2p,pf},
+{как=ADVPRO=} {ты=SPRO,sg,2p=nom} {прежде=ADV=} {шелещивать?=V=praet,sg,indic,f,pf},
+{кровь=S,f,inan=(acc,sg|nom,sg)}, {как=CONJ=} {нынче=ADV=} {шелестеть=V,ipf,intr=inpraes,sg,indic,2p}.
+
+{видно=ADV,parenth=}, {даром=ADV=} {не=PART=} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)}
+{шевеление=S,n,inan=(abl,sg|acc,sg|nom,sg)} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {губа=S,f,inan=gen,pl},
+{и=CONJ=} {вершина=S,f,inan=nom,sg} {колобродить=V,ipf,intr=inpraes,sg,indic,3p},
+{обреченный=A=nom,sg,plen,f} {на=PR=} {сруб=S,m,inan=(acc,sg|nom,sg)}.

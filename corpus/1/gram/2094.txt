@@ -1,114 +1,20 @@
-покойник=S,m,anim=nom,sg
-_
-спать=V,ipf,intr=inf
-_
-ложиться=V,intr=inpraes,sg,indic,3p,ipf
-\n
-на=PR=
-_
-белый=A=acc,sg,plen,f
-_
-постель=S,f,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-окно=S,n,inan=abl,sg
-_
-легко=ADV=
-_
-кружиться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-спокойный=A=nom,sg,plen,f
-_
-метель=S,f,inan=(acc,sg|nom,sg)
-.\n
-пуховой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ветер=S,m,inan=ins,sg
-_
-мчаться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-на=PR=
-_
-снежный=A=acc,sg,plen,f
-_
-постель=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-снежинка=S,f,inan=gen,pl
-_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пух=S,sg,m,inan=(acc|nom)
-\n
-куда=ADVPRO=
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-куда=ADVPRO=
-?\n
-проходить=V,intr=praet,pl,indic,pf
-,_
-проходить=V,intr=praet,pl,indic,pf
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-прощать=V=sg,imper,2p,pf
-,_
-бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-,\n
-мятежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-!\n
-наставать=V,intr=praet,sg,indic,n,pf
-_
-никогда=ADVPRO=
-...\n\n
-и=CONJ=
-_
-отдых=S,m,inan=(acc,sg|nom,sg)
-,_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-отдых=S,m,inan=(acc,sg|nom,sg)
-\n
-легко=ADV=
-_
-прильнуть=V,pf,intr=praet,sg,indic,m
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-и=CONJ=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_
-вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-\n
-вздыхать=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-простыня=S,f,inan=(abl,sg|dat,sg)
-.\n
-прощать=V=sg,imper,2p,pf
-,_
-крылатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-!\n
-лететь=V,ipf,intr=sg,imper,2p
-,_
-бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пух=S,sg,m,inan=(acc|nom)
-!\n
+{покойник=S,m,anim=nom,sg} {спать=V,ipf,intr=inf} {ложиться=V,intr=inpraes,sg,indic,3p,ipf}
+{на=PR=} {белый=A=acc,sg,plen,f} {постель=S,f,inan=(acc,sg|nom,sg)}.
+{в=PR=} {окно=S,n,inan=abl,sg} {легко=ADV=} {кружиться=V,ipf,intr=inpraes,sg,indic,3p}
+{спокойный=A=nom,sg,plen,f} {метель=S,f,inan=(acc,sg|nom,sg)}.
+{пуховой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ветер=S,m,inan=ins,sg} {мчаться=V,ipf,intr=inpraes,sg,indic,3p}
+{на=PR=} {снежный=A=acc,sg,plen,f} {постель=S,f,inan=(acc,sg|nom,sg)}.
+
+{снежинка=S,f,inan=gen,pl} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пух=S,sg,m,inan=(acc|nom)}
+{куда=ADVPRO=} {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {куда=ADVPRO=}?
+{проходить=V,intr=praet,pl,indic,pf}, {проходить=V,intr=praet,pl,indic,pf} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{прощать=V=sg,imper,2p,pf}, {бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)},
+{мятежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взор=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {слух=S,m,inan=(acc,sg|nom,sg)}!
+{наставать=V,intr=praet,sg,indic,n,pf} {никогда=ADVPRO=}...
+
+{и=CONJ=} {отдых=S,m,inan=(acc,sg|nom,sg)}, {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {отдых=S,m,inan=(acc,sg|nom,sg)}
+{легко=ADV=} {прильнуть=V,pf,intr=praet,sg,indic,m} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}.
+{и=CONJ=} {воздух=S,m,inan=(acc,sg|nom,sg)}, {вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздух=S,m,inan=(acc,sg|nom,sg)}
+{вздыхать=V,intr=praet,sg,indic,m,pf} {на=PR=} {простыня=S,f,inan=(abl,sg|dat,sg)}.
+{прощать=V=sg,imper,2p,pf}, {крылатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)}!
+{лететь=V,ipf,intr=sg,imper,2p}, {бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пух=S,sg,m,inan=(acc|nom)}!

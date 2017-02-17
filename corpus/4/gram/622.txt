@@ -1,92 +1,14 @@
-поляк=S,m,anim=nom,pl
-!_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-смысл=S,m,inan=gen,sg
-\n
-в=PR=
-_
-безумный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-подвиг=S,m,inan=abl,sg
-_
-стрелок=S,m,anim=(acc,pl|gen,pl)
-:\n
-иль=CONJ=
-_
-ворон=S,m,anim=nom,sg
-_
-заклевывать=V,tran=inpraes,sg,indic,3p,pf
-_
-орел=S,m,anim=(acc,pl|gen,pl)
-?\n
-иль=CONJ=
-_
-потечь=V,pf,intr=inpraes,sg,indic,3p
-_
-обратно=ADV=
-_
-висла=S,geo,f,inan=nom,sg
-?\n\n
-или=CONJ=
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-быть=V,intr=inpraes,pl,indic,3p
-_
-много=ADV=comp
-\n
-зима=S,f,inan=ins,sg
-_
-покрывать=V=inf,ipf,tran
-_
-ковыль=S,m,inan=(acc,sg|nom,sg)
-?\n
-или=CONJ=
-_
-о=PR=
-_
-габсбург=S,famn,m,anim=(acc,pl|gen,pl)
-_
-костыль=S,m,inan=(acc,sg|nom,sg)
-\n
-приставать=V,intr=praet,sg,indic,n,pf
-_
-опираться=V,intr=inf,ipf
-_
-польша=S,geo,f,inan=(abl,sg|dat,sg)
-?\n\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-славянский=A=nom,sg,plen,f
-_
-комета=S,f,inan=nom,sg
-,\n
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-блуждание=S,n,inan=abl,sg
-_
-вековой=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-рассыпаться=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-_
-чужой=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-_
-огонь=S,m,inan=ins,sg
-,\n
-сообщница=S,f,anim=nom,sg
-_
-чужой=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-свет=S,sg,m,inan=gen
-!\n
+{поляк=S,m,anim=nom,pl}! {я=SPRO,sg,1p=nom} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {смысл=S,m,inan=gen,sg}
+{в=PR=} {безумный=A=(abl,sg,plen,m|abl,sg,plen,n)} {подвиг=S,m,inan=abl,sg} {стрелок=S,m,anim=(acc,pl|gen,pl)}:
+{иль=CONJ=} {ворон=S,m,anim=nom,sg} {заклевывать=V,tran=inpraes,sg,indic,3p,pf} {орел=S,m,anim=(acc,pl|gen,pl)}?
+{иль=CONJ=} {потечь=V,pf,intr=inpraes,sg,indic,3p} {обратно=ADV=} {висла=S,geo,f,inan=nom,sg}?
+
+{или=CONJ=} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {быть=V,intr=inpraes,pl,indic,3p} {много=ADV=comp}
+{зима=S,f,inan=ins,sg} {покрывать=V=inf,ipf,tran} {ковыль=S,m,inan=(acc,sg|nom,sg)}?
+{или=CONJ=} {о=PR=} {габсбург=S,famn,m,anim=(acc,pl|gen,pl)} {костыль=S,m,inan=(acc,sg|nom,sg)}
+{приставать=V,intr=praet,sg,indic,n,pf} {опираться=V,intr=inf,ipf} {польша=S,geo,f,inan=(abl,sg|dat,sg)}?
+
+{а=CONJ=} {ты=SPRO,sg,2p=nom}, {славянский=A=nom,sg,plen,f} {комета=S,f,inan=nom,sg},
+{в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {блуждание=S,n,inan=abl,sg} {вековой=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{рассыпаться=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)} {чужой=A,plen=(dat,pl|ins,sg,m|ins,sg,n)} {огонь=S,m,inan=ins,sg},
+{сообщница=S,f,anim=nom,sg} {чужой=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {свет=S,sg,m,inan=gen}!

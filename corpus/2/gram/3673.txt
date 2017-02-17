@@ -1,174 +1,25 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-сметь=V,ipf,intr=inpraes,sg,indic,1p
-_
-больше=ADV=
-_
-молиться=V,ipf,intr=inf
-,\n
-я=SPRO,sg,1p=nom
-_
-забывать=V=praet,sg,indic,m,pf
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-литания=S,f,inan=gen,pl
-,\n
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_
-грозить=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-птица=S,f,anim=nom,sg
-,\n
-и=CONJ=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-_
-сдержанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-клекот=S,m,inan=(acc,sg|nom,sg)
-_\n
-словно=CONJ=
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-истлевать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-цимбала=S,f,inan=gen,pl
-,_\n
-словно=CONJ=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-дальний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рокот=S,m,inan=(acc,sg|nom,sg)
-,_\n
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-бить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-скала=S,f,inan=gen,pl
-.\n\n
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_-_
-коготь=S,m,inan=(acc,pl|nom,pl)
-_
-стальной=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-наклоняться=V,intr=inpraes,pl,indic,3p,ipf
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-,\n
-словно=CONJ=
-_
-струя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дрожать=V,ipf,intr=inpraes,pl,indic,3p
-_
-речной=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-озарять=V,tran=(inpraes,acc,pl,partcp,plen,ipf,pass,inan|inpraes,nom,pl,partcp,plen,ipf,pass)
-_
-луна=S,f,inan=ins,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-пугаться=V,ipf,intr=inpraes,sg,indic,1p
-,_
-что=SPRO,sg,n,inan=gen
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-надо=ADV,praed=
-,\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-юноша=S,m,anim=nom,sg
-_
-ганимед?=S,persn,m,anim=nom,sg
-,\n
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-эллада=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-не=PART=
-_
-струить=V,ipf,tran=praet,sg,indic,n
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n\n
-если=CONJ=
-_
-ж=PART=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-голубь=S,m,anim=nom,sg
-_
-господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)
-_\n
-прилетать=V,intr=praet,sg,indic,m,pf
-_
-сказать=V,pf,tran=inf
-_-_
-ты=SPRO,sg,2p=nom
-_
-готовый=A=sg,brev,m
-!_\n
-то=CONJ=
-_
-зачем=ADVPRO=
-_
-же=PART=
-_
-он=SPRO,sg,3p,m=nom
-_
-так=ADVPRO=
-_
-несходный=A=sg,brev,m
-_\n
-с=PR=
-_
-голубь=S,m,anim=ins,pl
-_
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сад=S,m,inan=gen,pl
-?\n\n
+{я=SPRO,sg,1p=nom} {не=PART=} {сметь=V,ipf,intr=inpraes,sg,indic,1p} {больше=ADV=} {молиться=V,ipf,intr=inf},
+{я=SPRO,sg,1p=nom} {забывать=V=praet,sg,indic,m,pf} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {литания=S,f,inan=gen,pl},
+{надо=ADV,praed=} {я=SPRO,sg,1p=ins} {грозить=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {птица=S,f,anim=nom,sg},
+{и=CONJ=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {у=PR=} {она=SPRO,sg,3p,f=(acc|gen)} - {огонь=S,m,inan=(acc,pl|nom,pl)}.
+
+{вот=PART=} {я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {сдержанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {клекот=S,m,inan=(acc,sg|nom,sg)} 
+{словно=CONJ=} {звон=S,m,inan=(acc,sg|nom,sg)} {истлевать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {цимбала=S,f,inan=gen,pl}, 
+{словно=CONJ=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {дальний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рокот=S,m,inan=(acc,sg|nom,sg)}, 
+{море=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {бить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {скала=S,f,inan=gen,pl}.
+
+{вот=PART=} {я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} - {коготь=S,m,inan=(acc,pl|nom,pl)} {стальной=A=(acc,pl,plen,inan|nom,pl,plen)}
+{наклоняться=V,intr=inpraes,pl,indic,3p,ipf} {надо=ADV,praed=} {я=SPRO,sg,1p=ins},
+{словно=CONJ=} {струя=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дрожать=V,ipf,intr=inpraes,pl,indic,3p} {речной=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{озарять=V,tran=(inpraes,acc,pl,partcp,plen,ipf,pass,inan|inpraes,nom,pl,partcp,plen,ipf,pass)} {луна=S,f,inan=ins,sg}.
+
+{я=SPRO,sg,1p=nom} {пугаться=V,ipf,intr=inpraes,sg,indic,1p}, {что=SPRO,sg,n,inan=gen} {она=SPRO,sg,3p,f=(dat|ins)} {надо=ADV,praed=},
+{я=SPRO,sg,1p=nom} {не=PART=} {юноша=S,m,anim=nom,sg} {ганимед?=S,persn,m,anim=nom,sg},
+{надо=ADV,praed=} {я=SPRO,sg,1p=ins} {небо=S,n,inan=(acc,sg|nom,sg)} {эллада=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{не=PART=} {струить=V,ipf,tran=praet,sg,indic,n} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}.
+
+{если=CONJ=} {ж=PART=} {это=SPRO,sg,n,inan=(acc|nom)} {голубь=S,m,anim=nom,sg} {господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)} 
+{прилетать=V,intr=praet,sg,indic,m,pf} {сказать=V,pf,tran=inf} - {ты=SPRO,sg,2p=nom} {готовый=A=sg,brev,m}! 
+{то=CONJ=} {зачем=ADVPRO=} {же=PART=} {он=SPRO,sg,3p,m=nom} {так=ADVPRO=} {несходный=A=sg,brev,m} 
+{с=PR=} {голубь=S,m,anim=ins,pl} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сад=S,m,inan=gen,pl}?
+

@@ -1,122 +1,14 @@
-являться=V,intr=inf,pf
-_
-ль=PART=
-_
-гость=S,m,anim=ins,sg
-_
-на=PR=
-_
-пир=S,m,inan=(dat,sg|loc,sg)
-,\n
-иль=CONJ=
-_
-чтобы=CONJ=
-_
-ждать=V,ipf,tran=inf
-,_
-когда=CONJ=
-_
-умирать=V,intr=inpraes,sg,indic,1p,pf
-\n
-с=PR=
-_
-крест=S,m,inan=ins,sg
-_
-купельный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-на=PR=
-_
-спина=S,f,inan=(abl,sg|dat,sg)
-_
-ли=PART=
-,\n
-и=CONJ=
-_
-во=PR=
-_
-дворец=S,m,inan=abl,sg
-_
-иль=CONJ=
-_
-на=PR=
-_
-панель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n\n
-сгорать=V,intr=inf,ipf
-_
-ли=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-свеча=S,f,inan=ins,sg
-_
-послушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-прямой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-иль=CONJ=
-_
-спешно=ADV=
-,_
-бурно=ADV=
-,_
-оплывать=V,ipf,tran=inpraes,ger
-...\n
-или=CONJ=
-_
-как=CONJ=
-_
-капля=S,f,inan=nom,sg
-_
-дождевой=A=nom,sg,plen,f
-,_\u2014\n\n
-но=CONJ=
-_
-чтоб=CONJ=
-_
-уходить=V,intr=inf,pf
-,_
-как=CONJ=
-_
-в=PR=
-_
-лоно=S,n,inan=(acc,sg|nom,sg)
-_
-вода=S,f,inan=gen,pl
-\n
-в=PR=
-_
-туман=S,m,inan=abl,sg
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-упасть=V,pf,intr=inpraes,sg,indic,3p
-,\n
-себя=SPRO=(abl|dat)
-_
-лишь=PART=
-_
-тягостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-падение=S,n,inan=ins,sg
-\n
-туда=ADVPRO=
-,_
-на=PR=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-,_
-к=PR=
-_
-другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-каменья=S,pl,inan=dat
-.\n
+{являться=V,intr=inf,pf} {ль=PART=} {гость=S,m,anim=ins,sg} {на=PR=} {пир=S,m,inan=(dat,sg|loc,sg)},
+{иль=CONJ=} {чтобы=CONJ=} {ждать=V,ipf,tran=inf}, {когда=CONJ=} {умирать=V,intr=inpraes,sg,indic,1p,pf}
+{с=PR=} {крест=S,m,inan=ins,sg} {купельный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {на=PR=} {спина=S,f,inan=(abl,sg|dat,sg)} {ли=PART=},
+{и=CONJ=} {во=PR=} {дворец=S,m,inan=abl,sg} {иль=CONJ=} {на=PR=} {панель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+
+{сгорать=V,intr=inf,ipf} {ли=PART=} {я=SPRO,sg,1p=(abl|dat)} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{свеча=S,f,inan=ins,sg} {послушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {прямой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{иль=CONJ=} {спешно=ADV=}, {бурно=ADV=}, {оплывать=V,ipf,tran=inpraes,ger}...
+{или=CONJ=} {как=CONJ=} {капля=S,f,inan=nom,sg} {дождевой=A=nom,sg,plen,f}, —
+
+{но=CONJ=} {чтоб=CONJ=} {уходить=V,intr=inf,pf}, {как=CONJ=} {в=PR=} {лоно=S,n,inan=(acc,sg|nom,sg)} {вода=S,f,inan=gen,pl}
+{в=PR=} {туман=S,m,inan=abl,sg} {камень=S,m,inan=(acc,sg|nom,sg)} {упасть=V,pf,intr=inpraes,sg,indic,3p},
+{себя=SPRO=(abl|dat)} {лишь=PART=} {тягостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {падение=S,n,inan=ins,sg}
+{туда=ADVPRO=}, {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)}, {к=PR=} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {каменья=S,pl,inan=dat}.

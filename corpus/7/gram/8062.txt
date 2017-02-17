@@ -1,88 +1,14 @@
-близиться=V,ipf,intr=praet,sg,indic,m
-_
-сизый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-.\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-нежный=A=sg,brev,m
-_
-и=CONJ=
-_
-хмельной=A=sg,brev,m
-,\n
-и=CONJ=
-_
-отуманивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-\n
-как-то=ADVPRO=
-_
-особенно=ADV=
-_
-зеленый=A=sg,brev,m
-.\n\n
-и=CONJ=
-,_
-о=PR=
-_
-незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-твердить=V,ipf,tran=inpraes,ger
-\n
-в=PR=
-_
-туча=S,f,inan=abl,pl
-_
-таить=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,pass|inpraes,dat,sg,partcp,plen,f,pass|inpraes,gen,sg,partcp,plen,f,pass|inpraes,ins,sg,partcp,plen,f,pass)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-,_
-полный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-дождь=S,m,inan=gen,sg
-,\n
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-так=ADVPRO=
-_
-мягко=ADV=
-_
-звучать=V,ipf,intr=praet,pl,indic
-.\n\n
-вдруг=ADV=
-_\u2014_
-точно=ADV=
-_
-яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-призыв=S,m,inan=(acc,sg|nom,sg)
-,\n
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-резко=ADV=
-_
-разъяться=V,reserved=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-:\n
-мягкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пробивать=V,tran=praet,ger,pf
-,\n
-медный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-смеяться=V,ipf,intr=praet,sg,indic,n
-.\n
+{близиться=V,ipf,intr=praet,sg,indic,m} {сизый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {закат=S,m,inan=(acc,sg|nom,sg)}.
+{воздух=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {нежный=A=sg,brev,m} {и=CONJ=} {хмельной=A=sg,brev,m},
+{и=CONJ=} {отуманивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {сад=S,m,inan=(acc,sg|nom,sg)}
+{как-то=ADVPRO=} {особенно=ADV=} {зеленый=A=sg,brev,m}.
+
+{и=CONJ=}, {о=PR=} {незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {твердить=V,ipf,tran=inpraes,ger}
+{в=PR=} {туча=S,f,inan=abl,pl} {таить=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,pass|inpraes,dat,sg,partcp,plen,f,pass|inpraes,gen,sg,partcp,plen,f,pass|inpraes,ins,sg,partcp,plen,f,pass)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{в=PR=} {воздух=S,m,inan=abl,sg}, {полный=A=(abl,sg,plen,m|abl,sg,plen,n)} {дождь=S,m,inan=gen,sg},
+{труба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {так=ADVPRO=} {мягко=ADV=} {звучать=V,ipf,intr=praet,pl,indic}.
+
+{вдруг=ADV=} — {точно=ADV=} {яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {призыв=S,m,inan=(acc,sg|nom,sg)},
+{даль=S,f,inan=(acc,sg|nom,sg)} {что-то=SPRO,sg,n,inan=(abl|ins)} {резко=ADV=} {разъяться=V,reserved=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)}:
+{мягкий=A=(acc,pl,plen,inan|nom,pl,plen)} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пробивать=V,tran=praet,ger,pf},
+{медный=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {смеяться=V,ipf,intr=praet,sg,indic,n}.

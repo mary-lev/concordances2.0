@@ -1,108 +1,19 @@
-зашуметь=V,pf,intr=praet,sg,indic,f
-,_
-задрожать=V,pf,intr=praet,sg,indic,f
-,\n
-как=CONJ=
-_
-смоковница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-листва=S,sg,f,inan=nom
-,\n
-до=PR=
-_
-корень=S,m,inan=gen,pl
-_
-затрепетать=V,pf,intr=praet,sg,indic,f
-\n
-с=PR=
-_
-подмосковный=A=ins,pl,plen
-_
-москва=S,geo,f,inan=nom,sg
-.\n\n
-катить=V,ipf,tran=inpraes,sg,indic,3p
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-_
-тележка=S,f,inan=acc,sg
-\n
-по=PR=
-_
-торговый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мостовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-и=CONJ=
-_
-расхаживать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ливень=S,m,inan=(acc,sg|nom,sg)
-\n
-с=PR=
-_
-длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-плетка=S,f,inan=ins,sg
-_
-ручьевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-и=CONJ=
-_
-угодливый=A=sg,brev,n
-_
-покат=S,m,inan=gen,sg
-\n
-кажется=ADV,parenth=
-_
-земля=S,f,inan=nom,sg
-,_
-пока=ADV=
-\n
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-шум=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-брат=S,m,anim=nom,sg
-_
-на=PR=
-_
-брат=S,m,anim=(acc,sg|gen,sg)
-,\n
-восставать=V,intr=inpraes,pl,indic,3p,ipf
-_
-издалека=ADV=
-.\n\n
-капля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-прыгать=V,ipf,intr=inpraes,pl,indic,3p
-_
-галоп=S,m,inan=ins,sg
-,\n
-скакать=V,ipf,intr=inpraes,pl,indic,3p
-_
-градина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гурьба=S,f,inan=ins,sg
-\n
-с=PR=
-_
-рабский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-пот=S,m,inan=ins,sg
-,_
-конский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-топ=S,m,inan=ins,sg
-\n
-и=CONJ=
-_
-древесный=A=ins,sg,plen,f
-_
-молва=S,sg,f,inan=ins
-.\n
+{зашуметь=V,pf,intr=praet,sg,indic,f}, {задрожать=V,pf,intr=praet,sg,indic,f},
+{как=CONJ=} {смоковница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {листва=S,sg,f,inan=nom},
+{до=PR=} {корень=S,m,inan=gen,pl} {затрепетать=V,pf,intr=praet,sg,indic,f}
+{с=PR=} {подмосковный=A=ins,pl,plen} {москва=S,geo,f,inan=nom,sg}.
+
+{катить=V,ipf,tran=inpraes,sg,indic,3p} {гром=S,m,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f} {тележка=S,f,inan=acc,sg}
+{по=PR=} {торговый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мостовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{и=CONJ=} {расхаживать=V,ipf,intr=inpraes,sg,indic,3p} {ливень=S,m,inan=(acc,sg|nom,sg)}
+{с=PR=} {длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {плетка=S,f,inan=ins,sg} {ручьевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{и=CONJ=} {угодливый=A=sg,brev,n} {покат=S,m,inan=gen,sg}
+{кажется=ADV,parenth=} {земля=S,f,inan=nom,sg}, {пока=ADV=}
+{шум=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {шум=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {брат=S,m,anim=nom,sg} {на=PR=} {брат=S,m,anim=(acc,sg|gen,sg)},
+{восставать=V,intr=inpraes,pl,indic,3p,ipf} {издалека=ADV=}.
+
+{капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {прыгать=V,ipf,intr=inpraes,pl,indic,3p} {галоп=S,m,inan=ins,sg},
+{скакать=V,ipf,intr=inpraes,pl,indic,3p} {градина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гурьба=S,f,inan=ins,sg}
+{с=PR=} {рабский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {пот=S,m,inan=ins,sg}, {конский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {топ=S,m,inan=ins,sg}
+{и=CONJ=} {древесный=A=ins,sg,plen,f} {молва=S,sg,f,inan=ins}.

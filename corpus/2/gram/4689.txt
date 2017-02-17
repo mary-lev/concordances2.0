@@ -1,170 +1,20 @@
-бывать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-человек=S,m,anim=(acc,sg|gen,sg)
-\n
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-неповторимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-:\n
-кто=SPRO,sg,m,anim=nom
-_
-б=PART=
-_
-ни=PART=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-он=SPRO,sg,3p,m=nom
-:_
-старик=S,m,anim=nom,sg
-,_
-калека=S,mf,anim=nom,sg
-,\n
-как=ADVPRO=
-_
-бы=PART=
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-собственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-двойник=S,m,anim=nom,sg
-,\n
-нечеловеческий=A=pl,brev
-_
-прекрасный=A=sg,brev,m
-\n
-тогда=ADVPRO=
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-;_
-небо=S,n,inan=(acc,pl|nom,pl)
-\n
-над=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-разверстый=A=pl,brev
-;_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-ясный=A=sg,brev,m
-;\n
-уж=PART=
-_
-наплывать=V,intr=inpraes,pl,indic,3p,ipf
-_
-чудо=S,n,inan=(acc,pl|nom,pl)
-.\n
-такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-тогда=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-снова=ADV=
-,\n
-когда=CONJ=
-_
-воскресать=V,intr=praet,acc,sg,partcp,plen,f,pf,act
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-\n
-решать=V,tran=inpraes,sg,indic,3p,pf
-_
-во=PR=
-_
-слава=S,f,inan=acc,sg
-_
-бог=S,m,anim=(acc,sg|gen,sg)
--
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-к=PR=
-_
-всебытие?=S,n,inan=dat,sg
-_
-призывать=V,tran=inf,pf
-_
-господь=S,sg,m,anim=nom
-.\n
-волшебница=S,f,anim=nom,sg
-,_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-случайно=ADV,parenth=
-\n
-к=PR=
-_
-след=S,m,inan=dat,pl
-_
-ступня=S,f,inan=(gen,pl|ins,sg)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-приникать=V,intr=praet,sg,indic,m,pf
-:\n
-ведь=PART=
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-увидеть=V,pf,tran=praet,sg,indic,m
-_
-тайно=ADV=
-\n
-в=PR=
-_
-невыразимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-.\n
-ты=SPRO,sg,2p=nom
-_
-роза=S,f,inan=acc,sg
-_
-белый=A=acc,sg,plen,f
-_
-срывать=V,ipf,tran=praet,sg,indic,f
-\n
-и=CONJ=
-_
-наклоняться=V,intr=praet,sg,indic,f,ipf
-_
-к=PR=
-_
-роза=S,f,inan=(abl,sg|dat,sg)
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-а=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-сиять=V,ipf,intr=praet,sg,indic,n
-,\n
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-заливать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_
-красота=S,f,inan=ins,sg
-.\n
+{бывать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {человек=S,m,anim=(acc,sg|gen,sg)}
+{один=APRO=(acc,sg,m,inan|nom,sg,m)} {неповторимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {миг=S,m,inan=(acc,sg|nom,sg)}:
+{кто=SPRO,sg,m,anim=nom} {б=PART=} {ни=PART=} {быть=V,intr=praet,sg,indic,m,ipf} {он=SPRO,sg,3p,m=nom}: {старик=S,m,anim=nom,sg}, {калека=S,mf,anim=nom,sg},
+{как=ADVPRO=} {бы=PART=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {собственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {двойник=S,m,anim=nom,sg},
+{нечеловеческий=A=pl,brev} {прекрасный=A=sg,brev,m}
+{тогда=ADVPRO=} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}; {небо=S,n,inan=(acc,pl|nom,pl)}
+{над=PR=} {он=SPRO,sg,3p,m=ins} {разверстый=A=pl,brev}; {воздух=S,m,inan=(acc,sg|nom,sg)} {ясный=A=sg,brev,m};
+{уж=PART=} {наплывать=V,intr=inpraes,pl,indic,3p,ipf} {чудо=S,n,inan=(acc,pl|nom,pl)}.
+{такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {тогда=ADVPRO=} {он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {снова=ADV=},
+{когда=CONJ=} {воскресать=V,intr=praet,acc,sg,partcp,plen,f,pf,act} {плоть=S,f,inan=(acc,sg|nom,sg)}
+{решать=V,tran=inpraes,sg,indic,3p,pf} {во=PR=} {слава=S,f,inan=acc,sg} {бог=S,m,anim=(acc,sg|gen,sg)}-{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{к=PR=} {всебытие?=S,n,inan=dat,sg} {призывать=V,tran=inf,pf} {господь=S,sg,m,anim=nom}.
+{волшебница=S,f,anim=nom,sg}, {я=SPRO,sg,1p=nom} {не=PART=} {случайно=ADV,parenth=}
+{к=PR=} {след=S,m,inan=dat,pl} {ступня=S,f,inan=(gen,pl|ins,sg)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {приникать=V,intr=praet,sg,indic,m,pf}:
+{ведь=PART=} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {увидеть=V,pf,tran=praet,sg,indic,m} {тайно=ADV=}
+{в=PR=} {невыразимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)}.
+{ты=SPRO,sg,2p=nom} {роза=S,f,inan=acc,sg} {белый=A=acc,sg,plen,f} {срывать=V,ipf,tran=praet,sg,indic,f}
+{и=CONJ=} {наклоняться=V,intr=praet,sg,indic,f,ipf} {к=PR=} {роза=S,f,inan=(abl,sg|dat,sg)} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{а=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {над=PR=} {ты=SPRO,sg,2p=ins} {сиять=V,ipf,intr=praet,sg,indic,n},
+{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {заливать=V,tran=praet,sg,partcp,brev,n,pf,pass} {красота=S,f,inan=ins,sg}.

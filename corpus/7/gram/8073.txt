@@ -1,130 +1,17 @@
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-день=S,m,inan=gen,sg
-_
-здесь=ADVPRO=
-_
-шептать=V,ipf,tran=inpraes,pl,indic,3p
-:_
-прямой=A=sg,brev,m
-_
-и=CONJ=
-_
-немой=A=sg,brev,m
-\n
-все=ADV=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-гость=S,m,anim=nom,sg
-_
-в=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-,\n
-и=CONJ=
-_
-вянуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-космы=S,pl,inan=(acc|nom)
-_
-хризантема=S,f,inan=gen,pl
-\n
-в=PR=
-_
-удушливый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-дым=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n\n
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-мыслить=V,ipf,tran=inpraes,sg,indic,1p
-:_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=dat
-,\n
-но=CONJ=
-_
-мы=SPRO,pl,1p=dat
--
-то=PART=
-,_
-мы=SPRO,pl,1p=dat
--
-то=CONJ=
-_
-все=SPRO,pl=dat
-,\n
-иль=CONJ=
-_
-люк=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-тот=APRO=acc,sg,f
-_
-смрадный=A=acc,sg,plen,f
-_
-тюрьма=S,f,inan=acc,sg
-\n
-захлопываться=V,intr=praet,sg,indic,m,pf
-_
-совсем=ADV=
-?\n\n\xAB
-ах=INTJ=
-!_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мертвец=S,m,anim=nom,sg
-!_
-но=CONJ=
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-,_
-вдова=S,f,anim=nom,sg
-...\xBB\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-лишь=PART=
-_
-ужас=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-зеркало=S,n,inan=abl,pl
-\n\n
-здесь=ADVPRO=
-_
-молить=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-с=PR=
-_
-поясной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-поклон=S,m,inan=ins,sg
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-\n
-мы=SPRO,pl,1p=dat
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-раздавать=V=inpraes,sg,indic,3p,ipf,tran
-.\n
+{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {день=S,m,inan=gen,sg} {здесь=ADVPRO=} {шептать=V,ipf,tran=inpraes,pl,indic,3p}: {прямой=A=sg,brev,m} {и=CONJ=} {немой=A=sg,brev,m}
+{все=ADV=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {гость=S,m,anim=nom,sg} {в=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)},
+{и=CONJ=} {вянуть=V,ipf,intr=inpraes,pl,indic,3p} {космы=S,pl,inan=(acc|nom)} {хризантема=S,f,inan=gen,pl}
+{в=PR=} {удушливый=A=(abl,sg,plen,m|abl,sg,plen,n)} {дым=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+
+{глядеть=V,ipf,tran=inpraes,sg,indic,1p} {и=CONJ=} {мыслить=V,ipf,tran=inpraes,sg,indic,1p}: {мир=S,m,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=dat},
+{но=CONJ=} {мы=SPRO,pl,1p=dat}-{то=PART=}, {мы=SPRO,pl,1p=dat}-{то=CONJ=} {все=SPRO,pl=dat},
+{иль=CONJ=} {люк=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {тот=APRO=acc,sg,f} {смрадный=A=acc,sg,plen,f} {тюрьма=S,f,inan=acc,sg}
+{захлопываться=V,intr=praet,sg,indic,m,pf} {совсем=ADV=}?
+
+«{ах=INTJ=}! {что=SPRO,sg,n,inan=(acc|nom)} {мертвец=S,m,anim=nom,sg}! {но=CONJ=} {дочь=S,f,anim=(acc,sg|nom,sg)}, {вдова=S,f,anim=nom,sg}...»
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{лишь=PART=} {ужас=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {зеркало=S,n,inan=abl,pl}
+
+{здесь=ADVPRO=} {молить=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {петь=V,ipf,tran=inpraes,sg,indic,3p}
+{и=CONJ=} {с=PR=} {поясной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {поклон=S,m,inan=ins,sg} {страх=S,m,inan=(acc,sg|nom,sg)}
+{мы=SPRO,pl,1p=dat} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {раздавать=V=inpraes,sg,indic,3p,ipf,tran}.

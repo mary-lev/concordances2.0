@@ -1,82 +1,19 @@
-золотистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-фея=S,f,anim=(gen,sg|nom,pl)
-\n
-в=PR=
-_
-атласный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-!\n
-когда=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-\n
-ледяной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-аллея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n\n
-влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-наяда=S,f,anim=(acc,pl|gen,pl)
-\n
-серебристый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-всплеск=S,m,inan=(acc,pl|nom,pl)
-!\n
-где=ADVPRO=
-_
-ревнивый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-доска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вы=SPRO,pl,2p=dat
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-преграждать=V,intr=inpraes,pl,indic,3p,pf
-?\n\n
-непонятный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ваза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-огонь=S,m,inan=ins,sg
-_
-озарь?=S,m,anim=(acc,sg|gen,sg)
-,\n
-застыть=V,pf,intr=praet,sg,indic,f
-_
-заря=S,f,inan=nom,sg
-\n
-над=PR=
-_
-полет=S,m,inan=ins,sg
-_
-фантазия=S,f,inan=gen,pl
-.\n\n
-за=PR=
-_
-мрак=S,m,inan=ins,sg
-_
-завеса=S,f,inan=gen,pl
-\n
-погребальный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-урна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-_
-лазурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-обманчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-звезда=S,f,inan=gen,pl
-.\n
+{золотистый=A=(acc,pl,plen,inan|nom,pl,plen)} {фея=S,f,anim=(gen,sg|nom,pl)}
+{в=PR=} {атласный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сад=S,m,inan=(dat,sg|loc,sg)}!
+{когда=CONJ=} {я=SPRO,sg,1p=nom} {находить=V=inpraes,sg,indic,1p,pf,tran}
+{ледяной=A=(acc,pl,plen,inan|nom,pl,plen)} {аллея=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+
+{влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {наяда=S,f,anim=(acc,pl|gen,pl)}
+{серебристый=A=(acc,pl,plen,inan|nom,pl,plen)} {всплеск=S,m,inan=(acc,pl|nom,pl)}!
+{где=ADVPRO=} {ревнивый=A=(acc,pl,plen,inan|nom,pl,plen)} {доска=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{вы=SPRO,pl,2p=dat} {путь=S,m,inan=(acc,sg|nom,sg)} {преграждать=V,intr=inpraes,pl,indic,3p,pf}?
+
+{непонятный=A=(acc,pl,plen,inan|nom,pl,plen)} {ваза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{огонь=S,m,inan=ins,sg} {озарь?=S,m,anim=(acc,sg|gen,sg)},
+{застыть=V,pf,intr=praet,sg,indic,f} {заря=S,f,inan=nom,sg}
+{над=PR=} {полет=S,m,inan=ins,sg} {фантазия=S,f,inan=gen,pl}.
+
+{за=PR=} {мрак=S,m,inan=ins,sg} {завеса=S,f,inan=gen,pl}
+{погребальный=A=(acc,pl,plen,inan|nom,pl,plen)} {урна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {свод=S,m,inan=(acc,sg|nom,sg)} {лазурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{обманчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {звезда=S,f,inan=gen,pl}.

@@ -1,76 +1,9 @@
-образ=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-мучительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-_
-осязать=V,ipf,tran=inf
-.\n\xAB
-господи=INTJ=
-!\xBB_\u2014_
-сказать=V,pf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_
-по=PR=
-_
-ошибка=S,f,inan=(abl,sg|dat,sg)
-,\n
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-то=SPRO,sg,n,inan=gen
-_
-не=PART=
-_
-думать=V,ipf,intr=inpraes,ger
-_
-сказать=V,pf,tran=inf
-.\n|\n
-божий=A,plen=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-большой=A=nom,sg,plen,f
-_
-птица=S,f,anim=nom,sg
-,\n
-вылетать=V,intr=praet,sg,indic,n,pf
-_
-из=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
-впереди=PR=
-_
-густой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-_
-клубиться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-пустой=A=nom,sg,plen,f
-_
-клетка=S,f,inan=nom,sg
-_
-позади=ADV=
-...\n
+{образ=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)}, {мучительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{я=SPRO,sg,1p=nom} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m} {в=PR=} {туман=S,m,inan=abl,sg} {осязать=V,ipf,tran=inf}.
+«{господи=INTJ=}!» — {сказать=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {по=PR=} {ошибка=S,f,inan=(abl,sg|dat,sg)},
+{сам=APRO=(acc,sg,m,inan|nom,sg,m)} {то=SPRO,sg,n,inan=gen} {не=PART=} {думать=V,ipf,intr=inpraes,ger} {сказать=V,pf,tran=inf}.
+|
+{божий=A,plen=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)}, {как=CONJ=} {большой=A=nom,sg,plen,f} {птица=S,f,anim=nom,sg},
+{вылетать=V,intr=praet,sg,indic,n,pf} {из=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+{впереди=PR=} {густой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {туман=S,m,inan=(acc,sg|nom,sg)} {клубиться=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {пустой=A=nom,sg,plen,f} {клетка=S,f,inan=nom,sg} {позади=ADV=}...

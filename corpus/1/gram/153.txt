@@ -1,138 +1,19 @@
-на=PR=
-_
-темный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-порог=S,m,inan=abl,sg
-_
-тайком=ADV=
-_\n
-святой=S,m,anim=nom,pl
-_
-шептать=V,ipf,tran=inpraes,sg,indic,1p
-_
-имя=S,n,inan=(acc,pl|nom,pl)
-._\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-храм=S,m,inan=abl,sg
-_
-вдвоем=ADV=
-,_\n
-ты=SPRO,sg,2p=nom
-_
-думать=V,ipf,intr=inpraes,sg,indic,2p
-:_
-здесь=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-один=APRO=nom,sg,f
-...\n\n
-я=SPRO,sg,1p=nom
-_
-слушать=V,ipf,tran=inpraes,sg,indic,1p
-_
-вздох=S,m,inan=(acc,pl|nom,pl)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\n
-в=PR=
-_
-какой-то=APRO=(abl,sg,m|abl,sg,n)
-_
-несбыточный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сон=S,m,inan=abl,sg
-..._\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-о=PR=
-_
-какой-то=APRO=(acc,sg,m,anim|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-..._\n
-и=CONJ=
-,_
-боже=S,voc,sg,m,anim=
-!_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-обо=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-...\n\n
-но=CONJ=
-_
-снова=ADV=
-_
-кругом=ADV=
-_
-тишина=S,sg,f,inan=nom
-,_\n
-и=CONJ=
-_
-плакать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-затихать=V,intr=praet,sg,indic,m,pf
-..._\n
-и=CONJ=
-_
-снова=ADV=
-_
-шептать=V,ipf,tran=inpraes,sg,indic,1p
-_
-имя=S,n,inan=(acc,pl|nom,pl)
-_\n
-безумно=ADV=
-_
-забывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-святой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-_-_
-все=ADV=
-_
-гора=S,f,inan=(abl,sg|dat,sg)
-_-_
-все=ADV=
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-!_\n
-дрожать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-и=CONJ=
-_
-молиться=V,ipf,intr=inpraes,sg,indic,1p
-,_
-и=CONJ=
-_
-шептать=V,ipf,tran=inpraes,sg,indic,1p
-..._\n
-о=INTJ=
-,_
-если=CONJ=
-_
-крыло=S,n,inan=ins,pl
-_
-взмахивать=V,intr=inpraes,sg,indic,2p,pf
-,_\n
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-навсегда=ADV=
-_
-улетать=V,intr=inpraes,sg,indic,1p,pf
-!..\n
+{на=PR=} {темный=A=(abl,sg,plen,m|abl,sg,plen,n)} {порог=S,m,inan=abl,sg} {тайком=ADV=} 
+{святой=S,m,anim=nom,pl} {шептать=V,ipf,tran=inpraes,sg,indic,1p} {имя=S,n,inan=(acc,pl|nom,pl)}. 
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}: {мы=SPRO,pl,1p=nom} {в=PR=} {храм=S,m,inan=abl,sg} {вдвоем=ADV=}, 
+{ты=SPRO,sg,2p=nom} {думать=V,ipf,intr=inpraes,sg,indic,2p}: {здесь=ADVPRO=} {ты=SPRO,sg,2p=nom} {один=APRO=nom,sg,f}...
+
+{я=SPRO,sg,1p=nom} {слушать=V,ipf,tran=inpraes,sg,indic,1p} {вздох=S,m,inan=(acc,pl|nom,pl)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} 
+{в=PR=} {какой-то=APRO=(abl,sg,m|abl,sg,n)} {несбыточный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сон=S,m,inan=abl,sg}... 
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {о=PR=} {какой-то=APRO=(acc,sg,m,anim|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}... 
+{и=CONJ=}, {боже=S,voc,sg,m,anim=}! {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {обо=PR=} {я=SPRO,sg,1p=(abl|dat)}...
+
+{но=CONJ=} {снова=ADV=} {кругом=ADV=} {тишина=S,sg,f,inan=nom}, 
+{и=CONJ=} {плакать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {голос=S,m,inan=(acc,sg|nom,sg)} {затихать=V,intr=praet,sg,indic,m,pf}... 
+{и=CONJ=} {снова=ADV=} {шептать=V,ipf,tran=inpraes,sg,indic,1p} {имя=S,n,inan=(acc,pl|nom,pl)} 
+{безумно=ADV=} {забывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} - {все=ADV=} {гора=S,f,inan=(abl,sg|dat,sg)} - {все=ADV=} {ложь=S,f,inan=(acc,sg|nom,sg)}! 
+{дрожать=V,ipf,intr=inpraes,sg,indic,1p}, {и=CONJ=} {молиться=V,ipf,intr=inpraes,sg,indic,1p}, {и=CONJ=} {шептать=V,ipf,tran=inpraes,sg,indic,1p}... 
+{о=INTJ=}, {если=CONJ=} {крыло=S,n,inan=ins,pl} {взмахивать=V,intr=inpraes,sg,indic,2p,pf}, 
+{с=PR=} {ты=SPRO,sg,2p=ins} {навсегда=ADV=} {улетать=V,intr=inpraes,sg,indic,1p,pf}!..

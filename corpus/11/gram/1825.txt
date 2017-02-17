@@ -1,156 +1,24 @@
-дряхлый=A=nom,sg,plen,f
-,_
-выпадать=V,intr=praet,pl,indic,pf
-_
-зуб=S,m,inan=(acc,pl|nom,pl)
-,\n
-свиток=S,m,inan=(acc,sg|nom,sg)
-_
-год=S,m,inan=gen,pl
-_
-на=PR=
-_
-рог=S,m,inan=abl,pl
-.\n
-бить=V,ipf,tran=praet,sg,indic,m
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-выгонщик=S,m,anim=nom,sg
-_
-грубый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-на=PR=
-_
-перегонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поле=S,n,inan=abl,pl
-.\n\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-ласково=ADV=
-_
-к=PR=
-_
-шум=S,m,inan=(dat,sg|part,sg)
-,\n
-мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-скрести=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-уголок=S,m,inan=abl,sg
-.\n
-думать=V,ipf,intr=inpraes,sg,indic,3p
-_
-грустный=A=acc,sg,plen,f
-_
-дума=S,f,inan=acc,sg
-\n
-о=PR=
-_
-белоногий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-телка=S,f,anim=(abl,sg|dat,sg)
-.\n\n
-не=PART=
-_
-давать=V,tran=praet,pl,indic,pf
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-,\n
-первый=ANUM=nom,sg,f
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-прок=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-на=PR=
-_
-кол=S,m,inan=(dat,sg|loc,sg)
-_
-под=PR=
-_
-осина=S,f,inan=ins,sg
-\n
-шкура=S,f,inan=acc,sg
-_
-трепать=V,ipf,tran=praet,sg,indic,m
-_
-ветерок=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-скоро=ADV=
-_
-на=PR=
-_
-гречневый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-свей?=S,m,inan=abl,sg
-,\n
-с=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-же=PART=
-_
-сыновний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-судьба=S,f,inan=ins,sg
-,\n
-связывать=V=inpraes,pl,indic,3p,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-петля=S,f,inan=acc,sg
-_
-на=PR=
-_
-шея=S,f,inan=(abl,sg|dat,sg)
-\n
-и=CONJ=
-_
-поводить=V,intr=inpraes,pl,indic,3p,pf
-_
-на=PR=
-_
-убой=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-жалобно=ADV=
-,_
-грустно=ADV=
-_
-и=CONJ=
-_
-тощий=A=sg,brev,n
-\n
-в=PR=
-_
-земля=S,f,inan=acc,sg
-_
-впиваться=V,intr=inpraes,pl,indic,3p,pf
-_
-рог=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-белый=A=nom,sg,plen,f
-_
-роща=S,f,inan=nom,sg
-\n
-и=CONJ=
-_
-травяной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-луг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{дряхлый=A=nom,sg,plen,f}, {выпадать=V,intr=praet,pl,indic,pf} {зуб=S,m,inan=(acc,pl|nom,pl)},
+{свиток=S,m,inan=(acc,sg|nom,sg)} {год=S,m,inan=gen,pl} {на=PR=} {рог=S,m,inan=abl,pl}.
+{бить=V,ipf,tran=praet,sg,indic,m} {она=SPRO,sg,3p,f=(acc|gen)} {выгонщик=S,m,anim=nom,sg} {грубый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{на=PR=} {перегонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=abl,pl}.
+
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {ласково=ADV=} {к=PR=} {шум=S,m,inan=(dat,sg|part,sg)},
+{мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {скрести=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {уголок=S,m,inan=abl,sg}.
+{думать=V,ipf,intr=inpraes,sg,indic,3p} {грустный=A=acc,sg,plen,f} {дума=S,f,inan=acc,sg}
+{о=PR=} {белоногий=A=(abl,sg,plen,m|abl,sg,plen,n)} {телка=S,f,anim=(abl,sg|dat,sg)}.
+
+{не=PART=} {давать=V,tran=praet,pl,indic,pf} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {сын=S,m,anim=(acc,sg|gen,sg)},
+{первый=ANUM=nom,sg,f} {радость=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {прок=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {на=PR=} {кол=S,m,inan=(dat,sg|loc,sg)} {под=PR=} {осина=S,f,inan=ins,sg}
+{шкура=S,f,inan=acc,sg} {трепать=V,ipf,tran=praet,sg,indic,m} {ветерок=S,m,inan=(acc,sg|nom,sg)}.
+
+{скоро=ADV=} {на=PR=} {гречневый=A=(abl,sg,plen,m|abl,sg,plen,n)} {свей?=S,m,inan=abl,sg},
+{с=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} {сыновний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {судьба=S,f,inan=ins,sg},
+{связывать=V=inpraes,pl,indic,3p,pf} {она=SPRO,sg,3p,f=(dat|ins)} {петля=S,f,inan=acc,sg} {на=PR=} {шея=S,f,inan=(abl,sg|dat,sg)}
+{и=CONJ=} {поводить=V,intr=inpraes,pl,indic,3p,pf} {на=PR=} {убой=S,m,inan=(acc,sg|nom,sg)}.
+
+{жалобно=ADV=}, {грустно=ADV=} {и=CONJ=} {тощий=A=sg,brev,n}
+{в=PR=} {земля=S,f,inan=acc,sg} {впиваться=V,intr=inpraes,pl,indic,3p,pf} {рог=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+{сниться=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=(dat|ins)} {белый=A=nom,sg,plen,f} {роща=S,f,inan=nom,sg}
+{и=CONJ=} {травяной=A=(acc,pl,plen,inan|nom,pl,plen)} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}.

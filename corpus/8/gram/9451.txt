@@ -1,72 +1,14 @@
-безмолвный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-свидетель=S,m,anim=nom,pl
-\n
-вечерний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сожаление=S,n,inan=gen,pl
-,\n
-я=SPRO,sg,1p=(acc|gen)
-_
-перст=S,m,inan=ins,sg
-_
-отмечать=V,tran=praet,pl,indic,pf
-\n
-собираться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-отвергать=V,tran=praet,pl,partcp,brev,pf,pass
-,_
-обманывать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-растаптывать=V=praet,pl,partcp,brev,pf,pass
-,_
-добивать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-но=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-вы=SPRO,pl,2p=nom
-_
-упоминать=V,tran=praet,pl,partcp,brev,pf,pass
-\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-с=PR=
-_
-мечта=S,f,inan=ins,pl
-_
-сливать=V=praet,pl,partcp,brev,pf,pass
-.\n\n
-и=CONJ=
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-не=PART=
-_
-отчаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-и=CONJ=
-_
-стон=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-символ=S,m,inan=(acc,sg|nom,sg)
-_
-мщение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-о=PR=
-_
-благостный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-чаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-всемирный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{безмолвный=A=(acc,pl,plen,inan|nom,pl,plen)} {свидетель=S,m,anim=nom,pl}
+{вечерний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сожаление=S,n,inan=gen,pl},
+{я=SPRO,sg,1p=(acc|gen)} {перст=S,m,inan=ins,sg} {отмечать=V,tran=praet,pl,indic,pf}
+{собираться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{отвергать=V,tran=praet,pl,partcp,brev,pf,pass}, {обманывать=V,tran=praet,pl,partcp,brev,pf,pass},
+{растаптывать=V=praet,pl,partcp,brev,pf,pass}, {добивать=V,tran=praet,pl,partcp,brev,pf,pass},
+{но=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {вы=SPRO,pl,2p=nom} {упоминать=V,tran=praet,pl,partcp,brev,pf,pass}
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {с=PR=} {мечта=S,f,inan=ins,pl} {сливать=V=praet,pl,partcp,brev,pf,pass}.
+
+{и=CONJ=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {не=PART=} {отчаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{и=CONJ=} {стон=S,m,inan=(acc,sg|nom,sg)} — {не=PART=} {символ=S,m,inan=(acc,sg|nom,sg)} {мщение=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{о=PR=} {благостный=A=(acc,sg,plen,n|nom,sg,plen,n)} {чаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{всемирный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)}!

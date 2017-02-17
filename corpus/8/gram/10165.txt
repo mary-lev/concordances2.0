@@ -1,134 +1,24 @@
-все=ADV=
-_
-каменный=A=comp
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-крутой=A=comp
-,_
-круча=S,f,inan=(abl,sg|dat,sg)
-_
-всход?=S,m,inan=(acc,sg|nom,sg)
-.\n
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-достижение=S,n,inan=gen,pl
-\n
-еще=ADV=
-_
-влечь=V,ipf,tran=inpraes,sg,indic,3p
-_
-вперед=ADV=
-.\n\n
-но=CONJ=
-_
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-безнадежно=ADV=comp
-\n
-под=PR=
-_
-пыль=S,f,inan=ins,sg
-_
-долгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-.\n
-уверенность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-прежний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-упорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-нет=ADV,praed=
-.\n\n
-помедлить=V,pf,intr=praet,ger
-_
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-бросать=V=inpraes,sg,indic,1p,ipf,tran
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-назад=ADV=
-:\n
-как=CONJ=
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-звено=S,n,inan=(acc,pl|nom,pl)
-_\u2014\n
-ступень=S,f,inan=gen,pl
-_
-острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ряд=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-ужель=PART=
-_
-в=PR=
-_
-былой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ступать=V,intr=praet,sg,indic,f,ipf
-\n
-на=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-нога=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-?\n
-давно=ADV=
-_
-уходить=V,intr=praet,sg,indic,n,pf
-_
-начало=S,n,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-безбрежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-и=CONJ=
-_
-лестница=S,f,inan=nom,sg
-_
-все=SPRO,pl=(acc|nom)
-_
-крутой=A=comp
-...\n
-не=PART=
-_
-оступаться=V,intr=inpraes,sg,indic,1p,pf
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-,\n
-чтоб=CONJ=
-_
-становиться=V,intr=inf,pf
-_
-звезда=S,f,inan=ins,sg
-_
-падучая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-\n
-на=PR=
-_
-небо=S,n,inan=abl,sg
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?\n
+{все=ADV=} {каменный=A=comp} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{все=SPRO,pl=(acc|nom)} {крутой=A=comp}, {круча=S,f,inan=(abl,sg|dat,sg)} {всход?=S,m,inan=(acc,sg|nom,sg)}.
+{желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {достижение=S,n,inan=gen,pl}
+{еще=ADV=} {влечь=V,ipf,tran=inpraes,sg,indic,3p} {вперед=ADV=}.
+
+{но=CONJ=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {безнадежно=ADV=comp}
+{под=PR=} {пыль=S,f,inan=ins,sg} {долгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl}.
+{уверенность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {прежний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {упорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {нет=ADV,praed=}.
+
+{помедлить=V,pf,intr=praet,ger} {на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{бросать=V=inpraes,sg,indic,1p,ipf,tran} {взгляд=S,m,inan=(acc,sg|nom,sg)} {назад=ADV=}:
+{как=CONJ=} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {звено=S,n,inan=(acc,pl|nom,pl)} —
+{ступень=S,f,inan=gen,pl} {острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ряд=S,m,inan=(acc,sg|nom,sg)}.
+
+{ужель=PART=} {в=PR=} {былой=A=(abl,sg,plen,m|abl,sg,plen,n)} {ступать=V,intr=praet,sg,indic,f,ipf}
+{на=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {нога=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}?
+{давно=ADV=} {уходить=V,intr=praet,sg,indic,n,pf} {начало=S,n,inan=(acc,sg|nom,sg)},
+{в=PR=} {безбрежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+
+{и=CONJ=} {лестница=S,f,inan=nom,sg} {все=SPRO,pl=(acc|nom)} {крутой=A=comp}...
+{не=PART=} {оступаться=V,intr=inpraes,sg,indic,1p,pf} {ли=PART=} {я=SPRO,sg,1p=nom},
+{чтоб=CONJ=} {становиться=V,intr=inf,pf} {звезда=S,f,inan=ins,sg} {падучая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+{на=PR=} {небо=S,n,inan=abl,sg} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}?

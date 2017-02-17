@@ -1,104 +1,17 @@
-не=PART=
-_
-мастер=S,m,anim=nom,sg
-_
-тир=S,m,inan=gen,sg
-_
-иль=CONJ=
-_
-багдат=S,persn,m,anim=(acc,sg|gen,sg)
-,\n
-лишь=PART=
-_
-дева=S,f,anim=(gen,sg|nom,pl)
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-перст=S,m,inan=(acc,pl|nom,pl)
-\n
-суметь=V,pf,intr=praet,pl,indic
-_
-вырезать=V,tran=(inf,ipf|inf,pf)
-_
-когда-то=ADVPRO=
-\n
-лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,-\n\n
-с=PR=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-пора=S,f,inan=gen,pl
-_
-в=PR=
-_
-отрава=S,f,inan=(abl,sg|dat,sg)
-_
-аромат=S,m,inan=gen,sg
-\n
-жить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-таинственно=ADV=
-_
-сливать=V=praet,pl,partcp,brev,pf,pass
-,\n
-обетование=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-утрата=S,f,inan=nom,sg
-\n
-неразделенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-жить=V,ipf,intr=inpraes,pl,indic,3p
-_
-любовь=S,f,inan=ins,sg
-_
-без=PR=
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-незаполнимый?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_...\n
-и=CONJ=
-_
-если=CONJ=
-_
-чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-аллея=S,f,inan=gen,pl
-\n\n
-встревожить=V,pf,tran=inpraes,sg,indic,3p
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-сребролукий?=S,persn,m,anim=nom,sg
-,\n
-весь=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-потом=ADVPRO=
-_
-уста=S,pl,inan=(acc|nom)
-_
-лиля=S,persn,f,anim=ins,sg
-\n
-там=ADVPRO=
-_
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-ладан=S,m,inan=ins,sg
-_
-разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{не=PART=} {мастер=S,m,anim=nom,sg} {тир=S,m,inan=gen,sg} {иль=CONJ=} {багдат=S,persn,m,anim=(acc,sg|gen,sg)},
+{лишь=PART=} {дева=S,f,anim=(gen,sg|nom,pl)} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {перст=S,m,inan=(acc,pl|nom,pl)}
+{суметь=V,pf,intr=praet,pl,indic} {вырезать=V,tran=(inf,ipf|inf,pf)} {когда-то=ADVPRO=}
+{лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {лист=S,m,inan=(acc,pl|nom,pl)},-
+
+{с=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} {в=PR=} {отрава=S,f,inan=(abl,sg|dat,sg)} {аромат=S,m,inan=gen,sg}
+{жить=V,ipf,intr=inpraes,pl,indic,3p}, {таинственно=ADV=} {сливать=V=praet,pl,partcp,brev,pf,pass},
+{обетование=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {утрата=S,f,inan=nom,sg}
+{неразделенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{жить=V,ipf,intr=inpraes,pl,indic,3p} {любовь=S,f,inan=ins,sg} {без=PR=} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{незаполнимый?=A=(acc,pl,plen,inan|nom,pl,plen)} {мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} ...
+{и=CONJ=} {если=CONJ=} {чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {аллея=S,f,inan=gen,pl}
+
+{встревожить=V,pf,tran=inpraes,sg,indic,3p} {месяц=S,m,inan=(acc,sg|nom,sg)} {сребролукий?=S,persn,m,anim=nom,sg},
+{весь=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {потом=ADVPRO=} {уста=S,pl,inan=(acc|nom)} {лиля=S,persn,f,anim=ins,sg}
+{там=ADVPRO=} {дышать=V,ipf,intr=inpraes,pl,indic,3p} {ладан=S,m,inan=ins,sg} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

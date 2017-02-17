@@ -1,130 +1,24 @@
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-несозданный=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-создание=S,n,inan=gen,pl
-\n
-колыхаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-,\n
-словно=CONJ=
-_
-лопасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-латания=S,f,inan=gen,pl
-\n
-на=PR=
-_
-эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-фиолетовый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-\n
-полусонно=ADV=
-_
-чертить=V,ipf,tran=inpraes,pl,indic,3p
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-звонко=ADV=
--
-звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-.\n\n
-и=CONJ=
-_
-прозрачный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-киоск=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-звонко=ADV=
--
-звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-\n
-вырастать=V,intr=inpraes,pl,indic,3p,ipf
-,_
-словно=CONJ=
-_
-блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-при=PR=
-_
-лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-всходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-обнаженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-при=PR=
-_
-лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-...\n
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-реять=V,ipf,intr=inpraes,pl,indic,3p
-_
-полусонно=ADV=
-,\n
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-ластиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-создавать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-создание=S,n,inan=gen,pl
-\n
-с=PR=
-_
-ласка=S,f,inan=ins,sg
-_
-ластиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-,\n
-и=CONJ=
-_
-трепетать=V,ipf,intr=inpraes,sg,indic,3p
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-латания=S,f,inan=gen,pl
-\n
-на=PR=
-_
-эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-.\n
+{тень=S,f,inan=(acc,sg|nom,sg)} {несозданный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {создание=S,n,inan=gen,pl}
+{колыхаться=V,ipf,intr=inpraes,sg,indic,3p} {во=PR=} {сон=S,m,inan=abl,sg},
+{словно=CONJ=} {лопасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {латания=S,f,inan=gen,pl}
+{на=PR=} {эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стена=S,f,inan=(abl,sg|dat,sg)}.
+
+{фиолетовый=A=(acc,pl,plen,inan|nom,pl,plen)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стена=S,f,inan=(abl,sg|dat,sg)}
+{полусонно=ADV=} {чертить=V,ipf,tran=inpraes,pl,indic,3p} {звук=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {звонко=ADV=}-{звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=(abl|dat)}.
+
+{и=CONJ=} {прозрачный=A=(acc,pl,plen,inan|nom,pl,plen)} {киоск=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {звонко=ADV=}-{звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=(abl|dat)}
+{вырастать=V,intr=inpraes,pl,indic,3p,ipf}, {словно=CONJ=} {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{при=PR=} {лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(abl,sg|dat,sg)}.
+
+{всходить=V,intr=inpraes,sg,indic,3p,ipf} {месяц=S,m,inan=(acc,sg|nom,sg)} {обнаженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{при=PR=} {лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(abl,sg|dat,sg)}...
+{звук=S,m,inan=(acc,pl|nom,pl)} {реять=V,ipf,intr=inpraes,pl,indic,3p} {полусонно=ADV=},
+{звук=S,m,inan=(acc,pl|nom,pl)} {ластиться=V,ipf,intr=inpraes,pl,indic,3p} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}.
+
+{тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {создавать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {создание=S,n,inan=gen,pl}
+{с=PR=} {ласка=S,f,inan=ins,sg} {ластиться=V,ipf,intr=inpraes,pl,indic,3p} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)},
+{и=CONJ=} {трепетать=V,ipf,intr=inpraes,sg,indic,3p} {тень=S,f,inan=(acc,sg|nom,sg)} {латания=S,f,inan=gen,pl}
+{на=PR=} {эмалевый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стена=S,f,inan=(abl,sg|dat,sg)}.

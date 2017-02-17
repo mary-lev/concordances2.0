@@ -1,116 +1,14 @@
-мы=SPRO,pl,1p=nom
-_
-идти=V,ipf,intr=praet,pl,indic
-_
-на=PR=
-_
-лидо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-рассвет=S,m,inan=gen,sg
-_\n
-под=PR=
-_
-сеть=S,f,inan=ins,sg
-_
-тонкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-дождь=S,m,inan=gen,sg
-._\n
-ты=SPRO,sg,2p=nom
-_
-отходить=V,intr=praet,sg,indic,f,pf
-,_
-не=PART=
-_
-давать=V,tran=praet,ger,pf
-_
-ответ=S,m,inan=gen,sg
-,_\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-уснуть=V,pf,intr=praet,sg,indic,m
-,_
-к=PR=
-_
-волна=S,f,inan=dat,pl
-_
-сходить=V,intr=praet,ger,pf
-.\n\n
-я=SPRO,sg,1p=nom
-_
-чутко=ADV=
-_
-спать=V,ipf,intr=praet,sg,indic,m
-,_
-раскидывать=V=praet,ger,pf
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-и=CONJ=
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-_
-мерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плеск=S,m,inan=(acc,sg|nom,sg)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-манить=V,ipf,tran=praet,pl,indic
-_
-страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дрожь=S,f,inan=ins,sg
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-,_\n
-в=PR=
-_
-колдунья=S,f,anim=acc,sg
--
-птица=S,f,anim=acc,sg
-_
-влюбленный=A=pl,brev
-.\n\n
-и=CONJ=
-_
-чайка=S,f,anim=nom,sg
-_-_
-птица=S,f,anim=nom,sg
-,_
-чайка=S,f,anim=nom,sg
-_-_
-дева=S,f,anim=nom,sg
-_\n
-все=ADV=
-_
-опускаться=V,intr=praet,sg,indic,f,ipf
-_
-и=CONJ=
-_
-плыть=V,ipf,intr=praet,sg,indic,f
-_\n
-в=PR=
-_
-волна=S,f,inan=abl,pl
-_
-влюбленный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-напев=S,m,inan=gen,sg
-,_\n
-который=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-ты=SPRO,sg,2p=nom
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-жить=V,ipf,intr=praet,sg,indic,f
-.\n
+{мы=SPRO,pl,1p=nom} {идти=V,ipf,intr=praet,pl,indic} {на=PR=} {лидо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {рассвет=S,m,inan=gen,sg} 
+{под=PR=} {сеть=S,f,inan=ins,sg} {тонкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дождь=S,m,inan=gen,sg}. 
+{ты=SPRO,sg,2p=nom} {отходить=V,intr=praet,sg,indic,f,pf}, {не=PART=} {давать=V,tran=praet,ger,pf} {ответ=S,m,inan=gen,sg}, 
+{а=CONJ=} {я=SPRO,sg,1p=nom} {уснуть=V,pf,intr=praet,sg,indic,m}, {к=PR=} {волна=S,f,inan=dat,pl} {сходить=V,intr=praet,ger,pf}.
+
+{я=SPRO,sg,1p=nom} {чутко=ADV=} {спать=V,ipf,intr=praet,sg,indic,m}, {раскидывать=V=praet,ger,pf} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{и=CONJ=} {слышать=V,ipf,tran=praet,sg,indic,m} {мерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плеск=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+{манить=V,ipf,tran=praet,pl,indic} {страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дрожь=S,f,inan=ins,sg} {звук=S,m,inan=(acc,pl|nom,pl)}, 
+{в=PR=} {колдунья=S,f,anim=acc,sg}-{птица=S,f,anim=acc,sg} {влюбленный=A=pl,brev}.
+
+{и=CONJ=} {чайка=S,f,anim=nom,sg} - {птица=S,f,anim=nom,sg}, {чайка=S,f,anim=nom,sg} - {дева=S,f,anim=nom,sg} 
+{все=ADV=} {опускаться=V,intr=praet,sg,indic,f,ipf} {и=CONJ=} {плыть=V,ipf,intr=praet,sg,indic,f} 
+{в=PR=} {волна=S,f,inan=abl,pl} {влюбленный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {напев=S,m,inan=gen,sg}, 
+{который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {ты=SPRO,sg,2p=nom} {во=PR=} {я=SPRO,sg,1p=(abl|dat)} {жить=V,ipf,intr=praet,sg,indic,f}.

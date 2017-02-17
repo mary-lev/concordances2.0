@@ -1,66 +1,9 @@
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-вещий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-в=PR=
-_
-стих=S,m,inan=abl,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-\n
-животворящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-они=SPRO,pl=(acc|gen)
-_
-дух=S,m,inan=gen,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-прикасаться=V,intr=inpraes,sg,indic,2p,ipf
-_
-сердце=S,n,inan=gen,pl
-_
-какой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,\n
-какой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-достигать=V=inpraes,sg,indic,2p,ipf,tran
-_
-слух=S,m,inan=gen,sg
-?\n\n
-или=CONJ=
-_
-пустынный=A=comp
-_
-напев=S,m,inan=gen,sg
-_
-ты=SPRO,sg,2p=nom
-\n
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-раковина=S,f,inan=gen,pl
-,_
-в=PR=
-_
-песок=S,m,inan=abl,sg
-_
-петь=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-,\n
-что=CONJ=
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-_
-очерчивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-они=SPRO,pl=dat
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-размыкать=V,tran=praet,pl,indic,pf
-_
-для=PR=
-_
-жить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-?\n
+{дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вещий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {в=PR=} {стих=S,m,inan=abl,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}
+{животворящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {они=SPRO,pl=(acc|gen)} {дух=S,m,inan=gen,sg},
+{ты=SPRO,sg,2p=nom} {прикасаться=V,intr=inpraes,sg,indic,2p,ipf} {сердце=S,n,inan=gen,pl} {какой=APRO=(abl,pl|gen,pl|acc,pl,anim)},
+{какой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {достигать=V=inpraes,sg,indic,2p,ipf,tran} {слух=S,m,inan=gen,sg}?
+
+{или=CONJ=} {пустынный=A=comp} {напев=S,m,inan=gen,sg} {ты=SPRO,sg,2p=nom}
+{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {раковина=S,f,inan=gen,pl}, {в=PR=} {песок=S,m,inan=abl,sg} {петь=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)},
+{что=CONJ=} {круг=S,m,inan=(acc,sg|nom,sg)} {очерчивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {они=SPRO,pl=dat} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {размыкать=V,tran=praet,pl,indic,pf} {для=PR=} {жить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}?

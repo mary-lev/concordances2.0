@@ -1,70 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-искать=V,ipf,tran=praet,sg,indic,m
-_
-голубой=A=acc,sg,plen,f
-_
-дорога=S,f,inan=acc,sg
-_\n
-и=CONJ=
-_
-кричать=V,ipf,intr=praet,sg,indic,m
-,_
-оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-человек=S,m,anim=ins,pl
-,_\n
-подходить=V,intr=inpraes,ger,ipf
-_
-к=PR=
-_
-золотой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-порог=S,m,inan=dat,sg
-,_\n
-затихать=V,intr=praet,sg,indic,m,ipf
-_
-пред=PR=
-_
-твой=APRO=ins,pl
-_
-дверь=S,f,inan=ins,pl
-.\n\n
-проходить=V=(praet,sg,indic,f,pf,tran|praet,sg,indic,f,ipf,tran)
-_
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-дальний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-зал=S,m,inan=(acc,pl|nom,pl)
-,_\n
-величавый=A=sg,brev,f
-,_
-тихий=A=sg,brev,f
-_
-и=CONJ=
-_
-строгий=A=sg,brev,f
-._\n
-я=SPRO,sg,1p=nom
-_
-носить=V,ipf,tran=praet,sg,indic,m
-_
-за=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-покрывало=S,n,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-на=PR=
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-жемчуг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{я=SPRO,sg,1p=nom} {искать=V,ipf,tran=praet,sg,indic,m} {голубой=A=acc,sg,plen,f} {дорога=S,f,inan=acc,sg} 
+{и=CONJ=} {кричать=V,ipf,intr=praet,sg,indic,m}, {оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {человек=S,m,anim=ins,pl}, 
+{подходить=V,intr=inpraes,ger,ipf} {к=PR=} {золотой=A=(dat,sg,plen,m|dat,sg,plen,n)} {порог=S,m,inan=dat,sg}, 
+{затихать=V,intr=praet,sg,indic,m,ipf} {пред=PR=} {твой=APRO=ins,pl} {дверь=S,f,inan=ins,pl}.
+
+{проходить=V=(praet,sg,indic,f,pf,tran|praet,sg,indic,f,ipf,tran)} {ты=SPRO,sg,2p=nom} {в=PR=} {дальний=A=(acc,pl,plen,inan|nom,pl,plen)} {зал=S,m,inan=(acc,pl|nom,pl)}, 
+{величавый=A=sg,brev,f}, {тихий=A=sg,brev,f} {и=CONJ=} {строгий=A=sg,brev,f}. 
+{я=SPRO,sg,1p=nom} {носить=V,ipf,tran=praet,sg,indic,m} {за=PR=} {ты=SPRO,sg,2p=ins} {покрывало=S,n,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {смотреть=V,ipf,tran=praet,sg,indic,m} {на=PR=} {твой=APRO=(nom,pl|acc,pl,inan)} {жемчуг=S,m,inan=(acc,pl|gen,sg|nom,pl)}.

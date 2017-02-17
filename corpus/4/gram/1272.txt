@@ -1,42 +1,4 @@
-римский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ночь=S,f,inan=gen,pl
-_
-полновесный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слиток=S,m,inan=(acc,pl|nom,pl)
-,\n
-юноша=S,m,anim=acc,sg
-_
-гете=S,famn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-манить=V,ipf,tran=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)
-_
-лоно=S,n,inan=(acc,sg|nom,sg)
-,_\u2014_\n
-пусть=PART=
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-ответ=S,m,inan=abl,sg
-,_
-но=CONJ=
-_
-не=PART=
-_
-в=PR=
-_
-убыток=S,m,inan=abl,sg
-:\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-многодонный?=A=nom,sg,plen,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-вне=PR=
-_
-закон=S,m,inan=gen,sg
-.\n
+{римский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=gen,pl} {полновесный=A=(acc,pl,plen,inan|nom,pl,plen)} {слиток=S,m,inan=(acc,pl|nom,pl)},
+{юноша=S,m,anim=acc,sg} {гете=S,famn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {манить=V,ipf,tran=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)} {лоно=S,n,inan=(acc,sg|nom,sg)}, — 
+{пусть=PART=} {я=SPRO,sg,1p=nom} {в=PR=} {ответ=S,m,inan=abl,sg}, {но=CONJ=} {не=PART=} {в=PR=} {убыток=S,m,inan=abl,sg}:
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {многодонный?=A=nom,sg,plen,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {вне=PR=} {закон=S,m,inan=gen,sg}.

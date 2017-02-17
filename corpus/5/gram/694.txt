@@ -1,80 +1,14 @@
-солнце=S,n,inan=ins,sg
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-зажигать=V=praet,sg,partcp,brev,n,pf,pass
-.\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-к=PR=
-_
-вечный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-стремительность=S,f,inan=(acc,sg|nom,sg)
-.\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-вечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-\n
-в=PR=
-_
-золотой=A=acc,sg,plen,f
-_
-ослепительность=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-роза=S,persn,f,anim=nom,sg
-_
-в=PR=
-_
-золото=S,sg,n,inan=abl
-_
-кудри=S,pl,inan=gen
-.\n
-роза=S,f,inan=nom,sg
-_
-нежно=ADV=
-_
-колыхаться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-в=PR=
-_
-роза=S,f,inan=abl,pl
-_
-золото=S,sg,n,inan=(acc|nom)
-_
-луч=S,m,inan=gen,pl
-\n
-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жар=S,sg,m,inan=ins
-_
-разливаться=V,intr=inpraes,sg,indic,3p,ipf
-.\n\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бедный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-много=ADV,praed=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сжигать=V=praet,sg,partcp,brev,n,pf,pass
-_
-и=CONJ=
-_
-перемалывать=V=praet,sg,partcp,brev,n,pf,pass
-.\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-отражать=V=(inpraes,nom,pl,partcp,plen,ipf,act,tran|inpraes,acc,pl,partcp,plen,ipf,act,inan,tran)
-_
-золото=S,sg,n,inan=(acc|nom)
-.\n
+{солнце=S,n,inan=ins,sg} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {зажигать=V=praet,sg,partcp,brev,n,pf,pass}.
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {к=PR=} {вечный=A=(dat,sg,plen,m|dat,sg,plen,n)} {стремительность=S,f,inan=(acc,sg|nom,sg)}.
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {окно=S,n,inan=(acc,sg|nom,sg)}
+{в=PR=} {золотой=A=acc,sg,plen,f} {ослепительность=S,f,inan=(acc,sg|nom,sg)}.
+
+{роза=S,persn,f,anim=nom,sg} {в=PR=} {золото=S,sg,n,inan=abl} {кудри=S,pl,inan=gen}.
+{роза=S,f,inan=nom,sg} {нежно=ADV=} {колыхаться=V,ipf,intr=inpraes,sg,indic,3p}.
+{в=PR=} {роза=S,f,inan=abl,pl} {золото=S,sg,n,inan=(acc|nom)} {луч=S,m,inan=gen,pl}
+{красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жар=S,sg,m,inan=ins} {разливаться=V,intr=inpraes,sg,indic,3p,ipf}.
+
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бедный=A=(abl,sg,plen,m|abl,sg,plen,n)} {много=ADV,praed=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{сжигать=V=praet,sg,partcp,brev,n,pf,pass} {и=CONJ=} {перемалывать=V=praet,sg,partcp,brev,n,pf,pass}.
+{наш=APRO=(nom,pl|acc,pl,inan)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{отражать=V=(inpraes,nom,pl,partcp,plen,ipf,act,tran|inpraes,acc,pl,partcp,plen,ipf,act,inan,tran)} {золото=S,sg,n,inan=(acc|nom)}.

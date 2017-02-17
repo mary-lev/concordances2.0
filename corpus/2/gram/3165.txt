@@ -1,74 +1,9 @@
-на=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-на=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-душа=S,f,inan=nom,sg
-_
-страдание=S,n,inan=ins,pl
-_
-полный=A=sg,brev,f
-.\n
-в=PR=
-_
-ум=S,m,inan=abl,sg
-_
-мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-греза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-_
-отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-без=PR=
-_
-дно=S,n,inan=gen,sg
-.\n\n
-когда=ADVPRO=
-_
-же=PART=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-уставать=V,intr=inpraes,sg,indic,3p,pf
-_
-биться=V,ipf,intr=inf
-,_\n
-грудь=S,f,inan=(acc,sg|nom,sg)
-_
-наболеть=V,pf,intr=praet,nom,sg,partcp,plen,f,act
-_
-замирать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-когда=CONJ=
-_
-ж=PART=
-_
-покой=S,m,inan=ins,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-наслаждаться=V,intr=inf,pf
-_\n
-в=PR=
-_
-сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-_
-черед=S,m,inan=(acc,sg|nom,sg)
-?_\n
+{на=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {на=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{душа=S,f,inan=nom,sg} {страдание=S,n,inan=ins,pl} {полный=A=sg,brev,f}.
+{в=PR=} {ум=S,m,inan=abl,sg} {мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {пустой=A=(acc,pl,plen,inan|nom,pl,plen)} {греза=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {мрак=S,m,inan=(acc,sg|nom,sg)} {отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {без=PR=} {дно=S,n,inan=gen,sg}.
+
+{когда=ADVPRO=} {же=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {уставать=V,intr=inpraes,sg,indic,3p,pf} {биться=V,ipf,intr=inf}, 
+{грудь=S,f,inan=(acc,sg|nom,sg)} {наболеть=V,pf,intr=praet,nom,sg,partcp,plen,f,act} {замирать=V,intr=inpraes,sg,indic,3p,pf},
+{когда=CONJ=} {ж=PART=} {покой=S,m,inan=ins,sg} {я=SPRO,sg,1p=(abl|dat)} {наслаждаться=V,intr=inf,pf} 
+{в=PR=} {сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {могила=S,f,inan=(abl,sg|dat,sg)} {прийти=V,pf,intr=inpraes,sg,indic,3p} {черед=S,m,inan=(acc,sg|nom,sg)}? 

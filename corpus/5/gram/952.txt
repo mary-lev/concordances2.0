@@ -1,70 +1,24 @@
-листочек=S,m,inan=ins,sg
-\n
-всхлипывать=V,intr=inpraes,sg,indic,3p,pf
-_
-ветка=S,f,inan=nom,sg
-_
-осиновый=A=nom,sg,plen,f
-.\n\n
-глазочек=S,m,inan=ins,sg
-\n
-поморгать=V,pf,intr=inpraes,sg,indic,3p
-_
-лампадка=S,f,inan=nom,sg
-_
-малиновый=A=nom,sg,plen,f
-.\n\n
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-приходить=V,intr=inpraes,pl,indic,3p,ipf
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-с=PR=
-_
-веночек=S,m,inan=ins,sg
-,\u2014\n\n
-с=PR=
-_
-цветок=S,m,inan=ins,pl
-_\u2014\n
-белый=A=ins,pl,plen
-,_
-сладостный=A=ins,pl,plen
-\n
-цветок=S,m,inan=ins,pl
-.\n\n
-из=PR=
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-\n
-орошать=V=inpraes,sg,indic,1p,ipf,tran
-_
-радостный=A=ins,pl,plen
-\n
-мой=APRO=ins,pl
-_
-слеза=S,f,inan=ins,pl
-\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-кругом=ADV=
-_\u2014\n
-крест=S,m,inan=(acc,pl|nom,pl)
-\n
-каменный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-кругом=ADV=
-_\u2014\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-\n
-да=CONJ=
-_
-фонарик=S,m,inan=(acc,pl|nom,pl)
-_
-пламенный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
+{листочек=S,m,inan=ins,sg}
+{всхлипывать=V,intr=inpraes,sg,indic,3p,pf} {ветка=S,f,inan=nom,sg} {осиновый=A=nom,sg,plen,f}.
+
+{глазочек=S,m,inan=ins,sg}
+{поморгать=V,pf,intr=inpraes,sg,indic,3p} {лампадка=S,f,inan=nom,sg} {малиновый=A=nom,sg,plen,f}.
+
+{милый=A=(acc,pl,plen,inan|nom,pl,plen)}
+{приходить=V,intr=inpraes,pl,indic,3p,ipf} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {с=PR=} {веночек=S,m,inan=ins,sg},—
+
+{с=PR=} {цветок=S,m,inan=ins,pl} —
+{белый=A=ins,pl,plen}, {сладостный=A=ins,pl,plen}
+{цветок=S,m,inan=ins,pl}.
+
+{из=PR=} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom}
+{орошать=V=inpraes,sg,indic,1p,ipf,tran} {радостный=A=ins,pl,plen}
+{мой=APRO=ins,pl} {слеза=S,f,inan=ins,pl}
+{цветок=S,m,inan=(acc,pl|nom,pl)}.
+
+{кругом=ADV=} —
+{крест=S,m,inan=(acc,pl|nom,pl)}
+{каменный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{кругом=ADV=} —
+{цветок=S,m,inan=(acc,pl|nom,pl)}
+{да=CONJ=} {фонарик=S,m,inan=(acc,pl|nom,pl)} {пламенный=A=(acc,pl,plen,inan|nom,pl,plen)}.

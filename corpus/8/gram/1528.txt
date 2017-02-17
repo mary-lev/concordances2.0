@@ -1,108 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-обязательство=S,n,inan=gen,pl
-,\n
-кроме=PR=
-_
-девственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-себя=SPRO=(acc|gen)
-.\n
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-истина=S,f,inan=(abl,sg|dat,sg)
-_
-нет=ADV,praed=
-_
-доказательство=S,n,inan=gen,pl
-,\n
-этот=APRO=acc,sg,f
-_
-тайна=S,f,inan=acc,sg
-_
-я=SPRO,sg,1p=nom
-_
-понимать=V=praet,sg,indic,m,pf
-,_
-любить=V,ipf,tran=inpraes,ger
-.\n\n
-бесконечный=A=pl,brev
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-совершенство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-о=PR=
-,_
-хранить=V,ipf,tran=sg,imper,2p
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-в=PR=
-_
-этот=APRO=(abl,sg,m|abl,sg,n)
-_
-мир=S,m,inan=abl,sg
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-блаженство=S,n,inan=(acc,sg|nom,sg)
-_\u2014\n
-сознавать=V,tran=inf,ipf
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-высоко=ADV=comp
-_
-себя=SPRO=(acc|gen)
-.\n\n
-презрение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-бесстрастие=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-нежность=S,f,inan=(acc,sg|nom,sg)
-\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-три=NUM=(nom|acc,inan)
-,_\u2014_
-вот=PART=
-_
-дорога=S,f,inan=nom,sg
-_
-твой=APRO=nom,sg,f
-.\n
-хорошо=ADV=parenth
-,_
-уноситься=V,intr=inpraes,ger,ipf
-_
-в=PR=
-_
-безбрежность=S,f,inan=(acc,sg|nom,sg)
-,\n
-за=PR=
-_
-себя=SPRO=ins
-_
-видеть=V,ipf,tran=inf
-_
-себя=SPRO=(acc|gen)
-.\n
+{я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {обязательство=S,n,inan=gen,pl},
+{кроме=PR=} {девственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вера=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {себя=SPRO=(acc|gen)}.
+{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {истина=S,f,inan=(abl,sg|dat,sg)} {нет=ADV,praed=} {доказательство=S,n,inan=gen,pl},
+{этот=APRO=acc,sg,f} {тайна=S,f,inan=acc,sg} {я=SPRO,sg,1p=nom} {понимать=V=praet,sg,indic,m,pf}, {любить=V,ipf,tran=inpraes,ger}.
+
+{бесконечный=A=pl,brev} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {совершенство=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{о=PR=}, {хранить=V,ipf,tran=sg,imper,2p} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{в=PR=} {этот=APRO=(abl,sg,m|abl,sg,n)} {мир=S,m,inan=abl,sg} {один=APRO=(acc,sg,n|nom,sg,n)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {блаженство=S,n,inan=(acc,sg|nom,sg)} —
+{сознавать=V,tran=inf,ipf}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {высоко=ADV=comp} {себя=SPRO=(acc|gen)}.
+
+{презрение=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {бесстрастие=S,n,inan=(acc,sg|nom,sg)} — {нежность=S,f,inan=(acc,sg|nom,sg)}
+{этот=APRO=(nom,pl|acc,pl,inan)} {три=NUM=(nom|acc,inan)}, — {вот=PART=} {дорога=S,f,inan=nom,sg} {твой=APRO=nom,sg,f}.
+{хорошо=ADV=parenth}, {уноситься=V,intr=inpraes,ger,ipf} {в=PR=} {безбрежность=S,f,inan=(acc,sg|nom,sg)},
+{за=PR=} {себя=SPRO=ins} {видеть=V,ipf,tran=inf} {себя=SPRO=(acc|gen)}.

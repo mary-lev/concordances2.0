@@ -1,140 +1,29 @@
-я=SPRO,sg,1p=nom
-_
-без=PR=
-_
-слово=S,n,inan=gen,pl
-:_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-слово=S,n,inan=gen,pl
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-на=PR=
-_
-пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-\n
-я=SPRO,sg,1p=nom
-_
-почить=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-.\n\n
-не=PART=
-_
-слово=S,n,inan=dat,pl
-,\u2014_
-молчание=S,n,inan=dat,sg
-,_
-брат=S,m,anim=nom,sg
-,\n
-о=PR=
-,_
-внемлить=V,ipf,tran=sg,imper,2p
-,_
-внимать=V,intr=sg,imper,2p,ipf
-.\n\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-сиять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-,\n
-взвевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-с=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-легкое=S,n,inan=(abl,pl|gen,pl)
-_
-воздух=S,m,inan=gen,pl
-_
-крутить=V,ipf,tran=inpraes,pl,indic,3p
-\n
-легкое=S,n,inan=(acc,pl|nom,pl)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-день=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-сумрак=S,m,inan=ins,sg
-_
-объять=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\u2014\n
-я=SPRO,sg,1p=nom
-,_
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,\u2014_
-заря=S,f,inan=nom,sg
-.\n\n
-это=PART=
-_
-я=SPRO,sg,1p=nom
-_
-плеснуть=V,pf,tran=inpraes,sg,indic,1p
-_
-волна=S,f,inan=ins,sg
-\n
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-голубой=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-говорить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-,\n
-но=CONJ=
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_
-в=PR=
-_
-друг=S,m,anim=ins,sg
-.\n\n
-пить=V,ipf,tran=inpraes,sg,indic,1p
-_
-закатный=A=acc,sg,plen,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-красный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-знать=V,ipf,tran=praet,sg,indic,m
-,_
-забывать=V=praet,sg,indic,m,pf
-_\u2014_
-забывать=V=inf,pf
-_
-не=PART=
-_
-жаль=ADV,praed=
-_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-забывать=V=praet,sg,indic,m,pf
-_
-давно=ADV=
-.\n
+{я=SPRO,sg,1p=nom} {без=PR=} {слово=S,n,inan=gen,pl}: {я=SPRO,sg,1p=nom} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}.
+{слово=S,n,inan=gen,pl} {не=PART=} {надо=ADV,praed=} {я=SPRO,sg,1p=(abl|dat)}.
+
+{на=PR=} {пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)} {берег=S,m,inan=(dat,sg|loc,sg)}
+{я=SPRO,sg,1p=nom} {почить=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {во=PR=} {сон=S,m,inan=abl,sg}.
+
+{не=PART=} {слово=S,n,inan=dat,pl},— {молчание=S,n,inan=dat,sg}, {брат=S,m,anim=nom,sg},
+{о=PR=}, {внемлить=V,ipf,tran=sg,imper,2p}, {внимать=V,intr=sg,imper,2p,ipf}.
+
+{мы=SPRO,pl,1p=nom} — {сиять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {закат=S,m,inan=(acc,sg|nom,sg)},
+{взвевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {с=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{легкое=S,n,inan=(abl,pl|gen,pl)} {воздух=S,m,inan=gen,pl} {крутить=V,ipf,tran=inpraes,pl,indic,3p}
+{легкое=S,n,inan=(acc,pl|nom,pl)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{день=S,m,inan=ins,sg} {и=CONJ=} {сумрак=S,m,inan=ins,sg} {объять=V,tran=praet,sg,partcp,brev,m,pf,pass},—
+{я=SPRO,sg,1p=nom}, {как=ADVPRO=} {ты=SPRO,sg,2p=nom},— {заря=S,f,inan=nom,sg}.
+
+{это=PART=} {я=SPRO,sg,1p=nom} {плеснуть=V,pf,tran=inpraes,sg,indic,1p} {волна=S,f,inan=ins,sg}
+{ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {голубой=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{говорить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(abl|dat)} {один=APRO=(acc,sg,n|nom,sg,n)},
+{но=CONJ=} {смеяться=V,ipf,intr=inpraes,sg,indic,1p} — {в=PR=} {друг=S,m,anim=ins,sg}.
+
+{пить=V,ipf,tran=inpraes,sg,indic,1p} {закатный=A=acc,sg,plen,f} {печаль=S,f,inan=(acc,sg|nom,sg)} —
+{красный=A=(acc,sg,plen,n|nom,sg,plen,n)} {вино=S,n,inan=(acc,sg|nom,sg)}.
+
+{знать=V,ipf,tran=praet,sg,indic,m}, {забывать=V=praet,sg,indic,m,pf} — {забывать=V=inf,pf} {не=PART=} {жаль=ADV,praed=} —
+{все=SPRO,pl=(acc|nom)} {забывать=V=praet,sg,indic,m,pf} {давно=ADV=}.

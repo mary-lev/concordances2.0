@@ -1,74 +1,14 @@
-быть=V,intr=praet,sg,indic,m,ipf
-_
-праздник=S,m,inan=(acc,sg|nom,sg)
-:_
-из=PR=
-_
-мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-нестись=V,ipf,intr=praet,pl,indic
-_
-крик=S,m,inan=(acc,pl|nom,pl)
-_
-пьяница=S,mf,anim=(acc,pl|gen,pl)
-.\n
-дом=S,m,inan=gen,pl
-_
-огибать=V,tran=inpraes,ger,ipf
-_
-угол=S,m,inan=(acc,pl|nom,pl)
-,\n
-бесшумно=ADV=
-_
-скользить=V,ipf,intr=praet,sg,indic,m
-_
-оборванец=S,m,anim=nom,sg
-.\n\n
-зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-таскать=V,ipf,tran=inpraes,ger
-_
-короткий=A=acc,sg,plen,f
-_
-лесенка=S,f,inan=acc,sg
-,\n
-забегать=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-_
-фонарщик=S,m,anim=nom,sg
-_
-проворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-мурлыкать=V,ipf,intr=inpraes,ger
-_
-веселый=A=acc,sg,plen,f
-_
-песенка=S,f,inan=acc,sg
-.\n\n
-багрец=S,m,inan=(acc,sg|nom,sg)
-_
-золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-вечер=S,m,inan=gen,pl
-\n
-закрывать=V=praet,pl,indic,pf
-_
-фабричный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-да=CONJ=
-_
-пепельный=A=sg,brev,n
--
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дом=S,m,inan=gen,pl
-\n
-застывший=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-клуб=S,m,inan=(acc,pl|nom,pl)
-.\n
+{быть=V,intr=praet,sg,indic,m,ipf} {праздник=S,m,inan=(acc,sg|nom,sg)}: {из=PR=} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{нестись=V,ipf,intr=praet,pl,indic} {крик=S,m,inan=(acc,pl|nom,pl)} {пьяница=S,mf,anim=(acc,pl|gen,pl)}.
+{дом=S,m,inan=gen,pl} {огибать=V,tran=inpraes,ger,ipf} {угол=S,m,inan=(acc,pl|nom,pl)},
+{бесшумно=ADV=} {скользить=V,ipf,intr=praet,sg,indic,m} {оборванец=S,m,anim=nom,sg}.
+
+{зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{таскать=V,ipf,tran=inpraes,ger} {короткий=A=acc,sg,plen,f} {лесенка=S,f,inan=acc,sg},
+{забегать=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {фонарщик=S,m,anim=nom,sg} {проворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{мурлыкать=V,ipf,intr=inpraes,ger} {веселый=A=acc,sg,plen,f} {песенка=S,f,inan=acc,sg}.
+
+{багрец=S,m,inan=(acc,sg|nom,sg)} {золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вечер=S,m,inan=gen,pl}
+{закрывать=V=praet,pl,indic,pf} {фабричный=A=(acc,pl,plen,inan|nom,pl,plen)} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{да=CONJ=} {пепельный=A=sg,brev,n}-{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дом=S,m,inan=gen,pl}
+{застывший=A=(acc,pl,plen,inan|nom,pl,plen)} {клуб=S,m,inan=(acc,pl|nom,pl)}.

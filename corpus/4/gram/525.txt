@@ -1,98 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-каменный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-\n
-над=PR=
-_
-тусклый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-паутина=S,f,inan=ins,sg
-_
-вода=S,f,inan=gen,pl
-.\n
-в=PR=
-_
-тиски=S,pl,inan=abl
-_
-постылый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-эреб?=S,m,anim=(acc,sg|gen,sg|nom,pl)
-\n
-душа=S,f,inan=nom,sg
-_
-томительно=ADV=
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-я=SPRO,sg,1p=nom
-_
-понимать=V=inpraes,sg,indic,1p,ipf,tran
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ужас=S,m,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-постигать=V=inpraes,sg,indic,1p,ipf,tran
-_
-этот=APRO=acc,sg,f
-_
-связь=S,f,inan=(acc,sg|nom,sg)
-:\n
-и=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-падать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-рушиться=V,ipf,intr=inpraes,ger
-,\n
-и=CONJ=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-плескать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-пениться=V,ipf,intr=inpraes,ger
-.\n\n
-о=PR=
-,_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-бледный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-химера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-грубый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-золото=S,sg,n,inan=abl
-_
-песок=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-трилистник=S,m,inan=(acc,sg|nom,sg)
-_
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,_
-как=CONJ=
-_
-мой=APRO=nom,sg,f
-_
-тоска=S,f,inan=nom,sg
-!\n
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {каменный=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)}
+{над=PR=} {тусклый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {паутина=S,f,inan=ins,sg} {вода=S,f,inan=gen,pl}.
+{в=PR=} {тиски=S,pl,inan=abl} {постылый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {эреб?=S,m,anim=(acc,sg|gen,sg|nom,pl)}
+{душа=S,f,inan=nom,sg} {томительно=ADV=} {жить=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{я=SPRO,sg,1p=nom} {понимать=V=inpraes,sg,indic,1p,ipf,tran} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {ужас=S,m,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {постигать=V=inpraes,sg,indic,1p,ipf,tran} {этот=APRO=acc,sg,f} {связь=S,f,inan=(acc,sg|nom,sg)}:
+{и=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {падать=V,ipf,intr=inpraes,sg,indic,3p}, {не=PART=} {рушиться=V,ipf,intr=inpraes,ger},
+{и=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {плескать=V,ipf,tran=inpraes,sg,indic,3p}, {не=PART=} {пениться=V,ipf,intr=inpraes,ger}.
+
+{о=PR=}, {крыло=S,n,inan=(acc,pl|nom,pl)} {бледный=A=(acc,pl,plen,inan|nom,pl,plen)} {химера=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{на=PR=} {грубый=A=(abl,sg,plen,m|abl,sg,plen,n)} {золото=S,sg,n,inan=abl} {песок=S,m,inan=gen,sg},
+{и=CONJ=} {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)} {трилистник=S,m,inan=(acc,sg|nom,sg)} {серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}, {как=CONJ=} {мой=APRO=nom,sg,f} {тоска=S,f,inan=nom,sg}!

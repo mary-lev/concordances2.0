@@ -1,168 +1,28 @@
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-звать=V,ipf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-гнать=V,ipf,tran=praet,sg,indic,m
-_
-погоня=S,f,inan=acc,sg
-,\n
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-маска=S,f,inan=gen,pl
-_
-не=PART=
-_
-догнать=V,pf,tran=praet,sg,indic,m
-...\n
-быть=V,intr=praet,pl,indic,ipf
-_
-верный=A=pl,brev
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-конь=S,m,anim=nom,pl
-,\n
-кто-то=SPRO,sg,m,anim=nom
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-помогать=V,intr=praet,sg,indic,m,ipf
-...\n\n
-заметать=V,pf,tran=praet,sg,indic,m
-_
-снег=S,m,inan=ins,pl
-_
-сани=S,pl,inan=(acc|nom)
-,\n
-конь=S,m,anim=(acc,pl|gen,pl)
-_
-игла=S,f,inan=ins,pl
-_
-дразнить=V,ipf,tran=praet,sg,indic,m
-,\n
-строить=V,ipf,tran=praet,sg,indic,m
-_
-башня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-из=PR=
-_
-туман=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-кружить=V,ipf,tran=praet,sg,indic,m
-,_
-и=CONJ=
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-из=PR=
-_
-снежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-буран=S,m,inan=gen,sg
-\n
-око=S,n,inan=ins,sg
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сторожить=V,ipf,tran=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-метаться=V,ipf,intr=praet,sg,indic,m
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-быстрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n____
-по=PR=
-_
-бурьян=S,m,inan=dat,pl
-,\n
-и=CONJ=
-_
-сноп=S,m,inan=ins,pl
-_
-мчаться=V,ipf,intr=praet,pl,indic
-_
-искра=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n____
-по=PR=
-_
-туман=S,m,inan=dat,pl
-,_-\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-маска=S,f,inan=gen,pl
-_
-не=PART=
-_
-догнать=V,pf,tran=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-с=PR=
-_
-высота=S,f,inan=gen,pl
-_
-сереброзвездный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n____
-туча=S,f,inan=acc,sg
-_
-белый=A=acc,sg,plen,f
-_
-сорвать=V,pf,tran=praet,sg,indic,m
-...\n\n
-и=CONJ=
-_
-в=PR=
-_
-открытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-бездна=S,f,inan=abl,pl
-\n____
-обозначаться=V,intr=praet,pl,indic,pf
-_
-два=NUM=(nom,f|acc,f,inan)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n____
-улетать=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)
-_
-в=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-\n____
-незнакомый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-странный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-очерк=S,m,inan=(acc,pl|nom,pl)
-_
-видение=S,n,inan=gen,pl
-\n
-в=PR=
-_
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-маска=S,f,inan=abl,pl
-_
-танцовать?=V,pf,tran=praet,pl,indic
-_-\n____
-быть=V,intr=praet,pl,indic,ipf
-_
-влюбленный=A=pl,brev
-.\n
+{ветер=S,m,inan=(acc,sg|nom,sg)} {звать=V,ipf,tran=praet,sg,indic,m} {и=CONJ=} {гнать=V,ipf,tran=praet,sg,indic,m} {погоня=S,f,inan=acc,sg},
+{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {маска=S,f,inan=gen,pl} {не=PART=} {догнать=V,pf,tran=praet,sg,indic,m}...
+{быть=V,intr=praet,pl,indic,ipf} {верный=A=pl,brev} {наш=APRO=(nom,pl|acc,pl,inan)} {конь=S,m,anim=nom,pl},
+{кто-то=SPRO,sg,m,anim=nom} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {помогать=V,intr=praet,sg,indic,m,ipf}...
+
+{заметать=V,pf,tran=praet,sg,indic,m} {снег=S,m,inan=ins,pl} {сани=S,pl,inan=(acc|nom)},
+{конь=S,m,anim=(acc,pl|gen,pl)} {игла=S,f,inan=ins,pl} {дразнить=V,ipf,tran=praet,sg,indic,m},
+{строить=V,ipf,tran=praet,sg,indic,m} {башня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {из=PR=} {туман=S,m,inan=gen,sg},
+{и=CONJ=} {кружить=V,ipf,tran=praet,sg,indic,m}, {и=CONJ=} {петь=V,ipf,tran=praet,sg,indic,m} {в=PR=} {туман=S,m,inan=abl,sg},
+{и=CONJ=} {из=PR=} {снежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {буран=S,m,inan=gen,sg}
+{око=S,n,inan=ins,sg} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сторожить=V,ipf,tran=praet,sg,indic,m}.
+
+{и=CONJ=} {метаться=V,ipf,intr=praet,sg,indic,m} {ветер=S,m,inan=(acc,sg|nom,sg)} {быстрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+    {по=PR=} {бурьян=S,m,inan=dat,pl},
+{и=CONJ=} {сноп=S,m,inan=ins,pl} {мчаться=V,ipf,intr=praet,pl,indic} {искра=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+    {по=PR=} {туман=S,m,inan=dat,pl}, -
+{ветер=S,m,inan=(acc,sg|nom,sg)} {маска=S,f,inan=gen,pl} {не=PART=} {догнать=V,pf,tran=praet,sg,indic,m},
+{и=CONJ=} {с=PR=} {высота=S,f,inan=gen,pl} {сереброзвездный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+    {туча=S,f,inan=acc,sg} {белый=A=acc,sg,plen,f} {сорвать=V,pf,tran=praet,sg,indic,m}...
+
+{и=CONJ=} {в=PR=} {открытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бездна=S,f,inan=abl,pl}
+    {обозначаться=V,intr=praet,pl,indic,pf} {два=NUM=(nom,f|acc,f,inan)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+    {улетать=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)} {в=PR=} {давать=V,tran=praet,pl,indic,pf}
+    {незнакомый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{странный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {очерк=S,m,inan=(acc,pl|nom,pl)} {видение=S,n,inan=gen,pl}
+{в=PR=} {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {маска=S,f,inan=abl,pl} {танцовать?=V,pf,tran=praet,pl,indic} -
+    {быть=V,intr=praet,pl,indic,ipf} {влюбленный=A=pl,brev}.

@@ -1,66 +1,9 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-на=PR=
-_
-ваш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-картина=S,f,inan=abl,pl
-_
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-так=ADVPRO=
-_
-таинственно=ADV=
-_
-слышный=A=sg,brev,f
-\n
-царскосельский=A,geo=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-столетний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-парк=S,m,inan=gen,pl
-\n
-убаюкивать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-тишина=S,sg,f,inan=nom
-.\n\n
-разве=PART=
-_
-можно=ADV,praed=
-_
-желать=V,ipf,tran=inf
-_
-чужой=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,\n
-разве=PART=
-_
-можно=ADV,praed=
-_
-жить=V,ipf,intr=inf
-_
-не=PART=
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-...\n
-но=CONJ=
-_
-и=CONJ=
-_
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ведь=CONJ=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-_
-же=PART=
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-узор=S,m,inan=(acc,pl|nom,pl)
-_
-линия=S,f,inan=gen,pl
-_\u2014_
-ритм=S,m,inan=(acc,sg|nom,sg)
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {на=PR=} {ваш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {картина=S,f,inan=abl,pl} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{так=ADVPRO=} {таинственно=ADV=} {слышный=A=sg,brev,f}
+{царскосельский=A,geo=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {столетний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {парк=S,m,inan=gen,pl}
+{убаюкивать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act} {тишина=S,sg,f,inan=nom}.
+
+{разве=PART=} {можно=ADV,praed=} {желать=V,ipf,tran=inf} {чужой=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)},
+{разве=PART=} {можно=ADV,praed=} {жить=V,ipf,intr=inf} {не=PART=} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}...
+{но=CONJ=} {и=CONJ=} {краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ведь=CONJ=} {то=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {слово=S,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {узор=S,m,inan=(acc,pl|nom,pl)} {линия=S,f,inan=gen,pl} — {ритм=S,m,inan=(acc,sg|nom,sg)}.

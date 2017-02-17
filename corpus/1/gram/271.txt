@@ -1,102 +1,14 @@
-полюбить=V,pf,tran=sg,imper,2p
-_
-этот=APRO=acc,sg,f
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-болото=S,n,inan=gen,pl
-:\n
-никогда=ADVPRO=
-_
-не=PART=
-_
-иссякать=V,intr=inpraes,sg,indic,3p,pf
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-мощь=S,f,inan=(acc,sg|nom,sg)
-.\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-злак=S,m,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-сгорать=V,intr=praet,sg,indic,m,pf
-,_-_
-не=PART=
-_
-умирать=V,intr=inpraes,sg,indic,3p,pf
-.\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-куст=S,m,inan=(acc,sg|nom,sg)
-_-_
-без=PR=
-_
-истление?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_-_
-тощий=A=sg,brev,m
-.\n\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-ржавый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-пень=S,m,inan=(acc,pl|nom,pl)
-\n
-знать=V,ipf,tran=inpraes,pl,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-отдыхающий=S,m,anim=nom,sg
-_
-плен=S,m,inan=(acc,sg|nom,sg)
-.\n
-неизменно=ADV=
-_
-предвечный=A=pl,brev
-_
-они=SPRO,pl=nom
-,_-\n
-ты=SPRO,sg,2p=nom
-_
-пред=PR=
-_
-вечность=S,f,inan=ins,sg
-_
-полный=A=sg,brev,m
-_
-измена=S,f,inan=gen,pl
-.\n\n
-одинокий=A=nom,sg,plen,f
-_
-участь=S,f,inan=(acc,sg|nom,sg)
-_
-светлый=A=sg,brev,f
-.\n
-безначальный=A=nom,sg,plen,f
-_
-доля=S,f,inan=nom,sg
-_
-святой=A=sg,brev,f
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-сам=APRO=nom,sg,f
-_
-снисходить=V,intr=praet,sg,indic,f,pf
-\n
-и=CONJ=
-_
-навеки=ADV=
-_
-замыкать=V,tran=praet,sg,indic,f,pf
-_
-уста=S,pl,inan=(acc|nom)
-.\n
+{полюбить=V,pf,tran=sg,imper,2p} {этот=APRO=acc,sg,f} {вечность=S,f,inan=(acc,sg|nom,sg)} {болото=S,n,inan=gen,pl}:
+{никогда=ADVPRO=} {не=PART=} {иссякать=V,intr=inpraes,sg,indic,3p,pf} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {мощь=S,f,inan=(acc,sg|nom,sg)}.
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {злак=S,m,inan=(acc,sg|nom,sg)}, {что=CONJ=} {сгорать=V,intr=praet,sg,indic,m,pf}, - {не=PART=} {умирать=V,intr=inpraes,sg,indic,3p,pf}.
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {куст=S,m,inan=(acc,sg|nom,sg)} - {без=PR=} {истление?=S,n,inan=(acc,pl|gen,sg|nom,pl)} - {тощий=A=sg,brev,m}.
+
+{этот=APRO=(nom,pl|acc,pl,inan)} {ржавый=A=(acc,pl,plen,inan|nom,pl,plen)} {кочка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {пень=S,m,inan=(acc,pl|nom,pl)}
+{знать=V,ipf,tran=inpraes,pl,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {отдыхающий=S,m,anim=nom,sg} {плен=S,m,inan=(acc,sg|nom,sg)}.
+{неизменно=ADV=} {предвечный=A=pl,brev} {они=SPRO,pl=nom}, -
+{ты=SPRO,sg,2p=nom} {пред=PR=} {вечность=S,f,inan=ins,sg} {полный=A=sg,brev,m} {измена=S,f,inan=gen,pl}.
+
+{одинокий=A=nom,sg,plen,f} {участь=S,f,inan=(acc,sg|nom,sg)} {светлый=A=sg,brev,f}.
+{безначальный=A=nom,sg,plen,f} {доля=S,f,inan=nom,sg} {святой=A=sg,brev,f}.
+{это=SPRO,sg,n,inan=(acc|nom)} {вечность=S,f,inan=(acc,sg|nom,sg)} {сам=APRO=nom,sg,f} {снисходить=V,intr=praet,sg,indic,f,pf}
+{и=CONJ=} {навеки=ADV=} {замыкать=V,tran=praet,sg,indic,f,pf} {уста=S,pl,inan=(acc|nom)}.

@@ -1,100 +1,14 @@
-облеченный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-в=PR=
-_
-одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-длинно=ADV=
--
-тяжкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\u2014_
-не=PART=
-_
-мы=SPRO,pl,1p=nom
-\n
-к=PR=
-_
-красота=S,f,inan=(abl,sg|dat,sg)
-_
-открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-вежды=S,pl,inan=(acc|nom)
-,\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-в=PR=
-_
-темница=S,f,inan=abl,pl
-_
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-греза=S,f,inan=gen,pl
-_
-прибежище=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-нега=S,f,inan=nom,sg
-,\n
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-женский=A=(acc,sg,plen,n|nom,sg,plen,n)
-!_\u2014_
-в=PR=
-_
-мех=S,m,inan=abl,pl
-,\n
-в=PR=
-_
-шерсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-в=PR=
-_
-шарф=S,m,inan=abl,pl
-,_
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-ты=SPRO,sg,2p=nom
-_
-лишь=PART=
-_
-безобразный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-живой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-возрождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-нагота=S,sg,f,inan=nom
-!\n
-так=ADVPRO=
-,_
-творить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-вы=SPRO,pl,2p=nom
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-...\n
-кто=SPRO,sg,m,anim=nom
-_
-же=PART=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-творить=V,ipf,tran=inpraes,sg,indic,3p
-?_\u2014_
-мечта=S,f,inan=nom,sg
-.\n
+{облеченный=A=(acc,pl,plen,inan|nom,pl,plen)} {в=PR=} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{длинно=ADV=}-{тяжкий=A=(acc,pl,plen,inan|nom,pl,plen)}, — {не=PART=} {мы=SPRO,pl,1p=nom}
+{к=PR=} {красота=S,f,inan=(abl,sg|dat,sg)} {открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {вежды=S,pl,inan=(acc|nom)},
+{мы=SPRO,pl,1p=nom} — {в=PR=} {темница=S,f,inan=abl,pl} {серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{греза=S,f,inan=gen,pl} {прибежище=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {нега=S,f,inan=nom,sg},
+{тело=S,n,inan=(acc,sg|nom,sg)} {женский=A=(acc,sg,plen,n|nom,sg,plen,n)}! — {в=PR=} {мех=S,m,inan=abl,pl},
+{в=PR=} {шерсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {в=PR=} {шарф=S,m,inan=abl,pl}, {в=PR=} {царство=S,n,inan=abl,sg} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{ты=SPRO,sg,2p=nom} {лишь=PART=} {безобразный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {прах=S,m,inan=(acc,sg|nom,sg)}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {живой=A=(acc,sg,plen,n|nom,sg,plen,n)} {возрождение=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {нагота=S,sg,f,inan=nom}!
+{так=ADVPRO=}, {творить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {вы=SPRO,pl,2p=nom} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)}...
+{кто=SPRO,sg,m,anim=nom} {же=PART=} {вы=SPRO,pl,2p=(abl|acc|gen)} {творить=V,ipf,tran=inpraes,sg,indic,3p}? — {мечта=S,f,inan=nom,sg}.

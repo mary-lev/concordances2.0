@@ -1,56 +1,9 @@
-золотить=V,ipf,tran=inpraes,ger
-_
-закат=S,m,inan=gen,sg
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-клонить=V,ipf,tran=inpraes,sg,indic,3p
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-глядеться=V,ipf,intr=inpraes,pl,indic,3p
-_
-тубероза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-позлащать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-кристалл=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-но=CONJ=
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-сердце=S,n,inan=dat,sg
-_
-алый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-просить=V,ipf,tran=inpraes,sg,indic,3p
-_
-роза=S,f,inan=gen,pl
-_
-поблеклый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-гиацинт=S,m,inan=gen,pl
-_
-небывалый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-лилия=S,f,inan=gen,pl
-,_
-плачущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-на=PR=
-_
-стекло=S,n,inan=abl,pl
-.\n
+{золотить=V,ipf,tran=inpraes,ger} {закат=S,m,inan=gen,sg} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{клонить=V,ipf,tran=inpraes,sg,indic,3p} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {лик=S,m,inan=(acc,sg|nom,sg)} {усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {глядеться=V,ipf,intr=inpraes,pl,indic,3p} {тубероза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {позлащать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {кристалл=S,m,inan=(acc,pl|nom,pl)}.
+
+{но=CONJ=} {не=PART=} {надо=ADV,praed=} {сердце=S,n,inan=dat,sg} {алый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {просить=V,ipf,tran=inpraes,sg,indic,3p} {роза=S,f,inan=gen,pl} {поблеклый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{гиацинт=S,m,inan=gen,pl} {небывалый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{лилия=S,f,inan=gen,pl}, {плачущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {на=PR=} {стекло=S,n,inan=abl,pl}.

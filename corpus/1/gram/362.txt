@@ -1,140 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-миновать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-_
-багряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-ряд=S,m,inan=(acc,pl|nom,pl)
-_
-строение=S,n,inan=gen,pl
-_
-миновать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-,\n
-вступать=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-обман=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-туман=S,m,inan=(acc,pl|nom,pl)
-,_-\n
-огонь=S,m,inan=ins,pl
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сверкнуть=V,pf,intr=praet,sg,indic,m
-_
-вокзал=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-я=SPRO,sg,1p=nom
-_
-сдавливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-давка=S,f,inan=ins,sg
-_
-человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-едва=ADV=
-_
-не=PART=
-_
-оттеснять=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-назад=ADV=
-...\n
-и=CONJ=
-_
-вот=PART=
-_-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-перо=S,n,inan=gen,pl
-_
-водопад=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-_
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-определять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-за=PR=
-_
-она=SPRO,sg,3p,f=ins
-_-_
-карлик=S,m,anim=nom,sg
-,_
-шлейф=S,m,inan=(acc,sg|nom,sg)
-_
-влачить=V,ipf,tran=inpraes,ger
-...\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-_
-вослед=PR=
-,_
-влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-как=CONJ=
-_
-пленный=S,m,anim=nom,sg
-_
-раб=S,m,anim=nom,sg
-_-_
-на=PR=
-_
-палач=S,m,anim=(acc,sg|gen,sg)
-...\n\n
-она=SPRO,sg,3p,f=nom
-_
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-_-_
-и=CONJ=
-_
-не=PART=
-_
-взглядывать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-пренебрежение=S,n,inan=ins,sg
-_
-казнить=V,tran=inpraes,ger,ipf
-...\n
-и=CONJ=
-_
-только=PART=
-_
-карлик=S,m,anim=nom,sg
-_
-не=PART=
-_
-уставать=V,intr=inpraes,sg,indic,3p,pf
-\n
-глядеть=V,ipf,tran=inf
-_
-с=PR=
-_
-усмешка=S,f,inan=ins,sg
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{я=SPRO,sg,1p=nom} {миновать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {закат=S,m,inan=(acc,sg|nom,sg)} {багряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{ряд=S,m,inan=(acc,pl|nom,pl)} {строение=S,n,inan=gen,pl} {миновать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)},
+{вступать=V,intr=praet,sg,indic,m,pf} {в=PR=} {обман=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {туман=S,m,inan=(acc,pl|nom,pl)}, -
+{огонь=S,m,inan=ins,pl} {я=SPRO,sg,1p=(abl|dat)} {сверкнуть=V,pf,intr=praet,sg,indic,m} {вокзал=S,m,inan=(acc,sg|nom,sg)}...
+
+{я=SPRO,sg,1p=nom} {сдавливать=V,tran=praet,sg,partcp,brev,m,pf,pass} {давка=S,f,inan=ins,sg} {человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{едва=ADV=} {не=PART=} {оттеснять=V,tran=praet,sg,partcp,brev,m,pf,pass} {назад=ADV=}...
+{и=CONJ=} {вот=PART=} - {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {плечо=S,n,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {перо=S,n,inan=gen,pl} {водопад=S,m,inan=(acc,sg|nom,sg)}...
+
+{проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {определять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{за=PR=} {она=SPRO,sg,3p,f=ins} - {карлик=S,m,anim=nom,sg}, {шлейф=S,m,inan=(acc,sg|nom,sg)} {влачить=V,ipf,tran=inpraes,ger}...
+{и=CONJ=} {я=SPRO,sg,1p=nom} {смотреть=V,ipf,tran=inpraes,sg,indic,1p} {вослед=PR=}, {влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{как=CONJ=} {пленный=S,m,anim=nom,sg} {раб=S,m,anim=nom,sg} - {на=PR=} {палач=S,m,anim=(acc,sg|gen,sg)}...
+
+{она=SPRO,sg,3p,f=nom} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} - {и=CONJ=} {не=PART=} {взглядывать=V,intr=inpraes,sg,indic,3p,pf},
+{пренебрежение=S,n,inan=ins,sg} {казнить=V,tran=inpraes,ger,ipf}...
+{и=CONJ=} {только=PART=} {карлик=S,m,anim=nom,sg} {не=PART=} {уставать=V,intr=inpraes,sg,indic,3p,pf}
+{глядеть=V,ipf,tran=inf} {с=PR=} {усмешка=S,f,inan=ins,sg} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}.

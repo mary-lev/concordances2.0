@@ -1,114 +1,17 @@
-ты=SPRO,sg,2p=nom
-_
-проходить=V,intr=praet,sg,indic,f,pf
-_
-сквозь=PR=
-_
-облако=S,n,inan=(acc,sg|nom,sg)
-_
-туман=S,m,inan=gen,sg
-.\n
-на=PR=
-_
-ланита=S,f,inan=abl,pl
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-румяный=A=sg,brev,f
-.\n\n
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-недужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-я=SPRO,sg,1p=nom
-_
-бродить=V,ipf,intr=inpraes,sg,indic,1p
-_
-свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-ненужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-...\n\n
-злой=A=nom,sg,plen,f
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-ворожить=V,ipf,intr=inpraes,sg,indic,3p
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-,\n
-угрожать=V,ipf,intr=inpraes,sg,indic,3p
-_
-спелый=A=ins,pl,plen
-_
-плод=S,m,inan=ins,pl
-,\n\n
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-_
-вершина=S,f,inan=ins,pl
-_
-с=PR=
-_
-вершина=S,f,inan=ins,sg
-\n
-и=CONJ=
-_
-в=PR=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-_
-паутина=S,f,inan=ins,sg
-.\n\n
-как=ADVPRO=
-_
-застыть=V,pf,intr=praet,sg,indic,m
-_
-тревожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-танец=S,m,inan=(acc,sg|nom,sg)
-!\n
-как=ADVPRO=
-_
-на=PR=
-_
-все=SPRO,pl=dat
-_
-играть=V,ipf,tran=inpraes,sg,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-румянец=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-как=CONJ=
-_
-сквозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-в=PR=
-_
-облако=S,n,inan=abl,sg
-_
-туман=S,m,inan=gen,sg
-\n
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-_
-сиять=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-рана=S,f,inan=nom,sg
-!\n
+{ты=SPRO,sg,2p=nom} {проходить=V,intr=praet,sg,indic,f,pf} {сквозь=PR=} {облако=S,n,inan=(acc,sg|nom,sg)} {туман=S,m,inan=gen,sg}.
+{на=PR=} {ланита=S,f,inan=abl,pl} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {румяный=A=sg,brev,f}.
+
+{светить=V,ipf,intr=inpraes,sg,indic,3p} {день=S,m,inan=(acc,sg|nom,sg)} {холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {недужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{я=SPRO,sg,1p=nom} {бродить=V,ipf,intr=inpraes,sg,indic,1p} {свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {ненужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}...
+
+{злой=A=nom,sg,plen,f} {осень=S,f,inan=(acc,sg|nom,sg)} {ворожить=V,ipf,intr=inpraes,sg,indic,3p} {над=PR=} {мы=SPRO,pl,1p=ins},
+{угрожать=V,ipf,intr=inpraes,sg,indic,3p} {спелый=A=ins,pl,plen} {плод=S,m,inan=ins,pl},
+
+{говорить=V,ipf,tran=inpraes,sg,indic,3p} {вершина=S,f,inan=ins,pl} {с=PR=} {вершина=S,f,inan=ins,sg}
+{и=CONJ=} {в=PR=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {целовать=V,ipf,tran=inpraes,sg,indic,3p} {паутина=S,f,inan=ins,sg}.
+
+{как=ADVPRO=} {застыть=V,pf,intr=praet,sg,indic,m} {тревожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {танец=S,m,inan=(acc,sg|nom,sg)}!
+{как=ADVPRO=} {на=PR=} {все=SPRO,pl=dat} {играть=V,ipf,tran=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {румянец=S,m,inan=(acc,sg|nom,sg)}!
+
+{как=CONJ=} {сквозить=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {в=PR=} {облако=S,n,inan=abl,sg} {туман=S,m,inan=gen,sg}
+{яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl} {сиять=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {рана=S,f,inan=nom,sg}!

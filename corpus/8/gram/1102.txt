@@ -1,82 +1,16 @@
-не=PART=
-_
-дремать=V,ipf,intr=inpraes,pl,indic,3p
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-молкнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-;\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сомнение=S,n,inan=gen,pl
-_\u2014\n
-созвездие=S,n,inan=gen,pl
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-!\n
-пусть=CONJ=
-_
-роптать=V,ipf,intr=inpraes,pl,indic,3p
-_
-струя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-пусть=PART=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-пруд=S,m,inan=(acc,sg|nom,sg)
-,\u2014\n
-так=ADVPRO=
-_
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-,\n
-прильнуть=V,pf,intr=praet,ger
-,_
-солгать=V,pf,intr=inpraes,pl,indic,3p
-!\n
-пусть=PART=
-,_
-глянуть=V,pf,intr=praet,ger
-,_
-кануть=V,pf,intr=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-аллея=S,f,inan=(abl,sg|dat,sg)
-_
-свет=S,sg,m,inan=(acc|nom)
-,\u2014\n
-мелькнуть=V,pf,intr=praet,ger
-,_
-обманывать=V,tran=inpraes,sg,indic,3p,pf
-\n
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-обет=S,m,inan=(acc,sg|nom,sg)
-!\n
-и=CONJ=
-_
-пусть=PART=
-_
-в=PR=
-_
-истома=S,f,inan=(abl,sg|dat,sg)
-\n
-трепетать=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-бледно=ADV=
-,_
-кроме=PR=
-\n
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{не=PART=} {дремать=V,ipf,intr=inpraes,pl,indic,3p} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{не=PART=} {молкнуть=V,ipf,intr=inpraes,sg,indic,3p} {сад=S,m,inan=(acc,sg|nom,sg)};
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сомнение=S,n,inan=gen,pl} —
+{созвездие=S,n,inan=gen,pl} {взгляд=S,m,inan=(acc,sg|nom,sg)}!
+{пусть=CONJ=} {роптать=V,ipf,intr=inpraes,pl,indic,3p} {струя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{пусть=PART=} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {пруд=S,m,inan=(acc,sg|nom,sg)},—
+{так=ADVPRO=} {поцелуй=S,m,inan=(acc,pl|nom,pl)},
+{прильнуть=V,pf,intr=praet,ger}, {солгать=V,pf,intr=inpraes,pl,indic,3p}!
+{пусть=PART=}, {глянуть=V,pf,intr=praet,ger}, {кануть=V,pf,intr=inpraes,sg,indic,3p}
+{в=PR=} {аллея=S,f,inan=(abl,sg|dat,sg)} {свет=S,sg,m,inan=(acc|nom)},—
+{мелькнуть=V,pf,intr=praet,ger}, {обманывать=V,tran=inpraes,sg,indic,3p,pf}
+{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {обет=S,m,inan=(acc,sg|nom,sg)}!
+{и=CONJ=} {пусть=PART=} {в=PR=} {истома=S,f,inan=(abl,sg|dat,sg)}
+{трепетать=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom},—
+{все=SPRO,pl=(acc|nom)} {бледно=ADV=}, {кроме=PR=}
+{один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

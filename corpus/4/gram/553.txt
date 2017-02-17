@@ -1,84 +1,19 @@
-в=PR=
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-ясный=A=sg,brev,m
-_
-и=CONJ=
-_
-высокий=A=sg,brev,m
-.\n
-радовать=V,ipf,tran=inpraes,pl,indic,3p
-_
-подкова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-звонкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-грунт=S,m,inan=(acc,sg|nom,sg)
-_
-дорога=S,f,inan=gen,pl
-.\n\n
-глубоко=ADV=
-_
-вздыхать=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-:\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-голубой=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-словно=CONJ=
-_
-зачерпывать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-\n
-серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ковш=S,m,inan=ins,sg
-!\n\n
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-я=SPRO,sg,1p=nom
-_
-надевать=V,tran=praet,sg,indic,m,pf
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-кузница=S,f,inan=(abl,sg|dat,sg)
-_
-веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-работать=V,ipf,intr=inpraes,sg,indic,3p
-_
-кузнец=S,m,anim=nom,sg
-.\n\n
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-бессвязный=A=sg,brev,f
-.\n
-бездна=S,f,inan=nom,sg
-_
-не=PART=
-_
-страшный=A=sg,brev,f
-.\n
-однообразно=ADV=
--\n
-звучно=ADV=
-_
-царство=S,n,inan=(acc,sg|nom,sg)
-_
-сон=S,m,inan=gen,sg
-!\n
+{в=PR=} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {месяц=S,m,inan=(acc,sg|nom,sg)} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{ясный=A=sg,brev,m} {и=CONJ=} {высокий=A=sg,brev,m}.
+{радовать=V,ipf,tran=inpraes,pl,indic,3p} {подкова=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{звонкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грунт=S,m,inan=(acc,sg|nom,sg)} {дорога=S,f,inan=gen,pl}.
+
+{глубоко=ADV=} {вздыхать=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}:
+{в=PR=} {небо=S,n,inan=abl,sg} {голубой=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{словно=CONJ=} {зачерпывать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}
+{серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ковш=S,m,inan=ins,sg}!
+
+{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{я=SPRO,sg,1p=nom} {надевать=V,tran=praet,sg,indic,m,pf} {венец=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {кузница=S,f,inan=(abl,sg|dat,sg)} {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{работать=V,ipf,intr=inpraes,sg,indic,3p} {кузнец=S,m,anim=nom,sg}.
+
+{радость=S,f,inan=(acc,sg|nom,sg)} {бессвязный=A=sg,brev,f}.
+{бездна=S,f,inan=nom,sg} {не=PART=} {страшный=A=sg,brev,f}.
+{однообразно=ADV=}-
+{звучно=ADV=} {царство=S,n,inan=(acc,sg|nom,sg)} {сон=S,m,inan=gen,sg}!

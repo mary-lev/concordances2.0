@@ -1,120 +1,25 @@
-вновь=ADV=
-_
-богатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-злой=A=sg,brev,m|злой=A=sg,brev,m
-_
-и=CONJ=
-_
-рад=A,brev=sg,m
-,\n
-вновь=ADV=
-_
-унижать=V=praet,sg,partcp,brev,m,pf,pass,tran
-_
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-с=PR=
-_
-кровля=S,f,inan=gen,pl
-_
-каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-громада=S,f,inan=gen,pl
-\n
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n\n
-насылать=V=inpraes,sg,indic,3p,ipf,tran
-_
-тишина=S,sg,f,inan=acc
-,\n
-оттенять=V,tran=inpraes,sg,indic,3p,ipf
-_
-крутизна=S,sg,f,inan=acc
-\n
-каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-отвес=S,m,inan=gen,pl
-,\n
-чернота=S,sg,f,inan=acc
-_
-навес=S,m,inan=gen,pl
-...\n\n
-все=SPRO,pl=(acc|nom)
-_
-бы=PART=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-зря=ADV=
-,\n
-если=CONJ=
-_
-б=PART=
-_
-не=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-царь=S,m,anim=(acc,sg|gen,sg)
-,\n
-чтоб=CONJ=
-_
-блюсти=V,ipf,tran=inf
-_
-закон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-только=PART=
-_
-не=PART=
-_
-искать=V,ipf,tran=sg,imper,2p
-_
-дворец=S,m,inan=gen,sg
-,\n
-добродушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-корона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_\u2014_
-с=PR=
-_
-далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пустырь=S,m,inan=gen,pl
-\n
-в=PR=
-_
-свет=S,sg,m,inan=abl
-_
-редкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-фонарь=S,m,inan=gen,pl
-\n
-появляться=V,intr=inpraes,sg,indic,3p,ipf
-.\n\n
-шея=S,f,inan=nom,sg
-_
-скручивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-платок=S,m,inan=ins,sg
-,\n
-под=PR=
-_
-дырявый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-козырек=S,m,inan=ins,sg
-\n
-улыбаться=V,intr=inpraes,sg,indic,3p,ipf
-.\n
+{вновь=ADV=} {богатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {злой=A=sg,brev,m|злой=A=sg,brev,m} {и=CONJ=} {рад=A,brev=sg,m},
+{вновь=ADV=} {унижать=V=praet,sg,partcp,brev,m,pf,pass,tran} {бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{с=PR=} {кровля=S,f,inan=gen,pl} {каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {громада=S,f,inan=gen,pl}
+{смотреть=V,ipf,tran=inpraes,sg,indic,3p} {месяц=S,m,inan=(acc,sg|nom,sg)} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+
+{насылать=V=inpraes,sg,indic,3p,ipf,tran} {тишина=S,sg,f,inan=acc},
+{оттенять=V,tran=inpraes,sg,indic,3p,ipf} {крутизна=S,sg,f,inan=acc}
+{каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {отвес=S,m,inan=gen,pl},
+{чернота=S,sg,f,inan=acc} {навес=S,m,inan=gen,pl}...
+
+{все=SPRO,pl=(acc|nom)} {бы=PART=} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {зря=ADV=},
+{если=CONJ=} {б=PART=} {не=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {царь=S,m,anim=(acc,sg|gen,sg)},
+{чтоб=CONJ=} {блюсти=V,ipf,tran=inf} {закон=S,m,inan=(acc,pl|nom,pl)}.
+
+{только=PART=} {не=PART=} {искать=V,ipf,tran=sg,imper,2p} {дворец=S,m,inan=gen,sg},
+{добродушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {корона=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{он=SPRO,sg,3p,m=nom} — {с=PR=} {далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пустырь=S,m,inan=gen,pl}
+{в=PR=} {свет=S,sg,m,inan=abl} {редкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {фонарь=S,m,inan=gen,pl}
+{появляться=V,intr=inpraes,sg,indic,3p,ipf}.
+
+{шея=S,f,inan=nom,sg} {скручивать=V,tran=praet,sg,partcp,brev,f,pf,pass} {платок=S,m,inan=ins,sg},
+{под=PR=} {дырявый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {козырек=S,m,inan=ins,sg}
+{улыбаться=V,intr=inpraes,sg,indic,3p,ipf}.

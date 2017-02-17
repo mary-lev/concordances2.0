@@ -1,62 +1,9 @@
-звезда=S,f,inan=nom,sg
-_
-затеплиться=V,pf,intr=praet,sg,indic,f
-_
-стыдливо=ADV=
-,\n
-столпиться=V,pf,intr=praet,pl,indic
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-у=PR=
-_
-холм=S,m,inan=gen,sg
-;\n
-стихать=V,intr=inpraes,sg,indic,3p,ipf
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-;_
-вдоль=PR=
-_
-залив=S,m,inan=gen,sg
-\n
-редеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-пенный=A=nom,sg,plen,f
-_
-кайма=S,f,inan=nom,sg
-.\n\n
-уже=ADV=
-_
-погасать=V,intr=praet,pl,indic,pf
-_
-пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свет=S,sg,m,inan=gen
-\n
-на=PR=
-_
-грань=S,f,inan=abl,pl
-_
-сумрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-вершина=S,f,inan=gen,pl
-,_\u2014\n
-и=CONJ=
-_
-вот=PART=
-_
-в=PR=
-_
-селение=S,n,inan=abl,sg
-_
-с=PR=
-_
-минарет=S,m,inan=gen,sg
-\n
-запевать=V,tran=praet,sg,indic,m,pf
-_
-протяжно=ADV=
-_
-муэдзин=S,m,anim=nom,sg
-.\n
+{звезда=S,f,inan=nom,sg} {затеплиться=V,pf,intr=praet,sg,indic,f} {стыдливо=ADV=},
+{столпиться=V,pf,intr=praet,pl,indic} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {у=PR=} {холм=S,m,inan=gen,sg};
+{стихать=V,intr=inpraes,sg,indic,3p,ipf} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}; {вдоль=PR=} {залив=S,m,inan=gen,sg}
+{редеть=V,ipf,intr=inpraes,sg,indic,3p} {пенный=A=nom,sg,plen,f} {кайма=S,f,inan=nom,sg}.
+
+{уже=ADV=} {погасать=V,intr=praet,pl,indic,pf} {пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свет=S,sg,m,inan=gen}
+{на=PR=} {грань=S,f,inan=abl,pl} {сумрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вершина=S,f,inan=gen,pl}, —
+{и=CONJ=} {вот=PART=} {в=PR=} {селение=S,n,inan=abl,sg} {с=PR=} {минарет=S,m,inan=gen,sg}
+{запевать=V,tran=praet,sg,indic,m,pf} {протяжно=ADV=} {муэдзин=S,m,anim=nom,sg}.

@@ -1,120 +1,14 @@
-небесный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-ум=S,m,inan=ins,sg
-_
-не=PART=
-_
-измеримый=A=sg,brev,n
-,_\n
-лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сокрыть=V,pf,tran=praet,sg,partcp,brev,n,pass
-_
-от=PR=
-_
-ум=S,m,inan=gen,pl
-._\n
-лишь=PART=
-_
-изредка=ADV=
-_
-приносить=V=inpraes,pl,indic,3p,ipf,tran
-_
-серафима=S,persn,f,anim=(gen,sg|nom,pl)
-_\n
-священный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-избранник=S,m,anim=dat,pl
-_
-мир=S,m,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-мниться=V,ipf,intr=praet,sg,indic,f
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-российский=A=nom,sg,plen,f
-_
-венера=S,persn,f,anim=nom,sg
-,_\n
-тяжелый=A=ins,sg,plen,f
-_
-туника=S,f,inan=ins,sg
-_
-повивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-,_\n
-бесстрастный=A=sg,brev,f
-_
-в=PR=
-_
-чистота=S,sg,f,inan=(abl|dat)
-,_
-нерадостный?=A=sg,brev,f
-_
-без=PR=
-_
-мера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-в=PR=
-_
-черта=S,f,inan=abl,pl
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_-_
-спокойный=A=nom,sg,plen,f
-_
-мечта=S,f,inan=nom,sg
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-сходить=V,intr=praet,sg,indic,f,pf
-_
-на=PR=
-_
-земля=S,f,inan=acc,sg
-_
-не=PART=
-_
-впервые=ADV=
-,_\n
-но=CONJ=
-_
-вкруг=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-толпиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\n
-богатырь=S,m,anim=nom,pl
-_
-не=PART=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-,_
-и=CONJ=
-_
-витязь=S,m,anim=nom,pl
-_
-иной=APRO=(nom,pl|acc,pl,inan)
-..._\n
-и=CONJ=
-_
-странный=A=sg,brev,m
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-глубокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-...\n
+{небесный=A=(acc,sg,plen,n|nom,sg,plen,n)} {ум=S,m,inan=ins,sg} {не=PART=} {измеримый=A=sg,brev,n}, 
+{лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сокрыть=V,pf,tran=praet,sg,partcp,brev,n,pass} {от=PR=} {ум=S,m,inan=gen,pl}. 
+{лишь=PART=} {изредка=ADV=} {приносить=V=inpraes,pl,indic,3p,ipf,tran} {серафима=S,persn,f,anim=(gen,sg|nom,pl)} 
+{священный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {избранник=S,m,anim=dat,pl} {мир=S,m,inan=gen,pl}.
+
+{и=CONJ=} {мниться=V,ipf,intr=praet,sg,indic,f} {я=SPRO,sg,1p=(abl|dat)} {российский=A=nom,sg,plen,f} {венера=S,persn,f,anim=nom,sg}, 
+{тяжелый=A=ins,sg,plen,f} {туника=S,f,inan=ins,sg} {повивать=V,tran=praet,sg,partcp,brev,f,pf,pass}, 
+{бесстрастный=A=sg,brev,f} {в=PR=} {чистота=S,sg,f,inan=(abl|dat)}, {нерадостный?=A=sg,brev,f} {без=PR=} {мера=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{в=PR=} {черта=S,f,inan=abl,pl} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} - {спокойный=A=nom,sg,plen,f} {мечта=S,f,inan=nom,sg}.
+
+{она=SPRO,sg,3p,f=nom} {сходить=V,intr=praet,sg,indic,f,pf} {на=PR=} {земля=S,f,inan=acc,sg} {не=PART=} {впервые=ADV=}, 
+{но=CONJ=} {вкруг=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {толпиться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} 
+{богатырь=S,m,anim=nom,pl} {не=PART=} {тот=APRO=(nom,pl|acc,pl,inan)}, {и=CONJ=} {витязь=S,m,anim=nom,pl} {иной=APRO=(nom,pl|acc,pl,inan)}... 
+{и=CONJ=} {странный=A=sg,brev,m} {блеск=S,m,inan=(acc,sg|nom,sg)} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {глубокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}...

@@ -1,96 +1,14 @@
-милый=A=nom,sg,plen,f
-,\u2014_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_
-ли=PART=
-_\u2014_
-вновь=ADV=
-\n
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-?..\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-просыпаться=V,intr=praet,sg,indic,f,pf
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
-ты=SPRO,sg,2p=nom
-_
-улыбалася?=S,persn,mf,anim=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-где-то=ADVPRO=
-_
-в=PR=
-_
-далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луг=S,m,inan=abl,pl
-\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-вздыхать=V,intr=praet,sg,indic,m,pf
-_
-обо=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-степь=S,f,inan=(acc,sg|nom,sg)
-_
-почивать=V,ipf,intr=praet,sg,indic,f
-_
-в=PR=
-_
-слеза=S,f,inan=abl,pl
-.\n
-ты=SPRO,sg,2p=nom
-_
-замечтаться=V,pf,intr=praet,sg,indic,f
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-улыбаться=V,intr=praet,sg,indic,f,ipf
-,_
-любить=V,ipf,tran=inpraes,ger
-,\n
-помнить=V,ipf,tran=inpraes,ger
-_
-о=PR=
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-.\n
-благословлять=V,tran=inpraes,ger,ipf
-_
-ты=SPRO,sg,2p=(acc|gen)
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-как=CONJ=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-.\n
+{милый=A=nom,sg,plen,f},— {знать=V,ipf,tran=inpraes,sg,indic,2p} {ли=PART=} — {вновь=ADV=}
+{видеть=V,ipf,tran=praet,sg,indic,m} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {во=PR=} {сон=S,m,inan=abl,sg}?..
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {просыпаться=V,intr=praet,sg,indic,f,pf} {любовь=S,f,inan=(acc,sg|nom,sg)}.
+{ты=SPRO,sg,2p=nom} {улыбалася?=S,persn,mf,anim=nom,sg} {я=SPRO,sg,1p=(abl|dat)}.
+
+{где-то=ADVPRO=} {в=PR=} {далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луг=S,m,inan=abl,pl}
+{ветер=S,m,inan=(acc,sg|nom,sg)} {вздыхать=V,intr=praet,sg,indic,m,pf} {обо=PR=} {я=SPRO,sg,1p=(abl|dat)}.
+{степь=S,f,inan=(acc,sg|nom,sg)} {почивать=V,ipf,intr=praet,sg,indic,f} {в=PR=} {слеза=S,f,inan=abl,pl}.
+{ты=SPRO,sg,2p=nom} {замечтаться=V,pf,intr=praet,sg,indic,f} {во=PR=} {сон=S,m,inan=abl,sg}.
+
+{ты=SPRO,sg,2p=nom} {улыбаться=V,intr=praet,sg,indic,f,ipf}, {любить=V,ipf,tran=inpraes,ger},
+{помнить=V,ipf,tran=inpraes,ger} {о=PR=} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {весна=S,f,inan=(abl,sg|dat,sg)}.
+{благословлять=V,tran=inpraes,ger,ipf} {ты=SPRO,sg,2p=(acc|gen)},
+{быть=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {как=CONJ=} {во=PR=} {сон=S,m,inan=abl,sg}.

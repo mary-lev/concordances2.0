@@ -1,88 +1,9 @@
-яростный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-_
-с=PR=
-_
-огненный=A=ins,pl,plen
-_
-перо=S,n,inan=ins,pl
-\n
-пронестись=V,pf,intr=praet,pl,indic
-_
-над=PR=
-_
-белый=A=ins,pl,plen
-_
-райский=A=ins,pl,plen
-_
-преддверие=S,n,inan=ins,pl
-,\n
-огненный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отблеск=S,m,inan=(acc,pl|nom,pl)
-_
-вспыхивать=V,intr=praet,pl,indic,pf
-_
-на=PR=
-_
-мрамор=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-умчаться=V,pf,intr=praet,pl,indic
-_
-странница=S,f,anim=(gen,sg|nom,pl)
-,_
-улетать=V,intr=praet,pl,indic,pf
-_
-за=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-на=PR=
-_
-чистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мрамор=S,m,inan=abl,sg
-,_
-на=PR=
-_
-порог=S,m,inan=abl,sg
-_
-девственный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-все=SPRO,pl=(acc|nom)
-_
-алелось?=S,m,anim=(acc,sg|gen,sg)
-_
-блеск=S,m,inan=ins,sg
-_
-неестественный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-врата=S,pl,inan=abl
-_
-под=PR=
-_
-свод=S,m,inan=ins,pl
-,_
-вечный=A=ins,pl,plen
-,_
-алмазный=A=ins,pl,plen
-,\n
-упиваться=V,intr=praet,pl,indic,ipf
-_
-ангел=S,m,anim=nom,pl
-_
-тайный=A=ins,pl,plen
-_
-соблазн=S,m,inan=ins,pl
-.\n
+{яростный=A=(acc,pl,plen,inan|nom,pl,plen)} {птица=S,f,anim=(gen,sg|nom,pl)} {с=PR=} {огненный=A=ins,pl,plen} {перо=S,n,inan=ins,pl}
+{пронестись=V,pf,intr=praet,pl,indic} {над=PR=} {белый=A=ins,pl,plen} {райский=A=ins,pl,plen} {преддверие=S,n,inan=ins,pl},
+{огненный=A=(acc,pl,plen,inan|nom,pl,plen)} {отблеск=S,m,inan=(acc,pl|nom,pl)} {вспыхивать=V,intr=praet,pl,indic,pf} {на=PR=} {мрамор=S,m,inan=abl,sg},
+{и=CONJ=} {умчаться=V,pf,intr=praet,pl,indic} {странница=S,f,anim=(gen,sg|nom,pl)}, {улетать=V,intr=praet,pl,indic,pf} {за=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{но=CONJ=} {на=PR=} {чистый=A=(abl,sg,plen,m|abl,sg,plen,n)} {мрамор=S,m,inan=abl,sg}, {на=PR=} {порог=S,m,inan=abl,sg} {девственный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{что-то=SPRO,sg,n,inan=(acc|nom)} {все=SPRO,pl=(acc|nom)} {алелось?=S,m,anim=(acc,sg|gen,sg)} {блеск=S,m,inan=ins,sg} {неестественный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {в=PR=} {врата=S,pl,inan=abl} {под=PR=} {свод=S,m,inan=ins,pl}, {вечный=A=ins,pl,plen}, {алмазный=A=ins,pl,plen},
+{упиваться=V,intr=praet,pl,indic,ipf} {ангел=S,m,anim=nom,pl} {тайный=A=ins,pl,plen} {соблазн=S,m,inan=ins,pl}.

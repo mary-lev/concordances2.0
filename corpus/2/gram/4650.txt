@@ -1,160 +1,24 @@
-вот=PART=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-,_
-томительно=ADV=
-_
-звонок=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-звать=V,ipf,tran=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-война=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-рад=A,brev=sg,m
-,_
-что=CONJ=
-_
-еще=ADV=
-_
-ребенок=S,m,anim=nom,sg
-\n
-глотнуть=V,pf,tran=praet,sg,indic,m
-_
-воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-ходить=V,ipf,intr=inf
-_
-по=PR=
-_
-дорога=S,f,inan=dat,pl
-\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-читать=V,ipf,tran=inf
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-искупать=V,tran=inpraes,sg,indic,3p,pf
-_
-перед=PR=
-_
-бог=S,m,anim=ins,sg
-\n
-многий=APRO=(acc,pl,plen,inan|nom,pl,plen)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-грех=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-когда=CONJ=
-_
-от=PR=
-_
-народ=S,m,inan=gen,pl
-_\u2014_
-титан=S,m,inan=gen,pl
-,\n
-сражаться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-,_\u2014_
-дрогнуть=V,pf,intr=praet,sg,indic,f
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-грохот=S,m,inan=abl,sg
-_
-барабан=S,m,inan=gen,pl
-,\n
-и=CONJ=
-_
-в=PR=
-_
-трубный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-рычание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-смерть=S,f,inan=(acc,sg|nom,sg)
-,_\u2014\n\n
-лишь=PART=
-_
-он=SPRO,sg,3p,m=nom
-_
-сохранять=V,tran=inpraes,sg,indic,3p,ipf
-_
-семя=S,n,inan=(acc,sg|nom,sg)
-\n
-грядущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-мирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-он=SPRO,sg,3p,m=dat
-_
-обещать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-время=S,n,inan=(acc,sg|nom,sg)
-\n
-осуществлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-любимец=S,m,anim=ins,sg
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-понимать=V=inpraes,sg,indic,3p,pf
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-торжество=S,n,inan=(acc,sg|nom,sg)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-должный=A=sg,brev,m
-!_
-мы=SPRO,pl,1p=nom
-_
-биться=V,ipf,intr=praet,pl,indic
-_
-много=ADV,praed=
-\n
-и=CONJ=
-_
-страдать=V,ipf,intr=praet,pl,indic
-_
-мы=SPRO,pl,1p=nom
-_
-за=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-.\n
+{вот=PART=} {голос=S,m,inan=(acc,sg|nom,sg)}, {томительно=ADV=} {звонок=S,m,inan=(acc,sg|nom,sg)} —
+{звать=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)} {голос=S,m,inan=(acc,sg|nom,sg)} {война=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{но=CONJ=} {я=SPRO,sg,1p=nom} {рад=A,brev=sg,m}, {что=CONJ=} {еще=ADV=} {ребенок=S,m,anim=nom,sg}
+{глотнуть=V,pf,tran=praet,sg,indic,m} {воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {ходить=V,ipf,intr=inf} {по=PR=} {дорога=S,f,inan=dat,pl}
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {читать=V,ipf,tran=inf} {стих=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {он=SPRO,sg,3p,m=nom} {искупать=V,tran=inpraes,sg,indic,3p,pf} {перед=PR=} {бог=S,m,anim=ins,sg}
+{многий=APRO=(acc,pl,plen,inan|nom,pl,plen)} {наш=APRO=(nom,pl|acc,pl,inan)} {грех=S,m,inan=(acc,pl|nom,pl)}.
+
+{когда=CONJ=} {от=PR=} {народ=S,m,inan=gen,pl} — {титан=S,m,inan=gen,pl},
+{сражаться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)}, — {дрогнуть=V,pf,intr=praet,sg,indic,f} {твердь=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {грохот=S,m,inan=abl,sg} {барабан=S,m,inan=gen,pl},
+{и=CONJ=} {в=PR=} {трубный=A=(abl,sg,plen,m|abl,sg,plen,n)} {рычание=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {смерть=S,f,inan=(acc,sg|nom,sg)}, —
+
+{лишь=PART=} {он=SPRO,sg,3p,m=nom} {сохранять=V,tran=inpraes,sg,indic,3p,ipf} {семя=S,n,inan=(acc,sg|nom,sg)}
+{грядущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {мирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{он=SPRO,sg,3p,m=dat} {обещать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {время=S,n,inan=(acc,sg|nom,sg)}
+{осуществлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {любимец=S,m,anim=ins,sg} {бог=S,m,anim=(acc,sg|gen,sg)},
+{он=SPRO,sg,3p,m=nom} {понимать=V=inpraes,sg,indic,3p,pf} {свой=APRO=(acc,sg,n|nom,sg,n)} {торжество=S,n,inan=(acc,sg|nom,sg)},
+{он=SPRO,sg,3p,m=nom} {должный=A=sg,brev,m}! {мы=SPRO,pl,1p=nom} {биться=V,ipf,intr=praet,pl,indic} {много=ADV,praed=}
+{и=CONJ=} {страдать=V,ipf,intr=praet,pl,indic} {мы=SPRO,pl,1p=nom} {за=PR=} {он=SPRO,sg,3p,m=(acc|gen)}.

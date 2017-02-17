@@ -1,78 +1,9 @@
-длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жажда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-должник=S,m,anim=nom,sg
-_
-виноватый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сводник=S,m,anim=nom,sg
-_
-вино=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_\n
-на=PR=
-_
-бок=S,m,inan=abl,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-плясать=V,ipf,tran=inpraes,pl,indic,3p
-_
-козленок=S,m,anim=nom,pl
-\n
-и=CONJ=
-_
-под=PR=
-_
-музыка=S,f,inan=acc,sg
-_
-зреть=V,ipf,intr=inpraes,pl,indic,3p
-_
-плод=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-флейта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свистать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-клеветать=V,ipf,intr=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-злиться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-что=CONJ=
-_
-беда=S,f,inan=nom,sg
-_
-на=PR=
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-_
-обод=S,m,inan=dat,sg
-\n
-черно=ADV=
--
-красный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-и=CONJ=
-_
-некого=SPRO,sg=dat
-_
-взяться=V,pf,intr=inf
-\n
-за=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-чтоб=CONJ=
-_
-поправлять=V,tran=inf,pf
-_
-беда=S,f,inan=acc,sg
-.\n
+{длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жажда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {должник=S,m,anim=nom,sg} {виноватый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сводник=S,m,anim=nom,sg} {вино=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}, — 
+{на=PR=} {бок=S,m,inan=abl,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {плясать=V,ipf,tran=inpraes,pl,indic,3p} {козленок=S,m,anim=nom,pl}
+{и=CONJ=} {под=PR=} {музыка=S,f,inan=acc,sg} {зреть=V,ipf,intr=inpraes,pl,indic,3p} {плод=S,m,inan=(acc,pl|nom,pl)}.
+
+{флейта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свистать=V,ipf,tran=inpraes,pl,indic,3p}, {клеветать=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {злиться=V,ipf,intr=inpraes,pl,indic,3p},
+{что=CONJ=} {беда=S,f,inan=nom,sg} {на=PR=} {твой=APRO=(abl,sg,m|abl,sg,n)} {обод=S,m,inan=dat,sg}
+{черно=ADV=}-{красный=A=(abl,sg,plen,m|abl,sg,plen,n)} — {и=CONJ=} {некого=SPRO,sg=dat} {взяться=V,pf,intr=inf}
+{за=PR=} {ты=SPRO,sg,2p=(acc|gen)}, {чтоб=CONJ=} {поправлять=V,tran=inf,pf} {беда=S,f,inan=acc,sg}.

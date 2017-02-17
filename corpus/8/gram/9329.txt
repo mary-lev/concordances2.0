@@ -1,64 +1,9 @@
-у=PR=
-_
-перекресток=S,m,inan=gen,sg
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-дорога=S,f,inan=gen,pl
-\n
-журчание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-тихий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-фонтан=S,m,inan=gen,sg
-;\n
-источник=S,m,inan=(acc,sg|nom,sg)
-_
-скудный=A=sg,brev,m
-_
-и=CONJ=
-_
-убогий=A=sg,brev,m
-;\n
-на=PR=
-_
-камень=S,m,inan=abl,sg
-_
-надпись=S,f,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-коран=S,m,inan=gen,sg
-,\n\n
-здесь=ADVPRO=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-скромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-кипарис=S,m,inan=(acc,sg|nom,sg)
-,\n
-здесь=ADVPRO=
-_
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-_
-пыльный=A=nom,sg,plen,f
-_
-олива=S,f,inan=nom,sg
-,\n
-а=CONJ=
-_
-ручеек=S,m,inan=(acc,sg|nom,sg)
-_
-сбегать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-вниз=ADV=
-\n
-к=PR=
-_
-прибрежье=S,n,inan=dat,sg
-_
-вольный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-залив=S,m,inan=gen,sg
-.\n
+{у=PR=} {перекресток=S,m,inan=gen,sg} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {дорога=S,f,inan=gen,pl}
+{журчание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {тихий=A=(acc,sg,plen,n|nom,sg,plen,n)} {фонтан=S,m,inan=gen,sg};
+{источник=S,m,inan=(acc,sg|nom,sg)} {скудный=A=sg,brev,m} {и=CONJ=} {убогий=A=sg,brev,m};
+{на=PR=} {камень=S,m,inan=abl,sg} {надпись=S,f,inan=(acc,sg|nom,sg)} {из=PR=} {коран=S,m,inan=gen,sg},
+
+{здесь=ADVPRO=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {скромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кипарис=S,m,inan=(acc,sg|nom,sg)},
+{здесь=ADVPRO=} {дремать=V,ipf,intr=inpraes,sg,indic,3p} {пыльный=A=nom,sg,plen,f} {олива=S,f,inan=nom,sg},
+{а=CONJ=} {ручеек=S,m,inan=(acc,sg|nom,sg)} {сбегать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {вниз=ADV=}
+{к=PR=} {прибрежье=S,n,inan=dat,sg} {вольный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {залив=S,m,inan=gen,sg}.

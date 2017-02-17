@@ -1,56 +1,9 @@
-стаивать=V,intr=praet,sg,indic,m,pf
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-..._
-земля=S,f,inan=nom,sg
-,_
-каменья=S,pl,inan=(acc|nom)
-,\n
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-где=ADVPRO=
-_
-же=PART=
-_
-символ=S,m,inan=(acc,sg|nom,sg)
-_
-возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лепет=S,m,inan=(acc,sg|nom,sg)
-_
-василек=S,m,inan=gen,sg
-!\n\n
-смутно=ADV=
-_
-сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-\n
-вместо=PR=
-_
-вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-теплота=S,sg,f,inan=gen
-,\n
-и=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-обновлять=V,tran=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{стаивать=V,intr=praet,sg,indic,m,pf} {снег=S,m,inan=(acc,sg|nom,sg)}... {земля=S,f,inan=nom,sg}, {каменья=S,pl,inan=(acc|nom)},
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{где=ADVPRO=} {же=PART=} {символ=S,m,inan=(acc,sg|nom,sg)} {возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лепет=S,m,inan=(acc,sg|nom,sg)} {василек=S,m,inan=gen,sg}!
+
+{смутно=ADV=} {сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {холод=S,m,inan=(acc,sg|nom,sg)} {дышать=V,ipf,intr=inpraes,sg,indic,3p}
+{вместо=PR=} {вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {теплота=S,sg,f,inan=gen},
+{и=CONJ=} {душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,3p}
+{обновлять=V,tran=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

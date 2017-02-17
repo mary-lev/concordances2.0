@@ -1,70 +1,9 @@
-к=PR=
-_
-нога=S,f,inan=dat,pl
-_
-презренный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-кумир=S,m,anim=(acc,sg|gen,sg)
-_\n
-слагать=V,tran=inf,ipf
-_
-божественный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_\n
-и=CONJ=
-_
-прославлять=V,tran=inf,ipf
-_
-обитель=S,f,inan=(acc,sg|nom,sg)
-_
-мир=S,m,inan=gen,sg
-_\n
-в=PR=
-_
-чад=S,geo,m,inan=dat,sg
-_
-убийство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-война=S,f,inan=(acc,pl|gen,sg|nom,pl)
-;\n\n
-вперяться=V,intr=inpraes,ger,ipf
-_
-в=PR=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-хладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-прозревать=V,intr=inf,ipf
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-_-_\n
-вот=PART=
-_
-жребий=S,m,inan=(acc,sg|nom,sg)
-_
-странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-беспощадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-милость=S,f,inan=ins,sg
-_
-поэт=S,m,anim=nom,sg
-!\n
+{к=PR=} {нога=S,f,inan=dat,pl} {презренный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {кумир=S,m,anim=(acc,sg|gen,sg)} 
+{слагать=V,tran=inf,ipf} {божественный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)} 
+{и=CONJ=} {прославлять=V,tran=inf,ipf} {обитель=S,f,inan=(acc,sg|nom,sg)} {мир=S,m,inan=gen,sg} 
+{в=PR=} {чад=S,geo,m,inan=dat,sg} {убийство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {война=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+
+{вперяться=V,intr=inpraes,ger,ipf} {в=PR=} {сумрак=S,m,inan=(acc,sg|nom,sg)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {хладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{в=PR=} {он=SPRO,sg,3p,m=abl} {прозревать=V,intr=inf,ipf} {огонь=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {свет=S,sg,m,inan=(acc|nom)} - 
+{вот=PART=} {жребий=S,m,inan=(acc,sg|nom,sg)} {странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {беспощадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)}, {божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {милость=S,f,inan=ins,sg} {поэт=S,m,anim=nom,sg}!

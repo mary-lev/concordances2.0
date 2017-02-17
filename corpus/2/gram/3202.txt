@@ -1,132 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-откинуть=V,pf,tran=praet,sg,indic,m
-_
-докучный=A=acc,sg,plen,f
-_
-маска=S,f,inan=acc,sg
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-что-то=SPRO,sg,n,inan=gen
-_
-забывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-_
-жаль=ADV,praed=
-...\n
-я=SPRO,sg,1p=nom
-_
-припоминать=V,tran=praet,sg,indic,m,pf
-_
-старинный=A=acc,sg,plen,f
-_
-сказка=S,f,inan=acc,sg
-\n
-про=PR=
-_
-священный=A=acc,sg,plen,f
-_
-чаша=S,f,inan=acc,sg
-_
-грааль?=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-хотеть=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-бродить=V,ipf,intr=inf
-_
-поселение=S,n,inan=dat,pl
-,\n
-уходить=V,intr=inf,ipf
-_
-в=PR=
-_
-неизвестный=A=acc,sg,plen,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-,\n
-приближаться=V,intr=inpraes,ger,ipf
-_
-к=PR=
-_
-далекий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-владение=S,n,inan=dat,pl
-\n
-зачаровывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-грааль?=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-таить=V,ipf,tran=inf
-_
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-о=INTJ=
-,_
-мой=APRO=nom,sg,f
-_
-золотой=A=nom,sg,plen,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-!\n
-только=PART=
-_
-чистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-давать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-созерцание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вечно=ADV=
-_
-радостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-грааль?=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-разрывать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-лучистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-обручать=V,tran=(praet,nom,pl,partcp,plen,ipf,act|praet,acc,pl,partcp,plen,ipf,act,inan)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-красота=S,f,inan=acc,sg
-;__\u2014\n
-брат=S,m,anim=nom,pl
-,_
-сестра=S,f,anim=(gen,sg|nom,pl)
-,_
-сказать=V,pf,tran=pl,imper,2p
-,_
-сказать=V,pf,tran=pl,imper,2p
-,\n
-где=ADVPRO=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-вновь=ADV=
-_
-обретать=V=inf,pf
-_
-чистота=S,sg,f,inan=acc
-?\n
+{я=SPRO,sg,1p=nom} {откинуть=V,pf,tran=praet,sg,indic,m} {докучный=A=acc,sg,plen,f} {маска=S,f,inan=acc,sg},
+{я=SPRO,sg,1p=(abl|dat)} {что-то=SPRO,sg,n,inan=gen} {забывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)} {жаль=ADV,praed=}...
+{я=SPRO,sg,1p=nom} {припоминать=V,tran=praet,sg,indic,m,pf} {старинный=A=acc,sg,plen,f} {сказка=S,f,inan=acc,sg}
+{про=PR=} {священный=A=acc,sg,plen,f} {чаша=S,f,inan=acc,sg} {грааль?=S,m,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {бродить=V,ipf,intr=inf} {поселение=S,n,inan=dat,pl},
+{уходить=V,intr=inf,ipf} {в=PR=} {неизвестный=A=acc,sg,plen,f} {даль=S,f,inan=(acc,sg|nom,sg)},
+{приближаться=V,intr=inpraes,ger,ipf} {к=PR=} {далекий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {владение=S,n,inan=dat,pl}
+{зачаровывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)} {грааль?=S,m,inan=(acc,sg|nom,sg)}.
+
+{но=CONJ=} {таить=V,ipf,tran=inf} {мы=SPRO,pl,1p=nom} {не=PART=} {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{о=INTJ=}, {мой=APRO=nom,sg,f} {золотой=A=nom,sg,plen,f} {печаль=S,f,inan=(acc,sg|nom,sg)}!
+{только=PART=} {чистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {давать=V,tran=praet,pl,partcp,brev,pf,pass} {созерцание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{вечно=ADV=} {радостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)} {грааль?=S,m,inan=(acc,sg|nom,sg)}.
+
+{разрывать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {лучистый=A=(acc,pl,plen,inan|nom,pl,plen)} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{обручать=V,tran=(praet,nom,pl,partcp,plen,ipf,act|praet,acc,pl,partcp,plen,ipf,act,inan)} {я=SPRO,sg,1p=(abl|dat)} {красота=S,f,inan=acc,sg};  —
+{брат=S,m,anim=nom,pl}, {сестра=S,f,anim=(gen,sg|nom,pl)}, {сказать=V,pf,tran=pl,imper,2p}, {сказать=V,pf,tran=pl,imper,2p},
+{где=ADVPRO=} {я=SPRO,sg,1p=(abl|dat)} {вновь=ADV=} {обретать=V=inf,pf} {чистота=S,sg,f,inan=acc}?

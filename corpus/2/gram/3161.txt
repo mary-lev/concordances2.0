@@ -1,107 +1,17 @@
+{I??}
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вид=S,m,inan=(acc,sg|nom,sg)}, 
+{остроконечный=A=(acc,pl,plen,inan|nom,pl,plen)} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{где=ADVPRO=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {лишний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шаг=S,m,inan=(acc,sg|nom,sg)} {грозить=V,ipf,intr=inpraes,sg,indic,3p} 
+{несвоевременный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кончина=S,f,inan=ins,sg}.
 
-I??
-\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вид=S,m,inan=(acc,sg|nom,sg)
-,_\n
-остроконечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-где=ADVPRO=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-лишний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-несвоевременный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кончина=S,f,inan=ins,sg
-.\n\n
-II??
-\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-над=PR=
-_
-пропасть=S,f,inan=ins,sg
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\n
-простор=S,m,inan=ins,sg
-_
-давать=V,tran=praet,pl,indic,pf
-_
-любоваться=V,ipf,intr=inf
-_\n
-или=CONJ=
-_
-неверный=A=ins,sg,plen,f
-_
-тропа=S,f,inan=ins,sg
-_\n
-все=ADV=
-_
-высоко=ADV=comp
--
-высоко=ADV=comp
-_
-подниматься=V,intr=inf,ipf
-.\n\n
-III??
-\n
-в=PR=
-_
-гора=S,f,inan=abl,pl
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-люб=A,brev=sg,m
-_
-и=CONJ=
-_
-божий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-,_\n
-но=CONJ=
-_
-люб=A,brev=sg,m
-_
-и=CONJ=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_\n
-не=PART=
-_
-заманивать=V,tran=inf,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-вы=SPRO,pl,2p=dat
-,_
-нет=ADV,praed=
-,\n
-в=PR=
-_
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-скучный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-долина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{II??}
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {над=PR=} {пропасть=S,f,inan=ins,sg} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+{простор=S,m,inan=ins,sg} {давать=V,tran=praet,pl,indic,pf} {любоваться=V,ipf,intr=inf} 
+{или=CONJ=} {неверный=A=ins,sg,plen,f} {тропа=S,f,inan=ins,sg} 
+{все=ADV=} {высоко=ADV=comp}-{высоко=ADV=comp} {подниматься=V,intr=inf,ipf}.
+
+{III??}
+{в=PR=} {гора=S,f,inan=abl,pl} {я=SPRO,sg,1p=(abl|dat)} {люб=A,brev=sg,m} {и=CONJ=} {божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {свет=S,sg,m,inan=(acc|nom)}, 
+{но=CONJ=} {люб=A,brev=sg,m} {и=CONJ=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {миг=S,m,inan=(acc,sg|nom,sg)} {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! 
+{не=PART=} {заманивать=V,tran=inf,pf} {я=SPRO,sg,1p=(acc|gen)} {вы=SPRO,pl,2p=dat}, {нет=ADV,praed=},
+{в=PR=} {пустой=A=(acc,pl,plen,inan|nom,pl,plen)}, {скучный=A=(acc,pl,plen,inan|nom,pl,plen)} {долина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

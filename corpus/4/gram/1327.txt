@@ -1,68 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-сказать=V,pf,tran=inpraes,sg,indic,1p
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-начерно=ADV=
-,_
-шопот?=S,m,inan=ins,sg
-,\n
-потому=ADVPRO=
-_
-что=CONJ=
-_
-еще=ADV=
-_
-не=PART=
-_
-пора=ADV,praed=
-:\n
-достигаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-потом=ADVPRO=
-_
-и=CONJ=
-_
-опыт=S,m,inan=ins,sg
-\n
-безотчетный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-игра=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-_
-под=PR=
-_
-временный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-небо=S,n,inan=ins,sg
-_
-чистилище=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-забывать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-_
-мы=SPRO,pl,1p=nom
-_
-часто=ADV=
-_
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-,\n
-что=CONJ=
-_
-счастливый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небохранилище?=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_\n
-раздвижной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-прижизненный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
+{я=SPRO,sg,1p=nom} {сказать=V,pf,tran=inpraes,sg,indic,1p} {это=SPRO,sg,n,inan=(acc|nom)} {начерно=ADV=}, {шопот?=S,m,inan=ins,sg},
+{потому=ADVPRO=} {что=CONJ=} {еще=ADV=} {не=PART=} {пора=ADV,praed=}:
+{достигаться=V,ipf,intr=inpraes,sg,indic,3p} {потом=ADVPRO=} {и=CONJ=} {опыт=S,m,inan=ins,sg}
+{безотчетный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {игра=S,f,inan=nom,sg}.
+
+{и=CONJ=} {под=PR=} {временный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {небо=S,n,inan=ins,sg} {чистилище=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{забывать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)} {мы=SPRO,pl,1p=nom} {часто=ADV=} {о=PR=} {то=SPRO,sg,n,inan=abl},
+{что=CONJ=} {счастливый=A=(acc,sg,plen,n|nom,sg,plen,n)} {небохранилище?=S,n,inan=(abl,sg|acc,sg|nom,sg)} — 
+{раздвижной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {прижизненный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)}.

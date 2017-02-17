@@ -1,90 +1,15 @@
-никто=SPRO,sg,m,anim=dat
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-поверять=V=pl,imper,2p,ipf,tran
-,_\n
-ах=INTJ=
-,_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-не=PART=
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-,_
-не=PART=
-_
-сгубить?=V,ipf,tran=inpraes,ger
-!_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вы=SPRO,pl,2p=nom
-_
-знать=V,ipf,tran=inpraes,pl,indic,2p
-,_
-то=PART=
-_
-знать=V,ipf,tran=pl,imper,2p
-_\n
-для=PR=
-_
-себя=SPRO=(acc|gen)
-.\n\n
-даже=PART=
-,_
-если=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-спрашивать=V=inpraes,sg,indic,3p,pf
-,_\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=ins
-_
-ваш=APRO=nom,sg,f
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-согревать=V,tran=praet,sg,partcp,brev,f,pf,pass
-,_\n
-сказать=V,pf,tran=inpraes,sg,indic,3p
-,_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-зависеть=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-от=PR=
-_
-ответ=S,m,inan=gen,sg
-;\n\n
-промолчать=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-!_
-пусть=PART=
-_
-отравлять=V,tran=inpraes,sg,indic,3p,pf
-_\n
-он=SPRO,sg,3p,m=nom
-_
-мечтание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-навсегда=ADV=
-,\n
-он=SPRO,sg,3p,m=nom
-_
-зато=CONJ=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-не=PART=
-_
-оставлять=V,tran=inpraes,sg,indic,3p,pf
-_\n
-никогда=ADVPRO=
-.\n\n
+{никто=SPRO,sg,m,anim=dat} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {поверять=V=pl,imper,2p,ipf,tran}, 
+{ах=INTJ=}, {она=SPRO,sg,3p,f=(acc|gen)} {не=PART=} {сказать=V,pf,tran=inpraes,sg,indic,2p}, {не=PART=} {сгубить?=V,ipf,tran=inpraes,ger}! 
+{что=SPRO,sg,n,inan=(acc|nom)} {вы=SPRO,pl,2p=nom} {знать=V,ipf,tran=inpraes,pl,indic,2p}, {то=PART=} {знать=V,ipf,tran=pl,imper,2p} 
+{для=PR=} {себя=SPRO=(acc|gen)}.
+
+{даже=PART=}, {если=CONJ=} {он=SPRO,sg,3p,m=nom} {вы=SPRO,pl,2p=(abl|acc|gen)} {спрашивать=V=inpraes,sg,indic,3p,pf}, 
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=ins} {ваш=APRO=nom,sg,f} {мысль=S,f,inan=(acc,sg|nom,sg)} {согревать=V,tran=praet,sg,partcp,brev,f,pf,pass}, 
+{сказать=V,pf,tran=inpraes,sg,indic,3p}, {жизнь=S,f,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=(acc|gen)} {зависеть=V,ipf,intr=inpraes,sg,indic,3p} 
+{от=PR=} {ответ=S,m,inan=gen,sg};
+
+{промолчать=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)}! {пусть=PART=} {отравлять=V,tran=inpraes,sg,indic,3p,pf} 
+{он=SPRO,sg,3p,m=nom} {мечтание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {навсегда=ADV=},
+{он=SPRO,sg,3p,m=nom} {зато=CONJ=} {вы=SPRO,pl,2p=(abl|acc|gen)} {не=PART=} {оставлять=V,tran=inpraes,sg,indic,3p,pf} 
+{никогда=ADVPRO=}.
+

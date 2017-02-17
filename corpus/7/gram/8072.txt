@@ -1,126 +1,19 @@
-кончаться=V,intr=praet,sg,indic,f,pf
-_
-яркий=A=nom,sg,plen,f
-_
-чара=S,f,inan=nom,sg
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-очнуться=V,pf,intr=praet,sg,indic,n
-_
-пустой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-:\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-после=PR=
-_
-пожар=S,m,inan=gen,sg
-,\n
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-_
-удушливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-кончаться=V,intr=praet,sg,indic,f,pf
-?_
-жалкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-,\n
-жалкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-трусить=V,ipf,intr=sg,imper,2p
-:\n
-скоро=ADV=
-_
-в=PR=
-_
-остаток=S,m,inan=abl,pl
-_
-былой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-сквозь=PR=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-разбираться=V,intr=inpraes,sg,indic,1p,pf
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-хотеть=V,ipf,tran=praet,sg,indic,n
-_
-обман=S,m,inan=gen,sg
-_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-оставаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-...\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-за=PR=
-_
-гарь=S,f,inan=ins,sg
-_
-туман=S,m,inan=gen,sg
-\n
-желтый=A=sg,brev,n
-,_
-как=CONJ=
-_
-вставать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-больной=S,m,anim=nom,sg
-.\n\n
-жребий=S,m,inan=(acc,sg|nom,sg)
-,_
-о=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-понимать=V=praet,sg,partcp,brev,m,pf,pass
-_\u2014\n
-старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пепел=S,m,inan=gen,sg
-_
-не=PART=
-_
-тронуть=V,pf,tran=sg,imper,2p
-...\n
-больше=ADV=
-_
-проклятый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-\n
-стена=S,f,inan=gen,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-черные=S,pl,inan=(abl|gen)
-_
-не=PART=
-_
-тронуть=V,pf,tran=inpraes,sg,indic,3p
-!\n
+{кончаться=V,intr=praet,sg,indic,f,pf} {яркий=A=nom,sg,plen,f} {чара=S,f,inan=nom,sg},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {очнуться=V,pf,intr=praet,sg,indic,n} {пустой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}:
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {как=CONJ=} {после=PR=} {пожар=S,m,inan=gen,sg},
+{ходить=V,ipf,intr=inpraes,sg,indic,3p} {удушливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дым=S,m,inan=(acc,sg|nom,sg)}.
+
+{кончаться=V,intr=praet,sg,indic,f,pf}? {жалкий=A=(acc,sg,plen,n|nom,sg,plen,n)} {слово=S,n,inan=(acc,sg|nom,sg)},
+{жалкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {трусить=V,ipf,intr=sg,imper,2p}:
+{скоро=ADV=} {в=PR=} {остаток=S,m,inan=abl,pl} {былой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{я=SPRO,sg,1p=nom} {и=CONJ=} {сквозь=PR=} {дым=S,m,inan=(acc,sg|nom,sg)} {разбираться=V,intr=inpraes,sg,indic,1p,pf}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {хотеть=V,ipf,tran=praet,sg,indic,n} {обман=S,m,inan=gen,sg} —
+{все=SPRO,pl=(acc|nom)} {оставаться=V,intr=inpraes,sg,indic,3p,ipf} {за=PR=} {я=SPRO,sg,1p=ins}...
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {за=PR=} {гарь=S,f,inan=ins,sg} {туман=S,m,inan=gen,sg}
+{желтый=A=sg,brev,n}, {как=CONJ=} {вставать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {больной=S,m,anim=nom,sg}.
+
+{жребий=S,m,inan=(acc,sg|nom,sg)}, {о=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {понимать=V=praet,sg,partcp,brev,m,pf,pass} —
+{старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пепел=S,m,inan=gen,sg} {не=PART=} {тронуть=V,pf,tran=sg,imper,2p}...
+{больше=ADV=} {проклятый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {огонь=S,m,inan=(acc,sg|nom,sg)}
+{стена=S,f,inan=gen,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {черные=S,pl,inan=(abl|gen)} {не=PART=} {тронуть=V,pf,tran=inpraes,sg,indic,3p}!

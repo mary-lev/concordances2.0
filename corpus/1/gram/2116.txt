@@ -1,120 +1,14 @@
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-налетать=V,intr=inpraes,sg,indic,3p,pf
-,_
-завыть=V,pf,intr=inpraes,sg,indic,3p
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-возникать=V,intr=inpraes,sg,indic,3p,pf
-\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-,_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-отдаленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брег=S,m,inan=(acc,sg|nom,sg)
-...\n
-но=CONJ=
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-увянуть=V,pf,intr=praet,sg,indic,m
-,_
-под=PR=
-_
-снег=S,m,inan=ins,sg
-_
-никнуть=V,ipf,intr=inpraes,sg,indic,3p
-...\n\n
-и=CONJ=
-_
-шелестеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-трава=S,f,inan=ins,sg
-_
-сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-старинный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-болезнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-и=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-._
-и=CONJ=
-_
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-тропа=S,f,inan=ins,sg
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-к=PR=
-_
-прикрывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-снег=S,m,inan=ins,sg
-_
-бездна=S,f,inan=(abl,sg|dat,sg)
-...\n\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-._
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-нести=V,ipf,tran=inpraes,sg,indic,1p
-\n
-постылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-груз=S,m,inan=(acc,sg|nom,sg)
-_
-воспоминание=S,n,inan=gen,pl
-...\n
-вдруг=ADV=
-_\u2014_
-малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-домик=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-поляна=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-девочка=S,f,anim=nom,sg
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
+{ветер=S,m,inan=(acc,sg|nom,sg)} {налетать=V,intr=inpraes,sg,indic,3p,pf}, {завыть=V,pf,intr=inpraes,sg,indic,3p} {снег=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)} {возникать=V,intr=inpraes,sg,indic,3p,pf}
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {край=S,m,inan=(acc,sg|nom,sg)}, {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {отдаленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брег=S,m,inan=(acc,sg|nom,sg)}...
+{но=CONJ=} {цвет=S,m,inan=(acc,sg|nom,sg)} {увянуть=V,pf,intr=praet,sg,indic,m}, {под=PR=} {снег=S,m,inan=ins,sg} {никнуть=V,ipf,intr=inpraes,sg,indic,3p}...
+
+{и=CONJ=} {шелестеть=V,ipf,intr=inpraes,pl,indic,3p} {трава=S,f,inan=ins,sg} {сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{мой=APRO=(nom,pl|acc,pl,inan)} {старинный=A=(acc,pl,plen,inan|nom,pl,plen)} {болезнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{и=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)}. {и=CONJ=} {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} — {тропа=S,f,inan=ins,sg} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{идти=V,ipf,intr=inpraes,sg,indic,1p} {к=PR=} {прикрывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {снег=S,m,inan=ins,sg} {бездна=S,f,inan=(abl,sg|dat,sg)}...
+
+{ночь=S,f,inan=(acc,sg|nom,sg)}, {лес=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {снег=S,m,inan=(acc,sg|nom,sg)}. {и=CONJ=} {я=SPRO,sg,1p=nom} {нести=V,ipf,tran=inpraes,sg,indic,1p}
+{постылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {груз=S,m,inan=(acc,sg|nom,sg)} {воспоминание=S,n,inan=gen,pl}...
+{вдруг=ADV=} — {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {домик=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {поляна=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {девочка=S,f,anim=nom,sg} {петь=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.

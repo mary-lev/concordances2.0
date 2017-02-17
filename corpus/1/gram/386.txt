@@ -1,142 +1,19 @@
-висеться=V,ipf,intr=inpraes,ger
-_
-над=PR=
-_
-город=S,m,inan=ins,sg
-_
-всемирный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-в=PR=
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-проходить=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-заточить=V,pf,tran=praet,sg,partcp,brev,m,pass
-,\n
-еще=ADV=
-_
-монарх=S,m,anim=(acc,sg|gen,sg)
-_
-в=PR=
-_
-утро=S,n,inan=abl,sg
-_
-лирный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-самодержавный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-клонить=V,ipf,tran=inpraes,sg,indic,3p
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-предок=S,m,anim=nom,sg
-_
-царственно=ADV=
--
-чугунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-все=SPRO,pl=(acc|nom)
-_
-так=ADVPRO=
-_
-же=PART=
-_
-бредить=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-змея=S,f,anim=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-многострунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-еще=ADV=
-_
-не=PART=
-_
-властный=A=sg,brev,m
-_
-на=PR=
-_
-нева=S,geo,f,inan=(abl,sg|dat,sg)
-.\n\n
-уже=ADV=
-_
-на=PR=
-_
-дом=S,m,inan=abl,pl
-_
-веять=V,ipf,tran=inpraes,pl,indic,3p
-_
-флаг=S,m,inan=(acc,pl|nom,pl)
-,\n
-готовый=A=pl,brev
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-птенец=S,m,anim=nom,pl
-,\n
-но=CONJ=
-_
-тихий=A=pl,brev
-_
-струя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-невский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-влага=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-слепой=A=pl,brev
-_
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дворец=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-и=CONJ=
-_
-если=CONJ=
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-являть=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-то=CONJ=
-_
-прежде=ADV=
-_
-являть=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-змея=S,f,anim=(gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-ни=PART=
-_
-один=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-сустав=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-сдавливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-сверкнуть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-_
-кольцо=S,n,inan=gen,pl
-_
-чешуя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{висеться=V,ipf,intr=inpraes,ger} {над=PR=} {город=S,m,inan=ins,sg} {всемирный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{в=PR=} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {проходить=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {заточить=V,pf,tran=praet,sg,partcp,brev,m,pass},
+{еще=ADV=} {монарх=S,m,anim=(acc,sg|gen,sg)} {в=PR=} {утро=S,n,inan=abl,sg} {лирный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{самодержавный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {клонить=V,ipf,tran=inpraes,sg,indic,3p} {сон=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {предок=S,m,anim=nom,sg} {царственно=ADV=}-{чугунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{все=SPRO,pl=(acc|nom)} {так=ADVPRO=} {же=PART=} {бредить=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {змея=S,f,anim=(abl,sg|dat,sg)},
+{и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} {чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {многострунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{еще=ADV=} {не=PART=} {властный=A=sg,brev,m} {на=PR=} {нева=S,geo,f,inan=(abl,sg|dat,sg)}.
+
+{уже=ADV=} {на=PR=} {дом=S,m,inan=abl,pl} {веять=V,ipf,tran=inpraes,pl,indic,3p} {флаг=S,m,inan=(acc,pl|nom,pl)},
+{готовый=A=pl,brev} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {птенец=S,m,anim=nom,pl},
+{но=CONJ=} {тихий=A=pl,brev} {струя=S,f,inan=(acc,pl|gen,sg|nom,pl)} {невский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {влага=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {слепой=A=pl,brev} {темный=A=(acc,pl,plen,inan|nom,pl,plen)} {дворец=S,m,inan=(acc,pl|nom,pl)}.
+
+{и=CONJ=} {если=CONJ=} {лик=S,m,inan=(acc,sg|nom,sg)} {свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {являть=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{то=CONJ=} {прежде=ADV=} {являть=V,tran=praet,sg,partcp,brev,m,pf,pass} {лик=S,m,inan=(acc,sg|nom,sg)} {змея=S,f,anim=(gen,sg|nom,pl)},
+{и=CONJ=} {ни=PART=} {один=ANUM=(acc,sg,m,inan|nom,sg,m)} {сустав=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {сдавливать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{сверкнуть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {кольцо=S,n,inan=gen,pl} {чешуя=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

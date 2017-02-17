@@ -1,196 +1,34 @@
-уходить=V,intr=praet,sg,indic,f,pf
-..._
-завянуть=V,pf,intr=praet,pl,indic
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-и=CONJ=
-_
-даже=PART=
-_
-чижик=S,m,anim=nom,sg
-_
-в=PR=
-_
-клетка=S,f,inan=(abl,sg|dat,sg)
-\n
-заплакать=V,pf,tran=praet,sg,indic,m
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-.\n\n
-что=CONJ=
-_
-польза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-чижик=S,m,anim=nom,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-польза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мы=SPRO,pl,1p=dat
-_
-грустить=V,ipf,intr=inf
-,\n
-она=SPRO,sg,3p,f=nom
-_
-теперь=ADV=
-_
-в=PR=
-_
-париж=S,geo,m,inan=abl,sg
-,\n
-в=PR=
-_
-берлин=S,geo,m,inan=abl,sg
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-.\n\n
-страшный=A=comp
-_
-страшный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пугать=V,ipf,tran=praet,sg,indic,m
-\n
-красивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-честный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=dat
-_
-в=PR=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-угол=S,m,inan=(acc,sg|nom,sg)
-\n
-беглянка=S,f,anim=(gen,sg|nom,pl)
-_
-не=PART=
-_
-вернуть=V,pf,tran=inf
-.\n\n
-от=PR=
-_
-знамение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-псаломщик=S,m,anim=nom,sg
-,\n
-в=PR=
-_
-цилиндр=S,m,inan=abl,sg
-_
-на=PR=
-_
-бок=S,m,inan=(dat,sg|loc,sg)
-,\n
-большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-костлявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-тощий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-зайти=V,pf,intr=inpraes,sg,indic,3p
-_
-попить=V,pf,tran=inf
-_
-чаек=S,m,inan=(dat,sg|part,sg)
-.\n\n
-на=PR=
-_
-день=S,m,inan=abl,pl
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-подруга=S,f,anim=nom,sg
-\n
-уходить=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-теперь=ADV=
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-,\n
-наверное=ADV,parenth=
-,_
-понимать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,\n
-ни=CONJ=
-_
-как=ADVPRO=
-,_
-ни=PART=
-_
-почему=ADVPRO=
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-необитаемый=A=sg,brev,m
-,\n
-неясный=A=sg,brev,m
-_
-он=SPRO,sg,3p,m=nom
-_
-ум=S,m,inan=dat,sg
-.\n\n
-а=CONJ=
-_
-песня=S,f,inan=acc,sg
-_
-вырывать=V,tran=inpraes,sg,indic,3p,pf
-_
-мука=S,f,inan=nom,sg
-,\n
-так=ADVPRO=
-_
-старый=A=nom,sg,plen,f
-_
-она=SPRO,sg,3p,f=nom
-:\n\xAB
-разлука=S,f,inan=nom,sg
-_
-ты=SPRO,sg,2p=nom
-,_
-разлука=S,f,inan=nom,sg
-,\n
-чужой=A,plen=nom,sg,f
-_
-сторона=S,f,inan=nom,sg
-!\xBB\n
+{уходить=V,intr=praet,sg,indic,f,pf}... {завянуть=V,pf,intr=praet,pl,indic} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{и=CONJ=} {даже=PART=} {чижик=S,m,anim=nom,sg} {в=PR=} {клетка=S,f,inan=(abl,sg|dat,sg)}
+{заплакать=V,pf,tran=praet,sg,indic,m} {надо=ADV,praed=} {я=SPRO,sg,1p=ins}.
+
+{что=CONJ=} {польза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чижик=S,m,anim=nom,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {польза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=dat} {грустить=V,ipf,intr=inf},
+{она=SPRO,sg,3p,f=nom} {теперь=ADV=} {в=PR=} {париж=S,geo,m,inan=abl,sg},
+{в=PR=} {берлин=S,geo,m,inan=abl,sg}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}.
+
+{страшный=A=comp} {страшный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пугать=V,ipf,tran=praet,sg,indic,m}
+{красивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {честный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {мы=SPRO,pl,1p=dat} {в=PR=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {угол=S,m,inan=(acc,sg|nom,sg)}
+{беглянка=S,f,anim=(gen,sg|nom,pl)} {не=PART=} {вернуть=V,pf,tran=inf}.
+
+{от=PR=} {знамение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {псаломщик=S,m,anim=nom,sg},
+{в=PR=} {цилиндр=S,m,inan=abl,sg} {на=PR=} {бок=S,m,inan=(dat,sg|loc,sg)},
+{большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {костлявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {тощий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{зайти=V,pf,intr=inpraes,sg,indic,3p} {попить=V,pf,tran=inf} {чаек=S,m,inan=(dat,sg|part,sg)}.
+
+{на=PR=} {день=S,m,inan=abl,pl} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {подруга=S,f,anim=nom,sg}
+{уходить=V,intr=praet,sg,indic,f,pf} {в=PR=} {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {мы=SPRO,pl,1p=nom} {теперь=ADV=} {друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)},
+{наверное=ADV,parenth=}, {понимать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
+
+{мы=SPRO,pl,1p=nom} {ничто=SPRO,sg,n=gen} {не=PART=} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+{ни=CONJ=} {как=ADVPRO=}, {ни=PART=} {почему=ADVPRO=},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {необитаемый=A=sg,brev,m},
+{неясный=A=sg,brev,m} {он=SPRO,sg,3p,m=nom} {ум=S,m,inan=dat,sg}.
+
+{а=CONJ=} {песня=S,f,inan=acc,sg} {вырывать=V,tran=inpraes,sg,indic,3p,pf} {мука=S,f,inan=nom,sg},
+{так=ADVPRO=} {старый=A=nom,sg,plen,f} {она=SPRO,sg,3p,f=nom}:
+«{разлука=S,f,inan=nom,sg} {ты=SPRO,sg,2p=nom}, {разлука=S,f,inan=nom,sg},
+{чужой=A,plen=nom,sg,f} {сторона=S,f,inan=nom,sg}!»

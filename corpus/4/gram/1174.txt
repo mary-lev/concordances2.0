@@ -1,72 +1,9 @@
-на=PR=
-_
-полицейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-бумага=S,f,inan=(abl,sg|dat,sg)
-_
-верже=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-наглотаться=V,pf,intr=praet,sg,indic,f
-_
-колючий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ерш=S,m,anim=(acc,pl|gen,pl)
-_\u2014_\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-жить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-канцелярский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-птичка=S,f,anim=(gen,sg|nom,pl)
-,\n
-писать=V,ipf,tran=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-писать=V,ipf,tran=inpraes,pl,indic,3p
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-раппортичка?=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-сколько=ADV=
-_
-бы=PART=
-_
-они=SPRO,pl=dat
-_
-ни=PART=
-_
-хотеться=V,ipf,intr=praet,sg,indic,n
-_
-мигать=V,ipf,intr=inf
-,\n
-мочь=V,ipf,intr=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-_
-заявление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-подавать=V,tran=inf,pf
-,\n
-и=CONJ=
-_
-на=PR=
-_
-мерцание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-писание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-тление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-возобновлять=V,tran=inpraes,pl,indic,3p,ipf
-_
-всегда=ADVPRO=
-_
-разрешение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
+{на=PR=} {полицейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {бумага=S,f,inan=(abl,sg|dat,sg)} {верже=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+{ночь=S,f,inan=(acc,sg|nom,sg)} {наглотаться=V,pf,intr=praet,sg,indic,f} {колючий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ерш=S,m,anim=(acc,pl|gen,pl)} — 
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жить=V,ipf,intr=inpraes,pl,indic,3p}, {канцелярский=A=(acc,pl,plen,inan|nom,pl,plen)} {птичка=S,f,anim=(gen,sg|nom,pl)},
+{писать=V,ipf,tran=inpraes,pl,indic,3p} {и=CONJ=} {писать=V,ipf,tran=inpraes,pl,indic,3p} {свой=APRO=(nom,pl|acc,pl,inan)} {раппортичка?=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{сколько=ADV=} {бы=PART=} {они=SPRO,pl=dat} {ни=PART=} {хотеться=V,ipf,intr=praet,sg,indic,n} {мигать=V,ipf,intr=inf},
+{мочь=V,ipf,intr=inpraes,pl,indic,3p} {они=SPRO,pl=nom} {заявление=S,n,inan=(abl,sg|acc,sg|nom,sg)} {подавать=V,tran=inf,pf},
+{и=CONJ=} {на=PR=} {мерцание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {писание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {тление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{возобновлять=V,tran=inpraes,pl,indic,3p,ipf} {всегда=ADVPRO=} {разрешение=S,n,inan=(abl,sg|acc,sg|nom,sg)}.

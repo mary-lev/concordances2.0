@@ -1,108 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-говорить=V,ipf,tran=praet,sg,indic,m
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-а=CONJ=
-_
-девушка=S,f,anim=nom,sg
-_
-и=CONJ=
-_
-расцветать=V,intr=praet,sg,indic,f,pf
-:\n
-вот=PART=
-_
-чесать=V,ipf,tran=inpraes,sg,indic,3p
-_
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-по=PR=
--
-праздничный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-веселый=A=sg,brev,f
-.\n\n
-теперь=ADV=
-_
-ко=PR=
-_
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-церковный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-треба=S,f,inan=dat,pl
-\n
-молиться=V,ipf,intr=inf
-_
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-_
-о=PR=
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-,\n
-ты=SPRO,sg,2p=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-солнце=S,n,inan=ins,sg
-,_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-небо=S,n,inan=ins,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-дождь=S,m,inan=ins,sg
-.\n\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-темнеть=V,ipf,intr=inpraes,pl,indic,3p
-,_
-чуять=V,ipf,tran=inpraes,ger
-_
-гроза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-неровный=A=sg,brev,m
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-и=CONJ=
-_
-частый=A=sg,brev,m
-.\n
-она=SPRO,sg,3p,f=nom
-_
-пока=CONJ=
-_
-приносить=V=inpraes,sg,indic,3p,ipf,tran
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-захотеть=V,pf,tran=sg,imper,2p
-_\u2014_
-и=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-отдавать=V,tran=inpraes,sg,indic,3p,pf
-.\n
+{ты=SPRO,sg,2p=nom} {говорить=V,ipf,tran=praet,sg,indic,m} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пустой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{а=CONJ=} {девушка=S,f,anim=nom,sg} {и=CONJ=} {расцветать=V,intr=praet,sg,indic,f,pf}:
+{вот=PART=} {чесать=V,ipf,tran=inpraes,sg,indic,3p} {коса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {золотой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{по=PR=}-{праздничный=A=(dat,sg,plen,m|dat,sg,plen,n)} {веселый=A=sg,brev,f}.
+
+{теперь=ADV=} {ко=PR=} {весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {церковный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {треба=S,f,inan=dat,pl}
+{молиться=V,ipf,intr=inf} {ходить=V,ipf,intr=inpraes,sg,indic,3p} {о=PR=} {твой=APRO=(abl,sg,m|abl,sg,n)},
+{ты=SPRO,sg,2p=nom} {становиться=V,intr=praet,sg,indic,m,pf} {она=SPRO,sg,3p,f=(dat|ins)} {солнце=S,n,inan=ins,sg}, {становиться=V,intr=praet,sg,indic,m,pf} {она=SPRO,sg,3p,f=(dat|ins)} {небо=S,n,inan=ins,sg},
+{ты=SPRO,sg,2p=nom} {становиться=V,intr=praet,sg,indic,m,pf} {она=SPRO,sg,3p,f=(dat|ins)} {ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дождь=S,m,inan=ins,sg}.
+
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {темнеть=V,ipf,intr=inpraes,pl,indic,3p}, {чуять=V,ipf,tran=inpraes,ger} {гроза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{неровный=A=sg,brev,m} {вздох=S,m,inan=(acc,sg|nom,sg)} {она=SPRO,sg,3p,f=(acc|gen)} {и=CONJ=} {частый=A=sg,brev,m}.
+{она=SPRO,sg,3p,f=nom} {пока=CONJ=} {приносить=V=inpraes,sg,indic,3p,ipf,tran} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{а=CONJ=} {захотеть=V,pf,tran=sg,imper,2p} — {и=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {отдавать=V,tran=inpraes,sg,indic,3p,pf}.

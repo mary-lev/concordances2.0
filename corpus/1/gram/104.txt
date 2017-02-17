@@ -1,120 +1,19 @@
-вечереть?=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-догорать=V,intr=inpraes,ger,ipf
-,_\n
-отступать=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-ночной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-посещать=V,tran=inpraes,sg,indic,3p,ipf
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-возрастать=V,intr=inpraes,ger,ipf
-,_\n
-неотступный=A=nom,sg,plen,f
-_
-тайна=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-.\n\n
-неужели=PART=
-_
-и=CONJ=
-_
-страстной=A=nom,sg,plen,f
-_
-дума=S,f,inan=nom,sg
-,_\n
-бесконечно=ADV=
-_
-земной=A=nom,sg,plen,f
-_
-волна=S,f,inan=nom,sg
-,_\n
-затериваться=V,intr=praet,ger,pf
-_
-средь=PR=
-_
-здешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-шум=S,m,inan=gen,sg
-,_\n
-не=PART=
-_
-исчерпывать=V,tran=inpraes,sg,indic,3p,pf
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-до=PR=
-_
-дно=S,n,inan=gen,sg
-?\n\n
-неужели=PART=
-_
-в=PR=
-_
-холодный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сфера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-с=PR=
-_
-неразгаданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-отходить=V,intr=praet,pl,indic,pf
-_
-и=CONJ=
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-без=PR=
-_
-мера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-и=CONJ=
-_
-любовный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-отходить=V,intr=praet,pl,indic,pf
-?\n\n
-умирать=V,intr=inpraes,pl,indic,3p,ipf
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-угнетение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-утоляться=V,intr=inpraes,pl,indic,3p,ipf
-_
-горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-день=S,m,inan=gen,sg
-,_\n
-только=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-одинокий=A=ins,sg,plen,f
-_
-тень=S,f,inan=ins,sg
-_\n
-посещать=V,tran=sg,imper,2p,pf
-_
-на=PR=
-_
-закат=S,m,inan=abl,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{вечереть?=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {день=S,m,inan=(acc,sg|nom,sg)}, {догорать=V,intr=inpraes,ger,ipf}, 
+{отступать=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
+{посещать=V,tran=inpraes,sg,indic,3p,ipf} {я=SPRO,sg,1p=(acc|gen)}, {возрастать=V,intr=inpraes,ger,ipf}, 
+{неотступный=A=nom,sg,plen,f} {тайна=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}.
+
+{неужели=PART=} {и=CONJ=} {страстной=A=nom,sg,plen,f} {дума=S,f,inan=nom,sg}, 
+{бесконечно=ADV=} {земной=A=nom,sg,plen,f} {волна=S,f,inan=nom,sg}, 
+{затериваться=V,intr=praet,ger,pf} {средь=PR=} {здешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {шум=S,m,inan=gen,sg}, 
+{не=PART=} {исчерпывать=V,tran=inpraes,sg,indic,3p,pf} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {до=PR=} {дно=S,n,inan=gen,sg}?
+
+{неужели=PART=} {в=PR=} {холодный=A=(acc,pl,plen,inan|nom,pl,plen)} {сфера=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{с=PR=} {неразгаданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{отходить=V,intr=praet,pl,indic,pf} {и=CONJ=} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {без=PR=} {мера=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{и=CONJ=} {любовный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)} {отходить=V,intr=praet,pl,indic,pf}?
+
+{умирать=V,intr=inpraes,pl,indic,3p,ipf} {мой=APRO=(nom,pl|acc,pl,inan)} {угнетение=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{утоляться=V,intr=inpraes,pl,indic,3p,ipf} {горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {день=S,m,inan=gen,sg}, 
+{только=PART=} {ты=SPRO,sg,2p=nom} {одинокий=A=ins,sg,plen,f} {тень=S,f,inan=ins,sg} 
+{посещать=V,tran=sg,imper,2p,pf} {на=PR=} {закат=S,m,inan=abl,sg} {я=SPRO,sg,1p=(acc|gen)}.

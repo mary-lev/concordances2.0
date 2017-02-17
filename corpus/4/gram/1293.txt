@@ -1,82 +1,14 @@
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-зрачок=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-корка=S,f,inan=(abl,sg|dat,sg)
-,\n
-обращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-вдаль=ADV=
-_
-и=CONJ=
-_
-ниц=ADV=
-,\n
-защищать=V,tran=inpraes,pl,indic,3p,ipf
-_
-оговорка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-слабый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-чуять=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-ресница=S,f,inan=gen,pl
-.\n\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-обожествлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-\n
-долго=ADV=
-_
-жить=V,ipf,intr=inf
-_
-в=PR=
-_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-_\u2014_\n
-омут=S,m,inan=(acc,sg|nom,sg)
-_
-око=S,n,inan=gen,sg
-_
-удивленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\u2014_\n
-кинуть=V,pf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-вдогонку=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-уже=ADV=
-_
-охотно=ADV=
-\n
-в=PR=
-_
-мимолетный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-радужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-бесплотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-умолять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-пока=ADV=
-.\n
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {зрачок=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {корка=S,f,inan=(abl,sg|dat,sg)},
+{обращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {вдаль=ADV=} {и=CONJ=} {ниц=ADV=},
+{защищать=V,tran=inpraes,pl,indic,3p,ipf} {оговорка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{слабый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {чуять=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {ресница=S,f,inan=gen,pl}.
+
+{быть=V,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {обожествлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
+{долго=ADV=} {жить=V,ipf,intr=inf} {в=PR=} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(abl,sg|dat,sg)} — 
+{омут=S,m,inan=(acc,sg|nom,sg)} {око=S,n,inan=gen,sg} {удивленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, — 
+{кинуть=V,pf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {вдогонку=ADV=} {я=SPRO,sg,1p=(abl|dat)}.
+
+{он=SPRO,sg,3p,m=nom} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {уже=ADV=} {охотно=ADV=}
+{в=PR=} {мимолетный=A=(acc,pl,plen,inan|nom,pl,plen)} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} — 
+{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {радужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {бесплотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{умолять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {пока=ADV=}.

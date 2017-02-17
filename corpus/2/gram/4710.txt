@@ -1,68 +1,9 @@
-мы=SPRO,pl,1p=nom
-_
-покидать=V,tran=praet,pl,indic,ipf
-_
-соутгемптон?=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-когда=ADVPRO=
-_
-же=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-приставать=V,intr=praet,pl,indic,pf
-_
-к=PR=
-_
-гавр=S,geo,m,inan=dat,sg
-,\n
-то=CONJ=
-_
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сделаться=V,pf,intr=praet,sg,indic,n
-_
-оно=SPRO,sg,3p,n=nom
-.\n\n
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-предзнаменование=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=ADVPRO=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-утренний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n
-господь=S,sg,m,anim=nom
-,_
-помиловать=V,pf,tran=sg,imper,2p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-большой=A=nom,sg,plen,f
-_
-мы=SPRO,pl,1p=dat
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-беда=S,f,inan=nom,sg
-.\n
+{мы=SPRO,pl,1p=nom} {покидать=V,tran=praet,pl,indic,ipf} {соутгемптон?=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,n,ipf} {голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{когда=ADVPRO=} {же=PART=} {мы=SPRO,pl,1p=nom} {приставать=V,intr=praet,pl,indic,pf} {к=PR=} {гавр=S,geo,m,inan=dat,sg},
+{то=CONJ=} {черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сделаться=V,pf,intr=praet,sg,indic,n} {оно=SPRO,sg,3p,n=nom}.
+
+{я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {предзнаменование=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{как=ADVPRO=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {утренний=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+{господь=S,sg,m,anim=nom}, {помиловать=V,pf,tran=sg,imper,2p} {наш=APRO=(nom,pl|acc,pl,inan)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{большой=A=nom,sg,plen,f} {мы=SPRO,pl,1p=dat} {грозить=V,ipf,intr=inpraes,sg,indic,3p} {беда=S,f,inan=nom,sg}.

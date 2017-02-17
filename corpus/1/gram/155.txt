@@ -1,82 +1,11 @@
-весна=S,f,inan=nom,sg
-_
-в=PR=
-_
-река=S,f,inan=(abl,sg|dat,sg)
-_
-ломать=V,ipf,tran=inpraes,sg,indic,3p
-_
-льдина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-жаль=ADV,praed=
-:\n
-преодолевать=V,tran=praet,ger,pf
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-забывать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-зимний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-теснина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-голубой=A=acc,sg,plen,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-сожалеть=V,ipf,intr=inf
-_
-в=PR=
-_
-дым=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-пожар=S,m,inan=gen,sg
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-сокрушаться=V,ipf,intr=inf
-_
-у=PR=
-_
-крест=S,m,inan=gen,sg
-,_\n
-когда=CONJ=
-_
-всечасно=ADV=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-удар=S,m,inan=gen,sg
-_\n
-или=CONJ=
-_
-божественный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-дар=S,m,inan=gen,sg
-_\n
-из=PR=
-_
-моисеев=S,famn,m,anim=(acc,sg|gen,sg)
-_
-куст=S,m,inan=gen,sg
-!\n
+{весна=S,f,inan=nom,sg} {в=PR=} {река=S,f,inan=(abl,sg|dat,sg)} {ломать=V,ipf,tran=inpraes,sg,indic,3p} {льдина=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {жаль=ADV,praed=}:
+{преодолевать=V,tran=praet,ger,pf} {мой=APRO=(nom,pl|acc,pl,inan)} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{забывать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {зимний=A=(acc,pl,plen,inan|nom,pl,plen)} {теснина=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {голубой=A=acc,sg,plen,f} {даль=S,f,inan=(acc,sg|nom,sg)}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {сожалеть=V,ipf,intr=inf} {в=PR=} {дым=S,m,inan=(dat,sg|part,sg|loc,sg)} {пожар=S,m,inan=gen,sg}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {сокрушаться=V,ipf,intr=inf} {у=PR=} {крест=S,m,inan=gen,sg}, 
+{когда=CONJ=} {всечасно=ADV=} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {удар=S,m,inan=gen,sg} 
+{или=CONJ=} {божественный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дар=S,m,inan=gen,sg} 
+{из=PR=} {моисеев=S,famn,m,anim=(acc,sg|gen,sg)} {куст=S,m,inan=gen,sg}!

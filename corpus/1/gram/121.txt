@@ -1,110 +1,14 @@
-скрипнуть=V,pf,intr=praet,sg,indic,f
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-._
-задрожать=V,pf,intr=praet,sg,indic,f
-_
-рука=S,f,inan=nom,sg
-._\n
-выходить=V,intr=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-улица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сонный=A=(acc,pl,plen,inan|nom,pl,plen)
-._\n
-там=ADVPRO=
-,_
-в=PR=
-_
-поднебесие?=S,n,inan=abl,sg
-,_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-через=PR=
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-_
-озарять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-.\n\n
-с=PR=
-_
-они=SPRO,pl=ins
-_-_
-знакомый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-вослед=ADV=
-..._\n
-нынче=ADV=
-_
-ли=PART=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-пробуждаться=V,intr=inpraes,sg,indic,3p,pf
-?_\n
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ли=PART=
-,_
-прошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ли=CONJ=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ответ=S,m,inan=(acc,sg|nom,sg)
-,_\n
-вместе=ADV=
-_
-ли=CONJ=
-_
-оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-почудиться=V,pf,intr=inpraes,pl,indic,3p
-?\n\n
-если=CONJ=
-_
-бы=PART=
-_
-злой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-нести=V,ipf,tran=praet,pl,indic
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-не=PART=
-_
-дрожать=V,ipf,intr=praet,sg,indic,n
-_
-бы=PART=
-..._\n
-скрипнуть=V,pf,intr=praet,sg,indic,f
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-._
-задрожать=V,pf,intr=praet,sg,indic,f
-_
-рука=S,f,inan=nom,sg
-._\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-и=CONJ=
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-и=CONJ=
-_
-жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{скрипнуть=V,pf,intr=praet,sg,indic,f} {дверь=S,f,inan=(acc,sg|nom,sg)}. {задрожать=V,pf,intr=praet,sg,indic,f} {рука=S,f,inan=nom,sg}. 
+{выходить=V,intr=praet,sg,indic,f,pf} {я=SPRO,sg,1p=nom} {в=PR=} {улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сонный=A=(acc,pl,plen,inan|nom,pl,plen)}. 
+{там=ADVPRO=}, {в=PR=} {поднебесие?=S,n,inan=abl,sg}, {идти=V,ipf,intr=inpraes,pl,indic,3p} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{через=PR=} {туман=S,m,inan=(acc,sg|nom,sg)} {озарять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}.
+
+{с=PR=} {они=SPRO,pl=ins} - {знакомый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {слышать=V,ipf,tran=inpraes,sg,indic,1p}, {вослед=ADV=}... 
+{нынче=ADV=} {ли=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {пробуждаться=V,intr=inpraes,sg,indic,3p,pf}? 
+{новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ли=PART=}, {прошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ли=CONJ=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ответ=S,m,inan=(acc,sg|nom,sg)}, 
+{вместе=ADV=} {ли=CONJ=} {оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {почудиться=V,pf,intr=inpraes,pl,indic,3p}?
+
+{если=CONJ=} {бы=PART=} {злой=A=(acc,sg,plen,n|nom,sg,plen,n)} {нести=V,ipf,tran=praet,pl,indic} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {не=PART=} {дрожать=V,ipf,intr=praet,sg,indic,n} {бы=PART=}... 
+{скрипнуть=V,pf,intr=praet,sg,indic,f} {дверь=S,f,inan=(acc,sg|nom,sg)}. {задрожать=V,pf,intr=praet,sg,indic,f} {рука=S,f,inan=nom,sg}. 
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {и=CONJ=} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {и=CONJ=} {жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

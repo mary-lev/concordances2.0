@@ -1,157 +1,25 @@
+{палочка=S,f,inan=nom,sg}-{выручалочка?=S,f,inan=nom,sg|выручалочка?=S,f,inan=nom,sg},
+{вечерний=A=nom,sg,plen,f} {игра=S,f,inan=nom,sg}!
+{небо=S,n,inan=(acc,sg|nom,sg)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свешивать=V=praet,sg,indic,n,pf},
+{расшуметься=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {весело=ADV=},
+{бегать=V,ipf,intr=inf} {мы=SPRO,pl,1p=dat} {пора=ADV,praed=}!
 
-палочка=S,f,inan=nom,sg
--
-выручалочка?=S,f,inan=nom,sg|выручалочка?=S,f,inan=nom,sg
-,\n
-вечерний=A=nom,sg,plen,f
-_
-игра=S,f,inan=nom,sg
-!\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свешивать=V=praet,sg,indic,n,pf
-,\n
-расшуметься=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-весело=ADV=
-,\n
-бегать=V,ipf,intr=inf
-_
-мы=SPRO,pl,1p=dat
-_
-пора=ADV,praed=
-!\n\n
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-,_
-три=NUM=(nom|acc,inan)
-,_
-четыре=NUM=(nom|acc,inan)
-,_
-пять=NUM=(acc|nom)
-,\n
-бегом=ADV=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-догнать=V,pf,tran=inf
-.\n
-слово=S,n,inan=(acc,sg|nom,sg)
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-,_
-в=PR=
-_
-трава=S,f,inan=acc,sg
-_
-ложиться=V,intr=inpraes,sg,indic,2p,pf
-,\n
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-развязывать=V=inpraes,sg,indic,2p,pf
-.\n
-снизу=ADV=
-_
-яма=S,f,inan=nom,sg
-,_
-сверху=ADV=
-_
-высь=S,f,inan=(acc,sg|nom,sg)
-,\n
-между=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-вертеться=V,ipf,intr=sg,imper,2p
-,_
-вертеться=V,ipf,intr=sg,imper,2p
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-под=PR=
-_
-мы=SPRO,pl,1p=ins
-,_
-под=PR=
-_
-цветок=S,m,inan=ins,pl
-,\n
-за=PR=
-_
-железный=A=ins,pl,plen
-_
-столб=S,m,inan=ins,pl
-?\n
-кто=SPRO,sg,m,anim=nom
-_
-на=PR=
-_
-трон=S,m,inan=abl,sg
-?_
-кто=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-корона=S,f,inan=(abl,sg|dat,sg)
-?\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-высь=S,f,inan=ins,sg
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-_
-гнать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-уронить=V,pf,tran=inpraes,sg,indic,3p
-_
-с=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-я=SPRO,sg,1p=nom
-_
-ли=PART=
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-или=CONJ=
-_
-ты=SPRO,sg,2p=nom
-?\n\n
-палочка=S,f,inan=nom,sg
--
-выручалочка?=S,f,inan=nom,sg|выручалочка?=S,f,inan=nom,sg
-,\n
-то-то=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-хитрый=A=sg,brev,f
-!\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свешивать=V=praet,sg,indic,n,pf
-,\n
-постучать=V,pf,tran=sg,imper,2p
--
-ка=PART=
-_
-весело=ADV=
-\n
-посреди=PR=
-_
-двор=S,m,inan=gen,sg
-.\n
+{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}, {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)}, {три=NUM=(nom|acc,inan)}, {четыре=NUM=(nom|acc,inan)}, {пять=NUM=(acc|nom)},
+{бегом=ADV=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {догнать=V,pf,tran=inf}.
+{слово=S,n,inan=(acc,sg|nom,sg)} {сказать=V,pf,tran=inpraes,sg,indic,2p}, {в=PR=} {трава=S,f,inan=acc,sg} {ложиться=V,intr=inpraes,sg,indic,2p,pf},
+{черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {развязывать=V=inpraes,sg,indic,2p,pf}.
+{снизу=ADV=} {яма=S,f,inan=nom,sg}, {сверху=ADV=} {высь=S,f,inan=(acc,sg|nom,sg)},
+{между=PR=} {они=SPRO,pl=(abl|acc|gen)} {вертеться=V,ipf,intr=sg,imper,2p}, {вертеться=V,ipf,intr=sg,imper,2p}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {под=PR=} {мы=SPRO,pl,1p=ins}, {под=PR=} {цветок=S,m,inan=ins,pl},
+{за=PR=} {железный=A=ins,pl,plen} {столб=S,m,inan=ins,pl}?
+{кто=SPRO,sg,m,anim=nom} {на=PR=} {трон=S,m,inan=abl,sg}? {кто=SPRO,sg,m,anim=nom} {в=PR=} {корона=S,f,inan=(abl,sg|dat,sg)}?
+{ветер=S,m,inan=(acc,sg|nom,sg)} {высь=S,f,inan=ins,sg} {лист=S,m,inan=(acc,pl|nom,pl)} {гнать=V,ipf,tran=inpraes,sg,indic,3p}
+{и=CONJ=} {уронить=V,pf,tran=inpraes,sg,indic,3p} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{я=SPRO,sg,1p=nom} {ли=PART=} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {или=CONJ=} {ты=SPRO,sg,2p=nom}?
+
+{палочка=S,f,inan=nom,sg}-{выручалочка?=S,f,inan=nom,sg|выручалочка?=S,f,inan=nom,sg},
+{то-то=PART=} {ты=SPRO,sg,2p=nom} {хитрый=A=sg,brev,f}!
+{небо=S,n,inan=(acc,sg|nom,sg)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свешивать=V=praet,sg,indic,n,pf},
+{постучать=V,pf,tran=sg,imper,2p}-{ка=PART=} {весело=ADV=}
+{посреди=PR=} {двор=S,m,inan=gen,sg}.

@@ -1,56 +1,9 @@
-словно=CONJ=
-_
-нездешний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-стена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-обступать=V=praet,pl,indic,pf,intr
-:\n
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-былой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поколение=S,n,inan=gen,pl
-!\n
-в=PR=
-_
-город=S,m,inan=abl,sg
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-как=CONJ=
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-здание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-хищный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-зверь=S,m,anim=nom,pl
-\n
-с=PR=
-_
-сотня=S,f,inan=ins,sg
-_
-несытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-утроба=S,f,inan=gen,pl
-!\n
-страшный=A=pl,brev
-_
-закрытый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-:\n
-каждый=APRO=nom,sg,f
-_
-комната=S,f,inan=nom,sg
-_\u2014_
-гроб=S,m,inan=(acc,sg|nom,sg)
-!\n
+{словно=CONJ=} {нездешний=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{стена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=(acc|gen)} {обступать=V=praet,pl,indic,pf,intr}:
+{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {былой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поколение=S,n,inan=gen,pl}!
+{в=PR=} {город=S,m,inan=abl,sg} {я=SPRO,sg,1p=nom} — {как=CONJ=} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)}.
+
+{здание=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {хищный=A=(acc,pl,plen,inan|nom,pl,plen)} {зверь=S,m,anim=nom,pl}
+{с=PR=} {сотня=S,f,inan=ins,sg} {несытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {утроба=S,f,inan=gen,pl}!
+{страшный=A=pl,brev} {закрытый=A=(acc,pl,plen,inan|nom,pl,plen)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}:
+{каждый=APRO=nom,sg,f} {комната=S,f,inan=nom,sg} — {гроб=S,m,inan=(acc,sg|nom,sg)}!

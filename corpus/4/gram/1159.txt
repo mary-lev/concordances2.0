@@ -1,64 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-роза=S,f,inan=acc,sg
-_
-гафиз=S,persn,m,anim=(acc,sg|gen,sg)
-_
-колыхать=V,ipf,tran=inpraes,sg,indic,2p
-\n
-и=CONJ=
-_
-нянчить=V,ipf=inpraes,sg,indic,2p,tran
-_
-зверушка=S,mf,anim=(acc,pl|gen,pl)
--
-ребенок=S,m,anim=(acc,pl|gen,pl)
-,\n
-плечи=S,pl,inan=ins
-_
-осьмигранный?=A=ins,pl,plen
-_
-дышать=V,ipf,intr=inpraes,sg,indic,2p
-\n
-мужицкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-бычачий=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-церковь=S,f,inan=gen,pl
-.\n\n
-окрашивать=V=praet,sg,partcp,brev,f,pf,pass
-_
-охра=S,f,inan=ins,sg
-_
-хриплый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-ты=SPRO,sg,2p=nom
-_
-весь=APRO=nom,sg,f
-_
-далеко=ADV=
-_
-за=PR=
-_
-гора=S,f,inan=ins,sg
-,\n
-а=CONJ=
-_
-здесь=ADVPRO=
-_
-лишь=PART=
-_
-картинка=S,f,inan=nom,sg
-_
-налипать=V,intr=praet,sg,indic,f,pf
-\n
-из=PR=
-_
-чайный=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-блюдце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-вода=S,f,inan=ins,sg
-.\n
+{ты=SPRO,sg,2p=nom} {роза=S,f,inan=acc,sg} {гафиз=S,persn,m,anim=(acc,sg|gen,sg)} {колыхать=V,ipf,tran=inpraes,sg,indic,2p}
+{и=CONJ=} {нянчить=V,ipf=inpraes,sg,indic,2p,tran} {зверушка=S,mf,anim=(acc,pl|gen,pl)}-{ребенок=S,m,anim=(acc,pl|gen,pl)},
+{плечи=S,pl,inan=ins} {осьмигранный?=A=ins,pl,plen} {дышать=V,ipf,intr=inpraes,sg,indic,2p}
+{мужицкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бычачий=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {церковь=S,f,inan=gen,pl}.
+
+{окрашивать=V=praet,sg,partcp,brev,f,pf,pass} {охра=S,f,inan=ins,sg} {хриплый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{ты=SPRO,sg,2p=nom} {весь=APRO=nom,sg,f} {далеко=ADV=} {за=PR=} {гора=S,f,inan=ins,sg},
+{а=CONJ=} {здесь=ADVPRO=} {лишь=PART=} {картинка=S,f,inan=nom,sg} {налипать=V,intr=praet,sg,indic,f,pf}
+{из=PR=} {чайный=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {блюдце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {вода=S,f,inan=ins,sg}.

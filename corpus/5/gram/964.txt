@@ -1,72 +1,11 @@
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-палец=S,m,inan=(acc,pl|nom,pl)
-_
-из=PR=
-_
-рука=S,f,inan=gen,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-выпадать=V,intr=praet,pl,indic,pf
-.\n
-ты=SPRO,sg,2p=nom
-_
-уходить=V,intr=inpraes,sg,indic,2p,ipf
-_\u2014_
-нахмуривать=V,tran=praet,sg,indic,f,pf
-_
-бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-посмотреть=V,pf,tran=sg,imper,2p
-,_
-как=ADVPRO=
-_
-березка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рассыпать=V,pf,tran=praet,pl,indic
-\n
-лист=S,m,inan=(acc,pl|nom,pl)
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дождик=S,m,inan=ins,sg
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-бледный=A=nom,sg,plen,f
-,_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-холодный=A=nom,sg,plen,f
-,\n
-распростирать=V=praet,nom,sg,partcp,plen,f,pf,pass
-_
-в=PR=
-_
-высь=S,f,inan=abl,pl
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-.\n\n
-с=PR=
-_
-горизонт=S,m,inan=gen,pl
-_
-равнина=S,f,inan=nom,sg
-_
-бесплодный=A=nom,sg,plen,f
-\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-ясный=A=acc,sg,plen,f
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-_
-облако=S,n,inan=ins,pl
-.\n
+{мой=APRO=(nom,pl|acc,pl,inan)} {палец=S,m,inan=(acc,pl|nom,pl)} {из=PR=} {рука=S,f,inan=gen,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {выпадать=V,intr=praet,pl,indic,pf}.
+{ты=SPRO,sg,2p=nom} {уходить=V,intr=inpraes,sg,indic,2p,ipf} — {нахмуривать=V,tran=praet,sg,indic,f,pf} {бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{посмотреть=V,pf,tran=sg,imper,2p}, {как=ADVPRO=} {березка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рассыпать=V,pf,tran=praet,pl,indic}
+{лист=S,m,inan=(acc,pl|nom,pl)} {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {дождик=S,m,inan=ins,sg} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{осень=S,f,inan=(acc,sg|nom,sg)} {бледный=A=nom,sg,plen,f}, {осень=S,f,inan=(acc,sg|nom,sg)} {холодный=A=nom,sg,plen,f},
+{распростирать=V=praet,nom,sg,partcp,plen,f,pf,pass} {в=PR=} {высь=S,f,inan=abl,pl} {над=PR=} {мы=SPRO,pl,1p=ins}.
+
+{с=PR=} {горизонт=S,m,inan=gen,pl} {равнина=S,f,inan=nom,sg} {бесплодный=A=nom,sg,plen,f}
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {ясный=A=acc,sg,plen,f} {твердь=S,f,inan=(acc,sg|nom,sg)} {облако=S,n,inan=ins,pl}.

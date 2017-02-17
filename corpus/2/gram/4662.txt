@@ -1,266 +1,39 @@
-проходить=V,intr=praet,sg,indic,m,pf
-_
-патруль=S,m,inan=(acc,sg|nom,sg)
-,_
-стучать=V,ipf,intr=inpraes,ger
-_
-меч=S,m,inan=ins,pl
-,\n
-дурной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-монах=S,m,anim=nom,sg
-_
-прокрадываться=V,intr=praet,sg,indic,m,pf
-_
-к=PR=
-_
-милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-над=PR=
-_
-островерхий=A=ins,pl,plen
-_
-дом=S,m,inan=ins,pl
-\n
-неведомый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-опочить=V,pf,intr=praet,sg,indic,n
-.\n\n
-но=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-спокойный=A=pl,brev
-,_
-мы=SPRO,pl,1p=nom
-_
-поспорить=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-\n
-со=PR=
-_
-страж=S,m,anim=ins,pl
-_
-господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)
-_
-гнев=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=ins,pl
-_
-и=CONJ=
-_
-море=S,n,inan=ins,sg
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-широкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-женевьева=S,persn,f,anim=nom,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-ли=PART=
-,_
-как=CONJ=
-_
-перед=PR=
-_
-мы=SPRO,pl,1p=ins
-\n
-вставать=V,intr=praet,sg,indic,m,pf
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-,_
-чернеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-во=PR=
-_
-мрак=S,m,inan=abl,sg
-,\n
-над=PR=
-_
-сумрачный=A=ins,pl,plen
-_
-алтарь=S,m,inan=ins,pl
-\n
-гореть=V,ipf,intr=praet,pl,indic
-_
-огненный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-знак=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-гранитокрылый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-охранять=V,tran=praet,sg,indic,m,ipf
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-в=PR=
-_
-немой=A=sg,brev,m
-_
-петь=V,ipf,tran=praet,pl,indic
-_
-молот=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-пила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-работать=V,ipf,intr=praet,pl,indic
-_
-масон=S,m,anim=nom,pl
-.\n\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-скупой=A=pl,brev
-_
-и=CONJ=
-_
-случайный=A=pl,brev
-,\n
-но=CONJ=
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-ясный=A=pl,brev
-_
-и=CONJ=
-_
-упрямый=A=pl,brev
-,\n
-они=SPRO,pl=dat
-_
-древний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-открывать=V=praet,pl,partcp,brev,pf,pass
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=ADVPRO=
-_
-строить=V,ipf,tran=inf
-_
-каменный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-храм=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-поцеловать=V,pf,tran=praet,ger
-_
-порог=S,m,inan=(acc,sg|nom,sg)
-_
-узорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-свершать=V,tran=praet,ger,pf
-_
-коленопреклонение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-мы=SPRO,pl,1p=nom
-_
-попросить=V,pf,tran=praet,pl,indic
-_
-так=ADVPRO=
-_
-покорно=ADV=
-\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-благословение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мастер=S,m,anim=nom,sg
-_
-с=PR=
-_
-нивелир=S,m,inan=ins,sg
-\n
-стоять=V,ipf,intr=praet,sg,indic,m
-_
-средь=PR=
-_
-грохот=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-гул=S,m,inan=gen,sg
-\n
-и=CONJ=
-_
-прошептать=V,pf,tran=praet,sg,indic,m
-:_\xAB
-идти=V,ipf,intr=pl,imper,2p
-_
-с=PR=
-_
-мир=S,m,inan=ins,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-побеждать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-_
-вельзевул=S,m,anim=(acc,sg|gen,sg)
-\xBB.\n\n
-пока=CONJ=
-_
-они=SPRO,pl=nom
-_
-жить=V,ipf,intr=inpraes,pl,indic,3p
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-,\n
-творить=V,ipf,tran=inpraes,pl,indic,3p
-_
-закон=S,m,inan=(acc,sg|nom,sg)
-_
-святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сев=S,m,inan=gen,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-смело=ADV=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,1p
-_
-быть=V,intr=inf,ipf
-_
-как=CONJ=
-_
-ребенок=S,m,anim=nom,pl
-,\n
-любить=V,ipf,tran=inf
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-,_
-женевьева=S,persn,f,anim=nom,sg
-.\n
+{проходить=V,intr=praet,sg,indic,m,pf} {патруль=S,m,inan=(acc,sg|nom,sg)}, {стучать=V,ipf,intr=inpraes,ger} {меч=S,m,inan=ins,pl},
+{дурной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {монах=S,m,anim=nom,sg} {прокрадываться=V,intr=praet,sg,indic,m,pf} {к=PR=} {милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{над=PR=} {островерхий=A=ins,pl,plen} {дом=S,m,inan=ins,pl}
+{неведомый=A=(acc,sg,plen,n|nom,sg,plen,n)} {опочить=V,pf,intr=praet,sg,indic,n}.
+
+{но=CONJ=} {мы=SPRO,pl,1p=nom} {спокойный=A=pl,brev}, {мы=SPRO,pl,1p=nom} {поспорить=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}
+{со=PR=} {страж=S,m,anim=ins,pl} {господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)} {гнев=S,m,inan=gen,sg},
+{и=CONJ=} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=ins,pl} {и=CONJ=} {море=S,n,inan=ins,sg}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {плащ=S,m,inan=(acc,sg|nom,sg)} {широкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {женевьева=S,persn,f,anim=nom,sg}.
+
+{ты=SPRO,sg,2p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,2p} {ли=PART=}, {как=CONJ=} {перед=PR=} {мы=SPRO,pl,1p=ins}
+{вставать=V,intr=praet,sg,indic,m,pf} {храм=S,m,inan=(acc,sg|nom,sg)}, {чернеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {во=PR=} {мрак=S,m,inan=abl,sg},
+{над=PR=} {сумрачный=A=ins,pl,plen} {алтарь=S,m,inan=ins,pl}
+{гореть=V,ipf,intr=praet,pl,indic} {огненный=A=(acc,pl,plen,inan|nom,pl,plen)} {знак=S,m,inan=(acc,pl|nom,pl)}.
+
+{торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {гранитокрылый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{он=SPRO,sg,3p,m=nom} {охранять=V,tran=praet,sg,indic,m,ipf} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {город=S,m,inan=(acc,sg|nom,sg)} {сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{в=PR=} {немой=A=sg,brev,m} {петь=V,ipf,tran=praet,pl,indic} {молот=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {пила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {работать=V,ipf,intr=praet,pl,indic} {масон=S,m,anim=nom,pl}.
+
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {скупой=A=pl,brev} {и=CONJ=} {случайный=A=pl,brev},
+{но=CONJ=} {взор=S,m,inan=(acc,pl|nom,pl)} {ясный=A=pl,brev} {и=CONJ=} {упрямый=A=pl,brev},
+{они=SPRO,pl=dat} {древний=A=(acc,pl,plen,inan|nom,pl,plen)} {открывать=V=praet,pl,partcp,brev,pf,pass} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=ADVPRO=} {строить=V,ipf,tran=inf} {каменный=A=(acc,pl,plen,inan|nom,pl,plen)} {храм=S,m,inan=(acc,pl|nom,pl)}.
+
+{поцеловать=V,pf,tran=praet,ger} {порог=S,m,inan=(acc,sg|nom,sg)} {узорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{свершать=V,tran=praet,ger,pf} {коленопреклонение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{мы=SPRO,pl,1p=nom} {попросить=V,pf,tran=praet,pl,indic} {так=ADVPRO=} {покорно=ADV=}
+{ты=SPRO,sg,2p=(abl|dat)} {и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {благословение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мастер=S,m,anim=nom,sg} {с=PR=} {нивелир=S,m,inan=ins,sg}
+{стоять=V,ipf,intr=praet,sg,indic,m} {средь=PR=} {грохот=S,m,inan=gen,sg} {и=CONJ=} {гул=S,m,inan=gen,sg}
+{и=CONJ=} {прошептать=V,pf,tran=praet,sg,indic,m}: «{идти=V,ipf,intr=pl,imper,2p} {с=PR=} {мир=S,m,inan=ins,sg},
+{мы=SPRO,pl,1p=nom} {побеждать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)} {вельзевул=S,m,anim=(acc,sg|gen,sg)}».
+
+{пока=CONJ=} {они=SPRO,pl=nom} {жить=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {свет=S,sg,m,inan=abl},
+{творить=V,ipf,tran=inpraes,pl,indic,3p} {закон=S,m,inan=(acc,sg|nom,sg)} {святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сев=S,m,inan=gen,sg},
+{мы=SPRO,pl,1p=nom} {смело=ADV=} {мочь=V,ipf,intr=inpraes,pl,indic,1p} {быть=V,intr=inf,ipf} {как=CONJ=} {ребенок=S,m,anim=nom,pl},
+{любить=V,ipf,tran=inf} {друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)}, {женевьева=S,persn,f,anim=nom,sg}.

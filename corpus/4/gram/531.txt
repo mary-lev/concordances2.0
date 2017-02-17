@@ -1,98 +1,15 @@
-в=PR=
-_
-сам=APRO=(abl,sg,m|abl,sg,n)
-_
-себя=SPRO=(abl|dat)
-,_
-как=CONJ=
-_
-змей=S,m,anim=nom,sg
-,_
-таиться=V,ipf,intr=inpraes,ger
-,\n
-вокруг=PR=
-_
-себя=SPRO=(acc|gen)
-,_
-как=CONJ=
-_
-плющ=S,m,inan=(acc,sg|nom,sg)
-,_
-вияся?=S,persn,f,anim=(acc,pl|gen,pl)
-,_\u2014\n
-я=SPRO,sg,1p=nom
-_
-подыматься=V,ipf,intr=inpraes,sg,indic,1p
-_
-над=PR=
-_
-себя=SPRO=ins
-:\n\n
-себя=SPRO=(acc|gen)
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-к=PR=
-_
-себя=SPRO=(abl|dat)
-_
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-крыло=S,n,inan=ins,pl
-_
-темный=A=ins,pl,plen
-_
-плескать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-расширять=V,tran=praet,ins,pl,partcp,plen,pf,pass
-_
-над=PR=
-_
-вода=S,f,inan=ins,sg
-;\n\n
-и=CONJ=
-,_
-как=CONJ=
-_
-испугать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-орел=S,m,anim=nom,sg
-,\n
-вернуться=V,pf,intr=praet,ger
-,_
-больше=ADV=
-_
-не=PART=
-_
-находить=V=praet,sg,indic,m,pf,tran
-\n
-гнездо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-срываться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-в=PR=
-_
-бездна=S,f,inan=acc,sg
-,_\u2014\n\n
-омываться=V,intr=inpraes,sg,indic,1p,pf
-_
-молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-огонь=S,m,inan=ins,sg
-\n
-и=CONJ=
-,_
-заклинать=V=inpraes,ger,ipf,tran
-_
-тяжкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-холодный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-облако=S,n,inan=abl,sg
-_
-исчезать=V,intr=inpraes,sg,indic,1p,pf
-!\n
+{в=PR=} {сам=APRO=(abl,sg,m|abl,sg,n)} {себя=SPRO=(abl|dat)}, {как=CONJ=} {змей=S,m,anim=nom,sg}, {таиться=V,ipf,intr=inpraes,ger},
+{вокруг=PR=} {себя=SPRO=(acc|gen)}, {как=CONJ=} {плющ=S,m,inan=(acc,sg|nom,sg)}, {вияся?=S,persn,f,anim=(acc,pl|gen,pl)}, —
+{я=SPRO,sg,1p=nom} {подыматься=V,ipf,intr=inpraes,sg,indic,1p} {над=PR=} {себя=SPRO=ins}:
+
+{себя=SPRO=(acc|gen)} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}, {к=PR=} {себя=SPRO=(abl|dat)} {лететь=V,ipf,intr=inpraes,sg,indic,1p},
+{крыло=S,n,inan=ins,pl} {темный=A=ins,pl,plen} {плескать=V,ipf,tran=inpraes,sg,indic,1p},
+{расширять=V,tran=praet,ins,pl,partcp,plen,pf,pass} {над=PR=} {вода=S,f,inan=ins,sg};
+
+{и=CONJ=}, {как=CONJ=} {испугать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {орел=S,m,anim=nom,sg},
+{вернуться=V,pf,intr=praet,ger}, {больше=ADV=} {не=PART=} {находить=V=praet,sg,indic,m,pf,tran}
+{гнездо=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {срываться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {в=PR=} {бездна=S,f,inan=acc,sg}, —
+
+{омываться=V,intr=inpraes,sg,indic,1p,pf} {молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {огонь=S,m,inan=ins,sg}
+{и=CONJ=}, {заклинать=V=inpraes,ger,ipf,tran} {тяжкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гром=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {холодный=A=(abl,sg,plen,m|abl,sg,plen,n)} {облако=S,n,inan=abl,sg} {исчезать=V,intr=inpraes,sg,indic,1p,pf}!

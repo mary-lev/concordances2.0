@@ -1,88 +1,16 @@
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-распускать=V=praet,pl,partcp,brev,pf,pass
-,\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-опускать=V=praet,pl,partcp,brev,pf,pass
-,\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-уронить=V,pf,tran=praet,pl,partcp,brev,pass
-,\n
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-похоронить=V,pf,tran=praet,pl,partcp,brev,pass
-.\n\n
-и=CONJ=
-_
-рассыпаться=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-\n
-жемчуг=S,m,inan=ins,pl
-...\n
-мы=SPRO,pl,1p=nom
-_
-о=PR=
-_
-мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-твердить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-наизусть=ADV=
-\n
-золотой=A=ins,pl,plen
-_
-стих=S,m,inan=ins,pl
-...\n\n
-мы=SPRO,pl,1p=nom
-_
-о=PR=
-_
-мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-грустить=V,ipf,intr=inpraes,pl,indic,1p
-_
-и=CONJ=
-_
-петь=V,ipf,tran=inpraes,pl,indic,1p
-,\n
-а=CONJ=
-_
-вверху=ADV=
-,_
-в=PR=
-_
-водоем=S,m,inan=abl,sg
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-,\n
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-господи=S,voc,sg,m,anim=
-,\n
-и=CONJ=
-_
-не=PART=
-_
-счесть=V,pf,tran=inf
-_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-расти=V,ipf,intr=praet,sg,indic,m
-,\n
-не=PART=
-_
-заплесть?=S,f,inan=(acc,sg|nom,sg)
-_
-желтый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-коса=S,f,inan=gen,pl
-\n
-тучка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
+{коса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {распускать=V=praet,pl,partcp,brev,pf,pass},
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {опускать=V=praet,pl,partcp,brev,pf,pass},
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {уронить=V,pf,tran=praet,pl,partcp,brev,pass},
+{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {похоронить=V,pf,tran=praet,pl,partcp,brev,pass}.
+
+{и=CONJ=} {рассыпаться=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)} {грусть=S,f,inan=(acc,sg|nom,sg)}
+{жемчуг=S,m,inan=ins,pl}...
+{мы=SPRO,pl,1p=nom} {о=PR=} {мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {твердить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {наизусть=ADV=}
+{золотой=A=ins,pl,plen} {стих=S,m,inan=ins,pl}...
+
+{мы=SPRO,pl,1p=nom} {о=PR=} {мэри=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {грустить=V,ipf,intr=inpraes,pl,indic,1p} {и=CONJ=} {петь=V,ipf,tran=inpraes,pl,indic,1p},
+{а=CONJ=} {вверху=ADV=}, {в=PR=} {водоем=S,m,inan=abl,sg} {твой=APRO=(abl,sg,m|abl,sg,n)},
+{тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {господи=S,voc,sg,m,anim=},
+{и=CONJ=} {не=PART=} {счесть=V,pf,tran=inf} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {расти=V,ipf,intr=praet,sg,indic,m},
+{не=PART=} {заплесть?=S,f,inan=(acc,sg|nom,sg)} {желтый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {коса=S,f,inan=gen,pl}
+{тучка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.

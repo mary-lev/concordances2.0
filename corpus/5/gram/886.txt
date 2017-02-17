@@ -1,178 +1,24 @@
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-роса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-откос=S,m,inan=(acc,pl|nom,pl)
-,_
-туман=S,m,inan=(acc,pl|nom,pl)
-,\n
-над=PR=
-_
-бурьян=S,m,inan=ins,pl
-_
-рдяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-восход=S,m,inan=(acc,sg|nom,sg)
-,\n
-холодеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-_
-поляна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-голодать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-,_
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-;\n\n
-и=CONJ=
-_
-в=PR=
-_
-раздолье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-на=PR=
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-неволя=S,f,inan=nom,sg
-;\n
-и=CONJ=
-_
-суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свинцовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-\n
-мы=SPRO,pl,1p=dat
-_
-бросать=V=inpraes,sg,indic,3p,ipf,tran
-_
-с=PR=
-_
-холодный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-посылать=V=inpraes,sg,indic,3p,ipf,tran
-_
-мы=SPRO,pl,1p=dat
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-:_\xAB
-умирать=V,intr=sg,imper,2p,ipf
-_\u2014\n\n
-как=ADVPRO=
-_
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-умирать=V,intr=inpraes,pl,indic,3p,ipf
-...\xBB_
-не=PART=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,2p
-\n
-смертоносный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-_
-угроза=S,f,inan=gen,pl
-:\n
-безысходный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-возглас=S,m,inan=(acc,pl|nom,pl)
-_
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-\n
-и=CONJ=
-_
-рыдание=S,n,inan=gen,pl
-,_
-и=CONJ=
-_
-жалоба=S,f,inan=gen,pl
-,_
-и=CONJ=
-_
-слезать=V,intr=praet,sg,indic,m,pf
-.\n\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-возглас=S,m,inan=(acc,pl|nom,pl)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-доносить=V=inpraes,sg,indic,3p,ipf,tran
-;\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-стая=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-несытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-смерть=S,f,inan=gen,pl
-\n
-над=PR=
-_
-откос=S,m,inan=ins,pl
-_
-коса=S,f,inan=ins,pl
-_
-косить=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-над=PR=
-_
-откос=S,m,inan=ins,pl
-_
-косить=V,ipf,tran=inpraes,pl,indic,3p
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-роковой=A=nom,sg,plen,f
-_
-страна=S,f,inan=nom,sg
-,_
-ледяной=A=nom,sg,plen,f
-,\n
-проклятый=A=nom,sg,plen,f
-_
-железный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-судьба=S,f,inan=ins,sg
-_\u2014\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-россия=S,geo,f,inan=nom,sg
-,_
-о=PR=
-_
-родина=S,f,inan=nom,sg
-_
-злой=A=nom,sg,plen,f
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-же=PART=
-_
-так=ADVPRO=
-_
-подшучивать=V,intr=praet,sg,indic,m,pf
-_
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-?\n
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {роса=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {откос=S,m,inan=(acc,pl|nom,pl)}, {туман=S,m,inan=(acc,pl|nom,pl)},
+{над=PR=} {бурьян=S,m,inan=ins,pl} {рдяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {восход=S,m,inan=(acc,sg|nom,sg)},
+{холодеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {шелест=S,m,inan=(acc,sg|nom,sg)} {поляна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{голодать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}, {бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {народ=S,m,inan=(acc,sg|nom,sg)};
+
+{и=CONJ=} {в=PR=} {раздолье=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {на=PR=} {воля=S,f,inan=(abl,sg|dat,sg)} — {неволя=S,f,inan=nom,sg};
+{и=CONJ=} {суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свинцовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {край=S,m,inan=(acc,sg|nom,sg)}
+{мы=SPRO,pl,1p=dat} {бросать=V=inpraes,sg,indic,3p,ipf,tran} {с=PR=} {холодный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{посылать=V=inpraes,sg,indic,3p,ipf,tran} {мы=SPRO,pl,1p=dat} {крик=S,m,inan=(acc,sg|nom,sg)}: «{умирать=V,intr=sg,imper,2p,ipf} —
+
+{как=ADVPRO=} {и=CONJ=} {все=SPRO,pl=(acc|nom)} {умирать=V,intr=inpraes,pl,indic,3p,ipf}...» {не=PART=} {дышать=V,ipf,intr=inpraes,sg,indic,2p}
+{смертоносный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,2p} {угроза=S,f,inan=gen,pl}:
+{безысходный=A=(acc,pl,plen,inan|nom,pl,plen)} {возглас=S,m,inan=(acc,pl|nom,pl)} {слышать=V,ipf,tran=inpraes,sg,indic,2p}
+{и=CONJ=} {рыдание=S,n,inan=gen,pl}, {и=CONJ=} {жалоба=S,f,inan=gen,pl}, {и=CONJ=} {слезать=V,intr=praet,sg,indic,m,pf}.
+
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {возглас=S,m,inan=(acc,pl|nom,pl)} {ветер=S,m,inan=(acc,sg|nom,sg)} {доносить=V=inpraes,sg,indic,3p,ipf,tran};
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {стая=S,f,inan=(acc,pl|gen,sg|nom,pl)} {несытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {смерть=S,f,inan=gen,pl}
+{над=PR=} {откос=S,m,inan=ins,pl} {коса=S,f,inan=ins,pl} {косить=V,ipf,tran=inpraes,pl,indic,3p},
+{над=PR=} {откос=S,m,inan=ins,pl} {косить=V,ipf,tran=inpraes,pl,indic,3p} {человек=S,m,anim=(acc,pl|gen,pl)}.
+
+{роковой=A=nom,sg,plen,f} {страна=S,f,inan=nom,sg}, {ледяной=A=nom,sg,plen,f},
+{проклятый=A=nom,sg,plen,f} {железный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {судьба=S,f,inan=ins,sg} —
+{мать=S,f,anim=(acc,sg|nom,sg)} {россия=S,geo,f,inan=nom,sg}, {о=PR=} {родина=S,f,inan=nom,sg} {злой=A=nom,sg,plen,f},
+{кто=SPRO,sg,m,anim=nom} {же=PART=} {так=ADVPRO=} {подшучивать=V,intr=praet,sg,indic,m,pf} {над=PR=} {ты=SPRO,sg,2p=ins}?

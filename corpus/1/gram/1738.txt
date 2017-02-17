@@ -1,94 +1,12 @@
-я=SPRO,sg,1p=nom
-_\u2014_
-тварь=S,f,anim=(acc,sg|nom,sg)
-_
-дрожать=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-._
-луч=S,m,inan=ins,pl
-\n
-озарять=V,tran=praet,pl,partcp,brev,pf,pass
-,_
-коснеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n
-перед=PR=
-_
-твой=APRO=ins,pl
-_
-глубина=S,f,inan=ins,pl
-\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-ничтожный=A=pl,brev
-_
-глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,_
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-таить=V,ipf,tran=inpraes,sg,indic,2p
-_
-в=PR=
-_
-глубина=S,f,inan=abl,pl
-_
-роза=S,f,inan=gen,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,\n
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-ангел=S,m,anim=nom,pl
-_
-слетать=V,intr=praet,pl,indic,pf
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-у=PR=
-_
-преддверие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-затихать=V,intr=praet,sg,indic,m,pf
-...\n
-в=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-таиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-ожидание=S,n,inan=abl,sg
-\n
-великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-и=CONJ=
-_
-злой=A=nom,sg,plen,f
-_
-тьма=S,f,inan=nom,sg
-_\u2014\n
-разгадка=S,f,inan=nom,sg
-_
-всякий=APRO=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-познание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-бред=S,sg,m,inan=(acc|nom)
-_
-великий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ум=S,m,inan=gen,sg
-.\n
+{я=SPRO,sg,1p=nom} — {тварь=S,f,anim=(acc,sg|nom,sg)} {дрожать=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act}. {луч=S,m,inan=ins,pl}
+{озарять=V,tran=praet,pl,partcp,brev,pf,pass}, {коснеть=V,ipf,intr=inpraes,pl,indic,3p} {сон=S,m,inan=(acc,pl|nom,pl)}.
+{перед=PR=} {твой=APRO=ins,pl} {глубина=S,f,inan=ins,pl}
+{мой=APRO=(nom,pl|acc,pl,inan)} {ничтожный=A=pl,brev} {глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom}, {какой=APRO=(nom,pl|acc,pl,inan)} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{таить=V,ipf,tran=inpraes,sg,indic,2p} {в=PR=} {глубина=S,f,inan=abl,pl} {роза=S,f,inan=gen,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)},
+{какой=APRO=(nom,pl|acc,pl,inan)} {ангел=S,m,anim=nom,pl} {слетать=V,intr=praet,pl,indic,pf},
+{кто=SPRO,sg,m,anim=nom} {у=PR=} {преддверие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {затихать=V,intr=praet,sg,indic,m,pf}...
+{в=PR=} {ты=SPRO,sg,2p=(abl|dat)} {таиться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {ожидание=S,n,inan=abl,sg}
+{великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)} {и=CONJ=} {злой=A=nom,sg,plen,f} {тьма=S,f,inan=nom,sg} —
+{разгадка=S,f,inan=nom,sg} {всякий=APRO=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {познание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {бред=S,sg,m,inan=(acc|nom)} {великий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ум=S,m,inan=gen,sg}.

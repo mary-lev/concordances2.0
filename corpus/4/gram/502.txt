@@ -1,68 +1,9 @@
-ни=PART=
-_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-не=PART=
-_
-нужно=ADV,praed=
-_
-говорить=V,ipf,tran=inf
-,\n
-ничто=SPRO,sg,n=dat
-_
-не=PART=
-_
-следовать=V,ipf=inpraes,sg,indic,3p
-_
-учить=V,ipf,tran=inf
-,\n
-и=CONJ=
-_
-печальный=A=sg,brev,f
-_
-так=ADVPRO=
-_
-и=CONJ=
-_
-хороший=A=sg,brev,f
-\n
-темный=A=nom,sg,plen,f
-_
-звериный=A=nom,sg,plen,f
-_
-душа=S,f,inan=nom,sg
-:\n|\n
-ничто=SPRO,sg,n=dat
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-научать=V,tran=inf,pf
-,\n
-не=PART=
-_
-уметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-вовсе=ADV=
-_
-говорить=V,ipf,tran=inf
-\n
-и=CONJ=
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-_
-дельфин=S,m,anim=ins,sg
-_
-молодой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-по=PR=
-_
-седой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-пучина=S,f,inan=dat,pl
-_
-мировой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
+{ни=PART=} {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {не=PART=} {нужно=ADV,praed=} {говорить=V,ipf,tran=inf},
+{ничто=SPRO,sg,n=dat} {не=PART=} {следовать=V,ipf=inpraes,sg,indic,3p} {учить=V,ipf,tran=inf},
+{и=CONJ=} {печальный=A=sg,brev,f} {так=ADVPRO=} {и=CONJ=} {хороший=A=sg,brev,f}
+{темный=A=nom,sg,plen,f} {звериный=A=nom,sg,plen,f} {душа=S,f,inan=nom,sg}:
+|
+{ничто=SPRO,sg,n=dat} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {научать=V,tran=inf,pf},
+{не=PART=} {уметь=V,ipf,intr=inpraes,sg,indic,3p} {вовсе=ADV=} {говорить=V,ipf,tran=inf}
+{и=CONJ=} {плыть=V,ipf,intr=inpraes,sg,indic,3p} {дельфин=S,m,anim=ins,sg} {молодой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{по=PR=} {седой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {пучина=S,f,inan=dat,pl} {мировой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.

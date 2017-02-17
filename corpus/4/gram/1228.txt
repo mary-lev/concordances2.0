@@ -1,64 +1,9 @@
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-появление=S,n,inan=(acc,sg|nom,sg)
-_
-ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-когда=CONJ=
-_
-после=PR=
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-или=CONJ=
-_
-три=NUM=(abl|gen|acc,anim)
-,\n
-а=CONJ=
-_
-то=PART=
-_
-четыре=NUM=(abl|gen|acc,anim)
-_
-задыхание=S,n,inan=gen,pl
-\n
-приходить=V,intr=inpraes,sg,indic,3p,pf
-_
-выпрямительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-хорошо=ADV=parenth
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-и=CONJ=
-_
-тяжко=ADV=
-,\n
-когда=CONJ=
-_
-приближаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-вдруг=ADV=
-_
-дуговой=A=nom,sg,plen,f
-_
-растяжка=S,f,inan=nom,sg
-\n
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-бормотание=S,n,inan=abl,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {появление=S,n,inan=(acc,sg|nom,sg)} {ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{когда=CONJ=} {после=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {или=CONJ=} {три=NUM=(abl|gen|acc,anim)},
+{а=CONJ=} {то=PART=} {четыре=NUM=(abl|gen|acc,anim)} {задыхание=S,n,inan=gen,pl}
+{приходить=V,intr=inpraes,sg,indic,3p,pf} {выпрямительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вздох=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {как=ADVPRO=} {хорошо=ADV=parenth} {я=SPRO,sg,1p=(abl|dat)} {и=CONJ=} {тяжко=ADV=},
+{когда=CONJ=} {приближаться=V,intr=inpraes,sg,indic,3p,ipf} {миг=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {вдруг=ADV=} {дуговой=A=nom,sg,plen,f} {растяжка=S,f,inan=nom,sg}
+{звучать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {бормотание=S,n,inan=abl,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.

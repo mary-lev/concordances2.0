@@ -1,168 +1,24 @@
-я=SPRO,sg,1p=nom
-_
-снова=ADV=
-_
-здесь=ADVPRO=
-,_
-в=PR=
-_
-семья=S,f,inan=(abl,sg|dat,sg)
-_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-,_
-задумчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-кудрявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-гора=S,f,inan=ins,sg
-\n
-рука=S,f,inan=ins,sg
-_
-махать=V,ipf,intr=inpraes,sg,indic,3p
-_
-белоснежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-седина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пасмурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-\n
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-_
-всклокочивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-мимо=ADV=
-,\n
-и=CONJ=
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-_
-вечерний=A=nom,sg,plen,f
-_
-я=SPRO,sg,1p=(acc|gen)
-\n
-волновать=V,ipf,tran=inpraes,sg,indic,3p
-_
-непреодолимый=A=sg,brev,n
-.\n\n
-над=PR=
-_
-купол=S,m,inan=ins,sg
-_
-церковный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глава=S,f,inan=gen,pl
-\n
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-заря=S,f,inan=gen,sg
-_
-упасть=V,pf,intr=praet,sg,indic,f
-_
-низкий=A=comp
-.\n
-о=PR=
-_
-друг?=S,m,anim=nom,pl
-_
-игрище=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-забава=S,f,inan=gen,pl
-,\n
-уж=PART=
-_
-я=SPRO,sg,1p=nom
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-больше=ADV=
-_
-не=PART=
-_
-увидеть=V,pf,tran=inpraes,sg,indic,1p
-!\n\n
-в=PR=
-_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-кануть=V,pf,intr=praet,pl,indic
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вослед=ADV=
-_
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-уходить=V,intr=praet,pl,indic,pf
-_
-куда-то=ADVPRO=
-.\n
-и=CONJ=
-_
-лишь=PART=
-_
-по-прежнему=ADV=
-_
-вода=S,f,inan=nom,sg
-\n
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-за=PR=
-_
-мельница=S,f,inan=ins,sg
-_
-крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-и=CONJ=
-_
-часто=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-,\n
-под=PR=
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-надломленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-осока=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-молиться=V,ipf,intr=inpraes,sg,indic,1p
-_
-дымиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-\n
-о=PR=
-_
-невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-и=CONJ=
-_
-далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n
+{я=SPRO,sg,1p=nom} {снова=ADV=} {здесь=ADVPRO=}, {в=PR=} {семья=S,f,inan=(abl,sg|dat,sg)} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {край=S,m,inan=(acc,sg|nom,sg)}, {задумчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{кудрявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сумрак=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {гора=S,f,inan=ins,sg}
+{рука=S,f,inan=ins,sg} {махать=V,ipf,intr=inpraes,sg,indic,3p} {белоснежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{седина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пасмурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}
+{плыть=V,ipf,intr=inpraes,pl,indic,3p} {всклокочивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {мимо=ADV=},
+{и=CONJ=} {грусть=S,f,inan=(acc,sg|nom,sg)} {вечерний=A=nom,sg,plen,f} {я=SPRO,sg,1p=(acc|gen)}
+{волновать=V,ipf,tran=inpraes,sg,indic,3p} {непреодолимый=A=sg,brev,n}.
+
+{над=PR=} {купол=S,m,inan=ins,sg} {церковный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глава=S,f,inan=gen,pl}
+{тень=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {заря=S,f,inan=gen,sg} {упасть=V,pf,intr=praet,sg,indic,f} {низкий=A=comp}.
+{о=PR=} {друг?=S,m,anim=nom,pl} {игрище=S,n,inan=gen,pl} {и=CONJ=} {забава=S,f,inan=gen,pl},
+{уж=PART=} {я=SPRO,sg,1p=nom} {вы=SPRO,pl,2p=(abl|acc|gen)} {больше=ADV=} {не=PART=} {увидеть=V,pf,tran=inpraes,sg,indic,1p}!
+
+{в=PR=} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кануть=V,pf,intr=praet,pl,indic} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{вослед=ADV=} {и=CONJ=} {вы=SPRO,pl,2p=nom} {уходить=V,intr=praet,pl,indic,pf} {куда-то=ADVPRO=}.
+{и=CONJ=} {лишь=PART=} {по-прежнему=ADV=} {вода=S,f,inan=nom,sg}
+{шуметь=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {мельница=S,f,inan=ins,sg} {крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{и=CONJ=} {часто=ADV=} {я=SPRO,sg,1p=nom} {в=PR=} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)},
+{под=PR=} {звон=S,m,inan=(acc,sg|nom,sg)} {надломленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {осока=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{молиться=V,ipf,intr=inpraes,sg,indic,1p} {дымиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {земля=S,f,inan=(abl,sg|dat,sg)}
+{о=PR=} {невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {и=CONJ=} {далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.

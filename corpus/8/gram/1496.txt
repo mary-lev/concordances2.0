@@ -1,104 +1,11 @@
-мы=SPRO,pl,1p=nom
-_
-ехать=V,ipf,intr=praet,pl,indic
-_
-долго=ADV=
-,_
-без=PR=
-_
-цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-куда-то=ADVPRO=
-,\n
-куда-то=ADVPRO=
-_
-далеко=ADV=
-,_
-вперед=ADV=
-,_
-без=PR=
-_
-возврат=S,m,inan=gen,sg
-...\n
-поспешно=ADV=
-_
-мелькать=V,ipf,intr=praet,pl,indic
-_
-куст=S,m,inan=(acc,pl|nom,pl)
-,\n
-вставать=V,intr=praet,sg,indic,f,pf
-_
-ли=CONJ=
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-убегать=V,intr=praet,pl,indic,ipf
-,\n
-сурово=ADV=
-_
-стучать=V,ipf,intr=praet,pl,indic
-_
-под=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-мост=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-ехать=V,ipf,intr=praet,pl,indic
-_
-долго=ADV=
-._
-мы=SPRO,pl,1p=dat
-_
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-повстречаться=V,pf,intr=praet,sg,indic,m
-\n
-и=CONJ=
-_
-долго=ADV=
-_
-в=PR=
-_
-оконный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стекло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-стучаться=V,ipf,intr=praet,sg,indic,m
-,\n
-угрюмо=ADV=
-_
-пророчить=V,ipf,tran=inpraes,ger
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-...\n
-но=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-ускользать=V,intr=praet,pl,indic,pf
-_
-за=PR=
-_
-область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-к=PR=
-_
-чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мы=SPRO,pl,1p=nom
-_
-ринуться=V,pf,intr=praet,pl,indic
-_
-вдаль=ADV=
-!\n
+{мы=SPRO,pl,1p=nom} {ехать=V,ipf,intr=praet,pl,indic} {долго=ADV=}, {без=PR=} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {куда-то=ADVPRO=},
+{куда-то=ADVPRO=} {далеко=ADV=}, {вперед=ADV=}, {без=PR=} {возврат=S,m,inan=gen,sg}...
+{поспешно=ADV=} {мелькать=V,ipf,intr=praet,pl,indic} {куст=S,m,inan=(acc,pl|nom,pl)},
+{вставать=V,intr=praet,sg,indic,f,pf} {ли=CONJ=} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {убегать=V,intr=praet,pl,indic,ipf},
+{сурово=ADV=} {стучать=V,ipf,intr=praet,pl,indic} {под=PR=} {мы=SPRO,pl,1p=ins} {мост=S,m,inan=(acc,pl|nom,pl)}.
+
+{мы=SPRO,pl,1p=nom} {ехать=V,ipf,intr=praet,pl,indic} {долго=ADV=}. {мы=SPRO,pl,1p=dat} {дождь=S,m,inan=(acc,sg|nom,sg)} {повстречаться=V,pf,intr=praet,sg,indic,m}
+{и=CONJ=} {долго=ADV=} {в=PR=} {оконный=A=(acc,pl,plen,inan|nom,pl,plen)} {стекло=S,n,inan=(acc,pl|gen,sg|nom,pl)} {стучаться=V,ipf,intr=praet,sg,indic,m},
+{угрюмо=ADV=} {пророчить=V,ipf,tran=inpraes,ger} {печаль=S,f,inan=(acc,sg|nom,sg)}...
+{но=CONJ=} {мы=SPRO,pl,1p=nom} {ускользать=V,intr=praet,pl,indic,pf} {за=PR=} {область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {к=PR=} {чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мы=SPRO,pl,1p=nom} {ринуться=V,pf,intr=praet,pl,indic} {вдаль=ADV=}!

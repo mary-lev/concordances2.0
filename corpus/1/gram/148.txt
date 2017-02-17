@@ -1,158 +1,19 @@
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-медленный=A=nom,sg,plen,f
-_
-идти=V,ipf,intr=praet,sg,indic,f
-,_
-как=CONJ=
-_
-старый=A=nom,sg,plen,f
-_
-гадалка=S,f,anim=nom,sg
-,_\n
-таинственно=ADV=
-_
-шептать=V,ipf,tran=inpraes,ger
-_
-забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-вздыхать=V,intr=praet,sg,indic,m,ipf
-_
-о=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-я=SPRO,sg,1p=nom
-,_
-что-то=SPRO,sg,n,inan=gen
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-жалко=ADV=parenth
-,_\n
-какой-то=APRO=ins,sg,f
-_
-мечта=S,f,inan=ins,sg
-_
-гореть=V,ipf,intr=praet,sg,indic,f
-_
-голова=S,f,inan=nom,sg
-.\n\n
-остановиться?=V,intr=inpraes,ger,ipf
-_
-на=PR=
-_
-перекресток=S,m,inan=abl,sg
-,_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\n
-я=SPRO,sg,1p=nom
-_
-наблюдать=V,ipf,tran=praet,sg,indic,m
-_
-зубчатый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-но=CONJ=
-_
-даже=PART=
-_
-здесь=ADVPRO=
-,_
-под=PR=
-_
-иго=S,n,inan=ins,sg
-_
-чуждый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-казаться=V,ipf,intr=praet,sg,indic,n
-,_
-тяжкий=A=pl,brev
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-.\n\n
-и=CONJ=
-_
-вспомнить=V,pf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_
-сокрытый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-причина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-дума=S,f,inan=gen,pl
-,_
-пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сила=S,f,inan=gen,pl
-._\n
-а=CONJ=
-_
-там=ADVPRO=
-,_
-вдали=ADV=
-_-_
-зубчатый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-день=S,m,inan=(acc,sg|nom,sg)
-_
-отходить=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-томно=ADV=
-_
-золотить=V,ipf,tran=praet,sg,indic,m
-...\n\n
-весна=S,f,inan=nom,sg
-,_
-весна=S,f,inan=nom,sg
-!_
-сказать=V,pf,tran=sg,imper,2p
-,_
-что=SPRO,sg,n,inan=gen
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-жалко=ADV=parenth
-?_\n
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-мечта=S,f,inan=ins,sg
-_
-пылать=V,ipf,intr=inpraes,sg,indic,3p
-_
-голова=S,f,inan=nom,sg
-?_\n
-таинственно=ADV=
-,_
-как=CONJ=
-_
-старый=A=nom,sg,plen,f
-_
-гадалка=S,f,anim=nom,sg
-,_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-шептать=V,ipf,tran=inpraes,sg,indic,3p
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {медленный=A=nom,sg,plen,f} {идти=V,ipf,intr=praet,sg,indic,f}, {как=CONJ=} {старый=A=nom,sg,plen,f} {гадалка=S,f,anim=nom,sg}, 
+{таинственно=ADV=} {шептать=V,ipf,tran=inpraes,ger} {забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{вздыхать=V,intr=praet,sg,indic,m,ipf} {о=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {я=SPRO,sg,1p=nom}, {что-то=SPRO,sg,n,inan=gen} {быть=V,intr=praet,sg,indic,n,ipf} {жалко=ADV=parenth}, 
+{какой-то=APRO=ins,sg,f} {мечта=S,f,inan=ins,sg} {гореть=V,ipf,intr=praet,sg,indic,f} {голова=S,f,inan=nom,sg}.
+
+{остановиться?=V,intr=inpraes,ger,ipf} {на=PR=} {перекресток=S,m,inan=abl,sg}, {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{я=SPRO,sg,1p=nom} {наблюдать=V,ipf,tran=praet,sg,indic,m} {зубчатый=A=(acc,pl,plen,inan|nom,pl,plen)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
+{но=CONJ=} {даже=PART=} {здесь=ADVPRO=}, {под=PR=} {иго=S,n,inan=ins,sg} {чуждый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{казаться=V,ipf,intr=praet,sg,indic,n}, {тяжкий=A=pl,brev} {быть=V,intr=praet,pl,indic,ipf} {небо=S,n,inan=(acc,pl|nom,pl)}.
+
+{и=CONJ=} {вспомнить=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {сокрытый=A=(acc,pl,plen,inan|nom,pl,plen)} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {дума=S,f,inan=gen,pl}, {пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сила=S,f,inan=gen,pl}. 
+{а=CONJ=} {там=ADVPRO=}, {вдали=ADV=} - {зубчатый=A=(acc,pl,plen,inan|nom,pl,plen)} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{день=S,m,inan=(acc,sg|nom,sg)} {отходить=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {томно=ADV=} {золотить=V,ipf,tran=praet,sg,indic,m}...
+
+{весна=S,f,inan=nom,sg}, {весна=S,f,inan=nom,sg}! {сказать=V,pf,tran=sg,imper,2p}, {что=SPRO,sg,n,inan=gen} {я=SPRO,sg,1p=(abl|dat)} {жалко=ADV=parenth}? 
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {мечта=S,f,inan=ins,sg} {пылать=V,ipf,intr=inpraes,sg,indic,3p} {голова=S,f,inan=nom,sg}? 
+{таинственно=ADV=}, {как=CONJ=} {старый=A=nom,sg,plen,f} {гадалка=S,f,anim=nom,sg}, 
+{я=SPRO,sg,1p=(abl|dat)} {шептать=V,ipf,tran=inpraes,sg,indic,3p} {жизнь=S,f,inan=(acc,sg|nom,sg)} {забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,130 +1,17 @@
-где=ADVPRO=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-бросать=V=inpraes,sg,indic,3p,ipf,tran
-_
-якорь=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-созвездие=S,n,inan=abl,pl
-_
-зодиак=S,m,inan=gen,sg
-,\n
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-_
-октябрь=S,m,inan=gen,sg
-,\n
-глухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вскормленник=S,m,anim=nom,pl
-_
-мрак=S,m,inan=gen,sg
-,\n
-куда=ADVPRO=
-_
-лететь=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-вы=SPRO,pl,2p=nom
-?_
-зачем=ADVPRO=
-\n
-от=PR=
-_
-древо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вы=SPRO,pl,2p=nom
-_
-отпадать=V,intr=praet,pl,indic,pf
-?\n
-вы=SPRO,pl,2p=dat
-_
-чуждый=A=sg,brev,m
-_
-и=CONJ=
-_
-странный=A=sg,brev,m
-_
-вифлеем=S,geo,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-ясли=S,pl,inan=gen
-_
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-увидать=V,pf=praet,pl,indic,tran
-.\n\n
-для=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-потомство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=PART=
-_\u2014_
-увы=INTJ=
-!_\u2014\n
-бесполый=A=nom,sg,plen,f
-_
-владеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-вы=SPRO,pl,2p=ins
-_
-злоба=S,f,inan=nom,sg
-,\n
-бездетный=A=ins,pl,plen
-_
-сходить=V,intr=inpraes,pl,indic,2p,pf
-_
-вы=SPRO,pl,2p=nom
-\n
-в=PR=
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-повапленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гроб=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-на=PR=
-_
-порог=S,m,inan=abl,sg
-_
-тишина=S,sg,f,inan=gen
-,\n
-среди=PR=
-_
-беспамятство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-природа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-вы=SPRO,pl,2p=dat
-,_
-не=PART=
-_
-вы=SPRO,pl,2p=dat
-_
-обрекать=V=praet,pl,partcp,brev,pf,pass
-,\n
-а=CONJ=
-_
-звезда=S,f,inan=dat,pl
-_
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-народ=S,m,inan=(acc,pl|nom,pl)
-.\n
+{где=ADVPRO=} {ночь=S,f,inan=(acc,sg|nom,sg)} {бросать=V=inpraes,sg,indic,3p,ipf,tran} {якорь=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {созвездие=S,n,inan=abl,pl} {зодиак=S,m,inan=gen,sg},
+{сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {лист=S,m,inan=(acc,pl|nom,pl)} {октябрь=S,m,inan=gen,sg},
+{глухой=A=(acc,pl,plen,inan|nom,pl,plen)} {вскормленник=S,m,anim=nom,pl} {мрак=S,m,inan=gen,sg},
+{куда=ADVPRO=} {лететь=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {вы=SPRO,pl,2p=nom}? {зачем=ADVPRO=}
+{от=PR=} {древо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вы=SPRO,pl,2p=nom} {отпадать=V,intr=praet,pl,indic,pf}?
+{вы=SPRO,pl,2p=dat} {чуждый=A=sg,brev,m} {и=CONJ=} {странный=A=sg,brev,m} {вифлеем=S,geo,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {ясли=S,pl,inan=gen} {вы=SPRO,pl,2p=nom} {не=PART=} {увидать=V,pf=praet,pl,indic,tran}.
+
+{для=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {потомство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=PART=} — {увы=INTJ=}! —
+{бесполый=A=nom,sg,plen,f} {владеть=V,ipf,intr=inpraes,sg,indic,3p} {вы=SPRO,pl,2p=ins} {злоба=S,f,inan=nom,sg},
+{бездетный=A=ins,pl,plen} {сходить=V,intr=inpraes,pl,indic,2p,pf} {вы=SPRO,pl,2p=nom}
+{в=PR=} {свой=APRO=(nom,pl|acc,pl,inan)} {повапленный=A=(acc,pl,plen,inan|nom,pl,plen)} {гроб=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {на=PR=} {порог=S,m,inan=abl,sg} {тишина=S,sg,f,inan=gen},
+{среди=PR=} {беспамятство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {природа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{не=PART=} {вы=SPRO,pl,2p=dat}, {не=PART=} {вы=SPRO,pl,2p=dat} {обрекать=V=praet,pl,partcp,brev,pf,pass},
+{а=CONJ=} {звезда=S,f,inan=dat,pl} {вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {народ=S,m,inan=(acc,pl|nom,pl)}.

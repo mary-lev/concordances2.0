@@ -1,80 +1,9 @@
-ни=PART=
-_
-яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-май=S,sg,m,inan=(acc|nom)
-,_
-ни=CONJ=
-_
-лира=S,f,inan=nom,sg
-_
-фруг=S,m,inan=gen,sg
-,\n
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-послушный=A=nom,sg,plen,f
-_
-игла=S,f,inan=nom,sg
-\n
-на=PR=
-_
-тонкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-досуг=S,m,inan=gen,sg
-\n
-вы=SPRO,pl,2p=dat
-_
-этот=APRO=acc,sg,f
-_
-роза=S,f,inan=acc,sg
-_
-рожать=V=praet,sg,indic,f,pf,tran
-.\n
-когда=CONJ=
-_
-б=PART=
-_
-из=PR=
-_
-кружевной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-круг=S,m,inan=gen,sg
-\n
-судьба=S,f,inan=nom,sg
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-вырываться=V,intr=inf,pf
-_
-давать=V,tran=praet,sg,indic,f,pf
-,\n
-она=SPRO,sg,3p,f=nom
-_
-б=PART=
-_
-едва=CONJ=
-_
-ли=CONJ=
-_
-предпочитать=V=praet,sg,indic,f,pf
-\n
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-зелень=S,f,inan=(acc,sg|nom,sg)
-_
-луг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-приют=S,m,inan=dat,sg
-_
-ваш=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-стол=S,m,inan=gen,sg
-.\n
+{ни=PART=} {яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {май=S,sg,m,inan=(acc|nom)}, {ни=CONJ=} {лира=S,f,inan=nom,sg} {фруг=S,m,inan=gen,sg},
+{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {послушный=A=nom,sg,plen,f} {игла=S,f,inan=nom,sg}
+{на=PR=} {тонкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {досуг=S,m,inan=gen,sg}
+{вы=SPRO,pl,2p=dat} {этот=APRO=acc,sg,f} {роза=S,f,inan=acc,sg} {рожать=V=praet,sg,indic,f,pf,tran}.
+{когда=CONJ=} {б=PART=} {из=PR=} {кружевной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {круг=S,m,inan=gen,sg}
+{судьба=S,f,inan=nom,sg} {она=SPRO,sg,3p,f=(dat|ins)} {вырываться=V,intr=inf,pf} {давать=V,tran=praet,sg,indic,f,pf},
+{она=SPRO,sg,3p,f=nom} {б=PART=} {едва=CONJ=} {ли=CONJ=} {предпочитать=V=praet,sg,indic,f,pf}
+{сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {зелень=S,f,inan=(acc,sg|nom,sg)} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{приют=S,m,inan=dat,sg} {ваш=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {стол=S,m,inan=gen,sg}.

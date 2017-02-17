@@ -1,76 +1,9 @@
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гнать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-рыть=V,ipf,tran=inpraes,sg,indic,3p
-_
-отмель=S,f,inan=(acc,sg|nom,sg)
-,_
-с=PR=
-_
-суша=S,f,inan=ins,sg
-_
-спорить=V,ipf,intr=inpraes,ger
-;\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-до=PR=
-_
-зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-клонить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-пространство=S,n,inan=abl,pl
-_
-вольный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-малый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лодка=S,f,inan=gen,pl
-_
-реять=V,ipf,intr=inpraes,sg,indic,3p
-_
-стая=S,f,inan=nom,sg
-,\n
-белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-рыть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-давать=V,tran=praet,pl,indic,pf
-_
-нежить=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-в=PR=
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пена=S,f,inan=(abl,sg|dat,sg)
-_
-тихо=ADV=
-_
-таить=V,ipf,tran=inpraes,ger
-,\n
-вал=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-вал=S,m,inan=ins,sg
-_
-отмель=S,f,inan=(acc,sg|nom,sg)
-_
-резать=V,ipf,tran=inpraes,sg,indic,3p
-.\n
+{ветер=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гнать=V,ipf,tran=inpraes,sg,indic,3p},
+{рыть=V,ipf,tran=inpraes,sg,indic,3p} {отмель=S,f,inan=(acc,sg|nom,sg)}, {с=PR=} {суша=S,f,inan=ins,sg} {спорить=V,ipf,intr=inpraes,ger};
+{ветер=S,m,inan=(acc,sg|nom,sg)} {дым=S,m,inan=(acc,sg|nom,sg)} {до=PR=} {зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {клонить=V,ipf,tran=inpraes,sg,indic,3p},
+{дым=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {пространство=S,n,inan=abl,pl} {вольный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{малый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лодка=S,f,inan=gen,pl} {реять=V,ipf,intr=inpraes,sg,indic,3p} {стая=S,f,inan=nom,sg},
+{белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рыть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {давать=V,tran=praet,pl,indic,pf} {нежить=V,ipf,tran=inpraes,sg,indic,3p}.
+{в=PR=} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пена=S,f,inan=(abl,sg|dat,sg)} {тихо=ADV=} {таить=V,ipf,tran=inpraes,ger},
+{вал=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {вал=S,m,inan=ins,sg} {отмель=S,f,inan=(acc,sg|nom,sg)} {резать=V,ipf,tran=inpraes,sg,indic,3p}.

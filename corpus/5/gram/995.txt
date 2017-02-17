@@ -1,84 +1,29 @@
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-одевать=V,tran=praet,pl,partcp,brev,pf,pass
-\n
-перл=S,m,inan=ins,pl
-.\n
-где-то=ADVPRO=
-_
-привет=S,m,inan=(acc,pl|nom,pl)
-\n
-грустный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-,\u2014_
-привет=S,m,inan=(acc,pl|nom,pl)
-\n
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n\n
-милый=A=nom,sg,plen,f
-,_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,\u2014\n
-милый=A=nom,sg,plen,f
-?..\n\n
-вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-света=S,persn,f,anim=(gen,sg|nom,pl)
-\n
-ясный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\u2014\n
-вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-света=S,persn,f,anim=(gen,sg|nom,pl)
-\n
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-воздевать=V,tran=praet,pl,partcp,brev,pf,pass
-:\n
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-...\n\n
-милый=A=nom,sg,plen,f
-,_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,\u2014\n
-милый=A=nom,sg,plen,f
-?\n\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-воздевать=V,tran=praet,pl,partcp,brev,pf,pass
-:\n
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-\n
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-струя=S,f,inan=abl,pl
-_
-лет=S,m,inan=(acc,pl|nom,pl)
-:\n
-смывать=V=praet,acc,sg,partcp,plen,f,pf,pass
-\n
-бледный=A=ins,pl,plen
-_
-лет=S,m,inan=(acc,pl|nom,pl)
-\n
-струя=S,f,inan=ins,pl
-...\n\n
-милый=A=nom,sg,plen,f
-,_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,\u2014\n
-милый=A=nom,sg,plen,f
-?\n
+{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {одевать=V,tran=praet,pl,partcp,brev,pf,pass}
+{перл=S,m,inan=ins,pl}.
+{где-то=ADVPRO=} {привет=S,m,inan=(acc,pl|nom,pl)}
+{грустный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{слышать=V,ipf,tran=inpraes,sg,indic,1p},— {привет=S,m,inan=(acc,pl|nom,pl)}
+{милый=A=(acc,pl,plen,inan|nom,pl,plen)}...
+
+{милый=A=nom,sg,plen,f}, {где=ADVPRO=} {ты=SPRO,sg,2p=nom},—
+{милый=A=nom,sg,plen,f}?..
+
+{вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {света=S,persn,f,anim=(gen,sg|nom,pl)}
+{ясный=A=(acc,pl,plen,inan|nom,pl,plen)},—
+{вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {света=S,persn,f,anim=(gen,sg|nom,pl)}
+{красный=A=(acc,pl,plen,inan|nom,pl,plen)}...
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {воздевать=V,tran=praet,pl,partcp,brev,pf,pass}:
+{ждать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}...
+
+{милый=A=nom,sg,plen,f}, {где=ADVPRO=} {ты=SPRO,sg,2p=nom},—
+{милый=A=nom,sg,plen,f}?
+
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {воздевать=V,tran=praet,pl,partcp,brev,pf,pass}:
+{ждать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}
+{в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {струя=S,f,inan=abl,pl} {лет=S,m,inan=(acc,pl|nom,pl)}:
+{смывать=V=praet,acc,sg,partcp,plen,f,pf,pass}
+{бледный=A=ins,pl,plen} {лет=S,m,inan=(acc,pl|nom,pl)}
+{струя=S,f,inan=ins,pl}...
+
+{милый=A=nom,sg,plen,f}, {где=ADVPRO=} {ты=SPRO,sg,2p=nom},—
+{милый=A=nom,sg,plen,f}?

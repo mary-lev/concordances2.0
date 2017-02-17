@@ -1,3 +1,4 @@
+{{right_sidebar_enabled=True}}
 {{response.files.append(URL(r=request,c='static',f='/js/d3.js'))}}
 
 {{response.files.append(URL('static', 'js/d3pie.min.js'))}}
@@ -5,7 +6,14 @@
 {{extend 'layout.html'}}
 
 {{=DIV(_id="pieChart2")}}
-{{=sum(colours2)}} / {{=all_words2}}, {{=proc}} %
+Всего {{=sum(colours2)}} цветообозначений на {{=all_words2}} словоупотреблений в корпусе, {{=proc}} %.
+
+{{block right_sidebar}}
+<h4>Цвета по авторам</h4>
+{{for one in authors:}}
+<li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}}</li>
+{{pass}}
+{{end}}
 
 <script>
     var pie = new d3pie("pieChart2", {

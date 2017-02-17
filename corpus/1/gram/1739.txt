@@ -1,100 +1,15 @@
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ручей=S,m,inan=(acc,pl|nom,pl)
-,\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-птица=S,f,anim=(gen,sg|nom,pl)
-,\n
-смутный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мысль=S,f,inan=gen,pl
-_
-вереница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-подвластный=A=pl,brev
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-!\n\n
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-страшный=A=sg,brev,m
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плен=S,m,inan=(acc,sg|nom,sg)
-,\n
-незаметный=A=sg,brev,f
-_
-узость=S,f,inan=(acc,sg|nom,sg)
-_
-стена=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-от=PR=
-_
-грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-до=PR=
-_
-грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-мы=SPRO,pl,1p=dat
-_
-довольно=ADV=
-_
-содрогание=S,n,inan=gen,pl
-,\n
-мы=SPRO,pl,1p=dat
-_
-довольно=ADV=
-_
-перемена=S,f,inan=gen,pl
-!\n\n
-возлюбить=V,pf,tran=inf
-,_
-возненавидеть=V,pf,tran=inf
-\n
-мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-скрытый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-смысл=S,m,inan=(acc,sg|nom,sg)
-,\n
-чет=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-нечет=S,m,inan=(acc,sg|nom,sg)
-_
-мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-числ?=S,persn,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-вверху=ADV=
-_\u2014_
-ты=SPRO,sg,2p=(acc|gen)
-_
-увидеть=V,pf,tran=inf
-!\n
+{я=SPRO,sg,1p=nom} {и=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} — {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {ручей=S,m,inan=(acc,pl|nom,pl)},
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {птица=S,f,anim=(gen,sg|nom,pl)},
+{смутный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мысль=S,f,inan=gen,pl} {вереница=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{все=SPRO,pl=(acc|nom)} {подвластный=A=pl,brev}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {твой=APRO=(nom,pl|acc,pl,inan)}!
+
+{мы=SPRO,pl,1p=dat} {не=PART=} {страшный=A=sg,brev,m} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плен=S,m,inan=(acc,sg|nom,sg)},
+{незаметный=A=sg,brev,f} {узость=S,f,inan=(acc,sg|nom,sg)} {стена=S,f,inan=gen,pl},
+{и=CONJ=} {от=PR=} {грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {до=PR=} {грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{мы=SPRO,pl,1p=dat} {довольно=ADV=} {содрогание=S,n,inan=gen,pl},
+{мы=SPRO,pl,1p=dat} {довольно=ADV=} {перемена=S,f,inan=gen,pl}!
+
+{возлюбить=V,pf,tran=inf}, {возненавидеть=V,pf,tran=inf}
+{мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {скрытый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смысл=S,m,inan=(acc,sg|nom,sg)},
+{чет=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {нечет=S,m,inan=(acc,sg|nom,sg)} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {числ?=S,persn,m,anim=nom,sg},
+{и=CONJ=} {вверху=ADV=} — {ты=SPRO,sg,2p=(acc|gen)} {увидеть=V,pf,tran=inf}!

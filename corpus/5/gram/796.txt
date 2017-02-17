@@ -1,124 +1,19 @@
-не=PART=
-_
-слышно=ADV=parenth
-_
-зловещий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-гром=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-ненастье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-проходить=V,intr=praet,sg,indic,n,pf
-_\u2014_
-пролететь=V,pf=praet,sg,indic,n
-.\n
-лицо=S,n,inan=(acc,sg|nom,sg)
-_
-постареть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)
-_
-гном=S,m,anim=(acc,sg|gen,sg)
-\n
-в=PR=
-_
-слеза=S,f,inan=abl,pl
-_
-заревой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-огневеть?=V,pf,intr=praet,sg,indic,n
-.\n\n
-сказать=V,pf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-:_\xAB
-довольно=ADV=
-,_
-довольно=ADV=
-...\xBB\n
-в=PR=
-_
-луч=S,m,inan=abl,pl
-_
-борода=S,f,inan=nom,sg
-_
-серебриться=V,ipf,intr=praet,sg,indic,f
-.\n
-сказать=V,pf,tran=praet,sg,indic,m
-_\u2014_
-засмеяться=V,pf,intr=praet,sg,indic,m
-_
-невольно=ADV=
-,\n
-улыбка=S,f,inan=ins,sg
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-_
-просвещаться=V,intr=praet,sg,indic,n,pf
-.\n\n
-и=CONJ=
-_
-вот=PART=
-_
-вдоль=PR=
-_
-зарастать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-нестись=V,ipf,intr=praet,sg,indic,f
-_
-песнь=S,f,inan=(acc,sg|nom,sg)
-_
-старинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-гном=S,m,anim=(acc,sg|gen,sg)
-:\n\xAB
-нести=V,ipf,tran=pl,imper,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-домой=ADV=
-,_
-заждаться=V,pf,intr=praet,pl,indic
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-дома=ADV=
-\xBB.\n\n
-так=ADVPRO=
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-,_
-смеяться=V,ipf,intr=inpraes,ger
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-с=PR=
-_
-себя=SPRO=ins
-.\n
-лист=S,m,inan=(acc,sg|nom,sg)
-_
-вспыхивать=V,intr=praet,sg,indic,m,pf
-_
-сияние=S,n,inan=ins,sg
-_
-червонец=S,m,inan=gen,sg
-.\n
-блеснуть=V,pf,intr=praet,sg,indic,n
-_
-прощальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кайма=S,f,inan=ins,sg
-\n
-зеркальный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-золото=S,sg,n,inan=(acc|nom)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{не=PART=} {слышно=ADV=parenth} {зловещий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {гром=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{ненастье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {проходить=V,intr=praet,sg,indic,n,pf} — {пролететь=V,pf=praet,sg,indic,n}.
+{лицо=S,n,inan=(acc,sg|nom,sg)} {постареть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} {гном=S,m,anim=(acc,sg|gen,sg)}
+{в=PR=} {слеза=S,f,inan=abl,pl} {заревой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {огневеть?=V,pf,intr=praet,sg,indic,n}.
+
+{сказать=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom}: «{довольно=ADV=}, {довольно=ADV=}...»
+{в=PR=} {луч=S,m,inan=abl,pl} {борода=S,f,inan=nom,sg} {серебриться=V,ipf,intr=praet,sg,indic,f}.
+{сказать=V,pf,tran=praet,sg,indic,m} — {засмеяться=V,pf,intr=praet,sg,indic,m} {невольно=ADV=},
+{улыбка=S,f,inan=ins,sg} {лицо=S,n,inan=(acc,sg|nom,sg)} {просвещаться=V,intr=praet,sg,indic,n,pf}.
+
+{и=CONJ=} {вот=PART=} {вдоль=PR=} {зарастать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{нестись=V,ipf,intr=praet,sg,indic,f} {песнь=S,f,inan=(acc,sg|nom,sg)} {старинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {гном=S,m,anim=(acc,sg|gen,sg)}:
+«{нести=V,ipf,tran=pl,imper,2p} {я=SPRO,sg,1p=(acc|gen)}, {мой=APRO=(nom,pl|acc,pl,inan)} {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{домой=ADV=}, {заждаться=V,pf,intr=praet,pl,indic} {я=SPRO,sg,1p=(acc|gen)} {дома=ADV=}».
+
+{так=ADVPRO=} {петь=V,ipf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom}, {смеяться=V,ipf,intr=inpraes,ger} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {с=PR=} {себя=SPRO=ins}.
+{лист=S,m,inan=(acc,sg|nom,sg)} {вспыхивать=V,intr=praet,sg,indic,m,pf} {сияние=S,n,inan=ins,sg} {червонец=S,m,inan=gen,sg}.
+{блеснуть=V,pf,intr=praet,sg,indic,n} {прощальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кайма=S,f,inan=ins,sg}
+{зеркальный=A=(acc,sg,plen,n|nom,sg,plen,n)} {золото=S,sg,n,inan=(acc|nom)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

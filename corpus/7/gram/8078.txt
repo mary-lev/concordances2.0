@@ -1,174 +1,29 @@
-камень=S,m,inan=(acc,pl|nom,pl)
-_
-млеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-истома=S,f,inan=(abl,sg|dat,sg)
-,\n
-человек=S,m,anim=nom,pl
-_
-заливать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-свет=S,sg,m,inan=ins
-,\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-ли=PART=
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-лето=S,sg,n,inan=ins
-\n
-вид=S,m,inan=(acc,sg|nom,sg)
-_
-постынуть=V,pf,intr=praet,sg,indic,n
--
-знакомый=A=comp
-?\n\n
-в=PR=
-_
-трафарет=S,m,inan=abl,sg
-_
-готовый=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-он=SPRO,sg,3p,m=nom
-_\u2014_
-узор=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-посуда=S,f,inan=(abl,sg|dat,sg)
-...\n
-и=CONJ=
-_
-не=PART=
-_
-все=ADV=
-_
-ли=PART=
-_
-равный=A=sg,brev,n
-_
-вы=SPRO,pl,2p=dat
-:\n
-камень=S,m,inan=(acc,pl|nom,pl)
-_
-там=ADVPRO=
-_
-или=CONJ=
-_
-человек=S,m,anim=nom,pl
-?\n\n
-сбивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-в=PR=
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-камень=S,m,inan=(acc,pl|nom,pl)
-\n
-нищета=S,sg,f,inan=ins
-_
-бледнолицый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-этот=APRO=nom,sg,f
-_
-одурь=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-\n
-колыбель=S,f,inan=ins,sg
--
-темница=S,f,inan=ins,sg
-.\n\n
-коль=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-не=PART=
-_
-мелькать=V,ipf,intr=inpraes,sg,indic,3p
-\n
-безотрадный=A=sg,brev,n
-_
-и=CONJ=
-_
-чадно=ADV=
-,\n
-так=ADVPRO=
-,_
-давить=V,ipf,tran=inpraes,ger
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-,_
-смыкать=V,tran=inpraes,sg,indic,3p,ipf
-,\n
-и=CONJ=
-_
-уходить=V,intr=inpraes,sg,indic,2p,ipf
-_
-так=ADVPRO=
-_
-жадно=ADV=
-\n\n
-в=PR=
-_
-лиловатость?=S,f,inan=(acc,sg|nom,sg)
-_
-отсвет=S,m,inan=gen,pl
-\n
-с=PR=
-_
-высь=S,f,inan=gen,pl
-_
-бледно=ADV=
--
-безбрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-на=PR=
-_
-два=NUM=(nom,f|acc,f,inan)
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-букет=S,m,inan=gen,pl
-\n
-возле=PR=
-_
-плита=S,f,inan=gen,pl
-_
-белоснежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-так=ADVPRO=
-,_
-уставать=V,intr=praet,ger,pf
-_
-от=PR=
-_
-узор=S,m,inan=gen,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-мечта=S,f,inan=ins,sg
-_
-замирать=V,intr=inpraes,sg,indic,1p,ipf
-\n
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-глянец=S,m,inan=abl,sg
-_
-фарфор=S,m,inan=gen,sg
-\n
-с=PR=
-_
-ободочек?=S,m,inan=ins,sg
-_
-по=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-.\n
+{камень=S,m,inan=(acc,pl|nom,pl)} {млеть=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {истома=S,f,inan=(abl,sg|dat,sg)},
+{человек=S,m,anim=nom,pl} {заливать=V,tran=praet,pl,partcp,brev,pf,pass} {свет=S,sg,m,inan=ins},
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {ли=PART=} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {лето=S,sg,n,inan=ins}
+{вид=S,m,inan=(acc,sg|nom,sg)} {постынуть=V,pf,intr=praet,sg,indic,n}-{знакомый=A=comp}?
+
+{в=PR=} {трафарет=S,m,inan=abl,sg} {готовый=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{он=SPRO,sg,3p,m=nom} — {узор=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {посуда=S,f,inan=(abl,sg|dat,sg)}...
+{и=CONJ=} {не=PART=} {все=ADV=} {ли=PART=} {равный=A=sg,brev,n} {вы=SPRO,pl,2p=dat}:
+{камень=S,m,inan=(acc,pl|nom,pl)} {там=ADVPRO=} {или=CONJ=} {человек=S,m,anim=nom,pl}?
+
+{сбивать=V,tran=praet,sg,partcp,brev,f,pf,pass} {в=PR=} {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {камень=S,m,inan=(acc,pl|nom,pl)}
+{нищета=S,sg,f,inan=ins} {бледнолицый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{этот=APRO=nom,sg,f} {одурь=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,f,ipf} {я=SPRO,sg,1p=(abl|dat)}
+{колыбель=S,f,inan=ins,sg}-{темница=S,f,inan=ins,sg}.
+
+{коль=CONJ=} {она=SPRO,sg,3p,f=nom} {не=PART=} {мелькать=V,ipf,intr=inpraes,sg,indic,3p}
+{безотрадный=A=sg,brev,n} {и=CONJ=} {чадно=ADV=},
+{так=ADVPRO=}, {давить=V,ipf,tran=inpraes,ger} {вы=SPRO,pl,2p=(abl|acc|gen)}, {смыкать=V,tran=inpraes,sg,indic,3p,ipf},
+{и=CONJ=} {уходить=V,intr=inpraes,sg,indic,2p,ipf} {так=ADVPRO=} {жадно=ADV=}
+
+{в=PR=} {лиловатость?=S,f,inan=(acc,sg|nom,sg)} {отсвет=S,m,inan=gen,pl}
+{с=PR=} {высь=S,f,inan=gen,pl} {бледно=ADV=}-{безбрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{на=PR=} {два=NUM=(nom,f|acc,f,inan)} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {букет=S,m,inan=gen,pl}
+{возле=PR=} {плита=S,f,inan=gen,pl} {белоснежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{так=ADVPRO=}, {уставать=V,intr=praet,ger,pf} {от=PR=} {узор=S,m,inan=gen,sg},
+{я=SPRO,sg,1p=nom} {мечта=S,f,inan=ins,sg} {замирать=V,intr=inpraes,sg,indic,1p,ipf}
+{в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {глянец=S,m,inan=abl,sg} {фарфор=S,m,inan=gen,sg}
+{с=PR=} {ободочек?=S,m,inan=ins,sg} {по=PR=} {край=S,m,inan=(dat,sg|loc,sg)}.

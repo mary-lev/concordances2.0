@@ -1,74 +1,9 @@
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-широкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-шуметь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)
-\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-гребень=S,m,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-странно=ADV=
-_
-и=CONJ=
-_
-сладко=ADV=
-_
-жить=V,ipf,intr=inf
-_
-настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-предчувствие=S,n,inan=ins,sg
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-полный=A=pl,brev
-.\n\n
-радоваться=V,ipf,intr=pl,imper,2p
-,_
-брат=S,m,anim=nom,pl
-,_
-верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-победа=S,f,inan=dat,pl
-!\n
-смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-на=PR=
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-мы=SPRO,pl,1p=dat
-_
-чуждый=A=sg,brev,n
-_
-сомнение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-мы=SPRO,pl,1p=dat
-_
-трепет=S,m,inan=(acc,sg|nom,sg)
-_
-неведомый=A=sg,brev,m
-,_\u2014\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-гребень=S,m,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{в=PR=} {мир=S,m,inan=abl,sg} {широкий=A=(abl,sg,plen,m|abl,sg,plen,n)}, {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {шуметь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)}
+{мы=SPRO,pl,1p=nom} — {гребень=S,m,inan=(acc,sg|nom,sg)} {вставать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{странно=ADV=} {и=CONJ=} {сладко=ADV=} {жить=V,ipf,intr=inf} {настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{предчувствие=S,n,inan=ins,sg} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {полный=A=pl,brev}.
+
+{радоваться=V,ipf,intr=pl,imper,2p}, {брат=S,m,anim=nom,pl}, {верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {победа=S,f,inan=dat,pl}!
+{смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {на=PR=} {даль=S,f,inan=(acc,sg|nom,sg)} {с=PR=} {вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{мы=SPRO,pl,1p=dat} {чуждый=A=sg,brev,n} {сомнение=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {мы=SPRO,pl,1p=dat} {трепет=S,m,inan=(acc,sg|nom,sg)} {неведомый=A=sg,brev,m}, —
+{мы=SPRO,pl,1p=nom} — {гребень=S,m,inan=(acc,sg|nom,sg)} {вставать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

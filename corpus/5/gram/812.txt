@@ -1,76 +1,9 @@
-могила=S,f,inan=acc,sg
-_
-они=SPRO,pl=(acc|gen)
-_
-украшать=V=praet,pl,indic,pf
-_
-венок=S,m,inan=ins,pl
-.\n
-вокруг=ADV=
-_
-без=PR=
-_
-шапка=S,f,inan=gen,pl
-_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-тоска=S,f,inan=(abl,sg|dat,sg)
-_
-стоять=V,ipf,intr=praet,pl,indic
-.\n
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-снег=S,m,inan=gen,pl
-,_
-крутиться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-,\n
-в=PR=
-_
-седой=A=acc,sg,plen,f
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-вихорь=S,m,inan=(acc,pl|nom,pl)
-_
-прогонять=V,ipf,tran=praet,pl,indic
-.\n\n
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взмах=S,m,inan=(acc,sg|nom,sg)
-_
-бряцать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)
-_
-кадило=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_
-туманно=ADV=
--
-снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-вершина=S,f,inan=acc,sg
-_
-ель=S,f,inan=(acc,sg|nom,sg)
-_
-мечтательный=A=sg,brev,n
-_
-склонять=V,tran=praet,sg,indic,f,pf
-\n
-в=PR=
-_
-просвет=S,m,inan=abl,sg
-_
-ослепительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{могила=S,f,inan=acc,sg} {они=SPRO,pl=(acc|gen)} {украшать=V=praet,pl,indic,pf} {венок=S,m,inan=ins,pl}.
+{вокруг=ADV=} {без=PR=} {шапка=S,f,inan=gen,pl} {мы=SPRO,pl,1p=nom} {в=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)} {стоять=V,ipf,intr=praet,pl,indic}.
+{восторг=S,m,inan=(acc,sg|nom,sg)} {снег=S,m,inan=gen,pl}, {крутиться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {над=PR=} {мы=SPRO,pl,1p=ins},
+{в=PR=} {седой=A=acc,sg,plen,f} {вечность=S,f,inan=(acc,sg|nom,sg)} {вихорь=S,m,inan=(acc,pl|nom,pl)} {прогонять=V,ipf,tran=praet,pl,indic}.
+
+{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взмах=S,m,inan=(acc,sg|nom,sg)} {бряцать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} {кадило=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вздох=S,m,inan=(acc,sg|nom,sg)} {туманно=ADV=}-{снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{вершина=S,f,inan=acc,sg} {ель=S,f,inan=(acc,sg|nom,sg)} {мечтательный=A=sg,brev,n} {склонять=V,tran=praet,sg,indic,f,pf}
+{в=PR=} {просвет=S,m,inan=abl,sg} {ослепительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

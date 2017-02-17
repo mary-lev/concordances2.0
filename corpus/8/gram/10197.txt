@@ -1,130 +1,24 @@
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-приближаться=V,intr=inpraes,pl,indic,3p,ipf
-\n\t
-к=PR=
-_
-твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-губа=S,f,inan=dat,pl
-,\n
-таинство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-снова=ADV=
-_
-свершаться=V,intr=inpraes,pl,indic,3p,ipf
-,\n\t
-и=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-как=CONJ=
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-мы=SPRO,pl,1p=nom
-,_
-как=ADVPRO=
-_
-священнослужитель=S,m,anim=nom,pl
-,\n\t
-творить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-обряд=S,m,inan=(acc,sg|nom,sg)
-.\n
-строго=ADV=
-_
-в=PR=
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-обитель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n\t
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-звучать=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-ангел=S,m,anim=nom,pl
-,_
-ниц=ADV=
-_
-преклонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,\n\t
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-тропарь=S,m,inan=(acc,sg|nom,sg)
-.\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-лампада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-зажигать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,\n\t
-и=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-алтарь=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-что=CONJ=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-влечь=V,ipf,tran=inpraes,sg,indic,3p
-_
-с=PR=
-_
-неизбежность=S,f,inan=ins,sg
-,\n\t
-как=ADVPRO=
-_
-сталь=S,f,inan=(acc,sg|nom,sg)
-_
-магнит=S,m,inan=(acc,sg|nom,sg)
-?\n
-дышать=V,ipf,intr=inpraes,pl,indic,1p
-_
-мы=SPRO,pl,1p=nom
-_
-страсть=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-нежность=S,f,inan=ins,sg
-,\n\t
-но=CONJ=
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-закрывать=V=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-водоворот=S,m,inan=ins,sg
-_
-мы=SPRO,pl,1p=nom
-_
-схватывать=V,tran=praet,pl,partcp,brev,pf,pass
-\n\t
-последний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ласка=S,f,inan=gen,pl
-.\n
-вот=PART=
-_
-он=SPRO,sg,3p,m=nom
-,_
-от=PR=
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n\t
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-дамаск=S,geo,m,inan=(acc,sg|nom,sg)
-!\n
+{губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {приближаться=V,intr=inpraes,pl,indic,3p,ipf}
+	{к=PR=} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {губа=S,f,inan=dat,pl},
+{таинство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {снова=ADV=} {свершаться=V,intr=inpraes,pl,indic,3p,ipf},
+	{и=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {как=CONJ=} {храм=S,m,inan=(acc,sg|nom,sg)}.
+
+{мы=SPRO,pl,1p=nom}, {как=ADVPRO=} {священнослужитель=S,m,anim=nom,pl},
+	{творить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {обряд=S,m,inan=(acc,sg|nom,sg)}.
+{строго=ADV=} {в=PR=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {обитель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+	{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {звучать=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{ангел=S,m,anim=nom,pl}, {ниц=ADV=} {преклонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
+	{петь=V,ipf,tran=inpraes,pl,indic,3p} {тропарь=S,m,inan=(acc,sg|nom,sg)}.
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {лампада=S,f,inan=(acc,pl|gen,sg|nom,pl)} {зажигать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
+	{и=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} — {алтарь=S,m,inan=(acc,sg|nom,sg)}.
+
+{что=CONJ=} {мы=SPRO,pl,1p=(abl|acc|gen)} {влечь=V,ipf,tran=inpraes,sg,indic,3p} {с=PR=} {неизбежность=S,f,inan=ins,sg},
+	{как=ADVPRO=} {сталь=S,f,inan=(acc,sg|nom,sg)} {магнит=S,m,inan=(acc,sg|nom,sg)}?
+{дышать=V,ipf,intr=inpraes,pl,indic,1p} {мы=SPRO,pl,1p=nom} {страсть=S,f,inan=ins,sg} {и=CONJ=} {нежность=S,f,inan=ins,sg},
+	{но=CONJ=} {взор=S,m,inan=(acc,sg|nom,sg)} {закрывать=V=praet,sg,partcp,brev,m,pf,pass}.
+
+{водоворот=S,m,inan=ins,sg} {мы=SPRO,pl,1p=nom} {схватывать=V,tran=praet,pl,partcp,brev,pf,pass}
+	{последний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ласка=S,f,inan=gen,pl}.
+{вот=PART=} {он=SPRO,sg,3p,m=nom}, {от=PR=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} {назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+	{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {дамаск=S,geo,m,inan=(acc,sg|nom,sg)}!

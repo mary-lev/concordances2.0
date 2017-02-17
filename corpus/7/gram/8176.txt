@@ -1,186 +1,24 @@
-недоспелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-сжато=ADV=
-;\n
-и=CONJ=
-_
-холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-тихий=A=sg,brev,m
-...\n
-не=PART=
-_
-теперь=ADV=
-..._
-давно=ADV=
-_
-когда-то=ADVPRO=
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-загадывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-не=PART=
-_
-отгадывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,_
-только=PART=
-_
-проживать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-даже=PART=
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-не=PART=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,\n
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-,_
-но=CONJ=
-_
-уж=PART=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-\n
-одолевать=V,tran=inf,pf
-_
-дремота=S,f,inan=acc,sg
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-кто=SPRO,sg,m,anim=nom
-_
-он=SPRO,sg,3p,m=nom
-,_
-чей=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-он=SPRO,sg,3p,m=nom
-,\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-только=PART=
-,_
-что=CONJ=
-_
-не=PART=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_\u2014\n
-ночь=S,f,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-он=SPRO,sg,3p,m=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-навевать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-солнце=S,n,inan=ins,sg
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-взять=V,pf,tran=praet,sg,partcp,brev,m,pass
-_
-домой=ADV=
-.\n\n
-пусть=PART=
-_
-подразнить=V,pf,tran=inpraes,sg,indic,3p
-_\u2014_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-больно=ADV=
-:\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-,_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-забытье=S,sg,n,inan=abl
-...\n
-мука=S,f,inan=gen,pl
-_
-с=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-и=CONJ=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-довольно=ADV=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-,_
-наверно=ADV,parenth=
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_\u2014_
-мой=APRO=(nom,pl|acc,pl,inan)
-...\n\n
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-он=SPRO,sg,3p,m=nom
-_
-уж=PART=
-_
-таять=V,ipf,intr=inpraes,sg,indic,3p
-,_
-кануть=V,pf,intr=praet,ger
-\n
-из=PR=
-_
-серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луч=S,m,inan=gen,pl
-\n
-в=PR=
-_
-зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-млечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-туманов=S,famn,m,anim=nom,sg
-...\n
-не=PART=
-_
-тосковать=V,ipf,intr=sg,imper,2p
-:_
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_\u2014_
-ничей=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{недоспелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сжато=ADV=};
+{и=CONJ=} {холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сумрак=S,m,inan=(acc,sg|nom,sg)} {тихий=A=sg,brev,m}...
+{не=PART=} {теперь=ADV=}... {давно=ADV=} {когда-то=ADVPRO=}
+{быть=V,intr=praet,sg,indic,m,ipf} {загадывать=V,tran=praet,sg,partcp,brev,m,pf,pass} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {стих=S,m,inan=(acc,sg|nom,sg)}...
+
+{не=PART=} {отгадывать=V,tran=praet,sg,partcp,brev,m,pf,pass}, {только=PART=} {проживать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{даже=PART=}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {не=PART=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+{хотеть=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}, {но=CONJ=} {уж=PART=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p}
+{одолевать=V,tran=inf,pf} {дремота=S,f,inan=acc,sg} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {кто=SPRO,sg,m,anim=nom} {он=SPRO,sg,3p,m=nom}, {чей=APRO=(acc,sg,m,inan|nom,sg,m)} {он=SPRO,sg,3p,m=nom},
+{знать=V,ipf,tran=inpraes,sg,indic,1p} {только=PART=}, {что=CONJ=} {не=PART=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, —
+{ночь=S,f,inan=ins,sg} {быть=V,intr=praet,sg,indic,m,ipf} {он=SPRO,sg,3p,m=nom} {я=SPRO,sg,1p=(abl|dat)} {навевать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{солнце=S,n,inan=ins,sg} {быть=V,intr=inpraes,sg,indic,3p} {взять=V,pf,tran=praet,sg,partcp,brev,m,pass} {домой=ADV=}.
+
+{пусть=PART=} {подразнить=V,pf,tran=inpraes,sg,indic,3p} — {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {больно=ADV=}:
+{я=SPRO,sg,1p=nom} {не=PART=} {с=PR=} {он=SPRO,sg,3p,m=ins}, {я=SPRO,sg,1p=nom} {в=PR=} {забытье=S,sg,n,inan=abl}...
+{мука=S,f,inan=gen,pl} {с=PR=} {я=SPRO,sg,1p=(acc|gen)} {и=CONJ=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {довольно=ADV=},
+{что=SPRO,sg,n,inan=(acc|nom)}, {наверно=ADV,parenth=}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} — {мой=APRO=(nom,pl|acc,pl,inan)}...
+
+{видеть=V,ipf,tran=inpraes,sg,indic,2p} — {он=SPRO,sg,3p,m=nom} {уж=PART=} {таять=V,ipf,intr=inpraes,sg,indic,3p}, {кануть=V,pf,intr=praet,ger}
+{из=PR=} {серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луч=S,m,inan=gen,pl}
+{в=PR=} {зыбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {млечный=A=(acc,pl,plen,inan|nom,pl,plen)} {туманов=S,famn,m,anim=nom,sg}...
+{не=PART=} {тосковать=V,ipf,intr=sg,imper,2p}: {он=SPRO,sg,3p,m=nom} {быть=V,intr=praet,sg,indic,m,ipf} — {ничей=APRO=(acc,sg,m,inan|nom,sg,m)}.

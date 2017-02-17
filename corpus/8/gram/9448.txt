@@ -1,132 +1,20 @@
-бросать=V=praet,sg,partcp,brev,m,pf,pass
-_
-веялка=S,f,inan=ins,sg
-_
-на=PR=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-,\n
-жернов=S,m,inan=ins,pl
-_
-тяжко=ADV=
-_
-смалывать=V=praet,sg,partcp,brev,m,pf,pass
-,\n\t
-мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-колос=S,m,inan=(acc,sg|nom,sg)
-_
-возрождать=V=praet,sg,partcp,brev,m,pf,pass,tran
-.\n
-но=CONJ=
-_
-оставаться=V,intr=praet,sg,indic,m,pf
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-_
-зыбучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-он=SPRO,sg,3p,m=nom
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-_
-бескрылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-туча=S,f,inan=ins,sg
-,\n\t
-заслонять=V,tran=inpraes,ger,ipf
-_
-небосклон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-стучать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-стучать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-не=PART=
-_
-становиться=V,intr=inpraes,pl,indic,3p,pf
-,\n
-словно=CONJ=
-_
-стихать=V,intr=praet,ger,pf
-,_
-лишь=PART=
-_
-обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-,\n\t
-не=PART=
-_
-уставать=V,intr=inpraes,pl,indic,3p,pf
-_
-жернов=S,m,inan=(acc,pl|gen,sg|nom,pl)
-;\n
-неизменно=ADV=
-_
-молоть=V,ipf,tran=inpraes,pl,indic,3p
-,_
-молоть=V,ipf,tran=inpraes,pl,indic,3p
-\n
-и=CONJ=
-_
-струя=S,f,inan=acc,sg
-_
-слой=S,m,inan=ins,pl
-_
-стлать=V,ipf=inpraes,pl,indic,3p,tran
-,\n\t
-и=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-опять=ADV=
-_
-живой=A=sg,brev,f
-.\n\n
-а=CONJ=
-_
-вдали=ADV=
-,_
-под=PR=
-_
-свет=S,sg,m,inan=ins
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-отделять=V,tran=inpraes,pl,indic,3p,ipf
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-выходить=V,intr=praet,pl,indic,pf
-_
-веять=V,ipf,tran=inf
-_
-на=PR=
-_
-гумно=S,n,inan=(acc,sg|nom,sg)
-.\n
-пусть=PART=
-_
-познавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-обновление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-в=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вкушать=V=inpraes,sg,indic,3p,pf
-_
-возрождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n\t
-только=PART=
-_
-полный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-зерно=S,n,inan=(acc,sg|nom,sg)
-!\n
+{бросать=V=praet,sg,partcp,brev,m,pf,pass} {веялка=S,f,inan=ins,sg} {на=PR=} {холод=S,m,inan=(acc,sg|nom,sg)},
+{жернов=S,m,inan=ins,pl} {тяжко=ADV=} {смалывать=V=praet,sg,partcp,brev,m,pf,pass},
+	{мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {колос=S,m,inan=(acc,sg|nom,sg)} {возрождать=V=praet,sg,partcp,brev,m,pf,pass,tran}.
+{но=CONJ=} {оставаться=V,intr=praet,sg,indic,m,pf} {прах=S,m,inan=(acc,sg|nom,sg)} {зыбучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{он=SPRO,sg,3p,m=nom} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {бескрылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {туча=S,f,inan=ins,sg},
+	{заслонять=V,tran=inpraes,ger,ipf} {небосклон=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {стучать=V,ipf,intr=inpraes,pl,indic,3p}, {стучать=V,ipf,intr=inpraes,pl,indic,3p}, {не=PART=} {становиться=V,intr=inpraes,pl,indic,3p,pf},
+{словно=CONJ=} {стихать=V,intr=praet,ger,pf}, {лишь=PART=} {обманывать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)},
+	{не=PART=} {уставать=V,intr=inpraes,pl,indic,3p,pf} {жернов=S,m,inan=(acc,pl|gen,sg|nom,pl)};
+{неизменно=ADV=} {молоть=V,ipf,tran=inpraes,pl,indic,3p}, {молоть=V,ipf,tran=inpraes,pl,indic,3p}
+{и=CONJ=} {струя=S,f,inan=acc,sg} {слой=S,m,inan=ins,pl} {стлать=V,ipf=inpraes,pl,indic,3p,tran},
+	{и=CONJ=} {она=SPRO,sg,3p,f=nom} {опять=ADV=} {живой=A=sg,brev,f}.
+
+{а=CONJ=} {вдали=ADV=}, {под=PR=} {свет=S,sg,m,inan=ins} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{отделять=V,tran=inpraes,pl,indic,3p,ipf} {прах=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+	{выходить=V,intr=praet,pl,indic,pf} {веять=V,ipf,tran=inf} {на=PR=} {гумно=S,n,inan=(acc,sg|nom,sg)}.
+{пусть=PART=} {познавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {обновление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{в=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вкушать=V=inpraes,sg,indic,3p,pf} {возрождение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+	{только=PART=} {полный=A=(acc,sg,plen,n|nom,sg,plen,n)} {зерно=S,n,inan=(acc,sg|nom,sg)}!

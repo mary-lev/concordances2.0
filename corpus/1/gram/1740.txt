@@ -1,104 +1,14 @@
-золотокудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ангел=S,m,anim=nom,sg
-_
-день=S,m,inan=gen,sg
-\n
-в=PR=
-_
-ночной=A=acc,sg,plen,f
-_
-фея=S,f,anim=acc,sg
-_
-обращаться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-но=CONJ=
-_
-и=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-уходить=V,intr=inpraes,sg,indic,3p,pf
-,_
-звенеть=V,ipf,intr=inpraes,ger
-,\n
-как=CONJ=
-_
-мимолетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-присниться=V,pf,intr=inpraes,sg,indic,3p
-.\n\n
-предел=S,m,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-синий=A=nom,sg,plen,f
-_
-лазурь=S,f,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-лоно=S,n,inan=(acc,sg|nom,sg)
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-земной=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-тишина=S,sg,f,inan=nom
-_\u2014_
-предвестие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-буря=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-вестница=S,f,anim=(gen,sg|nom,pl)
-_
-покой=S,m,inan=gen,sg
-.\n\n
-пока=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-живой=A=sg,brev,m
-,_\u2014_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-закон=S,m,inan=(acc,sg|nom,sg)
-\n
-младенец=S,m,anim=dat,sg
-,_
-мудрец=S,m,anim=dat,sg
-_
-и=CONJ=
-_
-дева=S,f,anim=(abl,sg|dat,sg)
-.\n
-зачем=ADVPRO=
-_
-же=PART=
-,_
-смертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-ты=SPRO,sg,2p=nom
-_
-смущать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-преступный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сон=S,m,inan=ins,sg
-_
-о=PR=
-_
-божий=A,plen=(abl,sg,m|abl,sg,n)
-_
-гнев=S,m,inan=abl,sg
-?\n
+{золотокудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ангел=S,m,anim=nom,sg} {день=S,m,inan=gen,sg}
+{в=PR=} {ночной=A=acc,sg,plen,f} {фея=S,f,anim=acc,sg} {обращаться=V,intr=inpraes,sg,indic,3p,pf},
+{но=CONJ=} {и=CONJ=} {она=SPRO,sg,3p,f=nom} {уходить=V,intr=inpraes,sg,indic,3p,pf}, {звенеть=V,ipf,intr=inpraes,ger},
+{как=CONJ=} {мимолетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {присниться=V,pf,intr=inpraes,sg,indic,3p}.
+
+{предел=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} — {синий=A=nom,sg,plen,f} {лазурь=S,f,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {лоно=S,n,inan=(acc,sg|nom,sg)} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {земной=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {тишина=S,sg,f,inan=nom} — {предвестие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {буря=S,f,inan=gen,pl},
+{и=CONJ=} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {вестница=S,f,anim=(gen,sg|nom,pl)} {покой=S,m,inan=gen,sg}.
+
+{пока=CONJ=} {ты=SPRO,sg,2p=nom} {живой=A=sg,brev,m}, — {один=APRO=(acc,sg,m,inan|nom,sg,m)} {закон=S,m,inan=(acc,sg|nom,sg)}
+{младенец=S,m,anim=dat,sg}, {мудрец=S,m,anim=dat,sg} {и=CONJ=} {дева=S,f,anim=(abl,sg|dat,sg)}.
+{зачем=ADVPRO=} {же=PART=}, {смертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ты=SPRO,sg,2p=nom} {смущать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{преступный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg} {о=PR=} {божий=A,plen=(abl,sg,m|abl,sg,n)} {гнев=S,m,inan=abl,sg}?

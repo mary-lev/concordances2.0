@@ -1,42 +1,4 @@
-друг=S,m,anim=nom,sg
-_
-ариост?=S,m,inan=gen,sg
-,_
-друг=S,m,anim=nom,sg
-_
-петрарка=S,famn,m,anim=(gen,sg|nom,pl)
-,_
-тасс?=S,sg,m,inan=gen
-_
-друг=S,m,anim=nom,sg
-_\u2014_\n
-язык=S,m,inan=(acc,sg|nom,sg)
-_
-бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-язык=S,m,inan=(acc,sg|nom,sg)
-_
-солить=V,ipf,tran=praet,sg,partcp,brev,n,pass
--
-сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-и=CONJ=
-_
-звук=S,m,inan=gen,pl
-_
-стакнуть?=V,inform,obsc,pf=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)
-_
-прелестный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-двойчатка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-бояться=V,ipf,intr=inpraes,sg,indic,1p
-_
-раскрывать=V=inf,pf
-_
-нож=S,m,inan=ins,sg
-_
-двустворчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жемчуг=S,m,inan=(acc,sg|nom,sg)
-.\n
+{друг=S,m,anim=nom,sg} {ариост?=S,m,inan=gen,sg}, {друг=S,m,anim=nom,sg} {петрарка=S,famn,m,anim=(gen,sg|nom,pl)}, {тасс?=S,sg,m,inan=gen} {друг=S,m,anim=nom,sg} — 
+{язык=S,m,inan=(acc,sg|nom,sg)} {бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {язык=S,m,inan=(acc,sg|nom,sg)} {солить=V,ipf,tran=praet,sg,partcp,brev,n,pass}-{сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{и=CONJ=} {звук=S,m,inan=gen,pl} {стакнуть?=V,inform,obsc,pf=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} {прелестный=A=(acc,pl,plen,inan|nom,pl,plen)} {двойчатка=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{бояться=V,ipf,intr=inpraes,sg,indic,1p} {раскрывать=V=inf,pf} {нож=S,m,inan=ins,sg} {двустворчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жемчуг=S,m,inan=(acc,sg|nom,sg)}.

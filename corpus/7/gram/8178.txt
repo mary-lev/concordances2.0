@@ -1,138 +1,19 @@
-о=PR=
-,_
-тусклость=S,f,inan=(acc,sg|nom,sg)
-_
-мертвый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-закат=S,m,inan=gen,sg
-,\n
-неслышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-маета=S,sg,f,inan=nom
-,\n
-роса=S,f,inan=nom,sg
-_
-цветок=S,m,inan=gen,pl
-_
-без=PR=
-_
-аромат=S,m,inan=gen,sg
-,\n
-ночь=S,f,inan=gen,pl
-_
-бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-духота=S,sg,f,inan=nom
-.\n\n
-что=SPRO,sg,n,inan=gen
--
-что=SPRO,sg,n,inan=gen
-,_
-канун=S,m,inan=(acc,sg|nom,sg)
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-от=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-надменно=ADV=
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-брать=V,ipf,tran=praet,sg,indic,m
-,\n
-томить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-горячка=S,f,inan=ins,sg
-_
-ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-какой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-я=SPRO,sg,1p=nom
-_
-благо=S,n,inan=gen,pl
-_
-не=PART=
-_
-презирать=V,tran=praet,sg,indic,m,ipf
-?\n\n
-и=CONJ=
-,_
-изменять=V,tran=inpraes,ger,ipf
-_
-равнодушно=ADV=
-\n
-искусство=S,n,inan=dat,sg
-,_
-долг=S,m,inan=(dat,sg|part,sg|loc,sg)
-,_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-себя=SPRO=(abl|dat)
-,\n
-какой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-уступка=S,f,inan=gen,pl
-,_
-малодушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-не=PART=
-_
-делать=V,ipf,tran=praet,sg,indic,m
-,_
-завтра=ADV=
-,_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-?\n\n
-а=CONJ=
-_
-для=PR=
-_
-что=SPRO,sg,n,inan=gen
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-с=PR=
-_
-проклятие=S,n,inan=ins,sg
-_
-медленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-часы=S,pl,inan=gen
-?..\n
-иль=CONJ=
-_
-в=PR=
-_
-миг=S,m,inan=abl,sg
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-_
-разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-иль=CONJ=
-_
-фальшь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=PART=
-_
-в=PR=
-_
-эмфаза=S,f,inan=(abl,sg|dat,sg)
-_
-слово=S,n,inan=gen,pl
-?\n
+{о=PR=}, {тусклость=S,f,inan=(acc,sg|nom,sg)} {мертвый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {закат=S,m,inan=gen,sg},
+{неслышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {маета=S,sg,f,inan=nom},
+{роса=S,f,inan=nom,sg} {цветок=S,m,inan=gen,pl} {без=PR=} {аромат=S,m,inan=gen,sg},
+{ночь=S,f,inan=gen,pl} {бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {духота=S,sg,f,inan=nom}.
+
+{что=SPRO,sg,n,inan=gen}-{что=SPRO,sg,n,inan=gen}, {канун=S,m,inan=(acc,sg|nom,sg)} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{от=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {надменно=ADV=} {ты=SPRO,sg,2p=nom} {не=PART=} {брать=V,ipf,tran=praet,sg,indic,m},
+{томить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {горячка=S,f,inan=ins,sg} {ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{какой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {я=SPRO,sg,1p=nom} {благо=S,n,inan=gen,pl} {не=PART=} {презирать=V,tran=praet,sg,indic,m,ipf}?
+
+{и=CONJ=}, {изменять=V,tran=inpraes,ger,ipf} {равнодушно=ADV=}
+{искусство=S,n,inan=dat,sg}, {долг=S,m,inan=(dat,sg|part,sg|loc,sg)}, {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {себя=SPRO=(abl|dat)},
+{какой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {уступка=S,f,inan=gen,pl}, {малодушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{не=PART=} {делать=V,ipf,tran=praet,sg,indic,m}, {завтра=ADV=}, {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)}?
+
+{а=CONJ=} {для=PR=} {что=SPRO,sg,n,inan=gen} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {этот=APRO=(nom,pl|acc,pl,inan)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{с=PR=} {проклятие=S,n,inan=ins,sg} {медленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {часы=S,pl,inan=gen}?..
+{иль=CONJ=} {в=PR=} {миг=S,m,inan=abl,sg} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{иль=CONJ=} {фальшь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=PART=} {в=PR=} {эмфаза=S,f,inan=(abl,sg|dat,sg)} {слово=S,n,inan=gen,pl}?

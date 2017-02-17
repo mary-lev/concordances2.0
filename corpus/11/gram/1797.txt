@@ -1,134 +1,19 @@
-край=S,m,inan=(acc,sg|nom,sg)
-_
-любимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_
-сердце=S,n,inan=dat,sg
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-\n
-скирда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-вода=S,f,inan=abl,pl
-_
-лонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n
-я=SPRO,sg,1p=nom
-_
-хотеть=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-затериваться=V,intr=inf,pf
-\n
-в=PR=
-_
-зелень=S,f,inan=abl,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-стозвонный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-по=PR=
-_
-межа=S,f,inan=(abl,sg|dat,sg)
-_
-на=PR=
-_
-переметка=S,f,inan=(abl,sg|dat,sg)
-\n
-резеда=S,sg,f,inan=nom
-_
-и=CONJ=
-_
-риза=S,f,inan=nom,sg
-_
-кашка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-вызванивать=V,tran=inpraes,pl,indic,3p,ipf
-_
-в=PR=
-_
-четки=S,pl,inan=(acc|nom)
-\n
-ива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-кроткий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-монашка=S,f,anim=(gen,sg|nom,pl)
-.\n\n
-курить=V,ipf,tran=inpraes,sg,indic,3p
-_
-облако=S,n,inan=ins,sg
-_
-болото=S,n,inan=(acc,sg|nom,sg)
-,\n
-гарь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-небесный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-коромысло=S,n,inan=abl,sg
-.\n
-с=PR=
-_
-тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тайна=S,f,inan=ins,sg
-_
-для=PR=
-_
-кто-то=SPRO,sg,m,anim=(acc|gen)
-\n
-затаивать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-встречать=V,tran=inpraes,sg,indic,1p,ipf
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-приемлить=V,ipf=inpraes,sg,indic,1p
-,\n
-рад=A,brev=sg,m
-_
-и=CONJ=
-_
-счастливый=A=sg,brev,m
-_
-душа=S,f,inan=acc,sg
-_
-вынимать=V,tran=inf,pf
-.\n
-я=SPRO,sg,1p=nom
-_
-приходить=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-этот=APRO=acc,sg,f
-_
-земля=S,f,inan=acc,sg
-,\n
-чтоб=CONJ=
-_
-скоро=ADV=comp
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-покидать=V,tran=inf,pf
-.\n
+{край=S,m,inan=(acc,sg|nom,sg)} {любимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! {сердце=S,n,inan=dat,sg} {сниться=V,ipf,intr=inpraes,pl,indic,3p}
+{скирда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {вода=S,f,inan=abl,pl} {лонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+{я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {затериваться=V,intr=inf,pf}
+{в=PR=} {зелень=S,f,inan=abl,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стозвонный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{по=PR=} {межа=S,f,inan=(abl,sg|dat,sg)} {на=PR=} {переметка=S,f,inan=(abl,sg|dat,sg)}
+{резеда=S,sg,f,inan=nom} {и=CONJ=} {риза=S,f,inan=nom,sg} {кашка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {вызванивать=V,tran=inpraes,pl,indic,3p,ipf} {в=PR=} {четки=S,pl,inan=(acc|nom)}
+{ива=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {кроткий=A=(acc,pl,plen,inan|nom,pl,plen)} {монашка=S,f,anim=(gen,sg|nom,pl)}.
+
+{курить=V,ipf,tran=inpraes,sg,indic,3p} {облако=S,n,inan=ins,sg} {болото=S,n,inan=(acc,sg|nom,sg)},
+{гарь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {небесный=A=(abl,sg,plen,m|abl,sg,plen,n)} {коромысло=S,n,inan=abl,sg}.
+{с=PR=} {тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тайна=S,f,inan=ins,sg} {для=PR=} {кто-то=SPRO,sg,m,anim=(acc|gen)}
+{затаивать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{все=SPRO,pl=(acc|nom)} {встречать=V,tran=inpraes,sg,indic,1p,ipf}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {приемлить=V,ipf=inpraes,sg,indic,1p},
+{рад=A,brev=sg,m} {и=CONJ=} {счастливый=A=sg,brev,m} {душа=S,f,inan=acc,sg} {вынимать=V,tran=inf,pf}.
+{я=SPRO,sg,1p=nom} {приходить=V,intr=praet,sg,indic,m,pf} {на=PR=} {этот=APRO=acc,sg,f} {земля=S,f,inan=acc,sg},
+{чтоб=CONJ=} {скоро=ADV=comp} {она=SPRO,sg,3p,f=(acc|gen)} {покидать=V,tran=inf,pf}.

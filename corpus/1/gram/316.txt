@@ -1,154 +1,19 @@
-оставлять=V,tran=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-неизменный=A=sg,brev,m
-._
-я=SPRO,sg,1p=nom
-_
-невинный=A=sg,brev,m
-.\n
-но=CONJ=
-_
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-пустынный=A=sg,brev,m
-,\n
-а=CONJ=
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-корабль=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-пора=S,f,inan=ins,sg
-_
-близкий=A=sg,brev,m
-_
-парус=S,m,inan=(acc,sg|nom,sg)
-_
-встречный=S,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-зажигаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-мечта=S,f,inan=nom,sg
-;\n
-и=CONJ=
-_
-вот=PART=
-_-_
-над=PR=
-_
-ширь=S,f,inan=ins,sg
-_
-бесконечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-душа=S,f,inan=nom,sg
-_
-чудесный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-занятый=A=sg,brev,f
-.\n\n
-но=CONJ=
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-пустынный=A=sg,brev,f
-_
-и=CONJ=
-_
-спокойный=A=sg,brev,f
-_-\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-все=ADV=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_-_
-у=PR=
-_
-руль=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-,_
-все=SPRO,pl=(acc|nom)
-_
-так=ADVPRO=
-_
-же=PART=
-_
-стройно=ADV=
-,\n
-мечта=S,f,inan=acc,sg
-_
-родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-корабль=S,m,inan=gen,sg
-.\n\n
-оставлять=V,tran=sg,imper,2p,pf
-_
-же=PART=
-_
-парус=S,m,inan=(acc,sg|nom,sg)
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_
-а=CONJ=
-_
-не=PART=
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-:\n
-еще=ADV=
-_
-не=PART=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-в=PR=
-_
-тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-плакать=V,ipf,intr=inf
-_
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-.\n
+{оставлять=V,tran=sg,imper,2p,pf} {я=SPRO,sg,1p=(acc|gen)} {в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=nom} {неизменный=A=sg,brev,m}. {я=SPRO,sg,1p=nom} {невинный=A=sg,brev,m}.
+{но=CONJ=} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {берег=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {пустынный=A=sg,brev,m},
+{а=CONJ=} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {корабль=S,m,inan=(acc,pl|nom,pl)}.
+
+{пора=S,f,inan=ins,sg} {близкий=A=sg,brev,m} {парус=S,m,inan=(acc,sg|nom,sg)} {встречный=S,m,anim=nom,sg},
+{и=CONJ=} {зажигаться=V,intr=inpraes,sg,indic,3p,ipf} {мечта=S,f,inan=nom,sg};
+{и=CONJ=} {вот=PART=} - {над=PR=} {ширь=S,f,inan=ins,sg} {бесконечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{душа=S,f,inan=nom,sg} {чудесный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {занятый=A=sg,brev,f}.
+
+{но=CONJ=} {даль=S,f,inan=(acc,sg|nom,sg)} {пустынный=A=sg,brev,f} {и=CONJ=} {спокойный=A=sg,brev,f} -
+{и=CONJ=} {я=SPRO,sg,1p=nom} {все=ADV=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} - {у=PR=} {руль=S,m,inan=gen,sg},
+{и=CONJ=} {я=SPRO,sg,1p=nom} {петь=V,ipf,tran=inpraes,sg,indic,1p}, {все=SPRO,pl=(acc|nom)} {так=ADVPRO=} {же=PART=} {стройно=ADV=},
+{мечта=S,f,inan=acc,sg} {родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {корабль=S,m,inan=gen,sg}.
+
+{оставлять=V,tran=sg,imper,2p,pf} {же=PART=} {парус=S,m,inan=(acc,sg|nom,sg)} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {а=CONJ=} {не=PART=} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {судьба=S,f,inan=(abl,sg|dat,sg)}:
+{еще=ADV=} {не=PART=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {в=PR=} {тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {плакать=V,ipf,intr=inf} {о=PR=} {ты=SPRO,sg,2p=(abl|dat)}.

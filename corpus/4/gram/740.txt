@@ -1,112 +1,14 @@
-умываться=V,intr=praet,sg,indic,m,ipf
-_
-ночь=S,f,inan=ins,sg
-_
-на=PR=
-_
-двор=S,m,inan=abl,sg
-.\n
-твердь=S,f,inan=(acc,sg|nom,sg)
-_
-сиять=V,ipf,intr=praet,sg,indic,f
-_
-грубый=A=ins,pl,plen
-_
-звезда=S,f,inan=ins,pl
-.\n
-звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-как=CONJ=
-_
-соль=S,f,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-топор=S,m,inan=abl,sg
-.\n
-стыть=V,ipf=inpraes,sg,indic,3p
-_
-бочка=S,f,inan=nom,sg
-_
-с=PR=
-_
-полный=A=ins,pl,plen
-_
-край=S,m,inan=ins,pl
-.\n\n
-на=PR=
-_
-замок=S,m,inan=(acc,sg|nom,sg)
-_
-закрывать=V=praet,pl,partcp,brev,pf,pass
-_
-ворота=S,pl,inan=(acc|nom)
-,\n
-и=CONJ=
-_
-земля=S,f,inan=nom,sg
-_
-по=PR=
-_
-совесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-суровый=A=sg,brev,f
-.\n
-чисто=ADV=comp
-_
-правда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свежий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-холст=S,m,inan=gen,sg
-\n
-вряд=ADV=
-_
-ли=PART=
-_
-где=ADVPRO=
-_
-отыскиваться=V,intr=inpraes,sg,indic,3p,pf
-_
-основа=S,f,inan=nom,sg
-.\n\n
-таять=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-бочка=S,f,inan=(abl,sg|dat,sg)
-,_
-словно=CONJ=
-_
-соль=S,f,inan=(acc,sg|nom,sg)
-,_
-звезда=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-вода=S,f,inan=nom,sg
-_
-студеный=A=nom,sg,plen,f
-_
-черный=A=comp
-.\n
-чисто=ADV=comp
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-,_
-соленый=A=comp
-_
-беда=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-земля=S,f,inan=nom,sg
-_
-правдиво=ADV=comp
-_
-и=CONJ=
-_
-страшно=ADV=comp
-.\n
+{умываться=V,intr=praet,sg,indic,m,ipf} {ночь=S,f,inan=ins,sg} {на=PR=} {двор=S,m,inan=abl,sg}.
+{твердь=S,f,inan=(acc,sg|nom,sg)} {сиять=V,ipf,intr=praet,sg,indic,f} {грубый=A=ins,pl,plen} {звезда=S,f,inan=ins,pl}.
+{звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луч=S,m,inan=(acc,sg|nom,sg)} — {как=CONJ=} {соль=S,f,inan=(acc,sg|nom,sg)} {на=PR=} {топор=S,m,inan=abl,sg}.
+{стыть=V,ipf=inpraes,sg,indic,3p} {бочка=S,f,inan=nom,sg} {с=PR=} {полный=A=ins,pl,plen} {край=S,m,inan=ins,pl}.
+
+{на=PR=} {замок=S,m,inan=(acc,sg|nom,sg)} {закрывать=V=praet,pl,partcp,brev,pf,pass} {ворота=S,pl,inan=(acc|nom)},
+{и=CONJ=} {земля=S,f,inan=nom,sg} {по=PR=} {совесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {суровый=A=sg,brev,f}.
+{чисто=ADV=comp} {правда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свежий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {холст=S,m,inan=gen,sg}
+{вряд=ADV=} {ли=PART=} {где=ADVPRO=} {отыскиваться=V,intr=inpraes,sg,indic,3p,pf} {основа=S,f,inan=nom,sg}.
+
+{таять=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {бочка=S,f,inan=(abl,sg|dat,sg)}, {словно=CONJ=} {соль=S,f,inan=(acc,sg|nom,sg)}, {звезда=S,f,inan=nom,sg},
+{и=CONJ=} {вода=S,f,inan=nom,sg} {студеный=A=nom,sg,plen,f} {черный=A=comp}.
+{чисто=ADV=comp} {смерть=S,f,inan=(acc,sg|nom,sg)}, {соленый=A=comp} {беда=S,f,inan=nom,sg},
+{и=CONJ=} {земля=S,f,inan=nom,sg} {правдиво=ADV=comp} {и=CONJ=} {страшно=ADV=comp}.

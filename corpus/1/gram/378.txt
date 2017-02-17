@@ -1,102 +1,18 @@
-улица=S,f,inan=nom,sg
-,_
-улица=S,f,inan=nom,sg
-...\n
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-беззвучно=ADV=
-_
-спешить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-\n
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-продавать=V,tran=inf,pf
-,\n
-и=CONJ=
-_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-купить=V,pf,tran=inf
-,\n
-и=CONJ=
-_
-опять=ADV=
-_
-погружаться=V,intr=inf,pf
-\n
-в=PR=
-_
-сонный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-озеро=S,n,inan=(acc,sg|nom,sg)
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_-_
-зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-спать=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-._
-забывать=V=pl,imper,2p,pf
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-лучезарный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-о=INTJ=
-,_
-если=CONJ=
-_
-б=PART=
-_
-не=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-в=PR=
-_
-окно=S,n,inan=abl,pl
-\n
-светов=S,famn,m,anim=nom,sg
-_
-мерцать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-!\n
-штора=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-пунцовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-цветочек=S,m,inan=gen,pl
-!\n
-лицо=S,n,anim=(acc,pl|gen,pl)
-,_
-наклонять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-над=PR=
-_
-скудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-работа=S,f,inan=ins,sg
-!\n\n
-все=ADV=
-_
-тихий=A=sg,brev,n
-.\n
-луна=S,f,inan=nom,sg
-_
-подниматься=V,intr=praet,sg,indic,f,pf
-.\n
-и=CONJ=
-_
-облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-перо=S,n,inan=gen,pl
-_
-ряд=S,m,inan=(acc,pl|nom,pl)
-\n
-разбегаться=V,pf,intr=praet,pl,indic
-_
-далеко=ADV=
-.\n
+{улица=S,f,inan=nom,sg}, {улица=S,f,inan=nom,sg}...
+{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {беззвучно=ADV=} {спешить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}
+{тело=S,n,inan=(acc,sg|nom,sg)} {продавать=V,tran=inf,pf},
+{и=CONJ=} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {купить=V,pf,tran=inf},
+{и=CONJ=} {опять=ADV=} {погружаться=V,intr=inf,pf}
+{в=PR=} {сонный=A=(acc,sg,plen,n|nom,sg,plen,n)} {озеро=S,n,inan=(acc,sg|nom,sg)} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)} - {зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{спать=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)}. {забывать=V=pl,imper,2p,pf} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лучезарный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{о=INTJ=}, {если=CONJ=} {б=PART=} {не=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {в=PR=} {окно=S,n,inan=abl,pl}
+{светов=S,famn,m,anim=nom,sg} {мерцать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}!
+{штора=S,f,inan=gen,pl} {и=CONJ=} {пунцовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {цветочек=S,m,inan=gen,pl}!
+{лицо=S,n,anim=(acc,pl|gen,pl)}, {наклонять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {над=PR=} {скудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {работа=S,f,inan=ins,sg}!
+
+{все=ADV=} {тихий=A=sg,brev,n}.
+{луна=S,f,inan=nom,sg} {подниматься=V,intr=praet,sg,indic,f,pf}.
+{и=CONJ=} {облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {перо=S,n,inan=gen,pl} {ряд=S,m,inan=(acc,pl|nom,pl)}
+{разбегаться=V,pf,intr=praet,pl,indic} {далеко=ADV=}.

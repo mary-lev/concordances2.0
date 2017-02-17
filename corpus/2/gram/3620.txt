@@ -1,148 +1,20 @@
-приезжать=V,intr=praet,sg,indic,m,pf
-_
-коля=S,persn,m,anim=nom,sg
-._
-тотчас=ADV=
-_
-слух=S,m,inan=(acc,pl|nom,pl)
-,\n
-во=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-вселять=V,tran=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-испуг=S,m,inan=(acc,sg|nom,sg)
-:\n
-по=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-ночь=S,f,inan=ins,sg
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-дух=S,m,inan=(acc,pl|nom,pl)
-_\n
-и=CONJ=
-_
-слышный=A=sg,brev,m
-_
-непонятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стук=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-лишь=PART=
-_
-день=S,m,inan=ins,sg
-_
-не=PART=
-_
-чувствовать=V,ipf,tran=inpraes,sg,indic,2p
-_
-они=SPRO,pl=(acc|gen)
-_
-дурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-;_\n
-когда=CONJ=
-_
-ж=PART=
-_
-погасать=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-окно=S,n,inan=abl,pl
-_
-свет=S,sg,m,inan=(acc|nom)
-,_\n
-они=SPRO,pl=nom
-_
-лежать=V,ipf,intr=inpraes,pl,indic,3p
-_
-на=PR=
-_
-лига=S,f,inan=(acc,pl|gen,sg|nom,pl)
--
-кура=S,f,anim=(abl,sg|dat,sg)
-_\n
-или=CONJ=
-_
-сражаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-в=PR=
-_
-крокет=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-испуг=S,m,inan=(acc,sg|nom,sg)
-_
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-,_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-туманить=V,ipf,tran=inpraes,ger
-;\n
-мы=SPRO,pl,1p=nom
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-за=PR=
-_
-чай=S,m,inan=ins,sg
-_-_
-что=CONJ=
-_
-за=PR=
-_
-вид=S,m,inan=(acc,sg|nom,sg)
-!_\n
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-вздрагивать=V,intr=inpraes,sg,indic,3p,ipf
-_
-аня=S,persn,f,anim=nom,sg
-,\n
-сергей=S,persn,m,anim=nom,sg
-_
-взволновать=V,pf,tran=praet,sg,partcp,brev,m,pass
-_
-и=CONJ=
-_
-сердитый=A=sg,brev,m
-.\n\n
-но=CONJ=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-милый=A=comp
-,_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-грациозный=A=comp
-,_\n
-все=SPRO,pl=(acc|nom)
-_
-ж=PART=
-_
-оля=S,persn,f,anim=nom,sg
-_
-в=PR=
-_
-робость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,_\n
-встречать=V,tran=inpraes,ger,ipf
-_
-дьявольский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-козни=S,pl,inan=(acc|nom)
-_\n
-улыбка=S,f,inan=ins,sg
-,_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-розовый=A=comp
-.\n\n
+{приезжать=V,intr=praet,sg,indic,m,pf} {коля=S,persn,m,anim=nom,sg}. {тотчас=ADV=} {слух=S,m,inan=(acc,pl|nom,pl)},
+{во=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {вселять=V,tran=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {испуг=S,m,inan=(acc,sg|nom,sg)}:
+{по=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)} {ночь=S,f,inan=ins,sg} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {дух=S,m,inan=(acc,pl|nom,pl)} 
+{и=CONJ=} {слышный=A=sg,brev,m} {непонятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стук=S,m,inan=(acc,sg|nom,sg)}.
+
+{лишь=PART=} {день=S,m,inan=ins,sg} {не=PART=} {чувствовать=V,ipf,tran=inpraes,sg,indic,2p} {они=SPRO,pl=(acc|gen)} {дурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}; 
+{когда=CONJ=} {ж=PART=} {погасать=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {окно=S,n,inan=abl,pl} {свет=S,sg,m,inan=(acc|nom)}, 
+{они=SPRO,pl=nom} {лежать=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {лига=S,f,inan=(acc,pl|gen,sg|nom,pl)}-{кура=S,f,anim=(abl,sg|dat,sg)} 
+{или=CONJ=} {сражаться=V,intr=inpraes,pl,indic,3p,ipf} {в=PR=} {крокет=S,m,inan=(acc,sg|nom,sg)}.
+
+{испуг=S,m,inan=(acc,sg|nom,sg)} {ползти=V,ipf,intr=inpraes,sg,indic,3p}, {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {туманить=V,ipf,tran=inpraes,ger};
+{мы=SPRO,pl,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {за=PR=} {чай=S,m,inan=ins,sg} - {что=CONJ=} {за=PR=} {вид=S,m,inan=(acc,sg|nom,sg)}! 
+{молчать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {вздрагивать=V,intr=inpraes,sg,indic,3p,ipf} {аня=S,persn,f,anim=nom,sg},
+{сергей=S,persn,m,anim=nom,sg} {взволновать=V,pf,tran=praet,sg,partcp,brev,m,pass} {и=CONJ=} {сердитый=A=sg,brev,m}.
+
+{но=CONJ=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {милый=A=comp}, {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {грациозный=A=comp}, 
+{все=SPRO,pl=(acc|nom)} {ж=PART=} {оля=S,persn,f,anim=nom,sg} {в=PR=} {робость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}, 
+{встречать=V,tran=inpraes,ger,ipf} {дьявольский=A=(acc,pl,plen,inan|nom,pl,plen)} {козни=S,pl,inan=(acc|nom)} 
+{улыбка=S,f,inan=ins,sg}, {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {розовый=A=comp}.
+

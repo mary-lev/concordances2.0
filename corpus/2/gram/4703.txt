@@ -1,100 +1,19 @@
-кто=SPRO,sg,m,anim=nom
-_
-лежать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-_\u2014\n
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-_
-дивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-,\n
-самый=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лилия=S,f,inan=gen,pl
-\n
-чуять=V,ipf,tran=inpraes,sg,indic,3p
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=nom
-.\n\n
-кто=SPRO,sg,m,anim=nom
-_
-лежать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-,\n
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-,\n
-серафимский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-крылья?=S,pl,inan=gen
-\n
-переливный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-да=PART=
-,_
-ты=SPRO,sg,2p=nom
-_
-умирать=V,intr=inpraes,sg,indic,2p,ipf
-,\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-холодный=A=pl,brev
-,\n
-и=CONJ=
-_
-сам=APRO=nom,sg,f
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-\n
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-но=CONJ=
-_
-идти=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-к=PR=
-_
-рай=S,sg,m,inan=(dat|loc)
-\n
-по=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мольба=S,f,inan=(abl,sg|dat,sg)
-.\n
-это=PART=
-_
-так=ADVPRO=
-,_
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-я=SPRO,sg,1p=nom
-_
-клясться=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-_
-ты=SPRO,sg,2p=(abl|dat)
-.\n
+{кто=SPRO,sg,m,anim=nom} {лежать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)} —
+{слышать=V,ipf,tran=inpraes,sg,indic,3p} {дивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)},
+{самый=APRO=(abl,pl|gen,pl|acc,pl,anim)} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лилия=S,f,inan=gen,pl}
+{чуять=V,ipf,tran=inpraes,sg,indic,3p} {запах=S,m,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=nom}.
+
+{кто=SPRO,sg,m,anim=nom} {лежать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)},
+{видеть=V,ipf,tran=inpraes,sg,indic,3p} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)},
+{серафимский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крылья?=S,pl,inan=gen}
+{переливный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {снег=S,m,inan=(acc,sg|nom,sg)}.
+
+{да=PART=}, {ты=SPRO,sg,2p=nom} {умирать=V,intr=inpraes,sg,indic,2p,ipf},
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {холодный=A=pl,brev},
+{и=CONJ=} {сам=APRO=nom,sg,f} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,2p}
+{неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{но=CONJ=} {идти=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {к=PR=} {рай=S,sg,m,inan=(dat|loc)}
+{по=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мольба=S,f,inan=(abl,sg|dat,sg)}.
+{это=PART=} {так=ADVPRO=}, {я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p},
+{я=SPRO,sg,1p=nom} {клясться=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)} {ты=SPRO,sg,2p=(abl|dat)}.

@@ -1,108 +1,19 @@
-предубеждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мировой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-над=PR=
-_
-жизния?=S,persn,mf,anim=acc,sg
-_
-парить=V,ipf,tran=inpraes,pl,indic,3p
-_
-младой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014\n
-предубеждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-роковой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-неодолимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-череда=S,f,inan=ins,sg
-.\n\n
-неодолимый=A=sg,brev,n
-_
-донимать=V=inpraes,pl,indic,3p,ipf,tran
-,\n
-неутолимый=A=pl,brev
-_
-и=CONJ=
-_
-грозный=A=pl,brev
-,\n
-в=PR=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,_
-как=ADVPRO=
-_
-хаос=S,m,inan=(acc,sg|nom,sg)
-_
-отверзать=V=inpraes,pl,indic,3p,ipf,tran
-\n
-с=PR=
-_
-отчизна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-хлынуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-слетать=V,pf=inpraes,pl,indic,3p
-_
-бешено=ADV=
-_
-в=PR=
-_
-стремнина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\u2014\n
-в=PR=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-безглагольный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-за=PR=
-_
-год=S,m,inan=ins,sg
-_
-горький=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-година=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-оскудевать=V,intr=inpraes,pl,indic,3p,ipf
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-.\n\n
-свершаться=V,intr=sg,imper,2p,ipf
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-,_
-тризна=S,f,inan=nom,sg
-!\n
-оскудевать=V,intr=pl,imper,2p,ipf
-,_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-!\n
-пасть=V,pf,intr=inpraes,sg,indic,1p
-,_
-отверстый=A=nom,sg,plen,f
-_
-отчизна=S,f,inan=nom,sg
-,\n
-в=PR=
-_
-темноты?=S,pl,inan=gen
-_
-извечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рой=S,m,inan=(acc,pl|nom,pl)
-.\n
+{предубеждение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мировой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{над=PR=} {жизния?=S,persn,mf,anim=acc,sg} {парить=V,ipf,tran=inpraes,pl,indic,3p} {младой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
+{предубеждение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {роковой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{неодолимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {череда=S,f,inan=ins,sg}.
+
+{неодолимый=A=sg,brev,n} {донимать=V=inpraes,pl,indic,3p,ipf,tran},
+{неутолимый=A=pl,brev} {и=CONJ=} {грозный=A=pl,brev},
+{в=PR=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}, {как=ADVPRO=} {хаос=S,m,inan=(acc,sg|nom,sg)} {отверзать=V=inpraes,pl,indic,3p,ipf,tran}
+{с=PR=} {отчизна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {хлынуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{слетать=V,pf=inpraes,pl,indic,3p} {бешено=ADV=} {в=PR=} {стремнина=S,f,inan=(acc,pl|gen,sg|nom,pl)},—
+{в=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {безглагольный=A=(acc,pl,plen,inan|nom,pl,plen)} {край=S,m,inan=(acc,sg|nom,sg)} —
+{за=PR=} {год=S,m,inan=ins,sg} {горький=A=(acc,pl,plen,inan|nom,pl,plen)} {година=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{оскудевать=V,intr=inpraes,pl,indic,3p,ipf} {день=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}.
+
+{свершаться=V,intr=sg,imper,2p,ipf} {надо=ADV,praed=} {я=SPRO,sg,1p=ins}, {тризна=S,f,inan=nom,sg}!
+{оскудевать=V,intr=pl,imper,2p,ipf}, {день=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}!
+{пасть=V,pf,intr=inpraes,sg,indic,1p}, {отверстый=A=nom,sg,plen,f} {отчизна=S,f,inan=nom,sg},
+{в=PR=} {темноты?=S,pl,inan=gen} {извечный=A=(acc,pl,plen,inan|nom,pl,plen)} {рой=S,m,inan=(acc,pl|nom,pl)}.

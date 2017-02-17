@@ -1,40 +1,4 @@
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-встреча=S,f,inan=acc,sg
-_
-где-то=ADVPRO=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-,\n
-за=PR=
-_
-даль=S,f,inan=ins,sg
-_
-каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дорога=S,f,inan=gen,pl
-.\n
-на=PR=
-_
-страшный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-на=PR=
-_
-последний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-пир=S,m,inan=abl,sg
-\n
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-готовить=V,ipf,tran=inpraes,sg,indic,3p
-_
-встреча=S,f,inan=acc,sg
-_
-бог=S,m,anim=nom,sg
-.\n
+{ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {встреча=S,f,inan=acc,sg} {где-то=ADVPRO=} {в=PR=} {мир=S,m,inan=abl,sg},
+{за=PR=} {даль=S,f,inan=ins,sg} {каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl}.
+{на=PR=} {страшный=A=(abl,sg,plen,m|abl,sg,plen,n)}, {на=PR=} {последний=A=(abl,sg,plen,m|abl,sg,plen,n)} {пир=S,m,inan=abl,sg}
+{для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {готовить=V,ipf,tran=inpraes,sg,indic,3p} {встреча=S,f,inan=acc,sg} {бог=S,m,anim=nom,sg}.

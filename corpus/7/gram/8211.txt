@@ -1,104 +1,14 @@
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-забывать=V=praet,pl,indic,pf
-_
-синева=S,f,inan=acc,sg
-,\n
-они=SPRO,pl=dat
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-золотистый=A=sg,brev,f
-,\n
-но=CONJ=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-я=SPRO,sg,1p=nom
-_
-сон=S,m,inan=ins,sg
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-между=PR=
-_
-грань=S,f,inan=gen,pl
-_
-аметист=S,m,inan=gen,sg
-.\n\n
-затем=ADV=
-,_
-что=CONJ=
-_
-там=ADVPRO=
-_
-пьянеть=V,ipf,intr=sg,imper,2p
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-беспокойный=A=comp
-,_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-идея=S,f,inan=nom,sg
-,\n
-огонь=S,m,inan=(acc,pl|nom,pl)
-_
-лиловый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-должный=A=pl,brev
-\n
-переливаться=V,intr=inf,ipf
-,_
-холодеть=V,ipf,intr=inpraes,ger
-.\n\n
-и=CONJ=
-_
-сердце=S,n,inan=dat,sg
-,_
-где=ADVPRO=
-_
-лишь=PART=
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-_
-да=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-,\n
-нет=ADV,praed=
-_
-греза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ласково=ADV=
--
-обманный=A=comp
-,\n
-чем=CONJ=
-_
-становиться=V,intr=inf,pf
-_
-кристалл=S,m,inan=ins,sg
-_
-при=PR=
-_
-свеча=S,f,inan=abl,pl
-\n
-в=PR=
-_
-лиловый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-холод=S,m,inan=abl,sg
-_
-мерцание=S,n,inan=gen,pl
-.\n
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {забывать=V=praet,pl,indic,pf} {синева=S,f,inan=acc,sg},
+{они=SPRO,pl=dat} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пыль=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {золотистый=A=sg,brev,f},
+{но=CONJ=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {я=SPRO,sg,1p=nom} {сон=S,m,inan=ins,sg} {жить=V,ipf,intr=inpraes,sg,indic,1p},
+{что=SPRO,sg,n,inan=(acc|nom)} {между=PR=} {грань=S,f,inan=gen,pl} {аметист=S,m,inan=gen,sg}.
+
+{затем=ADV=}, {что=CONJ=} {там=ADVPRO=} {пьянеть=V,ipf,intr=sg,imper,2p} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {беспокойный=A=comp}, {что=SPRO,sg,n,inan=(abl|ins)} {идея=S,f,inan=nom,sg},
+{огонь=S,m,inan=(acc,pl|nom,pl)} {лиловый=A=(acc,pl,plen,inan|nom,pl,plen)} {должный=A=pl,brev}
+{переливаться=V,intr=inf,ipf}, {холодеть=V,ipf,intr=inpraes,ger}.
+
+{и=CONJ=} {сердце=S,n,inan=dat,sg}, {где=ADVPRO=} {лишь=PART=} {стыд=S,m,inan=(acc,sg|nom,sg)} {да=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)},
+{нет=ADV,praed=} {греза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ласково=ADV=}-{обманный=A=comp},
+{чем=CONJ=} {становиться=V,intr=inf,pf} {кристалл=S,m,inan=ins,sg} {при=PR=} {свеча=S,f,inan=abl,pl}
+{в=PR=} {лиловый=A=(abl,sg,plen,m|abl,sg,plen,n)} {холод=S,m,inan=abl,sg} {мерцание=S,n,inan=gen,pl}.

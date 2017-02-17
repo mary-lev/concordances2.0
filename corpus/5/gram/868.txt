@@ -1,174 +1,24 @@
-поезд=S,m,inan=(acc,sg|nom,sg)
-_
-плакаться=V,ipf,intr=inpraes,sg,indic,3p
-._
-в=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-_
-родной=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-телеграфный=A=nom,sg,plen,f
-_
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-сеть=S,f,inan=(acc,sg|nom,sg)
-.\n
-пролетать=V,ipf,tran=inpraes,pl,indic,3p
-_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-росяной=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-пролетать=V,ipf,tran=inpraes,sg,indic,1p
-_
-в=PR=
-_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:_
-умирать=V,intr=inf,pf
-.\n\n
-пролетать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-так=ADVPRO=
-_
-пусто=ADV=
-,_
-так=ADVPRO=
-_
-голо=ADV=
-...\n
-пролетать=V,ipf,tran=inpraes,pl,indic,3p
-_\u2014_
-вон=PART=
-_
-там=ADVPRO=
-_
-и=CONJ=
-_
-вон=PART=
-_
-здесь=ADVPRO=
-_\u2014\n
-пролетать=V,ipf,tran=inpraes,pl,indic,3p
-_\u2014_
-за=PR=
-_
-село=S,n,inan=ins,pl
-_
-садиться=V,intr=praet,sg,indic,f,pf
-,\n
-пролетать=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-за=PR=
-_
-весь=S,f,inan=ins,pl
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-;_\u2014\n\n
-и=CONJ=
-_
-кабак=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-погост=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-ребенок=S,m,anim=nom,sg
-,\n
-засыпать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)
-_
-там=ADVPRO=
-_
-у=PR=
-_
-грудь=S,f,inan=gen,pl
-:_\u2014\n
-там=ADVPRO=
-_\u2014_
-убогий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стая=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-избенка=S,f,inan=gen,pl
-,\n
-там=ADVPRO=
-_\u2014_
-убогий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стая=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-россия=S,geo,f,inan=nom,sg
-!_
-ты=SPRO,sg,2p=(abl|dat)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\u2014\n
-о=INTJ=
-_
-немой=A=nom,sg,plen,f
-,_
-суровый=A=nom,sg,plen,f
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-!_\u2014\n
-здесь=ADVPRO=
-_
-и=CONJ=
-_
-глухой=A=comp
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-давать=V,tran=sg,imper,2p,pf
-,_
-и=CONJ=
-_
-безвестный=A=comp
-\n
-непутевый=A=acc,sg,plen,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-отрыдать?=V,ipf,intr=inf
-.\n\n
-поезд=S,m,inan=(acc,sg|nom,sg)
-_
-плакаться=V,ipf,intr=inpraes,sg,indic,3p
-._
-давать=V,tran=praet,pl,indic,pf
-_
-родной=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-телеграфный=A=nom,sg,plen,f
-_
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-сеть=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-там=ADVPRO=
-_\u2014_
-в=PR=
-_
-пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-ледяной=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-с=PR=
-_
-бурелом=S,m,inan=ins,sg
-_
-осенний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-гудеть=V,ipf,intr=inf
-.\n
+{поезд=S,m,inan=(acc,sg|nom,sg)} {плакаться=V,ipf,intr=inpraes,sg,indic,3p}. {в=PR=} {давать=V,tran=praet,pl,indic,pf} {родной=A=(acc,pl,plen,inan|nom,pl,plen)}
+{телеграфный=A=nom,sg,plen,f} {тянуться=V,ipf,intr=inpraes,sg,indic,3p} {сеть=S,f,inan=(acc,sg|nom,sg)}.
+{пролетать=V,ipf,tran=inpraes,pl,indic,3p} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {росяной=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{пролетать=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}: {умирать=V,intr=inf,pf}.
+
+{пролетать=V,ipf,tran=inpraes,sg,indic,1p}: {так=ADVPRO=} {пусто=ADV=}, {так=ADVPRO=} {голо=ADV=}...
+{пролетать=V,ipf,tran=inpraes,pl,indic,3p} — {вон=PART=} {там=ADVPRO=} {и=CONJ=} {вон=PART=} {здесь=ADVPRO=} —
+{пролетать=V,ipf,tran=inpraes,pl,indic,3p} — {за=PR=} {село=S,n,inan=ins,pl} {садиться=V,intr=praet,sg,indic,f,pf},
+{пролетать=V,ipf,tran=inpraes,sg,indic,3p} — {за=PR=} {весь=S,f,inan=ins,pl} {весь=APRO=(acc,sg,m,inan|nom,sg,m)}; —
+
+{и=CONJ=} {кабак=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {погост=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {ребенок=S,m,anim=nom,sg},
+{засыпать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} {там=ADVPRO=} {у=PR=} {грудь=S,f,inan=gen,pl}: —
+{там=ADVPRO=} — {убогий=A=(acc,pl,plen,inan|nom,pl,plen)} {стая=S,f,inan=(acc,pl|gen,sg|nom,pl)} {избенка=S,f,inan=gen,pl},
+{там=ADVPRO=} — {убогий=A=(acc,pl,plen,inan|nom,pl,plen)} {стая=S,f,inan=(acc,pl|gen,sg|nom,pl)} {человек=S,m,anim=(acc,pl|gen,pl)}.
+
+{мать=S,f,anim=(acc,sg|nom,sg)} {россия=S,geo,f,inan=nom,sg}! {ты=SPRO,sg,2p=(abl|dat)} {мой=APRO=(nom,pl|acc,pl,inan)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)},—
+{о=INTJ=} {немой=A=nom,sg,plen,f}, {суровый=A=nom,sg,plen,f} {мать=S,f,anim=(acc,sg|nom,sg)}! —
+{здесь=ADVPRO=} {и=CONJ=} {глухой=A=comp} {я=SPRO,sg,1p=(abl|dat)} {давать=V,tran=sg,imper,2p,pf}, {и=CONJ=} {безвестный=A=comp}
+{непутевый=A=acc,sg,plen,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {отрыдать?=V,ipf,intr=inf}.
+
+{поезд=S,m,inan=(acc,sg|nom,sg)} {плакаться=V,ipf,intr=inpraes,sg,indic,3p}. {давать=V,tran=praet,pl,indic,pf} {родной=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{телеграфный=A=nom,sg,plen,f} {тянуться=V,ipf,intr=inpraes,sg,indic,3p} {сеть=S,f,inan=(acc,sg|nom,sg)} —
+{там=ADVPRO=} — {в=PR=} {пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)} {ледяной=A=(acc,pl,plen,inan|nom,pl,plen)}
+{с=PR=} {бурелом=S,m,inan=ins,sg} {осенний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гудеть=V,ipf,intr=inf}.

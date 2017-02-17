@@ -1,28 +1,5 @@
-звук=S,m,inan=(acc,sg|nom,sg)
-_
-осторожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-плод=S,m,inan=gen,sg
-,_
-срываться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-с=PR=
-_
-древо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-среди=PR=
-_
-немолчный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-напев=S,m,inan=gen,sg
-\n
-глубокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=gen
-_
-лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-...\n|\n
+{звук=S,m,inan=(acc,sg|nom,sg)} {осторожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{плод=S,m,inan=gen,sg}, {срываться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {с=PR=} {древо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{среди=PR=} {немолчный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {напев=S,m,inan=gen,sg}
+{глубокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen} {лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...
+|

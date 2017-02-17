@@ -1,64 +1,9 @@
-часы=S,pl,inan=(acc|nom)
-_
-проходить=V,intr=praet,pl,indic,pf
-,_
-как=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-изменчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-о=PR=
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-!_
-наступать=V,intr=sg,imper,2p,ipf
-_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,\n
-и=CONJ=
-_
-встреча=S,f,inan=ins,sg
-_
-длительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-увенчивать=V,tran=sg,imper,2p,ipf
-\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-томить=V,ipf,tran=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-еще=ADV=
-_
-нетленный=A=comp
-,\n
-проходить=V,intr=praet,ger,pf
-_
-мучительство=S,n,inan=(acc,sg|nom,sg)
-_
-суета=S,f,inan=gen,pl
-.\n
-так=ADVPRO=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,_
-серый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-осенний=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пронизывать=V=inpraes,sg,indic,3p,ipf,tran
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n
+{часы=S,pl,inan=(acc|nom)} {проходить=V,intr=praet,pl,indic,pf}, {как=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)} {изменчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{о=PR=} {вечер=S,m,inan=(acc,sg|nom,sg)}! {наступать=V,intr=sg,imper,2p,ipf} {и=CONJ=} {ты=SPRO,sg,2p=nom},
+{и=CONJ=} {встреча=S,f,inan=ins,sg} {длительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {увенчивать=V,tran=sg,imper,2p,ipf}
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {томить=V,ipf,tran=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+
+{любовь=S,f,inan=(acc,sg|nom,sg)} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {еще=ADV=} {нетленный=A=comp},
+{проходить=V,intr=praet,ger,pf} {мучительство=S,n,inan=(acc,sg|nom,sg)} {суета=S,f,inan=gen,pl}.
+{так=ADVPRO=} {небо=S,n,inan=(acc,sg|nom,sg)}, {серый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {осенний=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пронизывать=V=inpraes,sg,indic,3p,ipf,tran} {свет=S,sg,m,inan=(acc|nom)}.

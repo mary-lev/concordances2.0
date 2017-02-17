@@ -1,78 +1,12 @@
-страсть=S,f,inan=ins,sg
-_
-длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-безмятежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-заниматься=V,intr=praet,sg,indic,f,pf
-_
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-,\n
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-_
-дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-струя=S,f,inan=nom,sg
-,\n
-переплывать=V,tran=inf,pf
-_
-велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-парус=S,m,inan=abl,pl
-,\n
-утопать=V,intr=inf,pf
-_
-велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-навеки=ADV=
-\n
-в=PR=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-вечерний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-небо=S,n,inan=abl,pl
-,\n
-и=CONJ=
-_
-когда=CONJ=
-_
-предаваться=V,intr=inpraes,sg,indic,1p,pf
-_
-зной=S,m,inan=dat,sg
-,\n
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зной=S,m,inan=(acc,sg|nom,sg)
-\n
-в=PR=
-_
-голубой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-голубой=A=ins,sg,plen,f
-\n
-уносить=V=inpraes,sg,indic,3p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-волна=S,f,inan=ins,sg
-...\n
+{страсть=S,f,inan=ins,sg} {длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {безмятежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{заниматься=V,intr=praet,sg,indic,f,pf} {душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f},
+{ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)} {дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {струя=S,f,inan=nom,sg},
+{переплывать=V,tran=inf,pf} {велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {парус=S,m,inan=abl,pl},
+{утопать=V,intr=inf,pf} {велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {навеки=ADV=}
+{в=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {вечерний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=abl,pl},
+{и=CONJ=} {когда=CONJ=} {предаваться=V,intr=inpraes,sg,indic,1p,pf} {зной=S,m,inan=dat,sg},
+{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зной=S,m,inan=(acc,sg|nom,sg)}
+{в=PR=} {голубой=A=(acc,sg,plen,n|nom,sg,plen,n)} {голубой=A=ins,sg,plen,f}
+{уносить=V=inpraes,sg,indic,3p,pf} {я=SPRO,sg,1p=(acc|gen)} {волна=S,f,inan=ins,sg}...

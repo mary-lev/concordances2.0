@@ -1,156 +1,24 @@
-вот=PART=
-_
-гиацинт=S,m,inan=(acc,pl|nom,pl)
-_
-под=PR=
-_
-блеск=S,m,inan=ins,sg
-\n
-электрический=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-фонарь=S,m,inan=gen,sg
-,\n
-под=PR=
-_
-блеск=S,m,inan=ins,sg
-_
-белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-резкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-зажигаться=V,intr=praet,pl,indic,pf
-_
-и=CONJ=
-_
-стоять=V,ipf,intr=inpraes,pl,indic,3p
-,_
-горе=S,sg,n,inan=gen
-.\n\n
-и=CONJ=
-_
-вот=PART=
-_
-душа=S,f,inan=nom,sg
-_
-пошатнуться=V,pf,intr=praet,sg,indic,f
-,\n
-словно=CONJ=
-_
-с=PR=
-_
-ангел=S,m,anim=ins,sg
-_
-говорить=V,ipf,tran=inpraes,ger
-,\n
-пошатнуться=V,pf,intr=praet,sg,indic,f
-_
-и=CONJ=
-_
-вдруг=ADV=
-_
-качнуться=V,pf,intr=praet,sg,indic,f
-\n
-в=PR=
-_
-синий=A=sg,brev,n
--
-бархатный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-верить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-высокий=A=comp
-_
-свод=S,m,inan=gen,sg
-\n
-небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-божий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-,\n
-и=CONJ=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-что=CONJ=
-,_
-где=ADVPRO=
-_
-свобода=S,f,inan=nom,sg
-\n
-без=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-,_
-там=ADVPRO=
-_
-свет=S,sg,m,inan=gen
-_
-нет=ADV,praed=
-.\n\n
-когда=CONJ=
-_
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-захотеть=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-\n
-узнавать=V,tran=inf,pf
-,_
-в=PR=
-_
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-\n
-она=SPRO,sg,3p,f=(acc|gen)
-_
-уводить=V=praet,sg,indic,m,pf
-_
-повелитель=S,m,anim=nom,sg
-,\n
-создатель=S,m,anim=nom,sg
-_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-и=CONJ=
-_
-как=CONJ=
-_
-светлый=A=pl,brev
-_
-лабиринт=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-сад=S,m,inan=abl,pl
-_
-за=PR=
-_
-млечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-путь=S,m,inan=ins,sg
-_\u2014\n
-смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-на=PR=
-_
-гиацинт=S,m,inan=(acc,pl|nom,pl)
-\n
-под=PR=
-_
-электрический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-фонарь=S,m,inan=ins,sg
-.\n
+{вот=PART=} {гиацинт=S,m,inan=(acc,pl|nom,pl)} {под=PR=} {блеск=S,m,inan=ins,sg}
+{электрический=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {фонарь=S,m,inan=gen,sg},
+{под=PR=} {блеск=S,m,inan=ins,sg} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {резкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{зажигаться=V,intr=praet,pl,indic,pf} {и=CONJ=} {стоять=V,ipf,intr=inpraes,pl,indic,3p}, {горе=S,sg,n,inan=gen}.
+
+{и=CONJ=} {вот=PART=} {душа=S,f,inan=nom,sg} {пошатнуться=V,pf,intr=praet,sg,indic,f},
+{словно=CONJ=} {с=PR=} {ангел=S,m,anim=ins,sg} {говорить=V,ipf,tran=inpraes,ger},
+{пошатнуться=V,pf,intr=praet,sg,indic,f} {и=CONJ=} {вдруг=ADV=} {качнуться=V,pf,intr=praet,sg,indic,f}
+{в=PR=} {синий=A=sg,brev,n}-{бархатный=A=(acc,pl,plen,inan|nom,pl,plen)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {верить=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {высокий=A=comp} {свод=S,m,inan=gen,sg}
+{небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {свет=S,sg,m,inan=(acc|nom)},
+{и=CONJ=} {знать=V,ipf,tran=inpraes,sg,indic,3p}, {что=CONJ=}, {где=ADVPRO=} {свобода=S,f,inan=nom,sg}
+{без=PR=} {бог=S,m,anim=(acc,sg|gen,sg)}, {там=ADVPRO=} {свет=S,sg,m,inan=gen} {нет=ADV,praed=}.
+
+{когда=CONJ=} {и=CONJ=} {вы=SPRO,pl,2p=nom} {захотеть=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}
+{узнавать=V,tran=inf,pf}, {в=PR=} {какой=APRO=(nom,pl|acc,pl,inan)} {сад=S,m,inan=(acc,pl|nom,pl)}
+{она=SPRO,sg,3p,f=(acc|gen)} {уводить=V=praet,sg,indic,m,pf} {повелитель=S,m,anim=nom,sg},
+{создатель=S,m,anim=nom,sg} {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{и=CONJ=} {как=CONJ=} {светлый=A=pl,brev} {лабиринт=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {сад=S,m,inan=abl,pl} {за=PR=} {млечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {путь=S,m,inan=ins,sg} —
+{смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {на=PR=} {гиацинт=S,m,inan=(acc,pl|nom,pl)}
+{под=PR=} {электрический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {фонарь=S,m,inan=ins,sg}.

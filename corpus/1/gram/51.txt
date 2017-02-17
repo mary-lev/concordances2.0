@@ -1,52 +1,9 @@
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_
-исполнять=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-гроза=S,f,inan=ins,sg
-,_\n
-в=PR=
-_
-средина=S,f,inan=(abl,sg|dat,sg)
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-громовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-мрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-красота=S,f,inan=ins,sg
-,_\n
-витать=V,ipf,intr=inpraes,sg,indic,3p
-_
-образ=S,m,inan=(acc,sg|nom,sg)
-_
-грозовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-то=CONJ=
-_-_
-ослеплять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-зарница=S,f,inan=ins,sg
-,_\n
-внимать=V,intr=inpraes,ger,ipf
-_
-раскат=S,m,inan=dat,pl
-_
-громов=S,famn,m,anim=(dat,pl|ins,sg)
-,_\n
-юнона=S,persn,f,anim=nom,sg
-_
-править=V,ipf,tran=inpraes,sg,indic,3p
-_
-колесница=S,f,inan=ins,sg
-_\n
-перед=PR=
-_
-юпитер=S,geo,m,inan=ins,sg
-_
-сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-.\n
+{в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {исполнять=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {гроза=S,f,inan=ins,sg}, 
+{в=PR=} {средина=S,f,inan=(abl,sg|dat,sg)} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {громовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass} {мрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {красота=S,f,inan=ins,sg}, 
+{витать=V,ipf,intr=inpraes,sg,indic,3p} {образ=S,m,inan=(acc,sg|nom,sg)} {грозовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{то=CONJ=} - {ослеплять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {зарница=S,f,inan=ins,sg}, 
+{внимать=V,intr=inpraes,ger,ipf} {раскат=S,m,inan=dat,pl} {громов=S,famn,m,anim=(dat,pl|ins,sg)}, 
+{юнона=S,persn,f,anim=nom,sg} {править=V,ipf,tran=inpraes,sg,indic,3p} {колесница=S,f,inan=ins,sg} 
+{перед=PR=} {юпитер=S,geo,m,inan=ins,sg} {сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.

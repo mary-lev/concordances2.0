@@ -1,176 +1,29 @@
-он=SPRO,sg,3p,m=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-путем=PR=
-_
-жемчужный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-по=PR=
-_
-сад=S,m,inan=dat,pl
-_
-береговой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-человек=S,m,anim=nom,pl
-_
-занимать=V=praet,pl,partcp,brev,pf,pass
-_
-ненужный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-человек=S,m,anim=nom,pl
-_
-занимать=V=praet,pl,partcp,brev,pf,pass
-_
-земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n\xAB
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-пастырь=S,m,anim=nom,sg
-!_
-рыбарь=S,m,anim=nom,sg
-,_
-здравствовать=V,ipf,intr=sg,imper,2p
-!\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-звать=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-навсегда=ADV=
-,\n
-чтоб=CONJ=
-_
-блюсти=V,ipf,tran=inf
-_
-иной=APRO=acc,sg,f
-_
-паства=S,f,inan=acc,sg
-\n
-и=CONJ=
-_
-иной=APRO=(nom,pl|acc,pl,inan)
-_
-невод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-хорошо=ADV=comp,parenth
-_
-ль=CONJ=
-_
-рыба=S,f,anim=(gen,sg|nom,pl)
-_
-или=CONJ=
-_
-овца=S,f,anim=(gen,sg|nom,pl)
-\n
-человеческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-вы=SPRO,pl,2p=nom
-,_
-небесный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-торговец=S,m,anim=nom,pl
-,\n
-не=PART=
-_
-считать=V,ipf,tran=pl,imper,2p
-_
-барыш=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-ведь=PART=
-_
-не=PART=
-_
-домик=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-галилей=S,famn,m,anim=abl,sg
-\n
-вы=SPRO,pl,2p=dat
-_
-награда=S,f,inan=nom,sg
-_
-за=PR=
-_
-труд=S,m,inan=(acc,pl|nom,pl)
-,_\u2014\n
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рай=S,sg,m,inan=(acc|nom)
-,_
-что=CONJ=
-_
-розовый=A=comp
-\n
-самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-близиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-к=PR=
-_
-притин?=S,famn,m,anim=dat,sg
-,\n
-слышный=A=sg,brev,n
-_
-веяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-конец=S,m,inan=gen,sg
-,\n
-но=CONJ=
-_
-отрадно=ADV=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-сын=S,m,anim=dat,sg
-\n
-в=PR=
-_
-дом=S,m,inan=abl,sg
-_
-нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-\xBB.\n\n
-не=PART=
-_
-томить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-мучить=V,ipf=inpraes,sg,indic,3p,tran
-_
-выбор=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=CONJ=
-_
-пленительный=A=comp
-_
-чудо=S,n,inan=gen,pl
-?!\n
-и=CONJ=
-_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-пастух=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-рыбарь=S,m,anim=nom,sg
-\n
-за=PR=
-_
-искатель=S,m,anim=ins,sg
-_
-небо=S,n,inan=gen,pl
-.\n
+{он=SPRO,sg,3p,m=nom} {идти=V,ipf,intr=inpraes,sg,indic,3p} {путем=PR=} {жемчужный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{по=PR=} {сад=S,m,inan=dat,pl} {береговой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{человек=S,m,anim=nom,pl} {занимать=V=praet,pl,partcp,brev,pf,pass} {ненужный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{человек=S,m,anim=nom,pl} {занимать=V=praet,pl,partcp,brev,pf,pass} {земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+«{здравствовать=V,ipf,intr=sg,imper,2p}, {пастырь=S,m,anim=nom,sg}! {рыбарь=S,m,anim=nom,sg}, {здравствовать=V,ipf,intr=sg,imper,2p}!
+{вы=SPRO,pl,2p=(abl|acc|gen)} {звать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {навсегда=ADV=},
+{чтоб=CONJ=} {блюсти=V,ipf,tran=inf} {иной=APRO=acc,sg,f} {паства=S,f,inan=acc,sg}
+{и=CONJ=} {иной=APRO=(nom,pl|acc,pl,inan)} {невод=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{хорошо=ADV=comp,parenth} {ль=CONJ=} {рыба=S,f,anim=(gen,sg|nom,pl)} {или=CONJ=} {овца=S,f,anim=(gen,sg|nom,pl)}
+{человеческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+{вы=SPRO,pl,2p=nom}, {небесный=A=(acc,pl,plen,inan|nom,pl,plen)} {торговец=S,m,anim=nom,pl},
+{не=PART=} {считать=V,ipf,tran=pl,imper,2p} {барыш=S,m,inan=(acc,pl|nom,pl)}.
+
+{ведь=PART=} {не=PART=} {домик=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {галилей=S,famn,m,anim=abl,sg}
+{вы=SPRO,pl,2p=dat} {награда=S,f,inan=nom,sg} {за=PR=} {труд=S,m,inan=(acc,pl|nom,pl)}, —
+{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рай=S,sg,m,inan=(acc|nom)}, {что=CONJ=} {розовый=A=comp}
+{самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {близиться=V,ipf,intr=inpraes,sg,indic,3p} {к=PR=} {притин?=S,famn,m,anim=dat,sg},
+{слышный=A=sg,brev,n} {веяние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {конец=S,m,inan=gen,sg},
+{но=CONJ=} {отрадно=ADV=} {быть=V,intr=inpraes,sg,indic,3p} {сын=S,m,anim=dat,sg}
+{в=PR=} {дом=S,m,inan=abl,sg} {нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {отец=S,m,anim=(acc,sg|gen,sg)}».
+
+{не=PART=} {томить=V,ipf,tran=inpraes,sg,indic,3p}, {не=PART=} {мучить=V,ipf=inpraes,sg,indic,3p,tran} {выбор=S,m,inan=(acc,sg|nom,sg)},
+{что=CONJ=} {пленительный=A=comp} {чудо=S,n,inan=gen,pl}?!
+{и=CONJ=} {идти=V,ipf,intr=inpraes,pl,indic,3p} {пастух=S,m,anim=nom,sg} {и=CONJ=} {рыбарь=S,m,anim=nom,sg}
+{за=PR=} {искатель=S,m,anim=ins,sg} {небо=S,n,inan=gen,pl}.

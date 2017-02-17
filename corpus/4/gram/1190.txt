@@ -1,148 +1,24 @@
-как=CONJ=
-_
-парламент=S,m,inan=(acc,sg|nom,sg)
-,_
-жевать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-фронда=S,f,inan=acc,sg
-,\n
-вяло=ADV=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зал=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-не=PART=
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-гора=S,f,inan=nom,sg
-_
-на=PR=
-_
-жиронда=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-не=PART=
-_
-крепнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-сословие=S,n,inan=gen,pl
-_
-вал=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-оскорблять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-и=CONJ=
-_
-оскорбитель=S,m,anim=nom,sg
-,\n
-не=PART=
-_
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-рояль=S,m,inan=(acc,sg|nom,sg)
--
-голиаф=S,m,anim=nom,sg
-_\u2014\n
-звуколюбец?=S,m,anim=nom,sg
-,_
-душемутитель?=S,m,anim=nom,sg
-,\n
-мирабо?=ADV=
-_
-фортепьянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-право=S,n,inan=gen,pl
-.\n\n
-разве=PART=
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_\u2014_
-кувалда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-десять=NUM=(acc|nom)
-_
-палец=S,m,inan=gen,pl
-_\u2014_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-табунок=S,m,inan=(acc,sg|nom,sg)
-!\n
-и=CONJ=
-_
-вскакивать=V,intr=praet,sg,indic,m,pf
-,_
-отряхай?=S,m,inan=gen,sg
-_
-фалда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-мастер=S,m,anim=nom,sg
-_
-генрих=S,persn,m,anim=nom,sg
-_\u2014_
-конек=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
--
-горбунок=S,m,anim=nom,sg
-.\n\n
-чтобы=CONJ=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-просторно=ADV=comp
-,\n
-ради=PR=
-_
-сложность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-не=PART=
-_
-втирать=V=pl,imper,2p,ipf,tran
-_
-в=PR=
-_
-клавиша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-корень=S,m,inan=(acc,sg|nom,sg)
-\n
-сладковатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-груша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-чтоб=CONJ=
-_
-смола=S,f,inan=ins,sg
-_
-соната=S,f,inan=nom,sg
-_
-джин=S,m,inan=gen,sg
-\n
-проступать=V,intr=praet,sg,indic,f,pf
-_
-из=PR=
-_
-позвонок=S,m,inan=gen,pl
-,\n
-нюренбергский?=A=nom,sg,plen,f
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-пружина=S,f,inan=nom,sg
-,\n
-выпрямлять=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-мертвец=S,m,anim=(acc,pl|gen,pl)
-.\n
+{как=CONJ=} {парламент=S,m,inan=(acc,sg|nom,sg)}, {жевать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {фронда=S,f,inan=acc,sg},
+{вяло=ADV=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зал=S,m,inan=(acc,sg|nom,sg)} —
+{не=PART=} {идти=V,ipf,intr=inpraes,sg,indic,3p} {гора=S,f,inan=nom,sg} {на=PR=} {жиронда=S,f,inan=acc,sg},
+{и=CONJ=} {не=PART=} {крепнуть=V,ipf,intr=inpraes,sg,indic,3p} {сословие=S,n,inan=gen,pl} {вал=S,m,inan=(acc,sg|nom,sg)}.
+
+{оскорблять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {и=CONJ=} {оскорбитель=S,m,anim=nom,sg},
+{не=PART=} {звучать=V,ipf,intr=inpraes,sg,indic,3p} {рояль=S,m,inan=(acc,sg|nom,sg)}-{голиаф=S,m,anim=nom,sg} —
+{звуколюбец?=S,m,anim=nom,sg}, {душемутитель?=S,m,anim=nom,sg},
+{мирабо?=ADV=} {фортепьянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {право=S,n,inan=gen,pl}.
+
+{разве=PART=} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} — {кувалда=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+{десять=NUM=(acc|nom)} {палец=S,m,inan=gen,pl} — {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {табунок=S,m,inan=(acc,sg|nom,sg)}!
+{и=CONJ=} {вскакивать=V,intr=praet,sg,indic,m,pf}, {отряхай?=S,m,inan=gen,sg} {фалда=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{мастер=S,m,anim=nom,sg} {генрих=S,persn,m,anim=nom,sg} — {конек=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)}-{горбунок=S,m,anim=nom,sg}.
+
+{чтобы=CONJ=} {в=PR=} {мир=S,m,inan=abl,sg} {становиться=V,intr=praet,sg,indic,n,pf} {просторно=ADV=comp},
+{ради=PR=} {сложность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{не=PART=} {втирать=V=pl,imper,2p,ipf,tran} {в=PR=} {клавиша=S,f,inan=(acc,pl|gen,sg|nom,pl)} {корень=S,m,inan=(acc,sg|nom,sg)}
+{сладковатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {груша=S,f,inan=(acc,pl|gen,sg|nom,pl)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{чтоб=CONJ=} {смола=S,f,inan=ins,sg} {соната=S,f,inan=nom,sg} {джин=S,m,inan=gen,sg}
+{проступать=V,intr=praet,sg,indic,f,pf} {из=PR=} {позвонок=S,m,inan=gen,pl},
+{нюренбергский?=A=nom,sg,plen,f} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {пружина=S,f,inan=nom,sg},
+{выпрямлять=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act} {мертвец=S,m,anim=(acc,pl|gen,pl)}.

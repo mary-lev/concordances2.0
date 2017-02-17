@@ -1,68 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-искра=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-от=PR=
-_
-кирка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ударять=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-о=PR=
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-.\n
-вы=SPRO,pl,2p=nom
-,_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)
-,_
-легкий=A=pl,brev
-,\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-о=PR=
-_
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-!\n\n
-ты=SPRO,sg,2p=nom
-_
-вставать=V,intr=inpraes,sg,indic,2p,pf
-_
-некогда=ADV,praed=
-_
-враг=S,m,anim=ins,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-до=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-воспрянуть=V,pf,intr=inpraes,sg,indic,2p
-!\n
-и=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-венчать=V,tran=(praet,acc,sg,partcp,plen,m,ipf,pass,inan|praet,nom,sg,partcp,plen,m,ipf,pass)
-_
-вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-день=S,m,inan=ins,sg
-,_\u2014\n
-я=SPRO,sg,1p=nom
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-,_\u2014_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-наставать=V,intr=inpraes,sg,indic,2p,pf
-!\n
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {искра=S,f,inan=(acc,pl|gen,sg|nom,pl)} {от=PR=} {кирка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{ударять=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {о=PR=} {камень=S,m,inan=(acc,sg|nom,sg)}.
+{вы=SPRO,pl,2p=nom}, {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)}, {легкий=A=pl,brev},
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {о=PR=} {пламень=S,inan=(nom,sg,m|acc,sg,m)}!
+
+{ты=SPRO,sg,2p=nom} {вставать=V,intr=inpraes,sg,indic,2p,pf} {некогда=ADV,praed=} {враг=S,m,anim=ins,sg},
+{ты=SPRO,sg,2p=nom} {до=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {воспрянуть=V,pf,intr=inpraes,sg,indic,2p}!
+{и=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)}, {венчать=V,tran=(praet,acc,sg,partcp,plen,m,ipf,pass,inan|praet,nom,sg,partcp,plen,m,ipf,pass)} {вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {день=S,m,inan=ins,sg}, —
+{я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=inpraes,sg,indic,1p}, — {и=CONJ=} {ты=SPRO,sg,2p=nom} {наставать=V,intr=inpraes,sg,indic,2p,pf}!

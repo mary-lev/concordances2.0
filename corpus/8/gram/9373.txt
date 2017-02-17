@@ -1,130 +1,19 @@
-строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-властный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-свет=S,sg,m,inan=(acc|nom)
-_
-невосшедший?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-.\n
-улица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мертво=ADV=
--
-бесстрастный=A=pl,brev
-,\n
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-убегать=V,intr=inpraes,sg,indic,3p,ipf
-,_
-маня=S,persn,f,anim=nom,sg
-.\n\n
-в=PR=
-_
-светлый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-безмолвие=S,n,inan=abl,sg
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-двое=NUM=(nom|acc,inan)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-!\n
-в=PR=
-_
-облако=S,n,inan=abl,pl
-_
-игра=S,f,inan=nom,sg
-_
-перламутр=S,m,inan=gen,sg
-.\n
-румянец=S,m,inan=(acc,sg|nom,sg)
-_
-затепливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-тихий=A=sg,brev,m
-.\n\n
-в=PR=
-_
-ущелие=S,n,inan=abl,sg
-_
-безжизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-здание=S,n,inan=gen,pl
-\n
-мы=SPRO,pl,1p=nom
-_
-дышать=V,ipf,intr=inpraes,pl,indic,1p
-_
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=ins
-,\n
-в=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,pl,indic,1p
-_
-ожидание=S,n,inan=gen,pl
-...\n
-довольно=ADV=
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_\u2014_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-.\n\n
-наставать=V,intr=praet,sg,indic,n,pf
-_
-что-то=SPRO,sg,n,inan=(acc|nom)
-..._
-как=CONJ=
-_
-ребенок=S,m,anim=nom,pl
-,\n
-сознавать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)
-_
-мы=SPRO,pl,1p=nom
-_
-исполнять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-.\n
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-холодный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-свет=S,sg,m,inan=abl
-,\n
-ты=SPRO,sg,2p=nom
-_
-хороший=A=comp
-_
-песня=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-книга=S,f,inan=gen,pl
-!\n
+{строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {властный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{свет=S,sg,m,inan=(acc|nom)} {невосшедший?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}.
+{улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мертво=ADV=}-{бесстрастный=A=pl,brev},
+{путь=S,m,inan=(acc,sg|nom,sg)} {убегать=V,intr=inpraes,sg,indic,3p,ipf}, {маня=S,persn,f,anim=nom,sg}.
+
+{в=PR=} {светлый=A=(abl,sg,plen,m|abl,sg,plen,n)} {безмолвие=S,n,inan=abl,sg} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{двое=NUM=(nom|acc,inan)} {мы=SPRO,pl,1p=(abl|acc|gen)} {в=PR=} {мир=S,m,inan=abl,sg} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}!
+{в=PR=} {облако=S,n,inan=abl,pl} {игра=S,f,inan=nom,sg} {перламутр=S,m,inan=gen,sg}.
+{румянец=S,m,inan=(acc,sg|nom,sg)} {затепливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {тихий=A=sg,brev,m}.
+
+{в=PR=} {ущелие=S,n,inan=abl,sg} {безжизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {здание=S,n,inan=gen,pl}
+{мы=SPRO,pl,1p=nom} {дышать=V,ipf,intr=inpraes,pl,indic,1p} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=ins},
+{в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {хотеть=V,ipf,tran=inpraes,pl,indic,1p} {ожидание=S,n,inan=gen,pl}...
+{довольно=ADV=}, {что=CONJ=} {ты=SPRO,sg,2p=nom} — {со=PR=} {я=SPRO,sg,1p=ins}.
+
+{наставать=V,intr=praet,sg,indic,n,pf} {что-то=SPRO,sg,n,inan=(acc|nom)}... {как=CONJ=} {ребенок=S,m,anim=nom,pl},
+{сознавать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)} {мы=SPRO,pl,1p=nom} {исполнять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {миг=S,m,inan=(acc,sg|nom,sg)}.
+{утро=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {холодный=A=(abl,sg,plen,m|abl,sg,plen,n)} {свет=S,sg,m,inan=abl},
+{ты=SPRO,sg,2p=nom} {хороший=A=comp} {песня=S,f,inan=gen,pl} {и=CONJ=} {книга=S,f,inan=gen,pl}!

@@ -1,150 +1,30 @@
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-легкое=S,n,inan=(acc,pl|nom,pl)
-_
-раскидывать=V=inpraes,sg,indic,1p,pf
-,\n
-стена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-воздух=S,m,inan=gen,sg
-_
-раздвигать=V,tran=inpraes,sg,indic,1p,pf
-,\n
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дольний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-покидать=V,tran=inpraes,sg,indic,1p,pf
-.\n\n
-виться=V,ipf,intr=pl,imper,2p
-,_
-искристый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-льдинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-плыть=V,ipf,intr=pl,imper,2p
-,\n
-вьюга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дольний=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-вздыхать=V,intr=pl,imper,2p,pf
-!\n\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_-_
-легкое=S,n,inan=(acc,pl|nom,pl)
-_
-тревога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_-_
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-среброснежный?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-чертог=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-светлозмейный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вьюга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-легковейный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-око=S,n,inan=(acc,pl|nom,pl)
-_
-дева=S,f,anim=(gen,sg|nom,pl)
-_
-чародейный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-и=CONJ=
-_
-какой-то=APRO=(nom,pl|acc,pl,inan)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n___
-издали=ADV=
-,\n
-и=CONJ=
-_
-туманный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-скрижаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n___
-от=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-покинутый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-в=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-\n___
-корабль=S,m,inan=(acc,pl|nom,pl)
-.\n
-и=CONJ=
-_
-какой-то=APRO=(nom,pl|acc,pl,inan)
-_
-за=PR=
-_
-мыс=S,m,inan=ins,sg
-\n___
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-какой-то=APRO=(nom,pl|acc,pl,inan)
-_
-над=PR=
-_
-море=S,n,inan=ins,sg
-\n___
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-расплескивать=V=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-_
-меж=PR=
-_
-мир=S,m,inan=ins,pl
-,\n
-над=PR=
-_
-забытый=A=ins,pl,plen
-_
-пир=S,m,inan=ins,pl
-_-\n
-кубок=S,m,inan=(acc,sg|nom,sg)
-_
-долгий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страстный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,\n
-кубок=S,m,inan=(acc,sg|nom,sg)
-_
-темный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-вино=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{крыло=S,n,inan=(acc,pl|nom,pl)} {легкое=S,n,inan=(acc,pl|nom,pl)} {раскидывать=V=inpraes,sg,indic,1p,pf},
+{стена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {воздух=S,m,inan=gen,sg} {раздвигать=V,tran=inpraes,sg,indic,1p,pf},
+{страна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дольний=A=(acc,pl,plen,inan|nom,pl,plen)} {покидать=V,tran=inpraes,sg,indic,1p,pf}.
+
+{виться=V,ipf,intr=pl,imper,2p}, {искристый=A=(acc,pl,plen,inan|nom,pl,plen)} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{льдинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {звездный=A=(acc,pl,plen,inan|nom,pl,plen)}, {плыть=V,ipf,intr=pl,imper,2p},
+{вьюга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дольний=A=(acc,pl,plen,inan|nom,pl,plen)}, {вздыхать=V,intr=pl,imper,2p,pf}!
+
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} - {легкое=S,n,inan=(acc,pl|nom,pl)} {тревога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {небо=S,n,inan=abl,sg} - {звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{среброснежный?=A=(acc,pl,plen,inan|nom,pl,plen)} {чертог=S,m,inan=(acc,pl|nom,pl)}.
+
+{сон=S,m,inan=(acc,pl|nom,pl)} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {светлозмейный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вьюга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {легковейный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{око=S,n,inan=(acc,pl|nom,pl)} {дева=S,f,anim=(gen,sg|nom,pl)} {чародейный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{и=CONJ=} {какой-то=APRO=(nom,pl|acc,pl,inan)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+   {издали=ADV=},
+{и=CONJ=} {туманный=A=(acc,pl,plen,inan|nom,pl,plen)} {скрижаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+   {от=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {покинутый=A=(acc,pl,plen,inan|nom,pl,plen)} {в=PR=} {давать=V,tran=praet,pl,indic,pf}
+   {корабль=S,m,inan=(acc,pl|nom,pl)}.
+{и=CONJ=} {какой-то=APRO=(nom,pl|acc,pl,inan)} {за=PR=} {мыс=S,m,inan=ins,sg}
+   {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {какой-то=APRO=(nom,pl|acc,pl,inan)} {над=PR=} {море=S,n,inan=ins,sg}
+   {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {расплескивать=V=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)} {меж=PR=} {мир=S,m,inan=ins,pl},
+{над=PR=} {забытый=A=ins,pl,plen} {пир=S,m,inan=ins,pl} -
+{кубок=S,m,inan=(acc,sg|nom,sg)} {долгий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страстный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+{кубок=S,m,inan=(acc,sg|nom,sg)} {темный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {вино=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

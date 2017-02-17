@@ -1,98 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-бремя=S,n,inan=(acc,sg|nom,sg)
-_
-похищать=V,tran=praet,sg,indic,m,pf
-,_
-как=CONJ=
-_
-тать=S,m,anim=nom,sg
-,\n
-несчастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-разбивать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-на=PR=
-_
-часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-но=CONJ=
-,_
-боже=INTJ=
-!_
-как=ADVPRO=
-_
-тяжко=ADV=
-_
-внимать=V,intr=inf,ipf
-\n
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-нарастать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n\n
-волна=S,f,inan=nom,sg
-,_
-забегать=V,intr=inpraes,ger,ipf
-_
-вперед=ADV=
-,\n
-у=PR=
-_
-нога=S,f,inan=gen,pl
-_
-разбиваться=V,intr=inpraes,sg,indic,3p,pf
-_
-нещадно=ADV=
-\n
-и=CONJ=
-_
-жадно=ADV=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-обдавать=V,tran=inpraes,sg,indic,3p,ipf
-,\n
-бессильный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-пена=S,f,inan=ins,sg
-_
-хладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-за=PR=
-_
-дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-черта=S,f,inan=ins,sg
-\n
-жить=V,ipf,intr=inpraes,sg,indic,3p
-_
-ли=PART=
-_
-лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-теперь=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-внимать=V,intr=inpraes,sg,indic,1p,ipf
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-\n
-и=CONJ=
-_
-все=ADV=
-_
-нарастать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{я=SPRO,sg,1p=nom} {бремя=S,n,inan=(acc,sg|nom,sg)} {похищать=V,tran=praet,sg,indic,m,pf}, {как=CONJ=} {тать=S,m,anim=nom,sg},
+{несчастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {разбивать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {на=PR=} {часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{но=CONJ=}, {боже=INTJ=}! {как=ADVPRO=} {тяжко=ADV=} {внимать=V,intr=inf,ipf}
+{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {нарастать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+
+{волна=S,f,inan=nom,sg}, {забегать=V,intr=inpraes,ger,ipf} {вперед=ADV=},
+{у=PR=} {нога=S,f,inan=gen,pl} {разбиваться=V,intr=inpraes,sg,indic,3p,pf} {нещадно=ADV=}
+{и=CONJ=} {жадно=ADV=} {я=SPRO,sg,1p=(acc|gen)} {обдавать=V,tran=inpraes,sg,indic,3p,ipf},
+{бессильный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {пена=S,f,inan=ins,sg} {хладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {за=PR=} {дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {черта=S,f,inan=ins,sg}
+{жить=V,ipf,intr=inpraes,sg,indic,3p} {ли=PART=} {лазурный=A=(acc,sg,plen,n|nom,sg,plen,n)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{теперь=ADV=} {я=SPRO,sg,1p=nom} {внимать=V,intr=inpraes,sg,indic,1p,ipf} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}
+{и=CONJ=} {все=ADV=} {нарастать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

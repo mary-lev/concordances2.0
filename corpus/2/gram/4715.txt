@@ -1,158 +1,19 @@
-вероятно=ADV,parenth=
-,_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-предыдущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-я=SPRO,sg,1p=nom
-_
-зарезать=V,pf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-_
-и=CONJ=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-,\n
-если=CONJ=
-_
-в=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\u2014_
-боже=S,voc,sg,m,anim=
-_
-присносущий?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_\u2014\n
-так=ADVPRO=
-_
-позорно=ADV=
-_
-осуждать=V=praet,sg,partcp,brev,m,pf,pass,tran
-_
-страдать=V,ipf,intr=inf
-.\n\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-как=CONJ=
-_
-мертвец=S,m,anim=nom,sg
-,_
-спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-дело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-чужой=A,plen=(nom,pl|acc,pl,inan)
-,_
-не=PART=
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,\n
-лишь=PART=
-_
-томление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-вовсе=ADV=
-_
-недостойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-вовсе=ADV=
-_
-платонический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-ах=INTJ=
-,_
-бежать=V,intr=(inf,ipf|inf,pf)
-_
-бы=PART=
-,_
-скрываться=V,intr=inf,pf
-_
-бы=PART=
-,_
-как=CONJ=
-_
-вор=S,m,anim=dat,sg
-,\n
-в=PR=
-_
-африка=S,geo,f,inan=acc,sg
-,_
-как=CONJ=
-_
-прежде=ADV=
-,_
-как=CONJ=
-_
-тогда=ADVPRO=
-,\n
-ложиться=V,intr=inf,pf
-_
-под=PR=
-_
-царственный=A=acc,sg,plen,f
-_
-сикомор=S,m,inan=dat,sg
-\n
-и=CONJ=
-_
-не=PART=
-_
-подыматься=V,ipf,intr=inf
-_
-никогда=ADVPRO=
-.\n\n
-бархат=S,m,inan=ins,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-покрывать=V=inpraes,sg,indic,3p,pf
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-луна=S,f,inan=nom,sg
-_
-одевать=V,tran=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-серебро=S,sg,n,inan=(acc|nom)
-,\n
-и=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-не=PART=
-_
-припоминать=V,tran=inpraes,sg,indic,3p,pf
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-когда-то=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-служить=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-бюро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n
+{вероятно=ADV,parenth=}, {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {предыдущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{я=SPRO,sg,1p=nom} {зарезать=V,pf,tran=praet,sg,indic,m} {и=CONJ=} {отец=S,m,anim=(acc,sg|gen,sg)} {и=CONJ=} {мать=S,f,anim=(acc,sg|nom,sg)},
+{если=CONJ=} {в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} — {боже=S,voc,sg,m,anim=} {присносущий?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! —
+{так=ADVPRO=} {позорно=ADV=} {осуждать=V=praet,sg,partcp,brev,m,pf,pass,tran} {страдать=V,ipf,intr=inf}.
+
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {как=CONJ=} {мертвец=S,m,anim=nom,sg}, {спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {чужой=A,plen=(nom,pl|acc,pl,inan)}, {не=PART=} {мой=APRO=(nom,pl|acc,pl,inan)},
+{лишь=PART=} {томление=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вовсе=ADV=} {недостойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{вовсе=ADV=} {платонический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{ах=INTJ=}, {бежать=V,intr=(inf,ipf|inf,pf)} {бы=PART=}, {скрываться=V,intr=inf,pf} {бы=PART=}, {как=CONJ=} {вор=S,m,anim=dat,sg},
+{в=PR=} {африка=S,geo,f,inan=acc,sg}, {как=CONJ=} {прежде=ADV=}, {как=CONJ=} {тогда=ADVPRO=},
+{ложиться=V,intr=inf,pf} {под=PR=} {царственный=A=acc,sg,plen,f} {сикомор=S,m,inan=dat,sg}
+{и=CONJ=} {не=PART=} {подыматься=V,ipf,intr=inf} {никогда=ADVPRO=}.
+
+{бархат=S,m,inan=ins,sg} {я=SPRO,sg,1p=(acc|gen)} {покрывать=V=inpraes,sg,indic,3p,pf} {вечер=S,m,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {луна=S,f,inan=nom,sg} {одевать=V,tran=inpraes,sg,indic,3p,pf} {в=PR=} {серебро=S,sg,n,inan=(acc|nom)},
+{и=CONJ=} {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {не=PART=} {припоминать=V,tran=inpraes,sg,indic,3p,pf} {ветер=S,m,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {когда-то=ADVPRO=} {я=SPRO,sg,1p=nom} {служить=V,ipf,tran=praet,sg,indic,m} {в=PR=} {бюро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.

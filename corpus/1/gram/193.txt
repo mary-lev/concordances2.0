@@ -1,104 +1,14 @@
-при=PR=
-_
-жолт=S,persn,m,anim=ins,sg
-_
-свет=S,sg,m,inan=abl
-_
-веселиться=V,ipf,intr=praet,pl,indic
-,_\n
-весь=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-стена=S,f,inan=gen,pl
-_
-сжиматься=V,intr=praet,sg,indic,m,ipf
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-,_\n
-ряд=S,m,inan=(acc,pl|nom,pl)
-_
-танцующий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-двоиться=V,ipf,intr=praet,pl,indic
-,_\n
-и=CONJ=
-_
-мниться=V,ipf,intr=praet,sg,indic,m
-_
-неотступный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-друг=S,m,anim=nom,sg
-.\n\n
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-подымать=V=praet,sg,indic,n,ipf,tran
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-на=PR=
-_
-лицо=S,n,inan=abl,pl
-_
-отражаться=V,intr=praet,sg,indic,m,ipf
-_
-зной=S,m,inan=(acc,sg|nom,sg)
-._\n
-я=SPRO,sg,1p=nom
-_
-проходить=V=(praet,sg,indic,m,pf,tran|praet,sg,indic,m,ipf,tran)
-_
-с=PR=
-_
-мечта=S,f,inan=ins,sg
-_
-о=PR=
-_
-чудо=S,n,inan=abl,sg
-,_\n
-томить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)
-_
-похоть=S,f,inan=ins,sg
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-...\n\n
-казаться=V,ipf,intr=praet,sg,indic,n
-,_
-там=ADVPRO=
-,_
-за=PR=
-_
-дымка=S,f,inan=ins,sg
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-в=PR=
-_
-толпа=S,f,inan=(abl,sg|dat,sg)
-_
-скрываться=V,intr=inpraes,ger,ipf
-,_
-кто-то=SPRO,sg,m,anim=nom
-_
-жить=V,ipf,intr=praet,sg,indic,m
-,_\n
-и=CONJ=
-_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-странный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-следить=V,ipf,intr=praet,pl,indic
-,_\n
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-говорить=V,ipf,tran=praet,sg,indic,m
-...\n
+{при=PR=} {жолт=S,persn,m,anim=ins,sg} {свет=S,sg,m,inan=abl} {веселиться=V,ipf,intr=praet,pl,indic}, 
+{весь=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {у=PR=} {стена=S,f,inan=gen,pl} {сжиматься=V,intr=praet,sg,indic,m,ipf} {круг=S,m,inan=(acc,sg|nom,sg)}, 
+{ряд=S,m,inan=(acc,pl|nom,pl)} {танцующий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {двоиться=V,ipf,intr=praet,pl,indic}, 
+{и=CONJ=} {мниться=V,ipf,intr=praet,sg,indic,m} {неотступный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {друг=S,m,anim=nom,sg}.
+
+{желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {подымать=V=praet,sg,indic,n,ipf,tran} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{на=PR=} {лицо=S,n,inan=abl,pl} {отражаться=V,intr=praet,sg,indic,m,ipf} {зной=S,m,inan=(acc,sg|nom,sg)}. 
+{я=SPRO,sg,1p=nom} {проходить=V=(praet,sg,indic,m,pf,tran|praet,sg,indic,m,ipf,tran)} {с=PR=} {мечта=S,f,inan=ins,sg} {о=PR=} {чудо=S,n,inan=abl,sg}, 
+{томить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)} {похоть=S,f,inan=ins,sg} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}...
+
+{казаться=V,ipf,intr=praet,sg,indic,n}, {там=ADVPRO=}, {за=PR=} {дымка=S,f,inan=ins,sg} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{в=PR=} {толпа=S,f,inan=(abl,sg|dat,sg)} {скрываться=V,intr=inpraes,ger,ipf}, {кто-то=SPRO,sg,m,anim=nom} {жить=V,ipf,intr=praet,sg,indic,m}, 
+{и=CONJ=} {око=S,n,inan=(acc,pl|nom,pl)} {странный=A=(acc,pl,plen,inan|nom,pl,plen)} {следить=V,ipf,intr=praet,pl,indic}, 
+{и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} {петь=V,ipf,tran=praet,sg,indic,m} {и=CONJ=} {говорить=V,ipf,tran=praet,sg,indic,m}...

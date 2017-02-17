@@ -1,86 +1,14 @@
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-,_
-над=PR=
-_
-море=S,n,inan=ins,sg
-_
-серый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-змей=S,m,anim=nom,sg
--
-горыныч?=S,patrn,m,anim=nom,sg
-_
-пролетать=V,ipf,tran=praet,sg,indic,m
-.\n
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-отблеск=S,m,inan=abl,pl
-_
-гореть=V,ipf,intr=praet,sg,indic,n
-,\n
-отсвет=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-багровый=A=sg,brev,n
--
-алый=A=sg,brev,m
-.\n\n
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-спать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-броненосец=S,m,inan=gen,pl
-,\n
-чайка=S,f,anim=(acc,pl|gen,pl)
-_
-парусный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-озаряться=V,intr=praet,pl,indic,pf
-_
-блеск=S,m,inan=ins,sg
-_
-грозный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-там=ADVPRO=
-,_
-где=ADVPRO=
-_
-зыблиться?=V,ipf,intr=praet,sg,indic,f
-_
-вода=S,f,inan=nom,sg
-.\n\n
-сеять=V,ipf,tran=inpraes,ger
-_
-огненный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-искра=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-закатываться=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-туча=S,f,inan=acc,sg
-_
-змея=S,f,anim=(acc,pl|gen,pl)
-;\n
-и=CONJ=
-_
-зажигаться=V,intr=praet,pl,indic,pf
-_
-румянец=S,m,inan=ins,sg
-_
-быстрый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-облачный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-фея=S,f,anim=(acc,pl|gen,pl)
-.\n
+{видеть=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom}, {над=PR=} {море=S,n,inan=ins,sg} {серый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{змей=S,m,anim=nom,sg}-{горыныч?=S,patrn,m,anim=nom,sg} {пролетать=V,ipf,tran=praet,sg,indic,m}.
+{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {отблеск=S,m,inan=abl,pl} {гореть=V,ipf,intr=praet,sg,indic,n},
+{отсвет=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {багровый=A=sg,brev,n}-{алый=A=sg,brev,m}.
+
+{труба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {спать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {броненосец=S,m,inan=gen,pl},
+{чайка=S,f,anim=(acc,pl|gen,pl)} {парусный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{озаряться=V,intr=praet,pl,indic,pf} {блеск=S,m,inan=ins,sg} {грозный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{там=ADVPRO=}, {где=ADVPRO=} {зыблиться?=V,ipf,intr=praet,sg,indic,f} {вода=S,f,inan=nom,sg}.
+
+{сеять=V,ipf,tran=inpraes,ger} {огненный=A=(acc,pl,plen,inan|nom,pl,plen)} {искра=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{закатываться=V,intr=praet,sg,indic,m,pf} {в=PR=} {туча=S,f,inan=acc,sg} {змея=S,f,anim=(acc,pl|gen,pl)};
+{и=CONJ=} {зажигаться=V,intr=praet,pl,indic,pf} {румянец=S,m,inan=ins,sg} {быстрый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{крыло=S,n,inan=(acc,pl|nom,pl)} {облачный=A=(acc,pl,plen,inan|nom,pl,plen)} {фея=S,f,anim=(acc,pl|gen,pl)}.

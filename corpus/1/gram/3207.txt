@@ -1,124 +1,16 @@
-лето=S,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-слишком=ADV=
-_
-знойно=ADV=
-,\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-жечь=V,ipf,tran=praet,sg,indic,n
-_
-с=PR=
-_
-небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-круча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-тяжело=ADV=
-_
-и=CONJ=
-_
-беспокойно=ADV=
-,\n
-словно=CONJ=
-_
-лев=S,m,anim=nom,pl
-,_
-бродить=V,ipf,intr=praet,pl,indic
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-в=PR=
-_
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-лето=S,sg,n,inan=(acc|nom)
-_
-пробегать=V,ipf,intr=praet,sg,indic,n
-\n
-в=PR=
-_
-мысль=S,f,inan=abl,pl
-,_
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-,_
-в=PR=
-_
-природа=S,f,inan=(abl,sg|dat,sg)
-\n
-золотой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-покрывало=S,n,inan=(acc,sg|nom,sg)
-\n
-из=PR=
-_
-гротеска?=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-пародия=S,f,inan=gen,pl
-.\n
-точно=ADV=
-_
-кто-то=SPRO,sg,m,anim=nom
-,_
-мы=SPRO,pl,1p=dat
-_
-знакомый=S,m,anim=nom,sg
-,\n
-уходить=V,intr=praet,sg,indic,m,ipf
-_
-к=PR=
-_
-предел=S,m,inan=dat,pl
-_
-рай=S,sg,m,inan=gen
-,\n
-а=CONJ=
-_
-за=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-спешить=V,ipf,intr=praet,pl,indic
-_
-гном=S,m,anim=nom,pl
-\n
-и=CONJ=
-_
-кружиться=V,ipf,intr=praet,sg,indic,f
-_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-седой=A=nom,sg,plen,f
-.\n
-и=CONJ=
-_
-с=PR=
-_
-тяжелый=A=ins,sg,plen,f
-_
-печаль=S,f,inan=ins,sg
-\n
-наклонилися?=S,persn,f,anim=nom,sg
-_
-к=PR=
-_
-бессилие=S,n,inan=dat,sg
-\n
-мы=SPRO,pl,1p=nom
-,_
-обманывать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-даль=S,f,inan=ins,sg
-\n
-и=CONJ=
-_
-захватить=V,pf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)
-_
-пыль=S,f,inan=ins,sg
-.\n
+{лето=S,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {слишком=ADV=} {знойно=ADV=},
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {жечь=V,ipf,tran=praet,sg,indic,n} {с=PR=} {небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {круча=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{тяжело=ADV=} {и=CONJ=} {беспокойно=ADV=},
+{словно=CONJ=} {лев=S,m,anim=nom,pl}, {бродить=V,ipf,intr=praet,pl,indic} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{в=PR=} {этот=APRO=(acc,sg,n|nom,sg,n)} {лето=S,sg,n,inan=(acc|nom)} {пробегать=V,ipf,intr=praet,sg,indic,n}
+{в=PR=} {мысль=S,f,inan=abl,pl}, {в=PR=} {воздух=S,m,inan=abl,sg}, {в=PR=} {природа=S,f,inan=(abl,sg|dat,sg)}
+{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {покрывало=S,n,inan=(acc,sg|nom,sg)}
+{из=PR=} {гротеска?=S,f,inan=gen,pl} {и=CONJ=} {пародия=S,f,inan=gen,pl}.
+{точно=ADV=} {кто-то=SPRO,sg,m,anim=nom}, {мы=SPRO,pl,1p=dat} {знакомый=S,m,anim=nom,sg},
+{уходить=V,intr=praet,sg,indic,m,ipf} {к=PR=} {предел=S,m,inan=dat,pl} {рай=S,sg,m,inan=gen},
+{а=CONJ=} {за=PR=} {он=SPRO,sg,3p,m=ins} {спешить=V,ipf,intr=praet,pl,indic} {гном=S,m,anim=nom,pl}
+{и=CONJ=} {кружиться=V,ipf,intr=praet,sg,indic,f} {пыль=S,f,inan=(acc,sg|nom,sg)} {седой=A=nom,sg,plen,f}.
+{и=CONJ=} {с=PR=} {тяжелый=A=ins,sg,plen,f} {печаль=S,f,inan=ins,sg}
+{наклонилися?=S,persn,f,anim=nom,sg} {к=PR=} {бессилие=S,n,inan=dat,sg}
+{мы=SPRO,pl,1p=nom}, {обманывать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {даль=S,f,inan=ins,sg}
+{и=CONJ=} {захватить=V,pf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)} {пыль=S,f,inan=ins,sg}.

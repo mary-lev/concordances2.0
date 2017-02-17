@@ -1,80 +1,14 @@
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-серп=S,m,inan=ins,sg
-_
-умирающий=S,m,anim=(dat,pl|ins,sg)
-\n
-смутно=ADV=
-_
-висеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-над=PR=
-_
-дерево=S,n,inan=ins,pl
-;\n
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вставать=V,intr=inpraes,pl,indic,3p,ipf
-_
-умоляющий=A=sg,brev,n
-,\n
-тянуться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ветвь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-видение=S,n,inan=ins,pl
-.\n\n
-здание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-одевать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-туман=S,m,inan=ins,pl
-,\n
-линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-гаснуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-мучительно=ADV=
-,\n
-человек=S,m,anim=nom,pl
-_\u2014_
-как=CONJ=
-_
-призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)
-_
-странный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-конка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-скользить=V,ipf,intr=inpraes,pl,indic,3p
-_
-так=ADVPRO=
-_
-таинственно=ADV=
-.\n\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-непонятно=ADV,praed=
--
-пугать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-,\n
-чуждый=A=nom,sg,plen,f
-_
-взор=S,m,inan=dat,pl
-_
-вселенная=S,f,inan=nom,sg
-!\n\u2014_
-месяц=S,m,inan=(acc,sg|nom,sg)
-,_
-лишь=PART=
-_
-ты=SPRO,sg,2p=nom
-,_
-умирающий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-вечно=ADV=
-_
-твердить=V,ipf,tran=inpraes,sg,indic,2p
-_
-неизменный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
+{месяц=S,m,inan=(acc,sg|nom,sg)} {серп=S,m,inan=ins,sg} {умирающий=S,m,anim=(dat,pl|ins,sg)}
+{смутно=ADV=} {висеть=V,ipf,intr=inpraes,sg,indic,3p} {над=PR=} {дерево=S,n,inan=ins,pl};
+{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вставать=V,intr=inpraes,pl,indic,3p,ipf} {умоляющий=A=sg,brev,n},
+{тянуться=V,ipf,intr=inpraes,pl,indic,3p} {ветвь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {видение=S,n,inan=ins,pl}.
+
+{здание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {одевать=V,tran=praet,pl,partcp,brev,pf,pass} {туман=S,m,inan=ins,pl},
+{линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гаснуть=V,ipf,intr=inpraes,pl,indic,3p} {мучительно=ADV=},
+{человек=S,m,anim=nom,pl} — {как=CONJ=} {призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {странный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{конка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {скользить=V,ipf,intr=inpraes,pl,indic,3p} {так=ADVPRO=} {таинственно=ADV=}.
+
+{мир=S,m,inan=(acc,sg|nom,sg)} {непонятно=ADV,praed=}-{пугать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)},
+{чуждый=A=nom,sg,plen,f} {взор=S,m,inan=dat,pl} {вселенная=S,f,inan=nom,sg}!
+— {месяц=S,m,inan=(acc,sg|nom,sg)}, {лишь=PART=} {ты=SPRO,sg,2p=nom}, {умирающий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{вечно=ADV=} {твердить=V,ipf,tran=inpraes,sg,indic,2p} {неизменный=A=(acc,sg,plen,n|nom,sg,plen,n)}.

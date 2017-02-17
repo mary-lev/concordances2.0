@@ -1,90 +1,14 @@
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-полный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-уныние=S,n,inan=ins,sg
-,\n
-обольщать=V=sg,imper,2p,pf
-_
-луч=S,m,inan=ins,sg
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-предел=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-беспощадно=ADV=
-_
-оборвать=V,pf,tran=sg,imper,2p
-!\n\n
-пусть=PART=
-_
-во=PR=
-_
-мрак=S,m,inan=abl,sg
-_
-неуверенный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-плакать=V,ipf,intr=inpraes,pl,indic,3p
-_
-призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)
-_
-вокруг=ADV=
-,\n
-пусть=PART=
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-,_
-в=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-затерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-через=PR=
-_
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-луг=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-тогда=ADVPRO=
-,_
-обман=S,m,inan=dat,pl
-_
-преданный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-счастливый=A=sg,brev,m
-_
-греза=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-петь=V,ipf,tran=inf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-гимн=S,m,inan=(acc,sg|nom,sg)
-_
-неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-скала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-движ?=S,geo,sg,m,inan=gen
-,_
-как=CONJ=
-_
-орфей=S,persn,m,anim=nom,sg
-!\n
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {полный=A=(acc,sg,plen,n|nom,sg,plen,n)} {уныние=S,n,inan=ins,sg},
+{обольщать=V=sg,imper,2p,pf} {луч=S,m,inan=ins,sg} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{все=SPRO,pl=(acc|nom)} {предел=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{беспощадно=ADV=} {оборвать=V,pf,tran=sg,imper,2p}!
+
+{пусть=PART=} {во=PR=} {мрак=S,m,inan=abl,sg} {неуверенный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{плакать=V,ipf,intr=inpraes,pl,indic,3p} {призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {вокруг=ADV=},
+{пусть=PART=} {идти=V,ipf,intr=inpraes,sg,indic,1p}, {в=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {затерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{через=PR=} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луг=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {тогда=ADVPRO=}, {обман=S,m,inan=dat,pl} {преданный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{счастливый=A=sg,brev,m} {греза=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{быть=V,intr=inpraes,sg,indic,1p} {петь=V,ipf,tran=inf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {гимн=S,m,inan=(acc,sg|nom,sg)} {неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{скала=S,f,inan=(acc,pl|gen,sg|nom,pl)} {движ?=S,geo,sg,m,inan=gen}, {как=CONJ=} {орфей=S,persn,m,anim=nom,sg}!

@@ -1,62 +1,11 @@
-слишком=ADV=
-_
-легкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-плащ=S,m,inan=ins,sg
-_
-одевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-повторять=V,tran=inpraes,sg,indic,1p,ipf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-обет=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-трепать=V,ipf,tran=inpraes,sg,indic,3p
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-не=PART=
-_
-оставлять=V,tran=inf,pf
-_
-ли=PART=
-_
-мы=SPRO,pl,1p=dat
-_
-надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_
-пускай=PART=
-_
-скиталец=S,m,anim=nom,pl
-\n
-безотчетный=A=sg,brev,n
-_
-сжимать=V=inpraes,pl,indic,3p,ipf,tran
-_
-палец=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-неутомимо=ADV=
-,\n
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-вечно=ADV=
-_
-и=CONJ=
-_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-мимо=ADV=
-.\n
+{слишком=ADV=} {легкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {плащ=S,m,inan=ins,sg} {одевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{повторять=V,tran=inpraes,sg,indic,1p,ipf} {свой=APRO=(nom,pl|acc,pl,inan)} {обет=S,m,inan=(acc,pl|nom,pl)}.
+
+{ветер=S,m,inan=(acc,sg|nom,sg)} {трепать=V,ipf,tran=inpraes,sg,indic,3p} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{не=PART=} {оставлять=V,tran=inf,pf} {ли=PART=} {мы=SPRO,pl,1p=dat} {надежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+
+{плащ=S,m,inan=(acc,sg|nom,sg)} {холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {пускай=PART=} {скиталец=S,m,anim=nom,pl}
+{безотчетный=A=sg,brev,n} {сжимать=V=inpraes,pl,indic,3p,ipf,tran} {палец=S,m,inan=(acc,pl|nom,pl)}.
+
+{ветер=S,m,inan=(acc,sg|nom,sg)} {веять=V,ipf,tran=inpraes,sg,indic,3p} {неутомимо=ADV=},
+{веять=V,ipf,tran=inpraes,sg,indic,3p} {вечно=ADV=} {и=CONJ=} {веять=V,ipf,tran=inpraes,sg,indic,3p} {мимо=ADV=}.

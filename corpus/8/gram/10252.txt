@@ -1,88 +1,14 @@
-неколебимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-истина=S,f,inan=(abl,sg|dat,sg)
-\n
-не=PART=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-давно=ADV=
-,\n
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-,_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-равный=A=sg,brev,n
-.\n\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-чтоб=CONJ=
-_
-всюду=ADVPRO=
-_
-плавать=V,ipf,intr=praet,sg,indic,f
-\n
-свободный=A=nom,sg,plen,f
-_
-ладья=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-господь=S,sg,m,anim=(acc|gen)
-_
-и=CONJ=
-_
-дьявол=S,m,anim=(acc,sg|gen,sg)
-\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-прославлять=V,tran=inf,pf
-_
-я=SPRO,sg,1p=nom
-.\n\n
-когда=ADVPRO=
-_
-же=PART=
-_
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-саван=S,m,inan=abl,sg
-\n
-уснуть=V,pf,intr=inpraes,sg,indic,1p
-,_
-пускай=PART=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-гавань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-чреда=S,f,inan=ins,sg
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
+{неколебимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {истина=S,f,inan=(abl,sg|dat,sg)}
+{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {давно=ADV=},
+{и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{любить=V,ipf,tran=inpraes,sg,indic,1p}, {любить=V,ipf,tran=inpraes,sg,indic,1p} {равный=A=sg,brev,n}.
+
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p}, {чтоб=CONJ=} {всюду=ADVPRO=} {плавать=V,ipf,intr=praet,sg,indic,f}
+{свободный=A=nom,sg,plen,f} {ладья=S,f,inan=nom,sg},
+{и=CONJ=} {господь=S,sg,m,anim=(acc|gen)} {и=CONJ=} {дьявол=S,m,anim=(acc,sg|gen,sg)}
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {прославлять=V,tran=inf,pf} {я=SPRO,sg,1p=nom}.
+
+{когда=ADVPRO=} {же=PART=} {в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {саван=S,m,inan=abl,sg}
+{уснуть=V,pf,intr=inpraes,sg,indic,1p}, {пускай=PART=} {во=PR=} {сон=S,m,inan=abl,sg}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {гавань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{чреда=S,f,inan=ins,sg} {сниться=V,ipf,intr=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.

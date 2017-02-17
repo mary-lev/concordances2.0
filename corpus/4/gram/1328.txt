@@ -1,98 +1,13 @@
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-вечеря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-стена=S,f,inan=acc,sg
-_
-влюбляться=V,intr=praet,sg,indic,n,pf
-,_\u2014_\n
-все=SPRO,pl=(acc|nom)
-_
-изрубать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_
-свет=S,sg,m,inan=ins
-_
-рубцов=S,famn,m,anim=nom,sg
-_\u2014_\n
-проваливаться=V,intr=praet,sg,indic,n,pf
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-,_
-освещаться=V,intr=praet,sg,indic,n,pf
-,\n
-превращаться=V,intr=praet,sg,indic,n,pf
-_
-в=PR=
-_
-тринадцать=NUM=(acc|nom)
-_
-голова=S,f,inan=gen,pl
-.\n\n
-вот=PART=
-_
-оно=SPRO,sg,3p,n=nom
-_\u2014_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-ночной=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-пред=PR=
-_
-который=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-как=CONJ=
-_
-мальчик=S,m,anim=nom,sg
-_
-стоять=V,ipf,intr=inpraes,sg,indic,1p
-:\n
-холодеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-спина=S,f,inan=nom,sg
-,_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-ныть=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-стенобитный=A=acc,sg,plen,f
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-ловить=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014\n\n
-и=CONJ=
-_
-под=PR=
-_
-каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-удар=S,m,inan=ins,sg
-_
-таран=S,m,inan=gen,sg
-\n
-осыпаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-без=PR=
-_
-глава=S,f,inan=gen,pl
-:\n
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-же=PART=
-_
-роспись=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рана=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
+{небо=S,n,inan=(acc,sg|nom,sg)} {вечеря=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {стена=S,f,inan=acc,sg} {влюбляться=V,intr=praet,sg,indic,n,pf}, — 
+{все=SPRO,pl=(acc|nom)} {изрубать=V,tran=praet,sg,partcp,brev,n,pf,pass} {свет=S,sg,m,inan=ins} {рубцов=S,famn,m,anim=nom,sg} — 
+{проваливаться=V,intr=praet,sg,indic,n,pf} {в=PR=} {она=SPRO,sg,3p,f=(acc|gen)}, {освещаться=V,intr=praet,sg,indic,n,pf},
+{превращаться=V,intr=praet,sg,indic,n,pf} {в=PR=} {тринадцать=NUM=(acc|nom)} {голова=S,f,inan=gen,pl}.
+
+{вот=PART=} {оно=SPRO,sg,3p,n=nom} — {мой=APRO=(acc,sg,n|nom,sg,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{пред=PR=} {который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {как=CONJ=} {мальчик=S,m,anim=nom,sg} {стоять=V,ipf,intr=inpraes,sg,indic,1p}:
+{холодеть=V,ipf,intr=inpraes,sg,indic,3p} {спина=S,f,inan=nom,sg}, {око=S,n,inan=(acc,pl|nom,pl)} {ныть=V,ipf,intr=inpraes,pl,indic,3p}.
+{стенобитный=A=acc,sg,plen,f} {твердь=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom} {ловить=V,ipf,tran=inpraes,sg,indic,1p} —
+
+{и=CONJ=} {под=PR=} {каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {удар=S,m,inan=ins,sg} {таран=S,m,inan=gen,sg}
+{осыпаться=V,ipf,intr=inpraes,pl,indic,3p} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {без=PR=} {глава=S,f,inan=gen,pl}:
+{тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} {роспись=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {рана=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 

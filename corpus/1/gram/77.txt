@@ -1,108 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-выходить=V,intr=praet,sg,indic,m,pf
-._
-медленно=ADV=
-_
-сходить=V,intr=praet,pl,indic,ipf
-\n
-на=PR=
-_
-земля=S,f,inan=acc,sg
-_
-сумерки=S,pl,inan=(acc|nom)
-_
-зима=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-минувший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-_
-младой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-быть=V,intr=praet,pl,indic,ipf
-\n
-приходить=V,intr=praet,pl,indic,pf
-_
-доверчиво=ADV=
-_
-из=PR=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-приходить=V,intr=praet,pl,indic,pf
-_
-и=CONJ=
-_
-вставать=V,intr=praet,pl,indic,pf
-_
-за=PR=
-_
-плечо=S,n,inan=ins,pl
-,\n
-и=CONJ=
-_
-петь=V,ipf,tran=praet,pl,indic
-_
-с=PR=
-_
-ветер=S,m,inan=ins,sg
-_
-о=PR=
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-...\n
-и=CONJ=
-_
-тихий=A=ins,pl,plen
-_
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-шаг=S,m,inan=ins,pl
-,\n
-провидеть=V,ipf,tran=inpraes,ger
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-глубина=S,f,inan=(abl,sg|dat,sg)
-...\n\n
-о=PR=
-,_
-хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)
-_
-день=S,m,inan=gen,pl
-_
-живой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-быть=V,intr=praet,pl,indic,ipf
-!\n
-под=PR=
-_
-ваш=APRO=acc,sg,f
-_
-песнь=S,f,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-земля=S,f,inan=acc,sg
-_
-сумерки=S,pl,inan=(acc|nom)
-_
-сходить=V,intr=praet,pl,indic,ipf
-\n
-и=CONJ=
-_
-вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вставать=V,intr=praet,pl,indic,ipf
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-!..\n
+{я=SPRO,sg,1p=nom} {выходить=V,intr=praet,sg,indic,m,pf}. {медленно=ADV=} {сходить=V,intr=praet,pl,indic,ipf}
+{на=PR=} {земля=S,f,inan=acc,sg} {сумерки=S,pl,inan=(acc|nom)} {зима=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{минувший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl} {младой=A=(acc,pl,plen,inan|nom,pl,plen)} {быть=V,intr=praet,pl,indic,ipf}
+{приходить=V,intr=praet,pl,indic,pf} {доверчиво=ADV=} {из=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{приходить=V,intr=praet,pl,indic,pf} {и=CONJ=} {вставать=V,intr=praet,pl,indic,pf} {за=PR=} {плечо=S,n,inan=ins,pl},
+{и=CONJ=} {петь=V,ipf,tran=praet,pl,indic} {с=PR=} {ветер=S,m,inan=ins,sg} {о=PR=} {весна=S,f,inan=(abl,sg|dat,sg)}...
+{и=CONJ=} {тихий=A=ins,pl,plen} {я=SPRO,sg,1p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {шаг=S,m,inan=ins,pl},
+{провидеть=V,ipf,tran=inpraes,ger} {вечность=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {глубина=S,f,inan=(abl,sg|dat,sg)}...
+
+{о=PR=}, {хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)} {день=S,m,inan=gen,pl} {живой=A=(acc,pl,plen,inan|nom,pl,plen)} {быть=V,intr=praet,pl,indic,ipf}!
+{под=PR=} {ваш=APRO=acc,sg,f} {песнь=S,f,inan=(acc,sg|nom,sg)} {из=PR=} {глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {земля=S,f,inan=acc,sg} {сумерки=S,pl,inan=(acc|nom)} {сходить=V,intr=praet,pl,indic,ipf}
+{и=CONJ=} {вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вставать=V,intr=praet,pl,indic,ipf} {сон=S,m,inan=(acc,pl|nom,pl)}!..

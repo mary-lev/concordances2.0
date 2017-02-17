@@ -1,150 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-восходить=V,intr=praet,sg,indic,m,ipf
-_
-на=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-иной=APRO=(nom,pl|acc,pl,inan)
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-факел=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-и=CONJ=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-совиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-божий=A,plen=nom,sg,f
-_
-роса=S,f,inan=nom,sg
-.\n\n
-за=PR=
-_
-я=SPRO,sg,1p=ins
-!_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-!_
-ты=SPRO,sg,2p=nom
-_
-молить=V,ipf,tran=inpraes,sg,indic,2p
-_
-взгляд=S,m,inan=ins,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,2p
-_
-бросать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-_
-слово=S,n,inan=dat,pl
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-дважды=ADV=
-_
-чаша=S,f,inan=acc,sg
-_
-с=PR=
-_
-яд=S,m,inan=ins,sg
-\n
-я=SPRO,sg,1p=nom
-_
-подносить=V=inpraes,sg,indic,1p,pf
-_
-к=PR=
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-губа=S,f,inan=dat,pl
-!\n\n
-о=PR=
-,_
-нет=PART=
-!_
-я=SPRO,sg,1p=nom
-_
-сжигать=V=praet,sg,indic,m,pf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-примета=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-испепелять=V,tran=praet,sg,indic,m,pf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-след=S,m,inan=(acc,pl|nom,pl)
-!\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-забытый=A=sg,brev,n
-,_
-недопевать?=V,tran=praet,sg,partcp,brev,n,pf,pass
-,\n
-не=PART=
-_
-возвращаться=V,intr=inpraes,sg,indic,3p,pf
-_
-до=PR=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_-\n\n
-до=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-близость=S,f,inan=(acc,sg|nom,sg)
-\n
-познавать=V,tran=praet,ger,pf
-,_-_
-сторицей=ADV=
-_
-отплачивать=V=inpraes,sg,indic,1p,pf,tran
-\n
-за=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-величие=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-низость=S,f,inan=(acc,sg|nom,sg)
-,\n
-который=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-тяжкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-груз=S,m,inan=(acc,sg|nom,sg)
-_
-влачить=V,ipf,tran=inpraes,sg,indic,1p
-!\n
+{я=SPRO,sg,1p=nom} {восходить=V,intr=praet,sg,indic,m,ipf} {на=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{смотреть=V,ipf,tran=praet,sg,indic,m} {в=PR=} {иной=APRO=(nom,pl|acc,pl,inan)} {небо=S,n,inan=(acc,pl|nom,pl)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {факел=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {и=CONJ=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {совиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {божий=A,plen=nom,sg,f} {роса=S,f,inan=nom,sg}.
+
+{за=PR=} {я=SPRO,sg,1p=ins}! {за=PR=} {я=SPRO,sg,1p=ins}! {ты=SPRO,sg,2p=nom} {молить=V,ipf,tran=inpraes,sg,indic,2p} {взгляд=S,m,inan=ins,sg},
+{ты=SPRO,sg,2p=nom} {верить=V,ipf,intr=inpraes,sg,indic,2p} {бросать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {слово=S,n,inan=dat,pl},
+{как=ADVPRO=} {будто=PART=} {дважды=ADV=} {чаша=S,f,inan=acc,sg} {с=PR=} {яд=S,m,inan=ins,sg}
+{я=SPRO,sg,1p=nom} {подносить=V=inpraes,sg,indic,1p,pf} {к=PR=} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {губа=S,f,inan=dat,pl}!
+
+{о=PR=}, {нет=PART=}! {я=SPRO,sg,1p=nom} {сжигать=V=praet,sg,indic,m,pf} {свой=APRO=(nom,pl|acc,pl,inan)} {примета=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{испепелять=V,tran=praet,sg,indic,m,pf} {свой=APRO=(nom,pl|acc,pl,inan)} {след=S,m,inan=(acc,pl|nom,pl)}!
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {забытый=A=sg,brev,n}, {недопевать?=V,tran=praet,sg,partcp,brev,n,pf,pass},
+{не=PART=} {возвращаться=V,intr=inpraes,sg,indic,3p,pf} {до=PR=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} -
+
+{до=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {близость=S,f,inan=(acc,sg|nom,sg)}
+{познавать=V,tran=praet,ger,pf}, - {сторицей=ADV=} {отплачивать=V=inpraes,sg,indic,1p,pf,tran}
+{за=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {величие=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {низость=S,f,inan=(acc,sg|nom,sg)},
+{который=APRO=(abl,pl|gen,pl|acc,pl,anim)} {тяжкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {груз=S,m,inan=(acc,sg|nom,sg)} {влачить=V,ipf,tran=inpraes,sg,indic,1p}!

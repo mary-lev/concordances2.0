@@ -1,76 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-улыбаться=V,intr=inpraes,sg,indic,2p,ipf
-_
-кто=SPRO,sg,m,anim=dat
-,\n
-о=PR=
-,_
-путешественник=S,m,anim=nom,sg
-_
-веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-?\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-неведомый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дол=S,m,inan=(acc,pl|nom,pl)
-\n
-благословлять=V,tran=inpraes,sg,indic,2p,ipf
-_
-почему=ADVPRO=
-?\n\n
-никто=SPRO,sg,m,anim=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-проводить=V=inpraes,sg,indic,3p,pf
-\n
-по=PR=
-_
-зеленеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-долина=S,f,inan=dat,pl
-,\n
-и=CONJ=
-_
-рокотание=S,n,inan=ins,sg
-_
-соловьиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-никто=SPRO,sg,m,anim=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-позвать=V,pf,tran=inpraes,sg,indic,3p
-,_\u2014\n\n
-когда=CONJ=
-,_
-закутывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-плащ=S,m,inan=ins,sg
-,\n
-не=PART=
-_
-согревать=V,tran=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)
-,_
-но=CONJ=
-_
-милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-к=PR=
-_
-повелевать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-светило=S,n=(dat,pl,anim|dat,pl,inan)
-\n
-смиренный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-возлетать?=V,intr=inpraes,sg,indic,2p,pf
-_
-луч=S,m,inan=ins,sg
-.\n
+{ты=SPRO,sg,2p=nom} {улыбаться=V,intr=inpraes,sg,indic,2p,ipf} {кто=SPRO,sg,m,anim=dat},
+{о=PR=}, {путешественник=S,m,anim=nom,sg} {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}?
+{ты=SPRO,sg,2p=(abl|dat)} {неведомый=A=(acc,pl,plen,inan|nom,pl,plen)} {дол=S,m,inan=(acc,pl|nom,pl)}
+{благословлять=V,tran=inpraes,sg,indic,2p,ipf} {почему=ADVPRO=}?
+
+{никто=SPRO,sg,m,anim=nom} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {проводить=V=inpraes,sg,indic,3p,pf}
+{по=PR=} {зеленеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {долина=S,f,inan=dat,pl},
+{и=CONJ=} {рокотание=S,n,inan=ins,sg} {соловьиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{никто=SPRO,sg,m,anim=nom} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {позвать=V,pf,tran=inpraes,sg,indic,3p}, —
+
+{когда=CONJ=}, {закутывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {плащ=S,m,inan=ins,sg},
+{не=PART=} {согревать=V,tran=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)}, {но=CONJ=} {милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{к=PR=} {повелевать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {светило=S,n=(dat,pl,anim|dat,pl,inan)}
+{смиренный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {возлетать?=V,intr=inpraes,sg,indic,2p,pf} {луч=S,m,inan=ins,sg}.

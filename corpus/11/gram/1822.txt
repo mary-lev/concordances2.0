@@ -1,100 +1,14 @@
-колокольчик=S,m,inan=(acc,sg|nom,sg)
-_
-среброзвонный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-ты=SPRO,sg,2p=nom
-_
-поесть=V,pf,tran=(inpraes,sg,indic,2p|sg,imper,2p)
-?_
-иль=CONJ=
-_
-сердце=S,n,inan=dat,sg
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-?\n
-свет=S,sg,m,inan=(acc|nom)
-_
-от=PR=
-_
-розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-икона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-златой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-ресница=S,f,inan=abl,pl
-.\n\n
-пусть=PART=
-_
-не=PART=
-_
-я=SPRO,sg,1p=nom
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-отрок=S,m,anim=nom,sg
-\n
-в=PR=
-_
-голубиный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-крыло=S,n,inan=gen,pl
-_
-плеск=S,m,inan=abl,sg
-,\n
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-радостный=A=sg,brev,m
-_
-и=CONJ=
-_
-кроткий=A=sg,brev,m
-\n
-о=PR=
-_
-нездешний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-перелесок=S,m,inan=abl,sg
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-нужный=A=sg,brev,m
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-слово=S,n,inan=dat,sg
-_
-с=PR=
-_
-тайна=S,f,inan=ins,sg
-_
-не=PART=
-_
-обниматься=V,intr=inf,pf
-.\n
-научать=V,tran=sg,imper,2p,pf
-,_
-чтоб=CONJ=
-_
-можно=ADV,praed=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-\n
-никогда=ADVPRO=
-_
-не=PART=
-_
-просыпаться=V,intr=inf,ipf
-.\n
+{колокольчик=S,m,inan=(acc,sg|nom,sg)} {среброзвонный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{ты=SPRO,sg,2p=nom} {поесть=V,pf,tran=(inpraes,sg,indic,2p|sg,imper,2p)}? {иль=CONJ=} {сердце=S,n,inan=dat,sg} {сниться=V,ipf,intr=inpraes,sg,indic,3p}?
+{свет=S,sg,m,inan=(acc|nom)} {от=PR=} {розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {икона=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {златой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ресница=S,f,inan=abl,pl}.
+
+{пусть=PART=} {не=PART=} {я=SPRO,sg,1p=nom} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {отрок=S,m,anim=nom,sg}
+{в=PR=} {голубиный=A=(abl,sg,plen,m|abl,sg,plen,n)} {крыло=S,n,inan=gen,pl} {плеск=S,m,inan=abl,sg},
+{сон=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {радостный=A=sg,brev,m} {и=CONJ=} {кроткий=A=sg,brev,m}
+{о=PR=} {нездешний=A=(abl,sg,plen,m|abl,sg,plen,n)} {перелесок=S,m,inan=abl,sg}.
+
+{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {нужный=A=sg,brev,m} {вздох=S,m,inan=(acc,sg|nom,sg)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{слово=S,n,inan=dat,sg} {с=PR=} {тайна=S,f,inan=ins,sg} {не=PART=} {обниматься=V,intr=inf,pf}.
+{научать=V,tran=sg,imper,2p,pf}, {чтоб=CONJ=} {можно=ADV,praed=} {быть=V,intr=praet,sg,indic,n,ipf}
+{никогда=ADVPRO=} {не=PART=} {просыпаться=V,intr=inf,ipf}.

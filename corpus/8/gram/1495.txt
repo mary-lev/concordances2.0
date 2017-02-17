@@ -1,96 +1,14 @@
-поезд=S,m,inan=(acc,sg|nom,sg)
-_
-врываться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-древний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-скала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-слева=ADV=
-_
-и=CONJ=
-_
-справа=ADV=
-_
-гранит=S,m,inan=(acc,sg|nom,sg)
-.\n
-вот=PART=
-_
-на=PR=
-_
-тропа=S,f,inan=(abl,sg|dat,sg)
-_
-пешеход=S,m,anim=nom,sg
-_
-запоздалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-становиться=V,intr=praet,sg,indic,m,pf
-,_
-прислоняться=V,intr=praet,sg,indic,m,pf
-,_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-вырываться=V,intr=praet,pl,indic,pf
-..._
-склон=S,m,inan=(acc,pl|nom,pl)
-,_
-покрывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-лес=S,m,inan=ins,sg
-,\n
-домик=S,m,inan=(acc,pl|nom,pl)
-,_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-река=S,f,inan=nom,sg
-,\n
-старый=A=nom,sg,plen,f
-_
-кирка=S,f,inan=nom,sg
-_
-под=PR=
-_
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-навес=S,m,inan=ins,sg
-.\n
-даль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-хороший=A=sg,brev,f
-,_
-далекий=A=sg,brev,f
-.\n\n
-далеко=ADV=comp
-..._
-опять=ADV=
-_
-надвигаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-замок=S,m,inan=(acc,sg|nom,sg)
-_
-сходить=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-утес=S,m,inan=(acc,sg|nom,sg)
-,\n
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-расщелина=S,f,inan=gen,pl
-_
-узор=S,m,inan=(acc,pl|nom,pl)
-...\n
-грохот=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-хохот=S,m,inan=(acc,sg|nom,sg)
-_
-колесо=S,n,inan=gen,pl
-!\n
+{поезд=S,m,inan=(acc,sg|nom,sg)} {врываться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {древний=A=(acc,pl,plen,inan|nom,pl,plen)} {скала=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{слева=ADV=} {и=CONJ=} {справа=ADV=} {гранит=S,m,inan=(acc,sg|nom,sg)}.
+{вот=PART=} {на=PR=} {тропа=S,f,inan=(abl,sg|dat,sg)} {пешеход=S,m,anim=nom,sg} {запоздалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{становиться=V,intr=praet,sg,indic,m,pf}, {прислоняться=V,intr=praet,sg,indic,m,pf}, {глядеть=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{вырываться=V,intr=praet,pl,indic,pf}... {склон=S,m,inan=(acc,pl|nom,pl)}, {покрывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {лес=S,m,inan=ins,sg},
+{домик=S,m,inan=(acc,pl|nom,pl)}, {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {река=S,f,inan=nom,sg},
+{старый=A=nom,sg,plen,f} {кирка=S,f,inan=nom,sg} {под=PR=} {черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {навес=S,m,inan=ins,sg}.
+{даль=S,f,inan=(acc,sg|nom,sg)} — {хороший=A=sg,brev,f}, {далекий=A=sg,brev,f}.
+
+{далеко=ADV=comp}... {опять=ADV=} {надвигаться=V,intr=inpraes,pl,indic,3p,ipf} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{замок=S,m,inan=(acc,sg|nom,sg)} {сходить=V,intr=praet,sg,indic,m,pf} {на=PR=} {утес=S,m,inan=(acc,sg|nom,sg)},
+{черный=A=(acc,pl,plen,inan|nom,pl,plen)} {сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {расщелина=S,f,inan=gen,pl} {узор=S,m,inan=(acc,pl|nom,pl)}...
+{грохот=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {хохот=S,m,inan=(acc,sg|nom,sg)} {колесо=S,n,inan=gen,pl}!

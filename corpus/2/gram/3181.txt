@@ -1,124 +1,19 @@
-для=PR=
-_
-что=SPRO,sg,n,inan=gen
-_
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-означать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-\n
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-дума=S,f,inan=gen,pl
-_
-горячий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дрожь=S,f,inan=ins,sg
-,\n
-наполнять=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-плакать=V,ipf,intr=inpraes,pl,indic,1p
-,\n
-сон=S,m,inan=ins,pl
-,_
-смешанный=A=ins,pl,plen
-_
-с=PR=
-_
-ложь=S,f,inan=ins,sg
-.\n\n
-для=PR=
-_
-то=SPRO,sg,n,inan=gen
-_
-ль=PART=
-,_
-чтоб=CONJ=
-_
-бесполезно=ADV=
-,\n
-без=PR=
-_
-блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-без=PR=
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-между=PR=
-_
-время=S,n,inan=ins,sg
-_
-и=CONJ=
-_
-бездна=S,f,inan=ins,sg
-\n
-начерчивать=V,tran=inf,pf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-спираль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-для=PR=
-_
-то=SPRO,sg,n,inan=gen
-_
-ли=PART=
-,_
-чтоб=CONJ=
-_
-во=PR=
-_
-мрак=S,m,inan=abl,sg
-,\n
-полный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сон=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-изобилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-бросать=V=inf,pf
-_
-тягостный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-знак=S,m,inan=(acc,pl|nom,pl)
-\n
-утомление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-бессилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-когда=CONJ=
-_
-сходиться=V,intr=inpraes,pl,indic,3p,pf
-_
-в=PR=
-_
-храм=S,m,inan=abl,sg
-\n
-сонм=S,m,inan=(acc,pl|nom,pl)
-_
-радостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-видение=S,n,inan=gen,pl
-,\n
-быть=V,intr=inf,ipf
-_
-тяжелый=A=ins,pl,plen
-_
-камень=S,m,inan=ins,pl
-\n
-для=PR=
-_
-грядущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поколение=S,n,inan=gen,pl
-.\n
+{для=PR=} {что=SPRO,sg,n,inan=gen} {мы=SPRO,pl,1p=nom} {не=PART=} {означать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}
+{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дума=S,f,inan=gen,pl} {горячий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дрожь=S,f,inan=ins,sg},
+{наполнять=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)} {воздух=S,m,inan=(acc,sg|nom,sg)} {плакать=V,ipf,intr=inpraes,pl,indic,1p},
+{сон=S,m,inan=ins,pl}, {смешанный=A=ins,pl,plen} {с=PR=} {ложь=S,f,inan=ins,sg}.
+
+{для=PR=} {то=SPRO,sg,n,inan=gen} {ль=PART=}, {чтоб=CONJ=} {бесполезно=ADV=},
+{без=PR=} {блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {без=PR=} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{между=PR=} {время=S,n,inan=ins,sg} {и=CONJ=} {бездна=S,f,inan=ins,sg}
+{начерчивать=V,tran=inf,pf} {свой=APRO=(nom,pl|acc,pl,inan)} {спираль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{для=PR=} {то=SPRO,sg,n,inan=gen} {ли=PART=}, {чтоб=CONJ=} {во=PR=} {мрак=S,m,inan=abl,sg},
+{полный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сон=S,m,inan=gen,pl} {и=CONJ=} {изобилие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{бросать=V=inf,pf} {тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} {знак=S,m,inan=(acc,pl|nom,pl)}
+{утомление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {бессилие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {когда=CONJ=} {сходиться=V,intr=inpraes,pl,indic,3p,pf} {в=PR=} {храм=S,m,inan=abl,sg}
+{сонм=S,m,inan=(acc,pl|nom,pl)} {радостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {видение=S,n,inan=gen,pl},
+{быть=V,intr=inf,ipf} {тяжелый=A=ins,pl,plen} {камень=S,m,inan=ins,pl}
+{для=PR=} {грядущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поколение=S,n,inan=gen,pl}.

@@ -1,78 +1,9 @@
-как=ADVPRO=
-_
-тяжело=ADV=
-_
-ходить=V,ipf,intr=inf
-_
-среди=PR=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-\n
-и=CONJ=
-_
-притворяться=V,intr=inf,ipf
-_
-непогибший=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-,\n
-и=CONJ=
-_
-об=PR=
-_
-игра=S,f,inan=(abl,sg|dat,sg)
-_
-трагический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страсть=S,f,inan=gen,pl
-\n
-повествовать=V,ipf,tran=inf
-_
-еще=ADV=
-_
-не=PART=
-_
-жить=V,ipf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)
-.\n\n
-и=CONJ=
-,_
-вглядываться=V,intr=inpraes,ger,ipf
-_
-в=PR=
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кошмар=S,m,inan=(acc,sg|nom,sg)
-,\n
-строй=S,m,inan=(acc,sg|nom,sg)
-_
-находить=V=inf,ipf
-_
-в=PR=
-_
-нестройный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-вихор=S,m,inan=abl,sg
-_
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-чтобы=CONJ=
-_
-по=PR=
-_
-бледный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-зарево=S,n,inan=dat,pl
-_
-искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-у=PR=
-_
-знать=V,ipf,tran=praet,pl,indic
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-гибельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пожар=S,m,inan=(acc,sg|nom,sg)
-!\n
+{как=ADVPRO=} {тяжело=ADV=} {ходить=V,ipf,intr=inf} {среди=PR=} {человек=S,m,anim=(acc,pl|gen,pl)}
+{и=CONJ=} {притворяться=V,intr=inf,ipf} {непогибший=A,plen=(dat,pl|ins,sg,m|ins,sg,n)},
+{и=CONJ=} {об=PR=} {игра=S,f,inan=(abl,sg|dat,sg)} {трагический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страсть=S,f,inan=gen,pl}
+{повествовать=V,ipf,tran=inf} {еще=ADV=} {не=PART=} {жить=V,ipf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)}.
+
+{и=CONJ=}, {вглядываться=V,intr=inpraes,ger,ipf} {в=PR=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кошмар=S,m,inan=(acc,sg|nom,sg)},
+{строй=S,m,inan=(acc,sg|nom,sg)} {находить=V=inf,ipf} {в=PR=} {нестройный=A=(abl,sg,plen,m|abl,sg,plen,n)} {вихор=S,m,inan=abl,sg} {чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{чтобы=CONJ=} {по=PR=} {бледный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зарево=S,n,inan=dat,pl} {искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{у=PR=} {знать=V,ipf,tran=praet,pl,indic} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гибельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пожар=S,m,inan=(acc,sg|nom,sg)}!

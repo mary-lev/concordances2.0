@@ -1,84 +1,19 @@
-дело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свершаться=V,intr=praet,pl,indic,pf
-.\n
-день=S,m,inan=(acc,pl|nom,pl)
-_
-счесть=V,pf,tran=praet,pl,partcp,brev,pass
-.\n
-мы=SPRO,pl,1p=nom
-_
-здесь=ADVPRO=
-_
-молиться=V,ipf,intr=praet,pl,indic
-\n
-у=PR=
-_
-сонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-там=ADVPRO=
-_
-лед=S,m,inan=(acc,pl|nom,pl)
-_
-носиться=V,ipf,intr=praet,pl,indic
-\n
-в=PR=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-забываться=V,intr=praet,pl,indic,pf
-!\n
-как=CONJ=
-_
-далекий=A=pl,brev
-!\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-свершать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-кончать=V,tran=praet,sg,indic,m,pf
-_
-себя=SPRO=(acc|gen)
-.\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-обнаженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-для=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-утомленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-я=SPRO,sg,1p=nom
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-.\n
-угрюмый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-бессонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-как=CONJ=
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-.\n
+{дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свершаться=V,intr=praet,pl,indic,pf}.
+{день=S,m,inan=(acc,pl|nom,pl)} {счесть=V,pf,tran=praet,pl,partcp,brev,pass}.
+{мы=SPRO,pl,1p=nom} {здесь=ADVPRO=} {молиться=V,ipf,intr=praet,pl,indic}
+{у=PR=} {сонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{там=ADVPRO=} {лед=S,m,inan=(acc,pl|nom,pl)} {носиться=V,ipf,intr=praet,pl,indic}
+{в=PR=} {день=S,m,inan=(acc,pl|nom,pl)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {день=S,m,inan=(acc,pl|nom,pl)} {забываться=V,intr=praet,pl,indic,pf}!
+{как=CONJ=} {далекий=A=pl,brev}!
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {свершать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{кончать=V,tran=praet,sg,indic,m,pf} {себя=SPRO=(acc|gen)}.
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {обнаженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{для=PR=} {все=SPRO,pl=(abl|acc|gen)} {петь=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{утомленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}.
+{угрюмый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {бессонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {как=CONJ=} {лед=S,m,inan=(acc,sg|nom,sg)}.
