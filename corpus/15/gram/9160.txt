@@ -1,82 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-далеко=ADV=
-,_
-но=CONJ=
-_
-говорить=V,ipf,tran=inpraes,sg,indic,2p
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-,\n
-в=PR=
-_
-чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-край=S,m,inan=abl,pl
-,_
-но=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-близкий=A=pl,brev
-.\n
-так=ADVPRO=
-_
-не=PART=
-_
-суметь=V,pf,intr=inpraes,sg,indic,3p
-,_
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-араб=S,m,anim=nom,sg
-_
-быть=V,intr=inf,ipf
-_
-близкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-к=PR=
-_
-одалиска=S,f,anim=(abl,sg|dat,sg)
-.\n\n
-цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-!_
-кто=SPRO,sg,m,anim=nom
-_
-там=ADVPRO=
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-,_
-спешить=V,ipf,intr=inpraes,ger
-?\n
-какой=APRO=nom,sg,f
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-сейчас=ADV=
-_
-волновать=V,ipf,tran=inpraes,sg,indic,3p
-!\n
-твой=APRO=nom,sg,f
-_
-освобождать=V=praet,nom,sg,partcp,plen,f,pf,pass,tran
-_
-душа=S,f,inan=nom,sg
-\n
-я=SPRO,sg,1p=(acc|gen)
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-.\n
+{ты=SPRO,sg,2p=nom} {далеко=ADV=}, {но=CONJ=} {говорить=V,ipf,tran=inpraes,sg,indic,2p} {со=PR=} {я=SPRO,sg,1p=ins},
+{в=PR=} {чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {край=S,m,inan=abl,pl}, {но=CONJ=} {мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} {близкий=A=pl,brev}.
+{так=ADVPRO=} {не=PART=} {суметь=V,pf,intr=inpraes,sg,indic,3p}, {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{араб=S,m,anim=nom,sg} {быть=V,intr=inf,ipf} {близкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {к=PR=} {одалиска=S,f,anim=(abl,sg|dat,sg)}.
+
+{цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}! {кто=SPRO,sg,m,anim=nom} {там=ADVPRO=} {идти=V,ipf,intr=inpraes,sg,indic,3p}, {спешить=V,ipf,intr=inpraes,ger}?
+{какой=APRO=nom,sg,f} {мысль=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(acc|gen)} {сейчас=ADV=} {волновать=V,ipf,tran=inpraes,sg,indic,3p}!
+{твой=APRO=nom,sg,f} {освобождать=V=praet,nom,sg,partcp,plen,f,pf,pass,tran} {душа=S,f,inan=nom,sg}
+{я=SPRO,sg,1p=(acc|gen)} {целовать=V,ipf,tran=inpraes,sg,indic,3p}.

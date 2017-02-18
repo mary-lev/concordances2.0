@@ -1,98 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-благородно=ADV=comp
-_
-и=CONJ=
-_
-высоко=ADV=comp
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-\n
-вечный=A=ins,sg,plen,f
-_
-сила=S,f,inan=ins,sg
-_
-стремление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-ты=SPRO,sg,2p=nom
-_
-непропеть?=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-,_
-несозданный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-,\n
-сдавленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-_
-оскорбление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-непостижность?=S,f,inan=(acc,sg|nom,sg)
-_
-высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-связывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-с=PR=
-_
-тесный=A=ins,sg,plen,f
-_
-доля=S,f,inan=(gen,pl|ins,sg)
-.\n
-жажда=S,f,inan=nom,sg
-_
-уходить=V,intr=inf,pf
-_
-от=PR=
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-слепота=S,sg,f,inan=gen
-,\n
-жажда=S,f,inan=nom,sg
-_
-расставаться=V,intr=inf,pf
-_
-с=PR=
-_
-неволя=S,f,inan=ins,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-проникать=V,intr=inpraes,sg,indic,2p,ipf
-_
-сознание=S,n,inan=ins,sg
-_
-туда=ADVPRO=
-,\n
-где=ADVPRO=
-_
-прекращаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-друг=S,m,anim=ins,sg
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-никогда=ADVPRO=
-,\n
-брат=S,m,anim=ins,sg
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=inpraes,sg,indic,2p
-_
-навеки=ADV=
-.\n
+{ты=SPRO,sg,2p=nom} {благородно=ADV=comp} {и=CONJ=} {высоко=ADV=comp} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)}
+{вечный=A=ins,sg,plen,f} {сила=S,f,inan=ins,sg} {стремление=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{ты=SPRO,sg,2p=nom} {непропеть?=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}, {несозданный=A,plen=(acc,sg,m,inan|nom,sg,m)} {стих=S,m,inan=(acc,sg|nom,sg)},
+{сдавленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крик=S,m,inan=(acc,sg|nom,sg)} {оскорбление=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{ты=SPRO,sg,2p=nom} {непостижность?=S,f,inan=(acc,sg|nom,sg)} {высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{связывать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {с=PR=} {тесный=A=ins,sg,plen,f} {доля=S,f,inan=(gen,pl|ins,sg)}.
+{жажда=S,f,inan=nom,sg} {уходить=V,intr=inf,pf} {от=PR=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {слепота=S,sg,f,inan=gen},
+{жажда=S,f,inan=nom,sg} {расставаться=V,intr=inf,pf} {с=PR=} {неволя=S,f,inan=ins,sg}.
+
+{ты=SPRO,sg,2p=nom} {проникать=V,intr=inpraes,sg,indic,2p,ipf} {сознание=S,n,inan=ins,sg} {туда=ADVPRO=},
+{где=ADVPRO=} {прекращаться=V,intr=inpraes,pl,indic,3p,ipf} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{друг=S,m,anim=ins,sg} {не=PART=} {быть=V,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {никогда=ADVPRO=},
+{брат=S,m,anim=ins,sg} {ты=SPRO,sg,2p=nom} {быть=V,intr=inpraes,sg,indic,2p} {навеки=ADV=}.

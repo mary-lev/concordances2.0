@@ -1,132 +1,23 @@
-я=SPRO,sg,1p=nom
-_
-вспоминать=V,ipf,tran=inpraes,sg,indic,1p
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-запевать=V,tran=inpraes,sg,indic,1p,pf
-,\n
-когда=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-:_\xAB
-воскресать=V,intr=sg,imper,2p,pf
-\xBB.\n\n
-я=SPRO,sg,1p=nom
-_
-сбросить=V,pf=inpraes,sg,indic,1p
-_
-грешный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-бремя=S,n,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-скорбь=S,f,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-,\n
-когда=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-:_\xAB
-вот=PART=
-_
-время=S,n,inan=(acc,sg|nom,sg)
-\xBB.\n\n
-я=SPRO,sg,1p=nom
-_
-подвиг=S,m,inan=(acc,sg|nom,sg)
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-свершать=V,tran=inf,pf
-_
-готовый=A=sg,brev,m
-,\n
-когда=CONJ=
-_
-позвать=V,pf,tran=inpraes,sg,indic,2p
-_
-в=PR=
-_
-пещера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-;\n\n
-но=CONJ=
-_
-рад=A,brev=sg,m
-_
-я=SPRO,sg,1p=nom
-_
-оставаться=V,intr=inf,pf
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_\n
-среди=PR=
-_
-оковы=S,pl,inan=gen
-,\n
-чтоб=CONJ=
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-раскрываться=V,intr=praet,pl,indic,pf
-_
-широко=ADV=comp
-.\n\n
-незримый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-око=S,n,inan=(acc,sg|nom,sg)
-_\n
-мой=APRO=acc,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-далеко=ADV=
-.\n\n
-я=SPRO,sg,1p=nom
-_
-верно=ADV,parenth=
-_
-ходить=V,ipf,intr=inpraes,sg,indic,1p
-_
-к=PR=
-_
-вечерня=S,f,inan=(abl,sg|dat,sg)
-\n
-опять=ADV=
-_
-и=CONJ=
-_
-вновь=ADV=
-,\n
-чтоб=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-недоступный=A=comp
-_
-скверна=S,f,inan=(abl,sg|dat,sg)
-.\n
+{я=SPRO,sg,1p=nom} {вспоминать=V,ipf,tran=inpraes,sg,indic,1p} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {запевать=V,tran=inpraes,sg,indic,1p,pf},
+{когда=CONJ=} {ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=inpraes,sg,indic,2p}: «{воскресать=V,intr=sg,imper,2p,pf}».
+
+{я=SPRO,sg,1p=nom} {сбросить=V,pf=inpraes,sg,indic,1p} {грешный=A=(acc,sg,plen,n|nom,sg,plen,n)} {бремя=S,n,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {скорбь=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f},
+{когда=CONJ=} {ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=inpraes,sg,indic,2p}: «{вот=PART=} {время=S,n,inan=(acc,sg|nom,sg)}».
+
+{я=SPRO,sg,1p=nom} {подвиг=S,m,inan=(acc,sg|nom,sg)} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вера=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{свершать=V,tran=inf,pf} {готовый=A=sg,brev,m},
+{когда=CONJ=} {позвать=V,pf,tran=inpraes,sg,indic,2p} {в=PR=} {пещера=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+
+{но=CONJ=} {рад=A,brev=sg,m} {я=SPRO,sg,1p=nom} {оставаться=V,intr=inf,pf} {в=PR=} {мир=S,m,inan=abl,sg} 
+{среди=PR=} {оковы=S,pl,inan=gen},
+{чтоб=CONJ=} {крыло=S,n,inan=(acc,pl|nom,pl)} {раскрываться=V,intr=praet,pl,indic,pf} {широко=ADV=comp}.
+
+{незримый=A=(acc,sg,plen,n|nom,sg,plen,n)} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {око=S,n,inan=(acc,sg|nom,sg)} 
+{мой=APRO=acc,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)} —
+{и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {я=SPRO,sg,1p=(acc|gen)} {далеко=ADV=}.
+
+{я=SPRO,sg,1p=nom} {верно=ADV,parenth=} {ходить=V,ipf,intr=inpraes,sg,indic,1p} {к=PR=} {вечерня=S,f,inan=(abl,sg|dat,sg)}
+{опять=ADV=} {и=CONJ=} {вновь=ADV=},
+{чтоб=CONJ=} {быть=V,intr=inf,ipf} {недоступный=A=comp} {скверна=S,f,inan=(abl,sg|dat,sg)}.

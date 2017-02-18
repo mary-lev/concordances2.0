@@ -1,118 +1,13 @@
-холодно=ADV=
-..._
-в=PR=
-_
-сумерки=S,pl,inan=abl
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-гибнуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-друг=S,m,anim=nom,pl
-,_
-торжествовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-враг=S,m,anim=nom,pl
-._\n
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-пустой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-над=PR=
-_
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-крест=S,m,inan=ins,sg
-.\n\t
-и=CONJ=
-_
-не=PART=
-_
-слышный=A=pl,brev
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-шаг=S,m,inan=(acc,pl|nom,pl)
-,_\n\t
-или=CONJ=
-_
-почти=ADV=
-_
-не=PART=
-_
-слышный=A=pl,brev
-.\n\n
-синий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сумерки=S,pl,inan=(acc|nom)
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-всюду=ADVPRO=
-,_
-куда=ADVPRO=
-_
-ни=CONJ=
-_
-посмотреть=V,pf,tran=inpraes,sg,indic,2p
-,_\u2014_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-полагать=V,tran=praet,ger,pf
-_
-на=PR=
-_
-весы=S,pl,inan=(acc|nom)
-,\n
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-что=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-так=ADVPRO=
-_
-дорога=S,f,inan=nom,sg
-.\n\t
-и=CONJ=
-_
-не=PART=
-_
-страшный=A=pl,brev
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-ночной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-часы=S,pl,inan=(acc|nom)
-,_\n\t
-или=CONJ=
-_
-почти=ADV=
-_
-не=PART=
-_
-страшный=A=pl,brev
-...\n
+{холодно=ADV=}... {в=PR=} {сумерки=S,pl,inan=abl} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{гибнуть=V,ipf,intr=inpraes,pl,indic,3p} {друг=S,m,anim=nom,pl}, {торжествовать=V,ipf,intr=inpraes,pl,indic,3p} {враг=S,m,anim=nom,pl}. 
+{сниться=V,ipf,intr=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {в=PR=} {небо=S,n,inan=abl,sg} {пустой=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{белый=A=(acc,pl,plen,inan|nom,pl,plen)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {крест=S,m,inan=ins,sg}.
+	{и=CONJ=} {не=PART=} {слышный=A=pl,brev} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {шаг=S,m,inan=(acc,pl|nom,pl)}, 
+	{или=CONJ=} {почти=ADV=} {не=PART=} {слышный=A=pl,brev}.
+
+{синий=A=(acc,pl,plen,inan|nom,pl,plen)} {сумерки=S,pl,inan=(acc|nom)} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{всюду=ADVPRO=}, {куда=ADVPRO=} {ни=CONJ=} {посмотреть=V,pf,tran=inpraes,sg,indic,2p}, — {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {полагать=V,tran=praet,ger,pf} {на=PR=} {весы=S,pl,inan=(acc|nom)},
+{видеть=V,ipf,tran=inpraes,sg,indic,1p}, {что=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {так=ADVPRO=} {дорога=S,f,inan=nom,sg}.
+	{и=CONJ=} {не=PART=} {страшный=A=pl,brev} {я=SPRO,sg,1p=(abl|dat)} {ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {часы=S,pl,inan=(acc|nom)}, 
+	{или=CONJ=} {почти=ADV=} {не=PART=} {страшный=A=pl,brev}...

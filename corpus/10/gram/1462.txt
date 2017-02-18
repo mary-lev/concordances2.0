@@ -1,18 +1,2 @@
-есть=V,ipf,tran=(inpraes,sg,indic,2p|sg,imper,2p)
-_
-ананас=S,m,inan=(acc,pl|nom,pl)
-,_
-рябчик=S,m,anim=(acc,pl|gen,pl)
-_
-жевать=V,ipf,tran=sg,imper,2p
-,\n
-день=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-приходить=V,intr=inpraes,sg,indic,3p,ipf
-,_
-буржуй=S,m,anim=nom,sg
-.\n
+{есть=V,ipf,tran=(inpraes,sg,indic,2p|sg,imper,2p)} {ананас=S,m,inan=(acc,pl|nom,pl)}, {рябчик=S,m,anim=(acc,pl|gen,pl)} {жевать=V,ipf,tran=sg,imper,2p},
+{день=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {приходить=V,intr=inpraes,sg,indic,3p,ipf}, {буржуй=S,m,anim=nom,sg}.

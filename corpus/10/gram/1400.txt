@@ -1,100 +1,14 @@
-рассказ=S,m,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-взлезать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-на=PR=
-_
-подмосток?=S,m,inan=(acc,sg|nom,sg)
-\n
-аршинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-буква=S,f,inan=ins,sg
-_
-графить=V,ipf,tran=inpraes,sg,indic,2p
-,\n
-и=CONJ=
-_
-зазывать=V,tran=inpraes,pl,indic,3p,ipf
-_
-в=PR=
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-доска=S,f,inan=gen,pl
-\n
-зрачок=S,m,inan=(acc,pl|nom,pl)
-_
-малевать=V,ipf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)
-_
-афиша=S,f,inan=gen,pl
-.\n\n
-автомобиль=S,m,inan=(acc,sg|nom,sg)
-_
-подкрасить=V,pf=praet,sg,indic,m
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-у=PR=
-_
-блеклый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-женщина=S,f,anim=(gen,sg|nom,pl)
-_
-карьера=S,f,inan=nom,sg
-,\n
-а=CONJ=
-_
-с=PR=
-_
-прилетать=V,intr=(praet,abl,pl,partcp,plen,ipf,act|praet,gen,pl,partcp,plen,ipf,act|praet,acc,pl,partcp,plen,ipf,act,anim)
-_
-рвать=V,ipf,tran=praet,pl,indic
-_
-шуба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-огневой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-фокстерьер=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-и=CONJ=
-_
-лишь=PART=
-_
-светиться=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-груша=S,f,inan=nom,sg
-\n
-о=PR=
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-сломать=V,pf,tran=praet,sg,indic,f
-_
-копье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-драка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-ветка=S,f,inan=(abl,sg|dat,sg)
-_
-ложа=S,f,inan=gen,pl
-_
-с=PR=
-_
-цветок=S,m,inan=ins,pl
-_
-плюш=S,m,inan=gen,sg
-\n
-повисать=V,intr=praet,pl,indic,pf
-_
-тягостный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-фрак=S,m,inan=(acc,pl|nom,pl)
-.\n
+{рассказ=S,m,inan=(acc,sg|nom,sg)} {о=PR=} {взлезать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {на=PR=} {подмосток?=S,m,inan=(acc,sg|nom,sg)}
+{аршинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {буква=S,f,inan=ins,sg} {графить=V,ipf,tran=inpraes,sg,indic,2p},
+{и=CONJ=} {зазывать=V,tran=inpraes,pl,indic,3p,ipf} {в=PR=} {вечер=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {доска=S,f,inan=gen,pl}
+{зрачок=S,m,inan=(acc,pl|nom,pl)} {малевать=V,ipf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} {афиша=S,f,inan=gen,pl}.
+
+{автомобиль=S,m,inan=(acc,sg|nom,sg)} {подкрасить=V,pf=praet,sg,indic,m} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{у=PR=} {блеклый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {женщина=S,f,anim=(gen,sg|nom,pl)} {карьера=S,f,inan=nom,sg},
+{а=CONJ=} {с=PR=} {прилетать=V,intr=(praet,abl,pl,partcp,plen,ipf,act|praet,gen,pl,partcp,plen,ipf,act|praet,acc,pl,partcp,plen,ipf,act,anim)} {рвать=V,ipf,tran=praet,pl,indic} {шуба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {огневой=A=(acc,pl,plen,inan|nom,pl,plen)} {фокстерьер=S,m,anim=(acc,sg|gen,sg)}.
+
+{и=CONJ=} {лишь=PART=} {светиться=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {груша=S,f,inan=nom,sg}
+{о=PR=} {тень=S,f,inan=(acc,sg|nom,sg)} {сломать=V,pf,tran=praet,sg,indic,f} {копье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {драка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{на=PR=} {ветка=S,f,inan=(abl,sg|dat,sg)} {ложа=S,f,inan=gen,pl} {с=PR=} {цветок=S,m,inan=ins,pl} {плюш=S,m,inan=gen,sg}
+{повисать=V,intr=praet,pl,indic,pf} {тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} {фрак=S,m,inan=(acc,pl|nom,pl)}.

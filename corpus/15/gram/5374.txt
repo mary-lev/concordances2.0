@@ -1,116 +1,19 @@
-влага=S,f,inan=nom,sg
-_
-только=PART=
-_
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-может=ADV,parenth=
-_
-к=PR=
-_
-лотос=S,m,inan=dat,sg
-_
-прильнуть=V,pf,intr=inf
-.\n
-давать=V,tran=inpraes,sg,indic,3p,pf
-_
-он=SPRO,sg,3p,m=dat
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-опять=ADV=
-_
-стремиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-лотос=S,m,inan=(acc,sg|nom,sg)
-_
-только=PART=
-_
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-принимать=V=inpraes,sg,indic,3p,ipf,tran
-_
-поцелуй=S,m,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-прикосновение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-переменно=ADV=
--
-быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-струя=S,f,inan=gen,pl
-.\n\n
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-легкость=S,f,inan=(acc,sg|nom,sg)
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вольно=ADV=
--
-слитный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-прелесть=S,f,inan=(acc,sg|nom,sg)
-_
-призрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-завязка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-мгновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-конец=S,m,inan=gen,sg
-.\n\n
-лотос=S,m,inan=(acc,sg|nom,sg)
-_
-после=PR=
-_
-быстрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-блестеть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-легко=ADV=
-_
-дрожать=V,ipf,intr=inpraes,ger
-,\n
-и=CONJ=
-_
-вода=S,f,inan=nom,sg
-_
-в=PR=
-_
-подвижный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сказка=S,f,inan=(abl,sg|dat,sg)
-\n
-обновленный?=A=sg,brev,f
-_
-и=CONJ=
-_
-свежий=A=sg,brev,f
-.\n
+{влага=S,f,inan=nom,sg} {только=PART=} {на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{может=ADV,parenth=} {к=PR=} {лотос=S,m,inan=dat,sg} {прильнуть=V,pf,intr=inf}.
+{давать=V,tran=inpraes,sg,indic,3p,pf} {он=SPRO,sg,3p,m=dat} {свой=APRO=(acc,sg,n|nom,sg,n)} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {опять=ADV=} {стремиться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)}.
+
+{лотос=S,m,inan=(acc,sg|nom,sg)} {только=PART=} {на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{принимать=V=inpraes,sg,indic,3p,ipf,tran} {поцелуй=S,m,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {восторг=S,m,inan=(acc,sg|nom,sg)} {прикосновение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{переменно=ADV=}-{быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {струя=S,f,inan=gen,pl}.
+
+{миг=S,m,inan=(acc,sg|nom,sg)} {блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {легкость=S,f,inan=(acc,sg|nom,sg)} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{вольно=ADV=}-{слитный=A=(acc,pl,plen,inan|nom,pl,plen)} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{прелесть=S,f,inan=(acc,sg|nom,sg)} {призрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {завязка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {мгновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {конец=S,m,inan=gen,sg}.
+
+{лотос=S,m,inan=(acc,sg|nom,sg)} {после=PR=} {быстрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {блестеть=V,ipf,intr=inpraes,sg,indic,3p}, {легко=ADV=} {дрожать=V,ipf,intr=inpraes,ger},
+{и=CONJ=} {вода=S,f,inan=nom,sg} {в=PR=} {подвижный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сказка=S,f,inan=(abl,sg|dat,sg)}
+{обновленный?=A=sg,brev,f} {и=CONJ=} {свежий=A=sg,brev,f}.

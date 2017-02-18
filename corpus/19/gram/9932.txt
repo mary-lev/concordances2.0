@@ -1,70 +1,9 @@
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-,_
-лицо=S,n,inan=(acc,sg|nom,sg)
-_
-пылать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-же=PART=
-_
-мальчик=S,m,anim=nom,sg
-_
-приучать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-к=PR=
-_
-повиновение=S,n,inan=dat,sg
-,_
-и=CONJ=
-_
-снимать=V,tran=inpraes,sg,indic,3p,ipf
-\n
-с=PR=
-_
-себя=SPRO=(acc|gen)
-_
-одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-плакать=V,ipf,intr=inpraes,ger
-,_
-он=SPRO,sg,3p,m=nom
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-на=PR=
-_
-квартира=S,f,inan=acc,sg
-_
-скоморошко?=S,n,inan=(acc,sg|nom,sg)
-\n
-поставлять=V,tran=praet,sg,indic,m,pf
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-._
-петька=S,persn,m,anim=nom,sg
-_
-милый=A=sg,brev,m
-,\n
-но=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-посечь=V,pf,tran=inf
-_
-оно=SPRO,sg,3p,n=(acc|gen)
-_
-немножко=ADV=
-\n
-приходиться=V,intr=praet,sg,indic,n,pf
-,_\u2014_
-он=SPRO,sg,3p,m=nom
-_
-двойка=S,f,inan=acc,sg
-_
-получать=V,tran=praet,sg,indic,m,pf
-.\n
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p}, {лицо=S,n,inan=(acc,sg|nom,sg)} {пылать=V,ipf,intr=inpraes,sg,indic,3p},
+{но=CONJ=} {все=SPRO,pl=(acc|nom)} {же=PART=} {мальчик=S,m,anim=nom,sg} {приучать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{к=PR=} {повиновение=S,n,inan=dat,sg}, {и=CONJ=} {снимать=V,tran=inpraes,sg,indic,3p,ipf}
+{с=PR=} {себя=SPRO=(acc|gen)} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {плакать=V,ipf,intr=inpraes,ger}, {он=SPRO,sg,3p,m=nom}.
+
+{я=SPRO,sg,1p=(abl|dat)} {на=PR=} {квартира=S,f,inan=acc,sg} {скоморошко?=S,n,inan=(acc,sg|nom,sg)}
+{поставлять=V,tran=praet,sg,indic,m,pf} {сын=S,m,anim=(acc,sg|gen,sg)}. {петька=S,persn,m,anim=nom,sg} {милый=A=sg,brev,m},
+{но=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {посечь=V,pf,tran=inf} {оно=SPRO,sg,3p,n=(acc|gen)} {немножко=ADV=}
+{приходиться=V,intr=praet,sg,indic,n,pf}, — {он=SPRO,sg,3p,m=nom} {двойка=S,f,inan=acc,sg} {получать=V,tran=praet,sg,indic,m,pf}.

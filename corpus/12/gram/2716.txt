@@ -1,55 +1,10 @@
-...
-сын=S,m,anim=nom,sg
-_
-казак=S,m,anim=(acc,sg|gen,sg)
-,_
-казак=S,m,anim=nom,sg
-...\n
-так=ADVPRO=
-_
-начинаться=V,intr=praet,sg,indic,f,ipf
-_\u2014_
-речь=S,f,inan=(acc,sg|nom,sg)
-.\n_\u2014_\t
-родина=S,f,inan=nom,sg
-._\u2014_
-враг=S,m,anim=nom,sg
-._\u2014_
-мрак=S,m,inan=(acc,sg|nom,sg)
-.\n
-все=SPRO,pl=dat
-_
-голова=S,f,inan=ins,pl
-_
-ложиться=V,intr=inf,pf
-.\n\n
-бить=V,ipf,tran=pl,imper,2p
-,_
-поп=S,m,anim=nom,pl
-,_
-в=PR=
-_
-набат=S,m,inan=(acc,sg|nom,sg)
-.\n_\u2014_\t
-нечего=SPRO,sg,n,inan=gen
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-._\u2014_
-честь=S,f,inan=(acc,sg|nom,sg)
-.\n_\u2014_
-не=PART=
-_
-терять=V,ipf,tran=inf
-_
-ни=PART=
-_
-день=S,m,inan=gen,sg
-!\n
-должный=A=sg,brev,m
-_
-солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)
-\n
-чистить=V,ipf,tran=inf
-_
-конь=S,m,anim=(acc,sg|gen,sg)
-.\n
+...{сын=S,m,anim=nom,sg} {казак=S,m,anim=(acc,sg|gen,sg)}, {казак=S,m,anim=nom,sg}...
+{так=ADVPRO=} {начинаться=V,intr=praet,sg,indic,f,ipf} — {речь=S,f,inan=(acc,sg|nom,sg)}.
+ — 	{родина=S,f,inan=nom,sg}. — {враг=S,m,anim=nom,sg}. — {мрак=S,m,inan=(acc,sg|nom,sg)}.
+{все=SPRO,pl=dat} {голова=S,f,inan=ins,pl} {ложиться=V,intr=inf,pf}.
+
+{бить=V,ipf,tran=pl,imper,2p}, {поп=S,m,anim=nom,pl}, {в=PR=} {набат=S,m,inan=(acc,sg|nom,sg)}.
+ — 	{нечего=SPRO,sg,n,inan=gen} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}. — {честь=S,f,inan=(acc,sg|nom,sg)}.
+ — {не=PART=} {терять=V,ipf,tran=inf} {ни=PART=} {день=S,m,inan=gen,sg}!
+{должный=A=sg,brev,m} {солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)}
+{чистить=V,ipf,tran=inf} {конь=S,m,anim=(acc,sg|gen,sg)}.

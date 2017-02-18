@@ -1,130 +1,15 @@
-великий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-приходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-просто=ADV=
-\n
-и=CONJ=
-_
-радостно=ADV=
-,_
-почти=ADV=
-_
-шутя=ADV=
-,\n
-но=CONJ=
-_
-вдруг=ADV=
-_
-спадать=V,intr=inpraes,sg,indic,3p,ipf
-_
-с=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-короста=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-новый=A=ins,pl,plen
-_
-зрачок=S,m,inan=ins,pl
-,\n
-как=CONJ=
-_
-новозданный?=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-.\n
-не=PART=
-_
-слать=V,ipf,tran=inpraes,sg,indic,3p
-_
-весть=S,f,inan=gen,pl
-_
-мы=SPRO,pl,1p=dat
-_
-барабан=S,m,inan=ins,sg
-,\n
-трубач=S,m,anim=nom,sg
-_
-пред=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-не=PART=
-_
-трубить=V,ipf,tran=inpraes,sg,indic,3p
-_
-вскачь=ADV=
-.\n
-подобно=PR=
-_
-утренний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-туман=S,m,inan=dat,pl
-,\n
-спадать=V,intr=inpraes,sg,indic,3p,ipf
-_
-с=PR=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пелена=S,f,inan=ins,pl
-!\n
-принимать=V=sg,imper,2p,pf
-,_
-молиться=V,ipf,intr=sg,imper,2p
-_
-и=CONJ=
-_
-сладко=ADV=
-_
-плакать=V,ipf,intr=sg,imper,2p
-,\n
-чтоб=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-снисходить=V,intr=praet,sg,indic,n,pf
-_
-на=PR=
-_
-земля=S,f,inan=acc,sg
-\n
-и=CONJ=
-_
-дух=S,m,inan=dat,sg
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-_
-давать=V,tran=praet,sg,indic,f,pf
-_
-приют=S,m,inan=(acc,sg|nom,sg)
-,_\u2014\n
-земля=S,f,inan=nom,sg
-_
-дохнуть=V,pf,intr=praet,sg,indic,f
-_
-тихо=ADV=
-:_\xAB
-внимать=V,intr=inpraes,sg,indic,1p,ipf
-\xBB,\n
-звезда=S,f,inan=nom,sg
-_
-цвести=V,ipf,intr=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-с=PR=
-_
-пастух=S,m,anim=ins,pl
-\n
-свирельный=A=sg,brev,n
-_
-ангел=S,m,anim=nom,pl
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-.\n
+{великий=A=(acc,sg,plen,n|nom,sg,plen,n)} {приходить=V,intr=inpraes,sg,indic,3p,ipf} {просто=ADV=}
+{и=CONJ=} {радостно=ADV=}, {почти=ADV=} {шутя=ADV=},
+{но=CONJ=} {вдруг=ADV=} {спадать=V,intr=inpraes,sg,indic,3p,ipf} {с=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {короста=S,f,inan=nom,sg},
+{и=CONJ=} {видеть=V,ipf,tran=inpraes,sg,indic,2p} {новый=A=ins,pl,plen} {зрачок=S,m,inan=ins,pl},
+{как=CONJ=} {новозданный?=A=(acc,sg,plen,n|nom,sg,plen,n)} {дитя=S,obsol,sg,n,anim=(acc|nom)}.
+{не=PART=} {слать=V,ipf,tran=inpraes,sg,indic,3p} {весть=S,f,inan=gen,pl} {мы=SPRO,pl,1p=dat} {барабан=S,m,inan=ins,sg},
+{трубач=S,m,anim=nom,sg} {пред=PR=} {он=SPRO,sg,3p,m=ins} {не=PART=} {трубить=V,ipf,tran=inpraes,sg,indic,3p} {вскачь=ADV=}.
+{подобно=PR=} {утренний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {туман=S,m,inan=dat,pl},
+{спадать=V,intr=inpraes,sg,indic,3p,ipf} {с=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пелена=S,f,inan=ins,pl}!
+{принимать=V=sg,imper,2p,pf}, {молиться=V,ipf,intr=sg,imper,2p} {и=CONJ=} {сладко=ADV=} {плакать=V,ipf,intr=sg,imper,2p},
+{чтоб=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {снисходить=V,intr=praet,sg,indic,n,pf} {на=PR=} {земля=S,f,inan=acc,sg}
+{и=CONJ=} {дух=S,m,inan=dat,sg} {плоть=S,f,inan=(acc,sg|nom,sg)} {давать=V,tran=praet,sg,indic,f,pf} {приют=S,m,inan=(acc,sg|nom,sg)}, —
+{земля=S,f,inan=nom,sg} {дохнуть=V,pf,intr=praet,sg,indic,f} {тихо=ADV=}: «{внимать=V,intr=inpraes,sg,indic,1p,ipf}»,
+{звезда=S,f,inan=nom,sg} {цвести=V,ipf,intr=inpraes,sg,indic,3p}, {и=CONJ=} {с=PR=} {пастух=S,m,anim=ins,pl}
+{свирельный=A=sg,brev,n} {ангел=S,m,anim=nom,pl} {петь=V,ipf,tran=inpraes,pl,indic,3p}.

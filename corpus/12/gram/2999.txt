@@ -1,36 +1,4 @@
-один=APRO=nom,sg,f
-_
-половинка=S,f,inan=nom,sg
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-растворяться=V,intr=praet,sg,indic,f,pf
-.\n
-один=APRO=nom,sg,f
-_
-половинка=S,f,inan=nom,sg
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-показываться=V,intr=praet,sg,indic,f,pf
-.\n
-давать=V,tran=sg,imper,2p,ipf
--
-ка=PART=
-_
-открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_\u2014_
-и=CONJ=
-_
-тот=APRO=acc,sg,f
-_
-половинка=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-тот=APRO=acc,sg,f
-_
-половинка=S,f,inan=acc,sg
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{один=APRO=nom,sg,f} {половинка=S,f,inan=nom,sg} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {растворяться=V,intr=praet,sg,indic,f,pf}.
+{один=APRO=nom,sg,f} {половинка=S,f,inan=nom,sg} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {показываться=V,intr=praet,sg,indic,f,pf}.
+{давать=V,tran=sg,imper,2p,ipf}-{ка=PART=} {открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} — {и=CONJ=} {тот=APRO=acc,sg,f} {половинка=S,f,inan=acc,sg},
+{и=CONJ=} {тот=APRO=acc,sg,f} {половинка=S,f,inan=acc,sg} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}!

@@ -1,64 +1,9 @@
-кто=SPRO,sg,m,anim=dat
-,_
-когда=CONJ=
-_
-не=PART=
-_
-это=SPRO,sg,n,inan=ins
-,_
-в=PR=
-_
-сумерки=S,pl,inan=(acc|nom)
-\n
-над=PR=
-_
-хартия=S,f,inan=ins,sg
-_
-мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-подготовлять=V,ipf,tran=inf
-,_
-безбреж?=S,m,inan=gen,sg
-_
-рубрика=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-глухой=S,m,anim=nom,pl
-_
-замысел=S,m,inan=(acc,pl|nom,pl)
-_
-восстание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-уже=ADV=
-_
-валандяясь?=ADV=
-\n
-в=PR=
-_
-сегодня=ADV=
-_
-становиться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-близко=ADV=comp
-_
-эра=S,f,inan=abl,pl
-,\n
-они=SPRO,pl=nom
-,_
-туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пропаганда=S,f,inan=ins,sg
-,\n
-лес=S,m,inan=dat,pl
-_
-видный=A=comp
-,_
-чем=CONJ=
-_
-эсэр?=S,persn,m,anim=dat,pl
-.\n
+{кто=SPRO,sg,m,anim=dat}, {когда=CONJ=} {не=PART=} {это=SPRO,sg,n,inan=ins}, {в=PR=} {сумерки=S,pl,inan=(acc|nom)}
+{над=PR=} {хартия=S,f,inan=ins,sg} {мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{подготовлять=V,ipf,tran=inf}, {безбреж?=S,m,inan=gen,sg} {рубрика=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{глухой=S,m,anim=nom,pl} {замысел=S,m,inan=(acc,pl|nom,pl)} {восстание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {уже=ADV=} {валандяясь?=ADV=}
+{в=PR=} {сегодня=ADV=} {становиться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {близко=ADV=comp} {эра=S,f,inan=abl,pl},
+{они=SPRO,pl=nom}, {туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пропаганда=S,f,inan=ins,sg},
+{лес=S,m,inan=dat,pl} {видный=A=comp}, {чем=CONJ=} {эсэр?=S,persn,m,anim=dat,pl}.

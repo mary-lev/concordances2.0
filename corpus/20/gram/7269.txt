@@ -1,100 +1,17 @@
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-широкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-широкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-заря=S,f,inan=nom,sg
-_
-утомлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-.\n
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-одинокий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-заря=S,f,inan=nom,sg
-_
-полночный=A=nom,sg,plen,f
-,_
-зеленый=A=nom,sg,plen,f
-,\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-широкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-широкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-...\n\n
-заря=S,f,inan=nom,sg
-_
-неверный=A=nom,sg,plen,f
-,_
-неверный=A=nom,sg,plen,f
-,\n
-заря=S,f,inan=nom,sg
-_
-неяркий=A=nom,sg,plen,f
-,_
-туманный=A=nom,sg,plen,f
-,\n
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_\u2014_
-чужой=A,plen=nom,sg,f
-,_
-лицемерный=A=nom,sg,plen,f
-,\n
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_\u2014_
-ненужный=A=nom,sg,plen,f
-,_
-обманный=A=nom,sg,plen,f
-._\n
-заря=S,f,inan=nom,sg
-_
-неверный=A=nom,sg,plen,f
-,_
-неверный=A=nom,sg,plen,f
-...\n\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-победный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-победный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-прийти=V,pf,intr=inpraes,sg,indic,3p
-,_
-убивать=V,tran=inpraes,sg,indic,3p,pf
-_
-заря=S,f,inan=acc,sg
-_
-невечный=A,plen=acc,sg,f
-_\n
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_\u2014_
-отражение=S,n,inan=(acc,sg|nom,sg)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-бедный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-убивать=V,tran=inpraes,sg,indic,3p,pf
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-небесконечный?=A=acc,sg,plen,f
-_\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-победный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-победный=A=(acc,sg,plen,n|nom,sg,plen,n)
-...\n
+{небо=S,n,inan=(acc,sg|nom,sg)} {широкий=A=(acc,sg,plen,n|nom,sg,plen,n)}, {широкий=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{смотреть=V,ipf,tran=inpraes,sg,indic,3p} {заря=S,f,inan=nom,sg} {утомлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}.
+{в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {одинокий=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{заря=S,f,inan=nom,sg} {полночный=A=nom,sg,plen,f}, {зеленый=A=nom,sg,plen,f},
+{небо=S,n,inan=(acc,sg|nom,sg)} {широкий=A=(acc,sg,plen,n|nom,sg,plen,n)}, {широкий=A=(acc,sg,plen,n|nom,sg,plen,n)}...
+
+{заря=S,f,inan=nom,sg} {неверный=A=nom,sg,plen,f}, {неверный=A=nom,sg,plen,f},
+{заря=S,f,inan=nom,sg} {неяркий=A=nom,sg,plen,f}, {туманный=A=nom,sg,plen,f},
+{как=ADVPRO=} {ты=SPRO,sg,2p=nom} — {чужой=A,plen=nom,sg,f}, {лицемерный=A=nom,sg,plen,f},
+{как=ADVPRO=} {ты=SPRO,sg,2p=nom} — {ненужный=A=nom,sg,plen,f}, {обманный=A=nom,sg,plen,f}. 
+{заря=S,f,inan=nom,sg} {неверный=A=nom,sg,plen,f}, {неверный=A=nom,sg,plen,f}...
+
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {победный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {победный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{прийти=V,pf,intr=inpraes,sg,indic,3p}, {убивать=V,tran=inpraes,sg,indic,3p,pf} {заря=S,f,inan=acc,sg} {невечный=A,plen=acc,sg,f} 
+{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} — {отражение=S,n,inan=(acc,sg|nom,sg)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {бедный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{убивать=V,tran=inpraes,sg,indic,3p,pf} {любовь=S,f,inan=(acc,sg|nom,sg)} {небесконечный?=A=acc,sg,plen,f} 
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {победный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {победный=A=(acc,sg,plen,n|nom,sg,plen,n)}...

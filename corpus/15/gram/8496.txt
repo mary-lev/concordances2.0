@@ -1,124 +1,17 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-хотеться=V,ipf,intr=inpraes,indic
-_
-безгласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=gen
-,\n
-безмолвие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-безветрие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-бесстрастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-быстрый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сон=S,m,inan=ins,sg
-_
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-но=CONJ=
-_
-пусть=PART=
-_
-жить=V,ipf,intr=inpraes,pl,indic,3p
-_
-безрадостный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-с=PR=
-_
-безрадостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-бездонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-луна=S,f,inan=nom,sg
-,_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-запястье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-странно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-холодный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-участие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-владычица=S,f,anim=(gen,sg|nom,pl)
-_
-безжизненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-там=ADVPRO=
-_
-не=PART=
-_
-звенеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-не=PART=
-_
-мелькать=V,ipf,intr=inpraes,pl,indic,3p
-_
-пчела=S,f,anim=(gen,sg|nom,pl)
-.\n
-там=ADVPRO=
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-безветренный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-дол=S,m,inan=(acc,pl|nom,pl)
-,\n
-без=PR=
-_
-аромат=S,m,inan=gen,sg
-_
-льдистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-без=PR=
-_
-ропот=S,m,inan=gen,sg
-_
-безводный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-без=PR=
-_
-шорох=S,m,inan=gen,sg
-_
-застыть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-_
-убранство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-без=PR=
-_
-возглас=S,m,inan=gen,pl
-_
-безмерность=S,f,inan=(acc,sg|nom,sg)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {хотеться=V,ipf,intr=inpraes,indic} {безгласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen},
+{безмолвие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {безветрие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {бесстрастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {быстрый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{но=CONJ=} {пусть=PART=} {жить=V,ipf,intr=inpraes,pl,indic,3p} {безрадостный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{с=PR=} {безрадостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {бездонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {луна=S,f,inan=nom,sg}, {гореть=V,ipf,intr=inpraes,pl,indic,3p} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {запястье=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {странно=ADV=} {я=SPRO,sg,1p=(abl|dat)} {холодный=A=(acc,sg,plen,n|nom,sg,plen,n)} {участие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{владычица=S,f,anim=(gen,sg|nom,pl)} {безжизненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{там=ADVPRO=} {не=PART=} {звенеть=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {не=PART=} {мелькать=V,ipf,intr=inpraes,pl,indic,3p} {пчела=S,f,anim=(gen,sg|nom,pl)}.
+{там=ADVPRO=} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)} {безветренный=A=(acc,pl,plen,inan|nom,pl,plen)} {дол=S,m,inan=(acc,pl|nom,pl)},
+{без=PR=} {аромат=S,m,inan=gen,sg} {льдистый=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+
+{без=PR=} {ропот=S,m,inan=gen,sg} {безводный=A=(acc,pl,plen,inan|nom,pl,plen)} {пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{без=PR=} {шорох=S,m,inan=gen,sg} {застыть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {убранство=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{без=PR=} {возглас=S,m,inan=gen,pl} {безмерность=S,f,inan=(acc,sg|nom,sg)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,104 +1,14 @@
-над=PR=
-_
-море=S,n,inan=ins,sg
-_
-сидеть=V,ipf,intr=praet,pl,indic
-_
-они=SPRO,pl=nom
-_
-на=PR=
-_
-веранда=S,f,inan=(abl,sg|dat,sg)
-,\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-устремлять=V,tran=praet,ger,pf
-_
-к=PR=
-_
-горизонт=S,m,inan=dat,sg
-.\n
-виконт=S,m,anim=nom,sg
-_
-сомневаться=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-виконтесса=S,f,anim=(abl,sg|dat,sg)
-,\n
-она=SPRO,sg,3p,f=nom
-_
-доверять=V,tran=praet,sg,indic,f,ipf
-_
-виконт=S,m,anim=dat,sg
-.\n\n
-но=CONJ=
-_
-петь=V,ipf,tran=praet,pl,indic
-_
-веселый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-синий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-южный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-влага=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-петь=V,ipf,tran=praet,sg,indic,f
-_
-душа=S,f,inan=nom,sg
-,_
-танцовать?=V,ipf,intr=praet,nom,sg,partcp,plen,f,act
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-:\n\xAB
-доверие=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-высокий=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)
-_
-благо=S,n,inan=(acc,sg|nom,sg)
-\xBB...\n\n
-и=CONJ=
-_
-песнь=S,f,inan=(acc,sg|nom,sg)
-_
-подниматься=V,intr=praet,sg,indic,f,ipf
-_
-легко=ADV=
-_
-на=PR=
-_
-веранда=S,f,inan=(abl,sg|dat,sg)
-,\n
-смущение=S,n,inan=(acc,sg|nom,sg)
-_
-вериться=V,ipf,intr=praet,sg,indic,n
-_
-зонт=S,m,inan=dat,sg
-...\n
-виконт=S,m,anim=nom,sg
-_
-целовать=V,ipf,tran=praet,sg,indic,m
-_
-башмачок=S,m,inan=(acc,sg|nom,sg)
-_
-виконтесса=S,f,anim=(gen,sg|nom,pl)
-.\n
-она=SPRO,sg,3p,f=nom
-_
-отдаваться=V,intr=praet,sg,indic,f,ipf
-_
-виконт=S,m,anim=dat,sg
-!\n
+{над=PR=} {море=S,n,inan=ins,sg} {сидеть=V,ipf,intr=praet,pl,indic} {они=SPRO,pl=nom} {на=PR=} {веранда=S,f,inan=(abl,sg|dat,sg)},
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {устремлять=V,tran=praet,ger,pf} {к=PR=} {горизонт=S,m,inan=dat,sg}.
+{виконт=S,m,anim=nom,sg} {сомневаться=V,ipf,intr=praet,sg,indic,m} {в=PR=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {виконтесса=S,f,anim=(abl,sg|dat,sg)},
+{она=SPRO,sg,3p,f=nom} {доверять=V,tran=praet,sg,indic,f,ipf} {виконт=S,m,anim=dat,sg}.
+
+{но=CONJ=} {петь=V,ipf,tran=praet,pl,indic} {веселый=A=(acc,pl,plen,inan|nom,pl,plen)} {синий=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {южный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {влага=S,f,inan=nom,sg},
+{и=CONJ=} {петь=V,ipf,tran=praet,sg,indic,f} {душа=S,f,inan=nom,sg}, {танцовать?=V,ipf,intr=praet,nom,sg,partcp,plen,f,act} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
+«{доверие=S,n,inan=(acc,sg|nom,sg)} — {высокий=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)} {благо=S,n,inan=(acc,sg|nom,sg)}»...
+
+{и=CONJ=} {песнь=S,f,inan=(acc,sg|nom,sg)} {подниматься=V,intr=praet,sg,indic,f,ipf} {легко=ADV=} {на=PR=} {веранда=S,f,inan=(abl,sg|dat,sg)},
+{смущение=S,n,inan=(acc,sg|nom,sg)} {вериться=V,ipf,intr=praet,sg,indic,n} {зонт=S,m,inan=dat,sg}...
+{виконт=S,m,anim=nom,sg} {целовать=V,ipf,tran=praet,sg,indic,m} {башмачок=S,m,inan=(acc,sg|nom,sg)} {виконтесса=S,f,anim=(gen,sg|nom,pl)}.
+{она=SPRO,sg,3p,f=nom} {отдаваться=V,intr=praet,sg,indic,f,ipf} {виконт=S,m,anim=dat,sg}!

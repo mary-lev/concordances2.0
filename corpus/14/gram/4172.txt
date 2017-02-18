@@ -1,72 +1,9 @@
-не=PART=
-_
-неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-не=PART=
-_
-месяц=S,m,inan=(acc,pl|nom,pl)
-_\u2014_
-год=S,m,inan=(acc,pl|nom,pl)
-\n
-расставаться=V,intr=praet,pl,indic,ipf
-._
-и=CONJ=
-_
-вот=PART=
-_
-наконец=ADV,parenth=
-\n
-холодок=S,m,inan=(acc,sg|nom,sg)
-_
-настоящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-над=PR=
-_
-висок=S,m,inan=ins,pl
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-.\n
-больше=ADV=
-_
-нет=ADV,praed=
-_
-ни=CONJ=
-_
-измена=S,f,inan=gen,pl
-,_
-ни=CONJ=
-_
-предательство=S,n,inan=gen,pl
-,\n
-и=CONJ=
-_
-до=PR=
-_
-свет=S,sg,m,inan=gen
-_
-не=PART=
-_
-слушать=V,ipf,tran=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,\n
-как=ADVPRO=
-_
-струиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-поток=S,m,inan=(acc,sg|nom,sg)
-_
-доказательство=S,n,inan=gen,pl
-\n
-несравненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-правота=S,sg,f,inan=gen
-.\n\n
+{не=PART=} {неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {не=PART=} {месяц=S,m,inan=(acc,pl|nom,pl)} — {год=S,m,inan=(acc,pl|nom,pl)}
+{расставаться=V,intr=praet,pl,indic,ipf}. {и=CONJ=} {вот=PART=} {наконец=ADV,parenth=}
+{холодок=S,m,inan=(acc,sg|nom,sg)} {настоящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {над=PR=} {висок=S,m,inan=ins,pl} {венец=S,m,inan=(acc,sg|nom,sg)}.
+{больше=ADV=} {нет=ADV,praed=} {ни=CONJ=} {измена=S,f,inan=gen,pl}, {ни=CONJ=} {предательство=S,n,inan=gen,pl},
+{и=CONJ=} {до=PR=} {свет=S,sg,m,inan=gen} {не=PART=} {слушать=V,ipf,tran=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom},
+{как=ADVPRO=} {струиться=V,ipf,intr=inpraes,sg,indic,3p} {поток=S,m,inan=(acc,sg|nom,sg)} {доказательство=S,n,inan=gen,pl}
+{несравненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {правота=S,sg,f,inan=gen}.
+

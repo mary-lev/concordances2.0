@@ -1,100 +1,14 @@
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-к=PR=
-_
-сердце=S,n,inan=dat,sg
-_
-не=PART=
-_
-приковывать=V=praet,sg,partcp,brev,n,pf,pass
-,\n
-если=CONJ=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-уходить=V,intr=sg,imper,2p,ipf
-.\n
-много=ADV,praed=
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-уготовать=V,pf,tran=praet,sg,partcp,brev,n,pass
-\n
-тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-вольный=A=sg,brev,m
-_
-на=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n|\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-платить=V,ipf,tran=inpraes,sg,indic,1p
-,_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-жаловаться=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-счастливый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-не=PART=
-_
-бывать=V,ipf,intr=inf
-.\n
-не=PART=
-_
-целовать=V,ipf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-усталый=A=acc,sg,plen,f
-,_\u2014\n
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-_
-поцеловать=V,pf,tran=inf
-.\n|\n
-день=S,m,inan=(acc,pl|nom,pl)
-_
-томление=S,n,inan=gen,pl
-_
-острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-проживать=V,tran=praet,pl,partcp,brev,pf,pass
-\n
-вместе=ADV=
-_
-с=PR=
-_
-белый=A=ins,sg,plen,f
-_
-зима=S,f,inan=ins,sg
-.\n
-отчего=ADVPRO=
-_
-же=PART=
-,_
-отчего=ADVPRO=
-_
-же=PART=
-_
-ты=SPRO,sg,2p=nom
-\n
-хорошо=ADV=comp,parenth
-,_
-чем=CONJ=
-_
-избранник=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-?\n
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {к=PR=} {сердце=S,n,inan=dat,sg} {не=PART=} {приковывать=V=praet,sg,partcp,brev,n,pf,pass},
+{если=CONJ=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p} — {уходить=V,intr=sg,imper,2p,ipf}.
+{много=ADV,praed=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {уготовать=V,pf,tran=praet,sg,partcp,brev,n,pass}
+{тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)}, {кто=SPRO,sg,m,anim=nom} {вольный=A=sg,brev,m} {на=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+|
+{я=SPRO,sg,1p=nom} {не=PART=} {платить=V,ipf,tran=inpraes,sg,indic,1p}, {я=SPRO,sg,1p=nom} {не=PART=} {жаловаться=V,ipf,intr=inpraes,sg,indic,1p},
+{я=SPRO,sg,1p=(abl|dat)} {счастливый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {не=PART=} {бывать=V,ipf,intr=inf}.
+{не=PART=} {целовать=V,ipf,tran=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)}, {усталый=A=acc,sg,plen,f}, —
+{смерть=S,f,inan=(acc,sg|nom,sg)} {прийти=V,pf,intr=inpraes,sg,indic,3p} {поцеловать=V,pf,tran=inf}.
+|
+{день=S,m,inan=(acc,pl|nom,pl)} {томление=S,n,inan=gen,pl} {острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {проживать=V,tran=praet,pl,partcp,brev,pf,pass}
+{вместе=ADV=} {с=PR=} {белый=A=ins,sg,plen,f} {зима=S,f,inan=ins,sg}.
+{отчего=ADVPRO=} {же=PART=}, {отчего=ADVPRO=} {же=PART=} {ты=SPRO,sg,2p=nom}
+{хорошо=ADV=comp,parenth}, {чем=CONJ=} {избранник=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}?

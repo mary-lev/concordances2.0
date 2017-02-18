@@ -1,94 +1,14 @@
-если=CONJ=
-_
-верить=V,ipf,intr=inpraes,sg,indic,3p
-_
-произвол=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-приказ=S,m,inan=(acc,sg|nom,sg)
-_
-исполнять=V,tran=inpraes,pl,indic,3p,pf
-_
-скоро=ADV=
-,\n
-грубо=ADV=
-_
-крикнуть=V,pf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-:_\u2014_
-пойти=V,pf,intr=praet,sg,indic,m
-!_\u2014\n
-и=CONJ=
-_
-пойти=V,pf,intr=inpraes,sg,indic,2p
-_
-себя=SPRO=(abl|dat)
-_
-без=PR=
-_
-спор=S,m,inan=gen,sg
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-там=ADVPRO=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-впереди=ADV=
-,\n
-в=PR=
-_
-размышление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-вступать=V,intr=inpraes,ger,ipf
-,\n
-строго=ADV=
-_
-сказать=V,pf,tran=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-:_\u2014_
-идти=V,ipf,intr=sg,imper,2p
-!_\u2014\n
-и=CONJ=
-_
-пойти=V,pf,intr=inpraes,sg,indic,2p
-,_
-не=PART=
-_
-рассуждать=V,ipf,intr=inpraes,ger
-.\n\n
-иногда=ADV=
-_
-и=CONJ=
-_
-ласковый=A=sg,brev,m
-_
-он=SPRO,sg,3p,m=nom
-,\n
-сказать=V,pf,tran=inpraes,sg,indic,3p
-_
-вежливо=ADV=
-:_\u2014_
-идти=V,ipf,intr=pl,imper,2p
-!_\u2014\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-!_
-исполнять=V,tran=inf,pf
-_
-принуждать=V=praet,sg,partcp,brev,m,pf,pass,tran
-,\n
-ведь=PART=
-_
-не=PART=
-_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-:_\u2014_
-погодить=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-!_\u2014\n
+{если=CONJ=} {верить=V,ipf,intr=inpraes,sg,indic,3p} {произвол=S,m,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {приказ=S,m,inan=(acc,sg|nom,sg)} {исполнять=V,tran=inpraes,pl,indic,3p,pf} {скоро=ADV=},
+{грубо=ADV=} {крикнуть=V,pf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}: — {пойти=V,pf,intr=praet,sg,indic,m}! —
+{и=CONJ=} {пойти=V,pf,intr=inpraes,sg,indic,2p} {себя=SPRO=(abl|dat)} {без=PR=} {спор=S,m,inan=gen,sg}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {там=ADVPRO=} {быть=V,intr=inpraes,sg,indic,3p} {впереди=ADV=},
+{в=PR=} {размышление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {вступать=V,intr=inpraes,ger,ipf},
+{строго=ADV=} {сказать=V,pf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}: — {идти=V,ipf,intr=sg,imper,2p}! —
+{и=CONJ=} {пойти=V,pf,intr=inpraes,sg,indic,2p}, {не=PART=} {рассуждать=V,ipf,intr=inpraes,ger}.
+
+{иногда=ADV=} {и=CONJ=} {ласковый=A=sg,brev,m} {он=SPRO,sg,3p,m=nom},
+{сказать=V,pf,tran=inpraes,sg,indic,3p} {вежливо=ADV=}: — {идти=V,ipf,intr=pl,imper,2p}! —
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}! {исполнять=V,tran=inf,pf} {принуждать=V=praet,sg,partcp,brev,m,pf,pass,tran},
+{ведь=PART=} {не=PART=} {сказать=V,pf,tran=inpraes,sg,indic,2p}: — {погодить=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)}! —

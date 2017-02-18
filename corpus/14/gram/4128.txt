@@ -1,64 +1,9 @@
-тихо=ADV=
-_
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дон=S,m,anim=nom,sg
-,\n
-желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-входить=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-,\n
-входить=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-шапка=S,f,inan=(abl,sg|dat,sg)
-_
-набекрень=ADV=
-.\n
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-.\n
-этот=APRO=nom,sg,f
-_
-женщина=S,f,anim=nom,sg
-_
-больной=A=sg,brev,f
-,\n
-этот=APRO=nom,sg,f
-_
-женщина=S,f,anim=nom,sg
-_
-один=APRO=nom,sg,f
-.\n
-муж=S,m,anim=nom,sg
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-,_
-сын=S,m,anim=nom,sg
-_
-в=PR=
-_
-тюрьма=S,f,inan=(abl,sg|dat,sg)
-,\n
-помолиться=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-обо=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
+{тихо=ADV=} {литься=V,ipf,intr=inpraes,sg,indic,3p} {тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дон=S,m,anim=nom,sg},
+{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {месяц=S,m,inan=(acc,sg|nom,sg)} {входить=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {дом=S,m,inan=(acc,sg|nom,sg)},
+{входить=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {шапка=S,f,inan=(abl,sg|dat,sg)} {набекрень=ADV=}.
+{видеть=V,ipf,tran=inpraes,sg,indic,3p} {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {месяц=S,m,inan=(acc,sg|nom,sg)} {тень=S,f,inan=(acc,sg|nom,sg)}.
+{этот=APRO=nom,sg,f} {женщина=S,f,anim=nom,sg} {больной=A=sg,brev,f},
+{этот=APRO=nom,sg,f} {женщина=S,f,anim=nom,sg} {один=APRO=nom,sg,f}.
+{муж=S,m,anim=nom,sg} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)}, {сын=S,m,anim=nom,sg} {в=PR=} {тюрьма=S,f,inan=(abl,sg|dat,sg)},
+{помолиться=V,pf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {обо=PR=} {я=SPRO,sg,1p=(abl|dat)}.
+

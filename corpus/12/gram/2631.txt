@@ -1,120 +1,16 @@
-счастие=S,n,inan=(acc,sg|nom,sg)
-_
-или=CONJ=
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-_\u2014_\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-знать=V,ipf,tran=inf
-_
-наизусть=ADV=
-,\n
-в=PR=
-_
-пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тальма=S,f,inan=(abl,sg|dat,sg)
-_
-катать=V,ipf,tran=inf
-_
-бобровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-пушкин=S,famn,m,anim=(acc,sg|gen,sg)
-_
-теребить=V,ipf,tran=inf
-_
-в=PR=
-_
-рука=S,f,inan=abl,pl
-,\n
-и=CONJ=
-_
-прослывать=V,intr=inf,pf
-_
-в=PR=
-_
-век=S,m,inan=abl,pl
-_\u2014_\n
-длинноброва?=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-ни=PART=
-_
-к=PR=
-_
-кто=SPRO,sg,m,anim=dat
-_
-не=PART=
-_
-суровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_\n
-гончарова=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-.\n\n
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-или=CONJ=
-_
-смертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-быть=V,intr=inf,ipf
-_
-как=ADVPRO=
-_
-шелк=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-пух=S,sg,m,inan=(acc|nom)
-,_
-как=CONJ=
-_
-мех=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-,_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,ger
-_
-стих=S,m,inan=gen,sg
-_
-лить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-,\n
-процветать=V,intr=inf,ipf
-_
-себя=SPRO=(abl|dat)
-_
-без=PR=
-_
-морщина=S,f,inan=gen,pl
-_
-на=PR=
-_
-лоб=S,m,inan=(dat,sg|loc,sg)
-.\n
-если=CONJ=
-_
-грустно=ADV=
-_\u2014_
-кусать=V,ipf,tran=inf
-_
-губа=S,f,inan=acc,sg
-\n
-и=CONJ=
-_
-потом=ADVPRO=
-,_
-в=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-,\n
-вспоминать=V,ipf,tran=inf
-_\u2014_
-ланский?=S,famn,m,anim=(acc,sg|gen,sg)
-.\n
+{счастие=S,n,inan=(acc,sg|nom,sg)} {или=CONJ=} {грусть=S,f,inan=(acc,sg|nom,sg)} — 
+{ничто=SPRO,sg,n=gen} {не=PART=} {знать=V,ipf,tran=inf} {наизусть=ADV=},
+{в=PR=} {пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тальма=S,f,inan=(abl,sg|dat,sg)} {катать=V,ipf,tran=inf} {бобровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {пушкин=S,famn,m,anim=(acc,sg|gen,sg)} {теребить=V,ipf,tran=inf} {в=PR=} {рука=S,f,inan=abl,pl},
+{и=CONJ=} {прослывать=V,intr=inf,pf} {в=PR=} {век=S,m,inan=abl,pl} — 
+{длинноброва?=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{ни=PART=} {к=PR=} {кто=SPRO,sg,m,anim=dat} {не=PART=} {суровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — 
+{гончарова=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}.
+
+{сон=S,m,inan=(acc,sg|nom,sg)} {или=CONJ=} {смертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грех=S,m,inan=(acc,sg|nom,sg)} — 
+{быть=V,intr=inf,ipf} {как=ADVPRO=} {шелк=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {пух=S,sg,m,inan=(acc|nom)}, {как=CONJ=} {мех=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=}, {не=PART=} {слышать=V,ipf,tran=inpraes,ger} {стих=S,m,inan=gen,sg} {лить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)},
+{процветать=V,intr=inf,ipf} {себя=SPRO=(abl|dat)} {без=PR=} {морщина=S,f,inan=gen,pl} {на=PR=} {лоб=S,m,inan=(dat,sg|loc,sg)}.
+{если=CONJ=} {грустно=ADV=} — {кусать=V,ipf,tran=inf} {губа=S,f,inan=acc,sg}
+{и=CONJ=} {потом=ADVPRO=}, {в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)},
+{вспоминать=V,ipf,tran=inf} — {ланский?=S,famn,m,anim=(acc,sg|gen,sg)}.

@@ -1,84 +1,14 @@
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_\n
-счет=S,m,inan=(acc,sg|nom,sg)
-_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-...\n
-кажется=ADV,parenth=
-,_
-вот-вот=ADV=
-_
-сейчас=ADV=
-_
-разбиваться=V,intr=inpraes,sg,indic,3p,pf
-_\u2014_\n
-нет=PART=
-,_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-...\n\n
-вы=SPRO,pl,2p=nom
-_
-перержаветь=V,pf,intr=praet,pl,indic
-,_
-вы=SPRO,pl,2p=nom
-_
-уставать=V,intr=praet,pl,indic,pf
-,\n
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-сон=S,m,inan=(acc,pl|nom,pl)
-._\u2014\n
-но=CONJ=
-_
-вдруг=ADV=
-_
-воспрянуть=V,pf,intr=inpraes,sg,indic,2p
-_
-упрямый=A=comp
-_
-становиться=V,intr=praet,pl,indic,pf
-,_\n
-ждать=V,ipf,tran=inpraes,sg,indic,2p
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-,_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-.\n
-ложь=S,f,inan=(acc,sg|nom,sg)
-,_
-все=ADV=
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-!\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-когда=ADVPRO=
-_
-же=PART=
-_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-убывать=V,intr=inpraes,sg,indic,3p,pf
-..._\n
-когда=CONJ=
-_
-умирать=V,intr=inpraes,sg,indic,2p,pf
-?\n
+{глупый=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {все=SPRO,pl=(acc|nom)} {биться=V,ipf,intr=inpraes,sg,indic,3p}, {биться=V,ipf,intr=inpraes,sg,indic,3p} — 
+{счет=S,m,inan=(acc,sg|nom,sg)} {вести=V,ipf,tran=inpraes,sg,indic,3p}...
+{кажется=ADV,parenth=}, {вот-вот=ADV=} {сейчас=ADV=} {разбиваться=V,intr=inpraes,sg,indic,3p,pf} — 
+{нет=PART=}, {жить=V,ipf,intr=inpraes,sg,indic,3p}...
+
+{вы=SPRO,pl,2p=nom} {перержаветь=V,pf,intr=praet,pl,indic}, {вы=SPRO,pl,2p=nom} {уставать=V,intr=praet,pl,indic,pf},
+{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {сон=S,m,inan=(acc,pl|nom,pl)}. —
+{но=CONJ=} {вдруг=ADV=} {воспрянуть=V,pf,intr=inpraes,sg,indic,2p} {упрямый=A=comp} {становиться=V,intr=praet,pl,indic,pf}, 
+{ждать=V,ipf,tran=inpraes,sg,indic,2p} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{весна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p}, {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p}.
+{ложь=S,f,inan=(acc,sg|nom,sg)}, {все=ADV=} {ложь=S,f,inan=(acc,sg|nom,sg)}!
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {когда=ADVPRO=} {же=PART=} {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {убывать=V,intr=inpraes,sg,indic,3p,pf}... 
+{когда=CONJ=} {умирать=V,intr=inpraes,sg,indic,2p,pf}?

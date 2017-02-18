@@ -1,98 +1,15 @@
-если=CONJ=
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-луна=S,f,inan=nom,sg
-_
-не=PART=
-_
-бродить=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-а=CONJ=
-_
-стыть=V,ipf=inpraes,sg,indic,3p
-_\u2014_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-печать=S,f,inan=(acc,sg|nom,sg)
-...\n
-мертвый=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-муж=S,m,anim=nom,sg
-_
-приходить=V,intr=inpraes,sg,indic,3p,ipf
-\n
-любовный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-письмо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-читать=V,ipf,tran=inf
-.\n\n
-в=PR=
-_
-шкатулка=S,f,inan=(abl,sg|dat,sg)
-_
-резной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-дуб=S,m,inan=gen,sg
-\n
-он=SPRO,sg,3p,m=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,3p
-_
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-замок=S,m,inan=(acc,sg|nom,sg)
-,\n
-стучать=V,ipf,intr=inpraes,pl,indic,3p
-_
-по=PR=
-_
-паркет=S,m,inan=dat,sg
-_
-грубо=ADV=
-\n
-шаг=S,m,inan=(acc,pl|nom,pl)
-_
-заковывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-нога=S,f,inan=gen,pl
-.\n\n
-сверять=V,tran=inpraes,sg,indic,3p,ipf
-_
-часы=S,pl,inan=(acc|nom)
-_
-свидание=S,n,inan=gen,pl
-\n
-и=CONJ=
-_
-подпись=S,f,inan=gen,pl
-_
-смутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-узор=S,m,inan=(acc,sg|nom,sg)
-.\n
-разве=PART=
-_
-мало=ADV=
-_
-он=SPRO,sg,3p,m=dat
-_
-страдание=S,n,inan=gen,pl
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вынести=V,pf=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-до=PR=
-_
-сей=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-пора=S,f,inan=gen,pl
-?\n\n
+{если=CONJ=} {в=PR=} {небо=S,n,inan=abl,sg} {луна=S,f,inan=nom,sg} {не=PART=} {бродить=V,ipf,intr=inpraes,sg,indic,3p},
+{а=CONJ=} {стыть=V,ipf=inpraes,sg,indic,3p} — {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {печать=S,f,inan=(acc,sg|nom,sg)}...
+{мертвый=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {муж=S,m,anim=nom,sg} {приходить=V,intr=inpraes,sg,indic,3p,ipf}
+{любовный=A=(acc,pl,plen,inan|nom,pl,plen)} {письмо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {читать=V,ipf,tran=inf}.
+
+{в=PR=} {шкатулка=S,f,inan=(abl,sg|dat,sg)} {резной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дуб=S,m,inan=gen,sg}
+{он=SPRO,sg,3p,m=nom} {помнить=V,ipf,tran=inpraes,sg,indic,3p} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {замок=S,m,inan=(acc,sg|nom,sg)},
+{стучать=V,ipf,intr=inpraes,pl,indic,3p} {по=PR=} {паркет=S,m,inan=dat,sg} {грубо=ADV=}
+{шаг=S,m,inan=(acc,pl|nom,pl)} {заковывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {нога=S,f,inan=gen,pl}.
+
+{сверять=V,tran=inpraes,sg,indic,3p,ipf} {часы=S,pl,inan=(acc|nom)} {свидание=S,n,inan=gen,pl}
+{и=CONJ=} {подпись=S,f,inan=gen,pl} {смутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {узор=S,m,inan=(acc,sg|nom,sg)}.
+{разве=PART=} {мало=ADV=} {он=SPRO,sg,3p,m=dat} {страдание=S,n,inan=gen,pl},
+{что=SPRO,sg,n,inan=(acc|nom)} {вынести=V,pf=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {до=PR=} {сей=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl}?
+

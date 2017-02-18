@@ -1,62 +1,8 @@
-моросить=V,ipf,intr=inpraes,sg,indic,3p
-._
-как=ADVPRO=
-_
-бы=PART=
-_
-росинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-возникать=V,intr=inpraes,pl,indic,3p,ipf
-_
-на=PR=
-_
-рука=S,f,inan=abl,pl
-,_\u2014\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-чудо=S,n,inan=(acc,sg|nom,sg)
--
-бисеринка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-.\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-бусинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-чуть=ADV=
-_
-блеснуть=V,pf,intr=inpraes,pl,indic,3p
-,_
-и=CONJ=
-_
-вот=PART=
-_
-они=SPRO,pl=(acc|gen)
-_
-нет=ADV,praed=
-.\n
-лишь=PART=
-_
-на=PR=
-_
-край=S,m,inan=abl,sg
-_
-одеяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-на=PR=
-_
-минутка=S,f,inan=acc,sg
-_\u2014_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-след=S,m,inan=(acc,sg|nom,sg)
-.\n
+{моросить=V,ipf,intr=inpraes,sg,indic,3p}. {как=ADVPRO=} {бы=PART=} {росинка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{возникать=V,intr=inpraes,pl,indic,3p,ipf} {на=PR=} {рука=S,f,inan=abl,pl}, —
+{этот=APRO=(nom,pl|acc,pl,inan)} {чудо=S,n,inan=(acc,sg|nom,sg)}-{бисеринка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {прах=S,m,inan=(acc,sg|nom,sg)}.
+{этот=APRO=(nom,pl|acc,pl,inan)} {бусинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{чуть=ADV=} {блеснуть=V,pf,intr=inpraes,pl,indic,3p}, {и=CONJ=} {вот=PART=} {они=SPRO,pl=(acc|gen)} {нет=ADV,praed=}.
+{лишь=PART=} {на=PR=} {край=S,m,inan=abl,sg} {одеяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{на=PR=} {минутка=S,f,inan=acc,sg} — {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {след=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,140 +1,20 @@
-в=PR=
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-_
-красивый=A=nom,sg,plen,f
-_\n
-медленный=A=nom,sg,plen,f
-_
-черный=A=nom,sg,plen,f
-_
-змея=S,f,anim=nom,sg
-;_\n
-как=ADVPRO=
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-,_
-такой=APRO=nom,sg,f
-_
-же=PART=
-_
-ленивый=A=nom,sg,plen,f
-_\n
-и=CONJ=
-_
-холодный=A=nom,sg,plen,f
-,_
-как=CONJ=
-_
-я=SPRO,sg,1p=nom
-.\n\n
-вечер=S,m,inan=ins,sg
-_
-слагать=V,tran=inpraes,sg,indic,1p,ipf
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-чудный=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-на=PR=
-_
-ковер=S,m,inan=abl,sg
-_
-у=PR=
-_
-красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-огонь=S,m,inan=gen,sg
-,_\n
-а=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-глаз=S,m,inan=ins,pl
-_
-изумрудный=A=ins,pl,plen
-_\n
-равнодушно=ADV=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-ночь=S,f,inan=ins,sg
-_
-слышать=V,ipf,tran=inpraes,pl,indic,3p
-_
-стонать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-мертвый=S,m,anim=nom,pl
-,_
-немой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-образ=S,m,inan=(acc,pl|gen,sg|nom,pl)
-..._\n
-я=SPRO,sg,1p=nom
-_
-иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,_
-верно=ADV,parenth=
-,_
-пожелать=V,pf,tran=praet,sg,indic,f
-_
-бы=PART=
-,_\n
-если=CONJ=
-_
-б=PART=
-_
-не=PART=
-_
-змеиный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-только=PART=
-_
-утро=S,n,inan=ins,sg
-_
-снова=ADV=
-_
-я=SPRO,sg,1p=nom
-,_
-покорный=A=nom,sg,plen,f
-,_\n
-таить=V,ipf,tran=inpraes,sg,indic,1p
-,_
-словно=CONJ=
-_
-тонкий=A=nom,sg,plen,f
-_
-свеча=S,f,inan=nom,sg
-..._\n
-и=CONJ=
-_
-тогда=ADVPRO=
-_
-сползать=V,pf,intr=inpraes,sg,indic,3p
-_
-лента=S,f,inan=nom,sg
-_
-черный=A=nom,sg,plen,f
-_\n
-с=PR=
-_
-низко=ADV=
-_
-обнаженный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-плечо=S,n,inan=gen,sg
-.\n\n
+{в=PR=} {комната=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {жить=V,ipf,intr=inpraes,sg,indic,3p} {красивый=A=nom,sg,plen,f} 
+{медленный=A=nom,sg,plen,f} {черный=A=nom,sg,plen,f} {змея=S,f,anim=nom,sg}; 
+{как=ADVPRO=} {и=CONJ=} {я=SPRO,sg,1p=nom}, {такой=APRO=nom,sg,f} {же=PART=} {ленивый=A=nom,sg,plen,f} 
+{и=CONJ=} {холодный=A=nom,sg,plen,f}, {как=CONJ=} {я=SPRO,sg,1p=nom}.
+
+{вечер=S,m,inan=ins,sg} {слагать=V,tran=inpraes,sg,indic,1p,ipf} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {чудный=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{на=PR=} {ковер=S,m,inan=abl,sg} {у=PR=} {красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {огонь=S,m,inan=gen,sg}, 
+{а=CONJ=} {она=SPRO,sg,3p,f=nom} {глаз=S,m,inan=ins,pl} {изумрудный=A=ins,pl,plen} 
+{равнодушно=ADV=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}.
+
+{ночь=S,f,inan=ins,sg} {слышать=V,ipf,tran=inpraes,pl,indic,3p} {стонать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{мертвый=S,m,anim=nom,pl}, {немой=A=(acc,pl,plen,inan|nom,pl,plen)} {образ=S,m,inan=(acc,pl|gen,sg|nom,pl)}... 
+{я=SPRO,sg,1p=nom} {иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}, {верно=ADV,parenth=}, {пожелать=V,pf,tran=praet,sg,indic,f} {бы=PART=}, 
+{если=CONJ=} {б=PART=} {не=PART=} {змеиный=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{только=PART=} {утро=S,n,inan=ins,sg} {снова=ADV=} {я=SPRO,sg,1p=nom}, {покорный=A=nom,sg,plen,f}, 
+{таить=V,ipf,tran=inpraes,sg,indic,1p}, {словно=CONJ=} {тонкий=A=nom,sg,plen,f} {свеча=S,f,inan=nom,sg}... 
+{и=CONJ=} {тогда=ADVPRO=} {сползать=V,pf,intr=inpraes,sg,indic,3p} {лента=S,f,inan=nom,sg} {черный=A=nom,sg,plen,f} 
+{с=PR=} {низко=ADV=} {обнаженный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {плечо=S,n,inan=gen,sg}.
+

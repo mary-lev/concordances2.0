@@ -1,92 +1,14 @@
-изящный=A=nom,sg,plen,f
-,_
-средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рост=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-с=PR=
-_
-головка=S,f,inan=ins,sg
-_
-bronze??
--
-oxide??
-\n
-она=SPRO,sg,3p,f=nom
-_
-воплощение=S,n,inan=(acc,sg|nom,sg)
-_
-тост=S,m,inan=gen,sg
-:\n
-Mais??
-_
-non??
-,_
-regardez??
-,_
-regardez??
-!\n\n
-пикантный=A=nom,sg,plen,f
-,_
-средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рост=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-она=SPRO,sg,3p,f=nom
-_
-героиня=S,f,anim=nom,sg
-_
-додэ?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n
-поклонник=S,m,anim=(acc,pl|gen,pl)
-_
-много=ADV,praed=
-,\u2014_
-они=SPRO,pl=(acc|gen)
-_
-до=PR=
-_
-сто=NUM=(abl|dat|gen|ins)
-\n
-Mais??
-_
-non??
-,_
-regardez??
-,_
-regardez??
-!\n\n
-но=CONJ=
-_
-женщина=S,f,anim=nom,sg
-_
-средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рост=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-бывать=V,ipf,intr=inpraes,sg,indic,3p
-_
-высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-en??
-_
-deux??
-...\n
-и=CONJ=
-_
-надо=ADV,praed=
-_
-сознаваться=V,intr=inf,pf
-,_
-что=CONJ=
-_
-просто=PART=
-...\u2014\n
-Mais??
-_
-non??
-,_
-regardez??
-,_
-regardez??
-\n
+{изящный=A=nom,sg,plen,f}, {средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рост=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{с=PR=} {головка=S,f,inan=ins,sg} {bronze??}-{oxide??}
+{она=SPRO,sg,3p,f=nom} {воплощение=S,n,inan=(acc,sg|nom,sg)} {тост=S,m,inan=gen,sg}:
+{Mais??} {non??}, {regardez??}, {regardez??}!
+
+{пикантный=A=nom,sg,plen,f}, {средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рост=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{она=SPRO,sg,3p,f=nom} {героиня=S,f,anim=nom,sg} {додэ?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+{поклонник=S,m,anim=(acc,pl|gen,pl)} {много=ADV,praed=},— {они=SPRO,pl=(acc|gen)} {до=PR=} {сто=NUM=(abl|dat|gen|ins)}
+{Mais??} {non??}, {regardez??}, {regardez??}!
+
+{но=CONJ=} {женщина=S,f,anim=nom,sg} {средний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рост=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{бывать=V,ipf,intr=inpraes,sg,indic,3p} {высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {en??} {deux??}...
+{и=CONJ=} {надо=ADV,praed=} {сознаваться=V,intr=inf,pf}, {что=CONJ=} {просто=PART=}...—
+{Mais??} {non??}, {regardez??}, {regardez??}

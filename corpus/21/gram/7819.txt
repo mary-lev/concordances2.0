@@ -1,88 +1,9 @@
-увы=INTJ=
-,_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-!_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-неутоленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-не=PART=
-_
-сниться=V,ipf,intr=inpraes,sg,indic,2p
-_
-ль=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-невыразимый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сон=S,m,inan=ins,sg
-?\n
-не=PART=
-_
-тень=S,f,inan=ins,sg
-_
-ли=PART=
-_
-проходить=V=(inpraes,sg,indic,2p,pf,tran|inpraes,sg,indic,2p,ipf,tran)
-_
-омрачать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-,\n
-с=PR=
-_
-букет=S,m,inan=ins,sg
-_
-роза=S,f,inan=gen,pl
-,_
-кинжал=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-вино=S,n,inan=ins,sg
-?\n\n
-я=SPRO,sg,1p=nom
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-зорко=ADV=
-_
-стеречь=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-ты=SPRO,sg,2p=nom
-_
-падать=V,ipf,intr=inpraes,sg,indic,2p
-,_
-ты=SPRO,sg,2p=nom
-_
-шептать=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-рыдать=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-но=CONJ=
-_
-горький=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-слово=S,n,inan=gen,pl
-_
-расслышать=V,pf,tran=inf
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-\n
-и=CONJ=
-_
-язык=S,m,inan=gen,sg
-_
-тень=S,f,inan=gen,pl
-_
-не=PART=
-_
-понимать=V=inpraes,sg,indic,1p,ipf,tran
-.\n
+{увы=INTJ=}, {дитя=S,obsol,sg,n,anim=(acc|nom)}! {душа=S,f,inan=(abl,sg|dat,sg)} {неутоленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{не=PART=} {сниться=V,ipf,intr=inpraes,sg,indic,2p} {ль=PART=} {ты=SPRO,sg,2p=nom} {невыразимый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg}?
+{не=PART=} {тень=S,f,inan=ins,sg} {ли=PART=} {проходить=V=(inpraes,sg,indic,2p,pf,tran|inpraes,sg,indic,2p,ipf,tran)} {омрачать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)},
+{с=PR=} {букет=S,m,inan=ins,sg} {роза=S,f,inan=gen,pl}, {кинжал=S,m,inan=ins,sg} {и=CONJ=} {вино=S,n,inan=ins,sg}?
+
+{я=SPRO,sg,1p=nom} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {шаг=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {зорко=ADV=} {стеречь=V,ipf,tran=inpraes,sg,indic,1p}.
+{ты=SPRO,sg,2p=nom} {падать=V,ipf,intr=inpraes,sg,indic,2p}, {ты=SPRO,sg,2p=nom} {шептать=V,ipf,tran=inpraes,sg,indic,2p} — {я=SPRO,sg,1p=nom} {рыдать=V,ipf,intr=inpraes,sg,indic,1p},
+{но=CONJ=} {горький=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слово=S,n,inan=gen,pl} {расслышать=V,pf,tran=inf} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}
+{и=CONJ=} {язык=S,m,inan=gen,sg} {тень=S,f,inan=gen,pl} {не=PART=} {понимать=V=inpraes,sg,indic,1p,ipf,tran}.

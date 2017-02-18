@@ -1,43 +1,5 @@
-...
-и=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-грозить=V,ipf,intr=praet,sg,indic,n
-_
-оба=NUM=(dat,m|dat,n)
-,\n
-и=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-предчувствовать=V,ipf,tran=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=nom
-...\n
-мы=SPRO,pl,1p=nom
-_
-жить=V,ipf,intr=praet,pl,indic
-_
-под=PR=
-_
-огненный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-зной=S,m,inan=ins,sg
-\n
-незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-конечно=ADV,parenth=
-,_
-мы=SPRO,pl,1p=dat
-_
-страшно=ADV=
-_
-встречаться=V,intr=inf,ipf
-...\n
+...{и=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {грозить=V,ipf,intr=praet,sg,indic,n} {оба=NUM=(dat,m|dat,n)},
+{и=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {предчувствовать=V,ipf,tran=praet,sg,indic,m} {ты=SPRO,sg,2p=nom}...
+{мы=SPRO,pl,1p=nom} {жить=V,ipf,intr=praet,pl,indic} {под=PR=} {огненный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зной=S,m,inan=ins,sg}
+{незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{конечно=ADV,parenth=}, {мы=SPRO,pl,1p=dat} {страшно=ADV=} {встречаться=V,intr=inf,ipf}...

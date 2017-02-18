@@ -1,80 +1,13 @@
-в=PR=
-_
-глубина=S,f,inan=(abl,sg|dat,sg)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рожать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)
-,\n
-чуткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-слово=S,n,inan=ins,sg
-_
-пробуждать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)
-,\n
-мимолетный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-еле=ADV=
-_
-вспыхивать=V,intr=praet,ger,pf
-,_
-улыбаться=V,intr=inpraes,pl,indic,3p,ipf
-,\n
-пыль=S,f,inan=ins,sg
-_
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-осыпаться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-точно=CONJ=
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,_\u2014\n\n
-безмятежный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-свободный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-мир=S,m,inan=dat,sg
-_
-чуждый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-холодный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-призрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-небо=S,n,inan=gen,pl
-,\n
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-что=CONJ=
-_
-светить=V,ipf,intr=inpraes,pl,indic,3p
-_
-над=PR=
-_
-пустыня=S,f,inan=ins,pl
-,\n
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-что=CONJ=
-_
-властвовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-святыня=S,f,inan=ins,pl
-\n
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-сказка=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-чудо=S,n,inan=gen,pl
-.\n
+{в=PR=} {глубина=S,f,inan=(abl,sg|dat,sg)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рожать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)},
+{чуткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слово=S,n,inan=ins,sg} {пробуждать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)},
+{мимолетный=A=(acc,pl,plen,inan|nom,pl,plen)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{еле=ADV=} {вспыхивать=V,intr=praet,ger,pf}, {улыбаться=V,intr=inpraes,pl,indic,3p,ipf},
+{пыль=S,f,inan=ins,sg} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {осыпаться=V,ipf,intr=inpraes,pl,indic,3p},
+{точно=CONJ=} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}, —
+
+{безмятежный=A=(acc,pl,plen,inan|nom,pl,plen)}, {свободный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{мир=S,m,inan=dat,sg} {чуждый=A=(acc,pl,plen,inan|nom,pl,plen)}, {холодный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {призрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl},
+{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {что=CONJ=} {светить=V,ipf,intr=inpraes,pl,indic,3p} {над=PR=} {пустыня=S,f,inan=ins,pl},
+{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {что=CONJ=} {властвовать=V,ipf,intr=inpraes,pl,indic,3p} {святыня=S,f,inan=ins,pl}
+{в=PR=} {царство=S,n,inan=abl,sg} {сказка=S,f,inan=gen,pl} {и=CONJ=} {чудо=S,n,inan=gen,pl}.

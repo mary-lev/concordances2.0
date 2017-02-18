@@ -1,138 +1,28 @@
-короткий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-волос=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-местись=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-между=PR=
-_
-звезда=S,f,inan=gen,pl
-._\u2014_
-я=SPRO,sg,1p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,1p
-\n
-короткий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-\n
-под=PR=
-_
-звездный=A=ins,sg,plen,f
-_
-пыль=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сводить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n_\u2014_\t
-сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-!_\u2014_\n
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-сухожилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-смежать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-вежды=S,pl,inan=(acc|nom)
-\n
-и=CONJ=
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_
-промежду=PR=
-_\u2014_\n
-свет=S,sg,m,inan=(acc|nom)
-.\n
-не=PART=
-_
-гладить=V,ipf,tran=inpraes,ger
-,_
-а=CONJ=
-_
-резать=V,ipf,tran=inpraes,ger
-\n
-по=PR=
-_
-бренный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-доска=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-вскачь=ADV=
-\n
-все=ADV=
-_
-высоко=ADV=comp
-_
-и=CONJ=
-_
-высоко=ADV=comp
-,\n
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,ger
-\n
-палач=S,m,anim=nom,sg
-_\u2014_
-хрип=S,m,inan=gen,sg
-,\n
-палач=S,m,anim=nom,sg
-_\u2014_
-хруст=S,m,inan=gen,sg
-\n
-кость=S,f,inan=gen,pl
-.\n_\u2014_\t
-стоять=V,ipf,intr=sg,imper,2p
-!\n
-жила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,3p
-!\n
-коготь=S,m,inan=(acc,sg|nom,sg)
-\n
-резать=V,ipf,tran=inpraes,sg,indic,3p
-_
-живой=A=acc,sg,plen,f
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-!\n
-господь=S,sg,m,anim=nom
-,_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-!..\n\n
-то=CONJ=
-_
-на=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-струна=S,f,inan=(abl,sg|dat,sg)
-\n
-этюд=S,m,inan=(acc,sg|nom,sg)
-_
-паганинь?=S,famn,m,anim=nom,pl
-.\n
+{короткий=A=(acc,pl,plen,inan|nom,pl,plen)} {крыло=S,n,inan=(acc,pl|nom,pl)} {волос=S,m,inan=(acc,sg|gen,pl|nom,sg)} {я=SPRO,sg,1p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,1p},
+{местись=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {между=PR=} {звезда=S,f,inan=gen,pl}. — {я=SPRO,sg,1p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,1p}
+{короткий=A=(acc,pl,plen,inan|nom,pl,plen)} {крыло=S,n,inan=(acc,pl|nom,pl)}
+{под=PR=} {звездный=A=ins,sg,plen,f} {пыль=S,f,inan=ins,sg},
+{и=CONJ=} {рот=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сводить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+ — 	{сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}! — 
+{и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {сухожилие=S,n,inan=(acc,pl|gen,sg|nom,pl)} — 
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{смежать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {вежды=S,pl,inan=(acc|nom)}
+{и=CONJ=} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {промежду=PR=} — 
+{свет=S,sg,m,inan=(acc|nom)}.
+{не=PART=} {гладить=V,ipf,tran=inpraes,ger}, {а=CONJ=} {резать=V,ipf,tran=inpraes,ger}
+{по=PR=} {бренный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{доска=S,f,inan=(abl,sg|dat,sg)} — {вскачь=ADV=}
+{все=ADV=} {высоко=ADV=comp} {и=CONJ=} {высоко=ADV=comp},
+{не=PART=} {слышать=V,ipf,tran=inpraes,ger}
+{палач=S,m,anim=nom,sg} — {хрип=S,m,inan=gen,sg},
+{палач=S,m,anim=nom,sg} — {хруст=S,m,inan=gen,sg}
+{кость=S,f,inan=gen,pl}.
+ — 	{стоять=V,ipf,intr=sg,imper,2p}!
+{жила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {мочь=V,ipf,intr=inpraes,pl,indic,3p}!
+{коготь=S,m,inan=(acc,sg|nom,sg)}
+{резать=V,ipf,tran=inpraes,sg,indic,3p} {живой=A=acc,sg,plen,f} {плоть=S,f,inan=(acc,sg|nom,sg)}!
+{господь=S,sg,m,anim=nom}, {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}!..
+
+{то=CONJ=} {на=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {струна=S,f,inan=(abl,sg|dat,sg)}
+{этюд=S,m,inan=(acc,sg|nom,sg)} {паганинь?=S,famn,m,anim=nom,pl}.

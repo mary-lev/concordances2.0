@@ -1,227 +1,34 @@
+{царь=S,m,anim=nom,sg}-{огонь=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {вода=S,f,inan=ins,sg}-{царица=S,f,anim=ins,sg} —
+{мировой=A=nom,sg,plen,f} {красота=S,f,inan=nom,sg}.
+{служить=V,ipf,tran=inpraes,sg,indic,3p} {день=S,m,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=ins} {белолицый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{ночь=S,f,inan=ins,sg} {нежить=V,ipf,tran=inpraes,sg,indic,3p} {темнота=S,sg,f,inan=nom},
+{полумгла=S,f,inan=nom,sg} {с=PR=} {луна=S,f,inan=ins,sg}-{девица=S,f,anim=ins,sg}.
+{они=SPRO,pl=dat} {подножие=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {три=NUM=(nom|acc,inan)} {кит=S,m,anim=(acc,sg|gen,sg)}.
 
-царь=S,m,anim=nom,sg
--
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-вода=S,f,inan=ins,sg
--
-царица=S,f,anim=ins,sg
-_\u2014\n
-мировой=A=nom,sg,plen,f
-_
-красота=S,f,inan=nom,sg
-.\n
-служить=V,ipf,tran=inpraes,sg,indic,3p
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=ins
-_
-белолицый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-ночь=S,f,inan=ins,sg
-_
-нежить=V,ipf,tran=inpraes,sg,indic,3p
-_
-темнота=S,sg,f,inan=nom
-,\n
-полумгла=S,f,inan=nom,sg
-_
-с=PR=
-_
-луна=S,f,inan=ins,sg
--
-девица=S,f,anim=ins,sg
-.\n
-они=SPRO,pl=dat
-_
-подножие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-три=NUM=(nom|acc,inan)
-_
-кит=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-беспредельность=S,f,inan=(acc,sg|nom,sg)
-_
-океан=S,m,inan=gen,sg
-\n
-учить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ум=S,m,inan=(acc,sg|nom,sg)
-_
-лелеять=V,ipf,tran=inf
-_
-ширь=S,f,inan=(acc,sg|nom,sg)
-.\n
-превращать=V,tran=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-_
-моран?=S,m,inan=gen,sg
-\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-кладбищенский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пустырь=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-серебристость=S,f,inan=abl,pl
-_
-туман=S,m,inan=gen,sg
-\n
-рдеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-алатырь=S,geo,m,inan=(acc,sg|nom,sg)
-.\n\n
-по=PR=
-_
-лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дорожка=S,f,inan=(abl,sg|dat,sg)
-\n
-изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-змея=S,f,anim=(acc,pl|gen,pl)
-.\n
-там=ADVPRO=
-_
-избушка=S,f,inan=nom,sg
-_
-курья=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ножка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-там=ADVPRO=
-_
-яга=S,f,anim=nom,sg
-,_
-и=CONJ=
-_
-там=ADVPRO=
-_
-кощей=S,persn,m,anim=nom,sg
-.\n
-там=ADVPRO=
-_
-царек=S,m,anim=nom,pl
-_
-крутой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рожок=S,m,inan=(acc,pl|nom,pl)
-,\n
-там=ADVPRO=
-_
-жар-птица=S,f,anim=nom,sg
-,_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-око=S,n,inan=gen,pl
-.\n\n
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-волк=S,m,anim=nom,sg
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-глаз=S,m,inan=ins,pl
-,\n
-земляника=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-куст=S,m,inan=(acc,sg|nom,sg)
-_
-измятый=A=sg,brev,m
-.\n
-плакать=V,ipf,intr=inpraes,pl,indic,3p
-_
-девушка=S,f,anim=(gen,sg|nom,pl)
-_
-ночь=S,f,inan=ins,pl
-,\n
-день=S,m,inan=ins,sg
-_
-у=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-же=PART=
-_
-светлый=A=sg,brev,m
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-.\n
-царь=S,m,anim=nom,sg
-_
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-вечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-храм=S,m,inan=abl,sg
-,\n
-а=CONJ=
-_
-царица=S,f,anim=acc,sg
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мчать=V,ipf,tran=inpraes,pl,indic,3p
-.\n\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-двойной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-и=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-будто=PART=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-нет=PART=
-_
-грех=S,m,inan=gen,sg
-.\n
-пред=PR=
-_
-немеркнущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-картина=S,f,inan=ins,sg
-\n
-литургия=S,f,inan=nom,sg
-_
-сон=S,m,inan=gen,pl
-_
-тихий=A=sg,brev,f
-.\n
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-_
-в=PR=
-_
-книга=S,f,inan=(abl,sg|dat,sg)
-_
-голубина=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-стройный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-стих=S,m,inan=gen,sg
-.\n
+{беспредельность=S,f,inan=(acc,sg|nom,sg)} {океан=S,m,inan=gen,sg}
+{учить=V,ipf,tran=inpraes,sg,indic,3p} {ум=S,m,inan=(acc,sg|nom,sg)} {лелеять=V,ipf,tran=inf} {ширь=S,f,inan=(acc,sg|nom,sg)}.
+{превращать=V,tran=inpraes,sg,indic,3p,ipf} {в=PR=} {сад=S,m,inan=(acc,sg|nom,sg)} {моран?=S,m,inan=gen,sg}
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {кладбищенский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пустырь=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {серебристость=S,f,inan=abl,pl} {туман=S,m,inan=gen,sg}
+{рдеть=V,ipf,intr=inpraes,sg,indic,3p} {камень=S,m,inan=(acc,sg|nom,sg)} {алатырь=S,geo,m,inan=(acc,sg|nom,sg)}.
+
+{по=PR=} {лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорожка=S,f,inan=(abl,sg|dat,sg)}
+{изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {виться=V,ipf,intr=inpraes,sg,indic,3p} {змея=S,f,anim=(acc,pl|gen,pl)}.
+{там=ADVPRO=} {избушка=S,f,inan=nom,sg} {курья=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ножка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{там=ADVPRO=} {яга=S,f,anim=nom,sg}, {и=CONJ=} {там=ADVPRO=} {кощей=S,persn,m,anim=nom,sg}.
+{там=ADVPRO=} {царек=S,m,anim=nom,pl} {крутой=A=(acc,pl,plen,inan|nom,pl,plen)} {рожок=S,m,inan=(acc,pl|nom,pl)},
+{там=ADVPRO=} {жар-птица=S,f,anim=nom,sg}, {жизнь=S,f,inan=(acc,sg|nom,sg)} {око=S,n,inan=gen,pl}.
+
+{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {волк=S,m,anim=nom,sg} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {глаз=S,m,inan=ins,pl},
+{земляника=S,f,inan=(acc,pl|gen,sg|nom,pl)} {куст=S,m,inan=(acc,sg|nom,sg)} {измятый=A=sg,brev,m}.
+{плакать=V,ipf,intr=inpraes,pl,indic,3p} {девушка=S,f,anim=(gen,sg|nom,pl)} {ночь=S,f,inan=ins,pl},
+{день=S,m,inan=ins,sg} {у=PR=} {они=SPRO,pl=(abl|acc|gen)} {же=PART=} {светлый=A=sg,brev,m} {взгляд=S,m,inan=(acc,sg|nom,sg)}.
+{царь=S,m,anim=nom,sg} {сиять=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {храм=S,m,inan=abl,sg},
+{а=CONJ=} {царица=S,f,anim=acc,sg} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мчать=V,ipf,tran=inpraes,pl,indic,3p}.
+
+{мир=S,m,inan=(acc,sg|nom,sg)} {двойной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {и=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{будто=PART=} {грех=S,m,inan=(acc,sg|nom,sg)}, {а=CONJ=} {нет=PART=} {грех=S,m,inan=gen,sg}.
+{пред=PR=} {немеркнущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {картина=S,f,inan=ins,sg}
+{литургия=S,f,inan=nom,sg} {сон=S,m,inan=gen,pl} {тихий=A=sg,brev,f}.
+{пламень=S,inan=(nom,sg,m|acc,sg,m)} {в=PR=} {книга=S,f,inan=(abl,sg|dat,sg)} {голубина=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{пение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {стройный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {стих=S,m,inan=gen,sg}.

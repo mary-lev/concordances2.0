@@ -1,66 +1,9 @@
-девочка=S,f,anim=nom,sg
-_
-мальчик=S,m,anim=dat,sg
-_
-роза=S,f,inan=acc,sg
-_
-дарить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-первый=ANUM=acc,sg,f
-_
-роза=S,f,inan=acc,sg
-_
-с=PR=
-_
-куст=S,m,inan=gen,sg
-.\n
-девочка=S,f,anim=acc,sg
-_
-мальчик=S,m,anim=nom,sg
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-уста=S,pl,inan=(acc|nom)
-,\n
-первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_
-лобзание=S,n,inan=ins,sg
-_
-дарить=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-солнышко=S,n,inan=(acc,sg|nom,sg)
-_
-скрываться=V,intr=praet,sg,indic,n,pf
-,_
-аллея=S,f,inan=nom,sg
-_
-пустой=A=sg,brev,f
-...\n
-стыдно=ADV=
-_
-в=PR=
-_
-уста=S,pl,inan=(acc|nom)
-_
-целовать=V,ipf,tran=inf
-!\n
-девочка=S,f,anim=nom,sg
-,_
-надо=ADV,praed=
-_
-ли=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-срывать=V,ipf,tran=inf
-\n
-первый=ANUM=acc,sg,f
-_
-роза=S,f,inan=acc,sg
-_
-с=PR=
-_
-куст=S,m,inan=gen,sg
-?\n
+{девочка=S,f,anim=nom,sg} {мальчик=S,m,anim=dat,sg} {роза=S,f,inan=acc,sg} {дарить=V,ipf,tran=inpraes,sg,indic,3p},
+{первый=ANUM=acc,sg,f} {роза=S,f,inan=acc,sg} {с=PR=} {куст=S,m,inan=gen,sg}.
+{девочка=S,f,anim=acc,sg} {мальчик=S,m,anim=nom,sg} {целовать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {уста=S,pl,inan=(acc|nom)},
+{первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {лобзание=S,n,inan=ins,sg} {дарить=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{солнышко=S,n,inan=(acc,sg|nom,sg)} {скрываться=V,intr=praet,sg,indic,n,pf}, {аллея=S,f,inan=nom,sg} {пустой=A=sg,brev,f}...
+{стыдно=ADV=} {в=PR=} {уста=S,pl,inan=(acc|nom)} {целовать=V,ipf,tran=inf}!
+{девочка=S,f,anim=nom,sg}, {надо=ADV,praed=} {ли=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {срывать=V,ipf,tran=inf}
+{первый=ANUM=acc,sg,f} {роза=S,f,inan=acc,sg} {с=PR=} {куст=S,m,inan=gen,sg}?

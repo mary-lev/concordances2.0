@@ -1,88 +1,15 @@
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-начищать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)
-_
-пятак=S,m,inan=(acc,sg|nom,sg)
-_\n
-блеснуть=V,pf,intr=praet,sg,indic,m
-_
-сквозь=PR=
-_
-паутина=S,f,inan=acc,sg
-_
-ветка=S,f,inan=gen,pl
-,_\n
-речной=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-озарять=V,tran=inpraes,ger,ipf
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-лодка=S,f,inan=nom,sg
-_\u2014_
-повертываться=V,intr=praet,ger,pf
-_
-так=ADVPRO=
-,_\n
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-повертываться=V,intr=inf,pf
-_
-этак=ADVPRO,parenth=
-,\n
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-вперед=ADV=
-_
-предрешать=V,tran=praet,sg,partcp,brev,n,pf,pass
-.\n\n
-а=CONJ=
-_
-если=CONJ=
-_
-не=PART=
-_
-предрешать=V,tran=praet,sg,partcp,brev,n,pf,pass
-?\n
-тогда=ADVPRO=
-..._
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-просыпаться=V,intr=inf,pf
-_\u2014_\n(
-о=PR=
-,_
-только=PART=
-_
-разбудить=V,pf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-!),\n\n
-широко=ADV=
-_
-распахнуть=V,pf,tran=inf
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-благодарно=ADV=
-_
-улыбаться=V,intr=inf,pf
-_\n
-сияние=S,n,inan=dat,sg
-_
-завтрашний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-.\n
+{луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {начищать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)} {пятак=S,m,inan=(acc,sg|nom,sg)} 
+{блеснуть=V,pf,intr=praet,sg,indic,m} {сквозь=PR=} {паутина=S,f,inan=acc,sg} {ветка=S,f,inan=gen,pl}, 
+{речной=A=(acc,sg,plen,n|nom,sg,plen,n)} {озарять=V,tran=inpraes,ger,ipf} {дно=S,n,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {лодка=S,f,inan=nom,sg} — {повертываться=V,intr=praet,ger,pf} {так=ADVPRO=}, 
+{не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {повертываться=V,intr=inf,pf} {этак=ADVPRO,parenth=},
+{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {все=SPRO,pl=(acc|nom)} {вперед=ADV=} {предрешать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+
+{а=CONJ=} {если=CONJ=} {не=PART=} {предрешать=V,tran=praet,sg,partcp,brev,n,pf,pass}?
+{тогда=ADVPRO=}... {и=CONJ=} {я=SPRO,sg,1p=nom} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {просыпаться=V,intr=inf,pf} — 
+({о=PR=}, {только=PART=} {разбудить=V,pf,tran=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)}!),
+
+{широко=ADV=} {распахнуть=V,pf,tran=inf} {окно=S,n,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {благодарно=ADV=} {улыбаться=V,intr=inf,pf} 
+{сияние=S,n,inan=dat,sg} {завтрашний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}.

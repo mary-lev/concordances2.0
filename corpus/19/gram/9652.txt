@@ -1,96 +1,14 @@
-по=PR=
-_
-дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-улица=S,f,inan=(abl,sg|dat,sg)
-_
-прохожий=S,m,anim=nom,sg
-\n
-тихонько=ADV=
-_
-босиком=ADV=
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-довольно=ADV=
-_
-крепко=ADV=
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-кожа=S,f,inan=ins,sg
-,_\u2014\n
-вблизи=ADV=
-_
-кожевенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-завод=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-весь=APRO=nom,sg,f
-_
-улица=S,f,inan=nom,sg
-_
-мягкий=A=sg,brev,f
-,_
-горбатый=A=sg,brev,f
-,\n
-но=CONJ=
-_
-стружка=S,f,inan=nom,sg
-_
-нога=S,f,inan=acc,sg
-_
-иногда=ADV=
-\n
-царапнуть=V,pf,tran=inpraes,sg,indic,3p
-_
-остро=ADV=
-_
-и=CONJ=
-_
-рогатый=A=sg,brev,n
-,\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-поморщуся?=S,f,anim=nom,sg
-_
-тогда=ADVPRO=
-.\n\n
-ведь=PART=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-приходиться=V,intr=praet,sg,indic,n,pf
-_
-по=PR=
-_
-кожа=S,f,inan=dat,pl
-\n
-нога=S,f,inan=ins,pl
-_
-голый=A=ins,pl,plen
-_
-идти=V,ipf,intr=inf
-,\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-называть=V,tran=praet,sg,indic,m,pf
-_
-себя=SPRO=(acc|gen)
-_
-прохожий=S,m,anim=(dat,pl|ins,sg)
-,\n
-чтоб=CONJ=
-_
-тон=S,m,inan=(acc,sg|nom,sg)
-_
-рассказ=S,m,inan=gen,sg
-_
-соблюдать=V=inf,pf
-.\n
+{по=PR=} {дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {улица=S,f,inan=(abl,sg|dat,sg)} {прохожий=S,m,anim=nom,sg}
+{тихонько=ADV=} {босиком=ADV=} {идти=V,ipf,intr=inpraes,sg,indic,3p}.
+{довольно=ADV=} {крепко=ADV=} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {кожа=S,f,inan=ins,sg}, —
+{вблизи=ADV=} {кожевенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {завод=S,m,inan=(acc,sg|nom,sg)}.
+
+{весь=APRO=nom,sg,f} {улица=S,f,inan=nom,sg} {мягкий=A=sg,brev,f}, {горбатый=A=sg,brev,f},
+{но=CONJ=} {стружка=S,f,inan=nom,sg} {нога=S,f,inan=acc,sg} {иногда=ADV=}
+{царапнуть=V,pf,tran=inpraes,sg,indic,3p} {остро=ADV=} {и=CONJ=} {рогатый=A=sg,brev,n},
+{и=CONJ=} {я=SPRO,sg,1p=nom} {поморщуся?=S,f,anim=nom,sg} {тогда=ADVPRO=}.
+
+{ведь=PART=} {это=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {приходиться=V,intr=praet,sg,indic,n,pf} {по=PR=} {кожа=S,f,inan=dat,pl}
+{нога=S,f,inan=ins,pl} {голый=A=ins,pl,plen} {идти=V,ipf,intr=inf},
+{а=CONJ=} {я=SPRO,sg,1p=nom} {называть=V,tran=praet,sg,indic,m,pf} {себя=SPRO=(acc|gen)} {прохожий=S,m,anim=(dat,pl|ins,sg)},
+{чтоб=CONJ=} {тон=S,m,inan=(acc,sg|nom,sg)} {рассказ=S,m,inan=gen,sg} {соблюдать=V=inf,pf}.

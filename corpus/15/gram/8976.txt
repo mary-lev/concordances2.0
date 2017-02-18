@@ -1,88 +1,14 @@
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-ежели=CONJ=
-_
-доходить=V,intr=inpraes,sg,indic,3p,pf
-\n
-до=PR=
-_
-сиять=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-высота=S,f,inan=gen,pl
-,\n
-мы=SPRO,pl,1p=dat
-_
-приносить=V=inpraes,sg,indic,3p,ipf,tran
-_
-в=PR=
-_
-бытие=S,n,inan=(acc,sg|nom,sg)
-\n
-благовестие?=S,n,inan=(acc,sg|nom,sg)
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-вступать=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-счет=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-кто=SPRO,sg,m,anim=abl
-_
-молитвенность?=S,f,inan=(acc,sg|nom,sg)
-_
-течь=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-по=PR=
-_
-духовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-он=SPRO,sg,3p,m=nom
-_
-река=S,f,inan=(abl,sg|dat,sg)
-\n
-устремляться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-челнок=S,m,inan=abl,sg
-.\n\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-весна=S,f,inan=ins,sg
-_
-цвести=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-в=PR=
-_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-соте=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-,\n
-так=ADVPRO=
-_
-не=PART=
-_
-старость=S,f,inan=dat,pl
-_
-зима=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-поучаться=V,ipf,intr=inf
-_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-мы=SPRO,pl,1p=nom
-.\n
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)}, {ежели=CONJ=} {доходить=V,intr=inpraes,sg,indic,3p,pf}
+{до=PR=} {сиять=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {высота=S,f,inan=gen,pl},
+{мы=SPRO,pl,1p=dat} {приносить=V=inpraes,sg,indic,3p,ipf,tran} {в=PR=} {бытие=S,n,inan=(acc,sg|nom,sg)}
+{благовестие?=S,n,inan=(acc,sg|nom,sg)} {свой=APRO=(acc,sg,n|nom,sg,n)}.
+
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {вступать=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {счет=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {кто=SPRO,sg,m,anim=abl} {молитвенность?=S,f,inan=(acc,sg|nom,sg)} {течь=V,ipf,intr=inpraes,sg,indic,3p},
+{по=PR=} {духовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {он=SPRO,sg,3p,m=nom} {река=S,f,inan=(abl,sg|dat,sg)}
+{устремляться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {челнок=S,m,inan=abl,sg}.
+
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {цвет=S,m,inan=(acc,sg|nom,sg)} {весна=S,f,inan=ins,sg} {цвести=V,ipf,intr=inpraes,sg,indic,3p},
+{в=PR=} {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {соте=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мед=S,m,inan=(acc,sg|nom,sg)},
+{так=ADVPRO=} {не=PART=} {старость=S,f,inan=dat,pl} {зима=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{поучаться=V,ipf,intr=inf} {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {мы=SPRO,pl,1p=nom}.

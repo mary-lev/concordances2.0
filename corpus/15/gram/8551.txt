@@ -1,116 +1,19 @@
-брат=S,m,anim=nom,pl
-,_
-посмотреть=V,pf,tran=pl,imper,1p
-_
-ясно=ADV=
-,\n
-скорбь=S,f,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-невнятный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-бесплодный=A=sg,brev,f
-,\n
-девушка=S,f,anim=(gen,sg|nom,pl)
-,_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-прекрасно=ADV=
-,\n
-женщина=S,f,anim=nom,sg
-,_
-быть=V,intr=sg,imper,2p
-_
-же=PART=
-_
-свободный=A=sg,brev,f
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мы=SPRO,pl,1p=dat
-_
-скитаться=V,ipf,intr=inf
-_
-по=PR=
-_
-мысль=S,f,inan=dat,pl
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мы=SPRO,pl,1p=dat
-_
-блуждать=V,ipf,intr=inf
-_
-по=PR=
-_
-идея=S,f,inan=dat,pl
-?\n
-мы=SPRO,pl,1p=nom
-_
-красота=S,f,inan=acc,sg
-_
-не=PART=
-_
-исчислять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-разгадывать=V,tran=inf,pf
-_
-не=PART=
-_
-суметь=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n\n
-пусть=PART=
-._
-мы=SPRO,pl,1p=dat
-_
-рассудок=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-нужный=A=sg,brev,m
-,__\u2014\n
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-_
-необманно?=ADV=
-,\n
-нить=S,f,inan=(acc,sg|nom,sg)
-_
-зыбкоцветный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-жемчужина=S,f,inan=gen,pl
-\n
-без=PR=
-_
-объяснение=S,n,inan=gen,pl
-_
-желанный=A=sg,brev,f
-.\n\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-воздушный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-брат=S,m,anim=nom,pl
-,_
-смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-,_
-повсюду=ADV=
-,\n
-девушка=S,f,anim=(gen,sg|nom,pl)
-,_
-вы=SPRO,pl,2p=nom
-_
-полюбить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-,\n
-радостно=ADV=
-_
-вверяться=V,intr=inf,pf
-_
-чудо=S,n,inan=dat,sg
-.\n
+{брат=S,m,anim=nom,pl}, {посмотреть=V,pf,tran=pl,imper,1p} {ясно=ADV=},
+{скорбь=S,f,inan=(acc,sg|nom,sg)} {о=PR=} {невнятный=A=(abl,sg,plen,m|abl,sg,plen,n)} {бесплодный=A=sg,brev,f},
+{девушка=S,f,anim=(gen,sg|nom,pl)}, {утро=S,n,inan=(acc,sg|nom,sg)} {прекрасно=ADV=},
+{женщина=S,f,anim=nom,sg}, {быть=V,intr=sg,imper,2p} {же=PART=} {свободный=A=sg,brev,f}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {мы=SPRO,pl,1p=dat} {скитаться=V,ipf,intr=inf} {по=PR=} {мысль=S,f,inan=dat,pl},
+{что=SPRO,sg,n,inan=(acc|nom)} {мы=SPRO,pl,1p=dat} {блуждать=V,ipf,intr=inf} {по=PR=} {идея=S,f,inan=dat,pl}?
+{мы=SPRO,pl,1p=nom} {красота=S,f,inan=acc,sg} {не=PART=} {исчислять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {разгадывать=V,tran=inf,pf} {не=PART=} {суметь=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}.
+
+{пусть=PART=}. {мы=SPRO,pl,1p=dat} {рассудок=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {нужный=A=sg,brev,m},  —
+{чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {необманно?=ADV=},
+{нить=S,f,inan=(acc,sg|nom,sg)} {зыбкоцветный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {жемчужина=S,f,inan=gen,pl}
+{без=PR=} {объяснение=S,n,inan=gen,pl} {желанный=A=sg,brev,f}.
+
+{этот=APRO=(nom,pl|acc,pl,inan)} {воздушный=A=(acc,pl,plen,inan|nom,pl,plen)} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{брат=S,m,anim=nom,pl}, {смотреть=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, {повсюду=ADV=},
+{девушка=S,f,anim=(gen,sg|nom,pl)}, {вы=SPRO,pl,2p=nom} {полюбить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)},
+{радостно=ADV=} {вверяться=V,intr=inf,pf} {чудо=S,n,inan=dat,sg}.

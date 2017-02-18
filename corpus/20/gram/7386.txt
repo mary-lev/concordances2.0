@@ -1,46 +1,6 @@
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-дед=S,m,anim=(acc,pl|gen,pl)
-_
-мечта=S,f,inan=nom,sg
-_
-невозможный=A=nom,sg,plen,f
-,\n
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-герой=S,m,anim=(acc,pl|gen,pl)
-_
-жертва=S,f,anim=nom,sg
-_
-острожный=A=nom,sg,plen,f
-,\n
-наш=APRO=nom,sg,f
-_
-молитва=S,f,inan=nom,sg
-_
-уста=S,pl,inan=ins
-_
-несмелый=A=ins,pl,plen
-,\n
-наш=APRO=nom,sg,f
-_
-надежда=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-воздыхание=S,n,inan=(acc,sg|nom,sg)
-,_\u2014\n\t
-учредительный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-собрание=S,n,inan=(acc,sg|nom,sg)
-,_\u2014\n\t\t
-что=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-сделать=V,pf,tran=praet,pl,indic
-?\n
+{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дед=S,m,anim=(acc,pl|gen,pl)} {мечта=S,f,inan=nom,sg} {невозможный=A=nom,sg,plen,f},
+{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {герой=S,m,anim=(acc,pl|gen,pl)} {жертва=S,f,anim=nom,sg} {острожный=A=nom,sg,plen,f},
+{наш=APRO=nom,sg,f} {молитва=S,f,inan=nom,sg} {уста=S,pl,inan=ins} {несмелый=A=ins,pl,plen},
+{наш=APRO=nom,sg,f} {надежда=S,f,inan=nom,sg} {и=CONJ=} {воздыхание=S,n,inan=(acc,sg|nom,sg)}, —
+	{учредительный=A=(acc,sg,plen,n|nom,sg,plen,n)} {собрание=S,n,inan=(acc,sg|nom,sg)}, —
+		{что=CONJ=} {мы=SPRO,pl,1p=nom} {с=PR=} {он=SPRO,sg,3p,m=ins} {сделать=V,pf,tran=praet,pl,indic}?

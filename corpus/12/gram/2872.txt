@@ -1,76 +1,19 @@
-на=PR=
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-на=PR=
-_
-зло=S,n,inan=(acc,sg|nom,sg)
-:\n
-здравый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-смысл=S,m,inan=dat,sg
-,\n
-ясный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-солнце=S,n,inan=dat,sg
-,\n
-белый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-снег=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\u2014_\n\n
-я=SPRO,sg,1p=nom
-_
-полюбить=V,pf,tran=praet,sg,indic,f
-:\n
-мутный=A=acc,sg,plen,f
-_
-полночь=S,f,inan=(acc,sg|nom,sg)
-,\n
-льстивый=A=acc,sg,plen,f
-_
-флейта=S,f,inan=acc,sg
-,\n
-праздный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-этот=APRO=(dat,sg,m|dat,sg,n)
-_
-сердце=S,n,inan=dat,sg
-\n
-родина=S,f,inan=nom,sg
-_\u2014_
-спарта=S,geo,f,inan=nom,sg
-.\n
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-лисенок=S,m,anim=(acc,sg|gen,sg)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-спартанец=S,m,anim=(acc,sg|gen,sg)
-?\n\n_\u2014_
-легко=ADV=comp
-_
-лисенок=S,m,anim=(acc,sg|gen,sg)
-\n
-скрывать=V=inf,pf
-_
-под=PR=
-_
-одежда=S,f,inan=ins,sg
-,\n
-чем=CONJ=
-_
-утаивать=V,tran=inf,pf
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-,\n
-ревность=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-!\n
+{на=PR=} {смех=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {на=PR=} {зло=S,n,inan=(acc,sg|nom,sg)}:
+{здравый=A=(dat,sg,plen,m|dat,sg,plen,n)} {смысл=S,m,inan=dat,sg},
+{ясный=A=(dat,sg,plen,m|dat,sg,plen,n)} {солнце=S,n,inan=dat,sg},
+{белый=A=(dat,sg,plen,m|dat,sg,plen,n)} {снег=S,m,inan=(dat,sg|part,sg|loc,sg)} — 
+
+{я=SPRO,sg,1p=nom} {полюбить=V,pf,tran=praet,sg,indic,f}:
+{мутный=A=acc,sg,plen,f} {полночь=S,f,inan=(acc,sg|nom,sg)},
+{льстивый=A=acc,sg,plen,f} {флейта=S,f,inan=acc,sg},
+{праздный=A=(acc,pl,plen,inan|nom,pl,plen)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{этот=APRO=(dat,sg,m|dat,sg,n)} {сердце=S,n,inan=dat,sg}
+{родина=S,f,inan=nom,sg} — {спарта=S,geo,f,inan=nom,sg}.
+{помнить=V,ipf,tran=inpraes,sg,indic,2p} {лисенок=S,m,anim=(acc,sg|gen,sg)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {спартанец=S,m,anim=(acc,sg|gen,sg)}?
+
+ — {легко=ADV=comp} {лисенок=S,m,anim=(acc,sg|gen,sg)}
+{скрывать=V=inf,pf} {под=PR=} {одежда=S,f,inan=ins,sg},
+{чем=CONJ=} {утаивать=V,tran=inf,pf} {вы=SPRO,pl,2p=(abl|acc|gen)},
+{ревность=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {нежность=S,f,inan=(acc,sg|nom,sg)}!

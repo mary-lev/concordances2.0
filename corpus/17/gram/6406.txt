@@ -1,64 +1,9 @@
-улыбка=S,f,inan=nom,sg
-_
-один=APRO=nom,sg,f
-_
-и=CONJ=
-_
-тот=APRO=nom,sg,f
-_
-же=PART=
-,_\n
-сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-неподвижный=A=sg,brev,m
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-._\n
-такой=APRO=(nom,pl|acc,pl,inan)
-,_
-как=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_\u2014_
-на=PR=
-_
-стража=S,f,inan=(abl,sg|dat,sg)
-_\n
-стоять=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-рай=S,sg,m,inan=(dat|loc)
-_
-у=PR=
-_
-ворота=S,pl,inan=gen
-.\n\n
-и=CONJ=
-_
-только=PART=
-_
-если=CONJ=
-_
-ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-распахиваться=V,intr=inpraes,pl,indic,3p,pf
-,_
-глянуть=V,pf,intr=inpraes,pl,indic,3p
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-кажется=ADV,parenth=
-:_
-реять=V,ipf,intr=inpraes,pl,indic,3p
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-где-то=ADVPRO=
-_
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-гроза=S,f,inan=nom,sg
-.\n
+{улыбка=S,f,inan=nom,sg} {один=APRO=nom,sg,f} {и=CONJ=} {тот=APRO=nom,sg,f} {же=PART=}, 
+{сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {неподвижный=A=sg,brev,m} {рот=S,m,inan=(acc,sg|nom,sg)}. 
+{такой=APRO=(nom,pl|acc,pl,inan)}, {как=CONJ=} {ты=SPRO,sg,2p=nom}, — {на=PR=} {стража=S,f,inan=(abl,sg|dat,sg)} 
+{стоять=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {рай=S,sg,m,inan=(dat|loc)} {у=PR=} {ворота=S,pl,inan=gen}.
+
+{и=CONJ=} {только=PART=} {если=CONJ=} {ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{распахиваться=V,intr=inpraes,pl,indic,3p,pf}, {глянуть=V,pf,intr=inpraes,pl,indic,3p} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}, 
+{кажется=ADV,parenth=}: {реять=V,ipf,intr=inpraes,pl,indic,3p} {птица=S,f,anim=(gen,sg|nom,pl)} 
+{и=CONJ=} {где-то=ADVPRO=} {шуметь=V,ipf,intr=inpraes,sg,indic,3p} {гроза=S,f,inan=nom,sg}.

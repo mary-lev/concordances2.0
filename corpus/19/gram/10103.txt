@@ -1,58 +1,10 @@
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-пора=ADV,praed=
-_
-голодный=A=nom,sg,plen,f
-,\n
-край=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-лапа=S,f,inan=abl,pl
-_
-нищета=S,sg,f,inan=gen
-.\n
-отчизна=S,f,inan=nom,sg
-_
-несвободный=A=nom,sg,plen,f
-,\n
-бездомный=A=nom,sg,plen,f
-,_
-безродный=A=nom,sg,plen,f
-,\n
-когда=CONJ=
-_
-ж=PART=
-_
-просыпаться=V,intr=inpraes,sg,indic,2p,pf
-_
-ты=SPRO,sg,2p=nom
-?\n\n
-когда=CONJ=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мучитель=S,m,anim=(acc,pl|gen,pl)
-\n
-ты=SPRO,sg,2p=nom
-_
-далеко=ADV=
-_
-смести=V,pf=inpraes,sg,indic,2p
-,\n
-и=CONJ=
-_
-с=PR=
-_
-они=SPRO,pl=ins
-_
-злой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-учитель=S,m,anim=(acc,pl|gen,pl)
-,\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-твердить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-?\n
+{стоять=V,ipf,intr=inpraes,sg,indic,3p} {пора=ADV,praed=} {голодный=A=nom,sg,plen,f},
+{край=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {лапа=S,f,inan=abl,pl} {нищета=S,sg,f,inan=gen}.
+{отчизна=S,f,inan=nom,sg} {несвободный=A=nom,sg,plen,f},
+{бездомный=A=nom,sg,plen,f}, {безродный=A=nom,sg,plen,f},
+{когда=CONJ=} {ж=PART=} {просыпаться=V,intr=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom}?
+
+{когда=CONJ=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мучитель=S,m,anim=(acc,pl|gen,pl)}
+{ты=SPRO,sg,2p=nom} {далеко=ADV=} {смести=V,pf=inpraes,sg,indic,2p},
+{и=CONJ=} {с=PR=} {они=SPRO,pl=ins} {злой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {учитель=S,m,anim=(acc,pl|gen,pl)},
+{ты=SPRO,sg,2p=(abl|dat)} {твердить=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {ложь=S,f,inan=(acc,sg|nom,sg)}?

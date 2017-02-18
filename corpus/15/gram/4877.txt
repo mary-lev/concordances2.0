@@ -1,74 +1,9 @@
-ты=SPRO,sg,2p=nom
-_\u2014_
-шелест=S,m,inan=(acc,sg|nom,sg)
-_
-нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-листок=S,m,inan=gen,sg
-,\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-шептать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-украдкой=ADV=
-,\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-свет=S,sg,m,inan=(acc|nom)
-,_
-бросать=V=(inpraes,acc,sg,partcp,plen,m,ipf,pass,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,pass,tran)
-_
-лампадка=S,f,inan=ins,sg
-,\n
-где=ADVPRO=
-_
-брезжить=V,ipf,intr=inpraes,sg,indic,3p
-_
-сладкий=A=nom,sg,plen,f
-_
-тоска=S,f,inan=nom,sg
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-чудиться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-когда-то=ADVPRO=
-\n
-ты=SPRO,sg,2p=(acc|gen)
-_
-видать=V,ipf,tran=praet,sg,indic,m
-,_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,\n
-когда=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-сердце=S,n,inan=ins,sg
-_
-то=CONJ=
-_
-любить=V,ipf,tran=praet,sg,indic,m
-,\n
-к=PR=
-_
-что=SPRO,sg,n,inan=dat
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-больше=ADV=
-_
-нет=ADV,praed=
-_
-возврат=S,m,inan=gen,sg
-.\n
+{ты=SPRO,sg,2p=nom} — {шелест=S,m,inan=(acc,sg|nom,sg)} {нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {листок=S,m,inan=gen,sg},
+{ты=SPRO,sg,2p=nom} — {ветер=S,m,inan=(acc,sg|nom,sg)}, {шептать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {украдкой=ADV=},
+{ты=SPRO,sg,2p=nom} — {свет=S,sg,m,inan=(acc|nom)}, {бросать=V=(inpraes,acc,sg,partcp,plen,m,ipf,pass,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,pass,tran)} {лампадка=S,f,inan=ins,sg},
+{где=ADVPRO=} {брезжить=V,ipf,intr=inpraes,sg,indic,3p} {сладкий=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg}.
+
+{я=SPRO,sg,1p=(abl|dat)} {чудиться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {я=SPRO,sg,1p=nom} {когда-то=ADVPRO=}
+{ты=SPRO,sg,2p=(acc|gen)} {видать=V,ipf,tran=praet,sg,indic,m}, {с=PR=} {ты=SPRO,sg,2p=ins} {быть=V,intr=praet,sg,indic,m,ipf},
+{когда=CONJ=} {я=SPRO,sg,1p=nom} {сердце=S,n,inan=ins,sg} {то=CONJ=} {любить=V,ipf,tran=praet,sg,indic,m},
+{к=PR=} {что=SPRO,sg,n,inan=dat} {я=SPRO,sg,1p=(abl|dat)} {больше=ADV=} {нет=ADV,praed=} {возврат=S,m,inan=gen,sg}.

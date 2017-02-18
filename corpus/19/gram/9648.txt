@@ -1,104 +1,14 @@
-она=SPRO,sg,3p,f=(acc|gen)
-_
-никак=ADVPRO,parenth=
-_
-не=PART=
-_
-переспоривать=V,tran=inpraes,sg,indic,2p,pf
-.\n
-пора=S,f,inan=ins,sg
-_
-мама=S,f,anim=(abl,sg|dat,sg)
-_
-я=SPRO,sg,1p=nom
-_
-сказать=V,pf,tran=inpraes,sg,indic,1p
-:\n\u2014_
-я=SPRO,sg,1p=(acc|gen)
-_
-ты=SPRO,sg,2p=nom
-_
-слишком=ADV=
-_
-часто=ADV=
-_
-пороть=V,ipf,tran=inpraes,sg,indic,2p
-._\u2014\n
-отвечать=V,intr=inpraes,sg,indic,3p,pf
-:_\u2014_
-глупый=A=sg,brev,m
-_
-ты=SPRO,sg,2p=nom
-,_
-поглядеть=V,pf,tran=inpraes,sg,indic,1p
-._\u2014\n\n
-так=ADVPRO=
-_
-убеждение=S,n,inan=ins,sg
-_
-в=PR=
-_
-польза=S,f,inan=(abl,sg|dat,sg)
-_
-порка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=nom,sg,f
-_
-пропитаться=V,pf,intr=praet,sg,indic,f
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-,\n
-что=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-напрасный=A=pl,brev
-_
-оговорка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-б=PART=
-_
-ни=PART=
-_
-придумывать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-.\n\n\u2014_
-потачка=S,f,inan=nom,sg
-_
-портить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-розга=S,f,inan=nom,sg
-_
-учить=V,ipf,tran=inpraes,sg,indic,3p
-,_\u2014\n
-она=SPRO,sg,3p,f=nom
-_
-с=PR=
-_
-улыбка=S,f,inan=ins,sg
-_
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-,_\u2014\n
-пусть=CONJ=
-_
-розга=S,f,inan=nom,sg
-_
-иногда=ADV=
-_
-помучить=V,pf,tran=inpraes,sg,indic,3p
-,\n
-зато=CONJ=
-_
-от=PR=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-хранить=V,ipf,tran=inpraes,sg,indic,3p
-._\u2014\n
+{она=SPRO,sg,3p,f=(acc|gen)} {никак=ADVPRO,parenth=} {не=PART=} {переспоривать=V,tran=inpraes,sg,indic,2p,pf}.
+{пора=S,f,inan=ins,sg} {мама=S,f,anim=(abl,sg|dat,sg)} {я=SPRO,sg,1p=nom} {сказать=V,pf,tran=inpraes,sg,indic,1p}:
+— {я=SPRO,sg,1p=(acc|gen)} {ты=SPRO,sg,2p=nom} {слишком=ADV=} {часто=ADV=} {пороть=V,ipf,tran=inpraes,sg,indic,2p}. —
+{отвечать=V,intr=inpraes,sg,indic,3p,pf}: — {глупый=A=sg,brev,m} {ты=SPRO,sg,2p=nom}, {поглядеть=V,pf,tran=inpraes,sg,indic,1p}. —
+
+{так=ADVPRO=} {убеждение=S,n,inan=ins,sg} {в=PR=} {польза=S,f,inan=(abl,sg|dat,sg)} {порка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=nom,sg,f} {пропитаться=V,pf,intr=praet,sg,indic,f} {мать=S,f,anim=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f},
+{что=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {напрасный=A=pl,brev} {оговорка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{какой=APRO=(nom,pl|acc,pl,inan)} {б=PART=} {ни=PART=} {придумывать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}.
+
+— {потачка=S,f,inan=nom,sg} {портить=V,ipf,tran=inpraes,sg,indic,3p}, {розга=S,f,inan=nom,sg} {учить=V,ipf,tran=inpraes,sg,indic,3p}, —
+{она=SPRO,sg,3p,f=nom} {с=PR=} {улыбка=S,f,inan=ins,sg} {говорить=V,ipf,tran=inpraes,sg,indic,3p}, —
+{пусть=CONJ=} {розга=S,f,inan=nom,sg} {иногда=ADV=} {помучить=V,pf,tran=inpraes,sg,indic,3p},
+{зато=CONJ=} {от=PR=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)} {ты=SPRO,sg,2p=(acc|gen)} {хранить=V,ipf,tran=inpraes,sg,indic,3p}. —

@@ -1,100 +1,15 @@
-самый=APRO=(nom,pl|acc,pl,inan)
-_
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-год=S,m,inan=(dat,sg|loc,sg)
-_\n
-светлый=A=ins,pl,plen
-_
-становиться=V,intr=inf,pf
-_
-должный=A=pl,brev
-._\n
-я=SPRO,sg,1p=nom
-_
-для=PR=
-_
-сравнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-слово=S,n,inan=gen,pl
-_
-не=PART=
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-_\u2014_\n
-так=ADVPRO=
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежный=A=pl,brev
-.\n\n
-только=PART=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-подымать=V,ipf,tran=inf
-_
-не=PART=
-_
-сметь=V,ipf,intr=sg,imper,2p
-,_\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-_
-хранить=V,ipf,tran=inpraes,ger
-._\n
-первый=ANUM=(abl,pl|gen,pl|acc,pl,anim)
-_
-фиалка=S,f,inan=gen,pl
-_
-они=SPRO,pl=nom
-_
-светлый=A=comp
-,_\n
-а=CONJ=
-_
-смертельный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-вот=PART=
-_
-понимать=V=praet,sg,indic,f,pf
-,_
-что=CONJ=
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-слово=S,n,inan=gen,pl
-,_\n
-оснежить=V,pf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-легкий=A=pl,brev
-..._\n
-сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-уже=ADV=
-_
-расстилать=V=praet,sg,indic,m,pf
-_
-птицелов=S,m,anim=nom,sg
-_\n
-на=PR=
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
+{самый=APRO=(nom,pl|acc,pl,inan)} {темный=A=(acc,pl,plen,inan|nom,pl,plen)} {день=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {год=S,m,inan=(dat,sg|loc,sg)} 
+{светлый=A=ins,pl,plen} {становиться=V,intr=inf,pf} {должный=A=pl,brev}. 
+{я=SPRO,sg,1p=nom} {для=PR=} {сравнение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {слово=S,n,inan=gen,pl} {не=PART=} {находить=V=inpraes,sg,indic,1p,pf,tran} — 
+{так=ADVPRO=} {твой=APRO=(nom,pl|acc,pl,inan)} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нежный=A=pl,brev}.
+
+{только=PART=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {подымать=V,ipf,tran=inf} {не=PART=} {сметь=V,ipf,intr=sg,imper,2p}, 
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f} {хранить=V,ipf,tran=inpraes,ger}. 
+{первый=ANUM=(abl,pl|gen,pl|acc,pl,anim)} {фиалка=S,f,inan=gen,pl} {они=SPRO,pl=nom} {светлый=A=comp}, 
+{а=CONJ=} {смертельный=A=(acc,pl,plen,inan|nom,pl,plen)} {для=PR=} {я=SPRO,sg,1p=(acc|gen)}.
+
+{вот=PART=} {понимать=V=praet,sg,indic,f,pf}, {что=CONJ=} {не=PART=} {надо=ADV,praed=} {слово=S,n,inan=gen,pl}, 
+{оснежить=V,pf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {легкий=A=pl,brev}... 
+{сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {уже=ADV=} {расстилать=V=praet,sg,indic,m,pf} {птицелов=S,m,anim=nom,sg} 
+{на=PR=} {берег=S,m,inan=(dat,sg|loc,sg)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+

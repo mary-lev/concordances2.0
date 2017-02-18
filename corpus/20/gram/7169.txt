@@ -1,266 +1,49 @@
-глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-путем=PR=
-,_
-неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)|неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)|неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_\n
-на=PR=
-_
-бледный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-склон=S,m,inan=abl,sg
-_
-день=S,m,inan=gen,sg
-_\n
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-оснежить=V,pf,tran=(praet,abl,sg,partcp,plen,m,pass|praet,abl,sg,partcp,plen,n,pass)
-,_\n
-печаль=S,f,inan=(acc,sg|nom,sg)
-_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-дорога=S,f,inan=nom,sg
-_
-странный=A=nom,sg,plen,f
-,_\n
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-неверный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-...\n
-не=PART=
-_
-мгла=S,f,inan=nom,sg
-_
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-_
-туманный=A=nom,sg,plen,f
-_\n
-с=PR=
-_
-безжизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-небо=S,n,inan=gen,pl
-_\u2014\n\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-виться=V,ipf,intr=inpraes,pl,indic,3p
-_
-хлопья=S,pl,inan=(acc|nom)
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-и=CONJ=
-,_
-мягкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пелена=S,f,inan=ins,sg
-,_\n
-бесшумный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-безбрежный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-ложиться=V,intr=inpraes,pl,indic,3p,ipf
-_
-предо=PR=
-_
-я=SPRO,sg,1p=ins
-.\n\n
-пушистый=A=pl,brev
-_
-хлопья=S,pl,inan=(acc|nom)
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-как=CONJ=
-_
-пчела=S,f,anim=(acc,pl|gen,pl)
-_
-веселый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-рой=S,m,inan=(acc,sg|nom,sg)
-,_\n
-играть=V,ipf,tran=inpraes,pl,indic,3p
-_
-хлопья=S,pl,inan=(acc|nom)
-_
-смелый=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-и=CONJ=
-_
-гнаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-,\n\n
-и=CONJ=
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-и=CONJ=
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-...\n
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-все=ADV=
-_
-близко=ADV=comp
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-..._\n
-но=CONJ=
-_
-странно=ADV=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-радовать=V,ipf,tran=inpraes,pl,indic,3p
-_\n
-безмолвие=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-мешаться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-сливаться=V,intr=inpraes,sg,indic,3p,ipf
-_\n
-действительность=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,\n
-все=ADV=
-_
-низко=ADV=comp
-_
-опускаться=V,intr=inpraes,sg,indic,3p,ipf
-_\n
-зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-небосклон=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-падать=V,ipf,intr=inpraes,sg,indic,1p
-,_\n
-покорствовать=V,ipf,intr=inpraes,ger
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-,\n
-с=PR=
-_
-неведомый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-отрада=S,f,inan=ins,sg
-_\n
-и=CONJ=
-_
-мысль=S,f,inan=ins,sg
-_\u2014_
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-.\n\n
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-недостижимый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-что=SPRO,sg,n,inan=gen
-,_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-нет=PART=
-..._\n
-дитя=S,obsol,sg,n,anim=(acc|nom)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-любимый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-единственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-!\n\n
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-нежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-я=SPRO,sg,1p=nom
-_
-чувствовать=V,ipf,tran=inpraes,sg,indic,1p
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-покрывало=S,n,inan=(acc,sg|nom,sg)
-_
-снежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n
-легко=ADV=
-_
-и=CONJ=
-_
-сладко=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-близко=ADV=
-_
-вечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-стыть=V,ipf=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-..._\n
-молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-..._\n
-и=CONJ=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-..._
-и=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {путем=PR=}, {неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)|неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)|неезженный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, 
+{на=PR=} {бледный=A=(abl,sg,plen,m|abl,sg,plen,n)} {склон=S,m,inan=abl,sg} {день=S,m,inan=gen,sg} 
+{идти=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)} {оснежить=V,pf,tran=(praet,abl,sg,partcp,plen,m,pass|praet,abl,sg,partcp,plen,n,pass)}, 
+{печаль=S,f,inan=(acc,sg|nom,sg)} {вести=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)}.
+
+{молчать=V,ipf,intr=inpraes,sg,indic,3p} {дорога=S,f,inan=nom,sg} {странный=A=nom,sg,plen,f}, 
+{молчать=V,ipf,intr=inpraes,sg,indic,3p} {неверный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)}...
+{не=PART=} {мгла=S,f,inan=nom,sg} {ползти=V,ipf,intr=inpraes,sg,indic,3p} {туманный=A=nom,sg,plen,f} 
+{с=PR=} {безжизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl} —
+
+{то=SPRO,sg,n,inan=(acc|nom)} {виться=V,ipf,intr=inpraes,pl,indic,3p} {хлопья=S,pl,inan=(acc|nom)} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{и=CONJ=}, {мягкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пелена=S,f,inan=ins,sg}, 
+{бесшумный=A=(acc,pl,plen,inan|nom,pl,plen)}, {безбрежный=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{ложиться=V,intr=inpraes,pl,indic,3p,ipf} {предо=PR=} {я=SPRO,sg,1p=ins}.
+
+{пушистый=A=pl,brev} {хлопья=S,pl,inan=(acc|nom)} {белый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{как=CONJ=} {пчела=S,f,anim=(acc,pl|gen,pl)} {веселый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {рой=S,m,inan=(acc,sg|nom,sg)}, 
+{играть=V,ipf,tran=inpraes,pl,indic,3p} {хлопья=S,pl,inan=(acc|nom)} {смелый=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{и=CONJ=} {гнаться=V,ipf,intr=inpraes,pl,indic,3p} {за=PR=} {я=SPRO,sg,1p=ins},
+
+{и=CONJ=} {падать=V,ipf,intr=inpraes,pl,indic,3p}, {и=CONJ=} {падать=V,ipf,intr=inpraes,pl,indic,3p}...
+{к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {все=ADV=} {близко=ADV=comp} {твердь=S,f,inan=(acc,sg|nom,sg)}... 
+{но=CONJ=} {странно=ADV=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {радовать=V,ipf,tran=inpraes,pl,indic,3p} 
+{безмолвие=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)}.
+
+{мешаться=V,ipf,intr=inpraes,sg,indic,3p}, {сливаться=V,intr=inpraes,sg,indic,3p,ipf} 
+{действительность=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)},
+{все=ADV=} {низко=ADV=comp} {опускаться=V,intr=inpraes,sg,indic,3p,ipf} 
+{зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {небосклон=S,m,inan=(acc,sg|nom,sg)} —
+
+{и=CONJ=} {я=SPRO,sg,1p=nom} {идти=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {падать=V,ipf,intr=inpraes,sg,indic,1p}, 
+{покорствовать=V,ipf,intr=inpraes,ger} {судьба=S,f,inan=(abl,sg|dat,sg)},
+{с=PR=} {неведомый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {отрада=S,f,inan=ins,sg} 
+{и=CONJ=} {мысль=S,f,inan=ins,sg} — {о=PR=} {ты=SPRO,sg,2p=(abl|dat)}.
+
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {недостижимый=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{что=SPRO,sg,n,inan=gen}, {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {нет=PART=}... 
+{дитя=S,obsol,sg,n,anim=(acc|nom)} {мой=APRO=(acc,sg,n|nom,sg,n)} {любимый=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{единственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {свет=S,sg,m,inan=(acc|nom)}!
+
+{твой=APRO=(acc,sg,n|nom,sg,n)} {дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {нежный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{я=SPRO,sg,1p=nom} {чувствовать=V,ipf,tran=inpraes,sg,indic,1p} {во=PR=} {сон=S,m,inan=abl,sg},
+{и=CONJ=} {покрывало=S,n,inan=(acc,sg|nom,sg)} {снежный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+{легко=ADV=} {и=CONJ=} {сладко=ADV=} {я=SPRO,sg,1p=(abl|dat)}.
+
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {близко=ADV=} {вечный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p}, {стыть=V,ipf=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)}... 
+{молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)}... 
+{и=CONJ=} {сумрак=S,m,inan=(acc,sg|nom,sg)}... {и=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)}.

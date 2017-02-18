@@ -1,62 +1,6 @@
-особенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-претензия=S,f,inan=gen,pl
-_
-не=PART=
-_
-иметь=V,ipf,tran=inpraes,sg,indic,1p
-\n
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-этот=APRO=(dat,sg,m|dat,sg,n)
-_
-сиятельный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-,\n
-но=CONJ=
-_
-так=ADVPRO=
-_
-случаться=V,intr=praet,sg,indic,n,pf
-,_
-что=CONJ=
-_
-почти=ADV=
-_
-весь=APRO=acc,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-\n
-я=SPRO,sg,1p=nom
-_
-проживать=V,tran=praet,sg,indic,f,pf
-_
-под=PR=
-_
-знаменитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кровля=S,f,inan=ins,sg
-\n
-фонтанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-дворец=S,m,inan=gen,sg
-..._
-я=SPRO,sg,1p=nom
-_
-нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-в=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-входить=V,intr=praet,sg,indic,f,pf
-_
-и=CONJ=
-_
-нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-выходить=V,intr=inpraes,sg,indic,1p,ipf
-.\n
+{особенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {претензия=S,f,inan=gen,pl} {не=PART=} {иметь=V,ipf,tran=inpraes,sg,indic,1p}
+{я=SPRO,sg,1p=nom} {к=PR=} {этот=APRO=(dat,sg,m|dat,sg,n)} {сиятельный=A=(dat,sg,plen,m|dat,sg,plen,n)} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)},
+{но=CONJ=} {так=ADVPRO=} {случаться=V,intr=praet,sg,indic,n,pf}, {что=CONJ=} {почти=ADV=} {весь=APRO=acc,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)}
+{я=SPRO,sg,1p=nom} {проживать=V,tran=praet,sg,indic,f,pf} {под=PR=} {знаменитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровля=S,f,inan=ins,sg}
+{фонтанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дворец=S,m,inan=gen,sg}... {я=SPRO,sg,1p=nom} {нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{в=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {входить=V,intr=praet,sg,indic,f,pf} {и=CONJ=} {нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {выходить=V,intr=inpraes,sg,indic,1p,ipf}.

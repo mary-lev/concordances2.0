@@ -1,204 +1,27 @@
-девица=S,f,anim=nom,sg
-_
-волшебный=A=nom,sg,plen,f
-,_
-богиня=S,f,anim=nom,sg
-_
-громовница?=S,f,anim=nom,sg
-,\n
-мой=APRO=nom,sg,f
-_
-полюбовница=S,f,anim=nom,sg
-\n
-лежать=V,ipf,intr=praet,sg,indic,f
-_
-в=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-.\n
-и=CONJ=
-_
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-весенний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-плакать=V,ipf,intr=praet,pl,indic
-_
-жалостно=ADV=
-,\n
-и=CONJ=
-_
-с=PR=
-_
-вопль=S,m,inan=ins,pl
-,_
-яростно=ADV=
-,\n
-играть=V,ipf,tran=praet,pl,indic
-_
-на=PR=
-_
-флейта=S,f,inan=abl,pl
-,_
-и=CONJ=
-_
-дуть=V,ipf,tran=praet,pl,indic
-_
-в=PR=
-_
-труба=S,f,inan=acc,sg
-.\n\n
-покойница=S,f,anim=nom,sg
-_
-юный=A=nom,sg,plen,f
-_\u2014_
-о=PR=
-,_
-с=PR=
-_
-коса=S,f,inan=ins,pl
-_
-русый=A=ins,pl,plen
-,\n
-и=CONJ=
-_
-с=PR=
-_
-рдяный=A=ins,pl,plen
-_
-бусы=S,pl,inan=ins
-\n
-на=PR=
-_
-шея=S,f,inan=(abl,sg|dat,sg)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\u2014\n
-белеть=V,ipf,intr=praet,sg,indic,f
-_
-застылый=A=nom,sg,plen,f
-,_
-словно=CONJ=
-_
-дремотный=A=nom,sg,plen,f
-\n
-купава=S,persn,f,anim=nom,sg
-_
-болотный=A=nom,sg,plen,f
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-еле=ADV=
-_
-раскрываться=V,intr=praet,sg,indic,f,pf
-_
-среди=PR=
-_
-камыш=S,m,inan=gen,pl
-.\n\n
-девица=S,f,anim=nom,sg
-_
-волшебный=A=nom,sg,plen,f
-,_
-богиня=S,f,anim=nom,sg
-_
-громовница?=S,f,anim=nom,sg
-,\n
-душа=S,f,inan=nom,sg
--
-полюбовница=S,f,anim=nom,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-крепко=ADV=
-_
-ли=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,2p
-?\n
-ужели=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-вновь=ADV=
-_
-не=PART=
-_
-исполняться=V,intr=inpraes,sg,indic,2p,pf
-_
-сила=S,f,inan=ins,sg
-\n
-пред=PR=
-_
-бог=S,m,anim=ins,sg
-_
-ярила?=S,obsc,mf,anim=ins,sg
-,\n
-не=PART=
-_
-вспрянуть?=V,pf,intr=inpraes,sg,indic,2p
-_
-со=PR=
-_
-смех=S,m,inan=ins,sg
-,_
-разрушать=V,tran=praet,ger,pf
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-?\n\n
-просыпаться=V,intr=praet,sg,indic,f,pf
-,_
-просыпаться=V,intr=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=nom
-!_
-я=SPRO,sg,1p=nom
-_
-молнья?=S,pl,inan=ins
-_
-рдяный=A=ins,pl,plen
-\n
-взмахивать=V,intr=praet,sg,indic,m,pf
-_
-над=PR=
-_
-туман=S,m,inan=ins,pl
-,\n
-о=PR=
-,_
-слава=S,f,inan=nom,sg
-_
-меч=S,m,inan=dat,sg
-!\n
-какой=APRO=nom,sg,f
-_
-ты=SPRO,sg,2p=nom
-_
-светлый=A=nom,sg,plen,f
-_
-с=PR=
-_
-этот=APRO=ins,pl
-_
-мак=S,m,inan=ins,pl
-,\n
-ты=SPRO,sg,2p=nom
-_
-мчаться=V,ipf,intr=inpraes,sg,indic,2p
-_
-над=PR=
-_
-мрак=S,m,inan=ins,pl
-,\n
-ворчать=V,ipf,intr=inpraes,pl,indic,3p
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-гром=S,m,inan=(acc,pl|nom,pl)
-,_
-рычать=V,ipf,intr=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-._
-чу=INTJ=
-!\n
+{девица=S,f,anim=nom,sg} {волшебный=A=nom,sg,plen,f}, {богиня=S,f,anim=nom,sg} {громовница?=S,f,anim=nom,sg},
+{мой=APRO=nom,sg,f} {полюбовница=S,f,anim=nom,sg}
+{лежать=V,ipf,intr=praet,sg,indic,f} {в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)}.
+{и=CONJ=} {ветер=S,m,inan=(acc,pl|nom,pl)} {весенний=A=(acc,pl,plen,inan|nom,pl,plen)} {плакать=V,ipf,intr=praet,pl,indic} {жалостно=ADV=},
+{и=CONJ=} {с=PR=} {вопль=S,m,inan=ins,pl}, {яростно=ADV=},
+{играть=V,ipf,tran=praet,pl,indic} {на=PR=} {флейта=S,f,inan=abl,pl}, {и=CONJ=} {дуть=V,ipf,tran=praet,pl,indic} {в=PR=} {труба=S,f,inan=acc,sg}.
+
+{покойница=S,f,anim=nom,sg} {юный=A=nom,sg,plen,f} — {о=PR=}, {с=PR=} {коса=S,f,inan=ins,pl} {русый=A=ins,pl,plen},
+{и=CONJ=} {с=PR=} {рдяный=A=ins,pl,plen} {бусы=S,pl,inan=ins}
+{на=PR=} {шея=S,f,inan=(abl,sg|dat,sg)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} —
+{белеть=V,ipf,intr=praet,sg,indic,f} {застылый=A=nom,sg,plen,f}, {словно=CONJ=} {дремотный=A=nom,sg,plen,f}
+{купава=S,persn,f,anim=nom,sg} {болотный=A=nom,sg,plen,f},
+{что=SPRO,sg,n,inan=(acc|nom)} {еле=ADV=} {раскрываться=V,intr=praet,sg,indic,f,pf} {среди=PR=} {камыш=S,m,inan=gen,pl}.
+
+{девица=S,f,anim=nom,sg} {волшебный=A=nom,sg,plen,f}, {богиня=S,f,anim=nom,sg} {громовница?=S,f,anim=nom,sg},
+{душа=S,f,inan=nom,sg}-{полюбовница=S,f,anim=nom,sg},
+{ты=SPRO,sg,2p=nom} {крепко=ADV=} {ли=PART=} {спать=V,ipf,intr=inpraes,sg,indic,2p}?
+{ужели=PART=} {ты=SPRO,sg,2p=nom} {вновь=ADV=} {не=PART=} {исполняться=V,intr=inpraes,sg,indic,2p,pf} {сила=S,f,inan=ins,sg}
+{пред=PR=} {бог=S,m,anim=ins,sg} {ярила?=S,obsc,mf,anim=ins,sg},
+{не=PART=} {вспрянуть?=V,pf,intr=inpraes,sg,indic,2p} {со=PR=} {смех=S,m,inan=ins,sg}, {разрушать=V,tran=praet,ger,pf} {тишь=S,f,inan=(acc,sg|nom,sg)}?
+
+{просыпаться=V,intr=praet,sg,indic,f,pf}, {просыпаться=V,intr=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=nom}! {я=SPRO,sg,1p=nom} {молнья?=S,pl,inan=ins} {рдяный=A=ins,pl,plen}
+{взмахивать=V,intr=praet,sg,indic,m,pf} {над=PR=} {туман=S,m,inan=ins,pl},
+{о=PR=}, {слава=S,f,inan=nom,sg} {меч=S,m,inan=dat,sg}!
+{какой=APRO=nom,sg,f} {ты=SPRO,sg,2p=nom} {светлый=A=nom,sg,plen,f} {с=PR=} {этот=APRO=ins,pl} {мак=S,m,inan=ins,pl},
+{ты=SPRO,sg,2p=nom} {мчаться=V,ipf,intr=inpraes,sg,indic,2p} {над=PR=} {мрак=S,m,inan=ins,pl},
+{ворчать=V,ipf,intr=inpraes,pl,indic,3p} {твой=APRO=(nom,pl|acc,pl,inan)} {гром=S,m,inan=(acc,pl|nom,pl)}, {рычать=V,ipf,intr=inpraes,pl,indic,3p} {они=SPRO,pl=nom}. {чу=INTJ=}!

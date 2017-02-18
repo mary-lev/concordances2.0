@@ -1,102 +1,14 @@
-вновь=ADV=
-_
-сыпать=V,ipf,tran=inpraes,sg,indic,3p
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-лист=S,m,inan=ins,pl
-_
-сухой=A=ins,pl,plen
-_\n
-на=PR=
-_
-мерзлый=A=acc,sg,plen,f
-_
-земля=S,f,inan=acc,sg
-.\n
-вновь=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-душа=S,f,inan=ins,sg
-_
-причастный=A=sg,brev,m
-_
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-схима=S,f,inan=(abl,sg|dat,sg)
-_\n
-и=CONJ=
-_
-осень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-внимать=V,intr=inpraes,sg,indic,1p,ipf
-.\n\n
-душа=S,f,inan=nom,sg
-_
-опять=ADV=
-_
-златой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-увивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-ложь=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-радостный=A=sg,brev,f
-_
-мука=S,f,inan=nom,sg
-.\n
-душа=S,f,inan=nom,sg
-_
-опять=ADV=
-,_
-стремиться=V,ipf,intr=inpraes,ger
-_
-по=PR=
-_
-бездорожье=S,n,inan=dat,sg
-,_\n
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-трубный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-звук=S,m,inan=gen,sg
-.\n\n
-вновь=ADV=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-божий=A,plen=(acc,sg,n|nom,sg,n)
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-делить=V,ipf,tran=inpraes,ger
-_
-туман=S,m,inan=(acc,pl|nom,pl)
-,_\n
-к=PR=
-_
-обманный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-рай=S,sg,m,inan=(dat|loc)
-.\n
-вновь=ADV=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-божий=A,plen=(acc,sg,n|nom,sg,n)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-открывать=V=praet,sg,indic,n,pf
-_
-рана=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-умирать=V,intr=inpraes,sg,indic,1p,ipf
-.\n
+{вновь=ADV=} {сыпать=V,ipf,tran=inpraes,sg,indic,3p} {осень=S,f,inan=(acc,sg|nom,sg)} {лист=S,m,inan=ins,pl} {сухой=A=ins,pl,plen} 
+{на=PR=} {мерзлый=A=acc,sg,plen,f} {земля=S,f,inan=acc,sg}.
+{вновь=ADV=} {я=SPRO,sg,1p=nom} {душа=S,f,inan=ins,sg} {причастный=A=sg,brev,m} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {схима=S,f,inan=(abl,sg|dat,sg)} 
+{и=CONJ=} {осень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {внимать=V,intr=inpraes,sg,indic,1p,ipf}.
+
+{душа=S,f,inan=nom,sg} {опять=ADV=} {златой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {увивать=V,tran=praet,sg,partcp,brev,f,pf,pass} {ложь=S,f,inan=ins,sg},
+{и=CONJ=} {радостный=A=sg,brev,f} {мука=S,f,inan=nom,sg}.
+{душа=S,f,inan=nom,sg} {опять=ADV=}, {стремиться=V,ipf,intr=inpraes,ger} {по=PR=} {бездорожье=S,n,inan=dat,sg}, 
+{ждать=V,ipf,tran=inpraes,sg,indic,3p} {трубный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {звук=S,m,inan=gen,sg}.
+
+{вновь=ADV=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {божий=A,plen=(acc,sg,n|nom,sg,n)} {плыть=V,ipf,intr=inpraes,sg,indic,3p}, {делить=V,ipf,tran=inpraes,ger} {туман=S,m,inan=(acc,pl|nom,pl)}, 
+{к=PR=} {обманный=A=(dat,sg,plen,m|dat,sg,plen,n)} {рай=S,sg,m,inan=(dat|loc)}.
+{вновь=ADV=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {божий=A,plen=(acc,sg,n|nom,sg,n)} {мой=APRO=(nom,pl|acc,pl,inan)} {открывать=V=praet,sg,indic,n,pf} {рана=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {я=SPRO,sg,1p=nom} — {умирать=V,intr=inpraes,sg,indic,1p,ipf}.

@@ -1,74 +1,9 @@
-для=PR=
-_
-голодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-собака=S,f,anim=(acc,pl|gen,pl)
-_
-понедельник=S,m,inan=(acc,sg|nom,sg)
-,_\n
-а=CONJ=
-_
-для=PR=
-_
-прочий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-общество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-вторник=S,m,inan=(acc,sg|nom,sg)
-._\n
-и=CONJ=
-_
-гулять=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-метелка=S,f,inan=ins,sg
-_
-бездельник=S,m,anim=nom,sg
-,_\n
-называться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-дворник=S,m,anim=nom,sg
-.\n\n
-если=CONJ=
-_
-некуда=ADV,praed=
-_
-много=ADV=comp
-_
-подаваться=V,intr=inf,pf
-_\n
-и=CONJ=
-_
-никак=ADVPRO,parenth=
-_
-не=PART=
-_
-добираться=V,intr=inf,pf
-_
-домой=ADV=
-,\n
-так=ADVPRO=
-_
-давать=V,tran=sg,imper,2p,ipf
-_
-же=PART=
-_
-шутить=V,ipf,intr=inf
-_
-и=CONJ=
-_
-смеяться=V,ipf,intr=inf
-,_\n
-понедельничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-песик=S,m,anim=nom,sg
-_
-ты=SPRO,sg,2p=nom
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{для=PR=} {голодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {собака=S,f,anim=(acc,pl|gen,pl)} {понедельник=S,m,inan=(acc,sg|nom,sg)}, 
+{а=CONJ=} {для=PR=} {прочий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {общество=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вторник=S,m,inan=(acc,sg|nom,sg)}. 
+{и=CONJ=} {гулять=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {метелка=S,f,inan=ins,sg} {бездельник=S,m,anim=nom,sg}, 
+{называться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дворник=S,m,anim=nom,sg}.
+
+{если=CONJ=} {некуда=ADV,praed=} {много=ADV=comp} {подаваться=V,intr=inf,pf} 
+{и=CONJ=} {никак=ADVPRO,parenth=} {не=PART=} {добираться=V,intr=inf,pf} {домой=ADV=},
+{так=ADVPRO=} {давать=V,tran=sg,imper,2p,ipf} {же=PART=} {шутить=V,ipf,intr=inf} {и=CONJ=} {смеяться=V,ipf,intr=inf}, 
+{понедельничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {песик=S,m,anim=nom,sg} {ты=SPRO,sg,2p=nom} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}.

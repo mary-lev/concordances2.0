@@ -1,24 +1,4 @@
-умирать=V,intr=sg,imper,2p,pf
-,_
-изнеженный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-племя=S,n,inan=(acc,sg|nom,sg)
-!\n
-давать=V,tran=sg,imper,2p,pf
-_
-место=S,n,inan=(acc,sg|nom,sg)
-_
-племя=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-герой=S,m,anim=(acc,pl|gen,pl)
-!\n\t
-уж=ADV=
-_
-близко=ADV=
-_
-время=S,n,inan=(acc,sg|nom,sg)
-\n\t
-могучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-бой=S,m,inan=gen,pl
-!\n
+{умирать=V,intr=sg,imper,2p,pf}, {изнеженный=A=(acc,sg,plen,n|nom,sg,plen,n)} {племя=S,n,inan=(acc,sg|nom,sg)}!
+{давать=V,tran=sg,imper,2p,pf} {место=S,n,inan=(acc,sg|nom,sg)} {племя=S,n,inan=(abl,sg|dat,sg|gen,sg)} {герой=S,m,anim=(acc,pl|gen,pl)}!
+	{уж=ADV=} {близко=ADV=} {время=S,n,inan=(acc,sg|nom,sg)}
+	{могучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бой=S,m,inan=gen,pl}!

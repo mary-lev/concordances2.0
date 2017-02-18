@@ -1,32 +1,4 @@
-выбирать=V=inpraes,sg,indic,2p,ipf,tran
-_
-это=SPRO,sg,n,inan=(acc|nom)
-,_
-то=SPRO,sg,n,inan=(acc|nom)
-_
-ли=PART=
-,\n
-часто=ADV=
-_
-вовсе=ADV=
-_
-невпопад=ADV=
-.\n
-хоть=PART=
-_
-не=PART=
-_
-хоть=PART=
-,_
-а=CONJ=
-_
-поневоле=ADV=
-\n
-делать=V,ipf,tran=sg,imper,2p
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-велеть=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-.\n
+{выбирать=V=inpraes,sg,indic,2p,ipf,tran} {это=SPRO,sg,n,inan=(acc|nom)}, {то=SPRO,sg,n,inan=(acc|nom)} {ли=PART=},
+{часто=ADV=} {вовсе=ADV=} {невпопад=ADV=}.
+{хоть=PART=} {не=PART=} {хоть=PART=}, {а=CONJ=} {поневоле=ADV=}
+{делать=V,ipf,tran=sg,imper,2p}, {что=CONJ=} {ты=SPRO,sg,2p=(abl|dat)} {велеть=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)}.

@@ -1,116 +1,12 @@
-он=SPRO,sg,3p,m=nom
-_
-и=CONJ=
-_
-после=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-вернуться=V,pf,intr=praet,sg,indic,m
-\n
-в=PR=
-_
-старый=A=acc,sg,plen,f
-_
-флоренция=S,geo,f,inan=acc,sg
-_
-свой=APRO=acc,sg,f
-.\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-уходить=V,intr=inpraes,ger,ipf
-,_
-не=PART=
-_
-оглянуться=V,pf,intr=praet,sg,indic,m
-,\n
-это=SPRO,sg,n,inan=dat
-_
-я=SPRO,sg,1p=nom
-_
-этот=APRO=acc,sg,f
-_
-песнь=S,f,inan=(acc,sg|nom,sg)
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-факел=S,m,inan=(acc,sg|nom,sg)
-,_
-ночь=S,f,inan=(acc,sg|nom,sg)
-,_
-последний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-объятие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-за=PR=
-_
-порог=S,m,inan=ins,sg
-_
-дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вопль=S,m,inan=(acc,sg|nom,sg)
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-он=SPRO,sg,3p,m=nom
-_
-из=PR=
-_
-ад=S,sg,m,inan=gen
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-посылать=V=praet,sg,indic,m,pf
-_
-проклятие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-в=PR=
-_
-рай=S,sg,m,inan=(dat|loc)
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-забывать=V=inf,pf
-,_\u2014\n
-но=CONJ=
-_
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-в=PR=
-_
-рубаха=S,f,inan=(abl,sg|dat,sg)
-_
-покаянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-со=PR=
-_
-свеча=S,f,inan=ins,sg
-_
-зажигать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-не=PART=
-_
-проходить=V,intr=praet,sg,indic,m,pf
-\n
-по=PR=
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-флоренция=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-вероломный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-низкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-долгожданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-...\n
+{он=SPRO,sg,3p,m=nom} {и=CONJ=} {после=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {вернуться=V,pf,intr=praet,sg,indic,m}
+{в=PR=} {старый=A=acc,sg,plen,f} {флоренция=S,geo,f,inan=acc,sg} {свой=APRO=acc,sg,f}.
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)}, {уходить=V,intr=inpraes,ger,ipf}, {не=PART=} {оглянуться=V,pf,intr=praet,sg,indic,m},
+{это=SPRO,sg,n,inan=dat} {я=SPRO,sg,1p=nom} {этот=APRO=acc,sg,f} {песнь=S,f,inan=(acc,sg|nom,sg)} {петь=V,ipf,tran=inpraes,sg,indic,1p}.
+{факел=S,m,inan=(acc,sg|nom,sg)}, {ночь=S,f,inan=(acc,sg|nom,sg)}, {последний=A=(acc,sg,plen,n|nom,sg,plen,n)} {объятие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{за=PR=} {порог=S,m,inan=ins,sg} {дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вопль=S,m,inan=(acc,sg|nom,sg)} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{он=SPRO,sg,3p,m=nom} {из=PR=} {ад=S,sg,m,inan=gen} {она=SPRO,sg,3p,f=(dat|ins)} {посылать=V=praet,sg,indic,m,pf} {проклятие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{и=CONJ=} {в=PR=} {рай=S,sg,m,inan=(dat|loc)} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m} {она=SPRO,sg,3p,f=(acc|gen)} {забывать=V=inf,pf}, —
+{но=CONJ=} {босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {в=PR=} {рубаха=S,f,inan=(abl,sg|dat,sg)} {покаянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{со=PR=} {свеча=S,f,inan=ins,sg} {зажигать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {не=PART=} {проходить=V,intr=praet,sg,indic,m,pf}
+{по=PR=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {флоренция=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{вероломный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {низкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {долгожданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...

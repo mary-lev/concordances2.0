@@ -1,63 +1,14 @@
+{курочка=S,f,anim=(gen,sg|nom,pl)}-{хохлаточка=S,f,anim=(gen,sg|nom,pl)}
+{по=PR=} {дворик=S,m,inan=dat,sg} {ходить=V,ipf,intr=praet,pl,indic}.
+{улиточка?=S,persn,f,anim=(gen,sg|nom,pl)}-{рогаточка?=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{по=PR=} {травка=S,f,inan=dat,pl} {след=S,m,inan=(acc,sg|nom,sg)} {водить=V,ipf,tran=praet,pl,indic}.
 
-курочка=S,f,anim=(gen,sg|nom,pl)
--
-хохлаточка=S,f,anim=(gen,sg|nom,pl)
-\n
-по=PR=
-_
-дворик=S,m,inan=dat,sg
-_
-ходить=V,ipf,intr=praet,pl,indic
-.\n
-улиточка?=S,persn,f,anim=(gen,sg|nom,pl)
--
-рогаточка?=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-по=PR=
-_
-травка=S,f,inan=dat,pl
-_
-след=S,m,inan=(acc,sg|nom,sg)
-_
-водить=V,ipf,tran=praet,pl,indic
-.\n\n
-черненький=A=nom,sg,plen,f
-_
-бархатка=S,f,inan=nom,sg
-\n
-в=PR=
-_
-платьице=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-западать=V,intr=praet,sg,indic,f,pf
-.\n
-черненький=A=nom,sg,plen,f
-_
-бархатка=S,f,inan=nom,sg
-\n
-в=PR=
-_
-складочка=S,f,inan=abl,pl
-_
-пропадать=V,intr=praet,sg,indic,f,pf
-.\n\n
-деточка=S,f,anim=nom,sg
-_
-закрывать=V=praet,sg,indic,f,pf
-\n
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глазок=S,m,inan=(acc,pl|nom,pl)
-.\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-и=CONJ=
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-глупенький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{черненький=A=nom,sg,plen,f} {бархатка=S,f,inan=nom,sg}
+{в=PR=} {платьице=S,n,inan=(abl,sg|acc,sg|nom,sg)} {западать=V,intr=praet,sg,indic,f,pf}.
+{черненький=A=nom,sg,plen,f} {бархатка=S,f,inan=nom,sg}
+{в=PR=} {складочка=S,f,inan=abl,pl} {пропадать=V,intr=praet,sg,indic,f,pf}.
+
+{деточка=S,f,anim=nom,sg} {закрывать=V=praet,sg,indic,f,pf}
+{усталый=A=(acc,pl,plen,inan|nom,pl,plen)} {глазок=S,m,inan=(acc,pl|nom,pl)}.
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} — {и=CONJ=} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,3p}
+{глупенький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

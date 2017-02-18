@@ -1,146 +1,23 @@
-дорожка=S,f,inan=ins,sg
-_
-простонародный=A=ins,sg,plen,f
-,\n
-смиренный=A=ins,sg,plen,f
-,_
-богоугодный=A=ins,sg,plen,f
-,\n
-идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_\u2014_
-свободный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-немодный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-душа=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-тело=S,n,inan=ins,sg
-_\u2014_
-благородный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-сбылисить?=V,ipf,intr=inpraes,ger
-_
-древний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-где=ADVPRO=
-_
-вы=SPRO,pl,2p=nom
-_\u2014_
-величество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?_
-высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?\n\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-с=PR=
-_
-дочь=S,f,anim=ins,sg
-_
-идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_\u2014_
-два=NUM=(nom,f|acc,f,inan)
-_
-странница=S,f,anim=(gen,sg|nom,pl)
-.\n
-чернь=S,f,inan=(acc,sg|nom,sg)
-_
-черный=A=nom,sg,plen,f
-_
-навстречу=ADV=
-_
-чваниться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-оставаться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-а=CONJ=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-бог=S,m,anim=nom,sg
-_
-на=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-оглянуться=V,pf,intr=inpraes,sg,indic,3p
-...\n\n
-пусть=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_\u2014_
-как=CONJ=
-_
-он=SPRO,sg,3p,m=dat
-_
-захотеться=V,pf,intr=inpraes,sg,indic,3p
-:\n
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-величество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-так=ADVPRO=
-,_
-скромный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-богоугодный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-душа=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-тело=S,n,inan=ins,sg
-_\u2014_
-благородный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-дорожка=S,f,inan=ins,sg
-_
-простонародный=A=ins,sg,plen,f
-_\u2014_\n
-так=ADVPRO=
-,_
-доченька=S,f,anim=nom,sg
-,_
-к=PR=
-_
-себя=SPRO=(abl|dat)
-_
-на=PR=
-_
-родина=S,f,inan=acc,sg
-:\n\n
-в=PR=
-_
-страна=S,f,inan=acc,sg
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-где=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_\u2014_
-величество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{дорожка=S,f,inan=ins,sg} {простонародный=A=ins,sg,plen,f},
+{смиренный=A=ins,sg,plen,f}, {богоугодный=A=ins,sg,plen,f},
+{идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} — {свободный=A=(acc,pl,plen,inan|nom,pl,plen)}, {немодный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{душа=S,f,inan=ins,sg} {и=CONJ=} {тело=S,n,inan=ins,sg} — {благородный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{сбылисить?=V,ipf,intr=inpraes,ger} {древний=A=(acc,pl,plen,inan|nom,pl,plen)} {пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+{где=ADVPRO=} {вы=SPRO,pl,2p=nom} — {величество=S,n,inan=(acc,pl|gen,sg|nom,pl)}? {высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)}?
+
+{мать=S,f,anim=(acc,sg|nom,sg)} {с=PR=} {дочь=S,f,anim=ins,sg} {идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} — {два=NUM=(nom,f|acc,f,inan)} {странница=S,f,anim=(gen,sg|nom,pl)}.
+{чернь=S,f,inan=(acc,sg|nom,sg)} {черный=A=nom,sg,plen,f} {навстречу=ADV=} {чваниться=V,ipf,intr=inpraes,sg,indic,3p}.
+{быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p} — {вздох=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {оставаться=V,intr=inpraes,sg,indic,3p,pf},
+{а=CONJ=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} — {бог=S,m,anim=nom,sg} {на=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {оглянуться=V,pf,intr=inpraes,sg,indic,3p}...
+
+{пусть=PART=} {быть=V,intr=inpraes,sg,indic,3p} — {как=CONJ=} {он=SPRO,sg,3p,m=dat} {захотеться=V,pf,intr=inpraes,sg,indic,3p}:
+{мы=SPRO,pl,1p=nom} {не=PART=} {величество=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{так=ADVPRO=}, {скромный=A=(acc,pl,plen,inan|nom,pl,plen)}, {богоугодный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{душа=S,f,inan=ins,sg} {и=CONJ=} {тело=S,n,inan=ins,sg} — {благородный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{дорожка=S,f,inan=ins,sg} {простонародный=A=ins,sg,plen,f} — 
+{так=ADVPRO=}, {доченька=S,f,anim=nom,sg}, {к=PR=} {себя=SPRO=(abl|dat)} {на=PR=} {родина=S,f,inan=acc,sg}:
+
+{в=PR=} {страна=S,f,inan=acc,sg} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)} — 
+{где=ADVPRO=} {мы=SPRO,pl,1p=nom} — {величество=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {высочество=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

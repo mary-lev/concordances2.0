@@ -1,102 +1,19 @@
-стекло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-стыть=V,ipf=inpraes,pl,indic,3p
-_
-от=PR=
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-но=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-что=CONJ=
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-_
-растаивать=V,intr=inpraes,sg,indic,3p,pf
-,\u2014\n
-весенний=A=sg,brev,n
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-молодо=ADV=
-.\n\n
-в=PR=
-_
-комната=S,f,inan=abl,pl
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-ладан=S,m,inan=ins,sg
-,\n
-тоска=S,f,inan=nom,sg
-_
-истаивать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-когда=CONJ=
-_
-узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,\n
-как=ADVPRO=
-_
-скоро=ADV=
-_
-даваться=V,intr=inpraes,sg,indic,3p,pf
-_
-отрада=S,f,inan=nom,sg
-_
-мы=SPRO,pl,1p=dat
-.\n\n
-вспыхивать=V,intr=inpraes,sg,indic,3p,pf
-_
-на=PR=
-_
-риза=S,f,inan=abl,pl
-_
-золото=S,sg,n,inan=(acc|nom)
-,_\n
-зажигаться=V,intr=inpraes,pl,indic,3p,pf
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-вновь=ADV=
-_
-целый=A=sg,brev,n
-_
-то=CONJ=
-,_
-что=CONJ=
-_
-раскалывать=V,tran=praet,sg,partcp,brev,n,pf,pass
-.\n\n
-снег=S,m,inan=ins,sg
-_
-блистать=V,ipf,intr=inpraes,pl,indic,3p
-_
-здание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-провидеть=V,ipf,tran=inpraes,ger
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-теплить=V,ipf,tran=inpraes,sg,indic,1p
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-мудрый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{стекло=S,n,inan=(acc,pl|gen,sg|nom,pl)} {стыть=V,ipf=inpraes,pl,indic,3p} {от=PR=} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{но=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+{что=CONJ=} {лед=S,m,inan=(acc,sg|nom,sg)} {растаивать=V,intr=inpraes,sg,indic,3p,pf},—
+{весенний=A=sg,brev,n} {быть=V,intr=inpraes,sg,indic,3p} {и=CONJ=} {молодо=ADV=}.
+
+{в=PR=} {комната=S,f,inan=abl,pl} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {ладан=S,m,inan=ins,sg},
+{тоска=S,f,inan=nom,sg} {истаивать=V,intr=inpraes,sg,indic,3p,pf},
+{когда=CONJ=} {узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)},
+{как=ADVPRO=} {скоро=ADV=} {даваться=V,intr=inpraes,sg,indic,3p,pf} {отрада=S,f,inan=nom,sg} {мы=SPRO,pl,1p=dat}.
+
+{вспыхивать=V,intr=inpraes,sg,indic,3p,pf} {на=PR=} {риза=S,f,inan=abl,pl} {золото=S,sg,n,inan=(acc|nom)}, 
+{зажигаться=V,intr=inpraes,pl,indic,3p,pf} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{желанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{вновь=ADV=} {целый=A=sg,brev,n} {то=CONJ=}, {что=CONJ=} {раскалывать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+
+{снег=S,m,inan=ins,sg} {блистать=V,ipf,intr=inpraes,pl,indic,3p} {здание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{провидеть=V,ipf,tran=inpraes,ger} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=nom} {теплить=V,ipf,tran=inpraes,sg,indic,1p} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{мудрый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

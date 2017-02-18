@@ -1,315 +1,62 @@
-\t
-царь=S,m,anim=nom,sg
-_
-муравейный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n\t
-с=PR=
-_
-свита=S,f,inan=ins,sg
-_
-фейная?=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-\n
-вздумать=V,pf,intr=praet,sg,indic,m
-_
-война=S,f,inan=acc,sg
-_
-воевать=V,ipf,intr=inf
-.\n\t
-все=SPRO,pl=(abl|acc|gen)
-_
-он=SPRO,sg,3p,m=nom
-_
-букашка=S,f,anim=(acc,pl|gen,pl)
-,\n\t
-с=PR=
-_
-кашка=S,f,inan=gen,pl
-,_
-с=PR=
-_
-ромашка=S,f,inan=gen,pl
-,\n
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-теперь=ADV=
-_
-убивать=V,tran=inf,ipf
-.\n\n\t
-фея=S,f,anim=nom,sg
-_
-вздыхать=V,intr=inpraes,sg,indic,3p,ipf
-,\n\t
-фея=S,f,anim=nom,sg
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-как=ADVPRO=
-_
-же=PART=
-_
-теперь=ADV=
-_
-поступать=V,intr=inf,pf
-,\n\t
-в=PR=
-_
-фея=S,f,anim=(abl,sg|dat,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-нежно=ADV=
-,\n\t
-все=SPRO,pl=(acc|nom)
-_
-безмятежно=ADV=
-,\n
-страшный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-убивать=V,tran=inf,pf
-.\n\n\t
-но=CONJ=
-_
-на=PR=
-_
-защита=S,f,inan=acc,sg
-\n\t
-легкий=A=acc,sg,plen,f
-_
-свита=S,f,inan=acc,sg
-\n
-фея=S,f,anim=nom,sg
-_
-скоро=ADV=comp
-_
-созывать=V,tran=inf,ipf
-,\n\t
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-комариный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n\t
-царь=S,m,anim=nom,sg
-_
-муравьиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-высылать=V=praet,sg,indic,m,pf
-_
-опасный=A=acc,sg,plen,f
-_
-рать=S,f,inan=(acc,sg|nom,sg)
-.\n\n\t
-мошка=S,f,anim=(gen,sg|nom,pl)
-_
-жужжать=V,ipf,intr=praet,pl,indic
-,\n\t
-и=CONJ=
-_
-верезжать=V,ipf,intr=praet,pl,indic
-\n
-тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-голосок=S,m,inan=ins,sg
-.\n\t
-о=PR=
-,_
-муравейник=S,m,inan=(acc,sg|nom,sg)
-,\n\t
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-репейник=S,m,inan=(acc,sg|nom,sg)
-\n
-там=ADVPRO=
-,_
-где=ADVPRO=
-_
-все=SPRO,pl=(acc|nom)
-_
-гладко=ADV=
-_
-кругом=ADV=
-.\n\n\t
-с=PR=
-_
-войско=S,n,inan=ins,sg
-_
-мушин=S,famn,m,anim=(dat,pl|ins,sg)
-\n\t
-идти=V,ipf,intr=praet,sg,indic,m
-_
-по=PR=
-_
-долина=S,f,inan=dat,pl
-\n
-в=PR=
-_
-пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)
-_
-грозный=S,geo,sg,m,inan=abl
-_
-светляк=S,m,anim=nom,sg
-.\n\t
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-толкачик?=S,m,anim=nom,sg
-\n\t
-прыгать=V,ipf,intr=praet,sg,indic,m
-_
-как=CONJ=
-_
-мячик=S,m,inan=(acc,sg|nom,sg)
-,\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-толкачик?=S,m,anim=nom,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-враг=S,m,anim=nom,sg
-.\n\n\t
-враг=S,m,anim=nom,sg
-_
-муравейный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n\t
-выстрел=S,m,inan=(acc,sg|nom,sg)
-_
-ружейный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-делать=V,ipf,tran=praet,sg,indic,m
-,_
-трясти=V,ipf,tran=inpraes,ger
-_
-хоботок=S,m,inan=ins,sg
-.\n\t
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-колея=S,f,inan=ins,pl
-,\n\t
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-с=PR=
-_
-муравей=S,m,anim=ins,pl
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-как=CONJ=
-_
-траншея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кругом=ADV=
-.\n\n\t
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-затмеваться=V,intr=praet,sg,indic,n,pf
-,\n\t
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-укрываться=V,intr=praet,sg,indic,n,pf
-,\n
-в=PR=
-_
-туча=S,f,inan=(abl,sg|dat,sg)
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-_
-грохотать=V,ipf,intr=inf
-.\n\t
-каждый=APRO=nom,sg,f
-_
-сила=S,f,inan=nom,sg
-\n\t
-прочь=ADV=
-_
-отступать=V,intr=praet,sg,indic,f,pf
-,\n
-вспугивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-каждый=APRO=nom,sg,f
-_
-рать=S,f,inan=(acc,sg|nom,sg)
-.\n\n\t
-стяг=S,m,inan=(acc,sg|nom,sg)
-_
-муравьиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n\t
-лист=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-рябина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-совершенно=ADV=
-_
-промокнуть=V,pf,intr=praet,sg,indic,m
-.\n\t
-знамя=S,n,inan=ins,sg
-_
-фея=S,f,anim=(gen,sg|nom,pl)
-\n\t
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-сминать=V=praet,sg,indic,m,pf
-_
-ветерок=S,m,inan=(acc,sg|nom,sg)
-.\n\n\t
-спор=S,m,inan=(acc,sg|nom,sg)
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n\t
-тьма=S,f,inan=ins,sg
-_
-черноокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-кончать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-прямо=PART=
-_
-ни=CONJ=
-_
-в=PR=
-_
-чей=APRO=acc,sg,f
-.\n\t
-выяснять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,_
-право=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-мошка=S,f,anim=dat,pl
-_
-ли=PART=
-_
-слава=S,f,inan=nom,sg
-,\n
-слава=S,f,inan=nom,sg
-_
-ль=PART=
-_
-в=PR=
-_
-война=S,f,inan=(abl,sg|dat,sg)
-_
-муравей=S,m,anim=dat,sg
-?\n
+	{царь=S,m,anim=nom,sg} {муравейный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+	{с=PR=} {свита=S,f,inan=ins,sg} {фейная?=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+{вздумать=V,pf,intr=praet,sg,indic,m} {война=S,f,inan=acc,sg} {воевать=V,ipf,intr=inf}.
+	{все=SPRO,pl=(abl|acc|gen)} {он=SPRO,sg,3p,m=nom} {букашка=S,f,anim=(acc,pl|gen,pl)},
+	{с=PR=} {кашка=S,f,inan=gen,pl}, {с=PR=} {ромашка=S,f,inan=gen,pl},
+{хотеть=V,ipf,tran=inpraes,sg,indic,3p} {теперь=ADV=} {убивать=V,tran=inf,ipf}.
+
+	{фея=S,f,anim=nom,sg} {вздыхать=V,intr=inpraes,sg,indic,3p,ipf},
+	{фея=S,f,anim=nom,sg} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+{как=ADVPRO=} {же=PART=} {теперь=ADV=} {поступать=V,intr=inf,pf},
+	{в=PR=} {фея=S,f,anim=(abl,sg|dat,sg)} {все=SPRO,pl=(acc|nom)} {нежно=ADV=},
+	{все=SPRO,pl=(acc|nom)} {безмятежно=ADV=},
+{страшный=A=(acc,sg,plen,n|nom,sg,plen,n)} {слово=S,n,inan=(acc,sg|nom,sg)} — {убивать=V,tran=inf,pf}.
+
+	{но=CONJ=} {на=PR=} {защита=S,f,inan=acc,sg}
+	{легкий=A=acc,sg,plen,f} {свита=S,f,inan=acc,sg}
+{фея=S,f,anim=nom,sg} {скоро=ADV=comp} {созывать=V,tran=inf,ipf},
+	{мир=S,m,inan=(acc,sg|nom,sg)} {комариный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+	{царь=S,m,anim=nom,sg} {муравьиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{высылать=V=praet,sg,indic,m,pf} {опасный=A=acc,sg,plen,f} {рать=S,f,inan=(acc,sg|nom,sg)}.
+
+	{мошка=S,f,anim=(gen,sg|nom,pl)} {жужжать=V,ipf,intr=praet,pl,indic},
+	{и=CONJ=} {верезжать=V,ipf,intr=praet,pl,indic}
+{тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {голосок=S,m,inan=ins,sg}.
+	{о=PR=}, {муравейник=S,m,inan=(acc,sg|nom,sg)},
+	{это=SPRO,sg,n,inan=(acc|nom)} — {репейник=S,m,inan=(acc,sg|nom,sg)}
+{там=ADVPRO=}, {где=ADVPRO=} {все=SPRO,pl=(acc|nom)} {гладко=ADV=} {кругом=ADV=}.
+
+	{с=PR=} {войско=S,n,inan=ins,sg} {мушин=S,famn,m,anim=(dat,pl|ins,sg)}
+	{идти=V,ipf,intr=praet,sg,indic,m} {по=PR=} {долина=S,f,inan=dat,pl}
+{в=PR=} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} {грозный=S,geo,sg,m,inan=abl} {светляк=S,m,anim=nom,sg}.
+	{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {толкачик?=S,m,anim=nom,sg}
+	{прыгать=V,ipf,intr=praet,sg,indic,m} {как=CONJ=} {мячик=S,m,inan=(acc,sg|nom,sg)},
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {толкачик?=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {враг=S,m,anim=nom,sg}.
+
+	{враг=S,m,anim=nom,sg} {муравейный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+	{выстрел=S,m,inan=(acc,sg|nom,sg)} {ружейный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{делать=V,ipf,tran=praet,sg,indic,m}, {трясти=V,ipf,tran=inpraes,ger} {хоботок=S,m,inan=ins,sg}.
+	{путь=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {колея=S,f,inan=ins,pl},
+	{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {с=PR=} {муравей=S,m,anim=ins,pl},
+{быть=V,intr=praet,sg,indic,m,ipf} {как=CONJ=} {траншея=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кругом=ADV=}.
+
+	{небо=S,n,inan=(acc,sg|nom,sg)} {затмеваться=V,intr=praet,sg,indic,n,pf},
+	{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {укрываться=V,intr=praet,sg,indic,n,pf},
+{в=PR=} {туча=S,f,inan=(abl,sg|dat,sg)} {становиться=V,intr=praet,sg,indic,m,pf} {гром=S,m,inan=(acc,sg|nom,sg)} {грохотать=V,ipf,intr=inf}.
+	{каждый=APRO=nom,sg,f} {сила=S,f,inan=nom,sg}
+	{прочь=ADV=} {отступать=V,intr=praet,sg,indic,f,pf},
+{вспугивать=V,tran=praet,sg,partcp,brev,f,pf,pass} {каждый=APRO=nom,sg,f} {рать=S,f,inan=(acc,sg|nom,sg)}.
+
+	{стяг=S,m,inan=(acc,sg|nom,sg)} {муравьиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+	{лист=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {рябина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{он=SPRO,sg,3p,m=nom} {совершенно=ADV=} {промокнуть=V,pf,intr=praet,sg,indic,m}.
+	{знамя=S,n,inan=ins,sg} {фея=S,f,anim=(gen,sg|nom,pl)}
+	{цвет=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {он=SPRO,sg,3p,m=(acc|gen)} {сминать=V=praet,sg,indic,m,pf} {ветерок=S,m,inan=(acc,sg|nom,sg)}.
+
+	{спор=S,m,inan=(acc,sg|nom,sg)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+	{тьма=S,f,inan=ins,sg} {черноокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{кончать=V,tran=praet,sg,partcp,brev,m,pf,pass} {быть=V,intr=praet,sg,indic,m,ipf} {прямо=PART=} {ни=CONJ=} {в=PR=} {чей=APRO=acc,sg,f}.
+	{выяснять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}, {право=S,n,inan=(acc,sg|nom,sg)},
+	{мошка=S,f,anim=dat,pl} {ли=PART=} {слава=S,f,inan=nom,sg},
+{слава=S,f,inan=nom,sg} {ль=PART=} {в=PR=} {война=S,f,inan=(abl,sg|dat,sg)} {муравей=S,m,anim=dat,sg}?

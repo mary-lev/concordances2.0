@@ -1,66 +1,10 @@
-ноченька=S,f,inan=nom,sg
-!\n
-в=PR=
-_
-звездный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-покрывало=S,n,inan=abl,sg
-,\n
-в=PR=
-_
-траурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мак=S,m,inan=abl,pl
-,_
-с=PR=
-_
-бессонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сова=S,f,anim=ins,sg
-...\n
-доченька=S,f,anim=nom,sg
-!\n
-как=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-укрывать=V=praet,pl,indic,ipf,tran
-\n
-свежий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-садовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-земля=S,f,inan=ins,sg
-.\n
-пустой=A=pl,brev
-_
-теперь=ADV=
-_
-дионисов=S,famn,m,anim=nom,pl
-_
-чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-заплакать=V,pf,tran=praet,pl,partcp,brev,pass
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)
-_
-над=PR=
-_
-город=S,m,inan=ins,sg
-_
-наш=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-\n
-страшный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сестра=S,f,anim=(gen,sg|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-.\n
+{ноченька=S,f,inan=nom,sg}!
+{в=PR=} {звездный=A=(abl,sg,plen,m|abl,sg,plen,n)} {покрывало=S,n,inan=abl,sg},
+{в=PR=} {траурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мак=S,m,inan=abl,pl}, {с=PR=} {бессонный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сова=S,f,anim=ins,sg}...
+{доченька=S,f,anim=nom,sg}!
+{как=ADVPRO=} {мы=SPRO,pl,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {укрывать=V=praet,pl,indic,ipf,tran}
+{свежий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {садовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=ins,sg}.
+{пустой=A=pl,brev} {теперь=ADV=} {дионисов=S,famn,m,anim=nom,pl} {чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{заплакать=V,pf,tran=praet,pl,partcp,brev,pass} {взор=S,m,inan=(acc,pl|nom,pl)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{это=SPRO,sg,n,inan=(acc|nom)} {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} {над=PR=} {город=S,m,inan=ins,sg} {наш=APRO=(dat,pl|ins,sg,m|ins,sg,n)}
+{страшный=A=(acc,pl,plen,inan|nom,pl,plen)} {сестра=S,f,anim=(gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)}.

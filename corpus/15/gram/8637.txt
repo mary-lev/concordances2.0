@@ -1,96 +1,14 @@
-нарцисс=S,m,inan=(acc,sg|nom,sg)
-,_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-самовлюбленность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-до=PR=
-_
-боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сладостный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-,\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-до=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-до=PR=
-_
-бездонность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-всевластность?=S,f,inan=(acc,sg|nom,sg)
-_
-чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-белизна=S,sg,f,inan=gen
-.\n\n
-нарцисс=S,m,inan=(acc,sg|nom,sg)
-,_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-страстность=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-до=PR=
-_
-то=SPRO,sg,n,inan=gen
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-!_\u2014_
-вспышка=S,f,inan=nom,sg
-_
-алость?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-лик=S,m,inan=gen,sg
-_
-свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-.\n\n
-нарцисс=S,m,inan=(acc,sg|nom,sg)
-,_
-туман=S,m,inan=(acc,sg|nom,sg)
-_
-самовнушение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-вопрос=S,m,inan=(acc,sg|nom,sg)
--
-ответ=S,m,inan=(acc,sg|nom,sg)
-,\n
-загадка=S,f,inan=nom,sg
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-отражение=S,n,inan=(acc,sg|nom,sg)
-,\n
-венчальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-саван=S,m,inan=(acc,sg|nom,sg)
-,_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-.\n
+{нарцисс=S,m,inan=(acc,sg|nom,sg)}, {восторг=S,m,inan=(acc,sg|nom,sg)} {самовлюбленность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{до=PR=} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сладостный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)},
+{любовь=S,f,inan=(acc,sg|nom,sg)} — {до=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {до=PR=} {бездонность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{всевластность?=S,f,inan=(acc,sg|nom,sg)} {чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {белизна=S,sg,f,inan=gen}.
+
+{нарцисс=S,m,inan=(acc,sg|nom,sg)}, {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{желание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {страстность=S,f,inan=(acc,sg|nom,sg)} — {до=PR=} {то=SPRO,sg,n,inan=gen},
+{что=SPRO,sg,n,inan=(acc|nom)} {в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} — {в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)}! — {вспышка=S,f,inan=nom,sg} {алость?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {лик=S,m,inan=gen,sg} {свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}.
+
+{нарцисс=S,m,inan=(acc,sg|nom,sg)}, {туман=S,m,inan=(acc,sg|nom,sg)} {самовнушение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{любовь=S,f,inan=(acc,sg|nom,sg)} {к=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {вопрос=S,m,inan=(acc,sg|nom,sg)}-{ответ=S,m,inan=(acc,sg|nom,sg)},
+{загадка=S,f,inan=nom,sg} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {отражение=S,n,inan=(acc,sg|nom,sg)},
+{венчальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {саван=S,m,inan=(acc,sg|nom,sg)}, {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)}.

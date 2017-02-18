@@ -1,146 +1,19 @@
-стакан=S,m,inan=(acc,sg|nom,sg)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-во=PR=
-_
-время=S,n,inan=(acc,sg|nom,sg)
-_
-жажда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-:\n_\u2014_
-давать=V,tran=sg,imper,2p,pf
-_\u2014_
-или=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-умирать=V,intr=inpraes,sg,indic,1p,pf
-!_\u2014_\n
-настойчиво=ADV=
-_\u2014_
-расслабленно=ADV=
-_\u2014_
-певучий=A=sg,brev,n
-_\u2014_\n
-как=ADVPRO=
-_
-жалоба=S,f,inan=nom,sg
-_
-в=PR=
-_
-жара=S,sg,f,inan=acc
-_\u2014_\n\n
-все=SPRO,pl=(acc|nom)
-_
-повторять=V,tran=inpraes,sg,indic,1p,ipf
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-и=CONJ=
-_
-все=ADV=
-_
-жестокий=A=comp
-\n
-снова=ADV=
-_\u2014_
-опять=ADV=
-_\u2014_\n
-как=CONJ=
-_
-в=PR=
-_
-темнота=S,sg,f,inan=(abl|dat)
-,_
-когда=CONJ=
-_
-так=ADVPRO=
-_
-страшно=ADV=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-\n
-спать=V,ipf,intr=inf
-_\u2014_
-и=CONJ=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,2p
-_
-спать=V,ipf,intr=inf
-.\n\n
-как=ADVPRO=
-_
-будто=PART=
-_
-мало=ADV=
-_
-по=PR=
-_
-луг=S,m,inan=dat,pl
-_
-снотворный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-от=PR=
-_
-всяческий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-тревога=S,f,inan=gen,pl
-!\n
-настойчиво=ADV=
-_\u2014_
-бессмысленно=ADV=
-_\u2014_
-повторно=ADV=
-_\u2014_\n
-как=CONJ=
-_
-детство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-слог=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-так=ADVPRO=
-_
-с=PR=
-_
-каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-миг=S,m,inan=ins,sg
-_
-все=SPRO,pl=(acc|nom)
-_
-неповторимый=A=comp
-\n
-к=PR=
-_
-горло=S,n,inan=dat,sg
-_\u2014_
-ремень=S,m,inan=ins,sg
-...\n
-и=CONJ=
-_
-если=CONJ=
-_
-здесь=ADVPRO=
-_\u2014_
-всего=PART=
-_\u2014_
-земной=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,_\u2014_\n
-дело=S,n,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-в=PR=
-_
-немой=A=sg,brev,m
-.\n
+{стакан=S,m,inan=(acc,sg|nom,sg)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {во=PR=} {время=S,n,inan=(acc,sg|nom,sg)} {жажда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}:
+ — {давать=V,tran=sg,imper,2p,pf} — {или=CONJ=} {я=SPRO,sg,1p=nom} {умирать=V,intr=inpraes,sg,indic,1p,pf}! — 
+{настойчиво=ADV=} — {расслабленно=ADV=} — {певучий=A=sg,brev,n} — 
+{как=ADVPRO=} {жалоба=S,f,inan=nom,sg} {в=PR=} {жара=S,sg,f,inan=acc} — 
+
+{все=SPRO,pl=(acc|nom)} {повторять=V,tran=inpraes,sg,indic,1p,ipf} {я=SPRO,sg,1p=nom} — {и=CONJ=} {все=ADV=} {жестокий=A=comp}
+{снова=ADV=} — {опять=ADV=} — 
+{как=CONJ=} {в=PR=} {темнота=S,sg,f,inan=(abl|dat)}, {когда=CONJ=} {так=ADVPRO=} {страшно=ADV=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p}
+{спать=V,ipf,intr=inf} — {и=CONJ=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,2p} {спать=V,ipf,intr=inf}.
+
+{как=ADVPRO=} {будто=PART=} {мало=ADV=} {по=PR=} {луг=S,m,inan=dat,pl} {снотворный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {от=PR=} {всяческий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {тревога=S,f,inan=gen,pl}!
+{настойчиво=ADV=} — {бессмысленно=ADV=} — {повторно=ADV=} — 
+{как=CONJ=} {детство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {слог=S,m,inan=(acc,sg|nom,sg)}...
+
+{так=ADVPRO=} {с=PR=} {каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {миг=S,m,inan=ins,sg} {все=SPRO,pl=(acc|nom)} {неповторимый=A=comp}
+{к=PR=} {горло=S,n,inan=dat,sg} — {ремень=S,m,inan=ins,sg}...
+{и=CONJ=} {если=CONJ=} {здесь=ADVPRO=} — {всего=PART=} — {земной=A=(acc,sg,plen,n|nom,sg,plen,n)} {имя=S,n,inan=(acc,sg|nom,sg)}, — 
+{дело=S,n,inan=(acc,sg|nom,sg)} {не=PART=} {в=PR=} {немой=A=sg,brev,m}.

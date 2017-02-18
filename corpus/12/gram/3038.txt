@@ -1,200 +1,29 @@
-быть=V,intr=praet,sg,indic,n,ipf
-_
-дружба=S,f,inan=ins,sg
-,_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-служба=S,f,inan=ins,sg
-.\n
-бог=S,m,anim=nom,sg
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-брат=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-волк=S,m,anim=nom,sg
-!\n
-подыхать=V,intr=inpraes,sg,indic,3p,ipf
-_
-наш=APRO=nom,sg,f
-_
-дружба=S,f,inan=nom,sg
-:\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-не=PART=
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-долг=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-заедать=V=sg,imper,2p,ipf,tran
-_
-верста=S,f,inan=ins,sg
-_
-верста=S,f,inan=acc,sg
-,\n
-отсылать=V=sg,imper,2p,ipf,tran
-_
-верста=S,f,inan=acc,sg
-_
-к=PR=
-_
-верста=S,f,inan=(abl,sg|dat,sg)
-!\n
-переглаживать=V=praet,sg,indic,f,pf
-_
-по=PR=
-_
-шерстка=S,f,inan=(abl,sg|dat,sg)
-,_\u2014_\n
-стосковаться=V,pf,intr=praet,sg,indic,m
-_
-по=PR=
-_
-тоска=S,f,inan=(abl,sg|dat,sg)
-!\n\n
-не=PART=
-_
-взводить=V=inpraes,sg,indic,1p,ipf,tran
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-в=PR=
-_
-злодей=S,m,anim=nom,pl
-,_\u2014_\n
-не=PART=
-_
-твой=APRO=nom,sg,f
-_
-вина=S,f,inan=nom,sg
-_\u2014_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-:\n
-ненасытность=S,f,inan=ins,sg
-_
-свой=APRO=ins,sg,f
-\n
-перекармливать=V,tran=inpraes,sg,indic,1p,ipf
-_
-все=SPRO,pl=(abl|acc|gen)
-!\n\n
-чем=CONJ=
-_
-на=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-с=PR=
-_
-кремень=S,m,inan=ins,sg
--
-огниво=S,n,inan=ins,sg
-\n
-в=PR=
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-ходить=V,ipf,intr=inf
-_\u2014_
-как=CONJ=
-_
-бог=S,m,anim=nom,sg
-_
-судить=V,ipf,tran=praet,sg,indic,m
-,_\u2014_\n
-к=PR=
-_
-один=APRO=(dat,sg,m|dat,sg,n)
-_
-бабий=A,plen=(acc,sg,n|nom,sg,n)
-_
-ревниво=ADV=
-:\n
-чтобы=CONJ=
-_
-лапа=S,f,inan=gen,pl
-_
-не=PART=
-_
-остужать=V=praet,sg,indic,m,pf
-.\n\n
-удерживать=V,tran=inf,pf
-_\u2014_
-перст=S,m,inan=ins,sg
-_
-не=PART=
-_
-двинуть=V,pf,tran=inpraes,sg,indic,1p
-:\n
-перст=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-шест=S,m,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-большой=A=sg,brev,m
-.\n
-уносить=V=sg,imper,2p,ipf,tran
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-седина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-бог=S,m,anim=nom,sg
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-брат=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-клык=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-прощевать?=V,ipf,tran=sg,imper,2p
-,_
-седой=A=nom,sg,plen,f
-_
-шкура=S,f,inan=nom,sg
-!\n
-и=CONJ=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-_
-не=PART=
-_
-вспомянуть=V,pf,tran=inpraes,sg,indic,1p
-!\n
-новый=A=nom,sg,plen,f
-_
-находиться=V,intr=inpraes,sg,indic,3p,pf
-_
-дура=S,f,anim=nom,sg
-_\u2014_\n
-верить=V,ipf,intr=inf
-_
-в=PR=
-_
-волчий=A,plen=acc,sg,f
-_
-седина=S,f,inan=acc,sg
-.\n
+{быть=V,intr=praet,sg,indic,n,ipf} {дружба=S,f,inan=ins,sg}, {становиться=V,intr=praet,sg,indic,n,pf} {служба=S,f,inan=ins,sg}.
+{бог=S,m,anim=nom,sg} {с=PR=} {ты=SPRO,sg,2p=ins}, {брат=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {волк=S,m,anim=nom,sg}!
+{подыхать=V,intr=inpraes,sg,indic,3p,ipf} {наш=APRO=nom,sg,f} {дружба=S,f,inan=nom,sg}:
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {не=PART=} {дар=S,m,inan=(acc,sg|nom,sg)}, {а=CONJ=} {долг=S,m,inan=(acc,sg|nom,sg)}!
+
+{заедать=V=sg,imper,2p,ipf,tran} {верста=S,f,inan=ins,sg} {верста=S,f,inan=acc,sg},
+{отсылать=V=sg,imper,2p,ipf,tran} {верста=S,f,inan=acc,sg} {к=PR=} {верста=S,f,inan=(abl,sg|dat,sg)}!
+{переглаживать=V=praet,sg,indic,f,pf} {по=PR=} {шерстка=S,f,inan=(abl,sg|dat,sg)}, — 
+{стосковаться=V,pf,intr=praet,sg,indic,m} {по=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)}!
+
+{не=PART=} {взводить=V=inpraes,sg,indic,1p,ipf,tran} {ты=SPRO,sg,2p=(acc|gen)} {в=PR=} {злодей=S,m,anim=nom,pl}, — 
+{не=PART=} {твой=APRO=nom,sg,f} {вина=S,f,inan=nom,sg} — {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {грех=S,m,inan=(acc,sg|nom,sg)}:
+{ненасытность=S,f,inan=ins,sg} {свой=APRO=ins,sg,f}
+{перекармливать=V,tran=inpraes,sg,indic,1p,ipf} {все=SPRO,pl=(abl|acc|gen)}!
+
+{чем=CONJ=} {на=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {с=PR=} {кремень=S,m,inan=ins,sg}-{огниво=S,n,inan=ins,sg}
+{в=PR=} {лес=S,m,inan=(acc,sg|nom,sg)} {ходить=V,ipf,intr=inf} — {как=CONJ=} {бог=S,m,anim=nom,sg} {судить=V,ipf,tran=praet,sg,indic,m}, — 
+{к=PR=} {один=APRO=(dat,sg,m|dat,sg,n)} {бабий=A,plen=(acc,sg,n|nom,sg,n)} {ревниво=ADV=}:
+{чтобы=CONJ=} {лапа=S,f,inan=gen,pl} {не=PART=} {остужать=V=praet,sg,indic,m,pf}.
+
+{удерживать=V,tran=inf,pf} — {перст=S,m,inan=ins,sg} {не=PART=} {двинуть=V,pf,tran=inpraes,sg,indic,1p}:
+{перст=S,m,inan=(acc,sg|nom,sg)} — {не=PART=} {шест=S,m,inan=(acc,sg|nom,sg)}, {а=CONJ=} {лес=S,m,inan=(acc,sg|nom,sg)} {большой=A=sg,brev,m}.
+{уносить=V=sg,imper,2p,ipf,tran} {свой=APRO=(nom,pl|acc,pl,inan)} {седина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{бог=S,m,anim=nom,sg} {с=PR=} {ты=SPRO,sg,2p=ins}, {брат=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {клык=S,m,inan=(acc,sg|nom,sg)}!
+
+{прощевать?=V,ipf,tran=sg,imper,2p}, {седой=A=nom,sg,plen,f} {шкура=S,f,inan=nom,sg}!
+{и=CONJ=} {во=PR=} {сон=S,m,inan=abl,sg} {не=PART=} {вспомянуть=V,pf,tran=inpraes,sg,indic,1p}!
+{новый=A=nom,sg,plen,f} {находиться=V,intr=inpraes,sg,indic,3p,pf} {дура=S,f,anim=nom,sg} — 
+{верить=V,ipf,intr=inf} {в=PR=} {волчий=A,plen=acc,sg,f} {седина=S,f,inan=acc,sg}.

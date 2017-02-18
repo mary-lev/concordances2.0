@@ -1,132 +1,25 @@
-что=CONJ=
-_
-без=PR=
-_
-крыло=S,n,inan=gen,pl
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-?\n
-что=CONJ=
-_
-без=PR=
-_
-нога=S,f,inan=gen,pl
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-?\n
-без=PR=
-_
-огонь=S,m,inan=gen,sg
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-?\n
-и=CONJ=
-_
-без=PR=
-_
-ран=S,sg,f,inan=(abl|acc|dat|gen|ins|nom)
-_
-болеть=V,ipf,intr=inpraes,sg,indic,3p
-?\n
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-буйный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-туча=S,f,inan=nom,sg
-_
-грозный=A=nom,sg,plen,f
-,\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ясный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n\n
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-вольный=S,m,anim=nom,pl
-,\n
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-красный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-что=CONJ=
-,_
-без=PR=
-_
-крыло=S,n,inan=gen,pl
-_
-лететь=V,ipf,intr=inpraes,ger
-,\n
-без=PR=
-_
-огонь=S,m,inan=gen,sg
-_
-светить=V,ipf,intr=inpraes,ger
-,\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-громов=S,famn,m,anim=nom,sg
-_
-сильно=ADV=comp
-,\n
-всякий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ран=S,sg,f,inan=(abl|acc|dat|gen|ins|nom)
-_
-больно=ADV=comp
-?\n
-о=INTJ=
-,_
-не=PART=
-_
-буйный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-туча=S,f,inan=ins,pl
-,\n
-и=CONJ=
-_
-не=PART=
-_
-ясный=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-красный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-о=INTJ=
-,_
-не=PART=
-_
-буйный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-туча=S,f,inan=ins,pl
-,_\u2014\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-в=PR=
-_
-буря=S,f,inan=abl,pl
-_
-властный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
+{что=CONJ=} {без=PR=} {крыло=S,n,inan=gen,pl} {лететь=V,ipf,intr=inpraes,sg,indic,3p}?
+{что=CONJ=} {без=PR=} {нога=S,f,inan=gen,pl} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}?
+{без=PR=} {огонь=S,m,inan=gen,sg} {гореть=V,ipf,intr=inpraes,sg,indic,3p}?
+{и=CONJ=} {без=PR=} {ран=S,sg,f,inan=(abl|acc|dat|gen|ins|nom)} {болеть=V,ipf,intr=inpraes,sg,indic,3p}?
+{ветер=S,m,inan=(acc,pl|nom,pl)} {буйный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{туча=S,f,inan=nom,sg} {грозный=A=nom,sg,plen,f},
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ясный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+
+{ветер=S,m,inan=(acc,pl|nom,pl)} {вольный=S,m,anim=nom,pl},
+{туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {черный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {красный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{что=CONJ=}, {без=PR=} {крыло=S,n,inan=gen,pl} {лететь=V,ipf,intr=inpraes,ger},
+{без=PR=} {огонь=S,m,inan=gen,sg} {светить=V,ipf,intr=inpraes,ger},
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {громов=S,famn,m,anim=nom,sg} {сильно=ADV=comp},
+{всякий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ран=S,sg,f,inan=(abl|acc|dat|gen|ins|nom)} {больно=ADV=comp}?
+{о=INTJ=}, {не=PART=} {буйный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{ветер=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {туча=S,f,inan=ins,pl},
+{и=CONJ=} {не=PART=} {ясный=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {красный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{о=INTJ=}, {не=PART=} {буйный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{ветер=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {туча=S,f,inan=ins,pl}, —
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{в=PR=} {буря=S,f,inan=abl,pl} {властный=A=(acc,sg,plen,n|nom,sg,plen,n)}.

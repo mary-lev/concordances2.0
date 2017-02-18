@@ -1,152 +1,19 @@
-все=SPRO,pl=(acc|nom)
-_
-у=PR=
-_
-боженька=S,m,anim=(gen,sg|nom,pl)
-_\u2014_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-для=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-\n
-ни=CONJ=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-дар=S,m,inan=gen,pl
-,_
-ни=CONJ=
-_
-хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-ах=INTJ=
-,_
-золотой=A=nom,sg,plen,f
-_
-дорога=S,f,inan=nom,sg
-!\n
-по=PR=
-_
-бок=S,m,inan=dat,pl
-_
-молодой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ствол=S,m,inan=(acc,pl|nom,pl)
-!\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-трепет=S,m,inan=(acc,sg|nom,sg)
-_
-архангельский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-крылья?=S,pl,inan=gen
-?\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-утрачивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-рай=S,sg,m,inan=(acc|nom)
-_
-в=PR=
-_
-уголок=S,m,inan=abl,sg
-,\n
-где=ADVPRO=
-_
-вереница=S,f,inan=ins,sg
-_
-плыть=V,ipf,intr=praet,pl,indic
-\n
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-плот=S,m,inan=(acc,pl|nom,pl)
-_
-по=PR=
-_
-ока=S,geo,f,inan=(abl,sg|dat,sg)
-.\n\n
-пусть=PART=
-_
-крыжовник=S,m,inan=(acc,sg|nom,sg)
-_
-незрелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-несладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-без=PR=
-_
-конец=S,m,inan=gen,sg
-_
-шелуха=S,sg,f,inan=gen
-_
-под=PR=
-_
-куст=S,m,inan=ins,sg
-!\n
-крупный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-буква=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-тетрадка=S,f,inan=(abl,sg|dat,sg)
-,\n
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-_
-без=PR=
-_
-счет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-потом=ADVPRO=
-.\n\n
-ни=PART=
-_
-в=PR=
-_
-молитва=S,f,inan=(abl,sg|dat,sg)
-,_
-ни=PART=
-_
-в=PR=
-_
-песня=S,f,inan=(abl,sg|dat,sg)
-,_
-ни=CONJ=
-_
-в=PR=
-_
-гимн=S,m,inan=abl,sg
-\n
-я=SPRO,sg,1p=nom
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-находить=V=inf,pf,tran
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-!\n
-ранний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-детство=S,n,inan=(acc,sg|nom,sg)
-_
-вернуть=V,pf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-\n
-и=CONJ=
-_
-березка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-тихий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-луг=S,m,inan=(dat,sg|loc,sg)
-.\n
+{все=SPRO,pl=(acc|nom)} {у=PR=} {боженька=S,m,anim=(gen,sg|nom,pl)} — {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {для=PR=} {бог=S,m,anim=(acc,sg|gen,sg)}
+{ни=CONJ=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {ни=CONJ=} {дар=S,m,inan=gen,pl}, {ни=CONJ=} {хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{ах=INTJ=}, {золотой=A=nom,sg,plen,f} {дорога=S,f,inan=nom,sg}!
+{по=PR=} {бок=S,m,inan=dat,pl} {молодой=A=(acc,pl,plen,inan|nom,pl,plen)} {ствол=S,m,inan=(acc,pl|nom,pl)}!
+
+{что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {трепет=S,m,inan=(acc,sg|nom,sg)} {архангельский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крылья?=S,pl,inan=gen}?
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {утрачивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {рай=S,sg,m,inan=(acc|nom)} {в=PR=} {уголок=S,m,inan=abl,sg},
+{где=ADVPRO=} {вереница=S,f,inan=ins,sg} {плыть=V,ipf,intr=praet,pl,indic}
+{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {плот=S,m,inan=(acc,pl|nom,pl)} {по=PR=} {ока=S,geo,f,inan=(abl,sg|dat,sg)}.
+
+{пусть=PART=} {крыжовник=S,m,inan=(acc,sg|nom,sg)} {незрелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {несладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{без=PR=} {конец=S,m,inan=gen,sg} {шелуха=S,sg,f,inan=gen} {под=PR=} {куст=S,m,inan=ins,sg}!
+{крупный=A=(acc,pl,plen,inan|nom,pl,plen)} {буква=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {тетрадка=S,f,inan=(abl,sg|dat,sg)},
+{поцелуй=S,m,inan=(acc,pl|nom,pl)} {без=PR=} {счет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {потом=ADVPRO=}.
+
+{ни=PART=} {в=PR=} {молитва=S,f,inan=(abl,sg|dat,sg)}, {ни=PART=} {в=PR=} {песня=S,f,inan=(abl,sg|dat,sg)}, {ни=CONJ=} {в=PR=} {гимн=S,m,inan=abl,sg}
+{я=SPRO,sg,1p=nom} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {находить=V=inf,pf,tran} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}!
+{ранний=A=(acc,sg,plen,n|nom,sg,plen,n)} {детство=S,n,inan=(acc,sg|nom,sg)} {вернуть=V,pf,tran=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)}
+{и=CONJ=} {березка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {тихий=A=(abl,sg,plen,m|abl,sg,plen,n)} {луг=S,m,inan=(dat,sg|loc,sg)}.

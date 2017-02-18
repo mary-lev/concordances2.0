@@ -1,56 +1,8 @@
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-праздник=S,m,inan=(acc,sg|nom,sg)
-,_
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-май=S,sg,m,inan=gen
-\n
-уж=PART=
-_
-стучаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-у=PR=
-_
-дверь=S,f,inan=gen,pl
-,\n
-но=CONJ=
-_
-одежда=S,f,inan=nom,sg
-_
-золотой=A=nom,sg,plen,f
-\n
-весь=APRO=nom,sg,f
-_
-измокать=V,intr=praet,sg,indic,f,pf
-_
-от=PR=
-_
-дождь=S,m,inan=gen,pl
-.\n
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-дождик=S,m,inan=(acc,sg|nom,sg)
-_
-благодатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-май=S,sg,m,inan=dat
-_
-подмачивать=V,tran=praet,sg,indic,m,pf
-,\n
-и=CONJ=
-_
-младенец=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-развратный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-носик=S,m,inan=(acc,sg|nom,sg)
-_
-опускать=V=praet,sg,indic,m,pf
-.\n
+{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {праздник=S,m,inan=(acc,sg|nom,sg)}, {праздник=S,m,inan=(acc,sg|nom,sg)} {май=S,sg,m,inan=gen}
+{уж=PART=} {стучаться=V,ipf,intr=inpraes,sg,indic,3p} {у=PR=} {дверь=S,f,inan=gen,pl},
+{но=CONJ=} {одежда=S,f,inan=nom,sg} {золотой=A=nom,sg,plen,f}
+{весь=APRO=nom,sg,f} {измокать=V,intr=praet,sg,indic,f,pf} {от=PR=} {дождь=S,m,inan=gen,pl}.
+{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дождик=S,m,inan=(acc,sg|nom,sg)} {благодатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{крыло=S,n,inan=(acc,pl|nom,pl)} {май=S,sg,m,inan=dat} {подмачивать=V,tran=praet,sg,indic,m,pf},
+{и=CONJ=} {младенец=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {развратный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {носик=S,m,inan=(acc,sg|nom,sg)} {опускать=V=praet,sg,indic,m,pf}.

@@ -1,66 +1,9 @@
-канарейка=S,f,anim=nom,sg
-_
-в=PR=
-_
-некрашеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-клетка=S,f,inan=(abl,sg|dat,sg)
-._\n
-материнский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-портрет=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-._\n
-по-весеннему=ADV=
-_
-голый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-колыхаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-низкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-окно=S,n,inan=abl,sg
-.\n\n
-и=CONJ=
-_
-чуть=ADV=
-_
-слышаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-ледоход=S,m,inan=gen,sg
-..._\n...
-я=SPRO,sg,1p=nom
-_\u2014_
-свободный=A=sg,brev,m
-_
-от=PR=
-_
-грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-смешной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-._\n
-кто=SPRO,sg,m,anim=nom
-_
-сказать=V,pf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-такой=APRO=nom,sg,f
-_
-свобода=S,f,inan=nom,sg
-_\n
-доставаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-нелегкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-цена=S,f,inan=ins,sg
-!\n
+{канарейка=S,f,anim=nom,sg} {в=PR=} {некрашеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {клетка=S,f,inan=(abl,sg|dat,sg)}. 
+{материнский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {портрет=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {стена=S,f,inan=(abl,sg|dat,sg)}. 
+{по-весеннему=ADV=} {голый=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{колыхаться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {низкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {окно=S,n,inan=abl,sg}.
+
+{и=CONJ=} {чуть=ADV=} {слышаться=V,ipf,intr=inpraes,sg,indic,3p} {гул=S,m,inan=(acc,sg|nom,sg)} {ледоход=S,m,inan=gen,sg}... 
+...{я=SPRO,sg,1p=nom} — {свободный=A=sg,brev,m} {от=PR=} {грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {смешной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}. 
+{кто=SPRO,sg,m,anim=nom} {сказать=V,pf,tran=praet,sg,indic,m}, {что=CONJ=} {такой=APRO=nom,sg,f} {свобода=S,f,inan=nom,sg} 
+{доставаться=V,intr=inpraes,sg,indic,3p,ipf} {нелегкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {цена=S,f,inan=ins,sg}!

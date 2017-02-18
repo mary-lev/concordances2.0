@@ -1,66 +1,12 @@
-под=PR=
-_
-узорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-скатерть=S,f,inan=ins,sg
-\n
-не=PART=
-_
-видать=V,ipf,tran=inf
-_
-стол=S,m,inan=gen,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-стих=S,m,inan=dat,pl
-_
-не=PART=
-_
-мать=S,f,anim=ins,sg
-_\u2014\n
-мачеха=S,f,anim=ins,sg
-_
-быть=V,intr=praet,sg,indic,f,ipf
-.\n
-эх=INTJ=
-,_
-бумага=S,f,inan=nom,sg
-_
-белый=A=nom,sg,plen,f
-,\n______
-строчка=S,f,inan=gen,pl
-_
-ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ряд=S,m,inan=(acc,sg|nom,sg)
-.\n
-сколько=ADV=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-глядеть=V,ipf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-,\n______
-как=ADVPRO=
-_
-они=SPRO,pl=nom
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-сплетня=S,f,inan=ins,sg
-_
-изувечивать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n______
-бить=V,ipf,tran=praet,pl,partcp,brev,pass
-_
-кистень=S,m,inan=ins,sg
-,\n
-метить=V,ipf,tran=praet,pl,partcp,brev,pass
-,_
-меченый=A=pl,brev
-\n
-каторжный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-клеймо=S,n,inan=ins,sg
-.\n
+{под=PR=} {узорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {скатерть=S,f,inan=ins,sg}
+{не=PART=} {видать=V,ipf,tran=inf} {стол=S,m,inan=gen,sg}.
+{я=SPRO,sg,1p=nom} {стих=S,m,inan=dat,pl} {не=PART=} {мать=S,f,anim=ins,sg} —
+{мачеха=S,f,anim=ins,sg} {быть=V,intr=praet,sg,indic,f,ipf}.
+{эх=INTJ=}, {бумага=S,f,inan=nom,sg} {белый=A=nom,sg,plen,f},
+      {строчка=S,f,inan=gen,pl} {ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ряд=S,m,inan=(acc,sg|nom,sg)}.
+{сколько=ADV=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {глядеть=V,ipf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=nom},
+      {как=ADVPRO=} {они=SPRO,pl=nom} {гореть=V,ipf,intr=inpraes,pl,indic,3p}.
+{сплетня=S,f,inan=ins,sg} {изувечивать=V,tran=praet,pl,partcp,brev,pf,pass},
+      {бить=V,ipf,tran=praet,pl,partcp,brev,pass} {кистень=S,m,inan=ins,sg},
+{метить=V,ipf,tran=praet,pl,partcp,brev,pass}, {меченый=A=pl,brev}
+{каторжный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {клеймо=S,n,inan=ins,sg}.

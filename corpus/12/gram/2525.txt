@@ -1,118 +1,19 @@
-отмыкать=V,tran=praet,sg,indic,f,ipf
-_
-ларец=S,m,inan=(acc,sg|nom,sg)
-_
-железный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-вынимать=V,tran=praet,sg,indic,f,ipf
-_
-подарок=S,m,inan=(acc,sg|nom,sg)
-_
-слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\u2014_\n
-с=PR=
-_
-крупный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жемчуг=S,m,inan=ins,sg
-_
-перстенек=S,m,inan=(acc,sg|nom,sg)
-,\n
-с=PR=
-_
-крупный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жемчуг=S,m,inan=ins,sg
-.\n\n
-кошка=S,f,anim=ins,sg
-_
-выкрадываться=V,intr=praet,sg,indic,f,pf
-_
-на=PR=
-_
-крыльцо=S,n,inan=(acc,sg|nom,sg)
-,\n
-ветер=S,m,inan=(dat,sg|loc,sg)
-_
-выставлять=V,tran=praet,sg,indic,f,pf
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-.\n
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-веять=V,ipf,tran=praet,pl,indic
-,_
-птица=S,f,anim=(gen,sg|nom,pl)
-_
-реять=V,ipf,intr=praet,pl,indic
-,\n
-лебедь=S,m,anim=nom,pl
-_\u2014_
-слева=ADV=
-,_
-справа=ADV=
-_\u2014_
-ворона=S,f,anim=(gen,sg|nom,pl)
-...\n\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-в=PR=
-_
-разный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-ты=SPRO,sg,2p=nom
-_
-отходить=V,intr=inpraes,sg,indic,2p,pf
-_\u2014_
-с=PR=
-_
-первый=ANUM=ins,pl
-_
-туча=S,f,inan=ins,pl
-,\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-лес=S,m,inan=ins,pl
-_
-дремучий=A=ins,pl,plen
-,_
-песок=S,m,inan=ins,pl
-_
-горючий=A=ins,pl,plen
-.\n\n
-душа=S,f,inan=acc,sg
-_\u2014_
-выкликать=V,pf,tran=inpraes,sg,indic,2p
-,\n
-око=S,n,inan=(acc,pl|nom,pl)
-_\u2014_
-выплакивать=V=inpraes,sg,indic,2p,pf
-.\n\n
-а=CONJ=
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_\u2014_
-кричать=V,ipf,intr=inf
-_
-сова=S,f,anim=(abl,sg|dat,sg)
-,\n
-а=CONJ=
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_\u2014_
-шуметь=V,ipf,intr=inf
-_
-трава=S,f,inan=(abl,sg|dat,sg)
-...\n
+{отмыкать=V,tran=praet,sg,indic,f,ipf} {ларец=S,m,inan=(acc,sg|nom,sg)} {железный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{вынимать=V,tran=praet,sg,indic,f,ipf} {подарок=S,m,inan=(acc,sg|nom,sg)} {слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, — 
+{с=PR=} {крупный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жемчуг=S,m,inan=ins,sg} {перстенек=S,m,inan=(acc,sg|nom,sg)},
+{с=PR=} {крупный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жемчуг=S,m,inan=ins,sg}.
+
+{кошка=S,f,anim=ins,sg} {выкрадываться=V,intr=praet,sg,indic,f,pf} {на=PR=} {крыльцо=S,n,inan=(acc,sg|nom,sg)},
+{ветер=S,m,inan=(dat,sg|loc,sg)} {выставлять=V,tran=praet,sg,indic,f,pf} {лицо=S,n,inan=(acc,sg|nom,sg)}.
+{ветер=S,m,inan=(acc,pl|nom,pl)} {веять=V,ipf,tran=praet,pl,indic}, {птица=S,f,anim=(gen,sg|nom,pl)} {реять=V,ipf,intr=praet,pl,indic},
+{лебедь=S,m,anim=nom,pl} — {слева=ADV=}, {справа=ADV=} — {ворона=S,f,anim=(gen,sg|nom,pl)}...
+
+{наш=APRO=(nom,pl|acc,pl,inan)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {в=PR=} {разный=A=(acc,pl,plen,inan|nom,pl,plen)} {сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{ты=SPRO,sg,2p=nom} {отходить=V,intr=inpraes,sg,indic,2p,pf} — {с=PR=} {первый=ANUM=ins,pl} {туча=S,f,inan=ins,pl},
+{быть=V,intr=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)} — {лес=S,m,inan=ins,pl} {дремучий=A=ins,pl,plen}, {песок=S,m,inan=ins,pl} {горючий=A=ins,pl,plen}.
+
+{душа=S,f,inan=acc,sg} — {выкликать=V,pf,tran=inpraes,sg,indic,2p},
+{око=S,n,inan=(acc,pl|nom,pl)} — {выплакивать=V=inpraes,sg,indic,2p,pf}.
+
+{а=CONJ=} {надо=ADV,praed=} {я=SPRO,sg,1p=ins} — {кричать=V,ipf,intr=inf} {сова=S,f,anim=(abl,sg|dat,sg)},
+{а=CONJ=} {надо=ADV,praed=} {я=SPRO,sg,1p=ins} — {шуметь=V,ipf,intr=inf} {трава=S,f,inan=(abl,sg|dat,sg)}...

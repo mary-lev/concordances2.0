@@ -1,86 +1,12 @@
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-безнадежно=ADV=
--
-бесплодный=A=nom,sg,plen,f
-,\n\t
-жить=V,ipf,intr=inf
-_
-не=PART=
-_
-давать=V,tran=inpraes,ger,ipf
-,\n
-тот=APRO=nom,sg,f
-_
-же=PART=
-_
-пустыня=S,f,inan=nom,sg
-_
-уныло=ADV=
--
-холодный=A=nom,sg,plen,f
-,_\u2014\n\t
-тишь=S,f,inan=(acc,sg|nom,sg)
-_
-гробовой=A=nom,sg,plen,f
-;\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-унылый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-жалкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n\t
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-чаша=S,f,inan=nom,sg
-_
-еще=ADV=
-_
-неизведанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n\t
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-мечта=S,f,inan=nom,sg
-_
-ли=PART=
-?\n
-мрачно=ADV=
-_
-проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)
-_
-неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-печальный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n\t
-свет=S,sg,m,inan=gen
-_
-не=PART=
-_
-видно=ADV,praed=
-;\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-неприветливый=A=sg,brev,n
-,_
-дальний=A=(acc,pl,plen,inan|nom,pl,plen)
-....\n\t
-грустно=ADV=
-,_
-обидно=ADV=
-!...\n
+{катиться=V,ipf,intr=inpraes,sg,indic,3p} {жизнь=S,f,inan=(acc,sg|nom,sg)} {безнадежно=ADV=}-{бесплодный=A=nom,sg,plen,f},
+	{жить=V,ipf,intr=inf} {не=PART=} {давать=V,tran=inpraes,ger,ipf},
+{тот=APRO=nom,sg,f} {же=PART=} {пустыня=S,f,inan=nom,sg} {уныло=ADV=}-{холодный=A=nom,sg,plen,f}, —
+	{тишь=S,f,inan=(acc,sg|nom,sg)} {гробовой=A=nom,sg,plen,f};
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {унылый=A=(acc,pl,plen,inan|nom,pl,plen)}, {жалкий=A=(acc,pl,plen,inan|nom,pl,plen)} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+	{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{чаша=S,f,inan=nom,sg} {еще=ADV=} {неизведанный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+	{ты=SPRO,sg,2p=nom} {не=PART=} {мечта=S,f,inan=nom,sg} {ли=PART=}?
+{мрачно=ADV=} {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} {неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)} {печальный=A=(acc,pl,plen,inan|nom,pl,plen)},
+	{свет=S,sg,m,inan=gen} {не=PART=} {видно=ADV,praed=};
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {глядеть=V,ipf,tran=inpraes,pl,indic,3p} {неприветливый=A=sg,brev,n}, {дальний=A=(acc,pl,plen,inan|nom,pl,plen)}....
+	{грустно=ADV=}, {обидно=ADV=}!...

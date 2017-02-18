@@ -1,92 +1,10 @@
-прекрасный=A=sg,brev,m
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-прозрачный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-взор=S,m,inan=ins,sg
-,\n
-когда=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-,_
-не=PART=
-_
-рдеть=V,ipf,intr=inpraes,ger
-,_
-не=PART=
-_
-скорбеть=V,ipf,intr=inpraes,ger
-,\n
-и=CONJ=
-_
-знать=V,ipf,tran=inpraes,ger
-_
-только=PART=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-себя=SPRO=(acc|gen)
-,\n
-струить=V,ipf,tran=inpraes,sg,indic,3p
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-нетающий=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-_
-узор=S,m,inan=ins,sg
-,\n
-средь=PR=
-_
-дальний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-звезда=S,f,inan=gen,pl
-,_
-петь=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-хор=S,m,inan=ins,sg
-.\n\n
-но=CONJ=
-_
-как=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-светлый=A=comp
-_
-самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-себя=SPRO=(acc|gen)
-,\n
-когда=CONJ=
-,_
-воспламенять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-_
-метеор=S,m,inan=ins,sg
-,\n
-огонь=S,m,inan=(acc,pl|nom,pl)
-_
-луч=S,m,inan=gen,pl
-_
-стремительно=ADV=
-_
-дробить=V,ipf,tran=inpraes,ger
-,\n
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-пред=PR=
-_
-смерть=S,f,inan=ins,sg
-,_
-падать=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-любить=V,ipf,tran=inpraes,ger
-!\n
+{прекрасный=A=sg,brev,m} {лик=S,m,inan=(acc,sg|nom,sg)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {прозрачный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {взор=S,m,inan=ins,sg},
+{когда=CONJ=} {она=SPRO,sg,3p,f=nom}, {не=PART=} {рдеть=V,ipf,intr=inpraes,ger}, {не=PART=} {скорбеть=V,ipf,intr=inpraes,ger},
+{и=CONJ=} {знать=V,ipf,tran=inpraes,ger} {только=PART=} {небо=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {себя=SPRO=(acc|gen)},
+{струить=V,ipf,tran=inpraes,sg,indic,3p} {луч=S,m,inan=(acc,pl|nom,pl)} {нетающий=A,plen=(dat,pl|ins,sg,m|ins,sg,n)} {узор=S,m,inan=ins,sg},
+{средь=PR=} {дальний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {звезда=S,f,inan=gen,pl}, {петь=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {хор=S,m,inan=ins,sg}.
+
+{но=CONJ=} {как=CONJ=} {она=SPRO,sg,3p,f=nom} {светлый=A=comp} {самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {себя=SPRO=(acc|gen)},
+{когда=CONJ=}, {воспламенять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {метеор=S,m,inan=ins,sg},
+{огонь=S,m,inan=(acc,pl|nom,pl)} {луч=S,m,inan=gen,pl} {стремительно=ADV=} {дробить=V,ipf,tran=inpraes,ger},
+{гореть=V,ipf,intr=inpraes,sg,indic,3p} — {пред=PR=} {смерть=S,f,inan=ins,sg}, {падать=V,ipf,intr=inpraes,sg,indic,3p} — {любить=V,ipf,tran=inpraes,ger}!

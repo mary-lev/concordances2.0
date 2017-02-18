@@ -1,178 +1,34 @@
-глядеть=V,ipf,tran=sg,imper,2p
-,_
-поглядеть=V,pf,tran=sg,imper,2p
-,\n
-мой=APRO=nom,sg,f
-_
-белый=A=nom,sg,plen,f
-_
-сестра=S,f,anim=nom,sg
-,\n
-мой=APRO=nom,sg,f
-_
-белый=A=nom,sg,plen,f
-_
-сестра=S,f,anim=nom,sg
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-позади=ADV=
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-впереди=ADV=
-?\n
-чем=CONJ=
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-весь=APRO=nom,sg,f
-_
-гора=S,f,inan=nom,sg
-?\n\n
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-поглядеть=V,pf,tran=inpraes,sg,indic,1p
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-рассказывать=V=inpraes,sg,indic,1p,pf
-,_\u2014\n
-как=ADVPRO=
-_
-пройти=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-мы=SPRO,pl,1p=nom
-_
-межа=S,f,inan=acc,sg
-,\n
-чем=CONJ=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-за=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014_
-пожар=S,m,inan=(acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-.\n
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пожар=S,m,inan=(acc,sg|nom,sg)
-\n
-зловражеский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чары=S,pl,inan=gen
-\n
-отходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-чадо=S,n,anim=(acc,pl|gen,pl)
-.\n\n
-пред=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014_
-сион?=S,m,inan=(acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-.\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-освящать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-,_
-в=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-он=SPRO,sg,3p,m=nom
-\n
-град=S,m,inan=(acc,sg|nom,sg)
-_
-двенадцать=NUM=(abl|dat|gen)
-_
-врата=S,pl,inan=gen
-.\n\n
-как=ADVPRO=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-легко=ADV=
-,\n
-о=INTJ=
-,_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-серебро=S,sg,n,inan=gen
-,\n
-мой=APRO=nom,sg,f
-_
-белый=A=nom,sg,plen,f
-_
-сестра=S,f,anim=nom,sg
-.\n
-мы=SPRO,pl,1p=nom
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-глубоко=ADV=
-,\n
-воспарять=V,intr=praet,pl,indic,pf
-_
-высоко=ADV=
-,\n
-мой=APRO=nom,sg,f
-_
-белый=A=nom,sg,plen,f
-_
-сестра=S,f,anim=nom,sg
-.\n
+{глядеть=V,ipf,tran=sg,imper,2p}, {поглядеть=V,pf,tran=sg,imper,2p},
+{мой=APRO=nom,sg,f} {белый=A=nom,sg,plen,f} {сестра=S,f,anim=nom,sg},
+{мой=APRO=nom,sg,f} {белый=A=nom,sg,plen,f} {сестра=S,f,anim=nom,sg}.
+{что=SPRO,sg,n,inan=(acc|nom)} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {позади=ADV=}?
+{что=SPRO,sg,n,inan=(acc|nom)} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {впереди=ADV=}?
+{чем=CONJ=} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {весь=APRO=nom,sg,f} {гора=S,f,inan=nom,sg}?
+
+{глядеть=V,ipf,tran=inpraes,sg,indic,1p}, {поглядеть=V,pf,tran=inpraes,sg,indic,1p},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg},
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {рассказывать=V=inpraes,sg,indic,1p,pf}, —
+{как=ADVPRO=} {пройти=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {мы=SPRO,pl,1p=nom} {межа=S,f,inan=acc,sg},
+{чем=CONJ=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{за=PR=} {мы=SPRO,pl,1p=ins} — {пожар=S,m,inan=(acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg}.
+{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пожар=S,m,inan=(acc,sg|nom,sg)}
+{зловражеский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чары=S,pl,inan=gen}
+{отходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {чадо=S,n,anim=(acc,pl|gen,pl)}.
+
+{пред=PR=} {мы=SPRO,pl,1p=ins} — {сион?=S,m,inan=(acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg}.
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {освящать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{мы=SPRO,pl,1p=nom} — {в=PR=} {он=SPRO,sg,3p,m=abl}, {в=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} — {он=SPRO,sg,3p,m=nom}
+{град=S,m,inan=(acc,sg|nom,sg)} {двенадцать=NUM=(abl|dat|gen)} {врата=S,pl,inan=gen}.
+
+{как=ADVPRO=} {я=SPRO,sg,1p=(abl|dat)} {легко=ADV=},
+{о=INTJ=}, {путь=S,m,inan=(acc,sg|nom,sg)} {серебро=S,sg,n,inan=gen},
+{мой=APRO=nom,sg,f} {белый=A=nom,sg,plen,f} {сестра=S,f,anim=nom,sg}.
+{мы=SPRO,pl,1p=nom} {быть=V,intr=praet,pl,indic,ipf} {глубоко=ADV=},
+{воспарять=V,intr=praet,pl,indic,pf} {высоко=ADV=},
+{мой=APRO=nom,sg,f} {белый=A=nom,sg,plen,f} {сестра=S,f,anim=nom,sg}.

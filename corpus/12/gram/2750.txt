@@ -1,80 +1,9 @@
-серафим=S,persn,m,anim=nom,sg
-_\u2014_
-на=PR=
-_
-орел=S,m,anim=(acc,sg|gen,sg)
-!_
-вот=PART=
-_
-бой=S,m,inan=(acc,sg|nom,sg)
-!_\u2014_\n
-принимать=V=inpraes,sg,indic,2p,pf
-_
-вызов=S,m,inan=(acc,sg|nom,sg)
-?_\u2014_
-лететь=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-за=PR=
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-в=PR=
-_
-год=S,m,inan=(acc,sg|nom,sg)
-_
-кровавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-громовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_\n
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-равный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\u2014_
-славный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-случай=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-гнев=S,m,inan=(acc,sg|nom,sg)
-_
-господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-в=PR=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-изверг=S,m,anim=nom,sg
-,\n
-дабы=CONJ=
-_
-помнить=V,ipf,tran=praet,pl,indic
-_
-человек=S,m,anim=nom,pl
-_\u2014_
-небо=S,n,inan=(acc,sg|nom,sg)
-.\n
-мы=SPRO,pl,1p=nom
-_
-сходиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-в=PR=
-_
-страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-четверг=S,m,inan=(acc,sg|nom,sg)
-\n
-над=PR=
-_
-церковка=S,f,inan=ins,sg
-_
-борис=S,persn,m,anim=(acc,sg|gen,sg)
-_\u2014_
-и=CONJ=
-_\u2014_
-глеб=S,persn,m,anim=(acc,sg|gen,sg)
-.\n
+{серафим=S,persn,m,anim=nom,sg} — {на=PR=} {орел=S,m,anim=(acc,sg|gen,sg)}! {вот=PART=} {бой=S,m,inan=(acc,sg|nom,sg)}! — 
+{принимать=V=inpraes,sg,indic,2p,pf} {вызов=S,m,inan=(acc,sg|nom,sg)}? — {лететь=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {за=PR=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{в=PR=} {год=S,m,inan=(acc,sg|nom,sg)} {кровавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {громовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — 
+{смерть=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {равный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} — {славный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {случай=S,m,inan=(acc,sg|nom,sg)}.
+
+{гнев=S,m,inan=(acc,sg|nom,sg)} {господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)} {мы=SPRO,pl,1p=(abl|acc|gen)} {в=PR=} {мир=S,m,inan=(acc,sg|nom,sg)} {изверг=S,m,anim=nom,sg},
+{дабы=CONJ=} {помнить=V,ipf,tran=praet,pl,indic} {человек=S,m,anim=nom,pl} — {небо=S,n,inan=(acc,sg|nom,sg)}.
+{мы=SPRO,pl,1p=nom} {сходиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {в=PR=} {страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {четверг=S,m,inan=(acc,sg|nom,sg)}
+{над=PR=} {церковка=S,f,inan=ins,sg} {борис=S,persn,m,anim=(acc,sg|gen,sg)} — {и=CONJ=} — {глеб=S,persn,m,anim=(acc,sg|gen,sg)}.

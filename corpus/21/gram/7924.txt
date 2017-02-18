@@ -1,98 +1,14 @@
-под=PR=
-_
-нога=S,f,inan=ins,pl
-_
-скользь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-хруст=S,m,inan=(acc,sg|nom,sg)
-.\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-дунуть=V,pf,intr=praet,sg,indic,m
-,_
-снег=S,m,inan=(acc,sg|nom,sg)
-_
-пойти=V,pf,intr=praet,sg,indic,m
-.\n
-боже=INTJ=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-какой=APRO=nom,sg,f
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-!\n
-господи=INTJ=
-,_
-какой=APRO=nom,sg,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-!\n\n
-тяжкий=A=sg,brev,m
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-подлунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-,\n
-да=CONJ=
-_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-немилосердый?=A=sg,brev,m
-.\n
-и=CONJ=
-_
-к=PR=
-_
-что=SPRO,sg,n,inan=dat
-_
-такой=APRO=nom,sg,f
-_
-ширь=S,f,inan=(acc,sg|nom,sg)
-,\n
-если=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-?\n\n
-и=CONJ=
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-объяснять=V,tran=inpraes,sg,indic,3p,pf
-,\n
-отчего=ADVPRO=
-_
-на=PR=
-_
-склон=S,m,inan=abl,sg
-_
-год=S,m,inan=gen,pl
-\n
-хотеться=V,ipf,intr=inpraes,indic
-_
-еще=ADV=
-_
-бродить=V,ipf,intr=inf
-,\n
-верить=V,ipf,intr=inf
-,_
-коченеть=V,ipf,intr=inf
-_
-и=CONJ=
-_
-петь=V,ipf,tran=inf
-.\n
+{под=PR=} {нога=S,f,inan=ins,pl} {скользь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {хруст=S,m,inan=(acc,sg|nom,sg)}.
+{ветер=S,m,inan=(acc,sg|nom,sg)} {дунуть=V,pf,intr=praet,sg,indic,m}, {снег=S,m,inan=(acc,sg|nom,sg)} {пойти=V,pf,intr=praet,sg,indic,m}.
+{боже=INTJ=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {какой=APRO=nom,sg,f} {грусть=S,f,inan=(acc,sg|nom,sg)}!
+{господи=INTJ=}, {какой=APRO=nom,sg,f} {боль=S,f,inan=(acc,sg|nom,sg)}!
+
+{тяжкий=A=sg,brev,m} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {подлунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)},
+{да=CONJ=} {и=CONJ=} {ты=SPRO,sg,2p=nom} {немилосердый?=A=sg,brev,m}.
+{и=CONJ=} {к=PR=} {что=SPRO,sg,n,inan=dat} {такой=APRO=nom,sg,f} {ширь=S,f,inan=(acc,sg|nom,sg)},
+{если=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {на=PR=} {свет=S,sg,m,inan=abl} {смерть=S,f,inan=(acc,sg|nom,sg)}?
+
+{и=CONJ=} {никто=SPRO,sg,m,anim=nom} {не=PART=} {объяснять=V,tran=inpraes,sg,indic,3p,pf},
+{отчего=ADVPRO=} {на=PR=} {склон=S,m,inan=abl,sg} {год=S,m,inan=gen,pl}
+{хотеться=V,ipf,intr=inpraes,indic} {еще=ADV=} {бродить=V,ipf,intr=inf},
+{верить=V,ipf,intr=inf}, {коченеть=V,ipf,intr=inf} {и=CONJ=} {петь=V,ipf,tran=inf}.

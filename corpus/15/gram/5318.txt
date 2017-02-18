@@ -1,92 +1,19 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-караван=S,m,inan=(acc,pl|nom,pl)
-,\n
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-небосвод=S,m,inan=(acc,sg|nom,sg)
-,\n
-подводный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вулкан=S,m,inan=(acc,pl|nom,pl)
-\n
-с=PR=
-_
-игра=S,f,inan=ins,sg
-_
-горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-вода=S,f,inan=gen,pl
-.\n\n
-воздушный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-где=ADVPRO=
-_
-не=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-,\n
-игра=S,f,inan=nom,sg
-_
-непостоянство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-пиршество=S,n,inan=abl,sg
-_
-страсть=S,f,inan=gen,pl
-.\n\n
-чудовищный=A=nom,sg,plen,f
-_
-тина=S,f,inan=nom,sg
-\n
-среди=PR=
-_
-болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-могильный=A=nom,sg,plen,f
-_
-лавина=S,f,inan=nom,sg
-\n
-губительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чума=S,sg,f,inan=gen
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-змеиться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-что=CONJ=
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-в=PR=
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-изменяться=V,intr=inf,pf
-_\u2014\n
-весь=APRO=(dat,sg,m|dat,sg,n)
-_
-наперекор=ADV=
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {сниться=V,ipf,intr=inpraes,pl,indic,3p} {караван=S,m,inan=(acc,pl|nom,pl)},
+{море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {небосвод=S,m,inan=(acc,sg|nom,sg)},
+{подводный=A=(acc,pl,plen,inan|nom,pl,plen)} {вулкан=S,m,inan=(acc,pl|nom,pl)}
+{с=PR=} {игра=S,f,inan=ins,sg} {горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вода=S,f,inan=gen,pl}.
+
+{воздушный=A=(acc,pl,plen,inan|nom,pl,plen)} {пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{где=ADVPRO=} {не=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {человек=S,m,anim=(acc,pl|gen,pl)},
+{игра=S,f,inan=nom,sg} {непостоянство=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {пиршество=S,n,inan=abl,sg} {страсть=S,f,inan=gen,pl}.
+
+{чудовищный=A=nom,sg,plen,f} {тина=S,f,inan=nom,sg}
+{среди=PR=} {болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{могильный=A=nom,sg,plen,f} {лавина=S,f,inan=nom,sg}
+{губительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чума=S,sg,f,inan=gen}.
+
+{я=SPRO,sg,1p=(abl|dat)} {сниться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {змеиться=V,ipf,intr=inpraes,sg,indic,3p}
+{и=CONJ=} {что=CONJ=} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {в=PR=} {простор=S,m,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {изменяться=V,intr=inf,pf} —
+{весь=APRO=(dat,sg,m|dat,sg,n)} {наперекор=ADV=}.

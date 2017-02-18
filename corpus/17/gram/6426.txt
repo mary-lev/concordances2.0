@@ -1,130 +1,19 @@
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-превозмогать=V=inf,pf
-,\n
-не=PART=
-_
-одолевать=V,tran=inf,pf
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-упорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-;\n
-уже=ADV=
-_
-медлительный=A=nom,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-надвигать=V,tran=inpraes,sg,indic,3p,ipf
-_
-призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-уже=ADV=
-_
-пустой=A=nom,sg,plen,f
-_
-шептать=V,ipf,tran=inpraes,sg,indic,3p
-_
-высь=S,f,inan=(acc,sg|nom,sg)
-_\n
-о=PR=
-_
-час=S,m,inan=abl,sg
-_
-горестный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-близкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n
-и=CONJ=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сливаться=V,intr=praet,pl,indic,pf
-\n
-над=PR=
-_
-солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-кровавый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-диск=S,m,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-несносный=A=comp
-_
-и=CONJ=
-_
-больно=ADV=comp
-_\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-томление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-сходить=V,intr=inpraes,sg,indic,1p,ipf
-_
-с=PR=
-_
-гранитный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ступень=S,f,inan=gen,pl
-,\n
-к=PR=
-_
-закат=S,m,inan=dat,sg
-_
-простереть=V,pf=inpraes,sg,indic,1p,tran
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-увы=INTJ=
-_\u2014_
-безмолвный=A=sg,brev,m
-,_
-как=CONJ=
-_
-тоска=S,f,inan=nom,sg
-,\n
-закат=S,m,inan=(acc,sg|nom,sg)
-,_
-пылать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-далече=ADV=
-.\n
-ведь=PART=
-_
-он=SPRO,sg,3p,m=nom
-_
-и=CONJ=
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-лишь=PART=
-_
-мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-победный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предтеча=S,mf,anim=(gen,sg|nom,pl)
-.\n
+{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {превозмогать=V=inf,pf},
+{не=PART=} {одолевать=V,tran=inf,pf} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {упорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)};
+{уже=ADV=} {медлительный=A=nom,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)} 
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {надвигать=V,tran=inpraes,sg,indic,3p,ipf} {призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{уже=ADV=} {пустой=A=nom,sg,plen,f} {шептать=V,ipf,tran=inpraes,sg,indic,3p} {высь=S,f,inan=(acc,sg|nom,sg)} 
+{о=PR=} {час=S,m,inan=abl,sg} {горестный=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {близкий=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+{и=CONJ=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {сливаться=V,intr=praet,pl,indic,pf}
+{над=PR=} {солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {кровавый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {диск=S,m,inan=ins,sg}.
+
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {несносный=A=comp} {и=CONJ=} {больно=ADV=comp} 
+{мой=APRO=(nom,pl|acc,pl,inan)} {томление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{сходить=V,intr=inpraes,sg,indic,1p,ipf} {с=PR=} {гранитный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ступень=S,f,inan=gen,pl},
+{к=PR=} {закат=S,m,inan=dat,sg} {простереть=V,pf=inpraes,sg,indic,1p,tran} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{увы=INTJ=} — {безмолвный=A=sg,brev,m}, {как=CONJ=} {тоска=S,f,inan=nom,sg},
+{закат=S,m,inan=(acc,sg|nom,sg)}, {пылать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {далече=ADV=}.
+{ведь=PART=} {он=SPRO,sg,3p,m=nom} {и=CONJ=} {этот=APRO=(nom,pl|acc,pl,inan)} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{лишь=PART=} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {победный=A=(acc,pl,plen,inan|nom,pl,plen)} {предтеча=S,mf,anim=(gen,sg|nom,pl)}.

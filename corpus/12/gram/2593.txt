@@ -1,118 +1,17 @@
-продавать=V,tran=inpraes,sg,indic,1p,ipf
-!_
-продавать=V,tran=inpraes,sg,indic,1p,ipf
-!_
-продавать=V,tran=inpraes,sg,indic,1p,ipf
-!\n
-поспешать=V,ipf,intr=pl,imper,2p
-,_
-господин=S,m,anim=nom,pl
-_
-хороший=A=(acc,pl,plen,inan|nom,pl,plen)
-!\n
-золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-товар=S,m,inan=(acc,sg|nom,sg)
-_
-продавать=V,tran=inpraes,sg,indic,1p,ipf
-,\n
-чистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-товар=S,m,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-носить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-,\n
-не=PART=
-_
-сквозной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-не=PART=
-_
-красить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-,_\u2014_\n
-не=PART=
-_
-запрашивать=V=inpraes,sg,indic,1p,ipf,tran
-!\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-товар=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-на=PR=
-_
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лад=S,m,inan=(acc,sg|nom,sg)
-,_
-на=PR=
-_
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вкус=S,m,inan=(acc,sg|nom,sg)
-.\n
-держаться=V,ipf,intr=sg,imper,2p
-,_
-коробейник=S,m,anim=nom,pl
-!_\u2014_\n
-не=PART=
-_
-дорожиться=V,ipf,intr=inpraes,sg,indic,1p
-!_
-не=PART=
-_
-дорожиться=V,ipf,intr=inpraes,sg,indic,1p
-!_
-не=PART=
-_
-дорожиться=V,ipf,intr=inpraes,sg,indic,1p
-!\n
-во=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-оценивать=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)
-.\n
-носить=V,ipf,tran=sg,imper,2p
-_\u2014_
-не=PART=
-_
-сносить=V,ipf,tran=inpraes,sg,indic,2p
-!\n
-бросать=V=sg,imper,2p,ipf,tran
-_\u2014_
-не=PART=
-_
-сбросить=V,pf=inpraes,sg,indic,2p
-!\n\n
-эй=INTJ=
-,_
-товар=S,m,inan=(acc,pl|nom,pl)
-_
-хороший=A=pl,brev
--
-то=CONJ=
-_
-хороший=A=pl,brev
-!\n
-эй=INTJ=
-,_
-выкладывать=V,tran=pl,imper,2p,ipf
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гроши=S,pl,inan=(acc|nom)
-!\n
-да=CONJ=
-_
-молиться=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-за=PR=
-_
-помин=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{продавать=V,tran=inpraes,sg,indic,1p,ipf}! {продавать=V,tran=inpraes,sg,indic,1p,ipf}! {продавать=V,tran=inpraes,sg,indic,1p,ipf}!
+{поспешать=V,ipf,intr=pl,imper,2p}, {господин=S,m,anim=nom,pl} {хороший=A=(acc,pl,plen,inan|nom,pl,plen)}!
+{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {товар=S,m,inan=(acc,sg|nom,sg)} {продавать=V,tran=inpraes,sg,indic,1p,ipf},
+{чистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {товар=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {носить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)},
+{не=PART=} {сквозной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {не=PART=} {красить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}, — 
+{не=PART=} {запрашивать=V=inpraes,sg,indic,1p,ipf,tran}!
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {товар=S,m,inan=(acc,sg|nom,sg)} — {на=PR=} {всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лад=S,m,inan=(acc,sg|nom,sg)}, {на=PR=} {всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вкус=S,m,inan=(acc,sg|nom,sg)}.
+{держаться=V,ipf,intr=sg,imper,2p}, {коробейник=S,m,anim=nom,pl}! — 
+{не=PART=} {дорожиться=V,ipf,intr=inpraes,sg,indic,1p}! {не=PART=} {дорожиться=V,ipf,intr=inpraes,sg,indic,1p}! {не=PART=} {дорожиться=V,ipf,intr=inpraes,sg,indic,1p}!
+{во=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {оценивать=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)}.
+{носить=V,ipf,tran=sg,imper,2p} — {не=PART=} {сносить=V,ipf,tran=inpraes,sg,indic,2p}!
+{бросать=V=sg,imper,2p,ipf,tran} — {не=PART=} {сбросить=V,pf=inpraes,sg,indic,2p}!
+
+{эй=INTJ=}, {товар=S,m,inan=(acc,pl|nom,pl)} {хороший=A=pl,brev}-{то=CONJ=} {хороший=A=pl,brev}!
+{эй=INTJ=}, {выкладывать=V,tran=pl,imper,2p,ipf} {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {гроши=S,pl,inan=(acc|nom)}!
+{да=CONJ=} {молиться=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {за=PR=} {помин=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

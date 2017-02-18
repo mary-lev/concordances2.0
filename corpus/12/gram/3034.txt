@@ -1,70 +1,9 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-подвиг=S,m,inan=(acc,pl|nom,pl)
-._\u2014_
-по=PR=
-_
-село=S,n,inan=dat,pl
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-\n
-не=PART=
-_
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-_
-о=PR=
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-смертный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-час=S,m,inan=abl,sg
-.\n
-они=SPRO,pl=dat
-_
-тесно=ADV=
-_
-в=PR=
-_
-житие=S,n,inan=abl,sg
-_
-святой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-,\n
-они=SPRO,pl=dat
-_
-душно=ADV=
-_
-на=PR=
-_
-иконостас=S,m,inan=abl,sg
-.\n\n
-крепко=ADV=comp
-_
-нежели=CONJ=
-_
-семья=S,f,inan=acc,sg
-\n
-печать=S,f,inan=ins,pl
-_
-скреплять=V,tran=praet,sg,indic,f,pf
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-.\n_\u2014_\t
-так=ADVPRO=
-,_
-нахлобучивать=V,tran=praet,ger,pf
-_
-кулак=S,m,inan=ins,sg
-_
-скуфья=S,f,inan=acc,sg
-\n
-не=PART=
-_
-плакать=V,ipf,intr=praet,sg,indic,f
-_\u2014_
-царевна=S,f,anim=nom,sg
-_
-софья=S,persn,f,anim=nom,sg
-!\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {подвиг=S,m,inan=(acc,pl|nom,pl)}. — {по=PR=} {село=S,n,inan=dat,pl} {стих=S,m,inan=(acc,sg|nom,sg)}
+{не=PART=} {ходить=V,ipf,intr=inpraes,sg,indic,3p} {о=PR=} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {смертный=A=(abl,sg,plen,m|abl,sg,plen,n)} {час=S,m,inan=abl,sg}.
+{они=SPRO,pl=dat} {тесно=ADV=} {в=PR=} {житие=S,n,inan=abl,sg} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)},
+{они=SPRO,pl=dat} {душно=ADV=} {на=PR=} {иконостас=S,m,inan=abl,sg}.
+
+{крепко=ADV=comp} {нежели=CONJ=} {семья=S,f,inan=acc,sg}
+{печать=S,f,inan=ins,pl} {скреплять=V,tran=praet,sg,indic,f,pf} {кровь=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom}.
+ — 	{так=ADVPRO=}, {нахлобучивать=V,tran=praet,ger,pf} {кулак=S,m,inan=ins,sg} {скуфья=S,f,inan=acc,sg}
+{не=PART=} {плакать=V,ipf,intr=praet,sg,indic,f} — {царевна=S,f,anim=nom,sg} {софья=S,persn,f,anim=nom,sg}!

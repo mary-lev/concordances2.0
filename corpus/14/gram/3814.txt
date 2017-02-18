@@ -1,136 +1,20 @@
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мы=SPRO,pl,1p=nom
-_
-бражник=S,m,anim=nom,pl
-_
-здесь=ADVPRO=
-,_
-блудница=S,f,anim=(gen,sg|nom,pl)
-,_\n
-как=CONJ=
-_
-невесело=ADV=
-_
-вместе=ADV=
-_
-мы=SPRO,pl,1p=dat
-!_\n
-на=PR=
-_
-стена=S,f,inan=abl,pl
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-_\n
-томиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-по=PR=
-_
-облако=S,n,inan=dat,pl
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-курить=V,ipf,tran=inpraes,sg,indic,2p
-_
-черный=A=acc,sg,plen,f
-_
-трубка=S,f,inan=acc,sg
-,_\n
-так=ADVPRO=
-_
-странный=A=sg,brev,m
-_
-дымок=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-._\n
-я=SPRO,sg,1p=nom
-_
-надевать=V,tran=praet,sg,indic,f,pf
-_
-узкий=A=acc,sg,plen,f
-_
-юбка=S,f,inan=acc,sg
-,_\n
-чтоб=CONJ=
-_
-казаться=V,ipf,intr=inf
-_
-еще=ADV=
-_
-стройный=A=comp
-.\n\n
-навсегда=ADV=
-_
-забивать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-окошко=S,n,inan=(acc,pl|nom,pl)
-:_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-там=ADVPRO=
-,_
-изморозь=S,f,inan=(acc,sg|nom,sg)
-_
-или=CONJ=
-_
-гроза=S,f,inan=nom,sg
-?_\n
-на=PR=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-осторожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кошка=S,f,anim=(gen,sg|nom,pl)
-_\n
-похожий=A=pl,brev
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-о=INTJ=
-,_
-как=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-тосковать=V,ipf,intr=inpraes,sg,indic,3p
-!_\n
-не=PART=
-_
-смертельный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ль=PART=
-_
-час=S,m,inan=gen,sg
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-?_\n
-а=CONJ=
-_
-тот=APRO=nom,sg,f
-,_
-что=CONJ=
-_
-сейчас=ADV=
-_
-танцевать=V,ipf,tran=inpraes,sg,indic,3p
-,_\n
-непременно=ADV=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-ад=S,sg,m,inan=(dat|loc)
-.\n\n
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мы=SPRO,pl,1p=nom} {бражник=S,m,anim=nom,pl} {здесь=ADVPRO=}, {блудница=S,f,anim=(gen,sg|nom,pl)}, 
+{как=CONJ=} {невесело=ADV=} {вместе=ADV=} {мы=SPRO,pl,1p=dat}! 
+{на=PR=} {стена=S,f,inan=abl,pl} {цветок=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {птица=S,f,anim=(gen,sg|nom,pl)} 
+{томиться=V,ipf,intr=inpraes,pl,indic,3p} {по=PR=} {облако=S,n,inan=dat,pl}.
+
+{ты=SPRO,sg,2p=nom} {курить=V,ipf,tran=inpraes,sg,indic,2p} {черный=A=acc,sg,plen,f} {трубка=S,f,inan=acc,sg}, 
+{так=ADVPRO=} {странный=A=sg,brev,m} {дымок=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}. 
+{я=SPRO,sg,1p=nom} {надевать=V,tran=praet,sg,indic,f,pf} {узкий=A=acc,sg,plen,f} {юбка=S,f,inan=acc,sg}, 
+{чтоб=CONJ=} {казаться=V,ipf,intr=inf} {еще=ADV=} {стройный=A=comp}.
+
+{навсегда=ADV=} {забивать=V,tran=praet,pl,partcp,brev,pf,pass} {окошко=S,n,inan=(acc,pl|nom,pl)}: 
+{что=SPRO,sg,n,inan=(acc|nom)} {там=ADVPRO=}, {изморозь=S,f,inan=(acc,sg|nom,sg)} {или=CONJ=} {гроза=S,f,inan=nom,sg}? 
+{на=PR=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {осторожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кошка=S,f,anim=(gen,sg|nom,pl)} 
+{похожий=A=pl,brev} {твой=APRO=(nom,pl|acc,pl,inan)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{о=INTJ=}, {как=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {тосковать=V,ipf,intr=inpraes,sg,indic,3p}! 
+{не=PART=} {смертельный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ль=PART=} {час=S,m,inan=gen,sg} {ждать=V,ipf,tran=inpraes,sg,indic,1p}? 
+{а=CONJ=} {тот=APRO=nom,sg,f}, {что=CONJ=} {сейчас=ADV=} {танцевать=V,ipf,tran=inpraes,sg,indic,3p}, 
+{непременно=ADV=} {быть=V,intr=inpraes,sg,indic,3p} {в=PR=} {ад=S,sg,m,inan=(dat|loc)}.
+

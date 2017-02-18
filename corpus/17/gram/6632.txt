@@ -1,122 +1,19 @@
-так=ADVPRO=
-_
-иль=CONJ=
-_
-этак=ADVPRO,parenth=
-._
-так=ADVPRO=
-_
-иль=CONJ=
-_
-этак=ADVPRO,parenth=
-.\n
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-._
-все=SPRO,pl=(acc|nom)
-_
-решать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_\n
-колыхание=S,n,inan=ins,sg
-_
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ветка=S,f,inan=gen,pl
-_\n
-сквозь=PR=
-_
-морозный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-год=S,m,inan=(acc,pl|nom,pl)
-_
-долгий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-решаться=V,intr=praet,sg,indic,f,ipf
-,\n
-а=CONJ=
-_
-задача=S,f,inan=nom,sg
-_
-так=ADVPRO=
-_
-простой=A=sg,brev,f
-.\n
-нежность=S,f,inan=(acc,sg|nom,sg)
-_
-под=PR=
-_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бросаться=V,intr=praet,sg,indic,f,ipf
-._\n
-суетиться=V,ipf,intr=praet,sg,indic,f
-_
-суета=S,f,inan=nom,sg
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-._
-качнуться=V,pf,intr=praet,pl,indic
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-снежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ветер=S,m,inan=ins,sg
-_
-по=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-._\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-медленный=A=pl,brev
-_
-и=CONJ=
-_
-едкий=A=pl,brev
-,_\n
-литься=V,ipf,intr=inpraes,pl,indic,3p
-_
-сам=APRO=(nom,pl|acc,pl,inan)
-_
-по=PR=
-_
-себя=SPRO=(abl|dat)
-.\n\n
-но=CONJ=
-_
-то=SPRO,sg,n,inan=dat
-,_
-кто=SPRO,sg,m,anim=nom
-_
-тихо=ADV=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-._\n
-молча=ADV=
-_
-стоять=V,ipf,intr=inpraes,ger
-_
-у=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ничто=SPRO,sg,n=gen
-_
-уже=ADV=
-_
-не=PART=
-_
-значить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-что=CONJ=
-_
-задача=S,f,inan=nom,sg
-_
-решать=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n
+{так=ADVPRO=} {иль=CONJ=} {этак=ADVPRO,parenth=}. {так=ADVPRO=} {иль=CONJ=} {этак=ADVPRO,parenth=}.
+{все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}. {все=SPRO,pl=(acc|nom)} {решать=V,tran=praet,sg,partcp,brev,n,pf,pass} 
+{колыхание=S,n,inan=ins,sg} {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ветка=S,f,inan=gen,pl} 
+{сквозь=PR=} {морозный=A=(acc,sg,plen,n|nom,sg,plen,n)} {окно=S,n,inan=(acc,sg|nom,sg)}.
+
+{год=S,m,inan=(acc,pl|nom,pl)} {долгий=A=(acc,pl,plen,inan|nom,pl,plen)} {решаться=V,intr=praet,sg,indic,f,ipf},
+{а=CONJ=} {задача=S,f,inan=nom,sg} {так=ADVPRO=} {простой=A=sg,brev,f}.
+{нежность=S,f,inan=(acc,sg|nom,sg)} {под=PR=} {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бросаться=V,intr=praet,sg,indic,f,ipf}. 
+{суетиться=V,ipf,intr=praet,sg,indic,f} {суета=S,f,inan=nom,sg}.
+
+{все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}. {качнуться=V,pf,intr=praet,pl,indic} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{снежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ветер=S,m,inan=ins,sg} {по=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)}. 
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {медленный=A=pl,brev} {и=CONJ=} {едкий=A=pl,brev}, 
+{литься=V,ipf,intr=inpraes,pl,indic,3p} {сам=APRO=(nom,pl|acc,pl,inan)} {по=PR=} {себя=SPRO=(abl|dat)}.
+
+{но=CONJ=} {то=SPRO,sg,n,inan=dat}, {кто=SPRO,sg,m,anim=nom} {тихо=ADV=} {плакать=V,ipf,intr=inpraes,sg,indic,3p}. 
+{молча=ADV=} {стоять=V,ipf,intr=inpraes,ger} {у=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{ничто=SPRO,sg,n=gen} {уже=ADV=} {не=PART=} {значить=V,ipf,tran=inpraes,sg,indic,3p},
+{что=CONJ=} {задача=S,f,inan=nom,sg} {решать=V,tran=praet,sg,partcp,brev,f,pf,pass}.

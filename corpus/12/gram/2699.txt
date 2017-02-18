@@ -1,106 +1,19 @@
-собираться=V,intr=praet,pl,indic,pf
-,_
-льстец=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-щеголь=S,m,anim=nom,pl
-,\n
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-праздновать=V,ipf,tran=inf
-.\n
-страсть=S,f,inan=(acc,sg|nom,sg)
--
-то=PART=
-_
-с=PR=
-_
-голод=S,m,inan=dat,sg
-,_
-да=CONJ=
-_
-с=PR=
-_
-холод=S,m,inan=(dat,sg|part,sg)
-,_\u2014_\n
-распашной=A=nom,sg,plen,f
-,_
-безобразный=A=nom,sg,plen,f
-.\n\n
-окаянствовать?=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-пьянствовать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-рвать=V,ipf,tran=inpraes,sg,indic,3p
-_
-писание=S,n,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n_\u2014_
-ах=INTJ=
-,_
-гондола=S,f,inan=ins,sg
-_
-венецьянский?=A=ins,sg,plen,f
-\n
-подплывать=V,intr=inpraes,sg,indic,3p,ipf
-_
-сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n\n
-роза=S,f,inan=nom,sg
-_
-опытный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-садовник=S,m,anim=(acc,pl|gen,pl)
-\n
-за=PR=
-_
-ограда=S,f,inan=ins,sg
-_
-церковный=A=ins,sg,plen,f
-,\n
-райский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-_
-любовник=S,m,anim=(acc,pl|gen,pl)
-_\u2014_\n
-сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-роза=S,f,inan=nom,sg
-_
-кровный=A=nom,sg,plen,f
-!\n\n
-литься=V,ipf,intr=sg,imper,2p
-,_
-влага=S,f,inan=nom,sg
-_
-вдохновенный=A=nom,sg,plen,f
-,\n
-вожделенный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-токайское=S,n,inan=(acc,sg|nom,sg)
-_\u2014_\n
-за=PR=
-_<
-нетленный=A=(acc,sg,plen,n|nom,sg,plen,n)
->_\u2014_
-блаженный=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-роскошь=S,f,inan=(acc,sg|nom,sg)
-_
-райский=A=acc,sg,plen,f
-!\n
+{собираться=V,intr=praet,pl,indic,pf}, {льстец=S,m,anim=nom,pl} {и=CONJ=} {щеголь=S,m,anim=nom,pl},
+{мы=SPRO,pl,1p=nom} {не=PART=} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {праздник=S,m,inan=(acc,sg|nom,sg)} {праздновать=V,ipf,tran=inf}.
+{страсть=S,f,inan=(acc,sg|nom,sg)}-{то=PART=} {с=PR=} {голод=S,m,inan=dat,sg}, {да=CONJ=} {с=PR=} {холод=S,m,inan=(dat,sg|part,sg)}, — 
+{распашной=A=nom,sg,plen,f}, {безобразный=A=nom,sg,plen,f}.
+
+{окаянствовать?=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {пьянствовать=V,ipf,intr=inpraes,sg,indic,3p},
+{рвать=V,ipf,tran=inpraes,sg,indic,3p} {писание=S,n,inan=(acc,sg|nom,sg)} {на=PR=} {часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+ — {ах=INTJ=}, {гондола=S,f,inan=ins,sg} {венецьянский?=A=ins,sg,plen,f}
+{подплывать=V,intr=inpraes,sg,indic,3p,ipf} {сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+
+{роза=S,f,inan=nom,sg} {опытный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {садовник=S,m,anim=(acc,pl|gen,pl)}
+{за=PR=} {ограда=S,f,inan=ins,sg} {церковный=A=ins,sg,plen,f},
+{райский=A=(acc,sg,plen,n|nom,sg,plen,n)} {вино=S,n,inan=(acc,sg|nom,sg)} {любовник=S,m,anim=(acc,pl|gen,pl)} — 
+{сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {роза=S,f,inan=nom,sg} {кровный=A=nom,sg,plen,f}!
+
+{литься=V,ipf,intr=sg,imper,2p}, {влага=S,f,inan=nom,sg} {вдохновенный=A=nom,sg,plen,f},
+{вожделенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {токайское=S,n,inan=(acc,sg|nom,sg)} — 
+{за=PR=} <{нетленный=A=(acc,sg,plen,n|nom,sg,plen,n)}> — {блаженный=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{сладострастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {роскошь=S,f,inan=(acc,sg|nom,sg)} {райский=A=acc,sg,plen,f}!

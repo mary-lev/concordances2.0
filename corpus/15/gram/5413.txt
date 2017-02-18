@@ -1,92 +1,14 @@
-под=PR=
-_
-низкий=A=ins,sg,plen,f
-_
-крышка=S,f,inan=ins,sg
-_
-гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-забивать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-гвоздь=S,m,inan=ins,pl
-,\n
-недвижно=ADV=
-_
-лежать=V,ipf,intr=praet,pl,indic
-_
-мы=SPRO,pl,1p=nom
-_
-оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-,\n
-с=PR=
-_
-враждебный=A=ins,pl,plen
-_
-оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-черта=S,f,inan=ins,pl
-.\n\n
-застывший=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-труп=S,m,inan=(acc,pl|nom,pl)
-,_
-мы=SPRO,pl,1p=nom
-_
-жить=V,ipf,intr=praet,pl,indic
-\n
-сознание=S,n,inan=ins,sg
-_
-проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-что=CONJ=
-_
-вот=PART=
-_
-и=CONJ=
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-!_\u2014\n
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-мерзостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-поза=S,f,inan=(abl,sg|dat,sg)
-_
-объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-дьявол=S,m,anim=nom,sg
-_
-смеяться=V,ipf,intr=praet,sg,indic,m
-_
-надгробный=A=sg,brev,n
-,\n
-плита=S,f,inan=ins,sg
-_
-погребальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-:\n\xAB
-эге=INTJ=
-\xBB,_\u2014_
-говорить=V,ipf,tran=praet,sg,indic,m
-:_\u2014_\xAB
-как=CONJ=
-_
-удобно=ADV=
-\n\xAB
-уродец=S,m,anim=dat,pl
-_\u2014_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-_
-двуспальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\xBB\n
+{под=PR=} {низкий=A=ins,sg,plen,f} {крышка=S,f,inan=ins,sg} {гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{забивать=V,tran=praet,pl,partcp,brev,pf,pass} {гвоздь=S,m,inan=ins,pl},
+{недвижно=ADV=} {лежать=V,ipf,intr=praet,pl,indic} {мы=SPRO,pl,1p=nom} {оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)},
+{с=PR=} {враждебный=A=ins,pl,plen} {оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {черта=S,f,inan=ins,pl}.
+
+{застывший=A=(acc,pl,plen,inan|nom,pl,plen)} {труп=S,m,inan=(acc,pl|nom,pl)}, {мы=SPRO,pl,1p=nom} {жить=V,ipf,intr=praet,pl,indic}
+{сознание=S,n,inan=ins,sg} {проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{что=CONJ=} {вот=PART=} {и=CONJ=} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)} — {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)}! —
+{мы=SPRO,pl,1p=nom} {в=PR=} {мерзостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {поза=S,f,inan=(abl,sg|dat,sg)} {объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {дьявол=S,m,anim=nom,sg} {смеяться=V,ipf,intr=praet,sg,indic,m} {надгробный=A=sg,brev,n},
+{плита=S,f,inan=ins,sg} {погребальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}:
+«{эге=INTJ=}», — {говорить=V,ipf,tran=praet,sg,indic,m}: — «{как=CONJ=} {удобно=ADV=}
+«{уродец=S,m,anim=dat,pl} — {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)} {двуспальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!»

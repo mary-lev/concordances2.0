@@ -1,86 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-этот=APRO=(abl,sg,m|abl,sg,n)
-_\n
-цвет=S,m,inan=dat,sg
-_
-и=CONJ=
-_
-вянуть=V,ipf,intr=inpraes,sg,indic,1p
-,_\n
-вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свет=S,sg,m,inan=ins
-_\n
-я=SPRO,sg,1p=nom
-_
-скоро=ADV=
-_
-становиться=V,intr=inpraes,sg,indic,1p,pf
-.\n\n
-дохнуть=V,pf,intr=inpraes,sg,indic,1p
-_
-привет=S,m,inan=ins,sg
-_\n
-поле=S,n,inan=dat,pl
-_
-и=CONJ=
-_
-вода=S,f,inan=dat,pl
-,_\n
-прохладный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-лето=S,sg,n,inan=ins
-,_\n
-пчелиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мед=S,m,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-прохожий=S,m,anim=nom,sg
-,_\n
-зваться=V,ipf,intr=praet,sg,indic,m
-_
-поэт=S,m,anim=ins,sg
-,\n
-а=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,2p
-_
-тоже=PART=
-_\n
-вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свет=S,sg,m,inan=ins
-.\n\n
-над=PR=
-_
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сад=S,m,inan=ins,sg
-_\n
-под=PR=
-_
-ветер=S,m,inan=ins,sg
-_
-юг=S,m,inan=gen,sg
-_\n
-мы=SPRO,pl,1p=nom
-_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-рядом=ADV=
-,_\n
-забывать=V=praet,ger,pf
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-.\n
+{я=SPRO,sg,1p=nom} {в=PR=} {мир=S,m,inan=abl,sg} {этот=APRO=(abl,sg,m|abl,sg,n)} 
+{цвет=S,m,inan=dat,sg} {и=CONJ=} {вянуть=V,ipf,intr=inpraes,sg,indic,1p}, 
+{вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свет=S,sg,m,inan=ins} 
+{я=SPRO,sg,1p=nom} {скоро=ADV=} {становиться=V,intr=inpraes,sg,indic,1p,pf}.
+
+{дохнуть=V,pf,intr=inpraes,sg,indic,1p} {привет=S,m,inan=ins,sg} 
+{поле=S,n,inan=dat,pl} {и=CONJ=} {вода=S,f,inan=dat,pl}, 
+{прохладный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {лето=S,sg,n,inan=ins}, 
+{пчелиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мед=S,m,inan=ins,sg}.
+
+{и=CONJ=} {ты=SPRO,sg,2p=nom}, {прохожий=S,m,anim=nom,sg}, 
+{зваться=V,ipf,intr=praet,sg,indic,m} {поэт=S,m,anim=ins,sg},
+{а=CONJ=} {быть=V,intr=inpraes,sg,indic,2p} {тоже=PART=} 
+{вечерний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свет=S,sg,m,inan=ins}.
+
+{над=PR=} {тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сад=S,m,inan=ins,sg} 
+{под=PR=} {ветер=S,m,inan=ins,sg} {юг=S,m,inan=gen,sg} 
+{мы=SPRO,pl,1p=nom} {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {рядом=ADV=}, 
+{забывать=V=praet,ger,pf} {друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)}.

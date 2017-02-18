@@ -1,100 +1,16 @@
-маска=S,f,inan=nom,sg
-_\u2014_
-музыка=S,f,inan=nom,sg
-..._
-а=CONJ=
-_
-третий=ANUM=(acc,sg,n|nom,sg,n)
-\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-любимый=A=(acc,sg,plen,n|nom,sg,plen,n)
-?_\u2014_
-не=PART=
-_
-сказать=V,pf,tran=inpraes,sg,indic,3p
-.\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-тоже=PART=
-_
-не=PART=
-_
-сказать=V,pf,tran=inpraes,sg,indic,1p
-.\n\n
-только=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-только=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-\n_\u2014_\t
-шалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-голова=S,f,inan=ins,sg
-_
-ручаться=V,ipf,intr=inpraes,sg,indic,1p
-!_\u2014_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-не=PART=
-_
-жена=S,f,anim=nom,sg
-.\n\n
-только=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-только=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-как=ADVPRO=
-_
-музыка=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-маска=S,f,inan=nom,sg
-,\n
-как=CONJ=
-_
-москва=S,geo,f,inan=nom,sg
-_\u2014_
-маяк=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-магнит=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n\n
-как=CONJ=
-_
-метель=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-как=ADVPRO=
-_
-мазурка=S,f,inan=nom,sg
-\n
-начинаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-на=PR=
-_
-м=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\n_\u2014_\t
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-или=CONJ=
-_
-мандарин=S,m,inan=(acc,pl|nom,pl)
-?\n
+{маска=S,f,inan=nom,sg} — {музыка=S,f,inan=nom,sg}... {а=CONJ=} {третий=ANUM=(acc,sg,n|nom,sg,n)}
+{что=SPRO,sg,n,inan=(acc|nom)} {любимый=A=(acc,sg,plen,n|nom,sg,plen,n)}? — {не=PART=} {сказать=V,pf,tran=inpraes,sg,indic,3p}.
+{и=CONJ=} {я=SPRO,sg,1p=nom} {тоже=PART=} {не=PART=} {сказать=V,pf,tran=inpraes,sg,indic,1p}.
+
+{только=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {только=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}
+ — 	{шалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {голова=S,f,inan=ins,sg} {ручаться=V,ipf,intr=inpraes,sg,indic,1p}! — 
+{что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {мать=S,f,anim=(acc,sg|nom,sg)} — {и=CONJ=} {не=PART=} {жена=S,f,anim=nom,sg}.
+
+{только=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {только=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p},
+{что=SPRO,sg,n,inan=(acc|nom)} {как=ADVPRO=} {музыка=S,f,inan=nom,sg} {и=CONJ=} {маска=S,f,inan=nom,sg},
+{как=CONJ=} {москва=S,geo,f,inan=nom,sg} — {маяк=S,m,inan=(acc,sg|nom,sg)} — {магнит=S,m,inan=(acc,sg|nom,sg)} — 
+
+{как=CONJ=} {метель=S,f,inan=(acc,sg|nom,sg)} — {и=CONJ=} {как=ADVPRO=} {мазурка=S,f,inan=nom,sg}
+{начинаться=V,intr=inpraes,sg,indic,3p,ipf} {на=PR=} {м=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+
+ — 	{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {или=CONJ=} {мандарин=S,m,inan=(acc,pl|nom,pl)}?

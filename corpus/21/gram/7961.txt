@@ -1,150 +1,24 @@
-интрига=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-биржа=S,f,inan=gen,pl
-,_
-потуга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нация=S,f,inan=gen,pl
-.\n
-лавина=S,f,inan=nom,sg
-_
-двигаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-вперед=ADV=
-.\n
-а=CONJ=
-_
-все=ADV=
-_
-под=PR=
-_
-свод=S,m,inan=ins,sg
-_
-прокурация?=S,f,inan=gen,pl
-\n
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-беззаботность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-и=CONJ=
-_
-беззаботно=ADV=
-_
-так=ADVPRO=
-_
-уснуть=V,pf,intr=praet,sg,indic,f
-,\n
-поставлять=V,tran=praet,ger,pf
-_
-туфелька=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рядком=ADV=
-,\n
-неомрачить?=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,pass
-_
-урсула=S,persn,f,anim=nom,sg
-\n
-у=PR=
-_
-алинари?=S,geo,sg,n,inan=(abl|acc|dat|gen|ins|nom)
-_
-за=PR=
-_
-стекло=S,n,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-не=PART=
-_
-без=PR=
-_
-горечь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сокрытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-ходить=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-мыслить=V,ipf,tran=inpraes,sg,indic,1p
-_
-иногда=ADV=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-некто=SPRO,nom,sg,m,anim=
-,_
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-сердитый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-однажды=ADV=
-_
-поглядеть=V,pf,tran=inpraes,sg,indic,3p
-_
-сюда=ADVPRO=
-,\n\n
-нечаянно=ADV=
-_
-развеселяться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-улыбка=S,f,inan=ins,sg
-_
-озарь?=S,m,anim=(acc,sg|gen,sg)
-,\n
-на=PR=
-_
-шаль=S,f,inan=(acc,sg|nom,sg)
-_
-красотка=S,f,anim=(gen,sg|nom,pl)
-_
-заглядываться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-забываться=V,intr=inpraes,sg,indic,3p,pf
-,_
-как=CONJ=
-_
-нынче=ADV=
-_
-я=SPRO,sg,1p=nom
-,_\u2014\n\n
-и=CONJ=
-_
-все=ADV=
-_
-исчезать=V,intr=inpraes,sg,indic,3p,pf
-_
-невозвратный=A=sg,brev,n
-\n
-не=PART=
-_
-в=PR=
-_
-очистительный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-огонь=S,m,inan=abl,sg
-,\n
-а=CONJ=
-_
-просто=PART=
-_\u2014_
-в=PR=
-_
-легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-приятный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-венецианский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-болтовня=S,f,inan=(abl,sg|dat,sg)
-.\n
+{интрига=S,f,inan=(acc,pl|gen,sg|nom,pl)} {биржа=S,f,inan=gen,pl}, {потуга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нация=S,f,inan=gen,pl}.
+{лавина=S,f,inan=nom,sg} {двигаться=V,ipf,intr=inpraes,sg,indic,3p} {вперед=ADV=}.
+{а=CONJ=} {все=ADV=} {под=PR=} {свод=S,m,inan=ins,sg} {прокурация?=S,f,inan=gen,pl}
+{дух=S,m,inan=(acc,sg|nom,sg)} {беззаботность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {жить=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{и=CONJ=} {беззаботно=ADV=} {так=ADVPRO=} {уснуть=V,pf,intr=praet,sg,indic,f},
+{поставлять=V,tran=praet,ger,pf} {туфелька=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рядком=ADV=},
+{неомрачить?=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,pass} {урсула=S,persn,f,anim=nom,sg}
+{у=PR=} {алинари?=S,geo,sg,n,inan=(abl|acc|dat|gen|ins|nom)} {за=PR=} {стекло=S,n,inan=ins,sg}.
+
+{и=CONJ=} {не=PART=} {без=PR=} {горечь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сокрытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{ходить=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {мыслить=V,ipf,tran=inpraes,sg,indic,1p} {иногда=ADV=},
+{что=SPRO,sg,n,inan=(acc|nom)} {некто=SPRO,nom,sg,m,anim=}, {мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {сердитый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{однажды=ADV=} {поглядеть=V,pf,tran=inpraes,sg,indic,3p} {сюда=ADVPRO=},
+
+{нечаянно=ADV=} {развеселяться=V,intr=inpraes,sg,indic,3p,pf},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {улыбка=S,f,inan=ins,sg} {озарь?=S,m,anim=(acc,sg|gen,sg)},
+{на=PR=} {шаль=S,f,inan=(acc,sg|nom,sg)} {красотка=S,f,anim=(gen,sg|nom,pl)} {заглядываться=V,intr=inpraes,sg,indic,3p,pf},
+{забываться=V,intr=inpraes,sg,indic,3p,pf}, {как=CONJ=} {нынче=ADV=} {я=SPRO,sg,1p=nom}, —
+
+{и=CONJ=} {все=ADV=} {исчезать=V,intr=inpraes,sg,indic,3p,pf} {невозвратный=A=sg,brev,n}
+{не=PART=} {в=PR=} {очистительный=A=(abl,sg,plen,m|abl,sg,plen,n)} {огонь=S,m,inan=abl,sg},
+{а=CONJ=} {просто=PART=} — {в=PR=} {легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {приятный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{венецианский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {болтовня=S,f,inan=(abl,sg|dat,sg)}.

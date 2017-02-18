@@ -1,65 +1,9 @@
-\t
-бесконечный=A=pl,brev
-_
-преферанс=S,m,inan=(acc,pl|nom,pl)
-.\n
-поиграть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-,_
-вставать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,_
-выпивать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-водка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-на=PR=
-_
-закуска=S,f,inan=acc,sg
-_\u2014_
-вкусный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-селедка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\t
-посравнивать?=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-с=PR=
-_
-хитринка=S,f,inan=ins,sg
-_
-шанс=S,m,inan=(acc,pl|nom,pl)
-.\n\n\t\xAB
-этакий=APRO=(acc,sg,plen,n|nom,sg,plen,n)
-_
-невезение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\xBB\n\u2014_\xAB
-полно=ADV=
-,_
-мы=SPRO,pl,1p=nom
-_
-ведь=PART=
-_
-ваш=APRO=acc,sg,f
-_
-запись=S,f,inan=(acc,sg|nom,sg)
-_
-видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-\xBB.\n\xAB
-ох=INTJ=
-,_
-хитрец=S,m,anim=nom,sg
-!\xBB_
-и=CONJ=
-_
-снова=ADV=
-_
-тихо=ADV=
-_
-внидь?=S,m,anim=ins,sg
-\n\t
-в=PR=
-_
-область=S,f,inan=(acc,sg|nom,sg)
-_
-карточный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-бдение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+	{бесконечный=A=pl,brev} {преферанс=S,m,inan=(acc,pl|nom,pl)}.
+{поиграть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}, {вставать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}, {выпивать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {водка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{на=PR=} {закуска=S,f,inan=acc,sg} — {вкусный=A=(acc,pl,plen,inan|nom,pl,plen)} {селедка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+	{посравнивать?=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {с=PR=} {хитринка=S,f,inan=ins,sg} {шанс=S,m,inan=(acc,pl|nom,pl)}.
+
+	«{этакий=APRO=(acc,sg,plen,n|nom,sg,plen,n)} {невезение=S,n,inan=(abl,sg|acc,sg|nom,sg)}!»
+— «{полно=ADV=}, {мы=SPRO,pl,1p=nom} {ведь=PART=} {ваш=APRO=acc,sg,f} {запись=S,f,inan=(acc,sg|nom,sg)} {видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}».
+«{ох=INTJ=}, {хитрец=S,m,anim=nom,sg}!» {и=CONJ=} {снова=ADV=} {тихо=ADV=} {внидь?=S,m,anim=ins,sg}
+	{в=PR=} {область=S,f,inan=(acc,sg|nom,sg)} {карточный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бдение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

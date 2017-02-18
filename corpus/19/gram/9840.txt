@@ -1,68 +1,8 @@
-битва=S,f,inan=ins,sg
-_
-со=PR=
-_
-зло=S,n,inan=ins,sg
-_
-бесконечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-я=SPRO,sg,1p=nom
-_
-утомлять=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-уж=PART=
-;_
-едва=ADV=
-_
-ли=PART=
-\n
-в=PR=
-_
-шум=S,m,inan=abl,sg
-_
-и=CONJ=
-_
-в=PR=
-_
-смех=S,m,inan=abl,sg
-_
-беспечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-забывать=V=inpraes,sg,indic,3p,pf
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-пусть=PART=
-_
-на=PR=
-_
-минута=S,f,inan=acc,sg
-_
-обманывать=V,tran=inpraes,sg,indic,3p,pf
-\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-веселый=A=nom,sg,plen,f
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-,_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-ж=PART=
-_
-из=PR=
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-вставать=V,intr=inpraes,sg,indic,3p,pf
-\n
-горе=S,sg,n,inan=ins
-_
-убивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-младость=S,f,inan=(acc,sg|nom,sg)
-.\n
+{битва=S,f,inan=ins,sg} {со=PR=} {зло=S,n,inan=ins,sg} {бесконечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{я=SPRO,sg,1p=nom} {утомлять=V,tran=praet,sg,partcp,brev,m,pf,pass} {уж=PART=}; {едва=ADV=} {ли=PART=}
+{в=PR=} {шум=S,m,inan=abl,sg} {и=CONJ=} {в=PR=} {смех=S,m,inan=abl,sg} {беспечный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {забывать=V=inpraes,sg,indic,3p,pf} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{пусть=PART=} {на=PR=} {минута=S,f,inan=acc,sg} {обманывать=V,tran=inpraes,sg,indic,3p,pf}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {веселый=A=nom,sg,plen,f} {радость=S,f,inan=(acc,sg|nom,sg)}, —
+{все=SPRO,pl=(acc|nom)} {ж=PART=} {из=PR=} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {вставать=V,intr=inpraes,sg,indic,3p,pf}
+{горе=S,sg,n,inan=ins} {убивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {младость=S,f,inan=(acc,sg|nom,sg)}.

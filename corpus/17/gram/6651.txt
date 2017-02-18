@@ -1,98 +1,14 @@
-а=CONJ=
-_
-человек=S,m,anim=nom,pl
-?_
-ну=PART=
-_
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-человек=S,m,anim=nom,pl
-?_\n
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-мужик=S,m,anim=nom,sg
-,_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-_
-бык=S,m,anim=(acc,sg|gen,sg)
-.\n
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-торговка=S,f,anim=nom,sg
-:_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-платочек=S,m,inan=(acc,sg|nom,sg)
-,_
-круглый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-бок=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-природа=S,f,inan=nom,sg
-?_
-вот=PART=
-_
-она=SPRO,sg,3p,f=nom
-,_
-природа=S,f,inan=nom,sg
-_\u2014_\n
-то=CONJ=
-_
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-,_
-то=PART=
-_
-жара=S,sg,f,inan=nom
-._\n
-тоска=S,f,inan=nom,sg
-_
-в=PR=
-_
-любой=APRO=(acc,sg,n|nom,sg,n)
-_
-время=S,n,inan=(acc,sg|nom,sg)
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=ADVPRO=
-_
-дребезжание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-комар=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-конечно=ADV,parenth=
-,_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-и=CONJ=
-_
-развлечение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:_\n
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-бедность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-леденец=S,m,inan=(acc,sg|nom,sg)
-,_\n
-самоубийство=S,n,inan=(acc,sg|nom,sg)
-,_
-наконец=ADV,parenth=
-.\n
+{а=CONJ=} {человек=S,m,anim=nom,pl}? {ну=PART=} {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {человек=S,m,anim=nom,pl}? 
+{идти=V,ipf,intr=inpraes,sg,indic,3p} {мужик=S,m,anim=nom,sg}, {вести=V,ipf,tran=inpraes,sg,indic,3p} {бык=S,m,anim=(acc,sg|gen,sg)}.
+{сидеть=V,ipf,intr=inpraes,sg,indic,3p} {торговка=S,f,anim=nom,sg}: {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{платочек=S,m,inan=(acc,sg|nom,sg)}, {круглый=A=(acc,pl,plen,inan|nom,pl,plen)} {бок=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{природа=S,f,inan=nom,sg}? {вот=PART=} {она=SPRO,sg,3p,f=nom}, {природа=S,f,inan=nom,sg} — 
+{то=CONJ=} {дождь=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {холод=S,m,inan=(acc,sg|nom,sg)}, {то=PART=} {жара=S,sg,f,inan=nom}. 
+{тоска=S,f,inan=nom,sg} {в=PR=} {любой=APRO=(acc,sg,n|nom,sg,n)} {время=S,n,inan=(acc,sg|nom,sg)} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{как=ADVPRO=} {дребезжание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {комар=S,m,anim=(acc,sg|gen,sg)}.
+
+{конечно=ADV,parenth=}, {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {и=CONJ=} {развлечение=S,n,inan=(acc,pl|gen,sg|nom,pl)}: 
+{страх=S,m,inan=(acc,sg|nom,sg)} {бедность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {леденец=S,m,inan=(acc,sg|nom,sg)}, 
+{самоубийство=S,n,inan=(acc,sg|nom,sg)}, {наконец=ADV,parenth=}.

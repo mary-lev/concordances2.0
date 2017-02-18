@@ -1,100 +1,15 @@
-мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-солнечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-грустить=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-неоновый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-чад=S,geo,m,inan=dat,sg
-,\n
-хрустеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-карминный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-креветка=S,f=(acc,pl,inan|gen,sg,anim|gen,sg,inan|nom,pl,anim|nom,pl,inan)
-,\n
-вино=S,n,inan=(acc,sg|nom,sg)
-_
-туманиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-во=PR=
-_
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,_
-быть=V,intr=praet,sg,indic,n,ipf
-,_
-быть=V,intr=praet,sg,indic,n,ipf
-...\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=inpraes,sg,indic,3p
-,_
-быть=V,intr=inpraes,sg,indic,3p
-,_
-бу??
-...\n\n
-как=ADVPRO=
-_
-знать=V,ipf,tran=inf
-?_
-судьба=S,f,inan=nom,sg
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-невзлюбить=V,pf,tran=praet,sg,indic,f
-?_\n
-иль=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-обставлять=V,tran=praet,pl,indic,pf
-_
-судьба=S,f,inan=acc,sg
-?\n\n
-и=CONJ=
-_
-без=PR=
-_
-лакейский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-почет=S,m,inan=dat,sg
-_\n
-смываться=V,intr=inpraes,pl,indic,1p,ipf
-_
-из=PR=
-_
-мир=S,m,inan=gen,sg
-_
-беда=S,f,inan=gen,pl
-,\n
-так=ADVPRO=
-_
-и=CONJ=
-_
-не=PART=
-_
-заплатить=V,pf,tran=praet,ger
-_
-по=PR=
-_
-счет=S,m,inan=(dat,sg|part,sg)
-_\n
-за=PR=
-_
-недоедать=V,intr=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-обед=S,m,inan=(acc,sg|nom,sg)
-.\n
+{мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {солнечный=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{грустить=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {неоновый=A=(abl,sg,plen,m|abl,sg,plen,n)} {чад=S,geo,m,inan=dat,sg},
+{хрустеть=V,ipf,intr=inpraes,pl,indic,3p} {карминный=A=(acc,pl,plen,inan|nom,pl,plen)} {креветка=S,f=(acc,pl,inan|gen,sg,anim|gen,sg,inan|nom,pl,anim|nom,pl,inan)},
+{вино=S,n,inan=(acc,sg|nom,sg)} {туманиться=V,ipf,intr=inpraes,sg,indic,3p} {во=PR=} {лед=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf}, {быть=V,intr=praet,sg,indic,n,ipf}, {быть=V,intr=praet,sg,indic,n,ipf}...
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=inpraes,sg,indic,3p}, {быть=V,intr=inpraes,sg,indic,3p}, {бу??}...
+
+{как=ADVPRO=} {знать=V,ipf,tran=inf}? {судьба=S,f,inan=nom,sg} {мы=SPRO,pl,1p=(abl|acc|gen)} {невзлюбить=V,pf,tran=praet,sg,indic,f}? 
+{иль=CONJ=} {мы=SPRO,pl,1p=nom} {обставлять=V,tran=praet,pl,indic,pf} {судьба=S,f,inan=acc,sg}?
+
+{и=CONJ=} {без=PR=} {лакейский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {почет=S,m,inan=dat,sg} 
+{смываться=V,intr=inpraes,pl,indic,1p,ipf} {из=PR=} {мир=S,m,inan=gen,sg} {беда=S,f,inan=gen,pl},
+{так=ADVPRO=} {и=CONJ=} {не=PART=} {заплатить=V,pf,tran=praet,ger} {по=PR=} {счет=S,m,inan=(dat,sg|part,sg)} 
+{за=PR=} {недоедать=V,intr=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {обед=S,m,inan=(acc,sg|nom,sg)}.

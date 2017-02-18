@@ -1,90 +1,14 @@
-в=PR=
-_
-глухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бросать=V=praet,ger,pf,tran
-_
-невод=S,m,inan=(acc,sg|nom,sg)
-,\n
-под=PR=
-_
-вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лепет=S,m,inan=(acc,sg|nom,sg)
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-липа=S,f,inan=gen,pl
-,\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-задумчивый=A=nom,sg,plen,f
-_
-дева=S,f,anim=nom,sg
-\n
-на=PR=
-_
-чешуя=S,f,inan=acc,sg
-_
-волшебный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-рыба=S,f,anim=(acc,pl|gen,pl)
-.\n\n
-то=CONJ=
-_
-в=PR=
-_
-упоение=S,n,inan=abl,sg
-_
-звериный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-свивать=V=inpraes,pl,indic,3p,ipf,tran
-_
-алый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-хвост=S,m,inan=(acc,pl|nom,pl)
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-выплывать=V,intr=inpraes,pl,indic,3p,pf
-_
-аквамарин=S,m,inan=ins,sg
-,\n
-легкий=A=pl,brev
-,_
-прозрачный=A=pl,brev
-_
-и=CONJ=
-_
-простой=A=pl,brev
-.\n\n
-восторженно=ADV=
-_
-не=PART=
-_
-разуметь=V,ipf,tran=inpraes,ger
-\n
-плод=S,m,inan=gen,pl
-_
-запечатлевать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-вода=S,f,inan=gen,pl
-,\n
-все=SPRO,pl=(acc|nom)
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-голова=S,f,inan=nom,sg
-_
-орфей=S,persn,m,anim=(acc,sg|gen,sg)
-\n
-златистый=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-роза=S,f,inan=ins,sg
-_
-всплывать=V,intr=inpraes,sg,indic,3p,pf
-.\n
+{в=PR=} {глухой=A=(acc,pl,plen,inan|nom,pl,plen)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бросать=V=praet,ger,pf,tran} {невод=S,m,inan=(acc,sg|nom,sg)},
+{под=PR=} {вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лепет=S,m,inan=(acc,sg|nom,sg)} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {липа=S,f,inan=gen,pl},
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {задумчивый=A=nom,sg,plen,f} {дева=S,f,anim=nom,sg}
+{на=PR=} {чешуя=S,f,inan=acc,sg} {волшебный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {рыба=S,f,anim=(acc,pl|gen,pl)}.
+
+{то=CONJ=} {в=PR=} {упоение=S,n,inan=abl,sg} {звериный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{свивать=V=inpraes,pl,indic,3p,ipf,tran} {алый=A=(acc,pl,plen,inan|nom,pl,plen)} {хвост=S,m,inan=(acc,pl|nom,pl)},
+{то=SPRO,sg,n,inan=(acc|nom)} {выплывать=V,intr=inpraes,pl,indic,3p,pf} {аквамарин=S,m,inan=ins,sg},
+{легкий=A=pl,brev}, {прозрачный=A=pl,brev} {и=CONJ=} {простой=A=pl,brev}.
+
+{восторженно=ADV=} {не=PART=} {разуметь=V,ipf,tran=inpraes,ger}
+{плод=S,m,inan=gen,pl} {запечатлевать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {вода=S,f,inan=gen,pl},
+{все=SPRO,pl=(acc|nom)} {ждать=V,ipf,tran=inpraes,sg,indic,3p}, {что=CONJ=} {голова=S,f,inan=nom,sg} {орфей=S,persn,m,anim=(acc,sg|gen,sg)}
+{златистый=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {роза=S,f,inan=ins,sg} {всплывать=V,intr=inpraes,sg,indic,3p,pf}.

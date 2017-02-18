@@ -1,162 +1,24 @@
-русалка=S,f,anim=nom,sg
-_
-очнуться=V,pf,intr=praet,sg,indic,f
-_
-на=PR=
-_
-дно=S,n,inan=abl,sg
-,\n
-зеленый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-открывать=V=praet,sg,indic,f,pf
-,\n
-и=CONJ=
-_
-тут=ADVPRO=
-_
-же=PART=
-_
-на=PR=
-_
-дно=S,n,inan=abl,sg
-,_
-в=PR=
-_
-сторона=S,f,inan=(abl,sg|dat,sg)
-,\n
-родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ребенок=S,m,anim=(acc,sg|gen,sg)
-_
-зарывать=V=praet,sg,indic,f,pf
-.\n\n
-и=CONJ=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-,\n
-как=ADVPRO=
-_
-бредить=V,ipf,intr=inpraes,sg,indic,3p
-_
-о=PR=
-_
-мир=S,m,inan=abl,sg
-_
-свободный=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n
-русалка=S,f,anim=nom,sg
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-шутя=ADV=
-_\u2014\n
-привольно=ADV=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-подводный=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-и=CONJ=
-_
-долгий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-год=S,m,inan=(acc,pl|nom,pl)
-_
-проходить=V,intr=inpraes,pl,indic,3p,pf
-,\n
-русалка=S,f,anim=nom,sg
-_
-в=PR=
-_
-вода=S,f,inan=(abl,sg|dat,sg)
-_
-побелеть=V,pf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-человек=S,m,anim=nom,pl
-_
-русалка=S,f,anim=acc,sg
-_
-находить=V=inpraes,pl,indic,3p,pf,tran
-,\n
-когда=CONJ=
-_
-глубина=S,f,inan=nom,sg
-_
-обмелеть=V,pf,intr=inpraes,sg,indic,3p
-.\n\n
-и=CONJ=
-_
-человек=S,m,anim=nom,pl
-_
-русалка=S,f,anim=acc,sg
-_
-находить=V=inpraes,pl,indic,3p,pf,tran
-\n
-застывший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-изваяние=S,n,inan=ins,sg
-,\n
-дивиться=V,ipf,intr=inf
-_
-искусство=S,n,inan=dat,sg
-_
-прийти=V,pf,intr=inpraes,pl,indic,3p
-,\n
-молчание=S,n,inan=dat,sg
-_
-молиться=V,ipf,intr=inf
-_
-молчание=S,n,inan=ins,sg
-.\n\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-последний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-,\n
-когда=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-прощаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-с=PR=
-_
-мадонна=S,f,anim=ins,sg
-,\n
-над=PR=
-_
-бездна=S,f,inan=ins,sg
-_
-засвечивать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-,\n
-услышать=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-марш=S,m,inan=(acc,sg|nom,sg)
-_
-похоронный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
+{русалка=S,f,anim=nom,sg} {очнуться=V,pf,intr=praet,sg,indic,f} {на=PR=} {дно=S,n,inan=abl,sg},
+{зеленый=A=(acc,pl,plen,inan|nom,pl,plen)} {око=S,n,inan=(acc,pl|nom,pl)} {открывать=V=praet,sg,indic,f,pf},
+{и=CONJ=} {тут=ADVPRO=} {же=PART=} {на=PR=} {дно=S,n,inan=abl,sg}, {в=PR=} {сторона=S,f,inan=(abl,sg|dat,sg)},
+{родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ребенок=S,m,anim=(acc,sg|gen,sg)} {зарывать=V=praet,sg,indic,f,pf}.
+
+{и=CONJ=} {слышать=V,ipf,tran=inpraes,sg,indic,3p}, {как=CONJ=} {биться=V,ipf,intr=inpraes,sg,indic,3p} {дитя=S,obsol,sg,n,anim=(acc|nom)},
+{как=ADVPRO=} {бредить=V,ipf,intr=inpraes,sg,indic,3p} {о=PR=} {мир=S,m,inan=abl,sg} {свободный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+{русалка=S,f,anim=nom,sg} {смеяться=V,ipf,intr=inpraes,sg,indic,3p}, {шутя=ADV=} —
+{привольно=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {в=PR=} {царство=S,n,inan=abl,sg} {подводный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{и=CONJ=} {долгий=A=(acc,pl,plen,inan|nom,pl,plen)} {год=S,m,inan=(acc,pl|nom,pl)} {проходить=V,intr=inpraes,pl,indic,3p,pf},
+{русалка=S,f,anim=nom,sg} {в=PR=} {вода=S,f,inan=(abl,sg|dat,sg)} {побелеть=V,pf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {человек=S,m,anim=nom,pl} {русалка=S,f,anim=acc,sg} {находить=V=inpraes,pl,indic,3p,pf,tran},
+{когда=CONJ=} {глубина=S,f,inan=nom,sg} {обмелеть=V,pf,intr=inpraes,sg,indic,3p}.
+
+{и=CONJ=} {человек=S,m,anim=nom,pl} {русалка=S,f,anim=acc,sg} {находить=V=inpraes,pl,indic,3p,pf,tran}
+{застывший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {изваяние=S,n,inan=ins,sg},
+{дивиться=V,ipf,intr=inf} {искусство=S,n,inan=dat,sg} {прийти=V,pf,intr=inpraes,pl,indic,3p},
+{молчание=S,n,inan=dat,sg} {молиться=V,ipf,intr=inf} {молчание=S,n,inan=ins,sg}.
+
+{то=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=inpraes,sg,indic,3p} {в=PR=} {последний=A=(acc,pl,plen,inan|nom,pl,plen)} {день=S,m,inan=(acc,pl|nom,pl)},
+{когда=CONJ=} {мы=SPRO,pl,1p=nom} {прощаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {с=PR=} {мадонна=S,f,anim=ins,sg},
+{над=PR=} {бездна=S,f,inan=ins,sg} {засвечивать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {огонь=S,m,inan=(acc,pl|nom,pl)},
+{услышать=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {марш=S,m,inan=(acc,sg|nom,sg)} {похоронный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.

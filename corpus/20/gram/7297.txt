@@ -1,98 +1,19 @@
-зеленый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-лиловый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-серебряный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-алый=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n
-друг=S,m,anim=nom,pl
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-суровый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n\n
-вы=SPRO,pl,2p=nom
-_\u2014_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-напрасный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-час=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-несмелый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-о=PR=
-,_
-желтый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-и=CONJ=
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-лиловый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-и=CONJ=
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-!\n\n
-затихать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-и=CONJ=
-_
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-склонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-..._\n
-жестокий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-покорный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-молчание=S,n,inan=ins,sg
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-звать=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-..._\u2014\n\n
-звать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-неумолимый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-и=CONJ=
-_
-зов=S,m,inan=(acc,sg|nom,sg)
-_
-они=SPRO,pl=(acc|gen)
-_
-все=ADV=
-_
-победный=A=comp
-...\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,\n
-друг=S,m,anim=nom,pl
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-последний=A=(acc,pl,plen,inan|nom,pl,plen)
-!\n
+{зеленый=A=(acc,pl,plen,inan|nom,pl,plen)}, {лиловый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{серебряный=A=(acc,pl,plen,inan|nom,pl,plen)}, {алый=A=(acc,pl,plen,inan|nom,pl,plen)}...
+{друг=S,m,anim=nom,pl} {мой=APRO=(nom,pl|acc,pl,inan)} {суровый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{цветок=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {усталый=A=(acc,pl,plen,inan|nom,pl,plen)}...
+
+{вы=SPRO,pl,2p=nom} — {день=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {напрасный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{час=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {несмелый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{о=PR=}, {желтый=A=(acc,pl,plen,inan|nom,pl,plen)} {и=CONJ=} {красный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{лиловый=A=(acc,pl,plen,inan|nom,pl,plen)} {и=CONJ=} {белый=A=(acc,pl,plen,inan|nom,pl,plen)}!
+
+{затихать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {и=CONJ=} {черный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{склонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {и=CONJ=} {ждать=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}... 
+{жестокий=A=(acc,pl,plen,inan|nom,pl,plen)}, {покорный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{молчание=S,n,inan=ins,sg} {смерть=S,f,inan=(acc,sg|nom,sg)} {звать=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}... —
+
+{звать=V,ipf,tran=inpraes,pl,indic,3p}, {неумолимый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {зов=S,m,inan=(acc,sg|nom,sg)} {они=SPRO,pl=(acc|gen)} {все=ADV=} {победный=A=comp}...
+{цветок=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}, {цветок=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)},
+{друг=S,m,anim=nom,pl} {мой=APRO=(nom,pl|acc,pl,inan)} {последний=A=(acc,pl,plen,inan|nom,pl,plen)}!

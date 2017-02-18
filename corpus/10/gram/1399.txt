@@ -1,84 +1,14 @@
-читать=V,ipf,tran=pl,imper,2p
-_
-железный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-книга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-под=PR=
-_
-флейта=S,f,inan=acc,sg
-_
-золоченый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-буква=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-полезть=V,pf,intr=inpraes,pl,indic,3p
-_
-копченый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сиг=S,m,anim=nom,pl
-\n
-и=CONJ=
-_
-золотокудрый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-брюква=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-а=CONJ=
-_
-если=CONJ=
-_
-веселость=S,f,inan=ins,sg
-_
-песий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-закружить=V,pf,tran=inpraes,pl,indic,3p
-_
-созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\xAB
-магги?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-\xBB_\u2014\n
-бюро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-похоронный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-процессия=S,f,inan=gen,pl
-\n
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-проводить=V=inpraes,pl,indic,3p,pf
-_
-саркофаг=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-когда=CONJ=
-_
-же=PART=
-,_
-хмурый=A=sg,brev,m
-_
-и=CONJ=
-_
-плачевный=A=sg,brev,m
-,\n
-загашать=V=inpraes,sg,indic,3p,pf
-_
-фонарный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-знак=S,m,inan=(acc,pl|nom,pl)
-,\n
-влюбляться=V,intr=pl,imper,2p,ipf
-_
-под=PR=
-_
-небо=S,n,inan=ins,sg
-_
-харчевня=S,f,inan=gen,pl
-\n
-в=PR=
-_
-фаянсовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чайник=S,m,inan=gen,pl
-_
-мак=S,m,inan=(acc,pl|nom,pl)
-!\n
+{читать=V,ipf,tran=pl,imper,2p} {железный=A=(acc,pl,plen,inan|nom,pl,plen)} {книга=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{под=PR=} {флейта=S,f,inan=acc,sg} {золоченый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {буква=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{полезть=V,pf,intr=inpraes,pl,indic,3p} {копченый=A=(acc,pl,plen,inan|nom,pl,plen)} {сиг=S,m,anim=nom,pl}
+{и=CONJ=} {золотокудрый=A=(acc,pl,plen,inan|nom,pl,plen)} {брюква=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{а=CONJ=} {если=CONJ=} {веселость=S,f,inan=ins,sg} {песий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{закружить=V,pf,tran=inpraes,pl,indic,3p} {созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)} «{магги?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}» —
+{бюро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {похоронный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {процессия=S,f,inan=gen,pl}
+{свой=APRO=(nom,pl|acc,pl,inan)} {проводить=V=inpraes,pl,indic,3p,pf} {саркофаг=S,m,inan=(acc,pl|nom,pl)}.
+
+{когда=CONJ=} {же=PART=}, {хмурый=A=sg,brev,m} {и=CONJ=} {плачевный=A=sg,brev,m},
+{загашать=V=inpraes,sg,indic,3p,pf} {фонарный=A=(acc,pl,plen,inan|nom,pl,plen)} {знак=S,m,inan=(acc,pl|nom,pl)},
+{влюбляться=V,intr=pl,imper,2p,ipf} {под=PR=} {небо=S,n,inan=ins,sg} {харчевня=S,f,inan=gen,pl}
+{в=PR=} {фаянсовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чайник=S,m,inan=gen,pl} {мак=S,m,inan=(acc,pl|nom,pl)}!

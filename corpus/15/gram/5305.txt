@@ -1,130 +1,16 @@
-вечерний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-тихий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-сливаться=V,intr=praet,sg,indic,n,ipf
-_
-воздушный=A=ins,sg,plen,f
-_
-дымка=S,f,inan=ins,sg
-\n
-с=PR=
-_
-гряда=S,f,inan=ins,sg
-_
-слегка=ADV=
--
-лиловатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-охватывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-сон=S,m,inan=ins,sg
-_
-облако=S,n,inan=gen,pl
-,\n
-и=CONJ=
-_
-в=PR=
-_
-этот=APRO=(abl,sg,m|abl,sg,n)
-_
-безмерный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-простор=S,m,inan=abl,sg
-\n
-дышать=V,ipf,intr=praet,pl,indic
-_
-почти=ADV=
-_
-невидимка=S,mf,anim=ins,sg
-,\n
-как=CONJ=
-_
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-аромат=S,m,inan=abl,pl
-,\n
-бесплотный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-образ=S,m,inan=(acc,pl|nom,pl)
-_
-сон=S,m,inan=gen,pl
-.\n
-они=SPRO,pl=nom
-_
-возникать=V,intr=praet,pl,indic,ipf
-_
-как=CONJ=
-_
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-зажигать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-взор=S,m,inan=ins,sg
-,\n
-как=CONJ=
-_
-сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-аромат=S,m,inan=gen,sg
-,\n
-как=ADVPRO=
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-прозрачность=S,f,inan=(acc,sg|nom,sg)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вымысел=S,m,inan=(acc,pl|nom,pl)
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-что=CONJ=
-_
-вставать=V,intr=praet,pl,indic,pf
-_
-дозор=S,m,inan=ins,sg
-,\n
-чтоб=CONJ=
-_
-вспыхивать=V,intr=inf,pf
-_
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-возврат=S,m,inan=gen,sg
-,\n
-пред=PR=
-_
-лик=S,m,inan=ins,sg
-_
-вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{вечерний=A=(acc,sg,plen,n|nom,sg,plen,n)} {тихий=A=(acc,sg,plen,n|nom,sg,plen,n)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{сливаться=V,intr=praet,sg,indic,n,ipf} {воздушный=A=ins,sg,plen,f} {дымка=S,f,inan=ins,sg}
+{с=PR=} {гряда=S,f,inan=ins,sg} {слегка=ADV=}-{лиловатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{охватывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {сон=S,m,inan=ins,sg} {облако=S,n,inan=gen,pl},
+{и=CONJ=} {в=PR=} {этот=APRO=(abl,sg,m|abl,sg,n)} {безмерный=A=(abl,sg,plen,m|abl,sg,plen,n)} {простор=S,m,inan=abl,sg}
+{дышать=V,ipf,intr=praet,pl,indic} {почти=ADV=} {невидимка=S,mf,anim=ins,sg},
+{как=CONJ=} {дышать=V,ipf,intr=inpraes,pl,indic,3p} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {аромат=S,m,inan=abl,pl},
+{бесплотный=A=(acc,pl,plen,inan|nom,pl,plen)} {образ=S,m,inan=(acc,pl|nom,pl)} {сон=S,m,inan=gen,pl}.
+{они=SPRO,pl=nom} {возникать=V,intr=praet,pl,indic,ipf} {как=CONJ=} {краска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {зажигать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {взор=S,m,inan=ins,sg},
+{как=CONJ=} {сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {восторг=S,m,inan=(acc,sg|nom,sg)} {аромат=S,m,inan=gen,sg},
+{как=ADVPRO=} {блеск=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {прозрачность=S,f,inan=(acc,sg|nom,sg)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {вымысел=S,m,inan=(acc,pl|nom,pl)} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {что=CONJ=} {вставать=V,intr=praet,pl,indic,pf} {дозор=S,m,inan=ins,sg},
+{чтоб=CONJ=} {вспыхивать=V,intr=inf,pf} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)} {без=PR=} {возврат=S,m,inan=gen,sg},
+{пред=PR=} {лик=S,m,inan=ins,sg} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,58 +1,9 @@
-о=PR=
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-!\n
-слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-след=S,m,inan=(acc,sg|nom,sg)
-_
-жемчужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-товар=S,m,inan=(acc,sg|nom,sg)
-,\n
-никто=SPRO,sg,m,anim=dat
-_
-не=PART=
-_
-нужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-нынче=ADV=
-_
-не=PART=
-_
-в=PR=
-_
-цена=S,f,inan=(abl,sg|dat,sg)
-,_\u2014_\n
-все=SPRO,pl=(acc|nom)
-_
-другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-богатый=A=pl,brev
-!\n
-приговор=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-на=PR=
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-:\n_\u2014_
-чересчур=ADV=
-_
-легкий=A=sg,brev,f
-_
-ты=SPRO,sg,2p=nom
-!...\n
+{о=PR=} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бессмертный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дар=S,m,inan=(acc,sg|nom,sg)}!
+{слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {след=S,m,inan=(acc,sg|nom,sg)} {жемчужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {товар=S,m,inan=(acc,sg|nom,sg)},
+{никто=SPRO,sg,m,anim=dat} {не=PART=} {нужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {нынче=ADV=} {не=PART=} {в=PR=} {цена=S,f,inan=(abl,sg|dat,sg)}, — 
+{все=SPRO,pl=(acc|nom)} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {богатый=A=pl,brev}!
+{приговор=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {на=PR=} {стена=S,f,inan=(abl,sg|dat,sg)}:
+ — {чересчур=ADV=} {легкий=A=sg,brev,f} {ты=SPRO,sg,2p=nom}!...

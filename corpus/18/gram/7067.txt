@@ -1,104 +1,20 @@
-пламенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-истлевать=V,intr=praet,sg,indic,m,pf
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-...\n
-стелющийся=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-костер=S,m,inan=gen,sg
-,\n
-тлеющий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-у=PR=
-_
-шатер=S,m,inan=gen,sg
-,\n
-вызывать=V,tran=inpraes,sg,indic,3p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-назад=ADV=
-.\n\n\t
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-,_-\n\t
-бросать=V=praet,nom,sg,partcp,plen,f,pf,pass
-_
-сестра=S,f,anim=nom,sg
-...\n\n
-топот=S,m,inan=(acc,sg|nom,sg)
-_
-глухой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-копыто=S,n,inan=gen,pl
-\n
-чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ловить=V,ipf,tran=inpraes,sg,indic,3p
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-...\n
-всадник=S,m,anim=nom,sg
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-,\n
-взмыливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-конь=S,m,anim=nom,sg
-_
-храпеть=V,ipf,intr=inpraes,sg,indic,3p
-...\n\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-темнота=S,sg,f,inan=(abl|dat)
-_
-верблюд=S,m,anim=nom,sg
-,\n
-вздрагивать=V,intr=inpraes,pl,indic,3p,ipf
-_
-бубенец=S,m,inan=(acc,pl|nom,pl)
-,\n
-тонкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-венец=S,m,inan=(acc,pl|nom,pl)
-\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-песок=S,m,inan=abl,sg
-_
-плести=V,ipf,tran=inpraes,pl,indic,3p
-...\n\n\t
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_\u2014_
-гонец=S,m,anim=nom,pl
-\n\t
-вслед=ADV=
-_
-за=PR=
-_
-конь=S,m,anim=ins,sg
-_
-бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-.\n
+{пламенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {истлевать=V,intr=praet,sg,indic,m,pf} {закат=S,m,inan=(acc,sg|nom,sg)}...
+{стелющийся=A,plen=(acc,sg,m,inan|nom,sg,m)} {дым=S,m,inan=(acc,sg|nom,sg)} {костер=S,m,inan=gen,sg},
+{тлеющий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {у=PR=} {шатер=S,m,inan=gen,sg},
+{вызывать=V,tran=inpraes,sg,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {назад=ADV=}.
+
+	{ждать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg}, -
+	{бросать=V=praet,nom,sg,partcp,plen,f,pf,pass} {сестра=S,f,anim=nom,sg}...
+
+{топот=S,m,inan=(acc,sg|nom,sg)} {глухой=S,m,anim=(abl,pl|acc,pl|gen,pl)} {копыто=S,n,inan=gen,pl}
+{чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ловить=V,ipf,tran=inpraes,sg,indic,3p} {слух=S,m,inan=(acc,sg|nom,sg)}...
+{всадник=S,m,anim=nom,sg} {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {дух=S,m,inan=(acc,sg|nom,sg)},
+{взмыливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {конь=S,m,anim=nom,sg} {храпеть=V,ipf,intr=inpraes,sg,indic,3p}...
+
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {темнота=S,sg,f,inan=(abl|dat)} {верблюд=S,m,anim=nom,sg},
+{вздрагивать=V,intr=inpraes,pl,indic,3p,ipf} {бубенец=S,m,inan=(acc,pl|nom,pl)},
+{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} {свой=APRO=(nom,pl|acc,pl,inan)} {венец=S,m,inan=(acc,pl|nom,pl)}
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {песок=S,m,inan=abl,sg} {плести=V,ipf,tran=inpraes,pl,indic,3p}...
+
+	{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} — {гонец=S,m,anim=nom,pl}
+	{вслед=ADV=} {за=PR=} {конь=S,m,anim=ins,sg} {бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)}.

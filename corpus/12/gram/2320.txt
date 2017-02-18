@@ -1,96 +1,14 @@
-скомкивать=V,tran=praet,pl,indic,pf
-_
-фартук=S,m,inan=(acc,sg|nom,sg)
-_
-холодный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-весь=APRO=nom,sg,f
-_
-побледнеть=V,pf,intr=praet,sg,indic,f
-,_
-дрожать=V,ipf,intr=inpraes,sg,indic,3p
-_
-баловница=S,f,anim=nom,sg
-.\n
-бабушка=S,f,anim=nom,sg
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-печальный=A=sg,brev,f
-:_
-у=PR=
-_
-внучка=S,f,anim=(gen,sg|nom,pl)
-\n
-вдруг=ADV=
-_\u2014_
-единица=S,f,inan=nom,sg
-!\n\n
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-учитель=S,m,anim=nom,sg
-,_
-как=ADVPRO=
-_
-будто=PART=
-_
-не=PART=
-_
-верить=V,ipf,intr=inpraes,ger
-\n
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-слеза=S,f,inan=dat,pl
-_
-в=PR=
-_
-опускаться=V,intr=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)
-_
-взор=S,m,inan=abl,sg
-.\n
-ах=INTJ=
-,_
-единица=S,f,inan=nom,sg
-_
-большой=A=nom,sg,plen,f
-_
-потеря=S,f,inan=nom,sg
-!\n
-первый=ANUM=(acc,sg,n|nom,sg,n)
-_
-горе=S,sg,n,inan=(abl|acc|nom)
-!\n\n
-слезка=S,f,inan=nom,sg
-_
-за=PR=
-_
-слезка=S,f,inan=ins,sg
-_
-упасть=V,pf,intr=praet,pl,indic
-,_
-сверкать=V,ipf,intr=inpraes,ger
-,\n
-в=PR=
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-круг=S,m,inan=abl,pl
-_
-уплывать=V,intr=inpraes,sg,indic,3p,ipf
-_
-страница=S,f,inan=nom,sg
-...\n
-разве=PART=
-_
-учитель=S,m,anim=nom,sg
-_
-узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,_
-какой=APRO=nom,sg,f
-\n
-боль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-единица=S,f,inan=nom,sg
-?\n
+{скомкивать=V,tran=praet,pl,indic,pf} {фартук=S,m,inan=(acc,sg|nom,sg)} {холодный=A=(acc,pl,plen,inan|nom,pl,plen)} {ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{весь=APRO=nom,sg,f} {побледнеть=V,pf,intr=praet,sg,indic,f}, {дрожать=V,ipf,intr=inpraes,sg,indic,3p} {баловница=S,f,anim=nom,sg}.
+{бабушка=S,f,anim=nom,sg} {быть=V,intr=inpraes,sg,indic,3p} {печальный=A=sg,brev,f}: {у=PR=} {внучка=S,f,anim=(gen,sg|nom,pl)}
+{вдруг=ADV=} — {единица=S,f,inan=nom,sg}!
+
+{смотреть=V,ipf,tran=inpraes,sg,indic,3p} {учитель=S,m,anim=nom,sg}, {как=ADVPRO=} {будто=PART=} {не=PART=} {верить=V,ipf,intr=inpraes,ger}
+{этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {слеза=S,f,inan=dat,pl} {в=PR=} {опускаться=V,intr=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)} {взор=S,m,inan=abl,sg}.
+{ах=INTJ=}, {единица=S,f,inan=nom,sg} {большой=A=nom,sg,plen,f} {потеря=S,f,inan=nom,sg}!
+{первый=ANUM=(acc,sg,n|nom,sg,n)} {горе=S,sg,n,inan=(abl|acc|nom)}!
+
+{слезка=S,f,inan=nom,sg} {за=PR=} {слезка=S,f,inan=ins,sg} {упасть=V,pf,intr=praet,pl,indic}, {сверкать=V,ipf,intr=inpraes,ger},
+{в=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {круг=S,m,inan=abl,pl} {уплывать=V,intr=inpraes,sg,indic,3p,ipf} {страница=S,f,inan=nom,sg}...
+{разве=PART=} {учитель=S,m,anim=nom,sg} {узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}, {какой=APRO=nom,sg,f}
+{боль=S,f,inan=(acc,sg|nom,sg)} — {единица=S,f,inan=nom,sg}?

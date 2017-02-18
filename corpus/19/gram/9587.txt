@@ -1,400 +1,54 @@
-два=NUM=(nom,f|acc,f,inan)
-_
-дама=S,f,anim=(gen,sg|nom,pl)
-_
-ехать=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-коляска=S,f,inan=(abl,sg|dat,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-мимо=ADV=
-_
-с=PR=
-_
-мальчик=S,m,anim=ins,pl
-_
-идти=V,ipf,intr=praet,sg,indic,m
-.\n
-здесь=ADVPRO=
-_
-ожидать=V,ipf,tran=inf
-_
-плохой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-развязка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-догадываться=V,intr=praet,sg,indic,m,pf
-_
-б=PART=
-_
-и=CONJ=
-_
-оседать=V,intr=praet,sg,indic,m,pf
-.\n\n
-да=CONJ=
-_
-вот=PART=
-_
-беда=S,f,inan=nom,sg
-,_\u2014_
-не=PART=
-_
-снимать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-шапка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-из=PR=
-_
-дама=S,f,anim=(acc,pl|gen,pl)
-_
-один=APRO=nom,sg,f
-,\n
-хоть=PART=
-_
-и=CONJ=
-_
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-пора=S,f,inan=ins,sg
-_
-в=PR=
-_
-лавка=S,f,inan=(abl,sg|dat,sg)
-,\n
-но=CONJ=
-_
-розенбергов?=S,famn,m,anim=(acc,sg|gen,sg)
-_
-жена=S,f,anim=nom,sg
-.\n\n
-вот=PART=
-_
-вечер=S,m,inan=ins,sg
-_
-приказ=S,m,inan=(acc,sg|nom,sg)
-_
-являться=V,intr=inf,pf
-\n
-к=PR=
-_
-инспектор=S,m,anim=dat,sg
-_
-я=SPRO,sg,1p=nom
-_
-получать=V,tran=praet,sg,indic,m,pf
-.\n
-он=SPRO,sg,3p,m=nom
-_
-начинать=V,tran=praet,sg,indic,m,pf
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-сердиться=V,ipf,intr=inf
-,\n
-и=CONJ=
-_
-долго=ADV=
-_
-он=SPRO,sg,3p,m=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-бранить=V,ipf,tran=praet,sg,indic,m
-.\n\n\u2014_
-ну=PART=
-_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-нос=S,m,inan=(acc,sg|nom,sg)
--
-то=CONJ=
-_
-задирать=V=inpraes,sg,indic,2p,ipf,tran
-!\n
-какой=APRO=nom,sg,f
-_
-дерзость=S,f,inan=(acc,sg|nom,sg)
-!_
-срам=S,m,inan=(acc,sg|nom,sg)
-_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-!\n
-вот=PART=
-_
-погодить=V,pf,intr=sg,imper,2p
-,_
-ужо=ADV=
-_
-узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)
-,\n
-мальчишка=S,m,anim=nom,sg
-,_
-озорник=S,m,anim=nom,sg
-_
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n\n
-зазнаваться=V,intr=praet,sg,indic,m,pf
-!_
-думать=V,ipf,intr=inpraes,sg,indic,2p
-,_\u2014_
-учитель=S,m,anim=nom,sg
-,\n
-так=ADVPRO=
-_
-очень=ADV=
-_
-важный=A=sg,brev,m
-_
-и=CONJ=
-_
-хороший=A=sg,brev,m
-!\n
-он=SPRO,sg,3p,m=nom
-_\u2014_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-почетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-попечитель=S,m,anim=nom,sg
-!\n
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-жена=S,f,anim=acc,sg
-_
-не=PART=
-_
-ставить=V,ipf,tran=inpraes,sg,indic,2p
-_
-в=PR=
-_
-грош=S,m,inan=(acc,sg|nom,sg)
-?\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-?_
-не=PART=
-_
-замечать=V,tran=praet,sg,indic,m,pf
-?_
-дуралей=S,m,anim=(acc,sg|gen,sg)
-,\n
-негодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-корчить=V,ipf,tran=inf
-_
-погодить=V,pf,intr=sg,imper,2p
-!\n
-иван=S,persn,m,anim=nom,sg
-!_
-взять=V,pf,tran=sg,imper,2p
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-!_
-живой=A=comp
-\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-к=PR=
-_
-розенберг=S,famn,m,anim=dat,sg
-_
-в=PR=
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=sg,imper,2p
-!_\u2014\n\n
-пред=PR=
-_
-розенберг=S,famn,m,anim=ins,sg
-_
-стоять=V,ipf,intr=inpraes,ger
-,_
-красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-взволновать=V,pf,tran=praet,sg,partcp,brev,m,pass
-_
-и=CONJ=
-_
-смущать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-все=SPRO,pl=(acc|nom)
-_
-объяснять=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-,_
-но=CONJ=
-_
-напрасно=ADV=
-,_\u2014\n
-не=PART=
-_
-захотеть=V,pf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-верить=V,ipf,intr=inf
-_
-он=SPRO,sg,3p,m=nom
-.\n\n
-я=SPRO,sg,1p=nom
-_
-у=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-просить=V,ipf,tran=praet,sg,indic,m
-_
-прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-смиренно=ADV=
-,_
-долго=ADV=
-,_
-но=CONJ=
-_
-отвергать=V,tran=praet,sg,indic,m,pf
-\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-все=SPRO,pl=(acc|nom)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-моление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-розенберг=S,famn,m,anim=nom,sg
-,\n\n
-и=CONJ=
-_
-молвить=V,pf,tran=praet,sg,indic,m
-:_\u2014_
-кончать=V,tran=inf,pf
-_
-не=PART=
-_
-пора=ADV,praed=
-_
-ли=PART=
-?\n
-идти=V,ipf,intr=sg,imper,2p
--
-ка=PART=
-_
-в=PR=
-_
-кухня=S,f,inan=acc,sg
-._
-там=ADVPRO=
-_
-в=PR=
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-,\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-уж=PART=
-_
-розга=S,f,inan=gen,pl
-_
-наламывать=V,tran=praet,pl,indic,pf
-.\n
-себя=SPRO=(abl|dat)
-_
-накликать=V,pf,tran=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=nom
-_
-беда=S,f,inan=acc,sg
-._\u2014\n\n
-приказ=S,m,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=nom
-_
-отдавать=V,tran=praet,sg,indic,m,pf
-:_\u2014_
-босошлеп?=S,m,anim=dat,sg
-,\n
-чтоб=CONJ=
-_
-нос=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-задирать=V=praet,sg,indic,m,ipf,tran
-_
-вперед=ADV=
-,\n
-нарисовать=V,pf,tran=inf
-_
-крепко=ADV=comp
-_
-жопа=S,obsc,f,inan=acc,sg
-,\n
-горячо=ADV=comp
-,_
-в=PR=
-_
-переплет=S,m,inan=(acc,sg|nom,sg)
-._\u2014\n\n
-и=CONJ=
-,_
-разогревать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-очень=ADV=
-_
-знойно=ADV=
-,\n
-урок=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-слушать=V,ipf,tran=praet,sg,indic,m
-:_\u2014_
-не=PART=
-_
-зевать=V,ipf=sg,imper,2p,tran
-!\n
-вперед=ADV=
-_
-вести=V,ipf,tran=sg,imper,2p
-_
-себя=SPRO=(acc|gen)
-_
-пристойно=ADV=
-,\n
-да=CONJ=
-_
-кланяться=V,ipf,intr=inf
-_
-не=PART=
-_
-забывать=V=sg,imper,2p,ipf,tran
-!_\u2014\n
+{два=NUM=(nom,f|acc,f,inan)} {дама=S,f,anim=(gen,sg|nom,pl)} {ехать=V,ipf,intr=praet,pl,indic} {в=PR=} {коляска=S,f,inan=(abl,sg|dat,sg)},
+{я=SPRO,sg,1p=nom} {мимо=ADV=} {с=PR=} {мальчик=S,m,anim=ins,pl} {идти=V,ipf,intr=praet,sg,indic,m}.
+{здесь=ADVPRO=} {ожидать=V,ipf,tran=inf} {плохой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {развязка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {догадываться=V,intr=praet,sg,indic,m,pf} {б=PART=} {и=CONJ=} {оседать=V,intr=praet,sg,indic,m,pf}.
+
+{да=CONJ=} {вот=PART=} {беда=S,f,inan=nom,sg}, — {не=PART=} {снимать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {шапка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{не=PART=} {видеть=V,ipf,tran=praet,sg,indic,m}, {что=CONJ=} {из=PR=} {дама=S,f,anim=(acc,pl|gen,pl)} {один=APRO=nom,sg,f},
+{хоть=PART=} {и=CONJ=} {сидеть=V,ipf,intr=inpraes,sg,indic,3p} {пора=S,f,inan=ins,sg} {в=PR=} {лавка=S,f,inan=(abl,sg|dat,sg)},
+{но=CONJ=} {розенбергов?=S,famn,m,anim=(acc,sg|gen,sg)} {жена=S,f,anim=nom,sg}.
+
+{вот=PART=} {вечер=S,m,inan=ins,sg} {приказ=S,m,inan=(acc,sg|nom,sg)} {являться=V,intr=inf,pf}
+{к=PR=} {инспектор=S,m,anim=dat,sg} {я=SPRO,sg,1p=nom} {получать=V,tran=praet,sg,indic,m,pf}.
+{он=SPRO,sg,3p,m=nom} {начинать=V,tran=praet,sg,indic,m,pf} {на=PR=} {я=SPRO,sg,1p=(acc|gen)} {сердиться=V,ipf,intr=inf},
+{и=CONJ=} {долго=ADV=} {он=SPRO,sg,3p,m=nom} {я=SPRO,sg,1p=(acc|gen)} {бранить=V,ipf,tran=praet,sg,indic,m}.
+
+— {ну=PART=} {что=CONJ=} {ты=SPRO,sg,2p=nom} {нос=S,m,inan=(acc,sg|nom,sg)}-{то=CONJ=} {задирать=V=inpraes,sg,indic,2p,ipf,tran}!
+{какой=APRO=nom,sg,f} {дерзость=S,f,inan=(acc,sg|nom,sg)}! {срам=S,m,inan=(acc,sg|nom,sg)} {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}!
+{вот=PART=} {погодить=V,pf,intr=sg,imper,2p}, {ужо=ADV=} {узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)},
+{мальчишка=S,m,anim=nom,sg}, {озорник=S,m,anim=nom,sg} {босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+
+{зазнаваться=V,intr=praet,sg,indic,m,pf}! {думать=V,ipf,intr=inpraes,sg,indic,2p}, — {учитель=S,m,anim=nom,sg},
+{так=ADVPRO=} {очень=ADV=} {важный=A=sg,brev,m} {и=CONJ=} {хороший=A=sg,brev,m}!
+{он=SPRO,sg,3p,m=nom} — {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {почетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {попечитель=S,m,anim=nom,sg}!
+{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {жена=S,f,anim=acc,sg} {не=PART=} {ставить=V,ipf,tran=inpraes,sg,indic,2p} {в=PR=} {грош=S,m,inan=(acc,sg|nom,sg)}?
+
+{что=SPRO,sg,n,inan=(acc|nom)}? {не=PART=} {замечать=V,tran=praet,sg,indic,m,pf}? {дуралей=S,m,anim=(acc,sg|gen,sg)},
+{негодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {корчить=V,ipf,tran=inf} {погодить=V,pf,intr=sg,imper,2p}!
+{иван=S,persn,m,anim=nom,sg}! {взять=V,pf,tran=sg,imper,2p} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)}! {живой=A=comp}
+{с=PR=} {он=SPRO,sg,3p,m=ins} {к=PR=} {розенберг=S,famn,m,anim=dat,sg} {в=PR=} {дом=S,m,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=sg,imper,2p}! —
+
+{пред=PR=} {розенберг=S,famn,m,anim=ins,sg} {стоять=V,ipf,intr=inpraes,ger}, {красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {взволновать=V,pf,tran=praet,sg,partcp,brev,m,pass} {и=CONJ=} {смущать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{все=SPRO,pl=(acc|nom)} {объяснять=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}, {но=CONJ=} {напрасно=ADV=}, —
+{не=PART=} {захотеть=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=(abl|dat)} {верить=V,ipf,intr=inf} {он=SPRO,sg,3p,m=nom}.
+
+{я=SPRO,sg,1p=nom} {у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {просить=V,ipf,tran=praet,sg,indic,m} {прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{смиренно=ADV=}, {долго=ADV=}, {но=CONJ=} {отвергать=V,tran=praet,sg,indic,m,pf}
+{мой=APRO=(nom,pl|acc,pl,inan)} {все=SPRO,pl=(acc|nom)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {моление=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {розенберг=S,famn,m,anim=nom,sg},
+
+{и=CONJ=} {молвить=V,pf,tran=praet,sg,indic,m}: — {кончать=V,tran=inf,pf} {не=PART=} {пора=ADV,praed=} {ли=PART=}?
+{идти=V,ipf,intr=sg,imper,2p}-{ка=PART=} {в=PR=} {кухня=S,f,inan=acc,sg}. {там=ADVPRO=} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)},
+{ты=SPRO,sg,2p=(abl|dat)} {уж=PART=} {розга=S,f,inan=gen,pl} {наламывать=V,tran=praet,pl,indic,pf}.
+{себя=SPRO=(abl|dat)} {накликать=V,pf,tran=praet,sg,indic,m} {ты=SPRO,sg,2p=nom} {беда=S,f,inan=acc,sg}. —
+
+{приказ=S,m,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=nom} {отдавать=V,tran=praet,sg,indic,m,pf}: — {босошлеп?=S,m,anim=dat,sg},
+{чтоб=CONJ=} {нос=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {задирать=V=praet,sg,indic,m,ipf,tran} {вперед=ADV=},
+{нарисовать=V,pf,tran=inf} {крепко=ADV=comp} {жопа=S,obsc,f,inan=acc,sg},
+{горячо=ADV=comp}, {в=PR=} {переплет=S,m,inan=(acc,sg|nom,sg)}. —
+
+{и=CONJ=}, {разогревать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {очень=ADV=} {знойно=ADV=},
+{урок=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom} {слушать=V,ipf,tran=praet,sg,indic,m}: — {не=PART=} {зевать=V,ipf=sg,imper,2p,tran}!
+{вперед=ADV=} {вести=V,ipf,tran=sg,imper,2p} {себя=SPRO=(acc|gen)} {пристойно=ADV=},
+{да=CONJ=} {кланяться=V,ipf,intr=inf} {не=PART=} {забывать=V=sg,imper,2p,ipf,tran}! —

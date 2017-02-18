@@ -1,78 +1,14 @@
-качаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-на=PR=
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-\n
-пальмовый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-перо=S,n,inan=(acc,pl|nom,pl)
-.\n
-жить=V,ipf,intr=inf
-_
-хорошо=ADV=parenth
-_
-ли=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-,\n
-как=ADVPRO=
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-_
-теперь=ADV=
-_
-я=SPRO,sg,1p=nom
-?\n\n
-нитка=S,f,inan=ins,sg
-_
-золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-светляк=S,m,anim=nom,pl
-\n
-пролетать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-мигать=V,ipf,intr=inpraes,ger
-.\n
-как=ADVPRO=
-_
-чаша=S,f,inan=nom,sg
-,_
-полный=A=sg,brev,f
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-душа=S,f,inan=nom,sg
-_\u2014_
-до=PR=
-_
-самый=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-морской=A,plen=(nom,pl|acc,pl,inan)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-бледно=ADV=
--
-серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лилия=S,f,inan=gen,pl
-...\n
-родной=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-_
-земля=S,f,inan=nom,sg
-,\n
-за=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-погубить=V,pf,tran=praet,pl,indic
-?\n
+{качаться=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {луна=S,f,inan=(abl,sg|dat,sg)}
+{пальмовый=A=(acc,pl,plen,inan|nom,pl,plen)} {перо=S,n,inan=(acc,pl|nom,pl)}.
+{жить=V,ipf,intr=inf} {хорошо=ADV=parenth} {ли=PART=} {я=SPRO,sg,1p=(abl|dat)},
+{как=ADVPRO=} {жить=V,ipf,intr=inpraes,sg,indic,1p} {теперь=ADV=} {я=SPRO,sg,1p=nom}?
+
+{нитка=S,f,inan=ins,sg} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {светляк=S,m,anim=nom,pl}
+{пролетать=V,ipf,tran=inpraes,pl,indic,3p}, {мигать=V,ipf,intr=inpraes,ger}.
+{как=ADVPRO=} {чаша=S,f,inan=nom,sg}, {полный=A=sg,brev,f} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{душа=S,f,inan=nom,sg} — {до=PR=} {самый=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{морской=A,plen=(nom,pl|acc,pl,inan)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{бледно=ADV=}-{серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лилия=S,f,inan=gen,pl}...
+{родной=A=nom,sg,plen,f} {мой=APRO=nom,sg,f} {земля=S,f,inan=nom,sg},
+{за=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=(acc|gen)} {погубить=V,pf,tran=praet,pl,indic}?

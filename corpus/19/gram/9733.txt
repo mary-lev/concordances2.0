@@ -1,92 +1,10 @@
-ты=SPRO,sg,2p=nom
-_
-осиливать=V,tran=inf,pf
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,f
-,\n
-и=CONJ=
-_
-под=PR=
-_
-бремя=S,n,inan=ins,sg
-_
-скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-заламывать=V,tran=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=nom
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-на=PR=
-_
-помощь=S,f,inan=(acc,sg|nom,sg)
-_
-ты=SPRO,sg,2p=nom
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-_
-звать=V,ipf,tran=praet,sg,indic,f
-,\n
-небо=S,n,inan=(acc,pl|nom,pl)
-_
-безучастно=ADV=
-_
-молчать=V,ipf,intr=praet,pl,indic
-.\n
-ты=SPRO,sg,2p=nom
-_
-отрава=S,f,inan=acc,sg
-,_
-рыдать=V,ipf,intr=inpraes,ger
-,_
-пила=S,f,inan=nom,sg
-.\n
-тихо=ADV=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-небо=S,n,inan=abl,sg
-_
-мерцать=V,ipf,intr=praet,pl,indic
-,\n
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-замирать=V,intr=praet,pl,indic,ipf
-,\n
-и=CONJ=
-_
-ни=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-человек=S,m,anim=nom,pl
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,pl,indic
-\n
-как=CONJ=
-,_
-страдать=V,ipf,intr=inpraes,ger
-,_
-она=SPRO,sg,3p,f=nom
-_
-умирать=V,intr=praet,sg,indic,f,pf
-.\n
+{ты=SPRO,sg,2p=nom} {осиливать=V,tran=inf,pf} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,f},
+{и=CONJ=} {под=PR=} {бремя=S,n,inan=ins,sg} {скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{заламывать=V,tran=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=nom} {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {на=PR=} {помощь=S,f,inan=(acc,sg|nom,sg)} {ты=SPRO,sg,2p=nom} {бог=S,m,anim=(acc,sg|gen,sg)} {звать=V,ipf,tran=praet,sg,indic,f},
+{небо=S,n,inan=(acc,pl|nom,pl)} {безучастно=ADV=} {молчать=V,ipf,intr=praet,pl,indic}.
+{ты=SPRO,sg,2p=nom} {отрава=S,f,inan=acc,sg}, {рыдать=V,ipf,intr=inpraes,ger}, {пила=S,f,inan=nom,sg}.
+{тихо=ADV=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {небо=S,n,inan=abl,sg} {мерцать=V,ipf,intr=praet,pl,indic},
+{голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} {замирать=V,intr=praet,pl,indic,ipf},
+{и=CONJ=} {ни=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {человек=S,m,anim=nom,pl} {не=PART=} {знать=V,ipf,tran=praet,pl,indic}
+{как=CONJ=}, {страдать=V,ipf,intr=inpraes,ger}, {она=SPRO,sg,3p,f=nom} {умирать=V,intr=praet,sg,indic,f,pf}.

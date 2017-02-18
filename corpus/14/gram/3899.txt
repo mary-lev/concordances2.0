@@ -1,166 +1,25 @@
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лук=S,m,inan=(acc,sg|nom,sg)
-_\n
-сквозь=PR=
-_
-листва=S,sg,f,inan=acc
-_
-густой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ракита=S,f,inan=gen,pl
-,_\n
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стук=S,m,inan=(acc,sg|nom,sg)
-_\n
-неподкованный=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-копыто=S,n,inan=gen,pl
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-?_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-спать=V,ipf,intr=inf
-,_\n
-в=PR=
-_
-год=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-забывать=V=inf,pf
-,_\n
-не=PART=
-_
-привыкать=V,intr=praet,sg,indic,m,pf
-_
-свой=APRO=acc,sg,f
-_
-кровать=S,f,inan=(acc,sg|nom,sg)
-_\n
-ты=SPRO,sg,2p=nom
-_
-пустой=A=ins,sg,plen,f
-_
-находить=V=inf,ipf
-?\n\n
-не=PART=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-ли=PART=
-_
-говорить=V,ipf,tran=inpraes,sg,indic,1p
-_\n
-в=PR=
-_
-острый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-крик=S,m,inan=abl,sg
-_
-хищный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-,_\n
-не=PART=
-_
-в=PR=
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-ль=PART=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-_\n
-с=PR=
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-матовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-страница=S,f,inan=gen,pl
-?\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-же=PART=
-_
-кружить=V,ipf,tran=inpraes,sg,indic,2p
-,_
-словно=CONJ=
-_
-вор=S,m,anim=nom,sg
-,_\n
-у=PR=
-_
-затихать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-жилье=S,sg,n,inan=gen
-?_\n
-или=CONJ=
-_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-уговор=S,m,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-живой=A=acc,sg,plen,f
-_
-ждать=V,ipf,tran=inpraes,sg,indic,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-?\n\n
-засыпать=V=inpraes,sg,indic,1p,ipf,tran
-._
-в=PR=
-_
-душный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-_\n
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-бросать=V=praet,sg,indic,m,pf
-_
-лезвие=S,n,inan=(acc,sg|nom,sg)
-._\n
-снова=ADV=
-_
-стук=S,m,inan=(acc,sg|nom,sg)
-._
-то=SPRO,sg,n,inan=(acc|nom)
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-теплый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
+{видеть=V,ipf,tran=inpraes,sg,indic,1p}, {видеть=V,ipf,tran=inpraes,sg,indic,1p} {лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лук=S,m,inan=(acc,sg|nom,sg)} 
+{сквозь=PR=} {листва=S,sg,f,inan=acc} {густой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ракита=S,f,inan=gen,pl}, 
+{слышать=V,ipf,tran=inpraes,sg,indic,1p}, {слышать=V,ipf,tran=inpraes,sg,indic,1p} {ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стук=S,m,inan=(acc,sg|nom,sg)} 
+{неподкованный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {копыто=S,n,inan=gen,pl}.
+
+{что=SPRO,sg,n,inan=(acc|nom)}? {и=CONJ=} {ты=SPRO,sg,2p=nom} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p} {спать=V,ipf,intr=inf}, 
+{в=PR=} {год=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=(acc|gen)} {забывать=V=inf,pf}, 
+{не=PART=} {привыкать=V,intr=praet,sg,indic,m,pf} {свой=APRO=acc,sg,f} {кровать=S,f,inan=(acc,sg|nom,sg)} 
+{ты=SPRO,sg,2p=nom} {пустой=A=ins,sg,plen,f} {находить=V=inf,ipf}?
+
+{не=PART=} {с=PR=} {ты=SPRO,sg,2p=ins} {ли=PART=} {говорить=V,ipf,tran=inpraes,sg,indic,1p} 
+{в=PR=} {острый=A=(abl,sg,plen,m|abl,sg,plen,n)} {крик=S,m,inan=abl,sg} {хищный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {птица=S,f,anim=(acc,pl|gen,pl)}, 
+{не=PART=} {в=PR=} {твой=APRO=(nom,pl|acc,pl,inan)} {ль=PART=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {смотреть=V,ipf,tran=inpraes,sg,indic,1p} 
+{с=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {матовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страница=S,f,inan=gen,pl}?
+
+{что=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {кружить=V,ipf,tran=inpraes,sg,indic,2p}, {словно=CONJ=} {вор=S,m,anim=nom,sg}, 
+{у=PR=} {затихать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {жилье=S,sg,n,inan=gen}? 
+{или=CONJ=} {помнить=V,ipf,tran=inpraes,sg,indic,2p} {уговор=S,m,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {живой=A=acc,sg,plen,f} {ждать=V,ipf,tran=inpraes,sg,indic,2p} {я=SPRO,sg,1p=(acc|gen)}?
+
+{засыпать=V=inpraes,sg,indic,1p,ipf,tran}. {в=PR=} {душный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрак=S,m,inan=(acc,sg|nom,sg)} 
+{месяц=S,m,inan=(acc,sg|nom,sg)} {бросать=V=praet,sg,indic,m,pf} {лезвие=S,n,inan=(acc,sg|nom,sg)}. 
+{снова=ADV=} {стук=S,m,inan=(acc,sg|nom,sg)}. {то=SPRO,sg,n,inan=(acc|nom)} {биться=V,ipf,intr=inpraes,sg,indic,3p} {так=ADVPRO=} 
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {теплый=A=(acc,sg,plen,n|nom,sg,plen,n)} {мой=APRO=(acc,sg,n|nom,sg,n)}.
+

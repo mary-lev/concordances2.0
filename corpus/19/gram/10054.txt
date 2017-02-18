@@ -1,70 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-все=SPRO,pl=dat
-_
-как-нибудь=ADVPRO=
-_
-помогать=V,intr=sg,imper,2p,pf
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-смятый=A=sg,brev,m
-_
-беспощадный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-судьба=S,f,inan=ins,sg
-,\n
-но=CONJ=
-_
-они=SPRO,pl=dat
-_
-не=PART=
-_
-вверяться=V,intr=sg,imper,2p,ipf
-_
-душа=S,f,inan=ins,sg
-:\n
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-они=SPRO,pl=nom
-_
-быть=V,intr=inpraes,pl,indic,3p
-_
-враг=S,m,anim=nom,pl
-.\n\n
-они=SPRO,pl=(acc|gen)
-_
-можно=ADV,praed=
-_
-любить=V,ipf,tran=inf
-_
-издалека=ADV=
-,\n
-но=CONJ=
-_
-близко=ADV=
-_
-любить=V,ipf,tran=inf
-_
-они=SPRO,pl=(acc|gen)
-_
-нельзя=ADV,praed=
-:\n
-увы=INTJ=
-!_
-они=SPRO,pl=nom
-_
-пасть=V,pf,intr=praet,pl,indic
-_
-глубоко=ADV=
-,\n
-от=PR=
-_
-страх=S,m,inan=gen,sg
-_
-к=PR=
-_
-бесстыдство=S,n,inan=dat,sg
-_
-скользить=V,ipf,intr=inpraes,ger
-.\n
+{ты=SPRO,sg,2p=nom} {все=SPRO,pl=dat} {как-нибудь=ADVPRO=} {помогать=V,intr=sg,imper,2p,pf},
+{кто=SPRO,sg,m,anim=nom} {смятый=A=sg,brev,m} {беспощадный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {судьба=S,f,inan=ins,sg},
+{но=CONJ=} {они=SPRO,pl=dat} {не=PART=} {вверяться=V,intr=sg,imper,2p,ipf} {душа=S,f,inan=ins,sg}:
+{твой=APRO=(nom,pl|acc,pl,inan)} {они=SPRO,pl=nom} {быть=V,intr=inpraes,pl,indic,3p} {враг=S,m,anim=nom,pl}.
+
+{они=SPRO,pl=(acc|gen)} {можно=ADV,praed=} {любить=V,ipf,tran=inf} {издалека=ADV=},
+{но=CONJ=} {близко=ADV=} {любить=V,ipf,tran=inf} {они=SPRO,pl=(acc|gen)} {нельзя=ADV,praed=}:
+{увы=INTJ=}! {они=SPRO,pl=nom} {пасть=V,pf,intr=praet,pl,indic} {глубоко=ADV=},
+{от=PR=} {страх=S,m,inan=gen,sg} {к=PR=} {бесстыдство=S,n,inan=dat,sg} {скользить=V,ipf,intr=inpraes,ger}.

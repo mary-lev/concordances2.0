@@ -1,116 +1,16 @@
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ласковый=A=pl,brev
-_
-и=CONJ=
-_
-мирный=A=pl,brev
-,\n
-чуть=ADV=
-_
-белеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-корабль=S,m,inan=(acc,pl|nom,pl)
-.\n
-не=PART=
-_
-забывать=V=inf,pf
-_
-родимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-смирна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-розоветь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-вдали=ADV=
-.\n
-отражать=V=praet,sg,partcp,brev,m,pf,pass,tran
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-восточный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\n
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-струя=S,f,inan=ins,sg
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-наступать=V,intr=inpraes,sg,indic,3p,ipf
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-урочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-как=ADVPRO=
-_
-спускаться=V,intr=praet,pl,indic,ipf
-_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-.\n
-и=CONJ=
-_
-смеяться=V,ipf,intr=praet,pl,indic
-,_
-и=CONJ=
-_
-плескаться=V,ipf,intr=praet,pl,indic
-,\n
-пеня=S,f,inan=nom,sg
-_
-плоский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-водоем=S,m,inan=(acc,sg|nom,sg)
-;\n
-как=ADVPRO=
-_
-встречаться=V,intr=praet,pl,indic,ipf
-,_
-так=ADVPRO=
-_
-расставаться=V,intr=praet,pl,indic,pf
-,_\n
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-поесть=V,pf,tran=inpraes,sg,indic,1p
-.\n
-жадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-еле=ADV=
-_
-ловить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-уж=PART=
-_
-туманный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-холм=S,m,inan=(acc,pl|nom,pl)
-;\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-морской=A,plen=nom,sg,f
-_
-глубь=S,f,inan=(acc,sg|nom,sg)
-_
-готовить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-в=PR=
-_
-пена=S,f,inan=(abl,sg|dat,sg)
-_
-плескать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-кайма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ласковый=A=pl,brev} {и=CONJ=} {мирный=A=pl,brev},
+{чуть=ADV=} {белеть=V,ipf,intr=inpraes,pl,indic,3p} {корабль=S,m,inan=(acc,pl|nom,pl)}.
+{не=PART=} {забывать=V=inf,pf} {родимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {смирна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{розоветь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {вдали=ADV=}.
+{отражать=V=praet,sg,partcp,brev,m,pf,pass,tran} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {восточный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+{бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {блеск=S,m,inan=(acc,sg|nom,sg)} {струя=S,f,inan=ins,sg} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{наступать=V,intr=inpraes,sg,indic,3p,ipf} {час=S,m,inan=(acc,sg|nom,sg)} {урочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{как=ADVPRO=} {спускаться=V,intr=praet,pl,indic,ipf} {мы=SPRO,pl,1p=nom} {в=PR=} {сад=S,m,inan=(acc,pl|nom,pl)}.
+{и=CONJ=} {смеяться=V,ipf,intr=praet,pl,indic}, {и=CONJ=} {плескаться=V,ipf,intr=praet,pl,indic},
+{пеня=S,f,inan=nom,sg} {плоский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {водоем=S,m,inan=(acc,sg|nom,sg)};
+{как=ADVPRO=} {встречаться=V,intr=praet,pl,indic,ipf}, {так=ADVPRO=} {расставаться=V,intr=praet,pl,indic,pf}, 
+{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пленный=A=(acc,pl,plen,inan|nom,pl,plen)} {поесть=V,pf,tran=inpraes,sg,indic,1p}.
+{жадный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {еле=ADV=} {ловить=V,ipf,tran=inpraes,sg,indic,3p} 
+{уж=PART=} {туманный=A=(acc,pl,plen,inan|nom,pl,plen)} {холм=S,m,inan=(acc,pl|nom,pl)};
+{что=SPRO,sg,n,inan=(acc|nom)} {морской=A,plen=nom,sg,f} {глубь=S,f,inan=(acc,sg|nom,sg)} {готовить=V,ipf,tran=inpraes,sg,indic,3p} 
+{в=PR=} {пена=S,f,inan=(abl,sg|dat,sg)} {плескать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {кайма=S,f,inan=(acc,pl|gen,sg|nom,pl)}?

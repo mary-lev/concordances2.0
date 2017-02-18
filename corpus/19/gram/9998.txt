@@ -1,122 +1,19 @@
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-украшать=V=praet,sg,partcp,brev,m,pf,pass,tran
-,\n
-домострой=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-очень=ADV=
-_
-строгий=A=sg,brev,m
-,\n
-но=CONJ=
-,_
-когда=CONJ=
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-погасить=V,pf,tran=praet,sg,partcp,brev,m,pass
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-мерещиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-на=PR=
-_
-мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-колонна=S,f,inan=abl,pl
-\n
-подниматься=V,intr=praet,sg,indic,m,pf
-_
-высоко=ADV=
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-из=PR=
-_
-многий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лампион=S,m,inan=gen,pl
-\n
-свет=S,sg,m,inan=(acc|nom)
-_
-торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-течь=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-дама=S,f,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-рыцарь=S,m,anim=(acc,pl|gen,pl)
-_
-улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-детский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-паж=S,m,anim=(acc,pl|gen,pl)
-,\n
-а=CONJ=
-_
-литавры=S,pl,inan=(acc|nom)
-,_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-скрипка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-все=SPRO,pl=(acc|nom)
-_
-звонкий=A=comp
-_
-и=CONJ=
-_
-весело=ADV=comp
-.\n\n
-я=SPRO,sg,1p=nom
-,_
-король=S,m,anim=nom,sg
-,_
-на=PR=
-_
-новоселие?=S,n,inan=abl,sg
-\n
-открывать=V=inpraes,sg,indic,1p,ipf,tran
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бал=S,m,inan=(acc,sg|nom,sg)
-,\n
-чтобы=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-гость=S,m,anim=nom,sg
-_
-в=PR=
-_
-веселие=S,n,inan=abl,sg
-\n
-все=SPRO,pl=(acc|nom)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-забывать=V=praet,sg,indic,m,ipf,tran
-.\n
+{бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {украшать=V=praet,sg,partcp,brev,m,pf,pass,tran},
+{домострой=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {очень=ADV=} {строгий=A=sg,brev,m},
+{но=CONJ=}, {когда=CONJ=} {огонь=S,m,inan=(acc,sg|nom,sg)} {погасить=V,pf,tran=praet,sg,partcp,brev,m,pass},
+{я=SPRO,sg,1p=(abl|dat)} {мерещиться=V,ipf,intr=inpraes,sg,indic,3p} {чертог=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {он=SPRO,sg,3p,m=abl} {на=PR=} {мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {колонна=S,f,inan=abl,pl}
+{подниматься=V,intr=praet,sg,indic,m,pf} {высоко=ADV=} {свод=S,m,inan=(acc,sg|nom,sg)},
+{где=ADVPRO=} {из=PR=} {многий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лампион=S,m,inan=gen,pl}
+{свет=S,sg,m,inan=(acc|nom)} {торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {течь=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{дама=S,f,anim=(acc,pl|gen,pl)} {и=CONJ=} {рыцарь=S,m,anim=(acc,pl|gen,pl)} {улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {детский=A=(acc,pl,plen,inan|nom,pl,plen)} {паж=S,m,anim=(acc,pl|gen,pl)},
+{а=CONJ=} {литавры=S,pl,inan=(acc|nom)}, {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {скрипка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{все=SPRO,pl=(acc|nom)} {звонкий=A=comp} {и=CONJ=} {весело=ADV=comp}.
+
+{я=SPRO,sg,1p=nom}, {король=S,m,anim=nom,sg}, {на=PR=} {новоселие?=S,n,inan=abl,sg}
+{открывать=V=inpraes,sg,indic,1p,ipf,tran} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бал=S,m,inan=(acc,sg|nom,sg)},
+{чтобы=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {гость=S,m,anim=nom,sg} {в=PR=} {веселие=S,n,inan=abl,sg}
+{все=SPRO,pl=(acc|nom)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {забывать=V=praet,sg,indic,m,ipf,tran}.

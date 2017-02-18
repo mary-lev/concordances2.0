@@ -1,118 +1,17 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-светло=ADV=comp
-_
-пение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-светлый=A=comp
-_
-чудотворение?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-светло=ADV=comp
-,_
-чем=CONJ=
-_
-алмаз=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-чем=CONJ=
-_
-пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-светлый=A=comp
-_
-моление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-солнечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-зрение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-светлый=A=comp
-,_
-чем=CONJ=
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-?\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-звон=S,m,inan=(acc,pl|nom,pl)
-_
-пение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-чудотворение?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-жемчуг=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-алмаз=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-час=S,m,inan=abl,sg
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-моление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-солнечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-зрение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-луна=S,f,inan=nom,sg
-,_
-и=CONJ=
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-.\n
-любить=V,ipf,tran=sg,imper,2p
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {светло=ADV=comp} {пение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{светлый=A=comp} {чудотворение?=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{светло=ADV=comp}, {чем=CONJ=} {алмаз=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {чем=CONJ=} {пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}?
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {светлый=A=comp} {моление=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {солнечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {зрение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{светлый=A=comp}, {чем=CONJ=} {мед=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)}?
+{любовь=S,f,inan=(acc,sg|nom,sg)}, {любовь=S,f,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {звон=S,m,inan=(acc,pl|nom,pl)} {пение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {свет=S,sg,m,inan=(acc|nom)} {чудотворение?=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {жемчуг=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {алмаз=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {час=S,m,inan=abl,sg} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {свет=S,sg,m,inan=(acc|nom)} {моление=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {солнечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {зрение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{луна=S,f,inan=nom,sg}, {и=CONJ=} {мед=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)}.
+{любить=V,ipf,tran=sg,imper,2p} — {любовь=S,f,inan=(acc,sg|nom,sg)}.

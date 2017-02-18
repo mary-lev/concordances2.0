@@ -1,60 +1,9 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-целомудрие=S,n,inan=(acc,sg|nom,sg)
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-целомудрие=S,n,inan=(acc,sg|nom,sg)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-пускай=PART=
-_
-грешный=A=pl,brev
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-молчание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-я=SPRO,sg,1p=nom
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_
-носить=V,ipf,tran=inpraes,sg,indic,1p
-_
-в=PR=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-не=PART=
-_
-называть=V,tran=inpraes,sg,indic,1p,pf
-_
-родной=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-безмолвный=A=nom,sg,plen,f
-_
-святой=A=sg,brev,f
-.\n
-и=CONJ=
-_
-чем=CONJ=
-_
-тоска=S,f,inan=nom,sg
-_
-неутолимый=A=comp
-,\n
-тем=CONJ=
-_
-молчаливый=A=comp
-_
-уста=S,pl,inan=(acc|nom)
-.\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {целомудрие=S,n,inan=(acc,sg|nom,sg)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {целомудрие=S,n,inan=(acc,sg|nom,sg)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{пускай=PART=} {грешный=A=pl,brev} {мой=APRO=(nom,pl|acc,pl,inan)} {молчание=S,n,inan=(acc,pl|gen,sg|nom,pl)} — 
+{я=SPRO,sg,1p=nom} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {грех=S,m,inan=(acc,sg|nom,sg)} {носить=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{не=PART=} {называть=V,tran=inpraes,sg,indic,1p,pf} {родной=A=(acc,sg,plen,n|nom,sg,plen,n)} {имя=S,n,inan=(acc,sg|nom,sg)},
+{любовь=S,f,inan=(acc,sg|nom,sg)} {безмолвный=A=nom,sg,plen,f} {святой=A=sg,brev,f}.
+{и=CONJ=} {чем=CONJ=} {тоска=S,f,inan=nom,sg} {неутолимый=A=comp},
+{тем=CONJ=} {молчаливый=A=comp} {уста=S,pl,inan=(acc|nom)}.

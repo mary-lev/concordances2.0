@@ -1,150 +1,20 @@
-два=NUM=(nom,f|acc,f,inan)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-один=APRO=nom,sg,f
-_
-с=PR=
-_
-высота=S,f,inan=gen,pl
-,\n
-а=CONJ=
-_
-другой=APRO=nom,sg,f
-_\u2014_
-из=PR=
-_
-низина=S,f,inan=gen,pl
-.\n
-два=NUM=(nom,f|acc,f,inan)
-_
-беда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-один=ANUM=nom,sg,f
-_
-убивать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-над=PR=
-_
-другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_\u2014_
-ты=SPRO,sg,2p=nom
-_
-властелин=S,m,anim=nom,sg
-.\n
-два=NUM=(nom,f|acc,f,inan)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-а=CONJ=
-_
-капля=S,f,inan=gen,pl
-_
-счет=S,m,inan=(acc,sg|nom,sg)
-\n
-сливать=V=praet,sg,partcp,brev,m,pf,pass
-_
-в=PR=
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-в=PR=
-_
-игра=S,f,inan=(abl,sg|dat,sg)
-_
-пучина=S,f,inan=gen,pl
-.\n\n
-тучно=ADV=
-_
-пучиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-,\n
-вековой=A=nom,sg,plen,f
-_
-глубина=S,f,inan=nom,sg
-.\n
-колыхаться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-кит=S,m,anim=nom,sg
-,\n
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,_
-когда=CONJ=
-_
-в=PR=
-_
-пучина=S,f,inan=abl,pl
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-тучный=A=pl,brev
-_
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сноп=S,m,inan=(acc,pl|nom,pl)
-,\n
-звучный=A=pl,brev
-_
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-серп=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-кончать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,_
-таять=V,ipf,intr=inpraes,sg,indic,3p
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-,\n
-зеленеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-гладь=S,f,inan=(acc,sg|nom,sg)
-_
-долина=S,f,inan=gen,pl
-.\n
-ледоход=S,m,inan=(acc,sg|nom,sg)
-,_
-вода=S,f,inan=nom,sg
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-мертвый=A=sg,brev,f
-,_
-но=CONJ=
-_
-веселый=A=sg,brev,m
-_
-сын=S,m,anim=nom,sg
-.\n
-ключ=S,m,inan=(acc,sg|nom,sg)
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-,_
-в=PR=
-_
-цветок=S,m,inan=abl,pl
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-,\n
-два=NUM=(nom,f|acc,f,inan)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-а=CONJ=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{два=NUM=(nom,f|acc,f,inan)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {один=APRO=nom,sg,f} {с=PR=} {высота=S,f,inan=gen,pl},
+{а=CONJ=} {другой=APRO=nom,sg,f} — {из=PR=} {низина=S,f,inan=gen,pl}.
+{два=NUM=(nom,f|acc,f,inan)} {беда=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {один=ANUM=nom,sg,f} {убивать=V,tran=inpraes,sg,indic,3p,pf},
+{над=PR=} {другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} — {ты=SPRO,sg,2p=nom} {властелин=S,m,anim=nom,sg}.
+{два=NUM=(nom,f|acc,f,inan)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {а=CONJ=} {капля=S,f,inan=gen,pl} {счет=S,m,inan=(acc,sg|nom,sg)}
+{сливать=V=praet,sg,partcp,brev,m,pf,pass} {в=PR=} {один=APRO=(acc,sg,n|nom,sg,n)} {в=PR=} {игра=S,f,inan=(abl,sg|dat,sg)} {пучина=S,f,inan=gen,pl}.
+
+{тучно=ADV=} {пучиться=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom},
+{вековой=A=nom,sg,plen,f} {глубина=S,f,inan=nom,sg}.
+{колыхаться=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {кит=S,m,anim=nom,sg},
+{в=PR=} {час=S,m,inan=(acc,sg|nom,sg)}, {когда=CONJ=} {в=PR=} {пучина=S,f,inan=abl,pl} {спать=V,ipf,intr=inpraes,sg,indic,3p}.
+{тучный=A=pl,brev} {вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {сноп=S,m,inan=(acc,pl|nom,pl)},
+{звучный=A=pl,brev} {коса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {серп=S,m,inan=(acc,pl|nom,pl)}.
+
+{холод=S,m,inan=(acc,sg|nom,sg)} {кончать=V,tran=praet,sg,partcp,brev,m,pf,pass}, {таять=V,ipf,intr=inpraes,sg,indic,3p} {лед=S,m,inan=(acc,sg|nom,sg)},
+{зеленеть=V,ipf,intr=inpraes,sg,indic,3p} {гладь=S,f,inan=(acc,sg|nom,sg)} {долина=S,f,inan=gen,pl}.
+{ледоход=S,m,inan=(acc,sg|nom,sg)}, {вода=S,f,inan=nom,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p},
+{мать=S,f,anim=(acc,sg|nom,sg)} {мертвый=A=sg,brev,f}, {но=CONJ=} {веселый=A=sg,brev,m} {сын=S,m,anim=nom,sg}.
+{ключ=S,m,inan=(acc,sg|nom,sg)} {петь=V,ipf,tran=inpraes,sg,indic,3p}, {в=PR=} {цветок=S,m,inan=abl,pl} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {мед=S,m,inan=(acc,sg|nom,sg)},
+{два=NUM=(nom,f|acc,f,inan)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {а=CONJ=} {путь=S,m,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.

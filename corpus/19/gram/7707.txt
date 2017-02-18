@@ -1,82 +1,14 @@
-новый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-год=S,m,inan=(dat,sg|loc,sg)
-_
-навстречу=ADV=
-\n
-я=SPRO,sg,1p=nom
-_
-посылать=V=inpraes,sg,indic,1p,ipf,tran
-_
-проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-смело=ADV=
-_
-бросалисить?=V,ipf,intr=inpraes,ger
-_
-в=PR=
-_
-сеча=S,f,inan=acc,sg
-\n
-прежде=PR=
-_
-свободный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-брат=S,m,anim=nom,pl
-,\n\n
-смело=ADV=
-_
-сражаться=V,intr=praet,pl,indic,ipf
-_
-за=PR=
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-слава=S,f,inan=acc,sg
-,_
-и=CONJ=
-_
-честь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-свобода=S,f,inan=acc,sg
-,\n
-но=CONJ=
-_
-непонятный=A=ins,sg,plen,f
-_
-власть=S,f,inan=ins,sg
-\n
-сковывать=V=praet,pl,partcp,brev,pf,pass
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-народ=S,m,inan=(dat,sg|part,sg)
-,\n\n
-и=CONJ=
-_
-пропадать=V,intr=inpraes,pl,indic,3p,ipf
-_
-усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-гибнуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-могучий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-человек=S,m,anim=nom,pl
-,\n
-стонать=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бессилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-благородный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{новый=A=(dat,sg,plen,m|dat,sg,plen,n)} {год=S,m,inan=(dat,sg|loc,sg)} {навстречу=ADV=}
+{я=SPRO,sg,1p=nom} {посылать=V=inpraes,sg,indic,1p,ipf,tran} {проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+{смело=ADV=} {бросалисить?=V,ipf,intr=inpraes,ger} {в=PR=} {сеча=S,f,inan=acc,sg}
+{прежде=PR=} {свободный=A=(acc,pl,plen,inan|nom,pl,plen)} {брат=S,m,anim=nom,pl},
+
+{смело=ADV=} {сражаться=V,intr=praet,pl,indic,ipf} {за=PR=} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{слава=S,f,inan=acc,sg}, {и=CONJ=} {честь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {свобода=S,f,inan=acc,sg},
+{но=CONJ=} {непонятный=A=ins,sg,plen,f} {власть=S,f,inan=ins,sg}
+{сковывать=V=praet,pl,partcp,brev,pf,pass} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {народ=S,m,inan=(dat,sg|part,sg)},
+
+{и=CONJ=} {пропадать=V,intr=inpraes,pl,indic,3p,ipf} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{гибнуть=V,ipf,intr=inpraes,pl,indic,3p} {могучий=A=(acc,pl,plen,inan|nom,pl,plen)} {человек=S,m,anim=nom,pl},
+{стонать=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бессилие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {благородный=A=(acc,pl,plen,inan|nom,pl,plen)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

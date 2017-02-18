@@ -1,96 +1,15 @@
-падать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-,_
-падать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-женский=A=nom,sg,plen,f
-_
-душа=S,f,inan=nom,sg
-_
-бессознательный=A=sg,brev,f
-,\n
-много=ADV,praed=
-_
-ли=PART=
-_
-нужно=ADV,praed=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-?\n\n
-быть=V,intr=pl,imper,2p
-_
-же=PART=
-,_
-как=ADVPRO=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-отныне=ADV=
-_
-я=SPRO,sg,1p=nom
-,\n
-к=PR=
-_
-женщина=S,f,anim=(abl,sg|dat,sg)
-_
-тихо=ADV=
--
-внимательный=A=pl,brev
-,\n
-и=CONJ=
-_
-ласковый=A=comp
-,_
-и=CONJ=
-_
-нежно=ADV=comp
-.\n\n
-женский=A=nom,sg,plen,f
-_
-душа=S,f,inan=nom,sg
-_\u2014_
-пустынный=A=nom,sg,plen,f
-,\n
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-ли=PART=
-,_
-какой=APRO=nom,sg,f
-_
-холодный=A=nom,sg,plen,f
-,\n
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-ли=PART=
-,_
-как=CONJ=
-_
-грубый=A=sg,brev,f
-?\n\n
-утешать=V,tran=pl,imper,2p,ipf
-_
-же=PART=
-_
-душа=S,f,inan=acc,sg
-_
-невинный=A=acc,sg,plen,f
-,\n
-обманывать=V,tran=pl,imper,2p,pf
-,_
-что=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-свободный=A=nom,sg,plen,f
-...\n
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-_
-она=SPRO,sg,3p,f=nom
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-раб=S,m,anim=(acc,sg|gen,sg)
-.\n
+{падать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}, {падать=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{женский=A=nom,sg,plen,f} {душа=S,f,inan=nom,sg} {бессознательный=A=sg,brev,f},
+{много=ADV,praed=} {ли=PART=} {нужно=ADV,praed=} {она=SPRO,sg,3p,f=(dat|ins)}?
+
+{быть=V,intr=pl,imper,2p} {же=PART=}, {как=ADVPRO=} {быть=V,intr=inpraes,sg,indic,1p} {отныне=ADV=} {я=SPRO,sg,1p=nom},
+{к=PR=} {женщина=S,f,anim=(abl,sg|dat,sg)} {тихо=ADV=}-{внимательный=A=pl,brev},
+{и=CONJ=} {ласковый=A=comp}, {и=CONJ=} {нежно=ADV=comp}.
+
+{женский=A=nom,sg,plen,f} {душа=S,f,inan=nom,sg} — {пустынный=A=nom,sg,plen,f},
+{знать=V,ipf,tran=inpraes,sg,indic,3p} {ли=PART=}, {какой=APRO=nom,sg,f} {холодный=A=nom,sg,plen,f},
+{знать=V,ipf,tran=inpraes,sg,indic,3p} {ли=PART=}, {как=CONJ=} {грубый=A=sg,brev,f}?
+
+{утешать=V,tran=pl,imper,2p,ipf} {же=PART=} {душа=S,f,inan=acc,sg} {невинный=A=acc,sg,plen,f},
+{обманывать=V,tran=pl,imper,2p,pf}, {что=CONJ=} {она=SPRO,sg,3p,f=nom} {свободный=A=nom,sg,plen,f}...
+{все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n} {она=SPRO,sg,3p,f=nom} {быть=V,intr=inpraes,sg,indic,3p} {раб=S,m,anim=(acc,sg|gen,sg)}.

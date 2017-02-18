@@ -1,62 +1,9 @@
-бедный=A=nom,sg,plen,f
-_
-ты=SPRO,sg,2p=nom
-_
-замарашка=S,mf,anim=nom,sg
-,\n
-серенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-робкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зверок=S,m,anim=nom,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-полевой=A=nom,sg,plen,f
-_
-ромашка=S,f,inan=nom,sg
-,\n
-никто=SPRO,sg,m,anim=ins
-_
-нелюбимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-и=CONJ=
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-,_
-как=CONJ=
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-\n
-прелесть=S,f,inan=(acc,sg|nom,sg)
-_
-незнатный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поле=S,n,inan=gen,pl
-,\n
-вид=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-обманывать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-ты=SPRO,sg,2p=nom
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-красавица=S,f,anim=(acc,pl|gen,pl)
-_
-милый=A=comp
-.\n
+{бедный=A=nom,sg,plen,f} {ты=SPRO,sg,2p=nom} {замарашка=S,mf,anim=nom,sg},
+{серенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {робкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зверок=S,m,anim=nom,sg},
+{ты=SPRO,sg,2p=nom} {полевой=A=nom,sg,plen,f} {ромашка=S,f,inan=nom,sg},
+{никто=SPRO,sg,m,anim=ins} {нелюбимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цветок=S,m,inan=(acc,sg|nom,sg)}.
+
+{ты=SPRO,sg,2p=nom} {и=CONJ=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,2p}, {как=CONJ=} {манить=V,ipf,tran=inpraes,sg,indic,3p}
+{прелесть=S,f,inan=(acc,sg|nom,sg)} {незнатный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=gen,pl},
+{вид=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {обманывать=V,tran=inpraes,sg,indic,3p,pf},
+{ты=SPRO,sg,2p=nom} {все=SPRO,pl=(abl|acc|gen)} {я=SPRO,sg,1p=(abl|dat)} {красавица=S,f,anim=(acc,pl|gen,pl)} {милый=A=comp}.

@@ -1,82 +1,15 @@
-как=ADVPRO=
-_
-невеста=S,f,anim=nom,sg
-,_
-получать=V,tran=inpraes,sg,indic,1p,ipf
-\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-по=PR=
-_
-письмо=S,n,inan=dat,sg
-,\n
-поздно=ADV=
-_
-ночь=S,f,inan=ins,sg
-_
-отвечать=V,intr=inpraes,sg,indic,1p,ipf
-\n
-друг=S,m,anim=dat,sg
-_
-мой=APRO=(dat,sg,m|dat,sg,n)
-:\n\n\xAB
-я=SPRO,sg,1p=nom
-_
-гостить=V,ipf,intr=inpraes,sg,indic,1p
-_
-у=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-по=PR=
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-_
-в=PR=
-_
-тьма=S,f,inan=acc,sg
-.\n
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ласковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-не=PART=
-_
-делать=V,ipf,tran=sg,imper,2p
-\n
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-никто=SPRO,sg,m,anim=dat
-\xBB.\n\n
-и=CONJ=
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=nom,sg
-_
-больший=A=nom,sg,plen,f
-\n
-между=PR=
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-ствол=S,m,inan=gen,pl
-,\n
-так=ADVPRO=
-_
-спокойно=ADV=
-_
-обещать=V,tran=inpraes,ger,ipf
-\n
-исполнение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-сон=S,m,inan=gen,pl
-.\n\n
+{как=ADVPRO=} {невеста=S,f,anim=nom,sg}, {получать=V,tran=inpraes,sg,indic,1p,ipf}
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {вечер=S,m,inan=(acc,sg|nom,sg)} {по=PR=} {письмо=S,n,inan=dat,sg},
+{поздно=ADV=} {ночь=S,f,inan=ins,sg} {отвечать=V,intr=inpraes,sg,indic,1p,ipf}
+{друг=S,m,anim=dat,sg} {мой=APRO=(dat,sg,m|dat,sg,n)}:
+
+«{я=SPRO,sg,1p=nom} {гостить=V,ipf,intr=inpraes,sg,indic,1p} {у=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{по=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {тьма=S,f,inan=acc,sg}.
+{зло=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ласковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {не=PART=} {делать=V,ipf,tran=sg,imper,2p}
+{в=PR=} {мир=S,m,inan=abl,sg} {никто=SPRO,sg,m,anim=dat}».
+
+{и=CONJ=} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=nom,sg} {больший=A=nom,sg,plen,f}
+{между=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {ствол=S,m,inan=gen,pl},
+{так=ADVPRO=} {спокойно=ADV=} {обещать=V,tran=inpraes,ger,ipf}
+{исполнение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сон=S,m,inan=gen,pl}.
+

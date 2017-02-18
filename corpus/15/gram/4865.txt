@@ -1,82 +1,10 @@
-один=APRO=nom,sg,f
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-красота=S,f,inan=nom,sg
-.\n
-не=PART=
-_
-красота=S,f,inan=nom,sg
-_
-бог=S,m,anim=(acc,pl|gen,pl)
-_
-эллада=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-влюбленный=A=nom,sg,plen,f
-_
-мечта=S,f,inan=nom,sg
-,\n
-не=PART=
-_
-гора=S,f,inan=gen,pl
-_
-тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-громада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-не=PART=
-_
-водопад=S,m,inan=(acc,pl|nom,pl)
-,\n
-не=PART=
-_
-взор=S,m,inan=gen,pl
-_
-женский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чистота=S,sg,f,inan=nom
-.\n
-один=APRO=nom,sg,f
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-красота=S,f,inan=nom,sg
-_\u2014\n
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-отречение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-добровольный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-за=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-_
-христос=S,famn,m,anim=(acc,sg|gen,sg)
-.\n
+{один=APRO=nom,sg,f} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {мир=S,m,inan=abl,sg} {красота=S,f,inan=nom,sg}.
+{не=PART=} {красота=S,f,inan=nom,sg} {бог=S,m,anim=(acc,pl|gen,pl)} {эллада=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {не=PART=} {влюбленный=A=nom,sg,plen,f} {мечта=S,f,inan=nom,sg},
+{не=PART=} {гора=S,f,inan=gen,pl} {тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)} {громада=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {не=PART=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {не=PART=} {водопад=S,m,inan=(acc,pl|nom,pl)},
+{не=PART=} {взор=S,m,inan=gen,pl} {женский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чистота=S,sg,f,inan=nom}.
+{один=APRO=nom,sg,f} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {мир=S,m,inan=abl,sg} {красота=S,f,inan=nom,sg} —
+{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {отречение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {добровольный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{за=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)} {христос=S,famn,m,anim=(acc,sg|gen,sg)}.

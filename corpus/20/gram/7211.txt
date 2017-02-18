@@ -1,62 +1,6 @@
-серый=A=nom,sg,plen,f
-_
-комната=S,f,inan=nom,sg
-._
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-спешный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-даже=PART=
-_
-не=PART=
-_
-страшный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-даже=PART=
-_
-не=PART=
-_
-грешный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-не=PART=
-_
-умилять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,_
-не=PART=
-_
-оскорблять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,_\n
-мертвый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-человек=S,m,anim=nom,pl
-,_
-себя=SPRO=ins
-_
-утомлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-...\n\t
-я=SPRO,sg,1p=nom
-_
-они=SPRO,pl=dat
-_
-подражать=V,ipf,intr=inpraes,sg,indic,1p
-._
-никто=SPRO,sg,m,anim=(acc|gen)
-_
-не=PART=
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-._\n\t
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-._
-я=SPRO,sg,1p=nom
-_
-тихо=ADV=
-_
-спать=V,ipf,intr=inpraes,sg,indic,1p
-.\n
+{серый=A=nom,sg,plen,f} {комната=S,f,inan=nom,sg}. {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {спешный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{даже=PART=} {не=PART=} {страшный=A=(acc,pl,plen,inan|nom,pl,plen)}, {даже=PART=} {не=PART=} {грешный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{не=PART=} {умилять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, {не=PART=} {оскорблять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, 
+{мертвый=A=(acc,pl,plen,inan|nom,pl,plen)} {человек=S,m,anim=nom,pl}, {себя=SPRO=ins} {утомлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}...
+	{я=SPRO,sg,1p=nom} {они=SPRO,pl=dat} {подражать=V,ipf,intr=inpraes,sg,indic,1p}. {никто=SPRO,sg,m,anim=(acc|gen)} {не=PART=} {любить=V,ipf,tran=inpraes,sg,indic,1p}. 
+	{ничто=SPRO,sg,n=gen} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}. {я=SPRO,sg,1p=nom} {тихо=ADV=} {спать=V,ipf,intr=inpraes,sg,indic,1p}.

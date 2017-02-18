@@ -1,114 +1,17 @@
-как=CONJ=
-_
-у=PR=
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-,\n
-вспоминать=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=acc,sg,f
-,\n\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-от=PR=
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-становиться=V,intr=praet,pl,indic,pf
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-светло=ADV=comp
-_
-день=S,m,inan=gen,pl
-.\n\n
-так=ADVPRO=
-,_
-отторгать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-от=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-высоко=ADV=
-_
-мы=SPRO,pl,1p=nom
-,_
-как=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-идти=V,ipf,intr=praet,pl,indic
-.\n\n
-ни=CONJ=
-_
-отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-стыд=S,m,inan=gen,sg
-\n
-ни=CONJ=
-_
-теперь=ADV=
-,_
-ни=CONJ=
-_
-потом=ADVPRO=
-,_
-ни=CONJ=
-_
-тогда=ADVPRO=
-.\n\n
-но=CONJ=
-_
-живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-и=CONJ=
-_
-наяву=ADV=
-,\n
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,_
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-звать=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-и=CONJ=
-_
-тот=APRO=acc,sg,f
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-приоткрывать=V=praet,sg,indic,m,pf
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-захлопывать=V,tran=inf,pf
-_
-не=PART=
-_
-хватить=V,pf,tran=inpraes,sg,indic,3p
-_
-сила=S,f,inan=gen,pl
-.\n
+{как=CONJ=} {у=PR=} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {край=S,m,inan=(dat,sg|loc,sg)},
+{вспоминать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {речь=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=acc,sg,f},
+
+{а=CONJ=} {ты=SPRO,sg,2p=(abl|dat)} {от=PR=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{становиться=V,intr=praet,pl,indic,pf} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {светло=ADV=comp} {день=S,m,inan=gen,pl}.
+
+{так=ADVPRO=}, {отторгать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {от=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{высоко=ADV=} {мы=SPRO,pl,1p=nom}, {как=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {идти=V,ipf,intr=praet,pl,indic}.
+
+{ни=CONJ=} {отчаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {стыд=S,m,inan=gen,sg}
+{ни=CONJ=} {теперь=ADV=}, {ни=CONJ=} {потом=ADVPRO=}, {ни=CONJ=} {тогда=ADVPRO=}.
+
+{но=CONJ=} {живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {и=CONJ=} {наяву=ADV=},
+{слышать=V,ipf,tran=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom}, {как=ADVPRO=} {ты=SPRO,sg,2p=(acc|gen)} {звать=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{и=CONJ=} {тот=APRO=acc,sg,f} {дверь=S,f,inan=(acc,sg|nom,sg)}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {приоткрывать=V=praet,sg,indic,m,pf},
+{я=SPRO,sg,1p=(abl|dat)} {захлопывать=V,tran=inf,pf} {не=PART=} {хватить=V,pf,tran=inpraes,sg,indic,3p} {сила=S,f,inan=gen,pl}.

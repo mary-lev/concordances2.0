@@ -1,84 +1,19 @@
-как=CONJ=
-_
-сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-как=CONJ=
-_
-пьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-врасплох=ADV=
-,_
-не=PART=
-_
-готовиться=V,ipf,intr=inpraes,ger
-.\n
-височный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-яма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-бессонный=A=nom,sg,plen,f
-_
-совесть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глазница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-мертво=ADV=
-_
-и=CONJ=
-_
-светло=ADV=
-.\n
-сновидец=S,m,anim=(acc,sg|gen,sg)
-,_
-всевидец=S,m,anim=(acc,sg|gen,sg)
-\n
-пустой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-стекло=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-не=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-ли=PART=
-\n
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-шелестеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-хламида=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-вынести=V,pf=praet,sg,indic,m
-_\u2014_\n
-обратный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ущелие=S,n,inan=ins,sg
-_
-аида=S,persn,f,anim=nom,sg
-?\n\n
-не=PART=
-_
-этот=APRO=nom,sg,f
-_
-ль=PART=
-,\n
-серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-звон=S,m,inan=ins,sg
-_
-полный=A=sg,brev,f
-,\n
-вдоль=PR=
-_
-сонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-гебра?=S,f,inan=nom,sg
-\n
-плыть=V,ipf,intr=praet,sg,indic,f
-_
-голова=S,f,inan=nom,sg
-?\n
+{как=CONJ=} {сонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {как=CONJ=} {пьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{врасплох=ADV=}, {не=PART=} {готовиться=V,ipf,intr=inpraes,ger}.
+{височный=A=(acc,pl,plen,inan|nom,pl,plen)} {яма=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{бессонный=A=nom,sg,plen,f} {совесть=S,f,inan=(acc,sg|nom,sg)}.
+
+{пустой=A=(acc,pl,plen,inan|nom,pl,plen)} {глазница=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{мертво=ADV=} {и=CONJ=} {светло=ADV=}.
+{сновидец=S,m,anim=(acc,sg|gen,sg)}, {всевидец=S,m,anim=(acc,sg|gen,sg)}
+{пустой=A=(acc,sg,plen,n|nom,sg,plen,n)} {стекло=S,n,inan=(acc,sg|nom,sg)}.
+
+{не=PART=} {ты=SPRO,sg,2p=nom} {ли=PART=}
+{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {шелестеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {хламида=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {вынести=V,pf=praet,sg,indic,m} — 
+{обратный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ущелие=S,n,inan=ins,sg} {аида=S,persn,f,anim=nom,sg}?
+
+{не=PART=} {этот=APRO=nom,sg,f} {ль=PART=},
+{серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {звон=S,m,inan=ins,sg} {полный=A=sg,brev,f},
+{вдоль=PR=} {сонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {гебра?=S,f,inan=nom,sg}
+{плыть=V,ipf,intr=praet,sg,indic,f} {голова=S,f,inan=nom,sg}?

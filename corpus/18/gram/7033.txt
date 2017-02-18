@@ -1,118 +1,14 @@
-ребенок=S,m,anim=nom,pl
-_
-солнечно=ADV=
--
-рыжий=S,m,anim=(acc,sg|gen,sg)
-_
-мед=S,m,inan=gen,sg
-_\n
-и=CONJ=
-_
-коричневый=A=sg,brev,n
--
-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-мы=SPRO,pl,1p=nom
-_
-сквозь=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-во=PR=
-_
-плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-прорастать=V,intr=praet,pl,indic,pf
-,_\n
-и=CONJ=
-_
-с=PR=
-_
-огонь=S,m,inan=ins,sg
-_
-наш=APRO=nom,sg,f
-_
-сродный=A=sg,brev,f
-_
-природа=S,f,inan=nom,sg
-.\n\n
-корень=S,m,inan=(acc,pl|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-простереть=V,pf=praet,pl,partcp,brev,pass
-_
-в=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-припадать=V,intr=inpraes,pl,indic,3p,ipf
-_
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-._\n
-неустанно=ADV=
-_
-мы=SPRO,pl,1p=nom
-_
-строить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-во=PR=
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_\n
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-тело=S,n,inan=gen,pl
-_
-шестигранный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-соты=S,pl,inan=(acc|nom)
-.\n\n
-в=PR=
-_
-улей=S,m,inan=abl,sg
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-мы=SPRO,pl,1p=nom
-,_
-как=CONJ=
-_
-пчела=S,f,anim=(gen,sg|nom,pl)
-_
-у=PR=
-_
-чресла=S,pl,inan=gen
-_
-афродита=S,persn,f,anim=(gen,sg|nom,pl)
-,_\n
-виться=V,ipf,intr=inpraes,pl,indic,1p
-,_
-солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пыль=S,f,inan=ins,sg
-_
-повивать=V,tran=praet,pl,partcp,brev,pf,pass
-,_\n
-над=PR=
-_
-огонь=S,m,inan=ins,sg
-_
-золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-цветок=S,m,inan=gen,sg
-.\n
+{ребенок=S,m,anim=nom,pl} {солнечно=ADV=}-{рыжий=S,m,anim=(acc,sg|gen,sg)} {мед=S,m,inan=gen,sg} 
+{и=CONJ=} {коричневый=A=sg,brev,n}-{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{мы=SPRO,pl,1p=nom} {сквозь=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {во=PR=} {плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {прорастать=V,intr=praet,pl,indic,pf}, 
+{и=CONJ=} {с=PR=} {огонь=S,m,inan=ins,sg} {наш=APRO=nom,sg,f} {сродный=A=sg,brev,f} {природа=S,f,inan=nom,sg}.
+
+{корень=S,m,inan=(acc,pl|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)} {простереть=V,pf=praet,pl,partcp,brev,pass} {в=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{а=CONJ=} {цветок=S,m,inan=(acc,pl|nom,pl)} {припадать=V,intr=inpraes,pl,indic,3p,ipf} {к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}. 
+{неустанно=ADV=} {мы=SPRO,pl,1p=nom} {строить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)} 
+{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {тело=S,n,inan=gen,pl} {шестигранный=A=(acc,pl,plen,inan|nom,pl,plen)} {соты=S,pl,inan=(acc|nom)}.
+
+{в=PR=} {улей=S,m,inan=abl,sg} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+{мы=SPRO,pl,1p=nom}, {как=CONJ=} {пчела=S,f,anim=(gen,sg|nom,pl)} {у=PR=} {чресла=S,pl,inan=gen} {афродита=S,persn,f,anim=(gen,sg|nom,pl)}, 
+{виться=V,ipf,intr=inpraes,pl,indic,1p}, {солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пыль=S,f,inan=ins,sg} {повивать=V,tran=praet,pl,partcp,brev,pf,pass}, 
+{над=PR=} {огонь=S,m,inan=ins,sg} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {цветок=S,m,inan=gen,sg}.

@@ -1,66 +1,9 @@
-он=SPRO,sg,3p,m=nom
-_
-спрашивать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-:_\u2014_
-ты=SPRO,sg,2p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,2p
-?_\u2014\n
-нерешительный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-!\n
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-звук=S,m,inan=ins,sg
-_
-не=PART=
-_
-измерять=V,tran=inpraes,sg,indic,2p,pf
-\n
-то=CONJ=
-,_
-в=PR=
-_
-чем=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-мой=APRO=nom,sg,f
-_
-основа=S,f,inan=nom,sg
-.\n\n
-да=CONJ=
-_
-не=PART=
-_
-выражать=V=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-бледно=ADV=
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=CONJ=
-_
-ярко=ADV=
-_
-ощущать=V,tran=inpraes,sg,indic,1p,ipf
-._\u2014\n
-о=INTJ=
-,_
-с=PR=
-_
-бездонность=S,f,inan=ins,sg
-,_
-победно=ADV=
-,\n
-ослепительно=ADV=
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-!\n
+{он=SPRO,sg,3p,m=nom} {спрашивать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(acc|gen)}: — {ты=SPRO,sg,2p=nom} {верить=V,ipf,intr=inpraes,sg,indic,2p}? —
+{нерешительный=A=(acc,sg,plen,n|nom,sg,plen,n)} {слово=S,n,inan=(acc,sg|nom,sg)}!
+{этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {звук=S,m,inan=ins,sg} {не=PART=} {измерять=V,tran=inpraes,sg,indic,2p,pf}
+{то=CONJ=}, {в=PR=} {чем=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {мой=APRO=nom,sg,f} {основа=S,f,inan=nom,sg}.
+
+{да=CONJ=} {не=PART=} {выражать=V=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {бледно=ADV=},
+{то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {ярко=ADV=} {ощущать=V,tran=inpraes,sg,indic,1p,ipf}. —
+{о=INTJ=}, {с=PR=} {бездонность=S,f,inan=ins,sg}, {победно=ADV=},
+{ослепительно=ADV=} — {я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}!

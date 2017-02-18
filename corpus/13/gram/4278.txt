@@ -1,122 +1,19 @@
-занереидил?=S,persn,m,anim=nom,sg
-_
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-_
-неми?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-смарагдный?=S,geo,m,inan=(dat,pl|ins,sg)
-_
-град=S,m,inan=ins,sg
-_
-прянуть=V,pf,intr=inpraes,sg,indic,3p
-_
-рай=S,sg,m,inan=(acc|nom)
-,\n
-но=CONJ=
-_
-о=PR=
-_
-надежда=S,f,inan=(abl,sg|dat,sg)
-,_
-не=PART=
-_
-измена=S,f,inan=(abl,sg|dat,sg)
-,\n
-зеленый=A=sg,brev,n
--
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-серп=S,m,inan=(acc,sg|nom,sg)
-,_
-играть=V,ipf,tran=sg,imper,2p
-.\n\n
-и=CONJ=
-_
-словно=CONJ=
-_
-лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-лукавый=A=pl,brev
-\n(
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-петел=S,m,anim=nom,sg
-,_
-петр=S,persn,m,anim=nom,sg
-,_
-еще=ADV=
-_
-не=PART=
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-!),\n
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-_
-гадательный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-пленительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поле=S,n,inan=abl,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n\n
-сребристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стлать=V,ipf=inpraes,sg,indic,3p,tran
-_
-лен=S,m,inan=(acc,sg|nom,sg)
-_
-селена=S,persn,f,anim=nom,sg
-\n
-по=PR=
-_
-влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-топистый?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-луг=S,m,inan=dat,pl
-...\n
-светло=ADV=
--
-болотистый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-плен=S,m,inan=gen,sg
-\n
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-кружить=V,ipf,tran=inpraes,sg,indic,3p
-_
-фимиам=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-под=PR=
-_
-кипарис=S,m,inan=ins,pl
-_
-бездомный=A=sg,brev,n
-\n
-белеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-мрамор=S,m,inan=ins,sg
-_
-гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\xAB
-италия=S,geo,f,inan=nom,sg
-!\xBB_\u2014_
-темный=A=sg,brev,n
-_
-и=CONJ=
-_
-томно=ADV=
-\n
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-далекий=A=nom,sg,plen,f
-_
-труба=S,f,inan=nom,sg
-.\n
+{занереидил?=S,persn,m,anim=nom,sg} {ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)} {неми?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{смарагдный?=S,geo,m,inan=(dat,pl|ins,sg)} {град=S,m,inan=ins,sg} {прянуть=V,pf,intr=inpraes,sg,indic,3p} {рай=S,sg,m,inan=(acc|nom)},
+{но=CONJ=} {о=PR=} {надежда=S,f,inan=(abl,sg|dat,sg)}, {не=PART=} {измена=S,f,inan=(abl,sg|dat,sg)},
+{зеленый=A=sg,brev,n}-{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {серп=S,m,inan=(acc,sg|nom,sg)}, {играть=V,ipf,tran=sg,imper,2p}.
+
+{и=CONJ=} {словно=CONJ=} {лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луч=S,m,inan=(acc,sg|nom,sg)} {лукавый=A=pl,brev}
+({твой=APRO=(acc,sg,m,inan|nom,sg,m)} {петел=S,m,anim=nom,sg}, {петр=S,persn,m,anim=nom,sg}, {еще=ADV=} {не=PART=} {стих=S,m,inan=(acc,sg|nom,sg)}!),
+{плыть=V,ipf,intr=inpraes,pl,indic,3p} {гадательный=A=(acc,pl,plen,inan|nom,pl,plen)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {пленительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=abl,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.
+
+{сребристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стлать=V,ipf=inpraes,sg,indic,3p,tran} {лен=S,m,inan=(acc,sg|nom,sg)} {селена=S,persn,f,anim=nom,sg}
+{по=PR=} {влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {топистый?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {луг=S,m,inan=dat,pl}...
+{светло=ADV=}-{болотистый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {плен=S,m,inan=gen,sg}
+{тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кружить=V,ipf,tran=inpraes,sg,indic,3p} {фимиам=S,m,inan=(acc,sg|nom,sg)}.
+
+{под=PR=} {кипарис=S,m,inan=ins,pl} {бездомный=A=sg,brev,n}
+{белеть=V,ipf,intr=inpraes,pl,indic,3p} {мрамор=S,m,inan=ins,sg} {гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+«{италия=S,geo,f,inan=nom,sg}!» — {темный=A=sg,brev,n} {и=CONJ=} {томно=ADV=}
+{петь=V,ipf,tran=inpraes,sg,indic,3p} {далекий=A=nom,sg,plen,f} {труба=S,f,inan=nom,sg}.

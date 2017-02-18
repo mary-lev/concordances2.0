@@ -1,104 +1,14 @@
-мы=SPRO,pl,1p=nom
-_
-жить=V,ipf,intr=inpraes,pl,indic,1p
-_
-на=PR=
-_
-круглый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-или=CONJ=
-_
-плоский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\n
-маленький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-планета=S,f,inan=(abl,sg|dat,sg)
-._
-пить=V,ipf,tran=inpraes,pl,indic,1p
-._
-есть=V,ipf,tran=inpraes,pl,indic,1p
-.\n
-и=CONJ=
-,_
-затягиваться=V,intr=inpraes,ger,ipf
-_
-папироска=S,f,inan=ins,sg
-,\n
-иногда=ADV=
-_
-на=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n\n
-поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-,_
-и=CONJ=
-_
-вдруг=ADV=
-_
-похолодеть=V,pf,intr=inpraes,sg,indic,3p
-_\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-неизвестно=ADV=
-_
-отчего=ADVPRO=
-.\n
-из=PR=
-_
-пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-повеять=V,pf,tran=inpraes,sg,indic,3p
-_\n
-холод=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-счастие=S,n,inan=ins,sg
-_
-в=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-.\n\n
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-вспомнить=V,pf,tran=inf
-_\u2014_
-нету=ADV,praed=
-_
-мочить=V,ipf,tran=sg,imper,2p
-,_\n
-тянуться?=V,pf,intr=inpraes,sg,indic,2p
-_\u2014_
-не=PART=
-_
-доставать=V,tran=inpraes,sg,indic,3p,ipf
-_
-рука=S,f,inan=nom,sg
-...\n
-лишь=PART=
-_
-нырять=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-волна=S,f,inan=abl,pl
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_\n
-как=CONJ=
-_
-большой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-чайка=S,f,anim=(gen,sg|nom,pl)
-,_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{мы=SPRO,pl,1p=nom} {жить=V,ipf,intr=inpraes,pl,indic,1p} {на=PR=} {круглый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {или=CONJ=} {плоский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+{маленький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {планета=S,f,inan=(abl,sg|dat,sg)}. {пить=V,ipf,tran=inpraes,pl,indic,1p}. {есть=V,ipf,tran=inpraes,pl,indic,1p}.
+{и=CONJ=}, {затягиваться=V,intr=inpraes,ger,ipf} {папироска=S,f,inan=ins,sg},
+{иногда=ADV=} {на=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}.
+
+{поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}, {и=CONJ=} {вдруг=ADV=} {похолодеть=V,pf,intr=inpraes,sg,indic,3p} 
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {неизвестно=ADV=} {отчего=ADVPRO=}.
+{из=PR=} {пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {повеять=V,pf,tran=inpraes,sg,indic,3p} 
+{холод=S,m,inan=ins,sg} {и=CONJ=} {счастие=S,n,inan=ins,sg} {в=PR=} {он=SPRO,sg,3p,m=(acc|gen)}.
+
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {что-то=SPRO,sg,n,inan=(acc|nom)} {вспомнить=V,pf,tran=inf} — {нету=ADV,praed=} {мочить=V,ipf,tran=sg,imper,2p}, 
+{тянуться?=V,pf,intr=inpraes,sg,indic,2p} — {не=PART=} {доставать=V,tran=inpraes,sg,indic,3p,ipf} {рука=S,f,inan=nom,sg}...
+{лишь=PART=} {нырять=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {волна=S,f,inan=abl,pl} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, 
+{как=CONJ=} {большой=A=(acc,pl,plen,inan|nom,pl,plen)} {чайка=S,f,anim=(gen,sg|nom,pl)}, {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

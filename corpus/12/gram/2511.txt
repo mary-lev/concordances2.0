@@ -1,154 +1,19 @@
-лорд=S,m,anim=nom,sg
-_
-байрон=S,famn,m,anim=nom,sg
-!_\u2014_
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-забывать=V=praet,pl,indic,pf
-!\n
-лорд=S,m,anim=nom,sg
-_
-байрон=S,famn,m,anim=nom,sg
-!_\u2014_
-вы=SPRO,pl,2p=dat
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-не=PART=
-_
-жаль=ADV,praed=
-?\n
-на=PR=
-\t
-плечо=S,n,inan=(acc,pl|nom,pl)
-_
-шаль=S,f,inan=(acc,sg|nom,sg)
-\n
-накидывать=V,ipf,tran=praet,pl,indic
-_
-я=SPRO,sg,1p=(abl|dat)
-_\u2014_
-не=PART=
-_
-вы=SPRO,pl,2p=nom
-_
-ли=PART=
-?\n
-и=CONJ=
-_
-кудри=S,pl,inan=(acc|nom)
-_\u2014_
-жесткий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-от=PR=
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_\n
-разглаживать=V=praet,sg,indic,f,ipf,tran
-_
-вы=SPRO,pl,2p=dat
-_\u2014_
-не=PART=
-_
-я=SPRO,sg,1p=nom
-_
-ль=PART=
-?\n\n
-чей=APRO=(nom,pl|acc,pl,inan)
-_
-арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\t
-аккорд=S,m,inan=(acc,pl|nom,pl)
-\n
-над=PR=
-_
-озеро=S,n,inan=ins,sg
-,_\u2014_
-сказать=V,pf,tran=pl,imper,2p
-,_
-сэр=S,m,anim=nom,sg
-!_\u2014_\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-усмирять=V,tran=praet,pl,indic,ipf
-,_
-кондотьер=S,m,anim=nom,sg
-?\n
-и=CONJ=
-_
-мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-конь=S,m,anim=(acc,sg|gen,sg)
-,_\u2014_
-о=PR=
-,_
-гордый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-не=PART=
-_
-вы=SPRO,pl,2p=nom
-_
-ли=PART=
-_
-целовать=V,ipf,tran=praet,pl,indic
-_
-в=PR=
-_
-морда=S,f,inan=acc,sg
-,\n
-десятилетний=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-лорд=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-пэр=S,m,anim=nom,sg
-!\n\n
-кто=SPRO,sg,m,anim=nom
-,_
-плакать=V,ipf,intr=inpraes,ger
-,_
-пробовать=V,ipf,tran=praet,sg,indic,m
-_
-о=PR=
-_
-гладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ноготь=S,m,inan=(acc,sg|nom,sg)
-,_
-ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-как=CONJ=
-_
-миндаль=S,m,inan=(acc,sg|nom,sg)
-,\n
-кинжал=S,m,inan=gen,sg
-_
-дедовский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сталь=S,f,inan=(acc,sg|nom,sg)
-?\n
-кто=SPRO,sg,m,anim=nom
-_
-целовать=V,ipf,tran=praet,sg,indic,m
-_
-мой=APRO=acc,sg,f
-_
-перчатка=S,f,inan=acc,sg
-?\n_\u2014_
-лорд=S,m,anim=nom,sg
-_
-байрон=S,famn,m,anim=nom,sg
-!_\u2014_
-вы=SPRO,pl,2p=dat
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-не=PART=
-_
-жаль=ADV,praed=
-?\n
+{лорд=S,m,anim=nom,sg} {байрон=S,famn,m,anim=nom,sg}! — {вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {забывать=V=praet,pl,indic,pf}!
+{лорд=S,m,anim=nom,sg} {байрон=S,famn,m,anim=nom,sg}! — {вы=SPRO,pl,2p=dat} {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {жаль=ADV,praed=}?
+{на=PR=}	{плечо=S,n,inan=(acc,pl|nom,pl)} {шаль=S,f,inan=(acc,sg|nom,sg)}
+{накидывать=V,ipf,tran=praet,pl,indic} {я=SPRO,sg,1p=(abl|dat)} — {не=PART=} {вы=SPRO,pl,2p=nom} {ли=PART=}?
+{и=CONJ=} {кудри=S,pl,inan=(acc|nom)} — {жесткий=A=(acc,pl,plen,inan|nom,pl,plen)} {от=PR=} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — 
+{разглаживать=V=praet,sg,indic,f,ipf,tran} {вы=SPRO,pl,2p=dat} — {не=PART=} {я=SPRO,sg,1p=nom} {ль=PART=}?
+
+{чей=APRO=(nom,pl|acc,pl,inan)} {арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)}	{аккорд=S,m,inan=(acc,pl|nom,pl)}
+{над=PR=} {озеро=S,n,inan=ins,sg}, — {сказать=V,pf,tran=pl,imper,2p}, {сэр=S,m,anim=nom,sg}! — 
+{вы=SPRO,pl,2p=(abl|acc|gen)} {усмирять=V,tran=praet,pl,indic,ipf}, {кондотьер=S,m,anim=nom,sg}?
+{и=CONJ=} {мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {конь=S,m,anim=(acc,sg|gen,sg)}, — {о=PR=}, {гордый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{не=PART=} {вы=SPRO,pl,2p=nom} {ли=PART=} {целовать=V,ipf,tran=praet,pl,indic} {в=PR=} {морда=S,f,inan=acc,sg},
+{десятилетний=A,plen=(acc,sg,m,inan|nom,sg,m)} {лорд=S,m,anim=nom,sg} {и=CONJ=} {пэр=S,m,anim=nom,sg}!
+
+{кто=SPRO,sg,m,anim=nom}, {плакать=V,ipf,intr=inpraes,ger}, {пробовать=V,ipf,tran=praet,sg,indic,m} {о=PR=} {гладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {ноготь=S,m,inan=(acc,sg|nom,sg)}, {ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {как=CONJ=} {миндаль=S,m,inan=(acc,sg|nom,sg)},
+{кинжал=S,m,inan=gen,sg} {дедовский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сталь=S,f,inan=(acc,sg|nom,sg)}?
+{кто=SPRO,sg,m,anim=nom} {целовать=V,ipf,tran=praet,sg,indic,m} {мой=APRO=acc,sg,f} {перчатка=S,f,inan=acc,sg}?
+ — {лорд=S,m,anim=nom,sg} {байрон=S,famn,m,anim=nom,sg}! — {вы=SPRO,pl,2p=dat} {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {жаль=ADV,praed=}?

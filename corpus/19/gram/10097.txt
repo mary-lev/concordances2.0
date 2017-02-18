@@ -1,62 +1,15 @@
-истина=S,f,inan=nom,sg
-_1\n\u2014_
-тяжесть=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-вредить=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-вредный=A=sg,brev,m
-_
-только=PART=
-_
-гнет=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-истина=S,f,inan=nom,sg
-_2\n\u2014_
-что=CONJ=
-_
-директор=S,m,anim=nom,sg
-_
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-столько=NUM=(acc|nom)
-_
-он=SPRO,sg,3p,m=nom
-_
-и=CONJ=
-_
-врать=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-истина=S,f,inan=nom,sg
-_3\n\u2014_
-штукатурка=S,f,inan=nom,sg
-_\u2014_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-вздор=S,m,inan=(acc,sg|nom,sg)
-,\n
-нужный=A=sg,brev,m
-_
-лишь=PART=
-_
-печник=S,m,anim=nom,sg
-.\n\n
-истина=S,f,inan=nom,sg
-_4\n\u2014_
-и=CONJ=
-_
-воровать=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-да=CONJ=
-_
-не=PART=
-_
-вор=S,m,anim=nom,sg
-,_\u2014\n
-а=CONJ=
-_
-всего=PART=
-_
-сквозник?=S,m,anim=nom,sg
-.\n
+{истина=S,f,inan=nom,sg} 1
+— {тяжесть=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {вредить=V,ipf,intr=inpraes,sg,indic,3p},
+{вредный=A=sg,brev,m} {только=PART=} {гнет=S,m,inan=(acc,sg|nom,sg)}.
+
+{истина=S,f,inan=nom,sg} 2
+— {что=CONJ=} {директор=S,m,anim=nom,sg} {говорить=V,ipf,tran=inpraes,sg,indic,3p},
+{столько=NUM=(acc|nom)} {он=SPRO,sg,3p,m=nom} {и=CONJ=} {врать=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{истина=S,f,inan=nom,sg} 3
+— {штукатурка=S,f,inan=nom,sg} — {это=SPRO,sg,n,inan=(acc|nom)} {вздор=S,m,inan=(acc,sg|nom,sg)},
+{нужный=A=sg,brev,m} {лишь=PART=} {печник=S,m,anim=nom,sg}.
+
+{истина=S,f,inan=nom,sg} 4
+— {и=CONJ=} {воровать=V,ipf,tran=inpraes,sg,indic,3p} — {да=CONJ=} {не=PART=} {вор=S,m,anim=nom,sg}, —
+{а=CONJ=} {всего=PART=} {сквозник?=S,m,anim=nom,sg}.

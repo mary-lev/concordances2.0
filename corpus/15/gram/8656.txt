@@ -1,152 +1,19 @@
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-создавать=V,tran=inpraes,pl,indic,3p,ipf
-_
-панорама=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-замок=S,m,inan=(acc,pl|nom,pl)
-_
-из=PR=
-_
-туча=S,f,inan=gen,pl
-,_
-минарет=S,m,inan=(acc,pl|nom,pl)
-,_
-и=CONJ=
-_
-храм=S,m,inan=(acc,pl|nom,pl)
-,\n
-роскошь=S,f,inan=(acc,sg|nom,sg)
-_
-невиданный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мы=SPRO,pl,1p=ins
-_
-столица=S,f,inan=gen,pl
-,\n
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-мгновение=S,n,inan=ins,sg
-_
-создавать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-лицо=S,n,inan=gen,pl
-.\n\n
-все=SPRO,pl=(acc|nom)
-,_
-что=CONJ=
-_
-непрочно=ADV=
-,_
-что=CONJ=
-_
-зыбко=ADV=
-,_
-мгновенно=ADV=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-красота=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-незабвенный=A=sg,brev,n
-,\n
-слово=S,n,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-признание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-\n
-чары=S,pl,inan=ins
-_
-воздух=S,m,inan=gen,sg
-_
-вкладывать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-в=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n\n
-чары=S,pl,inan=ins
-_
-воздух=S,m,inan=gen,sg
-_
-буйствовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-гром=S,m,inan=(acc,pl|nom,pl)
-\n
-после=ADV=
-_
-удушливый=A=sg,brev,n
--
-знойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-истома=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-радуга=S,f,inan=nom,sg
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-воздвигать=V,tran=inpraes,sg,indic,3p,ipf
-_
-дворец=S,m,inan=(acc,sg|nom,sg)
-,\n
-арка=S,f,inan=nom,sg
-_
-завет=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-сказка=S,f,inan=nom,sg
-_
-сердце=S,n,inan=gen,pl
-.\n\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-прекрасный=A=sg,brev,m
-_
-как=CONJ=
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-ураган=S,m,inan=gen,sg
-,\n
-рокот=S,m,inan=(acc,sg|nom,sg)
-_
-небесный=A=sg,brev,n
--
-военный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-стан=S,m,inan=gen,sg
-,\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-прекрасный=A=sg,brev,m
-_
-в=PR=
-_
-шуршание=S,n,inan=abl,sg
-_
-листок=S,m,inan=gen,sg
-,\n
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-рябь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-чуть=ADV=
-_
-видимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-струя=S,f,inan=gen,pl
-_
-ручеек=S,m,inan=gen,sg
-.\n
+{воздух=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {свет=S,sg,m,inan=(acc|nom)} {создавать=V,tran=inpraes,pl,indic,3p,ipf} {панорама=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{замок=S,m,inan=(acc,pl|nom,pl)} {из=PR=} {туча=S,f,inan=gen,pl}, {минарет=S,m,inan=(acc,pl|nom,pl)}, {и=CONJ=} {храм=S,m,inan=(acc,pl|nom,pl)},
+{роскошь=S,f,inan=(acc,sg|nom,sg)} {невиданный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мы=SPRO,pl,1p=ins} {столица=S,f,inan=gen,pl},
+{взор=S,m,inan=(acc,pl|nom,pl)} {мгновение=S,n,inan=ins,sg} {создавать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {лицо=S,n,inan=gen,pl}.
+
+{все=SPRO,pl=(acc|nom)}, {что=CONJ=} {непрочно=ADV=}, {что=CONJ=} {зыбко=ADV=}, {мгновенно=ADV=},
+{что=SPRO,sg,n,inan=(acc|nom)} {красота=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {незабвенный=A=sg,brev,n},
+{слово=S,n,inan=(acc,sg|nom,sg)} {без=PR=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {признание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}
+{чары=S,pl,inan=ins} {воздух=S,m,inan=gen,sg} {вкладывать=V,tran=praet,pl,partcp,brev,pf,pass} {в=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+
+{чары=S,pl,inan=ins} {воздух=S,m,inan=gen,sg} {буйствовать=V,ipf,intr=inpraes,pl,indic,3p} {гром=S,m,inan=(acc,pl|nom,pl)}
+{после=ADV=} {удушливый=A=sg,brev,n}-{знойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {истома=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{радуга=S,f,inan=nom,sg} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {воздвигать=V,tran=inpraes,sg,indic,3p,ipf} {дворец=S,m,inan=(acc,sg|nom,sg)},
+{арка=S,f,inan=nom,sg} {завет=S,m,inan=gen,sg} {и=CONJ=} {сказка=S,f,inan=nom,sg} {сердце=S,n,inan=gen,pl}.
+
+{воздух=S,m,inan=(acc,sg|nom,sg)} {прекрасный=A=sg,brev,m} {как=CONJ=} {гул=S,m,inan=(acc,sg|nom,sg)} {ураган=S,m,inan=gen,sg},
+{рокот=S,m,inan=(acc,sg|nom,sg)} {небесный=A=sg,brev,n}-{военный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {стан=S,m,inan=gen,sg},
+{воздух=S,m,inan=(acc,sg|nom,sg)} {прекрасный=A=sg,brev,m} {в=PR=} {шуршание=S,n,inan=abl,sg} {листок=S,m,inan=gen,sg},
+{в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {рябь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {чуть=ADV=} {видимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {струя=S,f,inan=gen,pl} {ручеек=S,m,inan=gen,sg}.

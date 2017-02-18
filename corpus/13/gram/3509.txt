@@ -1,142 +1,15 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-любовь=S,f,inan=ins,sg
-_
-грешный=A=sg,brev,m
-,_
-человек=S,m,anim=nom,pl
-,_\n
-перед=PR=
-_
-любовь=S,f,inan=ins,sg
-_
-грешный=A=sg,brev,m
-_
-я=SPRO,sg,1p=nom
-,\n
-как=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-чудо=S,n,inan=abl,sg
-_\n
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-пойти=V,pf,intr=praet,sg,indic,m
-_
-к=PR=
-_
-навозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-груда=S,f,inan=(abl,sg|dat,sg)
-_\n
-зарывать=V=inf,pf
-_
-жемчужина=S,f,inan=acc,sg
-_
-огонь=S,m,inan=gen,sg
-.\n
-как=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-таять=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-свет=S,sg,m,inan=abl
-_
-новый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-играть=V,ipf,tran=inpraes,ger
-_
-и=CONJ=
-_
-смеяться=V,ipf,intr=inpraes,ger
-,\n
-не=PART=
-_
-верить=V,ipf,intr=inpraes,ger
-_
-сладостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-оковы=S,pl,inan=dat
-,_\n
-высокий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-называть=V,tran=inpraes,sg,indic,3p,ipf
-_
-словом=ADV,parenth=
-_\n
-собачка=S,f,anim=(acc,pl|gen,pl)
-_
-уличный=A=acc,sg,plen,f
-_
-связь=S,f,inan=(acc,sg|nom,sg)
-.\n
-о=PR=
-,_
-радость=S,f,inan=(acc,sg|nom,sg)
-!_
-в=PR=
-_
-третий=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-сегодня=ADV=
-_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-надежный=A=sg,brev,f
-_
-и=CONJ=
-_
-светлый=A=sg,brev,f
-.\n
-с=PR=
-_
-ладья=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-небо=S,n,inan=gen,pl
-_
-спускаться=V,intr=praet,pl,indic,pf
-_
-сходни=S,pl,inan=(acc|nom)
-,_\n
-и=CONJ=
-_
-нежный=A=nom,sg,plen,f
-_
-рука=S,f,inan=nom,sg
-_
-господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)
-_\n
-я=SPRO,sg,1p=(acc|gen)
-_
-от=PR=
-_
-бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-отводить=V=praet,sg,indic,f,pf
-.\n
+{я=SPRO,sg,1p=nom} {не=PART=} {любовь=S,f,inan=ins,sg} {грешный=A=sg,brev,m}, {человек=S,m,anim=nom,pl}, 
+{перед=PR=} {любовь=S,f,inan=ins,sg} {грешный=A=sg,brev,m} {я=SPRO,sg,1p=nom},
+{как=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {слышать=V,ipf,tran=praet,sg,indic,m} {весть=S,f,inan=(acc,sg|nom,sg)} {о=PR=} {чудо=S,n,inan=abl,sg} 
+{и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {пойти=V,pf,intr=praet,sg,indic,m} {к=PR=} {навозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {груда=S,f,inan=(abl,sg|dat,sg)} 
+{зарывать=V=inf,pf} {жемчужина=S,f,inan=acc,sg} {огонь=S,m,inan=gen,sg}.
+{как=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {таять=V,ipf,intr=praet,sg,indic,m} {в=PR=} {свет=S,sg,m,inan=abl} {новый=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)}, {играть=V,ipf,tran=inpraes,ger} {и=CONJ=} {смеяться=V,ipf,intr=inpraes,ger},
+{не=PART=} {верить=V,ipf,intr=inpraes,ger} {сладостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {оковы=S,pl,inan=dat}, 
+{высокий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {называть=V,tran=inpraes,sg,indic,3p,ipf} {словом=ADV,parenth=} 
+{собачка=S,f,anim=(acc,pl|gen,pl)} {уличный=A=acc,sg,plen,f} {связь=S,f,inan=(acc,sg|nom,sg)}.
+{о=PR=}, {радость=S,f,inan=(acc,sg|nom,sg)}! {в=PR=} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {сегодня=ADV=} 
+{я=SPRO,sg,1p=(abl|dat)} {жизнь=S,f,inan=(acc,sg|nom,sg)} {надежный=A=sg,brev,f} {и=CONJ=} {светлый=A=sg,brev,f}.
+{с=PR=} {ладья=S,f,inan=(acc,pl|gen,sg|nom,pl)} {небо=S,n,inan=gen,pl} {спускаться=V,intr=praet,pl,indic,pf} {сходни=S,pl,inan=(acc|nom)}, 
+{и=CONJ=} {нежный=A=nom,sg,plen,f} {рука=S,f,inan=nom,sg} {господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)} 
+{я=SPRO,sg,1p=(acc|gen)} {от=PR=} {бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {отводить=V=praet,sg,indic,f,pf}.

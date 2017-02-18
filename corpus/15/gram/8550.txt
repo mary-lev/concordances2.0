@@ -1,152 +1,19 @@
-ты=SPRO,sg,2p=nom
-_
-создавать=V,tran=praet,sg,indic,m,pf
-_
-мыслие?=S,obsc,n,inan=dat,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-бог=S,m,anim=(acc,pl|gen,pl)
-,_
-герой=S,m,anim=(acc,pl|gen,pl)
-,_
-и=CONJ=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-,\n
-зажигать=V=praet,sg,indic,m,pf
-_
-несчетность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-светить=V,ipf,intr=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-они=SPRO,pl=(acc|gen)
-_
-зверь=S,m,anim=ins,pl
-_
-населять=V,tran=praet,sg,indic,m,pf
-.\n\n
-от=PR=
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_\u2014_
-зов=S,m,inan=(acc,sg|nom,sg)
-_
-зарница=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-вольный=A=pl,brev
-_
-в=PR=
-_
-высь=S,f,inan=abl,pl
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-,\n
-и=CONJ=
-_
-звонко=ADV=
-_
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-вешний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-струя=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-сладко=ADV=
--
-влажный=A=sg,brev,m
-_
-поцелуй=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-а=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-возникать=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-черед=S,m,inan=(acc,sg|nom,sg)
-,_\u2014\n
-кто=SPRO,sg,m,anim=nom
-_
-выходить=V,intr=inpraes,sg,indic,3p,pf
-_
-здесь=ADVPRO=
-,_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-там=ADVPRO=
-_
-входить=V,intr=inpraes,sg,indic,3p,pf
-,\n
-у=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-множество=S,n,inan=(acc,sg|nom,sg)
-_
-дверь=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-стремиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-быстро=ADV=comp
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-зверь=S,m,anim=nom,pl
-_
-в=PR=
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-горячий=A=pl,brev
-,\n
-и=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-жарко=ADV=
-_
-лить=V,ipf,tran=inpraes,sg,indic,3p
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-нет=PART=
-_
-предел=S,m,inan=gen,pl
-_
-для=PR=
-_
-страсть=S,f,inan=gen,pl
-\n
-бог=S,m,anim=(acc,pl|gen,pl)
-,_
-герой=S,m,anim=(acc,pl|gen,pl)
-,_
-и=CONJ=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n
+{ты=SPRO,sg,2p=nom} {создавать=V,tran=praet,sg,indic,m,pf} {мыслие?=S,obsc,n,inan=dat,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{бог=S,m,anim=(acc,pl|gen,pl)}, {герой=S,m,anim=(acc,pl|gen,pl)}, {и=CONJ=} {человек=S,m,anim=(acc,pl|gen,pl)},
+{зажигать=V=praet,sg,indic,m,pf} {несчетность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {светить=V,ipf,intr=praet,sg,indic,m},
+{и=CONJ=} {они=SPRO,pl=(acc|gen)} {зверь=S,m,anim=ins,pl} {населять=V,tran=praet,sg,indic,m,pf}.
+
+{от=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {край=S,m,inan=(dat,sg|loc,sg)} — {зов=S,m,inan=(acc,sg|nom,sg)} {зарница=S,f,inan=gen,pl},
+{и=CONJ=} {вольный=A=pl,brev} {в=PR=} {высь=S,f,inan=abl,pl} {крыло=S,n,inan=(acc,pl|nom,pl)} {птица=S,f,anim=(acc,pl|gen,pl)},
+{и=CONJ=} {звонко=ADV=} {пение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вешний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {струя=S,f,inan=gen,pl},
+{и=CONJ=} {сладко=ADV=}-{влажный=A=sg,brev,m} {поцелуй=S,m,inan=(acc,sg|nom,sg)}.
+
+{а=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {возникать=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {черед=S,m,inan=(acc,sg|nom,sg)}, —
+{кто=SPRO,sg,m,anim=nom} {выходить=V,intr=inpraes,sg,indic,3p,pf} {здесь=ADVPRO=}, {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {там=ADVPRO=} {входить=V,intr=inpraes,sg,indic,3p,pf},
+{у=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {множество=S,n,inan=(acc,sg|nom,sg)} {дверь=S,f,inan=gen,pl},
+{и=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {стремиться=V,ipf,intr=inpraes,sg,indic,3p} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {быстро=ADV=comp}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {зверь=S,m,anim=nom,pl} {в=PR=} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {горячий=A=pl,brev},
+{и=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {жарко=ADV=} {лить=V,ipf,tran=inpraes,sg,indic,3p} {луч=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {нет=PART=} {предел=S,m,inan=gen,pl} {для=PR=} {страсть=S,f,inan=gen,pl}
+{бог=S,m,anim=(acc,pl|gen,pl)}, {герой=S,m,anim=(acc,pl|gen,pl)}, {и=CONJ=} {человек=S,m,anim=(acc,pl|gen,pl)}.

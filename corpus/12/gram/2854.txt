@@ -1,180 +1,24 @@
-нет=PART=
-,_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-дружочек=S,m,anim=nom,sg
-_
-чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-не=PART=
-_
-делиться=V,ipf,intr=inf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-досуг=S,m,inan=ins,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-сдружаться=V,intr=praet,sg,indic,f,pf
-_
-с=PR=
-_
-новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-друг=S,m,anim=ins,sg
-,\n
-с=PR=
-_
-новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-друг=S,m,anim=ins,sg
-,_
-с=PR=
-_
-сын=S,m,anim=ins,sg
-_
-блудный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n
-у=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_\u2014_
-дворец=S,m,inan=(acc,pl|nom,pl)
--
-палата=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-у=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_\u2014_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
--
-пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-у=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_\u2014_
-войско=S,n,inan=(acc,pl|gen,sg|nom,pl)
--
-солдат=S,m,anim=nom,pl
-,\n
-у=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_\u2014_
-песок=S,m,inan=(acc,pl|nom,pl)
-_
-морской=A,plen=(nom,pl|acc,pl,inan)
-.\n\n
-нынче=ADV=
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-гулять=V,ipf,intr=inpraes,pl,indic,1p
-,\n
-завтра=ADV=
-_
-по=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-с=PR=
-_
-волк=S,m,anim=ins,pl
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ни=PART=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-постель=S,f,inan=(acc,sg|nom,sg)
-_
-иной=APRO=nom,sg,f
-:\n
-нынче=ADV=
-_\u2014_
-щебень=S,m,inan=(acc,sg|nom,sg)
-,_
-завтра=ADV=
-_\u2014_
-камень=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-уж=PART=
-_
-любить=V,ipf,tran=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-,_
-сударик=S,m,anim=nom,sg
-,\n
-чтобы=CONJ=
-_
-светло=ADV=
-,_
-как=CONJ=
-_
-на=PR=
-_
-пасха=S,f,inan=acc,sg
-:\n
-нынче=ADV=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=dat
-_
-фонарик=S,m,inan=(acc,sg|nom,sg)
-,\n
-завтра=ADV=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мы=SPRO,pl,1p=dat
-_
-лампадка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-он=SPRO,sg,3p,m=nom
-_
-всадник=S,m,anim=ins,sg
-_
-завидный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-гость=S,m,anim=ins,sg
-,_
-царский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сын=S,m,anim=ins,sg
-,_\u2014_\n
-да=CONJ=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-увидеть=V,pf,tran=praet,sg,indic,m
-_\u2014_\n
-и=CONJ=
-_
-войско=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-покидать=V,tran=praet,sg,indic,m,pf
-.\n
+{нет=PART=}, {с=PR=} {ты=SPRO,sg,2p=ins}, {дружочек=S,m,anim=nom,sg} {чудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{не=PART=} {делиться=V,ipf,intr=inf} {я=SPRO,sg,1p=(abl|dat)} {досуг=S,m,inan=ins,sg}.
+{я=SPRO,sg,1p=nom} {сдружаться=V,intr=praet,sg,indic,f,pf} {с=PR=} {новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {друг=S,m,anim=ins,sg},
+{с=PR=} {новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {друг=S,m,anim=ins,sg}, {с=PR=} {сын=S,m,anim=ins,sg} {блудный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+{у=PR=} {ты=SPRO,sg,2p=(acc|gen)} — {дворец=S,m,inan=(acc,pl|nom,pl)}-{палата=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} — {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}-{пустыня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{у=PR=} {ты=SPRO,sg,2p=(acc|gen)} — {войско=S,n,inan=(acc,pl|gen,sg|nom,pl)}-{солдат=S,m,anim=nom,pl},
+{у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} — {песок=S,m,inan=(acc,pl|nom,pl)} {морской=A,plen=(nom,pl|acc,pl,inan)}.
+
+{нынче=ADV=} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {с=PR=} {он=SPRO,sg,3p,m=ins} {гулять=V,ipf,intr=inpraes,pl,indic,1p},
+{завтра=ADV=} {по=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)} {с=PR=} {волк=S,m,anim=ins,pl}.
+{что=SPRO,sg,n,inan=(acc|nom)} {ни=PART=} {ночь=S,f,inan=(acc,sg|nom,sg)} — {постель=S,f,inan=(acc,sg|nom,sg)} {иной=APRO=nom,sg,f}:
+{нынче=ADV=} — {щебень=S,m,inan=(acc,sg|nom,sg)}, {завтра=ADV=} — {камень=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {уж=PART=} {любить=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}, {сударик=S,m,anim=nom,sg},
+{чтобы=CONJ=} {светло=ADV=}, {как=CONJ=} {на=PR=} {пасха=S,f,inan=acc,sg}:
+{нынче=ADV=} {месяц=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=dat} {фонарик=S,m,inan=(acc,sg|nom,sg)},
+{завтра=ADV=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=dat} {лампадка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{быть=V,intr=praet,sg,indic,m,ipf} {он=SPRO,sg,3p,m=nom} {всадник=S,m,anim=ins,sg} {завидный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гость=S,m,anim=ins,sg}, {царский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сын=S,m,anim=ins,sg}, — 
+{да=CONJ=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {увидеть=V,pf,tran=praet,sg,indic,m} — 
+{и=CONJ=} {войско=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свой=APRO=(nom,pl|acc,pl,inan)} {покидать=V,tran=praet,sg,indic,m,pf}.

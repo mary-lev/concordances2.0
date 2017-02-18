@@ -1,94 +1,14 @@
-под=PR=
-_
-черемуха=S,f,inan=ins,sg
-_
-цветущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-я=SPRO,sg,1p=nom
-_
-лежать=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-июльский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зной=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-вероника=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ползти=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-\n
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-увидеть=V,pf,tran=praet,sg,indic,m
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-становиться=V,intr=praet,sg,indic,n,pf
-_
-весело=ADV=
-._
-на=PR=
-_
-небо=S,n,inan=abl,sg
-_
-ль=PART=
-,\n
-на=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-ли=CONJ=
-,_\u2014_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,m
-.\n
-я=SPRO,sg,1p=nom
-_
-сорвать=V,pf,tran=praet,sg,indic,m
-_
-ползучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стебель=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-листок=S,m,inan=(acc,pl|nom,pl)
-_
-поцеловать=V,pf,tran=praet,sg,indic,m
-,\n\n
-и=CONJ=
-,_
-покрывать=V=praet,pl,partcp,brev,pf,pass
-_
-волосок=S,m,inan=ins,pl
-,\n
-быть=V,intr=praet,pl,indic,ipf
-_
-нежный=A=pl,brev
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-листок=S,m,inan=(acc,pl|nom,pl)
-,\n
-словно=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-прильнуть=V,pf,intr=praet,sg,indic,m
-_
-губа=S,f,inan=ins,pl
-\n
-к=PR=
-_
-локоть=S,m,inan=dat,sg
-_
-девичий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{под=PR=} {черемуха=S,f,inan=ins,sg} {цветущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{я=SPRO,sg,1p=nom} {лежать=V,ipf,intr=praet,sg,indic,m} {в=PR=} {июльский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зной=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {вероника=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ползти=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}
+{цвет=S,m,inan=(acc,sg|nom,sg)} {увидеть=V,pf,tran=praet,sg,indic,m} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{становиться=V,intr=praet,sg,indic,n,pf} {весело=ADV=}. {на=PR=} {небо=S,n,inan=abl,sg} {ль=PART=},
+{на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {ли=CONJ=}, — {я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=praet,sg,indic,m}.
+{я=SPRO,sg,1p=nom} {сорвать=V,pf,tran=praet,sg,indic,m} {ползучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стебель=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {листок=S,m,inan=(acc,pl|nom,pl)} {поцеловать=V,pf,tran=praet,sg,indic,m},
+
+{и=CONJ=}, {покрывать=V=praet,pl,partcp,brev,pf,pass} {волосок=S,m,inan=ins,pl},
+{быть=V,intr=praet,pl,indic,ipf} {нежный=A=pl,brev} {тот=APRO=(nom,pl|acc,pl,inan)} {листок=S,m,inan=(acc,pl|nom,pl)},
+{словно=CONJ=} {я=SPRO,sg,1p=nom} {прильнуть=V,pf,intr=praet,sg,indic,m} {губа=S,f,inan=ins,pl}
+{к=PR=} {локоть=S,m,inan=dat,sg} {девичий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

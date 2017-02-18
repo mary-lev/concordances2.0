@@ -1,122 +1,15 @@
-орел=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-архангел=S,m,anim=nom,sg
-!_
-господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-!\n
-не=PART=
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-_
-семиглавый=A,plen=(acc,sg,m,inan|nom,sg,m)
-,_
-не=PART=
-_
-царский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-гнездо=S,n,inan=ins,sg
-.\n\n
-нет=PART=
-,_\u2014_
-красный=A=nom,sg,plen,f
-_
-площадь=S,f,inan=(acc,sg|nom,sg)
-,_
-где=ADVPRO=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-!\n
-и=CONJ=
-_\u2014_
-лобный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-место=S,n,inan=(acc,sg|nom,sg)
-_
-сравнять=V,pf,tran=praet,ger
-_\u2014_
-в=PR=
-_
-поход=S,m,inan=(acc,sg|nom,sg)
-:\n
-птенец=S,m,anim=(acc,pl|gen,pl)
-_\u2014_
-собирать=V=inf,ipf,tran
-_\u2014_
-сирота=S,mf,anim=(acc,pl|gen,pl)
-.\n\n
-народ=S,m,inan=(acc,sg|nom,sg)
-_
-обезглавливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-глава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-уж=PART=
-_
-воздух=S,m,inan=(dat,sg|part,sg)
-_
-нету=ADV,praed=
-_
-ни=CONJ=
-_
-в=PR=
-_
-чей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-архангел=S,m,anim=nom,sg
-!_\u2014_
-орел=S,m,anim=nom,sg
-!_\u2014_
-грясти=V,ipf,intr=sg,imper,2p
-!\n\n
-не=PART=
-_
-зарево=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-рыскать=V,ipf=inpraes,pl,indic,3p
-,_
-не=PART=
-_
-вихорь=S,m,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-не=PART=
-_
-радуга=S,f,inan=nom,sg
-_
-пыхать=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-небо=S,n,inan=gen,pl
-,_\u2014_
-то=CONJ=
-_
-петр=S,persn,m,anim=nom,sg
-\n
-птенец=S,m,anim=dat,pl
-_
-производить=V=inpraes,sg,indic,3p,ipf,tran
-_
-смотр=S,m,inan=(acc,sg|nom,sg)
-.\n
+{орел=S,m,anim=nom,sg} {и=CONJ=} {архангел=S,m,anim=nom,sg}! {господний=A,poss=(nom,sg,brev,m|acc,sg,brev,m,inan)} {гром=S,m,inan=(acc,sg|nom,sg)}!
+{не=PART=} {храм=S,m,inan=(acc,sg|nom,sg)} {семиглавый=A,plen=(acc,sg,m,inan|nom,sg,m)}, {не=PART=} {царский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)}
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {ты=SPRO,sg,2p=(abl|dat)} {гнездо=S,n,inan=ins,sg}.
+
+{нет=PART=}, — {красный=A=nom,sg,plen,f} {площадь=S,f,inan=(acc,sg|nom,sg)}, {где=ADVPRO=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {народ=S,m,inan=(acc,sg|nom,sg)}!
+{и=CONJ=} — {лобный=A=(acc,sg,plen,n|nom,sg,plen,n)} {место=S,n,inan=(acc,sg|nom,sg)} {сравнять=V,pf,tran=praet,ger} — {в=PR=} {поход=S,m,inan=(acc,sg|nom,sg)}:
+{птенец=S,m,anim=(acc,pl|gen,pl)} — {собирать=V=inf,ipf,tran} — {сирота=S,mf,anim=(acc,pl|gen,pl)}.
+
+{народ=S,m,inan=(acc,sg|nom,sg)} {обезглавливать=V,tran=praet,sg,partcp,brev,m,pf,pass} {и=CONJ=} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {глава=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{уж=PART=} {воздух=S,m,inan=(dat,sg|part,sg)} {нету=ADV,praed=} {ни=CONJ=} {в=PR=} {чей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{архангел=S,m,anim=nom,sg}! — {орел=S,m,anim=nom,sg}! — {грясти=V,ipf,intr=sg,imper,2p}!
+
+{не=PART=} {зарево=S,n,inan=(acc,pl|gen,sg|nom,pl)} {рыскать=V,ipf=inpraes,pl,indic,3p}, {не=PART=} {вихорь=S,m,inan=(acc,sg|nom,sg)} {вставать=V,intr=inpraes,sg,indic,3p,ipf},
+{не=PART=} {радуга=S,f,inan=nom,sg} {пыхать=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {небо=S,n,inan=gen,pl}, — {то=CONJ=} {петр=S,persn,m,anim=nom,sg}
+{птенец=S,m,anim=dat,pl} {производить=V=inpraes,sg,indic,3p,ipf,tran} {смотр=S,m,inan=(acc,sg|nom,sg)}.

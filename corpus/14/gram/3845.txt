@@ -1,104 +1,15 @@
-вместо=PR=
-_
-мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-опытность=S,f,inan=(acc,sg|nom,sg)
-,_
-пресный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-неутоляющий?=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-питие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-а=CONJ=
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_\u2014_
-как=CONJ=
-_
-молитва=S,f,inan=nom,sg
-_
-воскресный=A=nom,sg,plen,f
-..._\n
-я=SPRO,sg,1p=(abl|dat)
-_
-ли=PART=
-_
-забывать=V=inf,pf
-_
-она=SPRO,sg,3p,f=(acc|gen)
-?\n\n
-столько=NUM=(acc|nom)
-_
-дорогой=A=sg,brev,m
-_
-пустынный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-исхаживать=V=praet,sg,partcp,brev,n,pf,pass
-_\n
-с=PR=
-_
-тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-милый=A=sg,brev,m
-,_\n
-столько=NUM=(acc|nom)
-_
-поклон=S,m,inan=gen,pl
-_
-в=PR=
-_
-церковь=S,f,inan=abl,pl
-_
-полагать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_\n
-за=PR=
-_
-то=SPRO,sg,n,inan=gen
-,_
-кто=SPRO,sg,m,anim=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-любить=V,ipf,tran=praet,sg,indic,m
-...\n\n
-становиться=V,intr=praet,sg,indic,f,pf
-_
-забывчивый=A=comp
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-забывчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_\n
-тихо=ADV=
-_
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-губа=S,f,inan=gen,pl
-_
-нецеловать?=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)
-,_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-неулыбчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-вернуть=V,pf,tran=inf
-_
-никогда=ADVPRO=
-.\n\n
+{вместо=PR=} {мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {опытность=S,f,inan=(acc,sg|nom,sg)}, {пресный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{неутоляющий?=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {питие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{а=CONJ=} {юность=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,f,ipf} — {как=CONJ=} {молитва=S,f,inan=nom,sg} {воскресный=A=nom,sg,plen,f}... 
+{я=SPRO,sg,1p=(abl|dat)} {ли=PART=} {забывать=V=inf,pf} {она=SPRO,sg,3p,f=(acc|gen)}?
+
+{столько=NUM=(acc|nom)} {дорогой=A=sg,brev,m} {пустынный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {исхаживать=V=praet,sg,partcp,brev,n,pf,pass} 
+{с=PR=} {тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)}, {кто=SPRO,sg,m,anim=nom} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {быть=V,intr=praet,sg,indic,m,ipf} {милый=A=sg,brev,m}, 
+{столько=NUM=(acc|nom)} {поклон=S,m,inan=gen,pl} {в=PR=} {церковь=S,f,inan=abl,pl} {полагать=V,tran=praet,sg,partcp,brev,n,pf,pass} 
+{за=PR=} {то=SPRO,sg,n,inan=gen}, {кто=SPRO,sg,m,anim=nom} {я=SPRO,sg,1p=(acc|gen)} {любить=V,ipf,tran=praet,sg,indic,m}...
+
+{становиться=V,intr=praet,sg,indic,f,pf} {забывчивый=A=comp} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {забывчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, 
+{тихо=ADV=} {плыть=V,ipf,intr=inpraes,pl,indic,3p} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{губа=S,f,inan=gen,pl} {нецеловать?=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)}, {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {неулыбчивый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {вернуть=V,pf,tran=inf} {никогда=ADVPRO=}.
+

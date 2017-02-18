@@ -1,114 +1,14 @@
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-прозрачный=A=comp
-_
-и=CONJ=
-_
-печально=ADV=comp
-,\n
-умирать=V,intr=praet,sg,indic,m,pf
-_
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-рождаться=V,intr=praet,sg,indic,f,pf
-.\n
-из=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-в=PR=
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-опочивальня=S,f,inan=(abl,sg|dat,sg)
-,\n
-лишь=PART=
-_
-один=ANUM=nom,sg,f
-_
-звезда=S,f,inan=nom,sg
-,_
-блеснуть=V,pf,intr=praet,ger
-,_
-зажигаться=V,intr=praet,sg,indic,f,pf
-.\n\n
-облачко=S,n,inan=ins,sg
-_
-окутывать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-ласково=ADV=
-_
-глядеть=V,ipf,tran=praet,sg,indic,f
-_
-с=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-призрак=S,m=(ins,sg,anim|ins,sg,inan)
-_
-воздушно=ADV=
--
-онемелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-образ=S,m,inan=ins,sg
-_
-нетленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чистота=S,sg,f,inan=gen
-.\n\n
-и=CONJ=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-по=PR=
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-_
-морской=A,plen=(dat,sg,m|dat,sg,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-вперед=ADV=
-_
-безгласный=A=sg,brev,n
-_
-уходить=V,intr=praet,sg,indic,m,ipf
-,\n
-к=PR=
-_
-новый=A=(dat,sg,plen,m|dat,sg,plen,n)
-,_
-к=PR=
-_
-нежданный=A=(dat,sg,plen,m|dat,sg,plen,n)
-,_
-к=PR=
-_
-другой=APRO=(dat,sg,m|dat,sg,n)
-,\n
-к=PR=
-_
-воздух=S,m,inan=(dat,sg|part,sg)
-_
-без=PR=
-_
-туча=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-без=PR=
-_
-светило=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)
-.\n
+{воздух=S,m,inan=(acc,sg|nom,sg)} {становиться=V,intr=praet,sg,indic,m,pf} {прозрачный=A=comp} {и=CONJ=} {печально=ADV=comp},
+{умирать=V,intr=praet,sg,indic,m,pf} {день=S,m,inan=(acc,sg|nom,sg)}, {а=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {рождаться=V,intr=praet,sg,indic,f,pf}.
+{из=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {в=PR=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {опочивальня=S,f,inan=(abl,sg|dat,sg)},
+{лишь=PART=} {один=ANUM=nom,sg,f} {звезда=S,f,inan=nom,sg}, {блеснуть=V,pf,intr=praet,ger}, {зажигаться=V,intr=praet,sg,indic,f,pf}.
+
+{облачко=S,n,inan=ins,sg} {окутывать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{ласково=ADV=} {глядеть=V,ipf,tran=praet,sg,indic,f} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{призрак=S,m=(ins,sg,anim|ins,sg,inan)} {воздушно=ADV=}-{онемелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{образ=S,m,inan=ins,sg} {нетленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чистота=S,sg,f,inan=gen}.
+
+{и=CONJ=} {с=PR=} {ты=SPRO,sg,2p=ins}, {по=PR=} {берег=S,m,inan=(dat,sg|loc,sg)} {морской=A,plen=(dat,sg,m|dat,sg,n)},
+{я=SPRO,sg,1p=nom} {вперед=ADV=} {безгласный=A=sg,brev,n} {уходить=V,intr=praet,sg,indic,m,ipf},
+{к=PR=} {новый=A=(dat,sg,plen,m|dat,sg,plen,n)}, {к=PR=} {нежданный=A=(dat,sg,plen,m|dat,sg,plen,n)}, {к=PR=} {другой=APRO=(dat,sg,m|dat,sg,n)},
+{к=PR=} {воздух=S,m,inan=(dat,sg|part,sg)} {без=PR=} {туча=S,f,inan=gen,pl} {и=CONJ=} {без=PR=} {светило=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}.

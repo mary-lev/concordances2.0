@@ -1,28 +1,7 @@
-морской=A,plen=(acc,sg,n|nom,sg,n)
-_
-марево=S,n,inan=(acc,sg|nom,sg)
-,\n
-золотой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-зарево=S,n,inan=(acc,sg|nom,sg)
-,\n
-красить=V,ipf,tran=sg,imper,2p
-_
-жарко=ADV=
-\n
-узор=S,m,inan=(acc,sg|nom,sg)
-_
-глыба=S,f,inan=gen,pl
-!\n
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-пойти=V,pf,intr=praet,pl,indic
-_
-рыба=S,f,anim=(acc,pl|gen,pl)
-!\n
+{морской=A,plen=(acc,sg,n|nom,sg,n)} {марево=S,n,inan=(acc,sg|nom,sg)},
+{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {зарево=S,n,inan=(acc,sg|nom,sg)},
+{красить=V,ipf,tran=sg,imper,2p} {жарко=ADV=}
+{узор=S,m,inan=(acc,sg|nom,sg)} {глыба=S,f,inan=gen,pl}!
+{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{пойти=V,pf,intr=praet,pl,indic} {рыба=S,f,anim=(acc,pl|gen,pl)}!

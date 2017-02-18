@@ -1,104 +1,14 @@
-аз=S,m,inan=(acc,sg|nom,sg)
-_
-есмь??
-_
-бог=S,m,anim=nom,sg
-,_
-в=PR=
-_
-век=S,m,inan=abl,pl
-_
-предсказывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-из=PR=
-_
-глубина=S,f,inan=gen,pl
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-развязывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-из=PR=
-_
-глубина=S,f,inan=gen,pl
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-свобода=S,f,inan=gen,pl
-\n
-вставать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-здесь=ADVPRO=
-,_
-как=CONJ=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-аз=S,m,inan=(acc,sg|nom,sg)
-_
-есмь??
-_
-бог=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-откровение=S,n,inan=(acc,sg|nom,sg)
-,\n
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-душа=S,f,inan=dat,pl
-_
-во=PR=
-_
-спасение=S,n,inan=(acc,sg|nom,sg)
-.\n
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-душа=S,f,inan=dat,pl
-_
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-поцелуй=S,m,inan=(acc,sg|nom,sg)
-,\n
-да=PART=
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-,_
-любить=V,ipf,tran=inpraes,ger
-:_\xAB
-ликовать=V,ipf,intr=sg,imper,2p
-!\xBB\n\n
-аз=S,m,inan=(acc,sg|nom,sg)
-_
-есмь??
-_
-бог=S,m,anim=nom,sg
-_
-вочеловечивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-звездоликость?=S,f,inan=ins,sg
-_
-отмечать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-.\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-бог=S,m,anim=(acc,pl|gen,pl)
-_
-не=PART=
-_
-счесть=V,pf,tran=inf
-,\n
-но=CONJ=
-_
-иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-_
-несть=ADV,praed=
-.\n
+{аз=S,m,inan=(acc,sg|nom,sg)} {есмь??} {бог=S,m,anim=nom,sg}, {в=PR=} {век=S,m,inan=abl,pl} {предсказывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{из=PR=} {глубина=S,f,inan=gen,pl} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {развязывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{из=PR=} {глубина=S,f,inan=gen,pl} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {свобода=S,f,inan=gen,pl}
+{вставать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {здесь=ADVPRO=}, {как=CONJ=} {миг=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {год=S,m,inan=(acc,sg|nom,sg)}.
+
+{аз=S,m,inan=(acc,sg|nom,sg)} {есмь??} {бог=S,m,anim=nom,sg} {и=CONJ=} {откровение=S,n,inan=(acc,sg|nom,sg)},
+{темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {душа=S,f,inan=dat,pl} {во=PR=} {спасение=S,n,inan=(acc,sg|nom,sg)}.
+{светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {душа=S,f,inan=dat,pl} {в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {поцелуй=S,m,inan=(acc,sg|nom,sg)},
+{да=PART=} {петь=V,ipf,tran=inpraes,pl,indic,3p}, {любить=V,ipf,tran=inpraes,ger}: «{ликовать=V,ipf,intr=sg,imper,2p}!»
+
+{аз=S,m,inan=(acc,sg|nom,sg)} {есмь??} {бог=S,m,anim=nom,sg} {вочеловечивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{звездоликость?=S,f,inan=ins,sg} {отмечать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}.
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {бог=S,m,anim=(acc,pl|gen,pl)} {не=PART=} {счесть=V,pf,tran=inf},
+{но=CONJ=} {иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {бог=S,m,anim=(acc,sg|gen,sg)} {несть=ADV,praed=}.

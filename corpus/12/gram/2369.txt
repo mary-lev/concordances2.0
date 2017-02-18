@@ -1,130 +1,19 @@
-встречать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-пришелец=S,m,anim=(acc,sg|gen,sg)
-_
-лампадка=S,f,inan=ins,sg
-,\n
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-огонь=S,m,inan=ins,sg
-.\n
-только=PART=
-_
-ни=PART=
-_
-вздох=S,m,inan=gen,sg
-_
-украдкой=ADV=
-,\n
-ни=PART=
-_
-вздох=S,m,inan=gen,sg
-_
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-!\n\n
-яркий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-свет=S,sg,m,inan=gen
-_
-не=PART=
-_
-надо=ADV,praed=
-,\n
-лампа=S,f,inan=acc,sg
-_
-совсем=ADV=
-_
-привертывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-.\n
-только=PART=
-_
-о=PR=
-_
-хороший=A=(abl,sg,plen,supr,m|abl,sg,plen,supr,n)
-_
-ни=CONJ=
-_
-взгляд=S,m,inan=gen,sg
-,\n
-ни=PART=
-_
-взгляд=S,m,inan=gen,sg
-_
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-!\n\n
-пусть=PART=
-_
-в=PR=
-_
-треволнение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-беспечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-год=S,m,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=dat
-_
-показываться=V,intr=inpraes,sg,indic,3p,pf
-_
-день=S,m,inan=ins,sg
-!\n
-только=PART=
-_
-ни=PART=
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-о=PR=
-_
-вечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-ни=PART=
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-!\n\n
-становиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_\xAB
-сестричка=S,f,anim=ins,pl
-\xBB_
-снова=ADV=
-,\n
-крепко=ADV=comp
-_
-друг=S,m,anim=nom,sg
-_
-к=PR=
-_
-друг=S,m,anim=dat,sg
-_
-прильнуть=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n
-только=PART=
-_
-о=PR=
-_
-прошлое=S,n,inan=abl,sg
-_
-ни=CONJ=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ни=PART=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-!\n
+{встречать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {пришелец=S,m,anim=(acc,sg|gen,sg)} {лампадка=S,f,inan=ins,sg},
+{тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {огонь=S,m,inan=ins,sg}.
+{только=PART=} {ни=PART=} {вздох=S,m,inan=gen,sg} {украдкой=ADV=},
+{ни=PART=} {вздох=S,m,inan=gen,sg} {о=PR=} {он=SPRO,sg,3p,m=abl}!
+
+{яркий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {свет=S,sg,m,inan=gen} {не=PART=} {надо=ADV,praed=},
+{лампа=S,f,inan=acc,sg} {совсем=ADV=} {привертывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
+{только=PART=} {о=PR=} {хороший=A=(abl,sg,plen,supr,m|abl,sg,plen,supr,n)} {ни=CONJ=} {взгляд=S,m,inan=gen,sg},
+{ни=PART=} {взгляд=S,m,inan=gen,sg} {о=PR=} {он=SPRO,sg,3p,m=abl}!
+
+{пусть=PART=} {в=PR=} {треволнение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {беспечный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{год=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=dat} {показываться=V,intr=inpraes,sg,indic,3p,pf} {день=S,m,inan=ins,sg}!
+{только=PART=} {ни=PART=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {о=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{ни=PART=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {о=PR=} {он=SPRO,sg,3p,m=abl}!
+
+{становиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} «{сестричка=S,f,anim=ins,pl}» {снова=ADV=},
+{крепко=ADV=comp} {друг=S,m,anim=nom,sg} {к=PR=} {друг=S,m,anim=dat,sg} {прильнуть=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}.
+{только=PART=} {о=PR=} {прошлое=S,n,inan=abl,sg} {ни=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{ни=PART=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {о=PR=} {он=SPRO,sg,3p,m=abl}!

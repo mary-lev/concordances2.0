@@ -1,142 +1,19 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-чуждый=A=pl,brev
-_
-ваш=APRO=(nom,pl|acc,pl,inan)
-_
-рассуждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:_\u2014\n\xAB
-христос=S,famn,m,anim=nom,sg
-\xBB,_\xAB
-антихрист=S,m,anim=nom,sg
-\xBB,_\xAB
-дьявол=S,m,anim=nom,sg
-\xBB,_\xAB
-бог=S,m,anim=nom,sg
-\xBB.\n
-я=SPRO,sg,1p=nom
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-иней=S,m,inan=(acc,sg|nom,sg)
-_
-охлаждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-ветерок=S,m,inan=gen,sg
-_
-чуть=ADV=
-_
-слышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-чуждый=A=pl,brev
-_
-ваш=APRO=(nom,pl|acc,pl,inan)
-_
-восклицание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:_\u2014\n\xAB
-полюбить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-тьма=S,f,inan=acc,sg
-\xBB,_\xAB
-возлюбить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-грех=ADV,praed=
-\xBB.\n
-я=SPRO,sg,1p=nom
-_
-причинять=V,tran=inpraes,sg,indic,1p,ipf
-_
-все=SPRO,pl=dat
-_
-терзание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-но=CONJ=
-_
-светлый=A=sg,brev,m
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-так=ADVPRO=
-_
-жестокий=A=pl,brev
-_\u2014_
-помышление=S,n,inan=ins,sg
-,\n
-вы=SPRO,pl,2p=nom
-_
-так=ADVPRO=
-_
-свирепый=A=pl,brev
-_\u2014_
-на=PR=
-_
-слово=S,n,inan=abl,pl
-.\n
-я=SPRO,sg,1p=nom
-_
-должный=A=sg,brev,m
-_
-быть=V,intr=inf,ipf
-_
-стихийный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-гений=S,m,anim=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-в=PR=
-_
-себя=SPRO=(abl|dat)
-_\u2014_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-разделять=V,tran=inpraes,pl,indic,2p,ipf
-,_
-сливать=V=inpraes,pl,indic,2p,ipf,tran
-,\n
-не=PART=
-_
-доходить=V,intr=inpraes,ger,ipf
-_
-до=PR=
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-но=CONJ=
-_
-никогда=ADVPRO=
-_
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-узнавать=V,tran=(inpraes,pl,indic,2p,ipf|inpraes,pl,indic,2p,pf)
-,\n
-как=ADVPRO=
-_
-безраздельно=ADV=
-_
-цельный=A=sg,brev,m
-_
-я=SPRO,sg,1p=nom
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {чуждый=A=pl,brev} {ваш=APRO=(nom,pl|acc,pl,inan)} {рассуждение=S,n,inan=(acc,pl|gen,sg|nom,pl)}: —
+«{христос=S,famn,m,anim=nom,sg}», «{антихрист=S,m,anim=nom,sg}», «{дьявол=S,m,anim=nom,sg}», «{бог=S,m,anim=nom,sg}».
+{я=SPRO,sg,1p=nom} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {иней=S,m,inan=(acc,sg|nom,sg)} {охлаждение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=nom} {ветерок=S,m,inan=gen,sg} {чуть=ADV=} {слышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вздох=S,m,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=(abl|dat)} {чуждый=A=pl,brev} {ваш=APRO=(nom,pl|acc,pl,inan)} {восклицание=S,n,inan=(acc,pl|gen,sg|nom,pl)}: —
+«{полюбить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {тьма=S,f,inan=acc,sg}», «{возлюбить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {грех=ADV,praed=}».
+{я=SPRO,sg,1p=nom} {причинять=V,tran=inpraes,sg,indic,1p,ipf} {все=SPRO,pl=dat} {терзание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{но=CONJ=} {светлый=A=sg,brev,m} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смех=S,m,inan=(acc,sg|nom,sg)}.
+
+{вы=SPRO,pl,2p=nom} {так=ADVPRO=} {жестокий=A=pl,brev} — {помышление=S,n,inan=ins,sg},
+{вы=SPRO,pl,2p=nom} {так=ADVPRO=} {свирепый=A=pl,brev} — {на=PR=} {слово=S,n,inan=abl,pl}.
+{я=SPRO,sg,1p=nom} {должный=A=sg,brev,m} {быть=V,intr=inf,ipf} {стихийный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гений=S,m,anim=ins,sg},
+{я=SPRO,sg,1p=nom} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {себя=SPRO=(abl|dat)} — {восторг=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}.
+
+{вы=SPRO,pl,2p=nom} {разделять=V,tran=inpraes,pl,indic,2p,ipf}, {сливать=V=inpraes,pl,indic,2p,ipf,tran},
+{не=PART=} {доходить=V,intr=inpraes,ger,ipf} {до=PR=} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{но=CONJ=} {никогда=ADVPRO=} {вы=SPRO,pl,2p=nom} {не=PART=} {узнавать=V,tran=(inpraes,pl,indic,2p,ipf|inpraes,pl,indic,2p,pf)},
+{как=ADVPRO=} {безраздельно=ADV=} {цельный=A=sg,brev,m} {я=SPRO,sg,1p=nom}.

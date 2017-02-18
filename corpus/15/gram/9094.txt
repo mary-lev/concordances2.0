@@ -1,282 +1,47 @@
-у=PR=
-_
-престол=S,m,inan=gen,sg
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-лазоревый=A=pl,brev
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-а=CONJ=
-_
-еще=ADV=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-белый=A=pl,brev
-,\n\t
-а=CONJ=
-_
-еще=ADV=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-белый=A=pl,brev
-.\n\n
-тайно=ADV=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-,\n
-там=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-определять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-\n\t
-в=PR=
-_
-вышний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предел=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-в=PR=
-_
-вышний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предел=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-ко=PR=
-_
-престол=S,m,inan=dat,sg
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-до=PR=
-_
-высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-доходить=V,intr=inpraes,sg,indic,1p,pf
-,_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-.\n\t
-брат=S,m,anim=nom,pl
-,_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-смелый=A=pl,brev
-,\n\t
-брат=S,m,anim=nom,pl
-,_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-смелый=A=pl,brev
-.\n\n
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-,\n
-там=ADVPRO=
-_
-идти=V,ipf,intr=sg,imper,2p
-_
-по=PR=
-_
-ступень=S,f,inan=dat,pl
-\n\t
-в=PR=
-_
-сумрак=S,m,inan=(acc,pl|nom,pl)
-_
-безбрежный=A=pl,brev
-,\n\t
-в=PR=
-_
-сумрак=S,m,inan=(acc,pl|nom,pl)
-_
-безбрежный=A=pl,brev
-.\n\n
-темный=A=pl,brev
-_
-горница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-проходить=V,intr=inpraes,sg,indic,2p,pf
-.\n
-светлый=A=pl,brev
-_
-горница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-находить=V=inpraes,sg,indic,2p,pf,tran
-,\n\t
-светлый=A=pl,brev
-,_
-безмятежный=A=pl,brev
-,\n\t
-светлый=A=pl,brev
-,_
-безмятежный=A=pl,brev
-.\n\n
-ввысь=ADV=
-,_
-по=PR=
-_
-лестница=S,f,inan=dat,pl
-_
-крутой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-вперед=ADV=
-_
-неукротимый=A=sg,brev,m
-,\n
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-увидеть=V,pf,tran=inpraes,sg,indic,2p
-,_
-ты=SPRO,sg,2p=nom
-_
-за=PR=
-_
-он=SPRO,sg,3p,m=ins
-,\n\t
-сестра=S,f,anim=(gen,sg|nom,pl)
-,_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-нежный=A=pl,brev
-,\n\t
-сестра=S,f,anim=(gen,sg|nom,pl)
-,_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-нежный=A=pl,brev
-.\n\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-кончать=V,tran=inpraes,sg,indic,3p,pf
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,\n
-может=ADV,parenth=
-_
-рука=S,f,inan=acc,sg
-_
-протягивать=V,tran=inf,pf
-\n\t
-в=PR=
-_
-вышний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предел=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-в=PR=
-_
-вышний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предел=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-а=CONJ=
-_
-за=PR=
-_
-он=SPRO,sg,3p,m=ins
-,_
-рука=S,f,inan=nom,sg
-_
-с=PR=
-_
-рука=S,f,inan=ins,sg
-,\n
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-высь=S,f,inan=(acc,sg|nom,sg)
-_
-восходить=V,intr=inpraes,sg,indic,3p,pf
-_
-еще=ADV=
-_
-другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,\n\t
-брат=S,m,anim=nom,sg
-_
-с=PR=
-_
-сестра=S,f,anim=ins,sg
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n\t
-брат=S,m,anim=nom,sg
-_
-с=PR=
-_
-сестра=S,f,anim=ins,sg
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-вместе=ADV=
-_
-все=SPRO,pl=(acc|nom)
-,_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-,_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,\n
-ко=PR=
-_
-престол=S,m,inan=dat,sg
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=ADVPRO=
-_
-на=PR=
-_
-яблоня=S,f,inan=(abl,sg|dat,sg)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-быть=V,intr=pl,imper,2p
-_
-смелый=A=pl,brev
-,\n\t
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-быть=V,intr=pl,imper,2p
-_
-смелый=A=pl,brev
-.\n
+{у=PR=} {престол=S,m,inan=gen,sg} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {лазоревый=A=pl,brev} {цветок=S,m,inan=(acc,pl|nom,pl)},
+	{а=CONJ=} {еще=ADV=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {белый=A=pl,brev},
+	{а=CONJ=} {еще=ADV=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {белый=A=pl,brev}.
+
+{тайно=ADV=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {поглядеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)},
+{там=ADVPRO=} {мы=SPRO,pl,1p=nom} {путь=S,m,inan=(acc,sg|nom,sg)} {определять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}
+	{в=PR=} {вышний=A=(acc,pl,plen,inan|nom,pl,plen)} {предел=S,m,inan=(acc,pl|nom,pl)},
+	{в=PR=} {вышний=A=(acc,pl,plen,inan|nom,pl,plen)} {предел=S,m,inan=(acc,pl|nom,pl)}.
+
+{ко=PR=} {престол=S,m,inan=dat,sg} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{до=PR=} {высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=nom} {доходить=V,intr=inpraes,sg,indic,1p,pf}, {и=CONJ=} {ты=SPRO,sg,2p=nom}, {и=CONJ=} {ты=SPRO,sg,2p=nom}.
+	{брат=S,m,anim=nom,pl}, {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {смелый=A=pl,brev},
+	{брат=S,m,anim=nom,pl}, {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {смелый=A=pl,brev}.
+
+{в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {храм=S,m,inan=(acc,sg|nom,sg)},
+{там=ADVPRO=} {идти=V,ipf,intr=sg,imper,2p} {по=PR=} {ступень=S,f,inan=dat,pl}
+	{в=PR=} {сумрак=S,m,inan=(acc,pl|nom,pl)} {безбрежный=A=pl,brev},
+	{в=PR=} {сумрак=S,m,inan=(acc,pl|nom,pl)} {безбрежный=A=pl,brev}.
+
+{темный=A=pl,brev} {горница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {проходить=V,intr=inpraes,sg,indic,2p,pf}.
+{светлый=A=pl,brev} {горница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {находить=V=inpraes,sg,indic,2p,pf,tran},
+	{светлый=A=pl,brev}, {безмятежный=A=pl,brev},
+	{светлый=A=pl,brev}, {безмятежный=A=pl,brev}.
+
+{ввысь=ADV=}, {по=PR=} {лестница=S,f,inan=dat,pl} {крутой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{все=SPRO,pl=(acc|nom)} {вперед=ADV=} {неукротимый=A=sg,brev,m},
+{луч=S,m,inan=(acc,sg|nom,sg)} {увидеть=V,pf,tran=inpraes,sg,indic,2p}, {ты=SPRO,sg,2p=nom} {за=PR=} {он=SPRO,sg,3p,m=ins},
+	{сестра=S,f,anim=(gen,sg|nom,pl)}, {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {нежный=A=pl,brev},
+	{сестра=S,f,anim=(gen,sg|nom,pl)}, {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {нежный=A=pl,brev}.
+
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {кончать=V,tran=inpraes,sg,indic,3p,pf} {путь=S,m,inan=(acc,sg|nom,sg)},
+{может=ADV,parenth=} {рука=S,f,inan=acc,sg} {протягивать=V,tran=inf,pf}
+	{в=PR=} {вышний=A=(acc,pl,plen,inan|nom,pl,plen)} {предел=S,m,inan=(acc,pl|nom,pl)},
+	{в=PR=} {вышний=A=(acc,pl,plen,inan|nom,pl,plen)} {предел=S,m,inan=(acc,pl|nom,pl)}.
+
+{а=CONJ=} {за=PR=} {он=SPRO,sg,3p,m=ins}, {рука=S,f,inan=nom,sg} {с=PR=} {рука=S,f,inan=ins,sg},
+{в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {высь=S,f,inan=(acc,sg|nom,sg)} {восходить=V,intr=inpraes,sg,indic,3p,pf} {еще=ADV=} {другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)},
+	{брат=S,m,anim=nom,sg} {с=PR=} {сестра=S,f,anim=ins,sg} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+	{брат=S,m,anim=nom,sg} {с=PR=} {сестра=S,f,anim=ins,sg} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{вместе=ADV=} {все=SPRO,pl=(acc|nom)}, {и=CONJ=} {я=SPRO,sg,1p=nom}, {и=CONJ=} {ты=SPRO,sg,2p=nom},
+{ко=PR=} {престол=S,m,inan=dat,sg} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=ADVPRO=} {на=PR=} {яблоня=S,f,inan=(abl,sg|dat,sg)} {цветок=S,m,inan=(acc,pl|nom,pl)},
+	{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {быть=V,intr=pl,imper,2p} {смелый=A=pl,brev},
+	{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {быть=V,intr=pl,imper,2p} {смелый=A=pl,brev}.

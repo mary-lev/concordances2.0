@@ -1,136 +1,16 @@
-незаживший=A=nom,sg,plen,f
-_
-рана=S,f,inan=nom,sg
-_
-таиться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-скорбный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-усталый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-,\n
-и=CONJ=
-_
-душа=S,f,inan=nom,sg
-,_
-как=CONJ=
-_
-острожник=S,m,anim=nom,sg
-,_
-томиться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-раскаяние=S,n,inan=ins,sg
-,_
-тоска=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-стыд=S,m,inan=ins,sg
-.\n
-песня=S,f,inan=nom,sg
-_
-тихий=A=nom,sg,plen,f
-_
-горько=ADV=
-_
-рыдать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-как=ADVPRO=
-_
-ревниво=ADV=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-ни=PART=
-_
-глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-,_
-как=CONJ=
-_
-эхо=S,n,inan=(acc,sg|nom,sg)
-,_
-она=SPRO,sg,3p,f=nom
-_
-повторять=V,tran=inpraes,sg,indic,3p,ipf
-\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стон=S,m,inan=(acc,sg|nom,sg)
-_
-наболеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)|наболеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-какой-то=APRO=nom,sg,f
-_
-странный=A=nom,sg,plen,f
-_
-сила=S,f,inan=nom,sg
-\n
-пробуждаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-больной=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-если=CONJ=
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-нестись=V,ipf,intr=inpraes,pl,indic,3p
-_
-уныло=ADV=
-,\n
-отзываяся?=S,persn,f,anim=nom,sg
-_
-в=PR=
-_
-тело=S,n,inan=abl,sg
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-.\n
-и=CONJ=
-_
-засмеяться=V,pf,intr=sg,imper,2p
-_
-сам=APRO=nom,sg,f
-_
-над=PR=
-_
-себя=SPRO=ins
-:\n
-в=PR=
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-потемки=S,pl,inan=(acc|nom)
-,\n
-но=CONJ=
-_
-полно=ADV=
-_
-оно=SPRO,sg,3p,n=nom
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тоска=S,f,inan=ins,sg
-.\n
+{незаживший=A=nom,sg,plen,f} {рана=S,f,inan=nom,sg} {таиться=V,ipf,intr=inpraes,sg,indic,3p}
+{в=PR=} {скорбный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {усталый=A=(abl,sg,plen,m|abl,sg,plen,n)} {мой=APRO=(abl,sg,m|abl,sg,n)},
+{и=CONJ=} {душа=S,f,inan=nom,sg}, {как=CONJ=} {острожник=S,m,anim=nom,sg}, {томиться=V,ipf,intr=inpraes,sg,indic,3p}
+{раскаяние=S,n,inan=ins,sg}, {тоска=S,f,inan=ins,sg} {и=CONJ=} {стыд=S,m,inan=ins,sg}.
+{песня=S,f,inan=nom,sg} {тихий=A=nom,sg,plen,f} {горько=ADV=} {рыдать=V,ipf,intr=inpraes,sg,indic,3p},
+{как=ADVPRO=} {ревниво=ADV=} {она=SPRO,sg,3p,f=(acc|gen)} {ни=PART=} {глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=}, {как=CONJ=} {эхо=S,n,inan=(acc,sg|nom,sg)}, {она=SPRO,sg,3p,f=nom} {повторять=V,tran=inpraes,sg,indic,3p,ipf}
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {стон=S,m,inan=(acc,sg|nom,sg)} {наболеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)|наболеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {какой-то=APRO=nom,sg,f} {странный=A=nom,sg,plen,f} {сила=S,f,inan=nom,sg}
+{пробуждаться=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {больной=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{если=CONJ=} {звук=S,m,inan=(acc,pl|nom,pl)} {нестись=V,ipf,intr=inpraes,pl,indic,3p} {уныло=ADV=},
+{отзываяся?=S,persn,f,anim=nom,sg} {в=PR=} {тело=S,n,inan=abl,sg} {мой=APRO=(abl,sg,m|abl,sg,n)}.
+{и=CONJ=} {засмеяться=V,pf,intr=sg,imper,2p} {сам=APRO=nom,sg,f} {над=PR=} {себя=SPRO=ins}:
+{в=PR=} {твой=APRO=(abl,sg,m|abl,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {потемки=S,pl,inan=(acc|nom)},
+{но=CONJ=} {полно=ADV=} {оно=SPRO,sg,3p,n=nom} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тоска=S,f,inan=ins,sg}.

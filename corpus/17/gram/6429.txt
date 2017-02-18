@@ -1,118 +1,14 @@
-снег=S,m,inan=ins,sg
-_
-наполнять=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-урна=S,f,inan=nom,sg
-_
-фонтан=S,m,inan=gen,sg
-,\n
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-замерзать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-больше=ADV=
-_
-не=PART=
-_
-плакать=V,ipf,intr=inpraes,pl,indic,3p
-._\n
-нимфа=S,f,anim=nom,sg
-_
-склоняться=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-тоска=S,f,inan=(abl,sg|dat,sg)
-_
-у=PR=
-_
-бассейн=S,m,inan=gen,sg
-,\n
-с=PR=
-_
-холод=S,m,inan=ins,sg
-_
-зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-бороться=V,ipf,intr=inf
-_
-не=PART=
-_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-.\n\n
-всплывать=V,intr=praet,sg,indic,n,pf
-_
-печальный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-светлый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\n
-белый=A=acc,sg,plen,f
-_
-земля=S,f,inan=acc,sg
-_
-стыдливо=ADV=
-_
-пригревать=V,tran=praet,sg,indic,n,pf
-._\n
-вспомнить=V,pf,tran=praet,sg,indic,f
-_
-нимфа=S,f,anim=nom,sg
-_
-зеленый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,_\n
-летний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-закатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-порфира=S,f,inan=(abl,sg|dat,sg)
-,\n\n
-брызги=S,pl,inan=(acc|nom)
-_
-фонтан=S,m,inan=gen,sg
-_
-в=PR=
-_
-прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-лунный=A=acc,sg,plen,f
-_
-нега=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-вздох=S,m,inan=(acc,pl|nom,pl)
-_
-влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-..._\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-из=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-полилися?=S,persn,f,anim=nom,sg
-,\n
-тихо=ADV=
-_
-к=PR=
-_
-подножие=S,n,inan=dat,sg
-_
-стекать=V,intr=inpraes,ger,ipf
-.\n
+{снег=S,m,inan=ins,sg} {наполнять=V,tran=praet,sg,partcp,brev,f,pf,pass} {урна=S,f,inan=nom,sg} {фонтан=S,m,inan=gen,sg},
+{вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {замерзать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {больше=ADV=} {не=PART=} {плакать=V,ipf,intr=inpraes,pl,indic,3p}. 
+{нимфа=S,f,anim=nom,sg} {склоняться=V,intr=praet,sg,indic,f,pf} {в=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)} {у=PR=} {бассейн=S,m,inan=gen,sg},
+{с=PR=} {холод=S,m,inan=ins,sg} {зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {бороться=V,ipf,intr=inf} {не=PART=} {в=PR=} {сила=S,f,inan=abl,pl}.
+
+{всплывать=V,intr=praet,sg,indic,n,pf} {печальный=A=(acc,sg,plen,n|nom,sg,plen,n)} {светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{белый=A=acc,sg,plen,f} {земля=S,f,inan=acc,sg} {стыдливо=ADV=} {пригревать=V,tran=praet,sg,indic,n,pf}. 
+{вспомнить=V,pf,tran=praet,sg,indic,f} {нимфа=S,f,anim=nom,sg} {зеленый=A=(acc,pl,plen,inan|nom,pl,plen)} {лист=S,m,inan=(acc,pl|nom,pl)}, 
+{летний=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {закатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {порфира=S,f,inan=(abl,sg|dat,sg)},
+
+{брызги=S,pl,inan=(acc|nom)} {фонтан=S,m,inan=gen,sg} {в=PR=} {прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{лунный=A=acc,sg,plen,f} {нега=S,f,inan=acc,sg} {и=CONJ=} {вздох=S,m,inan=(acc,pl|nom,pl)} {влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}... 
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {из=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {у=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {полилися?=S,persn,f,anim=nom,sg},
+{тихо=ADV=} {к=PR=} {подножие=S,n,inan=dat,sg} {стекать=V,intr=inpraes,ger,ipf}.

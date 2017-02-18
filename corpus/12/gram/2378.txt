@@ -1,56 +1,9 @@
-в=PR=
-_
-декабрь=S,m,inan=abl,sg
-_
-на=PR=
-_
-заря=S,f,inan=(abl,sg|dat,sg)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-длиться=V,ipf,intr=praet,sg,indic,n
-_\u2014_
-миг=S,m,inan=(acc,sg|nom,sg)
-.\n
-настоящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-,_
-первый=ANUM=(acc,sg,n|nom,sg,n)
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-не=PART=
-_
-из=PR=
-_
-книга=S,f,inan=gen,pl
-!\n\n
-в=PR=
-_
-январь=S,m,inan=abl,sg
-_
-на=PR=
-_
-заря=S,f,inan=(abl,sg|dat,sg)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-горе=S,sg,n,inan=(abl|acc|nom)
-,\n
-длиться=V,ipf,intr=praet,sg,indic,n
-_\u2014_
-час=S,m,inan=(acc,sg|nom,sg)
-.\n
-настоящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-,_
-горький=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-горе=S,sg,n,inan=(abl|acc|nom)
-\n
-в=PR=
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-!\n
+{в=PR=} {декабрь=S,m,inan=abl,sg} {на=PR=} {заря=S,f,inan=(abl,sg|dat,sg)} {быть=V,intr=praet,sg,indic,n,ipf} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{длиться=V,ipf,intr=praet,sg,indic,n} — {миг=S,m,inan=(acc,sg|nom,sg)}.
+{настоящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}, {первый=ANUM=(acc,sg,n|nom,sg,n)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{не=PART=} {из=PR=} {книга=S,f,inan=gen,pl}!
+
+{в=PR=} {январь=S,m,inan=abl,sg} {на=PR=} {заря=S,f,inan=(abl,sg|dat,sg)} {быть=V,intr=praet,sg,indic,n,ipf} {горе=S,sg,n,inan=(abl|acc|nom)},
+{длиться=V,ipf,intr=praet,sg,indic,n} — {час=S,m,inan=(acc,sg|nom,sg)}.
+{настоящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}, {горький=A=(acc,sg,plen,n|nom,sg,plen,n)} {горе=S,sg,n,inan=(abl|acc|nom)}
+{в=PR=} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}!

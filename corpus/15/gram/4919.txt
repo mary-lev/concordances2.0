@@ -1,92 +1,19 @@
-исполинский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-заповедный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-скала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-вы=SPRO,pl,2p=nom
-_\u2014_
-земной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-узор=S,m,inan=(acc,pl|nom,pl)
-,\n
-вы=SPRO,pl,2p=nom
-_\u2014_
-вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-кристалл=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-всегда=ADVPRO=
-_
-благородный=A=pl,brev
-,\n
-неизменно=ADV=
-_
-прекрасный=A=pl,brev
-,\n
-от=PR=
-_
-стремление=S,n,inan=gen,pl
-_
-свободный=A=pl,brev
-,\n
-к=PR=
-_
-человек=S,m,anim=dat,sg
-_
-бесстрастный=A=pl,brev
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-простереть=V,pf=praet,pl,indic
-_
-излом=S,m,inan=(acc,pl|nom,pl)
-,\n
-обрамлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-мох=S,m,inan=ins,sg
-,\n
-вы=SPRO,pl,2p=nom
-_
-с=PR=
-_
-борьба=S,sg,f,inan=ins
-_
-незнакомый=A=pl,brev
-,\n
-незнакомый=A=pl,brev
-_
-со=PR=
-_
-вздох=S,m,inan=ins,sg
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-спокойно=ADV=
-_
-безмолвный=A=pl,brev
-,\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-не=PART=
-_
-тронуть=V,pf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)
-_
-рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вы=SPRO,pl,2p=nom
-_\u2014_
-застыть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-от=PR=
-_
-время=S,n,inan=gen,pl
-_
-мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{исполинский=A=(acc,pl,plen,inan|nom,pl,plen)} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{заповедный=A=(acc,pl,plen,inan|nom,pl,plen)} {скала=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{вы=SPRO,pl,2p=nom} — {земной=A=(acc,pl,plen,inan|nom,pl,plen)} {узор=S,m,inan=(acc,pl|nom,pl)},
+{вы=SPRO,pl,2p=nom} — {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {кристалл=S,m,inan=(acc,pl|nom,pl)}.
+
+{вы=SPRO,pl,2p=nom} {всегда=ADVPRO=} {благородный=A=pl,brev},
+{неизменно=ADV=} {прекрасный=A=pl,brev},
+{от=PR=} {стремление=S,n,inan=gen,pl} {свободный=A=pl,brev},
+{к=PR=} {человек=S,m,anim=dat,sg} {бесстрастный=A=pl,brev}.
+
+{вы=SPRO,pl,2p=nom} {простереть=V,pf=praet,pl,indic} {излом=S,m,inan=(acc,pl|nom,pl)},
+{обрамлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {мох=S,m,inan=ins,sg},
+{вы=SPRO,pl,2p=nom} {с=PR=} {борьба=S,sg,f,inan=ins} {незнакомый=A=pl,brev},
+{незнакомый=A=pl,brev} {со=PR=} {вздох=S,m,inan=ins,sg}.
+
+{вы=SPRO,pl,2p=nom} {спокойно=ADV=} {безмолвный=A=pl,brev},
+{вы=SPRO,pl,2p=(abl|acc|gen)} {не=PART=} {тронуть=V,pf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)} {рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{вы=SPRO,pl,2p=nom} — {застыть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{от=PR=} {время=S,n,inan=gen,pl} {мироздание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

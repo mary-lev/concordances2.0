@@ -1,72 +1,9 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-жаль=ADV,praed=
-._
-бледнеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-лепесток=S,m,inan=(acc,pl|nom,pl)
-.\n
-я=SPRO,sg,1p=(abl|dat)
-_
-жаль=ADV,praed=
-._
-кругом=ADV=
-_
-все=SPRO,pl=(acc|nom)
-_
-мало=ADV=comp
-_
-свет=S,sg,m,inan=gen
-.\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-в=PR=
-_
-зеркало=S,n,inan=abl,sg
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-печаль=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-туманность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-одевать=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n\n
-зажигаться=V,intr=praet,sg,indic,f,pf
-_
-вечерний=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-сколько=ADV=
-_
-слезать=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-мерцание=S,n,inan=abl,pl
-.\n
-прощай=INTJ=
-._
-бездонный=A=sg,brev,n
-._
-навсегда=ADV=
-.\n
-застыть=V,pf,intr=sg,imper,2p
-_
-звезда=S,f,inan=ins,sg
-_
-в=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-рыдание=S,n,inan=abl,pl
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {жаль=ADV,praed=}. {бледнеть=V,ipf,intr=inpraes,pl,indic,3p} {лепесток=S,m,inan=(acc,pl|nom,pl)}.
+{я=SPRO,sg,1p=(abl|dat)} {жаль=ADV,praed=}. {кругом=ADV=} {все=SPRO,pl=(acc|nom)} {мало=ADV=comp} {свет=S,sg,m,inan=gen}.
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p}, {в=PR=} {зеркало=S,n,inan=abl,sg} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{печаль=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {туманность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {одевать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+
+{зажигаться=V,intr=praet,sg,indic,f,pf} {вечерний=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg},
+{и=CONJ=} {сколько=ADV=} {слезать=V,intr=praet,sg,indic,m,pf} {в=PR=} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {мерцание=S,n,inan=abl,pl}.
+{прощай=INTJ=}. {бездонный=A=sg,brev,n}. {навсегда=ADV=}.
+{застыть=V,pf,intr=sg,imper,2p} {звезда=S,f,inan=ins,sg} {в=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {рыдание=S,n,inan=abl,pl}.

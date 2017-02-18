@@ -1,148 +1,19 @@
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-тропинка=S,f,inan=nom,sg
-_
-с=PR=
-_
-бугорок=S,m,inan=gen,sg
-,\n
-как=ADVPRO=
-_
-бы=PART=
-_
-под=PR=
-_
-детский=A=ins,pl,plen
-_
-нога=S,f,inan=ins,pl
-,\n
-все=SPRO,pl=(acc|nom)
-_
-так=ADVPRO=
-_
-же=PART=
-_
-сонный=A=ins,pl,plen
-_
-луг=S,m,inan=ins,pl
-\n
-лениво=ADV=
-_
-двигаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-око=S,n,inan=gen,sg
-;\n\n
-колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-звонить=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-спешить=V,ipf,intr=inpraes,pl,indic,3p
-_
-удар=S,m,inan=(acc,pl|nom,pl)
-_
-за=PR=
-_
-удар=S,m,inan=ins,sg
-,\n
-и=CONJ=
-_
-все=ADV=
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-о=PR=
-_
-добрый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-старый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-о=PR=
-_
-детский=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-время=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-они=SPRO,pl=nom
-.\n\n
-о=PR=
-,_
-день=S,m,inan=(acc,pl|nom,pl)
-,_
-где=ADVPRO=
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-рай=S,sg,m,inan=(acc|nom)
-\n
-и=CONJ=
-_
-полдень=S,m,inan=(acc,sg|nom,sg)
-_
-рай=S,sg,m,inan=(acc|nom)
-_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-закат=S,m,inan=(acc,pl|nom,pl)
-!\n
-где=ADVPRO=
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-шпага=S,f,inan=ins,pl
-_
-лопата=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-замок=S,m,inan=ins,sg
-_
-царственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сарай=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-куда=ADVPRO=
-_
-уходить=V,intr=praet,pl,indic,pf
-,_
-в=PR=
-_
-какой=APRO=acc,sg,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-вы=SPRO,pl,2p=nom
-?\n
-что=CONJ=
-_
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-пролегать=V,intr=praet,sg,indic,n,pf
-?\n
-все=SPRO,pl=(acc|nom)
-_
-так=ADVPRO=
-_
-же=PART=
-_
-сонно=ADV=
--
-тяжело=ADV=
-\n
-качаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-на=PR=
-_
-клумба=S,f,inan=abl,pl
-_
-мальва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
+{бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {тропинка=S,f,inan=nom,sg} {с=PR=} {бугорок=S,m,inan=gen,sg},
+{как=ADVPRO=} {бы=PART=} {под=PR=} {детский=A=ins,pl,plen} {нога=S,f,inan=ins,pl},
+{все=SPRO,pl=(acc|nom)} {так=ADVPRO=} {же=PART=} {сонный=A=ins,pl,plen} {луг=S,m,inan=ins,pl}
+{лениво=ADV=} {двигаться=V,ipf,intr=inpraes,sg,indic,3p} {око=S,n,inan=gen,sg};
+
+{колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)} {звонить=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{спешить=V,ipf,intr=inpraes,pl,indic,3p} {удар=S,m,inan=(acc,pl|nom,pl)} {за=PR=} {удар=S,m,inan=ins,sg},
+{и=CONJ=} {все=ADV=} {петь=V,ipf,tran=inpraes,pl,indic,3p} {о=PR=} {добрый=A=(abl,sg,plen,m|abl,sg,plen,n)}, {старый=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{о=PR=} {детский=A=(abl,sg,plen,m|abl,sg,plen,n)} {время=S,n,inan=(abl,sg|dat,sg|gen,sg)} {они=SPRO,pl=nom}.
+
+{о=PR=}, {день=S,m,inan=(acc,pl|nom,pl)}, {где=ADVPRO=} {утро=S,n,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,n,ipf} {рай=S,sg,m,inan=(acc|nom)}
+{и=CONJ=} {полдень=S,m,inan=(acc,sg|nom,sg)} {рай=S,sg,m,inan=(acc|nom)} {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {закат=S,m,inan=(acc,pl|nom,pl)}!
+{где=ADVPRO=} {быть=V,intr=praet,pl,indic,ipf} {шпага=S,f,inan=ins,pl} {лопата=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {замок=S,m,inan=ins,sg} {царственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сарай=S,m,inan=(acc,sg|nom,sg)}.
+
+{куда=ADVPRO=} {уходить=V,intr=praet,pl,indic,pf}, {в=PR=} {какой=APRO=acc,sg,f} {даль=S,f,inan=(acc,sg|nom,sg)} {вы=SPRO,pl,2p=nom}?
+{что=CONJ=} {между=PR=} {мы=SPRO,pl,1p=ins} {пролегать=V,intr=praet,sg,indic,n,pf}?
+{все=SPRO,pl=(acc|nom)} {так=ADVPRO=} {же=PART=} {сонно=ADV=}-{тяжело=ADV=}
+{качаться=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {клумба=S,f,inan=abl,pl} {мальва=S,f,inan=(acc,pl|gen,sg|nom,pl)}...

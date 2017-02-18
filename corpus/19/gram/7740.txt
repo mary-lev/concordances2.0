@@ -1,132 +1,18 @@
-дочь=S,f,anim=(acc,sg|nom,sg)
-_
-могучий=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-одина=S,famn,f,anim=acc,sg
-,\n
-за=PR=
-_
-предел=S,m,inan=ins,pl
-_
-век=S,m,inan=gen,pl
-\n
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кончина=S,f,inan=acc,sg
-,\n
-помрачение=S,n,inan=(acc,sg|nom,sg)
-_
-бог=S,m,anim=(acc,pl|gen,pl)
-.\n
-брат=S,m,anim=nom,pl
-_
-в=PR=
-_
-битва=S,f,inan=(abl,sg|dat,sg)
-_
-меж=PR=
-_
-себя=SPRO=ins
-\n
-и=CONJ=
-_
-смеяться=V,ipf,intr=inpraes,pl,indic,3p
-_
-над=PR=
-_
-родство=S,n,inan=ins,sg
-.\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-наполняться=V,intr=praet,sg,indic,m,pf
-_
-беда=S,f,inan=ins,sg
-,\n
-тяжело=ADV=
-_
-житься=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-немой=A=sg,brev,m
-.\n
-век=S,m,inan=(acc,sg|nom,sg)
-_
-упадок=S,m,inan=gen,sg
-,_
-век=S,m,inan=(acc,sg|nom,sg)
-_
-разврат=S,m,inan=gen,sg
-,\n
-век=S,m,inan=(acc,sg|nom,sg)
-_
-меч=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-век=ADV=
-,_\u2014\n
-от=PR=
-_
-разгневанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-брат=S,m,anim=(acc,sg|gen,sg)
-\n
-погибать=V,intr=inpraes,sg,indic,3p,ipf
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-.\n
-нет=PART=
-_
-прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-нет=PART=
-_
-пощада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-нет=PART=
-_
-спасать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-полный=A=sg,brev,m
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-смрад=S,m,inan=gen,sg
-,\n
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-выть=V,ipf,intr=inpraes,pl,indic,3p
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-океан=S,m,inan=gen,sg
-,\n
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-злобствовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-...\n
+{дочь=S,f,anim=(acc,sg|nom,sg)} {могучий=A=(dat,sg,plen,m|dat,sg,plen,n)} {одина=S,famn,f,anim=acc,sg},
+{за=PR=} {предел=S,m,inan=ins,pl} {век=S,m,inan=gen,pl}
+{видеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кончина=S,f,inan=acc,sg},
+{помрачение=S,n,inan=(acc,sg|nom,sg)} {бог=S,m,anim=(acc,pl|gen,pl)}.
+{брат=S,m,anim=nom,pl} {в=PR=} {битва=S,f,inan=(abl,sg|dat,sg)} {меж=PR=} {себя=SPRO=ins}
+{и=CONJ=} {смеяться=V,ipf,intr=inpraes,pl,indic,3p} {над=PR=} {родство=S,n,inan=ins,sg}.
+{мир=S,m,inan=(acc,sg|nom,sg)} {наполняться=V,intr=praet,sg,indic,m,pf} {беда=S,f,inan=ins,sg},
+{тяжело=ADV=} {житься=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {немой=A=sg,brev,m}.
+{век=S,m,inan=(acc,sg|nom,sg)} {упадок=S,m,inan=gen,sg}, {век=S,m,inan=(acc,sg|nom,sg)} {разврат=S,m,inan=gen,sg},
+{век=S,m,inan=(acc,sg|nom,sg)} {меч=S,m,inan=gen,sg} {и=CONJ=} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)} {век=ADV=}, —
+{от=PR=} {разгневанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {брат=S,m,anim=(acc,sg|gen,sg)}
+{погибать=V,intr=inpraes,sg,indic,3p,ipf} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}.
+{нет=PART=} {прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {нет=PART=} {пощада=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{нет=PART=} {спасать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{полный=A=sg,brev,m} {мир=S,m,inan=(acc,sg|nom,sg)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {смрад=S,m,inan=gen,sg},
+{тонуть=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {в=PR=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{выть=V,ipf,intr=inpraes,pl,indic,3p} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {океан=S,m,inan=gen,sg},
+{пламень=S,inan=(acc,sg,n|nom,sg,n)} {злобствовать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}...

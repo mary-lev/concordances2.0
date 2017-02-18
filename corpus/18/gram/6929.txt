@@ -1,128 +1,19 @@
-конец=S,m,inan=ins,sg
-_
-игла=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-мягкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-воск=S,m,inan=abl,sg
-_\n
-я=SPRO,sg,1p=nom
-_
-написать=V,pf,tran=inpraes,sg,indic,1p
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-черта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-и=CONJ=
-_
-индеветь=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-фата=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-и=CONJ=
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-все=ADV=
-_
-разверстый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-внове=ADV,praed=
-,_\n
-и=CONJ=
-_
-оттенять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-тонко=ADV=
-_
-нос=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-тонко=ADV=
-_
-выгнутый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-змейный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-коса=S,f,inan=gen,pl
-,\n\n
-извив=S,m,inan=(acc,sg|nom,sg)
-_
-откинуть=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-_
-стан=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-темно-синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-бусы=S,pl,inan=gen
-,\n
-чувяк=S,m,inan=(acc,pl|nom,pl)
-_
-синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сафьян=S,m,inan=gen,sg
-_\n
-и=CONJ=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шелковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бурнус=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-а=CONJ=
-_
-сзади=ADV=
-_
-написать=V,pf,tran=inpraes,sg,indic,1p
-_
-текучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-сине-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-пенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вал=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-бирюзовый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-небо=S,n,inan=abl,sg
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-глыба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-красно-бурый=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-скала=S,f,inan=gen,pl
-.\n
+{конец=S,m,inan=ins,sg} {игла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {мягкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {воск=S,m,inan=abl,sg} 
+{я=SPRO,sg,1p=nom} {написать=V,pf,tran=inpraes,sg,indic,1p} {твой=APRO=(nom,pl|acc,pl,inan)} {черта=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{и=CONJ=} {индеветь=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {фата=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{и=CONJ=} {взгляд=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {все=ADV=} {разверстый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {внове=ADV,praed=}, 
+{и=CONJ=} {оттенять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {тонко=ADV=} {нос=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {тонко=ADV=} {выгнутый=A=(acc,pl,plen,inan|nom,pl,plen)} {бровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {змейный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {коса=S,f,inan=gen,pl},
+
+{извив=S,m,inan=(acc,sg|nom,sg)} {откинуть=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)} {стан=S,m,inan=gen,sg},
+{и=CONJ=} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {темно-синий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бусы=S,pl,inan=gen},
+{чувяк=S,m,inan=(acc,pl|nom,pl)} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сафьян=S,m,inan=gen,sg} 
+{и=CONJ=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шелковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бурнус=S,m,inan=(acc,sg|nom,sg)}.
+
+{а=CONJ=} {сзади=ADV=} {написать=V,pf,tran=inpraes,sg,indic,1p} {текучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{сине-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {пенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вал=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {бирюзовый=A=(abl,sg,plen,m|abl,sg,plen,n)} {небо=S,n,inan=abl,sg} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {глыба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {красно-бурый=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {скала=S,f,inan=gen,pl}.

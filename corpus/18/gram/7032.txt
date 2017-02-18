@@ -1,106 +1,19 @@
-я=SPRO,sg,1p=nom
-,_
-полдень=S,m,inan=ins,sg
-_
-объять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-точно=CONJ=
-_
-терпкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-вино=S,n,inan=ins,sg
-,\n
-пахнуть=V,ipf,intr=inpraes,sg,indic,1p
-_
-солнце=S,n,inan=ins,sg
-_
-и=CONJ=
-_
-мятый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-и=CONJ=
-_
-звериный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-руно=S,n,inan=ins,sg
-.\n\n
-плоть=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-_
-осмуглеть?=V,pf,intr=praet,sg,indic,f
-,\n
-стан=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-крепкий=A=sg,brev,m
-_
-и=CONJ=
-_
-тугой=A=sg,brev,m
-,\n
-потом=ADVPRO=
-_
-горький=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-влажный=A=pl,brev
-_
-мускул=S,m,inan=(acc,pl|nom,pl)
-_
-рука=S,f,inan=gen,pl
-.\n\n
-в=PR=
-_
-медно-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пустыня=S,f,inan=(abl,sg|dat,sg)
-\n
-не=PART=
-_
-тревожить=V,ipf,tran=sg,imper,2p
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_\u2014\n
-я=SPRO,sg,1p=(abl|dat)
-_
-враждебный=A=pl,brev
-_
-рабыня=S,f,anim=(gen,sg|nom,pl)
-\n
-смертный=A=sg,brev,n
--
-влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n\n
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-лилия=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-гниль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-стоячий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-вербена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ваниль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лебеда=S,sg,f,inan=gen
-.\n
+{я=SPRO,sg,1p=nom}, {полдень=S,m,inan=ins,sg} {объять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{точно=CONJ=} {терпкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вино=S,n,inan=ins,sg},
+{пахнуть=V,ipf,intr=inpraes,sg,indic,1p} {солнце=S,n,inan=ins,sg} {и=CONJ=} {мятый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{и=CONJ=} {звериный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {руно=S,n,inan=ins,sg}.
+
+{плоть=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f} {осмуглеть?=V,pf,intr=praet,sg,indic,f},
+{стан=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {крепкий=A=sg,brev,m} {и=CONJ=} {тугой=A=sg,brev,m},
+{потом=ADVPRO=} {горький=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{влажный=A=pl,brev} {мускул=S,m,inan=(acc,pl|nom,pl)} {рука=S,f,inan=gen,pl}.
+
+{в=PR=} {медно-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пустыня=S,f,inan=(abl,sg|dat,sg)}
+{не=PART=} {тревожить=V,ipf,tran=sg,imper,2p} {мой=APRO=(nom,pl|acc,pl,inan)} {сон=S,m,inan=(acc,pl|nom,pl)} —
+{я=SPRO,sg,1p=(abl|dat)} {враждебный=A=pl,brev} {рабыня=S,f,anim=(gen,sg|nom,pl)}
+{смертный=A=sg,brev,n}-{влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+
+{запах=S,m,inan=(acc,sg|nom,sg)} {лилия=S,f,inan=gen,pl} {и=CONJ=} {гниль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {стоячий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{дух=S,m,inan=(acc,sg|nom,sg)} {вербена=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ваниль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{и=CONJ=} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лебеда=S,sg,f,inan=gen}.

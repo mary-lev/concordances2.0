@@ -1,70 +1,8 @@
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-знать=V,ipf,tran=inf
-,_
-как=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-?\n\u2014_
-три=NUM=(nom|acc,inan)
-_
-в=PR=
-_
-столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-пробивать=V,tran=praet,sg,indic,n,pf
-,\n
-и=CONJ=
-_
-прощаться=V,intr=inpraes,ger,ipf
-,_
-держаться=V,ipf,intr=inpraes,ger
-_
-за=PR=
-_
-перила=S,pl,inan=(acc|nom)
-,\n
-она=SPRO,sg,3p,f=nom
-_
-словно=CONJ=
-_
-с=PR=
-_
-труд=S,m,inan=ins,sg
-_
-говорить=V,ipf,tran=praet,sg,indic,f
-:\n\xAB
-это=SPRO,sg,n,inan=(acc|nom)
-_
-все=SPRO,pl=(acc|nom)
-..._
-ах=INTJ=
-,_
-нет=PART=
-,_
-я=SPRO,sg,1p=nom
-_
-забывать=V=praet,sg,indic,f,pf
-,\n
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-,_
-я=SPRO,sg,1p=nom
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-любить=V,ipf,tran=praet,sg,indic,f
-\n
-еще=ADV=
-_
-тогда=ADVPRO=
-!\xBB\n\xAB
-да=PART=
-\xBB.\n
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {знать=V,ipf,tran=inf}, {как=CONJ=} {все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf}?
+— {три=NUM=(nom|acc,inan)} {в=PR=} {столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {пробивать=V,tran=praet,sg,indic,n,pf},
+{и=CONJ=} {прощаться=V,intr=inpraes,ger,ipf}, {держаться=V,ipf,intr=inpraes,ger} {за=PR=} {перила=S,pl,inan=(acc|nom)},
+{она=SPRO,sg,3p,f=nom} {словно=CONJ=} {с=PR=} {труд=S,m,inan=ins,sg} {говорить=V,ipf,tran=praet,sg,indic,f}:
+«{это=SPRO,sg,n,inan=(acc|nom)} {все=SPRO,pl=(acc|nom)}... {ах=INTJ=}, {нет=PART=}, {я=SPRO,sg,1p=nom} {забывать=V=praet,sg,indic,f,pf},
+{я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p} {вы=SPRO,pl,2p=(abl|acc|gen)}, {я=SPRO,sg,1p=nom} {вы=SPRO,pl,2p=(abl|acc|gen)} {любить=V,ipf,tran=praet,sg,indic,f}
+{еще=ADV=} {тогда=ADVPRO=}!»
+«{да=PART=}».

@@ -1,152 +1,17 @@
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-брат=S,m,anim=(acc,sg|gen,sg)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-сечь=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-где=ADVPRO=
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-брат=S,m,anim=(acc,sg|gen,sg)
-,_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-тут=ADVPRO=
-.\n
-два=NUM=(nom,f|acc,f,inan)
-_
-сестра=S,f,anim=(gen,sg|nom,pl)
-_
-в=PR=
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-два=NUM=(nom,f|acc,f,inan)
-_
-свекровь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-ворота=S,pl,inan=abl
-_
-стоять=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-ты=SPRO,sg,2p=nom
-,_
-свекор=S,m,anim=nom,sg
-,_
-воротиться=V,pf,intr=sg,imper,2p
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,_
-утоляться=V,intr=sg,imper,2p,pf
-.\n
-ты=SPRO,sg,2p=nom
-,_
-сестра=S,f,anim=nom,sg
-,_
-отворачиваться=V,intr=sg,imper,2p,pf
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,_
-униматься=V,intr=sg,imper,2p,pf
-.\n
-ты=SPRO,sg,2p=nom
-,_
-брат=S,m,anim=nom,sg
-,_
-смиряться=V,intr=sg,imper,2p,pf
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,_
-запираться=V,intr=sg,imper,2p,pf
-.\n
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,_
-брат=S,m,anim=nom,sg
-_
-дрожать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-брат=S,m,anim=nom,sg
-_
-дрожать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-брат=S,m,anim=nom,sg
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,\n
-сестра=S,f,anim=nom,sg
-_
-кричать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-свекор=S,m,anim=nom,sg
-_
-ворчать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-а=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-_
-крепко=ADV=
-_
-быть=V,intr=sg,imper,2p
-,\n
-чтоб=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=inf
-_
-забывать=V=praet,sg,indic,f,pf
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,\n
-чтоб=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-уходить=V,intr=praet,sg,indic,m,pf
-,_
-приходить=V,intr=praet,sg,indic,m,pf
-_
-назад=ADV=
-,\n
-сестра=S,f,anim=nom,sg
-_
-к=PR=
-_
-сестра=S,f,anim=(abl,sg|dat,sg)
-,_
-и=CONJ=
-_
-к=PR=
-_
-брат=S,m,anim=dat,sg
-_
-брат=S,m,anim=nom,sg
-.\n
+{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {брат=S,m,anim=(acc,sg|gen,sg)} {камень=S,m,inan=(acc,sg|nom,sg)} {сечь=V,ipf,tran=inpraes,pl,indic,3p},
+{где=ADVPRO=} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {брат=S,m,anim=(acc,sg|gen,sg)}, {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {тут=ADVPRO=}.
+{два=NUM=(nom,f|acc,f,inan)} {сестра=S,f,anim=(gen,sg|nom,pl)} {в=PR=} {окошко=S,n,inan=(acc,sg|nom,sg)} {глядеть=V,ipf,tran=inpraes,pl,indic,3p},
+{два=NUM=(nom,f|acc,f,inan)} {свекровь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {в=PR=} {ворота=S,pl,inan=abl} {стоять=V,ipf,intr=inpraes,pl,indic,3p}.
+{ты=SPRO,sg,2p=nom}, {свекор=S,m,anim=nom,sg}, {воротиться=V,pf,intr=sg,imper,2p},
+{а=CONJ=} {ты=SPRO,sg,2p=nom}, {кровь=S,f,inan=(acc,sg|nom,sg)}, {утоляться=V,intr=sg,imper,2p,pf}.
+{ты=SPRO,sg,2p=nom}, {сестра=S,f,anim=nom,sg}, {отворачиваться=V,intr=sg,imper,2p,pf},
+{а=CONJ=} {ты=SPRO,sg,2p=nom}, {кровь=S,f,inan=(acc,sg|nom,sg)}, {униматься=V,intr=sg,imper,2p,pf}.
+{ты=SPRO,sg,2p=nom}, {брат=S,m,anim=nom,sg}, {смиряться=V,intr=sg,imper,2p,pf},
+{а=CONJ=} {ты=SPRO,sg,2p=nom}, {кровь=S,f,inan=(acc,sg|nom,sg)}, {запираться=V,intr=sg,imper,2p,pf}.
+{кровь=S,f,inan=(acc,sg|nom,sg)} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}, {брат=S,m,anim=nom,sg} {дрожать=V,ipf,intr=inpraes,sg,indic,3p},
+{брат=S,m,anim=nom,sg} {дрожать=V,ipf,intr=inpraes,sg,indic,3p}, {брат=S,m,anim=nom,sg} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)},
+{сестра=S,f,anim=nom,sg} {кричать=V,ipf,intr=inpraes,sg,indic,3p}, {свекор=S,m,anim=nom,sg} {ворчать=V,ipf,intr=inpraes,sg,indic,3p}.
+{а=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {слово=S,n,inan=(acc,sg|nom,sg)} {крепко=ADV=} {быть=V,intr=sg,imper,2p},
+{чтоб=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=inf} {забывать=V=praet,sg,indic,f,pf} {путь=S,m,inan=(acc,sg|nom,sg)},
+{чтоб=CONJ=} {кто=SPRO,sg,m,anim=nom} {уходить=V,intr=praet,sg,indic,m,pf}, {приходить=V,intr=praet,sg,indic,m,pf} {назад=ADV=},
+{сестра=S,f,anim=nom,sg} {к=PR=} {сестра=S,f,anim=(abl,sg|dat,sg)}, {и=CONJ=} {к=PR=} {брат=S,m,anim=dat,sg} {брат=S,m,anim=nom,sg}.

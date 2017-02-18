@@ -1,146 +1,19 @@
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-изнурительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-!..\n____
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-и=CONJ=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-повстречать=V,pf,tran=praet,sg,indic,m
-\n
-быть=V,intr=praet,sg,indic,f,ipf
-_
-на=PR=
-_
-крыльцо=S,n,inan=abl,sg
-_
-ты=SPRO,sg,2p=nom
-._
-начинать=V,tran=praet,sg,indic,m,pf
-\n
-былой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-конец=S,m,inan=gen,sg
-_
-лилея=S,f,inan=nom,sg
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-снова=ADV=
-_
-зажигаться=V,intr=praet,sg,indic,f,pf
-\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-грозить=V,ipf,intr=praet,sg,indic,f
-_
-снести=V,pf=inf
-.\n____\u2014_
-прощать=V=sg,imper,2p,pf
-!_\u2014_
-застонать=V,pf,intr=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-,_\u2014_
-прощать=V=sg,imper,2p,pf
-!_\u2014\n
-и=CONJ=
-_
-брызнуть=V,pf,tran=praet,pl,indic
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-из=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n\n
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-:_
-ты=SPRO,sg,2p=nom
-_
-вздрагивать=V,intr=praet,sg,indic,f,pf
-_
-весь=APRO=nom,sg,f
-,\n____
-ты=SPRO,sg,2p=nom
-_
-весь=APRO=nom,sg,f
-_
-изменяться=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-лицо=S,n,inan=abl,sg
-...\n____
-я=SPRO,sg,1p=nom
-_
-биться=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-мечта=S,f,inan=(abl,sg|dat,sg)
-_
-на=PR=
-_
-крыльцо=S,n,inan=abl,sg
-,\n
-ты=SPRO,sg,2p=(acc|gen)
-_
-о=PR=
-_
-прощение=S,n,inan=abl,sg
-_
-просить=V,ipf,tran=inpraes,ger
-.\n\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-засверкать=V,pf,intr=praet,ger
-,_
-хохотать=V,ipf,intr=inpraes,ger
-,\n____
-любить=V,ipf,tran=inpraes,ger
-,_
-как=CONJ=
-_
-давно=ADV=
-,_
-как=CONJ=
-_
-всегда=ADVPRO=
-,\n____
-сказать=V,pf,tran=praet,sg,indic,f
-:_\xAB
-прощать=V=inf,pf
-?_
-никогда=ADVPRO=
-!\xBB\n\u2014_
-где=ADVPRO=
-_
-в=PR=
-_
-храм=S,m,inan=abl,sg
-_
-потухать=V,intr=praet,sg,indic,f,pf
-_
-свеча=S,f,inan=nom,sg
-?..\u2014\n
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {изнурительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}!..
+    {я=SPRO,sg,1p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {и=CONJ=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {дом=S,m,inan=(acc,sg|nom,sg)} {повстречать=V,pf,tran=praet,sg,indic,m}
+{быть=V,intr=praet,sg,indic,f,ipf} {на=PR=} {крыльцо=S,n,inan=abl,sg} {ты=SPRO,sg,2p=nom}. {начинать=V,tran=praet,sg,indic,m,pf}
+{былой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {конец=S,m,inan=gen,sg} {лилея=S,f,inan=nom,sg} {звон=S,m,inan=(acc,sg|nom,sg)}.
+
+{любовь=S,f,inan=(acc,sg|nom,sg)} {во=PR=} {я=SPRO,sg,1p=(abl|dat)} {снова=ADV=} {зажигаться=V,intr=praet,sg,indic,f,pf}
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {грозить=V,ipf,intr=praet,sg,indic,f} {снести=V,pf=inf}.
+    — {прощать=V=sg,imper,2p,pf}! — {застонать=V,pf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=nom}, — {прощать=V=sg,imper,2p,pf}! —
+{и=CONJ=} {брызнуть=V,pf,tran=praet,pl,indic} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {из=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+
+{смотреть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}: {ты=SPRO,sg,2p=nom} {вздрагивать=V,intr=praet,sg,indic,f,pf} {весь=APRO=nom,sg,f},
+    {ты=SPRO,sg,2p=nom} {весь=APRO=nom,sg,f} {изменяться=V,intr=praet,sg,indic,f,pf} {в=PR=} {лицо=S,n,inan=abl,sg}...
+    {я=SPRO,sg,1p=nom} {биться=V,ipf,intr=praet,sg,indic,m} {в=PR=} {мечта=S,f,inan=(abl,sg|dat,sg)} {на=PR=} {крыльцо=S,n,inan=abl,sg},
+{ты=SPRO,sg,2p=(acc|gen)} {о=PR=} {прощение=S,n,inan=abl,sg} {просить=V,ipf,tran=inpraes,ger}.
+
+{и=CONJ=} {ты=SPRO,sg,2p=nom}, {засверкать=V,pf,intr=praet,ger}, {хохотать=V,ipf,intr=inpraes,ger},
+    {любить=V,ipf,tran=inpraes,ger}, {как=CONJ=} {давно=ADV=}, {как=CONJ=} {всегда=ADVPRO=},
+    {сказать=V,pf,tran=praet,sg,indic,f}: «{прощать=V=inf,pf}? {никогда=ADVPRO=}!»
+— {где=ADVPRO=} {в=PR=} {храм=S,m,inan=abl,sg} {потухать=V,intr=praet,sg,indic,f,pf} {свеча=S,f,inan=nom,sg}?..—

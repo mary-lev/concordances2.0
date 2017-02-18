@@ -1,98 +1,13 @@
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-ландышевый=A=nom,sg,plen,f
-_
-сирень=S,f,inan=(acc,sg|nom,sg)
-!_
-оранжевый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-закатный=A=sg,brev,n
--
-лимонный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-безвольный=A=(acc,sg,plen,n|nom,sg,plen,n)
-!\n
-несбыточный=A=nom,sg,plen,f
-_
-мадлэн?=S,persn,m,anim=nom,sg
-!_
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-веровой?=A=nom,sg,plen,f
-_
-тоска=S,f,inan=nom,sg
-!\n
-о=PR=
-,_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\u2014_
-минувший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-как=CONJ=
-_
-будущее=S,n,inan=(dat,pl|ins,sg)
-,_
-полный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-и=CONJ=
-_
-только=PART=
-._
-и=CONJ=
-_
-больше=ADV=
-_
-ни=CONJ=
-_
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-все=SPRO,pl=(acc|nom)
-_
-живо=ADV=
-,_
-как=CONJ=
-_
-прежде=ADV=
-.\n
-как=CONJ=
-_
-прежде=PR=
-,_
-все=SPRO,pl=(acc|nom)
-_
-новый=A=sg,brev,n
-.\n
-как=CONJ=
-_
-прежде=ADV=
-!..\n
-бессмертный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-настроение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-сирень=S,f,inan=(acc,sg|nom,sg)
-_
-ландышевый=A=nom,sg,plen,f
-...\n
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-оранжевый=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n
-в=PR=
-_
-надежда=S,f,inan=(abl,sg|dat,sg)
-\n
-да=CONJ=
-_
-святиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-мгновение=S,n,inan=(acc,sg|nom,sg)
-!\n
+{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {ландышевый=A=nom,sg,plen,f} {сирень=S,f,inan=(acc,sg|nom,sg)}! {оранжевый=A=(acc,pl,plen,inan|nom,pl,plen)} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{закатный=A=sg,brev,n}-{лимонный=A=(acc,sg,plen,n|nom,sg,plen,n)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {безвольный=A=(acc,sg,plen,n|nom,sg,plen,n)}!
+{несбыточный=A=nom,sg,plen,f} {мадлэн?=S,persn,m,anim=nom,sg}! {о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {веровой?=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg}!
+{о=PR=}, {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, — {минувший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {как=CONJ=} {будущее=S,n,inan=(dat,pl|ins,sg)}, {полный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{и=CONJ=} {только=PART=}. {и=CONJ=} {больше=ADV=} {ни=CONJ=} {чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{все=SPRO,pl=(acc|nom)} {живо=ADV=}, {как=CONJ=} {прежде=ADV=}.
+{как=CONJ=} {прежде=PR=}, {все=SPRO,pl=(acc|nom)} {новый=A=sg,brev,n}.
+{как=CONJ=} {прежде=ADV=}!..
+{бессмертный=A=(acc,pl,plen,inan|nom,pl,plen)} {настроение=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+{сирень=S,f,inan=(acc,sg|nom,sg)} {ландышевый=A=nom,sg,plen,f}...
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {оранжевый=A=(acc,pl,plen,inan|nom,pl,plen)}...
+{в=PR=} {надежда=S,f,inan=(abl,sg|dat,sg)}
+{да=CONJ=} {святиться=V,ipf,intr=inpraes,sg,indic,3p} {мгновение=S,n,inan=(acc,sg|nom,sg)}!

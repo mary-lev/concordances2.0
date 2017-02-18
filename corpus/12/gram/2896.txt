@@ -1,122 +1,24 @@
-кто=SPRO,sg,m,anim=nom
-_
-покидать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-_\u2014_
-пусть=PART=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-!\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-петь=V,ipf,tran=sg,imper,2p
-!\n
-нынче=ADV=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-,\n
-завтра=ADV=
-_\u2014_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n\n
-ах=INTJ=
-,_
-у=PR=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
--
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_\u2014_
-друг=S,m,anim=nom,pl
-!\n
-много=ADV,praed=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-как=CONJ=
-_
-ты=SPRO,sg,2p=nom
-\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-.\n\n
-друг=S,m,anim=nom,sg
-_
-у=PR=
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-вырывать=V,tran=inf,ipf
-\n
-роза=S,f,inan=acc,sg
--
-цвет=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-можно=ADV,praed=
-_
-роза=S,f,inan=acc,sg
-_
-разрывать=V,tran=inf,pf
-:\n
-плохо=ADV=comp
-_
-нет=ADV,praed=
-!\n\n
-чем=CONJ=
-_
-за=PR=
-_
-розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-за=PR=
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-\n
-воевать=V,ipf,intr=inf
-_\u2014_\n
-хорошо=ADV=comp,parenth
-_
-мальчик=S,m,anim=(acc,sg|gen,sg)
-_
-в=PR=
-_
-черед=S,m,inan=(acc,sg|nom,sg)
-\n
-целовать=V,ipf,tran=inf
-!\n\n
-сто=NUM=(acc|nom)
-_
-подружка=S,f,anim=(acc,pl|gen,pl)
-_
-у=PR=
-_
-дружка=S,m,anim=nom,sg
-:\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мы=SPRO,pl,1p=nom
-_
-тут=ADVPRO=
-.\n
-на=PR=
-,_
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_\u2014_
-пока=ADV=
-\n
-не=PART=
-_
-взять=V,pf,tran=inpraes,pl,indic,3p
-.\n
+{кто=SPRO,sg,m,anim=nom} {покидать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)} — {пусть=PART=} {петь=V,ipf,tran=inpraes,sg,indic,3p}!
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {петь=V,ipf,tran=sg,imper,2p}!
+{нынче=ADV=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} — {румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рот=S,m,inan=(acc,sg|nom,sg)},
+{завтра=ADV=} — {твой=APRO=(acc,sg,m,inan|nom,sg,m)}.
+
+{ах=INTJ=}, {у=PR=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)}-{красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} — {друг=S,m,anim=nom,pl}!
+{много=ADV,praed=} {мы=SPRO,pl,1p=(abl|acc|gen)} — {такой=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {как=CONJ=} {ты=SPRO,sg,2p=nom}
+{и=CONJ=} {как=ADVPRO=} {я=SPRO,sg,1p=nom}.
+
+{друг=S,m,anim=nom,sg} {у=PR=} {друг=S,m,anim=(acc,sg|gen,sg)} {вырывать=V,tran=inf,ipf}
+{роза=S,f,inan=acc,sg}-{цвет=S,m,inan=(acc,sg|nom,sg)} — 
+{можно=ADV,praed=} {роза=S,f,inan=acc,sg} {разрывать=V,tran=inf,pf}:
+{плохо=ADV=comp} {нет=ADV,praed=}!
+
+{чем=CONJ=} {за=PR=} {розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {за=PR=} {рот=S,m,inan=(acc,sg|nom,sg)}
+{воевать=V,ipf,intr=inf} — 
+{хорошо=ADV=comp,parenth} {мальчик=S,m,anim=(acc,sg|gen,sg)} {в=PR=} {черед=S,m,inan=(acc,sg|nom,sg)}
+{целовать=V,ipf,tran=inf}!
+
+{сто=NUM=(acc|nom)} {подружка=S,f,anim=(acc,pl|gen,pl)} {у=PR=} {дружка=S,m,anim=nom,sg}:
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мы=SPRO,pl,1p=nom} {тут=ADVPRO=}.
+{на=PR=}, {любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} — {пока=ADV=}
+{не=PART=} {взять=V,pf,tran=inpraes,pl,indic,3p}.

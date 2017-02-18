@@ -1,156 +1,30 @@
-спать=V,ipf,intr=sg,imper,2p
-,_
-мой=APRO=nom,sg,f
-_
-печальный=A=nom,sg,plen,f
-,\n
-спать=V,ipf,intr=sg,imper,2p
-,_
-многострадальный=A=nom,sg,plen,f
-,\n
-грустный=A=nom,sg,plen,f
-,_
-стыдливый=A=nom,sg,plen,f
-,\n
-вечно=ADV=
-_
-молчаливый=A=nom,sg,plen,f
-.\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-спеть=V,pf,tran=inpraes,sg,indic,1p
-\n
-баюшки-баю=INTJ=
-.\n
-с=PR=
-_
-радость=S,f,inan=ins,sg
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-к=PR=
-_
-мы=SPRO,pl,1p=dat
-_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-хорошо=ADV=comp,parenth
-_\u2014_
-отречение=S,n,inan=(acc,sg|nom,sg)
-,\n
-скорбь=S,f,inan=(acc,sg|nom,sg)
-,_
-самозабвение=S,n,inan=(acc,sg|nom,sg)
-.\n
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-ждать=V,ipf,tran=sg,imper,2p
-,\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-глядеть=V,ipf,tran=sg,imper,2p
-.\n
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-кто=SPRO,sg,m,anim=nom
-_
-оглянуться=V,pf,intr=inpraes,sg,indic,3p
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-во=PR=
-_
-все=SPRO,pl=dat
-_
-обманываться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-хорошо=ADV=comp,parenth
-_
-безрассудный=A=ins,pl,plen
-\n
-жить=V,ipf,intr=inf
-_
-мечта=S,f,inan=ins,pl
-_
-чудной=A=ins,pl,plen
-.\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-просыпать=V=inf,pf
-_
-свой=APRO=acc,sg,f
-.\n
-баюшки-баю=INTJ=
-.\n
-где-то=ADVPRO=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-пениться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-оно=SPRO,sg,3p,n=nom
-_
-изменяться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-утомляться=V,intr=inpraes,sg,indic,3p,pf
-_
-шумный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-шумный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-безумный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-под=PR=
-_
-луна=S,f,inan=ins,sg
-\n
-чуть=ADV=
-_
-дышать=V,ipf,intr=inf
-_
-волна=S,f,inan=ins,sg
-.\n
-спать=V,ipf,intr=sg,imper,2p
-_
-же=CONJ=
-,_
-спать=V,ipf,intr=sg,imper,2p
-,_
-печальный=A=nom,sg,plen,f
-,\n
-спать=V,ipf,intr=sg,imper,2p
-,_
-многострадальный=A=nom,sg,plen,f
-,\n
-грустный=A=nom,sg,plen,f
-,_
-стыдливый=A=nom,sg,plen,f
-,\n
-птичка=S,f,anim=nom,sg
-_
-боязливый=A=nom,sg,plen,f
-.\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-\n
-баюшки-баю=INTJ=
-.\n
+{спать=V,ipf,intr=sg,imper,2p}, {мой=APRO=nom,sg,f} {печальный=A=nom,sg,plen,f},
+{спать=V,ipf,intr=sg,imper,2p}, {многострадальный=A=nom,sg,plen,f},
+{грустный=A=nom,sg,plen,f}, {стыдливый=A=nom,sg,plen,f},
+{вечно=ADV=} {молчаливый=A=nom,sg,plen,f}.
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {спеть=V,pf,tran=inpraes,sg,indic,1p}
+{баюшки-баю=INTJ=}.
+{с=PR=} {радость=S,f,inan=ins,sg} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{к=PR=} {мы=SPRO,pl,1p=dat} {идти=V,ipf,intr=inpraes,pl,indic,3p} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{хорошо=ADV=comp,parenth} — {отречение=S,n,inan=(acc,sg|nom,sg)},
+{скорбь=S,f,inan=(acc,sg|nom,sg)}, {самозабвение=S,n,inan=(acc,sg|nom,sg)}.
+{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {ждать=V,ipf,tran=sg,imper,2p},
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {глядеть=V,ipf,tran=sg,imper,2p}.
+{в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {кто=SPRO,sg,m,anim=nom} {оглянуться=V,pf,intr=inpraes,sg,indic,3p},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {во=PR=} {все=SPRO,pl=dat} {обманываться=V,intr=inpraes,sg,indic,3p,pf},
+{хорошо=ADV=comp,parenth} {безрассудный=A=ins,pl,plen}
+{жить=V,ipf,intr=inf} {мечта=S,f,inan=ins,pl} {чудной=A=ins,pl,plen}.
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {просыпать=V=inf,pf} {свой=APRO=acc,sg,f}.
+{баюшки-баю=INTJ=}.
+{где-то=ADVPRO=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {пениться=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {оно=SPRO,sg,3p,n=nom} {изменяться=V,intr=inpraes,sg,indic,3p,pf},
+{утомляться=V,intr=inpraes,sg,indic,3p,pf} {шумный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{шумный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {безумный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{быть=V,intr=inpraes,sg,indic,3p} {под=PR=} {луна=S,f,inan=ins,sg}
+{чуть=ADV=} {дышать=V,ipf,intr=inf} {волна=S,f,inan=ins,sg}.
+{спать=V,ipf,intr=sg,imper,2p} {же=CONJ=}, {спать=V,ipf,intr=sg,imper,2p}, {печальный=A=nom,sg,plen,f},
+{спать=V,ipf,intr=sg,imper,2p}, {многострадальный=A=nom,sg,plen,f},
+{грустный=A=nom,sg,plen,f}, {стыдливый=A=nom,sg,plen,f},
+{птичка=S,f,anim=nom,sg} {боязливый=A=nom,sg,plen,f}.
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {петь=V,ipf,tran=inpraes,sg,indic,1p}
+{баюшки-баю=INTJ=}.

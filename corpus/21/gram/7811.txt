@@ -1,154 +1,19 @@
-самый=APRO=nom,sg,f
-_
-хмельной=A=nom,sg,plen,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-безнадежность=S,f,inan=(acc,sg|nom,sg)
-,_\n
-самый=APRO=nom,sg,f
-_
-строгий=A=nom,sg,plen,f
-_
-повесть=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-поэт=S,m,anim=(acc,sg|gen,sg)
-_
-за=PR=
-_
-горький=A=acc,sg,plen,f
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-\n
-с=PR=
-_
-каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-стих=S,m,inan=ins,sg
-_
-проливалася?=S,persn,mf,anim=nom,sg
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-жребий=S,m,inan=(acc,sg|nom,sg)
-_
-поэт=S,m,anim=(acc,pl|gen,pl)
-_\u2014_
-бич=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-распятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-венчаться=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-_
-терновый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-венец=S,m,inan=ins,sg
-.\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-слагать=V,tran=praet,sg,indic,m,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-_
-про=PR=
-_
-объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-они=SPRO,pl=(acc|gen)
-_
-размыкать=V,tran=praet,sg,indic,m,pf
-_
-и=CONJ=
-_
-упасть=V,pf,intr=praet,sg,indic,m
-_\u2014_
-мертвец=S,m,anim=ins,sg
-!\n\n
-быть=V,intr=pl,imper,2p
-_
-покойный=A=pl,brev
-!_\u2014_
-все=ADV=
-_
-тихо=ADV=
-_
-свершаться=V,intr=inpraes,sg,indic,3p,pf
-.\n
-не=PART=
-_
-уходить=V,intr=(inpraes,pl,indic,2p,ipf|pl,imper,2p,ipf)
-!_\u2014_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-стрельба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-должный=A=sg,brev,m
-,_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-слегка=ADV=
-_
-уклоняться=V,intr=inf,pf
-_\n
-слишком=ADV=
-_
-уверять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-поэт=S,m,anim=(acc,sg|gen,sg)
-_
-за=PR=
-_
-горький=A=acc,sg,plen,f
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-_\n
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-вино=S,n,inan=ins,sg
-_
-изливаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-...\n
-самый=APRO=nom,sg,f
-_
-хмельной=A=nom,sg,plen,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-безнадежность=S,f,inan=(acc,sg|nom,sg)
-,_\n
-самый=APRO=nom,sg,f
-_
-строгий=A=nom,sg,plen,f
-_
-повесть=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{самый=APRO=nom,sg,f} {хмельной=A=nom,sg,plen,f} {боль=S,f,inan=(acc,sg|nom,sg)} — {безнадежность=S,f,inan=(acc,sg|nom,sg)}, 
+{самый=APRO=nom,sg,f} {строгий=A=nom,sg,plen,f} {повесть=S,f,inan=(acc,sg|nom,sg)} — {любовь=S,f,inan=(acc,sg|nom,sg)}.
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {поэт=S,m,anim=(acc,sg|gen,sg)} {за=PR=} {горький=A=acc,sg,plen,f} {нежность=S,f,inan=(acc,sg|nom,sg)}
+{с=PR=} {каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {стих=S,m,inan=ins,sg} {проливалася?=S,persn,mf,anim=nom,sg} {кровь=S,f,inan=(acc,sg|nom,sg)}.
+
+{жребий=S,m,inan=(acc,sg|nom,sg)} {поэт=S,m,anim=(acc,pl|gen,pl)} — {бич=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {распятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {венчаться=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {терновый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {венец=S,m,inan=ins,sg}.
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {слагать=V,tran=praet,sg,indic,m,ipf} {вы=SPRO,pl,2p=dat} {стих=S,m,inan=(acc,pl|nom,pl)} {про=PR=} {объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{они=SPRO,pl=(acc|gen)} {размыкать=V,tran=praet,sg,indic,m,pf} {и=CONJ=} {упасть=V,pf,intr=praet,sg,indic,m} — {мертвец=S,m,anim=ins,sg}!
+
+{быть=V,intr=pl,imper,2p} {покойный=A=pl,brev}! — {все=ADV=} {тихо=ADV=} {свершаться=V,intr=inpraes,sg,indic,3p,pf}.
+{не=PART=} {уходить=V,intr=(inpraes,pl,indic,2p,ipf|pl,imper,2p,ipf)}! — {не=PART=} {быть=V,intr=inpraes,sg,indic,3p} {стрельба=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{должный=A=sg,brev,m}, {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {слегка=ADV=} {уклоняться=V,intr=inf,pf} 
+{слишком=ADV=} {уверять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {шаг=S,m,inan=(acc,sg|nom,sg)} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {поэт=S,m,anim=(acc,sg|gen,sg)} {за=PR=} {горький=A=acc,sg,plen,f} {нежность=S,f,inan=(acc,sg|nom,sg)} 
+{темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вино=S,n,inan=ins,sg} {изливаться=V,intr=inpraes,sg,indic,3p,ipf} {кровь=S,f,inan=(acc,sg|nom,sg)}...
+{самый=APRO=nom,sg,f} {хмельной=A=nom,sg,plen,f} {боль=S,f,inan=(acc,sg|nom,sg)} — {безнадежность=S,f,inan=(acc,sg|nom,sg)}, 
+{самый=APRO=nom,sg,f} {строгий=A=nom,sg,plen,f} {повесть=S,f,inan=(acc,sg|nom,sg)} — {любовь=S,f,inan=(acc,sg|nom,sg)}!

@@ -1,74 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-застить=V,ipf=inpraes,sg,indic,2p,tran
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-горсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
-ах=INTJ=
-,_
-если=CONJ=
-_
-бы=PART=
-_\u2014_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-настежь=ADV=
-!_\u2014_\n
-как=CONJ=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-входить=V,intr=inf,pf
-!\n\n
-и=CONJ=
-_
-залепетать=V,pf,tran=inf
-,_
-и=CONJ=
-_
-вспыхивать=V,intr=inf,pf
-,\n
-и=CONJ=
-_
-круто=ADV=
-_
-потуплять=V,tran=inf,pf
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-,_
-всхлипывать=V,intr=inpraes,ger,ipf
-,_
-затихать=V,intr=inf,pf
-,\n
-как=CONJ=
-_
-в=PR=
-_
-детство=S,n,inan=abl,sg
-,_
-когда=CONJ=
-_
-прощать=V=inpraes,pl,indic,3p,pf
-.\n
+{ты=SPRO,sg,2p=nom} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {я=SPRO,sg,1p=(abl|dat)} {застить=V,ipf=inpraes,sg,indic,2p,tran},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {горсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+{ах=INTJ=}, {если=CONJ=} {бы=PART=} — {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {настежь=ADV=}! — 
+{как=CONJ=} {ветер=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {входить=V,intr=inf,pf}!
+
+{и=CONJ=} {залепетать=V,pf,tran=inf}, {и=CONJ=} {вспыхивать=V,intr=inf,pf},
+{и=CONJ=} {круто=ADV=} {потуплять=V,tran=inf,pf} {взгляд=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=}, {всхлипывать=V,intr=inpraes,ger,ipf}, {затихать=V,intr=inf,pf},
+{как=CONJ=} {в=PR=} {детство=S,n,inan=abl,sg}, {когда=CONJ=} {прощать=V=inpraes,pl,indic,3p,pf}.

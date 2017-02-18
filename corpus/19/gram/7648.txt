@@ -1,102 +1,14 @@
-задумчиво=ADV=
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-лампада=S,f,inan=nom,sg
-,\n
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-тихо=ADV=
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-огонек=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-отрада=S,f,inan=nom,sg
-\n
-на=PR=
-_
-смена=S,f,inan=acc,sg
-_
-минувший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-тревога=S,f,inan=gen,pl
-.\n\n
-на=PR=
-_
-скатерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-тихонько=ADV=
-_
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-самовар=S,m,inan=(acc,sg|nom,sg)
-.\n
-река=S,f,inan=ins,sg
-_
-туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-волнистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-по=PR=
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-стлаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-пар=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-навевать=V,tran=inpraes,ger,ipf
-,\n
-лампада=S,f,inan=nom,sg
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-предо=PR=
-_
-я=SPRO,sg,1p=ins
-,\n
-и=CONJ=
-_
-песня=S,f,inan=acc,sg
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-напевать=V,tran=inpraes,ger,ipf
-,\n
-и=CONJ=
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-нежить=V,ipf,tran=inpraes,sg,indic,3p
-_
-пора=S,f,inan=ins,sg
-.\n
+{задумчиво=ADV=} {светить=V,ipf,intr=inpraes,sg,indic,3p} {лампада=S,f,inan=nom,sg},
+{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {тихо=ADV=} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {огонек=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мир=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {отрада=S,f,inan=nom,sg}
+{на=PR=} {смена=S,f,inan=acc,sg} {минувший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {тревога=S,f,inan=gen,pl}.
+
+{на=PR=} {скатерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {чистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{тихонько=ADV=} {кипеть=V,ipf,intr=inpraes,sg,indic,3p} {самовар=S,m,inan=(acc,sg|nom,sg)}.
+{река=S,f,inan=ins,sg} {туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {волнистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{по=PR=} {комната=S,f,inan=(abl,sg|dat,sg)} {стлаться=V,ipf,intr=inpraes,sg,indic,3p} {пар=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {радость=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {навевать=V,tran=inpraes,ger,ipf},
+{лампада=S,f,inan=nom,sg} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {предо=PR=} {я=SPRO,sg,1p=ins},
+{и=CONJ=} {песня=S,f,inan=acc,sg} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {напевать=V,tran=inpraes,ger,ipf},
+{и=CONJ=} {манить=V,ipf,tran=inpraes,sg,indic,3p}, {и=CONJ=} {нежить=V,ipf,tran=inpraes,sg,indic,3p} {пора=S,f,inan=ins,sg}.

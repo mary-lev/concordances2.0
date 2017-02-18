@@ -1,36 +1,4 @@
-не=PART=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-кучер=S,m,anim=nom,sg
-_
-нанимать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-торопить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
--
-господин=S,m,anim=nom,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-приносить=V=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-для=PR=
-_
-память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-еще=ADV=
-_
-подарочек=S,m,inan=(acc,sg|nom,sg)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,3p}, {не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {кучер=S,m,anim=nom,sg} {нанимать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{торопить=V,ipf,tran=inpraes,sg,indic,3p} {ветер=S,m,inan=(acc,sg|nom,sg)}-{господин=S,m,anim=nom,sg}.
+{я=SPRO,sg,1p=nom} {приносить=V=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=(abl|dat)} {для=PR=} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{еще=ADV=} {подарочек=S,m,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.

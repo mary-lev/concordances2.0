@@ -1,62 +1,9 @@
-балтийский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-дымиться=V,ipf,intr=praet,sg,indic,n
-_\n
-и=CONJ=
-_
-словно=CONJ=
-_
-рваться=V,ipf,intr=praet,sg,indic,n
-_
-на=PR=
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-,_\n
-балтийский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-садиться=V,intr=praet,sg,indic,n,ipf
-_\n
-за=PR=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-кронштадт=S,geo,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-так=ADVPRO=
-_
-широко=ADV=
-_
-освещать=V,tran=praet,sg,indic,n,ipf
-_\n
-тревожный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-дым=S,m,inan=(dat,sg|part,sg|loc,sg)
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-еще=ADV=
-_
-обещать=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)
-_\n
-какой-то=APRO=(acc,sg,n|nom,sg,n)
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=dat
-.\n
+{балтийский=A=(acc,sg,plen,n|nom,sg,plen,n)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {дымиться=V,ipf,intr=praet,sg,indic,n} 
+{и=CONJ=} {словно=CONJ=} {рваться=V,ipf,intr=praet,sg,indic,n} {на=PR=} {закат=S,m,inan=(acc,sg|nom,sg)}, 
+{балтийский=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {садиться=V,intr=praet,sg,indic,n,ipf} 
+{за=PR=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кронштадт=S,geo,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {так=ADVPRO=} {широко=ADV=} {освещать=V,tran=praet,sg,indic,n,ipf} 
+{тревожный=A=(acc,sg,plen,n|nom,sg,plen,n)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {дым=S,m,inan=(dat,sg|part,sg|loc,sg)},
+{как=ADVPRO=} {будто=PART=} {еще=ADV=} {обещать=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)} 
+{какой-то=APRO=(acc,sg,n|nom,sg,n)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {он=SPRO,sg,3p,m=dat}.

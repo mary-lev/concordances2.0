@@ -1,34 +1,9 @@
-голубой=A=nom,sg,plen,f
-_
-речка=S,f,inan=nom,sg
-,_\n
-зябкий=A=nom,sg,plen,f
-_
-волна=S,f,inan=nom,sg
-,_\n
-время=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-утечка=S,f,inan=nom,sg
-_\n
-явственно=ADV=
-_
-слышный=A=sg,brev,f
-.\n\n
-голубой=A=nom,sg,plen,f
-_
-речка=S,f,inan=nom,sg
-_\n
-предлагать=V,tran=inpraes,sg,indic,3p,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-_\n
-теплый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-местечко=S,n,inan=(acc,sg|nom,sg)
-_\n
-на=PR=
-_
-холодный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-дно=S,n,inan=abl,sg
-.\n
+{голубой=A=nom,sg,plen,f} {речка=S,f,inan=nom,sg}, 
+{зябкий=A=nom,sg,plen,f} {волна=S,f,inan=nom,sg}, 
+{время=S,n,inan=(abl,sg|dat,sg|gen,sg)} {утечка=S,f,inan=nom,sg} 
+{явственно=ADV=} {слышный=A=sg,brev,f}.
+
+{голубой=A=nom,sg,plen,f} {речка=S,f,inan=nom,sg} 
+{предлагать=V,tran=inpraes,sg,indic,3p,ipf} {я=SPRO,sg,1p=(abl|dat)} 
+{теплый=A=(acc,sg,plen,n|nom,sg,plen,n)} {местечко=S,n,inan=(acc,sg|nom,sg)} 
+{на=PR=} {холодный=A=(abl,sg,plen,m|abl,sg,plen,n)} {дно=S,n,inan=abl,sg}.

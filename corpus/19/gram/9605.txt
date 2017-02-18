@@ -1,64 +1,9 @@
-речь=S,f,inan=(acc,sg|nom,sg)
-_
-про=PR=
-_
-босняк=S,m,anim=(acc,pl|gen,pl)
-_
-зайти=V,pf,intr=praet,sg,indic,f
-.\n
-услыхать=V,pf,tran=praet,ger
-_
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-смеяться=V,ipf,intr=inf
-_
-начинать=V,tran=praet,sg,indic,f,pf
-:\n\u2014_
-ты=SPRO,sg,2p=nom
-_
-по=PR=
-_
-слух=S,m,inan=dat,sg
-_
-сходный=A=sg,brev,m
-_
-с=PR=
-_
-они=SPRO,pl=ins
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-ведь=PART=
-_
-ходить=V,ipf,intr=inpraes,sg,indic,2p
-_
-босиком=ADV=
-\n
-от=PR=
-_
-весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ранний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-почка=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-теперь=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-босняк=S,m,anim=ins,sg
-\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-звать=V,ipf,tran=inf
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-сыночек=S,m,anim=nom,sg
-.\n
+{речь=S,f,inan=(acc,sg|nom,sg)} {про=PR=} {босняк=S,m,anim=(acc,pl|gen,pl)} {зайти=V,pf,intr=praet,sg,indic,f}.
+{услыхать=V,pf,tran=praet,ger} {этот=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)},
+{мать=S,f,anim=(acc,sg|nom,sg)} {смеяться=V,ipf,intr=inf} {начинать=V,tran=praet,sg,indic,f,pf}:
+— {ты=SPRO,sg,2p=nom} {по=PR=} {слух=S,m,inan=dat,sg} {сходный=A=sg,brev,m} {с=PR=} {они=SPRO,pl=ins}.
+
+{ты=SPRO,sg,2p=nom} {ведь=PART=} {ходить=V,ipf,intr=inpraes,sg,indic,2p} {босиком=ADV=}
+{от=PR=} {весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ранний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {почка=S,f,inan=gen,pl},
+{и=CONJ=} {теперь=ADV=} {я=SPRO,sg,1p=nom} {босняк=S,m,anim=ins,sg}
+{быть=V,intr=inpraes,sg,indic,1p} {звать=V,ipf,tran=inf} {ты=SPRO,sg,2p=(acc|gen)}, {сыночек=S,m,anim=nom,sg}.

@@ -1,80 +1,10 @@
-нет=PART=
-,_
-не=PART=
-_
-шотландский=A,geo=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-королева=S,f,anim=ins,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-умирать=V,intr=praet,sg,indic,f,ipf
-_
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-:\n
-иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,_
-памятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-,\n
-иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,_
-близкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-напев=S,m,inan=gen,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-оживлять=V,tran=praet,sg,indic,f,pf
-_
-след=S,m,inan=(acc,sg|nom,sg)
-.\n
-он=SPRO,sg,3p,m=nom
-_
-промелькнуть=V,pf,intr=praet,sg,indic,m
-,_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-уж=PART=
-_
-нет=ADV,praed=
-.\n
-но=CONJ=
-_
-за=PR=
-_
-минутный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-господство=S,n,inan=(acc,sg|nom,sg)
-\n
-над=PR=
-_
-озарять=V,tran=praet,ins,sg,partcp,plen,f,pf,pass
-_
-душа=S,f,inan=ins,sg
-,\n
-за=PR=
-_
-умиление=S,n,inan=(acc,sg|nom,sg)
-,_
-за=PR=
-_
-сходство=S,n,inan=(acc,sg|nom,sg)
-_\u2014\n
-быть=V,intr=sg,imper,2p
-_
-счастливый=A=sg,brev,f
-!_
-господь=S,sg,m,anim=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n
+{нет=PART=}, {не=PART=} {шотландский=A,geo=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {королева=S,f,anim=ins,sg}
+{ты=SPRO,sg,2p=nom} {умирать=V,intr=praet,sg,indic,f,ipf} {для=PR=} {я=SPRO,sg,1p=(acc|gen)}:
+{иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}, {памятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg},
+{иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}, {близкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {напев=S,m,inan=gen,sg}
+{ты=SPRO,sg,2p=nom} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {оживлять=V,tran=praet,sg,indic,f,pf} {след=S,m,inan=(acc,sg|nom,sg)}.
+{он=SPRO,sg,3p,m=nom} {промелькнуть=V,pf,intr=praet,sg,indic,m}, {он=SPRO,sg,3p,m=(acc|gen)} {уж=PART=} {нет=ADV,praed=}.
+{но=CONJ=} {за=PR=} {минутный=A=(acc,sg,plen,n|nom,sg,plen,n)} {господство=S,n,inan=(acc,sg|nom,sg)}
+{над=PR=} {озарять=V,tran=praet,ins,sg,partcp,plen,f,pf,pass} {душа=S,f,inan=ins,sg},
+{за=PR=} {умиление=S,n,inan=(acc,sg|nom,sg)}, {за=PR=} {сходство=S,n,inan=(acc,sg|nom,sg)} —
+{быть=V,intr=sg,imper,2p} {счастливый=A=sg,brev,f}! {господь=S,sg,m,anim=nom} {с=PR=} {ты=SPRO,sg,2p=ins}.

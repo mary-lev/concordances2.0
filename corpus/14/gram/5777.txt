@@ -1,74 +1,10 @@
-где=ADVPRO=
-_
-дремать=V,ipf,intr=praet,sg,indic,f
-_
-пустыня=S,f,inan=nom,sg
-_\u2014_
-там=PART=
-_
-ныне=ADV=
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-,\n
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-озерный=A=nom,sg,plen,f
-_
-гладь=S,f,inan=(acc,sg|nom,sg)
-.\n
-мы=SPRO,pl,1p=nom
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-навсегда=ADV=
-_
-стереть=V,pf=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-след=S,m,inan=(acc,pl|nom,pl)
-\n
-война=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n\t
-чтоб=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-созидать=V,ipf,tran=inf
-.\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-страшный=A=sg,brev,f
-_
-зарубежный=A=nom,sg,plen,f
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-,\n
-мы=SPRO,pl,1p=nom
-_
-правда=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-сильный=A=pl,brev
-.\n
-он=SPRO,sg,3p,m=nom
-_
-создавать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-уже=ADV=
-_\u2014\n_________________
-великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-чертеж=S,m,inan=(acc,sg|nom,sg)
-\n
-грядущее=S,n,inan=gen,sg
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{где=ADVPRO=} {дремать=V,ipf,intr=praet,sg,indic,f} {пустыня=S,f,inan=nom,sg} — {там=PART=} {ныне=ADV=} {сад=S,m,inan=(acc,pl|nom,pl)},
+{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {озерный=A=nom,sg,plen,f} {гладь=S,f,inan=(acc,sg|nom,sg)}.
+{мы=SPRO,pl,1p=nom} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {навсегда=ADV=} {стереть=V,pf=(inpraes,pl,indic,1p|pl,imper,1p)} {след=S,m,inan=(acc,pl|nom,pl)}
+{война=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+	{чтоб=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {созидать=V,ipf,tran=inf}.
+{и=CONJ=} {мы=SPRO,pl,1p=dat} {не=PART=} {страшный=A=sg,brev,f} {зарубежный=A=nom,sg,plen,f} {ложь=S,f,inan=(acc,sg|nom,sg)},
+{мы=SPRO,pl,1p=nom} {правда=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сильный=A=pl,brev}.
+{он=SPRO,sg,3p,m=nom} {создавать=V,tran=praet,sg,partcp,brev,m,pf,pass} {уже=ADV=} —
+                 {великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чертеж=S,m,inan=(acc,sg|nom,sg)}
+{грядущее=S,n,inan=gen,sg} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

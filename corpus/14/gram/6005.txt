@@ -1,38 +1,5 @@
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_\u2014_
-твердый=A=nom,sg,plen,f
-_
-рука=S,f,inan=nom,sg
-\n
-и=CONJ=
-_
-полувиноватый?=A=nom,sg,plen,f
-_
-улыбка=S,f,inan=nom,sg
-,\n
-но=CONJ=
-_
-делать=V,ipf,tran=inf
-_
-нечего=ADV,praed=
-,_
-и=CONJ=
-_
-пусть=PART=
-_
-пока=ADV=
-\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-именоваться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ошибка=S,f,inan=ins,sg
-\n
-жестокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-...\n
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} — {твердый=A=nom,sg,plen,f} {рука=S,f,inan=nom,sg}
+{и=CONJ=} {полувиноватый?=A=nom,sg,plen,f} {улыбка=S,f,inan=nom,sg},
+{но=CONJ=} {делать=V,ipf,tran=inf} {нечего=ADV,praed=}, {и=CONJ=} {пусть=PART=} {пока=ADV=}
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {именоваться=V,ipf,intr=inpraes,sg,indic,3p} {ошибка=S,f,inan=ins,sg}
+{жестокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...

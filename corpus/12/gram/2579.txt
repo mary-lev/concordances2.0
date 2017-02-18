@@ -1,104 +1,14 @@
-должно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-_\u2014_
-за=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-роща=S,f,inan=ins,sg
-\n
-деревня=S,f,inan=nom,sg
-,_
-где=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=praet,sg,indic,f
-,\n
-должно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-просто=ADV=comp
-\n
-и=CONJ=
-_
-легко=ADV=comp
-,_
-чем=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-ждать=V,ipf,tran=praet,sg,indic,f
-.\n\n_\u2014_
-эй=INTJ=
-,_
-идол=S,m,anim=nom,pl
-,_
-чтоб=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-сдыхать=V,intr=praet,pl,indic,pf
-!_\u2014_\n
-привставать=V,intr=praet,sg,indic,m,pf
-_
-и=CONJ=
-_
-занести=V,pf=praet,sg,indic,m
-_
-кнут=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-окрик=S,m,inan=dat,sg
-_
-вслед=ADV=
-_\u2014_
-охлест?=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-вновь=ADV=
-_
-бубенец=S,m,inan=(acc,pl|nom,pl)
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-.\n\n
-над=PR=
-_
-валкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-жалкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-хлеб=S,m,inan=ins,sg
-\n
-за=PR=
-_
-жердь=S,f,inan=ins,sg
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_\u2014_
-жердь=S,f,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-проволока=S,f,inan=nom,sg
-_
-под=PR=
-_
-небо=S,n,inan=ins,sg
-\n
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-.\n
+{должно=ADV,praed=} {быть=V,intr=inf,ipf} — {за=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {роща=S,f,inan=ins,sg}
+{деревня=S,f,inan=nom,sg}, {где=ADVPRO=} {я=SPRO,sg,1p=nom} {жить=V,ipf,intr=praet,sg,indic,f},
+{должно=ADV,praed=} {быть=V,intr=inf,ipf} — {любовь=S,f,inan=(acc,sg|nom,sg)} {просто=ADV=comp}
+{и=CONJ=} {легко=ADV=comp}, {чем=CONJ=} {я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=praet,sg,indic,f}.
+
+ — {эй=INTJ=}, {идол=S,m,anim=nom,pl}, {чтоб=CONJ=} {вы=SPRO,pl,2p=nom} {сдыхать=V,intr=praet,pl,indic,pf}! — 
+{привставать=V,intr=praet,sg,indic,m,pf} {и=CONJ=} {занести=V,pf=praet,sg,indic,m} {кнут=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {окрик=S,m,inan=dat,sg} {вслед=ADV=} — {охлест?=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {вновь=ADV=} {бубенец=S,m,inan=(acc,pl|nom,pl)} {петь=V,ipf,tran=inpraes,pl,indic,3p}.
+
+{над=PR=} {валкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {жалкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {хлеб=S,m,inan=ins,sg}
+{за=PR=} {жердь=S,f,inan=ins,sg} {вставать=V,intr=inpraes,sg,indic,3p,ipf} — {жердь=S,f,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {проволока=S,f,inan=nom,sg} {под=PR=} {небо=S,n,inan=ins,sg}
+{петь=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {петь=V,ipf,tran=inpraes,sg,indic,3p} {смерть=S,f,inan=(acc,sg|nom,sg)}.

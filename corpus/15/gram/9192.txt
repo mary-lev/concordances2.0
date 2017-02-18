@@ -1,118 +1,14 @@
-золотой=A=nom,sg,plen,f
-_
-парча=S,f,inan=nom,sg
-_
-развиваться=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-кто-то=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-дорога=S,f,inan=acc,sg
-_
-сбираться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-ли=PART=
-_
-мой=APRO=nom,sg,f
-,_
-или=CONJ=
-_
-милый=A=nom,sg,plen,f
-?\n
-иль=CONJ=
-_
-чужой=A,plen=nom,sg,f
-_
-старуха=S,f,anim=nom,sg
-_
-унылый=A=nom,sg,plen,f
-?\n\n
-золотой=A=nom,sg,plen,f
-_
-парча=S,f,inan=nom,sg
-_
-развиваться=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-путь=S,m,inan=(acc,sg|nom,sg)
--
-дорога=S,f,inan=nom,sg
-_
-в=PR=
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-означаться=V,intr=inpraes,sg,indic,3p,ipf
-.\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-милый=A=nom,sg,plen,f
-,_
-нет=PART=
-,_
-не=PART=
-_
-старуха=S,f,anim=nom,sg
-,_
-не=PART=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-,\n
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-,_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,3p
-_
-гулять=V,ipf,intr=inf
-.\n\n
-золотой=A=nom,sg,plen,f
-_
-парча=S,f,inan=nom,sg
-_
-развиваться=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-заколдованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-замок=S,m,inan=(acc,sg|nom,sg)
-_
-вздыматься=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-это=PART=
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,_
-это=PART=
-_
-вольность=S,f,inan=(acc,sg|nom,sg)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-она=SPRO,sg,3p,f=(dat|ins)
-_
-доступный=A=pl,brev
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{золотой=A=nom,sg,plen,f} {парча=S,f,inan=nom,sg} {развиваться=V,intr=inpraes,sg,indic,3p,ipf},
+{кто-то=SPRO,sg,m,anim=nom} {в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {дорога=S,f,inan=acc,sg} {сбираться=V,ipf,intr=inpraes,sg,indic,3p}.
+{это=SPRO,sg,n,inan=(acc|nom)} {мать=S,f,anim=(acc,sg|nom,sg)} {ли=PART=} {мой=APRO=nom,sg,f}, {или=CONJ=} {милый=A=nom,sg,plen,f}?
+{иль=CONJ=} {чужой=A,plen=nom,sg,f} {старуха=S,f,anim=nom,sg} {унылый=A=nom,sg,plen,f}?
+
+{золотой=A=nom,sg,plen,f} {парча=S,f,inan=nom,sg} {развиваться=V,intr=inpraes,sg,indic,3p,ipf},
+{путь=S,m,inan=(acc,sg|nom,sg)}-{дорога=S,f,inan=nom,sg} {в=PR=} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {означаться=V,intr=inpraes,sg,indic,3p,ipf}.
+{то=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {милый=A=nom,sg,plen,f}, {нет=PART=}, {не=PART=} {старуха=S,f,anim=nom,sg}, {не=PART=} {мать=S,f,anim=(acc,sg|nom,sg)},
+{не=PART=} {хотеть=V,ipf,tran=inpraes,pl,indic,3p} {они=SPRO,pl=nom} {в=PR=} {мир=S,m,inan=abl,sg}, {не=PART=} {мочь=V,ipf,intr=inpraes,pl,indic,3p} {гулять=V,ipf,intr=inf}.
+
+{золотой=A=nom,sg,plen,f} {парча=S,f,inan=nom,sg} {развиваться=V,intr=inpraes,sg,indic,3p,ipf},
+{заколдованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {замок=S,m,inan=(acc,sg|nom,sg)} {вздыматься=V,ipf,intr=inpraes,sg,indic,3p}.
+{это=PART=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}, {это=PART=} {вольность=S,f,inan=(acc,sg|nom,sg)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{она=SPRO,sg,3p,f=(dat|ins)} {доступный=A=pl,brev} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

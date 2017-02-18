@@ -1,156 +1,23 @@
-мышка=S,f,anim=nom,sg
-_
-спичка=S,f,inan=ins,pl
-_
-играть=V,ipf,tran=praet,sg,indic,f
-,\n
-загораться=V,intr=praet,sg,indic,m,pf
-_
-кошкин=S,famn,m,anim=nom,sg
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
-нет=PART=
-,_
-давать=V,tran=sg,imper,2p,ipf
-_
-начинать=V,tran=inpraes,sg,indic,1p,pf
-_
-сначала=ADV=
-,\n
-мышка=S,f,anim=nom,sg
-_
-спичка=S,f,inan=ins,pl
-_
-играть=V,ipf,tran=praet,sg,indic,f
-,\n
-перед=PR=
-_
-васька=S,persn,m,anim=ins,sg
-,_
-пред=PR=
-_
-кот=S,m,anim=ins,sg
-.\n\n
-промяукнуть?=V,pf,intr=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-на=PR=
-_
-мышка=S,f,inan=acc,sg
-,_\u2014\n
-а=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-он=SPRO,sg,3p,m=dat
-:_\xAB
-кис-кис=INTJ=
-\xBB.\n\xAB
-нет=PART=
-\xBB,_
-сказать=V,pf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-,_\xAB
-это=PART=
-_\u2014_
-лишек=S,m,inan=(dat,sg|part,sg)
-\xBB,\n
-и=CONJ=
-_
-за=PR=
-_
-хвостик=S,m,inan=(acc,sg|nom,sg)
-_
-хвать=INTJ=
-_
-плутишка=S,m,anim=acc,sg
-.\n
-вдруг=ADV=
-_
-ус=S,m,inan=(acc,pl|nom,pl)
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-зажигаться=V,intr=praet,pl,indic,pf
-.\n\n
-кот=S,m,anim=nom,sg
-_
-мяукать=V,ipf,intr=inf
-,_
-кот=S,m,anim=nom,sg
-_
-метаться=V,ipf,intr=inf
-.\n
-загораться=V,intr=praet,sg,indic,m,ipf
-_
-кошкин=S,famn,m,anim=nom,sg
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
-тут=ADVPRO=
-_
-бы=PART=
-_
-кошка=S,f,anim=(abl,sg|dat,sg)
-_
-догадываться=V,intr=inf,pf
-,\n
-а=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_
-давать=V,tran=sg,imper,2p,ipf
-_
-считаться=V,ipf,intr=inf
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-поставлять=V,tran=praet,sg,indic,f,pf
-_
-вверх=ADV=
-_
-дно=S,n,inan=ins,sg
-.\n\n
-погубить=V,pf,tran=praet,sg,indic,f
-_
-ревность=S,f,inan=(acc,sg|nom,sg)
-_
-злой=A=nom,sg,plen,f
-.\n
-кошкин=S,famn,m,anim=nom,sg
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-сгорать=V,intr=praet,sg,indic,m,pf
-_
-до=PR=
-_
-тла?=S,pl,inan=(acc|nom)
-.\n\xAB
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мышка=S,f,inan=(abl,sg|dat,sg)
-_
-помогать=V,intr=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=nom
-\xBB,\n
-спичка=S,f,inan=nom,sg
-_
-молвить=V,pf,tran=praet,sg,indic,f
-,_
-пылать=V,ipf,intr=inpraes,ger
-._\u2014\n
-мышка=S,f,anim=nom,sg
-_
-до=PR=
-_
-сей=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-пора=S,f,inan=gen,pl
-_
-целый=A=sg,brev,f
-.\n
+{мышка=S,f,anim=nom,sg} {спичка=S,f,inan=ins,pl} {играть=V,ipf,tran=praet,sg,indic,f},
+{загораться=V,intr=praet,sg,indic,m,pf} {кошкин=S,famn,m,anim=nom,sg} {дом=S,m,inan=(acc,sg|nom,sg)}.
+{нет=PART=}, {давать=V,tran=sg,imper,2p,ipf} {начинать=V,tran=inpraes,sg,indic,1p,pf} {сначала=ADV=},
+{мышка=S,f,anim=nom,sg} {спичка=S,f,inan=ins,pl} {играть=V,ipf,tran=praet,sg,indic,f},
+{перед=PR=} {васька=S,persn,m,anim=ins,sg}, {пред=PR=} {кот=S,m,anim=ins,sg}.
+
+{промяукнуть?=V,pf,intr=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {на=PR=} {мышка=S,f,inan=acc,sg}, —
+{а=CONJ=} {она=SPRO,sg,3p,f=nom} {он=SPRO,sg,3p,m=dat}: «{кис-кис=INTJ=}».
+«{нет=PART=}», {сказать=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom}, «{это=PART=} — {лишек=S,m,inan=(dat,sg|part,sg)}»,
+{и=CONJ=} {за=PR=} {хвостик=S,m,inan=(acc,sg|nom,sg)} {хвать=INTJ=} {плутишка=S,m,anim=acc,sg}.
+{вдруг=ADV=} {ус=S,m,inan=(acc,pl|nom,pl)} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {зажигаться=V,intr=praet,pl,indic,pf}.
+
+{кот=S,m,anim=nom,sg} {мяукать=V,ipf,intr=inf}, {кот=S,m,anim=nom,sg} {метаться=V,ipf,intr=inf}.
+{загораться=V,intr=praet,sg,indic,m,ipf} {кошкин=S,famn,m,anim=nom,sg} {дом=S,m,inan=(acc,sg|nom,sg)}.
+{тут=ADVPRO=} {бы=PART=} {кошка=S,f,anim=(abl,sg|dat,sg)} {догадываться=V,intr=inf,pf},
+{а=CONJ=} {она=SPRO,sg,3p,f=nom} {давать=V,tran=sg,imper,2p,ipf} {считаться=V,ipf,intr=inf},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {поставлять=V,tran=praet,sg,indic,f,pf} {вверх=ADV=} {дно=S,n,inan=ins,sg}.
+
+{погубить=V,pf,tran=praet,sg,indic,f} {ревность=S,f,inan=(acc,sg|nom,sg)} {злой=A=nom,sg,plen,f}.
+{кошкин=S,famn,m,anim=nom,sg} {дом=S,m,inan=(acc,sg|nom,sg)} {сгорать=V,intr=praet,sg,indic,m,pf} {до=PR=} {тла?=S,pl,inan=(acc|nom)}.
+«{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мышка=S,f,inan=(abl,sg|dat,sg)} {помогать=V,intr=praet,sg,indic,f,pf} {я=SPRO,sg,1p=nom}»,
+{спичка=S,f,inan=nom,sg} {молвить=V,pf,tran=praet,sg,indic,f}, {пылать=V,ipf,intr=inpraes,ger}. —
+{мышка=S,f,anim=nom,sg} {до=PR=} {сей=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} {целый=A=sg,brev,f}.

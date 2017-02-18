@@ -1,64 +1,9 @@
-прислушиваться=V,intr=sg,imper,2p,pf
-_
-к=PR=
-_
-дальний=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-пение=S,n,inan=dat,sg
-_\n
-эоловый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежно=ADV=comp
-_\u2014\n
-то=CONJ=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-широкий=A=ins,sg,plen,f
-_
-тень=S,f,inan=ins,sg
-_\n
-ложиться=V,intr=inpraes,sg,indic,3p,ipf
-_
-у=PR=
-_
-серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-камень=S,m,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-_
-из=PR=
-_
-туман=S,m,inan=gen,sg
-:\n\u2014_
-я=SPRO,sg,1p=nom
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-потерять=V,pf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-забывать=V=praet,sg,indic,m,pf
-._\n
-печальный=A=nom,sg,plen,f
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-_
-океан=S,m,inan=gen,sg
-.\n
-зачем=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-полюбить=V,pf,tran=praet,sg,indic,m
-.\n
+{прислушиваться=V,intr=sg,imper,2p,pf} {к=PR=} {дальний=A=(dat,sg,plen,m|dat,sg,plen,n)} {пение=S,n,inan=dat,sg} 
+{эоловый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нежно=ADV=comp} —
+{то=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {широкий=A=ins,sg,plen,f} {тень=S,f,inan=ins,sg} 
+{ложиться=V,intr=inpraes,sg,indic,3p,ipf} {у=PR=} {серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {камень=S,m,inan=gen,pl}.
+
+{и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {из=PR=} {туман=S,m,inan=gen,sg}:
+— {я=SPRO,sg,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {потерять=V,pf,tran=praet,sg,indic,m} {и=CONJ=} {забывать=V=praet,sg,indic,m,pf}. 
+{печальный=A=nom,sg,plen,f} {дочь=S,f,anim=(acc,sg|nom,sg)} {океан=S,m,inan=gen,sg}.
+{зачем=ADVPRO=} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {полюбить=V,pf,tran=praet,sg,indic,m}.

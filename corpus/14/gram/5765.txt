@@ -1,40 +1,4 @@
-дорога=S,f,inan=ins,sg
-_
-цена=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-нежданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-понимать=V=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=nom
-,_
-что=CONJ=
-_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,2p
-.\n
-а=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-место=S,n,inan=(acc,sg|nom,sg)
-_
-находить=V=inpraes,sg,indic,2p,pf,tran
-\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-безымянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
+{дорога=S,f,inan=ins,sg} {цена=S,f,inan=ins,sg} {и=CONJ=} {нежданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{понимать=V=praet,sg,indic,f,pf} {я=SPRO,sg,1p=nom}, {что=CONJ=} {помнить=V,ipf,tran=inpraes,sg,indic,2p} {и=CONJ=} {ждать=V,ipf,tran=inpraes,sg,indic,2p}.
+{а=CONJ=} {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {и=CONJ=} {место=S,n,inan=(acc,sg|nom,sg)} {находить=V=inpraes,sg,indic,2p,pf,tran}
+{ты=SPRO,sg,2p=nom} — {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {безымянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.

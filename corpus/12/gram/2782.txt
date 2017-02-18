@@ -1,48 +1,7 @@
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-ладан=S,m,inan=ins,sg
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-._
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-и=CONJ=
-_
-проходить=V,intr=praet,sg,indic,m,pf
-.\n
-из=PR=
-_
-зиять=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-пасть=S,f,inan=gen,pl
-_
-дом=S,m,inan=gen,pl
-_\u2014_\n
-громовой=A=ins,pl,plen
-_
-рулада=S,f,inan=ins,pl
-_
-рваться=V,ipf,intr=inpraes,sg,indic,3p
-_
-рояль=S,m,inan=(acc,sg|nom,sg)
-,\n
-разрывать=V,tran=inpraes,ger,ipf
-_
-июньский=A=acc,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-героический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-гром=S,m,inan=ins,sg
-_
-бетховенский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-буря=S,f,inan=gen,pl
-\n
-город=S,m,inan=(acc,sg|nom,sg)
-_
-мстить=V,ipf,intr=inpraes,sg,indic,3p
-...\n
+{пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {ладан=S,m,inan=ins,sg} {воздух=S,m,inan=(acc,sg|nom,sg)}. {дождь=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {и=CONJ=} {проходить=V,intr=praet,sg,indic,m,pf}.
+{из=PR=} {зиять=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {пасть=S,f,inan=gen,pl} {дом=S,m,inan=gen,pl} — 
+{громовой=A=ins,pl,plen} {рулада=S,f,inan=ins,pl} {рваться=V,ipf,intr=inpraes,sg,indic,3p} {рояль=S,m,inan=(acc,sg|nom,sg)},
+{разрывать=V,tran=inpraes,ger,ipf} {июньский=A=acc,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+
+{героический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гром=S,m,inan=ins,sg} {бетховенский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {буря=S,f,inan=gen,pl}
+{город=S,m,inan=(acc,sg|nom,sg)} {мстить=V,ipf,intr=inpraes,sg,indic,3p}...

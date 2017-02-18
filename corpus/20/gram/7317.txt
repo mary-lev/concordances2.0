@@ -1,100 +1,14 @@
-кто=SPRO,sg,m,anim=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-утренний=A=acc,sg,plen,f
-,_
-белый=A=acc,sg,plen,f
-_\n
-средь=PR=
-_
-расцветать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-_
-небо=S,n,inan=gen,pl
-,_\u2014_\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-забывать=V=inpraes,sg,indic,3p,pf
-_
-тайна=S,f,inan=acc,sg
-_
-смелый=A=acc,sg,plen,f
-,_\n
-обетование=S,n,inan=(acc,sg|nom,sg)
-_
-чудо=S,n,inan=gen,pl
-.\n\n
-душа=S,f,inan=nom,sg
-,_
-душа=S,f,inan=nom,sg
-,_
-не=PART=
-_
-бояться=V,ipf,intr=sg,imper,2p
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-то=PART=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_
-близость=S,f,inan=(acc,sg|nom,sg)
-_
-день=S,m,inan=gen,sg
-._\n
-но=CONJ=
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-живо=ADV=
-,_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-молодо=ADV=
-,\n
-и=CONJ=
-_
-в=PR=
-_
-немой=A=sg,brev,m
-_\u2014_
-дыхание=S,n,inan=(acc,sg|nom,sg)
-_
-огонь=S,m,inan=gen,sg
-.\n\n
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-,_
-душа=S,f,inan=nom,sg
-_
-свободный=A=nom,sg,plen,f
-!\n
-ты=SPRO,sg,2p=nom
-_
-чистый=A=comp
-_
-проливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-твердь=S,f,inan=(acc,sg|nom,sg)
-_
-зеленый=A=nom,sg,plen,f
-,_
-восходный?=A=nom,sg,plen,f
-,_\n
-для=PR=
-_
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{кто=SPRO,sg,m,anim=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {утренний=A=acc,sg,plen,f}, {белый=A=acc,sg,plen,f} 
+{средь=PR=} {расцветать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {небо=S,n,inan=gen,pl}, — 
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {забывать=V=inpraes,sg,indic,3p,pf} {тайна=S,f,inan=acc,sg} {смелый=A=acc,sg,plen,f}, 
+{обетование=S,n,inan=(acc,sg|nom,sg)} {чудо=S,n,inan=gen,pl}.
+
+{душа=S,f,inan=nom,sg}, {душа=S,f,inan=nom,sg}, {не=PART=} {бояться=V,ipf,intr=sg,imper,2p} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
+{то=PART=} {холод=S,m,inan=(acc,sg|nom,sg)} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)}, — {близость=S,f,inan=(acc,sg|nom,sg)} {день=S,m,inan=gen,sg}. 
+{но=CONJ=} {утро=S,n,inan=(acc,sg|nom,sg)} {живо=ADV=}, {утро=S,n,inan=(acc,sg|nom,sg)} {молодо=ADV=},
+{и=CONJ=} {в=PR=} {немой=A=sg,brev,m} — {дыхание=S,n,inan=(acc,sg|nom,sg)} {огонь=S,m,inan=gen,sg}.
+
+{душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}, {душа=S,f,inan=nom,sg} {свободный=A=nom,sg,plen,f}!
+{ты=SPRO,sg,2p=nom} {чистый=A=comp} {проливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{ты=SPRO,sg,2p=nom} — {твердь=S,f,inan=(acc,sg|nom,sg)} {зеленый=A=nom,sg,plen,f}, {восходный?=A=nom,sg,plen,f}, 
+{для=PR=} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {утренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

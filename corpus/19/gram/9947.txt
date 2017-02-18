@@ -1,118 +1,19 @@
-если=CONJ=
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_
-за=PR=
-_
-себя=SPRO=ins
-\n
-грех=S,m,inan=(acc,sg|nom,sg)
-_
-большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-иль=CONJ=
-_
-небольшой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-ставить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-перед=PR=
-_
-душа=S,f,inan=ins,sg
-,\n
-в=PR=
-_
-глубина=S,f,inan=(abl,sg|dat,sg)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-крой=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-пусть=PART=
-_
-томиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-от=PR=
-_
-смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-посрамлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-душа=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-суровость=S,f,inan=(acc,sg|nom,sg)
-_
-искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-пить=V,ipf,tran=inpraes,sg,indic,3p
-_
-из=PR=
-_
-полный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ковш=S,m,inan=gen,sg
-.\n\n
-пусть=PART=
-_
-и=CONJ=
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-пострадать=V,pf,intr=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-аскетический=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-труд=S,m,inan=abl,pl
-,\n
-пусть=PART=
-_
-лоза=S,f,inan=nom,sg
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-стегать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-сеять=V,ipf,tran=inpraes,ger
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-после=PR=
-_
-этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-покаянный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-труд=S,m,inan=gen,sg
-\n
-над=PR=
-_
-душа=S,f,inan=ins,sg
-,_
-спокойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-снова=ADV=
-,\n
-всходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-ясный=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n
+{если=CONJ=} {знать=V,ipf,tran=inpraes,sg,indic,2p} {за=PR=} {себя=SPRO=ins}
+{грех=S,m,inan=(acc,sg|nom,sg)} {большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {иль=CONJ=} {небольшой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{ставить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {перед=PR=} {душа=S,f,inan=ins,sg},
+{в=PR=} {глубина=S,f,inan=(abl,sg|dat,sg)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {крой=S,m,inan=(acc,sg|nom,sg)}.
+
+{пусть=PART=} {томиться=V,ipf,intr=inpraes,sg,indic,3p} {от=PR=} {смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{посрамлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {душа=S,f,inan=nom,sg},
+{и=CONJ=} {суровость=S,f,inan=(acc,sg|nom,sg)} {искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{пить=V,ipf,tran=inpraes,sg,indic,3p} {из=PR=} {полный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ковш=S,m,inan=gen,sg}.
+
+{пусть=PART=} {и=CONJ=} {тело=S,n,inan=(acc,sg|nom,sg)} {пострадать=V,pf,intr=inpraes,sg,indic,3p}
+{в=PR=} {аскетический=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {труд=S,m,inan=abl,pl},
+{пусть=PART=} {лоза=S,f,inan=nom,sg} {он=SPRO,sg,3p,m=(acc|gen)} {стегать=V,ipf,tran=inpraes,sg,indic,3p},
+{сеять=V,ipf,tran=inpraes,ger} {боль=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {стыд=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}.
+
+{после=PR=} {этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{покаянный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {труд=S,m,inan=gen,sg}
+{над=PR=} {душа=S,f,inan=ins,sg}, {спокойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {снова=ADV=},
+{всходить=V,intr=inpraes,sg,indic,3p,ipf} {ясный=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.

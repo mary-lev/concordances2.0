@@ -1,142 +1,19 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-статься=V,pf,intr=praet,sg,indic,n
-_
-с=PR=
-_
-местность=S,f,inan=ins,sg
-_
-всегдашний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-?\n
-с=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-стереть=V,pf=praet,sg,partcp,brev,f,pass
-_
-грань=S,f,inan=(acc,sg|nom,sg)
-.\n
-как=CONJ=
-_
-клетка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-шашечница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-пашня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-раскидываться=V,intr=praet,pl,indic,pf
-,_
-куда=ADVPRO=
-_
-ни=PART=
-_
-глянуть=V,pf,intr=sg,imper,2p
-.\n\n
-проборанивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-простор=S,m,inan=(acc,pl|nom,pl)
-\n
-так=ADVPRO=
-_
-гладко=ADV=
-_
-улечься=V,pf,intr=praet,pl,indic
-_
-вдали=ADV=
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-выравнивать=V,tran=praet,pl,indic,pf
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-или=CONJ=
-_
-равнина=S,f,inan=acc,sg
-_
-подмолоть=V,pf,tran=sg,imper,2p
-.\n\n
-и=CONJ=
-_
-в=PR=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-единый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-дух=S,m,inan=ins,sg
-\n
-дерево=S,n,inan=(acc,pl|nom,pl)
-_
-по=PR=
-_
-край=S,m,inan=dat,pl
-_
-борозда=S,f,inan=gen,pl
-.\n
-зазеленеть=V,pf,intr=praet,pl,indic
-_
-первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_
-пух=S,sg,m,inan=ins
-\n
-и=CONJ=
-_
-выпрямляться=V,intr=praet,pl,indic,pf
-_
-во=PR=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-рост=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-ни=PART=
-_
-соринка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-клен=S,m,inan=abl,pl
-,\n
-и=CONJ=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-краска=S,f,inan=gen,pl
-_
-чисто=ADV=comp
-_
-нет=ADV,praed=
-,\n
-чем=CONJ=
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-береза=S,f,inan=gen,pl
-_
-светло-зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-и=CONJ=
-_
-светло-серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пашня=S,f,inan=gen,pl
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {статься=V,pf,intr=praet,sg,indic,n} {с=PR=} {местность=S,f,inan=ins,sg} {всегдашний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}?
+{с=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {стереть=V,pf=praet,sg,partcp,brev,f,pass} {грань=S,f,inan=(acc,sg|nom,sg)}.
+{как=CONJ=} {клетка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {шашечница=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {пашня=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{раскидываться=V,intr=praet,pl,indic,pf}, {куда=ADVPRO=} {ни=PART=} {глянуть=V,pf,intr=sg,imper,2p}.
+
+{проборанивать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {простор=S,m,inan=(acc,pl|nom,pl)}
+{так=ADVPRO=} {гладко=ADV=} {улечься=V,pf,intr=praet,pl,indic} {вдали=ADV=},
+{как=ADVPRO=} {будто=PART=} {выравнивать=V,tran=praet,pl,indic,pf} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{или=CONJ=} {равнина=S,f,inan=acc,sg} {подмолоть=V,pf,tran=sg,imper,2p}.
+
+{и=CONJ=} {в=PR=} {тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {день=S,m,inan=(acc,pl|nom,pl)} {единый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дух=S,m,inan=ins,sg}
+{дерево=S,n,inan=(acc,pl|nom,pl)} {по=PR=} {край=S,m,inan=dat,pl} {борозда=S,f,inan=gen,pl}.
+{зазеленеть=V,pf,intr=praet,pl,indic} {первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {пух=S,sg,m,inan=ins}
+{и=CONJ=} {выпрямляться=V,intr=praet,pl,indic,pf} {во=PR=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {рост=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {ни=PART=} {соринка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {клен=S,m,inan=abl,pl},
+{и=CONJ=} {в=PR=} {мир=S,m,inan=abl,sg} {краска=S,f,inan=gen,pl} {чисто=ADV=comp} {нет=ADV,praed=},
+{чем=CONJ=} {цвет=S,m,inan=(acc,sg|nom,sg)} {береза=S,f,inan=gen,pl} {светло-зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{и=CONJ=} {светло-серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пашня=S,f,inan=gen,pl} {цвет=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,118 +1,17 @@
-когда-нибудь=ADVPRO=
-,_
-прелестный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-создание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=inpraes,sg,indic,1p,pf
-_
-для=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-воспоминание=S,n,inan=ins,sg
-.\n\n
-там=ADVPRO=
-,_
-в=PR=
-_
-память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-голубоокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-затерянный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014_
-так=ADVPRO=
-_
-далеко=ADV=
--
-далеко=ADV=
-.\n\n
-забывать=V=inpraes,sg,indic,2p,pf
-_
-ты=SPRO,sg,2p=nom
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-профиль=S,m,inan=(acc,sg|nom,sg)
-_
-горбоносый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-лоб=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-апофеоз=S,m,inan=abl,sg
-_
-папироса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-и=CONJ=
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-морочить=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-и=CONJ=
-_
-сотня=S,f,inan=acc,sg
-_\u2014_
-на=PR=
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рабочий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_\u2014_\n\n
-серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-перстень=S,m,inan=gen,pl
-,_\u2014_
-чердак=S,m,inan=(acc,sg|nom,sg)
--
-каюта=S,f,inan=acc,sg
-,\n
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-бумага=S,f,inan=gen,pl
-_
-божественный=A=acc,sg,plen,f
-_
-смута=S,f,inan=acc,sg
-...\n\n
-как=CONJ=
-_
-в=PR=
-_
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-,_
-возвышать=V=praet,pl,partcp,brev,pf,pass,tran
-_
-беда=S,f,inan=ins,sg
-,\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-маленький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=praet,sg,indic,f,ipf
-,_
-я=SPRO,sg,1p=nom
-_\u2014_
-молодой=A=ins,sg,plen,f
-.\n
+{когда-нибудь=ADVPRO=}, {прелестный=A=(acc,sg,plen,n|nom,sg,plen,n)} {создание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{я=SPRO,sg,1p=nom} {становиться=V,intr=inpraes,sg,indic,1p,pf} {для=PR=} {ты=SPRO,sg,2p=(acc|gen)} {воспоминание=S,n,inan=ins,sg}.
+
+{там=ADVPRO=}, {в=PR=} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {голубоокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{затерянный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {так=ADVPRO=} {далеко=ADV=}-{далеко=ADV=}.
+
+{забывать=V=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {профиль=S,m,inan=(acc,sg|nom,sg)} {горбоносый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {лоб=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {апофеоз=S,m,inan=abl,sg} {папироса=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{и=CONJ=} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смех=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {кой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {все=SPRO,pl=(abl|acc|gen)} {морочить=V,ipf,tran=inpraes,sg,indic,1p},
+{и=CONJ=} {сотня=S,f,inan=acc,sg} — {на=PR=} {рука=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рабочий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} — 
+
+{серебряный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {перстень=S,m,inan=gen,pl}, — {чердак=S,m,inan=(acc,sg|nom,sg)}-{каюта=S,f,inan=acc,sg},
+{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {бумага=S,f,inan=gen,pl} {божественный=A=acc,sg,plen,f} {смута=S,f,inan=acc,sg}...
+
+{как=CONJ=} {в=PR=} {страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}, {возвышать=V=praet,pl,partcp,brev,pf,pass,tran} {беда=S,f,inan=ins,sg},
+{ты=SPRO,sg,2p=nom} — {маленький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=praet,sg,indic,f,ipf}, {я=SPRO,sg,1p=nom} — {молодой=A=ins,sg,plen,f}.

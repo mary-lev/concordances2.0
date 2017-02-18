@@ -1,70 +1,9 @@
-звезда=S,f,inan=nom,sg
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-звезда=S,f,inan=ins,sg
-_
-погасать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-где=ADVPRO=
-_
-вы=SPRO,pl,2p=nom
-,_
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-и=CONJ=
-_
-нет=PART=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-больше=ADV=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-нет=ADV,praed=
-...\n
-зачем=ADVPRO=
-,_
-судьба=S,f,inan=nom,sg
-,_
-ковать=V,ipf,tran=inpraes,sg,indic,2p
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n\n
-лишь=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-блестеть=V,ipf,intr=inpraes,sg,indic,2p
-,_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-нетленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-красота=S,f,inan=ins,sg
-\n
-в=PR=
-_
-людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-улыбка=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-рыдание=S,n,inan=abl,sg
-\n
-неугасимый=A=ins,sg,plen,f
-_
-звезда=S,f,inan=ins,sg
-.\n
+{звезда=S,f,inan=nom,sg} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {звезда=S,f,inan=ins,sg} {погасать=V,intr=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {где=ADVPRO=} {вы=SPRO,pl,2p=nom}, {светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{и=CONJ=} {нет=PART=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {и=CONJ=} {больше=ADV=} {вы=SPRO,pl,2p=(abl|acc|gen)} {нет=ADV,praed=}...
+{зачем=ADVPRO=}, {судьба=S,f,inan=nom,sg}, {ковать=V,ipf,tran=inpraes,sg,indic,2p} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+
+{лишь=PART=} {ты=SPRO,sg,2p=nom} {один=APRO=(acc,sg,n|nom,sg,n)} {блестеть=V,ipf,intr=inpraes,sg,indic,2p}, {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {нетленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {красота=S,f,inan=ins,sg}
+{в=PR=} {людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {улыбка=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {рыдание=S,n,inan=abl,sg}
+{неугасимый=A=ins,sg,plen,f} {звезда=S,f,inan=ins,sg}.

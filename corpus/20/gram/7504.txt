@@ -1,48 +1,9 @@
-они=SPRO,pl=nom
-_
-чета=S,f,inan=ins,sg
-_
-расти=V,ipf,intr=inpraes,pl,indic,3p
-,_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-узкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-длинный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-неподвижный=A=(acc,pl,plen,inan|nom,pl,plen)
-_\u2014_
-и=CONJ=
-_
-мятежный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-тесносжатый?=A,plen=(nom,pl|acc,pl,inan)
-_\u2014_
-и=CONJ=
-_
-невинный=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n\n\t
-прямо=ADV=comp
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-колючий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-,\n\t
-они=SPRO,pl=nom
-_\u2014_
-меч=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-направлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-в=PR=
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
+{они=SPRO,pl=nom} {чета=S,f,inan=ins,sg} {расти=V,ipf,intr=inpraes,pl,indic,3p}, {мой=APRO=(nom,pl|acc,pl,inan)} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{мой=APRO=(nom,pl|acc,pl,inan)} {узкий=A=(acc,pl,plen,inan|nom,pl,plen)}, {мой=APRO=(nom,pl|acc,pl,inan)} {длинный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{неподвижный=A=(acc,pl,plen,inan|nom,pl,plen)} — {и=CONJ=} {мятежный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{тесносжатый?=A,plen=(nom,pl|acc,pl,inan)} — {и=CONJ=} {невинный=A=(acc,pl,plen,inan|nom,pl,plen)}...
+
+	{прямо=ADV=comp} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+	{желание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {колючий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)},
+	{они=SPRO,pl=nom} — {меч=S,m,inan=(acc,pl|nom,pl)},
+	{направлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {в=PR=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}...

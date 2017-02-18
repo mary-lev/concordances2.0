@@ -1,83 +1,14 @@
-____
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-родник=S,m,inan=(acc,sg|nom,sg)
-\n
-в=PR=
-_
-недра=S,pl,inan=abl
-_
-бить=V,ipf,tran=inpraes,sg,indic,3p
-_
-по=PR=
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жила=S,f,inan=dat,pl
-...\n
-воззывать?=V,ipf=(inpraes,acc,sg,partcp,plen,m,act,inan,tran|inpraes,nom,sg,partcp,plen,m,act,tran)
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-\n
-обращать=V,tran=sg,imper,2p,pf
-_
-к=PR=
-_
-земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-могила=S,f,inan=dat,pl
-!\n\n____
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-из=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-простереть=V,pf=praet,pl,partcp,brev,pass
-...\n
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стекать=V,intr=praet,pl,indic,pf
-,\n
-тали=S,pl,inan=(acc|nom)
-_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ветер=S,m,inan=ins,sg
-_
-стереть=V,pf=praet,pl,partcp,brev,pass
-.\n\n____
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-приказывать=V=sg,imper,2p,pf
-\n
-виться=V,ipf,intr=inf
-_
-лоза=S,f,inan=dat,pl
-_
-виноград=S,m,inan=gen,sg
-,\n
-завязь=S,f,inan=(acc,sg|nom,sg)
-_
-почка=S,f,inan=gen,pl
-_
-развязывать=V=sg,imper,2p,pf
-\n
-власть=S,f,inan=ins,sg
-_
-пристальный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-взгляд=S,m,inan=gen,sg
-!\n
+    {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {родник=S,m,inan=(acc,sg|nom,sg)}
+{в=PR=} {недра=S,pl,inan=abl} {бить=V,ipf,tran=inpraes,sg,indic,3p} {по=PR=} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жила=S,f,inan=dat,pl}...
+{воззывать?=V,ipf=(inpraes,acc,sg,partcp,plen,m,act,inan,tran|inpraes,nom,sg,partcp,plen,m,act,tran)} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {лик=S,m,inan=(acc,sg|nom,sg)}
+{обращать=V,tran=sg,imper,2p,pf} {к=PR=} {земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {могила=S,f,inan=dat,pl}!
+
+    {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {из=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {черный=A=(acc,pl,plen,inan|nom,pl,plen)} {простереть=V,pf=praet,pl,partcp,brev,pass}...
+{вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)} {стекать=V,intr=praet,pl,indic,pf},
+{тали=S,pl,inan=(acc|nom)} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ветер=S,m,inan=ins,sg} {стереть=V,pf=praet,pl,partcp,brev,pass}.
+
+    {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {приказывать=V=sg,imper,2p,pf}
+{виться=V,ipf,intr=inf} {лоза=S,f,inan=dat,pl} {виноград=S,m,inan=gen,sg},
+{завязь=S,f,inan=(acc,sg|nom,sg)} {почка=S,f,inan=gen,pl} {развязывать=V=sg,imper,2p,pf}
+{власть=S,f,inan=ins,sg} {пристальный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {взгляд=S,m,inan=gen,sg}!

@@ -1,98 +1,12 @@
-прозрачный=A=nom,sg,plen,f
-_
-ущербный=A=nom,sg,plen,f
-_
-луна=S,f,inan=nom,sg
-_\n
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-неизбежность=S,f,inan=ins,sg
-_
-разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-взлетать=V,intr=inpraes,sg,indic,3p,ipf
-_
-к=PR=
-_
-небо=S,n,inan=dat,sg
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-волна=S,f,inan=nom,sg
-,\n
-тоска=S,f,inan=ins,sg
-_
-звенеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-рассыпать=V,ipf,tran=inpraes,ger
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-.\n\n\u2014_
-прощай=INTJ=
-..._
-и=CONJ=
-_
-скрипка=S,f,inan=nom,sg
-_
-падать=V,ipf,intr=inpraes,sg,indic,3p
-_
-из=PR=
-_
-рука=S,f,inan=gen,pl
-._\n
-прощай=INTJ=
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-друг=S,m,anim=nom,sg
-!.._
-и=CONJ=
-_
-музыка=S,f,inan=nom,sg
-_
-смолкать=V,intr=inpraes,sg,indic,3p,ipf
-._\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-размыкать=V,tran=inpraes,sg,indic,3p,ipf
-_
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-наново=ADV=
-,_
-навеки=ADV=
-_
-замыкать=V,tran=inpraes,sg,indic,3p,ipf
-.\n\n
-и=CONJ=
-_
-снова=ADV=
-_
-музыка=S,f,inan=nom,sg
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-звенеть=V,ipf,intr=inpraes,ger
-.\n
-но=CONJ=
-_
-нет=PART=
-!_
-не=PART=
-_
-так=ADVPRO=
-,_
-как=ADVPRO=
-_
-прежде=ADV=
-,_\u2014_
-без=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{прозрачный=A=nom,sg,plen,f} {ущербный=A=nom,sg,plen,f} {луна=S,f,inan=nom,sg} 
+{сиять=V,ipf,intr=inpraes,sg,indic,3p} {неизбежность=S,f,inan=ins,sg} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{взлетать=V,intr=inpraes,sg,indic,3p,ipf} {к=PR=} {небо=S,n,inan=dat,sg} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {волна=S,f,inan=nom,sg},
+{тоска=S,f,inan=ins,sg} {звенеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {рассыпать=V,ipf,tran=inpraes,ger} {звук=S,m,inan=(acc,pl|nom,pl)}.
+
+— {прощай=INTJ=}... {и=CONJ=} {скрипка=S,f,inan=nom,sg} {падать=V,ipf,intr=inpraes,sg,indic,3p} {из=PR=} {рука=S,f,inan=gen,pl}. 
+{прощай=INTJ=}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg}!.. {и=CONJ=} {музыка=S,f,inan=nom,sg} {смолкать=V,intr=inpraes,sg,indic,3p,ipf}. 
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {размыкать=V,tran=inpraes,sg,indic,3p,ipf} {на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {круг=S,m,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {наново=ADV=}, {навеки=ADV=} {замыкать=V,tran=inpraes,sg,indic,3p,ipf}.
+
+{и=CONJ=} {снова=ADV=} {музыка=S,f,inan=nom,sg} {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {звенеть=V,ipf,intr=inpraes,ger}.
+{но=CONJ=} {нет=PART=}! {не=PART=} {так=ADVPRO=}, {как=ADVPRO=} {прежде=ADV=}, — {без=PR=} {я=SPRO,sg,1p=(acc|gen)}.

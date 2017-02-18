@@ -1,44 +1,10 @@
-из=PR=
-_
-тюремный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ворота=S,pl,inan=gen
-,\n
-из=PR=
-_
-заохтенский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-болото=S,n,inan=gen,pl
-,\n
-путем=PR=
-_
-нехоженый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-луг=S,m,inan=ins,sg
-_
-некошеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-сквозь=PR=
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кордон=S,m,inan=(acc,sg|nom,sg)
-,\n
-под=PR=
-_
-пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-,\n
-незваный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-несуженый?=S,m,anim=nom,sg
-,_\u2014\n
-прийти=V,pf,intr=sg,imper,2p
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-ужинать=V=inf,ipf,intr
-.\n\n
+{из=PR=} {тюремный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ворота=S,pl,inan=gen},
+{из=PR=} {заохтенский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {болото=S,n,inan=gen,pl},
+{путем=PR=} {нехоженый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{луг=S,m,inan=ins,sg} {некошеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{сквозь=PR=} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кордон=S,m,inan=(acc,sg|nom,sg)},
+{под=PR=} {пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)},
+{незваный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{несуженый?=S,m,anim=nom,sg}, —
+{прийти=V,pf,intr=sg,imper,2p} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {ужинать=V=inf,ipf,intr}.
+

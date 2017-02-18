@@ -1,114 +1,19 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-жалобный=A=nom,sg,plen,f
-_
-нота=S,f,inan=nom,sg
-\n
-летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=ins,sg
-_
-стук=S,m,inan=(acc,sg|nom,sg)
-_
-телега=S,f,inan=gen,pl
-!\n
-кто-то=SPRO,sg,m,anim=nom
-_
-ехать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-для=PR=
-_
-кто-то=SPRO,sg,m,anim=(acc|gen)
-\n
-далеко=ADV=
-_
-ночлег=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-шуметь=V,ipf,intr=praet,pl,indic
-_
-грабли=S,pl,inan=(acc|nom)
-\n
-на=PR=
-_
-откос=S,m,inan=abl,sg
-,_
-на=PR=
-_
-лужок=S,m,inan=abl,sg
-.\n
-вожжа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ослабнуть=V,pf,intr=praet,pl,indic
-\n
-в=PR=
-_
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-видеться=V,ipf,intr=inpraes,sg,indic,3p
-_
-воочью=ADV=
-:\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-внизу=ADV=
-.\n
-хорошо=PART=
-_
-июльский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=ins,sg
-\n
-на=PR=
-_
-большой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-воз=S,m,inan=(dat,sg|loc,sg)
-!\n\n
-завтра=ADV=
-_
-снова=ADV=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-круто=ADV=
-:\n
-знать=V,ipf,tran=sg,imper,2p
-_
-работать=V,ipf,intr=sg,imper,2p
-,_
-знать=V,ipf,tran=sg,imper,2p
-_
-молчать=V,ipf,intr=sg,imper,2p
-.\n
-хорошо=ADV=parenth
-_
-он=SPRO,sg,3p,m=dat
-,_
-кто-то=SPRO,sg,m,anim=dat
-,\n
-на=PR=
-_
-воз=S,m,inan=(dat,sg|loc,sg)
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-!\n
+{что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {жалобный=A=nom,sg,plen,f} {нота=S,f,inan=nom,sg}
+{летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=ins,sg} {стук=S,m,inan=(acc,sg|nom,sg)} {телега=S,f,inan=gen,pl}!
+{кто-то=SPRO,sg,m,anim=nom} {ехать=V,ipf,intr=inpraes,sg,indic,3p}, {для=PR=} {кто-то=SPRO,sg,m,anim=(acc|gen)}
+{далеко=ADV=} {ночлег=S,m,inan=(acc,sg|nom,sg)}.
+
+{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {шуметь=V,ipf,intr=praet,pl,indic} {грабли=S,pl,inan=(acc|nom)}
+{на=PR=} {откос=S,m,inan=abl,sg}, {на=PR=} {лужок=S,m,inan=abl,sg}.
+{вожжа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {ослабнуть=V,pf,intr=praet,pl,indic}
+{в=PR=} {молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рука=S,f,inan=(abl,sg|dat,sg)}.
+
+{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {видеться=V,ipf,intr=inpraes,sg,indic,3p} {воочью=ADV=}:
+{в=PR=} {небо=S,n,inan=abl,sg} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, — {сон=S,m,inan=(acc,pl|nom,pl)} {внизу=ADV=}.
+{хорошо=PART=} {июльский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=ins,sg}
+{на=PR=} {большой=A=(abl,sg,plen,m|abl,sg,plen,n)} {воз=S,m,inan=(dat,sg|loc,sg)}!
+
+{завтра=ADV=} {снова=ADV=} {быть=V,intr=inpraes,sg,indic,3p} {круто=ADV=}:
+{знать=V,ipf,tran=sg,imper,2p} {работать=V,ipf,intr=sg,imper,2p}, {знать=V,ipf,tran=sg,imper,2p} {молчать=V,ipf,intr=sg,imper,2p}.
+{хорошо=ADV=parenth} {он=SPRO,sg,3p,m=dat}, {кто-то=SPRO,sg,m,anim=dat},
+{на=PR=} {воз=S,m,inan=(dat,sg|loc,sg)} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}!

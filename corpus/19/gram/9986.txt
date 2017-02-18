@@ -1,68 +1,9 @@
-разнообразно=ADV=
-_
-применение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-кора=S,sg,f,inan=gen
-,_
-ствол=S,m,inan=gen,sg
-,_
-корень=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-лоза=S,f,inan=gen,pl
-,\n
-но=CONJ=
-_
-близко=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-употребление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-один=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-лишь=PART=
-_
-северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-береза=S,f,inan=gen,pl
-.\n\n
-метла=S,f,inan=ins,sg
-_
-пол=S,m,inan=(acc,sg|nom,sg)
-_
-мести=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-дома=ADV=
-,\n
-годиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-веник=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-банный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пар=S,m,inan=(acc,sg|nom,sg)
-,\n
-мила=S,persn,f,anim=nom,sg
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-банный=A=nom,sg,plen,f
-_
-истома=S,f,inan=nom,sg
-,\n
-но=CONJ=
-_
-розга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-неприятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-.\n
+{разнообразно=ADV=} {применение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{кора=S,sg,f,inan=gen}, {ствол=S,m,inan=gen,sg}, {корень=S,m,inan=gen,pl} {и=CONJ=} {лоза=S,f,inan=gen,pl},
+{но=CONJ=} {близко=ADV=} {я=SPRO,sg,1p=(abl|dat)} {употребление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{один=APRO=(abl,pl|gen,pl|acc,pl,anim)} {лишь=PART=} {северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {береза=S,f,inan=gen,pl}.
+
+{метла=S,f,inan=ins,sg} {пол=S,m,inan=(acc,sg|nom,sg)} {мести=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {дома=ADV=},
+{годиться=V,ipf,intr=inpraes,sg,indic,3p} {веник=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {банный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пар=S,m,inan=(acc,sg|nom,sg)},
+{мила=S,persn,f,anim=nom,sg} {с=PR=} {он=SPRO,sg,3p,m=ins} {банный=A=nom,sg,plen,f} {истома=S,f,inan=nom,sg},
+{но=CONJ=} {розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {неприятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дар=S,m,inan=(acc,sg|nom,sg)}.

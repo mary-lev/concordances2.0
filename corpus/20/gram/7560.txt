@@ -1,86 +1,12 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-..._
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-_\u2014_
-лишь=PART=
-_
-я=SPRO,sg,1p=nom
-_
-да=PART=
-_
-ты=SPRO,sg,2p=nom
-.\n
-там=ADVPRO=
-_
-ныне=ADV=
-_
-расцветать=V,intr=inpraes,pl,indic,3p,ipf
-\n
-волшебный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n
-они=SPRO,pl=nom
-_
-разнообразный=A=pl,brev
-,\n
-красивый=A=pl,brev
-_\u2014_
-и=CONJ=
-_
-смешной=A=pl,brev
-,\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-,_
-хотя=CONJ=
-_
-и=CONJ=
-_
-разный=A=pl,brev
-,\n
-таинственно=ADV=
--
-нежный=A=pl,brev
-.\n
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-они=SPRO,pl=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-милый=A=pl,brev
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-милый=A=pl,brev
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-.\n
-сам=APRO=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-взращивать=V=praet,sg,indic,f,pf
-\n
-волшебный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {сад=S,m,inan=(acc,sg|nom,sg)}... {никто=SPRO,sg,m,anim=nom} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p}
+{о=PR=} {он=SPRO,sg,3p,m=abl} — {лишь=PART=} {я=SPRO,sg,1p=nom} {да=PART=} {ты=SPRO,sg,2p=nom}.
+{там=ADVPRO=} {ныне=ADV=} {расцветать=V,intr=inpraes,pl,indic,3p,ipf}
+{волшебный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+{они=SPRO,pl=nom} {разнообразный=A=pl,brev},
+{красивый=A=pl,brev} — {и=CONJ=} {смешной=A=pl,brev},
+{но=CONJ=} {все=SPRO,pl=(acc|nom)}, {хотя=CONJ=} {и=CONJ=} {разный=A=pl,brev},
+{таинственно=ADV=}-{нежный=A=pl,brev}.
+{и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {они=SPRO,pl=nom} {я=SPRO,sg,1p=(abl|dat)} {милый=A=pl,brev},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {милый=A=pl,brev} {я=SPRO,sg,1p=(abl|dat)}, {как=ADVPRO=} {ты=SPRO,sg,2p=nom}.
+{сам=APRO=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)} {взращивать=V=praet,sg,indic,f,pf}
+{волшебный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}.

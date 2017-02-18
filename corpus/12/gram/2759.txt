@@ -1,56 +1,14 @@
-бог=S,m,anim=nom,sg
-_\u2014_
-правый=A=sg,brev,m
-\n
-тление=S,n,inan=ins,sg
-_
-трава=S,f,inan=gen,pl
-,\n
-сухость=S,f,inan=ins,sg
-_
-река=S,f,inan=gen,pl
-,\n
-вопль=S,m,inan=ins,sg
-_
-калека=S,mf,anim=(acc,pl|gen,pl)
-,\n\n
-вор=S,m,anim=ins,sg
-_
-и=CONJ=
-_
-гад=S,m,anim=ins,sg
-,\n
-мор=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-глад=S,m,inan=ins,sg
-,\n
-срам=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-смрад=S,m,inan=ins,sg
-,\n
-гром=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-град=S,m,inan=ins,sg
-.\n\n
-попирать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-_
-слово=S,n,inan=ins,sg
-.\n
-проклятый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-год=S,m,inan=ins,sg
-.\n
-плен=S,m,inan=ins,sg
-_
-царев=S,famn,m,anim=(dat,pl|ins,sg)
-.\n
-вставать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)
-_
-народ=S,m,inan=ins,sg
-.\n
+{бог=S,m,anim=nom,sg} — {правый=A=sg,brev,m}
+{тление=S,n,inan=ins,sg} {трава=S,f,inan=gen,pl},
+{сухость=S,f,inan=ins,sg} {река=S,f,inan=gen,pl},
+{вопль=S,m,inan=ins,sg} {калека=S,mf,anim=(acc,pl|gen,pl)},
+
+{вор=S,m,anim=ins,sg} {и=CONJ=} {гад=S,m,anim=ins,sg},
+{мор=S,m,inan=ins,sg} {и=CONJ=} {глад=S,m,inan=ins,sg},
+{срам=S,m,inan=ins,sg} {и=CONJ=} {смрад=S,m,inan=ins,sg},
+{гром=S,m,inan=ins,sg} {и=CONJ=} {град=S,m,inan=ins,sg}.
+
+{попирать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {слово=S,n,inan=ins,sg}.
+{проклятый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {год=S,m,inan=ins,sg}.
+{плен=S,m,inan=ins,sg} {царев=S,famn,m,anim=(dat,pl|ins,sg)}.
+{вставать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)} {народ=S,m,inan=ins,sg}.

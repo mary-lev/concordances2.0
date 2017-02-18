@@ -1,104 +1,14 @@
-что=ADVPRO=
-_
-же=PART=
-,_
-муза=S,f,anim=nom,sg
-_
-ты=SPRO,sg,2p=nom
-_
-обманный=A=nom,sg,plen,f
-,\n
-не=PART=
-_
-сам=APRO=nom,sg,f
-_
-ль=PART=
-_
-ты=SPRO,sg,2p=nom
-,_
-богоданный=A=nom,sg,plen,f
-,\n
-напевать=V,tran=praet,sg,indic,f,ipf
-,_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-,_
-я=SPRO,sg,1p=(abl|dat)
-\n
-о=PR=
-_
-святой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-_
-огонь=S,m,inan=abl,sg
-,\n
-об=PR=
-_
-огонь=S,m,inan=abl,sg
-_
-твой=APRO=(abl,sg,m|abl,sg,n)
-_
-живительный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-и=CONJ=
-_
-волшебно=ADV=
--
-упоительный=A=(abl,sg,plen,m|abl,sg,plen,n)
-!\n
-где=ADVPRO=
-_
-же=PART=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жар=S,sg,m,inan=(acc|nom)
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-же=PART=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-роскошный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-?\n
-истомлять=V,tran=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=nom
-,_
-проклятый=A=nom,sg,plen,f
-,\n
-обещание=S,n,inan=ins,pl
-_
-богатый=A=nom,sg,plen,f
-,\n
-душа=S,f,inan=acc,sg
-_
-страстие?=S,n,inan=dat,sg
-_
-сжигать=V=praet,sg,indic,f,pf
-,\n
-рой=S,persn,m,anim=nom,sg
-_
-мечтание=S,n,inan=gen,pl
-_
-приводить=V=praet,sg,indic,f,pf
-,\n
-и=CONJ=
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,_
-прелестный=A=nom,sg,plen,f
-,\n
-ты=SPRO,sg,2p=nom
-,_
-развратница=S,f,anim=nom,sg
-_
-небесный=A=nom,sg,plen,f
-!\n
+{что=ADVPRO=} {же=PART=}, {муза=S,f,anim=nom,sg} {ты=SPRO,sg,2p=nom} {обманный=A=nom,sg,plen,f},
+{не=PART=} {сам=APRO=nom,sg,f} {ль=PART=} {ты=SPRO,sg,2p=nom}, {богоданный=A=nom,sg,plen,f},
+{напевать=V,tran=praet,sg,indic,f,ipf}, {помнить=V,ipf,tran=inpraes,sg,indic,2p}, {я=SPRO,sg,1p=(abl|dat)}
+{о=PR=} {святой=A=(abl,sg,plen,m|abl,sg,plen,n)} {твой=APRO=(abl,sg,m|abl,sg,n)} {огонь=S,m,inan=abl,sg},
+{об=PR=} {огонь=S,m,inan=abl,sg} {твой=APRO=(abl,sg,m|abl,sg,n)} {живительный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{и=CONJ=} {волшебно=ADV=}-{упоительный=A=(abl,sg,plen,m|abl,sg,plen,n)}!
+{где=ADVPRO=} {же=PART=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жар=S,sg,m,inan=(acc|nom)}?
+{что=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {роскошный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дар=S,m,inan=(acc,sg|nom,sg)}?
+{истомлять=V,tran=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=nom}, {проклятый=A=nom,sg,plen,f},
+{обещание=S,n,inan=ins,pl} {богатый=A=nom,sg,plen,f},
+{душа=S,f,inan=acc,sg} {страстие?=S,n,inan=dat,sg} {сжигать=V=praet,sg,indic,f,pf},
+{рой=S,persn,m,anim=nom,sg} {мечтание=S,n,inan=gen,pl} {приводить=V=praet,sg,indic,f,pf},
+{и=CONJ=} {смеяться=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom}, {прелестный=A=nom,sg,plen,f},
+{ты=SPRO,sg,2p=nom}, {развратница=S,f,anim=nom,sg} {небесный=A=nom,sg,plen,f}!

@@ -1,84 +1,10 @@
-и=CONJ=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-по=PR=
-_
-ошибка=S,f,inan=(abl,sg|dat,sg)
-_
-пленять=V,tran=praet,sg,indic,n,pf
-,\n
-как=CONJ=
-_
-нарядный=A=nom,sg,plen,f
-_
-плясать=V,ipf,tran=inpraes,sg,indic,3p
-_
-беда=S,f,inan=nom,sg
-...\n
-все=SPRO,pl=(acc|nom)
-_
-тогда=ADVPRO=
-_
-по=PR=
--
-тогдашний=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,\n
-по=PR=
--
-тогдашний=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-тогда=ADVPRO=
-.\n
-я=SPRO,sg,1p=nom
-_
-спать=V,ipf,intr=praet,sg,indic,f
-_
-в=PR=
-_
-королевский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кровать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-голодать=V,ipf,intr=praet,sg,indic,f
-,_
-носить=V,ipf,tran=praet,sg,indic,f
-_
-дрова=S,pl,inan=(acc|nom)
-.\n
-там=ADVPRO=
-_
-еще=ADV=
-_
-от=PR=
-_
-похвала=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-проклятие=S,n,inan=gen,pl
-\n
-не=PART=
-_
-кружиться=V,ipf,intr=praet,sg,indic,f
-_
-мой=APRO=nom,sg,f
-_
-голова=S,f,inan=nom,sg
-\n\n
-на=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-словно=CONJ=
-_
-в=PR=
-_
-омут=S,m,inan=(acc,sg|nom,sg)
-,_
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-\n
+{и=CONJ=} {я=SPRO,sg,1p=(acc|gen)} {по=PR=} {ошибка=S,f,inan=(abl,sg|dat,sg)} {пленять=V,tran=praet,sg,indic,n,pf},
+{как=CONJ=} {нарядный=A=nom,sg,plen,f} {плясать=V,ipf,tran=inpraes,sg,indic,3p} {беда=S,f,inan=nom,sg}...
+{все=SPRO,pl=(acc|nom)} {тогда=ADVPRO=} {по=PR=}-{тогдашний=A=(dat,sg,plen,m|dat,sg,plen,n)} {быть=V,intr=praet,sg,indic,n,ipf},
+{по=PR=}-{тогдашний=A=(dat,sg,plen,m|dat,sg,plen,n)} {быть=V,intr=praet,sg,indic,n,ipf} {тогда=ADVPRO=}.
+{я=SPRO,sg,1p=nom} {спать=V,ipf,intr=praet,sg,indic,f} {в=PR=} {королевский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{голодать=V,ipf,intr=praet,sg,indic,f}, {носить=V,ipf,tran=praet,sg,indic,f} {дрова=S,pl,inan=(acc|nom)}.
+{там=ADVPRO=} {еще=ADV=} {от=PR=} {похвала=S,f,inan=gen,pl} {и=CONJ=} {проклятие=S,n,inan=gen,pl}
+{не=PART=} {кружиться=V,ipf,intr=praet,sg,indic,f} {мой=APRO=nom,sg,f} {голова=S,f,inan=nom,sg}
+
+{на=PR=} {ты=SPRO,sg,2p=(acc|gen)}, {словно=CONJ=} {в=PR=} {омут=S,m,inan=(acc,sg|nom,sg)}, {смотреть=V,ipf,tran=inpraes,sg,indic,1p}

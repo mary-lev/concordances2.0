@@ -1,106 +1,19 @@
-певец=S,m,anim=dat,sg
-_
-ли=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-приносить=V=inpraes,sg,indic,1p,pf
-_\n
-цветок=S,m,inan=gen,pl
-_
-царица=S,f,anim=acc,sg
-?\n
-в=PR=
-_
-какой=APRO=(abl,sg,m|abl,sg,n)
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-,_
-в=PR=
-_
-какой=APRO=(abl,sg,m|abl,sg,n)
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\n
-сбер?=S,famn,m,anim=dat,sg
-_
-кошница=S,f,inan=acc,sg
-?\n\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-укромный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-в=PR=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-именинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-семейство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-миндаль=S,m,inan=gen,sg
-_\n
-дарить=V,ipf,tran=inpraes,pl,indic,3p
-_
-невинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-но=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-уменьшать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-вид=S,m,inan=(acc,sg|nom,sg)
-,_\n
-хоть=PART=
-_
-небогатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-гласить=V,ipf,tran=inpraes,sg,indic,3p
-:_\xAB
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-день=S,m,inan=gen,sg
-_\u2014_
-и=CONJ=
-_
-прилетать=V,intr=inpraes,sg,indic,3p,pf
-_\n
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-глашатай=S,m,anim=nom,sg
-\xBB.\n\n
-но=CONJ=
-_
-помнить=V,ipf,tran=sg,imper,2p
-:_
-поздний=A=ins,sg,plen,f
-_
-пора=S,f,inan=ins,sg
-_\n
-в=PR=
-_
-сентябрьский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стужа=S,f,inan=(abl,sg|dat,sg)
-\n
-он=SPRO,sg,3p,m=nom
-_
-приносить=V=inpraes,sg,indic,3p,pf
-_
-наряд=S,m,inan=(acc,sg|nom,sg)
-_
-второй=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_\n
-ничуть=ADVPRO=
-_
-не=PART=
-_
-плохо=ADV=comp
-.\n
+{певец=S,m,anim=dat,sg} {ли=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {приносить=V=inpraes,sg,indic,1p,pf} 
+{цветок=S,m,inan=gen,pl} {царица=S,f,anim=acc,sg}?
+{в=PR=} {какой=APRO=(abl,sg,m|abl,sg,n)} {сад=S,m,inan=(dat,sg|loc,sg)}, {в=PR=} {какой=APRO=(abl,sg,m|abl,sg,n)} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)} 
+{сбер?=S,famn,m,anim=dat,sg} {кошница=S,f,inan=acc,sg}?
+
+{мой=APRO=(nom,pl|acc,pl,inan)} {укромный=A=(acc,pl,plen,inan|nom,pl,plen)} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{в=PR=} {день=S,m,inan=(acc,sg|nom,sg)} {именинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {цвет=S,m,inan=(acc,sg|nom,sg)} {семейство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {миндаль=S,m,inan=gen,sg} 
+{дарить=V,ipf,tran=inpraes,pl,indic,3p} {невинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{но=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {уменьшать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {вид=S,m,inan=(acc,sg|nom,sg)}, 
+{хоть=PART=} {небогатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{гласить=V,ipf,tran=inpraes,sg,indic,3p}: «{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {день=S,m,inan=gen,sg} — {и=CONJ=} {прилетать=V,intr=inpraes,sg,indic,3p,pf} 
+{весна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {глашатай=S,m,anim=nom,sg}».
+
+{но=CONJ=} {помнить=V,ipf,tran=sg,imper,2p}: {поздний=A=ins,sg,plen,f} {пора=S,f,inan=ins,sg} 
+{в=PR=} {сентябрьский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стужа=S,f,inan=(abl,sg|dat,sg)}
+{он=SPRO,sg,3p,m=nom} {приносить=V=inpraes,sg,indic,3p,pf} {наряд=S,m,inan=(acc,sg|nom,sg)} {второй=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, 
+{ничуть=ADVPRO=} {не=PART=} {плохо=ADV=comp}.

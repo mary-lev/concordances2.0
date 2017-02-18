@@ -1,93 +1,11 @@
-(
-басня=S,f,inan=nom,sg
-)\n
-змея=S,f,anim=nom,sg
-,_
-забираться=V,intr=praet,ger,pf
-_
-в=PR=
-_
-лавка=S,f,inan=acc,sg
-_
-слесарь=S,m,anim=(acc,sg|gen,sg|nom,pl)
-,\n\t
-пила=S,f,inan=acc,sg
-_
-грызть=V,ipf,tran=inf
-_
-начало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\t
-пила=S,f,inan=nom,sg
-_
-сказать=V,pf,tran=praet,sg,indic,f
-_
-она=SPRO,sg,3p,f=(dat|ins)
-:\n\xAB
-безумный=A=nom,sg,plen,f
-,_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-разве=PART=
-_
-ты=SPRO,sg,2p=nom
-\n
-в=PR=
-_
-безумный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ярость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-как=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тщетный=A=pl,brev
-,\n\t
-как=CONJ=
-_
-зуб=S,m,inan=(acc,pl|nom,pl)
-_
-ни=CONJ=
-_
-остер=S,geo,m,inan=(acc,pl|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-,\n\t
-но=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-сделать=V,pf,tran=inpraes,pl,indic,3p
-_
-вред=S,m,inan=gen,sg
-.\n
-остро=ADV=comp
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-зубцов=S,geo,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-,\n
-и=CONJ=
-_
-для=PR=
-_
-железо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-даже=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-вредный=A=sg,brev,f
-\xBB.\n
+({басня=S,f,inan=nom,sg})
+{змея=S,f,anim=nom,sg}, {забираться=V,intr=praet,ger,pf} {в=PR=} {лавка=S,f,inan=acc,sg} {слесарь=S,m,anim=(acc,sg|gen,sg|nom,pl)},
+	{пила=S,f,inan=acc,sg} {грызть=V,ipf,tran=inf} {начало=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+	{пила=S,f,inan=nom,sg} {сказать=V,pf,tran=praet,sg,indic,f} {она=SPRO,sg,3p,f=(dat|ins)}:
+«{безумный=A=nom,sg,plen,f}, {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,2p} {разве=PART=} {ты=SPRO,sg,2p=nom}
+{в=PR=} {безумный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ярость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{как=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {твой=APRO=(nom,pl|acc,pl,inan)} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тщетный=A=pl,brev},
+	{как=CONJ=} {зуб=S,m,inan=(acc,pl|nom,pl)} {ни=CONJ=} {остер=S,geo,m,inan=(acc,pl|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)},
+	{но=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {сделать=V,pf,tran=inpraes,pl,indic,3p} {вред=S,m,inan=gen,sg}.
+{остро=ADV=comp} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {зубцов=S,geo,m,inan=(acc,sg|nom,sg)} {мой=APRO=(nom,pl|acc,pl,inan)},
+{и=CONJ=} {для=PR=} {железо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {даже=CONJ=} {я=SPRO,sg,1p=nom} {вредный=A=sg,brev,f}».

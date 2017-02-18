@@ -1,104 +1,14 @@
-если=CONJ=
-_
-бы=PART=
-_
-жить=V,ipf,intr=inf
-..._
-только=PART=
-_
-бы=PART=
-_
-жить=V,ipf,intr=inf
-..._\n
-хоть=PART=
-_
-на=PR=
-_
-литейный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-завод=S,m,inan=abl,sg
-_
-служить=V,ipf,tran=inf
-.\n\n
-хоть=CONJ=
-_
-углекоп=S,m,anim=ins,sg
-_
-с=PR=
-_
-тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кирка=S,f,inan=ins,sg
-,_\n
-хоть=PART=
-_
-бурлак=S,m,anim=ins,sg
-_
-над=PR=
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=ins,sg
-.\n\n\xAB
-ухнуть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-,_
-дубинушка=S,f,inan=nom,sg
-!..\xBB\n\t\t
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-это=PART=
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-ни=PART=
-_
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-нужный=A=pl,brev
-.\n\n
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-плечо=S,n,inan=dat,pl
-_
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-подымать=V=inf,pf
-._\n
-нечего=SPRO,sg,n,inan=gen
-,_
-значит=ADV,parenth=
-,_
-на=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-_
-пенять=V,ipf,intr=inf
-:_\n
-трубочка=S,f,inan=nom,sg
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-._
-водочка=S,f,inan=nom,sg
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-.\n
-все=SPRO,pl=dat
-_
-в=PR=
-_
-кабак=S,m,inan=abl,sg
-_
-одинаковый=A=sg,brev,f
-_
-честь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{если=CONJ=} {бы=PART=} {жить=V,ipf,intr=inf}... {только=PART=} {бы=PART=} {жить=V,ipf,intr=inf}... 
+{хоть=PART=} {на=PR=} {литейный=A=(abl,sg,plen,m|abl,sg,plen,n)} {завод=S,m,inan=abl,sg} {служить=V,ipf,tran=inf}.
+
+{хоть=CONJ=} {углекоп=S,m,anim=ins,sg} {с=PR=} {тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кирка=S,f,inan=ins,sg}, 
+{хоть=PART=} {бурлак=S,m,anim=ins,sg} {над=PR=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=ins,sg}.
+
+«{ухнуть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}, {дубинушка=S,f,inan=nom,sg}!..»
+		{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {это=PART=} {сон=S,m,inan=(acc,pl|nom,pl)}.
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)} {ни=PART=} {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {нужный=A=pl,brev}.
+
+{этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {плечо=S,n,inan=dat,pl} {ничто=SPRO,sg,n=gen} {не=PART=} {подымать=V=inf,pf}. 
+{нечего=SPRO,sg,n,inan=gen}, {значит=ADV,parenth=}, {на=PR=} {бог=S,m,anim=(acc,sg|gen,sg)} {пенять=V,ipf,intr=inf}: 
+{трубочка=S,f,inan=nom,sg} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}. {водочка=S,f,inan=nom,sg} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}.
+{все=SPRO,pl=dat} {в=PR=} {кабак=S,m,inan=abl,sg} {одинаковый=A=sg,brev,f} {честь=S,f,inan=(acc,sg|nom,sg)}!

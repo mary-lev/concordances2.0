@@ -1,88 +1,17 @@
-певица=S,f,anim=nom,sg
-_
-лилия=S,f,inan=gen,pl
-_
-поле=S,n,inan=gen,pl
-_
-сарон?=S,famn,m,anim=(acc,sg|gen,sg)
-,\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-корона=S,f,inan=nom,sg
-!\n____
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-у=PR=
-_
-трон=S,m,inan=gen,sg
-\n
-сходиться=V,intr=inpraes,pl,indic,3p,pf
-_
-мир=S,m,inan=gen,sg
-_
-весь=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\u2014\n
-лишь=PART=
-_
-захотеть=V,pf,tran=sg,imper,2p
-!\n\n
-поле=S,n,inan=gen,pl
-_
-сарон?=S,famn,m,anim=(acc,sg|gen,sg)
-_
-певица=S,f,anim=nom,sg
-_
-лилия=S,f,inan=gen,pl
-\n
-тщета=S,f,inan=nom,sg
-_
-воскрылья?=S,pl,inan=gen
-...\n____
-тщета=S,f,inan=nom,sg
-_
-усилие=S,n,inan=gen,pl
-...\n
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-достигать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-высота=S,f,inan=gen,pl
-_\u2014\n
-снести=V,pf=inpraes,sg,indic,3p
-,_
-снести=V,pf=inpraes,sg,indic,3p
-!..\n\n____
-да=CONJ=
-_
-воцаряться=V,intr=inpraes,sg,indic,3p,pf
-\n
-царица=S,f,anim=(acc,pl|gen,pl)
-_
-царица=S,f,anim=nom,sg
-\n
-сарон?=S,famn,m,anim=(acc,sg|gen,sg)
-_
-лилия=S,f,inan=gen,pl
-_
-поле=S,n,inan=gen,pl
-_
-певица=S,f,anim=nom,sg
-!\n
-в=PR=
-_
-корона=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-возоблекаться?=V,intr=sg,imper,2p,pf
-,\n
-балькис?=S,famn,m,anim=nom,sg
-!\n
+{певица=S,f,anim=nom,sg} {лилия=S,f,inan=gen,pl} {поле=S,n,inan=gen,pl} {сарон?=S,famn,m,anim=(acc,sg|gen,sg)},
+{ты=SPRO,sg,2p=(abl|dat)} {корона=S,f,inan=nom,sg}!
+    {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {у=PR=} {трон=S,m,inan=gen,sg}
+{сходиться=V,intr=inpraes,pl,indic,3p,pf} {мир=S,m,inan=gen,sg} {весь=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, —
+{лишь=PART=} {захотеть=V,pf,tran=sg,imper,2p}!
+
+{поле=S,n,inan=gen,pl} {сарон?=S,famn,m,anim=(acc,sg|gen,sg)} {певица=S,f,anim=nom,sg} {лилия=S,f,inan=gen,pl}
+{тщета=S,f,inan=nom,sg} {воскрылья?=S,pl,inan=gen}...
+    {тщета=S,f,inan=nom,sg} {усилие=S,n,inan=gen,pl}...
+{мы=SPRO,pl,1p=nom} {не=PART=} {достигать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {высота=S,f,inan=gen,pl} —
+{снести=V,pf=inpraes,sg,indic,3p}, {снести=V,pf=inpraes,sg,indic,3p}!..
+
+    {да=CONJ=} {воцаряться=V,intr=inpraes,sg,indic,3p,pf}
+{царица=S,f,anim=(acc,pl|gen,pl)} {царица=S,f,anim=nom,sg}
+{сарон?=S,famn,m,anim=(acc,sg|gen,sg)} {лилия=S,f,inan=gen,pl} {поле=S,n,inan=gen,pl} {певица=S,f,anim=nom,sg}!
+{в=PR=} {корона=S,f,inan=(acc,pl|gen,sg|nom,pl)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {возоблекаться?=V,intr=sg,imper,2p,pf},
+{балькис?=S,famn,m,anim=nom,sg}!

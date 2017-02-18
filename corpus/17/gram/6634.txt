@@ -1,168 +1,24 @@
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-вспоминать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-для=PR=
-_
-что=SPRO,sg,n,inan=gen
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-вспоминать=V,ipf,tran=inf
-?_\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-только=PART=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_\n
-только=PART=
-_
-то=PART=
-,_
-что=CONJ=
-_
-можно=ADV,praed=
-_
-знать=V,ipf,tran=inf
-.\n\n
-край=S,m,inan=(acc,sg|nom,sg)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-полоска=S,f,inan=nom,sg
-_
-дым=S,m,inan=gen,sg
-_\n
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-спешить=V,ipf,intr=inpraes,ger
-._\n
-одинокий=A=sg,brev,f
-,_
-нелюдим=S,m,anim=(acc,sg|gen,sg)
-_\n
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ласточка=S,f,anim=ins,sg
-_
-душа=S,f,inan=nom,sg
-.\n\n
-край=S,m,inan=(acc,sg|nom,sg)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-за=PR=
-_
-синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-край=S,m,inan=ins,sg
-_\n
-вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-пустой=A=nom,sg,plen,f
-_
-гладь=S,f,inan=(acc,sg|nom,sg)
-.\n
-то=CONJ=
-,_
-что=SPRO,sg,n,inan=gen
-_
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-узнавать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)
-,\n
-то=CONJ=
-,_
-что=SPRO,sg,n,inan=gen
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-знать=V,ipf,tran=inf
-.\n\n
-если=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-сказать=V,pf,tran=inpraes,sg,indic,1p
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-ты=SPRO,sg,2p=nom
-_
-поверять=V=inpraes,sg,indic,2p,pf
-._
-я=SPRO,sg,1p=nom
-_
-солгать=V,pf,intr=inpraes,sg,indic,1p
-.\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-вспоминать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-.\n\n
-но=CONJ=
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-как=CONJ=
-_
-прежде=ADV=
-,_\n
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-еще=ADV=
-_
-нежно=ADV=comp
-,_\n
-бессердечный=A=comp
-,_
-безнадежно=ADV=comp
-_\n
-в=PR=
-_
-пустота=S,f,inan=(abl,sg|dat,sg)
-,_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-_
-день=S,m,inan=gen,pl
-.\n
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {вспоминать=V,ipf,tran=inpraes,sg,indic,1p},
+{для=PR=} {что=SPRO,sg,n,inan=gen} {я=SPRO,sg,1p=(abl|dat)} {вспоминать=V,ipf,tran=inf}? 
+{это=SPRO,sg,n,inan=(acc|nom)} {только=PART=} {то=SPRO,sg,n,inan=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {знать=V,ipf,tran=inpraes,sg,indic,1p}, 
+{только=PART=} {то=PART=}, {что=CONJ=} {можно=ADV,praed=} {знать=V,ipf,tran=inf}.
+
+{край=S,m,inan=(acc,sg|nom,sg)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {полоска=S,f,inan=nom,sg} {дым=S,m,inan=gen,sg} 
+{тянуть=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)}, {не=PART=} {спешить=V,ipf,intr=inpraes,ger}. 
+{одинокий=A=sg,brev,f}, {нелюдим=S,m,anim=(acc,sg|gen,sg)} 
+{виться=V,ipf,intr=inpraes,sg,indic,3p} {ласточка=S,f,anim=ins,sg} {душа=S,f,inan=nom,sg}.
+
+{край=S,m,inan=(acc,sg|nom,sg)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {за=PR=} {синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {край=S,m,inan=ins,sg} 
+{вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {пустой=A=nom,sg,plen,f} {гладь=S,f,inan=(acc,sg|nom,sg)}.
+{то=CONJ=}, {что=SPRO,sg,n,inan=gen} {мы=SPRO,pl,1p=nom} {не=PART=} {узнавать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)},
+{то=CONJ=}, {что=SPRO,sg,n,inan=gen} {не=PART=} {надо=ADV,praed=} {знать=V,ipf,tran=inf}.
+
+{если=CONJ=} {я=SPRO,sg,1p=nom} {сказать=V,pf,tran=inpraes,sg,indic,1p}, {что=SPRO,sg,n,inan=(acc|nom)} {знать=V,ipf,tran=inpraes,sg,indic,1p},
+{ты=SPRO,sg,2p=nom} {поверять=V=inpraes,sg,indic,2p,pf}. {я=SPRO,sg,1p=nom} {солгать=V,pf,intr=inpraes,sg,indic,1p}.
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {вспоминать=V,ipf,tran=inpraes,sg,indic,1p},
+{не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {и=CONJ=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}.
+
+{но=CONJ=} {любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {как=CONJ=} {прежде=ADV=}, 
+{мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {еще=ADV=} {нежно=ADV=comp}, 
+{бессердечный=A=comp}, {безнадежно=ADV=comp} 
+{в=PR=} {пустота=S,f,inan=(abl,sg|dat,sg)}, {в=PR=} {туман=S,m,inan=abl,sg} {день=S,m,inan=gen,pl}.

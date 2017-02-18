@@ -1,144 +1,24 @@
-весна=S,f,inan=nom,sg
-!_
-не=PART=
-_
-отлучаться=V,intr=pl,imper,2p,ipf
-_\n
-сегодня=ADV=
-_
-в=PR=
-_
-город=S,m,inan=(acc,sg|nom,sg)
-._
-стая=S,f,inan=ins,pl
-_\n
-по=PR=
-_
-город=S,m,inan=dat,sg
-,_
-как=CONJ=
-_
-чайка=S,f,anim=(gen,sg|nom,pl)
-,_\n
-лед=S,m,inan=(acc,pl|nom,pl)
-_
-раскричаться=V,pf,intr=praet,pl,indic
-,_
-таючи?=ADV=
-.\n\n
-земля=S,f,inan=nom,sg
-,_
-земля=S,f,inan=nom,sg
-_
-волноваться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-и=CONJ=
-_
-катиться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-как=CONJ=
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-чернеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-улица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_\n
-они=SPRO,pl=dat
-,_
-ветреница=S,f,inan=dat,pl
-,_
-холодно=ADV=
-.\n\n
-по=PR=
-_
-они=SPRO,pl=dat
-_
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-,_
-как=CONJ=
-_
-спичка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-сгорать=V,intr=inpraes,ger,ipf
-_
-и=CONJ=
-_
-захлебываться=V,intr=inpraes,ger,ipf
-,_\n
-сад=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-электричка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_\n
-они=SPRO,pl=dat
-,_
-ветреница=S,f,inan=dat,pl
-,_
-холодно=ADV=
-.\n\n
-от=PR=
-_
-кружка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-синева=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-со=PR=
-_
-лед=S,m,inan=ins,sg
-,_\n
-от=PR=
-_
-пена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-буревестник=S,m,anim=(acc,pl|gen,pl)
-_\n
-вы=SPRO,pl,2p=dat
-_
-дурно=ADV=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-._
-впрочем=CONJ,parenth=
-,_
-дом=S,m,inan=(acc,sg|nom,sg)
-_\n
-кругом=ADV=
-_
-затоплять=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-песнь=S,f,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-бросать=V=pl,imper,2p,pf
-_
-размышлять=V,ipf,intr=inf
-_
-о=PR=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_\n
-кто=SPRO,sg,m,anim=nom
-_
-выезжать=V,intr=praet,sg,indic,m,pf
-_
-рыбачить=V,ipf,intr=inf
-._\n
-по=PR=
-_
-город=S,m,inan=dat,sg
-_
-гулять=V,ipf,intr=inpraes,sg,indic,3p
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-падший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n
+{весна=S,f,inan=nom,sg}! {не=PART=} {отлучаться=V,intr=pl,imper,2p,ipf} 
+{сегодня=ADV=} {в=PR=} {город=S,m,inan=(acc,sg|nom,sg)}. {стая=S,f,inan=ins,pl} 
+{по=PR=} {город=S,m,inan=dat,sg}, {как=CONJ=} {чайка=S,f,anim=(gen,sg|nom,pl)}, 
+{лед=S,m,inan=(acc,pl|nom,pl)} {раскричаться=V,pf,intr=praet,pl,indic}, {таючи?=ADV=}.
+
+{земля=S,f,inan=nom,sg}, {земля=S,f,inan=nom,sg} {волноваться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{и=CONJ=} {катиться=V,ipf,intr=inpraes,pl,indic,3p}, {как=CONJ=} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{чернеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {улица=S,f,inan=(acc,pl|gen,sg|nom,pl)}, — 
+{они=SPRO,pl=dat}, {ветреница=S,f,inan=dat,pl}, {холодно=ADV=}.
+
+{по=PR=} {они=SPRO,pl=dat} {плыть=V,ipf,intr=inpraes,pl,indic,3p}, {как=CONJ=} {спичка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{сгорать=V,intr=inpraes,ger,ipf} {и=CONJ=} {захлебываться=V,intr=inpraes,ger,ipf}, 
+{сад=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {электричка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, — 
+{они=SPRO,pl=dat}, {ветреница=S,f,inan=dat,pl}, {холодно=ADV=}.
+
+{от=PR=} {кружка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {синева=S,f,inan=(acc,pl|gen,sg|nom,pl)} {со=PR=} {лед=S,m,inan=ins,sg}, 
+{от=PR=} {пена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {буревестник=S,m,anim=(acc,pl|gen,pl)} 
+{вы=SPRO,pl,2p=dat} {дурно=ADV=} {становиться=V,intr=inpraes,sg,indic,3p,pf}. {впрочем=CONJ,parenth=}, {дом=S,m,inan=(acc,sg|nom,sg)} 
+{кругом=ADV=} {затоплять=V,tran=praet,sg,partcp,brev,m,pf,pass} {песнь=S,f,inan=ins,sg}.
+
+{и=CONJ=} {бросать=V=pl,imper,2p,pf} {размышлять=V,ipf,intr=inf} {о=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, 
+{кто=SPRO,sg,m,anim=nom} {выезжать=V,intr=praet,sg,indic,m,pf} {рыбачить=V,ipf,intr=inf}. 
+{по=PR=} {город=S,m,inan=dat,sg} {гулять=V,ipf,intr=inpraes,sg,indic,3p} {грех=S,m,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {падший=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.

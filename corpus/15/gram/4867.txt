@@ -1,138 +1,15 @@
-на=PR=
-_
-алмазный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-покров=S,m,inan=abl,sg
-_
-снег=S,m,inan=gen,pl
-,\n
-под=PR=
-_
-холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сияние=S,n,inan=ins,sg
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-хорошо=ADV=parenth
-_
-мы=SPRO,pl,1p=dat
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-!_
-без=PR=
-_
-улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-без=PR=
-_
-слово=S,n,inan=gen,pl
-,\n
-обитатель=S,m,anim=nom,pl
-_
-призрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-погружаться=V,intr=praet,pl,indic,pf
-_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-загадочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сон=S,m,inan=gen,pl
-,\n
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-как=ADVPRO=
-_
-отрадно=ADV=
-_
-в=PR=
-_
-глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-полуночный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-\n
-на=PR=
-_
-мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-по-детски=ADV=
-_
-забывать=V=inf,pf
-,\n
-и=CONJ=
-,_
-забывать=V=praet,ger,pf
-,_
-что=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-невозможный=A=sg,brev,f
-_
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-,\n
-как=ADVPRO=
-_
-отрадно=ADV=
-_
-мечтать=V,ipf,intr=inf
-_
-и=CONJ=
-_
-любить=V,ipf,tran=inf
-,\n
-без=PR=
-_
-улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-без=PR=
-_
-слово=S,n,inan=gen,pl
-,\n
-средь=PR=
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=gen
-,\n
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-чистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-снег=S,m,inan=gen,pl
-,\n
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{на=PR=} {алмазный=A=(abl,sg,plen,m|abl,sg,plen,n)} {покров=S,m,inan=abl,sg} {снег=S,m,inan=gen,pl},
+{под=PR=} {холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сияние=S,n,inan=ins,sg} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{хорошо=ADV=parenth} {мы=SPRO,pl,1p=dat} {с=PR=} {ты=SPRO,sg,2p=ins}! {без=PR=} {улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {без=PR=} {слово=S,n,inan=gen,pl},
+{обитатель=S,m,anim=nom,pl} {призрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{погружаться=V,intr=praet,pl,indic,pf} {мы=SPRO,pl,1p=nom} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {загадочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сон=S,m,inan=gen,pl},
+{в=PR=} {царство=S,n,inan=abl,sg} {бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{как=ADVPRO=} {отрадно=ADV=} {в=PR=} {глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {полуночный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}
+{на=PR=} {мгновение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {все=SPRO,pl=(acc|nom)} {скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {по-детски=ADV=} {забывать=V=inf,pf},
+{и=CONJ=}, {забывать=V=praet,ger,pf}, {что=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)} {невозможный=A=sg,brev,f} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)},
+{как=ADVPRO=} {отрадно=ADV=} {мечтать=V,ipf,intr=inf} {и=CONJ=} {любить=V,ipf,tran=inf},
+{без=PR=} {улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {без=PR=} {слово=S,n,inan=gen,pl},
+{средь=PR=} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen},
+{в=PR=} {царство=S,n,inan=abl,sg} {чистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {снег=S,m,inan=gen,pl},
+{в=PR=} {царство=S,n,inan=abl,sg} {бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

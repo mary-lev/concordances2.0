@@ -1,126 +1,13 @@
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-обещание=S,n,inan=dat,pl
-_
-вопреки=PR=
-\n
-и=CONJ=
-_
-перстень=S,m,inan=(acc,sg|nom,sg)
-_
-снимать=V,tran=praet,ger,pf
-_
-с=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-забывать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-на=PR=
-_
-дно=S,n,inan=abl,sg
-...\n
-ничто=SPRO,sg,n=ins
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-помогать=V,intr=inf,pf
-.\n
-зачем=ADVPRO=
-_
-же=PART=
-_
-снова=ADV=
-_
-в=PR=
-_
-этот=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-присылать=V=praet,sg,indic,m,pf
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-?\n
-он=SPRO,sg,3p,m=nom
-_
-страивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-и=CONJ=
-_
-юный=A=sg,brev,m
-,_
-и=CONJ=
-_
-рыжий=A=sg,brev,m
-,\n
-он=SPRO,sg,3p,m=nom
-_
-женщина=S,f,anim=ins,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,\n
-шептать=V,ipf,tran=praet,sg,indic,m
-_
-про=PR=
-_
-рим=S,geo,m,inan=(acc,sg|nom,sg)
-,_
-манить=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-париж=S,geo,m,inan=(acc,sg|nom,sg)
-\n
-как=CONJ=
-_
-плакальщица=S,f,anim=nom,sg
-_
-выть=V,ipf,intr=praet,sg,indic,m
-...\n
-он=SPRO,sg,3p,m=nom
-_
-больше=ADV=
-_
-без=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-:\n
-пускай=PART=
-_
-позор=S,m,inan=(acc,sg|nom,sg)
-,_
-пускай=PART=
-_
-острог=S,geo,m,inan=(acc,sg|nom,sg)
-...\n
-я=SPRO,sg,1p=nom
-_
-без=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-мочь=V,ipf,intr=praet,sg,indic,f
-.\n
+{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {обещание=S,n,inan=dat,pl} {вопреки=PR=}
+{и=CONJ=} {перстень=S,m,inan=(acc,sg|nom,sg)} {снимать=V,tran=praet,ger,pf} {с=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{забывать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(acc|gen)} {на=PR=} {дно=S,n,inan=abl,sg}...
+{ничто=SPRO,sg,n=ins} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m} {ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {помогать=V,intr=inf,pf}.
+{зачем=ADVPRO=} {же=PART=} {снова=ADV=} {в=PR=} {этот=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)}
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {присылать=V=praet,sg,indic,m,pf} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}?
+{он=SPRO,sg,3p,m=nom} {страивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {быть=V,intr=praet,sg,indic,m,ipf}, {и=CONJ=} {юный=A=sg,brev,m}, {и=CONJ=} {рыжий=A=sg,brev,m},
+{он=SPRO,sg,3p,m=nom} {женщина=S,f,anim=ins,sg} {быть=V,intr=praet,sg,indic,m,ipf},
+{шептать=V,ipf,tran=praet,sg,indic,m} {про=PR=} {рим=S,geo,m,inan=(acc,sg|nom,sg)}, {манить=V,ipf,tran=praet,sg,indic,m} {в=PR=} {париж=S,geo,m,inan=(acc,sg|nom,sg)}
+{как=CONJ=} {плакальщица=S,f,anim=nom,sg} {выть=V,ipf,intr=praet,sg,indic,m}...
+{он=SPRO,sg,3p,m=nom} {больше=ADV=} {без=PR=} {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}:
+{пускай=PART=} {позор=S,m,inan=(acc,sg|nom,sg)}, {пускай=PART=} {острог=S,geo,m,inan=(acc,sg|nom,sg)}...
+{я=SPRO,sg,1p=nom} {без=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {мочь=V,ipf,intr=praet,sg,indic,f}.

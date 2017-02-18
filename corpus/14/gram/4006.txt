@@ -1,122 +1,15 @@
-ты=SPRO,sg,2p=nom
-_
-всегда=ADVPRO=
-_
-таинственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-послушный=A=comp
-_
-с=PR=
-_
-каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-день=S,m,inan=ins,sg
-.\n
-но=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=nom,sg,f
-,_
-о=PR=
-_
-друг=S,m,anim=nom,sg
-_
-суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-испытание=S,n,inan=(acc,sg|nom,sg)
-_
-железо=S,n,inan=ins,sg
-_
-и=CONJ=
-_
-огонь=S,m,inan=ins,sg
-.\n\n
-запрещать=V,tran=inpraes,sg,indic,2p,ipf
-_
-петь=V,ipf,tran=inf
-_
-и=CONJ=
-_
-улыбаться=V,intr=inf,ipf
-,\n
-а=CONJ=
-_
-молиться=V,ipf,intr=inf
-_
-запрещать=V,tran=praet,sg,indic,m,pf
-_
-давно=ADV=
-.\n
-только=PART=
-_
-б=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-не=PART=
-_
-расставаться=V,intr=inf,pf
-,\n
-остальное=S,n,inan=(acc,sg|nom,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-!\n\n
-так=ADVPRO=
-,_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-небо=S,n,inan=dat,pl
-_
-чужой=A,plen=nom,sg,f
-,\n
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-больше=ADV=
-_
-не=PART=
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-словно=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-у=PR=
-_
-ад=S,sg,m,inan=gen
-_
-и=CONJ=
-_
-у=PR=
-_
-рая=S,persn,f,anim=nom,sg
-\n
-отнимать=V,tran=praet,sg,indic,m,pf
-_
-душа=S,f,inan=acc,sg
-_
-вольная=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-.\n\n
+{ты=SPRO,sg,2p=nom} {всегда=ADVPRO=} {таинственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)} {послушный=A=comp} {с=PR=} {каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {день=S,m,inan=ins,sg}.
+{но=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=nom,sg,f}, {о=PR=} {друг=S,m,anim=nom,sg} {суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{испытание=S,n,inan=(acc,sg|nom,sg)} {железо=S,n,inan=ins,sg} {и=CONJ=} {огонь=S,m,inan=ins,sg}.
+
+{запрещать=V,tran=inpraes,sg,indic,2p,ipf} {петь=V,ipf,tran=inf} {и=CONJ=} {улыбаться=V,intr=inf,ipf},
+{а=CONJ=} {молиться=V,ipf,intr=inf} {запрещать=V,tran=praet,sg,indic,m,pf} {давно=ADV=}.
+{только=PART=} {б=PART=} {я=SPRO,sg,1p=(abl|dat)} {с=PR=} {ты=SPRO,sg,2p=ins} {не=PART=} {расставаться=V,intr=inf,pf},
+{остальное=S,n,inan=(acc,sg|nom,sg)} {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}!
+
+{так=ADVPRO=}, {земля=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {небо=S,n,inan=dat,pl} {чужой=A,plen=nom,sg,f},
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {больше=ADV=} {не=PART=} {петь=V,ipf,tran=inpraes,sg,indic,1p},
+{словно=CONJ=} {ты=SPRO,sg,2p=nom} {у=PR=} {ад=S,sg,m,inan=gen} {и=CONJ=} {у=PR=} {рая=S,persn,f,anim=nom,sg}
+{отнимать=V,tran=praet,sg,indic,m,pf} {душа=S,f,inan=acc,sg} {вольная=S,f,inan=acc,sg} {мой=APRO=acc,sg,f}.
+

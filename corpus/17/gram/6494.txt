@@ -1,112 +1,14 @@
-визжать=V,ipf,intr=inpraes,ger
-,_
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-_
-тяжелый=A=nom,sg,plen,f
-_
-лебедка=S,f,inan=nom,sg
-...\n
-о=PR=
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-разбиваться=V,intr=inpraes,sg,indic,3p,ipf
-_
-волна=S,f,inan=nom,sg
-_\n
-янтарный=A=nom,sg,plen,f
-._
-и=CONJ=
-_
-парусный=A=nom,sg,plen,f
-_
-лодка=S,f,inan=nom,sg
-_\n
-закат=S,m,inan=ins,sg
-_
-медно-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-зажигать=V=praet,sg,partcp,brev,f,pf,pass
-.\n\n
-вот=PART=
-_
-капитан=S,m,anim=nom,sg
-._
-за=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-плестись=V,ipf,intr=inpraes,sg,indic,3p
-_
-сеттер=S,m,anim=nom,sg
-,_\n
-нести=V,ipf,tran=inpraes,ger
-_
-в=PR=
-_
-зуб=S,m,inan=abl,pl
-_
-витой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-испанский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-хлыст=S,m,inan=(acc,sg|nom,sg)
-,_\n
-и=CONJ=
-,_
-якорь=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-раскачивать=V,tran=inpraes,ger,ipf
-,_\u2014_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_\n
-взметать=V=inpraes,sg,indic,3p,ipf,tran
-_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-сбрасывать=V,tran=inpraes,sg,indic,3p,ipf
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-а=CONJ=
-_
-капитан=S,m,anim=nom,sg
-_
-в=PR=
-_
-бинокль=S,m,inan=(acc,sg|nom,sg)
-_
-обозревать=V,tran=inpraes,sg,indic,3p,ipf
-_\n
-узор=S,m,inan=(acc,sg|nom,sg)
-_
-снасть=S,f,inan=gen,pl
-,_
-таверна=S,f,inan=acc,sg
-_
-на=PR=
-_
-мыс=S,m,inan=(dat,sg|loc,sg)
-...\n
-меж=PR=
-_
-то=SPRO,sg,n,inan=ins
-_
-луна=S,f,inan=nom,sg
-_
-октябрьский=A=nom,sg,plen,f
-_
-всплывать=V,intr=inpraes,sg,indic,3p,ipf
-_\n
-и=CONJ=
-_
-золотить=V,ipf,tran=inpraes,sg,indic,3p
-_
-грифон=S,m,anim=(acc,sg|gen,sg)
-_
-на=PR=
-_
-нос=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
+{визжать=V,ipf,intr=inpraes,ger}, {ползти=V,ipf,intr=inpraes,sg,indic,3p} {тяжелый=A=nom,sg,plen,f} {лебедка=S,f,inan=nom,sg}...
+{о=PR=} {берег=S,m,inan=(acc,sg|nom,sg)} {разбиваться=V,intr=inpraes,sg,indic,3p,ipf} {волна=S,f,inan=nom,sg} 
+{янтарный=A=nom,sg,plen,f}. {и=CONJ=} {парусный=A=nom,sg,plen,f} {лодка=S,f,inan=nom,sg} 
+{закат=S,m,inan=ins,sg} {медно-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зажигать=V=praet,sg,partcp,brev,f,pf,pass}.
+
+{вот=PART=} {капитан=S,m,anim=nom,sg}. {за=PR=} {он=SPRO,sg,3p,m=ins} {плестись=V,ipf,intr=inpraes,sg,indic,3p} {сеттер=S,m,anim=nom,sg}, 
+{нести=V,ipf,tran=inpraes,ger} {в=PR=} {зуб=S,m,inan=abl,pl} {витой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {испанский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хлыст=S,m,inan=(acc,sg|nom,sg)}, 
+{и=CONJ=}, {якорь=S,m,inan=(acc,pl|gen,sg|nom,pl)} {раскачивать=V,tran=inpraes,ger,ipf}, — {ветер=S,m,inan=(acc,sg|nom,sg)} 
+{взметать=V=inpraes,sg,indic,3p,ipf,tran} {пыль=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {сбрасывать=V,tran=inpraes,sg,indic,3p,ipf} {лист=S,m,inan=(acc,sg|nom,sg)}...
+
+{а=CONJ=} {капитан=S,m,anim=nom,sg} {в=PR=} {бинокль=S,m,inan=(acc,sg|nom,sg)} {обозревать=V,tran=inpraes,sg,indic,3p,ipf} 
+{узор=S,m,inan=(acc,sg|nom,sg)} {снасть=S,f,inan=gen,pl}, {таверна=S,f,inan=acc,sg} {на=PR=} {мыс=S,m,inan=(dat,sg|loc,sg)}...
+{меж=PR=} {то=SPRO,sg,n,inan=ins} {луна=S,f,inan=nom,sg} {октябрьский=A=nom,sg,plen,f} {всплывать=V,intr=inpraes,sg,indic,3p,ipf} 
+{и=CONJ=} {золотить=V,ipf,tran=inpraes,sg,indic,3p} {грифон=S,m,anim=(acc,sg|gen,sg)} {на=PR=} {нос=S,m,inan=(dat,sg|part,sg|loc,sg)}.

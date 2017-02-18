@@ -1,116 +1,19 @@
-кривой=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-белый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пятно=S,n,inan=(acc,sg|nom,sg)
-\n\t
-комочек=S,m,inan=ins,sg
-_
-сминать=V=praet,sg,partcp,brev,n,pf,pass
--
-мутный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-висеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-бесцельно=ADV=
-_
-и=CONJ=
-_
-давно=ADV=
-\n\t
-над=PR=
-_
-море=S,n,inan=ins,sg
-_
-неуютный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n
-вздымать=V,ipf,tran=inpraes,ger
-_
-водный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-пласт=S,m,inan=(acc,pl|nom,pl)
-,\n\t
-колебать=V,ipf,tran=inpraes,sg,indic,3p
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-свая=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-а=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-с=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-блистать=V,ipf,intr=inpraes,ger
-_
-и=CONJ=
-_
-скучать=V,ipf,intr=inpraes,ger
-.\n\n
-но=CONJ=
-_
-вот=PART=
-,_
-в=PR=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,_
-когда=CONJ=
-_
-оно=SPRO,sg,3p,n=nom
-\n\t
-сердито=ADV=
-_
-в=PR=
-_
-туча=S,f,inan=acc,sg
-_
-село=S,n,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-показываться=V,intr=praet,sg,indic,n,pf
-,_
-что=CONJ=
-_
-пятно=S,n,inan=(acc,sg|nom,sg)
-\n\t
-чуть-чуть=ADV=
-_
-порозоветь=V,pf,intr=praet,sg,indic,n
-.\n\n
-тревожить=V,ipf,tran=inpraes,sg,indic,3p
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-кривизна=S,sg,f,inan=nom
-,\n\t
-и=CONJ=
-_
-розовый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-втайне=ADV=
-_
-от=PR=
-_
-пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n\t
-волшебный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-превращение=S,n,inan=gen,pl
-...\n
+{кривой=A=(acc,sg,plen,n|nom,sg,plen,n)}, {белый=A=(acc,sg,plen,n|nom,sg,plen,n)} {пятно=S,n,inan=(acc,sg|nom,sg)}
+	{комочек=S,m,inan=ins,sg} {сминать=V=praet,sg,partcp,brev,n,pf,pass}-{мутный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{висеть=V,ipf,intr=inpraes,sg,indic,3p} {бесцельно=ADV=} {и=CONJ=} {давно=ADV=}
+	{над=PR=} {море=S,n,inan=ins,sg} {неуютный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+{вздымать=V,ipf,tran=inpraes,ger} {водный=A=(acc,pl,plen,inan|nom,pl,plen)} {пласт=S,m,inan=(acc,pl|nom,pl)},
+	{колебать=V,ipf,tran=inpraes,sg,indic,3p} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {свая=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{а=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+	{блистать=V,ipf,intr=inpraes,ger} {и=CONJ=} {скучать=V,ipf,intr=inpraes,ger}.
+
+{но=CONJ=} {вот=PART=}, {в=PR=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)}, {когда=CONJ=} {оно=SPRO,sg,3p,n=nom}
+	{сердито=ADV=} {в=PR=} {туча=S,f,inan=acc,sg} {село=S,n,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=(abl|dat)} {показываться=V,intr=praet,sg,indic,n,pf}, {что=CONJ=} {пятно=S,n,inan=(acc,sg|nom,sg)}
+	{чуть-чуть=ADV=} {порозоветь=V,pf,intr=praet,sg,indic,n}.
+
+{тревожить=V,ipf,tran=inpraes,sg,indic,3p} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кривизна=S,sg,f,inan=nom},
+	{и=CONJ=} {розовый=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {втайне=ADV=} {от=PR=} {пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+	{волшебный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {превращение=S,n,inan=gen,pl}...

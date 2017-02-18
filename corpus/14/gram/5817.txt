@@ -1,70 +1,12 @@
-таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-невстреча?=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-пустынный=A=pl,brev
-_
-торжество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-несказанный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-безмолвный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-нескрещенный=A,plen=(nom,pl|acc,pl,inan)
-_
-взгляд=S,m,inan=(acc,pl|nom,pl)
-\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-где=ADVPRO=
-_
-они=SPRO,pl=dat
-_
-ложиться=V,intr=inf,pf
-.\n
-и=CONJ=
-_
-только=PART=
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рад=A,brev=pl
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-можно=ADV,praed=
-_
-долго=ADV=
-_
-течь=V,ipf,intr=inf
-.\n
-шиповник=S,m,inan=(acc,sg|nom,sg)
-_
-подмосковье=S,geo,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-увы=INTJ=
-!_
-при=PR=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-тут=ADVPRO=
-...\n
-и=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-все=SPRO,pl=(acc|nom)
-_
-любовь=S,f,inan=ins,sg
-\n
-бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-называть=V,tran=inpraes,pl,indic,3p,pf
-.\n
+{таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {невстреча?=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{пустынный=A=pl,brev} {торжество=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{несказанный=A=(acc,pl,plen,inan|nom,pl,plen)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{безмолвный=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{нескрещенный=A,plen=(nom,pl|acc,pl,inan)} {взгляд=S,m,inan=(acc,pl|nom,pl)}
+{не=PART=} {знать=V,ipf,tran=inpraes,pl,indic,3p}, {где=ADVPRO=} {они=SPRO,pl=dat} {ложиться=V,intr=inf,pf}.
+{и=CONJ=} {только=PART=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рад=A,brev=pl},
+{что=SPRO,sg,n,inan=(acc|nom)} {можно=ADV,praed=} {долго=ADV=} {течь=V,ipf,intr=inf}.
+{шиповник=S,m,inan=(acc,sg|nom,sg)} {подмосковье=S,geo,n,inan=(acc,pl|gen,sg|nom,pl)},
+{увы=INTJ=}! {при=PR=} {что-то=SPRO,sg,n,inan=(abl|ins)} {тут=ADVPRO=}...
+{и=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {все=SPRO,pl=(acc|nom)} {любовь=S,f,inan=ins,sg}
+{бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {называть=V,tran=inpraes,pl,indic,3p,pf}.

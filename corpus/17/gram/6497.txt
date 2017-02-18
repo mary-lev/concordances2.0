@@ -1,120 +1,19 @@
-все=SPRO,pl=(acc|nom)
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мило=ADV=
-_
-и=CONJ=
-_
-просто=ADV=
-.\n
-как=CONJ=
-_
-в=PR=
-_
-окно=S,n,inan=abl,pl
-_
-пруд=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-боскет=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-в=PR=
-_
-халат=S,m,inan=abl,sg
-_
-пестрый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-мечтать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-поэт=S,m,anim=nom,sg
-.\n\n
-рассеянно=ADV=
-_
-трубка=S,f,inan=acc,sg
-_
-курить=V,ipf,tran=inpraes,sg,indic,3p
-,_\n
-покачиваться=V,ipf,intr=inpraes,ger
-_
-слегка=ADV=
-.\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-он=SPRO,sg,3p,m=nom
-_
-щурить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-на=PR=
-_
-янтарный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-уж=PART=
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-._
-стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пропылить=V,pf,tran=praet,pl,indic
-,_\n
-проигрывать=V,tran=praet,pl,indic,pf
-_
-сбор=S,m,inan=(acc,sg|nom,sg)
-_
-пастух=S,m,anim=nom,pl
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-,_
-ужинать=V=inf,ipf,intr
-_
-или=CONJ=
-_\n
-еще=ADV=
-_
-сочинять=V,tran=inf,ipf
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-?..\n\n
-он=SPRO,sg,3p,m=nom
-_
-начинать=V,tran=praet,sg,indic,m,pf
-:_\xAB
-любовь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-крылатый=A=sg,brev,f
-...\xBB_\n
-и=CONJ=
-_
-строчка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-дописывать=V,tran=praet,sg,indic,m,pf
-.\n
-на=PR=
-_
-пестрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-халат=S,m,inan=gen,sg
-_\n
-узорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-погасать=V,intr=praet,sg,indic,m,ipf
-...\n
+{все=SPRO,pl=(acc|nom)} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мило=ADV=} {и=CONJ=} {просто=ADV=}.
+{как=CONJ=} {в=PR=} {окно=S,n,inan=abl,pl} {пруд=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {боскет=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {халат=S,m,inan=abl,sg} {пестрый=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{мечтать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {поэт=S,m,anim=nom,sg}.
+
+{рассеянно=ADV=} {трубка=S,f,inan=acc,sg} {курить=V,ipf,tran=inpraes,sg,indic,3p}, 
+{покачиваться=V,ipf,intr=inpraes,ger} {слегка=ADV=}.
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {свой=APRO=(nom,pl|acc,pl,inan)} {он=SPRO,sg,3p,m=nom} {щурить=V,ipf,tran=inpraes,sg,indic,3p} 
+{на=PR=} {янтарный=A=(acc,pl,plen,inan|nom,pl,plen)} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{уж=PART=} {вечер=S,m,inan=(acc,sg|nom,sg)}. {стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пропылить=V,pf,tran=praet,pl,indic}, 
+{проигрывать=V,tran=praet,pl,indic,pf} {сбор=S,m,inan=(acc,sg|nom,sg)} {пастух=S,m,anim=nom,pl}.
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}, {ужинать=V=inf,ipf,intr} {или=CONJ=} 
+{еще=ADV=} {сочинять=V,tran=inf,ipf} {стих=S,m,inan=(acc,pl|nom,pl)}?..
+
+{он=SPRO,sg,3p,m=nom} {начинать=V,tran=praet,sg,indic,m,pf}: «{любовь=S,f,inan=(acc,sg|nom,sg)} — {крылатый=A=sg,brev,f}...» 
+{и=CONJ=} {строчка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {дописывать=V,tran=praet,sg,indic,m,pf}.
+{на=PR=} {пестрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {халат=S,m,inan=gen,sg} 
+{узорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луч=S,m,inan=(acc,sg|nom,sg)} — {погасать=V,intr=praet,sg,indic,m,ipf}...

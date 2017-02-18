@@ -1,68 +1,9 @@
-учитель=S,m,anim=nom,sg
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-любить=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-и=CONJ=
-_
-давать=V,tran=praet,sg,indic,m,pf
-_
-мы=SPRO,pl,1p=dat
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-по=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-._\n
-смиренномудрие=S,n,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-губить=V,ipf,tran=inpraes,sg,indic,3p
-_\n\t
-и=CONJ=
-_
-страсть=S,f,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-себя=SPRO=(abl|dat)
-.\n\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-закрывать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-,\n
-бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)
-_
-от=PR=
-_
-узкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-зачем=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_
-лгать=V,ipf,intr=inpraes,pl,indic,1p
-?_
-мы=SPRO,pl,1p=nom
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_\n\t
-куда=ADVPRO=
-_
-идти=V,ipf,intr=inf
-!\n
+{учитель=S,m,anim=nom,sg} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мы=SPRO,pl,1p=(abl|acc|gen)} {любить=V,ipf,tran=inpraes,sg,indic,3p} 
+{и=CONJ=} {давать=V,tran=praet,sg,indic,m,pf} {мы=SPRO,pl,1p=dat} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {по=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)}. 
+{смиренномудрие=S,n,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=(abl|acc|gen)} {губить=V,ipf,tran=inpraes,sg,indic,3p} 
+	{и=CONJ=} {страсть=S,f,inan=(acc,sg|nom,sg)} {к=PR=} {себя=SPRO=(abl|dat)}.
+
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {закрывать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)},
+{бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)} {от=PR=} {узкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{зачем=ADVPRO=} {мы=SPRO,pl,1p=nom} {лгать=V,ipf,intr=inpraes,pl,indic,1p}? {мы=SPRO,pl,1p=nom} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, 
+	{куда=ADVPRO=} {идти=V,ipf,intr=inf}!

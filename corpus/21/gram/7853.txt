@@ -1,184 +1,35 @@
-мельница=S,f,inan=nom,sg
-_
-забывать=V=praet,nom,sg,partcp,plen,f,pf,pass
-\n
-в=PR=
-_
-сторона=S,f,inan=(abl,sg|dat,sg)
-_
-глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-к=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-обоз=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-дорога=S,f,inan=nom,sg
-_
-к=PR=
-_
-мельница=S,f,inan=(abl,sg|dat,sg)
-\n
-зарастать=V,intr=praet,sg,indic,f,pf
-_
-трава=S,f,inan=ins,sg
-.\n\n
-не=PART=
-_
-плескиваться?=V,intr=inpraes,sg,indic,3p,pf
-_
-рыбица=S,f,anim=nom,sg
-\n
-в=PR=
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(abl,sg|dat,sg)
-.\n
-по=PR=
-_
-скрипучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-лесенка=S,f,inan=(abl,sg|dat,sg)
-\n
-сходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-мельник=S,m,anim=nom,sg
-_
-старенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-красный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-колпак=S,m,inan=abl,sg
-.\n\n
-постоять=V,pf,intr=inpraes,sg,indic,3p
-,_
-послушать=V,pf,tran=inpraes,sg,indic,3p
-_\u2014\n
-и=CONJ=
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-перст=S,m,inan=ins,sg
-\n
-вдаль=ADV=
-,_
-где=ADVPRO=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-из-за=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-\n
-завиваться=V,intr=praet,sg,indic,m,pf
-_
-веревочка=S,f,inan=ins,sg
-\n
-над=PR=
-_
-людской=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-_
-жилье=S,sg,n,inan=ins
-.\n\n
-постоять=V,pf,intr=inpraes,sg,indic,3p
-,_
-послушать=V,pf,tran=inpraes,sg,indic,3p
-_\u2014\n
-и=CONJ=
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-_
-назад=ADV=
-:\n
-по=PR=
-_
-скрипучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-лесенка=S,f,inan=(abl,sg|dat,sg)
-,\n
-поглядеть=V,pf,tran=inf
-,_
-как=CONJ=
-_
-праздный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-жернов=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-лежать=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-потрудиться=V,pf,intr=praet,pl,indic
-_
-камушек=S,m,inan=(acc,pl|nom,pl)
-\n
-для=PR=
-_
-хлеб=S,m,inan=gen,pl
-_
-да=CONJ=
-_
-каша=S,f,inan=gen,pl
-.\n
-сколько=ADV=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-ссыпать=V,pf,tran=praet,sg,partcp,brev,n,pass
-,\n
-сколько=ADV=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-смалывать=V=praet,sg,partcp,brev,n,pf,pass
-,\n
-а=CONJ=
-_
-теперь=ADV=
-_
-шабаш=ADV,praed=
-!\n\n
-а=CONJ=
-_
-теперь=ADV=
-_
-у=PR=
-_
-мельник=S,m,anim=(acc,sg|gen,sg)
-\n
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-да=CONJ=
-_
-тишина=S,sg,f,inan=nom
-,\n
-да=CONJ=
-_
-под=PR=
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-трубочка=S,f,inan=nom,sg
-,\n
-да=CONJ=
-_
-хмельной=A=nom,sg,plen,f
-_
-чарочка=S,f,inan=nom,sg
-,\n
-да=CONJ=
-_
-в=PR=
-_
-окно=S,n,inan=abl,sg
-_
-луна=S,f,inan=nom,sg
-.\n
+{мельница=S,f,inan=nom,sg} {забывать=V=praet,nom,sg,partcp,plen,f,pf,pass}
+{в=PR=} {сторона=S,f,inan=(abl,sg|dat,sg)} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {обоз=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {тянуться=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {дорога=S,f,inan=nom,sg} {к=PR=} {мельница=S,f,inan=(abl,sg|dat,sg)}
+{зарастать=V,intr=praet,sg,indic,f,pf} {трава=S,f,inan=ins,sg}.
+
+{не=PART=} {плескиваться?=V,intr=inpraes,sg,indic,3p,pf} {рыбица=S,f,anim=nom,sg}
+{в=PR=} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(abl,sg|dat,sg)}.
+{по=PR=} {скрипучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {лесенка=S,f,inan=(abl,sg|dat,sg)}
+{сходить=V,intr=inpraes,sg,indic,3p,ipf} {мельник=S,m,anim=nom,sg} {старенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {колпак=S,m,inan=abl,sg}.
+
+{постоять=V,pf,intr=inpraes,sg,indic,3p}, {послушать=V,pf,tran=inpraes,sg,indic,3p} —
+{и=CONJ=} {грозить=V,ipf,intr=inpraes,sg,indic,3p} {перст=S,m,inan=ins,sg}
+{вдаль=ADV=}, {где=ADVPRO=} {дым=S,m,inan=(acc,sg|nom,sg)} {из-за=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}
+{завиваться=V,intr=praet,sg,indic,m,pf} {веревочка=S,f,inan=ins,sg}
+{над=PR=} {людской=A,plen=(dat,pl|ins,sg,m|ins,sg,n)} {жилье=S,sg,n,inan=ins}.
+
+{постоять=V,pf,intr=inpraes,sg,indic,3p}, {послушать=V,pf,tran=inpraes,sg,indic,3p} —
+{и=CONJ=} {пойти=V,pf,intr=inpraes,sg,indic,3p} {назад=ADV=}:
+{по=PR=} {скрипучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {лесенка=S,f,inan=(abl,sg|dat,sg)},
+{поглядеть=V,pf,tran=inf}, {как=CONJ=} {праздный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{жернов=S,m,inan=(acc,pl|gen,sg|nom,pl)} {лежать=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{потрудиться=V,pf,intr=praet,pl,indic} {камушек=S,m,inan=(acc,pl|nom,pl)}
+{для=PR=} {хлеб=S,m,inan=gen,pl} {да=CONJ=} {каша=S,f,inan=gen,pl}.
+{сколько=ADV=} {быть=V,intr=praet,sg,indic,n,ipf} {ссыпать=V,pf,tran=praet,sg,partcp,brev,n,pass},
+{сколько=ADV=} {быть=V,intr=praet,sg,indic,n,ipf} {смалывать=V=praet,sg,partcp,brev,n,pf,pass},
+{а=CONJ=} {теперь=ADV=} {шабаш=ADV,praed=}!
+
+{а=CONJ=} {теперь=ADV=} {у=PR=} {мельник=S,m,anim=(acc,sg|gen,sg)}
+{лес=S,m,inan=(acc,sg|nom,sg)} {да=CONJ=} {тишина=S,sg,f,inan=nom},
+{да=CONJ=} {под=PR=} {вечер=S,m,inan=(acc,sg|nom,sg)} {трубочка=S,f,inan=nom,sg},
+{да=CONJ=} {хмельной=A=nom,sg,plen,f} {чарочка=S,f,inan=nom,sg},
+{да=CONJ=} {в=PR=} {окно=S,n,inan=abl,sg} {луна=S,f,inan=nom,sg}.

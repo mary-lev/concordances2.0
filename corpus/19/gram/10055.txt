@@ -1,120 +1,14 @@
-день=S,m,inan=(acc,sg|nom,sg)
-_
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-,_
-румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-посмеяться=V,pf,intr=praet,ger
-_
-над=PR=
-_
-маленький=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-горе=S,sg,n,inan=ins
-,\n
-мать=S,f,anim=(acc,sg|nom,sg)
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:_\u2014_
-еще=ADV=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-так=ADVPRO=
-_
-сделать=V,pf,tran=sg,imper,2p
-,\n
-больно=ADV=comp
-_
-непослушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-вспарывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-._\u2014\n\n
-у=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-на=PR=
-_
-щека=S,f,inan=abl,pl
-_
-еще=ADV=
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-колено=S,n,inan=abl,pl
-_
-стоять=V,ipf,intr=inf
-_
-еще=ADV=
-_
-надо=ADV,praed=
-,\n
-но=CONJ=
-_
-не=PART=
-_
-страшно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-гневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-угроза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_
-солнышко=S,n,inan=dat,sg
-_
-рад=A,brev=sg,f
-.\n\n
-и=CONJ=
-_
-на=PR=
-_
-розга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-без=PR=
-_
-страх=S,m,inan=gen,sg
-:\n
-обломаться=V,pf,intr=praet,ger
-,_
-они=SPRO,pl=nom
-_
-замалчивать=V=praet,pl,indic,pf
-,\n
-и=CONJ=
-_
-на=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-уже=ADV=
-_
-снова=ADV=
-_
-рубаха=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-отзвучать=V,pf,intr=praet,pl,indic
-.\n
+{день=S,m,inan=(acc,sg|nom,sg)} {сиять=V,ipf,intr=inpraes,sg,indic,3p}, {румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{посмеяться=V,pf,intr=praet,ger} {над=PR=} {маленький=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {горе=S,sg,n,inan=ins},
+{мать=S,f,anim=(acc,sg|nom,sg)} {сказать=V,pf,tran=praet,sg,indic,f}: — {еще=ADV=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {так=ADVPRO=} {сделать=V,pf,tran=sg,imper,2p},
+{больно=ADV=comp} {непослушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {вспарывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}. —
+
+{у=PR=} {я=SPRO,sg,1p=(acc|gen)} {на=PR=} {щека=S,f,inan=abl,pl} {еще=ADV=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{на=PR=} {колено=S,n,inan=abl,pl} {стоять=V,ipf,intr=inf} {еще=ADV=} {надо=ADV,praed=},
+{но=CONJ=} {не=PART=} {страшно=ADV=} {я=SPRO,sg,1p=(abl|dat)} {гневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {угроза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} {солнышко=S,n,inan=dat,sg} {рад=A,brev=sg,f}.
+
+{и=CONJ=} {на=PR=} {розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {глядеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {без=PR=} {страх=S,m,inan=gen,sg}:
+{обломаться=V,pf,intr=praet,ger}, {они=SPRO,pl=nom} {замалчивать=V=praet,pl,indic,pf},
+{и=CONJ=} {на=PR=} {я=SPRO,sg,1p=(abl|dat)} {уже=ADV=} {снова=ADV=} {рубаха=S,f,inan=nom,sg},
+{и=CONJ=} {рыдание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {отзвучать=V,pf,intr=praet,pl,indic}.

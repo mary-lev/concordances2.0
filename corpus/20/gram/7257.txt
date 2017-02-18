@@ -1,130 +1,24 @@
-я=SPRO,sg,1p=nom
-_
-горестно=ADV=
-_
-измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n
-я=SPRO,sg,1p=nom
-_
-слабый=A=sg,brev,m
-_
-и=CONJ=
-_
-безответный=A=sg,brev,m
-.\n
-о=PR=
-,_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-разнозвучный?=A=sg,brev,m
-!\n
-так=ADVPRO=
-_
-грубо=ADV=
-_
-разносветный?=A=sg,brev,m
-!\n\n
-на=PR=
-_
-спрашивать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-тайно=ADV=
-_\u2014\n
-обидный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ответ=S,m,inan=(acc,pl|nom,pl)
-...\n
-все=SPRO,pl=(acc|nom)
-_
-смешать=V,pf,tran=praet,sg,partcp,brev,n,pass
-_\u2014_
-случайно=ADV,parenth=
-,\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-света=S,persn,f,anim=(gen,sg|nom,pl)
-.\n\n
-лампада=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-понятный=A=sg,brev,f
-,\n
-зеленый=A=nom,sg,plen,f
-_
-лампада=S,f,inan=nom,sg
-.\n
-но=CONJ=
-_
-лампа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-желтый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-луч=S,m,inan=dat,pl
-_\u2014_
-преграда=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-,_
-голубеть=V,ipf,intr=inpraes,ger
-,_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-в=PR=
-_
-рассветный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-застыть=V,pf,intr=praet,pl,indic
-..._\n
-сплетаться=V,intr=praet,pl,indic,pf
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_\u2014_
-в=PR=
-_
-волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-неясно=ADV=
--
-бурый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-человек=S,m,anim=nom,pl
-,_
-зло=ADV=
-_
-и=CONJ=
-_
-разный=A=sg,brev,n
-,\n
-сливаться=V,intr=inpraes,pl,indic,3p,ipf
-,_
-как=CONJ=
-_
-пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:_\n
-безумно=ADV=
--
-безобразно=ADV=
-_\n
-и=CONJ=
-_
-грубо=ADV=
--
-непонятно=ADV,praed=
-.\n
+{я=SPRO,sg,1p=nom} {горестно=ADV=} {измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+{я=SPRO,sg,1p=nom} {слабый=A=sg,brev,m} {и=CONJ=} {безответный=A=sg,brev,m}.
+{о=PR=}, {мир=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {разнозвучный?=A=sg,brev,m}!
+{так=ADVPRO=} {грубо=ADV=} {разносветный?=A=sg,brev,m}!
+
+{на=PR=} {спрашивать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {тайно=ADV=} —
+{обидный=A=(acc,pl,plen,inan|nom,pl,plen)} {ответ=S,m,inan=(acc,pl|nom,pl)}...
+{все=SPRO,pl=(acc|nom)} {смешать=V,pf,tran=praet,sg,partcp,brev,n,pass} — {случайно=ADV,parenth=},
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {света=S,persn,f,anim=(gen,sg|nom,pl)}.
+
+{лампада=S,f,inan=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {понятный=A=sg,brev,f},
+{зеленый=A=nom,sg,plen,f} {лампада=S,f,inan=nom,sg}.
+{но=CONJ=} {лампа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {желтый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {луч=S,m,inan=dat,pl} — {преграда=S,f,inan=nom,sg}.
+
+{и=CONJ=}, {голубеть=V,ipf,intr=inpraes,ger}, {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{в=PR=} {рассветный=A=(abl,sg,plen,m|abl,sg,plen,n)} {лед=S,m,inan=(dat,sg|part,sg|loc,sg)} {застыть=V,pf,intr=praet,pl,indic}... 
+{сплетаться=V,intr=praet,pl,indic,pf} {луч=S,m,inan=(acc,pl|nom,pl)} — {в=PR=} {волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{неясно=ADV=}-{бурый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{и=CONJ=} {человек=S,m,anim=nom,pl}, {зло=ADV=} {и=CONJ=} {разный=A=sg,brev,n},
+{сливаться=V,intr=inpraes,pl,indic,3p,ipf}, {как=CONJ=} {пятно=S,n,inan=(acc,pl|gen,sg|nom,pl)}: 
+{безумно=ADV=}-{безобразно=ADV=} 
+{и=CONJ=} {грубо=ADV=}-{непонятно=ADV,praed=}.

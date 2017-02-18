@@ -1,158 +1,31 @@
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-вокруг=ADV=
-,\n
-купол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-вокруг=ADV=
-,\n
-надо=ADV,praed=
-_
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-москва=S,geo,f,inan=ins,sg
-\n
-сколько=ADV=
-_
-хватить=V,pf,tran=inpraes,sg,indic,3p
-_
-рука=S,f,inan=gen,pl
-!_\u2014_\n
-возносить=V=inpraes,sg,indic,1p,ipf,tran
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-бремя=S,n,inan=(acc,sg|nom,sg)
-_
-хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)
-,\n
-деревцо=S,n,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-\n
-невесомый=A=(acc,sg,plen,n|nom,sg,plen,n)
-!\n\n
-в=PR=
-_
-дивный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-град=S,m,inan=abl,sg
-_
-сие=SPRO,sg,n=abl
-,\n
-в=PR=
-_
-мирный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-град=S,m,inan=abl,sg
-_
-сие=SPRO,sg,n=abl
-,\n
-где=ADVPRO=
-_
-и=CONJ=
-_
-мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-я=SPRO,sg,1p=(abl|dat)
-\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-радостно=ADV=
-,_\u2014_\n
-царевать?=V,intr=inf,ipf
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-горевать=V,ipf,intr=inf
-_
-ты=SPRO,sg,2p=(abl|dat)
-,\n
-принимать=V=inf,ipf,tran
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-,\n
-о=PR=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-первенец=S,m,anim=nom,sg
-!\n\n
-ты=SPRO,sg,2p=nom
-_
-пост=S,m,inan=ins,sg
-_
-говеть=V,ipf,intr=sg,imper,2p
-,\n
-не=PART=
-_
-сурьмить=V,ipf,tran=sg,imper,2p
-_
-бровь=S,f,inan=gen,pl
-\n
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-сорок=NUM=(acc|nom)
-_\u2014_
-чтить=V,ipf=sg,imper,2p,tran
-_\u2014_\n
-сорок?=S,m,anim=(acc,pl|gen,pl)
-_
-церковь=S,f,inan=gen,pl
-.\n
-исходить=V=sg,imper,2p,ipf
-_
-пешком=ADV=
-_\u2014_
-молодой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-шажок=S,m,inan=ins,sg
-!_\u2014_\n
-все=SPRO,pl=(acc|nom)
-_
-привольный=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-семихолмие?=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-черед=S,m,inan=(acc,sg|nom,sg)
-:\n
-тоже=PART=
-_\u2014_
-дочь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-\n
-передавать=V,tran=inpraes,sg,indic,2p,pf
-_
-москва=S,geo,f,inan=acc,sg
-\n
-с=PR=
-_
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-горечь=S,f,inan=ins,sg
-.\n
-я=SPRO,sg,1p=(abl|dat)
-_
-же=PART=
-_
-вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,_
-колокольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-,\n
-заря=S,f,inan=(acc,pl|nom,pl)
-_
-ранний=A=(acc,pl,plen,inan|nom,pl,plen)
-_\u2014_\n
-на=PR=
-_
-ваганьков?=S,famn,m,anim=abl,sg
-.\n
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {вокруг=ADV=},
+{купол=S,m,inan=(acc,pl|gen,sg|nom,pl)} — {вокруг=ADV=},
+{надо=ADV,praed=} {весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {москва=S,geo,f,inan=ins,sg}
+{сколько=ADV=} {хватить=V,pf,tran=inpraes,sg,indic,3p} {рука=S,f,inan=gen,pl}! — 
+{возносить=V=inpraes,sg,indic,1p,ipf,tran} {ты=SPRO,sg,2p=(acc|gen)}, {бремя=S,n,inan=(acc,sg|nom,sg)} {хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)},
+{деревцо=S,n,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)}
+{невесомый=A=(acc,sg,plen,n|nom,sg,plen,n)}!
+
+{в=PR=} {дивный=A=(abl,sg,plen,m|abl,sg,plen,n)} {град=S,m,inan=abl,sg} {сие=SPRO,sg,n=abl},
+{в=PR=} {мирный=A=(abl,sg,plen,m|abl,sg,plen,n)} {град=S,m,inan=abl,sg} {сие=SPRO,sg,n=abl},
+{где=ADVPRO=} {и=CONJ=} {мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {я=SPRO,sg,1p=(abl|dat)}
+{быть=V,intr=inpraes,sg,indic,3p} {радостно=ADV=}, — 
+{царевать?=V,intr=inf,ipf} {ты=SPRO,sg,2p=(abl|dat)}, {горевать=V,ipf,intr=inf} {ты=SPRO,sg,2p=(abl|dat)},
+{принимать=V=inf,ipf,tran} {венец=S,m,inan=(acc,sg|nom,sg)},
+{о=PR=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {первенец=S,m,anim=nom,sg}!
+
+{ты=SPRO,sg,2p=nom} {пост=S,m,inan=ins,sg} {говеть=V,ipf,intr=sg,imper,2p},
+{не=PART=} {сурьмить=V,ipf,tran=sg,imper,2p} {бровь=S,f,inan=gen,pl}
+{и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {сорок=NUM=(acc|nom)} — {чтить=V,ipf=sg,imper,2p,tran} — 
+{сорок?=S,m,anim=(acc,pl|gen,pl)} {церковь=S,f,inan=gen,pl}.
+{исходить=V=sg,imper,2p,ipf} {пешком=ADV=} — {молодой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {шажок=S,m,inan=ins,sg}! — 
+{все=SPRO,pl=(acc|nom)} {привольный=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{семихолмие?=S,n,inan=(acc,sg|nom,sg)}.
+
+{быть=V,intr=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {черед=S,m,inan=(acc,sg|nom,sg)}:
+{тоже=PART=} — {дочь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)}
+{передавать=V,tran=inpraes,sg,indic,2p,pf} {москва=S,geo,f,inan=acc,sg}
+{с=PR=} {нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {горечь=S,f,inan=ins,sg}.
+{я=SPRO,sg,1p=(abl|dat)} {же=PART=} {вольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}, {колокольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)},
+{заря=S,f,inan=(acc,pl|nom,pl)} {ранний=A=(acc,pl,plen,inan|nom,pl,plen)} — 
+{на=PR=} {ваганьков?=S,famn,m,anim=abl,sg}.

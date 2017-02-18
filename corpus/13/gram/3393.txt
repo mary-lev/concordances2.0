@@ -1,142 +1,16 @@
-вы=SPRO,pl,2p=nom
-_
-мыслить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-разъединять=V,tran=inf,pf
-_\n
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-что=CONJ=
-_
-судьба=S,f,inan=ins,sg
-_
-навеки=ADV=
-_
-сливать=V=praet,pl,partcp,brev,pf,pass
-,\n
-и=CONJ=
-_
-нежный=A=acc,sg,plen,f
-_
-расторгать=V,tran=inf,pf
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-,_\n
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-свита=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-но=CONJ=
-_
-что=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-знать=V,ipf,tran=inpraes,pl,indic,2p
-_
-о=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-:\n
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-смиренный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-сокровенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-невидный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-в=PR=
-_
-торжество=S,n,inan=abl,sg
-_
-огонь=S,m,inan=gen,pl
-,\n
-но=CONJ=
-_
-яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-в=PR=
-_
-темнота=S,sg,f,inan=(abl|dat)
-_
-священный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-?_\n
-чуждый=A=sg,brev,f
-_
-томительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-оковы=S,pl,inan=gen
-,\n
-она=SPRO,sg,3p,f=nom
-_
-давать=V,tran=inpraes,sg,indic,3p,ipf
-_
-и=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-воля=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-око=S,n,inan=gen,pl
-,_
-и=CONJ=
-_
-стройность=S,f,inan=(acc,sg|nom,sg)
-_
-строфа=S,f,inan=gen,pl
-,_\n
-и=CONJ=
-_
-зелень=S,f,inan=(acc,sg|nom,sg)
-_
-радостный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-поле=S,n,inan=dat,sg
-.\u2003\n
-глухой=A=sg,brev,f
-_
-к=PR=
-_
-бессильный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-клевета=S,f,inan=(abl,sg|dat,sg)
-,_\n
-она=SPRO,sg,3p,f=nom
-_
-хранить=V,ipf,tran=inpraes,sg,indic,3p
-_
-один=APRO=acc,sg,f
-_
-награда=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,pl,indic
-,_
-тот=APRO=(nom,pl|acc,pl,inan)
-_\n
-не=PART=
-_
-переступать=V=inpraes,pl,indic,3p,pf,intr
-_
-чрез=PR=
-_
-ограда=S,f,inan=acc,sg
-.\n
+{вы=SPRO,pl,2p=nom} {мыслить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {разъединять=V,tran=inf,pf} 
+{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {что=CONJ=} {судьба=S,f,inan=ins,sg} {навеки=ADV=} {сливать=V=praet,pl,partcp,brev,pf,pass},
+{и=CONJ=} {нежный=A=acc,sg,plen,f} {расторгать=V,tran=inf,pf} {нить=S,f,inan=(acc,sg|nom,sg)}, 
+{который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)} {свита=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+{но=CONJ=} {что=CONJ=} {вы=SPRO,pl,2p=nom} {знать=V,ipf,tran=inpraes,pl,indic,2p} {о=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}:
+{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {смиренный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {сокровенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{невидный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {в=PR=} {торжество=S,n,inan=abl,sg} {огонь=S,m,inan=gen,pl},
+{но=CONJ=} {яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {в=PR=} {темнота=S,sg,f,inan=(abl|dat)} {священный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}? 
+{чуждый=A=sg,brev,f} {томительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {оковы=S,pl,inan=gen},
+{она=SPRO,sg,3p,f=nom} {давать=V,tran=inpraes,sg,indic,3p,ipf} {и=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {воля=S,f,inan=acc,sg},
+{и=CONJ=} {блеск=S,m,inan=(acc,sg|nom,sg)} {око=S,n,inan=gen,pl}, {и=CONJ=} {стройность=S,f,inan=(acc,sg|nom,sg)} {строфа=S,f,inan=gen,pl}, 
+{и=CONJ=} {зелень=S,f,inan=(acc,sg|nom,sg)} {радостный=A=(dat,sg,plen,m|dat,sg,plen,n)} {поле=S,n,inan=dat,sg}. 
+{глухой=A=sg,brev,f} {к=PR=} {бессильный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {клевета=S,f,inan=(abl,sg|dat,sg)}, 
+{она=SPRO,sg,3p,f=nom} {хранить=V,ipf,tran=inpraes,sg,indic,3p} {один=APRO=acc,sg,f} {награда=S,f,inan=acc,sg},
+{и=CONJ=} {кто=SPRO,sg,m,anim=nom} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {знать=V,ipf,tran=praet,pl,indic}, {тот=APRO=(nom,pl|acc,pl,inan)} 
+{не=PART=} {переступать=V=inpraes,pl,indic,3p,pf,intr} {чрез=PR=} {ограда=S,f,inan=acc,sg}.

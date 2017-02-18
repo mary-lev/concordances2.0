@@ -1,86 +1,14 @@
-мертвый=S,m,anim=nom,sg
-_
-просыпаться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-могила=S,f,inan=(abl,sg|dat,sg)
-,_\n
-черный=A=nom,sg,plen,f
-_
-давить=V,ipf,tran=inpraes,sg,indic,3p
-_
-доска=S,f,inan=nom,sg
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-?_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-?_\u2014_
-или=CONJ=
-_\n
-и=CONJ=
-_
-воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-тоска=S,f,inan=nom,sg
-?\n\n
-и=CONJ=
-_
-воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-уныние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-?_\n
-скучный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-домой=ADV=
-._\n...
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-волынь=S,geo,f,inan=ins,sg
-,_
-полынь=S,f,inan=ins,sg
-,_\n
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-сума=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-тюрьма=S,f,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-над=PR=
-_
-солома=S,f,inan=ins,sg
-_
-избенка=S,f,inan=gen,pl
-,_\n
-сквозь=PR=
-_
-косогор=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-,_\n
-жалобно=ADV=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ребенок=S,m,anim=nom,sg
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-что=CONJ=
-_
-сегодня=ADV=
-_
-воскресать=V,intr=praet,sg,indic,m,pf
-.\n
+{мертвый=S,m,anim=nom,sg} {просыпаться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {могила=S,f,inan=(abl,sg|dat,sg)}, 
+{черный=A=nom,sg,plen,f} {давить=V,ipf,tran=inpraes,sg,indic,3p} {доска=S,f,inan=nom,sg}.
+{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)}? {что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)}? — {или=CONJ=} 
+{и=CONJ=} {воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {тоска=S,f,inan=nom,sg}?
+
+{и=CONJ=} {воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {уныние=S,n,inan=(abl,sg|acc,sg|nom,sg)}? 
+{скучный=A=(acc,sg,plen,n|nom,sg,plen,n)} {дело=S,n,inan=(acc,sg|nom,sg)} — {домой=ADV=}. 
+...{тянуть=V,ipf,tran=inpraes,sg,indic,3p} {волынь=S,geo,f,inan=ins,sg}, {полынь=S,f,inan=ins,sg}, 
+{тянуть=V,ipf,tran=inpraes,sg,indic,3p} {сума=S,f,inan=ins,sg} {и=CONJ=} {тюрьма=S,f,inan=ins,sg}.
+
+{и=CONJ=} {над=PR=} {солома=S,f,inan=ins,sg} {избенка=S,f,inan=gen,pl}, 
+{сквозь=PR=} {косогор=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {лес=S,m,inan=(acc,sg|nom,sg)}, 
+{жалобно=ADV=} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {ребенок=S,m,anim=nom,sg},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {что=CONJ=} {сегодня=ADV=} {воскресать=V,intr=praet,sg,indic,m,pf}.

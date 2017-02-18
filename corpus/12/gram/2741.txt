@@ -1,54 +1,7 @@
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-по=PR=
-_
-луговина=S,f,inan=dat,pl
-_
-лития=S,f,inan=nom,sg
-.\n
-таинственный=A=nom,sg,plen,f
-_
-книга=S,f,inan=nom,sg
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-российский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\u2014_
-где=ADVPRO=
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мир=S,m,inan=gen,sg
-_
-скрывать=V=praet,pl,partcp,brev,pf,pass
-_\u2014_\n
-дочитывать=V=praet,sg,partcp,brev,f,pf,pass
-_
-и=CONJ=
-_
-наглухо=ADV=
-_
-закрывать=V=praet,sg,partcp,brev,f,pf,pass
-.\n\n
-и=CONJ=
-_
-рыскать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-рыскать=V,ipf,intr=inpraes,sg,indic,3p
-_
-по=PR=
-_
-степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-:\n_\u2014_
-россия=S,geo,f,inan=nom,sg
-!_\u2014_
-мученица=S,f,anim=nom,sg
-!_\u2014_
-с=PR=
-_
-мир=S,m,inan=ins,sg
-_\u2014_
-спать=V,ipf,intr=sg,imper,2p
-!\n
+{идти=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {луговина=S,f,inan=dat,pl} {лития=S,f,inan=nom,sg}.
+{таинственный=A=nom,sg,plen,f} {книга=S,f,inan=nom,sg} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{российский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} — {где=ADVPRO=} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мир=S,m,inan=gen,sg} {скрывать=V=praet,pl,partcp,brev,pf,pass} — 
+{дочитывать=V=praet,sg,partcp,brev,f,pf,pass} {и=CONJ=} {наглухо=ADV=} {закрывать=V=praet,sg,partcp,brev,f,pf,pass}.
+
+{и=CONJ=} {рыскать=V,ipf,intr=inpraes,sg,indic,3p} {ветер=S,m,inan=(acc,sg|nom,sg)}, {рыскать=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}:
+ — {россия=S,geo,f,inan=nom,sg}! — {мученица=S,f,anim=nom,sg}! — {с=PR=} {мир=S,m,inan=ins,sg} — {спать=V,ipf,intr=sg,imper,2p}!

@@ -1,154 +1,20 @@
-у=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-один=APRO=(nom,pl|acc,pl,inan)
-_
-и=CONJ=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-\n
-и=CONJ=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-один=APRO=nom,sg,f
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-_
-неживший?=A=sg,brev,n
--
-свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-другой=APRO=nom,sg,f
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-блистать=V,ipf,intr=inpraes,sg,indic,3p
-_
-редко=ADV=comp
-,\n
-в=PR=
-_
-глаз=S,m,inan=abl,pl
-_
-у=PR=
-_
-третий=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\u2014_
-небо=S,n,inan=(acc,sg|nom,sg)
-._
-где=ADVPRO=
-_
-же=PART=
-\n
-такой=APRO=(nom,pl|acc,pl,inan)
-_
-встречать=V,tran=inpraes,sg,indic,2p,pf
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-?\n\n
-они=SPRO,pl=dat
-_
-отдавать=V,tran=praet,sg,indic,f,pf
-_
-при=PR=
-_
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-встреча=S,f,inan=(abl,sg|dat,sg)
-\n\u2028
-я=SPRO,sg,1p=nom
-_
-чаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-.\n
-один=APRO=nom,sg,f
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-таять=V,ipf,intr=inpraes,pl,indic,3p
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\u2028\n
-другой=APRO=nom,sg,f
-_
-весь=APRO=nom,sg,f
-_
-в=PR=
-_
-капризный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\u2028\n
-а=CONJ=
-_
-третий=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-так=ADVPRO=
-_
-поникать=V,intr=praet,pl,indic,pf
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-,\u2028\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-плакать=V,ipf,intr=inpraes,sg,indic,2p
-_
-за=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-.\n\n
-один=APRO=nom,sg,f
-,_
-безмолвие=S,n,inan=ins,sg
-_
-пугать=V,ipf,tran=inpraes,ger
-,\u2028\n
-под=PR=
-_
-иго=S,n,inan=ins,sg
-_
-тишина=S,sg,f,inan=gen
-;\n
-еще=ADV=
-_
-изменчивый=A=sg,brev,f
-_
-другой=APRO=nom,sg,f
-,\u2028\n
-а=CONJ=
-_
-третий=ANUM=nom,sg,f
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-изнемогать=V,intr=inpraes,ger,ipf
-...\u2028\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-,_
-от=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-убегать=V,intr=inpraes,ger,ipf
-,\u2028\n
-уже=ADV=
-_
-осуждать=V=praet,pl,partcp,brev,pf,pass,tran
-.\n
+{у=PR=} {они=SPRO,pl=(abl|acc|gen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {один=APRO=(nom,pl|acc,pl,inan)} {и=CONJ=} {тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=}
+{и=CONJ=} {тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{один=APRO=nom,sg,f} {цветок=S,m,inan=(acc,sg|nom,sg)} {неживший?=A=sg,brev,n}-{свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{другой=APRO=nom,sg,f} {луч=S,m,inan=(acc,sg|nom,sg)}, {что=CONJ=} {блистать=V,ipf,intr=inpraes,sg,indic,3p} {редко=ADV=comp},
+{в=PR=} {глаз=S,m,inan=abl,pl} {у=PR=} {третий=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} — {небо=S,n,inan=(acc,sg|nom,sg)}. {где=ADVPRO=} {же=PART=}
+{такой=APRO=(nom,pl|acc,pl,inan)} {встречать=V,tran=inpraes,sg,indic,2p,pf} {небо=S,n,inan=(acc,pl|nom,pl)}?
+
+{они=SPRO,pl=dat} {отдавать=V,tran=praet,sg,indic,f,pf} {при=PR=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(abl,sg|dat,sg)}
+ {я=SPRO,sg,1p=nom} {чаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {свой=APRO=(acc,sg,n|nom,sg,n)}.
+{один=APRO=nom,sg,f} {глядеть=V,ipf,tran=inpraes,sg,indic,3p}, {как=CONJ=} {таять=V,ipf,intr=inpraes,pl,indic,3p} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{другой=APRO=nom,sg,f} {весь=APRO=nom,sg,f} {в=PR=} {капризный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{а=CONJ=} {третий=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {так=ADVPRO=} {поникать=V,intr=praet,pl,indic,pf} {плечо=S,n,inan=(acc,pl|nom,pl)}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {плакать=V,ipf,intr=inpraes,sg,indic,2p} {за=PR=} {она=SPRO,sg,3p,f=(acc|gen)}.
+
+{один=APRO=nom,sg,f}, {безмолвие=S,n,inan=ins,sg} {пугать=V,ipf,tran=inpraes,ger}, 
+{под=PR=} {иго=S,n,inan=ins,sg} {тишина=S,sg,f,inan=gen};
+{еще=ADV=} {изменчивый=A=sg,brev,f} {другой=APRO=nom,sg,f}, 
+{а=CONJ=} {третий=ANUM=nom,sg,f} {ждать=V,ipf,tran=inpraes,sg,indic,3p}, {изнемогать=V,intr=inpraes,ger,ipf}... 
+{и=CONJ=} {все=SPRO,pl=(acc|nom)}, {от=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {убегать=V,intr=inpraes,ger,ipf}, 
+{уже=ADV=} {осуждать=V=praet,pl,partcp,brev,pf,pass,tran}.

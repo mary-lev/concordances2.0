@@ -1,108 +1,19 @@
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-повсюду=ADV=
-...\n
-я=SPRO,sg,1p=(abl|dat)
-_
-надоедать=V,intr=praet,pl,indic,pf
-_
-жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-;\n
-стих=S,m,inan=gen,pl
-_
-слагать=V,tran=inf,ipf
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,1p
-...\n
-о=PR=
-,_
-я=SPRO,sg,1p=(abl|dat)
-_
-иной=APRO=(acc,sg,n|nom,sg,n)
-_
-жало=S,n,inan=(acc,sg|nom,sg)
-_
-бы=PART=
-!\n\n
-пчелиный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-больно=ADV=comp
-,\n
-змеиный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-колючий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-...\n
-чтоб=CONJ=
-_
-ранить=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)
-_
-вернее=ADV,parenth=
-_\u2014\n
-и=CONJ=
-_
-холодить=V,ipf,tran=praet,sg,indic,n
-,_
-жгучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-.\n\n
-не=PART=
-_
-яд=S,m,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-немой=A=sg,brev,m
-_
-быть=V,intr=inpraes,sg,indic,3p
-;_\n
-но=CONJ=
-,_
-с=PR=
-_
-ласка=S,f,inan=ins,sg
-_
-утаивать=V,tran=praet,ins,sg,partcp,plen,f,pf,pass
-,\n
-оно=SPRO,sg,3p,n=nom
-,_
-впиваться=V,intr=inpraes,ger,ipf
-,_\u2014_
-будить=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-лишь=PART=
-_
-будить=V,ipf,tran=inpraes,sg,indic,3p
-_
-душа=S,f,inan=acc,sg
-_
-сонный=A=acc,sg,plen,f
-.\n\n
-чтобы=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-дрожать=V,ipf,intr=praet,sg,indic,f
-_\n
-от=PR=
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-бессловный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)|бессловный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-...\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-жать=V,ipf,tran=praet,sg,indic,f
-,_\n
-божественно=ADV=
--
-любовный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-.\n
+{печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {повсюду=ADV=}...
+{я=SPRO,sg,1p=(abl|dat)} {надоедать=V,intr=praet,pl,indic,pf} {жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+{стих=S,m,inan=gen,pl} {слагать=V,tran=inf,ipf} {не=PART=} {быть=V,intr=inpraes,sg,indic,1p}...
+{о=PR=}, {я=SPRO,sg,1p=(abl|dat)} {иной=APRO=(acc,sg,n|nom,sg,n)} {жало=S,n,inan=(acc,sg|nom,sg)} {бы=PART=}!
+
+{пчелиный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {больно=ADV=comp},
+{змеиный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {колючий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}...
+{чтоб=CONJ=} {ранить=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)} {вернее=ADV,parenth=} —
+{и=CONJ=} {холодить=V,ipf,tran=praet,sg,indic,n}, {жгучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}.
+
+{не=PART=} {яд=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {смерть=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {немой=A=sg,brev,m} {быть=V,intr=inpraes,sg,indic,3p}; 
+{но=CONJ=}, {с=PR=} {ласка=S,f,inan=ins,sg} {утаивать=V,tran=praet,ins,sg,partcp,plen,f,pf,pass},
+{оно=SPRO,sg,3p,n=nom}, {впиваться=V,intr=inpraes,ger,ipf}, — {будить=V,ipf,tran=inpraes,sg,indic,3p},
+{лишь=PART=} {будить=V,ipf,tran=inpraes,sg,indic,3p} {душа=S,f,inan=acc,sg} {сонный=A=acc,sg,plen,f}.
+
+{чтобы=CONJ=} {душа=S,f,inan=nom,sg} {дрожать=V,ipf,intr=praet,sg,indic,f} 
+{от=PR=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {бессловный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)|бессловный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}...
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p} — {святой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {жать=V,ipf,tran=praet,sg,indic,f}, 
+{божественно=ADV=}-{любовный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}.

@@ -1,56 +1,9 @@
-эмалевый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крестик=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-петлица=S,f,inan=(abl,sg|dat,sg)
-_\n
-и=CONJ=
-_
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тужурка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сукно=S,n,inan=(acc,sg|nom,sg)
-..._\n
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-печальный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-давно=ADV=
-.\n\n
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-безнадежно=ADV=
-_
-бледный=A=pl,brev
-_\u2014_\n
-наследник=S,m,anim=nom,sg
-,_
-императрица=S,f,anim=nom,sg
-,_\n
-четыре=NUM=(nom|acc,inan)
-_
-великий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-княжна=S,f,anim=(gen,sg|nom,pl)
-...\n
+{эмалевый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крестик=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {петлица=S,f,inan=(abl,sg|dat,sg)} 
+{и=CONJ=} {серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тужурка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сукно=S,n,inan=(acc,sg|nom,sg)}... 
+{какой=APRO=(nom,pl|acc,pl,inan)} {печальный=A=(acc,pl,plen,inan|nom,pl,plen)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {как=ADVPRO=} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {давно=ADV=}.
+
+{какой=APRO=(nom,pl|acc,pl,inan)} {прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {как=ADVPRO=} {безнадежно=ADV=} {бледный=A=pl,brev} — 
+{наследник=S,m,anim=nom,sg}, {императрица=S,f,anim=nom,sg}, 
+{четыре=NUM=(nom|acc,inan)} {великий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {княжна=S,f,anim=(gen,sg|nom,pl)}...

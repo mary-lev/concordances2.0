@@ -1,122 +1,14 @@
-светлый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-на=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-подкладка=S,f,inan=(abl,sg|dat,sg)
-\n\t
-быть=V,intr=praet,sg,indic,n,ipf
-_
-надевать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_
-на=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-.\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-играть=V,ipf,tran=inf
-_
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-в=PR=
-_
-загадка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-в=PR=
-_
-прятки=S,pl,inan=(acc|nom)
-,\n\t
-между=PR=
-_
-расцвет=S,m,inan=ins,pl
-_
-день=S,m,inan=gen,pl
-.\n\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-играть=V,ipf,tran=inf
-_
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-под=PR=
-_
-купол=S,m,inan=ins,sg
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,\n\t
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-слагаться=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n
-бездна=S,f,inan=nom,sg
-_
-возникать=V,intr=praet,sg,indic,f,pf
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-средоточие=S,n,inan=gen,pl
-,\n\t
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-среди=PR=
-_
-чернота=S,sg,f,inan=gen
-.\n\n
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-слагаться=V,ipf,intr=praet,pl,indic
-,_
-и=CONJ=
-_
-страшный=A=pl,brev
-,_
-и=CONJ=
-_
-сладкий=A=pl,brev
-,\n\t
-с=PR=
-_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-минута=S,f,inan=ins,sg
-_
-страшно=ADV=comp
-.\n
-белый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-на=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-подкладка=S,f,inan=(abl,sg|dat,sg)
-\n\t
-быть=V,intr=praet,sg,indic,n,ipf
-_
-так=ADVPRO=
-_
-тесно=ADV=
-_
-на=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-.\n
+{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {на=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {подкладка=S,f,inan=(abl,sg|dat,sg)}
+	{быть=V,intr=praet,sg,indic,n,ipf} {надевать=V,tran=praet,sg,partcp,brev,n,pf,pass} {на=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}.
+{становиться=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {играть=V,ipf,tran=inf} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {в=PR=} {загадка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {в=PR=} {прятки=S,pl,inan=(acc|nom)},
+	{между=PR=} {расцвет=S,m,inan=ins,pl} {день=S,m,inan=gen,pl}.
+
+{становиться=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {играть=V,ipf,tran=inf} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {под=PR=} {купол=S,m,inan=ins,sg} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+	{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {слагаться=V,ipf,intr=praet,pl,indic} {в=PR=} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+{бездна=S,f,inan=nom,sg} {возникать=V,intr=praet,sg,indic,f,pf} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {средоточие=S,n,inan=gen,pl},
+	{яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {среди=PR=} {чернота=S,sg,f,inan=gen}.
+
+{сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {слагаться=V,ipf,intr=praet,pl,indic}, {и=CONJ=} {страшный=A=pl,brev}, {и=CONJ=} {сладкий=A=pl,brev},
+	{с=PR=} {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {минута=S,f,inan=ins,sg} {страшно=ADV=comp}.
+{белый=A=(acc,sg,plen,n|nom,sg,plen,n)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {на=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {подкладка=S,f,inan=(abl,sg|dat,sg)}
+	{быть=V,intr=praet,sg,indic,n,ipf} {так=ADVPRO=} {тесно=ADV=} {на=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}.

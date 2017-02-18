@@ -1,96 +1,12 @@
-пусть=PART=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-корабль=S,m,inan=(acc,sg|nom,sg)
-_
-пойти=V,pf,intr=praet,sg,indic,m
-_
-на=PR=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-,\n
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-превращаться=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-...\n
-читать=V,ipf,tran=pl,imper,2p
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-я=SPRO,sg,1p=(abl|dat)
-_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-,\n
-я=SPRO,sg,1p=nom
-_
-говорить=V,ipf,tran=inpraes,sg,indic,1p
-_
-с=PR=
-_
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-,\n\n
-кто=SPRO,sg,m,anim=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-ни=PART=
-_
-в=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-не=PART=
-_
-виноватый=A=sg,brev,m
-,\n
-а=CONJ=
-_
-впрочем=CONJ,parenth=
-,_
-я=SPRO,sg,1p=(abl|dat)
-_
-ни=PART=
-_
-сват=S,m,anim=nom,sg
-,_
-ни=PART=
-_
-брат=S,m,anim=nom,sg
-.\n\n
-как=CONJ=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-быть=V,intr=inf,ipf
-_
-укалывать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-\n
-и=CONJ=
-_
-слышать=V,ipf,tran=inf
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-:_
-умирать=V,intr=sg,imper,2p,pf
-!\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-по=PR=
-_
-фонтанка=S,geo,sg,f,inan=(abl|dat)
-_
-золото=S,sg,n,inan=ins
-\n
-писать=V,ipf,tran=praet,pl,indic
-_
-фонарь=S,m,inan=(acc,pl|nom,pl)
-?\n
+{пусть=PART=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {корабль=S,m,inan=(acc,sg|nom,sg)} {пойти=V,pf,intr=praet,sg,indic,m} {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)},
+{дом=S,m,inan=(acc,sg|nom,sg)} {превращаться=V,intr=praet,sg,indic,m,pf} {в=PR=} {дым=S,m,inan=(acc,sg|nom,sg)}...
+{читать=V,ipf,tran=pl,imper,2p} {все=SPRO,pl=(acc|nom)} — {я=SPRO,sg,1p=(abl|dat)} {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n},
+{я=SPRO,sg,1p=nom} {говорить=V,ipf,tran=inpraes,sg,indic,1p} {с=PR=} {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)},
+
+{кто=SPRO,sg,m,anim=nom} {быть=V,intr=praet,sg,indic,m,ipf} {ни=PART=} {в=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {не=PART=} {виноватый=A=sg,brev,m},
+{а=CONJ=} {впрочем=CONJ,parenth=}, {я=SPRO,sg,1p=(abl|dat)} {ни=PART=} {сват=S,m,anim=nom,sg}, {ни=PART=} {брат=S,m,anim=nom,sg}.
+
+{как=CONJ=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {быть=V,intr=inf,ipf} {укалывать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}
+{и=CONJ=} {слышать=V,ipf,tran=inf} {крик=S,m,inan=(acc,sg|nom,sg)}: {умирать=V,intr=sg,imper,2p,pf}!
+{что=SPRO,sg,n,inan=(acc|nom)} {по=PR=} {фонтанка=S,geo,sg,f,inan=(abl|dat)} {золото=S,sg,n,inan=ins}
+{писать=V,ipf,tran=praet,pl,indic} {фонарь=S,m,inan=(acc,pl|nom,pl)}?

@@ -1,92 +1,14 @@
-как=ADVPRO=
-_
-пленительный=A=sg,brev,f
-_
-весна=S,f,inan=nom,sg
-\n
-там=ADVPRO=
-_
-где=ADVPRO=
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-сновидение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-полгода=S,m,inan=(acc,pl|nom,pl)
-_\u2014_
-тишина=S,sg,f,inan=nom
-,\n
-перед=PR=
-_
-счастие=S,n,inan=ins,sg
-_
-возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-там=ADVPRO=
-_
-душа=S,f,inan=nom,sg
-,_
-волноваться=V,ipf,intr=inpraes,ger
-,_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-:\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-,_
-сегодня=ADV=
-_
-торжествовать=V,ipf,intr=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-,_
-река=S,f,inan=nom,sg
-_
-разрушать=V,tran=inpraes,sg,indic,3p,pf
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-\n
-бурный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-поцелуй=S,m,inan=ins,sg
-?\n\n
-там=ADVPRO=
-_
-весна=S,f,inan=nom,sg
-_\u2014_
-как=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-враг=S,m,anim=(acc,sg|gen,sg)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-вдвойне=ADV=
-_
-от=PR=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пьяный=A=pl,brev
-.\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-приветствовать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-,_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-,_
-бессмертный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-туман=S,m,inan=(acc,pl|nom,pl)
-!\n
+{как=ADVPRO=} {пленительный=A=sg,brev,f} {весна=S,f,inan=nom,sg}
+{там=ADVPRO=} {где=ADVPRO=} {снег=S,m,inan=(acc,sg|nom,sg)} — {не=PART=} {сновидение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{где=ADVPRO=} {полгода=S,m,inan=(acc,pl|nom,pl)} — {тишина=S,sg,f,inan=nom},
+{перед=PR=} {счастие=S,n,inan=ins,sg} {возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{там=ADVPRO=} {душа=S,f,inan=nom,sg}, {волноваться=V,ipf,intr=inpraes,ger}, {ждать=V,ipf,tran=inpraes,sg,indic,3p}:
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}, {сегодня=ADV=} {торжествовать=V,ipf,intr=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}?
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}, {река=S,f,inan=nom,sg} {разрушать=V,tran=inpraes,sg,indic,3p,pf} {лед=S,m,inan=(acc,sg|nom,sg)}
+{бурный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {поцелуй=S,m,inan=ins,sg}?
+
+{там=ADVPRO=} {весна=S,f,inan=nom,sg} — {как=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {враг=S,m,anim=(acc,sg|gen,sg)},
+{все=SPRO,pl=(acc|nom)} {вдвойне=ADV=} {от=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пьяный=A=pl,brev}.
+{вы=SPRO,pl,2p=(abl|acc|gen)} {приветствовать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}, {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{вы=SPRO,pl,2p=(abl|acc|gen)}, {бессмертный=A=(acc,pl,plen,inan|nom,pl,plen)} {туман=S,m,inan=(acc,pl|nom,pl)}!

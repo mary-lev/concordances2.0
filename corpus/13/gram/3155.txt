@@ -1,126 +1,16 @@
-ах=INTJ=
-,_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-,_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-виноградник=S,m,inan=(acc,sg|nom,sg)
-_\n
-надо=ADV,praed=
-_
-часто=ADV=comp
-_
-поливать=V,tran=inf,ipf
-_\n
-и=CONJ=
-_
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-яблоня=S,f,inan=gen,pl
-_\n
-надо=ADV,praed=
-_
-часто=ADV=comp
-_
-подрезать=V,tran=(inf,ipf|inf,pf)
-.\n
-в=PR=
-_
-наш=APRO=(abl,sg,m|abl,sg,n)
-_
-садик=S,m,inan=abl,sg
-_
-укромный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-виноград=S,m,inan=(acc,sg|nom,sg)
-:_\n
-кто=SPRO,sg,m,anim=nom
-_
-увидеть=V,pf,tran=inpraes,sg,indic,3p
-_
-кисть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-гроздь=S,f,inan=gen,pl
-,_\n
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сердце=S,n,inan=ins,sg
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-рад=A,brev=sg,m
-.\n
-и=CONJ=
-_
-калитка=S,f,inan=nom,sg
-_
-меж=PR=
-_
-куст=S,m,inan=ins,pl
-_\n
-там=ADVPRO=
-_
-прохожий=S,m,anim=(acc,sg|gen,sg)
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_\n
-она=SPRO,sg,3p,f=(dat|ins)
-_
-зевес?=S,m,anim=nom,sg
--
-гостеприимец?=S,m,anim=nom,sg
-_\n
-быть=V,intr=inf,ipf
-_
-открытый=A=ins,sg,plen,f
-_
-велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-.\n
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-калитка=S,f,inan=acc,sg
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-пропускать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,_\n
-мы=SPRO,pl,1p=nom
-_
-для=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-,_\n
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-скупой=A=pl,brev
-:_
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-взять=V,pf,tran=inf
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-спелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-виноград=S,m,inan=(acc,sg|nom,sg)
-.\n
+{ах=INTJ=}, {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {сад=S,m,inan=(acc,sg|nom,sg)}, {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {виноградник=S,m,inan=(acc,sg|nom,sg)} 
+{надо=ADV,praed=} {часто=ADV=comp} {поливать=V,tran=inf,ipf} 
+{и=CONJ=} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {яблоня=S,f,inan=gen,pl} 
+{надо=ADV,praed=} {часто=ADV=comp} {подрезать=V,tran=(inf,ipf|inf,pf)}.
+{в=PR=} {наш=APRO=(abl,sg,m|abl,sg,n)} {садик=S,m,inan=abl,sg} {укромный=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {цветок=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {виноград=S,m,inan=(acc,sg|nom,sg)}: 
+{кто=SPRO,sg,m,anim=nom} {увидеть=V,pf,tran=inpraes,sg,indic,3p} {кисть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гроздь=S,f,inan=gen,pl}, 
+{всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сердце=S,n,inan=ins,sg} {быть=V,intr=inpraes,sg,indic,3p} {рад=A,brev=sg,m}.
+{и=CONJ=} {калитка=S,f,inan=nom,sg} {меж=PR=} {куст=S,m,inan=ins,pl} 
+{там=ADVPRO=} {прохожий=S,m,anim=(acc,sg|gen,sg)} {манить=V,ipf,tran=inpraes,sg,indic,3p} — 
+{она=SPRO,sg,3p,f=(dat|ins)} {зевес?=S,m,anim=nom,sg}-{гостеприимец?=S,m,anim=nom,sg} 
+{быть=V,intr=inf,ipf} {открытый=A=ins,sg,plen,f} {велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}.
+{мы=SPRO,pl,1p=nom} {в=PR=} {калитка=S,f,inan=acc,sg} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пропускать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}, 
+{мы=SPRO,pl,1p=nom} {для=PR=} {все=SPRO,pl=(abl|acc|gen)} {открывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {сад=S,m,inan=(acc,sg|nom,sg)}, 
+{мы=SPRO,pl,1p=nom} {не=PART=} {скупой=A=pl,brev}: {всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мочь=V,ipf,intr=inpraes,sg,indic,3p} 
+{взять=V,pf,tran=inf} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {спелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {виноград=S,m,inan=(acc,sg|nom,sg)}.

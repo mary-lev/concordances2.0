@@ -1,134 +1,19 @@
-поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-тревожить=V,ipf,tran=inpraes,sg,indic,3p
-?\n
-не=PART=
-_
-заботиться=V,ipf,intr=sg,imper,2p
-,_
-господин=S,m,anim=nom,sg
-!\n
-я=SPRO,sg,1p=nom
-_\u2014_
-бессонный=A=sg,brev,f
-._
-спать=V,ipf,intr=inf
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-\n
-кто=SPRO,sg,m,anim=nom
-_
-хороший=A=sg,brev,m
-_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n\n
-мы=SPRO,pl,1p=dat
-_
-бессонница=S,f,inan=nom,sg
-_
-не=PART=
-_
-бремя=S,n,inan=(acc,sg|nom,sg)
-,\n
-отродясь=ADV=
-_
-кипеть=V,ipf,intr=inpraes,pl,indic,1p
-_
-в=PR=
-_
-котел=S,m,inan=abl,sg
-.\n
-так-то=PART=
-_
-хорошо=ADV=comp,parenth
-._
-быть=V,intr=inpraes,sg,indic,3p
-_
-время=S,n,inan=(acc,sg|nom,sg)
-\n
-тело=S,n,inan=dat,sg
-_
-высыпаться=V,intr=inf,pf
-_
-в=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-ни=CONJ=
-_
-зевота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-ломота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-сын=S,m,anim=nom,sg
-_\u2014_
-уснуть=V,pf,intr=praet,sg,indic,m
-,_
-а=CONJ=
-_
-друг=S,m,anim=nom,sg
-_\u2014_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-.\n
-друг=S,m,anim=nom,sg
-_
-за=PR=
-_
-мать=S,f,anim=ins,sg
-_
-присматривать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-сын=S,m,anim=(acc,sg|gen,sg)
-_\u2014_
-бог=S,m,anim=nom,sg
-_
-поберечь=V,pf,tran=inpraes,sg,indic,3p
-.\n\n
-поделить=V,pf,tran=inpraes,sg,indic,1p
-_
-ж=PART=
-,_
-пока=CONJ=
-_
-пригожий=A=sg,brev,f
-,\n
-и=CONJ=
-_
-пока=ADV=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-невмочь=ADV,praed=
-,_\u2014_\n
-бабий=A,plen=acc,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-_
-по=PR=
--
-божий=A,plen=(nom,pl|acc,pl,inan)
-:\n
-сын=S,m,anim=dat,sg
-_\u2014_
-день=S,m,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-друг=S,m,anim=dat,sg
-_\u2014_
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)} {ты=SPRO,sg,2p=(acc|gen)} {тревожить=V,ipf,tran=inpraes,sg,indic,3p}?
+{не=PART=} {заботиться=V,ipf,intr=sg,imper,2p}, {господин=S,m,anim=nom,sg}!
+{я=SPRO,sg,1p=nom} — {бессонный=A=sg,brev,f}. {спать=V,ipf,intr=inf} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p}
+{кто=SPRO,sg,m,anim=nom} {хороший=A=sg,brev,m} {и=CONJ=} {кто=SPRO,sg,m,anim=nom} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.
+
+{мы=SPRO,pl,1p=dat} {бессонница=S,f,inan=nom,sg} {не=PART=} {бремя=S,n,inan=(acc,sg|nom,sg)},
+{отродясь=ADV=} {кипеть=V,ipf,intr=inpraes,pl,indic,1p} {в=PR=} {котел=S,m,inan=abl,sg}.
+{так-то=PART=} {хорошо=ADV=comp,parenth}. {быть=V,intr=inpraes,sg,indic,3p} {время=S,n,inan=(acc,sg|nom,sg)}
+{тело=S,n,inan=dat,sg} {высыпаться=V,intr=inf,pf} {в=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}.
+
+{ни=CONJ=} {зевота=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {ломота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{сын=S,m,anim=nom,sg} — {уснуть=V,pf,intr=praet,sg,indic,m}, {а=CONJ=} {друг=S,m,anim=nom,sg} — {прийти=V,pf,intr=inpraes,sg,indic,3p}.
+{друг=S,m,anim=nom,sg} {за=PR=} {мать=S,f,anim=ins,sg} {присматривать=V,tran=inpraes,sg,indic,3p,pf},
+{сын=S,m,anim=(acc,sg|gen,sg)} — {бог=S,m,anim=nom,sg} {поберечь=V,pf,tran=inpraes,sg,indic,3p}.
+
+{поделить=V,pf,tran=inpraes,sg,indic,1p} {ж=PART=}, {пока=CONJ=} {пригожий=A=sg,brev,f},
+{и=CONJ=} {пока=ADV=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {невмочь=ADV,praed=}, — 
+{бабий=A,plen=acc,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f} {по=PR=}-{божий=A,plen=(nom,pl|acc,pl,inan)}:
+{сын=S,m,anim=dat,sg} — {день=S,m,inan=(acc,sg|nom,sg)}, {а=CONJ=} {друг=S,m,anim=dat,sg} — {ночь=S,f,inan=(acc,sg|nom,sg)}.

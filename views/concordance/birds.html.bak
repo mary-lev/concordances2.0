@@ -1,11 +1,11 @@
 {{extend 'layout.html'}}
-<h1>Векторная модель</h1>
+<h1>Векторная модель Птицы</h1>
 
 <table>
 
 <tr>
-<td><h4>Аист</h4>
-{{for all in model1.most_similar(positive=['аист'], topn=20):}}
+<td><h4>Птица</h4>
+{{for all in model1.most_similar(positive=['птица'], topn=20):}}
 <li>{{=all[0]}}, {{=all[1]}}</li>
 {{pass}}
     </td>
@@ -29,8 +29,8 @@
 
         </tr>
 <tr>
-<td><h4>Воробей</h4>
-{{for all in model1.most_similar(positive=['воробей'], topn=20):}}
+<td><h4>Галка</h4>
+{{for all in model1.most_similar(positive=['галка'], topn=20):}}
 <li>{{=all[0]}}, {{=all[1]}}</li>
 {{pass}}
     </td>

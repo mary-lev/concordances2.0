@@ -1,82 +1,9 @@
-перед=PR=
-_
-весна=S,f,inan=ins,sg
-_
-бывать=V,ipf,intr=inpraes,pl,indic,3p
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-такой=APRO=(nom,pl|acc,pl,inan)
-:\n
-под=PR=
-_
-плотный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-снег=S,m,inan=ins,sg
-_
-отдыхать=V,intr=inpraes,sg,indic,3p,ipf
-_
-луг=S,m,inan=(acc,sg|nom,sg)
-,\n
-шуметь=V,ipf,intr=inpraes,pl,indic,3p
-_
-дерево=S,n,inan=(acc,pl|nom,pl)
-_
-весело=ADV=
--
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-и=CONJ=
-_
-теплый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-нежный=A=sg,brev,m
-_
-и=CONJ=
-_
-упругий=A=sg,brev,m
-.\n
-и=CONJ=
-_
-легкость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-дивиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-дома=ADV=
-_
-свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-не=PART=
-_
-узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)
-,\n
-а=CONJ=
-_
-песня=S,f,inan=acc,sg
-_
-тот=APRO=acc,sg,f
-,_
-что=CONJ=
-_
-прежде=ADV=
-_
-надоедать=V,intr=praet,sg,indic,f,pf
-,\n
-как=CONJ=
-_
-новый=A=acc,sg,plen,f
-,_
-с=PR=
-_
-волнение=S,n,inan=ins,sg
-_
-петь=V,ipf,tran=inpraes,sg,indic,2p
-.\n\n
+{перед=PR=} {весна=S,f,inan=ins,sg} {бывать=V,ipf,intr=inpraes,pl,indic,3p} {день=S,m,inan=(acc,pl|nom,pl)} {такой=APRO=(nom,pl|acc,pl,inan)}:
+{под=PR=} {плотный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {снег=S,m,inan=ins,sg} {отдыхать=V,intr=inpraes,sg,indic,3p,ipf} {луг=S,m,inan=(acc,sg|nom,sg)},
+{шуметь=V,ipf,intr=inpraes,pl,indic,3p} {дерево=S,n,inan=(acc,pl|nom,pl)} {весело=ADV=}-{сухой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {теплый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {нежный=A=sg,brev,m} {и=CONJ=} {упругий=A=sg,brev,m}.
+{и=CONJ=} {легкость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {дивиться=V,ipf,intr=inpraes,sg,indic,3p} {тело=S,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {дома=ADV=} {свой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {не=PART=} {узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)},
+{а=CONJ=} {песня=S,f,inan=acc,sg} {тот=APRO=acc,sg,f}, {что=CONJ=} {прежде=ADV=} {надоедать=V,intr=praet,sg,indic,f,pf},
+{как=CONJ=} {новый=A=acc,sg,plen,f}, {с=PR=} {волнение=S,n,inan=ins,sg} {петь=V,ipf,tran=inpraes,sg,indic,2p}.
+

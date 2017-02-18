@@ -1,36 +1,4 @@
-ты=SPRO,sg,2p=nom
-_
-дежурный=S,m,anim=nom,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-на=PR=
-_
-кухня=S,f,inan=(abl,sg|dat,sg)
-,\n
-пышка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-красть=V,ipf=praet,sg,indic,m,tran
-,_
-в=PR=
-_
-угол=S,m,inan=(dat,sg|loc,sg)
-_
-они=SPRO,pl=(acc|gen)
-_
-жрать=V,ipf,tran=praet,sg,indic,m
-.\n
-офицер=S,m,anim=(acc,pl|gen,pl)
-,_
-не=PART=
-_
-распухать=V,intr=sg,imper,2p,pf
-.\n
-кто=SPRO,sg,m,anim=nom
-,_
-сказать=V,pf,tran=sg,imper,2p
-,_
-ты=SPRO,sg,2p=(acc|gen)
-_
-поймать=V,pf,tran=praet,sg,indic,m
-?\n
+{ты=SPRO,sg,2p=nom} {дежурный=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {на=PR=} {кухня=S,f,inan=(abl,sg|dat,sg)},
+{пышка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {красть=V,ipf=praet,sg,indic,m,tran}, {в=PR=} {угол=S,m,inan=(dat,sg|loc,sg)} {они=SPRO,pl=(acc|gen)} {жрать=V,ipf,tran=praet,sg,indic,m}.
+{офицер=S,m,anim=(acc,pl|gen,pl)}, {не=PART=} {распухать=V,intr=sg,imper,2p,pf}.
+{кто=SPRO,sg,m,anim=nom}, {сказать=V,pf,tran=sg,imper,2p}, {ты=SPRO,sg,2p=(acc|gen)} {поймать=V,pf,tran=praet,sg,indic,m}?

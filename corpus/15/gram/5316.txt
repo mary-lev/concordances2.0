@@ -1,134 +1,24 @@
-жить=V,ipf,intr=inf
-_
-среди=PR=
-_
-беззаконие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ветер=S,m,inan=gen,pl
-,\n
-то=CONJ=
-_
-в=PR=
-_
-волна=S,f,inan=abl,pl
-_
-благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-то=CONJ=
-_
-над=PR=
-_
-крышка=S,f,inan=ins,sg
-_
-гроб=S,m,inan=gen,pl
-.\n\n
-быть=V,intr=inf,ipf
-_
-свободный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-несвязанный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-как=CONJ=
-_
-движение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-никогда=ADVPRO=
-_
-не=PART=
-_
-рассказывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-\n
-до=PR=
-_
-последний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-черта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-бесчестный=A=(acc,sg,plen,n|nom,sg,plen,n)
-?_
-честный=A=(acc,sg,plen,n|nom,sg,plen,n)
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-?_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-темно=ADV,praed=
-?\n
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-неизвестный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-и=CONJ=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-.\n\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-мелкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-низость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-не=PART=
-_
-удерживать=V,tran=inpraes,pl,indic,3p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
-нет=PART=
-_
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-чаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-близость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-роковой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-огонь=S,m,inan=gen,sg
-.\n\n
-но=CONJ=
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-безотчетный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-и=CONJ=
-_
-восторг=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-позор=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-пространство=S,n,inan=(acc,sg|nom,sg)
-_
-болотное=S,geo,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-возвышенность=S,f,inan=(acc,sg|nom,sg)
-_
-гора=S,f,inan=gen,pl
-.\n
+{жить=V,ipf,intr=inf} {среди=PR=} {беззаконие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ветер=S,m,inan=gen,pl},
+{то=CONJ=} {в=PR=} {волна=S,f,inan=abl,pl} {благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{то=CONJ=} {над=PR=} {крышка=S,f,inan=ins,sg} {гроб=S,m,inan=gen,pl}.
+
+{быть=V,intr=inf,ipf} {свободный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {несвязанный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{как=CONJ=} {движение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{никогда=ADVPRO=} {не=PART=} {рассказывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}
+{до=PR=} {последний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {черта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {бесчестный=A=(acc,sg,plen,n|nom,sg,plen,n)}? {честный=A=(acc,sg,plen,n|nom,sg,plen,n)}?
+{что=SPRO,sg,n,inan=(acc|nom)} {гореть=V,ipf,intr=inpraes,sg,indic,3p}? {что=SPRO,sg,n,inan=(acc|nom)} {темно=ADV,praed=}?
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {неизвестный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{и=CONJ=} {душа=S,f,inan=(abl,sg|dat,sg)} {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}.
+
+{знать=V,ipf,tran=inpraes,sg,indic,1p}, {мелкий=A=(acc,pl,plen,inan|nom,pl,plen)} {низость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{не=PART=} {удерживать=V,tran=inpraes,pl,indic,3p,pf} {я=SPRO,sg,1p=(acc|gen)}.
+{нет=PART=} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {чаяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {близость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{роковой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {огонь=S,m,inan=gen,sg}.
+
+{но=CONJ=} {любить=V,ipf,tran=inpraes,sg,indic,1p} {безотчетный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{и=CONJ=} {восторг=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {позор=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {пространство=S,n,inan=(acc,sg|nom,sg)} {болотное=S,geo,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {возвышенность=S,f,inan=(acc,sg|nom,sg)} {гора=S,f,inan=gen,pl}.

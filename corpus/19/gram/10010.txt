@@ -1,101 +1,12 @@
-\t
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-_
-певец=S,m,anim=dat,sg
-,_
-властитель=S,m,anim=nom,sg
-:\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-он=SPRO,sg,3p,m=nom
-_
-песня=S,f,inan=ins,sg
-_
-льстивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лгать=V,ipf,intr=inpraes,sg,indic,3p
-,\n\t
-когда=CONJ=
-_
-в=PR=
-_
-твой=APRO=acc,sg,f
-_
-обитель=S,f,inan=(acc,sg|nom,sg)
-\n
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-случайность=S,f,inan=(acc,sg|nom,sg)
-_
-заводить=V=inpraes,sg,indic,3p,pf
-.\n\t
-пускай=PART=
-_
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ода=S,f,inan=(abl,sg|dat,sg)
-\n
-ты=SPRO,sg,2p=(acc|gen)
-_
-до=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-возносить=V=inpraes,sg,indic,3p,pf
-,\n\t
-но=CONJ=
-_
-песня=S,f,inan=nom,sg
-_
-о=PR=
-_
-свобода=S,f,inan=(abl,sg|dat,sg)
-\n
-один=APRO=nom,sg,f
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-переживать=V,tran=inpraes,sg,indic,3p,pf
-.\n\t
-полюбить=V,pf,tran=inpraes,sg,indic,3p
-_
-песня=S,f,inan=acc,sg
-_
-этот=APRO=acc,sg,f
-,\n
-и=CONJ=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-петь=V,ipf,tran=inf
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-,\n\t
-и=CONJ=
-_
-с=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-песня=S,f,inan=ins,sg
-_
-к=PR=
-_
-свет=S,sg,m,inan=(dat|loc|part)
-\n
-пойти=V,pf,intr=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-разрывать=V,tran=inpraes,sg,indic,3p,pf
-.\n
+	{не=PART=} {верить=V,ipf,intr=sg,imper,2p} {певец=S,m,anim=dat,sg}, {властитель=S,m,anim=nom,sg}:
+{ты=SPRO,sg,2p=(abl|dat)} {он=SPRO,sg,3p,m=nom} {песня=S,f,inan=ins,sg} {льстивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лгать=V,ipf,intr=inpraes,sg,indic,3p},
+	{когда=CONJ=} {в=PR=} {твой=APRO=acc,sg,f} {обитель=S,f,inan=(acc,sg|nom,sg)}
+{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {случайность=S,f,inan=(acc,sg|nom,sg)} {заводить=V=inpraes,sg,indic,3p,pf}.
+	{пускай=PART=} {он=SPRO,sg,3p,m=nom} {в=PR=} {звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ода=S,f,inan=(abl,sg|dat,sg)}
+{ты=SPRO,sg,2p=(acc|gen)} {до=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {возносить=V=inpraes,sg,indic,3p,pf},
+	{но=CONJ=} {песня=S,f,inan=nom,sg} {о=PR=} {свобода=S,f,inan=(abl,sg|dat,sg)}
+{один=APRO=nom,sg,f} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {переживать=V,tran=inpraes,sg,indic,3p,pf}.
+	{полюбить=V,pf,tran=inpraes,sg,indic,3p} {песня=S,f,inan=acc,sg} {этот=APRO=acc,sg,f},
+{и=CONJ=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {петь=V,ipf,tran=inf} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {народ=S,m,inan=(acc,sg|nom,sg)},
+	{и=CONJ=} {с=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {песня=S,f,inan=ins,sg} {к=PR=} {свет=S,sg,m,inan=(dat|loc|part)}
+{пойти=V,pf,intr=inpraes,sg,indic,3p}, {и=CONJ=} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {разрывать=V,tran=inpraes,sg,indic,3p,pf}.

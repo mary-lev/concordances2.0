@@ -1,170 +1,24 @@
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-лиловый=A=sg,brev,n
--
-голубой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-всего=PART=
-_
-в=PR=
-_
-четыре=NUM=(nom|acc,inan)
-_
-лепесток=S,m,inan=gen,sg
-,\n
-в=PR=
-_
-чей=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-крестик=S,m,inan=abl,pl
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-былой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-отвага=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-тоска=S,f,inan=nom,sg
-!\n\n
-ах=INTJ=
-,_
-так=ADVPRO=
-_
-же=PART=
-_
-вы=SPRO,pl,2p=nom
-_
-благоухать=V,ipf,intr=praet,pl,indic
-\n
-тогда=ADVPRO=
-,_
-давно=ADV=
-,_
-в=PR=
-_
-далекий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-там=ADVPRO=
-,\n
-звать=V,ipf,tran=inpraes,ger
-_
-в=PR=
-_
-непознанный=A,plen=(nom,pl|acc,pl,inan)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-по=PR=
-_
-опадать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)
-_
-цвет=S,m,inan=dat,pl
-!\n\n
-и=CONJ=
-,_
-слушать=V,ipf,tran=inpraes,ger
-_
-благоухание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вдыхать=V,tran=inpraes,ger,ipf
-_
-цветовой=A=acc,sg,plen,f
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-на=PR=
-_
-брань=S,f,inan=(acc,sg|nom,sg)
-_
-завоевание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-с=PR=
-_
-сирень=S,f,inan=ins,sg
-,_
-заменять=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-меч=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-а=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-цвести=V,ipf,intr=praet,pl,indic
-_
-и=CONJ=
-_
-увядать=V,ipf,intr=praet,pl,indic
-...\n
-по=PR=
-_
-опадать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)
-_
-по=PR=
-_
-вы=SPRO,pl,2p=dat
-\n
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-лазоревый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-давать=V,tran=praet,pl,indic,pf
-_\u2014\n
-в=PR=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,_
-в=PR=
-_
-цветок=S,m,inan=abl,pl
-_
-и=CONJ=
-_
-по=PR=
-_
-цвет=S,m,inan=dat,pl
-!\n\n
-со=PR=
-_
-я=SPRO,sg,1p=ins
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-молодой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-смелый=A=nom,sg,plen,f
-_
-тоска=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-,_
-лиловый=A=sg,brev,n
--
-голубой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-крест=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-четыре=NUM=(nom|acc,inan)
-_
-лепесток=S,m,inan=gen,sg
-!\n
+{цветок=S,m,inan=(acc,pl|nom,pl)} {лиловый=A=sg,brev,n}-{голубой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{всего=PART=} {в=PR=} {четыре=NUM=(nom|acc,inan)} {лепесток=S,m,inan=gen,sg},
+{в=PR=} {чей=APRO=(abl,pl|gen,pl|acc,pl,anim)} {крестик=S,m,inan=abl,pl} {мой=APRO=(nom,pl|acc,pl,inan)} {былой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{любовь=S,f,inan=(acc,sg|nom,sg)}, {отвага=S,f,inan=nom,sg} {и=CONJ=} {тоска=S,f,inan=nom,sg}!
+
+{ах=INTJ=}, {так=ADVPRO=} {же=PART=} {вы=SPRO,pl,2p=nom} {благоухать=V,ipf,intr=praet,pl,indic}
+{тогда=ADVPRO=}, {давно=ADV=}, {в=PR=} {далекий=A=(abl,sg,plen,m|abl,sg,plen,n)}, {там=ADVPRO=},
+{звать=V,ipf,tran=inpraes,ger} {в=PR=} {непознанный=A,plen=(nom,pl|acc,pl,inan)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{по=PR=} {опадать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)} {цвет=S,m,inan=dat,pl}!
+
+{и=CONJ=}, {слушать=V,ipf,tran=inpraes,ger} {благоухание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{вдыхать=V,tran=inpraes,ger,ipf} {цветовой=A=acc,sg,plen,f} {речь=S,f,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {на=PR=} {брань=S,f,inan=(acc,sg|nom,sg)} {завоевание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{с=PR=} {сирень=S,f,inan=ins,sg}, {заменять=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {меч=S,m,inan=(acc,sg|nom,sg)}...
+
+{а=CONJ=} {вы=SPRO,pl,2p=nom} {цвести=V,ipf,intr=praet,pl,indic} {и=CONJ=} {увядать=V,ipf,intr=praet,pl,indic}...
+{по=PR=} {опадать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)} {по=PR=} {вы=SPRO,pl,2p=dat}
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {в=PR=} {лазоревый=A=(acc,pl,plen,inan|nom,pl,plen)} {давать=V,tran=praet,pl,indic,pf} —
+{в=PR=} {цветок=S,m,inan=(acc,pl|nom,pl)}, {в=PR=} {цветок=S,m,inan=abl,pl} {и=CONJ=} {по=PR=} {цвет=S,m,inan=dat,pl}!
+
+{со=PR=} {я=SPRO,sg,1p=ins} {быть=V,intr=praet,pl,indic,ipf} {молодой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {смелый=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg},
+{и=CONJ=} {вы=SPRO,pl,2p=nom}, {лиловый=A=sg,brev,n}-{голубой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{крест=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {четыре=NUM=(nom|acc,inan)} {лепесток=S,m,inan=gen,sg}!

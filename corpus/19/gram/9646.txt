@@ -1,96 +1,14 @@
-мошка=S,f,anim=(gen,sg|nom,pl)
-_
-виться=V,ipf,intr=inpraes,pl,indic,3p
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-\n
-надоедный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-туча=S,f,inan=ins,sg
-.\n
-как=ADVPRO=
-_
-прогнать=V,pf,tran=inf
-_
-несносный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рой=S,m,inan=(acc,sg|nom,sg)
-,\n
-зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-летучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-?\n\n
-словно=CONJ=
-_
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-они=SPRO,pl=(acc|gen)
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-:\n
-я=SPRO,sg,1p=nom
-_
-бежать=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-,_\u2014_
-они=SPRO,pl=nom
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-,\n
-я=SPRO,sg,1p=nom
-_
-стоять=V,ipf,intr=inpraes,sg,indic,1p
-,_\u2014_
-и=CONJ=
-_
-в=PR=
-_
-тишина=S,sg,f,inan=(abl|dat)
-\n
-окружать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-стена=S,f,inan=ins,sg
-_
-сквозной=A=ins,sg,plen,f
-.\n\n
-отмахиваться=V,intr=inf,pf
-?_\u2014_
-не=PART=
-_
-брать=V,ipf,tran=inpraes,sg,indic,3p
-!\n
-обманывать=V,tran=inf,pf
-_
-они=SPRO,pl=(acc|gen)
-,_
-ложиться=V,intr=inf,pf
-_
-на=PR=
-_
-травка=S,f,inan=acc,sg
-?\n
-рой=S,persn,m,anim=nom,sg
-_
-обманывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-\n
-к=PR=
-_
-перелеска=S,f,inan=acc,sg
-_
-за=PR=
-_
-канавка=S,f,inan=acc,sg
-.\n
+{мошка=S,f,anim=(gen,sg|nom,pl)} {виться=V,ipf,intr=inpraes,pl,indic,3p} {надо=ADV,praed=} {я=SPRO,sg,1p=ins}
+{надоедный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {туча=S,f,inan=ins,sg}.
+{как=ADVPRO=} {прогнать=V,pf,tran=inf} {несносный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рой=S,m,inan=(acc,sg|nom,sg)},
+{зыбкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {летучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}?
+
+{словно=CONJ=} {тянуть=V,ipf,tran=inpraes,sg,indic,3p} {они=SPRO,pl=(acc|gen)} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}:
+{я=SPRO,sg,1p=nom} {бежать=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}, — {они=SPRO,pl=nom} {за=PR=} {я=SPRO,sg,1p=ins},
+{я=SPRO,sg,1p=nom} {стоять=V,ipf,intr=inpraes,sg,indic,1p}, — {и=CONJ=} {в=PR=} {тишина=S,sg,f,inan=(abl|dat)}
+{окружать=V,tran=praet,sg,partcp,brev,m,pf,pass} {стена=S,f,inan=ins,sg} {сквозной=A=ins,sg,plen,f}.
+
+{отмахиваться=V,intr=inf,pf}? — {не=PART=} {брать=V,ipf,tran=inpraes,sg,indic,3p}!
+{обманывать=V,tran=inf,pf} {они=SPRO,pl=(acc|gen)}, {ложиться=V,intr=inf,pf} {на=PR=} {травка=S,f,inan=acc,sg}?
+{рой=S,persn,m,anim=nom,sg} {обманывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {плыть=V,ipf,intr=inpraes,sg,indic,3p}
+{к=PR=} {перелеска=S,f,inan=acc,sg} {за=PR=} {канавка=S,f,inan=acc,sg}.

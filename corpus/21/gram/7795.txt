@@ -1,60 +1,9 @@
-как=ADVPRO=
-_
-неуверенно=ADV=
--
-невинный=A=sg,brev,f
-_\n
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-замедлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-!\n
-и=CONJ=
-_
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-_
-у=PR=
-_
-жасмин=S,m,inan=gen,sg
-!\n
-и=CONJ=
-_
-милый=A=nom,sg,plen,f
-_
-покатость=S,f,inan=(acc,sg|nom,sg)
-_
-плечо=S,n,inan=gen,pl
-!\n\n
-над=PR=
-_
-взор=S,m,inan=ins,sg
-_
-ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-легко=ADV=
-_
-очерчивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-бровь=S,f,inan=(acc,sg|nom,sg)
-,_\u2014\n
-и=CONJ=
-_
-вот=PART=
-_
-опять=ADV=
-_
-стих=S,m,inan=ins,sg
-_
-небрежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-поэт=S,m,anim=nom,sg
-_
-приветствовать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{как=ADVPRO=} {неуверенно=ADV=}-{невинный=A=sg,brev,f} 
+{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {замедлять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {речь=S,f,inan=(acc,sg|nom,sg)}!
+{и=CONJ=} {поцелуй=S,m,inan=(acc,pl|nom,pl)} {у=PR=} {жасмин=S,m,inan=gen,sg}!
+{и=CONJ=} {милый=A=nom,sg,plen,f} {покатость=S,f,inan=(acc,sg|nom,sg)} {плечо=S,n,inan=gen,pl}!
+
+{над=PR=} {взор=S,m,inan=ins,sg} {ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{легко=ADV=} {очерчивать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {бровь=S,f,inan=(acc,sg|nom,sg)}, —
+{и=CONJ=} {вот=PART=} {опять=ADV=} {стих=S,m,inan=ins,sg} {небрежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{поэт=S,m,anim=nom,sg} {приветствовать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {любовь=S,f,inan=(acc,sg|nom,sg)}!

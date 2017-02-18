@@ -1,52 +1,6 @@
-понимать=V=sg,imper,2p,pf
-,_
-не=PART=
-_
-в=PR=
-_
-то=SPRO,sg,n,inan=abl
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-проклятие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n\t
-чтобы=CONJ=
-_
-поношенный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n\t\t
-иметь=V,ipf,tran=inf
-,_
-а=CONJ=
-_
-только=PART=
-_
-в=PR=
-_
-то=SPRO,sg,n,inan=abl
-,\n
-чтобы=CONJ=
-_
-болтать=V,ipf,tran=inf
-_
-потертый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-язык=S,m,inan=ins,sg
-.\n
-подержать=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)
-_
-речение=S,n,inan=gen,pl
-_
-опасаться=V,ipf,intr=sg,imper,2p
-\n
-и=CONJ=
-_
-свежий=A=ins,pl,plen
-_
-слово=S,n,inan=ins,pl
-_
-запасаться=V,intr=sg,imper,2p,ipf
-.\n
+{понимать=V=sg,imper,2p,pf}, {не=PART=} {в=PR=} {то=SPRO,sg,n,inan=abl} {ты=SPRO,sg,2p=(abl|dat)} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {проклятие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+	{чтобы=CONJ=} {поношенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+		{иметь=V,ipf,tran=inf}, {а=CONJ=} {только=PART=} {в=PR=} {то=SPRO,sg,n,inan=abl},
+{чтобы=CONJ=} {болтать=V,ipf,tran=inf} {потертый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {язык=S,m,inan=ins,sg}.
+{подержать=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} {речение=S,n,inan=gen,pl} {опасаться=V,ipf,intr=sg,imper,2p}
+{и=CONJ=} {свежий=A=ins,pl,plen} {слово=S,n,inan=ins,pl} {запасаться=V,intr=sg,imper,2p,ipf}.

@@ -1,148 +1,19 @@
-схватывать=V,tran=praet,sg,indic,n,pf
-,_
-запирать=V=praet,sg,indic,n,pf
-,_
-оставлять=V,tran=praet,sg,indic,n,pf
-\n\t
-многоголовый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-оно=SPRO,sg,3p,n=nom
-.\n
-в=PR=
-_
-холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-келья=S,f,inan=(abl,sg|dat,sg)
-_
-замуравить=V,pf,tran=praet,sg,indic,n
-\n\t
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-последний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-о=PR=
-,_
-пусть=PART=
-_
-бы=PART=
-_
-яма=S,f,inan=nom,sg
-_
-одинокий=A=nom,sg,plen,f
-,\n\t
-и=CONJ=
-_
-темь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-плита=S,f,inan=gen,pl
-...\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-красноокий?=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n\t
-я=SPRO,sg,1p=(acc|gen)
-_
-и=CONJ=
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-разъединять=V,tran=inpraes,sg,indic,3p,pf
-.\n\n
-разъединять=V,tran=praet,sg,indic,n,pf
-!_
-нету=ADV,praed=
-_
-доступ=S,m,inan=gen,sg
-\n\t
-он=SPRO,sg,3p,m=dat
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-.\n
-не=PART=
-_
-улавливать=V,tran=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-поступь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n\t
-и=CONJ=
-_
-уста=S,pl,inan=gen
-_
-к=PR=
-_
-одежда=S,f,inan=(abl,sg|dat,sg)
-_
-не=PART=
-_
-прижимать=V,tran=inpraes,sg,indic,1p,pf
-...\n\n
-и=CONJ=
-_
-если=CONJ=
-_
-в=PR=
-_
-келья=S,f,inan=acc,sg
-_
-позабывать=V=praet,acc,sg,partcp,plen,f,pf,pass
-\n\t
-он=SPRO,sg,3p,m=nom
-_
-постучать=V,pf,tran=inpraes,sg,indic,3p
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-:_
-открывать=V=sg,imper,2p,pf
-!\n
-как=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-открывать=V=inpraes,sg,indic,1p,pf
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-_
-забивать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass
-\n\t
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-слабеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-рука=S,f,inan=ins,sg
-?\n
+{схватывать=V,tran=praet,sg,indic,n,pf}, {запирать=V=praet,sg,indic,n,pf}, {оставлять=V,tran=praet,sg,indic,n,pf}
+	{многоголовый=A=(acc,sg,plen,n|nom,sg,plen,n)} {оно=SPRO,sg,3p,n=nom}.
+{в=PR=} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {келья=S,f,inan=(abl,sg|dat,sg)} {замуравить=V,pf,tran=praet,sg,indic,n}
+	{мой=APRO=(acc,sg,n|nom,sg,n)} {последний=A=(acc,sg,plen,n|nom,sg,plen,n)} {окно=S,n,inan=(acc,sg|nom,sg)}.
+
+{о=PR=}, {пусть=PART=} {бы=PART=} {яма=S,f,inan=nom,sg} {одинокий=A=nom,sg,plen,f},
+	{и=CONJ=} {темь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {тишь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {холод=S,m,inan=(acc,sg|nom,sg)} {плита=S,f,inan=gen,pl}...
+{но=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=praet,sg,indic,m}, {что=CONJ=} {красноокий?=A=(acc,sg,plen,n|nom,sg,plen,n)}
+	{я=SPRO,sg,1p=(acc|gen)} {и=CONJ=} {с=PR=} {он=SPRO,sg,3p,m=ins} {разъединять=V,tran=inpraes,sg,indic,3p,pf}.
+
+{разъединять=V,tran=praet,sg,indic,n,pf}! {нету=ADV,praed=} {доступ=S,m,inan=gen,sg}
+	{он=SPRO,sg,3p,m=dat} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {к=PR=} {он=SPRO,sg,3p,m=dat}.
+{не=PART=} {улавливать=V,tran=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {поступь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+	{и=CONJ=} {уста=S,pl,inan=gen} {к=PR=} {одежда=S,f,inan=(abl,sg|dat,sg)} {не=PART=} {прижимать=V,tran=inpraes,sg,indic,1p,pf}...
+
+{и=CONJ=} {если=CONJ=} {в=PR=} {келья=S,f,inan=acc,sg} {позабывать=V=praet,acc,sg,partcp,plen,f,pf,pass}
+	{он=SPRO,sg,3p,m=nom} {постучать=V,pf,tran=inpraes,sg,indic,3p} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}: {открывать=V=sg,imper,2p,pf}!
+{как=CONJ=} {я=SPRO,sg,1p=nom} {открывать=V=inpraes,sg,indic,1p,pf} {дверь=S,f,inan=(acc,sg|nom,sg)} {забивать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass}
+	{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {слабеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {рука=S,f,inan=ins,sg}?

@@ -1,108 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-показывать=V=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-без=PR=
-_
-слово=S,n,inan=gen,pl
-,\n
-как=CONJ=
-_
-выходить=V,intr=praet,sg,indic,m,pf
-_
-хорошо=ADV=parenth
-_
-и=CONJ=
-_
-чисто=ADV=
-\n
-ты=SPRO,sg,2p=ins
-_
-проводить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-шов=S,m,inan=(acc,sg|nom,sg)
-\n
-по=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_
-белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-батист=S,m,inan=gen,sg
-.\n\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-подумать=V,pf,intr=praet,sg,indic,m
-:_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-,\n
-как=ADVPRO=
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-,_
-за=PR=
-_
-божий=A,plen=ins,pl
-_
-перст=S,m,inan=ins,pl
-\n
-по=PR=
-_
-легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-такой=APRO=ins,pl
-_
-же=PART=
-_
-стежка=S,f,inan=ins,pl
-.\n\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-видный=A=sg,brev,m
-,_
-то=CONJ=
-_
-сокрыть=V,pf,tran=praet,sg,partcp,brev,m,pass
-_
-стежок=S,m,inan=(acc,sg|nom,sg)
-,\n
-то=CONJ=
-_
-в=PR=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,_
-то=CONJ=
-_
-в=PR=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-перебегать=V,ipf,tran=inpraes,ger
-...\n
-и=CONJ=
-,_
-улыбаться=V,intr=inpraes,ger,ipf
-,_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-платок=S,m,inan=(acc,sg|nom,sg)
-\n
-перевертывать=V=praet,sg,indic,m,pf,tran
-_
-я=SPRO,sg,1p=nom
-,_
-дорогой=A=nom,sg,plen,f
-.\n
+{ты=SPRO,sg,2p=nom} {показывать=V=praet,sg,indic,f,pf} {я=SPRO,sg,1p=(abl|dat)} {без=PR=} {слово=S,n,inan=gen,pl},
+{как=CONJ=} {выходить=V,intr=praet,sg,indic,m,pf} {хорошо=ADV=parenth} {и=CONJ=} {чисто=ADV=}
+{ты=SPRO,sg,2p=ins} {проводить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {шов=S,m,inan=(acc,sg|nom,sg)}
+{по=PR=} {край=S,m,inan=(dat,sg|loc,sg)} {белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {батист=S,m,inan=gen,sg}.
+
+{а=CONJ=} {я=SPRO,sg,1p=nom} {подумать=V,pf,intr=praet,sg,indic,m}: {жизнь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f},
+{как=ADVPRO=} {нить=S,f,inan=(acc,sg|nom,sg)}, {за=PR=} {божий=A,plen=ins,pl} {перст=S,m,inan=ins,pl}
+{по=PR=} {легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {такой=APRO=ins,pl} {же=PART=} {стежка=S,f,inan=ins,pl}.
+
+{то=SPRO,sg,n,inan=(acc|nom)} {видный=A=sg,brev,m}, {то=CONJ=} {сокрыть=V,pf,tran=praet,sg,partcp,brev,m,pass} {стежок=S,m,inan=(acc,sg|nom,sg)},
+{то=CONJ=} {в=PR=} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {то=CONJ=} {в=PR=} {смерть=S,f,inan=(acc,sg|nom,sg)} {перебегать=V,ipf,tran=inpraes,ger}...
+{и=CONJ=}, {улыбаться=V,intr=inpraes,ger,ipf}, {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {платок=S,m,inan=(acc,sg|nom,sg)}
+{перевертывать=V=praet,sg,indic,m,pf,tran} {я=SPRO,sg,1p=nom}, {дорогой=A=nom,sg,plen,f}.

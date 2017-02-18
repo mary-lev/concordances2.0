@@ -1,138 +1,17 @@
-наивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-,_
-маленький=A=sg,brev,m
-_
-и=CONJ=
-_
-тонкий=A=sg,brev,m
-,\n
-без=PR=
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пеленка=S,f,inan=gen,pl
-\n
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-на=PR=
-_
-луг=S,m,inan=(acc,sg|nom,sg)
-._
-а=CONJ=
-_
-на=PR=
-_
-луг=S,m,inan=(dat,sg|loc,sg)
-_\u2014\n
-сидеть=V,ipf,intr=praet,sg,indic,m
-_
-взъерошивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-котенок=S,m,anim=nom,sg
-,\n
-как=CONJ=
-_
-в=PR=
-_
-зачарованный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-круг=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-зачем=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-зачем=ADVPRO=
-_
-сидеть=V,ipf,intr=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-отчего=ADVPRO=
-_
-так=ADVPRO=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-белый=A=sg,brev,m
-,_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-казаться=V,ipf,intr=praet,sg,indic,n
-_
-непонятно=ADV,praed=
-...\n
-но=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-котенок=S,m,anim=nom,sg
-_
-очень=ADV=
-_
-сметь=V,ipf,intr=praet,sg,indic,m
-,\n
-а=CONJ=
-_
-луг=S,m,inan=(acc,sg|nom,sg)
-_
-круглиться=V,ipf,intr=praet,sg,indic,m
-_
-необъятно=ADV=
-.\n\n
-и=CONJ=
-_
-пениться=V,ipf,intr=praet,sg,indic,f
-_
-мой=APRO=nom,sg,f
-_
-надежда=S,f,inan=nom,sg
-,_\u2014\n
-в=PR=
-_
-котенок=S,m,anim=abl,sg
-,_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-,_\u2014_
-как=CONJ=
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-...\n
-иль=CONJ=
-_
-это=PART=
-_
-сонный=A=nom,sg,plen,f
-_
-одежда=S,f,inan=nom,sg
-\n
-на=PR=
-_
-то=SPRO,sg,n,inan=abl
-,_
-что=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-,_\u2014_
-но=CONJ=
-_
-не=PART=
-_
-давать=V,tran=praet,sg,partcp,brev,n,pf,pass
-,\n
-что=CONJ=
-_
-наяву=ADV=
-_
-утаивать=V,tran=praet,sg,partcp,brev,n,pf,pass
-?..\n
+{наивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {месяц=S,m,inan=(acc,sg|nom,sg)}, {маленький=A=sg,brev,m} {и=CONJ=} {тонкий=A=sg,brev,m},
+{без=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пеленка=S,f,inan=gen,pl}
+{смотреть=V,ipf,tran=praet,sg,indic,m} {на=PR=} {луг=S,m,inan=(acc,sg|nom,sg)}. {а=CONJ=} {на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)} —
+{сидеть=V,ipf,intr=praet,sg,indic,m} {взъерошивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {котенок=S,m,anim=nom,sg},
+{как=CONJ=} {в=PR=} {зачарованный=A=(abl,sg,plen,m|abl,sg,plen,n)} {круг=S,m,inan=(dat,sg|loc,sg)}.
+
+{зачем=ADVPRO=} {он=SPRO,sg,3p,m=nom} {быть=V,intr=praet,sg,indic,m,ipf}, {зачем=ADVPRO=} {сидеть=V,ipf,intr=praet,sg,indic,m},
+{и=CONJ=} {отчего=ADVPRO=} {так=ADVPRO=} {месяц=S,m,inan=(acc,sg|nom,sg)} {белый=A=sg,brev,m}, —
+{все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {казаться=V,ipf,intr=praet,sg,indic,n} {непонятно=ADV,praed=}...
+{но=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {котенок=S,m,anim=nom,sg} {очень=ADV=} {сметь=V,ipf,intr=praet,sg,indic,m},
+{а=CONJ=} {луг=S,m,inan=(acc,sg|nom,sg)} {круглиться=V,ipf,intr=praet,sg,indic,m} {необъятно=ADV=}.
+
+{и=CONJ=} {пениться=V,ipf,intr=praet,sg,indic,f} {мой=APRO=nom,sg,f} {надежда=S,f,inan=nom,sg}, —
+{в=PR=} {котенок=S,m,anim=abl,sg}, {в=PR=} {небо=S,n,inan=abl,sg}, — {как=CONJ=} {вино=S,n,inan=(acc,sg|nom,sg)}...
+{иль=CONJ=} {это=PART=} {сонный=A=nom,sg,plen,f} {одежда=S,f,inan=nom,sg}
+{на=PR=} {то=SPRO,sg,n,inan=abl}, {что=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}, — {но=CONJ=} {не=PART=} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass},
+{что=CONJ=} {наяву=ADV=} {утаивать=V,tran=praet,sg,partcp,brev,n,pf,pass}?..

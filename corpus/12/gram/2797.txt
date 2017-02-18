@@ -1,56 +1,9 @@
-день=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-широкошумный?=A,plen=(acc,sg,m,inan|nom,sg,m)
-,\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-бархатный=A=nom,sg,plen,f
-_
-шуба=S,f,inan=nom,sg
-.\n
-кто=SPRO,sg,m,anim=nom
-_\u2014_
-умный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_\u2014_
-безумный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-всякий=APRO=sg,brev,m
-_
-выбирать=V=sg,imper,2p,ipf,tran
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-любо=ADV,praed=
-!\n\n
-друг=S,m,anim=nom,pl
-!_
-трубить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-в=PR=
-_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-друг=S,m,anim=nom,pl
-!_
-взводить=V=(inpraes,pl,indic,2p,ipf,tran|pl,imper,2p,ipf,tran)
-_
-сруб=S,m,inan=(acc,pl|nom,pl)
-!\n
-одевать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-по=PR=
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сон=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-бархатный=A=nom,sg,plen,f
-_
-шуба=S,f,inan=nom,sg
-.\n
+{день=S,m,inan=(acc,sg|nom,sg)} — {плащ=S,m,inan=(acc,sg|nom,sg)} {широкошумный?=A,plen=(acc,sg,m,inan|nom,sg,m)},
+{ночь=S,f,inan=(acc,sg|nom,sg)} — {бархатный=A=nom,sg,plen,f} {шуба=S,f,inan=nom,sg}.
+{кто=SPRO,sg,m,anim=nom} — {умный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {кто=SPRO,sg,m,anim=nom} — {безумный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{всякий=APRO=sg,brev,m} {выбирать=V=sg,imper,2p,ipf,tran}, {что=SPRO,sg,n,inan=(acc|nom)} {любо=ADV,praed=}!
+
+{друг=S,m,anim=nom,pl}! {трубить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {в=PR=} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{друг=S,m,anim=nom,pl}! {взводить=V=(inpraes,pl,indic,2p,ipf,tran|pl,imper,2p,ipf,tran)} {сруб=S,m,inan=(acc,pl|nom,pl)}!
+{одевать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(acc|gen)} {по=PR=} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сон=S,m,inan=(acc,sg|nom,sg)} — {бархатный=A=nom,sg,plen,f} {шуба=S,f,inan=nom,sg}.

@@ -1,120 +1,14 @@
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-изламывать=V,tran=praet,pl,partcp,brev,pf,pass
-,_
-как=CONJ=
-_
-преступление=S,n,inan=ins,sg
-,\n
-седой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-время=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-заржаветь=V,pf,intr=praet,sg,indic,m
-_
-ход=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-_
-сковывать=V=praet,sg,partcp,brev,n,pf,pass
-_
-оцепенение=S,n,inan=ins,sg
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-сдавливать=V,tran=praet,sg,partcp,brev,n,pf,pass
-,_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-как=CONJ=
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-:_
-все=ADV=
-_
-изменяться=V,intr=inpraes,sg,indic,3p,ipf
-...\n
-во=PR=
-_
-сон=S,m,inan=abl,sg
-_
-пророческий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-иль=CONJ=
-_
-наяву=ADV=
-?\n
-копье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-архангел=S,m,anim=(acc,sg|gen,sg)
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-касаться=V,intr=inpraes,sg,indic,3p,ipf
-_\n
-ожог=S,m,inan=ins,sg
-_
-пламенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-.\n\n
-пусть=PART=
-_
-на=PR=
-_
-мгновение=S,n,inan=(acc,sg|nom,sg)
-,_\u2014_
-на=PR=
-_
-полмгновение?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-касание=S,n,inan=ins,sg
-_
-растапливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-...\n
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-счастие=S,n,inan=(acc,sg|nom,sg)
-_
-освобождение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-прощение=S,n,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-в=PR=
-_
-полет=S,m,inan=(acc,sg|nom,sg)
-!\n
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {день=S,m,inan=(acc,pl|nom,pl)} {изламывать=V,tran=praet,pl,partcp,brev,pf,pass}, {как=CONJ=} {преступление=S,n,inan=ins,sg},
+{седой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {время=S,n,inan=(abl,sg|dat,sg|gen,sg)} {заржаветь=V,pf,intr=praet,sg,indic,m} {ход=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {тело=S,n,inan=(acc,sg|nom,sg)} {сковывать=V=praet,sg,partcp,brev,n,pf,pass} {оцепенение=S,n,inan=ins,sg},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сдавливать=V,tran=praet,sg,partcp,brev,n,pf,pass}, {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)} — {как=CONJ=} {лед=S,m,inan=(acc,sg|nom,sg)}.
+
+{но=CONJ=} {знать=V,ipf,tran=inpraes,sg,indic,1p} {молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}: {все=ADV=} {изменяться=V,intr=inpraes,sg,indic,3p,ipf}...
+{во=PR=} {сон=S,m,inan=abl,sg} {пророческий=A=(abl,sg,plen,m|abl,sg,plen,n)} {иль=CONJ=} {наяву=ADV=}?
+{копье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {архангел=S,m,anim=(acc,sg|gen,sg)} {я=SPRO,sg,1p=(acc|gen)} {касаться=V,intr=inpraes,sg,indic,3p,ipf} 
+{ожог=S,m,inan=ins,sg} {пламенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {и=CONJ=} {я=SPRO,sg,1p=nom} {жить=V,ipf,intr=inpraes,sg,indic,1p}.
+
+{пусть=PART=} {на=PR=} {мгновение=S,n,inan=(acc,sg|nom,sg)}, — {на=PR=} {полмгновение?=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {касание=S,n,inan=ins,sg} {растапливать=V,tran=praet,sg,partcp,brev,m,pf,pass} {лед=S,m,inan=(acc,sg|nom,sg)}...
+{я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {счастие=S,n,inan=(acc,sg|nom,sg)} {освобождение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {любовь=S,f,inan=(acc,sg|nom,sg)}, {прощение=S,n,inan=(acc,sg|nom,sg)}, {в=PR=} {огонь=S,m,inan=(acc,sg|nom,sg)} — {в=PR=} {полет=S,m,inan=(acc,sg|nom,sg)}!

@@ -1,58 +1,9 @@
-неожиданность=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-душа=S,f,inan=nom,sg
-_
-другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,\n
-удивлять=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-вновь=ADV=
-_
-и=CONJ=
-_
-вновь=ADV=
-.\n
-неожиданность=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-всякий=APRO=(acc,sg,plen,n|nom,sg,plen,n)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-,\n
-всякий=APRO=nom,sg,plen,f
-_
-ненависть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-неожиданность=S,f,inan=gen,pl
-_
-ожидать=V,ipf,tran=inpraes,ger
-,\n
-быть=V,intr=sg,imper,2p
-_
-же=PART=
-_
-готовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-они=SPRO,pl=dat
-_
-становиться=V,intr=inf,pf
-_
-слуга=S,m,anim=ins,sg
-.\n
-неожиданность=S,f,inan=(acc,sg|nom,sg)
-_
-еще=ADV=
-_
-двойной=A=nom,sg,plen,f
-,\n\t
-если=CONJ=
-_
-женщина=S,f,anim=nom,sg
-_\u2014_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\xAB
-другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-\xBB.\n
+{неожиданность=S,f,inan=(acc,sg|nom,sg)} — {душа=S,f,inan=nom,sg} {другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)},
+{удивлять=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act} {вновь=ADV=} {и=CONJ=} {вновь=ADV=}.
+{неожиданность=S,f,inan=(acc,sg|nom,sg)} — {всякий=APRO=(acc,sg,plen,n|nom,sg,plen,n)} {слово=S,n,inan=(acc,sg|nom,sg)},
+{всякий=APRO=nom,sg,plen,f} {ненависть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)}.
+
+{неожиданность=S,f,inan=gen,pl} {ожидать=V,ipf,tran=inpraes,ger},
+{быть=V,intr=sg,imper,2p} {же=PART=} {готовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {они=SPRO,pl=dat} {становиться=V,intr=inf,pf} {слуга=S,m,anim=ins,sg}.
+{неожиданность=S,f,inan=(acc,sg|nom,sg)} {еще=ADV=} {двойной=A=nom,sg,plen,f},
+	{если=CONJ=} {женщина=S,f,anim=nom,sg} — {твой=APRO=(acc,sg,m,inan|nom,sg,m)} «{другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}».

@@ -1,138 +1,29 @@
-и=CONJ=
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-непознанный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вставать=V,intr=praet,pl,indic,ipf
-_
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n\n
-шуметь=V,ipf,intr=praet,pl,indic
-,_
-сверкать=V,ipf,intr=praet,pl,indic
-,\n
-и=CONJ=
-_
-к=PR=
-_
-давать=V,tran=praet,pl,indic,pf
-_
-влечь=V,ipf,tran=praet,pl,indic
-,\n
-и=CONJ=
-_
-гнать=V,ipf,tran=praet,pl,indic
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-петь=V,ipf,tran=praet,pl,indic
-_
-вдали=ADV=
-.\n\n\xAB
-глядеть=V,ipf,tran=sg,imper,2p
-,_
-поглядеть=V,pf,tran=sg,imper,2p
-_
-же=PART=
-,\n
-как=CONJ=
-_
-бездна=S,f,inan=nom,sg
-_
-светлый=A=sg,brev,f
-!\n
-все=SPRO,pl=(acc|nom)
-_
-близко=ADV=comp
-_
-и=CONJ=
-_
-близко=ADV=comp
-\n
-лазурный=A=nom,sg,plen,f
-_
-мгла=S,f,inan=nom,sg
-!\xBB\n\n
-как=CONJ=
-_
-синий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-упасть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-_
-вниз=ADV=
-,\n
-морской=A,plen=(nom,pl|acc,pl,inan)
-_
-узор=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-громада=S,f,inan=acc,sg
-_
-сливаться=V,intr=praet,pl,indic,pf
-.\n\n
-закрывать=V=praet,pl,indic,pf
-_
-громада=S,f,inan=ins,sg
-\n
-я=SPRO,sg,1p=(acc|gen)
-_
-и=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-.\n
-я=SPRO,sg,1p=nom
-_
-гибнуть=V,ipf,intr=inpraes,sg,indic,1p
-_
-с=PR=
-_
-отрада=S,f,inan=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-гаснуть=V,ipf,intr=inpraes,sg,indic,1p
-_
-любить=V,ipf,tran=inpraes,ger
-.\n\n
-в=PR=
-_
-загадочный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-взор=S,m,inan=abl,sg
-,\n
-волноваться=V,ipf,intr=inpraes,ger
-,_
-тон=S,m,inan=dat,sg
-,\n
-и=CONJ=
-_
-слушать=V,ipf,tran=inpraes,sg,indic,1p
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-морской=A,plen=acc,sg,f
-_
-волна=S,f,inan=acc,sg
-.\n
+{и=CONJ=} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {непознанный=A,plen=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{вставать=V,intr=praet,pl,indic,ipf} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+
+{шуметь=V,ipf,intr=praet,pl,indic}, {сверкать=V,ipf,intr=praet,pl,indic},
+{и=CONJ=} {к=PR=} {давать=V,tran=praet,pl,indic,pf} {влечь=V,ipf,tran=praet,pl,indic},
+{и=CONJ=} {гнать=V,ipf,tran=praet,pl,indic} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {петь=V,ipf,tran=praet,pl,indic} {вдали=ADV=}.
+
+«{глядеть=V,ipf,tran=sg,imper,2p}, {поглядеть=V,pf,tran=sg,imper,2p} {же=PART=},
+{как=CONJ=} {бездна=S,f,inan=nom,sg} {светлый=A=sg,brev,f}!
+{все=SPRO,pl=(acc|nom)} {близко=ADV=comp} {и=CONJ=} {близко=ADV=comp}
+{лазурный=A=nom,sg,plen,f} {мгла=S,f,inan=nom,sg}!»
+
+{как=CONJ=} {синий=A=(acc,pl,plen,inan|nom,pl,plen)} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{упасть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {вниз=ADV=},
+{морской=A,plen=(nom,pl|acc,pl,inan)} {узор=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {громада=S,f,inan=acc,sg} {сливаться=V,intr=praet,pl,indic,pf}.
+
+{закрывать=V=praet,pl,indic,pf} {громада=S,f,inan=ins,sg}
+{я=SPRO,sg,1p=(acc|gen)} {и=CONJ=} {ты=SPRO,sg,2p=(acc|gen)}.
+{я=SPRO,sg,1p=nom} {гибнуть=V,ipf,intr=inpraes,sg,indic,1p} {с=PR=} {отрада=S,f,inan=ins,sg},
+{я=SPRO,sg,1p=nom} {гаснуть=V,ipf,intr=inpraes,sg,indic,1p} {любить=V,ipf,tran=inpraes,ger}.
+
+{в=PR=} {загадочный=A=(abl,sg,plen,m|abl,sg,plen,n)} {взор=S,m,inan=abl,sg},
+{волноваться=V,ipf,intr=inpraes,ger}, {тон=S,m,inan=dat,sg},
+{и=CONJ=} {слушать=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{морской=A,plen=acc,sg,f} {волна=S,f,inan=acc,sg}.

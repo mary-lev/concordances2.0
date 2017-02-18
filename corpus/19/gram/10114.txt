@@ -1,112 +1,14 @@
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-желтый=A=sg,brev,n
--
-красный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-закат=S,m,inan=gen,sg
-,\n
-колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-гулкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-заунывный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-...\n
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-проходить=V=(inpraes,nom,pl,partcp,plen,ipf,act,tran|inpraes,acc,pl,partcp,plen,ipf,act,inan,tran)
-_
-смутно=ADV=
-,_
-без=PR=
-_
-возврат=S,m,inan=gen,sg
-,\n
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-наболевший=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-неумолчный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стон=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-снег=S,m,inan=ins,sg
-_
-занести=V,pf=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)
-,_
-улица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пустой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-плакать=V,ipf,intr=inpraes,sg,indic,1p
-_
-колокольный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-внимать=V,intr=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-...\n
-из=PR=
-_
-окошко=S,n,inan=gen,sg
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-кудри=S,pl,inan=(acc|nom)
-_
-дымовой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-вереница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тесный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-деревянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-крыша=S,f,inan=gen,pl
-.\n\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-холод=S,m,inan=ins,sg
-_
-чародейный=A=sg,brev,n
-_
-сковывать=V=praet,sg,partcp,brev,m,pf,pass
-.\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-зловещий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-в=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-.\n
-грусть=S,f,inan=ins,sg
-_
-ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-разум=S,m,inan=(acc,sg|nom,sg)
-_
-очаровывать=V=praet,sg,partcp,brev,m,pf,pass
-.\n
-образ=S,m,inan=(acc,pl|nom,pl)
-_
-минувший=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-снова=ADV=
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
+{небо=S,n,inan=(acc,sg|nom,sg)} {желтый=A=sg,brev,n}-{красный=A=(acc,sg,plen,n|nom,sg,plen,n)} {зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {закат=S,m,inan=gen,sg},
+{колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)} {гулкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {заунывный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звон=S,m,inan=(acc,sg|nom,sg)}...
+{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {проходить=V=(inpraes,nom,pl,partcp,plen,ipf,act,tran|inpraes,acc,pl,partcp,plen,ipf,act,inan,tran)} {смутно=ADV=}, {без=PR=} {возврат=S,m,inan=gen,sg},
+{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {наболевший=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {неумолчный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стон=S,m,inan=(acc,sg|nom,sg)}...
+
+{снег=S,m,inan=ins,sg} {занести=V,pf=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)}, {улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пустой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{плакать=V,ipf,intr=inpraes,sg,indic,1p} {колокольный=A=(dat,sg,plen,m|dat,sg,plen,n)} {внимать=V,intr=inpraes,nom,sg,partcp,plen,f,ipf,act} {тишь=S,f,inan=(acc,sg|nom,sg)}...
+{из=PR=} {окошко=S,n,inan=gen,sg} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {кудри=S,pl,inan=(acc|nom)} {дымовой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{вереница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тесный=A=(acc,pl,plen,inan|nom,pl,plen)} {деревянный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крыша=S,f,inan=gen,pl}.
+
+{воздух=S,m,inan=(acc,sg|nom,sg)} {жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {холод=S,m,inan=ins,sg} {чародейный=A=sg,brev,n} {сковывать=V=praet,sg,partcp,brev,m,pf,pass}.
+{что-то=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {зловещий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тишина=S,sg,f,inan=(abl|dat)}.
+{грусть=S,f,inan=ins,sg} {ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {разум=S,m,inan=(acc,sg|nom,sg)} {очаровывать=V=praet,sg,partcp,brev,m,pf,pass}.
+{образ=S,m,inan=(acc,pl|nom,pl)} {минувший=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {снова=ADV=} {сниться=V,ipf,intr=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.

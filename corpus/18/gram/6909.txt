@@ -1,96 +1,16 @@
-там=ADVPRO=
-_
-с=PR=
-_
-вершина=S,f,inan=gen,pl
-_
-отвесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-ледник=S,m,inan=(acc,pl|nom,pl)
-_
-сползать=V,pf,intr=inpraes,pl,indic,3p
-,\n
-там=ADVPRO=
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-тесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-щель=S,f,inan=abl,pl
-_
-пролегать=V,intr=inpraes,pl,indic,3p,ipf
-.\n
-там=ADVPRO=
-_
-немой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-круча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-не=PART=
-_
-давать=V,tran=inpraes,pl,indic,3p,ipf
-_
-простор=S,m,inan=(dat,sg|part,sg)
-,_\n
-грозовой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-обнимать=V,tran=inpraes,pl,indic,3p,ipf
-_
-гора=S,f,inan=acc,sg
-.\n
-лапа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ель=S,f,inan=gen,pl
-_\n
-мягкий=A=pl,brev
-_
-и=CONJ=
-_
-широкий=A=pl,brev
-,\n
-в=PR=
-_
-душный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-ущелие=S,n,inan=gen,pl
-_\n
-метаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-поток=S,m,inan=(acc,pl|nom,pl)
-.\n
-в=PR=
-_
-буйный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-гнев=S,m,inan=abl,sg
-_
-свирепеть=V,ipf,intr=inpraes,ger
-,_\n
-там=ADVPRO=
-_
-грохотать=V,ipf,intr=inpraes,sg,indic,3p
-_
-рейн=S,geo,m,inan=(acc,sg|nom,sg)
-.\n
-здесь=ADVPRO=
-_
-ли=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-жить=V,ipf,intr=praet,sg,indic,f
-,_
-о=PR=
-_
-фея=S,f,anim=nom,sg
-_\u2014_\n
-раутенделейн?=S,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-?\n
+{там=ADVPRO=} {с=PR=} {вершина=S,f,inan=gen,pl} {отвесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{ледник=S,m,inan=(acc,pl|nom,pl)} {сползать=V,pf,intr=inpraes,pl,indic,3p},
+{там=ADVPRO=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {тесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{щель=S,f,inan=abl,pl} {пролегать=V,intr=inpraes,pl,indic,3p,ipf}.
+{там=ADVPRO=} {немой=A=(acc,pl,plen,inan|nom,pl,plen)} {круча=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{не=PART=} {давать=V,tran=inpraes,pl,indic,3p,ipf} {простор=S,m,inan=(dat,sg|part,sg)}, 
+{грозовой=A=(acc,pl,plen,inan|nom,pl,plen)} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{обнимать=V,tran=inpraes,pl,indic,3p,ipf} {гора=S,f,inan=acc,sg}.
+{лапа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ель=S,f,inan=gen,pl} 
+{мягкий=A=pl,brev} {и=CONJ=} {широкий=A=pl,brev},
+{в=PR=} {душный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)} {ущелие=S,n,inan=gen,pl} 
+{метаться=V,ipf,intr=inpraes,pl,indic,3p} {поток=S,m,inan=(acc,pl|nom,pl)}.
+{в=PR=} {буйный=A=(abl,sg,plen,m|abl,sg,plen,n)} {гнев=S,m,inan=abl,sg} {свирепеть=V,ipf,intr=inpraes,ger}, 
+{там=ADVPRO=} {грохотать=V,ipf,intr=inpraes,sg,indic,3p} {рейн=S,geo,m,inan=(acc,sg|nom,sg)}.
+{здесь=ADVPRO=} {ли=PART=} {ты=SPRO,sg,2p=nom} {жить=V,ipf,intr=praet,sg,indic,f}, {о=PR=} {фея=S,f,anim=nom,sg} — 
+{раутенделейн?=S,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}?

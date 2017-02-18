@@ -1,142 +1,20 @@
-кукушка=S,f,anim=nom,sg
-_
-куковать=V,ipf,intr=praet,sg,indic,f
-,\n
-сидеть=V,ipf,intr=inpraes,ger
-_
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-садочек=S,m,inan=abl,sg
-,\n
-головка=S,f,inan=ins,sg
-_
-лежать=V,ipf,intr=praet,sg,indic,f
-\n
-она=SPRO,sg,3p,f=nom
-_
-на=PR=
-_
-свежий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-почка=S,f,inan=(abl,sg|dat,sg)
-.\n
-к=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-_
-прилетать=V,intr=praet,pl,indic,ipf
-,\n
-с=PR=
-_
-участие=S,n,inan=ins,sg
-_
-говорить=V,ipf,tran=praet,pl,indic
-:\n\xAB
-с=PR=
-_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-вы=SPRO,pl,2p=nom
-,_
-милый=A=nom,sg,plen,f
-,_
-заныть=V,pf,intr=praet,pl,indic
-\xBB.\n\u2014_\xAB
-стрясаться=V,intr=praet,sg,indic,n,pf
-_
-несчастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-черный=A=(acc,sg,plen,n|nom,sg,plen,n)
-;\n
-свивать=V=praet,sg,indic,f,pf
-_
-себя=SPRO=(abl|dat)
-_
-гнездо=S,n,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-\n
-большой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-и=CONJ=
-_
-просторный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-снести=V,pf=praet,sg,indic,f
-_
-себя=SPRO=(abl|dat)
-_
-яйцо=S,n,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-.\n
-вдруг=ADV=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-орел=S,m,anim=nom,sg
-_
-замечать=V,tran=praet,sg,indic,m,pf
-,\n
-в=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-тотчас=ADV=
-_
-влюбляться=V,intr=praet,sg,indic,m,pf
-,\n
-гнездо=S,n,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-примечать=V,tran=praet,sg,indic,m,pf
-,\n
-в=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,_
-как=CONJ=
-_
-волк=S,m,anim=nom,sg
-,_
-вцепляться=V,intr=praet,sg,indic,m,pf
-,\n
-яйцо=S,n,inan=(acc,sg|nom,sg)
-_
-разбивать=V,tran=praet,sg,indic,m,pf
-_
-поспешно=ADV=
-,\n
-я=SPRO,sg,1p=(acc|gen)
-_
-он=SPRO,sg,3p,m=nom
-_
-взять=V,pf,tran=praet,sg,indic,m
-_
-с=PR=
-_
-себя=SPRO=ins
-,\n
-обнимать=V,tran=praet,ger,pf
-_
-страстно=ADV=
-,_
-нежно=ADV=
-,\n
-и=CONJ=
-_
-сделать=V,pf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-жена=S,f,anim=ins,sg
-\xBB.\n
+{кукушка=S,f,anim=nom,sg} {куковать=V,ipf,intr=praet,sg,indic,f},
+{сидеть=V,ipf,intr=inpraes,ger} {в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {садочек=S,m,inan=abl,sg},
+{головка=S,f,inan=ins,sg} {лежать=V,ipf,intr=praet,sg,indic,f}
+{она=SPRO,sg,3p,f=nom} {на=PR=} {свежий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {почка=S,f,inan=(abl,sg|dat,sg)}.
+{к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {птица=S,f,anim=(gen,sg|nom,pl)} {прилетать=V,intr=praet,pl,indic,ipf},
+{с=PR=} {участие=S,n,inan=ins,sg} {говорить=V,ipf,tran=praet,pl,indic}:
+«{с=PR=} {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{вы=SPRO,pl,2p=nom}, {милый=A=nom,sg,plen,f}, {заныть=V,pf,intr=praet,pl,indic}».
+— «{стрясаться=V,intr=praet,sg,indic,n,pf} {несчастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {черный=A=(acc,sg,plen,n|nom,sg,plen,n)};
+{свивать=V=praet,sg,indic,f,pf} {себя=SPRO=(abl|dat)} {гнездо=S,n,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom}
+{большой=A=(acc,sg,plen,n|nom,sg,plen,n)} {и=CONJ=} {просторный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{снести=V,pf=praet,sg,indic,f} {себя=SPRO=(abl|dat)} {яйцо=S,n,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom}.
+{вдруг=ADV=} {мы=SPRO,pl,1p=(abl|acc|gen)} {орел=S,m,anim=nom,sg} {замечать=V,tran=praet,sg,indic,m,pf},
+{в=PR=} {я=SPRO,sg,1p=(acc|gen)} {тотчас=ADV=} {влюбляться=V,intr=praet,sg,indic,m,pf},
+{гнездо=S,n,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {примечать=V,tran=praet,sg,indic,m,pf},
+{в=PR=} {он=SPRO,sg,3p,m=(acc|gen)}, {как=CONJ=} {волк=S,m,anim=nom,sg}, {вцепляться=V,intr=praet,sg,indic,m,pf},
+{яйцо=S,n,inan=(acc,sg|nom,sg)} {разбивать=V,tran=praet,sg,indic,m,pf} {поспешно=ADV=},
+{я=SPRO,sg,1p=(acc|gen)} {он=SPRO,sg,3p,m=nom} {взять=V,pf,tran=praet,sg,indic,m} {с=PR=} {себя=SPRO=ins},
+{обнимать=V,tran=praet,ger,pf} {страстно=ADV=}, {нежно=ADV=},
+{и=CONJ=} {сделать=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {жена=S,f,anim=ins,sg}».

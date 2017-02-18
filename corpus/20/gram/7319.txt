@@ -1,106 +1,14 @@
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-давить=V,ipf,tran=inpraes,sg,indic,3p
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-,\n\t
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-шелестеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-,_\n\t
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-легкое=S,n,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-творить=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-..._\n
-давить=V,ipf,tran=inpraes,sg,indic,3p
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-дух=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-душить=V,ipf,tran=inpraes,sg,indic,3p
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-,\n\t
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-детский=A=acc,sg,plen,f
-,_
-с=PR=
-_
-тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-свивать=V=praet,acc,sg,partcp,plen,f,pf,pass
-,_\n\t
-ласка=S,f,inan=acc,sg
-_
-быстрый=A=acc,sg,plen,f
-_
-и=CONJ=
-_
-открывать=V=praet,acc,sg,partcp,plen,f,pf,pass
-..._\n
-душить=V,ipf,tran=inpraes,sg,indic,3p
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-плоть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-камень=S,m,inan=dat,sg
-_
-к=PR=
-_
-камень=S,m,inan=dat,sg
-_
-нет=ADV,praed=
-_
-путь=S,m,inan=gen,pl
-.\n\t
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-погребать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,_\n\t
-и=CONJ=
-_
-себя=SPRO=ins
-_
-в=PR=
-_
-себя=SPRO=(abl|dat)
-_\u2014_
-разделять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-..._\n
-мы=SPRO,pl,1p=dat
-_
-друг=S,m,anim=nom,sg
-_
-к=PR=
-_
-друг=S,m,anim=dat,sg
-_
-нет=ADV,praed=
-_
-путь=S,m,inan=gen,pl
-.\n
+{камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {давить=V,ipf,tran=inpraes,sg,indic,3p} {дух=S,m,inan=(acc,sg|nom,sg)},
+	{крыло=S,n,inan=(acc,pl|nom,pl)} {белый=A=(acc,pl,plen,inan|nom,pl,plen)}, {шелестеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}, 
+	{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {легкое=S,n,inan=(acc,pl|nom,pl)} {и=CONJ=} {творить=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}... 
+{давить=V,ipf,tran=inpraes,sg,indic,3p} {камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {дух=S,m,inan=(acc,sg|nom,sg)}.
+
+{камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {душить=V,ipf,tran=inpraes,sg,indic,3p} {плоть=S,f,inan=(acc,sg|nom,sg)},
+	{радость=S,f,inan=(acc,sg|nom,sg)} {детский=A=acc,sg,plen,f}, {с=PR=} {тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {свивать=V=praet,acc,sg,partcp,plen,f,pf,pass}, 
+	{ласка=S,f,inan=acc,sg} {быстрый=A=acc,sg,plen,f} {и=CONJ=} {открывать=V=praet,acc,sg,partcp,plen,f,pf,pass}... 
+{душить=V,ipf,tran=inpraes,sg,indic,3p} {камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {плоть=S,f,inan=(acc,sg|nom,sg)}.
+
+{камень=S,m,inan=dat,sg} {к=PR=} {камень=S,m,inan=dat,sg} {нет=ADV,praed=} {путь=S,m,inan=gen,pl}.
+	{мы=SPRO,pl,1p=nom} {в=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {земля=S,f,inan=(abl,sg|dat,sg)} — {погребать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, 
+	{и=CONJ=} {себя=SPRO=ins} {в=PR=} {себя=SPRO=(abl|dat)} — {разделять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}... 
+{мы=SPRO,pl,1p=dat} {друг=S,m,anim=nom,sg} {к=PR=} {друг=S,m,anim=dat,sg} {нет=ADV,praed=} {путь=S,m,inan=gen,pl}.

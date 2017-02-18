@@ -1,176 +1,20 @@
-ах=INTJ=
-,_
-не=PART=
-_
-плыть=V,ipf,intr=inf
-_
-по=PR=
-_
-голубой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-море=S,n,inan=dat,sg
-,\n
-не=PART=
-_
-видать=V,ipf,tran=inf
-_
-мы=SPRO,pl,1p=dat
-_
-золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рог=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-голубь=S,m,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-площадь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сан=S,m,inan=(acc,sg|nom,sg)
--
-марк=S,persn,m,anim=(acc,sg|gen,sg)
-._\n
-хорошо=ADV=parenth
-_
-отплывать=V,intr=inf,pf
-_
-туда=ADVPRO=
-,_
-где=ADVPRO=
-_
-жарко=ADV=
-,_\n
-да=CONJ=
-_
-двоиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-милый=A=nom,sg,plen,f
-_
-дорога=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-к=PR=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-иль=CONJ=
-_
-к=PR=
-_
-горе=S,sg,n,inan=dat
-.\n\n
-не=PART=
-_
-видать=V,ipf,tran=inf
-_
-открытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-палуба=S,f,inan=gen,pl
-_\n
-и=CONJ=
-_
-суд=S,m,inan=gen,pl
-_
-с=PR=
-_
-косой=A=ins,pl,plen
-_
-парус=S,m,inan=ins,pl
-,_\n
-золотой=A=ins,pl,plen
-_
-в=PR=
-_
-зарево=S,n,inan=abl,sg
-_
-закат=S,m,inan=gen,sg
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-случаться=V,intr=inpraes,sg,indic,3p,ipf
-,_
-должно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-_
-святой=A=sg,brev,n
-,_\n
-управлять=V,ipf,intr=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-мы=SPRO,pl,1p=nom
-_
-судьба=S,f,inan=ins,sg
-_
-не=PART=
-_
-сам=APRO=(nom,pl|acc,pl,inan)
-,_\n
-никто=SPRO,sg,m,anim=dat
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-жалоба=S,f,inan=gen,pl
-.\n\n
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-судьба=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-переспоривать=V,tran=inpraes,sg,indic,1p,pf
-,_\n
-сбываться=V,intr=inpraes,sg,indic,3p,pf
-_
-веселый=A=nom,sg,plen,f
-_
-дорога=S,f,inan=nom,sg
-,\n
-отплывать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-весна=S,f,inan=ins,sg
-_
-туда=ADVPRO=
-,_
-где=ADVPRO=
-_
-жарко=ADV=
-,_\n
-и=CONJ=
-_
-покормить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-голубь=S,m,anim=(acc,pl|gen,pl)
-_
-сан=S,m,inan=(acc,sg|nom,sg)
--
-марк=S,persn,m,anim=(acc,sg|gen,sg)
-,\n
-поплыть=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-вдоль=PR=
-_
-золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рог=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-к=PR=
-_
-голубой=A=(dat,sg,plen,m|dat,sg,plen,n)
-,_
-ласковый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-море=S,n,inan=dat,sg
-!\n
+{ах=INTJ=}, {не=PART=} {плыть=V,ipf,intr=inf} {по=PR=} {голубой=A=(dat,sg,plen,m|dat,sg,plen,n)} {море=S,n,inan=dat,sg},
+{не=PART=} {видать=V,ipf,tran=inf} {мы=SPRO,pl,1p=dat} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рог=S,m,inan=(acc,pl|gen,sg|nom,pl)}, 
+{голубь=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {площадь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сан=S,m,inan=(acc,sg|nom,sg)}-{марк=S,persn,m,anim=(acc,sg|gen,sg)}. 
+{хорошо=ADV=parenth} {отплывать=V,intr=inf,pf} {туда=ADVPRO=}, {где=ADVPRO=} {жарко=ADV=}, 
+{да=CONJ=} {двоиться=V,ipf,intr=inpraes,sg,indic,3p} {милый=A=nom,sg,plen,f} {дорога=S,f,inan=nom,sg},
+{и=CONJ=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {к=PR=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {иль=CONJ=} {к=PR=} {горе=S,sg,n,inan=dat}.
+
+{не=PART=} {видать=V,ipf,tran=inf} {открытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {палуба=S,f,inan=gen,pl} 
+{и=CONJ=} {суд=S,m,inan=gen,pl} {с=PR=} {косой=A=ins,pl,plen} {парус=S,m,inan=ins,pl}, 
+{золотой=A=ins,pl,plen} {в=PR=} {зарево=S,n,inan=abl,sg} {закат=S,m,inan=gen,sg}.
+{что=SPRO,sg,n,inan=(acc|nom)} {случаться=V,intr=inpraes,sg,indic,3p,ipf}, {должно=ADV,praed=} {быть=V,intr=inf,ipf} {святой=A=sg,brev,n}, 
+{управлять=V,ipf,intr=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {мы=SPRO,pl,1p=nom} {судьба=S,f,inan=ins,sg} {не=PART=} {сам=APRO=(nom,pl|acc,pl,inan)}, 
+{никто=SPRO,sg,m,anim=dat} {не=PART=} {надо=ADV,praed=} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {жалоба=S,f,inan=gen,pl}.
+
+{мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {судьба=S,f,inan=acc,sg} {и=CONJ=} {переспоривать=V,tran=inpraes,sg,indic,1p,pf}, 
+{сбываться=V,intr=inpraes,sg,indic,3p,pf} {веселый=A=nom,sg,plen,f} {дорога=S,f,inan=nom,sg},
+{отплывать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {весна=S,f,inan=ins,sg} {туда=ADVPRO=}, {где=ADVPRO=} {жарко=ADV=}, 
+{и=CONJ=} {покормить=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {голубь=S,m,anim=(acc,pl|gen,pl)} {сан=S,m,inan=(acc,sg|nom,sg)}-{марк=S,persn,m,anim=(acc,sg|gen,sg)},
+{поплыть=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {вдоль=PR=} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рог=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+{к=PR=} {голубой=A=(dat,sg,plen,m|dat,sg,plen,n)}, {ласковый=A=(dat,sg,plen,m|dat,sg,plen,n)} {море=S,n,inan=dat,sg}!

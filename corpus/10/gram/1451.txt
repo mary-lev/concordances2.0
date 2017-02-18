@@ -1,62 +1,11 @@
-разбой=S,m,inan=gen,sg
-_
-след=S,m,inan=(acc,sg|nom,sg)
-_
-затерянный=A=sg,brev,m
-_
-прочно=ADV=
-\n
-во=PR=
-_
-тьма=S,f,inan=(abl,sg|dat,sg)
-_
-египетский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ночь=S,f,inan=gen,pl
-.\n
-проверять=V,tran=praet,ger,pf
-_
-рукопись=S,f,inan=(acc,sg|nom,sg)
-\n
-построчно=ADV=
-,\n
-гроши=S,pl,inan=(acc|nom)
-_
-отсыпать=V,pf,tran=praet,sg,indic,m
-_
-казначей=S,m,anim=nom,sg
-.\n
-бояться=V,ipf,intr=inf
-_
-вы=SPRO,pl,2p=dat
-_
-рожон=S,m,inan=gen,sg
-_
-какой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-\n
-против=PR=
-_\u2014_
-пушкин=S,famn,m,anim=dat,sg
-_
-иметь=V,ipf,tran=inf
-?\n
-он=SPRO,sg,3p,m=(acc|gen)
-_
-кулак=S,m,inan=(acc,sg|nom,sg)
-\n
-навек=ADV=
-_
-заковывать=V=praet,sg,partcp,brev,m,pf,pass
-\n
-в=PR=
-_
-спокойный=A=acc,sg,plen,f
-_
-к=PR=
-_
-обида=S,f,inan=(abl,sg|dat,sg)
-_
-медь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{разбой=S,m,inan=gen,sg} {след=S,m,inan=(acc,sg|nom,sg)} {затерянный=A=sg,brev,m} {прочно=ADV=}
+{во=PR=} {тьма=S,f,inan=(abl,sg|dat,sg)} {египетский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=gen,pl}.
+{проверять=V,tran=praet,ger,pf} {рукопись=S,f,inan=(acc,sg|nom,sg)}
+{построчно=ADV=},
+{гроши=S,pl,inan=(acc|nom)} {отсыпать=V,pf,tran=praet,sg,indic,m} {казначей=S,m,anim=nom,sg}.
+{бояться=V,ipf,intr=inf} {вы=SPRO,pl,2p=dat} {рожон=S,m,inan=gen,sg} {какой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}?
+{что=SPRO,sg,n,inan=(acc|nom)}
+{против=PR=} — {пушкин=S,famn,m,anim=dat,sg} {иметь=V,ipf,tran=inf}?
+{он=SPRO,sg,3p,m=(acc|gen)} {кулак=S,m,inan=(acc,sg|nom,sg)}
+{навек=ADV=} {заковывать=V=praet,sg,partcp,brev,m,pf,pass}
+{в=PR=} {спокойный=A=acc,sg,plen,f} {к=PR=} {обида=S,f,inan=(abl,sg|dat,sg)} {медь=S,f,inan=(acc,sg|nom,sg)}!

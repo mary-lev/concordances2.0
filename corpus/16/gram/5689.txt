@@ -1,148 +1,24 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-так=ADVPRO=
-_
-недавно=ADV=
-,\n
-но=CONJ=
-_
-для=PR=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-так=ADVPRO=
-_
-давно=ADV=
-...\n
-о=PR=
-_
-фиалка=S,f,inan=(abl,sg|dat,sg)
-_
-грезить=V,ipf,intr=praet,sg,indic,m
-_
-запад=S,geo,m,inan=(acc,sg|nom,sg)
-,\n
-отражать=V=praet,ger,pf
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-темно=ADV,praed=
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-приходить=V,intr=praet,sg,indic,f,pf
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_\u2014_
-как=ADVPRO=
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-весенний=A=nom,sg,plen,f
-_
-заря=S,f,inan=nom,sg
-,\n
-безмятежно=ADV=
-_
-улыбаться=V,intr=inpraes,ger,ipf
-,\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-говорить=V,ipf,tran=inpraes,ger
-.\n\n
-речка=S,f,inan=acc,sg
-_
-сонный=A=acc,sg,plen,f
-_
-баюкать=V,ipf,tran=praet,sg,indic,m
-\n
-свет=S,sg,m,inan=(acc|nom)
-_
-заботливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-где-то=ADVPRO=
-_
-песня=S,f,inan=nom,sg
-_
-колыхаться=V,ipf,intr=praet,sg,indic,f
-,\n
-как=CONJ=
-_
-далекий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плеск=S,m,inan=(acc,sg|nom,sg)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-,_
-зачаровывать=V=praet,sg,partcp,brev,m,pf,pass
-,\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-говорить=V,ipf,tran=inpraes,ger
-,\n
-как=ADVPRO=
-_
-скрывать=V=praet,sg,indic,f,ipf,tran
-_
-ты=SPRO,sg,2p=nom
-_
-смущение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-флер=S,m,inan=ins,sg
-_\u2014_
-синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-как=CONJ=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-о=PR=
-,_
-молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-ты=SPRO,sg,2p=ins
-_
-озарять=V,tran=praet,sg,partcp,brev,n,pf,pass
-!\n
-так=ADVPRO=
-_
-недавно=ADV=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,\n
-а=CONJ=
-_
-для=PR=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-так=ADVPRO=
-_
-давно=ADV=
-!..\n
+{это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {так=ADVPRO=} {недавно=ADV=},
+{но=CONJ=} {для=PR=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {так=ADVPRO=} {давно=ADV=}...
+{о=PR=} {фиалка=S,f,inan=(abl,sg|dat,sg)} {грезить=V,ipf,intr=praet,sg,indic,m} {запад=S,geo,m,inan=(acc,sg|nom,sg)},
+{отражать=V=praet,ger,pf} {она=SPRO,sg,3p,f=(acc|gen)} {темно=ADV,praed=}.
+
+{ты=SPRO,sg,2p=nom} {приходить=V,intr=praet,sg,indic,f,pf} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} — {как=ADVPRO=} {утро=S,n,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {весенний=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg},
+{безмятежно=ADV=} {улыбаться=V,intr=inpraes,ger,ipf},
+{ничто=SPRO,sg,n=gen} {не=PART=} {говорить=V,ipf,tran=inpraes,ger}.
+
+{речка=S,f,inan=acc,sg} {сонный=A=acc,sg,plen,f} {баюкать=V,ipf,tran=praet,sg,indic,m}
+{свет=S,sg,m,inan=(acc|nom)} {заботливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{где-то=ADVPRO=} {песня=S,f,inan=nom,sg} {колыхаться=V,ipf,intr=praet,sg,indic,f},
+{как=CONJ=} {далекий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плеск=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {смотреть=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom}, {зачаровывать=V=praet,sg,partcp,brev,m,pf,pass},
+{ничто=SPRO,sg,n=gen} {не=PART=} {говорить=V,ipf,tran=inpraes,ger},
+{как=ADVPRO=} {скрывать=V=praet,sg,indic,f,ipf,tran} {ты=SPRO,sg,2p=nom} {смущение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{флер=S,m,inan=ins,sg} — {синий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {как=CONJ=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{о=PR=}, {молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{все=SPRO,pl=(acc|nom)} {ты=SPRO,sg,2p=ins} {озарять=V,tran=praet,sg,partcp,brev,n,pf,pass}!
+{так=ADVPRO=} {недавно=ADV=} {это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf},
+{а=CONJ=} {для=PR=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {так=ADVPRO=} {давно=ADV=}!..

@@ -1,130 +1,19 @@
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-высоко=ADV=
-_
-звезда=S,f,inan=nom,sg
-_
-рассветный=A=nom,sg,plen,f
-,_\n
-как=ADVPRO=
-_
-око=S,n,inan=(acc,sg|nom,sg)
-_
-ясный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-восток=S,geo,m,inan=gen,sg
-,\n
-и=CONJ=
-,_
-одинокий=A=nom,sg,plen,f
-,_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-далеко=ADV=
-_\n
-свирель=S,f,inan=(acc,sg|nom,sg)
-_
-приветный=A=nom,sg,plen,f
-.\n\n
-заря=S,f,inan=nom,sg
-_
-алеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-прохладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ясность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-нежно=ADV=comp
-_
-вздох=S,m,inan=gen,sg
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-не=PART=
-_
-млеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-роща=S,f,inan=nom,sg
-,_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-светлеть=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-в=PR=
-_
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-_
-жать=V,ipf,tran=praet,sg,indic,f
-_
-и=CONJ=
-_
-нету=ADV,praed=
-_
-жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-уж=PART=
-_
-спать=V,ipf,intr=praet,sg,indic,n
-_
-скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-покрывало=S,n,inan=(acc,sg|nom,sg)
-._\n
-и=CONJ=
-_
-где=ADVPRO=
-_
-причать?=V,pf,intr=praet,sg,indic,n
-,_
-от=PR=
-_
-начало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-удерживать=V,tran=praet,sg,indic,n,pf
-_
-бы=PART=
-?\n\n
-вновь=ADV=
-_
-вереница=S,f,inan=nom,sg
-_
-взор=S,m,inan=gen,pl
-_
-радостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-и=CONJ=
-_
-птица=S,f,anim=nom,sg
-_
-райский=A=nom,sg,plen,f
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-._\n
-открываться=V,intr=inf,pf
-_
-пробивать=V,tran=praet,sg,indic,m,pf
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-страница=S,f,inan=(abl,sg|dat,sg)
-_\n
-лобзание=S,n,inan=abl,sg
-_
-сладостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-!\n
+{гореть=V,ipf,intr=inpraes,sg,indic,3p} {высоко=ADV=} {звезда=S,f,inan=nom,sg} {рассветный=A=nom,sg,plen,f}, 
+{как=ADVPRO=} {око=S,n,inan=(acc,sg|nom,sg)} {ясный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {восток=S,geo,m,inan=gen,sg},
+{и=CONJ=}, {одинокий=A=nom,sg,plen,f}, {петь=V,ipf,tran=inpraes,sg,indic,3p} {далеко=ADV=} 
+{свирель=S,f,inan=(acc,sg|nom,sg)} {приветный=A=nom,sg,plen,f}.
+
+{заря=S,f,inan=nom,sg} {алеть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {прохладный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ясность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{нежно=ADV=comp} {вздох=S,m,inan=gen,sg} {воздух=S,m,inan=(acc,sg|nom,sg)} {веять=V,ipf,tran=inpraes,sg,indic,3p},
+{не=PART=} {млеть=V,ipf,intr=inpraes,sg,indic,3p} {роща=S,f,inan=nom,sg}, {даль=S,f,inan=(acc,sg|nom,sg)} {светлеть=V,ipf,intr=inpraes,sg,indic,3p} 
+{в=PR=} {святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=} {жать=V,ipf,tran=praet,sg,indic,f} {и=CONJ=} {нету=ADV,praed=} {жалоба=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{уж=PART=} {спать=V,ipf,intr=praet,sg,indic,n} {скорбь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {покрывало=S,n,inan=(acc,sg|nom,sg)}. 
+{и=CONJ=} {где=ADVPRO=} {причать?=V,pf,intr=praet,sg,indic,n}, {от=PR=} {начало=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{что=SPRO,sg,n,inan=(acc|nom)} {удерживать=V,tran=praet,sg,indic,n,pf} {бы=PART=}?
+
+{вновь=ADV=} {вереница=S,f,inan=nom,sg} {взор=S,m,inan=gen,pl} {радостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{и=CONJ=} {птица=S,f,anim=nom,sg} {райский=A=nom,sg,plen,f} {я=SPRO,sg,1p=(abl|dat)} {сниться=V,ipf,intr=inpraes,sg,indic,3p}. 
+{открываться=V,intr=inf,pf} {пробивать=V,tran=praet,sg,indic,m,pf} {час=S,m,inan=(acc,sg|nom,sg)} {страница=S,f,inan=(abl,sg|dat,sg)} 
+{лобзание=S,n,inan=abl,sg} {сладостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}!

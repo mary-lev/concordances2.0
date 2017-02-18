@@ -1,60 +1,9 @@
-безупречный=A=sg,brev,m
-_
-и=CONJ=
-_
-гордый=A=sg,brev,m
-\n
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-подымать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-лоб=S,m,inan=(acc,sg|nom,sg)
-.\n
-непонятный=A=sg,brev,m
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-герб=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-страшный=A=sg,brev,m
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-меж=PR=
-_
-вельможа=S,m,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-раб=S,m,anim=(acc,pl|gen,pl)
-,\n
-меж=PR=
-_
-горб=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-герб=S,m,inan=gen,pl
-,\n
-земля=S,f,inan=acc,sg
-_
-рыть=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-лоб=S,m,inan=gen,pl
-_\u2014_\n
-я=SPRO,sg,1p=nom
-_\u2014_
-из=PR=
-_
-род=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-дуб=S,m,inan=gen,pl
-.\n
+{безупречный=A=sg,brev,m} {и=CONJ=} {гордый=A=sg,brev,m}
+{в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {подымать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {лоб=S,m,inan=(acc,sg|nom,sg)}.
+{непонятный=A=sg,brev,m} {я=SPRO,sg,1p=(abl|dat)} {герб=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {не=PART=} {страшный=A=sg,brev,m} {я=SPRO,sg,1p=(abl|dat)} {гроб=S,m,inan=(acc,sg|nom,sg)}.
+
+{меж=PR=} {вельможа=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {раб=S,m,anim=(acc,pl|gen,pl)},
+{меж=PR=} {горб=S,m,inan=gen,pl} {и=CONJ=} {герб=S,m,inan=gen,pl},
+{земля=S,f,inan=acc,sg} {рыть=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {лоб=S,m,inan=gen,pl} — 
+{я=SPRO,sg,1p=nom} — {из=PR=} {род=S,m,inan=(acc,pl|gen,sg|nom,pl)} {дуб=S,m,inan=gen,pl}.

@@ -1,140 +1,17 @@
-как=CONJ=
-_
-вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-волшебник=S,m,anim=(acc,sg|gen,sg)
--
-халдей=S,m,anim=(acc,sg|gen,sg)
-,\n
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-один=APRO=nom,sg,f
-_
-мечта=S,f,inan=nom,sg
-.\n
-пустыня=S,f,inan=nom,sg
-_
-мир=S,m,inan=gen,sg
-_
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-холодеть=V,ipf,intr=inpraes,ger
-,\n
-в=PR=
-_
-пустыня=S,f,inan=(abl,sg|dat,sg)
-_
-мир=S,m,inan=gen,sg
-_
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-_
-красота=S,f,inan=nom,sg
-.\n\n
-от=PR=
-_
-снежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гора=S,f,inan=gen,pl
-_
-с=PR=
-_
-высокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-хребет=S,m,inan=gen,sg
-\n
-гигантский=A=nom,sg,plen,f
-_
-восходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-орхидея=S,f,inan=nom,sg
-,\n
-над=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-отрава=S,f,inan=ins,sg
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-пустота=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-гаснуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-редеть=V,ipf,intr=inpraes,ger
-.\n\n
-лазурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-_
-безбрежный=A=sg,brev,m
-_
-и=CONJ=
-_
-глубокий=A=sg,brev,m
-,\n
-но=CONJ=
-_
-в=PR=
-_
-глубь=S,f,inan=(acc,sg|nom,sg)
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-зловеще=ADV=
--
-тусклый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-взгляд=S,m,inan=ins,sg
-\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-чудовищный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-,\n\n
-взлелеять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-желание=S,n,inan=ins,sg
-,_
-полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-яд=S,m,inan=ins,sg
-,\n
-и=CONJ=
-_
-далеко=ADV=
-_\u2014_
-теснить=V,ipf,tran=inpraes,sg,indic,3p
-_
-немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-_
-оплот=S,m,inan=(acc,pl|nom,pl)
-\n
-мир=S,m,inan=gen,sg
-,_
-глыба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-гора=S,f,inan=gen,pl
-.\n
+{как=CONJ=} {вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {волшебник=S,m,anim=(acc,sg|gen,sg)}-{халдей=S,m,anim=(acc,sg|gen,sg)},
+{в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=(abl,sg|dat,sg)} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {один=APRO=nom,sg,f} {мечта=S,f,inan=nom,sg}.
+{пустыня=S,f,inan=nom,sg} {мир=S,m,inan=gen,sg} {дремать=V,ipf,intr=inpraes,sg,indic,3p}, {холодеть=V,ipf,intr=inpraes,ger},
+{в=PR=} {пустыня=S,f,inan=(abl,sg|dat,sg)} {мир=S,m,inan=gen,sg} {дремать=V,ipf,intr=inpraes,sg,indic,3p} {красота=S,f,inan=nom,sg}.
+
+{от=PR=} {снежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гора=S,f,inan=gen,pl} {с=PR=} {высокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {хребет=S,m,inan=gen,sg}
+{гигантский=A=nom,sg,plen,f} {восходить=V,intr=inpraes,sg,indic,3p,ipf} {орхидея=S,f,inan=nom,sg},
+{над=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {отрава=S,f,inan=ins,sg} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {пустота=S,f,inan=nom,sg}.
+{и=CONJ=} {гаснуть=V,ipf,intr=inpraes,pl,indic,3p} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {в=PR=} {сумрак=S,m,inan=abl,sg} {редеть=V,ipf,intr=inpraes,ger}.
+
+{лазурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свод=S,m,inan=(acc,sg|nom,sg)} {безбрежный=A=sg,brev,m} {и=CONJ=} {глубокий=A=sg,brev,m},
+{но=CONJ=} {в=PR=} {глубь=S,f,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=(acc|gen)} {зловеще=ADV=}-{тусклый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {взгляд=S,m,inan=ins,sg}
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} — {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {чудовищный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цветок=S,m,inan=(acc,sg|nom,sg)},
+
+{взлелеять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {желание=S,n,inan=ins,sg}, {полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {яд=S,m,inan=ins,sg},
+{и=CONJ=} {далеко=ADV=} — {теснить=V,ipf,tran=inpraes,sg,indic,3p} {немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {простор=S,m,inan=(acc,sg|nom,sg)} {оплот=S,m,inan=(acc,pl|nom,pl)}
+{мир=S,m,inan=gen,sg}, {глыба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {гора=S,f,inan=gen,pl}.

@@ -1,118 +1,19 @@
-вот=PART=
-_
-и=CONJ=
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-развертывать=V,tran=praet,ger,pf
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,\n
-под=PR=
-_
-дождь=S,m,inan=ins,sg
-_
-ронять=V,ipf,tran=inpraes,pl,indic,3p
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-освежать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-,_
-а=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-блестеть=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-этот=APRO=acc,sg,f
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-_
-они=SPRO,pl=(acc|gen)
-_
-замечать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-запоминать=V,tran=inpraes,sg,indic,3p,pf
-_
-зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-видеть=V,ipf,tran=inpraes,ger
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-единение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-влага=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-стебель=S,m,inan=gen,pl
-,\n
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-как=CONJ=
-_
-растение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-засвечиваться=V,intr=inpraes,sg,indic,3p,pf
-_
-светлый=A=comp
-.\n\n
-и=CONJ=
-_
-входить=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-твой=APRO=nom,sg,f
-_
-мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-свежесть=S,f,inan=(acc,sg|nom,sg)
-_
-пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-новизна=S,sg,f,inan=gen
-.\n
-этот=APRO=(acc,sg,n|nom,sg,n)
-_\u2014_
-счастие=S,n,inan=(acc,sg|nom,sg)
-,_
-свидание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{вот=PART=} {и=CONJ=} {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{развертывать=V,tran=praet,ger,pf} {свой=APRO=(nom,pl|acc,pl,inan)} {лист=S,m,inan=(acc,pl|nom,pl)},
+{под=PR=} {дождь=S,m,inan=ins,sg} {ронять=V,ipf,tran=inpraes,pl,indic,3p} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{освежать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{дождь=S,m,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=inpraes,sg,indic,3p}, {а=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {светить=V,ipf,intr=inpraes,sg,indic,3p},
+{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {блестеть=V,ipf,intr=inpraes,pl,indic,3p},
+{этот=APRO=acc,sg,f} {нежность=S,f,inan=(acc,sg|nom,sg)} {они=SPRO,pl=(acc|gen)} {замечать=V,tran=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {запоминать=V,tran=inpraes,sg,indic,3p,pf} {зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взгляд=S,m,inan=(acc,sg|nom,sg)}.
+
+{видеть=V,ipf,tran=inpraes,ger} {радость=S,f,inan=(acc,sg|nom,sg)} {единение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {влага=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {стебель=S,m,inan=gen,pl},
+{дух=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=inpraes,sg,indic,3p} {как=CONJ=} {растение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{взор=S,m,inan=(acc,sg|nom,sg)} {засвечиваться=V,intr=inpraes,sg,indic,3p,pf} {светлый=A=comp}.
+
+{и=CONJ=} {входить=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {твой=APRO=nom,sg,f} {мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{свежесть=S,f,inan=(acc,sg|nom,sg)} {пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {новизна=S,sg,f,inan=gen}.
+{этот=APRO=(acc,sg,n|nom,sg,n)} — {счастие=S,n,inan=(acc,sg|nom,sg)}, {свидание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{праздник=S,m,inan=(acc,sg|nom,sg)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

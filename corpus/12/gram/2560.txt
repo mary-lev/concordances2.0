@@ -1,130 +1,20 @@
-человек=S,m,anim=nom,pl
-_
-на=PR=
-_
-душа=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-_
-льститься=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-имя=S,n,inan=gen,pl
-_
-у=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_\u2014_
-святцы=S,pl,inan=(acc|nom)
-,\n\n
-а=CONJ=
-_
-восприемник=S,m,anim=(acc,pl|gen,pl)
-_
-за=PR=
-_
-душа=S,f,inan=ins,sg
-\n
-цельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-поди=INTJ=
-,_
-монастырь=S,m,inan=(acc,sg|nom,sg)
-_
-мужской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-!\n\n
-уж=PART=
-_
-и=CONJ=
-_
-священник=S,m,anim=nom,pl
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-льстивый=A=pl,brev
-!\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
--
-то=PART=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-крестины=S,pl,inan=(acc|nom)
-!\n\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-орленок=S,m,anim=ins,sg
-,_
-щегленок=S,m,anim=ins,sg
-_\u2014_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,\n
-всякий=APRO=sg,brev,m
-_
-по-иному=ADV=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-звать=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-у=PR=
-_
-тяжелый=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)
-_
-из=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-преступница=S,f,anim=(acc,pl|gen,pl)
-_\u2014_\n
-сколько=CONJ=
-_
-заступник=S,m,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-заступница=S,f,anim=(acc,pl|gen,pl)
-!\n\n
-ложиться=V,intr=inpraes,pl,indic,3p,pf
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-_
-на=PR=
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-\n
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-святцы=S,pl,inan=(acc|nom)
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-имя=S,n,inan=gen,pl
-.\n\n
-звать=V,ipf,tran=praet,pl,indic
-_\u2014_
-равно=ADV=
-,_
-называть=V,tran=praet,pl,indic,ipf
-_\u2014_
-разный=A=sg,brev,n
-,\n
-все=SPRO,pl=(acc|nom)
-_
-называть=V,tran=praet,pl,indic,ipf
-,_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-называть=V,tran=praet,sg,indic,m,pf
-.\n
+{человек=S,m,anim=nom,pl} {на=PR=} {душа=S,f,inan=acc,sg} {мой=APRO=acc,sg,f} {льститься=V,ipf,intr=inpraes,pl,indic,3p},
+{нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {имя=S,n,inan=gen,pl} {у=PR=} {я=SPRO,sg,1p=(acc|gen)} — {святцы=S,pl,inan=(acc|nom)},
+
+{а=CONJ=} {восприемник=S,m,anim=(acc,pl|gen,pl)} {за=PR=} {душа=S,f,inan=ins,sg}
+{цельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {поди=INTJ=}, {монастырь=S,m,inan=(acc,sg|nom,sg)} {мужской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}!
+
+{уж=PART=} {и=CONJ=} {священник=S,m,anim=nom,pl} {этот=APRO=(nom,pl|acc,pl,inan)} {льстивый=A=pl,brev}!
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)}-{то=PART=} {день=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {я=SPRO,sg,1p=(acc|gen)} {крестины=S,pl,inan=(acc|nom)}!
+
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} — {орленок=S,m,anim=ins,sg}, {щегленок=S,m,anim=ins,sg} — {тот=APRO=(acc,sg,m,inan|nom,sg,m)},
+{всякий=APRO=sg,brev,m} {по-иному=ADV=} {я=SPRO,sg,1p=(acc|gen)} {звать=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{у=PR=} {тяжелый=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} {из=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {преступница=S,f,anim=(acc,pl|gen,pl)} — 
+{сколько=CONJ=} {заступник=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {заступница=S,f,anim=(acc,pl|gen,pl)}!
+
+{ложиться=V,intr=inpraes,pl,indic,3p,pf} {со=PR=} {я=SPRO,sg,1p=ins} {на=PR=} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}
+{нежный=A=(acc,pl,plen,inan|nom,pl,plen)} {святцы=S,pl,inan=(acc|nom)} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {имя=S,n,inan=gen,pl}.
+
+{звать=V,ipf,tran=praet,pl,indic} — {равно=ADV=}, {называть=V,tran=praet,pl,indic,ipf} — {разный=A=sg,brev,n},
+{все=SPRO,pl=(acc|nom)} {называть=V,tran=praet,pl,indic,ipf}, {никто=SPRO,sg,m,anim=nom} {не=PART=} {называть=V,tran=praet,sg,indic,m,pf}.

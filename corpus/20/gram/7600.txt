@@ -1,82 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-судить=V,ipf,tran=praet,sg,partcp,brev,m,pass
-_
-на=PR=
-_
-единый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-острие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-...\n
-ну=PART=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-!_
-смотреть=V,ipf,tran=sg,imper,2p
-,_
-гадать=V,ipf,intr=sg,imper,2p
-_
-и=CONJ=
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-отступать=V,intr=sg,imper,2p,ipf
-,_\u2014_
-смотреть=V,ipf,tran=sg,imper,2p
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-на=PR=
-_
-единый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-судить=V,ipf,tran=praet,sg,partcp,brev,m,pass
-.\n
-смотреть=V,ipf,tran=inpraes,sg,indic,1p
-_
-в=PR=
-_
-блистательный=A=acc,sg,plen,f
-_
-тьма=S,f,inan=acc,sg
-...\n
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-давно=ADV=
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-нужный=A=sg,brev,m
-,\n
-как=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-нужный=A=sg,brev,m
-_
-никто=SPRO,sg,m,anim=dat
-.\n
+{я=SPRO,sg,1p=nom} {судить=V,ipf,tran=praet,sg,partcp,brev,m,pass} {на=PR=} {единый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{один=APRO=(acc,sg,n|nom,sg,n)} {я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {острие=S,n,inan=(abl,sg|acc,sg|nom,sg)}...
+{ну=PART=} {что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}! {смотреть=V,ipf,tran=sg,imper,2p}, {гадать=V,ipf,intr=sg,imper,2p} {и=CONJ=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{не=PART=} {отступать=V,intr=sg,imper,2p,ipf}, — {смотреть=V,ipf,tran=sg,imper,2p} {в=PR=} {она=SPRO,sg,3p,f=(acc|gen)}.
+
+{я=SPRO,sg,1p=nom} {на=PR=} {единый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {судить=V,ipf,tran=praet,sg,partcp,brev,m,pass}.
+{смотреть=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {блистательный=A=acc,sg,plen,f} {тьма=S,f,inan=acc,sg}...
+{и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {давно=ADV=} {никто=SPRO,sg,m,anim=nom} {не=PART=} {нужный=A=sg,brev,m},
+{как=ADVPRO=} {я=SPRO,sg,1p=nom} {не=PART=} {нужный=A=sg,brev,m} {никто=SPRO,sg,m,anim=dat}.

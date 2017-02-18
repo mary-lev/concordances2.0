@@ -1,106 +1,14 @@
-все=SPRO,pl=(acc|nom)
-_
-надевать=V,tran=inpraes,pl,indic,3p,pf
-_
-сегодня=ADV=
-_
-пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_\n
-и=CONJ=
-_
-задеть=V,pf,tran=inpraes,pl,indic,3p
-_
-за=PR=
-_
-поросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-капля=S,f,inan=gen,pl
-,_\n
-но=CONJ=
-_
-из=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-не=PART=
-_
-замечать=V,tran=inpraes,sg,indic,3p,pf
-_
-никто=SPRO,sg,m,anim=nom
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-опять=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-ненастье=S,n,inan=ins,pl
-_
-запивать=V,tran=praet,sg,indic,m,pf
-.\n\n
-засребриться?=V,ipf,intr=inpraes,pl,indic,3p
-_
-малина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,_\n
-запрокидываться=V,intr=praet,ger,pf
-_
-кверху=ADV=
-_
-изнанка=S,f,inan=ins,sg
-._\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-грустно=ADV=
-_
-сегодня=ADV=
-,_
-как=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_\u2014_\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-нынче=ADV=
-,_
-как=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-северянка=S,f,anim=nom,sg
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-надевать=V,tran=inpraes,pl,indic,3p,pf
-_
-сегодня=ADV=
-_
-пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_\n
-но=CONJ=
-_
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-проживать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-без=PR=
-_
-убыток=S,m,inan=gen,sg
-._\n
-нынче=ADV=
-_
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-заменять=V,tran=inpraes,sg,indic,3p,pf
-_
-ничто=SPRO,sg,n=nom
-_\n
-затуманиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)
-_
-напиток=S,m,inan=gen,sg
-.\n
+{все=SPRO,pl=(acc|nom)} {надевать=V,tran=inpraes,pl,indic,3p,pf} {сегодня=ADV=} {пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} 
+{и=CONJ=} {задеть=V,pf,tran=inpraes,pl,indic,3p} {за=PR=} {поросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {капля=S,f,inan=gen,pl}, 
+{но=CONJ=} {из=PR=} {они=SPRO,pl=(abl|acc|gen)} {не=PART=} {замечать=V,tran=inpraes,sg,indic,3p,pf} {никто=SPRO,sg,m,anim=nom}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {опять=ADV=} {я=SPRO,sg,1p=nom} {ненастье=S,n,inan=ins,pl} {запивать=V,tran=praet,sg,indic,m,pf}.
+
+{засребриться?=V,ipf,intr=inpraes,pl,indic,3p} {малина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лист=S,m,inan=(acc,pl|nom,pl)}, 
+{запрокидываться=V,intr=praet,ger,pf} {кверху=ADV=} {изнанка=S,f,inan=ins,sg}. 
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {грустно=ADV=} {сегодня=ADV=}, {как=CONJ=} {ты=SPRO,sg,2p=nom}, — 
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {нынче=ADV=}, {как=CONJ=} {ты=SPRO,sg,2p=nom}, {северянка=S,f,anim=nom,sg}.
+
+{все=SPRO,pl=(acc|nom)} {надевать=V,tran=inpraes,pl,indic,3p,pf} {сегодня=ADV=} {пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, 
+{но=CONJ=} {и=CONJ=} {мы=SPRO,pl,1p=nom} {проживать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {без=PR=} {убыток=S,m,inan=gen,sg}. 
+{нынче=ADV=} {мы=SPRO,pl,1p=dat} {не=PART=} {заменять=V,tran=inpraes,sg,indic,3p,pf} {ничто=SPRO,sg,n=nom} 
+{затуманиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,anim|praet,gen,sg,partcp,plen,m,pf,act|praet,gen,sg,partcp,plen,n,pf,act)} {напиток=S,m,inan=gen,sg}.

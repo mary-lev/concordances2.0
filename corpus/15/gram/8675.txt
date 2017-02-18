@@ -1,136 +1,19 @@
-у=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-фея=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-глазок=S,m,inan=(acc,pl|nom,pl)
-_
-изумрудный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-трава=S,f,inan=acc,sg
-_
-она=SPRO,sg,3p,f=nom
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-у=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-наряд=S,m,inan=(acc,pl|nom,pl)
-_
-дивно=ADV=
--
-чудный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-опадать=V,intr=praet,sg,indic,m,pf
-,_
-топаз=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-хризолит=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-жемчуг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-из=PR=
-_
-свет=S,sg,m,inan=gen
-_
-лунный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-какой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-не=PART=
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-ничей=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-поясок=S,m,inan=(acc,sg|nom,sg)
-_
-покрой=S,m,inan=gen,sg
-_
-струнный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-из=PR=
-_
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луч=S,m,inan=gen,pl
-.\n\n
-еще=ADV=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-подвенечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-давать=V,tran=praet,sg,indic,m,pf
-_
-колокольчик=S,m,inan=(acc,sg|nom,sg)
-_
-полевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-сулить=V,ipf,tran=praet,sg,indic,m
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-звонить=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-росинка=S,f,inan=nom,sg
-,_
-с=PR=
-_
-греза=S,f,inan=ins,sg
-_
-серебристый=A=ins,sg,plen,f
-,\n
-зажигаться=V,intr=praet,sg,indic,f,pf
-_
-алмазный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-огонек=S,m,inan=ins,sg
-,\n
-а=CONJ=
-_
-ландыш=S,m,inan=(acc,sg|nom,sg)
-_
-свечка=S,f,inan=ins,sg
-_
-душистый=A=ins,sg,plen,f
-\n
-гореть=V,ipf,intr=praet,sg,indic,m
-_
-на=PR=
-_
-свадьба=S,f,inan=(abl,sg|dat,sg)
-_
-с=PR=
-_
-светляк=S,m,anim=ins,sg
-.\n
+{у=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {фея=S,f,anim=(gen,sg|nom,pl)} — {глазок=S,m,inan=(acc,pl|nom,pl)} {изумрудный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{все=SPRO,pl=(acc|nom)} {на=PR=} {трава=S,f,inan=acc,sg} {она=SPRO,sg,3p,f=nom} {глядеть=V,ipf,tran=inpraes,sg,indic,3p}.
+{у=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {наряд=S,m,inan=(acc,pl|nom,pl)} {дивно=ADV=}-{чудный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{опадать=V,intr=praet,sg,indic,m,pf}, {топаз=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {хризолит=S,m,inan=(acc,sg|nom,sg)}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {жемчуг=S,m,inan=(acc,pl|gen,sg|nom,pl)} {из=PR=} {свет=S,sg,m,inan=gen} {лунный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{какой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {не=PART=} {видеть=V,ipf,tran=praet,sg,indic,m} {взор=S,m,inan=(acc,sg|nom,sg)} {ничей=APRO=(acc,sg,m,inan|nom,sg,m)}.
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {поясок=S,m,inan=(acc,sg|nom,sg)} {покрой=S,m,inan=gen,sg} {струнный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{из=PR=} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луч=S,m,inan=gen,pl}.
+
+{еще=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {подвенечный=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{давать=V,tran=praet,sg,indic,m,pf} {колокольчик=S,m,inan=(acc,sg|nom,sg)} {полевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{сулить=V,ipf,tran=praet,sg,indic,m} {она=SPRO,sg,3p,f=(dat|ins)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{звонить=V,ipf,intr=praet,sg,indic,m} {в=PR=} {цветок=S,m,inan=(acc,sg|nom,sg)} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{росинка=S,f,inan=nom,sg}, {с=PR=} {греза=S,f,inan=ins,sg} {серебристый=A=ins,sg,plen,f},
+{зажигаться=V,intr=praet,sg,indic,f,pf} {алмазный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {огонек=S,m,inan=ins,sg},
+{а=CONJ=} {ландыш=S,m,inan=(acc,sg|nom,sg)} {свечка=S,f,inan=ins,sg} {душистый=A=ins,sg,plen,f}
+{гореть=V,ipf,intr=praet,sg,indic,m} {на=PR=} {свадьба=S,f,inan=(abl,sg|dat,sg)} {с=PR=} {светляк=S,m,anim=ins,sg}.

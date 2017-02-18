@@ -1,154 +1,19 @@
-раскачнуть?=V,pf,tran=sg,imper,2p
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-гамак=S,m,inan=(acc,sg|nom,sg)
-,_
-подкачнуть?=V,pf,tran=sg,imper,2p
-!_\u2014\n
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-вдвоем=ADV=
-,_
-мы=SPRO,pl,1p=nom
-_
-один=APRO=(nom,pl|acc,pl,inan)
-.\n
-и=CONJ=
-_
-какой=APRO=(acc,sg,n|nom,sg,n)
-_
-мы=SPRO,pl,1p=dat
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-там=ADVPRO=
-,\n
-где-то=ADVPRO=
-_
-там=ADVPRO=
-_
-не=PART=
-_
-сочувствовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-мы=SPRO,pl,1p=dat
-?!\n\n
-май=S,sg,m,inan=(acc|nom)
-_
-любезно=ADV=
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-...\n
-мы=SPRO,pl,1p=dat
-_
-любовно=ADV=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-и=CONJ=
-_
-смешно=ADV=
-:\n(
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-целиком=ADV=
-_
-понимать=V=sg,imper,2p,ipf,tran
-!)\n
-пред=PR=
-_
-поэт=S,m,anim=ins,sg
-_
-заискивать=V,ipf,intr=praet,sg,indic,m
-_
-май=S,sg,m,inan=(acc|nom)
-.\n\n
-понимать=V=inpraes,sg,indic,3p,ipf,tran
-,_
-должно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-,\n
-беспредельный=A=acc,sg,plen,f
-_
-сила=S,f,inan=acc,sg
-_
-таить=V,ipf,tran=inpraes,ger
-,\n
-захотеть=V,pf,tran=inpraes,sg,indic,1p
-_\u2014_
-и=CONJ=
-_
-оперль?=S,m,inan=dat,sg
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,\n
-ну=PART=
-_
-а=CONJ=
-_
-нет=PART=
-_\u2014_
-про=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-ничто=SPRO,sg,n=gen
-!\n\n
-в=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-отрадный=A=sg,brev,f
-_
-весна=S,f,inan=nom,sg
-\n
-и=CONJ=
-_
-приходить=V,intr=praet,nom,sg,partcp,plen,f,pf,act
-_
-слава=S,f,inan=nom,sg
-_
-ясный=A=sg,brev,f
-,_\u2014\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-славный=A=sg,brev,n
-_
-воспевать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-я=SPRO,sg,1p=ins
-_
-май=S,sg,m,inan=(acc|nom)
-!\n
-подкачивать=V,tran=sg,imper,2p,pf
-_
-же=PART=
-_
-гамак=S,m,inan=(acc,sg|nom,sg)
-!_
-раскачивать=V,tran=sg,imper,2p,pf
-!\n
+{раскачнуть?=V,pf,tran=sg,imper,2p} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {гамак=S,m,inan=(acc,sg|nom,sg)}, {подкачнуть?=V,pf,tran=sg,imper,2p}! —
+{мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} {вдвоем=ADV=}, {мы=SPRO,pl,1p=nom} {один=APRO=(nom,pl|acc,pl,inan)}.
+{и=CONJ=} {какой=APRO=(acc,sg,n|nom,sg,n)} {мы=SPRO,pl,1p=dat} {дело=S,n,inan=(acc,sg|nom,sg)}, {что=CONJ=} {там=ADVPRO=},
+{где-то=ADVPRO=} {там=ADVPRO=} {не=PART=} {сочувствовать=V,ipf,intr=inpraes,pl,indic,3p} {мы=SPRO,pl,1p=dat}?!
+
+{май=S,sg,m,inan=(acc|nom)} {любезно=ADV=} {смеяться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}...
+{мы=SPRO,pl,1p=dat} {любовно=ADV=} {с=PR=} {ты=SPRO,sg,2p=ins} {и=CONJ=} {смешно=ADV=}:
+({ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {целиком=ADV=} {понимать=V=sg,imper,2p,ipf,tran}!)
+{пред=PR=} {поэт=S,m,anim=ins,sg} {заискивать=V,ipf,intr=praet,sg,indic,m} {май=S,sg,m,inan=(acc|nom)}.
+
+{понимать=V=inpraes,sg,indic,3p,ipf,tran}, {должно=ADV,praed=} {быть=V,intr=inf,ipf}, {что=CONJ=} {я=SPRO,sg,1p=nom},
+{беспредельный=A=acc,sg,plen,f} {сила=S,f,inan=acc,sg} {таить=V,ipf,tran=inpraes,ger},
+{захотеть=V,pf,tran=inpraes,sg,indic,1p} — {и=CONJ=} {оперль?=S,m,inan=dat,sg} {он=SPRO,sg,3p,m=(acc|gen)},
+{ну=PART=} {а=CONJ=} {нет=PART=} — {про=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {ничто=SPRO,sg,n=gen}!
+
+{в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {год=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)} {отрадный=A=sg,brev,f} {весна=S,f,inan=nom,sg}
+{и=CONJ=} {приходить=V,intr=praet,nom,sg,partcp,plen,f,pf,act} {слава=S,f,inan=nom,sg} {ясный=A=sg,brev,f}, —
+{быть=V,intr=inpraes,sg,indic,3p} {славный=A=sg,brev,n} {воспевать=V,tran=praet,sg,partcp,brev,m,pf,pass} {я=SPRO,sg,1p=ins} {май=S,sg,m,inan=(acc|nom)}!
+{подкачивать=V,tran=sg,imper,2p,pf} {же=PART=} {гамак=S,m,inan=(acc,sg|nom,sg)}! {раскачивать=V,tran=sg,imper,2p,pf}!

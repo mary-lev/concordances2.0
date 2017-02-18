@@ -1,82 +1,14 @@
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-над=PR=
-_
-дымный=A=ins,pl,plen
-_
-дол=S,m,inan=ins,pl
-_\n
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-растаивать=V,intr=praet,sg,indic,m,pf
-_
-давно=ADV=
-,\n
-тихо=ADV=
-_
-закатный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-полымя=S,sg,n,inan=(acc|nom)
-_\n
-пасть=V,pf,intr=praet,sg,indic,n
-_
-на=PR=
-_
-синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-тусклый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-золото=S,sg,n,inan=(acc|nom)
-_
-месяц=S,m,inan=gen,sg
-_\n
-голый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кропить=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-сердце=S,n,inan=dat,sg
-_
-спокойный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-грезиться=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-скит=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-выходить=V,intr=inpraes,sg,indic,3p,pf
-_
-святой=A=nom,sg,plen,f
-_
-затворница=S,f,anim=nom,sg
-,_\n
-небо=S,n,inan=ins,sg
-_
-указывать=V=inpraes,sg,indic,3p,pf
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-небо=S,n,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-светлый=A=nom,sg,plen,f
-_
-горница=S,f,inan=nom,sg
-,_\n
-долго=ADV=
-_
-ль=PART=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-переходить=V,tran=inf,pf
-!\n
+{в=PR=} {небо=S,n,inan=abl,sg} {над=PR=} {дымный=A=ins,pl,plen} {дол=S,m,inan=ins,pl} 
+{вечер=S,m,inan=(acc,sg|nom,sg)} {растаивать=V,intr=praet,sg,indic,m,pf} {давно=ADV=},
+{тихо=ADV=} {закатный=A=(acc,sg,plen,n|nom,sg,plen,n)} {полымя=S,sg,n,inan=(acc|nom)} 
+{пасть=V,pf,intr=praet,sg,indic,n} {на=PR=} {синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {дно=S,n,inan=(acc,sg|nom,sg)}.
+
+{тусклый=A=(acc,sg,plen,n|nom,sg,plen,n)} {золото=S,sg,n,inan=(acc|nom)} {месяц=S,m,inan=gen,sg} 
+{голый=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кропить=V,ipf,tran=inpraes,sg,indic,3p}.
+{сердце=S,n,inan=dat,sg} {спокойный=A=(dat,sg,plen,m|dat,sg,plen,n)} {грезиться=V,ipf,intr=inpraes,sg,indic,3p} 
+{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {скит=S,m,inan=(acc,sg|nom,sg)}.
+
+{выходить=V,intr=inpraes,sg,indic,3p,pf} {святой=A=nom,sg,plen,f} {затворница=S,f,anim=nom,sg}, 
+{небо=S,n,inan=ins,sg} {указывать=V=inpraes,sg,indic,3p,pf} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{небо=S,n,inan=(acc,sg|nom,sg)}, {что=CONJ=} {светлый=A=nom,sg,plen,f} {горница=S,f,inan=nom,sg}, 
+{долго=ADV=} {ль=PART=} {он=SPRO,sg,3p,m=(acc|gen)} {переходить=V,tran=inf,pf}!

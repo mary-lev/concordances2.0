@@ -1,62 +1,14 @@
-в=PR=
-_
-расчет=S,m,inan=abl,sg
-_
-на=PR=
-_
-благородство=S,n,inan=(acc,sg|nom,sg)
-\n\t
-итог=S,m,inan=gen,sg
-\n
-вольготничать?=V,ipf,intr=sg,imper,2p
-_
-и=CONJ=
-_
-юродствовать=V,ipf,intr=sg,imper,2p
-_\u2014\n\t
-и=CONJ=
-_
-только=PART=
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-сдержанный=A=pl,brev
-,_
-мы=SPRO,pl,1p=nom
-_
-одержимый=A=pl,brev
-:\n\t
-вкушать=V=praet,pl,indic,pf
-\n
-тягота=S,f,inan=gen,pl
-_
-неземной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-зажим=S,m,inan=gen,sg
-\n\t
-по=PR=
-_
-сила=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-приходить=V,intr=praet,pl,indic,pf
-_
-и=CONJ=
-_
-уходить=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-с=PR=
-_
-перекличка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n\t
-столетие=S,n,inan=gen,pl
-:\n\xAB
-такой-то=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\xBB._\u2014_\xAB
-в=PR=
-_
-начало=S,n,inan=abl,sg
-\xBB.\n\t\u2014_\xAB
-отмечать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-\xBB.\n
+{в=PR=} {расчет=S,m,inan=abl,sg} {на=PR=} {благородство=S,n,inan=(acc,sg|nom,sg)}
+	{итог=S,m,inan=gen,sg}
+{вольготничать?=V,ipf,intr=sg,imper,2p} {и=CONJ=} {юродствовать=V,ipf,intr=sg,imper,2p} —
+	{и=CONJ=} {только=PART=}.
+
+{мы=SPRO,pl,1p=nom} {сдержанный=A=pl,brev}, {мы=SPRO,pl,1p=nom} {одержимый=A=pl,brev}:
+	{вкушать=V=praet,pl,indic,pf}
+{тягота=S,f,inan=gen,pl} {неземной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {зажим=S,m,inan=gen,sg}
+	{по=PR=} {сила=S,f,inan=(abl,sg|dat,sg)}.
+
+{приходить=V,intr=praet,pl,indic,pf} {и=CONJ=} {уходить=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {с=PR=} {перекличка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+	{столетие=S,n,inan=gen,pl}:
+«{такой-то=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}». — «{в=PR=} {начало=S,n,inan=abl,sg}».
+	— «{отмечать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}».

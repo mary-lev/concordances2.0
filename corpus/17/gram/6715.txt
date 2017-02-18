@@ -1,78 +1,12 @@
-четверть=S,f,inan=(acc,sg|nom,sg)
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-проходить=V,intr=praet,sg,indic,n,pf
-_
-за=PR=
-_
-граница=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-надеяться=V,ipf,intr=inf
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-смешной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-лучезарный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-ницца=S,geo,f,inan=ins,sg
-_\n
-навсегда=ADV=
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-небо=S,n,inan=ins,sg
-_
-родной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n
-тишина=S,sg,f,inan=nom
-_
-благодатный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-юг=S,m,inan=gen,sg
-.\n
-шорох=S,m,inan=(acc,sg|nom,sg)
-_
-волна=S,f,inan=gen,pl
-,_
-золотой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-...\n\n
-но=CONJ=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-петербургский=A,geo=nom,sg,plen,f
-_
-вьюга=S,f,inan=nom,sg
-_\n
-в=PR=
-_
-занести=V,pf=(praet,acc,sg,partcp,plen,n,pass|praet,nom,sg,partcp,plen,n,pass)
-_
-снег=S,m,inan=ins,sg
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-,\n
-что=CONJ=
-_
-пророчество=S,n,inan=(acc,sg|nom,sg)
-_
-мертвый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_\n
-обязательно=ADV=
-_
-сбываться=V,intr=inf,pf
-_
-должно=ADV,praed=
-.\n
+{четверть=S,f,inan=(acc,sg|nom,sg)} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} {проходить=V,intr=praet,sg,indic,n,pf} {за=PR=} {граница=S,f,inan=ins,sg},
+{и=CONJ=} {надеяться=V,ipf,intr=inf} {становиться=V,intr=praet,sg,indic,n,pf} {смешной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{лучезарный=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {над=PR=} {ницца=S,geo,f,inan=ins,sg} 
+{навсегда=ADV=} {становиться=V,intr=praet,sg,indic,n,pf} {небо=S,n,inan=ins,sg} {родной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+{тишина=S,sg,f,inan=nom} {благодатный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {юг=S,m,inan=gen,sg}.
+{шорох=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=gen,pl}, {золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {вино=S,n,inan=(acc,sg|nom,sg)}...
+
+{но=CONJ=} {петь=V,ipf,tran=inpraes,sg,indic,3p} {петербургский=A,geo=nom,sg,plen,f} {вьюга=S,f,inan=nom,sg} 
+{в=PR=} {занести=V,pf=(praet,acc,sg,partcp,plen,n,pass|praet,nom,sg,partcp,plen,n,pass)} {снег=S,m,inan=ins,sg} {окно=S,n,inan=(acc,sg|nom,sg)},
+{что=CONJ=} {пророчество=S,n,inan=(acc,sg|nom,sg)} {мертвый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {друг=S,m,anim=(acc,sg|gen,sg)} 
+{обязательно=ADV=} {сбываться=V,intr=inf,pf} {должно=ADV,praed=}.

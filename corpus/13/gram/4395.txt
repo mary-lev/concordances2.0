@@ -1,116 +1,20 @@
-кто=SPRO,sg,m,anim=nom
-_
-скрижаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-понимать=V=inpraes,sg,indic,3p,ipf,tran
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-благой=A=acc,sg,plen,f
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-_
-узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-удивляться=V,intr=inpraes,sg,indic,3p,ipf
-.\n
-по=PR=
-_
-поле=S,n,inan=dat,pl
-_
-пятнистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-идти=V,ipf,intr=inpraes,ger
-\n
-и=CONJ=
-_
-цветущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-_
-увидеть=V,pf,tran=praet,ger
-,\n
-сердце=S,n,inan=ins,sg
-_
-умиляться=V,intr=inpraes,sg,indic,3p,ipf
-.\n\n
-размыкаться=V,intr=praet,pl,indic,pf
-_
-вес=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-мера=S,f,inan=nom,sg
-,\n
-у=PR=
-_
-крест=S,m,inan=gen,sg
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-венера=S,persn,f,anim=nom,sg
-,\n
-око=S,n,inan=(acc,pl|nom,pl)
-_
-томно=ADV=
-_
-кружиться=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-по=PR=
-_
-море=S,n,inan=dat,sg
-_
-дымиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-флот=S,m,inan=(acc,pl|nom,pl)
-,\n
-пташка=S,f,anim=(acc,pl|gen,pl)
-_
-мартовский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-полет=S,m,inan=(acc,pl|nom,pl)
-\n
-раздроблять=V,tran=praet,sg,indic,f,pf
-_
-лужица=S,f,inan=nom,sg
-.\n\n
-нисхождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-сострадание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-восхождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-обладание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-огибать=V,tran=inpraes,pl,indic,3p,ipf
-_
-струя=S,f,inan=ins,pl
-.\n
-о=INTJ=
-,_
-святой=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-чтоб=CONJ=
-_
-не=PART=
-_
-пить=V,ipf,tran=praet,pl,indic
-_
-и=CONJ=
-_
-не=PART=
-_
-есть=V,ipf,tran=praet,pl,indic
-_\u2014\n
-жить=V,ipf,intr=praet,pl,indic
-_
-поцелуй=S,m,inan=ins,pl
-.\n
+{кто=SPRO,sg,m,anim=nom} {скрижаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {понимать=V=inpraes,sg,indic,3p,ipf,tran},
+{кто=SPRO,sg,m,anim=nom} {благой=A=acc,sg,plen,f} {весть=S,f,inan=(acc,sg|nom,sg)} {узнавать=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {удивляться=V,intr=inpraes,sg,indic,3p,ipf}.
+{по=PR=} {поле=S,n,inan=dat,pl} {пятнистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {идти=V,ipf,intr=inpraes,ger}
+{и=CONJ=} {цветущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крест=S,m,inan=(acc,sg|nom,sg)} {увидеть=V,pf,tran=praet,ger},
+{сердце=S,n,inan=ins,sg} {умиляться=V,intr=inpraes,sg,indic,3p,ipf}.
+
+{размыкаться=V,intr=praet,pl,indic,pf} {вес=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {мера=S,f,inan=nom,sg},
+{у=PR=} {крест=S,m,inan=gen,sg} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {венера=S,persn,f,anim=nom,sg},
+{око=S,n,inan=(acc,pl|nom,pl)} {томно=ADV=} {кружиться=V,ipf,intr=inpraes,pl,indic,3p}.
+{по=PR=} {море=S,n,inan=dat,sg} {дымиться=V,ipf,intr=inpraes,pl,indic,3p} {флот=S,m,inan=(acc,pl|nom,pl)},
+{пташка=S,f,anim=(acc,pl|gen,pl)} {мартовский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {полет=S,m,inan=(acc,pl|nom,pl)}
+{раздроблять=V,tran=praet,sg,indic,f,pf} {лужица=S,f,inan=nom,sg}.
+
+{нисхождение=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {сострадание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{восхождение=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {обладание=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{огибать=V,tran=inpraes,pl,indic,3p,ipf} {струя=S,f,inan=ins,pl}.
+{о=INTJ=}, {святой=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} {день=S,m,inan=(acc,sg|nom,sg)} {неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{чтоб=CONJ=} {не=PART=} {пить=V,ipf,tran=praet,pl,indic} {и=CONJ=} {не=PART=} {есть=V,ipf,tran=praet,pl,indic} —
+{жить=V,ipf,intr=praet,pl,indic} {поцелуй=S,m,inan=ins,pl}.

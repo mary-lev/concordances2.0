@@ -1,88 +1,12 @@
-все=SPRO,pl=(acc|nom)
-_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-_
-перемениться=V,pf,intr=praet,sg,indic,n
-,\n
-все=SPRO,pl=(acc|nom)
-_
-новый=A=sg,brev,n
-_
-для=PR=
-_
-прозревать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-._\n
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-поэт=S,m,anim=dat,pl
-_\u2014_
-в=PR=
-_
-сотый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\u2014_\n
-присниться=V,pf,intr=inpraes,sg,indic,3p
-_
-то=PART=
-,_
-что=CONJ=
-_
-вечно=ADV=
-_
-сниться=V,ipf,intr=praet,sg,indic,n
-.\n\n
-но=CONJ=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-закон=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-бог=S,m,anim=nom,pl
-_
-жертва=S,f,anim=(gen,sg|nom,pl)
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,pl,indic,3p
-._\n
-напрасно=ADV=
-_
-в=PR=
-_
-пустота=S,f,inan=acc,sg
-_
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-_\n
-орфей=S,persn,m,anim=(acc,sg|gen,sg)
-_
-жалобный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стон=S,m,inan=(acc,pl|nom,pl)
-_\u2014\n\n
-они=SPRO,pl=(acc|gen)
-_
-останавливать=V,tran=inpraes,pl,indic,3p,pf
-_
-электрон=S,m,inan=(acc,pl|nom,pl)
-_\n
-и=CONJ=
-_
-снова=ADV=
-_
-в=PR=
-_
-душа=S,f,inan=acc,sg
-_
-возвращать=V,tran=inpraes,pl,indic,3p,pf
-.\n
+{все=SPRO,pl=(acc|nom)} {до=PR=} {конец=S,m,inan=gen,sg} {перемениться=V,pf,intr=praet,sg,indic,n},
+{все=SPRO,pl=(acc|nom)} {новый=A=sg,brev,n} {для=PR=} {прозревать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}. 
+{один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {поэт=S,m,anim=dat,pl} — {в=PR=} {сотый=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} — 
+{присниться=V,pf,intr=inpraes,sg,indic,3p} {то=PART=}, {что=CONJ=} {вечно=ADV=} {сниться=V,ipf,intr=praet,sg,indic,n}.
+
+{но=CONJ=} {в=PR=} {мир=S,m,inan=abl,sg} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {закон=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {бог=S,m,anim=nom,pl} {жертва=S,f,anim=(gen,sg|nom,pl)} {не=PART=} {хотеть=V,ipf,tran=inpraes,pl,indic,3p}. 
+{напрасно=ADV=} {в=PR=} {пустота=S,f,inan=acc,sg} {лететь=V,ipf,intr=inpraes,pl,indic,3p} 
+{орфей=S,persn,m,anim=(acc,sg|gen,sg)} {жалобный=A=(acc,pl,plen,inan|nom,pl,plen)} {стон=S,m,inan=(acc,pl|nom,pl)} —
+
+{они=SPRO,pl=(acc|gen)} {останавливать=V,tran=inpraes,pl,indic,3p,pf} {электрон=S,m,inan=(acc,pl|nom,pl)} 
+{и=CONJ=} {снова=ADV=} {в=PR=} {душа=S,f,inan=acc,sg} {возвращать=V,tran=inpraes,pl,indic,3p,pf}.

@@ -1,88 +1,12 @@
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-дух=S,m,inan=(acc,pl|nom,pl)
-,_
-как=CONJ=
-_
-нимфа=S,f,anim=nom,sg
-,_
-ядовитый=A=pl,brev
-\n
-и=CONJ=
-_
-дерзновенный=A=pl,brev
-,_
-как=CONJ=
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-.\n
-роса=S,f,inan=nom,sg
-_
-восторг=S,m,inan=(acc,sg|nom,sg)
-_
-вкушать=V=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-афродита=S,persn,f,anim=(gen,sg|nom,pl)
-_\u2014\n
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-дух=S,m,inan=(acc,pl|nom,pl)
-!\n
-они=SPRO,pl=nom
-_
-томить=V,ipf,tran=inpraes,pl,indic,3p
-,_
-как=CONJ=
-_
-плотский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-грех=S,m,inan=(acc,pl|nom,pl)
-,\n
-на=PR=
-_
-лацкан=S,m,inan=(acc,sg|nom,sg)
-_
-сюртук=S,m,inan=gen,sg
-_
-ты=SPRO,sg,2p=ins
-_
-проливать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-воспламенять=V,tran=inpraes,ger,ipf
-_
-чувственный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мох=S,m,inan=(acc,pl|nom,pl)
-...\n\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-они=SPRO,pl=nom
-_
-аэролит=S,m,inan=(acc,pl|nom,pl)
-!_\u2014\n
-низвергать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-в=PR=
-_
-любовный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мехи=S,pl,inan=(acc|nom)
-,\n
-где=ADVPRO=
-_
-сладостращать?=V=inpraes,pl,indic,3p,pf
-_
-жать=V,ipf,tran=praet,sg,indic,f
-,_
-как=CONJ=
-_
-термит=S,m,anim=nom,pl
-,\n
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-дух=S,m,inan=(acc,pl|nom,pl)
-!\n
+{твой=APRO=(nom,pl|acc,pl,inan)} {дух=S,m,inan=(acc,pl|nom,pl)}, {как=CONJ=} {нимфа=S,f,anim=nom,sg}, {ядовитый=A=pl,brev}
+{и=CONJ=} {дерзновенный=A=pl,brev}, {как=CONJ=} {мой=APRO=(nom,pl|acc,pl,inan)} {стих=S,m,inan=(acc,pl|nom,pl)}.
+{роса=S,f,inan=nom,sg} {восторг=S,m,inan=(acc,sg|nom,sg)} {вкушать=V=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {афродита=S,persn,f,anim=(gen,sg|nom,pl)} —
+{твой=APRO=(nom,pl|acc,pl,inan)} {дух=S,m,inan=(acc,pl|nom,pl)}!
+{они=SPRO,pl=nom} {томить=V,ipf,tran=inpraes,pl,indic,3p}, {как=CONJ=} {плотский=A=(acc,pl,plen,inan|nom,pl,plen)} {грех=S,m,inan=(acc,pl|nom,pl)},
+{на=PR=} {лацкан=S,m,inan=(acc,sg|nom,sg)} {сюртук=S,m,inan=gen,sg} {ты=SPRO,sg,2p=ins} {проливать=V,tran=praet,pl,partcp,brev,pf,pass},
+{воспламенять=V,tran=inpraes,ger,ipf} {чувственный=A=(acc,pl,plen,inan|nom,pl,plen)} {мох=S,m,inan=(acc,pl|nom,pl)}...
+
+{мой=APRO=(nom,pl|acc,pl,inan)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} — {они=SPRO,pl=nom} {аэролит=S,m,inan=(acc,pl|nom,pl)}! —
+{низвергать=V,tran=praet,pl,partcp,brev,pf,pass} {в=PR=} {любовный=A=(acc,pl,plen,inan|nom,pl,plen)} {мехи=S,pl,inan=(acc|nom)},
+{где=ADVPRO=} {сладостращать?=V=inpraes,pl,indic,3p,pf} {жать=V,ipf,tran=praet,sg,indic,f}, {как=CONJ=} {термит=S,m,anim=nom,pl},
+{твой=APRO=(nom,pl|acc,pl,inan)} {дух=S,m,inan=(acc,pl|nom,pl)}!

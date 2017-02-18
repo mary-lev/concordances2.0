@@ -1,72 +1,14 @@
-добровольно=ADV=
-,_
-до=PR=
-_
-срок=S,m,inan=gen,sg
-_\n(
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-_\u2014_
-решать=V,tran=praet,sg,partcp,brev,n,pf,pass
-),_\n
-не=PART=
-_
-оканчивать=V,tran=praet,ger,pf
-_
-урок=S,m,inan=gen,sg
-,_\n
-опускаться=V,intr=pl,imper,2p,ipf
-_
-на=PR=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-с=PR=
-_
-неизбежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-не=PART=
-_
-спорить=V,ipf,intr=inpraes,ger
-_\n(
-волноваться=V,ipf,intr=inf
-_
-смешно=ADV=
-),_\n
-у=PR=
-_
-лазурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-допивать=V,tran=pl,imper,2p,ipf
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-!\n\n
-улыбаться=V,intr=pl,imper,2p,pf
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=dat,sg
-_\n
-и=CONJ=
-_
-сниматься=V,intr=pl,imper,2p,ipf
-_
-с=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-треугольник=S,m,inan=ins,sg
-,_
-к=PR=
-_
-юг=S,m,inan=dat,sg
-,_\n
-как=ADVPRO=
-_
-вдали=ADV=
-_
-журавль=S,m,anim=nom,pl
-...\n
+{добровольно=ADV=}, {до=PR=} {срок=S,m,inan=gen,sg} 
+({все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n} — {решать=V,tran=praet,sg,partcp,brev,n,pf,pass}), 
+{не=PART=} {оканчивать=V,tran=praet,ger,pf} {урок=S,m,inan=gen,sg}, 
+{опускаться=V,intr=pl,imper,2p,ipf} {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)}.
+
+{с=PR=} {неизбежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {не=PART=} {спорить=V,ipf,intr=inpraes,ger} 
+({волноваться=V,ipf,intr=inf} {смешно=ADV=}), 
+{у=PR=} {лазурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{допивать=V,tran=pl,imper,2p,ipf} {вино=S,n,inan=(acc,sg|nom,sg)}!
+
+{улыбаться=V,intr=pl,imper,2p,pf} {друг=S,m,anim=nom,sg} {друг=S,m,anim=dat,sg} 
+{и=CONJ=} {сниматься=V,intr=pl,imper,2p,ipf} {с=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{треугольник=S,m,inan=ins,sg}, {к=PR=} {юг=S,m,inan=dat,sg}, 
+{как=ADVPRO=} {вдали=ADV=} {журавль=S,m,anim=nom,pl}...

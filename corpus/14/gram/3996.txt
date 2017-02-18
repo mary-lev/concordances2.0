@@ -1,158 +1,21 @@
-я=SPRO,sg,1p=nom
-_
-друг=S,m,anim=dat,pl
-_
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:\n\xAB
-горе=S,sg,n,inan=gen
-_
-много=ADV,praed=
-,_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мало=ADV=
-,_\u2014\n
-и=CONJ=
-_
-уходить=V,intr=praet,sg,indic,f,pf
-,_
-закрывать=V=praet,ger,pf
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,_\u2014\n
-потерять=V,pf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-\xBB.\n
-и=CONJ=
-_
-друг=S,m,anim=nom,pl
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-сказать=V,pf,tran=praet,pl,indic
-:\n\xAB
-мы=SPRO,pl,1p=nom
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-_
-везде=ADV=
-_
-искать=V,ipf,tran=praet,pl,indic
-,\n
-возле=PR=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-песок=S,m,inan=abl,sg
-\n
-и=CONJ=
-_
-меж=PR=
-_
-сосна=S,f,inan=gen,pl
-_
-на=PR=
-_
-лужок=S,m,inan=abl,sg
-\xBB.\n
-и=CONJ=
-,_
-догнать=V,pf,tran=praet,ger
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-аллея=S,f,inan=(abl,sg|dat,sg)
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-смело=ADV=comp
-,\n
-уговаривать=V,tran=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=(acc|gen)
-\n
-подождать=V,pf,tran=inf
-_
-до=PR=
-_
-склон=S,m,inan=gen,sg
-_
-день=S,m,inan=gen,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-совет=S,m,inan=dat,sg
-_
-удивляться=V,intr=praet,sg,indic,f,pf
-\n
-и=CONJ=
-_
-на=PR=
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-рассердиться=V,pf,intr=praet,sg,indic,f
-,\n
-что=CONJ=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-нежный=A=pl,brev
-:\n\xAB
-и=CONJ=
-_
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-нужный=A=pl,brev
-?\n
-только=PART=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,2p
-_
-смеяться=V,ipf,intr=inf
-,\n
-друг=S,m,anim=nom,sg
-_
-пред=PR=
-_
-друг=S,m,anim=ins,sg
-_
-похваляться=V,ipf,intr=inf
-\n
-да=CONJ=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-сюда=ADVPRO=
-_
-носить=V,ipf,tran=inf
-\xBB.\n
-все=SPRO,pl=dat
-_
-велеть=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-_
-уходить=V,intr=inf,ipf
-.\n\n
+{я=SPRO,sg,1p=nom} {друг=S,m,anim=dat,pl} {мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {сказать=V,pf,tran=praet,sg,indic,f}:
+«{горе=S,sg,n,inan=gen} {много=ADV,praed=}, {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мало=ADV=}, —
+{и=CONJ=} {уходить=V,intr=praet,sg,indic,f,pf}, {закрывать=V=praet,ger,pf} {лицо=S,n,inan=(acc,sg|nom,sg)}, —
+{потерять=V,pf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=nom} {кольцо=S,n,inan=(acc,sg|nom,sg)}».
+{и=CONJ=} {друг=S,m,anim=nom,pl} {мой=APRO=(nom,pl|acc,pl,inan)} {сказать=V,pf,tran=praet,pl,indic}:
+«{мы=SPRO,pl,1p=nom} {кольцо=S,n,inan=(acc,sg|nom,sg)} {везде=ADV=} {искать=V,ipf,tran=praet,pl,indic},
+{возле=PR=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {песок=S,m,inan=abl,sg}
+{и=CONJ=} {меж=PR=} {сосна=S,f,inan=gen,pl} {на=PR=} {лужок=S,m,inan=abl,sg}».
+{и=CONJ=}, {догнать=V,pf,tran=praet,ger} {я=SPRO,sg,1p=(acc|gen)} {в=PR=} {аллея=S,f,inan=(abl,sg|dat,sg)},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {быть=V,intr=praet,sg,indic,m,ipf} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {смело=ADV=comp},
+{уговаривать=V,tran=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=(acc|gen)}
+{подождать=V,pf,tran=inf} {до=PR=} {склон=S,m,inan=gen,sg} {день=S,m,inan=gen,sg}.
+{я=SPRO,sg,1p=nom} {совет=S,m,inan=dat,sg} {удивляться=V,intr=praet,sg,indic,f,pf}
+{и=CONJ=} {на=PR=} {друг=S,m,anim=(acc,sg|gen,sg)} {рассердиться=V,pf,intr=praet,sg,indic,f},
+{что=CONJ=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {нежный=A=pl,brev}:
+«{и=CONJ=} {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {нужный=A=pl,brev}?
+{только=PART=} {мочь=V,ipf,intr=inpraes,pl,indic,2p} {смеяться=V,ipf,intr=inf},
+{друг=S,m,anim=nom,sg} {пред=PR=} {друг=S,m,anim=ins,sg} {похваляться=V,ipf,intr=inf}
+{да=CONJ=} {цветок=S,m,inan=(acc,pl|nom,pl)} {сюда=ADVPRO=} {носить=V,ipf,tran=inf}».
+{все=SPRO,pl=dat} {велеть=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)} {уходить=V,intr=inf,ipf}.
+

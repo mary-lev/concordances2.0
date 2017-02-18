@@ -1,120 +1,15 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-доживать=V,tran=inf,pf
-_
-до=PR=
-_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,\n
-когда=CONJ=
-_
-усилие=S,n,inan=ins,pl
-_
-народ=S,m,inan=gen,sg
-\n
-престол=S,m,inan=(acc,pl|nom,pl)
-_
-гордый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-царь=S,m,anim=(acc,pl|gen,pl)
-,\n
-как=CONJ=
-_
-некий=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-,_
-смести=V,pf=inpraes,sg,indic,3p
-_
-свобода=S,f,inan=nom,sg
-.\n\n
-но=CONJ=
-_
-после=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_
-б=PART=
-_
-желать=V,ipf,tran=praet,sg,indic,m
-,\n
-чтоб=CONJ=
-_
-на=PR=
-_
-свидание=S,n,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-земля=S,f,inan=ins,sg
-\n
-бог=S,m,anim=nom,sg
-_
-пред=PR=
-_
-конец=S,m,inan=ins,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-посылать=V=praet,sg,indic,m,pf
-,\n
-чтоб=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-бесплотный=A=ins,sg,plen,f
-_
-душа=S,f,inan=ins,sg
-\n
-судьба=S,f,inan=acc,sg
-_
-потомок=S,m,anim=(acc,pl|gen,pl)
-_
-увидать=V,pf=praet,sg,indic,m,tran
-.\n\n
-приходить=V,intr=praet,pl,indic,pf
-_
-ли=PART=
-_
-к=PR=
-_
-вожделенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мета=S,f,inan=(abl,sg|dat,sg)
-?\n
-освобождаться=V,intr=praet,pl,indic,pf
-_
-ли=PART=
-_
-они=SPRO,pl=nom
-?\n
-и=CONJ=
-_
-правда=ADV,parenth=
-_
-ль=PART=
-_
-царствовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-,\n
-как=CONJ=
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-_
-лихой=A=nom,sg,plen,f
-_
-в=PR=
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-?\n
+{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {доживать=V,tran=inf,pf} {до=PR=} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl},
+{когда=CONJ=} {усилие=S,n,inan=ins,pl} {народ=S,m,inan=gen,sg}
+{престол=S,m,inan=(acc,pl|nom,pl)} {гордый=A=(acc,pl,plen,inan|nom,pl,plen)} {царь=S,m,anim=(acc,pl|gen,pl)},
+{как=CONJ=} {некий=APRO=(acc,sg,m,inan|nom,sg,m)} {прах=S,m,inan=(acc,sg|nom,sg)}, {смести=V,pf=inpraes,sg,indic,3p} {свобода=S,f,inan=nom,sg}.
+
+{но=CONJ=} {после=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom} {б=PART=} {желать=V,ipf,tran=praet,sg,indic,m},
+{чтоб=CONJ=} {на=PR=} {свидание=S,n,inan=(acc,sg|nom,sg)} {с=PR=} {земля=S,f,inan=ins,sg}
+{бог=S,m,anim=nom,sg} {пред=PR=} {конец=S,m,inan=ins,sg} {я=SPRO,sg,1p=(acc|gen)} {посылать=V=praet,sg,indic,m,pf},
+{чтоб=CONJ=} {я=SPRO,sg,1p=nom} {бесплотный=A=ins,sg,plen,f} {душа=S,f,inan=ins,sg}
+{судьба=S,f,inan=acc,sg} {потомок=S,m,anim=(acc,pl|gen,pl)} {увидать=V,pf=praet,sg,indic,m,tran}.
+
+{приходить=V,intr=praet,pl,indic,pf} {ли=PART=} {к=PR=} {вожделенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мета=S,f,inan=(abl,sg|dat,sg)}?
+{освобождаться=V,intr=praet,pl,indic,pf} {ли=PART=} {они=SPRO,pl=nom}?
+{и=CONJ=} {правда=ADV,parenth=} {ль=PART=} {царствовать=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {свет=S,sg,m,inan=abl},
+{как=CONJ=} {ложь=S,f,inan=(acc,sg|nom,sg)} {лихой=A=nom,sg,plen,f} {в=PR=} {наш=APRO=(nom,pl|acc,pl,inan)} {день=S,m,inan=(acc,pl|nom,pl)}?

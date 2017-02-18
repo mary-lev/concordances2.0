@@ -1,128 +1,19 @@
-вечер=S,m,inan=(acc,sg|nom,sg)
-._
-взморье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._
-вздох=S,m,inan=(acc,pl|nom,pl)
-_
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-величавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-возглас=S,m,inan=(acc,sg|nom,sg)
-_
-волна=S,f,inan=gen,pl
-.\n
-близко=ADV=
-_
-буря=S,f,inan=nom,sg
-._
-в=PR=
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-чары=S,pl,inan=dat
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-челн=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-чистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-чары=S,pl,inan=dat
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-челн=S,m,inan=(acc,sg|nom,sg)
-_
-томление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-челн=S,m,inan=(acc,sg|nom,sg)
-_
-тревога=S,f,inan=gen,pl
-,\n
-бросать=V=praet,sg,indic,m,pf
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-,_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-буря=S,f,inan=ins,sg
-,\n
-искать=V,ipf,tran=inpraes,sg,indic,3p
-_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сон=S,m,inan=gen,pl
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-мчаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-взморье=S,n,inan=ins,sg
-,_
-мчаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-море=S,n,inan=ins,sg
-,\n
-отдаваться=V,intr=inpraes,ger,ipf
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-_
-волна=S,f,inan=gen,pl
-.\n
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-матовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взирать=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-полна?=S,f,inan=gen,pl
-.\n\n
-умирать=V,intr=praet,sg,indic,m,pf
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-._
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-чернеть=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-роптать=V,ipf,intr=inpraes,sg,indic,3p
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._
-мрак=S,m,inan=(acc,sg|nom,sg)
-_
-расти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-челн=S,m,inan=(acc,sg|nom,sg)
-_
-томление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тьма=S,f,inan=ins,sg
-_
-охватывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n
-буря=S,f,inan=nom,sg
-_
-выть=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-бездна=S,f,inan=(abl,sg|dat,sg)
-_
-вода=S,f,inan=gen,pl
-.\n
+{вечер=S,m,inan=(acc,sg|nom,sg)}. {взморье=S,n,inan=(abl,sg|acc,sg|nom,sg)}. {вздох=S,m,inan=(acc,pl|nom,pl)} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{величавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {возглас=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=gen,pl}.
+{близко=ADV=} {буря=S,f,inan=nom,sg}. {в=PR=} {берег=S,m,inan=(acc,sg|nom,sg)} {биться=V,ipf,intr=inpraes,sg,indic,3p}
+{чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чары=S,pl,inan=dat} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {челн=S,m,inan=(acc,sg|nom,sg)}.
+
+{чуждый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {чары=S,pl,inan=dat} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{челн=S,m,inan=(acc,sg|nom,sg)} {томление=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {челн=S,m,inan=(acc,sg|nom,sg)} {тревога=S,f,inan=gen,pl},
+{бросать=V=praet,sg,indic,m,pf} {берег=S,m,inan=(acc,sg|nom,sg)}, {биться=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {буря=S,f,inan=ins,sg},
+{искать=V,ipf,tran=inpraes,sg,indic,3p} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сон=S,m,inan=gen,pl} {чертог=S,m,inan=(acc,sg|nom,sg)}.
+
+{мчаться=V,ipf,intr=inpraes,sg,indic,3p} {взморье=S,n,inan=ins,sg}, {мчаться=V,ipf,intr=inpraes,sg,indic,3p} {море=S,n,inan=ins,sg},
+{отдаваться=V,intr=inpraes,ger,ipf} {воля=S,f,inan=(abl,sg|dat,sg)} {волна=S,f,inan=gen,pl}.
+{месяц=S,m,inan=(acc,sg|nom,sg)} {матовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взирать=V,intr=inpraes,sg,indic,3p,ipf},
+{месяц=S,m,inan=(acc,sg|nom,sg)} {горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {полна?=S,f,inan=gen,pl}.
+
+{умирать=V,intr=praet,sg,indic,m,pf} {вечер=S,m,inan=(acc,sg|nom,sg)}. {ночь=S,f,inan=(acc,sg|nom,sg)} {чернеть=V,ipf,intr=inpraes,sg,indic,3p}.
+{роптать=V,ipf,intr=inpraes,sg,indic,3p} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}. {мрак=S,m,inan=(acc,sg|nom,sg)} {расти=V,ipf,intr=inpraes,sg,indic,3p}.
+{челн=S,m,inan=(acc,sg|nom,sg)} {томление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тьма=S,f,inan=ins,sg} {охватывать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+{буря=S,f,inan=nom,sg} {выть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {бездна=S,f,inan=(abl,sg|dat,sg)} {вода=S,f,inan=gen,pl}.

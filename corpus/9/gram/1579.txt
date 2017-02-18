@@ -1,134 +1,23 @@
-жар=S,sg,m,inan=(acc|nom)
-_
-на=PR=
-_
-семь=NUM=(abl|dat|gen)
-_
-холм=S,m,inan=abl,pl
-,_\n
-голубь=S,m,anim=nom,pl
-_
-в=PR=
-_
-тлелый?=A=(abl,sg,plen,m|abl,sg,plen,n)|тлелый?=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сенцо=S,sg,n,inan=abl
-._\n
-с=PR=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-спадать=V,intr=inpraes,sg,indic,3p,ipf
-_
-чалма=S,f,inan=nom,sg
-:_\n
-время=S,n,inan=(acc,sg|nom,sg)
-_
-менять=V,ipf,tran=inf
-_
-полотенце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n(
-мокнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-днище=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ведро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-)._\n
-и=CONJ=
-_
-наматывать=V,tran=inf,pf
-_
-на=PR=
-_
-купол=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-город=S,m,inan=abl,sg
-_\u2014_
-говор=S,m,inan=(acc,sg|nom,sg)
-_
-мембрана=S,f,inan=gen,pl
-,_\n
-шарканье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-клумба=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-кукла=S,f=(acc,pl,anim|gen,pl,anim|gen,pl,inan)
-.\n\n
-надо=ADV,praed=
-_
-гардина=S,f,inan=acc,sg
-_
-зашивать=V,tran=inf,pf
-:_\n
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-шагать=V,ipf,intr=inpraes,sg,indic,3p
-_
-масон=S,m,anim=ins,sg
-._\n
-как=ADVPRO=
-_
-усыпительный=A=sg,brev,n
-_\u2014_
-жить=V,ipf,intr=inf
-!_\n
-как=ADVPRO=
-_
-целоваться=V,ipf,intr=inf
-_\u2014_
-бессонно=ADV=
-!\n\n
-грязный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-гремучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-в=PR=
-_
-постель=S,f,inan=(acc,sg|nom,sg)
-_\n
-падать=V,ipf,intr=inpraes,sg,indic,3p
-_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-нынче=ADV=
-_
-за=PR=
-_
-долгий=A=acc,sg,plen,f
-_
-степь=S,f,inan=(acc,sg|nom,sg)
-_\n
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-впервые=ADV=
-_
-здоровье=S,n,inan=ins,sg
-._\n
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-имя=S,n,inan=gen,pl
-_
-духота=S,sg,f,inan=gen
-_\n
-не=PART=
-_
-исчерпывать=V,tran=inf,pf
-._\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-плацкарта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-мост=S,m,inan=(acc,pl|nom,pl)
-,_\n
-спать=V,ipf,intr=inf
-!\n
+{жар=S,sg,m,inan=(acc|nom)} {на=PR=} {семь=NUM=(abl|dat|gen)} {холм=S,m,inan=abl,pl}, 
+{голубь=S,m,anim=nom,pl} {в=PR=} {тлелый?=A=(abl,sg,plen,m|abl,sg,plen,n)|тлелый?=A=(abl,sg,plen,m|abl,sg,plen,n)} {сенцо=S,sg,n,inan=abl}. 
+{с=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {спадать=V,intr=inpraes,sg,indic,3p,ipf} {чалма=S,f,inan=nom,sg}: 
+{время=S,n,inan=(acc,sg|nom,sg)} {менять=V,ipf,tran=inf} {полотенце=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+({мокнуть=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {днище=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ведро=S,n,inan=(acc,pl|gen,sg|nom,pl)}). 
+{и=CONJ=} {наматывать=V,tran=inf,pf} {на=PR=} {купол=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {город=S,m,inan=abl,sg} — {говор=S,m,inan=(acc,sg|nom,sg)} {мембрана=S,f,inan=gen,pl}, 
+{шарканье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {клумба=S,f,inan=gen,pl} {и=CONJ=} {кукла=S,f=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}.
+
+{надо=ADV,praed=} {гардина=S,f,inan=acc,sg} {зашивать=V,tran=inf,pf}: 
+{ходить=V,ipf,intr=inpraes,sg,indic,3p}, {шагать=V,ipf,intr=inpraes,sg,indic,3p} {масон=S,m,anim=ins,sg}. 
+{как=ADVPRO=} {усыпительный=A=sg,brev,n} — {жить=V,ipf,intr=inf}! 
+{как=ADVPRO=} {целоваться=V,ipf,intr=inf} — {бессонно=ADV=}!
+
+{грязный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {гремучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {в=PR=} {постель=S,f,inan=(acc,sg|nom,sg)} 
+{падать=V,ipf,intr=inpraes,sg,indic,3p} {город=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+{нынче=ADV=} {за=PR=} {долгий=A=acc,sg,plen,f} {степь=S,f,inan=(acc,sg|nom,sg)} 
+{веять=V,ipf,tran=inpraes,sg,indic,3p} {впервые=ADV=} {здоровье=S,n,inan=ins,sg}. 
+{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {имя=S,n,inan=gen,pl} {духота=S,sg,f,inan=gen} 
+{не=PART=} {исчерпывать=V,tran=inf,pf}. 
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {плацкарта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {мост=S,m,inan=(acc,pl|nom,pl)}, 
+{спать=V,ipf,intr=inf}!

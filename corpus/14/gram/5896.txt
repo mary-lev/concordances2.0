@@ -1,134 +1,19 @@
-вы=SPRO,pl,2p=dat
-_
-жить=V,ipf,intr=inf
-,_
-а=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-очень=ADV=
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-близкий=A=sg,brev,m
-_
-поворот=S,m,inan=(acc,sg|nom,sg)
-.\n
-о=INTJ=
-,_
-как=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-_
-строгий=A=sg,brev,m
-_
-и=CONJ=
-_
-точный=A=sg,brev,m
-,\n
-незримый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-расчет=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-зверь=S,m,anim=(acc,pl|gen,pl)
-_
-стрелять=V,ipf,tran=inpraes,pl,indic,3p
-_
-разный=A=sg,brev,n
-,\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-каждый=APRO=(dat,sg,m|dat,sg,n)
-_
-черед=S,m,inan=(acc,sg|nom,sg)
-\n
-весьма=ADV=
-_
-разнообразный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-но=CONJ=
-_
-волк=S,m,anim=(acc,sg|gen,sg)
-_\u2014_
-круглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-волк=S,m,anim=nom,sg
-_
-любить=V,ipf,tran=inpraes,sg,indic,3p
-_
-жить=V,ipf,intr=inf
-_
-на=PR=
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-,\n
-но=CONJ=
-_
-с=PR=
-_
-волк=S,m,anim=ins,sg
-_
-скорый=A=sg,brev,m
-_
-расчет=S,m,inan=(acc,sg|nom,sg)
-:\n
-на=PR=
-_
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-,_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-и=CONJ=
-_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-бить=V,ipf,tran=inpraes,pl,indic,3p
-_
-волк=S,m,anim=(acc,sg|gen,sg)
-_
-круглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-не=PART=
-_
-плакать=V,ipf,intr=sg,imper,2p
-,_
-о=PR=
-_
-друг=S,m,anim=nom,sg
-_
-единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-коль=CONJ=
-_
-лето=S,sg,n,inan=ins
-_
-иль=CONJ=
-_
-зима=S,f,inan=ins,sg
-\n
-опять=ADV=
-_
-с=PR=
-_
-тропа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-волчина?=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-\n
-ты=SPRO,sg,2p=nom
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-_
-услышать=V,pf,tran=inpraes,sg,indic,2p
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{вы=SPRO,pl,2p=dat} {жить=V,ipf,intr=inf}, {а=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {очень=ADV=},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {близкий=A=sg,brev,m} {поворот=S,m,inan=(acc,sg|nom,sg)}.
+{о=INTJ=}, {как=ADVPRO=} {он=SPRO,sg,3p,m=nom} {строгий=A=sg,brev,m} {и=CONJ=} {точный=A=sg,brev,m},
+{незримый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {расчет=S,m,inan=(acc,sg|nom,sg)}.
+
+{зверь=S,m,anim=(acc,pl|gen,pl)} {стрелять=V,ipf,tran=inpraes,pl,indic,3p} {разный=A=sg,brev,n},
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {каждый=APRO=(dat,sg,m|dat,sg,n)} {черед=S,m,inan=(acc,sg|nom,sg)}
+{весьма=ADV=} {разнообразный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{но=CONJ=} {волк=S,m,anim=(acc,sg|gen,sg)} — {круглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+
+{волк=S,m,anim=nom,sg} {любить=V,ipf,tran=inpraes,sg,indic,3p} {жить=V,ipf,intr=inf} {на=PR=} {воля=S,f,inan=(abl,sg|dat,sg)},
+{но=CONJ=} {с=PR=} {волк=S,m,anim=ins,sg} {скорый=A=sg,brev,m} {расчет=S,m,inan=(acc,sg|nom,sg)}:
+{на=PR=} {лед=S,m,inan=(dat,sg|part,sg|loc,sg)}, {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)} {и=CONJ=} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{бить=V,ipf,tran=inpraes,pl,indic,3p} {волк=S,m,anim=(acc,sg|gen,sg)} {круглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+
+{не=PART=} {плакать=V,ipf,intr=sg,imper,2p}, {о=PR=} {друг=S,m,anim=nom,sg} {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{коль=CONJ=} {лето=S,sg,n,inan=ins} {иль=CONJ=} {зима=S,f,inan=ins,sg}
+{опять=ADV=} {с=PR=} {тропа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {волчина?=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}
+{ты=SPRO,sg,2p=nom} {крик=S,m,inan=(acc,sg|nom,sg)} {услышать=V,pf,tran=inpraes,sg,indic,2p} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}.

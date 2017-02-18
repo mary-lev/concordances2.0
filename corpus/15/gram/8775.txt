@@ -1,152 +1,20 @@
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-туда=ADVPRO=
-_\u2014_
-бесповоротный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-в=PR=
-_
-безызвестный=A=acc,sg,plen,f
-_
-страна=S,f,inan=acc,sg
-,\n
-может=ADV,parenth=
-,_
-к=PR=
-_
-низость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-в=PR=
-_
-вечный=A=acc,sg,plen,f
-_
-весна=S,f,inan=acc,sg
-,\n
-может=ADV,parenth=
-,_
-к=PR=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вольготный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-может=ADV,parenth=
-,_
-в=PR=
-_
-омут=S,m,inan=(acc,sg|nom,sg)
-,_
-вниз=ADV=
-,_
-ко=PR=
-_
-дно=S,n,inan=dat,sg
-.\n\n
-лютый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зверь=S,m,anim=nom,sg
-_
-туда=ADVPRO=
-_
-прорыскать=V,pf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-навек=ADV=
-_
-прощаться=V,intr=sg,imper,2p,ipf
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-,\n
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-туда=ADVPRO=
-_
-едва=ADV=
-_
-кто=SPRO,sg,m,anim=nom
-_
-искать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-у=PR=
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-он=SPRO,sg,3p,m=nom
-_
-нелюбимый=A=sg,brev,m
-,\n
-только=PART=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-он=SPRO,sg,3p,m=nom
-_
-просвистать?=V,pf,tran=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-_
-воротиться=V,pf,intr=inpraes,sg,indic,3p
-_
-другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-.\n\n
-ничто=SPRO,sg,n=gen
-_
-он=SPRO,sg,3p,m=nom
-_
-не=PART=
-_
-рассказывать=V=inpraes,sg,indic,3p,pf
-,\n
-только=PART=
-_
-дивно=ADV=
-_
-воздыхать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-трава=S,f,inan=gen,pl
-_
-иной=APRO=ins,sg,f
-_
-ложиться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-ниже=ADV=
-_
-глянуть=V,pf,intr=inpraes,sg,indic,3p
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-словно=CONJ=
-_
-кто-то=SPRO,sg,m,anim=nom
-_
-связывать=V=inpraes,sg,indic,3p,pf
-.\n
-тьма=S,f,inan=nom,sg
-_
-в=PR=
-_
-немой=A=sg,brev,m
-,_
-тьма=S,f,inan=nom,sg
-_
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-запевать=V,tran=inpraes,sg,indic,3p,pf
-.\n
+{путь=S,m,inan=(acc,sg|nom,sg)} {туда=ADVPRO=} — {бесповоротный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{в=PR=} {безызвестный=A=acc,sg,plen,f} {страна=S,f,inan=acc,sg},
+{может=ADV,parenth=}, {к=PR=} {низость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {болотный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{мочь=V,ipf,intr=inpraes,sg,indic,3p}, {в=PR=} {вечный=A=acc,sg,plen,f} {весна=S,f,inan=acc,sg},
+{может=ADV,parenth=}, {к=PR=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вольготный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{может=ADV,parenth=}, {в=PR=} {омут=S,m,inan=(acc,sg|nom,sg)}, {вниз=ADV=}, {ко=PR=} {дно=S,n,inan=dat,sg}.
+
+{лютый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зверь=S,m,anim=nom,sg} {туда=ADVPRO=} {прорыскать=V,pf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {навек=ADV=} {прощаться=V,intr=sg,imper,2p,ipf} {с=PR=} {он=SPRO,sg,3p,m=ins},
+{путь=S,m,inan=(acc,sg|nom,sg)} {туда=ADVPRO=} {едва=ADV=} {кто=SPRO,sg,m,anim=nom} {искать=V,ipf,tran=inpraes,sg,indic,3p},
+{у=PR=} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {он=SPRO,sg,3p,m=nom} {нелюбимый=A=sg,brev,m},
+{только=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)}, {он=SPRO,sg,3p,m=nom} {просвистать?=V,pf,tran=inpraes,sg,indic,3p},
+{но=CONJ=} {воротиться=V,pf,intr=inpraes,sg,indic,3p} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.
+
+{ничто=SPRO,sg,n=gen} {он=SPRO,sg,3p,m=nom} {не=PART=} {рассказывать=V=inpraes,sg,indic,3p,pf},
+{только=PART=} {дивно=ADV=} {воздыхать=V,intr=inpraes,sg,indic,3p,pf},
+{тень=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {трава=S,f,inan=gen,pl} {иной=APRO=ins,sg,f} {ложиться=V,intr=inpraes,sg,indic,3p,pf},
+{ниже=ADV=} {глянуть=V,pf,intr=inpraes,sg,indic,3p} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свод=S,m,inan=(acc,sg|nom,sg)},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {словно=CONJ=} {кто-то=SPRO,sg,m,anim=nom} {связывать=V=inpraes,sg,indic,3p,pf}.
+{тьма=S,f,inan=nom,sg} {в=PR=} {немой=A=sg,brev,m}, {тьма=S,f,inan=nom,sg} {в=PR=} {он=SPRO,sg,3p,m=abl} {запевать=V,tran=inpraes,sg,indic,3p,pf}.

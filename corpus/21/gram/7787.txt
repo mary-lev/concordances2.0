@@ -1,136 +1,24 @@
-мы=SPRO,pl,1p=nom
-_
-по=PR=
-_
-улица=S,f,inan=dat,pl
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-разбегаться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-в=PR=
-_
-молчание=S,n,inan=abl,sg
-.\n
-мы=SPRO,pl,1p=nom
-_
-к=PR=
-_
-забор=S,m,inan=dat,pl
-_
-укромный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-припадать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-в=PR=
-_
-ожидание=S,n,inan=abl,sg
-.\n\n...\xAB
-эй=INTJ=
-,_
-прохожий=S,m,anim=nom,sg
-!_
-прохожий=S,m,anim=nom,sg
-!_\n
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-черта=S,f,inan=nom,sg
-_
-рогатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-с=PR=
-_
-размалевывать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-рожа=S,f,inan=ins,sg
-,_\n
-матерый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-мохнатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-?\xBB\n\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-крепкий=A=sg,brev,m
-_
-и=CONJ=
-_
-гулкий=A=sg,brev,m
-.\n
-снег=S,m,inan=(acc,sg|nom,sg)
-_
-скрипеть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-разметаться=V,ipf,intr=inpraes,sg,indic,3p
-..._\n
-забегать=V,intr=inpraes,sg,indic,1p,pf
-_
-в=PR=
-_
-переулок=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-там=ADVPRO=
-_
-другой=APRO=(nom,pl|acc,pl,inan)
-_
-шататься=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-в=PR=
-_
-лунный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-отсвет=S,m,inan=abl,sg
-_
-синий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-страшно=ADV=
-_
-встречаться=V,intr=inf,pf
-_
-с=PR=
-_
-ряженый=S,m,anim=(dat,pl|ins,sg)
-!_\n
-мы=SPRO,pl,1p=nom
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-окидывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_\n
-взор=S,m,inan=ins,sg
-_
-чуждый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-неслаженный=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-.\n\n
-сам=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-себя=SPRO=(acc|gen)
-_
-жутко=ADV=
-.\n
-я=SPRO,sg,1p=nom
-_\u2014_
-не=PART=
-_
-я=SPRO,sg,1p=nom
-?_
-вдруг=ADV=
-_
-да=CONJ=
-_
-статься=V,pf,intr=inpraes,sg,indic,3p
-?_\n
-вдруг=ADV=
-_
-полночный=A=nom,sg,plen,f
-_
-шутка=S,f,inan=nom,sg
-_
-да=PART=
-_\n
-навеки=ADV=
-_
-протягиваться=V,intr=inpraes,sg,indic,3p,pf
-?__\n
+{мы=SPRO,pl,1p=nom} {по=PR=} {улица=S,f,inan=dat,pl} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{разбегаться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {в=PR=} {молчание=S,n,inan=abl,sg}.
+{мы=SPRO,pl,1p=nom} {к=PR=} {забор=S,m,inan=dat,pl} {укромный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{припадать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {в=PR=} {ожидание=S,n,inan=abl,sg}.
+
+...«{эй=INTJ=}, {прохожий=S,m,anim=nom,sg}! {прохожий=S,m,anim=nom,sg}! 
+{видеть=V,ipf,tran=praet,sg,indic,m} {черта=S,f,inan=nom,sg} {рогатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{с=PR=} {размалевывать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {рожа=S,f,inan=ins,sg}, 
+{матерый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {мохнатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}?»
+
+{ветер=S,m,inan=(acc,sg|nom,sg)} {крепкий=A=sg,brev,m} {и=CONJ=} {гулкий=A=sg,brev,m}.
+{снег=S,m,inan=(acc,sg|nom,sg)} {скрипеть=V,ipf,intr=inpraes,sg,indic,3p}, {разметаться=V,ipf,intr=inpraes,sg,indic,3p}... 
+{забегать=V,intr=inpraes,sg,indic,1p,pf} {в=PR=} {переулок=S,m,inan=(acc,sg|nom,sg)} —
+{там=ADVPRO=} {другой=APRO=(nom,pl|acc,pl,inan)} {шататься=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{в=PR=} {лунный=A=(abl,sg,plen,m|abl,sg,plen,n)} {отсвет=S,m,inan=abl,sg} {синий=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{страшно=ADV=} {встречаться=V,intr=inf,pf} {с=PR=} {ряженый=S,m,anim=(dat,pl|ins,sg)}! 
+{мы=SPRO,pl,1p=nom} {друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {окидывать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} 
+{взор=S,m,inan=ins,sg} {чуждый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {неслаженный=A,plen=(dat,pl|ins,sg,m|ins,sg,n)}.
+
+{сам=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {себя=SPRO=(acc|gen)} {жутко=ADV=}.
+{я=SPRO,sg,1p=nom} — {не=PART=} {я=SPRO,sg,1p=nom}? {вдруг=ADV=} {да=CONJ=} {статься=V,pf,intr=inpraes,sg,indic,3p}? 
+{вдруг=ADV=} {полночный=A=nom,sg,plen,f} {шутка=S,f,inan=nom,sg} {да=PART=} 
+{навеки=ADV=} {протягиваться=V,intr=inpraes,sg,indic,3p,pf}?  

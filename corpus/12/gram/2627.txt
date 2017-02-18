@@ -1,142 +1,19 @@
-погодить=V,pf,intr=sg,imper,2p
-,_
-дружок=S,m,anim=nom,sg
-!\n
-не=PART=
-_
-довольно=ADV=
-_
-ли=PART=
-_
-мы=SPRO,pl,1p=dat
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-городской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-толочь=V,ipf,tran=inf
-?\n
-зайти=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-в=PR=
-_
-погребок=S,m,inan=(acc,sg|nom,sg)
-,\n
-скоротать=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-там=ADVPRO=
-_
-такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_\u2014_
-приют=S,m,inan=(acc,sg|nom,sg)
-,\n
-там=ADVPRO=
-_
-целоваться=V,ipf,intr=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-пить=V,ipf,tran=inpraes,pl,indic,3p
-,_
-вино=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лить=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-там=ADVPRO=
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-петь=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-пить=V,ipf,tran=inf
-_
-и=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-давать=V,tran=inpraes,pl,indic,3p,ipf
-.\n\n
-там=ADVPRO=
-_
-в=PR=
-_
-печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_\u2014_
-дрова=S,pl,inan=(acc|nom)
-,\n
-там=ADVPRO=
-_
-тихонечко=ADV=
-_
-гулять=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-смуглый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-палец=S,m,inan=abl,pl
-_
-нож=S,m,inan=(acc,sg|nom,sg)
-.\n
-там=ADVPRO=
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-правый=A=sg,brev,f
-,\n
-там=ADVPRO=
-_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-хороший=A=sg,brev,m
-.\n\n
-там=ADVPRO=
-_
-один=APRO=nom,sg,f
-_\u2014_
-темно=ADV=comp
-\n
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_
-и=CONJ=
-_
-никто=SPRO,sg,m,anim=nom
--
-то=PART=
-_
-не=PART=
-_
-подсаживаться=V,intr=inpraes,sg,indic,3p,pf
-_
-к=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-.\n
-ох=INTJ=
-,_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-!\n
-ох=INTJ=
-,_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-!\n
+{погодить=V,pf,intr=sg,imper,2p}, {дружок=S,m,anim=nom,sg}!
+{не=PART=} {довольно=ADV=} {ли=PART=} {мы=SPRO,pl,1p=dat} {камень=S,m,inan=(acc,sg|nom,sg)} {городской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {толочь=V,ipf,tran=inf}?
+{зайти=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {в=PR=} {погребок=S,m,inan=(acc,sg|nom,sg)},
+{скоротать=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+
+{там=ADVPRO=} {такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} — {приют=S,m,inan=(acc,sg|nom,sg)},
+{там=ADVPRO=} {целоваться=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {пить=V,ipf,tran=inpraes,pl,indic,3p}, {вино=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лить=V,ipf,tran=inpraes,pl,indic,3p},
+{там=ADVPRO=} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {петь=V,ipf,tran=inpraes,pl,indic,3p},
+{пить=V,ipf,tran=inf} {и=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {давать=V,tran=inpraes,pl,indic,3p,ipf}.
+
+{там=ADVPRO=} {в=PR=} {печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} — {дрова=S,pl,inan=(acc|nom)},
+{там=ADVPRO=} {тихонечко=ADV=} {гулять=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {смуглый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {палец=S,m,inan=abl,pl} {нож=S,m,inan=(acc,sg|nom,sg)}.
+{там=ADVPRO=} {и=CONJ=} {я=SPRO,sg,1p=nom} {правый=A=sg,brev,f},
+{там=ADVPRO=} {и=CONJ=} {ты=SPRO,sg,2p=nom} {хороший=A=sg,brev,m}.
+
+{там=ADVPRO=} {один=APRO=nom,sg,f} — {темно=ADV=comp}
+{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {и=CONJ=} {никто=SPRO,sg,m,anim=nom}-{то=PART=} {не=PART=} {подсаживаться=V,intr=inpraes,sg,indic,3p,pf} {к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}.
+{ох=INTJ=}, {взгляд=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}!
+{ох=INTJ=}, {голос=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}!

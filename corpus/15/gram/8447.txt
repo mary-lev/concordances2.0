@@ -1,144 +1,24 @@
-коромысло=S,n,inan=(acc,sg|nom,sg)
-,_
-коромысло=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-с=PR=
-_
-нежный=A=ins,pl,plen
-_
-крыло=S,n,inan=ins,pl
-,\n
-как=ADVPRO=
-_
-оно=SPRO,sg,3p,n=nom
-_
-легко=ADV=
-_
-повисать=V,intr=praet,sg,indic,n,pf
-\n\t
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-.\n\n
-прилетать=V,intr=inpraes,sg,indic,3p,ipf
-,_
-улетать=V,intr=inpraes,sg,indic,3p,ipf
-,\n\t
-в=PR=
-_
-ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-для=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-она=SPRO,sg,3p,f=nom
-_
-рождать=V,ipf,tran=inpraes,sg,indic,3p
-\n\t
-блеск=S,m,inan=(acc,pl|nom,pl)
-,_
-а=CONJ=
-_
-не=PART=
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-коромысло=S,n,inan=(acc,sg|nom,sg)
-,_
-коромысло=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-почему=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_
-пленный=A=pl,brev
-?\n
-если=CONJ=
-_
-б=PART=
-_
-знать=V,ipf,tran=inf
-,_
-какой=APRO=(nom,pl|acc,pl,inan)
-_
-число=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n\t
-для=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-священный=A=pl,brev
-.\n\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-число=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-приковывать=V=praet,pl,indic,pf
-\n\t
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-простор=S,m,inan=abl,pl
-_
-вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n\t
-мы=SPRO,pl,1p=nom
-_
-скользить=V,ipf,intr=inpraes,pl,indic,1p
-_
-лишь=PART=
-_
-дума=S,f,inan=ins,sg
-.\n\n
-но=CONJ=
-_
-и=CONJ=
-_
-в=PR=
-_
-дума=S,f,inan=abl,pl
-_
-мало=ADV=
-_
-смысл=S,m,inan=gen,sg
-,\n\t
-тяжесть=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-земной=A=nom,sg,plen,f
-.\n
-ты=SPRO,sg,2p=nom
-_
-же=PART=
-_
-грезить=V,ipf,intr=inpraes,sg,indic,2p
-,_
-коромысло=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-_
-летать=V,ipf,intr=inpraes,ger
-.\n
+{коромысло=S,n,inan=(acc,sg|nom,sg)}, {коромысло=S,n,inan=(acc,sg|nom,sg)},
+	{с=PR=} {нежный=A=ins,pl,plen} {крыло=S,n,inan=ins,pl},
+{как=ADVPRO=} {оно=SPRO,sg,3p,n=nom} {легко=ADV=} {повисать=V,intr=praet,sg,indic,n,pf}
+	{в=PR=} {воздух=S,m,inan=abl,sg} {над=PR=} {мы=SPRO,pl,1p=ins}.
+
+{прилетать=V,intr=inpraes,sg,indic,3p,ipf}, {улетать=V,intr=inpraes,sg,indic,3p,ipf},
+	{в=PR=} {ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{для=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {она=SPRO,sg,3p,f=nom} {рождать=V,ipf,tran=inpraes,sg,indic,3p}
+	{блеск=S,m,inan=(acc,pl|nom,pl)}, {а=CONJ=} {не=PART=} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{коромысло=S,n,inan=(acc,sg|nom,sg)}, {коромысло=S,n,inan=(acc,sg|nom,sg)},
+	{почему=ADVPRO=} {мы=SPRO,pl,1p=nom} {пленный=A=pl,brev}?
+{если=CONJ=} {б=PART=} {знать=V,ipf,tran=inf}, {какой=APRO=(nom,pl|acc,pl,inan)} {число=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+	{для=PR=} {ты=SPRO,sg,2p=(acc|gen)} {священный=A=pl,brev}.
+
+{наш=APRO=(nom,pl|acc,pl,inan)} {число=S,n,inan=(acc,pl|gen,sg|nom,pl)} {приковывать=V=praet,pl,indic,pf}
+	{мы=SPRO,pl,1p=(abl|acc|gen)} {к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{и=CONJ=} {в=PR=} {простор=S,m,inan=abl,pl} {вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+	{мы=SPRO,pl,1p=nom} {скользить=V,ipf,intr=inpraes,pl,indic,1p} {лишь=PART=} {дума=S,f,inan=ins,sg}.
+
+{но=CONJ=} {и=CONJ=} {в=PR=} {дума=S,f,inan=abl,pl} {мало=ADV=} {смысл=S,m,inan=gen,sg},
+	{тяжесть=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {земной=A=nom,sg,plen,f}.
+{ты=SPRO,sg,2p=nom} {же=PART=} {грезить=V,ipf,intr=inpraes,sg,indic,2p}, {коромысло=S,n,inan=(acc,sg|nom,sg)},
+	{в=PR=} {воздух=S,m,inan=abl,sg} {летать=V,ipf,intr=inpraes,ger}.

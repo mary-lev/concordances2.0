@@ -1,184 +1,29 @@
-три=NUM=(nom|acc,inan)
-_
-месяц=S,m,inan=gen,sg
-_
-то=SPRO,sg,n,inan=dat
-_
-назад=ADV=
-,\n
-лишь=PART=
-_
-только=PART=
-_
-первый=ANUM=(nom,pl|acc,pl,inan)
-_
-метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-на=PR=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-незащищенный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-\n
-с=PR=
-_
-остервенение=S,n,inan=ins,sg
-_
-налетать=V,intr=praet,pl,indic,pf
-,\n\n
-прикидывать=V,tran=praet,sg,indic,m,pf
-_
-тотчас=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-ум=S,m,inan=abl,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=nom
-_
-укрываться=V,intr=inpraes,sg,indic,1p,pf
-,_
-как=CONJ=
-_
-затворник=S,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-что=CONJ=
-_
-стих=S,m,inan=ins,pl
-_
-о=PR=
-_
-зима=S,f,inan=(abl,sg|dat,sg)
-\n
-пополнять=V,tran=inpraes,sg,indic,1p,pf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сборник=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-наваливаться=V,intr=praet,pl,indic,pf
-_
-пустяк=S,m,inan=(acc,pl|nom,pl)
-\n
-гора=S,f,inan=ins,sg
-,_
-как=CONJ=
-_
-снежный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-завал=S,rare,m,inan=(acc,pl|nom,pl)
-.\n
-зима=S,f,inan=nom,sg
-,_
-расчет=S,m,inan=dat,pl
-_
-вопреки=PR=
-,\n
-наполовину=ADV=
-_
-миновать=V,tran=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-.\n\n
-тогда=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-понимать=V=praet,sg,indic,m,pf
-,_
-почему=ADVPRO=
-\n
-она=SPRO,sg,3p,f=nom
-_
-во=PR=
-_
-время=S,n,inan=(acc,sg|nom,sg)
-_
-снегопад=S,m,inan=gen,sg
-,\n
-снежинка=S,f,inan=ins,pl
-_
-пронзать=V=inpraes,ger,ipf,tran
-_
-тьма=S,f,inan=acc,sg
-,\n
-заглядывать=V,intr=praet,sg,indic,f,ipf
-_
-в=PR=
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-сад=S,m,inan=gen,sg
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-шептать=V,ipf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=(abl|dat)
-:_\xAB
-спешить=V,ipf,intr=sg,imper,2p
-!\xBB_\u2014\n
-губа=S,f,inan=ins,pl
-,_
-белый=A=ins,pl,plen
-_
-от=PR=
-_
-стужа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-чинить=V,ipf,tran=praet,sg,indic,m
-_
-карандаш=S,m,inan=(acc,pl|nom,pl)
-,\n
-отшучиваться=V,intr=inpraes,ger,ipf
-_
-неуклюже=ADV=
-.\n\n
-пока=CONJ=
-_
-под=PR=
-_
-лампа=S,f,inan=ins,sg
-_
-у=PR=
-_
-стол=S,m,inan=gen,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-медлить=V,ipf,intr=praet,sg,indic,m
-_
-зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-утро=S,n,inan=ins,sg
-_
-ранний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-зима=S,f,inan=nom,sg
-_
-являться=V,intr=praet,sg,indic,f,pf
-_
-и=CONJ=
-_
-уходить=V,intr=praet,sg,indic,f,pf
-\n
-непонятый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-напоминание=S,n,inan=ins,sg
-.\n
+{три=NUM=(nom|acc,inan)} {месяц=S,m,inan=gen,sg} {то=SPRO,sg,n,inan=dat} {назад=ADV=},
+{лишь=PART=} {только=PART=} {первый=ANUM=(nom,pl|acc,pl,inan)} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{на=PR=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {незащищенный=A,plen=(acc,sg,m,inan|nom,sg,m)} {сад=S,m,inan=(acc,sg|nom,sg)}
+{с=PR=} {остервенение=S,n,inan=ins,sg} {налетать=V,intr=praet,pl,indic,pf},
+
+{прикидывать=V,tran=praet,sg,indic,m,pf} {тотчас=ADV=} {я=SPRO,sg,1p=nom} {в=PR=} {ум=S,m,inan=abl,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=nom} {укрываться=V,intr=inpraes,sg,indic,1p,pf}, {как=CONJ=} {затворник=S,m,anim=nom,sg},
+{и=CONJ=} {что=CONJ=} {стих=S,m,inan=ins,pl} {о=PR=} {зима=S,f,inan=(abl,sg|dat,sg)}
+{пополнять=V,tran=inpraes,sg,indic,1p,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сборник=S,m,inan=(acc,sg|nom,sg)}.
+
+{но=CONJ=} {наваливаться=V,intr=praet,pl,indic,pf} {пустяк=S,m,inan=(acc,pl|nom,pl)}
+{гора=S,f,inan=ins,sg}, {как=CONJ=} {снежный=A=(acc,pl,plen,inan|nom,pl,plen)} {завал=S,rare,m,inan=(acc,pl|nom,pl)}.
+{зима=S,f,inan=nom,sg}, {расчет=S,m,inan=dat,pl} {вопреки=PR=},
+{наполовину=ADV=} {миновать=V,tran=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)}.
+
+{тогда=ADVPRO=} {я=SPRO,sg,1p=nom} {понимать=V=praet,sg,indic,m,pf}, {почему=ADVPRO=}
+{она=SPRO,sg,3p,f=nom} {во=PR=} {время=S,n,inan=(acc,sg|nom,sg)} {снегопад=S,m,inan=gen,sg},
+{снежинка=S,f,inan=ins,pl} {пронзать=V=inpraes,ger,ipf,tran} {тьма=S,f,inan=acc,sg},
+{заглядывать=V,intr=praet,sg,indic,f,ipf} {в=PR=} {дом=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {сад=S,m,inan=gen,sg}.
+
+{она=SPRO,sg,3p,f=nom} {шептать=V,ipf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=(abl|dat)}: «{спешить=V,ipf,intr=sg,imper,2p}!» —
+{губа=S,f,inan=ins,pl}, {белый=A=ins,pl,plen} {от=PR=} {стужа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{а=CONJ=} {я=SPRO,sg,1p=nom} {чинить=V,ipf,tran=praet,sg,indic,m} {карандаш=S,m,inan=(acc,pl|nom,pl)},
+{отшучиваться=V,intr=inpraes,ger,ipf} {неуклюже=ADV=}.
+
+{пока=CONJ=} {под=PR=} {лампа=S,f,inan=ins,sg} {у=PR=} {стол=S,m,inan=gen,sg},
+{я=SPRO,sg,1p=nom} {медлить=V,ipf,intr=praet,sg,indic,m} {зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {утро=S,n,inan=ins,sg} {ранний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{зима=S,f,inan=nom,sg} {являться=V,intr=praet,sg,indic,f,pf} {и=CONJ=} {уходить=V,intr=praet,sg,indic,f,pf}
+{непонятый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {напоминание=S,n,inan=ins,sg}.

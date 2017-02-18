@@ -1,116 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-,_
-чем=CONJ=
-_
-тифлис=S,geo,m,inan=(acc,sg|nom,sg)
-\n
-удерживать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-по=PR=
-_
-откос=S,m,inan=dat,pl
-.\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-близь=S,f,inan=(acc,sg|nom,sg)
-\n
-кругом=ADV=
-_
-под=PR=
-_
-абрикос=S,m,inan=ins,sg
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-во=PR=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-отвес=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=ADVPRO=
-_
-книга=S,f,inan=nom,sg
-,_
-с=PR=
-_
-фронтиспис=S,m,inan=ins,sg
-,\n
-на=PR=
-_
-язык=S,m,inan=abl,sg
-_
-чудо=S,n,inan=gen,pl
-\n
-кисть=S,f,inan=ins,pl
-_
-слива=S,f,inan=gen,pl
-_
-исписывать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-по=PR=
-_
-склон=S,m,inan=dat,pl
-_
-цвести=V,ipf,intr=praet,sg,indic,m
-_
-анис=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-,_
-выситься=V,ipf,intr=inpraes,ger
-_
-пирамида=S,f,inan=ins,sg
-,\n
-смотреть=V,ipf,tran=praet,pl,indic
-_
-сверху=ADV=
-_
-вниз=ADV=
-\n
-сад=S,m,inan=(acc,pl|nom,pl)
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-давид=S,persn,m,anim=(acc,sg|gen,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-светец=S,m,inan=gen,sg
-\n
-меж=PR=
-_
-кадка=S,f,inan=gen,pl
-_
-с=PR=
-_
-олеандр=S,m,inan=ins,sg
-\n
-и=CONJ=
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-:_
-чтец=S,m,anim=(acc,sg|gen,sg)
-\n
-за=PR=
-_
-старый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-фолиант=S,m,inan=ins,sg
-.\n
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m}, {чем=CONJ=} {тифлис=S,geo,m,inan=(acc,sg|nom,sg)}
+{удерживать=V,tran=praet,sg,partcp,brev,m,pf,pass} {по=PR=} {откос=S,m,inan=dat,pl}.
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {даль=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {близь=S,f,inan=(acc,sg|nom,sg)}
+{кругом=ADV=} {под=PR=} {абрикос=S,m,inan=ins,sg}.
+
+{он=SPRO,sg,3p,m=nom} {быть=V,intr=praet,sg,indic,m,ipf} {во=PR=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {отвес=S,m,inan=(acc,sg|nom,sg)},
+{как=ADVPRO=} {книга=S,f,inan=nom,sg}, {с=PR=} {фронтиспис=S,m,inan=ins,sg},
+{на=PR=} {язык=S,m,inan=abl,sg} {чудо=S,n,inan=gen,pl}
+{кисть=S,f,inan=ins,pl} {слива=S,f,inan=gen,pl} {исписывать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+
+{по=PR=} {склон=S,m,inan=dat,pl} {цвести=V,ipf,intr=praet,sg,indic,m} {анис=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=}, {выситься=V,ipf,intr=inpraes,ger} {пирамида=S,f,inan=ins,sg},
+{смотреть=V,ipf,tran=praet,pl,indic} {сверху=ADV=} {вниз=ADV=}
+{сад=S,m,inan=(acc,pl|nom,pl)} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} {давид=S,persn,m,anim=(acc,sg|gen,sg)}.
+
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {блеск=S,m,inan=(acc,sg|nom,sg)} {светец=S,m,inan=gen,sg}
+{меж=PR=} {кадка=S,f,inan=gen,pl} {с=PR=} {олеандр=S,m,inan=ins,sg}
+{и=CONJ=} {видеть=V,ipf,tran=praet,sg,indic,m} {ночь=S,f,inan=(acc,sg|nom,sg)}: {чтец=S,m,anim=(acc,sg|gen,sg)}
+{за=PR=} {старый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {фолиант=S,m,inan=ins,sg}.

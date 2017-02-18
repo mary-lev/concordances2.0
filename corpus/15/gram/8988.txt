@@ -1,132 +1,20 @@
-я=SPRO,sg,1p=nom
-_
-венчалася?=S,persn,mf,anim=nom,sg
-_
-с=PR=
-_
-дружок=S,m,anim=ins,sg
-\n
-под=PR=
-_
-кусточек=S,m,inan=ins,sg
-_
-под=PR=
-_
-куст=S,m,inan=ins,sg
-,\n
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-свадебный=A=sg,brev,n
-_
-луна=S,f,inan=nom,sg
-\n
-убелять=V,tran=praet,sg,indic,f,pf
-_
-с=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-наш=APRO=nom,sg,f
-_
-церковь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-тишина=S,sg,f,inan=nom
-,\n
-гость=S,m,anim=nom,pl
-_
-свадебный=A=pl,brev
-_\u2014_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-под=PR=
-_
-кусточек=S,m,inan=ins,sg
-_
-под=PR=
-_
-куст=S,m,inan=ins,sg
-\n
-там=ADVPRO=
-_
-и=CONJ=
-_
-свадебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-,\n
-быть=V,intr=praet,pl,indic,ipf
-_
-певчий=S,m,anim=nom,pl
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-:\n
-между=PR=
-_
-ладанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ветвь=S,f,inan=gen,pl
-,\n
-весь=APRO=acc,sg,f
--
-то=PART=
-_
-ночка=S,f,inan=acc,sg
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_\u2014_
-как=CONJ=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-\n
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_\u2014_
-соловей=S,m,anim=nom,sg
-.\n\n
-обручать=V,tran=praet,sg,indic,f,ipf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-весна=S,f,inan=nom,sg
-,\n
-обвенчать=V,pf,tran=praet,sg,indic,f
-_
-тишина=S,sg,f,inan=nom
-,\n
-и=CONJ=
-_
-на=PR=
-_
-яблоня=S,f,inan=(abl,sg|dat,sg)
-_
-лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-осыпаться=V,ipf,intr=praet,pl,indic
-_
-лепесток=S,m,inan=(acc,pl|nom,pl)
-.\n
-хорошо=ADV=parenth
-_
-ль=PART=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-?\n
-вечно=ADV=
-_
-ль=PART=
-_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-мы=SPRO,pl,1p=nom
-_
-дружок=S,m,anim=nom,pl
-?\n
+{я=SPRO,sg,1p=nom} {венчалася?=S,persn,mf,anim=nom,sg} {с=PR=} {дружок=S,m,anim=ins,sg}
+{под=PR=} {кусточек=S,m,inan=ins,sg} {под=PR=} {куст=S,m,inan=ins,sg},
+{платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {свадебный=A=sg,brev,n} {луна=S,f,inan=nom,sg}
+{убелять=V,tran=praet,sg,indic,f,pf} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{наш=APRO=nom,sg,f} {церковь=S,f,inan=(acc,sg|nom,sg)} — {тишина=S,sg,f,inan=nom},
+{гость=S,m,anim=nom,pl} {свадебный=A=pl,brev} — {цветок=S,m,inan=(acc,pl|nom,pl)}.
+
+{под=PR=} {кусточек=S,m,inan=ins,sg} {под=PR=} {куст=S,m,inan=ins,sg}
+{там=ADVPRO=} {и=CONJ=} {свадебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {быть=V,intr=praet,sg,indic,m,ipf} {дом=S,m,inan=(acc,sg|nom,sg)},
+{быть=V,intr=praet,pl,indic,ipf} {певчий=S,m,anim=nom,pl} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}:
+{между=PR=} {ладанный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ветвь=S,f,inan=gen,pl},
+{весь=APRO=acc,sg,f}-{то=PART=} {ночка=S,f,inan=acc,sg} {петь=V,ipf,tran=praet,sg,indic,m} — {как=CONJ=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}
+{надо=ADV,praed=} {я=SPRO,sg,1p=ins} — {соловей=S,m,anim=nom,sg}.
+
+{обручать=V,tran=praet,sg,indic,f,ipf} {мы=SPRO,pl,1p=(abl|acc|gen)} {весна=S,f,inan=nom,sg},
+{обвенчать=V,pf,tran=praet,sg,indic,f} {тишина=S,sg,f,inan=nom},
+{и=CONJ=} {на=PR=} {яблоня=S,f,inan=(abl,sg|dat,sg)} {лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{осыпаться=V,ipf,intr=praet,pl,indic} {лепесток=S,m,inan=(acc,pl|nom,pl)}.
+{хорошо=ADV=parenth} {ль=PART=} {ты=SPRO,sg,2p=(abl|dat)} {со=PR=} {я=SPRO,sg,1p=ins}?
+{вечно=ADV=} {ль=PART=} {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {мы=SPRO,pl,1p=nom} {дружок=S,m,anim=nom,pl}?

@@ -1,150 +1,24 @@
-записка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-завсегдатай=S,m,anim=(acc,sg|gen,sg)
-\n
-три=NUM=(abl|gen|acc,anim)
-_
-четверть=S,f,inan=gen,pl
-_
-четвертый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,\n
-когда=CONJ=
-_
-не=PART=
-_
-к=PR=
-_
-человек=S,m,anim=dat,pl
-_\u2014_
-к=PR=
-_
-статуя=S,f,inan=dat,pl
-\n
-рассвет=S,m,inan=(acc,sg|nom,sg)
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-_
-повертывать=V,ipf=inpraes,sg,indic,3p
-,\n\n
-когда=CONJ=
-_
-ко=PR=
-_
-всякий=APRO=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-всячина=S,f,inan=(abl,sg|dat,sg)
-\n
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-куда=ADVPRO=
-_
-туманный=A=comp
-,\n
-чем=CONJ=
-_
-к=PR=
-_
-сердце=S,n,inan=dat,sg
-_
-липа=S,f,inan=gen,pl
-,_
-охватывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-\n
-роса=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-внимание=S,n,inan=ins,sg
-.\n\n
-на=PR=
-_
-память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-недавний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-рассвет=S,m,inan=gen,sg
-_
-свежий=A=sg,brev,m
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,\n
-когда=CONJ=
-_
-с=PR=
-_
-заря=S,f,inan=ins,sg
-_
-я=SPRO,sg,1p=nom
-_
-сравнивать=V,tran=praet,sg,indic,m,ipf
-\n
-бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-книга=S,f,inan=gen,pl
-.\n\n
-когда=CONJ=
-,_
-живо=ADV=comp
-_
-запоминаться=V,intr=praet,ger,pf
-,\n
-чем=CONJ=
-_
-лесть=S,f,inan=(acc,sg|nom,sg)
-,_
-чем=CONJ=
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-,_
-чем=CONJ=
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=(acc|gen)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-рифма=S,f,inan=gen,pl
-_
-беспомощность=S,f,inan=(acc,sg|nom,sg)
-\n
-взять=V,pf,tran=praet,sg,indic,f
-_
-в=PR=
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-щемло?=S,anim=(nom,sg,n|nom,sg,m)
-.\n\n
-но=CONJ=
-_
-странно=ADV=
-,_
-тот=APRO=ins,pl
-_
-ж=PART=
-_
-щемло?=S,anim=(ins,pl,n|ins,pl,m)
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-сжатый=A=sg,brev,m
-_
-до=PR=
-_
-синяк=S,m,inan=gen,pl
-\n
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-яблоня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-надломленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-ярмо=S,n,inan=ins,sg
-_
-особняк=S,m,inan=gen,pl
-.\n
+{записка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {завсегдатай=S,m,anim=(acc,sg|gen,sg)}
+{три=NUM=(abl|gen|acc,anim)} {четверть=S,f,inan=gen,pl} {четвертый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)},
+{когда=CONJ=} {не=PART=} {к=PR=} {человек=S,m,anim=dat,pl} — {к=PR=} {статуя=S,f,inan=dat,pl}
+{рассвет=S,m,inan=(acc,sg|nom,sg)} {сад=S,m,inan=(acc,pl|nom,pl)} {повертывать=V,ipf=inpraes,sg,indic,3p},
+
+{когда=CONJ=} {ко=PR=} {всякий=APRO=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {всячина=S,f,inan=(abl,sg|dat,sg)}
+{путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {куда=ADVPRO=} {туманный=A=comp},
+{чем=CONJ=} {к=PR=} {сердце=S,n,inan=dat,sg} {липа=S,f,inan=gen,pl}, {охватывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)}
+{роса=S,f,inan=ins,sg} {и=CONJ=} {внимание=S,n,inan=ins,sg}.
+
+{на=PR=} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {недавний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{рассвет=S,m,inan=gen,sg} {свежий=A=sg,brev,m} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)},
+{когда=CONJ=} {с=PR=} {заря=S,f,inan=ins,sg} {я=SPRO,sg,1p=nom} {сравнивать=V,tran=praet,sg,indic,m,ipf}
+{бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {книга=S,f,inan=gen,pl}.
+
+{когда=CONJ=}, {живо=ADV=comp} {запоминаться=V,intr=praet,ger,pf},
+{чем=CONJ=} {лесть=S,f,inan=(acc,sg|nom,sg)}, {чем=CONJ=} {лед=S,m,inan=(acc,sg|nom,sg)}, {чем=CONJ=} {ложь=S,f,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=(acc|gen)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {рифма=S,f,inan=gen,pl} {беспомощность=S,f,inan=(acc,sg|nom,sg)}
+{взять=V,pf,tran=praet,sg,indic,f} {в=PR=} {свой=APRO=(acc,sg,n|nom,sg,n)} {щемло?=S,anim=(nom,sg,n|nom,sg,m)}.
+
+{но=CONJ=} {странно=ADV=}, {тот=APRO=ins,pl} {ж=PART=} {щемло?=S,anim=(ins,pl,n|ins,pl,m)}
+{быть=V,intr=praet,sg,indic,m,ipf} {сжатый=A=sg,brev,m} {до=PR=} {синяк=S,m,inan=gen,pl}
+{сон=S,m,inan=(acc,sg|nom,sg)} {яблоня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {надломленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{ярмо=S,n,inan=ins,sg} {особняк=S,m,inan=gen,pl}.

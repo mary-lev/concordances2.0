@@ -1,40 +1,6 @@
-отлетать=V,intr=praet,sg,indic,f,pf
-_
-от=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-удача=S,f,inan=nom,sg
-,_\n
-поглядеть=V,pf,tran=praet,sg,indic,f
-_
-взгляд=S,m,inan=ins,sg
-_
-ястребиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-на=PR=
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,_
-померкнуть=V,pf,intr=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)
-_
-от=PR=
-_
-плакать=V,ipf,intr=inpraes,ger
-,_\n
-и=CONJ=
-_
-на=PR=
-_
-рана=S,f,inan=acc,sg
-,_
-становиться=V,intr=praet,acc,sg,partcp,plen,f,pf,act
-_
-рубин=S,m,inan=ins,sg
-_\n
-на=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
+{отлетать=V,intr=praet,sg,indic,f,pf} {от=PR=} {я=SPRO,sg,1p=(acc|gen)} {удача=S,f,inan=nom,sg}, 
+{поглядеть=V,pf,tran=praet,sg,indic,f} {взгляд=S,m,inan=ins,sg} {ястребиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{на=PR=} {лицо=S,n,inan=(acc,sg|nom,sg)}, {померкнуть=V,pf,intr=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)} {от=PR=} {плакать=V,ipf,intr=inpraes,ger}, 
+{и=CONJ=} {на=PR=} {рана=S,f,inan=acc,sg}, {становиться=V,intr=praet,acc,sg,partcp,plen,f,pf,act} {рубин=S,m,inan=ins,sg} 
+{на=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+

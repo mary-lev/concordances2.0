@@ -1,134 +1,23 @@
-все=SPRO,pl=(acc|nom)
-_
-образовывать=V=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-уста=S,pl,inan=gen
-,_
-пожатие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-рука=S,f,inan=gen,pl
-.\n\n
-закат=S,m,inan=dat,sg
-_
-вслед=ADV=
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_
-восход=S,m,inan=(acc,sg|nom,sg)
-,_\n
-ронять=V,ipf,tran=inpraes,sg,indic,3p
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-зрелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плод=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-танцевать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-танец=S,m,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=nom
-,\n
-при=PR=
-_
-свет=S,sg,m,inan=abl
-_
-лампа=S,f,inan=gen,pl
-_\u2014_
-не=PART=
-_
-видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-равно=CONJ=
-_\u2014_
-лужайка=S,f,inan=nom,sg
-_
-иль=CONJ=
-_
-паркет=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-танцевать=V,ipf,tran=sg,imper,2p
-,_
-монах=S,m,anim=nom,sg
-,_
-танцевать=V,ipf,tran=sg,imper,2p
-,_
-поэт=S,m,anim=nom,sg
-.\n\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-амур=S,m,anim=nom,sg
-,_
-стрела=S,f,inan=ins,pl
-_
-рань=S,f,inan=(acc,sg|nom,sg)
-_\u2014_\n
-везде=ADV=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-куда=ADVPRO=
-_
-ни=PART=
-_
-глянуть=V,pf,intr=sg,imper,2p
-.\n\n
-и=CONJ=
-_
-пастух=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-колдун=S,m,anim=nom,pl
-_\n
-стремление=S,n,inan=dat,sg
-_
-сладкий=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-верный=A=pl,brev
-.\n\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-один=APRO=(nom,pl|acc,pl,inan)
-,_\n
-гасить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-медленно=ADV=
-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-...\n\n
-пусть=PART=
-_
-образовывать=V=inpraes,sg,indic,3p,ipf
-_
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-уста=S,pl,inan=gen
-,_
-пожатие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-рука=S,f,inan=gen,pl
-.\n
+{все=SPRO,pl=(acc|nom)} {образовывать=V=inpraes,sg,indic,3p,ipf} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {круг=S,m,inan=(acc,sg|nom,sg)} — 
+{слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {уста=S,pl,inan=gen}, {пожатие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {рука=S,f,inan=gen,pl}.
+
+{закат=S,m,inan=dat,sg} {вслед=ADV=} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {восход=S,m,inan=(acc,sg|nom,sg)}, 
+{ронять=V,ipf,tran=inpraes,sg,indic,3p} {осень=S,f,inan=(acc,sg|nom,sg)} {зрелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плод=S,m,inan=(acc,sg|nom,sg)}.
+
+{танцевать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {танец=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=nom},
+{при=PR=} {свет=S,sg,m,inan=abl} {лампа=S,f,inan=gen,pl} — {не=PART=} {видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{равно=CONJ=} — {лужайка=S,f,inan=nom,sg} {иль=CONJ=} {паркет=S,m,inan=(acc,sg|nom,sg)} — 
+{танцевать=V,ipf,tran=sg,imper,2p}, {монах=S,m,anim=nom,sg}, {танцевать=V,ipf,tran=sg,imper,2p}, {поэт=S,m,anim=nom,sg}.
+
+{а=CONJ=} {ты=SPRO,sg,2p=nom}, {амур=S,m,anim=nom,sg}, {стрела=S,f,inan=ins,pl} {рань=S,f,inan=(acc,sg|nom,sg)} — 
+{везде=ADV=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {куда=ADVPRO=} {ни=PART=} {глянуть=V,pf,intr=sg,imper,2p}.
+
+{и=CONJ=} {пастух=S,m,anim=nom,pl} {и=CONJ=} {колдун=S,m,anim=nom,pl} 
+{стремление=S,n,inan=dat,sg} {сладкий=A=(dat,sg,plen,m|dat,sg,plen,n)} {верный=A=pl,brev}.
+
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} — {влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)} {один=APRO=(nom,pl|acc,pl,inan)}, 
+{гасить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {медленно=ADV=} {огонь=S,m,inan=(acc,pl|nom,pl)}...
+
+{пусть=PART=} {образовывать=V=inpraes,sg,indic,3p,ipf} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {круг=S,m,inan=(acc,sg|nom,sg)} — 
+{слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {уста=S,pl,inan=gen}, {пожатие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {рука=S,f,inan=gen,pl}.

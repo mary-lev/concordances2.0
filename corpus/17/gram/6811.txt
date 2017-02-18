@@ -1,141 +1,19 @@
-__
-я=SPRO,sg,1p=(abl|dat)
-_
-грустно=ADV=
-_
-такой=APRO=ins,pl
-_
-ночь=S,f,inan=ins,pl
-,_\n
-когда=CONJ=
-_
-ни=CONJ=
-_
-светло=ADV=
-,_
-ни=CONJ=
-_
-темно=ADV,praed=
-,\n
-и=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-косой=A=ins,pl,plen
-_
-луч=S,m,inan=ins,pl
-_\n
-внимательно=ADV=
-_
-смотреть=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n\n__
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-миллионный=ANUM=(nom,pl|acc,pl,inan)
-_
-хор=S,m,inan=(acc,pl|nom,pl)
-_\n
-на=PR=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-,_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-на=PR=
-_
-кровать=S,f,inan=(acc,sg|nom,sg)
-._\n
-напрасно=ADV=
-_
-задергивать=V,ipf,tran=inf
-_
-штора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-не=PART=
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-закрывать=V=inf,ipf,tran
-.\n\n__
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-_
-в=PR=
-_
-самый=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\n
-где=ADVPRO=
-_
-усталость=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-тоска=S,f,inan=nom,sg
-._\n
-и=CONJ=
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-несчастный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-муха=S,f,anim=nom,sg
-_
-в=PR=
-_
-сеть=S,f,inan=abl,pl
-_
-паук=S,m,anim=(acc,sg|gen,sg)
-.\n\n__
-когда=ADVPRO=
-_
-же=PART=
-_
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=inpraes,sg,indic,1p,pf
-_
-поэт=S,m,anim=ins,sg
-_\n
-настолько=ADV=
-,_
-чтоб=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-презирать=V,tran=inf,ipf
-,_\n
-настолько=ADV=
-,_
-чтоб=CONJ=
-_
-в=PR=
-_
-холод=S,m,inan=abl,sg
-_
-этот=APRO=(abl,sg,m|abl,sg,n)
-_\n
-бесчувственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свет=S,sg,m,inan=ins
-_
-играть=V,ipf,tran=inf
-?\n
+  {я=SPRO,sg,1p=(abl|dat)} {грустно=ADV=} {такой=APRO=ins,pl} {ночь=S,f,inan=ins,pl}, 
+{когда=CONJ=} {ни=CONJ=} {светло=ADV=}, {ни=CONJ=} {темно=ADV,praed=},
+{и=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {косой=A=ins,pl,plen} {луч=S,m,inan=ins,pl} 
+{внимательно=ADV=} {смотреть=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}.
+
+  {глядеть=V,ipf,tran=inpraes,pl,indic,3p} {миллионный=ANUM=(nom,pl|acc,pl,inan)} {хор=S,m,inan=(acc,pl|nom,pl)} 
+{на=PR=} {мир=S,m,inan=(acc,sg|nom,sg)}, {на=PR=} {я=SPRO,sg,1p=(acc|gen)}, {на=PR=} {кровать=S,f,inan=(acc,sg|nom,sg)}. 
+{напрасно=ADV=} {задергивать=V,ipf,tran=inf} {штора=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{не=PART=} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {закрывать=V=inf,ipf,tran}.
+
+  {глядеть=V,ipf,tran=inpraes,pl,indic,3p} {они=SPRO,pl=nom} {в=PR=} {самый=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{где=ADVPRO=} {усталость=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {тоска=S,f,inan=nom,sg}. 
+{и=CONJ=} {биться=V,ipf,intr=inpraes,sg,indic,3p} {несчастный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{как=CONJ=} {муха=S,f,anim=nom,sg} {в=PR=} {сеть=S,f,inan=abl,pl} {паук=S,m,anim=(acc,sg|gen,sg)}.
+
+  {когда=ADVPRO=} {же=PART=} {я=SPRO,sg,1p=nom} {становиться=V,intr=inpraes,sg,indic,1p,pf} {поэт=S,m,anim=ins,sg} 
+{настолько=ADV=}, {чтоб=CONJ=} {все=SPRO,pl=(acc|nom)} {презирать=V,tran=inf,ipf}, 
+{настолько=ADV=}, {чтоб=CONJ=} {в=PR=} {холод=S,m,inan=abl,sg} {этот=APRO=(abl,sg,m|abl,sg,n)} 
+{бесчувственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свет=S,sg,m,inan=ins} {играть=V,ipf,tran=inf}?

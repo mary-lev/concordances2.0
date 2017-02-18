@@ -1,96 +1,14 @@
-музыка=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-больше=ADV=
-_
-не=PART=
-_
-нужный=A=sg,brev,f
-._\n
-музыка=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-больше=ADV=
-_
-не=PART=
-_
-слышный=A=sg,brev,f
-.\n\n
-пусть=PART=
-_
-себе=PART=
-,_
-как=CONJ=
-_
-черный=A=nom,sg,plen,f
-_
-стена=S,f,inan=nom,sg
-,\n
-к=PR=
-_
-звезда=S,f,inan=dat,pl
-_
-подыматься=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-.\n\n
-пусть=PART=
-_
-себе=PART=
-,_
-как=CONJ=
-_
-черный=A=nom,sg,plen,f
-_
-волна=S,f,inan=nom,sg
-,_\n
-глухо=ADV=
-_
-рассыпаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-она=SPRO,sg,3p,f=nom
-.\n\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-изменять=V,tran=inf,pf
-,\n
-и=CONJ=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-ничто=SPRO,sg,n=dat
-_
-помогать=V,intr=inf,pf
-,\n\n
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=CONJ=
-_
-только=PART=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-звенеть=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-и=CONJ=
-_
-туманить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-и=CONJ=
-_
-уходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-...\n
+{музыка=S,f,inan=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {больше=ADV=} {не=PART=} {нужный=A=sg,brev,f}. 
+{музыка=S,f,inan=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {больше=ADV=} {не=PART=} {слышный=A=sg,brev,f}.
+
+{пусть=PART=} {себе=PART=}, {как=CONJ=} {черный=A=nom,sg,plen,f} {стена=S,f,inan=nom,sg},
+{к=PR=} {звезда=S,f,inan=dat,pl} {подыматься=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom}.
+
+{пусть=PART=} {себе=PART=}, {как=CONJ=} {черный=A=nom,sg,plen,f} {волна=S,f,inan=nom,sg}, 
+{глухо=ADV=} {рассыпаться=V,intr=inpraes,sg,indic,3p,ipf} {она=SPRO,sg,3p,f=nom}.
+
+{ничто=SPRO,sg,n=gen} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {изменять=V,tran=inf,pf},
+{и=CONJ=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {ничто=SPRO,sg,n=dat} {помогать=V,intr=inf,pf},
+
+{то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {только=PART=} {плакать=V,ipf,intr=inpraes,sg,indic,3p}, {и=CONJ=} {звенеть=V,ipf,intr=inpraes,sg,indic,3p}, 
+{и=CONJ=} {туманить=V,ipf,tran=inpraes,sg,indic,3p}, {и=CONJ=} {уходить=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)}...

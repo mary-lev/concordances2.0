@@ -1,110 +1,26 @@
-священный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-страна=S,f,inan=gen,pl
-_\n
-вечерний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-экстаз=S,m,inan=(acc,pl|nom,pl)
-._\n
-сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-латы=S,pl,inan=gen
-_\n
-поверженный=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-день=S,m,inan=gen,sg
-!\n
-в=PR=
-_
-волна=S,f,inan=abl,pl
-_
-шафран=S,m,inan=(acc,sg|nom,sg)
-,_\n
-колыхаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-топаз=S,m,inan=(acc,pl|nom,pl)
-,_\n
-разливать=V=praet,sg,partcp,brev,m,pf,pass
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-_\n
-озеро=S,n,inan=ins,pl
-_
-огонь=S,m,inan=gen,sg
-.\n\n
-как=CONJ=
-_
-волос=S,m,inan=gen,sg
-,\n
-волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дым=S,m,inan=gen,pl
-,_\n
-припадать=V,intr=praet,ger,pf
-_
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-,_\n
-синеть=V,ipf,intr=inpraes,pl,indic,3p
-,_
-лиловеть=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-и=CONJ=
-_
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-что=CONJ=
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-серафим=S,m,anim=(acc,pl|gen,pl)
-,_\n
-в=PR=
-_
-закатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_\n
-над=PR=
-_
-море=S,n,inan=ins,sg
-_
-пламенеть=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-излом=S,m,inan=(acc,sg|nom,sg)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-аметист=S,m,inan=ins,sg
-,_\n
-струистый=A=ins,pl,plen
-_\n
-смарагд=S,m,inan=ins,pl
-_
-огонь=S,m,inan=gen,pl
-...\n
-о=PR=
-,_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_\n
-о=PR=
-_
-небо=S,n,inan=abl,sg
-_
-золотистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-!\n
-о=PR=
-,_
-пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-крылатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-корабль=S,m,inan=gen,pl
-!..\n
+{священный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страна=S,f,inan=gen,pl} 
+{вечерний=A=(acc,pl,plen,inan|nom,pl,plen)} {экстаз=S,m,inan=(acc,pl|nom,pl)}. 
+{сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {латы=S,pl,inan=gen} 
+{поверженный=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {день=S,m,inan=gen,sg}!
+{в=PR=} {волна=S,f,inan=abl,pl} {шафран=S,m,inan=(acc,sg|nom,sg)}, 
+{колыхаться=V,ipf,intr=inpraes,pl,indic,3p} {топаз=S,m,inan=(acc,pl|nom,pl)}, 
+{разливать=V=praet,sg,partcp,brev,m,pf,pass} {закат=S,m,inan=(acc,sg|nom,sg)} 
+{озеро=S,n,inan=ins,pl} {огонь=S,m,inan=gen,sg}.
+
+{как=CONJ=} {волос=S,m,inan=gen,sg},
+{волокно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дым=S,m,inan=gen,pl}, 
+{припадать=V,intr=praet,ger,pf} {к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}, 
+{синеть=V,ipf,intr=inpraes,pl,indic,3p}, {лиловеть=V,ipf,intr=inpraes,pl,indic,3p},
+{и=CONJ=} {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{что=CONJ=} {крыло=S,n,inan=(acc,pl|nom,pl)} {серафим=S,m,anim=(acc,pl|gen,pl)}, 
+{в=PR=} {закатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)} 
+{над=PR=} {море=S,n,inan=ins,sg} {пламенеть=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{излом=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{сиять=V,ipf,intr=inpraes,sg,indic,3p} {аметист=S,m,inan=ins,sg}, 
+{струистый=A=ins,pl,plen} 
+{смарагд=S,m,inan=ins,pl} {огонь=S,m,inan=gen,pl}...
+{о=PR=}, {этот=APRO=(nom,pl|acc,pl,inan)} {сон=S,m,inan=(acc,pl|nom,pl)} 
+{о=PR=} {небо=S,n,inan=abl,sg} {золотистый=A=(abl,sg,plen,m|abl,sg,plen,n)}!
+{о=PR=}, {пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{крылатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {корабль=S,m,inan=gen,pl}!..

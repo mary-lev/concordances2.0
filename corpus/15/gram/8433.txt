@@ -1,182 +1,27 @@
-ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-плоский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-одноцветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-безглагольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-беспредметный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-солнце=S,n,inan=ins,sg
-_
-выжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-когда-то=ADVPRO=
-_
-в=PR=
-_
-бездна=S,f,inan=abl,pl
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-над=PR=
-_
-он=SPRO,sg,3p,m=ins
-,_
-о=PR=
-_
-сила=S,f,inan=(abl,sg|dat,sg)
-_
-спорить=V,ipf,intr=inpraes,ger
-,\n
-шквал=S,m,inan=(acc,sg|nom,sg)
-_
-со=PR=
-_
-шквал=S,m,inan=ins,sg
-_
-биться=V,ipf,intr=inf
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-чудовище=S,n,anim=(gen,sg|nom,pl)
-_
-морской=A,plen=(nom,pl|acc,pl,inan)
-,\n
-меж=PR=
-_
-стихия=S,f,inan=gen,pl
-_
-морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-стихия=S,f,inan=nom,sg
-,\n
-с=PR=
-_
-зыбкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-праздник=S,m,inan=ins,sg
-_
-в=PR=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-глубинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-трепетать=V,ipf,intr=praet,pl,indic
-,_
-сочетать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)
-\n
-узы=S,pl,inan=(acc|nom)
-_
-грузный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-но=CONJ=
-_
-над=PR=
-_
-царство=S,n,inan=ins,sg
-_
-тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-зеленый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-миллион=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-миллион=S,m,inan=ins,sg
-,\n
-минуть=V,pf,tran=praet,sg,indic,m
-_
-ток=S,m,inan=(acc,sg|nom,sg)
-_
-текучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-.\n
-и=CONJ=
-_
-чудовище=S,n,anim=(gen,sg|nom,pl)
-_
-уставать=V,intr=praet,pl,indic,pf
-\n
-трепетать=V,ipf,intr=inf
-_
-в=PR=
-_
-глубинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-они=SPRO,pl=(acc|gen)
-_
-много=ADV=comp
-_
-нет=ADV,praed=
-.\n\n
-и=CONJ=
-_
-другой=APRO=nom,sg,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-,_
-немой=A=nom,sg,plen,f
-,\n
-в=PR=
-_
-беспредельность=S,f,inan=(acc,sg|nom,sg)
-_
-убегать=V,intr=inpraes,ger,ipf
-,\n
-молча=ADV=
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-проводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-срок=S,m,inan=(acc,sg|nom,sg)
-.\n
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-не=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чара=S,f,inan=(abl,sg|dat,sg)
-,\n
-в=PR=
-_
-утомительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сахара=S,geo,f,inan=(abl,sg|dat,sg)
-,\n
-нескончаемый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-.\n
+{ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {плоский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {одноцветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{безглагольный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {беспредметный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{солнце=S,n,inan=ins,sg} {выжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {песок=S,m,inan=(acc,sg|nom,sg)}
+{быть=V,intr=praet,sg,indic,m,ipf} {когда-то=ADVPRO=} {в=PR=} {бездна=S,f,inan=abl,pl} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {над=PR=} {он=SPRO,sg,3p,m=ins}, {о=PR=} {сила=S,f,inan=(abl,sg|dat,sg)} {спорить=V,ipf,intr=inpraes,ger},
+{шквал=S,m,inan=(acc,sg|nom,sg)} {со=PR=} {шквал=S,m,inan=ins,sg} {биться=V,ipf,intr=inf} {мочь=V,ipf,intr=praet,sg,indic,m}.
+
+{и=CONJ=} {чудовище=S,n,anim=(gen,sg|nom,pl)} {морской=A,plen=(nom,pl|acc,pl,inan)},
+{меж=PR=} {стихия=S,f,inan=gen,pl} {морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {стихия=S,f,inan=nom,sg},
+{с=PR=} {зыбкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {праздник=S,m,inan=ins,sg} {в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{в=PR=} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {глубинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{трепетать=V,ipf,intr=praet,pl,indic}, {сочетать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)}
+{узы=S,pl,inan=(acc|nom)} {грузный=A=(acc,pl,plen,inan|nom,pl,plen)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{но=CONJ=} {над=PR=} {царство=S,n,inan=ins,sg} {тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {зеленый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{миллион=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {миллион=S,m,inan=ins,sg},
+{минуть=V,pf,tran=praet,sg,indic,m} {ток=S,m,inan=(acc,sg|nom,sg)} {текучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl}.
+{и=CONJ=} {чудовище=S,n,anim=(gen,sg|nom,pl)} {уставать=V,intr=praet,pl,indic,pf}
+{трепетать=V,ipf,intr=inf} {в=PR=} {глубинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {они=SPRO,pl=(acc|gen)} {много=ADV=comp} {нет=ADV,praed=}.
+
+{и=CONJ=} {другой=APRO=nom,sg,f} {даль=S,f,inan=(acc,sg|nom,sg)}, {немой=A=nom,sg,plen,f},
+{в=PR=} {беспредельность=S,f,inan=(acc,sg|nom,sg)} {убегать=V,intr=inpraes,ger,ipf},
+{молча=ADV=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {проводить=V=inpraes,sg,indic,3p,ipf,tran} {срок=S,m,inan=(acc,sg|nom,sg)}.
+{спать=V,ipf,intr=inpraes,sg,indic,3p} — {не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чара=S,f,inan=(abl,sg|dat,sg)},
+{в=PR=} {утомительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сахара=S,geo,f,inan=(abl,sg|dat,sg)},
+{нескончаемый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {песок=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,100 +1,14 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-звук=S,m,inan=(acc,sg|nom,sg)
-_
-терзать=V,ipf,tran=inpraes,sg,indic,3p
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-глаз=S,m,inan=dat,pl
-_
-несносный=A=sg,brev,m
-.\n
-прорезываться=V,ipf,intr=inf
-_
-начинать=V,tran=praet,sg,indic,m,pf
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-зуб=S,m,inan=(acc,sg|nom,sg)
-_
-из-под=PR=
-_
-припухать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-десна=S,f,inan=gen,pl
-.\n\n
-прорезаться=V,pf,intr=inpraes,sg,indic,3p
-_\u2014_
-и=CONJ=
-_
-сбросить=V,pf=inpraes,sg,indic,3p
-_
-прочь=ADV=
-\n
-изношенный=A=acc,sg,plen,f
-_
-оболочка=S,f,inan=acc,sg
-.\n
-тысячеокий?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_
-кануть=V,pf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-,\n
-не=PART=
-_
-в=PR=
-_
-этот=APRO=acc,sg,f
-_
-серенький=A=acc,sg,plen,f
-_
-ночка=S,f,inan=acc,sg
-.\n\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-оставаться=V,intr=inpraes,sg,indic,1p,pf
-_
-тут=ADVPRO=
-_
-лежать=V,ipf,intr=inf
-_\u2014\n
-банкир=S,m,anim=nom,sg
-,_
-закалывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-апаш=S,m,anim=ins,sg
-,_\u2014\n
-рука=S,f,inan=ins,pl
-_
-рана=S,f,inan=acc,sg
-_
-зажимать=V,tran=inf,ipf
-,\n
-кричать=V,ipf,intr=inf
-_
-и=CONJ=
-_
-биться=V,ipf,intr=inf
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-ваш=APRO=(abl,sg,m|abl,sg,n)
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {звук=S,m,inan=(acc,sg|nom,sg)} {терзать=V,ipf,tran=inpraes,sg,indic,3p} {слух=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {луч=S,m,inan=(acc,sg|nom,sg)} {глаз=S,m,inan=dat,pl} {несносный=A=sg,brev,m}.
+{прорезываться=V,ipf,intr=inf} {начинать=V,tran=praet,sg,indic,m,pf} {дух=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {зуб=S,m,inan=(acc,sg|nom,sg)} {из-под=PR=} {припухать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {десна=S,f,inan=gen,pl}.
+
+{прорезаться=V,pf,intr=inpraes,sg,indic,3p} — {и=CONJ=} {сбросить=V,pf=inpraes,sg,indic,3p} {прочь=ADV=}
+{изношенный=A=acc,sg,plen,f} {оболочка=S,f,inan=acc,sg}.
+{тысячеокий?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {кануть=V,pf,intr=inpraes,sg,indic,3p} {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)},
+{не=PART=} {в=PR=} {этот=APRO=acc,sg,f} {серенький=A=acc,sg,plen,f} {ночка=S,f,inan=acc,sg}.
+
+{а=CONJ=} {я=SPRO,sg,1p=nom} {оставаться=V,intr=inpraes,sg,indic,1p,pf} {тут=ADVPRO=} {лежать=V,ipf,intr=inf} —
+{банкир=S,m,anim=nom,sg}, {закалывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {апаш=S,m,anim=ins,sg}, —
+{рука=S,f,inan=ins,pl} {рана=S,f,inan=acc,sg} {зажимать=V,tran=inf,ipf},
+{кричать=V,ipf,intr=inf} {и=CONJ=} {биться=V,ipf,intr=inf} {в=PR=} {мир=S,m,inan=abl,sg} {ваш=APRO=(abl,sg,m|abl,sg,n)}.

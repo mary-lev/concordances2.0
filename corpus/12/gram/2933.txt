@@ -1,140 +1,24 @@
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-домашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-домашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гений=S,m,anim=nom,sg
-!\n
-вот=PART=
-_
-она=SPRO,sg,3p,f=nom
-,_
-разлука=S,f,inan=nom,sg
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-\n
-сродный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-вдохновение=S,n,inan=gen,pl
-!\n\n
-жалко=ADV=parenth
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-когда=CONJ=
-_
-в=PR=
-_
-печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-\n
-жар=S,sg,m,inan=(acc|nom)
-,_\u2014_
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-!\n
-в=PR=
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-звезда=S,f,inan=nom,sg
-_
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-!_\u2014_\n
-не=PART=
-_
-восходить=V,intr=inpraes,sg,indic,2p,pf
-,_
-не=PART=
-_
-выходить=V,intr=inpraes,sg,indic,2p,pf
-!\n\n
-платьице=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-висеть=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-точно=ADV=
-_
-плод=S,m,inan=(acc,sg|nom,sg)
-_
-запретный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-на=PR=
-_
-окно=S,n,inan=abl,sg
-_
-чердачный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-сад=S,m,inan=(acc,sg|nom,sg)
-\n
-расцветать=V,intr=inpraes,sg,indic,3p,ipf
-_\u2014_
-тщетный=A=sg,brev,n
-.\n\n
-голубь=S,m,anim=nom,pl
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-стучать=V,ipf,intr=inpraes,pl,indic,3p
-,_\u2014_\n
-скучно=ADV=
-_
-с=PR=
-_
-голубь=S,m,anim=ins,pl
-!\n
-я=SPRO,sg,1p=(abl|dat)
-_
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-привет=S,m,inan=(acc,sg|nom,sg)
-_
-кричать=V,ipf,intr=inpraes,pl,indic,3p
-,_\u2014_\n
-бог=S,m,anim=nom,sg
-_
-с=PR=
-_
-они=SPRO,pl=ins
-,_
-с=PR=
-_
-ветер=S,m,inan=ins,pl
-!\n\n
-не=PART=
-_
-сказать=V,pf,tran=inf
-_
-ветер=S,m,inan=dat,pl
-_
-седой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-стая=S,f,inan=dat,pl
-_
-голубин=S,famn,m,anim=(dat,pl|ins,sg)
-_\u2014_\n
-чудодейственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-\n
-голос=S,m,inan=ins,sg
-:_\u2014_
-марина=S,persn,f,anim=nom,sg
-!\n
+{маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {домашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {домашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гений=S,m,anim=nom,sg}!
+{вот=PART=} {она=SPRO,sg,3p,f=nom}, {разлука=S,f,inan=nom,sg} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)}
+{сродный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вдохновение=S,n,inan=gen,pl}!
+
+{жалко=ADV=parenth} {я=SPRO,sg,1p=(abl|dat)}, {когда=CONJ=} {в=PR=} {печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}
+{жар=S,sg,m,inan=(acc|nom)}, — {а=CONJ=} {ты=SPRO,sg,2p=nom} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,2p}!
+{в=PR=} {дверь=S,f,inan=(acc,sg|nom,sg)} — {звезда=S,f,inan=nom,sg} {в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}! — 
+{не=PART=} {восходить=V,intr=inpraes,sg,indic,2p,pf}, {не=PART=} {выходить=V,intr=inpraes,sg,indic,2p,pf}!
+
+{платьице=S,n,inan=(acc,pl|gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)} {висеть=V,ipf,intr=inpraes,pl,indic,3p},
+{точно=ADV=} {плод=S,m,inan=(acc,sg|nom,sg)} {запретный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{на=PR=} {окно=S,n,inan=abl,sg} {чердачный=A=(abl,sg,plen,m|abl,sg,plen,n)} — {сад=S,m,inan=(acc,sg|nom,sg)}
+{расцветать=V,intr=inpraes,sg,indic,3p,ipf} — {тщетный=A=sg,brev,n}.
+
+{голубь=S,m,anim=nom,pl} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)} {стучать=V,ipf,intr=inpraes,pl,indic,3p}, — 
+{скучно=ADV=} {с=PR=} {голубь=S,m,anim=ins,pl}!
+{я=SPRO,sg,1p=(abl|dat)} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {привет=S,m,inan=(acc,sg|nom,sg)} {кричать=V,ipf,intr=inpraes,pl,indic,3p}, — 
+{бог=S,m,anim=nom,sg} {с=PR=} {они=SPRO,pl=ins}, {с=PR=} {ветер=S,m,inan=ins,pl}!
+
+{не=PART=} {сказать=V,pf,tran=inf} {ветер=S,m,inan=dat,pl} {седой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{стая=S,f,inan=dat,pl} {голубин=S,famn,m,anim=(dat,pl|ins,sg)} — 
+{чудодейственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}
+{голос=S,m,inan=ins,sg}: — {марина=S,persn,f,anim=nom,sg}!

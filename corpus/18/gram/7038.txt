@@ -1,122 +1,15 @@
-замирать=V,intr=praet,sg,indic,m,pf
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-стыдливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-знание=S,n,inan=ins,sg
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-истина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-объять=V,tran=praet,sg,partcp,brev,m,pf,pass
-...\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-близко=ADV=comp
-_
-плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-много=ADV=comp
-_
-человек=S,m,anim=dat,pl
-_
-брат=S,m,anim=nom,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-познавать=V,tran=praet,sg,indic,m,pf
-_
-сегодня=ADV=
-_
-ночь=S,f,inan=ins,sg
-_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-грех=S,m,inan=(acc,sg|nom,sg)
-..._
-и=CONJ=
-_
-строгий=A=comp
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-тишина=S,sg,f,inan=nom
-_\u2014\n
-тишина=S,sg,f,inan=nom
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-провал=S,m,inan=abl,pl
-_
-сон=S,m,inan=gen,sg
-...\n\n
-чрез=PR=
-_
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-слабость=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-склонение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-чрез=PR=
-_
-приятие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-жизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-верига=S,f,inan=gen,pl
-_-\n
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-доверчиво=ADV=comp
-_
-приникать=V,intr=praet,sg,indic,m,pf
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-в=PR=
-_
-грех=S,m,inan=abl,sg
-_
-великий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-смирение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-:\n
-гордый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-да=CONJ=
-_
-не=PART=
-_
-осуждать=V=inpraes,sg,indic,3p,pf
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-!\n
-через=PR=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_
-взысковать?=V,ipf,intr=inpraes,sg,indic,3p|взысковать?=V,ipf,tran=inpraes,sg,indic,3p
-_
-тварь=S,f,anim=(acc,sg|nom,sg)
-_
-господь=S,sg,m,anim=nom
-.\n
+{замирать=V,intr=praet,sg,indic,m,pf} {дух=S,m,inan=(acc,sg|nom,sg)} — {стыдливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{знание=S,n,inan=ins,sg} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {истина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {объять=V,tran=praet,sg,partcp,brev,m,pf,pass}...
+{становиться=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {близко=ADV=comp} {плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {много=ADV=comp} {человек=S,m,anim=dat,pl} {брат=S,m,anim=nom,sg}.
+
+{я=SPRO,sg,1p=nom} {познавать=V,tran=praet,sg,indic,m,pf} {сегодня=ADV=} {ночь=S,f,inan=ins,sg} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{грех=S,m,inan=(acc,sg|nom,sg)}... {и=CONJ=} {строгий=A=comp} {становиться=V,intr=praet,sg,indic,f,pf} {тишина=S,sg,f,inan=nom} —
+{тишина=S,sg,f,inan=nom} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {провал=S,m,inan=abl,pl} {сон=S,m,inan=gen,sg}...
+
+{чрез=PR=} {желание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {слабость=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {склонение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{чрез=PR=} {приятие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {жизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {верига=S,f,inan=gen,pl} -
+{я=SPRO,sg,1p=nom} {к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {доверчиво=ADV=comp} {приникать=V,intr=praet,sg,indic,m,pf}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {грех=S,m,inan=abl,sg} {великий=A=(acc,sg,plen,n|nom,sg,plen,n)} {смирение=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
+{гордый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {да=CONJ=} {не=PART=} {осуждать=V=inpraes,sg,indic,3p,pf} {плоть=S,f,inan=(acc,sg|nom,sg)}!
+{через=PR=} {грех=S,m,inan=(acc,sg|nom,sg)} {взысковать?=V,ipf,intr=inpraes,sg,indic,3p|взысковать?=V,ipf,tran=inpraes,sg,indic,3p} {тварь=S,f,anim=(acc,sg|nom,sg)} {господь=S,sg,m,anim=nom}.

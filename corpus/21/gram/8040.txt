@@ -1,102 +1,14 @@
-сквозь=PR=
-_
-уютный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-апрель=S,m,inan=gen,sg
-_\u2014\n
-неуютный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-холодок=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_\u2014_
-смерч=S,m,inan=ins,sg
-_
-по=PR=
-_
-дорожка=S,f,inan=(abl,sg|dat,sg)
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_\u2014_
-смолкать=V,intr=inpraes,sg,indic,3p,ipf
-_
-скворец=S,m,anim=nom,sg
--
-пустомеля=S,mf,anim=nom,sg
-.\n\n
-там=ADVPRO=
-_
-над=PR=
-_
-северный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-край=S,m,inan=ins,sg
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-черно=ADV=
--
-серый=A=nom,sg,plen,f
-_
-вздувать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-туча=S,f,inan=nom,sg
-.\n
-котелок=S,m,inan=(acc,pl|nom,pl)
-_
-поплотнеть=V,pf,intr=sg,imper,2p
-_
-нахлобуч?=S,m,inan=gen,sg
-,\n
-проворный=A=comp
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-франт=S,m,anim=(acc,sg|gen,sg)
-_
-пойти=V,pf,intr=praet,pl,indic
-.\n\n
-и=CONJ=
-_
-под=PR=
-_
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-градобойный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-гул=S,m,inan=gen,sg
-_\u2014\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-гордый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-веселый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-зло=S,n,inan=ins,sg
-:\n\xAB
-это=PART=
-_
-молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-излом=S,m,inan=(acc,sg|nom,sg)
-,\n
-это=PART=
-_
-наш=APRO=nom,sg,f
-_
-весна=S,f,inan=nom,sg
-_
-допархивать?=V,intr=praet,sg,indic,f,pf
-!\xBB\n
+{сквозь=PR=} {уютный=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {апрель=S,m,inan=gen,sg} —
+{неуютный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {холодок=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} — {смерч=S,m,inan=ins,sg} {по=PR=} {дорожка=S,f,inan=(abl,sg|dat,sg)} {песок=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} — {смолкать=V,intr=inpraes,sg,indic,3p,ipf} {скворец=S,m,anim=nom,sg}-{пустомеля=S,mf,anim=nom,sg}.
+
+{там=ADVPRO=} {над=PR=} {северный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {край=S,m,inan=ins,sg} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{черно=ADV=}-{серый=A=nom,sg,plen,f} {вздувать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {туча=S,f,inan=nom,sg}.
+{котелок=S,m,inan=(acc,pl|nom,pl)} {поплотнеть=V,pf,intr=sg,imper,2p} {нахлобуч?=S,m,inan=gen,sg},
+{проворный=A=comp} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {франт=S,m,anim=(acc,sg|gen,sg)} {пойти=V,pf,intr=praet,pl,indic}.
+
+{и=CONJ=} {под=PR=} {шум=S,m,inan=(acc,sg|nom,sg)} {градобойный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {гул=S,m,inan=gen,sg} —
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {гордый=A=(abl,sg,plen,m|abl,sg,plen,n)}, {веселый=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {зло=S,n,inan=ins,sg}:
+«{это=PART=} {молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {излом=S,m,inan=(acc,sg|nom,sg)},
+{это=PART=} {наш=APRO=nom,sg,f} {весна=S,f,inan=nom,sg} {допархивать?=V,intr=praet,sg,indic,f,pf}!»

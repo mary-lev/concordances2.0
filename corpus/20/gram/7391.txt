@@ -1,102 +1,14 @@
-говорить=V,ipf,tran=inf
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-о=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-без=PR=
-_
-слово=S,n,inan=gen,pl
-_
-все=SPRO,pl=(acc|nom)
-_
-вокруг=ADV=
-_\u2014_
-о=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-кто=SPRO,sg,m,anim=nom
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-верить=V,ipf,intr=pl,imper,2p
-,\n\t
-что=CONJ=
-_
-живой=A=pl,brev
-_
-мертвый=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-не=PART=
-_
-от=PR=
-_
-мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_\u2014_
-отступать=V,intr=inpraes,sg,indic,1p,ipf
-,\n
-так=ADVPRO=
-_
-надо=ADV,praed=
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-отступать=V,intr=inpraes,sg,indic,1p,ipf
-,\n
-так=ADVPRO=
-_
-надо=ADV,praed=
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-мост=S,m,inan=(acc,pl|nom,pl)
-_
-взрывать=V,tran=inpraes,sg,indic,1p,ipf
-,\n\t
-за=PR=
-_
-мост=S,m,inan=ins,pl
-_\u2014_
-не=PART=
-_
-мертвый=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n\n
-перекручиваться=V,intr=praet,pl,indic,pf
-,_
-дымиться=V,ipf,intr=inpraes,ger
-,_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-оборваться=V,pf,intr=praet,pl,indic
-,_
-кровавясь?=ADV=
-,_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-за=PR=
-_
-мост=S,m,inan=ins,pl
-_
-оставаться=V,intr=praet,pl,indic,pf
-_\u2014_
-взглядывать=V,intr=pl,imper,2p,pf
-!\n\t
-живой=A=(acc,pl,plen,inan|nom,pl,plen)
-_\u2014_
-мертвый=A=comp
-_
-мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-.\n
+{говорить=V,ipf,tran=inf} {не=PART=} {быть=V,intr=inpraes,sg,indic,1p} {о=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {без=PR=} {слово=S,n,inan=gen,pl} {все=SPRO,pl=(acc|nom)} {вокруг=ADV=} — {о=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{кто=SPRO,sg,m,anim=nom} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} — {верить=V,ipf,intr=pl,imper,2p},
+	{что=CONJ=} {живой=A=pl,brev} {мертвый=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{не=PART=} {от=PR=} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} — {отступать=V,intr=inpraes,sg,indic,1p,ipf},
+{так=ADVPRO=} {надо=ADV,praed=} — {я=SPRO,sg,1p=nom} {отступать=V,intr=inpraes,sg,indic,1p,ipf},
+{так=ADVPRO=} {надо=ADV,praed=} — {я=SPRO,sg,1p=nom} {мост=S,m,inan=(acc,pl|nom,pl)} {взрывать=V,tran=inpraes,sg,indic,1p,ipf},
+	{за=PR=} {мост=S,m,inan=ins,pl} — {не=PART=} {мертвый=A=(acc,pl,plen,inan|nom,pl,plen)}...
+
+{перекручиваться=V,intr=praet,pl,indic,pf}, {дымиться=V,ipf,intr=inpraes,ger}, {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{оборваться=V,pf,intr=praet,pl,indic}, {кровавясь?=ADV=}, {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{за=PR=} {мост=S,m,inan=ins,pl} {оставаться=V,intr=praet,pl,indic,pf} — {взглядывать=V,intr=pl,imper,2p,pf}!
+	{живой=A=(acc,pl,plen,inan|nom,pl,plen)} — {мертвый=A=comp} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)}.

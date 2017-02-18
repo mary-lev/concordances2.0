@@ -1,82 +1,14 @@
-ни=PART=
-_
-розовый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сад=S,m,inan=gen,sg
-,\n
-ни=PART=
-_
-песенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-лад=S,m,inan=gen,sg
-\n
-воистину=ADV,parenth=
-_
-не=PART=
-_
-надо=ADV,praed=
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-падать=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-себя=SPRO=(acc|gen)
-.\n\n
-на=PR=
-_
-все=SPRO,pl=(acc|nom)
-,_
-что=CONJ=
-_
-человек=S,m,anim=dat,pl
-_
-ясно=ADV=
-,\n
-на=PR=
-_
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-они=SPRO,pl=dat
-_
-прекрасно=ADV=
-,\n
-вдруг=ADV=
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-несогласный=A=sg,brev,f
-\n
-взыграть=V,pf,intr=praet,nom,sg,partcp,plen,f,act
-_
-душа=S,f,inan=nom,sg
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-все=SPRO,pl=(acc|nom)
-_
-невыносимый=A=sg,brev,n
-!\n
-скоро=ADV=comp
-_
-же=PART=
-,_
-легко=ADV=comp
-_
-дым=S,m,inan=gen,sg
-,\n
-лететь=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-мимо=ADV=
-,_
-мимо=ADV=
-,\n
-дурной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{ни=PART=} {розовый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сад=S,m,inan=gen,sg},
+{ни=PART=} {песенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лад=S,m,inan=gen,sg}
+{воистину=ADV,parenth=} {не=PART=} {надо=ADV,praed=} —
+{я=SPRO,sg,1p=nom} {падать=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {себя=SPRO=(acc|gen)}.
+
+{на=PR=} {все=SPRO,pl=(acc|nom)}, {что=CONJ=} {человек=S,m,anim=dat,pl} {ясно=ADV=},
+{на=PR=} {все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {они=SPRO,pl=dat} {прекрасно=ADV=},
+{вдруг=ADV=} {становиться=V,intr=praet,sg,indic,f,pf} {несогласный=A=sg,brev,f}
+{взыграть=V,pf,intr=praet,nom,sg,partcp,plen,f,act} {душа=S,f,inan=nom,sg}.
+
+{я=SPRO,sg,1p=(abl|dat)} {все=SPRO,pl=(acc|nom)} {невыносимый=A=sg,brev,n}!
+{скоро=ADV=comp} {же=PART=}, {легко=ADV=comp} {дым=S,m,inan=gen,sg},
+{лететь=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {мимо=ADV=}, {мимо=ADV=},
+{дурной=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

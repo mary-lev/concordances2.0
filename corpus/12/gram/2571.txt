@@ -1,122 +1,20 @@
-вот=PART=
-_
-опять=ADV=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-опять=ADV=
-_
-не=PART=
-_
-спать=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-может=ADV,parenth=
-_\u2014_
-пить=V,ipf,tran=inpraes,pl,indic,3p
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-,\n
-может=ADV,parenth=
-_\u2014_
-так=ADVPRO=
-_
-сидеть=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-или=CONJ=
-_
-просто=PART=
-_\u2014_
-рука=S,f,inan=gen,pl
-\n
-не=PART=
-_
-разнимать=V,tran=inpraes,pl,indic,3p,pf
-_
-двое=NUM=(nom|acc,inan)
-.\n
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-дом=S,m,inan=abl,sg
-,_
-друг=S,m,anim=nom,sg
-,\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
-крик=S,m,inan=(acc,sg|nom,sg)
-_
-разлука=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-встреча=S,f,inan=gen,pl
-_\u2014_\n
-ты=SPRO,sg,2p=nom
-,_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-!\n
-может=ADV,parenth=
-_\u2014_
-сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свеча=S,f,inan=gen,pl
-,\n
-может=ADV,parenth=
-_\u2014_
-три=NUM=(nom|acc,inan)
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-нет=PART=
-_
-и=CONJ=
-_
-нет=PART=
-_
-ум=S,m,inan=dat,sg
-\n
-мой=APRO=(dat,sg,m|dat,sg,n)
-_\u2014_
-покой=S,m,inan=gen,sg
-.\n
-и=CONJ=
-_
-в=PR=
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-\n
-заводиться=V,intr=praet,sg,indic,n,pf
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
-помолиться=V,pf,intr=sg,imper,2p
-,_
-дружок=S,m,anim=nom,sg
-,_
-за=PR=
-_
-бессонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-,\n
-за=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-огонь=S,m,inan=ins,sg
-!\n
+{вот=PART=} {опять=ADV=} {окно=S,n,inan=(acc,sg|nom,sg)},
+{где=ADVPRO=} {опять=ADV=} {не=PART=} {спать=V,ipf,intr=inpraes,pl,indic,3p}.
+{может=ADV,parenth=} — {пить=V,ipf,tran=inpraes,pl,indic,3p} {вино=S,n,inan=(acc,sg|nom,sg)},
+{может=ADV,parenth=} — {так=ADVPRO=} {сидеть=V,ipf,intr=inpraes,pl,indic,3p}.
+{или=CONJ=} {просто=PART=} — {рука=S,f,inan=gen,pl}
+{не=PART=} {разнимать=V,tran=inpraes,pl,indic,3p,pf} {двое=NUM=(nom|acc,inan)}.
+{в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {дом=S,m,inan=abl,sg}, {друг=S,m,anim=nom,sg},
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {окно=S,n,inan=(acc,sg|nom,sg)} {такой=APRO=(acc,sg,n|nom,sg,n)}.
+
+{крик=S,m,inan=(acc,sg|nom,sg)} {разлука=S,f,inan=gen,pl} {и=CONJ=} {встреча=S,f,inan=gen,pl} — 
+{ты=SPRO,sg,2p=nom}, {окно=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}!
+{может=ADV,parenth=} — {сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свеча=S,f,inan=gen,pl},
+{может=ADV,parenth=} — {три=NUM=(nom|acc,inan)} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{нет=PART=} {и=CONJ=} {нет=PART=} {ум=S,m,inan=dat,sg}
+{мой=APRO=(dat,sg,m|dat,sg,n)} — {покой=S,m,inan=gen,sg}.
+{и=CONJ=} {в=PR=} {мой=APRO=(abl,sg,m|abl,sg,n)} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)}
+{заводиться=V,intr=praet,sg,indic,n,pf} {такой=APRO=(acc,sg,n|nom,sg,n)}.
+
+{помолиться=V,pf,intr=sg,imper,2p}, {дружок=S,m,anim=nom,sg}, {за=PR=} {бессонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)},
+{за=PR=} {окно=S,n,inan=(acc,sg|nom,sg)} {с=PR=} {огонь=S,m,inan=ins,sg}!

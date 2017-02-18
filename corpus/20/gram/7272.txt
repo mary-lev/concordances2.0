@@ -1,78 +1,9 @@
-пусть=PART=
-_
-проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-год=S,m,inan=(acc,pl|nom,pl)
-,\n
-вечно=ADV=
-_
-тот=APRO=nom,sg,f
-_
-же=PART=
-_
-сердце=S,n,inan=ins,sg
-_
-я=SPRO,sg,1p=nom
-!\n
-жадно=ADV=
-_
-рваться=V,ipf,intr=inpraes,sg,indic,1p
-_
-под=PR=
-_
-ваш=APRO=(nom,pl|acc,pl,inan)
-_
-свод=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-_\u2014_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-друг=S,m,anim=nom,pl
-.\n
-но=CONJ=
-..._
-жить=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-наизнанку=ADV=
-,\n
-как=CONJ=
-_
-подниматься=V,intr=inf,pf
-_
-спозаранку=ADV=
-?_\n
-разболеться=V,pf,intr=inpraes,sg,indic,3p
-_
-голова=S,f,inan=nom,sg
-...\n
-мы=SPRO,pl,1p=nom
-_
-приезжать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-на=PR=
-_
-фонтанка=S,geo,sg,f,inan=acc
-\n
-в=PR=
-_
-среда=S,f,inan=acc,sg
-,_
-в=PR=
-_
-среда=S,f,inan=acc,sg
-,_
-ровно=ADV=
-_
-в=PR=
-_2.\n
+{пусть=PART=} {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} {день=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {год=S,m,inan=(acc,pl|nom,pl)},
+{вечно=ADV=} {тот=APRO=nom,sg,f} {же=PART=} {сердце=S,n,inan=ins,sg} {я=SPRO,sg,1p=nom}!
+{жадно=ADV=} {рваться=V,ipf,intr=inpraes,sg,indic,1p} {под=PR=} {ваш=APRO=(nom,pl|acc,pl,inan)} {свод=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {со=PR=} {я=SPRO,sg,1p=ins} — {мой=APRO=(nom,pl|acc,pl,inan)} {друг=S,m,anim=nom,pl}.
+{но=CONJ=}... {жить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {наизнанку=ADV=},
+{как=CONJ=} {подниматься=V,intr=inf,pf} {спозаранку=ADV=}? 
+{разболеться=V,pf,intr=inpraes,sg,indic,3p} {голова=S,f,inan=nom,sg}...
+{мы=SPRO,pl,1p=nom} {приезжать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {на=PR=} {фонтанка=S,geo,sg,f,inan=acc}
+{в=PR=} {среда=S,f,inan=acc,sg}, {в=PR=} {среда=S,f,inan=acc,sg}, {ровно=ADV=} {в=PR=} 2.

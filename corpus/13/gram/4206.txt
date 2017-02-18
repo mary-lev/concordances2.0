@@ -1,124 +1,17 @@
-видение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=ins
-_
-овладевать=V,intr=praet,sg,indic,n,pf
-:\n
-о=PR=
-_
-золотой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-птицелов=S,m,anim=abl,sg
-,\n
-о=PR=
-_
-пернатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стрела=S,f,inan=(abl,sg|dat,sg)
-_
-из=PR=
-_
-трость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-о=PR=
-_
-томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-загробный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-роща=S,f,inan=(abl,sg|dat,sg)
-.\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-кусочек=S,m,inan=(acc,sg|nom,sg)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-каждый=APRO=nom,sg,f
-_
-капля=S,f,inan=nom,sg
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-каждый=APRO=nom,sg,f
-_
-крошка=S,f,inan=nom,sg
-_
-кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014\n
-милый=A=comp
-,_
-чем=CONJ=
-_
-святой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n\n
-пусть=PART=
-_
-я=SPRO,sg,1p=nom
-_
-всегда=ADVPRO=
-_
-проклинать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-,\n
-клясть=V,ipf,tran=pl,imper,2p
-,_
-человек=S,m,anim=nom,pl
-,_
-клясть=V,ipf,tran=pl,imper,2p
-,\n
-тушить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-костер=S,m,inan=(acc,sg|nom,sg)
-_
-костер=S,m,inan=ins,pl
-_\u2014\n
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-не=PART=
-_
-сковывать=V=inf,pf
-_
-водопад=S,m,inan=gen,sg
-.\n
-ведь=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,\n
-как=ADVPRO=
-_
-тянуться=V,ipf,intr=inpraes,pl,indic,3p
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-из=PR=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-сердце=S,n,inan=dat,sg
-_
-сам=APRO=(nom,pl|acc,pl,inan)
-...\n
-не=PART=
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_
-и=CONJ=
-_
-знать=V,ipf,tran=inf
-_
-не=PART=
-_
-надо=ADV,praed=
-!\n
+{видение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {я=SPRO,sg,1p=ins} {овладевать=V,intr=praet,sg,indic,n,pf}:
+{о=PR=} {золотой=A=(abl,sg,plen,m|abl,sg,plen,n)} {птицелов=S,m,anim=abl,sg},
+{о=PR=} {пернатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стрела=S,f,inan=(abl,sg|dat,sg)} {из=PR=} {трость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{о=PR=} {томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {загробный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роща=S,f,inan=(abl,sg|dat,sg)}.
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {кусочек=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{каждый=APRO=nom,sg,f} {капля=S,f,inan=nom,sg} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{каждый=APRO=nom,sg,f} {крошка=S,f,inan=nom,sg} {кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} —
+{милый=A=comp}, {чем=CONJ=} {святой=A=(acc,pl,plen,inan|nom,pl,plen)} {мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+
+{пусть=PART=} {я=SPRO,sg,1p=nom} {всегда=ADVPRO=} {проклинать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)},
+{клясть=V,ipf,tran=pl,imper,2p}, {человек=S,m,anim=nom,pl}, {клясть=V,ipf,tran=pl,imper,2p},
+{тушить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {костер=S,m,inan=(acc,sg|nom,sg)} {костер=S,m,inan=ins,pl} —
+{лед=S,m,inan=(dat,sg|part,sg|loc,sg)} {не=PART=} {сковывать=V=inf,pf} {водопад=S,m,inan=gen,sg}.
+{ведь=PART=} {мы=SPRO,pl,1p=nom} {ничто=SPRO,sg,n=gen} {не=PART=} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+{как=ADVPRO=} {тянуться=V,ipf,intr=inpraes,pl,indic,3p} {этот=APRO=(nom,pl|acc,pl,inan)} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{из=PR=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {сердце=S,n,inan=dat,sg} {сам=APRO=(nom,pl|acc,pl,inan)}...
+{не=PART=} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {и=CONJ=} {знать=V,ipf,tran=inf} {не=PART=} {надо=ADV,praed=}!

@@ -1,72 +1,9 @@
-христос=S,famn,m,anim=nom,sg
-_
-воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!_
-христос=S,famn,m,anim=nom,sg
-_
-воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!\n
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-глухой=A=comp
-,_
-чем=CONJ=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-скала=S,f,inan=nom,sg
-...\n
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-победа=S,f,inan=acc,sg
-_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-_
-экспрессия=S,f,inan=gen,pl
-,\n
-петь=V,ipf,tran=inpraes,pl,indic,3p
-_
-бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-светло=ADV=
-_
-целовать=V,ipf,tran=pl,imper,2p
-_
-уста=S,pl,inan=(acc|nom)
-_
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=dat,sg
-,\n
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-нищий=S,m,anim=nom,sg
-_\u2014_
-сегодня=ADV=
-_
-крез=S,m,anim=nom,sg
-...\n
-дорога=S,f,inan=acc,sg
-_
-сердце=S,n,inan=dat,sg
-_
-к=PR=
-_
-святой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-юг=S,m,inan=dat,sg
-!_\u2014\n
-христос=S,famn,m,anim=nom,sg
-_
-воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!_
-христос=S,famn,m,anim=nom,sg
-_
-воскресать=V,intr=praet,sg,indic,m,pf
-!\n
+{христос=S,famn,m,anim=nom,sg} {воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}! {христос=S,famn,m,anim=nom,sg} {воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!
+{сон=S,m,inan=(acc,sg|nom,sg)} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {глухой=A=comp}, {чем=CONJ=} {спать=V,ipf,intr=inpraes,sg,indic,3p} {скала=S,f,inan=nom,sg}...
+{петь=V,ipf,tran=inpraes,pl,indic,3p} {победа=S,f,inan=acc,sg} {в=PR=} {огонь=S,m,inan=abl,sg} {экспрессия=S,f,inan=gen,pl},
+{петь=V,ipf,tran=inpraes,pl,indic,3p} {бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{светло=ADV=} {целовать=V,ipf,tran=pl,imper,2p} {уста=S,pl,inan=(acc|nom)} {друг=S,m,anim=nom,sg} {друг=S,m,anim=dat,sg},
+{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {нищий=S,m,anim=nom,sg} — {сегодня=ADV=} {крез=S,m,anim=nom,sg}...
+{дорога=S,f,inan=acc,sg} {сердце=S,n,inan=dat,sg} {к=PR=} {святой=A=(dat,sg,plen,m|dat,sg,plen,n)} {юг=S,m,inan=dat,sg}! —
+{христос=S,famn,m,anim=nom,sg} {воскресе?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}! {христос=S,famn,m,anim=nom,sg} {воскресать=V,intr=praet,sg,indic,m,pf}!

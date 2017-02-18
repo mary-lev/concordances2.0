@@ -1,28 +1,5 @@
-скучно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-весь=APRO=acc,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-спасать=V=inf,ipf,tran
-\n
-от=PR=
-_
-себя=SPRO=(acc|gen)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-,\n
-скучно=ADV=
-_
-кликать=V,ipf,tran=inf
-_
-благодать=S,f,inan=(acc,sg|nom,sg)
-\n
-на=PR=
-_
-чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-друг=S,m,anim=(acc,pl|gen,pl)
-!\n\n
+{скучно=ADV=} {я=SPRO,sg,1p=(abl|dat)} {весь=APRO=acc,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {спасать=V=inf,ipf,tran}
+{от=PR=} {себя=SPRO=(acc|gen)} {человек=S,m,anim=(acc,pl|gen,pl)},
+{скучно=ADV=} {кликать=V,ipf,tran=inf} {благодать=S,f,inan=(acc,sg|nom,sg)}
+{на=PR=} {чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {друг=S,m,anim=(acc,pl|gen,pl)}!
+

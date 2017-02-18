@@ -1,38 +1,4 @@
-вы=SPRO,pl,2p=nom
-_
-чудак=S,m,anim=nom,pl
-,_
-вы=SPRO,pl,2p=nom
-_
-хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-\n
-избирать=V=inf,pf
-_
-себя=SPRO=(abl|dat)
-_
-мочь=V,ipf,intr=praet,pl,indic
-_
-бы=PART=
-,\n
-и=CONJ=
-_
-просто=PART=
-_
-где-то=ADVPRO=
-_
-отдыхать=V,intr=inf,pf
-,\n
-чем=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-_
-на=PR=
-_
-дыба=S,f,inan=(abl,sg|dat,sg)
-.\n
+{вы=SPRO,pl,2p=nom} {чудак=S,m,anim=nom,pl}, {вы=SPRO,pl,2p=nom} {хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} {путь=S,m,inan=(acc,sg|nom,sg)}
+{избирать=V=inf,pf} {себя=SPRO=(abl|dat)} {мочь=V,ipf,intr=praet,pl,indic} {бы=PART=},
+{и=CONJ=} {просто=PART=} {где-то=ADVPRO=} {отдыхать=V,intr=inf,pf},
+{чем=CONJ=} {быть=V,intr=inf,ipf} {со=PR=} {я=SPRO,sg,1p=ins} {на=PR=} {дыба=S,f,inan=(abl,sg|dat,sg)}.

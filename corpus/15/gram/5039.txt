@@ -1,156 +1,34 @@
-небосклон=S,m,inan=(acc,sg|nom,sg)
-_
-опрокидывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-уходить=V,intr=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-.\n
-об=PR=
-_
-отчизна=S,f,inan=(abl,sg|dat,sg)
-_
-покидать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-\n
-замирать=V,intr=inpraes,sg,indic,3p,ipf
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-над=PR=
-_
-пустыня=S,f,inan=ins,pl
-_
-водный=A=ins,pl,plen
-\n
-видный=A=sg,brev,m
-_
-пенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-узор=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-слеза=S,f,inan=ins,pl
-_
-холодный=A=ins,pl,plen
-\n
-затуманиваться=V,intr=praet,sg,indic,m,pf
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-над=PR=
-_
-мачта=S,f,inan=ins,sg
-_
-мелькать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-темно=ADV=comp
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-.\n
-и=CONJ=
-_
-корабль=S,m,inan=(acc,sg|nom,sg)
-_
-убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-\n
-уронить=V,pf,tran=praet,sg,indic,m
-_
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-над=PR=
-_
-свинцовый=A=ins,pl,plen
-_
-туча=S,f,inan=ins,pl
-\n
-альбатрос=S,m,anim=nom,pl
-_
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-за=PR=
-_
-волна=S,f,inan=ins,pl
-_
-кипучий=A=ins,pl,plen
-\n
-с=PR=
-_
-поднебесье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-следить=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-так=ADVPRO=
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-что=CONJ=
-_
-раздвигаться=V,intr=inpraes,pl,indic,3p,pf
-\n
-очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-чтоб=CONJ=
-_
-стремительно=ADV=
-_
-кинуться=V,pf,intr=inf
-\n
-с=PR=
-_
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-почуять=V,pf,tran=praet,ger
-,_
-раскат=S,m,inan=ins,pl
-\n
-набегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-,_
-гром=S,m,inan=(acc,sg|nom,sg)
-,\n
-вновь=ADV=
-_
-ряд=S,m,inan=ins,pl
-_
-крылатый=A=ins,pl,plen
-\n
-выкликать=V,tran=inpraes,pl,indic,3p,ipf
-_
-кругом=ADV=
-.\n\n
-и=CONJ=
-_
-бездомный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-посылать=V=inpraes,pl,indic,3p,ipf,tran
-_\u2014_
-в=PR=
-_
-лазурь=S,f,inan=(acc,sg|nom,sg)
-\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-крик=S,m,inan=(acc,pl|nom,pl)
-_
-заемный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-отклик=S,m,inan=(acc,pl|nom,pl)
-_
-буря=S,f,inan=gen,pl
-.\n
+{небосклон=S,m,inan=(acc,sg|nom,sg)} {опрокидывать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{уходить=V,intr=inpraes,nom,sg,partcp,plen,f,ipf,act} {даль=S,f,inan=(acc,sg|nom,sg)}.
+{об=PR=} {отчизна=S,f,inan=(abl,sg|dat,sg)} {покидать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)}
+{замирать=V,intr=inpraes,sg,indic,3p,ipf} {печаль=S,f,inan=(acc,sg|nom,sg)}.
+
+{над=PR=} {пустыня=S,f,inan=ins,pl} {водный=A=ins,pl,plen}
+{видный=A=sg,brev,m} {пенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {узор=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {слеза=S,f,inan=ins,pl} {холодный=A=ins,pl,plen}
+{затуманиваться=V,intr=praet,sg,indic,m,pf} {взор=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {над=PR=} {мачта=S,f,inan=ins,sg} {мелькать=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {темно=ADV=comp} {небо=S,n,inan=(acc,pl|nom,pl)}.
+{и=CONJ=} {корабль=S,m,inan=(acc,sg|nom,sg)} {убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}
+{уронить=V,pf,tran=praet,sg,indic,m} {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{над=PR=} {свинцовый=A=ins,pl,plen} {туча=S,f,inan=ins,pl}
+{альбатрос=S,m,anim=nom,pl} {лететь=V,ipf,intr=inpraes,pl,indic,3p},
+{за=PR=} {волна=S,f,inan=ins,pl} {кипучий=A=ins,pl,plen}
+{с=PR=} {поднебесье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {следить=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{так=ADVPRO=} {и=CONJ=} {ждать=V,ipf,tran=inpraes,pl,indic,3p}, {что=CONJ=} {раздвигаться=V,intr=inpraes,pl,indic,3p,pf}
+{очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{чтоб=CONJ=} {стремительно=ADV=} {кинуться=V,pf,intr=inf}
+{с=PR=} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {почуять=V,pf,tran=praet,ger}, {раскат=S,m,inan=ins,pl}
+{набегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}, {гром=S,m,inan=(acc,sg|nom,sg)},
+{вновь=ADV=} {ряд=S,m,inan=ins,pl} {крылатый=A=ins,pl,plen}
+{выкликать=V,tran=inpraes,pl,indic,3p,ipf} {кругом=ADV=}.
+
+{и=CONJ=} {бездомный=A=(acc,pl,plen,inan|nom,pl,plen)}, {темный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{посылать=V=inpraes,pl,indic,3p,ipf,tran} — {в=PR=} {лазурь=S,f,inan=(acc,sg|nom,sg)}
+{этот=APRO=(nom,pl|acc,pl,inan)} {крик=S,m,inan=(acc,pl|nom,pl)} {заемный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{этот=APRO=(nom,pl|acc,pl,inan)} {отклик=S,m,inan=(acc,pl|nom,pl)} {буря=S,f,inan=gen,pl}.

@@ -1,98 +1,15 @@
-серебристый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-рыба=S,f,anim=nom,sg
-_
-махнуть=V,pf,intr=praet,sg,indic,f
-_
-хвост=S,m,inan=ins,sg
-,\n
-звезда=S,f,inan=nom,sg
-_
-зажелтеть=V,pf,intr=praet,sg,indic,f
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-пустой=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_\u2014\n
-о=INTJ=
-,_
-фаустин=S,persn,m,anim=(acc,sg|gen,sg)
-!\n\n
-все=ADV=
-_
-близко=ADV=comp
-_
-маяк=S,m,inan=(acc,sg|nom,sg)
-,_
-темный=A=sg,brev,m
-_
-и=CONJ=
-_
-гордый=A=sg,brev,m
-,\n
-все=ADV=
-_
-тихо=ADV=comp
-_
-вода=S,f,inan=nom,sg
-_
-плескать=V,ipf,tran=inpraes,sg,indic,3p
-_
-об=PR=
-_
-борт=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-тина=S,f,inan=nom,sg
-...\n\n
-отбиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-садиться=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-руль=S,m,inan=(acc,sg|nom,sg)
-_
-мотылек=S,m,anim=nom,sg
-...\n
-как=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-от=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-далекий=A=sg,brev,m
-!\n
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-палатин=S,persn,m,anim=(acc,sg|gen,sg)
-!\n\n
-ветер=S,m,inan=ins,sg
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-резеда=S,sg,f,inan=gen
-_
-приносить=V=praet,sg,indic,n,pf
-.\n
-в=PR=
-_
-розовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-брызги=S,pl,inan=abl
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-весло=S,n,inan=(acc,sg|nom,sg)
-.\n
-о=INTJ=
-,_
-фаустин=S,persn,m,anim=(acc,sg|gen,sg)
-!\n
+{серебристый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рыба=S,f,anim=nom,sg} {махнуть=V,pf,intr=praet,sg,indic,f} {хвост=S,m,inan=ins,sg},
+{звезда=S,f,inan=nom,sg} {зажелтеть=V,pf,intr=praet,sg,indic,f} {в=PR=} {небо=S,n,inan=abl,sg} {пустой=A=(abl,sg,plen,m|abl,sg,plen,n)}, —
+{о=INTJ=}, {фаустин=S,persn,m,anim=(acc,sg|gen,sg)}!
+
+{все=ADV=} {близко=ADV=comp} {маяк=S,m,inan=(acc,sg|nom,sg)}, {темный=A=sg,brev,m} {и=CONJ=} {гордый=A=sg,brev,m},
+{все=ADV=} {тихо=ADV=comp} {вода=S,f,inan=nom,sg} {плескать=V,ipf,tran=inpraes,sg,indic,3p} {об=PR=} {борт=S,m,inan=(acc,sg|nom,sg)} —
+{тянуться=V,ipf,intr=inpraes,sg,indic,3p} {тина=S,f,inan=nom,sg}...
+
+{отбиваться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {садиться=V,intr=praet,sg,indic,m,pf} {на=PR=} {руль=S,m,inan=(acc,sg|nom,sg)} {мотылек=S,m,anim=nom,sg}...
+{как=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {от=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {далекий=A=sg,brev,m}!
+{тень=S,f,inan=(acc,sg|nom,sg)} {палатин=S,persn,m,anim=(acc,sg|gen,sg)}!
+
+{ветер=S,m,inan=ins,sg} {запах=S,m,inan=(acc,sg|nom,sg)} {резеда=S,sg,f,inan=gen} {приносить=V=praet,sg,indic,n,pf}.
+{в=PR=} {розовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {брызги=S,pl,inan=abl} {мой=APRO=(acc,sg,n|nom,sg,n)} {весло=S,n,inan=(acc,sg|nom,sg)}.
+{о=INTJ=}, {фаустин=S,persn,m,anim=(acc,sg|gen,sg)}!

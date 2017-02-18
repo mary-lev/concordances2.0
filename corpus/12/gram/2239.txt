@@ -1,144 +1,19 @@
-в=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-гостиная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-одиннадцать=NUM=(acc|nom)
-_
-бить=V,ipf,tran=inpraes,sg,indic,3p
-.\u2028\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-сегодня=ADV=
-_
-присниться=V,pf,intr=inpraes,sg,indic,3p
-?\n\u2028
-мама=S,f,anim=nom,sg
--
-шалунья=S,f,anim=nom,sg
-_
-уснуть=V,pf,intr=inf
-_
-не=PART=
-_
-давать=V,tran=inpraes,sg,indic,3p,ipf
-!\u2028\n
-этот=APRO=nom,sg,f
-_
-мама=S,f,anim=nom,sg
-_
-совсем=ADV=
-_
-баловница=S,f,anim=nom,sg
-!\n\n
-сдергивать=V=inpraes,sg,indic,3p,pf
-,_
-смеяться=V,ipf,intr=inpraes,ger
-,_
-одеяло=S,n,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-плечо=S,n,inan=gen,sg
-,\n\u2028(
-плакать=V,ipf,intr=inf
-_
-смешной=A=sg,brev,n
-_
-и=CONJ=
-_
-стараться=V,ipf,intr=inf
-!)\n\u2028
-дразнить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-пугать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-смешить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-щекотать=V,ipf,tran=inpraes,ger
-\u2028\n
-полусонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сестрица=S,f,anim=acc,sg
-_
-и=CONJ=
-_
-братец=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-коса=S,f,inan=acc,sg
-_
-опять=ADV=
-_
-распускать=V=praet,sg,indic,f,pf
-_
-плащ=S,m,inan=ins,sg
-,\u2028\n
-прыгать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-точно=ADV=
-_
-не=PART=
-_
-дама=S,f,anim=nom,sg
-...\u2028\n
-ребенок=S,m,anim=dat,pl
-_
-она=SPRO,sg,3p,f=nom
-_
-не=PART=
-_
-уступать=V,tran=inpraes,sg,indic,3p,pf
-_
-ни=PART=
-_
-в=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-,\u2028\n
-этот=APRO=nom,sg,f
-_
-странный=A=nom,sg,plen,f
-_
-девочка=S,f,anim=nom,sg
--
-мама=S,f,anim=nom,sg
-!\n\n
-скрывать=V=praet,sg,indic,f,pf
-_
-сестренка=S,f,anim=nom,sg
-_
-в=PR=
-_
-подушка=S,f,inan=(abl,sg|dat,sg)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,\n\u2028
-глубоко=ADV=comp
-_
-уходить=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-одеяльце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\u2028\n
-мальчик=S,m,anim=nom,sg
-_
-без=PR=
-_
-счет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-\u2028\n
-золотой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-у=PR=
-_
-мама=S,f,anim=(gen,sg|nom,pl)
-_
-на=PR=
-_
-палец=S,m,inan=abl,sg
-...\n
+{в=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {гостиная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {одиннадцать=NUM=(acc|nom)} {бить=V,ipf,tran=inpraes,sg,indic,3p}. 
+{что-то=SPRO,sg,n,inan=(acc|nom)} {сегодня=ADV=} {присниться=V,pf,intr=inpraes,sg,indic,3p}?
+ {мама=S,f,anim=nom,sg}-{шалунья=S,f,anim=nom,sg} {уснуть=V,pf,intr=inf} {не=PART=} {давать=V,tran=inpraes,sg,indic,3p,ipf}! 
+{этот=APRO=nom,sg,f} {мама=S,f,anim=nom,sg} {совсем=ADV=} {баловница=S,f,anim=nom,sg}!
+
+{сдергивать=V=inpraes,sg,indic,3p,pf}, {смеяться=V,ipf,intr=inpraes,ger}, {одеяло=S,n,inan=(acc,sg|nom,sg)} {с=PR=} {плечо=S,n,inan=gen,sg},
+ ({плакать=V,ipf,intr=inf} {смешной=A=sg,brev,n} {и=CONJ=} {стараться=V,ipf,intr=inf}!)
+ {дразнить=V,ipf,tran=inpraes,sg,indic,3p}, {пугать=V,ipf,tran=inpraes,sg,indic,3p}, {смешить=V,ipf,tran=inpraes,sg,indic,3p}, {щекотать=V,ipf,tran=inpraes,ger} 
+{полусонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сестрица=S,f,anim=acc,sg} {и=CONJ=} {братец=S,m,anim=(acc,sg|gen,sg)}.
+
+{коса=S,f,inan=acc,sg} {опять=ADV=} {распускать=V=praet,sg,indic,f,pf} {плащ=S,m,inan=ins,sg}, 
+{прыгать=V,ipf,intr=inpraes,sg,indic,3p}, {точно=ADV=} {не=PART=} {дама=S,f,anim=nom,sg}... 
+{ребенок=S,m,anim=dat,pl} {она=SPRO,sg,3p,f=nom} {не=PART=} {уступать=V,tran=inpraes,sg,indic,3p,pf} {ни=PART=} {в=PR=} {что=SPRO,sg,n,inan=(abl|ins)}, 
+{этот=APRO=nom,sg,f} {странный=A=nom,sg,plen,f} {девочка=S,f,anim=nom,sg}-{мама=S,f,anim=nom,sg}!
+
+{скрывать=V=praet,sg,indic,f,pf} {сестренка=S,f,anim=nom,sg} {в=PR=} {подушка=S,f,inan=(abl,sg|dat,sg)} {лицо=S,n,inan=(acc,sg|nom,sg)},
+ {глубоко=ADV=comp} {уходить=V,intr=praet,sg,indic,f,pf} {в=PR=} {одеяльце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{мальчик=S,m,anim=nom,sg} {без=PR=} {счет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {целовать=V,ipf,tran=inpraes,sg,indic,3p} {кольцо=S,n,inan=(acc,sg|nom,sg)} 
+{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {у=PR=} {мама=S,f,anim=(gen,sg|nom,pl)} {на=PR=} {палец=S,m,inan=abl,sg}...

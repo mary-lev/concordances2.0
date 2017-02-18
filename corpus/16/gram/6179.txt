@@ -1,66 +1,8 @@
-часто=ADV=
-_
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-грезиться=V,ipf,intr=inpraes,pl,indic,2p
-_
-фиалка=S,f,inan=ins,sg
-_\u2014\n
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-цветок=S,m,inan=ins,sg
-;\n
-иногда=ADV=
-_\u2014_
-таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-русалка=S,f,anim=ins,sg
-,\n
-воплощать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-грезить=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-ум=S,m,inan=ins,sg
-.\n
-иногда=ADV=
-_\u2014_
-принцесса=S,f,anim=ins,sg
-_
-кроткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-хрупкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-милосердный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-даже=PART=
-_
-к=PR=
-_
-комар=S,m,anim=dat,sg
-,\n
-и=CONJ=
-_
-всегда=ADVPRO=
-_\u2014_
-свободный=A=ins,sg,plen,f
-_
-голубка=S,f,anim=ins,sg
-,\n
-ввысь=ADV=
-_
-лететь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-к=PR=
-_
-правда=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-добро=S,sg,n,inan=dat
-!\n
+{часто=ADV=} {вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {грезиться=V,ipf,intr=inpraes,pl,indic,2p} {фиалка=S,f,inan=ins,sg} —
+{этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {ласковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {цветок=S,m,inan=ins,sg};
+{иногда=ADV=} — {таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {русалка=S,f,anim=ins,sg},
+{воплощать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {грезить=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {ум=S,m,inan=ins,sg}.
+{иногда=ADV=} — {принцесса=S,f,anim=ins,sg} {кроткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {хрупкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{милосердный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даже=PART=} {к=PR=} {комар=S,m,anim=dat,sg},
+{и=CONJ=} {всегда=ADVPRO=} — {свободный=A=ins,sg,plen,f} {голубка=S,f,anim=ins,sg},
+{ввысь=ADV=} {лететь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {к=PR=} {правда=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {добро=S,sg,n,inan=dat}!

@@ -1,142 +1,18 @@
-я=SPRO,sg,1p=nom
-_
-гибель=S,f,inan=(acc,sg|nom,sg)
-_
-накликать=V,pf,tran=praet,sg,indic,f
-_
-милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-и=CONJ=
-_
-гибнуть=V,ipf,intr=praet,pl,indic
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-за=PR=
-_
-другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-.\n
-о=PR=
-,_
-горе=S,sg,n,inan=(abl|acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-!_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-предсказывать=V=praet,pl,partcp,brev,pf,pass
-_
-словом=ADV,parenth=
-_
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-.\n
-как=CONJ=
-_
-ворон=S,m,anim=nom,pl
-_
-кружиться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-чуять=V,ipf,tran=inpraes,ger
-\n
-горячий=A=acc,sg,plen,f
-,_
-свежий=A=acc,sg,plen,f
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,\n
-так=ADVPRO=
-_
-дикий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ликовать=V,ipf,intr=inpraes,ger
-,\n
-мой=APRO=nom,sg,f
-_
-насылать=V=praet,sg,indic,f,ipf,tran
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сладко=ADV=
-_
-и=CONJ=
-_
-знойно=ADV=
-,\n
-ты=SPRO,sg,2p=nom
-_
-близкий=A=sg,brev,m
-,_
-как=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-давать=V,tran=sg,imper,2p,pf
-_
-рука=S,f,inan=acc,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-слушать=V,ipf,tran=sg,imper,2p
-_
-спокойно=ADV=
-.\n
-ты=SPRO,sg,2p=(acc|gen)
-_
-заклинать=V=inpraes,sg,indic,1p,ipf,tran
-:_
-уходить=V,intr=sg,imper,2p,pf
-.\n
-и=CONJ=
-_
-пусть=PART=
-_
-не=PART=
-_
-узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-_
-я=SPRO,sg,1p=nom
-,_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,\n
-о=PR=
-_
-муза=S,f,anim=nom,sg
-,_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-не=PART=
-_
-звать=V,ipf,tran=sg,imper,2p
-,\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-невоспетый=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-\n
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-не=PART=
-_
-узнавать=V,tran=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
+{я=SPRO,sg,1p=nom} {гибель=S,f,inan=(acc,sg|nom,sg)} {накликать=V,pf,tran=praet,sg,indic,f} {милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{и=CONJ=} {гибнуть=V,ipf,intr=praet,pl,indic} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {за=PR=} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.
+{о=PR=}, {горе=S,sg,n,inan=(abl|acc|nom)} {я=SPRO,sg,1p=(abl|dat)}! {этот=APRO=(nom,pl|acc,pl,inan)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{предсказывать=V=praet,pl,partcp,brev,pf,pass} {словом=ADV,parenth=} {мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.
+{как=CONJ=} {ворон=S,m,anim=nom,pl} {кружиться=V,ipf,intr=inpraes,pl,indic,3p}, {чуять=V,ipf,tran=inpraes,ger}
+{горячий=A=acc,sg,plen,f}, {свежий=A=acc,sg,plen,f} {кровь=S,f,inan=(acc,sg|nom,sg)},
+{так=ADVPRO=} {дикий=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ликовать=V,ipf,intr=inpraes,ger},
+{мой=APRO=nom,sg,f} {насылать=V=praet,sg,indic,f,ipf,tran} {любовь=S,f,inan=(acc,sg|nom,sg)}.
+
+{с=PR=} {ты=SPRO,sg,2p=ins} {я=SPRO,sg,1p=(abl|dat)} {сладко=ADV=} {и=CONJ=} {знойно=ADV=},
+{ты=SPRO,sg,2p=nom} {близкий=A=sg,brev,m}, {как=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{давать=V,tran=sg,imper,2p,pf} {рука=S,f,inan=acc,sg} {я=SPRO,sg,1p=(abl|dat)}, {слушать=V,ipf,tran=sg,imper,2p} {спокойно=ADV=}.
+{ты=SPRO,sg,2p=(acc|gen)} {заклинать=V=inpraes,sg,indic,1p,ipf,tran}: {уходить=V,intr=sg,imper,2p,pf}.
+{и=CONJ=} {пусть=PART=} {не=PART=} {узнавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)} {я=SPRO,sg,1p=nom}, {где=ADVPRO=} {ты=SPRO,sg,2p=nom},
+{о=PR=} {муза=S,f,anim=nom,sg}, {он=SPRO,sg,3p,m=(acc|gen)} {не=PART=} {звать=V,ipf,tran=sg,imper,2p},
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {невоспетый=A,plen=(dat,pl|ins,sg,m|ins,sg,n)}
+{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {не=PART=} {узнавать=V,tran=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+

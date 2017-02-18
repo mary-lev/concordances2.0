@@ -1,70 +1,9 @@
-глотать=V,ipf,tran=inpraes,sg,indic,1p
-_
-соленый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-роман=S,m,inan=(acc,sg|nom,sg)
-_
-неразрезанный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-глупый=A=sg,brev,m
-.\n
-не=PART=
-_
-надо=ADV,praed=
-_
-ни=CONJ=
-_
-роба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ни=PART=
-_
-розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-для=PR=
-_
-губа=S,f,inan=gen,pl
-,\n\n
-ни=CONJ=
-_
-кружева=S,pl,inan=gen
-,_
-ни=CONJ=
-_
-белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ни=CONJ=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-над=PR=
-_
-вырез=S,m,inan=ins,sg
-_
-крыша=S,f,inan=gen,pl
-,\n
-умчаться=V,pf,intr=praet,pl,indic
-_
-архангел=S,m,anim=nom,pl
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,\n
-уезжать=V,intr=praet,pl,indic,pf
-_
-брат=S,m,anim=nom,pl
-_
-в=PR=
-_
-париж=S,geo,m,inan=(acc,sg|nom,sg)
-!\n
+{глотать=V,ipf,tran=inpraes,sg,indic,1p} {соленый=A=(acc,pl,plen,inan|nom,pl,plen)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{роман=S,m,inan=(acc,sg|nom,sg)} {неразрезанный=A,plen=(acc,sg,m,inan|nom,sg,m)} — {глупый=A=sg,brev,m}.
+{не=PART=} {надо=ADV,praed=} {ни=CONJ=} {роба=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{ни=PART=} {розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {для=PR=} {губа=S,f,inan=gen,pl},
+
+{ни=CONJ=} {кружева=S,pl,inan=gen}, {ни=CONJ=} {белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{ни=CONJ=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {вырез=S,m,inan=ins,sg} {крыша=S,f,inan=gen,pl},
+{умчаться=V,pf,intr=praet,pl,indic} {архангел=S,m,anim=nom,pl} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)},
+{уезжать=V,intr=praet,pl,indic,pf} {брат=S,m,anim=nom,pl} {в=PR=} {париж=S,geo,m,inan=(acc,sg|nom,sg)}!

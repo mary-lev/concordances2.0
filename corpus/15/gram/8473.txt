@@ -1,120 +1,14 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-видеться=V,ipf,intr=inpraes,sg,indic,3p
-_
-безбрежный=A=nom,sg,plen,f
-_
-равнина=S,f,inan=nom,sg
-,\n
-весь=APRO=nom,sg,f
-_
-белый=A=nom,sg,plen,f
-_
-под=PR=
-_
-снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пелена=S,f,inan=ins,sg
-.\n
-и=CONJ=
-_
-там=ADVPRO=
-,_
-вверху=ADV=
-,_
-застывший=A=nom,sg,plen,f
-_
-как=CONJ=
-_
-льдина=S,f,inan=nom,sg
-,\n
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-луна=S,f,inan=nom,sg
-,_
-лелеять=V,ipf,tran=inpraes,ger
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-и=CONJ=
-_
-чудиться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014_
-сказка=S,f,inan=nom,sg
-,\n
-что=CONJ=
-_
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014_
-таинство=S,n,inan=(acc,sg|nom,sg)
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-.\n
-безмолвный=A=sg,brev,f
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-бестрепетный=A=nom,sg,plen,f
-_
-ласка=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-холодно=ADV=
-_
-любить=V,ipf,tran=inf
-_
-они=SPRO,pl=dat
-_
-суждено=ADV,praed=
-.\n\n
-о=PR=
-,_
-мертвый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-прекрасный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)
-.\n
-о=PR=
-,_
-мертвый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-безгрешный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-мечта=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-,_
-я=SPRO,sg,1p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,1p
-_
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-,\n
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=inpraes,sg,indic,2p
-_
-вечно=ADV=
-_
-сердце=S,n,inan=dat,sg
-_
-дорога=S,f,inan=nom,sg
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {видеться=V,ipf,intr=inpraes,sg,indic,3p} {безбрежный=A=nom,sg,plen,f} {равнина=S,f,inan=nom,sg},
+{весь=APRO=nom,sg,f} {белый=A=nom,sg,plen,f} {под=PR=} {снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пелена=S,f,inan=ins,sg}.
+{и=CONJ=} {там=ADVPRO=}, {вверху=ADV=}, {застывший=A=nom,sg,plen,f} {как=CONJ=} {льдина=S,f,inan=nom,sg},
+{гореть=V,ipf,intr=inpraes,sg,indic,3p} {луна=S,f,inan=nom,sg}, {лелеять=V,ipf,tran=inpraes,ger} {мир=S,m,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{и=CONJ=} {чудиться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {между=PR=} {мы=SPRO,pl,1p=ins} — {сказка=S,f,inan=nom,sg},
+{что=CONJ=} {между=PR=} {мы=SPRO,pl,1p=ins} — {таинство=S,n,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,n|nom,sg,n)}.
+{безмолвный=A=sg,brev,f} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {бестрепетный=A=nom,sg,plen,f} {ласка=S,f,inan=nom,sg},
+{и=CONJ=} {холодно=ADV=} {любить=V,ipf,tran=inf} {они=SPRO,pl=dat} {суждено=ADV,praed=}.
+
+{о=PR=}, {мертвый=A=(acc,sg,plen,n|nom,sg,plen,n)} {прекрасный=A=(acc,sg,plen,n|nom,sg,plen,n)} {светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)}.
+{о=PR=}, {мертвый=A=(acc,pl,plen,inan|nom,pl,plen)} {безгрешный=A=(acc,pl,plen,inan|nom,pl,plen)} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+{мечта=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}, {я=SPRO,sg,1p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,1p} {все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf},
+{ты=SPRO,sg,2p=nom} {быть=V,intr=inpraes,sg,indic,2p} {вечно=ADV=} {сердце=S,n,inan=dat,sg} {дорога=S,f,inan=nom,sg}.

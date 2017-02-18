@@ -1,44 +1,4 @@
-сладко=ADV=
-_
-вдвоем=ADV=
-_\u2014_
-на=PR=
-_
-один=APRO=(abl,sg,m|abl,sg,n)
-_
-конь=S,m,anim=abl,sg
-,\n
-в=PR=
-_
-тот=APRO=(abl,sg,m|abl,sg,n)
-_
-же=PART=
-_
-челн=S,m,inan=abl,sg
-_\u2014_
-на=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-волна=S,f,inan=(abl,sg|dat,sg)
-,\n
-сладко=ADV=
-_
-вдвоем=ADV=
-_\u2014_
-от=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-краюшка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-сладко=ADV=comp
-_
-все=SPRO,sg,n,inan=gen
-_\u2014_
-на=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-подушка=S,f,inan=(abl,sg|dat,sg)
-.\n
+{сладко=ADV=} {вдвоем=ADV=} — {на=PR=} {один=APRO=(abl,sg,m|abl,sg,n)} {конь=S,m,anim=abl,sg},
+{в=PR=} {тот=APRO=(abl,sg,m|abl,sg,n)} {же=PART=} {челн=S,m,inan=abl,sg} — {на=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {волна=S,f,inan=(abl,sg|dat,sg)},
+{сладко=ADV=} {вдвоем=ADV=} — {от=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {краюшка=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{сладко=ADV=comp} {все=SPRO,sg,n,inan=gen} — {на=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {подушка=S,f,inan=(abl,sg|dat,sg)}.

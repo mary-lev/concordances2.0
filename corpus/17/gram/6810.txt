@@ -1,58 +1,9 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-качаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-сосна=S,f,inan=nom,sg
-_\n
-и=CONJ=
-_
-убаюкивать=V,tran=inpraes,sg,indic,3p,ipf
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-последний=A=nom,sg,plen,f
-_
-весна=S,f,inan=nom,sg
-_\n
-рассеивать=V,ipf,tran=inpraes,sg,indic,3p
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-пух=S,sg,m,inan=(acc|nom)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=praet,sg,indic,m
-,_
-и=CONJ=
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-грустно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_\n
-вдруг=ADV=
-,_
-неизвестно=ADV=
-_
-отчего=ADVPRO=
-._\n
-я=SPRO,sg,1p=(abl|dat)
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-страшно=ADV=
-_
-в=PR=
-_
-тишина=S,sg,f,inan=(abl|dat)
-_\n
-биение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-.\n
+{это=SPRO,sg,n,inan=(acc|nom)} {качаться=V,ipf,intr=inpraes,sg,indic,3p} {сосна=S,f,inan=nom,sg} 
+{и=CONJ=} {убаюкивать=V,tran=inpraes,sg,indic,3p,ipf} {слух=S,m,inan=(acc,sg|nom,sg)}.
+{это=SPRO,sg,n,inan=(acc|nom)} {последний=A=nom,sg,plen,f} {весна=S,f,inan=nom,sg} 
+{рассеивать=V,ipf,tran=inpraes,sg,indic,3p} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {пух=S,sg,m,inan=(acc|nom)}.
+
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=praet,sg,indic,m}, {и=CONJ=} {становиться=V,intr=praet,sg,indic,n,pf} {грустно=ADV=} {я=SPRO,sg,1p=(abl|dat)} 
+{вдруг=ADV=}, {неизвестно=ADV=} {отчего=ADVPRO=}. 
+{я=SPRO,sg,1p=(abl|dat)} {становиться=V,intr=praet,sg,indic,n,pf} {страшно=ADV=} {в=PR=} {тишина=S,sg,f,inan=(abl|dat)} 
+{биение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}.

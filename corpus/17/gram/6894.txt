@@ -1,84 +1,14 @@
-до=PR=
-_
-нелепость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-смешно=ADV=
-_\n
-так=ADVPRO=
-_
-бесславно=ADV=
-_
-умирать=V,intr=inf,pf
-,_\n
-давать=V,tran=inf,pf
-_
-себя=SPRO=(acc|gen)
-_
-с=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-стереть=V,pf=inf
-._\n
-как=CONJ=
-_
-чернильный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пятно=S,n,inan=(acc,sg|nom,sg)
-!\n\n
-ну=PART=
-_
-а=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-же=PART=
-_
-след=S,m,inan=(acc,sg|nom,sg)
-_
-чернила=S,pl,inan=gen
-._\n
-разводить=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-кровь=S,f,inan=ins,sg
-,_\u2014_\n
-как=ADVPRO=
-_
-склоняться=V,intr=praet,sg,indic,m,ipf
-_
-азраил?=S,persn,m,anim=nom,sg
-_\n
-ночь=S,f,inan=ins,sg
-_
-к=PR=
-_
-изголовье=S,n,inan=dat,sg
-,\n\n
-о=PR=
-_
-мечта=S,f,inan=abl,pl
-_
-и=CONJ=
-_
-о=PR=
-_
-грех=S,m,inan=abl,pl
-,_\n
-странствие=S,n,inan=abl,pl
-_
-по=PR=
-_
-мука=S,f,inan=dat,pl
-_\u2014_\n
-обнаруживаться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-стих=S,m,inan=abl,pl
-_\n
-в=PR=
-_
-назидание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-внук=S,m,anim=dat,pl
-.\n
+{до=PR=} {нелепость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {смешно=ADV=} 
+{так=ADVPRO=} {бесславно=ADV=} {умирать=V,intr=inf,pf}, 
+{давать=V,tran=inf,pf} {себя=SPRO=(acc|gen)} {с=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {стереть=V,pf=inf}. 
+{как=CONJ=} {чернильный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пятно=S,n,inan=(acc,sg|nom,sg)}!
+
+{ну=PART=} {а=CONJ=} {все=SPRO,pl=(acc|nom)} {же=PART=} {след=S,m,inan=(acc,sg|nom,sg)} {чернила=S,pl,inan=gen}. 
+{разводить=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {кровь=S,f,inan=ins,sg}, — 
+{как=ADVPRO=} {склоняться=V,intr=praet,sg,indic,m,ipf} {азраил?=S,persn,m,anim=nom,sg} 
+{ночь=S,f,inan=ins,sg} {к=PR=} {изголовье=S,n,inan=dat,sg},
+
+{о=PR=} {мечта=S,f,inan=abl,pl} {и=CONJ=} {о=PR=} {грех=S,m,inan=abl,pl}, 
+{странствие=S,n,inan=abl,pl} {по=PR=} {мука=S,f,inan=dat,pl} — 
+{обнаруживаться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {стих=S,m,inan=abl,pl} 
+{в=PR=} {назидание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {внук=S,m,anim=dat,pl}.

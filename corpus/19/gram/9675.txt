@@ -1,84 +1,9 @@
-он=SPRO,sg,3p,m=nom
-_
-старый=A=sg,brev,m
-,_
-как=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-;_
-зваться=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-порок=S,m,inan=ins,sg
-.\n
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-добыча=S,f,inan=acc,sg
-_
-он=SPRO,sg,3p,m=nom
-_
-обрекать=V=praet,sg,indic,m,pf
-.\n
-томиться=V,ipf,intr=inpraes,ger
-_
-в=PR=
-_
-бессилие=S,n,inan=abl,sg
-_
-жестокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-несчастливый=A=sg,brev,m
-_
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-одинокий=A=sg,brev,m
-.\n\n
-сжигаться=V,intr=inpraes,sg,indic,1p,ipf
-_
-я=SPRO,sg,1p=nom
-_
-безумно=ADV=
-_
-и=CONJ=
-_
-развратно=ADV=
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-жаль=ADV,praed=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сила=S,f,inan=gen,pl
-,\n
-что=CONJ=
-_
-плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-рок=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-щедро=ADV=
-,_
-благодатный=A=sg,brev,n
-\n
-и=CONJ=
-_
-так=ADVPRO=
-_
-напрасно=ADV=
-_
-подарить=V,pf,tran=praet,sg,indic,m
-.\n
+{он=SPRO,sg,3p,m=nom} {старый=A=sg,brev,m}, {как=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)}; {зваться=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {порок=S,m,inan=ins,sg}.
+{я=SPRO,sg,1p=(acc|gen)} {в=PR=} {добыча=S,f,inan=acc,sg} {он=SPRO,sg,3p,m=nom} {обрекать=V=praet,sg,indic,m,pf}.
+{томиться=V,ipf,intr=inpraes,ger} {в=PR=} {бессилие=S,n,inan=abl,sg} {жестокий=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{несчастливый=A=sg,brev,m} {я=SPRO,sg,1p=nom} {и=CONJ=} {одинокий=A=sg,brev,m}.
+
+{сжигаться=V,intr=inpraes,sg,indic,1p,ipf} {я=SPRO,sg,1p=nom} {безумно=ADV=} {и=CONJ=} {развратно=ADV=},
+{как=ADVPRO=} {будто=PART=} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {жаль=ADV,praed=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сила=S,f,inan=gen,pl},
+{что=CONJ=} {плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {рок=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {щедро=ADV=}, {благодатный=A=sg,brev,n}
+{и=CONJ=} {так=ADVPRO=} {напрасно=ADV=} {подарить=V,pf,tran=praet,sg,indic,m}.

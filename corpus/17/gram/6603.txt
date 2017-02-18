@@ -1,132 +1,21 @@
-холодно=ADV=
-_
-бродить=V,ipf,intr=inf
-_
-по=PR=
-_
-свет=S,sg,m,inan=(dat|loc|part)
-._\n
-холодно=ADV=comp
-_
-лежать=V,ipf,intr=inf
-_
-в=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-._\n
-помнить=V,ipf,tran=sg,imper,2p
-_
-это=PART=
-,_
-помнить=V,ipf,tran=sg,imper,2p
-_
-это=SPRO,sg,n,inan=(acc|nom)
-,\n
-не=PART=
-_
-клясть=V,ipf,tran=sg,imper,2p
-_
-свой=APRO=acc,sg,f
-_
-судьба=S,f,inan=acc,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-еще=ADV=
-_
-читать=V,ipf,tran=inpraes,sg,indic,2p
-_
-блок=S,m,inan=gen,sg
-,\n
-ты=SPRO,sg,2p=nom
-_
-еще=ADV=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-,\n
-ты=SPRO,sg,2p=nom
-_
-еще=ADV=
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_
-срок=S,m,inan=gen,sg
-_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-неясно=ADV=
-,_
-все=SPRO,pl=(acc|nom)
-_
-жестоко=ADV=
-,\n
-все=SPRO,pl=(acc|nom)
-_
-навек=ADV=
-_
-обреченный=A=sg,brev,n
-.\n\n
-и=CONJ=
-_
-конечно=ADV,parenth=
-,_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-прекрасный=A=sg,brev,f
-,\n
-и=CONJ=
-_
-конечно=ADV,parenth=
-,_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-страшный=A=sg,brev,f
-._\n
-отвратительный=A=sg,brev,f
-,_
-ужасный=A=sg,brev,f
-,\n
-но=CONJ=
-_
-все=SPRO,sg,n,inan=dat
-_
-один=APRO=nom,sg,f
-_
-цена=S,f,inan=nom,sg
-.\n\n
-помнить=V,ipf,tran=sg,imper,2p
-_
-это=PART=
-,_
-помнить=V,ipf,tran=sg,imper,2p
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_\n
-капля=S,f,inan=acc,sg
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-капля=S,f,inan=acc,sg
-_
-свет=S,sg,m,inan=gen
-...\n\n\xAB
-донна=S,f,anim=nom,sg
-_
-анна=S,persn,f,anim=nom,sg
-!_
-нет=PART=
-_
-ответ=S,m,inan=gen,sg
-.\n
-анна=S,persn,f,anim=nom,sg
-,_
-анна=S,persn,f,anim=nom,sg
-!_
-тишина=S,sg,f,inan=nom
-\xBB.\n
+{холодно=ADV=} {бродить=V,ipf,intr=inf} {по=PR=} {свет=S,sg,m,inan=(dat|loc|part)}. 
+{холодно=ADV=comp} {лежать=V,ipf,intr=inf} {в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)}. 
+{помнить=V,ipf,tran=sg,imper,2p} {это=PART=}, {помнить=V,ipf,tran=sg,imper,2p} {это=SPRO,sg,n,inan=(acc|nom)},
+{не=PART=} {клясть=V,ipf,tran=sg,imper,2p} {свой=APRO=acc,sg,f} {судьба=S,f,inan=acc,sg}.
+
+{ты=SPRO,sg,2p=nom} {еще=ADV=} {читать=V,ipf,tran=inpraes,sg,indic,2p} {блок=S,m,inan=gen,sg},
+{ты=SPRO,sg,2p=nom} {еще=ADV=} {глядеть=V,ipf,tran=inpraes,sg,indic,2p} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)},
+{ты=SPRO,sg,2p=nom} {еще=ADV=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,2p} {срок=S,m,inan=gen,sg} —
+{все=SPRO,pl=(acc|nom)} {неясно=ADV=}, {все=SPRO,pl=(acc|nom)} {жестоко=ADV=},
+{все=SPRO,pl=(acc|nom)} {навек=ADV=} {обреченный=A=sg,brev,n}.
+
+{и=CONJ=} {конечно=ADV,parenth=}, {жизнь=S,f,inan=(acc,sg|nom,sg)} {прекрасный=A=sg,brev,f},
+{и=CONJ=} {конечно=ADV,parenth=}, {смерть=S,f,inan=(acc,sg|nom,sg)} {страшный=A=sg,brev,f}. 
+{отвратительный=A=sg,brev,f}, {ужасный=A=sg,brev,f},
+{но=CONJ=} {все=SPRO,sg,n,inan=dat} {один=APRO=nom,sg,f} {цена=S,f,inan=nom,sg}.
+
+{помнить=V,ipf,tran=sg,imper,2p} {это=PART=}, {помнить=V,ipf,tran=sg,imper,2p} {это=SPRO,sg,n,inan=(acc|nom)} — 
+{капля=S,f,inan=acc,sg} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {капля=S,f,inan=acc,sg} {свет=S,sg,m,inan=gen}...
+
+«{донна=S,f,anim=nom,sg} {анна=S,persn,f,anim=nom,sg}! {нет=PART=} {ответ=S,m,inan=gen,sg}.
+{анна=S,persn,f,anim=nom,sg}, {анна=S,persn,f,anim=nom,sg}! {тишина=S,sg,f,inan=nom}».

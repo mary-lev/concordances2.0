@@ -1,110 +1,19 @@
-выходить=V,intr=sg,imper,2p,ipf
-,_
-вставать=V,intr=sg,imper,2p,ipf
-,_
-звезда=S,f,inan=nom,sg
-,_\n
-выгибать=V,tran=sg,imper,2p,ipf
-_
-дуга=S,f,inan=acc,sg
-_
-над=PR=
-_
-пруд=S,m,inan=ins,sg
-!\n
-вмиг=ADV=
-_
-рассекать=V=praet,sg,partcp,brev,f,pf,pass
-_
-вода=S,f,inan=nom,sg
-_\n
-неуклонный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-изумруд=S,m,inan=ins,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-,_
-взносить=V=praet,nom,sg,partcp,plen,f,pf,pass
-_
-свеча=S,f,inan=nom,sg
-,\n
-тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жало=S,n,inan=ins,sg
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-лизать=V,ipf,tran=inpraes,sg,indic,2p
-,_\n
-вкруг=PR=
-_
-зеленый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-меч=S,m,inan=gen,sg
-_\n
-водяной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-двигать=V,ipf=inpraes,sg,indic,2p
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-вольный=A=sg,brev,f
-!_
-ведь=PART=
-_
-только=PART=
-_
-страсть=S,f,inan=(acc,sg|nom,sg)
-_\n
-неизменно=ADV=
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-множить=V,ipf,tran=inpraes,sg,indic,3p
-!\n
-если=CONJ=
-_
-вздумать=V,pf,intr=inpraes,sg,indic,2p
-_
-упасть=V,pf,intr=inf
-,_\u2014_\n
-удерживать=V,tran=inf,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-кто=SPRO,sg,m,anim=nom
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-?\n\n
-лишь=PART=
-_
-мгновенный=A=nom,sg,plen,f
-_
-струя=S,f,inan=nom,sg
-_\n
-вспыхивать=V,intr=inpraes,sg,indic,3p,pf
-_
-боль=S,f,inan=ins,sg
-_
-расставание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-в=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-успевать=V,intr=inpraes,sg,indic,1p,pf
-_
-ль=PART=
-_
-я=SPRO,sg,1p=nom
-_\n
-прошептать=V,pf,tran=inf
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?\n
+{выходить=V,intr=sg,imper,2p,ipf}, {вставать=V,intr=sg,imper,2p,ipf}, {звезда=S,f,inan=nom,sg}, 
+{выгибать=V,tran=sg,imper,2p,ipf} {дуга=S,f,inan=acc,sg} {над=PR=} {пруд=S,m,inan=ins,sg}!
+{вмиг=ADV=} {рассекать=V=praet,sg,partcp,brev,f,pf,pass} {вода=S,f,inan=nom,sg} 
+{неуклонный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {изумруд=S,m,inan=ins,sg}.
+
+{ты=SPRO,sg,2p=nom}, {взносить=V=praet,nom,sg,partcp,plen,f,pf,pass} {свеча=S,f,inan=nom,sg},
+{тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жало=S,n,inan=ins,sg} {небо=S,n,inan=(acc,sg|nom,sg)} {лизать=V,ipf,tran=inpraes,sg,indic,2p}, 
+{вкруг=PR=} {зеленый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {меч=S,m,inan=gen,sg} 
+{водяной=A=(acc,pl,plen,inan|nom,pl,plen)} {кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {двигать=V,ipf=inpraes,sg,indic,2p}.
+
+{ты=SPRO,sg,2p=nom} {вольный=A=sg,brev,f}! {ведь=PART=} {только=PART=} {страсть=S,f,inan=(acc,sg|nom,sg)} 
+{неизменно=ADV=} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {множить=V,ipf,tran=inpraes,sg,indic,3p}!
+{если=CONJ=} {вздумать=V,pf,intr=inpraes,sg,indic,2p} {упасть=V,pf,intr=inf}, — 
+{удерживать=V,tran=inf,pf} {ты=SPRO,sg,2p=(acc|gen)} {кто=SPRO,sg,m,anim=nom} {мочь=V,ipf,intr=inpraes,sg,indic,3p}?
+
+{лишь=PART=} {мгновенный=A=nom,sg,plen,f} {струя=S,f,inan=nom,sg} 
+{вспыхивать=V,intr=inpraes,sg,indic,3p,pf} {боль=S,f,inan=ins,sg} {расставание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)} {успевать=V,intr=inpraes,sg,indic,1p,pf} {ль=PART=} {я=SPRO,sg,1p=nom} 
+{прошептать=V,pf,tran=inf} {мой=APRO=(nom,pl|acc,pl,inan)} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)}?

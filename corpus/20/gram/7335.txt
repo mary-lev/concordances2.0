@@ -1,178 +1,20 @@
-спеленать=V,pf,tran=praet,sg,partcp,brev,m,pass
-,_
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-покорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-очень=ADV=
-_
-давно=ADV=
-;\n
-а=CONJ=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-,_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
--
-пречерный?=S,m,anim=nom,sg
-,_\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n
-я=SPRO,sg,1p=(abl|dat)
-_
-страшно=ADV=
-,_
-что=CONJ=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-..._\n
-а=CONJ=
-,_
-впрочем=CONJ,parenth=
-,_\u2014_
-не=PART=
-_
-все=ADV=
-_
-ль=PART=
-_
-равный=A=sg,brev,n
-?_\n
-когда-то=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-упорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-вить=V,ipf,tran=praet,sg,indic,m
-_
-цепь=S,f,inan=(acc,sg|nom,sg)
-,_
-за=PR=
-_
-звено=S,n,inan=ins,sg
-_
-звено=S,n,inan=(acc,sg|nom,sg)
-..._\n
-теперь=ADV=
-,_
-как=CONJ=
-_
-пес=S,m,anim=nom,sg
-_
-подзаборный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-_
-да=CONJ=
-_
-твердить=V,ipf,tran=inpraes,sg,indic,1p
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-:\n
-и=CONJ=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-удел=S,m,inan=(acc,sg|nom,sg)
-_
-позорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-?_\n
-должно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-,_
-так=ADVPRO=
-_
-суждено=ADV,praed=
-.\n
-водица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бы=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-наговорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\u2014\n
-да=PART=
-_
-нет=PART=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-,_
-не=PART=
-_
-давать=V,tran=praet,sg,partcp,brev,n,pf,pass
-;\n
-чей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-сила=S,f,inan=ins,sg
-_
-чудотворный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\n
-вода=S,f,inan=nom,sg
-_
-переходить=V,tran=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-?\n
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-и=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-притворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-:_\n
-я=SPRO,sg,1p=nom
-_
-рад=A,brev=sg,m
-,_
-что=CONJ=
-_
-кругом=ADV=
-_
-темно=ADV,praed=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-корявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n
+{спеленать=V,pf,tran=praet,sg,partcp,brev,m,pass}, {лежать=V,ipf,intr=inpraes,sg,indic,1p}, {покорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{лежать=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {очень=ADV=} {давно=ADV=};
+{а=CONJ=} {месяц=S,m,inan=(acc,sg|nom,sg)}, {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}-{пречерный?=S,m,anim=nom,sg}, 
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {я=SPRO,sg,1p=(acc|gen)} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}.
+{я=SPRO,sg,1p=(abl|dat)} {страшно=ADV=}, {что=CONJ=} {месяц=S,m,inan=(acc,sg|nom,sg)} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}... 
+{а=CONJ=}, {впрочем=CONJ,parenth=}, — {не=PART=} {все=ADV=} {ль=PART=} {равный=A=sg,brev,n}? 
+{когда-то=ADVPRO=} {я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {упорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{вить=V,ipf,tran=praet,sg,indic,m} {цепь=S,f,inan=(acc,sg|nom,sg)}, {за=PR=} {звено=S,n,inan=ins,sg} {звено=S,n,inan=(acc,sg|nom,sg)}... 
+{теперь=ADV=}, {как=CONJ=} {пес=S,m,anim=nom,sg} {подзаборный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{лежать=V,ipf,intr=inpraes,sg,indic,1p} {да=CONJ=} {твердить=V,ipf,tran=inpraes,sg,indic,1p} {один=APRO=(acc,sg,n|nom,sg,n)}:
+{и=CONJ=} {что=SPRO,sg,n,inan=(abl|ins)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {удел=S,m,inan=(acc,sg|nom,sg)} {позорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}? 
+{должно=ADV,praed=} {быть=V,intr=inf,ipf}, {так=ADVPRO=} {суждено=ADV,praed=}.
+{водица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бы=PART=} {я=SPRO,sg,1p=(abl|dat)} {наговорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, —
+{да=PART=} {нет=PART=} {она=SPRO,sg,3p,f=(acc|gen)}, {не=PART=} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass};
+{чей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сила=S,f,inan=ins,sg} {чудотворный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+{вода=S,f,inan=nom,sg} {переходить=V,tran=inpraes,sg,indic,3p,pf} {в=PR=} {вино=S,n,inan=(acc,sg|nom,sg)}?
+{и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} — {и=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {притворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}: 
+{я=SPRO,sg,1p=nom} {рад=A,brev=sg,m}, {что=CONJ=} {кругом=ADV=} {темно=ADV,praed=},
+{что=SPRO,sg,n,inan=(acc|nom)} {месяц=S,m,inan=(acc,sg|nom,sg)} {корявый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {я=SPRO,sg,1p=(acc|gen)} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}.

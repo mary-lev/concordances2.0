@@ -1,102 +1,14 @@
-если=CONJ=
-_
-б=PART=
-_
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-домишко=S,m,inan=(acc,sg|nom,sg)
-,\n
-да=CONJ=
-_
-вокруг=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-садишко?=S,m,inan=(acc,sg|nom,sg)
-,\n
-да=CONJ=
-_
-в=PR=
-_
-погожий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бы=PART=
-_
-денек=S,m,inan=(acc,sg|nom,sg)
-\n
-попивать=V,ipf,tran=inf
-_
-бы=PART=
-_
-там=ADVPRO=
-_
-чайка=S,f,anim=(acc,pl|gen,pl)
-_\u2014\n\n
-да=CONJ=
-_
-с=PR=
-_
-супруга=S,f,anim=ins,sg
-_
-акулина=S,persn,f,anim=ins,sg
-\n
-да=CONJ=
-_
-с=PR=
-_
-дочурка=S,f,anim=ins,sg
-_
-октябрина=S,persn,f,anim=ins,sg
-\n
-д=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-\u2019
-на=PR=
-_
-крылечко=S,n,inan=abl,sg
-_
-бы=PART=
-_
-стоять=V,ipf,intr=inf
-_\u2014\n
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-курочка=S,f,anim=(acc,pl|gen,pl)
-_
-считать=V,ipf,tran=inf
-,\n\n
-да=PART=
-_
-у=PR=
-_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-бы=PART=
-_
-на=PR=
-_
-лапка=S,f,inan=(abl,sg|dat,sg)
-\n
-лоскуток=S,m,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тряпка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-вот=PART=
-_
-он=SPRO,sg,3p,m=nom
-,_
-братец=S,m,anim=nom,pl
-,_
-я=SPRO,sg,1p=nom
-_
-б=PART=
-_
-сказать=V,pf,tran=praet,sg,indic,m
-,_\u2014\n\xAB
-национальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-идеал=S,m,inan=(acc,sg|nom,sg)
-\xBB!\n
+{если=CONJ=} {б=PART=} {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {домишко=S,m,inan=(acc,sg|nom,sg)},
+{да=CONJ=} {вокруг=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {садишко?=S,m,inan=(acc,sg|nom,sg)},
+{да=CONJ=} {в=PR=} {погожий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бы=PART=} {денек=S,m,inan=(acc,sg|nom,sg)}
+{попивать=V,ipf,tran=inf} {бы=PART=} {там=ADVPRO=} {чайка=S,f,anim=(acc,pl|gen,pl)} —
+
+{да=CONJ=} {с=PR=} {супруга=S,f,anim=ins,sg} {акулина=S,persn,f,anim=ins,sg}
+{да=CONJ=} {с=PR=} {дочурка=S,f,anim=ins,sg} {октябрина=S,persn,f,anim=ins,sg}
+{д=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}’{на=PR=} {крылечко=S,n,inan=abl,sg} {бы=PART=} {стоять=V,ipf,intr=inf} —
+{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {курочка=S,f,anim=(acc,pl|gen,pl)} {считать=V,ipf,tran=inf},
+
+{да=PART=} {у=PR=} {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {бы=PART=} {на=PR=} {лапка=S,f,inan=(abl,sg|dat,sg)}
+{лоскуток=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тряпка=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{вот=PART=} {он=SPRO,sg,3p,m=nom}, {братец=S,m,anim=nom,pl}, {я=SPRO,sg,1p=nom} {б=PART=} {сказать=V,pf,tran=praet,sg,indic,m}, —
+«{национальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {идеал=S,m,inan=(acc,sg|nom,sg)}»!

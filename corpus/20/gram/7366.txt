@@ -1,86 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-жестокий=A=sg,brev,m
-,_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-...\n
-черт=S,m,anim=(acc,sg|gen,sg)
-_
-переходить=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-скорбь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-_
-умножать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-когда=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-_\u2014_
-полный=A=sg,brev,f
-?\n\n
-в=PR=
-_
-предельность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-суровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-нет=PART=
-_\xAB
-жаль=ADV,praed=
-\xBB_
-и=CONJ=
-_
-нет=PART=
-_\xAB
-не=PART=
-_
-жаль=ADV,praed=
-\xBB.\n
-и=CONJ=
-_
-оскорблять=V,tran=inpraes,sg,indic,3p,ipf
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-\n
-последний=A=acc,sg,plen,f
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-о=PR=
-_
-бельгия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-о=PR=
-_
-польша=S,geo,f,inan=(abl,sg|dat,sg)
-,\n
-о=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-так=ADVPRO=
-_
-скорбеть=V,ipf,intr=inpraes,sg,indic,3p
-,_\u2014\n
-не=PART=
-_
-говорить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-больше=ADV=
-!\n
-иметь=V,ipf,tran=pl,imper,2p
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-!\n
+{я=SPRO,sg,1p=nom} {становиться=V,intr=praet,sg,indic,m,pf} {жестокий=A=sg,brev,m}, {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}...
+{черт=S,m,anim=(acc,sg|gen,sg)} {переходить=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+{что=SPRO,sg,n,inan=(acc|nom)} {скорбь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f} {умножать=V,tran=inpraes,sg,indic,3p,pf},
+{когда=CONJ=} {она=SPRO,sg,3p,f=nom} — {полный=A=sg,brev,f}?
+
+{в=PR=} {предельность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {суровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{нет=PART=} «{жаль=ADV,praed=}» {и=CONJ=} {нет=PART=} «{не=PART=} {жаль=ADV,praed=}».
+{и=CONJ=} {оскорблять=V,tran=inpraes,sg,indic,3p,ipf} {слово=S,n,inan=(acc,sg|nom,sg)}
+{последний=A=acc,sg,plen,f} {печаль=S,f,inan=(acc,sg|nom,sg)}.
+
+{о=PR=} {бельгия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {о=PR=} {польша=S,geo,f,inan=(abl,sg|dat,sg)},
+{о=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {кто=SPRO,sg,m,anim=nom} {так=ADVPRO=} {скорбеть=V,ipf,intr=inpraes,sg,indic,3p}, —
+{не=PART=} {говорить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {больше=ADV=}!
+{иметь=V,ipf,tran=pl,imper,2p} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {стыд=S,m,inan=(acc,sg|nom,sg)}!

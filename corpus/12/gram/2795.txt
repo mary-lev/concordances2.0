@@ -1,130 +1,27 @@
-пусть=PART=
-_
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,pl,indic,3p
-_
-юный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-о=PR=
-_
-согбенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-пусть=PART=
-_
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,pl,indic,3p
-_
-старый=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-о=PR=
-_
-блаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-уносить=V=inpraes,pl,indic,3p,ipf,tran
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-.\n
-на=PR=
-_
-людской=A,plen=(nom,pl|acc,pl,inan)
-_
-голова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-литься=V,ipf,intr=sg,imper,2p
-,_
-забытье=S,sg,n,inan=(abl|acc|nom)
-!\n\n
-пешеход=S,m,anim=nom,sg
-_
-морщинистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-не=PART=
-_
-любоваться=V,ipf,intr=sg,imper,2p
-_
-парус=S,m,inan=ins,sg
-!\n
-ах=INTJ=
-,_
-не=PART=
-_
-надо=ADV,praed=
-_
-юность=S,f,inan=ins,sg
-\n
-любоваться=V,ipf,intr=inf
-_\u2014_
-старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n\n
-кто=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-,_
-кто=SPRO,sg,m,anim=nom
-_\u2014_
-в=PR=
-_
-школа=S,f,inan=acc,sg
-.\n
-каждый=APRO=(dat,sg,m|dat,sg,n)
-_
-свое=SPRO,sg,n,inan=(acc|nom)
-.\n
-на=PR=
-_
-людской=A,plen=(nom,pl|acc,pl,inan)
-_
-голова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-литься=V,ipf,intr=sg,imper,2p
-,_
-забытье=S,sg,n,inan=(abl|acc|nom)
-!\n\n
-не=PART=
-_
-учиться=V,ipf,intr=sg,imper,2p
-_
-у=PR=
-_
-старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-златорунный=A=nom,sg,plen,f
-!\n
-старость=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-дело=S,n,inan=(acc,sg|nom,sg)
-_
-темный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-темный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-безумный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n\n...
-на=PR=
-_
-людской=A,plen=(nom,pl|acc,pl,inan)
-_
-голова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-литься=V,ipf,intr=sg,imper,2p
-,_
-забытье=S,sg,n,inan=(abl|acc|nom)
-!\n
+{пусть=PART=} {не=PART=} {помнить=V,ipf,tran=inpraes,pl,indic,3p} {юный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{о=PR=} {согбенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{пусть=PART=} {не=PART=} {помнить=V,ipf,tran=inpraes,pl,indic,3p} {старый=A=(acc,pl,plen,inan|nom,pl,plen)}
+{о=PR=} {блаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{все=SPRO,pl=(acc|nom)} {уносить=V=inpraes,pl,indic,3p,ipf,tran} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {не=PART=} {твой=APRO=(acc,sg,n|nom,sg,n)}.
+{на=PR=} {людской=A,plen=(nom,pl|acc,pl,inan)} {голова=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{литься=V,ipf,intr=sg,imper,2p}, {забытье=S,sg,n,inan=(abl|acc|nom)}!
+
+{пешеход=S,m,anim=nom,sg} {морщинистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{не=PART=} {любоваться=V,ipf,intr=sg,imper,2p} {парус=S,m,inan=ins,sg}!
+{ах=INTJ=}, {не=PART=} {надо=ADV,praed=} {юность=S,f,inan=ins,sg}
+{любоваться=V,ipf,intr=inf} — {старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+
+{кто=SPRO,sg,m,anim=nom} {в=PR=} {песок=S,m,inan=(acc,sg|nom,sg)}, {кто=SPRO,sg,m,anim=nom} — {в=PR=} {школа=S,f,inan=acc,sg}.
+{каждый=APRO=(dat,sg,m|dat,sg,n)} {свое=SPRO,sg,n,inan=(acc|nom)}.
+{на=PR=} {людской=A,plen=(nom,pl|acc,pl,inan)} {голова=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{литься=V,ipf,intr=sg,imper,2p}, {забытье=S,sg,n,inan=(abl|acc|nom)}!
+
+{не=PART=} {учиться=V,ipf,intr=sg,imper,2p} {у=PR=} {старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{юность=S,f,inan=(acc,sg|nom,sg)} {златорунный=A=nom,sg,plen,f}!
+{старость=S,f,inan=(acc,sg|nom,sg)} — {дело=S,n,inan=(acc,sg|nom,sg)} {темный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{темный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {безумный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+
+...{на=PR=} {людской=A,plen=(nom,pl|acc,pl,inan)} {голова=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{литься=V,ipf,intr=sg,imper,2p}, {забытье=S,sg,n,inan=(abl|acc|nom)}!

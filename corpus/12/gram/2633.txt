@@ -1,120 +1,15 @@
-по=PR=
-_
-дорога=S,f,inan=dat,pl
-,_
-от=PR=
-_
-мороз=S,m,inan=gen,sg
-_
-звонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-с=PR=
-_
-царственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ребенок=S,m,anim=ins,sg
-\n
-проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)
-._
-все=ADV=
-_\u2014_
-снег=S,m,inan=(acc,sg|nom,sg)
-,_
-все=ADV=
-_\u2014_
-смерть=S,f,inan=(acc,sg|nom,sg)
-,_
-все=ADV=
-_\u2014_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-на=PR=
-_
-куст=S,m,inan=abl,pl
-_
-серебряный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-у=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-когда-то=ADVPRO=
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-,\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,_\u2014_
-но=CONJ=
-_
-не=PART=
-_
-все=ADV=
-_
-ли=PART=
-_\u2014_
-дым=S,m,inan=(acc,sg|nom,sg)
-?\n\n
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-горячий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-...\n
-говорить=V,ipf,tran=inpraes,pl,indic,3p
-,_
-что=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-голубоокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-горностаевый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ребенок=S,m,anim=nom,sg
-_\u2014_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n\n
-и=CONJ=
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-по=PR=
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-давным-давно=ADV=
-_
-уж=PART=
-_
-я=SPRO,sg,1p=nom
-_
-во=PR=
-_
-гроб=S,m,inan=abl,sg
-\n
-досматривать=V,tran=praet,sg,indic,f,pf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n
+{по=PR=} {дорога=S,f,inan=dat,pl}, {от=PR=} {мороз=S,m,inan=gen,sg} {звонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{с=PR=} {царственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {серебряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ребенок=S,m,anim=ins,sg}
+{проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)}. {все=ADV=} — {снег=S,m,inan=(acc,sg|nom,sg)}, {все=ADV=} — {смерть=S,f,inan=(acc,sg|nom,sg)}, {все=ADV=} — {сон=S,m,inan=(acc,sg|nom,sg)}.
+
+{на=PR=} {куст=S,m,inan=abl,pl} {серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} {стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{быть=V,intr=praet,sg,indic,n,ipf} {у=PR=} {я=SPRO,sg,1p=(acc|gen)} {когда-то=ADVPRO=} {тело=S,n,inan=(acc,sg|nom,sg)},
+{быть=V,intr=praet,sg,indic,n,ipf} {имя=S,n,inan=(acc,sg|nom,sg)}, — {но=CONJ=} {не=PART=} {все=ADV=} {ли=PART=} — {дым=S,m,inan=(acc,sg|nom,sg)}?
+
+{голос=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf}, {горячий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}...
+{говорить=V,ipf,tran=inpraes,pl,indic,3p}, {что=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {голубоокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{горностаевый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ребенок=S,m,anim=nom,sg} — {мой=APRO=(acc,sg,m,inan|nom,sg,m)}.
+
+{и=CONJ=} {никто=SPRO,sg,m,anim=nom} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {по=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {давным-давно=ADV=} {уж=PART=} {я=SPRO,sg,1p=nom} {во=PR=} {гроб=S,m,inan=abl,sg}
+{досматривать=V,tran=praet,sg,indic,f,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}.

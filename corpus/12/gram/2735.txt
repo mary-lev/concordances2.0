@@ -1,130 +1,20 @@
-ночной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ласточка=S,f,anim=(gen,sg|nom,pl)
-_
-интрига=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-плащ=S,m,inan=(acc,pl|nom,pl)
-,_\u2014_
-крылатый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-герой=S,m,anim=nom,pl
-\n
-великосветский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-авантюра=S,f,inan=gen,pl
-.\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-,_
-щеголять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-дыра=S,f,inan=ins,sg
-,\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-вольнодумец=S,m,anim=(acc,sg|gen,sg)
-,_
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-расстрига=S,m,anim=(gen,sg|nom,pl)
-,\n
-плащ=S,m,inan=(acc,sg|nom,sg)
--
-проходимец=S,m,anim=nom,sg
-,_
-плащ=S,m,inan=(acc,sg|nom,sg)
--
-амур=S,m,anim=nom,sg
-.\n\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-прихотливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-как=CONJ=
-_
-руно=S,n,inan=(acc,sg|nom,sg)
-,\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-,_
-преклонять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-колено=S,n,inan=(acc,sg|nom,sg)
-,\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-,_
-уверять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-:_\u2014_
-темно=ADV,praed=
-...\n
-гудок=S,m,inan=(acc,sg|nom,sg)
-_
-дозор=S,m,inan=gen,sg
-._\u2014_
-рокот=S,m,inan=(acc,sg|nom,sg)
-_
-сена=S,geo,sg,f,inan=gen
-.\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-казанова=S,famn,m,anim=(gen,sg|nom,pl)
-,_
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-лозэн?=S,m,inan=gen,sg
-._\u2014_\n
-антуанетта=S,persn,f,anim=(gen,sg|nom,pl)
-_
-домино=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\n
-но=CONJ=
-_
-вот=PART=
-,_
-как=CONJ=
-_
-черт=S,m,anim=nom,sg
-_
-из=PR=
-_
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чаща=S,f,inan=gen,pl
-_\u2014_\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-чернокнижник=S,m,anim=nom,sg
-,_
-вихорь=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-плащ=S,m,inan=(acc,sg|nom,sg)
-,\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-ворон=S,m,anim=ins,sg
-_
-над=PR=
-_
-стая=S,f,inan=ins,sg
-_
-пестрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-великосветский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мотылек=S,m,anim=(acc,pl|gen,pl)
-.\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-время=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-и=CONJ=
-_
-сон=S,m,inan=gen,pl
-_\u2014_\n
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-кавалер=S,m,anim=(acc,sg|gen,sg)
-_
-калиостро?=ADV=
-.\n
+{ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {ласточка=S,f,anim=(gen,sg|nom,pl)} {интрига=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{плащ=S,m,inan=(acc,pl|nom,pl)}, — {крылатый=A=(acc,pl,plen,inan|nom,pl,plen)} {герой=S,m,anim=nom,pl}
+{великосветский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {авантюра=S,f,inan=gen,pl}.
+{плащ=S,m,inan=(acc,sg|nom,sg)}, {щеголять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {дыра=S,f,inan=ins,sg},
+{плащ=S,m,inan=(acc,sg|nom,sg)} {вольнодумец=S,m,anim=(acc,sg|gen,sg)}, {плащ=S,m,inan=(acc,sg|nom,sg)} {расстрига=S,m,anim=(gen,sg|nom,pl)},
+{плащ=S,m,inan=(acc,sg|nom,sg)}-{проходимец=S,m,anim=nom,sg}, {плащ=S,m,inan=(acc,sg|nom,sg)}-{амур=S,m,anim=nom,sg}.
+
+{плащ=S,m,inan=(acc,sg|nom,sg)} {прихотливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {как=CONJ=} {руно=S,n,inan=(acc,sg|nom,sg)},
+{плащ=S,m,inan=(acc,sg|nom,sg)}, {преклонять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {колено=S,n,inan=(acc,sg|nom,sg)},
+{плащ=S,m,inan=(acc,sg|nom,sg)}, {уверять=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}: — {темно=ADV,praed=}...
+{гудок=S,m,inan=(acc,sg|nom,sg)} {дозор=S,m,inan=gen,sg}. — {рокот=S,m,inan=(acc,sg|nom,sg)} {сена=S,geo,sg,f,inan=gen}.
+{плащ=S,m,inan=(acc,sg|nom,sg)} {казанова=S,famn,m,anim=(gen,sg|nom,pl)}, {плащ=S,m,inan=(acc,sg|nom,sg)} {лозэн?=S,m,inan=gen,sg}. — 
+{антуанетта=S,persn,f,anim=(gen,sg|nom,pl)} {домино=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+
+{но=CONJ=} {вот=PART=}, {как=CONJ=} {черт=S,m,anim=nom,sg} {из=PR=} {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чаща=S,f,inan=gen,pl} — 
+{плащ=S,m,inan=(acc,sg|nom,sg)} — {чернокнижник=S,m,anim=nom,sg}, {вихорь=S,m,inan=(acc,sg|nom,sg)} — {плащ=S,m,inan=(acc,sg|nom,sg)},
+{плащ=S,m,inan=(acc,sg|nom,sg)} — {ворон=S,m,anim=ins,sg} {над=PR=} {стая=S,f,inan=ins,sg} {пестрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{великосветский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мотылек=S,m,anim=(acc,pl|gen,pl)}.
+{плащ=S,m,inan=(acc,sg|nom,sg)} {цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {время=S,n,inan=(abl,sg|dat,sg|gen,sg)} {и=CONJ=} {сон=S,m,inan=gen,pl} — 
+{плащ=S,m,inan=(acc,sg|nom,sg)} {кавалер=S,m,anim=(acc,sg|gen,sg)} {калиостро?=ADV=}.

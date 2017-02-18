@@ -1,66 +1,13 @@
-звездник?=S,m,anim=nom,pl
-,_
-звездозаконник?=S,m,anim=nom,pl
-,\n
-божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-влюбленник?=S,m,inan=(acc,pl|nom,pl)
-,\n
-крестопоклонник?=S,m,anim=nom,pl
-,\n
-цветопоклонник?=S,m,anim=nom,pl
-,\n
-здесь=ADVPRO=
-_
-в=PR=
-_
-вертоград=S,m,inan=abl,sg
-_
-мы=SPRO,pl,1p=nom
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-\n
-в=PR=
-_
-невыразимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-краса=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-бездник?=S,m,anim=nom,pl
-,_
-становиться=V,intr=praet,pl,indic,pf
-_
-мы=SPRO,pl,1p=nom
-_
-звездник?=S,m,anim=nom,pl
-,\n
-в=PR=
-_
-вечеря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мы=SPRO,pl,1p=nom
-_
-сотрапезник=S,m,anim=nom,pl
-,\n
-цветопоклонник?=S,m,anim=nom,pl
-,\n
-звездозаконник?=S,m,anim=nom,pl
-,\n
-хлеб=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-вино=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-в=PR=
-_
-хоровой=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-во=PR=
-_
-всеокружный?=A,plen=(abl,sg,m|abl,sg,n)
-_
-поесть=V,pf,tran=inpraes,sg,indic,1p
-.\n
+{звездник?=S,m,anim=nom,pl}, {звездозаконник?=S,m,anim=nom,pl},
+{божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {влюбленник?=S,m,inan=(acc,pl|nom,pl)},
+{крестопоклонник?=S,m,anim=nom,pl},
+{цветопоклонник?=S,m,anim=nom,pl},
+{здесь=ADVPRO=} {в=PR=} {вертоград=S,m,inan=abl,sg} {мы=SPRO,pl,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)}
+{в=PR=} {невыразимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {краса=S,f,inan=(abl,sg|dat,sg)}.
+
+{бездник?=S,m,anim=nom,pl}, {становиться=V,intr=praet,pl,indic,pf} {мы=SPRO,pl,1p=nom} {звездник?=S,m,anim=nom,pl},
+{в=PR=} {вечеря=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=nom} {сотрапезник=S,m,anim=nom,pl},
+{цветопоклонник?=S,m,anim=nom,pl},
+{звездозаконник?=S,m,anim=nom,pl},
+{хлеб=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {вино=S,n,inan=(acc,sg|nom,sg)} — {в=PR=} {хоровой=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{во=PR=} {всеокружный?=A,plen=(abl,sg,m|abl,sg,n)} {поесть=V,pf,tran=inpraes,sg,indic,1p}.

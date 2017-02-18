@@ -1,102 +1,14 @@
-я=SPRO,sg,1p=nom
-,_
-разлоконивать?=V,tran=praet,ger,pf
-_
-волос=S,m,inan=(acc,pl|nom,pl)
-_
-русый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-ухватывать=V,tran=praet,sg,indic,f,pf
-_
-петька=S,persn,m,anim=acc,sg
-_
-за=PR=
-_
-ушко=S,n,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-шепнуть=V,pf,tran=praet,sg,indic,f
-:_\xAB
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-скусывать?=V,tran=inpraes,sg,indic,1p,pf
-...\xBB\n
-и=CONJ=
-_
-выпивать=V,tran=praet,sg,indic,f,pf
-_
-бокал=S,m,inan=(acc,sg|nom,sg)
-_
-клико=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\n
-успокаивать=V,tran=praet,ger,pf
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,_
-благоматный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)|благоматный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-давать=V,tran=praet,sg,indic,f,pf
-_
-он=SPRO,sg,3p,m=dat
-_
-морковка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-чаек=S,m,inan=(dat,sg|part,sg)
-\n
-и=CONJ=
-_
-закричать=V,pf,intr=praet,ger
-:_\xAB
-весь=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-приятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-!\xBB\n
-махнуть=V,pf,intr=praet,sg,indic,f
-_
-серный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-по=PR=
-_
-лужок=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-муж=S,m,anim=nom,sg
-_
-приезжать=V,intr=praet,sg,indic,m,pf
-_
-с=PR=
-_
-последний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-автобус=S,m,inan=ins,sg
-,\u2014\n
-будничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-потертый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-манекен=S,m,inan=(acc,sg|nom,sg)
-...\n
-я=SPRO,sg,1p=nom
-_
-застонать=V,pf,intr=praet,sg,indic,f
-,_
-и=CONJ=
-_
-перед=PR=
-_
-образ=S,m,inan=ins,sg
-\n
-молить=V,ipf,tran=praet,sg,indic,f
-_
-участь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-кармен=S,persn,m,anim=nom,sg
-!..\n
+{я=SPRO,sg,1p=nom}, {разлоконивать?=V,tran=praet,ger,pf} {волос=S,m,inan=(acc,pl|nom,pl)} {русый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{ухватывать=V,tran=praet,sg,indic,f,pf} {петька=S,persn,m,anim=acc,sg} {за=PR=} {ушко=S,n,inan=(acc,sg|nom,sg)},
+{в=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {шепнуть=V,pf,tran=praet,sg,indic,f}: «{ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {скусывать?=V,tran=inpraes,sg,indic,1p,pf}...»
+{и=CONJ=} {выпивать=V,tran=praet,sg,indic,f,pf} {бокал=S,m,inan=(acc,sg|nom,sg)} {клико=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+
+{успокаивать=V,tran=praet,ger,pf} {он=SPRO,sg,3p,m=(acc|gen)}, {благоматный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)|благоматный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{я=SPRO,sg,1p=nom} {давать=V,tran=praet,sg,indic,f,pf} {он=SPRO,sg,3p,m=dat} {морковка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {чаек=S,m,inan=(dat,sg|part,sg)}
+{и=CONJ=} {закричать=V,pf,intr=praet,ger}: «{весь=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {приятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}!»
+{махнуть=V,pf,intr=praet,sg,indic,f} {серный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {по=PR=} {лужок=S,m,inan=(dat,sg|loc,sg)}.
+
+{муж=S,m,anim=nom,sg} {приезжать=V,intr=praet,sg,indic,m,pf} {с=PR=} {последний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {автобус=S,m,inan=ins,sg},—
+{будничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {потертый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {манекен=S,m,inan=(acc,sg|nom,sg)}...
+{я=SPRO,sg,1p=nom} {застонать=V,pf,intr=praet,sg,indic,f}, {и=CONJ=} {перед=PR=} {образ=S,m,inan=ins,sg}
+{молить=V,ipf,tran=praet,sg,indic,f} {участь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {кармен=S,persn,m,anim=nom,sg}!..

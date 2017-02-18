@@ -1,96 +1,14 @@
-нечего=SPRO,sg,n,inan=gen
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-тревожиться=V,ipf,intr=inf
-,\n
-надо=ADV,praed=
-_
-бы=PART=
-_
-давно=ADV=
-_
-прощать=V=inf,pf
-.\n
-но=CONJ=
-_
-чудак=S,m,anim=nom,sg
-_
-грустить=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-божиться=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-не=PART=
-_
-грустить=V,ipf,intr=inf
-.\n\n
-мы=SPRO,pl,1p=dat
-_
-бы=PART=
-,_
-да=CONJ=
-_
-в=PR=
-_
-сияние=S,n,inan=abl,sg
-_
-шелковый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_\n
-осень=S,f,inan=(acc,sg|nom,sg)
--
-весна=S,f,inan=gen,pl
-_
-поджидать=V,ipf,tran=inpraes,ger
-,\n
-на=PR=
-_
-успенский=S,famn,m,anim=abl,sg
-_
-или=CONJ=
-_
-волковой?=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_\n
-под=PR=
-_
-песочек=S,m,inan=ins,sg
-_
-голодать=V,ipf,intr=inpraes,ger
-,\n
-на=PR=
-_
-ступень=S,f,inan=abl,pl
-_
-исаакий=S,persn,m,anim=(acc,sg|gen,sg)
-_\n
-или=CONJ=
-_
-в=PR=
-_
-прорубь=S,f,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-нева=S,geo,f,inan=(abl,sg|dat,sg)
-...\n\n...
-беспокойство=S,n,inan=(acc,sg|nom,sg)
-._
-ну=PART=
-,_
-и=CONJ=
-_
-всякий=APRO=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-вожделение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-голова=S,f,inan=(abl,sg|dat,sg)
-.\n
+{нечего=SPRO,sg,n,inan=gen} {ты=SPRO,sg,2p=(abl|dat)} {тревожиться=V,ipf,intr=inf},
+{надо=ADV,praed=} {бы=PART=} {давно=ADV=} {прощать=V=inf,pf}.
+{но=CONJ=} {чудак=S,m,anim=nom,sg} {грустить=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {божиться=V,ipf,intr=inpraes,sg,indic,3p}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {не=PART=} {грустить=V,ipf,intr=inf}.
+
+{мы=SPRO,pl,1p=dat} {бы=PART=}, {да=CONJ=} {в=PR=} {сияние=S,n,inan=abl,sg} {шелковый=A=(abl,sg,plen,m|abl,sg,plen,n)}, 
+{осень=S,f,inan=(acc,sg|nom,sg)}-{весна=S,f,inan=gen,pl} {поджидать=V,ipf,tran=inpraes,ger},
+{на=PR=} {успенский=S,famn,m,anim=abl,sg} {или=CONJ=} {волковой?=A=(abl,sg,plen,m|abl,sg,plen,n)}, 
+{под=PR=} {песочек=S,m,inan=ins,sg} {голодать=V,ipf,intr=inpraes,ger},
+{на=PR=} {ступень=S,f,inan=abl,pl} {исаакий=S,persn,m,anim=(acc,sg|gen,sg)} 
+{или=CONJ=} {в=PR=} {прорубь=S,f,inan=(acc,sg|nom,sg)} {на=PR=} {нева=S,geo,f,inan=(abl,sg|dat,sg)}...
+
+...{беспокойство=S,n,inan=(acc,sg|nom,sg)}. {ну=PART=}, {и=CONJ=} {всякий=APRO=(acc,pl,plen,inan|nom,pl,plen)} 
+{вожделение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {голова=S,f,inan=(abl,sg|dat,sg)}.

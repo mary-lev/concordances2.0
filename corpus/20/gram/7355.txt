@@ -1,88 +1,14 @@
-медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-грохот=S,m,inan=(acc,sg|nom,sg)
-,_
-дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-порох=S,m,inan=(acc,sg|nom,sg)
-,\n
-рыжелипкий?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-струя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-тело=S,n,inan=gen,pl
-_
-ползти=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шорох=S,m,inan=(acc,sg|nom,sg)
-...\n
-где=ADVPRO=
-_
-чужой=A,plen=(nom,pl|acc,pl,inan)
-?_
-где=ADVPRO=
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-?\n\n
-нет=PART=
-_
-напрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ожидание=S,n,inan=gen,pl
-,\n
-не=PART=
-_
-достигнутый=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-победа=S,f,inan=gen,pl
-,\n
-но=CONJ=
-_
-и=CONJ=
-_
-сбываться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-мечтание=S,n,inan=gen,pl
-,\n
-одоление=S,n,inan=gen,pl
-_\u2014_
-тоже=PART=
-_
-нет=ADV,praed=
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-единый=A=pl,brev
-,_
-все=SPRO,pl=(acc|nom)
-_
-единый=A=sg,brev,n
-,\n
-мы=SPRO,pl,1p=nom
-_
-ль=PART=
-,_
-они=SPRO,pl=nom
-_
-ли=PART=
-..._
-смерть=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-один=APRO=nom,sg,f
-.\n
-и=CONJ=
-_
-работать=V,ipf,intr=inpraes,sg,indic,3p
-_
-машина=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-жевать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-жевать=V,ipf,tran=inpraes,sg,indic,3p
-_
-война=S,f,inan=nom,sg
-...\n
+{медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грохот=S,m,inan=(acc,sg|nom,sg)}, {дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {порох=S,m,inan=(acc,sg|nom,sg)},
+{рыжелипкий?=A=(acc,pl,plen,inan|nom,pl,plen)} {струя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{тело=S,n,inan=gen,pl} {ползти=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шорох=S,m,inan=(acc,sg|nom,sg)}...
+{где=ADVPRO=} {чужой=A,plen=(nom,pl|acc,pl,inan)}? {где=ADVPRO=} {свой=APRO=(nom,pl|acc,pl,inan)}?
+
+{нет=PART=} {напрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ожидание=S,n,inan=gen,pl},
+{не=PART=} {достигнутый=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {победа=S,f,inan=gen,pl},
+{но=CONJ=} {и=CONJ=} {сбываться=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {мечтание=S,n,inan=gen,pl},
+{одоление=S,n,inan=gen,pl} — {тоже=PART=} {нет=ADV,praed=}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {единый=A=pl,brev}, {все=SPRO,pl=(acc|nom)} {единый=A=sg,brev,n},
+{мы=SPRO,pl,1p=nom} {ль=PART=}, {они=SPRO,pl=nom} {ли=PART=}... {смерть=S,f,inan=(acc,sg|nom,sg)} — {один=APRO=nom,sg,f}.
+{и=CONJ=} {работать=V,ipf,intr=inpraes,sg,indic,3p} {машина=S,f,inan=nom,sg},
+{и=CONJ=} {жевать=V,ipf,tran=inpraes,sg,indic,3p}, {жевать=V,ipf,tran=inpraes,sg,indic,3p} {война=S,f,inan=nom,sg}...

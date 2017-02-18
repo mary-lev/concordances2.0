@@ -1,136 +1,17 @@
-говорить=V,ipf,tran=praet,pl,indic
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-что=CONJ=
-_
-фея=S,f,anim=nom,sg
-,\n
-если=CONJ=
-_
-даже=PART=
-_
-и=CONJ=
-_
-богатый=A=sg,brev,f
-,\n
-если=CONJ=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-дарить=V,ipf,tran=inpraes,sg,indic,3p
-_
-лилея=S,f,inan=nom,sg
-\n
-много=ADV,praed=
-_
-сон=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-аромат=S,m,inan=gen,sg
-,_\u2014\n
-все=SPRO,pl=(acc|nom)
-_
-ж=PART=
-,_
-чтоб=CONJ=
-_
-в=PR=
-_
-замок=S,m,inan=abl,sg
-_
-приютиться=V,pf,intr=inf
-,\n
-нужный=A=sg,brev,m
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-листок=S,m,inan=(acc,sg|nom,sg)
-,\n
-они=SPRO,pl=dat
-_
-же=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-наряжаться=V,intr=inf,pf
-\n\t
-с=PR=
-_
-голова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-до=PR=
-_
-нога=S,f,inan=gen,pl
-.\n\n
-да=CONJ=
-,_
-иначе=CONJ=
-_
-быть=V,intr=inf,ipf
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-потому=ADVPRO=
-_
-что=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-нежно=ADV=
-,\n
-она=SPRO,sg,3p,f=(dat|ins)
-_
-сам=APRO=nom,sg,f
-_
-луна=S,f,inan=nom,sg
-_
-помогать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-ткань=S,f,inan=(acc,sg|nom,sg)
-_
-паук=S,m,anim=nom,sg
-_
-сплетать=V=inpraes,sg,indic,3p,pf
-_
-прилежно=ADV=
-.\n
-так=ADVPRO=
-_
-как=ADVPRO=
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-\n
-ничто=SPRO,sg,n=gen
-_
-нежный=A=comp
-_
-фея=S,f,anim=(acc,pl|gen,pl)
-,\n
-ныне=ADV=
-_
-фея=S,f,anim=acc,sg
-_
-выбирать=V=inpraes,sg,indic,1p,ipf,tran
-\n\t
-муза=S,f,anim=ins,sg
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n
+{говорить=V,ipf,tran=praet,pl,indic} {я=SPRO,sg,1p=(abl|dat)}, {что=CONJ=} {фея=S,f,anim=nom,sg},
+{если=CONJ=} {даже=PART=} {и=CONJ=} {богатый=A=sg,brev,f},
+{если=CONJ=} {она=SPRO,sg,3p,f=(dat|ins)} {дарить=V,ipf,tran=inpraes,sg,indic,3p} {лилея=S,f,inan=nom,sg}
+{много=ADV,praed=} {сон=S,m,inan=gen,pl} {и=CONJ=} {аромат=S,m,inan=gen,sg}, —
+{все=SPRO,pl=(acc|nom)} {ж=PART=}, {чтоб=CONJ=} {в=PR=} {замок=S,m,inan=abl,sg} {приютиться=V,pf,intr=inf},
+{нужный=A=sg,brev,m} {она=SPRO,sg,3p,f=(dat|ins)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {листок=S,m,inan=(acc,sg|nom,sg)},
+{они=SPRO,pl=dat} {же=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {наряжаться=V,intr=inf,pf}
+	{с=PR=} {голова=S,f,inan=(acc,pl|gen,sg|nom,pl)} {до=PR=} {нога=S,f,inan=gen,pl}.
+
+{да=CONJ=}, {иначе=CONJ=} {быть=V,intr=inf,ipf} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p},
+{потому=ADVPRO=} {что=CONJ=} {все=SPRO,pl=(acc|nom)} {в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {нежно=ADV=},
+{она=SPRO,sg,3p,f=(dat|ins)} {сам=APRO=nom,sg,f} {луна=S,f,inan=nom,sg} {помогать=V,intr=inpraes,sg,indic,3p,pf},
+{ткань=S,f,inan=(acc,sg|nom,sg)} {паук=S,m,anim=nom,sg} {сплетать=V=inpraes,sg,indic,3p,pf} {прилежно=ADV=}.
+{так=ADVPRO=} {как=ADVPRO=} {в=PR=} {мир=S,m,inan=abl,sg} {я=SPRO,sg,1p=nom} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}
+{ничто=SPRO,sg,n=gen} {нежный=A=comp} {фея=S,f,anim=(acc,pl|gen,pl)},
+{ныне=ADV=} {фея=S,f,anim=acc,sg} {выбирать=V=inpraes,sg,indic,1p,ipf,tran}
+	{муза=S,f,anim=ins,sg} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.

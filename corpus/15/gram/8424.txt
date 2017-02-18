@@ -1,74 +1,15 @@
-о=PR=
-,_
-мироздатель?=S,m,anim=nom,sg
-,\n
-жизнеподатель?=S,m,anim=nom,sg
-,\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-!\n
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-полногласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-сказка=S,f,inan=(abl,sg|dat,sg)
-_
-прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-сделать=V,pf,tran=praet,sg,indic,n
-_
-страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-душа=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-!\n\n
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-податель=S,m,anim=nom,sg
-,\n
-бог=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-создатель=S,m,anim=nom,sg
-,\n
-мудро=ADV=
-_
-сжигать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)
-_\u2014_
-свет=S,sg,m,inan=(acc|nom)
-!\n
-рад=A,brev=sg,m
-_
-я=SPRO,sg,1p=nom
-_
-на=PR=
-_
-пир=S,m,inan=abl,sg
-\n
-звук=S,m,inan=ins,sg
-_
-быть=V,intr=inf,ipf
-_
-в=PR=
-_
-лира=S,f,inan=(abl,sg|dat,sg)
-,_\u2014\n
-хороший=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-\n
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-!\n
+{о=PR=}, {мироздатель?=S,m,anim=nom,sg},
+{жизнеподатель?=S,m,anim=nom,sg},
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {петь=V,ipf,tran=inpraes,sg,indic,1p}!
+{ты=SPRO,sg,2p=nom} {в=PR=} {полногласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{сказка=S,f,inan=(abl,sg|dat,sg)} {прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{сделать=V,pf,tran=praet,sg,indic,n} {страстной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{душа=S,f,inan=acc,sg} {мой=APRO=acc,sg,f}!
+
+{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {податель=S,m,anim=nom,sg},
+{бог=S,m,anim=nom,sg} {и=CONJ=} {создатель=S,m,anim=nom,sg},
+{мудро=ADV=} {сжигать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} — {свет=S,sg,m,inan=(acc|nom)}!
+{рад=A,brev=sg,m} {я=SPRO,sg,1p=nom} {на=PR=} {пир=S,m,inan=abl,sg}
+{звук=S,m,inan=ins,sg} {быть=V,intr=inf,ipf} {в=PR=} {лира=S,f,inan=(abl,sg|dat,sg)}, —
+{хороший=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)} {в=PR=} {мир=S,m,inan=abl,sg}
+{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=}!

@@ -1,80 +1,9 @@
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-прогнать=V,pf,tran=inpraes,sg,indic,2p
-:\n
-не=PART=
-_
-отталкивать=V,tran=inpraes,pl,indic,3p,ipf
-_
-весна=S,f,inan=acc,sg
-!\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-и=CONJ=
-_
-перст=S,m,inan=ins,sg
-_
-не=PART=
-_
-тронуть=V,pf,tran=inpraes,sg,indic,2p
-:\n
-слишком=ADV=
-_
-нежно=ADV=
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-_
-ко=PR=
-_
-сон=S,m,inan=dat,sg
-!\n\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-ославлять=V,tran=inpraes,sg,indic,2p,pf
-:\n
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-вода=S,f,inan=nom,sg
-_
-для=PR=
-_
-уста=S,pl,inan=gen
-!\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-оставлять=V,tran=inpraes,sg,indic,2p,pf
-:\n
-дверь=S,f,inan=(acc,sg|nom,sg)
-_
-открытый=A=sg,brev,f
-,_
-и=CONJ=
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-пустой=A=sg,brev,m
-!\n
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {никогда=ADVPRO=} {не=PART=} {прогнать=V,pf,tran=inpraes,sg,indic,2p}:
+{не=PART=} {отталкивать=V,tran=inpraes,pl,indic,3p,ipf} {весна=S,f,inan=acc,sg}!
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {и=CONJ=} {перст=S,m,inan=ins,sg} {не=PART=} {тронуть=V,pf,tran=inpraes,sg,indic,2p}:
+{слишком=ADV=} {нежно=ADV=} {петь=V,ipf,tran=inpraes,sg,indic,1p} {ко=PR=} {сон=S,m,inan=dat,sg}!
+
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {никогда=ADVPRO=} {не=PART=} {ославлять=V,tran=inpraes,sg,indic,2p,pf}:
+{мой=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)} — {вода=S,f,inan=nom,sg} {для=PR=} {уста=S,pl,inan=gen}!
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(acc|gen)} {никогда=ADVPRO=} {не=PART=} {оставлять=V,tran=inpraes,sg,indic,2p,pf}:
+{дверь=S,f,inan=(acc,sg|nom,sg)} {открытый=A=sg,brev,f}, {и=CONJ=} {дом=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} — {пустой=A=sg,brev,m}!

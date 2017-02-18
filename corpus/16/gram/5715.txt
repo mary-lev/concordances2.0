@@ -1,136 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-песнопевец=S,m,anim=nom,sg
--
-авиатор=S,m,anim=nom,sg
-...\n
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-разбег=S,m,inan=gen,pl
-_
-льдяный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-старт=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-где=ADVPRO=
-_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-север=S,m,inan=gen,sg
-_
-штандарт=S,m,inan=(acc,sg|nom,sg)
-,\n
-а=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-финиш=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-всегда=ADVPRO=
-_
-экватор=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-победный=A=sg,brev,m
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-аэроплан=S,m,inan=(acc,sg|nom,sg)
-,\n
-полет=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-немой=A=sg,brev,m
-_
-победоносный=A=sg,brev,m
-,\n
-смотреть=V,ipf,tran=sg,imper,2p
-,_
-оставаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-у=PR=
-_
-сосна=S,f,inan=gen,pl
-,\n
-завидовать=V,ipf,intr=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-похищать=V,tran=sg,imper,2p,pf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-план=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-куда=ADVPRO=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-туда=ADVPRO=
-_
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-!\n
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_
-как=CONJ=
-_
-над=PR=
-_
-байкал=S,geo,m,inan=ins,sg
-_
-буря=S,f,inan=nom,sg
-.\n
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-,_
-с=PR=
-_
-орел=S,m,anim=ins,pl
-_
-каламбурить=V,ipf,intr=inpraes,ger
-,_\u2014\n
-они=SPRO,pl=(acc|gen)
-_
-ударять=V,tran=inpraes,ger,ipf
-_
-по=PR=
-_
-плечо=S,n,inan=dat,sg
-...\n\n
-меж=PR=
-_
-изумленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-звезда=S,f,inan=gen,pl
-_
-новатор=S,m,anim=nom,sg
-,\n
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-_
-без=PR=
-_
-план=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-без=PR=
-_
-карта=S,f,inan=gen,pl
-...\n
-я=SPRO,sg,1p=nom
-_
-всемогущий=A=sg,brev,m
-,_\u2014_
-я=SPRO,sg,1p=nom
-_
-авиатор=S,m,anim=nom,sg
-!\n
-и=CONJ=
-_
-цель=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-_\u2014_
-небо=S,n,inan=gen,pl
-_
-штандарт=S,m,inan=(acc,sg|nom,sg)
-!\n
+{я=SPRO,sg,1p=nom} {песнопевец=S,m,anim=nom,sg}-{авиатор=S,m,anim=nom,sg}...
+{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {разбег=S,m,inan=gen,pl} {льдяный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {старт=S,m,inan=(acc,sg|nom,sg)} —
+{где=ADVPRO=} {веять=V,ipf,tran=inpraes,sg,indic,3p} {север=S,m,inan=gen,sg} {штандарт=S,m,inan=(acc,sg|nom,sg)},
+{а=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {финиш=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} — {всегда=ADVPRO=} {экватор=S,m,inan=(acc,sg|nom,sg)}.
+
+{победный=A=sg,brev,m} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {аэроплан=S,m,inan=(acc,sg|nom,sg)},
+{полет=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {немой=A=sg,brev,m} {победоносный=A=sg,brev,m},
+{смотреть=V,ipf,tran=sg,imper,2p}, {оставаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {у=PR=} {сосна=S,f,inan=gen,pl},
+{завидовать=V,ipf,intr=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)}, {похищать=V,tran=sg,imper,2p,pf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {план=S,m,inan=(acc,sg|nom,sg)}!
+
+{куда=ADVPRO=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} — {туда=ADVPRO=} {лететь=V,ipf,intr=inpraes,sg,indic,1p}!
+{лететь=V,ipf,intr=inpraes,sg,indic,1p} — {как=CONJ=} {над=PR=} {байкал=S,geo,m,inan=ins,sg} {буря=S,f,inan=nom,sg}.
+{лететь=V,ipf,intr=inpraes,sg,indic,1p}, {с=PR=} {орел=S,m,anim=ins,pl} {каламбурить=V,ipf,intr=inpraes,ger}, —
+{они=SPRO,pl=(acc|gen)} {ударять=V,tran=inpraes,ger,ipf} {по=PR=} {плечо=S,n,inan=dat,sg}...
+
+{меж=PR=} {изумленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {звезда=S,f,inan=gen,pl} {новатор=S,m,anim=nom,sg},
+{лететь=V,ipf,intr=inpraes,sg,indic,1p} {без=PR=} {план=S,m,inan=gen,pl} {и=CONJ=} {без=PR=} {карта=S,f,inan=gen,pl}...
+{я=SPRO,sg,1p=nom} {всемогущий=A=sg,brev,m}, — {я=SPRO,sg,1p=nom} {авиатор=S,m,anim=nom,sg}!
+{и=CONJ=} {цель=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f} — {небо=S,n,inan=gen,pl} {штандарт=S,m,inan=(acc,sg|nom,sg)}!

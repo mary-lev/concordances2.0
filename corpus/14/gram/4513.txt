@@ -1,38 +1,6 @@
-сталинградский=A,geo=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-плод=S,m,inan=(acc,pl|nom,pl)
-:\n
-мир=S,m,inan=(acc,sg|nom,sg)
-,_
-довольство=S,n,inan=(acc,sg|nom,sg)
-,_
-высокий=A=nom,sg,plen,f
-_
-честь=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-за=PR=
-_
-каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-окно=S,n,inan=ins,sg
-\n
-шелестеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-ветерок=S,m,inan=ins,sg
-\n
-мы=SPRO,pl,1p=dat
-_
-о=PR=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-.\n
+{сталинградский=A,geo=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {плод=S,m,inan=(acc,pl|nom,pl)}:
+{мир=S,m,inan=(acc,sg|nom,sg)}, {довольство=S,n,inan=(acc,sg|nom,sg)}, {высокий=A=nom,sg,plen,f} {честь=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {за=PR=} {каждый=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {окно=S,n,inan=ins,sg}
+{шелестеть=V,ipf,intr=inpraes,sg,indic,3p} {ветерок=S,m,inan=ins,sg}
+{мы=SPRO,pl,1p=dat} {о=PR=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {весть=S,f,inan=(acc,sg|nom,sg)}.

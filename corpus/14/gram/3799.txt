@@ -1,150 +1,20 @@
-помолиться=V,pf,intr=sg,imper,2p
-_
-о=PR=
-_
-нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-,_
-о=PR=
-_
-потерять=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)
-,_\n
-о=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-,_\n
-ты=SPRO,sg,2p=nom
-,_
-в=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-путь=S,m,inan=abl,pl
-_
-всегда=ADVPRO=
-_
-уверенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-свет=S,sg,m,inan=(acc|nom)
-_
-узреть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-в=PR=
-_
-шалаш=S,m,inan=abl,sg
-.\n\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-печально=ADV=
--
-благодарный=A=nom,sg,plen,f
-,_\n
-я=SPRO,sg,1p=nom
-_
-за=PR=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-рассказывать=V=inpraes,sg,indic,1p,pf
-_
-потом=ADVPRO=
-,_\n
-как=ADVPRO=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-томить=V,ipf,tran=praet,sg,indic,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-угарный=A=nom,sg,plen,f
-,_\n
-как=ADVPRO=
-_
-дышать=V,ipf,intr=praet,sg,indic,n
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-лед=S,m,inan=ins,sg
-.\n\n
-в=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_
-немного=ADV=
-_
-видеть=V,ipf,tran=praet,sg,indic,f
-,_\n
-только=PART=
-_
-петь=V,ipf,tran=praet,sg,indic,f
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=praet,sg,indic,f
-._\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-брат=S,m,anim=(acc,sg|gen,sg)
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-ненавидеть=V,ipf,tran=praet,sg,indic,f
-_\n
-и=CONJ=
-_
-сестра=S,f,anim=(gen,sg|nom,pl)
-_
-не=PART=
-_
-предавать=V,tran=praet,sg,indic,f,pf
-.\n\n
-отчего=ADVPRO=
-_
-же=PART=
-_
-бог=S,m,anim=nom,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-наказывать=V=praet,sg,indic,m,ipf,tran
-_\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-?_\n
-или=CONJ=
-_
-это=PART=
-_
-ангел=S,m,anim=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-указывать=V=praet,sg,indic,m,ipf,tran
-_\n
-свет=S,sg,m,inan=(acc|nom)
-,_
-невидимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-для=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-?\n\n
+{помолиться=V,pf,intr=sg,imper,2p} {о=PR=} {нищий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}, {о=PR=} {потерять=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)}, 
+{о=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {душа=S,f,inan=(abl,sg|dat,sg)}, 
+{ты=SPRO,sg,2p=nom}, {в=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {путь=S,m,inan=abl,pl} {всегда=ADVPRO=} {уверенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{свет=S,sg,m,inan=(acc|nom)} {узреть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {в=PR=} {шалаш=S,m,inan=abl,sg}.
+
+{и=CONJ=} {ты=SPRO,sg,2p=(abl|dat)}, {печально=ADV=}-{благодарный=A=nom,sg,plen,f}, 
+{я=SPRO,sg,1p=nom} {за=PR=} {это=SPRO,sg,n,inan=(acc|nom)} {рассказывать=V=inpraes,sg,indic,1p,pf} {потом=ADVPRO=}, 
+{как=ADVPRO=} {я=SPRO,sg,1p=(acc|gen)} {томить=V,ipf,tran=praet,sg,indic,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {угарный=A=nom,sg,plen,f}, 
+{как=ADVPRO=} {дышать=V,ipf,intr=praet,sg,indic,n} {утро=S,n,inan=(acc,sg|nom,sg)} {лед=S,m,inan=ins,sg}.
+
+{в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom} {немного=ADV=} {видеть=V,ipf,tran=praet,sg,indic,f}, 
+{только=PART=} {петь=V,ipf,tran=praet,sg,indic,f} {и=CONJ=} {ждать=V,ipf,tran=praet,sg,indic,f}. 
+{знать=V,ipf,tran=inpraes,sg,indic,1p}: {брат=S,m,anim=(acc,sg|gen,sg)} {я=SPRO,sg,1p=nom} {не=PART=} {ненавидеть=V,ipf,tran=praet,sg,indic,f} 
+{и=CONJ=} {сестра=S,f,anim=(gen,sg|nom,pl)} {не=PART=} {предавать=V,tran=praet,sg,indic,f,pf}.
+
+{отчего=ADVPRO=} {же=PART=} {бог=S,m,anim=nom,sg} {я=SPRO,sg,1p=(acc|gen)} {наказывать=V=praet,sg,indic,m,ipf,tran} 
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}? 
+{или=CONJ=} {это=PART=} {ангел=S,m,anim=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {указывать=V=praet,sg,indic,m,ipf,tran} 
+{свет=S,sg,m,inan=(acc|nom)}, {невидимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}?
+

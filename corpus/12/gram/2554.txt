@@ -1,50 +1,14 @@
-красный=A=ins,sg,plen,f
-_
-кисть=S,f,inan=ins,sg
-\n
-рябина=S,f,inan=nom,sg
-_
-зажигаться=V,intr=praet,sg,indic,f,pf
-.\n
-падать=V,ipf,intr=praet,pl,indic
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-рождаться=V,intr=praet,sg,indic,f,pf
-.\n\n
-спорить=V,ipf,intr=praet,pl,indic
-_
-сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-колоколов=S,famn,m,anim=nom,sg
-.\n
-день=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-субботний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-:\n
-иоанн=S,persn,m,anim=nom,sg
-_
-богослов=S,m,anim=nom,sg
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-и=CONJ=
-_
-доныне=ADV=
-\n
-хотеться=V,ipf,intr=inpraes,indic
-_
-грызть=V,ipf,tran=inf
-\n
-жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-рябина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-горький=A=acc,sg,plen,f
-_
-кисть=S,f,inan=(acc,sg|nom,sg)
-.\n
+{красный=A=ins,sg,plen,f} {кисть=S,f,inan=ins,sg}
+{рябина=S,f,inan=nom,sg} {зажигаться=V,intr=praet,sg,indic,f,pf}.
+{падать=V,ipf,intr=praet,pl,indic} {лист=S,m,inan=(acc,pl|nom,pl)},
+{я=SPRO,sg,1p=nom} {рождаться=V,intr=praet,sg,indic,f,pf}.
+
+{спорить=V,ipf,intr=praet,pl,indic} {сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{колоколов=S,famn,m,anim=nom,sg}.
+{день=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {субботний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}:
+{иоанн=S,persn,m,anim=nom,sg} {богослов=S,m,anim=nom,sg}.
+
+{я=SPRO,sg,1p=(abl|dat)} {и=CONJ=} {доныне=ADV=}
+{хотеться=V,ipf,intr=inpraes,indic} {грызть=V,ipf,tran=inf}
+{жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рябина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{горький=A=acc,sg,plen,f} {кисть=S,f,inan=(acc,sg|nom,sg)}.

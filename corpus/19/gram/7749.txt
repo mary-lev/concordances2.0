@@ -1,188 +1,29 @@
-вембер?=S,m,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-спесивый=A=sg,brev,m
-_
-всегда=ADVPRO=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-не=PART=
-_
-подступаться=V,intr=inf,pf
-.\n
-на=PR=
-_
-крахмал=S,m,inan=abl,sg
-_
-борода=S,f,inan=nom,sg
-,\n
-как=ADVPRO=
-_
-же=PART=
-_
-она=SPRO,sg,3p,f=ins
-_
-не=PART=
-_
-гордиться=V,ipf,intr=inf
-!\n\n
-я=SPRO,sg,1p=nom
-_
-недавно=ADV=
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-домой=ADV=
-\n
-босиком=ADV=
-,_
-как=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-привычно=ADV=
-,\n
-впереди=ADV=
-_
-же=PART=
-_
-с=PR=
-_
-борода=S,f,inan=ins,sg
-\n
-вембер?=S,m,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=praet,sg,indic,m
-,_
-одевать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-приличный=A=sg,brev,n
-.\n\n
-подходить=V,intr=inf,pf
-_
-я=SPRO,sg,1p=nom
-_
-захотеть=V,pf,tran=praet,sg,indic,m
-,\n
-перемолвиться=V,pf,intr=inf
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-слово=S,n,inan=ins,sg
-,\n
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-же=PART=
-_
-поглядеть=V,pf,tran=praet,sg,indic,m
-\n
-он=SPRO,sg,3p,m=nom
-_
-с=PR=
-_
-презрение=S,n,inan=ins,sg
-_
-суров=S,famn,m,anim=(dat,pl|ins,sg)
-.\n\n
-отвертываться=V,intr=praet,sg,indic,m,pf
-_
-и=CONJ=
-_
-проходить=V,intr=praet,sg,indic,m,pf
-\n
-очень=ADV=
-_
-важно=ADV=
-,_
-вздергивать=V,tran=praet,ger,pf
-_
-носик=S,m,inan=(acc,sg|nom,sg)
-.\n
-ах=INTJ=
-,_
-спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ты=SPRO,sg,2p=nom
-_
-оседать=V,intr=praet,sg,indic,m,pf
-!\n
-бородатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-песик=S,m,anim=nom,sg
-!\n\n
-экий=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-господин=S,m,anim=nom,sg
-!\n
-не=PART=
-_
-товарищ=S,m,anim=nom,sg
-,_
-знать=V,ipf,tran=inf
-,_
-босой=A=(dat,sg,plen,m|dat,sg,plen,n)
-!\n
-плюнуть=V,pf,intr=praet,sg,indic,m
-_
-вслед=ADV=
-_
-я=SPRO,sg,1p=nom
-,_
-и=CONJ=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-\n
-зашагать=V,pf,intr=praet,sg,indic,m
-_
-проворно=ADV=
-_
-к=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n\n
-барство=S,n,inan=ins,sg
-_
-разгордиться?=V,pf,intr=praet,sg,indic,m
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ль=PART=
-,\n
-господин=S,m,anim=nom,sg
-_
-спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-а=CONJ=
-_
-в=PR=
-_
-эстляндия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-давно=ADV=
-_
-ль=PART=
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-ты=SPRO,sg,2p=nom
-_
-парень=S,m,anim=nom,sg
-_
-босоногий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-?\n
+{вембер?=S,m,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {спесивый=A=sg,brev,m} {всегда=ADVPRO=},
+{что=SPRO,sg,n,inan=(acc|nom)} {к=PR=} {он=SPRO,sg,3p,m=dat} {не=PART=} {подступаться=V,intr=inf,pf}.
+{на=PR=} {крахмал=S,m,inan=abl,sg} {борода=S,f,inan=nom,sg},
+{как=ADVPRO=} {же=PART=} {она=SPRO,sg,3p,f=ins} {не=PART=} {гордиться=V,ipf,intr=inf}!
+
+{я=SPRO,sg,1p=nom} {недавно=ADV=} {идти=V,ipf,intr=praet,sg,indic,m} {домой=ADV=}
+{босиком=ADV=}, {как=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {привычно=ADV=},
+{впереди=ADV=} {же=PART=} {с=PR=} {борода=S,f,inan=ins,sg}
+{вембер?=S,m,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=praet,sg,indic,m}, {одевать=V,tran=praet,sg,partcp,brev,m,pf,pass} {приличный=A=sg,brev,n}.
+
+{подходить=V,intr=inf,pf} {я=SPRO,sg,1p=nom} {захотеть=V,pf,tran=praet,sg,indic,m},
+{перемолвиться=V,pf,intr=inf} {с=PR=} {он=SPRO,sg,3p,m=ins} {слово=S,n,inan=ins,sg},
+{на=PR=} {я=SPRO,sg,1p=(acc|gen)} {же=PART=} {поглядеть=V,pf,tran=praet,sg,indic,m}
+{он=SPRO,sg,3p,m=nom} {с=PR=} {презрение=S,n,inan=ins,sg} {суров=S,famn,m,anim=(dat,pl|ins,sg)}.
+
+{отвертываться=V,intr=praet,sg,indic,m,pf} {и=CONJ=} {проходить=V,intr=praet,sg,indic,m,pf}
+{очень=ADV=} {важно=ADV=}, {вздергивать=V,tran=praet,ger,pf} {носик=S,m,inan=(acc,sg|nom,sg)}.
+{ах=INTJ=}, {спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ты=SPRO,sg,2p=nom} {оседать=V,intr=praet,sg,indic,m,pf}!
+{бородатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {песик=S,m,anim=nom,sg}!
+
+{экий=APRO=(acc,sg,m,inan|nom,sg,m)} {важный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {господин=S,m,anim=nom,sg}!
+{не=PART=} {товарищ=S,m,anim=nom,sg}, {знать=V,ipf,tran=inf}, {босой=A=(dat,sg,plen,m|dat,sg,plen,n)}!
+{плюнуть=V,pf,intr=praet,sg,indic,m} {вслед=ADV=} {я=SPRO,sg,1p=nom}, {и=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)}
+{зашагать=V,pf,intr=praet,sg,indic,m} {проворно=ADV=} {к=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+
+{барство=S,n,inan=ins,sg} {разгордиться?=V,pf,intr=praet,sg,indic,m}, {что=SPRO,sg,n,inan=(acc|nom)} {ль=PART=},
+{господин=S,m,anim=nom,sg} {спесивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{а=CONJ=} {в=PR=} {эстляндия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {давно=ADV=} {ль=PART=}
+{быть=V,intr=praet,sg,indic,m,ipf} {ты=SPRO,sg,2p=nom} {парень=S,m,anim=nom,sg} {босоногий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}?

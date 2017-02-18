@@ -1,74 +1,9 @@
-снег=S,m,inan=(acc,sg|nom,sg)
-_
-яблоня=S,f,inan=gen,pl
-_\u2014_
-точно=CONJ=
-_
-мотылек=S,m,anim=nom,pl
-,\n
-а=CONJ=
-_
-мотылек=S,m,anim=nom,pl
-_\u2014_
-как=CONJ=
-_
-яблоня=S,f,inan=gen,pl
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-.\n
-еще=ADV=
-_
-далеко=ADV=
-_
-василек=S,m,inan=(acc,pl|nom,pl)
-,\n
-еще=ADV=
-_
-далеко=ADV=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-нега=S,f,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-,_
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-в=PR=
-_
-цвет=S,m,inan=dat,sg
-,\n
-благоухать=V,ipf,intr=inpraes,sg,indic,3p
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-!..\n
-звать=V,ipf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-жажда=S,f,inan=acc,sg
-_\u2014_
-жажда=S,f,inan=acc,sg
-_
-тот=APRO=acc,sg,f
-,\n
-от=PR=
-_
-чей=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-слезинка=S,f,inan=gen,pl
-_
-дымный=A=sg,brev,m
-_
-мох=S,m,inan=(acc,sg|nom,sg)
-!..\n
+{снег=S,m,inan=(acc,sg|nom,sg)} {яблоня=S,f,inan=gen,pl} — {точно=CONJ=} {мотылек=S,m,anim=nom,pl},
+{а=CONJ=} {мотылек=S,m,anim=nom,pl} — {как=CONJ=} {яблоня=S,f,inan=gen,pl} {снег=S,m,inan=(acc,sg|nom,sg)}.
+{еще=ADV=} {далеко=ADV=} {василек=S,m,inan=(acc,pl|nom,pl)},
+{еще=ADV=} {далеко=ADV=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {нега=S,f,inan=gen,pl}.
+
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} — {в=PR=} {огонь=S,m,inan=abl,sg}, {и=CONJ=} {все=SPRO,pl=(acc|nom)} — {в=PR=} {цвет=S,m,inan=dat,sg},
+{благоухать=V,ipf,intr=inpraes,sg,indic,3p} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {вздох=S,m,inan=(acc,sg|nom,sg)}!..
+{звать=V,ipf,tran=inpraes,sg,indic,1p} {и=CONJ=} {жажда=S,f,inan=acc,sg} — {жажда=S,f,inan=acc,sg} {тот=APRO=acc,sg,f},
+{от=PR=} {чей=APRO=(abl,pl|gen,pl|acc,pl,anim)} {слезинка=S,f,inan=gen,pl} {дымный=A=sg,brev,m} {мох=S,m,inan=(acc,sg|nom,sg)}!..

@@ -1,72 +1,9 @@
-вспомянуть=V,pf,tran=pl,imper,2p
-:_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-голова=S,f,inan=gen,pl
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-дорогой=A=comp
-\n
-волосок=S,m,inan=(acc,sg|nom,sg)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-с=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-голова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-идти=V,ipf,intr=pl,imper,2p
-_
-себе=PART=
-..._\u2014_
-вы=SPRO,pl,2p=nom
-_
-тоже=PART=
-,\n
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-тоже=PART=
-,_
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-.\n\n
-разлюблять=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-разлюблять=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)
-!\n
-стеречь=V,ipf,tran=pl,imper,2p
-_
-не=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-поутру=ADV=
-!\n
-чтоб=CONJ=
-_
-мочь=V,ipf,intr=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-_
-спокойно=ADV=
-_
-выходить=V,intr=inf,pf
-\n
-постоять=V,pf,intr=inf
-_
-на=PR=
-_
-ветер=S,m,inan=(dat,sg|loc,sg)
-.\n
+{вспомянуть=V,pf,tran=pl,imper,2p}: {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {голова=S,f,inan=gen,pl} {я=SPRO,sg,1p=(abl|dat)} {дорогой=A=comp}
+{волосок=S,m,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {с=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {голова=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {идти=V,ipf,intr=pl,imper,2p} {себе=PART=}... — {вы=SPRO,pl,2p=nom} {тоже=PART=},
+{и=CONJ=} {вы=SPRO,pl,2p=nom} {тоже=PART=}, {и=CONJ=} {вы=SPRO,pl,2p=nom}.
+
+{разлюблять=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)} {я=SPRO,sg,1p=(acc|gen)}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {разлюблять=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)}!
+{стеречь=V,ipf,tran=pl,imper,2p} {не=PART=} {я=SPRO,sg,1p=(acc|gen)} {поутру=ADV=}!
+{чтоб=CONJ=} {мочь=V,ipf,intr=praet,sg,indic,f} {я=SPRO,sg,1p=nom} {спокойно=ADV=} {выходить=V,intr=inf,pf}
+{постоять=V,pf,intr=inf} {на=PR=} {ветер=S,m,inan=(dat,sg|loc,sg)}.

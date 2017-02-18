@@ -1,24 +1,4 @@
-непогребенный=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-хоронить=V,ipf,tran=praet,sg,indic,f
-_
-они=SPRO,pl=(acc|gen)
-,\n
-я=SPRO,sg,1p=nom
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-оплакивать=V=praet,sg,indic,f,pf
-,_
-а=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-\n
-я=SPRO,sg,1p=(acc|gen)
-_
-оплакивать=V=inpraes,sg,indic,3p,pf
-?\n
+{непогребенный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} —
+{я=SPRO,sg,1p=nom} {хоронить=V,ipf,tran=praet,sg,indic,f} {они=SPRO,pl=(acc|gen)},
+{я=SPRO,sg,1p=nom} {все=SPRO,pl=(abl|acc|gen)} {оплакивать=V=praet,sg,indic,f,pf}, {а=CONJ=} {кто=SPRO,sg,m,anim=nom}
+{я=SPRO,sg,1p=(acc|gen)} {оплакивать=V=inpraes,sg,indic,3p,pf}?

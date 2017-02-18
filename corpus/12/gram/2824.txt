@@ -1,94 +1,19 @@
-ты=SPRO,sg,2p=nom
-_
-давать=V,tran=praet,sg,indic,m,pf
-_
-мы=SPRO,pl,1p=dat
-_
-мужество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-на=PR=
-_
-сто=NUM=(acc|nom)
-_
-жизнь=S,f,inan=gen,pl
-!\n
-пусть=PART=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кружиться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-недвижный=A=pl,brev
-.\n\n
-и=CONJ=
-_
-ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-стойкий=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-на=PR=
-_
-мытарство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-дабы=CONJ=
-_
-на=PR=
-_
-койка=S,f,inan=(abl,sg|dat,sg)
-_
-мы=SPRO,pl,1p=dat
-\n
-помнить=V,ipf,tran=inf
-_\u2014_
-царство=S,n,inan=(acc,sg|nom,sg)
-!\n\n
-свое=SPRO,sg,n,inan=(acc|nom)
-_
-подобие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-подымать=V=praet,sg,indic,m,pf
-_\u2014_\n
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вера=S,f,inan=ins,sg
-\n
-в=PR=
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-подобие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-так=ADVPRO=
-_
-давать=V,tran=sg,imper,2p,pf
-_
-мы=SPRO,pl,1p=dat
-_
-вздох=S,m,inan=dat,sg
-\n
-и=CONJ=
-_
-давать=V,tran=sg,imper,2p,pf
-_
-мы=SPRO,pl,1p=dat
-_
-пот=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\u2014_\n
-дабы=CONJ=
-_
-снести=V,pf=inf
-_
-мы=SPRO,pl,1p=dat
-\n
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-щедрота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{ты=SPRO,sg,2p=nom} {давать=V,tran=praet,sg,indic,m,pf} {мы=SPRO,pl,1p=dat} {мужество=S,n,inan=(acc,pl|gen,sg|nom,pl)} — 
+{на=PR=} {сто=NUM=(acc|nom)} {жизнь=S,f,inan=gen,pl}!
+{пусть=PART=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кружиться=V,ipf,intr=inpraes,pl,indic,3p},
+{мы=SPRO,pl,1p=nom} — {недвижный=A=pl,brev}.
+
+{и=CONJ=} {ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {стойкий=A=(acc,pl,plen,inan|nom,pl,plen)}
+{на=PR=} {мытарство=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+{дабы=CONJ=} {на=PR=} {койка=S,f,inan=(abl,sg|dat,sg)} {мы=SPRO,pl,1p=dat}
+{помнить=V,ipf,tran=inf} — {царство=S,n,inan=(acc,sg|nom,sg)}!
+
+{свое=SPRO,sg,n,inan=(acc|nom)} {подобие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{ты=SPRO,sg,2p=nom} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {подымать=V=praet,sg,indic,m,pf} — 
+{великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вера=S,f,inan=ins,sg}
+{в=PR=} {свой=APRO=(acc,sg,n|nom,sg,n)} {подобие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{так=ADVPRO=} {давать=V,tran=sg,imper,2p,pf} {мы=SPRO,pl,1p=dat} {вздох=S,m,inan=dat,sg}
+{и=CONJ=} {давать=V,tran=sg,imper,2p,pf} {мы=SPRO,pl,1p=dat} {пот=S,m,inan=(dat,sg|part,sg|loc,sg)} — 
+{дабы=CONJ=} {снести=V,pf=inf} {мы=SPRO,pl,1p=dat}
+{твой=APRO=(nom,pl|acc,pl,inan)} {щедрота=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

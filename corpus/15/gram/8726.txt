@@ -1,78 +1,14 @@
-поспевать=V,intr=inpraes,sg,indic,3p,ipf
-_
-брусника=S,f,inan=nom,sg
-,\n
-становиться=V,intr=praet,pl,indic,pf
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-холодно=ADV=comp
-.\n
-и=CONJ=
-_
-от=PR=
-_
-птичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-крик=S,m,inan=gen,sg
-\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-только=PART=
-_
-грустно=ADV=comp
-.\n\n
-стая=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-_
-улетать=V,intr=inpraes,pl,indic,3p,ipf
-,\n
-прочь=ADV=
-,_
-за=PR=
-_
-синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-дерево=S,n,inan=(acc,pl|nom,pl)
-_
-блистать=V,ipf,intr=inpraes,pl,indic,3p
-\n
-в=PR=
-_
-разноцветный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-убор=S,m,inan=abl,sg
-.\n\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-редко=ADV=comp
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-нет=PART=
-_
-в=PR=
-_
-цветок=S,m,inan=abl,pl
-_
-благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-скоро=ADV=
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-просыпаться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-заплакать=V,pf,tran=inpraes,sg,indic,3p
-_
-спросонья=ADV=
-.\n
+{поспевать=V,intr=inpraes,sg,indic,3p,ipf} {брусника=S,f,inan=nom,sg},
+{становиться=V,intr=praet,pl,indic,pf} {день=S,m,inan=(acc,pl|nom,pl)} {холодно=ADV=comp}.
+{и=CONJ=} {от=PR=} {птичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {крик=S,m,inan=gen,sg}
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {только=PART=} {грустно=ADV=comp}.
+
+{стая=S,f,inan=(acc,pl|gen,sg|nom,pl)} {птица=S,f,anim=(acc,pl|gen,pl)} {улетать=V,intr=inpraes,pl,indic,3p,ipf},
+{прочь=ADV=}, {за=PR=} {синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {дерево=S,n,inan=(acc,pl|nom,pl)} {блистать=V,ipf,intr=inpraes,pl,indic,3p}
+{в=PR=} {разноцветный=A=(abl,sg,plen,m|abl,sg,plen,n)} {убор=S,m,inan=abl,sg}.
+
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {редко=ADV=comp} {смеяться=V,ipf,intr=inpraes,sg,indic,3p},
+{нет=PART=} {в=PR=} {цветок=S,m,inan=abl,pl} {благовоние=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{скоро=ADV=} {осень=S,f,inan=(acc,sg|nom,sg)} {просыпаться=V,intr=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {заплакать=V,pf,tran=inpraes,sg,indic,3p} {спросонья=ADV=}.

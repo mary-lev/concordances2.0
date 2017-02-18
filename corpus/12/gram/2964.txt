@@ -1,122 +1,16 @@
-ты=SPRO,sg,2p=nom
-_
-писать=V,ipf,tran=inpraes,sg,indic,2p
-_
-перст=S,m,inan=ins,sg
-_
-на=PR=
-_
-песок=S,m,inan=abl,sg
-,\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-твой=APRO=nom,sg,f
-_
-горлинка=S,f,anim=nom,sg
-,_
-равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!\n
-я=SPRO,sg,1p=nom
-_
-первенец=S,m,anim=nom,sg
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-на=PR=
-_
-листок=S,m,inan=abl,sg
-\n
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-поминание=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-здравие=S,n,inan=gen,pl
-.\n\n
-звенеть=V,ipf,intr=inpraes,sg,indic,1p
-_
-побрякушка=S,f,inan=ins,pl
-_
-бусы=S,pl,inan=gen
-,\n
-чтоб=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-оглянуться=V,pf,intr=praet,sg,indic,m
-_\u2014_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-!\n
-о=PR=
-_
-равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-о=PR=
-_
-равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-бояться=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_\n
-читать=V,ipf,tran=inpraes,sg,indic,1p
-_
-не=PART=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-писать=V,ipf,tran=inpraes,sg,indic,2p
-!\n\n
-а=CONJ=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-красться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-тать=S,m,anim=nom,sg
-,\n
-как=CONJ=
-_
-черный=A=nom,sg,plen,f
-_
-рать=S,f,inan=(acc,sg|nom,sg)
-_
-роковой=A=nom,sg,plen,f
-.\n
-ты=SPRO,sg,2p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-чтоб=CONJ=
-_
-хорошо=ADV=comp,parenth
-_
-читать=V,ipf,tran=inf
-_\u2014_\n
-о=PR=
-_
-равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_\u2014_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-закрывать=V=inpraes,sg,indic,1p,ipf,tran
-...\n\n
-ты=SPRO,sg,2p=nom
-_
-писать=V,ipf,tran=inpraes,sg,indic,2p
-_
-перст=S,m,inan=ins,sg
-_
-на=PR=
-_
-песок=S,m,inan=abl,sg
-...\n
+{ты=SPRO,sg,2p=nom} {писать=V,ipf,tran=inpraes,sg,indic,2p} {перст=S,m,inan=ins,sg} {на=PR=} {песок=S,m,inan=abl,sg},
+{а=CONJ=} {я=SPRO,sg,1p=nom} {твой=APRO=nom,sg,f} {горлинка=S,f,anim=nom,sg}, {равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!
+{я=SPRO,sg,1p=nom} {первенец=S,m,anim=nom,sg} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {на=PR=} {листок=S,m,inan=abl,sg}
+{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {поминание=S,n,inan=gen,pl} {и=CONJ=} {здравие=S,n,inan=gen,pl}.
+
+{звенеть=V,ipf,intr=inpraes,sg,indic,1p} {побрякушка=S,f,inan=ins,pl} {бусы=S,pl,inan=gen},
+{чтоб=CONJ=} {ты=SPRO,sg,2p=nom} {оглянуться=V,pf,intr=praet,sg,indic,m} — {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,2p}!
+{о=PR=} {равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {о=PR=} {равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {бояться=V,ipf,intr=inpraes,sg,indic,1p} — 
+{читать=V,ipf,tran=inpraes,sg,indic,1p} {не=PART=} {то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {писать=V,ipf,tran=inpraes,sg,indic,2p}!
+
+{а=CONJ=} {сумрак=S,m,inan=(acc,sg|nom,sg)} {красться=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {тать=S,m,anim=nom,sg},
+{как=CONJ=} {черный=A=nom,sg,plen,f} {рать=S,f,inan=(acc,sg|nom,sg)} {роковой=A=nom,sg,plen,f}.
+{ты=SPRO,sg,2p=nom} {знать=V,ipf,tran=inpraes,sg,indic,2p} — {чтоб=CONJ=} {хорошо=ADV=comp,parenth} {читать=V,ipf,tran=inf} — 
+{о=PR=} {равви=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} — {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {закрывать=V=inpraes,sg,indic,1p,ipf,tran}...
+
+{ты=SPRO,sg,2p=nom} {писать=V,ipf,tran=inpraes,sg,indic,2p} {перст=S,m,inan=ins,sg} {на=PR=} {песок=S,m,inan=abl,sg}...

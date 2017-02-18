@@ -1,156 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-звенеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-струна=S,f,inan=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-цветущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-весна=S,f,inan=ins,sg
-,\n
-но=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-хотеть=V,ipf,tran=praet,pl,indic
-_
-цветок=S,m,inan=gen,pl
-,\n
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-расслышать=V,pf,tran=praet,pl,indic
-_
-слово=S,n,inan=gen,pl
-.\n\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-призыв=S,m,inan=ins,sg
-_
-к=PR=
-_
-борьба=S,sg,f,inan=(abl|dat)
-,\n
-для=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-забывать=V=praet,sg,indic,m,pf
-_
-о=PR=
-_
-себя=SPRO=(abl|dat)
-,\n
-но=CONJ=
-_
-вы=SPRO,pl,2p=nom
-,_
-не=PART=
-_
-увидеть=V,pf,tran=praet,ger
-_
-огонь=S,m,inan=gen,sg
-,\n
-оставлять=V,tran=praet,pl,indic,pf
-_
-молча=ADV=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-когда=CONJ=
-_
-ж=PART=
-_
-вы=SPRO,pl,2p=nom
-_
-порывать=V,tran=praet,pl,indic,pf
-_
-струна=S,f,inan=acc,sg
-,\n
-когда=CONJ=
-_
-растаптывать=V=praet,pl,indic,pf
-_
-весна=S,f,inan=acc,sg
-,\n
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-говорить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-,_
-что=CONJ=
-_
-вот=PART=
-\n
-он=SPRO,sg,3p,m=nom
-_
-звонко=ADV=
-,_
-он=SPRO,sg,3p,m=nom
-_
-нежно=ADV=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-но=CONJ=
-_
-если=CONJ=
-_
-еще=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-я=SPRO,sg,1p=nom
-_
-помнить=V,ipf,tran=inpraes,sg,indic,1p
-_
-лишь=PART=
-_
-душа=S,f,inan=acc,sg
-_
-мой=APRO=acc,sg,f
-,\n
-для=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-же=PART=
-_
-давно=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-погасать=V,intr=praet,sg,indic,m,pf
-,\n
-довольно=ADV=
-,_
-довольно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-.\n
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {вы=SPRO,pl,2p=dat} {звенеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {струна=S,f,inan=ins,sg},
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {вы=SPRO,pl,2p=dat} {цветущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {весна=S,f,inan=ins,sg},
+{но=CONJ=} {вы=SPRO,pl,2p=nom} {не=PART=} {хотеть=V,ipf,tran=praet,pl,indic} {цветок=S,m,inan=gen,pl},
+{и=CONJ=} {вы=SPRO,pl,2p=nom} {не=PART=} {расслышать=V,pf,tran=praet,pl,indic} {слово=S,n,inan=gen,pl}.
+
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {вы=SPRO,pl,2p=dat} {призыв=S,m,inan=ins,sg} {к=PR=} {борьба=S,sg,f,inan=(abl|dat)},
+{для=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {я=SPRO,sg,1p=nom} {забывать=V=praet,sg,indic,m,pf} {о=PR=} {себя=SPRO=(abl|dat)},
+{но=CONJ=} {вы=SPRO,pl,2p=nom}, {не=PART=} {увидеть=V,pf,tran=praet,ger} {огонь=S,m,inan=gen,sg},
+{оставлять=V,tran=praet,pl,indic,pf} {молча=ADV=} {я=SPRO,sg,1p=(acc|gen)}.
+
+{когда=CONJ=} {ж=PART=} {вы=SPRO,pl,2p=nom} {порывать=V,tran=praet,pl,indic,pf} {струна=S,f,inan=acc,sg},
+{когда=CONJ=} {растаптывать=V=praet,pl,indic,pf} {весна=S,f,inan=acc,sg},
+{вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {говорить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, {что=CONJ=} {вот=PART=}
+{он=SPRO,sg,3p,m=nom} {звонко=ADV=}, {он=SPRO,sg,3p,m=nom} {нежно=ADV=} {петь=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{но=CONJ=} {если=CONJ=} {еще=ADV=} {я=SPRO,sg,1p=nom} {петь=V,ipf,tran=inpraes,sg,indic,1p},
+{я=SPRO,sg,1p=nom} {помнить=V,ipf,tran=inpraes,sg,indic,1p} {лишь=PART=} {душа=S,f,inan=acc,sg} {мой=APRO=acc,sg,f},
+{для=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {же=PART=} {давно=ADV=} {я=SPRO,sg,1p=nom} {погасать=V,intr=praet,sg,indic,m,pf},
+{довольно=ADV=}, {довольно=ADV=} {я=SPRO,sg,1p=(abl|dat)} {вы=SPRO,pl,2p=(abl|acc|gen)}.

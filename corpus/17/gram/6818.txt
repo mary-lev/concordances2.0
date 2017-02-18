@@ -1,144 +1,24 @@
-закрывать=V=praet,sg,partcp,brev,f,pf,pass
-_
-жарко=ADV=
-_
-печка=S,f,inan=nom,sg
-,\n
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
-под=PR=
-_
-абажур=S,m,inan=ins,sg
-_
-свечка=S,f,inan=nom,sg
-,_\n
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-подо=PR=
-_
-лед=S,m,inan=ins,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-выдумывать=V,tran=praet,sg,indic,m,pf
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_\n
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-бояться=V,ipf,intr=inpraes,sg,indic,1p
-_
-теперь=ADV=
-,\n
-они=SPRO,pl=(acc|gen)
-_
-нету=ADV,praed=
-,_
-нету=ADV,praed=
-,_
-нету=ADV,praed=
-.\n
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-._
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-._
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-.\n\n
-под=PR=
-_
-старый=A=ins,sg,plen,f
-_
-сосна=S,f,inan=ins,sg
-,\n
-где=ADVPRO=
-_
-слабый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-_\n\u2014_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-двое=NUM=(nom|acc,inan)
-,_
-трое=NUM=(nom|acc,inan)
-_\n
-или=CONJ=
-_
-они=SPRO,pl=(acc|gen)
-_
-вовсе=ADV=
-_
-нет=ADV,praed=
-.\n\n
-в=PR=
-_
-оцепенение=S,n,inan=abl,sg
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_\u2014_\n
-тик-так=INTJ=
-._
-тик-так=INTJ=
-._
-тик-так=INTJ=
-.\n
-и=CONJ=
-_
-вытекать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)
-_
-око=S,n,inan=(acc,pl|nom,pl)
-_\n
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-окрестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-на=PR=
-_
-иней=S,m,inan=(acc,sg|nom,sg)
-,_
-иней=S,m,inan=(acc,sg|nom,sg)
-,_
-иней=S,m,inan=(acc,sg|nom,sg)
-_\n(
-или=CONJ=
-_
-они=SPRO,pl=(acc|gen)
-_
-вовсе=ADV=
-_
-нет=ADV,praed=
-),\n
-на=PR=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-младенческий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рассвет=S,m,inan=(acc,sg|nom,sg)
-.\n
+{закрывать=V=praet,sg,partcp,brev,f,pf,pass} {жарко=ADV=} {печка=S,f,inan=nom,sg},
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)}.
+{под=PR=} {абажур=S,m,inan=ins,sg} {свечка=S,f,inan=nom,sg}, 
+{окошко=S,n,inan=(acc,sg|nom,sg)} {подо=PR=} {лед=S,m,inan=ins,sg}.
+
+{я=SPRO,sg,1p=nom} {выдумывать=V,tran=praet,sg,indic,m,pf} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {это=SPRO,sg,n,inan=(acc|nom)} 
+{и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {бояться=V,ipf,intr=inpraes,sg,indic,1p} {теперь=ADV=},
+{они=SPRO,pl=(acc|gen)} {нету=ADV,praed=}, {нету=ADV,praed=}, {нету=ADV,praed=}.
+{не=PART=} {верить=V,ipf,intr=sg,imper,2p}. {не=PART=} {верить=V,ipf,intr=sg,imper,2p}. {не=PART=} {верить=V,ipf,intr=sg,imper,2p}.
+
+{под=PR=} {старый=A=ins,sg,plen,f} {сосна=S,f,inan=ins,sg},
+{где=ADVPRO=} {слабый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)} 
+— {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}: {двое=NUM=(nom|acc,inan)}, {трое=NUM=(nom|acc,inan)} 
+{или=CONJ=} {они=SPRO,pl=(acc|gen)} {вовсе=ADV=} {нет=ADV,praed=}.
+
+{в=PR=} {оцепенение=S,n,inan=abl,sg} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} — 
+{тик-так=INTJ=}. {тик-так=INTJ=}. {тик-так=INTJ=}.
+{и=CONJ=} {вытекать=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {око=S,n,inan=(acc,pl|nom,pl)} 
+{глядеть=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {окрестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрак=S,m,inan=(acc,sg|nom,sg)}.
+
+{на=PR=} {иней=S,m,inan=(acc,sg|nom,sg)}, {иней=S,m,inan=(acc,sg|nom,sg)}, {иней=S,m,inan=(acc,sg|nom,sg)} 
+({или=CONJ=} {они=SPRO,pl=(acc|gen)} {вовсе=ADV=} {нет=ADV,praed=}),
+{на=PR=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{младенческий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рассвет=S,m,inan=(acc,sg|nom,sg)}.

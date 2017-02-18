@@ -1,66 +1,10 @@
-полотенце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-луннозеленый?=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-на=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-окно=S,n,inan=abl,sg
-,_
-на=PR=
-_
-пол=S,m,inan=(dat,sg|loc,sg)
-.\n
-но=CONJ=
-_
-желтый=A=sg,brev,f
-_
-свеча=S,f,inan=nom,sg
-_
-намоленый?=A=nom,sg,plen,f
-\n
-под=PR=
-_
-вереск=S,m,inan=ins,sg
-,_
-там=ADVPRO=
-,_
-в=PR=
-_
-угол=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-протирать=V=inpraes,sg,indic,1p,ipf,tran
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-запотелый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-в=PR=
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-света=S,persn,f,anim=abl,pl
-_
-на=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-писать=V,ipf,tran=inpraes,sg,indic,1p
-...\n
-о=PR=
-_
-зеленый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-желтый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-белый=A=(acc,sg,plen,n|nom,sg,plen,n)
-!\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-выбирать=V=inpraes,sg,indic,1p,pf
-?..\n\t
-что=SPRO,sg,n,inan=(acc|nom)
-_
-решать=V,tran=inpraes,sg,indic,1p,pf
-?\n
+{полотенце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {луннозеленый?=A=(acc,pl,plen,inan|nom,pl,plen)}
+{на=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {окно=S,n,inan=abl,sg}, {на=PR=} {пол=S,m,inan=(dat,sg|loc,sg)}.
+{но=CONJ=} {желтый=A=sg,brev,f} {свеча=S,f,inan=nom,sg} {намоленый?=A=nom,sg,plen,f}
+{под=PR=} {вереск=S,m,inan=ins,sg}, {там=ADVPRO=}, {в=PR=} {угол=S,m,inan=(dat,sg|loc,sg)}.
+
+{протирать=V=inpraes,sg,indic,1p,ipf,tran} {окно=S,n,inan=(acc,sg|nom,sg)} {запотелый=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{в=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {света=S,persn,f,anim=abl,pl} {на=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {писать=V,ipf,tran=inpraes,sg,indic,1p}...
+{о=PR=} {зеленый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {желтый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {белый=A=(acc,sg,plen,n|nom,sg,plen,n)}!
+{что=SPRO,sg,n,inan=(acc|nom)} {выбирать=V=inpraes,sg,indic,1p,pf}?..
+	{что=SPRO,sg,n,inan=(acc|nom)} {решать=V,tran=inpraes,sg,indic,1p,pf}?

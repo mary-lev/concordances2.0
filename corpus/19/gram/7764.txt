@@ -1,100 +1,14 @@
-у=PR=
-_
-мужик=S,m,anim=(acc,sg|gen,sg)
-_\u2014_
-разумный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пес=S,m,anim=nom,sg
-,\n
-у=PR=
-_
-дама=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-глупый=A=nom,sg,plen,f
-_
-болонка=S,f,anim=nom,sg
-.\n
-щенок=S,m,anim=(acc,sg|gen,sg)
-_
-топить=V,ipf,tran=inf
-_
-мальчишка=S,m,anim=nom,sg
-_
-нести=V,ipf,tran=praet,sg,indic,m
-,_\u2014\n
-спасать=V=praet,sg,indic,f,pf
-_
-капризный=A=nom,sg,plen,f
-_
-девчонка=S,f,anim=nom,sg
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-к=PR=
-_
-себя=SPRO=(abl|dat)
-_
-домой=ADV=
-\n
-с=PR=
-_
-внезапно=ADV=
--
-милый=A=ins,sg,plen,f
-_
-собачка=S,f,anim=ins,sg
-;\n
-мальчишка=S,m,anim=nom,sg
-,_
-грязный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-утешать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-скудный=A=ins,sg,plen,f
-_
-подачка=S,f,inan=ins,sg
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-дрогнуть=V,pf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-хижина=S,f,inan=(abl,sg|dat,sg)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-щенок=S,m,anim=nom,sg
-_
-обласкивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-господин=S,m,anim=ins,pl
-.\n
-когда=ADVPRO=
-_
-же=PART=
-_
-становиться=V,intr=inpraes,pl,indic,3p,pf
-_
-у=PR=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-\n
-не=PART=
-_
-пес=S,m,anim=nom,pl
-,_
-а=CONJ=
-_
-человек=S,m,anim=nom,pl
-_
-же=PART=
-_
-друг=S,m,anim=ins,pl
-?\n
+{у=PR=} {мужик=S,m,anim=(acc,sg|gen,sg)} — {разумный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пес=S,m,anim=nom,sg},
+{у=PR=} {дама=S,f,anim=(gen,sg|nom,pl)} — {глупый=A=nom,sg,plen,f} {болонка=S,f,anim=nom,sg}.
+{щенок=S,m,anim=(acc,sg|gen,sg)} {топить=V,ipf,tran=inf} {мальчишка=S,m,anim=nom,sg} {нести=V,ipf,tran=praet,sg,indic,m}, —
+{спасать=V=praet,sg,indic,f,pf} {капризный=A=nom,sg,plen,f} {девчонка=S,f,anim=nom,sg}.
+
+{она=SPRO,sg,3p,f=nom} {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {к=PR=} {себя=SPRO=(abl|dat)} {домой=ADV=}
+{с=PR=} {внезапно=ADV=}-{милый=A=ins,sg,plen,f} {собачка=S,f,anim=ins,sg};
+{мальчишка=S,m,anim=nom,sg}, {грязный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{утешать=V,tran=praet,sg,partcp,brev,m,pf,pass} {скудный=A=ins,sg,plen,f} {подачка=S,f,inan=ins,sg}.
+
+{он=SPRO,sg,3p,m=nom} {дрогнуть=V,pf,intr=inpraes,sg,indic,3p} {в=PR=} {хижина=S,f,inan=(abl,sg|dat,sg)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{щенок=S,m,anim=nom,sg} {обласкивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {господин=S,m,anim=ins,pl}.
+{когда=ADVPRO=} {же=PART=} {становиться=V,intr=inpraes,pl,indic,3p,pf} {у=PR=} {человек=S,m,anim=(acc,pl|gen,pl)}
+{не=PART=} {пес=S,m,anim=nom,pl}, {а=CONJ=} {человек=S,m,anim=nom,pl} {же=PART=} {друг=S,m,anim=ins,pl}?

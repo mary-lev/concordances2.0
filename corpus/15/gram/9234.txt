@@ -1,108 +1,20 @@
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-_
-без=PR=
-_
-нога=S,f,inan=gen,pl
-\n
-цепко=ADV=
-_
-без=PR=
-_
-рука=S,f,inan=gen,pl
-,\n
-уста=S,pl,inan=(acc|nom)
-_
-без=PR=
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-прийти=V,pf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-порог=S,m,inan=(acc,sg|nom,sg)
-,\n
-предвестник=S,m=(ins,sg,anim|ins,sg,inan)
-_
-мука=S,f,inan=gen,pl
-\n
-таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-взор=S,m,inan=ins,sg
-_
-слепой=S,m,anim=(dat,pl|ins,sg)
-\n
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-без=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,\n
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-покидать=V,tran=inpraes,sg,indic,3p,pf
-.\n
-густеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-как=CONJ=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-\n
-темнеть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-стыть=V,ipf=inpraes,sg,indic,3p
-.\n\n
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-_
-без=PR=
-_
-нога=S,f,inan=gen,pl
-,\n
-хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)
-_
-без=PR=
-_
-рука=S,f,inan=gen,pl
-,\n
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-_
-без=PR=
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-доныне=ADV=
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-\n
-ум=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-лукавство=S,n,inan=ins,sg
-_
-наука=S,f,inan=gen,pl
-\n
-избегать=V,intr=inf,pf
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{ходить=V,ipf,intr=inpraes,sg,indic,3p} {без=PR=} {нога=S,f,inan=gen,pl}
+{цепко=ADV=} {без=PR=} {рука=S,f,inan=gen,pl},
+{уста=S,pl,inan=(acc|nom)} {без=PR=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{прийти=V,pf,intr=inpraes,sg,indic,3p} {на=PR=} {порог=S,m,inan=(acc,sg|nom,sg)},
+{предвестник=S,m=(ins,sg,anim|ins,sg,inan)} {мука=S,f,inan=gen,pl}
+{таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {взор=S,m,inan=ins,sg} {слепой=S,m,anim=(dat,pl|ins,sg)}
+{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {без=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {покидать=V,tran=inpraes,sg,indic,3p,pf}.
+{густеть=V,ipf,intr=inpraes,sg,indic,3p} {как=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}
+{темнеть=V,ipf,intr=inpraes,sg,indic,3p}, {стыть=V,ipf=inpraes,sg,indic,3p}.
+
+{ползти=V,ipf,intr=inpraes,sg,indic,3p} {без=PR=} {нога=S,f,inan=gen,pl},
+{хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)} {без=PR=} {рука=S,f,inan=gen,pl},
+{говорить=V,ipf,tran=inpraes,sg,indic,3p} {без=PR=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{и=CONJ=} {доныне=ADV=} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}
+{ум=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {лукавство=S,n,inan=ins,sg} {наука=S,f,inan=gen,pl}
+{избегать=V,intr=inf,pf} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

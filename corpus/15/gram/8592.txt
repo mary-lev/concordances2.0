@@ -1,86 +1,14 @@
-запад=S,geo,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-север=S,m,inan=(acc,sg|nom,sg)
-_
-объять=V,tran=praet,pl,partcp,brev,pf,pass
-\n
-пламень=S,inan=ins,sg,n
-_
-вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-сонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-.\n
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-печальный=A=sg,brev,n
--
-богатый=A=pl,brev
-\n
-день=S,m,inan=gen,sg
-_
-безвозвратно=ADV=
--
-сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-.\n\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-смолкать=V,intr=inpraes,ger,ipf
-,\n
-между=PR=
-_
-лист=S,m,inan=gen,pl
-_
-опадать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-.\n
-с=PR=
-_
-крик=S,m,inan=ins,sg
-_
-проноситься=V,ipf,intr=inpraes,sg,indic,3p
-_
-стая=S,f,inan=nom,sg
-\n
-птица=S,f,anim=(acc,pl|gen,pl)
-,_
-далеко=ADV=
-_
-улетать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-.\n\n
-счастливый=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-мудро=ADV=
-_
-наполнять=V,tran=praet,sg,indic,m,pf
-\n
-хлеб=S,m,inan=ins,sg
-_
-амбар=S,m,inan=(acc,pl|nom,pl)
-_
-укромный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-горе=S,sg,n,inan=(abl|acc|nom)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-труд=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-исполнять=V,tran=praet,sg,indic,m,pf
-,\n
-горе=S,sg,n,inan=(abl|acc|nom)
-_
-вы=SPRO,pl,2p=dat
-,_
-мысль=S,f,inan=ins,pl
-_
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-!\n
+{запад=S,geo,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {север=S,m,inan=(acc,sg|nom,sg)} {объять=V,tran=praet,pl,partcp,brev,pf,pass}
+{пламень=S,inan=ins,sg,n} {вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {сонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}.
+{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {печальный=A=sg,brev,n}-{богатый=A=pl,brev}
+{день=S,m,inan=gen,sg} {безвозвратно=ADV=}-{сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)}.
+
+{ветер=S,m,inan=(acc,sg|nom,sg)} {шуметь=V,ipf,intr=inpraes,sg,indic,3p}, {не=PART=} {смолкать=V,intr=inpraes,ger,ipf},
+{между=PR=} {лист=S,m,inan=gen,pl} {опадать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)}.
+{с=PR=} {крик=S,m,inan=ins,sg} {проноситься=V,ipf,intr=inpraes,sg,indic,3p} {стая=S,f,inan=nom,sg}
+{птица=S,f,anim=(acc,pl|gen,pl)}, {далеко=ADV=} {улетать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)}.
+
+{счастливый=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {мудро=ADV=} {наполнять=V,tran=praet,sg,indic,m,pf}
+{хлеб=S,m,inan=ins,sg} {амбар=S,m,inan=(acc,pl|nom,pl)} {укромный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{горе=S,sg,n,inan=(abl|acc|nom)}, {кто=SPRO,sg,m,anim=nom} {труд=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {исполнять=V,tran=praet,sg,indic,m,pf},
+{горе=S,sg,n,inan=(abl|acc|nom)} {вы=SPRO,pl,2p=dat}, {мысль=S,f,inan=ins,pl} {темный=A=(acc,pl,plen,inan|nom,pl,plen)}!

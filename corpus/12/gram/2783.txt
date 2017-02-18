@@ -1,74 +1,9 @@
-я=SPRO,sg,1p=nom
-_\u2014_
-страница=S,f,inan=nom,sg
-_
-твой=APRO=(dat,sg,m|dat,sg,n)
-_
-перо=S,n,inan=dat,sg
-.\n
-все=SPRO,pl=(acc|nom)
-_
-принимать=V=inpraes,sg,indic,1p,pf
-._
-я=SPRO,sg,1p=nom
-_
-белый=A=nom,sg,plen,f
-_
-страница=S,f,inan=nom,sg
-.\n
-я=SPRO,sg,1p=nom
-_\u2014_
-хранитель=S,m,anim=nom,sg
-_
-твой=APRO=(dat,sg,m|dat,sg,n)
-_
-добро=S,sg,n,inan=dat
-:\n
-возрастить=V,pf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-возвращать=V,tran=inpraes,sg,indic,1p,pf
-_
-сторицей=ADV=
-.\n\n
-я=SPRO,sg,1p=nom
-_\u2014_
-деревня=S,f,inan=nom,sg
-,_
-черный=A=nom,sg,plen,f
-_
-земля=S,f,inan=nom,sg
-.\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_\u2014_
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-дождевой=A=nom,sg,plen,f
-_
-влага=S,f,inan=nom,sg
-.\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-господь=S,sg,m,anim=nom
-_
-и=CONJ=
-_
-господин=S,m,anim=nom,sg
-,_
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_\u2014_\n
-чернозем=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-белый=A=nom,sg,plen,f
-_
-бумага=S,f,inan=nom,sg
-!\n
+{я=SPRO,sg,1p=nom} — {страница=S,f,inan=nom,sg} {твой=APRO=(dat,sg,m|dat,sg,n)} {перо=S,n,inan=dat,sg}.
+{все=SPRO,pl=(acc|nom)} {принимать=V=inpraes,sg,indic,1p,pf}. {я=SPRO,sg,1p=nom} {белый=A=nom,sg,plen,f} {страница=S,f,inan=nom,sg}.
+{я=SPRO,sg,1p=nom} — {хранитель=S,m,anim=nom,sg} {твой=APRO=(dat,sg,m|dat,sg,n)} {добро=S,sg,n,inan=dat}:
+{возрастить=V,pf,tran=inpraes,sg,indic,1p} {и=CONJ=} {возвращать=V,tran=inpraes,sg,indic,1p,pf} {сторицей=ADV=}.
+
+{я=SPRO,sg,1p=nom} — {деревня=S,f,inan=nom,sg}, {черный=A=nom,sg,plen,f} {земля=S,f,inan=nom,sg}.
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} — {луч=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {дождевой=A=nom,sg,plen,f} {влага=S,f,inan=nom,sg}.
+{ты=SPRO,sg,2p=nom} — {господь=S,sg,m,anim=nom} {и=CONJ=} {господин=S,m,anim=nom,sg}, {а=CONJ=} {я=SPRO,sg,1p=nom} — 
+{чернозем=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {белый=A=nom,sg,plen,f} {бумага=S,f,inan=nom,sg}!

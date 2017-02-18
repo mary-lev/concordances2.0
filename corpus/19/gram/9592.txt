@@ -1,88 +1,11 @@
-от=PR=
-_
-шумный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_
-бежать=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-,\n
-в=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-я=SPRO,sg,1p=nom
-_
-скрываться=V,intr=praet,sg,indic,m,pf
-,\n
-себя=SPRO=(acc|gen)
-_
-как=ADVPRO=
-_
-будто=PART=
-_
-погребать=V,tran=praet,sg,indic,m,ipf
-,\n
-и=CONJ=
-_
-от=PR=
-_
-призыв=S,m,inan=gen,sg
-_
-хорониться=V,ipf,intr=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-полюбить=V,pf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_
-глушь=S,f,inan=(acc,sg|nom,sg)
-_
-лес=S,m,inan=gen,pl
-,_
-поле=S,n,inan=gen,pl
-,\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-человек=S,m,anim=dat,pl
-_
-равнодушный=A=sg,brev,m
-,\n
-лишь=PART=
-_
-муза=S,f,anim=(abl,sg|dat,sg)
-_
-искренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-и=CONJ=
-_
-то=PART=
-_
-пора=S,f,inan=ins,sg
-,_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-послушный=A=sg,brev,m
-.\n\n
-и=CONJ=
-_
-понимать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-тогда=ADVPRO=
-\n
+{от=PR=} {шумный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom} {бежать=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)},
+{в=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {я=SPRO,sg,1p=nom} {скрываться=V,intr=praet,sg,indic,m,pf},
+{себя=SPRO=(acc|gen)} {как=ADVPRO=} {будто=PART=} {погребать=V,tran=praet,sg,indic,m,ipf},
+{и=CONJ=} {от=PR=} {призыв=S,m,inan=gen,sg} {хорониться=V,ipf,intr=praet,sg,indic,m}.
+
+{и=CONJ=} {полюбить=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {глушь=S,f,inan=(acc,sg|nom,sg)} {лес=S,m,inan=gen,pl}, {поле=S,n,inan=gen,pl},
+{и=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {к=PR=} {человек=S,m,anim=dat,pl} {равнодушный=A=sg,brev,m},
+{лишь=PART=} {муза=S,f,anim=(abl,sg|dat,sg)} {искренний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{и=CONJ=} {то=PART=} {пора=S,f,inan=ins,sg}, {я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {послушный=A=sg,brev,m}.
+
+{и=CONJ=} {понимать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {тогда=ADVPRO=}

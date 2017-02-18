@@ -1,132 +1,20 @@
-чем=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-луг=S,m,inan=(acc,sg|nom,sg)
-_
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-зеленый=A=sg,brev,m
-,_\n
-весенний=A=ins,pl,plen
-_
-ль=PART=
-_
-трава=S,f,inan=ins,pl
-?\n
-чем=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-мед=S,m,inan=(acc,sg|nom,sg)
-_
-янтарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-хмельной=A=sg,brev,m
-:_\n
-какой=APRO=ins,pl
-_
-отрава=S,f,inan=ins,pl
-?\n
-кто=SPRO,sg,m,anim=ins
-_
-ты=SPRO,sg,2p=nom
-,_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-велить?=V,pf,tran=praet,sg,partcp,brev,m,pass
-:_\n
-судьба=S,f,inan=ins,pl
-_
-ль=CONJ=
-_
-правый=S,m,anim=ins,pl
-?\n\n
-луг=S,m,inan=(acc,sg|nom,sg)
-_
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зелениться=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-под=PR=
-_
-острый=A=ins,pl,plen
-_
-коса=S,f,inan=ins,pl
-;\n
-мед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-сладкий=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-смеситься=V,pf,intr=inf
-_\n
-со=PR=
-_
-скорбный=A=ins,pl,plen
-_
-роса=S,f,inan=ins,pl
-;\n
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-_
-девица=S,f,anim=nom,sg
-_\n
-нога=S,f,inan=ins,pl
-_
-босой=A=ins,pl,plen
-._\n\n
-кто=SPRO,sg,m,anim=nom
-_
-о=PR=
-_
-луга=S,geo,f,inan=(abl,sg|dat,sg)
-_
-новое=S,n,inan=abl,sg
-_
-бредить=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-в=PR=
-_
-свет=S,sg,m,inan=abl
-_
-находиться=V,intr=inpraes,sg,indic,3p,ipf
-;\n
-мед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-нацеживать=V=inpraes,sg,indic,3p,pf
-_\n
-он=SPRO,sg,3p,m=dat
-_
-богородица=S,f,anim=nom,sg
-;\n
-с=PR=
-_
-кто=SPRO,sg,m,anim=ins
-_
-незримый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-всадник=S,m,anim=nom,sg
-_
-ехать=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-верно=ADV,parenth=
-_
-водиться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+{чем=CONJ=} {ты=SPRO,sg,2p=nom}, {луг=S,m,inan=(acc,sg|nom,sg)} {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {зеленый=A=sg,brev,m}, 
+{весенний=A=ins,pl,plen} {ль=PART=} {трава=S,f,inan=ins,pl}?
+{чем=CONJ=} {ты=SPRO,sg,2p=nom}, {мед=S,m,inan=(acc,sg|nom,sg)} {янтарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {хмельной=A=sg,brev,m}: 
+{какой=APRO=ins,pl} {отрава=S,f,inan=ins,pl}?
+{кто=SPRO,sg,m,anim=ins} {ты=SPRO,sg,2p=nom}, {путь=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {велить?=V,pf,tran=praet,sg,partcp,brev,m,pass}: 
+{судьба=S,f,inan=ins,pl} {ль=CONJ=} {правый=S,m,anim=ins,pl}?
+
+{луг=S,m,inan=(acc,sg|nom,sg)} {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зелениться=V,ipf,intr=inpraes,sg,indic,3p} 
+{под=PR=} {острый=A=ins,pl,plen} {коса=S,f,inan=ins,pl};
+{мед=S,m,inan=(dat,sg|part,sg|loc,sg)} {сладкий=A=(dat,sg,plen,m|dat,sg,plen,n)} {смеситься=V,pf,intr=inf} 
+{со=PR=} {скорбный=A=ins,pl,plen} {роса=S,f,inan=ins,pl};
+{в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=inpraes,sg,indic,3p} {со=PR=} {я=SPRO,sg,1p=ins} {девица=S,f,anim=nom,sg} 
+{нога=S,f,inan=ins,pl} {босой=A=ins,pl,plen}. 
+
+{кто=SPRO,sg,m,anim=nom} {о=PR=} {луга=S,geo,f,inan=(abl,sg|dat,sg)} {новое=S,n,inan=abl,sg} {бредить=V,ipf,intr=inpraes,sg,indic,3p},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {свет=S,sg,m,inan=abl} {находиться=V,intr=inpraes,sg,indic,3p,ipf};
+{мед=S,m,inan=(dat,sg|part,sg|loc,sg)} {новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {нацеживать=V=inpraes,sg,indic,3p,pf} 
+{он=SPRO,sg,3p,m=dat} {богородица=S,f,anim=nom,sg};
+{с=PR=} {кто=SPRO,sg,m,anim=ins} {незримый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {всадник=S,m,anim=nom,sg} {ехать=V,ipf,intr=inpraes,sg,indic,3p}, 
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {верно=ADV,parenth=} {водиться=V,ipf,intr=inpraes,sg,indic,3p}.

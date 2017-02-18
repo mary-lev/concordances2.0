@@ -1,203 +1,30 @@
-_________
-чахлый=A=nom,sg,plen,f
-_
-зелень=S,f,inan=(acc,sg|nom,sg)
-,\n_________
-чахлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-человек=S,m,anim=nom,pl
-,\n_________
-слабый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n_________
-слабый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n_________
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-порок=S,m,inan=(acc,sg|nom,sg)
-.\n
-падать=V,ipf,intr=inpraes,sg,indic,2p
-,_
-вновь=ADV=
-_
-подниматься=V,intr=inpraes,sg,indic,2p,ipf
-,\n
-трудиться=V,ipf,intr=inpraes,sg,indic,2p
-,_
-биться=V,ipf,intr=inpraes,sg,indic,2p
-,_
-стараться=V,ipf,intr=inpraes,sg,indic,2p
-,\n\t
-то=CONJ=
-_
-от=PR=
-_
-борьба=S,sg,f,inan=gen
-_
-изнемогать=V,intr=praet,sg,indic,m,pf
-,\n\t
-то=SPRO,sg,n,inan=(acc|nom)
-_
-наслаждаться=V,intr=inpraes,sg,indic,1p,ipf
-_
-весна=S,f,inan=ins,sg
-,\n\t
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-слагать=V,tran=inpraes,sg,indic,1p,ipf
-_
-пора=S,f,inan=ins,sg
-,\n\t
-то=CONJ=
-_
-упасть=V,pf,intr=inpraes,sg,indic,1p
-_
-глубоко=ADV=
-,\n\t
-то=SPRO,sg,n,inan=(acc|nom)
-_
-возноситься=V,intr=inpraes,sg,indic,1p,pf
-_
-высоко=ADV=
-...\n\t
-падать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-падать=V,ipf,intr=inpraes,sg,indic,1p
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-духовный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t\t
-или=CONJ=
-_
-глотать=V,ipf,tran=inpraes,sg,indic,1p
-\n\t\t
-черный=A=acc,sg,plen,f
-_
-грязь=S,f,inan=(acc,sg|nom,sg)
-,\n\t\t
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-ожидать=V,ipf,tran=inpraes,sg,indic,1p
-,\n\t\t
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-бояться=V,ipf,intr=inpraes,ger
-...\n
-где=ADVPRO=
-_
-ж=PART=
-_
-ты=SPRO,sg,2p=nom
-,_
-весна=S,f,inan=nom,sg
-_
-золотой=A=nom,sg,plen,f
-?\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-же=PART=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-не=PART=
-_
-видать=V,ipf,tran=inf
-?\n
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-унывать=V,ipf,intr=inpraes,ger
-,\n
-хотеться=V,ipf,intr=inpraes,indic
-_
-плакать=V,ipf,intr=inf
-,_
-стонать=V,ipf,intr=inf
-!\n
-стон=S,m,inan=(acc,sg|nom,sg)
-_
-вырываться=V,intr=inpraes,sg,indic,3p,ipf
-_
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-как=ADVPRO=
-_
-вы=SPRO,pl,2p=nom
-_
-бы=PART=
-_
-течь=V,ipf,intr=praet,pl,indic
-!\n
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-так=ADVPRO=
-_
-дикий=A=pl,brev
-\n
-голова=S,f,inan=acc,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-бы=PART=
-_
-не=PART=
-_
-жечь=V,ipf,tran=praet,pl,indic
-!\n
-будущность=S,f,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-безотрадный=A=sg,brev,f
-,\n
-детство=S,n,inan=(acc,sg|nom,sg)
-_
-так=ADVPRO=
-_
-глупо=ADV=
-_
-проходить=V,intr=praet,sg,indic,n,pf
-...\n
-да=CONJ=
-,_
-один=APRO=(dat,sg,m|dat,sg,n)
-_
-не=PART=
-_
-повадно=ADV=
-!\n
-слабый=A=pl,brev
-_
-мы=SPRO,pl,1p=nom
-,_\u2014_
-сильно=ADV=
-_
-в=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-зло=ADV=
-.\n
+         {чахлый=A=nom,sg,plen,f} {зелень=S,f,inan=(acc,sg|nom,sg)},
+         {чахлый=A=(acc,pl,plen,inan|nom,pl,plen)} {человек=S,m,anim=nom,pl},
+         {слабый=A=(acc,pl,plen,inan|nom,pl,plen)} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+         {слабый=A=(acc,pl,plen,inan|nom,pl,plen)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+         {смерть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {порок=S,m,inan=(acc,sg|nom,sg)}.
+{падать=V,ipf,intr=inpraes,sg,indic,2p}, {вновь=ADV=} {подниматься=V,intr=inpraes,sg,indic,2p,ipf},
+{трудиться=V,ipf,intr=inpraes,sg,indic,2p}, {биться=V,ipf,intr=inpraes,sg,indic,2p}, {стараться=V,ipf,intr=inpraes,sg,indic,2p},
+	{то=CONJ=} {от=PR=} {борьба=S,sg,f,inan=gen} {изнемогать=V,intr=praet,sg,indic,m,pf},
+	{то=SPRO,sg,n,inan=(acc|nom)} {наслаждаться=V,intr=inpraes,sg,indic,1p,ipf} {весна=S,f,inan=ins,sg},
+	{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {слагать=V,tran=inpraes,sg,indic,1p,ipf} {пора=S,f,inan=ins,sg},
+	{то=CONJ=} {упасть=V,pf,intr=inpraes,sg,indic,1p} {глубоко=ADV=},
+	{то=SPRO,sg,n,inan=(acc|nom)} {возноситься=V,intr=inpraes,sg,indic,1p,pf} {высоко=ADV=}...
+	{падать=V,ipf,intr=inpraes,sg,indic,1p}, {падать=V,ipf,intr=inpraes,sg,indic,1p} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+	{ждать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {духовный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+		{или=CONJ=} {глотать=V,ipf,tran=inpraes,sg,indic,1p}
+		{черный=A=acc,sg,plen,f} {грязь=S,f,inan=(acc,sg|nom,sg)},
+		{жизнь=S,f,inan=(acc,sg|nom,sg)} {ожидать=V,ipf,tran=inpraes,sg,indic,1p},
+		{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бояться=V,ipf,intr=inpraes,ger}...
+{где=ADVPRO=} {ж=PART=} {ты=SPRO,sg,2p=nom}, {весна=S,f,inan=nom,sg} {золотой=A=nom,sg,plen,f}?
+{что=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {ты=SPRO,sg,2p=(acc|gen)} {не=PART=} {видать=V,ipf,tran=inf}?
+{ждать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)}, {унывать=V,ipf,intr=inpraes,ger},
+{хотеться=V,ipf,intr=inpraes,indic} {плакать=V,ipf,intr=inf}, {стонать=V,ipf,intr=inf}!
+{стон=S,m,inan=(acc,sg|nom,sg)} {вырываться=V,intr=inpraes,sg,indic,3p,ipf} {тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {как=ADVPRO=} {вы=SPRO,pl,2p=nom} {бы=PART=} {течь=V,ipf,intr=praet,pl,indic}!
+{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {так=ADVPRO=} {дикий=A=pl,brev}
+{голова=S,f,inan=acc,sg} {я=SPRO,sg,1p=(abl|dat)} {бы=PART=} {не=PART=} {жечь=V,ipf,tran=praet,pl,indic}!
+{будущность=S,f,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {безотрадный=A=sg,brev,f},
+{детство=S,n,inan=(acc,sg|nom,sg)} {так=ADVPRO=} {глупо=ADV=} {проходить=V,intr=praet,sg,indic,n,pf}...
+{да=CONJ=}, {один=APRO=(dat,sg,m|dat,sg,n)} {не=PART=} {повадно=ADV=}!
+{слабый=A=pl,brev} {мы=SPRO,pl,1p=nom}, — {сильно=ADV=} {в=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {зло=ADV=}.

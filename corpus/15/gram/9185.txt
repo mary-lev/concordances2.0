@@ -1,162 +1,24 @@
-о=PR=
-,_
-нет=PART=
-,_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-изменник=S,m,anim=nom,sg
-,\n
-красивый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-.\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пленник=S,m,anim=nom,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-в=PR=
-_
-забытье=S,sg,n,inan=abl
-.\n\n
-но=CONJ=
-,_
-ежели=CONJ=
-_
-с=PR=
-_
-царица=S,f,anim=ins,sg
-\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-и=CONJ=
-_
-царь=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-раб=S,m,anim=nom,sg
-,\n
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-вольная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-птица=S,f,anim=ins,sg
-\n
-из=PR=
-_
-царство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-скользкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-жаба=S,f,anim=(acc,pl|gen,pl)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пленник=S,m,anim=nom,sg
-,\n
-всегда=ADVPRO=
-_
-б=PART=
-_
-склоняться=V,intr=praet,sg,indic,m,ipf
-_
-ниц=ADV=
-,\n
-но=CONJ=
-_
-медлить=V,ipf,intr=inpraes,sg,indic,3p
-_
-лишь=PART=
-_
-изменник=S,m,anim=nom,sg
-\n
-средь=PR=
-_
-изменять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-лицо=S,n,inan=gen,pl
-.\n\n
-но=CONJ=
-_
-медлить=V,ipf,intr=inpraes,sg,indic,3p
-_
-лишь=PART=
-_
-бессильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-окованность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-день=S,m,inan=gen,pl
-,\n
-где=ADVPRO=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-простереться=V,pf,intr=praet,sg,indic,m
-_
-пыльный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-где=ADVPRO=
-_
-больше=ADV=
-_
-нет=ADV,praed=
-_
-стебель=S,m,inan=gen,pl
-.\n\n
-я=SPRO,sg,1p=nom
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-ленник=S,m,anim=nom,sg
-\n
-нецарственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-царица=S,f,anim=(acc,pl|gen,pl)
-.\n
-и=CONJ=
-_
-нет=PART=
-,_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-изменник=S,m,anim=nom,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-птица=S,f,anim=nom,sg
-_
-между=PR=
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-.\n
+{о=PR=}, {нет=PART=}, {я=SPRO,sg,1p=nom} {не=PART=} {изменник=S,m,anim=nom,sg},
+{красивый=A=(acc,pl,plen,inan|nom,pl,plen)} {мой=APRO=(nom,pl|acc,pl,inan)}.
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {вы=SPRO,pl,2p=dat} {верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пленник=S,m,anim=nom,sg},
+{я=SPRO,sg,1p=nom} {ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=praet,sg,indic,m,ipf}, {в=PR=} {забытье=S,sg,n,inan=abl}.
+
+{но=CONJ=}, {ежели=CONJ=} {с=PR=} {царица=S,f,anim=ins,sg}
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {и=CONJ=} {царь=S,m,anim=nom,sg} {и=CONJ=} {раб=S,m,anim=nom,sg},
+{лететь=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {вольная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {птица=S,f,anim=ins,sg}
+{из=PR=} {царство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {скользкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {жаба=S,f,anim=(acc,pl|gen,pl)}.
+
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пленник=S,m,anim=nom,sg},
+{всегда=ADVPRO=} {б=PART=} {склоняться=V,intr=praet,sg,indic,m,ipf} {ниц=ADV=},
+{но=CONJ=} {медлить=V,ipf,intr=inpraes,sg,indic,3p} {лишь=PART=} {изменник=S,m,anim=nom,sg}
+{средь=PR=} {изменять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {лицо=S,n,inan=gen,pl}.
+
+{но=CONJ=} {медлить=V,ipf,intr=inpraes,sg,indic,3p} {лишь=PART=} {бессильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {окованность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {день=S,m,inan=gen,pl},
+{где=ADVPRO=} {путь=S,m,inan=(acc,sg|nom,sg)} {простереться=V,pf,intr=praet,sg,indic,m} {пыльный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{где=ADVPRO=} {больше=ADV=} {нет=ADV,praed=} {стебель=S,m,inan=gen,pl}.
+
+{я=SPRO,sg,1p=nom} {никогда=ADVPRO=} {не=PART=} {ленник=S,m,anim=nom,sg}
+{нецарственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {царица=S,f,anim=(acc,pl|gen,pl)}.
+{и=CONJ=} {нет=PART=}, {я=SPRO,sg,1p=nom} {не=PART=} {изменник=S,m,anim=nom,sg},
+{я=SPRO,sg,1p=nom} {птица=S,f,anim=nom,sg} {между=PR=} {птица=S,f,anim=(acc,pl|gen,pl)}.

@@ -1,62 +1,6 @@
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-хлебушек=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-мука=S,f,inan=nom,sg
-!\n
-кушать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_\u2014_
-дырка=S,f,inan=acc,sg
-_
-от=PR=
-_
-кренделек=S,m,inan=gen,sg
-.\n
-да=PART=
-,_
-на=PR=
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-_
-теперь=ADV=
-_
-большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-с=PR=
-_
-короб=S,m,inan=ins,sg
-_\u2014_
-страшно=ADV=
-,_
-страшно=ADV=comp
-_\u2014_
-с=PR=
-_
-душа=S,f,inan=ins,sg
-!\n
-тыща=S,inform,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-в=PR=
-_
-кубышка=S,f,inan=acc,sg
-,_
-товар=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-в=PR=
-_
-камыш=S,m,inan=(acc,sg|nom,sg)
-...\n
-ну=PART=
-,_
-а=CONJ=
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
--
-то=PART=
-_
-не=PART=
-_
-утаивать=V,tran=inpraes,sg,indic,2p,pf
-!\n
+{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {хлебушек=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {мука=S,f,inan=nom,sg}!
+{кушать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} — {дырка=S,f,inan=acc,sg} {от=PR=} {кренделек=S,m,inan=gen,sg}.
+{да=PART=}, {на=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)} {теперь=ADV=} {большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{с=PR=} {короб=S,m,inan=ins,sg} — {страшно=ADV=}, {страшно=ADV=comp} — {с=PR=} {душа=S,f,inan=ins,sg}!
+{тыща=S,inform,f,inan=(acc,pl|gen,sg|nom,pl)} — {в=PR=} {кубышка=S,f,inan=acc,sg}, {товар=S,m,inan=(acc,sg|nom,sg)} — {в=PR=} {камыш=S,m,inan=(acc,sg|nom,sg)}...
+{ну=PART=}, {а=CONJ=} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}-{то=PART=} {не=PART=} {утаивать=V,tran=inpraes,sg,indic,2p,pf}!

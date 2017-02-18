@@ -1,156 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ли=PART=
-_
-выбирать=V=praet,sg,indic,m,pf
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-рождение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-век=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-царство=S,n,inan=(acc,sg|nom,sg)
-,_
-область=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-,\n
-чтоб=CONJ=
-_
-проходить=V,intr=inf,pf
-_
-сквозь=PR=
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-крещение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-совесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-огонь=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-вода=S,f,inan=gen,pl
-?\n\n
-апокалиптический=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-зверь=S,m,anim=dat,sg
-_\n
-вверженный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-в=PR=
-_
-зиять=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act
-_
-пасть=S,f,inan=(acc,sg|nom,sg)
-,_\n
-пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-глубоко=ADV=comp
-,_
-чем=CONJ=
-_
-возможно=ADV,parenth=
-_
-пасть=V,pf,intr=inf
-,_\n
-в=PR=
-_
-скрежет=S,m,inan=abl,sg
-_
-и=CONJ=
-_
-в=PR=
-_
-смрад=S,m,inan=abl,sg
-_\u2014_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-!\n\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-правота=S,sg,f,inan=acc
-_
-верховный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сила=S,f,inan=gen,pl
-,_\n
-расковывать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-древний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стихия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-из=PR=
-_
-недра=S,pl,inan=gen
-_
-обугливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-говорить=V,ipf,tran=inpraes,sg,indic,1p
-:_\xAB
-ты=SPRO,sg,2p=nom
-_
-правый=A=sg,brev,m
-,_
-что=CONJ=
-_
-так=ADVPRO=
-_
-судить=V,ipf,tran=praet,sg,indic,m
-!\n\n
-надо=ADV,praed=
-_
-до=PR=
-_
-алмазный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-закал=S,m,inan=gen,sg
-_\n
-прокаливать=V,tran=inf,pf
-_
-весь=APRO=acc,sg,f
-_
-толща=S,f,inan=acc,sg
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-если=CONJ=
-_
-ж=PART=
-_
-дрова=S,pl,inan=gen
-_
-в=PR=
-_
-плавильный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-мало=ADV=
-:_\n
-господи=INTJ=
-!_
-вот=PART=
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-\xBB.\n
+{я=SPRO,sg,1p=nom} {не=PART=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {ли=PART=} {выбирать=V=praet,sg,indic,m,pf} {час=S,m,inan=(acc,sg|nom,sg)} {рождение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{век=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {царство=S,n,inan=(acc,sg|nom,sg)}, {область=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {народ=S,m,inan=(acc,sg|nom,sg)},
+{чтоб=CONJ=} {проходить=V,intr=inf,pf} {сквозь=PR=} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {крещение=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{совесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {огонь=S,m,inan=gen,sg} {и=CONJ=} {вода=S,f,inan=gen,pl}?
+
+{апокалиптический=A=(dat,sg,plen,m|dat,sg,plen,n)} {зверь=S,m,anim=dat,sg} 
+{вверженный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {в=PR=} {зиять=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act} {пасть=S,f,inan=(acc,sg|nom,sg)}, 
+{пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {глубоко=ADV=comp}, {чем=CONJ=} {возможно=ADV,parenth=} {пасть=V,pf,intr=inf}, 
+{в=PR=} {скрежет=S,m,inan=abl,sg} {и=CONJ=} {в=PR=} {смрад=S,m,inan=abl,sg} — {верить=V,ipf,intr=inpraes,sg,indic,1p}!
+
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {правота=S,sg,f,inan=acc} {верховный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сила=S,f,inan=gen,pl}, 
+{расковывать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {древний=A=(acc,pl,plen,inan|nom,pl,plen)} {стихия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {из=PR=} {недра=S,pl,inan=gen} {обугливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{говорить=V,ipf,tran=inpraes,sg,indic,1p}: «{ты=SPRO,sg,2p=nom} {правый=A=sg,brev,m}, {что=CONJ=} {так=ADVPRO=} {судить=V,ipf,tran=praet,sg,indic,m}!
+
+{надо=ADV,praed=} {до=PR=} {алмазный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {закал=S,m,inan=gen,sg} 
+{прокаливать=V,tran=inf,pf} {весь=APRO=acc,sg,f} {толща=S,f,inan=acc,sg} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{если=CONJ=} {ж=PART=} {дрова=S,pl,inan=gen} {в=PR=} {плавильный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {мало=ADV=}: 
+{господи=INTJ=}! {вот=PART=} {плоть=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f}».

@@ -1,94 +1,14 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-?_\u2014_
-спичка=S,f,inan=gen,pl
-_
-коробок=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-лучинка=S,f,inan=gen,pl
-_
-из=PR=
-_
-береза=S,f,inan=gen,pl
-?\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-они=SPRO,pl=(acc|gen)
-_
-не=PART=
-_
-замечать=V,tran=inf,pf
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-?\n
-ведь=PART=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-_
-грандиоз?=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-брать=V,ipf,tran=sg,imper,2p
-_
-же=PART=
-,_
-чиркать=V,ipf,tran=sg,imper,2p
-_
-и=CONJ=
-_
-грозить=V,ipf,intr=sg,imper,2p
-,\n
-восторженный=A=sg,brev,m
-,_
-наглый=A=sg,brev,m
-_
-и=CONJ=
-_
-яр=S,m,inan=(acc,sg|nom,sg)
-!\n
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-стезя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-в=PR=
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-пожар=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-огонь=S,m,inan=(acc,sg|nom,sg)
-!_
-огонь=S,m,inan=(acc,sg|nom,sg)
-,_
-природоцап?=S,m,anim=nom,sg
-,\n
-высовывать=V,tran=sg,imper,2p,ipf
-_
-язык=S,m,inan=(acc,sg|nom,sg)
-!\n
-ликовать=V,ipf,intr=sg,imper,2p
-,_
-холоп=S,m,anim=nom,sg
-!_
-оцариться?=V,ipf,intr=sg,imper,2p
-,_
-раб=S,m,anim=nom,sg
-!\n
-ничтожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-ты=SPRO,sg,2p=nom
-_
-большой=A=sg,brev,m
-!\n
+{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)}? — {спичка=S,f,inan=gen,pl} {коробок=S,m,inan=(acc,sg|nom,sg)} —
+{лучинка=S,f,inan=gen,pl} {из=PR=} {береза=S,f,inan=gen,pl}?
+{и=CONJ=} {ты=SPRO,sg,2p=nom} {они=SPRO,pl=(acc|gen)} {не=PART=} {замечать=V,tran=inf,pf} {мочь=V,ipf,intr=praet,sg,indic,m}?
+{ведь=PART=} {это=SPRO,sg,n,inan=(acc|nom)} {ж=PART=} {грандиоз?=S,m,inan=(acc,sg|nom,sg)}!
+
+{брать=V,ipf,tran=sg,imper,2p} {же=PART=}, {чиркать=V,ipf,tran=sg,imper,2p} {и=CONJ=} {грозить=V,ipf,intr=sg,imper,2p},
+{восторженный=A=sg,brev,m}, {наглый=A=sg,brev,m} {и=CONJ=} {яр=S,m,inan=(acc,sg|nom,sg)}!
+{ползти=V,ipf,intr=inpraes,sg,indic,3p} {огонь=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {стезя=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+{в=PR=} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=(abl,sg|dat,sg)} — {пожар=S,m,inan=(acc,sg|nom,sg)}!
+
+{огонь=S,m,inan=(acc,sg|nom,sg)}! {огонь=S,m,inan=(acc,sg|nom,sg)}, {природоцап?=S,m,anim=nom,sg},
+{высовывать=V,tran=sg,imper,2p,ipf} {язык=S,m,inan=(acc,sg|nom,sg)}!
+{ликовать=V,ipf,intr=sg,imper,2p}, {холоп=S,m,anim=nom,sg}! {оцариться?=V,ipf,intr=sg,imper,2p}, {раб=S,m,anim=nom,sg}!
+{ничтожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ты=SPRO,sg,2p=nom} {большой=A=sg,brev,m}!

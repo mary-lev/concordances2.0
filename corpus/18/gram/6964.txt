@@ -1,118 +1,19 @@
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-день=S,m,inan=ins,sg
-_
-беспокойный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-._\n
-город=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-уголь=S,m,inan=(acc,sg|nom,sg)
-,_
-зардеть=V,pf,intr=praet,sg,indic,m
-,\n
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-прерывистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-знойный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_\n
-рдяный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-дыхание=S,n,inan=ins,sg
-_
-тело=S,n,inan=gen,pl
-.\n\n
-плавный=A=pl,brev
-,_
-как=CONJ=
-_
-пение=S,n,inan=(acc,sg|nom,sg)
-_
-хор=S,m,inan=gen,sg
-,\n
-прочь=ADV=
-_
-от=PR=
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-огонь=S,m,inan=gen,pl
-_\n
-выситься=V,ipf,intr=inpraes,pl,indic,3p
-_
-дуга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-собор=S,m,inan=gen,sg
-_
-к=PR=
-_
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n
-пространство=S,n,inan=dat,pl
-_
-ночь=S,f,inan=gen,pl
-.\n\n
-в=PR=
-_
-твердь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сияюще?=ADV=
--
-синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-,\n
-в=PR=
-_
-звездный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-алмазный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-стремительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-линия=S,f,inan=gen,pl
-_\n
-серый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сплетать=V=praet,pl,indic,pf
-.\n\n
-в=PR=
-_
-горний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-взвиваться=V,intr=praet,pl,indic,pf
-_
-громада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-камень=S,m,inan=gen,pl
-..._\n
-птичий=A,plen=(nom,pl|acc,pl,inan)
-_
-упругий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крыло=S,n,inan=(acc,pl|nom,pl)
-_-_\n
-крыло=S,n,inan=(acc,pl|nom,pl)
-_
-у=PR=
-_
-старый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-церковь=S,f,inan=gen,pl
-!\n
+{вечер=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {день=S,m,inan=ins,sg} {беспокойный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}. 
+{город=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {уголь=S,m,inan=(acc,sg|nom,sg)}, {зардеть=V,pf,intr=praet,sg,indic,m},
+{веять=V,ipf,tran=inpraes,sg,indic,3p} {прерывистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {знойный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, 
+{рдяный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дыхание=S,n,inan=ins,sg} {тело=S,n,inan=gen,pl}.
+
+{плавный=A=pl,brev}, {как=CONJ=} {пение=S,n,inan=(acc,sg|nom,sg)} {хор=S,m,inan=gen,sg},
+{прочь=ADV=} {от=PR=} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {огонь=S,m,inan=gen,pl} 
+{выситься=V,ipf,intr=inpraes,pl,indic,3p} {дуга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {собор=S,m,inan=gen,sg} {к=PR=} {светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+{пространство=S,n,inan=dat,pl} {ночь=S,f,inan=gen,pl}.
+
+{в=PR=} {твердь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сияюще?=ADV=}-{синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)},
+{в=PR=} {звездный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {алмазный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {стремительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {линия=S,f,inan=gen,pl} 
+{серый=A=(acc,pl,plen,inan|nom,pl,plen)} {сеть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сплетать=V=praet,pl,indic,pf}.
+
+{в=PR=} {горний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {простор=S,m,inan=(acc,sg|nom,sg)} {без=PR=} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{взвиваться=V,intr=praet,pl,indic,pf} {громада=S,f,inan=(acc,pl|gen,sg|nom,pl)} {камень=S,m,inan=gen,pl}... 
+{птичий=A,plen=(nom,pl|acc,pl,inan)} {упругий=A=(acc,pl,plen,inan|nom,pl,plen)} {крыло=S,n,inan=(acc,pl|nom,pl)} - 
+{крыло=S,n,inan=(acc,pl|nom,pl)} {у=PR=} {старый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {церковь=S,f,inan=gen,pl}!

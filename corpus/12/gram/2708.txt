@@ -1,158 +1,19 @@
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-щеголь=S,m,anim=ins,sg
-_
-наполовину=ADV=
-_
-мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-а=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-нищий=S,m,anim=(dat,pl|ins,sg)
-,_
-по=PR=
-_
-двадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-а=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-._
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-ангел=S,m,anim=ins,sg
-,_
-а=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-черт=S,m,anim=ins,sg
-.\n\n
-встречать=V,tran=inpraes,pl,indic,3p,ipf
--
-провожать=V=inpraes,pl,indic,3p,ipf,tran
-_
-поезд=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-\t
-слушать=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-храм=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-внимательно=ADV=
-_\u2014_
-как=CONJ=
-_
-дама=S,f,anim=(abl,sg|dat,sg)
-_\u2014_\n
-как=CONJ=
-_
-женщина=S,f,anim=(abl,sg|dat,sg)
-_\u2014_
-в=PR=
-_
-широкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-_
-вздыхать=V,intr=inf,pf
-\n
-товарищ=S,m,anim=nom,sg
-_
-младший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-и=CONJ=
-_
-глотать=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-яро=ADV=
-,\n
-расширять=V,tran=praet,ins,pl,partcp,plen,pf,pass
-_
-легкий=A=ins,pl,plen
-_\u2014_
-сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-полуночный=A=acc,sg,plen,f
-_
-муть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-короче=ADV=
-_
-кивать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ангел=S,m,anim=nom,sg
-_
-падший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-когда=CONJ=
-_
-иссякать=V,intr=praet,sg,indic,m,pf
-_
-кощунственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-словарь=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-расставаться=V,intr=inpraes,pl,indic,3p,ipf
-,_
-глядеть=V,ipf,tran=inpraes,ger
-_
-на=PR=
-_
-фонарь=S,m,inan=(acc,sg|nom,sg)
-,\n
-товарищ=S,m,anim=nom,sg
-_
-старший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-товарищ=S,m,anim=nom,sg
-_
-младший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} — {щеголь=S,m,anim=ins,sg} {наполовину=ADV=} {мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{а=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} — {нищий=S,m,anim=(dat,pl|ins,sg)}, {по=PR=} {двадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {говорить=V,ipf,tran=inpraes,sg,indic,3p}, {а=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {дышать=V,ipf,intr=inpraes,sg,indic,3p}. {тот=APRO=(acc,sg,m,inan|nom,sg,m)}
+{быть=V,intr=praet,sg,indic,m,ipf} {ангел=S,m,anim=ins,sg}, {а=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=inpraes,sg,indic,3p} {черт=S,m,anim=ins,sg}.
+
+{встречать=V,tran=inpraes,pl,indic,3p,ipf}-{провожать=V=inpraes,pl,indic,3p,ipf,tran} {поезд=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=}	{слушать=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)} {храм=S,m,inan=abl,sg},
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} — {внимательно=ADV=} — {как=CONJ=} {дама=S,f,anim=(abl,sg|dat,sg)} — 
+{как=CONJ=} {женщина=S,f,anim=(abl,sg|dat,sg)} — {в=PR=} {широкий=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {до=PR=} {конец=S,m,inan=gen,sg} {вздыхать=V,intr=inf,pf}
+{товарищ=S,m,anim=nom,sg} {младший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {и=CONJ=} {глотать=V,ipf,tran=inpraes,sg,indic,3p} — {яро=ADV=},
+{расширять=V,tran=praet,ins,pl,partcp,plen,pf,pass} {легкий=A=ins,pl,plen} — {сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {полуночный=A=acc,sg,plen,f} {муть=S,f,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {короче=ADV=} {кивать=V,ipf,intr=inpraes,sg,indic,3p} {ангел=S,m,anim=nom,sg} {падший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{когда=CONJ=} {иссякать=V,intr=praet,sg,indic,m,pf} {кощунственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {словарь=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {расставаться=V,intr=inpraes,pl,indic,3p,ipf}, {глядеть=V,ipf,tran=inpraes,ger} {на=PR=} {фонарь=S,m,inan=(acc,sg|nom,sg)},
+{товарищ=S,m,anim=nom,sg} {старший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {товарищ=S,m,anim=nom,sg} {младший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.

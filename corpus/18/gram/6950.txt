@@ -1,140 +1,24 @@
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-узор=S,m,inan=abl,pl
-_\n
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-превозмогать=V=inf,pf
-,\n
-а=CONJ=
-_
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-в=PR=
-_
-озеро=S,n,inan=abl,pl
-_\n
-опрокидываться=V,intr=praet,sg,indic,f,pf
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-хотеться=V,ipf,intr=inpraes,indic
-_
-крикнуть=V,pf,intr=inf
-_\n
-в=PR=
-_
-этот=APRO=acc,sg,f
-_
-черный=A=acc,sg,plen,f
-_
-пасть=S,f,inan=(acc,sg|nom,sg)
-,\n
-робкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сердце=S,n,inan=ins,sg
-_
-приникать=V,intr=inf,pf
-,_\n
-чуткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ухо=S,n,inan=ins,sg
-_
-припадать=V,intr=inf,pf
-.\n\n
-и=CONJ=
-_
-идти=V,ipf,intr=inpraes,sg,indic,2p
-_
-и=CONJ=
-_
-не=PART=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,2p
-..._\n
-холодеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-поля=S,persn,f,anim=nom,sg
-.\n
-нет=PART=
-,_
-послушать=V,pf,tran=sg,imper,2p
-..._
-ты=SPRO,sg,2p=nom
-_
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-?_\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-земля=S,f,inan=nom,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-трава=S,f,inan=(abl,sg|dat,sg)
-_
-припадать=V,intr=inpraes,sg,indic,1p,ipf
-.\n
-быть=V,intr=inf,ipf
-_
-твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-навсегда=ADV=
-...\n\xAB
-знать=V,ipf,tran=inpraes,sg,indic,1p
-..._
-знать=V,ipf,tran=inpraes,sg,indic,1p
-..._
-все=SPRO,pl=(acc|nom)
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-\xBB,_\u2014_\n
-шептать=V,ipf,tran=inpraes,sg,indic,3p
-_
-вода=S,f,inan=nom,sg
-.\n\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-темный=A=sg,brev,f
-_
-и=CONJ=
-_
-беззвездный=A=sg,brev,f
-._\n
-кто-то=SPRO,sg,m,anim=nom
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-,_\n
-опрокидывать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-бездна=S,f,inan=nom,sg
-_\n
-на=PR=
-_
-вода=S,f,inan=abl,pl
-_
-и=CONJ=
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-...\n
+{небо=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {тонкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {узор=S,m,inan=abl,pl} 
+{хотеть=V,ipf,tran=inpraes,sg,indic,3p} {день=S,m,inan=(acc,sg|nom,sg)} {превозмогать=V=inf,pf},
+{а=CONJ=} {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {в=PR=} {озеро=S,n,inan=abl,pl} 
+{опрокидываться=V,intr=praet,sg,indic,f,pf} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+
+{что-то=SPRO,sg,n,inan=(acc|nom)} {хотеться=V,ipf,intr=inpraes,indic} {крикнуть=V,pf,intr=inf} 
+{в=PR=} {этот=APRO=acc,sg,f} {черный=A=acc,sg,plen,f} {пасть=S,f,inan=(acc,sg|nom,sg)},
+{робкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сердце=S,n,inan=ins,sg} {приникать=V,intr=inf,pf}, 
+{чуткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ухо=S,n,inan=ins,sg} {припадать=V,intr=inf,pf}.
+
+{и=CONJ=} {идти=V,ipf,intr=inpraes,sg,indic,2p} {и=CONJ=} {не=PART=} {дышать=V,ipf,intr=inpraes,sg,indic,2p}... 
+{холодеть=V,ipf,intr=inpraes,pl,indic,3p} {поля=S,persn,f,anim=nom,sg}.
+{нет=PART=}, {послушать=V,pf,tran=sg,imper,2p}... {ты=SPRO,sg,2p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,2p}? 
+{это=SPRO,sg,n,inan=(acc|nom)} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {земля=S,f,inan=nom,sg}.
+
+{я=SPRO,sg,1p=nom} {к=PR=} {трава=S,f,inan=(abl,sg|dat,sg)} {припадать=V,intr=inpraes,sg,indic,1p,ipf}.
+{быть=V,intr=inf,ipf} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {навсегда=ADV=}...
+«{знать=V,ipf,tran=inpraes,sg,indic,1p}... {знать=V,ipf,tran=inpraes,sg,indic,1p}... {все=SPRO,pl=(acc|nom)} {знать=V,ipf,tran=inpraes,sg,indic,1p}», — 
+{шептать=V,ipf,tran=inpraes,sg,indic,3p} {вода=S,f,inan=nom,sg}.
+
+{ночь=S,f,inan=(acc,sg|nom,sg)} {темный=A=sg,brev,f} {и=CONJ=} {беззвездный=A=sg,brev,f}. 
+{кто-то=SPRO,sg,m,anim=nom} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {во=PR=} {сон=S,m,inan=abl,sg}, 
+{опрокидывать=V,tran=praet,sg,partcp,brev,f,pf,pass} {бездна=S,f,inan=nom,sg} 
+{на=PR=} {вода=S,f,inan=abl,pl} {и=CONJ=} {во=PR=} {я=SPRO,sg,1p=(abl|dat)}...

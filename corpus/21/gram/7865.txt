@@ -1,90 +1,14 @@
-нет=PART=
-,_
-больше=ADV=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-смотреть=V,ipf,tran=inf
-_
-я=SPRO,sg,1p=nom
-\n\t
-туда=ADVPRO=
-,_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-!\n
-о=INTJ=
-,_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-горький=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-предсмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\u2014\n\t
-к=PR=
-_
-что=SPRO,sg,n,inan=dat
-_
-оно=SPRO,sg,3p,n=nom
-?\n\n
-во=PR=
-_
-все=SPRO,pl=dat
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-:_\xAB
-разлука=S,f,inan=(abl,sg|dat,sg)
-\n\t
-ты=SPRO,sg,2p=nom
-_
-обреченный=A=sg,brev,m
-!\xBB\n
-как=ADVPRO=
-_
-нежно=ADV=
-_
-в=PR=
-_
-наш=APRO=(abl,sg,m|abl,sg,n)
-_
-переулок=S,m,inan=abl,sg
-\n\t
-желтеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-клен=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-ни=CONJ=
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-вокруг=ADV=
-,_
-ни=PART=
-_
-стук=S,m,inan=gen,sg
-,\n\t
-все=ADV=
-_
-тот=APRO=nom,sg,f
-_
-же=PART=
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-...\n
-а=CONJ=
-_
-все-таки=PART=
-_
-пора=S,f,inan=ins,sg
-_
-жутко=ADV=
-,\n\t
-пора=S,f,inan=ins,sg
-_
-жаль=ADV,praed=
-.\n
+{нет=PART=}, {больше=ADV=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {смотреть=V,ipf,tran=inf} {я=SPRO,sg,1p=nom}
+	{туда=ADVPRO=}, {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}!
+{о=INTJ=}, {это=SPRO,sg,n,inan=(acc|nom)} {горький=A=(acc,sg,plen,n|nom,sg,plen,n)} {предсмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, —
+	{к=PR=} {что=SPRO,sg,n,inan=dat} {оно=SPRO,sg,3p,n=nom}?
+
+{во=PR=} {все=SPRO,pl=dat} {один=APRO=(acc,sg,n|nom,sg,n)} {звучать=V,ipf,intr=inpraes,sg,indic,3p}: «{разлука=S,f,inan=(abl,sg|dat,sg)}
+	{ты=SPRO,sg,2p=nom} {обреченный=A=sg,brev,m}!»
+{как=ADVPRO=} {нежно=ADV=} {в=PR=} {наш=APRO=(abl,sg,m|abl,sg,n)} {переулок=S,m,inan=abl,sg}
+	{желтеть=V,ipf,intr=inpraes,sg,indic,3p} {клен=S,m,inan=(acc,sg|nom,sg)}!
+
+{ни=CONJ=} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} {вокруг=ADV=}, {ни=PART=} {стук=S,m,inan=gen,sg},
+	{все=ADV=} {тот=APRO=nom,sg,f} {же=PART=} {даль=S,f,inan=(acc,sg|nom,sg)}...
+{а=CONJ=} {все-таки=PART=} {пора=S,f,inan=ins,sg} {жутко=ADV=},
+	{пора=S,f,inan=ins,sg} {жаль=ADV,praed=}.

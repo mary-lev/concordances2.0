@@ -1,136 +1,20 @@
-я=SPRO,sg,1p=(acc|gen)
-_
-отронивать?=V,tran=inpraes,sg,indic,3p,pf
-_
-марсельезий?=S,m,inan=gen,sg
-,\n
-как=CONJ=
-_
-президентный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-царь=S,m,anim=(acc,sg|gen,sg)
-!\n
-мой=APRO=nom,sg,f
-_
-блестящий=A=nom,sg,plen,f
-_
-поэзия=S,f,inan=nom,sg
-\n
-сверкнуть=V,pf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-вешний=A=nom,sg,plen,f
-_
-заря=S,f,inan=nom,sg
-!\n
-париж=S,geo,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-даже=PART=
-_
-полинезия=S,f,inan=nom,sg
-\n
-вздрожать?=V,ipf,intr=inpraes,pl,indic,3p
-,_
-я=SPRO,sg,1p=(abl|dat)
-_
-слава=S,f,inan=acc,sg
-_
-воззарь?=S,m,anim=(acc,sg|gen,sg)
-!\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-_
-серебряно=ADV=
--
-брильянтовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-живительный=A=sg,brev,m
-,_
-как=CONJ=
-_
-кислород=S,m,inan=(acc,sg|nom,sg)
-.\n\xAB
-о=PR=
-_
-гениальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_
-о=PR=
-_
-талантливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\xBB_\u2014\n
-я=SPRO,sg,1p=(abl|dat)
-_
-возгреметь=V,pf,intr=inpraes,sg,indic,3p
-_
-хвала=S,f,inan=acc,sg
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-пить=V,ipf,tran=inf
-_
-ликер=S,m,inan=(acc,sg|nom,sg)
-_
-гранатовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-за=PR=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ликующий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-восход=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-пусть=PART=
-_
-на=PR=
-_
-турнир=S,m,inan=abl,pl
-_
-словоборчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-стих=S,m,inan=gen,sg
-_
-титан=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-крот=S,m,anim=nom,pl
-\n
-берлинство?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-лондонство?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-нью=A,reserved=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim)
--
-йорчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-я=SPRO,sg,1p=(acc|gen)
-_
-сражать=V=inf,pf
-_
-раскрывать=V=inpraes,pl,indic,3p,pf
-_
-рот=S,m,inan=(acc,pl|nom,pl)
-:\n
-я=SPRO,sg,1p=nom
-_\u2014_
-я=SPRO,sg,1p=nom
-!_
-значение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-эготворчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-плод=S,m,inan=(acc,sg|nom,sg)
-_
-искушенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{я=SPRO,sg,1p=(acc|gen)} {отронивать?=V,tran=inpraes,sg,indic,3p,pf} {марсельезий?=S,m,inan=gen,sg},
+{как=CONJ=} {президентный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {царь=S,m,anim=(acc,sg|gen,sg)}!
+{мой=APRO=nom,sg,f} {блестящий=A=nom,sg,plen,f} {поэзия=S,f,inan=nom,sg}
+{сверкнуть=V,pf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {вешний=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}!
+{париж=S,geo,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {даже=PART=} {полинезия=S,f,inan=nom,sg}
+{вздрожать?=V,ipf,intr=inpraes,pl,indic,3p}, {я=SPRO,sg,1p=(abl|dat)} {слава=S,f,inan=acc,sg} {воззарь?=S,m,anim=(acc,sg|gen,sg)}!
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {стих=S,m,inan=(acc,sg|nom,sg)} {серебряно=ADV=}-{брильянтовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{живительный=A=sg,brev,m}, {как=CONJ=} {кислород=S,m,inan=(acc,sg|nom,sg)}.
+«{о=PR=} {гениальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! {о=PR=} {талантливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!» —
+{я=SPRO,sg,1p=(abl|dat)} {возгреметь=V,pf,intr=inpraes,sg,indic,3p} {хвала=S,f,inan=acc,sg} {народ=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {пить=V,ipf,tran=inf} {ликер=S,m,inan=(acc,sg|nom,sg)} {гранатовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{за=PR=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ликующий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {восход=S,m,inan=(acc,sg|nom,sg)}.
+
+{пусть=PART=} {на=PR=} {турнир=S,m,inan=abl,pl} {словоборчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{стих=S,m,inan=gen,sg} {титан=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {крот=S,m,anim=nom,pl}
+{берлинство?=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {лондонство?=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {нью=A,reserved=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim)}-{йорчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{я=SPRO,sg,1p=(acc|gen)} {сражать=V=inf,pf} {раскрывать=V=inpraes,pl,indic,3p,pf} {рот=S,m,inan=(acc,pl|nom,pl)}:
+{я=SPRO,sg,1p=nom} — {я=SPRO,sg,1p=nom}! {значение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {эготворчество?=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{плод=S,m,inan=(acc,sg|nom,sg)} {искушенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

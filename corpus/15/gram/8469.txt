@@ -1,104 +1,14 @@
-прекрасный=A=pl,brev
-_
-улица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-толпа=S,f,inan=ins,sg
-,\n
-волшебный=A=sg,brev,m
-_
-праздничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-наряд=S,m,inan=(acc,sg|nom,sg)
-.\n
-но=CONJ=
-_
-как=CONJ=
-_
-прекрасно=ADV=comp
-_\u2014_
-быть=V,intr=inf,ipf
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,\n
-ронять=V,ipf,tran=inpraes,ger
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-прекрасно=ADV=
-,_
-кончать=V,tran=praet,ger,pf
-_
-смелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бой=S,m,inan=(acc,sg|nom,sg)
-,\n
-упиваться=V,intr=inf,pf
-_
-нега=S,f,inan=ins,sg
-_
-тишина=S,sg,f,inan=gen
-.\n
-но=CONJ=
-_
-как=CONJ=
-_
-прекрасно=ADV=comp
-_\u2014_
-быть=V,intr=inf,ipf
-_
-мольба=S,f,inan=ins,sg
-,\n
-быть=V,intr=inf,ipf
-_
-крик=S,m,inan=ins,sg
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-прекрасный=A=sg,brev,m
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-но=CONJ=
-_
-как=CONJ=
-_
-прекрасно=ADV=comp
-_\u2014_
-в=PR=
-_
-яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-\n
-увидеть=V,pf,tran=inf
-_
-близко=ADV=
-_
-пред=PR=
-_
-себя=SPRO=ins
-\n
-зрачок=S,m,inan=(acc,pl|nom,pl)
-_
-влюблять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-женский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n
+{прекрасный=A=pl,brev} {улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {толпа=S,f,inan=ins,sg},
+{волшебный=A=sg,brev,m} {праздничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {наряд=S,m,inan=(acc,sg|nom,sg)}.
+{но=CONJ=} {как=CONJ=} {прекрасно=ADV=comp} — {быть=V,intr=inf,ipf} {с=PR=} {ты=SPRO,sg,2p=ins},
+{ронять=V,ipf,tran=inpraes,ger} {взгляд=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взгляд=S,m,inan=(acc,sg|nom,sg)}.
+
+{прекрасно=ADV=}, {кончать=V,tran=praet,ger,pf} {смелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бой=S,m,inan=(acc,sg|nom,sg)},
+{упиваться=V,intr=inf,pf} {нега=S,f,inan=ins,sg} {тишина=S,sg,f,inan=gen}.
+{но=CONJ=} {как=CONJ=} {прекрасно=ADV=comp} — {быть=V,intr=inf,ipf} {мольба=S,f,inan=ins,sg},
+{быть=V,intr=inf,ipf} {крик=S,m,inan=ins,sg} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{прекрасный=A=sg,brev,m} {сумрак=S,m,inan=(acc,sg|nom,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{но=CONJ=} {как=CONJ=} {прекрасно=ADV=comp} — {в=PR=} {яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}
+{увидеть=V,pf,tran=inf} {близко=ADV=} {пред=PR=} {себя=SPRO=ins}
+{зрачок=S,m,inan=(acc,pl|nom,pl)} {влюблять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {женский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.

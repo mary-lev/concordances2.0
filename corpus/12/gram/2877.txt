@@ -1,55 +1,9 @@
-\xAB
-поцеловать=V,pf,tran=pl,imper,2p
-_
-дочка=S,f,anim=acc,sg
-!\xBB\n
-вот=PART=
-_
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-._\u2014_
-как=ADVPRO=
-_
-скупо=ADV=
-!_\u2014_\n
-быть=V,intr=inf,ipf
-_
-несчастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-глупо=ADV=
-.\n
-значит=ADV,parenth=
-,_
-ставить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-точка=S,f,inan=acc,sg
-.\n\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-у=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-бы=PART=
-_
-малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-мальчик=S,m,anim=nom,sg
-,_
-сын=S,m,anim=nom,sg
-_
-единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_\n
-я=SPRO,sg,1p=nom
-_
-бы=PART=
-_
-вы=SPRO,pl,2p=dat
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:\n\xAB
-поцеловать=V,pf,tran=pl,imper,2p
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-!\xBB\n
+«{поцеловать=V,pf,tran=pl,imper,2p} {дочка=S,f,anim=acc,sg}!»
+{вот=PART=} {и=CONJ=} {все=SPRO,pl=(acc|nom)}. — {как=ADVPRO=} {скупо=ADV=}! — 
+{быть=V,intr=inf,ipf} {несчастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {глупо=ADV=}.
+{значит=ADV,parenth=}, {ставить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {точка=S,f,inan=acc,sg}.
+
+{быть=V,intr=praet,sg,indic,m,ipf} {у=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {бы=PART=} {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{мальчик=S,m,anim=nom,sg}, {сын=S,m,anim=nom,sg} {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — 
+{я=SPRO,sg,1p=nom} {бы=PART=} {вы=SPRO,pl,2p=dat} {сказать=V,pf,tran=praet,sg,indic,f}:
+«{поцеловать=V,pf,tran=pl,imper,2p} {сын=S,m,anim=(acc,sg|gen,sg)}!»

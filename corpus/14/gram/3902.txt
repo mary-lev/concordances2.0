@@ -1,80 +1,10 @@
-пустой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-небо=S,n,inan=gen,pl
-_
-прозрачный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-стекло=S,n,inan=(acc,sg|nom,sg)
-,_\n
-большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тюрьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-белесый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-строение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-ход=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-крестный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-торжественный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-над=PR=
-_
-волхов=S,geo,m,inan=ins,sg
-,_
-синеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-светло=ADV=
-.\n\n
-сентябрьский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вихорь=S,m,inan=(acc,sg|nom,sg)
-,_
-лист=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свевать=V,tran=praet,ger,pf
-,\n
-кричать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-метаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-среди=PR=
-_
-ветвь=S,f,inan=gen,pl
-,\n
-а=CONJ=
-_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-помнить=V,ipf,tran=inpraes,sg,indic,3p
-_
-о=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-:\n
-здесь=ADVPRO=
-_
-марфа=S,persn,f,anim=nom,sg
-_
-правило=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-правило=S,n,inan=gen,pl
-_
-аракчеев=S,famn,m,anim=nom,sg
-.\n\n
+{пустой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl} {прозрачный=A=(acc,sg,plen,n|nom,sg,plen,n)} {стекло=S,n,inan=(acc,sg|nom,sg)}, 
+{большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тюрьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {белесый=A=(acc,sg,plen,n|nom,sg,plen,n)} {строение=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{и=CONJ=} {ход=S,m,inan=(acc,pl|gen,sg|nom,pl)} {крестный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {торжественный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пение=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{над=PR=} {волхов=S,geo,m,inan=ins,sg}, {синеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {светло=ADV=}.
+
+{сентябрьский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вихорь=S,m,inan=(acc,sg|nom,sg)}, {лист=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свевать=V,tran=praet,ger,pf},
+{кричать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {метаться=V,ipf,intr=inpraes,sg,indic,3p} {среди=PR=} {ветвь=S,f,inan=gen,pl},
+{а=CONJ=} {город=S,m,inan=(acc,sg|nom,sg)} {помнить=V,ipf,tran=inpraes,sg,indic,3p} {о=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}:
+{здесь=ADVPRO=} {марфа=S,persn,f,anim=nom,sg} {правило=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {правило=S,n,inan=gen,pl} {аракчеев=S,famn,m,anim=nom,sg}.
+

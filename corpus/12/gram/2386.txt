@@ -1,136 +1,19 @@
-меж=PR=
-_
-великан=S,m,anim=(acc,pl|gen,pl)
--
-сосед=S,m,anim=(acc,pl|gen,pl)
-,_
-как=CONJ=
-_
-гномик=S,m,anim=nom,sg
-\n
-он=SPRO,sg,3p,m=nom
-_
-удивляться=V,intr=praet,sg,indic,m,ipf
-_
-все=SPRO,sg,n,inan=dat
-.\n
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-домик=S,m,inan=(acc,sg|nom,sg)
-,\n
-чем=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-мешать=V,ipf,intr=praet,sg,indic,m
-_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-?\n\n
-чуть=ADV=
-_
-потемнеть=V,pf,intr=inpraes,sg,indic,3p
-,_
-в=PR=
-_
-закрытый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ставня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-тихо=ADV=
-_
-стучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-волшебство=S,sg,n,inan=(acc|nom)
-.\n
-домик=S,m,inan=(acc,sg|nom,sg)
-_
-смиренный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-давний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-что=SPRO,sg,n,inan=(abl|ins)
-_
-ты=SPRO,sg,2p=nom
-_
-смущать=V,tran=praet,sg,indic,m,pf
-_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=(acc|gen)
-?\n\n
-там=ADVPRO=
-_
-засмеяться=V,pf,intr=inpraes,pl,indic,3p
-,_
-мы=SPRO,pl,1p=nom
-_
-смех=S,m,inan=(dat,sg|part,sg)
-_
-отвечать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-.\n
-фея=S,f,anim=nom,sg
-_
-открывать=V=inpraes,sg,indic,3p,pf
-_
-эдем=S,m,inan=(acc,sg|nom,sg)
-...\n
-домик=S,m,inan=(acc,sg|nom,sg)
-,_
-понятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лишь=PART=
-_
-ребенок=S,m,anim=dat,pl
-,\n
-чем=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-грешить=V,ipf,intr=praet,sg,indic,m
-,_
-перед=PR=
-_
-кто=SPRO,sg,m,anim=ins
-?\n\n
-хороший=A=(acc,pl,plen,supr,inan|nom,pl,plen,supr)
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-погребать=V,tran=praet,pl,indic,pf
-_
-мы=SPRO,pl,1p=nom
-,\n
-фея=S,f,anim=(gen,sg|nom,pl)
-_
-нырнуть=V,pf,intr=praet,pl,indic
-_
-во=PR=
-_
-тьма=S,f,inan=acc,sg
-...\n
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-домик=S,m,inan=(acc,sg|nom,sg)
-_
-любимый=S,m,anim=nom,sg
-,\n
-чем=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-мешать=V,ipf,intr=praet,sg,indic,m
-_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-?\n
+{меж=PR=} {великан=S,m,anim=(acc,pl|gen,pl)}-{сосед=S,m,anim=(acc,pl|gen,pl)}, {как=CONJ=} {гномик=S,m,anim=nom,sg}
+{он=SPRO,sg,3p,m=nom} {удивляться=V,intr=praet,sg,indic,m,ipf} {все=SPRO,sg,n,inan=dat}.
+{маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {домик=S,m,inan=(acc,sg|nom,sg)},
+{чем=CONJ=} {он=SPRO,sg,3p,m=nom} {мешать=V,ipf,intr=praet,sg,indic,m} {и=CONJ=} {кто=SPRO,sg,m,anim=dat}?
+
+{чуть=ADV=} {потемнеть=V,pf,intr=inpraes,sg,indic,3p}, {в=PR=} {закрытый=A=(acc,pl,plen,inan|nom,pl,plen)} {ставня=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{тихо=ADV=} {стучать=V,ipf,intr=inpraes,sg,indic,3p} {волшебство=S,sg,n,inan=(acc|nom)}.
+{домик=S,m,inan=(acc,sg|nom,sg)} {смиренный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {давний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{что=SPRO,sg,n,inan=(abl|ins)} {ты=SPRO,sg,2p=nom} {смущать=V,tran=praet,sg,indic,m,pf} {и=CONJ=} {кто=SPRO,sg,m,anim=(acc|gen)}?
+
+{там=ADVPRO=} {засмеяться=V,pf,intr=inpraes,pl,indic,3p}, {мы=SPRO,pl,1p=nom} {смех=S,m,inan=(dat,sg|part,sg)} {отвечать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
+{фея=S,f,anim=nom,sg} {открывать=V=inpraes,sg,indic,3p,pf} {эдем=S,m,inan=(acc,sg|nom,sg)}...
+{домик=S,m,inan=(acc,sg|nom,sg)}, {понятный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лишь=PART=} {ребенок=S,m,anim=dat,pl},
+{чем=CONJ=} {ты=SPRO,sg,2p=nom} {грешить=V,ipf,intr=praet,sg,indic,m}, {перед=PR=} {кто=SPRO,sg,m,anim=ins}?
+
+{хороший=A=(acc,pl,plen,supr,inan|nom,pl,plen,supr)} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {с=PR=} {он=SPRO,sg,3p,m=ins} {погребать=V,tran=praet,pl,indic,pf} {мы=SPRO,pl,1p=nom},
+{фея=S,f,anim=(gen,sg|nom,pl)} {нырнуть=V,pf,intr=praet,pl,indic} {во=PR=} {тьма=S,f,inan=acc,sg}...
+{маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {домик=S,m,inan=(acc,sg|nom,sg)} {любимый=S,m,anim=nom,sg},
+{чем=CONJ=} {ты=SPRO,sg,2p=nom} {мешать=V,ipf,intr=praet,sg,indic,m} {и=CONJ=} {кто=SPRO,sg,m,anim=dat}?

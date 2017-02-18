@@ -1,178 +1,24 @@
-мы=SPRO,pl,1p=nom
-_
-идти=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-золотистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-туман=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-выходить=V,intr=inf,pf
-_
-на=PR=
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,pl,indic
-,\n
-тонуть=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-немой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-океан=S,m,inan=abl,sg
-,\n
-как=ADVPRO=
-_
-тонуть=V,ipf,intr=inpraes,pl,indic,3p
-_
-во=PR=
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-корабль=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-мы=SPRO,pl,1p=dat
-_
-сниться=V,ipf,intr=praet,pl,indic
-_
-видение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-рая=S,persn,f,anim=nom,sg
-,\n
-чужой=A,plen=(nom,pl|acc,pl,inan)
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-луг=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-прочь=ADV=
-_
-от=PR=
-_
-родимый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-иной=APRO=(nom,pl|acc,pl,inan)
-_
-влечь=V,ipf,tran=praet,pl,indic
-_
-берег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-стремиться=V,ipf,intr=inpraes,ger
-_
-ускользать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)
-_
-взгляд=S,m,inan=ins,sg
-\n
-к=PR=
-_
-предел=S,m,inan=dat,pl
-_
-безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-дышать=V,ipf,intr=praet,pl,indic
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-мы=SPRO,pl,1p=nom
-_
-рядом=ADV=
-,\n
-но=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-как=ADVPRO=
-_
-будто=PART=
-_
-вдали=ADV=
-.\n\n
-и=CONJ=
-_
-лгать=V,ipf,intr=praet,pl,indic
-_
-мы=SPRO,pl,1p=dat
-_
-ветер=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-смеяться=V,ipf,intr=praet,pl,indic
-_
-извив=S,m,inan=(acc,pl|nom,pl)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-так=ADVPRO=
-_
-странно=ADV=
-_
-певучий=A=pl,brev
-\n
-беззвучный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-смутный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-бесконечно=ADV=
-_
-тонуть=V,ipf,intr=praet,pl,indic
-,\n
-стремяся?=S,persn,f,anim=nom,sg
-_
-от=PR=
-_
-влага=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_\u2014\n
-и=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-печально=ADV=
-_
-шепнуть=V,pf,tran=praet,pl,indic
-,\n
-что=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-утопать=V,intr=praet,pl,indic,pf
-_
-во=PR=
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-.\n
+{мы=SPRO,pl,1p=nom} {идти=V,ipf,intr=praet,pl,indic} {в=PR=} {золотистый=A=(abl,sg,plen,m|abl,sg,plen,n)} {туман=S,m,inan=abl,sg},
+{и=CONJ=} {выходить=V,intr=inf,pf} {на=PR=} {свет=S,sg,m,inan=(acc|nom)} {не=PART=} {мочь=V,ipf,intr=praet,pl,indic},
+{тонуть=V,ipf,intr=praet,pl,indic} {в=PR=} {немой=A=(abl,sg,plen,m|abl,sg,plen,n)} {океан=S,m,inan=abl,sg},
+{как=ADVPRO=} {тонуть=V,ipf,intr=inpraes,pl,indic,3p} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)} {корабль=S,m,inan=(acc,pl|nom,pl)}.
+
+{мы=SPRO,pl,1p=dat} {сниться=V,ipf,intr=praet,pl,indic} {видение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {рая=S,persn,f,anim=nom,sg},
+{чужой=A,plen=(nom,pl|acc,pl,inan)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {прочь=ADV=} {от=PR=} {родимый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{иной=APRO=(nom,pl|acc,pl,inan)} {влечь=V,ipf,tran=praet,pl,indic} {берег=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{стремиться=V,ipf,intr=inpraes,ger} {ускользать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)} {взгляд=S,m,inan=ins,sg}
+{к=PR=} {предел=S,m,inan=dat,pl} {безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{дышать=V,ipf,intr=praet,pl,indic} {с=PR=} {ты=SPRO,sg,2p=ins} {мы=SPRO,pl,1p=nom} {рядом=ADV=},
+{но=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {как=ADVPRO=} {будто=PART=} {вдали=ADV=}.
+
+{и=CONJ=} {лгать=V,ipf,intr=praet,pl,indic} {мы=SPRO,pl,1p=dat} {ветер=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{смеяться=V,ipf,intr=praet,pl,indic} {извив=S,m,inan=(acc,pl|nom,pl)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {быть=V,intr=praet,pl,indic,ipf} {так=ADVPRO=} {странно=ADV=} {певучий=A=pl,brev}
+{беззвучный=A=(acc,pl,plen,inan|nom,pl,plen)} {смутный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)}.
+
+{и=CONJ=} {мы=SPRO,pl,1p=nom} {бесконечно=ADV=} {тонуть=V,ipf,intr=praet,pl,indic},
+{стремяся?=S,persn,f,anim=nom,sg} {от=PR=} {влага=S,f,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} —
+{и=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {печально=ADV=} {шепнуть=V,pf,tran=praet,pl,indic},
+{что=CONJ=} {мы=SPRO,pl,1p=nom} {утопать=V,intr=praet,pl,indic,pf} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)}.

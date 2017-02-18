@@ -1,278 +1,36 @@
-там=ADVPRO=
-_
-на=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-океан=S,m,inan=abl,sg
-,\n
-там=ADVPRO=
-_
-на=PR=
-_
-остров=S,m,inan=abl,sg
-_
-буян=S,m,inan=abl,sg
-,\n
-светить=V,ipf,intr=inf
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-алатырь=S,geo,m,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-кругом=ADV=
-_
-и=CONJ=
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-ширь=S,f,inan=(acc,sg|nom,sg)
-.\n
-на=PR=
-_
-огонь=S,m,inan=abl,sg
-_
-там=PART=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-доска=S,f,inan=nom,sg
-,\n
-на=PR=
-_
-доска=S,f,inan=(abl,sg|dat,sg)
-_
-лежать=V,ipf,intr=inpraes,sg,indic,3p
-_
-тоска=S,f,inan=nom,sg
-,\n
-не=PART=
-_
-один=APRO=nom,sg,f
-_
-тоска=S,f,inan=nom,sg
-,_
-смотреть=V,ipf,tran=sg,imper,2p
-,\n
-не=PART=
-_
-один=ANUM=nom,sg,f
-,_
-а=CONJ=
-_
-тридцать=NUM=(acc|nom)
-_
-три=NUM=(nom|acc,inan)
-.\n
-и=CONJ=
-_
-метаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-кидаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-бросаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вдоль=PR=
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-вдоль=PR=
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-через=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
--
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-через=PR=
-_
-гора=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-круторогий=A=pl,brev
-,\n
-перепутье=S,n,inan=ins,sg
-_
-и=CONJ=
-_
-путем=PR=
-,\n
-мчаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ночь=S,f,inan=ins,sg
-,_
-мчаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-день=S,m,inan=ins,sg
-.\n
-дева=S,f,anim=nom,sg
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-вдоль=PR=
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вы=SPRO,pl,2p=nom
-_
-метаться=V,ipf,intr=pl,imper,2p
-_
-к=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-,_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-к=PR=
-_
-дева=S,f,anim=(abl,sg|dat,sg)
-_
-кинуться=V,pf,intr=pl,imper,2p
-_
-вы=SPRO,pl,2p=nom
-,_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-опрокидываться=V,intr=pl,imper,2p,pf
-_
-вы=SPRO,pl,2p=nom
-,_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-кинуться=V,pf,intr=pl,imper,2p
-_
-в=PR=
-_
-око=S,n,inan=(acc,pl|nom,pl)
-,_
-бросаться=V,intr=pl,imper,2p,pf
-_
-в=PR=
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-,\n
-чтобы=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-глаз=S,m,inan=abl,pl
-_
-поникать=V,intr=praet,sg,indic,m,pf
-,\n
-и=CONJ=
-_
-в=PR=
-_
-сахарный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-уста=S,pl,inan=(acc|nom)
-,\n
-чтоб=CONJ=
-_
-страдать=V,ipf,intr=praet,sg,indic,f
-_
-красота=S,f,inan=nom,sg
-.\n
-чтобы=CONJ=
-_
-молодец=S,m,anim=nom,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-\n
-свет=S,sg,m,inan=gen
-_
-белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-милый=A=comp
-,\n
-чтобы=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ослеплять=V,tran=praet,sg,indic,m,pf
-,\n
-чтобы=CONJ=
-_
-месяц=S,m,inan=ins,sg
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-.\n
-так=ADVPRO=
-,_
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,ger
-_
-ничто=SPRO,sg,n=gen
-,\n
-чтоб=CONJ=
-_
-плясать=V,ipf,tran=praet,sg,indic,f
-_
-для=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,\n
-чтобы=CONJ=
-_
-тридцать=NUM=(acc|nom)
-_
-три=NUM=(nom|acc,inan)
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-быть=V,intr=praet,pl,indic,ipf
-_
-в=PR=
-_
-пляска=S,f,inan=(abl,sg|dat,sg)
-_
-позвонок=S,m,inan=(acc,pl|nom,pl)
-.\n
-чтоб=CONJ=
-_
-кидалася?=S,persn,mf,anim=nom,sg
-_
-она=SPRO,sg,3p,f=nom
-,\n
-и=CONJ=
-_
-металася?=S,persn,mf,anim=nom,sg
-_
-она=SPRO,sg,3p,f=nom
-,\n
-и=CONJ=
-_
-бросалася?=S,persn,mf,anim=nom,sg
-_
-она=SPRO,sg,3p,f=nom
-,\n
-и=CONJ=
-_
-покорный=A=sg,brev,f
-,_
-и=CONJ=
-_
-нежный=A=sg,brev,f
-.\n
+{там=ADVPRO=} {на=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {океан=S,m,inan=abl,sg},
+{там=ADVPRO=} {на=PR=} {остров=S,m,inan=abl,sg} {буян=S,m,inan=abl,sg},
+{светить=V,ipf,intr=inf} {камень=S,m,inan=(acc,sg|nom,sg)} {алатырь=S,geo,m,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {кругом=ADV=} {и=CONJ=} {даль=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {ширь=S,f,inan=(acc,sg|nom,sg)}.
+{на=PR=} {огонь=S,m,inan=abl,sg} {там=PART=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {доска=S,f,inan=nom,sg},
+{на=PR=} {доска=S,f,inan=(abl,sg|dat,sg)} {лежать=V,ipf,intr=inpraes,sg,indic,3p} {тоска=S,f,inan=nom,sg},
+{не=PART=} {один=APRO=nom,sg,f} {тоска=S,f,inan=nom,sg}, {смотреть=V,ipf,tran=sg,imper,2p},
+{не=PART=} {один=ANUM=nom,sg,f}, {а=CONJ=} {тридцать=NUM=(acc|nom)} {три=NUM=(nom|acc,inan)}.
+{и=CONJ=} {метаться=V,ipf,intr=inpraes,pl,indic,3p} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{кидаться=V,ipf,intr=inpraes,pl,indic,3p} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {бросаться=V,intr=inpraes,pl,indic,3p,ipf} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{вдоль=PR=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {вдоль=PR=} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{через=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}-{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{через=PR=} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} {круторогий=A=pl,brev},
+{перепутье=S,n,inan=ins,sg} {и=CONJ=} {путем=PR=},
+{мчаться=V,ipf,intr=inpraes,pl,indic,3p} {ночь=S,f,inan=ins,sg}, {мчаться=V,ipf,intr=inpraes,pl,indic,3p} {день=S,m,inan=ins,sg}.
+{дева=S,f,anim=nom,sg} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {вдоль=PR=} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{вы=SPRO,pl,2p=nom} {метаться=V,ipf,intr=pl,imper,2p} {к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}, {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{к=PR=} {дева=S,f,anim=(abl,sg|dat,sg)} {кинуться=V,pf,intr=pl,imper,2p} {вы=SPRO,pl,2p=nom}, {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{опрокидываться=V,intr=pl,imper,2p,pf} {вы=SPRO,pl,2p=nom}, {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{кинуться=V,pf,intr=pl,imper,2p} {в=PR=} {око=S,n,inan=(acc,pl|nom,pl)}, {бросаться=V,intr=pl,imper,2p,pf} {в=PR=} {лик=S,m,inan=(acc,sg|nom,sg)},
+{чтобы=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {глаз=S,m,inan=abl,pl} {поникать=V,intr=praet,sg,indic,m,pf},
+{и=CONJ=} {в=PR=} {сахарный=A=(acc,pl,plen,inan|nom,pl,plen)} {уста=S,pl,inan=(acc|nom)},
+{чтоб=CONJ=} {страдать=V,ipf,intr=praet,sg,indic,f} {красота=S,f,inan=nom,sg}.
+{чтобы=CONJ=} {молодец=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {она=SPRO,sg,3p,f=(dat|ins)}
+{свет=S,sg,m,inan=gen} {белый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {милый=A=comp},
+{чтобы=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ослеплять=V,tran=praet,sg,indic,m,pf},
+{чтобы=CONJ=} {месяц=S,m,inan=ins,sg} {она=SPRO,sg,3p,f=(dat|ins)} {быть=V,intr=praet,sg,indic,m,ipf}.
+{так=ADVPRO=}, {не=PART=} {помнить=V,ipf,tran=inpraes,ger} {ничто=SPRO,sg,n=gen},
+{чтоб=CONJ=} {плясать=V,ipf,tran=praet,sg,indic,f} {для=PR=} {он=SPRO,sg,3p,m=(acc|gen)},
+{чтобы=CONJ=} {тридцать=NUM=(acc|nom)} {три=NUM=(nom|acc,inan)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{быть=V,intr=praet,pl,indic,ipf} {в=PR=} {пляска=S,f,inan=(abl,sg|dat,sg)} {позвонок=S,m,inan=(acc,pl|nom,pl)}.
+{чтоб=CONJ=} {кидалася?=S,persn,mf,anim=nom,sg} {она=SPRO,sg,3p,f=nom},
+{и=CONJ=} {металася?=S,persn,mf,anim=nom,sg} {она=SPRO,sg,3p,f=nom},
+{и=CONJ=} {бросалася?=S,persn,mf,anim=nom,sg} {она=SPRO,sg,3p,f=nom},
+{и=CONJ=} {покорный=A=sg,brev,f}, {и=CONJ=} {нежный=A=sg,brev,f}.

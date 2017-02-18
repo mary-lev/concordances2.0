@@ -1,140 +1,27 @@
-бывать=V,ipf,intr=inpraes,pl,indic,3p
-_
-странный=A=ins,pl,plen
-_
-пророк=S,m,anim=ins,pl
-_\n
-поэт=S,m,anim=nom,pl
-_
-иногда=ADV=
-..._\n
-косноязычный=A=ins,pl,plen
-_
-намек=S,m,inan=ins,pl
-_\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-накликаться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-отвращаться=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-грясти=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-беда=S,f,inan=nom,sg
-.\n\n
-сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-неведомый=A=sg,brev,n
-,_
-что=CONJ=
-_
-сказать=V,pf,tran=praet,sg,partcp,brev,n,pass
-,_\n
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-иероглиф=S,m,inan=(acc,sg|nom,sg)
-.\n
-вдруг=ADV=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=CONJ=
-_
-цепь=S,f,inan=ins,sg
-_
-крепкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-связанный=A=sg,brev,n
-,_\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-разлетаться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-разражаться=V,intr=inpraes,sg,indic,3p,ipf
-,\n
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-испепелять=V,tran=praet,ger,pf
-...\n\n
-мы=SPRO,pl,1p=nom
-_
-строить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-призрачный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-здание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-чертить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-чертеж=S,m,inan=(acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-вдруг=ADV=
-_
-плотина=S,f,inan=acc,sg
-_
-рвать=V,ipf,tran=inpraes,pl,indic,3p
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-разбиваться=V,intr=inpraes,pl,indic,3p,ipf
-,\n
-и=CONJ=
-_
-расстилаться=V,intr=inpraes,pl,indic,3p,ipf
-...\n
-куда=ADVPRO=
-_
-от=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-уходить=V,intr=inpraes,sg,indic,2p,pf
-?\n\n
-чем=CONJ=
-_
-старый=A=comp
-_
-мы=SPRO,pl,1p=nom
-,_
-тем=CONJ=
-_
-осторожно=ADV=comp
-_\n
-в=PR=
-_
-грядущее=S,n,inan=(acc,sg|nom,sg)
-_
-глядеть=V,ipf,tran=inpraes,pl,indic,1p
-.\n
-страшный=A=pl,brev
-_
-опасность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-дорожный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-субботний=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-все=ADV=
-_
-беззаботный=A=comp
-_\n
-неметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-нелюдимый=A=sg,brev,m
-.\n
+{бывать=V,ipf,intr=inpraes,pl,indic,3p} {странный=A=ins,pl,plen} {пророк=S,m,anim=ins,pl} 
+{поэт=S,m,anim=nom,pl} {иногда=ADV=}... 
+{косноязычный=A=ins,pl,plen} {намек=S,m,inan=ins,pl} 
+{то=SPRO,sg,n,inan=(acc|nom)} {накликаться=V,ipf,intr=inpraes,sg,indic,3p},
+{то=SPRO,sg,n,inan=(acc|nom)} {отвращаться=V,ipf,intr=inpraes,sg,indic,3p} 
+{грясти=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {беда=S,f,inan=nom,sg}.
+
+{сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {неведомый=A=sg,brev,n}, {что=CONJ=} {сказать=V,pf,tran=praet,sg,partcp,brev,n,pass}, 
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {иероглиф=S,m,inan=(acc,sg|nom,sg)}.
+{вдруг=ADV=} {то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {цепь=S,f,inan=ins,sg} {крепкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {связанный=A=sg,brev,n}, 
+{то=SPRO,sg,n,inan=(acc|nom)} {разлетаться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)},
+{то=SPRO,sg,n,inan=(acc|nom)} {разражаться=V,intr=inpraes,sg,indic,3p,ipf},
+{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {испепелять=V,tran=praet,ger,pf}...
+
+{мы=SPRO,pl,1p=nom} {строить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {призрачный=A=(acc,pl,plen,inan|nom,pl,plen)} {здание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{чертить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {чертеж=S,m,inan=(acc,sg|nom,sg)},
+{но=CONJ=} {вдруг=ADV=} {плотина=S,f,inan=acc,sg} {рвать=V,ipf,tran=inpraes,pl,indic,3p} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {разбиваться=V,intr=inpraes,pl,indic,3p,ipf},
+{и=CONJ=} {расстилаться=V,intr=inpraes,pl,indic,3p,ipf}...
+{куда=ADVPRO=} {от=PR=} {они=SPRO,pl=(abl|acc|gen)} {уходить=V,intr=inpraes,sg,indic,2p,pf}?
+
+{чем=CONJ=} {старый=A=comp} {мы=SPRO,pl,1p=nom}, {тем=CONJ=} {осторожно=ADV=comp} 
+{в=PR=} {грядущее=S,n,inan=(acc,sg|nom,sg)} {глядеть=V,ipf,tran=inpraes,pl,indic,1p}.
+{страшный=A=pl,brev} {опасность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дорожный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {в=PR=} {день=S,m,inan=(acc,pl|nom,pl)} {субботний=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{все=ADV=} {беззаботный=A=comp} 
+{неметь=V,ipf,intr=inpraes,sg,indic,3p} {нелюдимый=A=sg,brev,m}.

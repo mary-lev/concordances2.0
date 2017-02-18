@@ -1,40 +1,4 @@
-позвонить=V,pf,intr=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-хотя=PART=
-_
-бы=PART=
-_
-сегодня=ADV=
-,\n
-ведь=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-все-таки=PART=
-_
-где-нибудь=ADVPRO=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-,\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-безродный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-безродный=A=comp
-\n
-и=CONJ=
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-_
-крылатый=A=acc,sg,plen,f
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-.\n
+{позвонить=V,pf,intr=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)} {хотя=PART=} {бы=PART=} {сегодня=ADV=},
+{ведь=PART=} {ты=SPRO,sg,2p=nom} {все-таки=PART=} {где-нибудь=ADVPRO=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)},
+{а=CONJ=} {я=SPRO,sg,1p=nom} {становиться=V,intr=praet,sg,indic,f,pf} {безродный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {безродный=A=comp}
+{и=CONJ=} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {крылатый=A=acc,sg,plen,f} {весть=S,f,inan=(acc,sg|nom,sg)}.

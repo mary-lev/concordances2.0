@@ -1,114 +1,19 @@
-быть=V,intr=inpraes,pl,indic,3p
-_
-игра=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-беспредельный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-в=PR=
-_
-упоительность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-цельный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-быть=V,intr=inpraes,pl,indic,3p
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-колыбельный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-в=PR=
-_
-шутка=S,f,inan=acc,sg
-_
-мы=SPRO,pl,1p=nom
-_
-грустить=V,ipf,intr=inf
-,\n\n
-чтобы=CONJ=
-_
-с=PR=
-_
-новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-упоение=S,n,inan=ins,sg
-,\n
-за=PR=
-_
-обманчивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мгновение=S,n,inan=ins,sg
-,\n
-снова=ADV=
-_
-ткать=V,ipf,tran=inf
-_
-с=PR=
-_
-протяжный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-пение=S,n,inan=ins,sg
-\n
-переливчатый=A=acc,sg,plen,f
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-нить=S,f,inan=(acc,sg|nom,sg)
-_
-мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-бесконечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-беспечальный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-беспечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-и=CONJ=
-_
-мгновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-и=CONJ=
-_
-вечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-весь=APRO=nom,sg,f
-_
-в=PR=
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-огонь=S,m,inan=abl,pl
-,\n\n
-и=CONJ=
-,_
-как=CONJ=
-_
-призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)
-_
-влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-как-то=ADVPRO=
-_
-сладко=ADV=
--
-утомлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,\n
-мы=SPRO,pl,1p=nom
-_
-увидеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-_\u2014_
-изменять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_\u2014\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-в=PR=
-_
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сон=S,m,inan=abl,pl
-.\n
+{быть=V,intr=inpraes,pl,indic,3p} {игра=S,f,inan=(acc,pl|gen,sg|nom,pl)} {беспредельный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{в=PR=} {упоительность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {цельный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{быть=V,intr=inpraes,pl,indic,3p} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {колыбельный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {в=PR=} {шутка=S,f,inan=acc,sg} {мы=SPRO,pl,1p=nom} {грустить=V,ipf,intr=inf},
+
+{чтобы=CONJ=} {с=PR=} {новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {упоение=S,n,inan=ins,sg},
+{за=PR=} {обманчивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мгновение=S,n,inan=ins,sg},
+{снова=ADV=} {ткать=V,ipf,tran=inf} {с=PR=} {протяжный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {пение=S,n,inan=ins,sg}
+{переливчатый=A=acc,sg,plen,f} {нить=S,f,inan=(acc,sg|nom,sg)}.
+
+{нить=S,f,inan=(acc,sg|nom,sg)} {мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {бесконечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{беспечальный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {беспечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{и=CONJ=} {мгновенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {и=CONJ=} {вечный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{быть=V,intr=inpraes,sg,indic,3p} {весь=APRO=nom,sg,f} {в=PR=} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {огонь=S,m,inan=abl,pl},
+
+{и=CONJ=}, {как=CONJ=} {призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{как-то=ADVPRO=} {сладко=ADV=}-{утомлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
+{мы=SPRO,pl,1p=nom} {увидеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)} — {изменять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} —
+{наш=APRO=(nom,pl|acc,pl,inan)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {в=PR=} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сон=S,m,inan=abl,pl}.

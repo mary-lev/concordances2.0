@@ -1,221 +1,36 @@
-
-зоря=S,f,inan=nom,sg
--
-зоряница?=S,f,inan=nom,sg
-,\n
-красный=A=nom,sg,plen,f
-_
-девица=S,f,anim=nom,sg
-,\n
-красный=A=nom,sg,plen,f
-_
-девица=S,f,anim=nom,sg
-,_
-полуночница=S,f,anim=nom,sg
-.\n
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-зуб=S,m,inan=(acc,pl|nom,pl)
-,\n
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-кудри=S,pl,inan=(acc|nom)
-,_
-светлоочница?=S,f,anim=nom,sg
-.\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-ли=PART=
-_
-вы=SPRO,pl,2p=nom
-,_
-заря=S,f,inan=(acc,pl|nom,pl)
-,\n
-в=PR=
-_
-красный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-убор=S,m,inan=abl,sg
-,\n
-с=PR=
-_
-кровавый=A=ins,pl,plen
-_
-лента=S,f,inan=ins,pl
-,_
-рдяный=A=ins,pl,plen
-?\n
-вечно=ADV=
-_
-ли=PART=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-встарь?=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-вновь?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-роза=S,f,inan=ins,pl
-_
-быть=V,intr=inf,ipf
-_
-над=PR=
-_
-туман=S,m,inan=ins,pl
-?\n
-зоря=S,f,inan=nom,sg
--
-зоряница?=S,f,inan=nom,sg
-,\n
-красный=A=nom,sg,plen,f
-_
-девица=S,f,anim=nom,sg
-,\n
-быть=V,intr=sg,imper,2p
-_
-ты=SPRO,sg,2p=nom
-_
-мой=APRO=ins,sg,f
-_
-защита=S,f,inan=ins,sg
-,\n
-от=PR=
-_
-вражий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-довременный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-от=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-тоска=S,f,inan=ins,sg
-_
-повивать=V,tran=praet,ins,sg,partcp,plen,f,pf,pass
-.\n
-по=PR=
-_
-какой=APRO=(dat,sg,m|dat,sg,n)
-_
-наитие=S,n,inan=dat,sg
-,\n
-рудожелтый?=A=ins,sg,plen,f
-_
-нить=S,f,inan=ins,sg
-,\n
-ты=SPRO,sg,2p=nom
-,_
-игла=S,f,inan=ins,sg
-_
-золотой=A=ins,sg,plen,f
-,_
-проворный=A=ins,sg,plen,f
-\n
-вышивать=V,tran=inpraes,sg,indic,2p,ipf
-_
-со=PR=
-_
-слава=S,f,inan=ins,sg
-,\n
-пелена=S,f,inan=ins,sg
-_
-кровавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-узор=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-трясина=S,f,inan=ins,sg
-_
-черный=A=ins,sg,plen,f
-?\n
-чудо=S,n,inan=(acc,sg|nom,sg)
--
-девица=S,f,anim=nom,sg
-,\n
-зоря=S,f,inan=nom,sg
--
-зоряница?=S,f,inan=nom,sg
-,\n
-зоря=S,f,inan=nom,sg
--
-зоряница?=S,f,inan=nom,sg
-_
-прекрасный=A=nom,sg,plen,f
-!\n
-хотеться=V,ipf,intr=inpraes,indic
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-мягкость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-краска=S,f,inan=(abl,sg|dat,sg)
-,\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-уж=PART=
-,_
-искриться=V,ipf,intr=praet,sg,indic,f
-_
-красный=A=nom,sg,plen,f
-.\n
-нить=S,f,inan=(acc,sg|nom,sg)
-,_
-оборваться=V,pf,intr=sg,imper,2p
-,\n
-кровь=S,f,inan=(acc,sg|nom,sg)
-,_
-запекаться=V,intr=sg,imper,2p,pf
-.\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-мы=SPRO,pl,1p=dat
-,_
-уж=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-алость?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-или=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,_
-зоря=S,f,inan=nom,sg
-,\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-горе=S,sg,n,inan=gen
-,\n
-так=ADVPRO=
-_
-и=CONJ=
-_
-не=PART=
-_
-узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)
-_
-нужный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-?\n
+{зоря=S,f,inan=nom,sg}-{зоряница?=S,f,inan=nom,sg},
+{красный=A=nom,sg,plen,f} {девица=S,f,anim=nom,sg},
+{красный=A=nom,sg,plen,f} {девица=S,f,anim=nom,sg}, {полуночница=S,f,anim=nom,sg}.
+{красный=A=(acc,pl,plen,inan|nom,pl,plen)} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{белый=A=(acc,pl,plen,inan|nom,pl,plen)} {зуб=S,m,inan=(acc,pl|nom,pl)},
+{светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {кудри=S,pl,inan=(acc|nom)}, {светлоочница?=S,f,anim=nom,sg}.
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ли=PART=} {вы=SPRO,pl,2p=nom}, {заря=S,f,inan=(acc,pl|nom,pl)},
+{в=PR=} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {убор=S,m,inan=abl,sg},
+{с=PR=} {кровавый=A=ins,pl,plen} {лента=S,f,inan=ins,pl}, {рдяный=A=ins,pl,plen}?
+{вечно=ADV=} {ли=PART=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{встарь?=S,m,anim=nom,pl} {и=CONJ=} {вновь?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{роза=S,f,inan=ins,pl} {быть=V,intr=inf,ipf} {над=PR=} {туман=S,m,inan=ins,pl}?
+{зоря=S,f,inan=nom,sg}-{зоряница?=S,f,inan=nom,sg},
+{красный=A=nom,sg,plen,f} {девица=S,f,anim=nom,sg},
+{быть=V,intr=sg,imper,2p} {ты=SPRO,sg,2p=nom} {мой=APRO=ins,sg,f} {защита=S,f,inan=ins,sg},
+{от=PR=} {вражий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{довременный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {от=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {тоска=S,f,inan=ins,sg} {повивать=V,tran=praet,ins,sg,partcp,plen,f,pf,pass}.
+{по=PR=} {какой=APRO=(dat,sg,m|dat,sg,n)} {наитие=S,n,inan=dat,sg},
+{рудожелтый?=A=ins,sg,plen,f} {нить=S,f,inan=ins,sg},
+{ты=SPRO,sg,2p=nom}, {игла=S,f,inan=ins,sg} {золотой=A=ins,sg,plen,f}, {проворный=A=ins,sg,plen,f}
+{вышивать=V,tran=inpraes,sg,indic,2p,ipf} {со=PR=} {слава=S,f,inan=ins,sg},
+{пелена=S,f,inan=ins,sg} {кровавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {узор=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {трясина=S,f,inan=ins,sg} {черный=A=ins,sg,plen,f}?
+{чудо=S,n,inan=(acc,sg|nom,sg)}-{девица=S,f,anim=nom,sg},
+{зоря=S,f,inan=nom,sg}-{зоряница?=S,f,inan=nom,sg},
+{зоря=S,f,inan=nom,sg}-{зоряница?=S,f,inan=nom,sg} {прекрасный=A=nom,sg,plen,f}!
+{хотеться=V,ipf,intr=inpraes,indic} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{мягкость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {краска=S,f,inan=(abl,sg|dat,sg)},
+{быть=V,intr=inpraes,sg,indic,3p} {уж=PART=}, {искриться=V,ipf,intr=praet,sg,indic,f} {красный=A=nom,sg,plen,f}.
+{нить=S,f,inan=(acc,sg|nom,sg)}, {оборваться=V,pf,intr=sg,imper,2p},
+{кровь=S,f,inan=(acc,sg|nom,sg)}, {запекаться=V,intr=sg,imper,2p,pf}.
+{быть=V,intr=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat}, {уж=PART=} {быть=V,intr=inpraes,sg,indic,3p} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {алость?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{или=CONJ=} {ты=SPRO,sg,2p=nom}, {зоря=S,f,inan=nom,sg},
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {горе=S,sg,n,inan=gen},
+{так=ADVPRO=} {и=CONJ=} {не=PART=} {узнавать=V,tran=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)} {нужный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}?

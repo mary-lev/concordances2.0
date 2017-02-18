@@ -1,220 +1,29 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-в=PR=
-_
-тропический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мексика=S,geo,f,inan=(abl,sg|dat,sg)
-,\u2014\n
-где=ADVPRO=
-_
-еще=ADV=
-_
-не=PART=
-_
-спускаться=V,intr=praet,sg,indic,m,ipf
-_
-биплан=S,m,inan=(acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-так=ADVPRO=
-_
-вкусный=A=pl,brev
-_
-пушистый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-персик=S,m,inan=(acc,pl|nom,pl)
-,\u2014\n
-в=PR=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ранчо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-у=PR=
-_
-мост=S,m,inan=gen,sg
-_
-лиана=S,f,inan=gen,pl
-.\n\n
-далеко=ADV=
--
-далеко=ADV=
-,_
-за=PR=
-_
-льяносы=S,pl,inan=ins
-,\n
-где=ADVPRO=
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-ядовитый=A=comp
-_
-змея=S,f,anim=(acc,pl|gen,pl)
-,\n
-с=PR=
-_
-индианка=S,f,anim=ins,pl
-_
-плоский=A=sg,brev,n
--
-курносый=A=ins,pl,plen
-\n
-повстречаться=V,pf,intr=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-гостить=V,ipf,intr=praet,sg,indic,f
-_
-у=PR=
-_
-дикий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-племя=S,n,inan=(abl,sg|dat,sg|gen,sg)
-,\n
-кругозор=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-и=CONJ=
-_
-яркий=A=sg,brev,m
-,_
-и=CONJ=
-_
-новый=A=sg,brev,m
-,\n
-много=ADV,praed=
--
-много=ADV,praed=
-_
-уж=PART=
-_
-этот=APRO=(dat,sg,m|dat,sg,n)
-_
-время=S,n,inan=(abl,sg|dat,sg|gen,sg)
-!\n
-много=ADV,praed=
--
-много=ADV,praed=
-_
-уж=PART=
-_
-этот=APRO=(dat,sg,m|dat,sg,n)
-_
-сон=S,m,inan=gen,pl
-!\n\n
-с=PR=
-_
-жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кровь=S,f,inan=ins,sg
-,_
-бурливый=A=comp
-_
-кратер=S,m,inan=gen,sg
-,\n
-краснокожий=S,m,anim=nom,sg
-_
-метать=V,ipf=praet,sg,indic,m|метать=V,ipf=praet,sg,indic,m
-_
-бумеранг=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-нередко=ADV=
-_
-от=PR=
-_
-выстрел=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-скваттер=S,m,anim=(acc,sg|gen,sg)
-\n
-уносить=V=praet,sg,indic,m,ipf,tran
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мустанг=S,m,anim=nom,sg
-.\n\n
-а=CONJ=
-_
-бывало=ADV,parenth=
-_
-пунцовый=A=ins,pl,plen
-_
-рана=S,f,inan=ins,pl
-\n
-пачкать=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-ранчо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-бамбуковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пол=S,m,inan=(acc,sg|nom,sg)
-...\n
-я=SPRO,sg,1p=nom
-_
-кормить=V,ipf,tran=praet,sg,indic,f
-_
-индеец=S,m,anim=(acc,sg|gen,sg)
-_
-банан=S,m,inan=ins,pl
-,\n
-уважать=V,ipf,tran=inf
-_
-заставлять=V,tran=praet,sg,indic,f,ipf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-пол=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-задушить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-зацарапать=V,pf,tran=pl,imper,2p
-,\u2014\n
-предпочтение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-отдавать=V,tran=inpraes,sg,indic,1p,pf
-_
-дикарь=S,m,anim=dat,sg
-,\n
-потому=ADVPRO=
-_
-что=CONJ=
-_
-любить=V,ipf,tran=praet,sg,indic,f
-_
-на=PR=
-_
-запад=S,geo,m,inan=abl,sg
-\n
-и=CONJ=
-_
-за=PR=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-себя=SPRO=(acc|gen)
-_
-не=PART=
-_
-корить=V,ipf,tran=inpraes,sg,indic,1p
-...\n
+{это=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {в=PR=} {тропический=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мексика=S,geo,f,inan=(abl,sg|dat,sg)},—
+{где=ADVPRO=} {еще=ADV=} {не=PART=} {спускаться=V,intr=praet,sg,indic,m,ipf} {биплан=S,m,inan=(acc,sg|nom,sg)},
+{где=ADVPRO=} {так=ADVPRO=} {вкусный=A=pl,brev} {пушистый=A=(acc,pl,plen,inan|nom,pl,plen)} {персик=S,m,inan=(acc,pl|nom,pl)},—
+{в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {ранчо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {у=PR=} {мост=S,m,inan=gen,sg} {лиана=S,f,inan=gen,pl}.
+
+{далеко=ADV=}-{далеко=ADV=}, {за=PR=} {льяносы=S,pl,inan=ins},
+{где=ADVPRO=} {цветок=S,m,inan=(acc,pl|nom,pl)} {ядовитый=A=comp} {змея=S,f,anim=(acc,pl|gen,pl)},
+{с=PR=} {индианка=S,f,anim=ins,pl} {плоский=A=sg,brev,n}-{курносый=A=ins,pl,plen}
+{повстречаться=V,pf,intr=praet,sg,indic,f} {я=SPRO,sg,1p=nom} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+
+{я=SPRO,sg,1p=nom} {гостить=V,ipf,intr=praet,sg,indic,f} {у=PR=} {дикий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {племя=S,n,inan=(abl,sg|dat,sg|gen,sg)},
+{кругозор=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {и=CONJ=} {яркий=A=sg,brev,m}, {и=CONJ=} {новый=A=sg,brev,m},
+{много=ADV,praed=}-{много=ADV,praed=} {уж=PART=} {этот=APRO=(dat,sg,m|dat,sg,n)} {время=S,n,inan=(abl,sg|dat,sg|gen,sg)}!
+{много=ADV,praed=}-{много=ADV,praed=} {уж=PART=} {этот=APRO=(dat,sg,m|dat,sg,n)} {сон=S,m,inan=gen,pl}!
+
+{с=PR=} {жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровь=S,f,inan=ins,sg}, {бурливый=A=comp} {кратер=S,m,inan=gen,sg},
+{краснокожий=S,m,anim=nom,sg} {метать=V,ipf=praet,sg,indic,m|метать=V,ipf=praet,sg,indic,m} {бумеранг=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {нередко=ADV=} {от=PR=} {выстрел=S,m,inan=(acc,pl|gen,sg|nom,pl)} {скваттер=S,m,anim=(acc,sg|gen,sg)}
+{уносить=V=praet,sg,indic,m,ipf,tran} {он=SPRO,sg,3p,m=(acc|gen)} {стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мустанг=S,m,anim=nom,sg}.
+
+{а=CONJ=} {бывало=ADV,parenth=} {пунцовый=A=ins,pl,plen} {рана=S,f,inan=ins,pl}
+{пачкать=V,ipf,tran=praet,sg,indic,m} {в=PR=} {ранчо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {бамбуковый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пол=S,m,inan=(acc,sg|nom,sg)}...
+{я=SPRO,sg,1p=nom} {кормить=V,ipf,tran=praet,sg,indic,f} {индеец=S,m,anim=(acc,sg|gen,sg)} {банан=S,m,inan=ins,pl},
+{уважать=V,ipf,tran=inf} {заставлять=V,tran=praet,sg,indic,f,ipf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {пол=S,m,inan=(acc,sg|nom,sg)}...
+
+{задушить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {я=SPRO,sg,1p=(acc|gen)}, {зацарапать=V,pf,tran=pl,imper,2p},—
+{предпочтение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {отдавать=V,tran=inpraes,sg,indic,1p,pf} {дикарь=S,m,anim=dat,sg},
+{потому=ADVPRO=} {что=CONJ=} {любить=V,ipf,tran=praet,sg,indic,f} {на=PR=} {запад=S,geo,m,inan=abl,sg}
+{и=CONJ=} {за=PR=} {это=SPRO,sg,n,inan=(acc|nom)} {себя=SPRO=(acc|gen)} {не=PART=} {корить=V,ipf,tran=inpraes,sg,indic,1p}...

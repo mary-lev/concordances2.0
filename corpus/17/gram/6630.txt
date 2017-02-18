@@ -1,68 +1,9 @@
-заметать=V=praet,sg,indic,n,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-снег=S,m,inan=ins,pl
-,_\n
-уносить=V=praet,sg,indic,n,pf
-_
-на=PR=
-_
-столетие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-назад=ADV=
-,_\n
-затаптывать=V=praet,sg,indic,n,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-сапог=S,m,inan=ins,pl
-_\n
-отступать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-_
-в=PR=
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)
-.\n\n
-только=PART=
-_
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-крыло=S,n,inan=(acc,sg|nom,sg)
-:\n\u2014_
-я=SPRO,sg,1p=nom
-_
-надежда=S,f,inan=nom,sg
-,_
-я=SPRO,sg,1p=nom
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=nom
-_
-свобода=S,f,inan=nom,sg
-,_\n
-но=CONJ=
-_
-снег=S,m,inan=ins,pl
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-заметать=V=praet,sg,indic,n,pf
-.\n
+{заметать=V=praet,sg,indic,n,pf} {ты=SPRO,sg,2p=(acc|gen)}, {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {снег=S,m,inan=ins,pl}, 
+{уносить=V=praet,sg,indic,n,pf} {на=PR=} {столетие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {назад=ADV=}, 
+{затаптывать=V=praet,sg,indic,n,pf} {ты=SPRO,sg,2p=(acc|gen)} {сапог=S,m,inan=ins,pl} 
+{отступать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {в=PR=} {вечность=S,f,inan=(acc,sg|nom,sg)} {солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)}.
+
+{только=PART=} {в=PR=} {сумрак=S,m,inan=abl,sg} {новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+{белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {биться=V,ipf,intr=inpraes,sg,indic,3p} {крыло=S,n,inan=(acc,sg|nom,sg)}:
+— {я=SPRO,sg,1p=nom} {надежда=S,f,inan=nom,sg}, {я=SPRO,sg,1p=nom} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {свобода=S,f,inan=nom,sg}, 
+{но=CONJ=} {снег=S,m,inan=ins,pl} {я=SPRO,sg,1p=(acc|gen)} {заметать=V=praet,sg,indic,n,pf}.

@@ -1,164 +1,20 @@
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-мало=ADV=
-._
-мы=SPRO,pl,1p=(abl|acc|gen)
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-трое=NUM=(nom|acc,inan)
-_\n
-донецкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-горючий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-и=CONJ=
-_
-адский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-под=PR=
-_
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-бежать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)
-_
-кора=S,sg,f,inan=ins
-_\n
-дождь=S,m,inan=gen,pl
-,_
-облако=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-солдатский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-совет=S,m,inan=gen,pl
-,_
-стих=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-дискуссия=S,f,inan=gen,pl
-_\n
-о=PR=
-_
-транспорт=S,m,inan=abl,sg
-_
-и=CONJ=
-_
-об=PR=
-_
-искусство=S,n,inan=abl,sg
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-человек=S,m,anim=ins,pl
-._
-мы=SPRO,pl,1p=nom
-_
-эпоха=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-сбивать=V,tran=praet,sg,indic,n,pf
-,_
-и=CONJ=
-_
-мчать=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-караван=S,m,inan=abl,sg
-,_\n
-как=CONJ=
-_
-тундра=S,f,inan=acc,sg
-_
-под=PR=
-_
-тендер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-вздох=S,m,inan=(acc,pl|nom,pl)
-_\n
-и=CONJ=
-_
-поршень=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-шпала=S,f,inan=gen,pl
-_
-порывание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\n
-слетаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,_
-ворваться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-и=CONJ=
-_
-тронуть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-,_\n
-закружиться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-вихорь=S,m,inan=ins,sg
-_
-вороний=A,plen=(dat,pl|ins,sg,m|ins,sg,n)
-,\n\n
-и=CONJ=
-_\u2014_
-мимо=ADV=
-!_\u2014_
-вы=SPRO,pl,2p=nom
-_
-поздно=ADV=
-_
-понимать=V=inpraes,pl,indic,2p,pf
-._\n
-так=ADVPRO=
-,_
-утро=S,n,inan=ins,sg
-_
-ударять=V,tran=praet,ger,pf
-_
-в=PR=
-_
-ворох=S,m,inan=(acc,sg|nom,sg)
-_\n
-солома=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-с=PR=
-_
-момент=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-намет=S,m,inan=abl,sg
-,_\u2014\n
-след=S,m,inan=(acc,sg|nom,sg)
-_
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-разговор=S,m,inan=abl,pl
-_\n
-идти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)
-_
-бурно=ADV=
-_
-собрание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-дерево=S,n,inan=gen,pl
-_
-над=PR=
-_
-кровельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дрань=S,f,inan=ins,sg
-.\n
+{мы=SPRO,pl,1p=(abl|acc|gen)} {мало=ADV=}. {мы=SPRO,pl,1p=(abl|acc|gen)}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {трое=NUM=(nom|acc,inan)} 
+{донецкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {горючий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {и=CONJ=} {адский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{под=PR=} {серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {бежать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {кора=S,sg,f,inan=ins} 
+{дождь=S,m,inan=gen,pl}, {облако=S,n,inan=gen,pl} {и=CONJ=} {солдатский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{совет=S,m,inan=gen,pl}, {стих=S,m,inan=gen,pl} {и=CONJ=} {дискуссия=S,f,inan=gen,pl} 
+{о=PR=} {транспорт=S,m,inan=abl,sg} {и=CONJ=} {об=PR=} {искусство=S,n,inan=abl,sg}.
+
+{мы=SPRO,pl,1p=nom} {быть=V,intr=praet,pl,indic,ipf} {человек=S,m,anim=ins,pl}. {мы=SPRO,pl,1p=nom} {эпоха=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+{мы=SPRO,pl,1p=(abl|acc|gen)} {сбивать=V,tran=praet,sg,indic,n,pf}, {и=CONJ=} {мчать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {караван=S,m,inan=abl,sg}, 
+{как=CONJ=} {тундра=S,f,inan=acc,sg} {под=PR=} {тендер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {вздох=S,m,inan=(acc,pl|nom,pl)} 
+{и=CONJ=} {поршень=S,m,inan=gen,pl} {и=CONJ=} {шпала=S,f,inan=gen,pl} {порывание=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+{слетаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}, {ворваться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {и=CONJ=} {тронуть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}, 
+{закружиться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {вихорь=S,m,inan=ins,sg} {вороний=A,plen=(dat,pl|ins,sg,m|ins,sg,n)},
+
+{и=CONJ=} — {мимо=ADV=}! — {вы=SPRO,pl,2p=nom} {поздно=ADV=} {понимать=V=inpraes,pl,indic,2p,pf}. 
+{так=ADVPRO=}, {утро=S,n,inan=ins,sg} {ударять=V,tran=praet,ger,pf} {в=PR=} {ворох=S,m,inan=(acc,sg|nom,sg)} 
+{солома=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {с=PR=} {момент=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {намет=S,m,inan=abl,sg}, —
+{след=S,m,inan=(acc,sg|nom,sg)} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {жить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {разговор=S,m,inan=abl,pl} 
+{идти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)} {бурно=ADV=} {собрание=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{дерево=S,n,inan=gen,pl} {над=PR=} {кровельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дрань=S,f,inan=ins,sg}.

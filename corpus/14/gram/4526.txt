@@ -1,106 +1,12 @@
-знать=V,ipf,tran=inpraes,sg,indic,2p
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-что=CONJ=
-_
-не=PART=
-_
-становиться=V,intr=inpraes,sg,indic,1p,pf
-_
-славить=V,ipf,tran=inf
-\n
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-горький=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-на=PR=
-_
-память=S,f,inan=(acc,sg|nom,sg)
-_
-оставлять=V,tran=inf,pf
-,\n
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-?_
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-?\n
-посвящение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-сжигать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-драма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-от=PR=
-_
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-и=CONJ=
-_
-пепел=S,m,inan=gen,sg
-_
-нет=ADV,praed=
-,\n
-или=CONJ=
-_
-выходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-вдруг=ADV=
-_
-из=PR=
-_
-рама=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-новогодний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-портрет=S,m,inan=(acc,sg|nom,sg)
-?\n
-или=CONJ=
-_
-слышимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-еле-еле=ADV=
-\n
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-березовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-уголек=S,m,inan=gen,pl
-,\n
-или=CONJ=
-_
-то=PART=
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-успевать=V,intr=praet,pl,indic,pf
-\n
-досказывать=V=inf,pf
-_
-про=PR=
-_
-чужой=A,plen=acc,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-?\n
+{знать=V,ipf,tran=inpraes,sg,indic,2p} {сам=APRO=(acc,sg,m,inan|nom,sg,m)}, {что=CONJ=} {не=PART=} {становиться=V,intr=inpraes,sg,indic,1p,pf} {славить=V,ipf,tran=inf}
+{наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {горький=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} {день=S,m,inan=(acc,sg|nom,sg)}.
+{что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=(abl|dat)} {на=PR=} {память=S,f,inan=(acc,sg|nom,sg)} {оставлять=V,tran=inf,pf},
+{тень=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f}? {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=(abl|dat)} {тень=S,f,inan=(acc,sg|nom,sg)}?
+{посвящение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сжигать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {драма=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{от=PR=} {который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {и=CONJ=} {пепел=S,m,inan=gen,sg} {нет=ADV,praed=},
+{или=CONJ=} {выходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {вдруг=ADV=} {из=PR=} {рама=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{новогодний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {портрет=S,m,inan=(acc,sg|nom,sg)}?
+{или=CONJ=} {слышимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {еле-еле=ADV=}
+{звон=S,m,inan=(acc,sg|nom,sg)} {березовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {уголек=S,m,inan=gen,pl},
+{или=CONJ=} {то=PART=}, {что=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {успевать=V,intr=praet,pl,indic,pf}
+{досказывать=V=inf,pf} {про=PR=} {чужой=A,plen=acc,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)}?

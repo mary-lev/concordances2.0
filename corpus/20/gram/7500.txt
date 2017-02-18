@@ -1,82 +1,18 @@
-не=PART=
-_\u2014\n\t
-о=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_\u2014\n\t\t
-болтать=V,ipf,tran=praet,pl,indic
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n\t\t\t\xAB
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-._
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-\xBB.\n\n
-а=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_\u2014\n\t
-лишь=PART=
-_
-злость=S,f,inan=(acc,sg|nom,sg)
-.\n\t\t
-личина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-маска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\t\t\t
-ложь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-грязь=S,f,inan=(acc,sg|nom,sg)
-._
-ложь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-когда=CONJ=
-_
-предлагать=V,tran=praet,pl,indic,ipf
-\n\t
-я=SPRO,sg,1p=(abl|dat)
-_
-родиться=V,ipf,intr=inf
-_\u2014\n\t\t
-не=PART=
-_
-говорить=V,ipf,tran=praet,pl,indic
-,_
-что=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-.\n\n
-как=ADVPRO=
-_
-же=PART=
-\n\t
-я=SPRO,sg,1p=nom
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-\n\t\t
-не=PART=
-_
-соглашаться=V,intr=inf,pf
-?\n\t\t\t
-ну=PART=
-,_
-а=CONJ=
-_
-теперь=ADV=
-_\u2014_
-домой=ADV=
-!_
-домой=ADV=
-\n
+{не=PART=} —
+	{о=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} —
+		{болтать=V,ipf,tran=praet,pl,indic} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+			«{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}. {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {любовь=S,f,inan=(acc,sg|nom,sg)}».
+
+{а=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} —
+	{лишь=PART=} {злость=S,f,inan=(acc,sg|nom,sg)}.
+		{личина=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {маска=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+			{ложь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {грязь=S,f,inan=(acc,sg|nom,sg)}. {ложь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)}.
+
+{когда=CONJ=} {предлагать=V,tran=praet,pl,indic,ipf}
+	{я=SPRO,sg,1p=(abl|dat)} {родиться=V,ipf,intr=inf} —
+		{не=PART=} {говорить=V,ipf,tran=praet,pl,indic}, {что=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
+
+{как=ADVPRO=} {же=PART=}
+	{я=SPRO,sg,1p=nom} {мочь=V,ipf,intr=praet,sg,indic,m}
+		{не=PART=} {соглашаться=V,intr=inf,pf}?
+			{ну=PART=}, {а=CONJ=} {теперь=ADV=} — {домой=ADV=}! {домой=ADV=}

@@ -1,56 +1,6 @@
-я=SPRO,sg,1p=nom
-_
-хотеть=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-улыбаться=V,intr=inf,pf
-,_\n
-отдыхать=V,intr=inf,pf
-,_
-домой=ADV=
-_
-вернуться=V,pf,intr=inf
-..._\n
-я=SPRO,sg,1p=nom
-_
-хотеть=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-так=ADVPRO=
-_
-немного=ADV=
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-почти=ADV=
-_
-у=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-,\n
-но=CONJ=
-_
-что=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-просить=V,ipf,tran=inf
-_
-у=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-_\u2014_\n
-и=CONJ=
-_
-бессмыслица=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-.\n
+{я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {улыбаться=V,intr=inf,pf}, 
+{отдыхать=V,intr=inf,pf}, {домой=ADV=} {вернуться=V,pf,intr=inf}... 
+{я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {так=ADVPRO=} {немного=ADV=},
+{то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {почти=ADV=} {у=PR=} {все=SPRO,pl=(abl|acc|gen)},
+{но=CONJ=} {что=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {просить=V,ipf,tran=inf} {у=PR=} {бог=S,m,anim=(acc,sg|gen,sg)} — 
+{и=CONJ=} {бессмыслица=S,f,inan=nom,sg} {и=CONJ=} {грех=S,m,inan=(acc,sg|nom,sg)}.

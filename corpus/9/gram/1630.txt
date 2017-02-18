@@ -1,100 +1,19 @@
-как=ADVPRO=
-_
-не=PART=
-_
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-рассудок=S,m,inan=abl,sg
-,_\n
-как=CONJ=
-_
-ребенок=S,m,anim=nom,pl
-_
-ослушание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-облизываться=V,intr=inpraes,ger,ipf
-,_
-сутки=S,pl,inan=(acc|nom)
-_\n
-шутить=V,ipf,intr=inpraes,ger
-_
-мы=SPRO,pl,1p=nom
-_
-осушать=V,tran=praet,pl,indic,ipf
-.\n\n
-иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_
-не=PART=
-_
-отрываться=V,intr=inpraes,ger,ipf
-_\n
-от=PR=
-_
-судорога=S,f,inan=gen,pl
-_
-страница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-до=PR=
-_
-утренний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-трамвай=S,m,inan=gen,pl
-,_\n
-грозить=V,ipf,intr=praet,sg,indic,m
-_
-заря=S,f,inan=(abl,sg|dat,sg)
-_
-допиваться=V,intr=inf,pf
-.\n\n
-раскидывать=V=inpraes,ger,ipf,tran
-_
-хлопко?=ADV=
-_\n
-снежок=S,m,inan=(acc,sg|nom,sg)
-,_
-бывало=ADV,parenth=
-,_
-чижик=S,m,anim=nom,sg
-_\n
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-:_
-какой=APRO=ins,sg,f
-_
-пробка=S,f,inan=ins,sg
-_\n
-такой=APRO=acc,sg,f
-_
-рожа=S,f,inan=acc,sg
-_
-выжигать=V=praet,sg,indic,m,pf
-?\n\n
-и=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=praet,sg,indic,m,ipf
-,_
-оплесниться?=V,ipf,intr=inpraes,ger
-,_\n
-в=PR=
-_
-помойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-яма=S,f,inan=(abl,sg|dat,sg)
-,_\n
-в=PR=
-_
-круг=S,m,inan=abl,pl
-_
-пожарный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лестница=S,f,inan=gen,pl
-,_\n
-ушибать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-дрова=S,pl,inan=ins
-.\n
+{как=ADVPRO=} {не=PART=} {в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {рассудок=S,m,inan=abl,sg}, 
+{как=CONJ=} {ребенок=S,m,anim=nom,pl} {ослушание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{облизываться=V,intr=inpraes,ger,ipf}, {сутки=S,pl,inan=(acc|nom)} 
+{шутить=V,ipf,intr=inpraes,ger} {мы=SPRO,pl,1p=nom} {осушать=V,tran=praet,pl,indic,ipf}.
+
+{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {не=PART=} {отрываться=V,intr=inpraes,ger,ipf} 
+{от=PR=} {судорога=S,f,inan=gen,pl} {страница=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{до=PR=} {утренний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {трамвай=S,m,inan=gen,pl}, 
+{грозить=V,ipf,intr=praet,sg,indic,m} {заря=S,f,inan=(abl,sg|dat,sg)} {допиваться=V,intr=inf,pf}.
+
+{раскидывать=V=inpraes,ger,ipf,tran} {хлопко?=ADV=} 
+{снежок=S,m,inan=(acc,sg|nom,sg)}, {бывало=ADV,parenth=}, {чижик=S,m,anim=nom,sg} 
+{шуметь=V,ipf,intr=inpraes,sg,indic,3p}: {какой=APRO=ins,sg,f} {пробка=S,f,inan=ins,sg} 
+{такой=APRO=acc,sg,f} {рожа=S,f,inan=acc,sg} {выжигать=V=praet,sg,indic,m,pf}?
+
+{и=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)} {вставать=V,intr=praet,sg,indic,m,ipf}, {оплесниться?=V,ipf,intr=inpraes,ger}, 
+{в=PR=} {помойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {яма=S,f,inan=(abl,sg|dat,sg)}, 
+{в=PR=} {круг=S,m,inan=abl,pl} {пожарный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лестница=S,f,inan=gen,pl}, 
+{ушибать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {дрова=S,pl,inan=ins}.

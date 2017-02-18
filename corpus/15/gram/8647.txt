@@ -1,104 +1,14 @@
-вода=S,f,inan=nom,sg
-,_
-стихия=S,f,inan=nom,sg
-_
-сладострастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вода=S,f,inan=nom,sg
-,_
-зеркальность=S,f,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-дума=S,f,inan=gen,pl
-,\n
-бездонность=S,f,inan=(acc,sg|nom,sg)
-_
-сон=S,m,inan=gen,pl
-,_
-безбрежность=S,f,inan=(acc,sg|nom,sg)
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-час=S,m,inan=gen,pl
-_
-бежать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шум=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-то=CONJ=
-_
-недвижимый=A=sg,brev,n
--
-безглагольный=A=nom,sg,plen,f
-,\n
-то=CONJ=
-_
-с=PR=
-_
-неудержный?=A=ins,sg,plen,f
-_
-волна=S,f,inan=ins,sg
-,\n
-но=CONJ=
-_
-вечно=ADV=
-_
-легкий=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-вольный=A=nom,sg,plen,f
-,\n
-и=CONJ=
-_
-вечно=ADV=
-_
-дружный=A=nom,sg,plen,f
-_
-с=PR=
-_
-луна=S,f,inan=ins,sg
-.\n\n
-и=CONJ=
-_
-с=PR=
-_
-солнце=S,n,inan=ins,sg
-_
-творческий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-слиять?=V,pf,tran=praet,nom,sg,partcp,plen,f,pass
-,\n
-то=CONJ=
-_\u2014_
-гул=S,m,inan=(acc,sg|nom,sg)
-,_
-то=CONJ=
-_\u2014_
-плеск=S,m,inan=(acc,sg|nom,sg)
-,_
-то=CONJ=
-_\u2014_
-блеск=S,m,inan=(acc,pl|nom,pl)
-_
-струя=S,f,inan=gen,pl
-.\n
-стихия=S,f,inan=nom,sg
-_
-страстной=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-странный=A=nom,sg,plen,f
-,\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-поцелуй=S,m,inan=(acc,sg|nom,sg)
-.\n
+{вода=S,f,inan=nom,sg}, {стихия=S,f,inan=nom,sg} {сладострастие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{вода=S,f,inan=nom,sg}, {зеркальность=S,f,inan=(acc,sg|nom,sg)} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дума=S,f,inan=gen,pl},
+{бездонность=S,f,inan=(acc,sg|nom,sg)} {сон=S,m,inan=gen,pl}, {безбрежность=S,f,inan=(acc,sg|nom,sg)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{час=S,m,inan=gen,pl} {бежать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шум=S,m,inan=(acc,sg|nom,sg)}.
+
+{то=CONJ=} {недвижимый=A=sg,brev,n}-{безглагольный=A=nom,sg,plen,f},
+{то=CONJ=} {с=PR=} {неудержный?=A=ins,sg,plen,f} {волна=S,f,inan=ins,sg},
+{но=CONJ=} {вечно=ADV=} {легкий=A=nom,sg,plen,f} {и=CONJ=} {вольный=A=nom,sg,plen,f},
+{и=CONJ=} {вечно=ADV=} {дружный=A=nom,sg,plen,f} {с=PR=} {луна=S,f,inan=ins,sg}.
+
+{и=CONJ=} {с=PR=} {солнце=S,n,inan=ins,sg} {творческий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слиять?=V,pf,tran=praet,nom,sg,partcp,plen,f,pass},
+{то=CONJ=} — {гул=S,m,inan=(acc,sg|nom,sg)}, {то=CONJ=} — {плеск=S,m,inan=(acc,sg|nom,sg)}, {то=CONJ=} — {блеск=S,m,inan=(acc,pl|nom,pl)} {струя=S,f,inan=gen,pl}.
+{стихия=S,f,inan=nom,sg} {страстной=A=nom,sg,plen,f} {и=CONJ=} {странный=A=nom,sg,plen,f},
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {голос=S,m,inan=(acc,sg|nom,sg)} — {влажный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {поцелуй=S,m,inan=(acc,sg|nom,sg)}.

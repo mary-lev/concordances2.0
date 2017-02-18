@@ -23,7 +23,8 @@ response.google_analytics_id = 'UA-52567545-1'
 #########################################################################
 
 response.menu = [
-    (T('Home'), False, URL('default', 'index'), [])
+    (T('Home'), False, URL('default', 'index'), [
+    (T('Админка'), False, URL('admin', 'default', 'edit/test'))])
 ]
 
 DEVELOPMENT_MENU = True
@@ -38,17 +39,41 @@ def _():
     ctr = request.controller
     # useful links to internal and external resources
     response.menu += [
-        (SPAN('web2py', _class='highlighted'), False, 'http://concordances.ru', [
-        
-        (T('О проекте'), False, URL('admin', 'default', 'about/' + app)),
-        (T('Админка'), False, URL('admin', 'default', 'edit/%s/controllers/%s.py' % (app, ctr)))
-      
-            
-           
-           
-                
-                ]
-         )]
+        (SPAN('Корпус', _class='highlighted'), False, '', [
+        (T('Александр Блок'), False, URL('author', 'all_author', args='1')),
+        (T('Николай Гумилев'), False, URL('author', 'all_author', args='2')),
+        (T('Осип Мандельштам'), False, URL('author', 'all_author', args='4')),
+        (T('Андрей Белый'), False, URL('author', 'all_author', args='5')),
+        (T('Иннокентий Анненский'), False, URL('author', 'all_author', args='7')),
+        (T('Валерий Брюсов'), False, URL('author', 'all_author', args='8')),
+        (T('Борис Пастернак'), False, URL('author', 'all_author', args='9')),
+        ]),
+
+        (SPAN('Цвета', _class='highlighted'), False, URL('color', 'index'), [
+        (T('В корпусе'), False, URL('color', 'index')),
+        (T('Александр Блок'), False, URL('color', 'author', args='1')),
+        (T('Николай Гумилев'), False, URL('color', 'author', args='2')),
+        (T('Осип Мандельштам'), False, URL('color', 'author', args='4')),
+        (T('Андрей Белый'), False, URL('color', 'author', args='5'))
+         ]          ),
+
+        (SPAN('Поиск', _class='highlighted'), False, 'http://concordances.ru', [
+        (T('Контекстный поиск'), False, URL('context', 'index')),
+        (T('Морфологический поиск'), False, URL('morpho', 'search'))       ] ),
+
+        (SPAN('Конкорданс', _class='highlighted'), False, URL('concordance', 'create_concordance') ),
+
+        (SPAN('Статистика', _class='highlighted'), False, URL('count', 'index'), [
+        (T('Части речи'), False, URL('context', 'index')),
+        ] ),
+
+        (SPAN('Векторная модель', _class='highlighted'), False, URL('concordance', 'model'), [
+        (T('Поиск слова'), False, URL('concordance', 'ask_model')),
+        (T('Животные'), False, URL('concordance', 'zveri')),
+        (T('Птицы'), False, URL('concordance', 'birds')),
+        ] )
+         ]
+
 if DEVELOPMENT_MENU: _()
 
 if "auth" in locals(): auth.wikimenu()

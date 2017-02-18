@@ -8,11 +8,15 @@
 {{=DIV(_id="pieChart2")}}
 Всего {{=sum(colours2)}} цветообозначений на {{=all_words2}} словоупотреблений в корпусе, {{=proc}} %.
 
+<h5>{{=A('Конкретные словоупотребления', _href=URL('color', 'author_all_color', args=author.id))}} </h5>
+<h5>{{=A('Цвет во всем корпусе', _href=URL('color', 'index'))}}</h5>
+
 {{block right_sidebar}}
 <h4>Цвета по авторам</h4>
 {{for one in authors:}}
 <li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}}</li>
 {{pass}}
+<h4>Цвет по всему корпусу</h4>
 {{end}}
 
 <script>

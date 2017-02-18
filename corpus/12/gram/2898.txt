@@ -1,154 +1,19 @@
-в=PR=
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-стучаться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-скрипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-рабочий=S,m,anim=nom,sg
-_
-над=PR=
-_
-станок=S,m,inan=ins,sg
-.\n
-быть=V,intr=praet,sg,indic,f,ipf
-_
-я=SPRO,sg,1p=nom
-_
-уличный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-певица=S,f,anim=ins,sg
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-княжеский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сынок=S,m,anim=ins,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-петь=V,ipf,tran=praet,sg,indic,f
-_
-про=PR=
-_
-судьба=S,f,inan=acc,sg
--
-злодейка=S,f,anim=acc,sg
-,\n
-и=CONJ=
-_
-с=PR=
-_
-раззолачивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-перила=S,pl,inan=gen
-\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-рупь?=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-не=PART=
-_
-копейка=S,f,inan=acc,sg
-,_\u2014_\n
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-улыбка=S,f,inan=acc,sg
-_
-подарить=V,pf,tran=praet,sg,indic,m
-.\n\n
-но=CONJ=
-_
-старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-князь=S,m,anim=nom,sg
-_
-узнавать=V,tran=praet,sg,indic,m,pf
-_
-затея=S,f,inan=acc,sg
-:\n
-сорвать=V,pf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-с=PR=
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-_
-орден=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-повелеть=V,pf,intr=praet,sg,indic,m
-_
-слуга=S,m,anim=(abl,sg|dat,sg)
--
-лакей=S,m,anim=dat,sg
-\n
-прогнать=V,pf,tran=inf
-_
-девчонка=S,f,anim=acc,sg
-_
-со=PR=
-_
-двор=S,m,inan=gen,sg
-.\n\n
-и=CONJ=
-_
-напиваться=V,intr=praet,sg,indic,f,pf
-_
-же=PART=
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-тот=APRO=acc,sg,f
-_
-ночка=S,f,inan=acc,sg
-!\n
-зато=CONJ=
-_
-в=PR=
-_
-блаженный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мир=S,m,inan=abl,sg
-_\u2014_
-то=SPRO,sg,n,inan=abl
-_\u2014_\n
-быть=V,intr=praet,sg,indic,f,ipf
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-княжеский=A=ins,sg,plen,f
-_
-дочка=S,f,anim=ins,sg
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-уличный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-певец=S,m,anim=ins,sg
-!\n
+{в=PR=} {мой=APRO=(acc,sg,n|nom,sg,n)} {окошко=S,n,inan=(acc,sg|nom,sg)} {дождь=S,m,inan=(acc,sg|nom,sg)} {стучаться=V,ipf,intr=inpraes,sg,indic,3p}.
+{скрипеть=V,ipf,intr=inpraes,sg,indic,3p} {рабочий=S,m,anim=nom,sg} {над=PR=} {станок=S,m,inan=ins,sg}.
+{быть=V,intr=praet,sg,indic,f,ipf} {я=SPRO,sg,1p=nom} {уличный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {певица=S,f,anim=ins,sg},
+{а=CONJ=} {ты=SPRO,sg,2p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {княжеский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сынок=S,m,anim=ins,sg}.
+
+{я=SPRO,sg,1p=nom} {петь=V,ipf,tran=praet,sg,indic,f} {про=PR=} {судьба=S,f,inan=acc,sg}-{злодейка=S,f,anim=acc,sg},
+{и=CONJ=} {с=PR=} {раззолачивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {перила=S,pl,inan=gen}
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {не=PART=} {рупь?=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {не=PART=} {копейка=S,f,inan=acc,sg}, — 
+{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {улыбка=S,f,inan=acc,sg} {подарить=V,pf,tran=praet,sg,indic,m}.
+
+{но=CONJ=} {старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {князь=S,m,anim=nom,sg} {узнавать=V,tran=praet,sg,indic,m,pf} {затея=S,f,inan=acc,sg}:
+{сорвать=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {с=PR=} {сын=S,m,anim=(acc,sg|gen,sg)} {орден=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {повелеть=V,pf,intr=praet,sg,indic,m} {слуга=S,m,anim=(abl,sg|dat,sg)}-{лакей=S,m,anim=dat,sg}
+{прогнать=V,pf,tran=inf} {девчонка=S,f,anim=acc,sg} {со=PR=} {двор=S,m,inan=gen,sg}.
+
+{и=CONJ=} {напиваться=V,intr=praet,sg,indic,f,pf} {же=PART=} {я=SPRO,sg,1p=nom} {в=PR=} {тот=APRO=acc,sg,f} {ночка=S,f,inan=acc,sg}!
+{зато=CONJ=} {в=PR=} {блаженный=A=(abl,sg,plen,m|abl,sg,plen,n)} {мир=S,m,inan=abl,sg} — {то=SPRO,sg,n,inan=abl} — 
+{быть=V,intr=praet,sg,indic,f,ipf} {я=SPRO,sg,1p=nom} — {княжеский=A=ins,sg,plen,f} {дочка=S,f,anim=ins,sg},
+{а=CONJ=} {ты=SPRO,sg,2p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {уличный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {певец=S,m,anim=ins,sg}!

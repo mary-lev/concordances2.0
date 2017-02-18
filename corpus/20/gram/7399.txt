@@ -1,176 +1,34 @@
-повалить=V,pf,tran=praet,pl,indic
-_
-николай=S,persn,m,anim=(acc,sg|gen,sg)
-,\n
-ждать=V,ipf,tran=praet,pl,indic
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ждать=V,ipf,tran=praet,pl,indic
-_
-рая=S,persn,f,anim=nom,sg
-_\u2014\n\t
-получать=V,tran=praet,pl,indic,pf
-_
-рай=S,sg,m,inan=(acc|nom)
-:\n\t
-прямо=PART=
-_
-помирать=V,intr=sg,imper,2p,ipf
-.\n\n
-воевать=V,ipf,intr=inf
-_
-не=PART=
-_
-пожелать=V,pf,tran=praet,pl,indic
-,\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-похабный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-подписывать=V,tran=praet,pl,indic,pf
-,\n\t
-вместо=PR=
-_
-мир=S,m,inan=gen,sg
-,_
-вот=PART=
-_\u2014\n\t
-биться=V,ipf,intr=inpraes,pl,indic,1p
-_
-третий=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-додушить?=V,pf,tran=praet,ger
-_
-буржуй=S,m,anim=(acc,pl|gen,pl)
-,_
-сам=APRO=(nom,pl|acc,pl,inan)
-\n
-становиться=V,intr=inf,pf
-_
-хотеть=V,ipf,tran=praet,pl,indic
-_
-буржуй=S,m,anim=ins,pl
-,\n\t
-вот=PART=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-и=PART=
-_
-буржуй=S,m,anim=nom,sg
-:\n\t
-пакля=S,f,inan=acc,sg
-_
-с=PR=
-_
-сено=S,n,inan=ins,sg
-_
-жевать=V,ipf,tran=sg,imper,2p
-.\n\n
-видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_
-наш=APRO=(acc,sg,n|nom,sg,n)
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-_
-чистый=A=sg,brev,n
-...\n
-записываться=V,intr=praet,pl,indic,pf
-_
-в=PR=
-_
-коммунист=S,m,anim=nom,pl
-,\n\t
-глядь=PART=
-,_
-взамен=ADV=
-_
-пайка=S,f,inan=nom,sg
-_\u2014\n\t
-сцапать=V,pf,tran=praet,sg,indic,f
-_
-че=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
--
-ка=PART=
-.\n\n
-не=PART=
-_
-судить=V,ipf,tran=praet,pl,indic
-_\u2014_
-осуждать=V=praet,pl,indic,pf
-,\n
-и=CONJ=
-_
-китаец=S,m,anim=(acc,pl|gen,pl)
-_
-приглашать=V=praet,pl,indic,pf
-...\n\t
-к=PR=
-_
-стенка=S,f,inan=(abl,sg|dat,sg)
-_
-под=PR=
-_
-расстрел=S,m,inan=(acc,sg|nom,sg)
-\n\t
-окончание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-дело=S,n,inan=gen,pl
-.\n\n
-заклинать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)
-_
-люд=S,m,inan=(acc,sg|nom,sg)
-_
-рабочий=S,m,anim=nom,sg
-,\n
-трудовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-прочий=A,plen=(acc,sg,m,inan|nom,sg,m)
-,\n\t
-до=PR=
-_
-последний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-:\n\t
-быть=V,intr=pl,imper,2p
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-умный=A=comp
-!\n\n
-не=PART=
-_
-сидеть=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-вы=SPRO,pl,2p=nom
-_
-в=PR=
-_
-совет=S,m,inan=abl,sg
-!\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-ужасный=A=comp
-_
-беда=S,f,inan=gen,pl
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-\n\t
-черный=A=nom,sg,plen,f
-_
-беда=S,f,inan=nom,sg
-_\u2014\n\t
-красный=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n
+{повалить=V,pf,tran=praet,pl,indic} {николай=S,persn,m,anim=(acc,sg|gen,sg)},
+{ждать=V,ipf,tran=praet,pl,indic} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ждать=V,ipf,tran=praet,pl,indic} {рая=S,persn,f,anim=nom,sg} —
+	{получать=V,tran=praet,pl,indic,pf} {рай=S,sg,m,inan=(acc|nom)}:
+	{прямо=PART=} {помирать=V,intr=sg,imper,2p,ipf}.
+
+{воевать=V,ipf,intr=inf} {не=PART=} {пожелать=V,pf,tran=praet,pl,indic},
+{мир=S,m,inan=(acc,sg|nom,sg)} {похабный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подписывать=V,tran=praet,pl,indic,pf},
+	{вместо=PR=} {мир=S,m,inan=gen,sg}, {вот=PART=} —
+	{биться=V,ipf,intr=inpraes,pl,indic,1p} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+
+{додушить?=V,pf,tran=praet,ger} {буржуй=S,m,anim=(acc,pl|gen,pl)}, {сам=APRO=(nom,pl|acc,pl,inan)}
+{становиться=V,intr=inf,pf} {хотеть=V,ipf,tran=praet,pl,indic} {буржуй=S,m,anim=ins,pl},
+	{вот=PART=} {тот=APRO=(nom,pl|acc,pl,inan)} {и=PART=} {буржуй=S,m,anim=nom,sg}:
+	{пакля=S,f,inan=acc,sg} {с=PR=} {сено=S,n,inan=ins,sg} {жевать=V,ipf,tran=sg,imper,2p}.
+
+{видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {наш=APRO=(acc,sg,n|nom,sg,n)} {дело=S,n,inan=(acc,sg|nom,sg)} {чистый=A=sg,brev,n}...
+{записываться=V,intr=praet,pl,indic,pf} {в=PR=} {коммунист=S,m,anim=nom,pl},
+	{глядь=PART=}, {взамен=ADV=} {пайка=S,f,inan=nom,sg} —
+	{сцапать=V,pf,tran=praet,sg,indic,f} {че=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{ка=PART=}.
+
+{не=PART=} {судить=V,ipf,tran=praet,pl,indic} — {осуждать=V=praet,pl,indic,pf},
+{и=CONJ=} {китаец=S,m,anim=(acc,pl|gen,pl)} {приглашать=V=praet,pl,indic,pf}...
+	{к=PR=} {стенка=S,f,inan=(abl,sg|dat,sg)} {под=PR=} {расстрел=S,m,inan=(acc,sg|nom,sg)}
+	{окончание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {дело=S,n,inan=gen,pl}.
+
+{заклинать=V=(inpraes,pl,indic,1p,ipf,tran|inpraes,sg,partcp,brev,m,ipf,pass,tran)} {люд=S,m,inan=(acc,sg|nom,sg)} {рабочий=S,m,anim=nom,sg},
+{трудовой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {прочий=A,plen=(acc,sg,m,inan|nom,sg,m)},
+	{до=PR=} {последний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}:
+	{быть=V,intr=pl,imper,2p} {мы=SPRO,pl,1p=(abl|acc|gen)} {умный=A=comp}!
+
+{не=PART=} {сидеть=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {вы=SPRO,pl,2p=nom} {в=PR=} {совет=S,m,inan=abl,sg}!
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ужасный=A=comp} {беда=S,f,inan=gen,pl} {на=PR=} {свет=S,sg,m,inan=abl}
+	{черный=A=nom,sg,plen,f} {беда=S,f,inan=nom,sg} —
+	{красный=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.

@@ -1,140 +1,19 @@
-темнеть=V,ipf,intr=inpraes,sg,indic,3p
-..._
-готовиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-к=PR=
-_
-чай=S,m,inan=(dat,sg|part,sg|loc,sg)
-...\n
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ася=S,persn,f,anim=nom,sg
-_
-под=PR=
-_
-мамин=A,plen,poss=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-шуба=S,f,inan=ins,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-страшный=A=acc,sg,plen,f
-_
-сказка=S,f,inan=acc,sg
-_
-читать=V,ipf,tran=inpraes,sg,indic,1p
-\n
-о=PR=
-_
-старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-колдунья=S,f,anim=(abl,sg|dat,sg)
-_
-беззубый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-о=PR=
-_
-старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-колдунья=S,f,anim=(abl,sg|dat,sg)
-,_
-о=PR=
-_
-гном=S,m,anim=abl,pl
-,\n
-о=PR=
-_
-принцесса=S,f,anim=(abl,sg|dat,sg)
-,_
-уходить=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-закат=S,m,inan=ins,sg
-.\n
-как=ADVPRO=
-_
-жутко=ADV=
-_
-в=PR=
-_
-лес=S,m,inan=abl,pl
-_
-незнакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-бродить=V,ipf,intr=inf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-с=PR=
-_
-невидящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-брат=S,m,anim=ins,sg
-!\n\n
-один=APRO=nom,sg,f
-_
-у=PR=
-_
-колдунья=S,f,anim=(gen,sg|nom,pl)
-_
-забота=S,f,inan=nom,sg
-:\n
-подводить=V=inf,pf
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-к=PR=
-_
-пропасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-прямо=ADV=
-!\n
-темнеть=V,ipf,intr=inpraes,sg,indic,3p
-..._
-сегодня=ADV=
-_
-суббота=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-печальный=A=nom,sg,plen,f
-_
-мама=S,f,anim=nom,sg
-.\n\n
-темнеть=V,ipf,intr=inpraes,sg,indic,3p
-..._
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-о=PR=
-_
-час=S,m,inan=abl,sg
-.\n
-из=PR=
-_
-столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-позвать=V,pf,tran=praet,pl,indic
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-к=PR=
-_
-чай=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
-клубочек=S,m,inan=ins,sg
-_
-свернуться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-ася=S,persn,f,anim=(abl,sg|dat,sg)
-\n
-я=SPRO,sg,1p=nom
-_
-страшный=A=acc,sg,plen,f
-_
-сказка=S,f,inan=acc,sg
-_
-читать=V,ipf,tran=inpraes,sg,indic,1p
-.\n
+{темнеть=V,ipf,intr=inpraes,sg,indic,3p}... {готовиться=V,ipf,intr=inpraes,pl,indic,3p} {к=PR=} {чай=S,m,inan=(dat,sg|part,sg|loc,sg)}...
+{дремать=V,ipf,intr=inpraes,sg,indic,3p} {ася=S,persn,f,anim=nom,sg} {под=PR=} {мамин=A,plen,poss=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {шуба=S,f,inan=ins,sg}.
+{я=SPRO,sg,1p=nom} {страшный=A=acc,sg,plen,f} {сказка=S,f,inan=acc,sg} {читать=V,ipf,tran=inpraes,sg,indic,1p}
+{о=PR=} {старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {колдунья=S,f,anim=(abl,sg|dat,sg)} {беззубый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{о=PR=} {старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {колдунья=S,f,anim=(abl,sg|dat,sg)}, {о=PR=} {гном=S,m,anim=abl,pl},
+{о=PR=} {принцесса=S,f,anim=(abl,sg|dat,sg)}, {уходить=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {закат=S,m,inan=ins,sg}.
+{как=ADVPRO=} {жутко=ADV=} {в=PR=} {лес=S,m,inan=abl,pl} {незнакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{бродить=V,ipf,intr=inf} {она=SPRO,sg,3p,f=(dat|ins)} {с=PR=} {невидящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {брат=S,m,anim=ins,sg}!
+
+{один=APRO=nom,sg,f} {у=PR=} {колдунья=S,f,anim=(gen,sg|nom,pl)} {забота=S,f,inan=nom,sg}:
+{подводить=V=inf,pf} {он=SPRO,sg,3p,m=(acc|gen)} {к=PR=} {пропасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {прямо=ADV=}!
+{темнеть=V,ipf,intr=inpraes,sg,indic,3p}... {сегодня=ADV=} {суббота=S,f,inan=nom,sg},
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {печальный=A=nom,sg,plen,f} {мама=S,f,anim=nom,sg}.
+
+{темнеть=V,ipf,intr=inpraes,sg,indic,3p}... {не=PART=} {помнить=V,ipf,tran=inpraes,sg,indic,2p} {о=PR=} {час=S,m,inan=abl,sg}.
+{из=PR=} {столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} {позвать=V,pf,tran=praet,pl,indic} {мы=SPRO,pl,1p=(abl|acc|gen)} {к=PR=} {чай=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+{клубочек=S,m,inan=ins,sg} {свернуться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {ася=S,persn,f,anim=(abl,sg|dat,sg)}
+{я=SPRO,sg,1p=nom} {страшный=A=acc,sg,plen,f} {сказка=S,f,inan=acc,sg} {читать=V,ipf,tran=inpraes,sg,indic,1p}.

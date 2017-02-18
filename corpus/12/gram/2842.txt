@@ -1,62 +1,9 @@
-на=PR=
-_
-плечо=S,n,inan=abl,sg
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-на=PR=
-_
-правый=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-примащиваться=V,intr=praet,sg,indic,m,pf
-_
-голубь=S,m,anim=nom,sg
--
-утро=S,n,inan=(acc,sg|nom,sg)
-,\n
-на=PR=
-_
-плечо=S,n,inan=abl,sg
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-на=PR=
-_
-левый=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-примащиваться=V,intr=praet,sg,indic,m,pf
-_
-филин=S,m,anim=nom,sg
--
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)
-,_
-как=CONJ=
-_
-царь=S,m,anim=nom,sg
-_
-казанский=S,famn,m,anim=nom,sg
-.\n
-и=CONJ=
-_
-чего=ADVPRO=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-бояться=V,ipf,intr=inf
-_\u2014_\n
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-враг=S,m,anim=nom,pl
-_
-соединяться=V,intr=praet,pl,indic,pf
-,\n
-чтоб=CONJ=
-_
-вдвоем=ADV=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-хранить=V,ipf,tran=inf
-!\n
+{на=PR=} {плечо=S,n,inan=abl,sg} {мой=APRO=(abl,sg,m|abl,sg,n)} {на=PR=} {правый=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{примащиваться=V,intr=praet,sg,indic,m,pf} {голубь=S,m,anim=nom,sg}-{утро=S,n,inan=(acc,sg|nom,sg)},
+{на=PR=} {плечо=S,n,inan=abl,sg} {мой=APRO=(abl,sg,m|abl,sg,n)} {на=PR=} {левый=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{примащиваться=V,intr=praet,sg,indic,m,pf} {филин=S,m,anim=nom,sg}-{ночь=S,f,inan=(acc,sg|nom,sg)}.
+
+{проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)}, {как=CONJ=} {царь=S,m,anim=nom,sg} {казанский=S,famn,m,anim=nom,sg}.
+{и=CONJ=} {чего=ADVPRO=} {душа=S,f,inan=(abl,sg|dat,sg)} {бояться=V,ipf,intr=inf} — 
+{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {враг=S,m,anim=nom,pl} {соединяться=V,intr=praet,pl,indic,pf},
+{чтоб=CONJ=} {вдвоем=ADV=} {я=SPRO,sg,1p=(acc|gen)} {хранить=V,ipf,tran=inf}!

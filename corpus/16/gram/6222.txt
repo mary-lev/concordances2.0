@@ -1,74 +1,8 @@
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-сосновый=A=(acc,pl,plen,inan|nom,pl,plen)
-._
-дорога=S,f,inan=nom,sg
-_
-палевый=A=nom,sg,plen,f
-.\n
-сидеть=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-ельник=S,m,inan=abl,sg
-,_
-костер=S,m,inan=(acc,sg|nom,sg)
-_
-распаливать?=V,ipf,tran=inpraes,ger
-.\n
-сидеть=V,ipf,intr=inpraes,sg,indic,1p
-_
-до=PR=
-_
-вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-дрова=S,pl,inan=(acc|nom)
-_
-обтесывать=V,tran=inpraes,ger,ipf
-...\n
-шуршать=V,ipf,intr=inpraes,sg,indic,3p
-_
-зеленый=A=nom,sg,plen,f
-_
-листва=S,sg,f,inan=nom
-_
-березовый=A=nom,sg,plen,f
-...\n
-пчела=S,f,anim=nom,sg
-_
-сердитый=A=nom,sg,plen,f
-_
-над=PR=
-_
-муравейник=S,m,inan=ins,pl
-,\n
-над=PR=
-_
-мухомор=S,m,inan=ins,pl
-_
-и=CONJ=
-_
-над=PR=
-_
-репейник=S,m,inan=ins,pl
-,\n
-жужжать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-кружиться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-зло=S,n,inan=ins,sg
-_
-обессиленный=A=nom,sg,plen,f
-.\n
-дерево=S,n,inan=(acc,pl|nom,pl)
-_
-хвойный=A=(acc,pl,plen,inan|nom,pl,plen)
-._
-дорогой=A=nom,sg,plen,f
-_
-глиняный=A=nom,sg,plen,f
-.\n
+{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {сосновый=A=(acc,pl,plen,inan|nom,pl,plen)}. {дорога=S,f,inan=nom,sg} {палевый=A=nom,sg,plen,f}.
+{сидеть=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {ельник=S,m,inan=abl,sg}, {костер=S,m,inan=(acc,sg|nom,sg)} {распаливать?=V,ipf,tran=inpraes,ger}.
+{сидеть=V,ipf,intr=inpraes,sg,indic,1p} {до=PR=} {вечер=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {дрова=S,pl,inan=(acc|nom)} {обтесывать=V,tran=inpraes,ger,ipf}...
+{шуршать=V,ipf,intr=inpraes,sg,indic,3p} {зеленый=A=nom,sg,plen,f} {листва=S,sg,f,inan=nom} {березовый=A=nom,sg,plen,f}...
+{пчела=S,f,anim=nom,sg} {сердитый=A=nom,sg,plen,f} {над=PR=} {муравейник=S,m,inan=ins,pl},
+{над=PR=} {мухомор=S,m,inan=ins,pl} {и=CONJ=} {над=PR=} {репейник=S,m,inan=ins,pl},
+{жужжать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {кружиться=V,ipf,intr=inpraes,sg,indic,3p}, {зло=S,n,inan=ins,sg} {обессиленный=A=nom,sg,plen,f}.
+{дерево=S,n,inan=(acc,pl|nom,pl)} {хвойный=A=(acc,pl,plen,inan|nom,pl,plen)}. {дорогой=A=nom,sg,plen,f} {глиняный=A=nom,sg,plen,f}.

@@ -1,100 +1,15 @@
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-благословение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-_\u2014\n
-по=PR=
-_
-лицо=S,n,inan=dat,sg
-_
-любимый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-скользнуть=V,pf,intr=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-дремать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-побледнеть=V,pf,intr=praet,sg,indic,m
-_
-немного=ADV=
-,\n
-но=CONJ=
-_
-еще=ADV=
-_
-покойный=A=comp
-_
-уснуть=V,pf,intr=praet,sg,indic,m
-.\n\n
-верно=ADV,parenth=
-,_
-поцелуй=S,m,inan=ins,sg
-_
-показываться=V,intr=praet,sg,indic,f,pf
-\n
-теплота=S,sg,f,inan=nom
-_
-небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-луч=S,m,inan=gen,sg
-...\n
-так=ADVPRO=
-_
-давно=ADV=
-_
-губа=S,f,inan=ins,pl
-_
-я=SPRO,sg,1p=nom
-_
-касаться=V,intr=praet,sg,indic,f,ipf
-\n
-милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-губа=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-смуглый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-плечо=S,n,inan=gen,sg
-...\n\n
-а=CONJ=
-_
-теперь=ADV=
-,_
-усопший=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-бестелесный=A=comp
-,\n
-в=PR=
-_
-неутешный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-странствие=S,n,inan=abl,sg
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-влетать=V,intr=inpraes,sg,indic,1p,ipf
-_
-только=PART=
-_
-песня=S,f,inan=ins,sg
-\n
-и=CONJ=
-_
-ласкаться=V,ipf,intr=inpraes,sg,indic,1p
-_
-утренний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-луч=S,m,inan=ins,sg
-.\n\n
+{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {луч=S,m,inan=(acc,sg|nom,sg)} — {благословение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бог=S,m,anim=(acc,sg|gen,sg)} —
+{по=PR=} {лицо=S,n,inan=dat,sg} {любимый=A=(dat,sg,plen,m|dat,sg,plen,n)} {скользнуть=V,pf,intr=praet,sg,indic,m},
+{и=CONJ=} {дремать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {побледнеть=V,pf,intr=praet,sg,indic,m} {немного=ADV=},
+{но=CONJ=} {еще=ADV=} {покойный=A=comp} {уснуть=V,pf,intr=praet,sg,indic,m}.
+
+{верно=ADV,parenth=}, {поцелуй=S,m,inan=ins,sg} {показываться=V,intr=praet,sg,indic,f,pf}
+{теплота=S,sg,f,inan=nom} {небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {луч=S,m,inan=gen,sg}...
+{так=ADVPRO=} {давно=ADV=} {губа=S,f,inan=ins,pl} {я=SPRO,sg,1p=nom} {касаться=V,intr=praet,sg,indic,f,ipf}
+{милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {губа=S,f,inan=gen,pl} {и=CONJ=} {смуглый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {плечо=S,n,inan=gen,sg}...
+
+{а=CONJ=} {теперь=ADV=}, {усопший=S,m,anim=(abl,pl|acc,pl|gen,pl)} {бестелесный=A=comp},
+{в=PR=} {неутешный=A=(abl,sg,plen,m|abl,sg,plen,n)} {странствие=S,n,inan=abl,sg} {мой=APRO=(abl,sg,m|abl,sg,n)},
+{я=SPRO,sg,1p=nom} {к=PR=} {он=SPRO,sg,3p,m=dat} {влетать=V,intr=inpraes,sg,indic,1p,ipf} {только=PART=} {песня=S,f,inan=ins,sg}
+{и=CONJ=} {ласкаться=V,ipf,intr=inpraes,sg,indic,1p} {утренний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {луч=S,m,inan=ins,sg}.
+

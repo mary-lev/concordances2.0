@@ -1,74 +1,9 @@
-заключение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-быть=V,intr=(praet,acc,sg,partcp,plen,m,ipf,act,anim|praet,gen,sg,partcp,plen,m,ipf,act|praet,gen,sg,partcp,plen,n,ipf,act)
-_
-цикл=S,m,inan=gen,sg
-\n
-часто=ADV=
-_
-сердце=S,n,inan=dat,sg
-_
-трудно=ADV=comp
-_
-все=SPRO,sg,n,inan=gen
-,\n
-я=SPRO,sg,1p=nom
-_
-от=PR=
-_
-многое=SPRO,sg,n=gen
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-отвыкать=V,intr=praet,sg,indic,f,pf
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-не=PART=
-_
-нужно=ADV,praed=
-_
-почти=ADV=
-_
-ничто=SPRO,sg,n=gen
-,_\u2014\n\n
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-комаровский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-язык=S,m,inan=abl,pl
-_
-говорить=V,ipf,tran=inpraes,pl,indic,3p
-\n
-и=CONJ=
-_
-совсем=ADV=
-_
-как=CONJ=
-_
-отдельный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-лужа=S,f,inan=abl,pl
-,_
-выпивать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,_\u2014_
-стоять=V,ipf,intr=inpraes,pl,indic,3p
-.\n
+{заключение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {быть=V,intr=(praet,acc,sg,partcp,plen,m,ipf,act,anim|praet,gen,sg,partcp,plen,m,ipf,act|praet,gen,sg,partcp,plen,n,ipf,act)} {цикл=S,m,inan=gen,sg}
+{часто=ADV=} {сердце=S,n,inan=dat,sg} {трудно=ADV=comp} {все=SPRO,sg,n,inan=gen},
+{я=SPRO,sg,1p=nom} {от=PR=} {многое=SPRO,sg,n=gen} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {отвыкать=V,intr=praet,sg,indic,f,pf},
+{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {нужно=ADV,praed=} {почти=ADV=} {ничто=SPRO,sg,n=gen}, —
+
+{для=PR=} {я=SPRO,sg,1p=(acc|gen)} {комаровский=A=(acc,pl,plen,inan|nom,pl,plen)} {сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {язык=S,m,inan=abl,pl} {говорить=V,ipf,tran=inpraes,pl,indic,3p}
+{и=CONJ=} {совсем=ADV=} {как=CONJ=} {отдельный=A=(acc,pl,plen,inan|nom,pl,plen)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {лужа=S,f,inan=abl,pl}, {выпивать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {небо=S,n,inan=(acc,sg|nom,sg)}, — {стоять=V,ipf,intr=inpraes,pl,indic,3p}.

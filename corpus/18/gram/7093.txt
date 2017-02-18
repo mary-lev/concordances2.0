@@ -1,130 +1,19 @@
-в=PR=
-_
-осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-по=PR=
-_
-стынуть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-поляна=S,f,inan=dat,pl
-_\n
-дымиться=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-_
-водить=V,ipf,tran=inpraes,pl,indic,3p
-_
-борозда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-не=PART=
-_
-пахарь=S,m,anim=nom,pl
-;\n
-не=PART=
-_
-радоваться=V,ipf,intr=inpraes,sg,indic,3p
-_
-рана=S,f,inan=dat,pl
-_\n
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-земля=S,f,inan=nom,sg
-;\n
-не=PART=
-_
-плуг=S,m,inan=(acc,sg|nom,sg)
-_
-вскапывать=V,tran=praet,sg,indic,m,pf
-_
-след=S,m,inan=(acc,pl|nom,pl)
-;\n
-не=PART=
-_
-семя=S,n,inan=(acc,pl|nom,pl)
-_
-пшеничный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-посев=S,m,inan=gen,sg
-,\n
-не=PART=
-_
-ток=S,m,inan=(acc,sg|nom,sg)
-_
-дождь=S,m,inan=gen,pl
-_
-в=PR=
-_
-разъяться=V,reserved=praet,acc,sg,partcp,plen,f,pf,act
-_
-новь=S,f,inan=(acc,sg|nom,sg)
-,_-\n
-но=CONJ=
-_
-сталь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-медь=S,f,inan=(acc,sg|nom,sg)
-,\n
-живой=A=acc,sg,plen,f
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_\n
-недобрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сеятель=S,m,anim=nom,sg
-_\n
-в=PR=
-_
-година=S,f,inan=acc,sg
-_
-ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-гнев=S,m,inan=gen,sg
-_\n
-рука=S,f,inan=ins,sg
-_
-щедрый=A=ins,sg,plen,f
-_
-посеять=V,pf,tran=praet,sg,indic,m
-...\n
-беда=S,f,inan=gen,pl
-\n
-и=CONJ=
-_
-ненависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-колос=S,m,inan=(acc,sg|nom,sg)
-,\n
-змея=S,f,anim=(gen,sg|nom,pl)
-_
-плевел=S,m,inan=(acc,sg|gen,pl|nom,sg)
-\n
-восходить=V,intr=inpraes,pl,indic,3p,pf
-_
-в=PR=
-_
-поле=S,n,inan=abl,pl
-_
-безрадостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-победа=S,f,inan=gen,pl
-,_\n
-где=ADVPRO=
-_
-земля=S,f,inan=acc,sg
--
-мать=S,f,anim=(acc,sg|nom,sg)
-_\n
-жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сын=S,m,anim=nom,sg
-_
-прогневить=V,pf,tran=praet,sg,indic,m
-.\n
+{в=PR=} {осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {по=PR=} {стынуть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {поляна=S,f,inan=dat,pl} 
+{дымиться=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {водить=V,ipf,tran=inpraes,pl,indic,3p} {борозда=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{не=PART=} {пахарь=S,m,anim=nom,pl};
+{не=PART=} {радоваться=V,ipf,intr=inpraes,sg,indic,3p} {рана=S,f,inan=dat,pl} 
+{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {земля=S,f,inan=nom,sg};
+{не=PART=} {плуг=S,m,inan=(acc,sg|nom,sg)} {вскапывать=V,tran=praet,sg,indic,m,pf} {след=S,m,inan=(acc,pl|nom,pl)};
+{не=PART=} {семя=S,n,inan=(acc,pl|nom,pl)} {пшеничный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {посев=S,m,inan=gen,sg},
+{не=PART=} {ток=S,m,inan=(acc,sg|nom,sg)} {дождь=S,m,inan=gen,pl} {в=PR=} {разъяться=V,reserved=praet,acc,sg,partcp,plen,f,pf,act} {новь=S,f,inan=(acc,sg|nom,sg)}, -
+{но=CONJ=} {сталь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {медь=S,f,inan=(acc,sg|nom,sg)},
+{живой=A=acc,sg,plen,f} {плоть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)} 
+{недобрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сеятель=S,m,anim=nom,sg} 
+{в=PR=} {година=S,f,inan=acc,sg} {ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {гнев=S,m,inan=gen,sg} 
+{рука=S,f,inan=ins,sg} {щедрый=A=ins,sg,plen,f} {посеять=V,pf,tran=praet,sg,indic,m}...
+{беда=S,f,inan=gen,pl}
+{и=CONJ=} {ненависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {колос=S,m,inan=(acc,sg|nom,sg)},
+{змея=S,f,anim=(gen,sg|nom,pl)} {плевел=S,m,inan=(acc,sg|gen,pl|nom,sg)}
+{восходить=V,intr=inpraes,pl,indic,3p,pf} {в=PR=} {поле=S,n,inan=abl,pl} {безрадостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {победа=S,f,inan=gen,pl}, 
+{где=ADVPRO=} {земля=S,f,inan=acc,sg}-{мать=S,f,anim=(acc,sg|nom,sg)} 
+{жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сын=S,m,anim=nom,sg} {прогневить=V,pf,tran=praet,sg,indic,m}.

@@ -1,104 +1,14 @@
-метель=S,f,inan=(acc,sg|nom,sg)
-,_
-метель=S,f,inan=(acc,sg|nom,sg)
-...._
-в=PR=
-_
-перчатка=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-как=CONJ=
-_
-чужой=A,plen=nom,sg,f
-,\n\t
-застывший=A=nom,sg,plen,f
-_
-рука=S,f,inan=nom,sg
-.\n
-не=PART=
-_
-странно=ADV=
-_
-ль=PART=
-_
-жить=V,ipf,intr=inf
-,_
-почти=ADV=
-_
-что=CONJ=
-_
-осязать=V,ipf,tran=inpraes,ger
-,\n\t
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-близкий=A=sg,brev,f
-?\n\n
-и=CONJ=
-_
-все-таки=PART=
-_
-бред=S,sg,m,inan=(dat|loc|part)
-_
-домой=ADV=
-_
-с=PR=
-_
-покупка=S,f,inan=ins,sg
-,\n\t
-и=CONJ=
-_
-все-таки=PART=
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-как=ADVPRO=
-_
-прочно=ADV=
-_
-все=SPRO,pl=(acc|nom)
-!_
-нет=PART=
-,_
-он=SPRO,sg,3p,m=nom
-_
-совсем=ADV=
-_
-не=PART=
-_
-хрупкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n\t
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-наяву=ADV=
-!\n\n
-еще=ADV=
-_
-томить=V,ipf,tran=inpraes,pl,indic,3p
-_
-земной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-расстояние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-еще=ADV=
-_
-болеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-рука=S,f,inan=nom,sg
-,\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-ясно=ADV=comp
-,_
-уверенно=ADV=comp
-_
-сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n\t
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=nom
-_
-близкий=A=sg,brev,f
-.\n
+{метель=S,f,inan=(acc,sg|nom,sg)}, {метель=S,f,inan=(acc,sg|nom,sg)}.... {в=PR=} {перчатка=S,f,inan=(abl,sg|dat,sg)} — {как=CONJ=} {чужой=A,plen=nom,sg,f},
+	{застывший=A=nom,sg,plen,f} {рука=S,f,inan=nom,sg}.
+{не=PART=} {странно=ADV=} {ль=PART=} {жить=V,ipf,intr=inf}, {почти=ADV=} {что=CONJ=} {осязать=V,ipf,tran=inpraes,ger},
+	{как=ADVPRO=} {ты=SPRO,sg,2p=nom} {близкий=A=sg,brev,f}?
+
+{и=CONJ=} {все-таки=PART=} {бред=S,sg,m,inan=(dat|loc|part)} {домой=ADV=} {с=PR=} {покупка=S,f,inan=ins,sg},
+	{и=CONJ=} {все-таки=PART=} {жить=V,ipf,intr=inpraes,sg,indic,1p}.
+{как=ADVPRO=} {прочно=ADV=} {все=SPRO,pl=(acc|nom)}! {нет=PART=}, {он=SPRO,sg,3p,m=nom} {совсем=ADV=} {не=PART=} {хрупкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+	{сон=S,m,inan=(acc,sg|nom,sg)} {наяву=ADV=}!
+
+{еще=ADV=} {томить=V,ipf,tran=inpraes,pl,indic,3p} {земной=A=(acc,pl,plen,inan|nom,pl,plen)} {расстояние=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+	{еще=ADV=} {болеть=V,ipf,intr=inpraes,sg,indic,3p} {рука=S,f,inan=nom,sg},
+{но=CONJ=} {все=SPRO,pl=(acc|nom)} {ясно=ADV=comp}, {уверенно=ADV=comp} {сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+	{что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=nom} {близкий=A=sg,brev,f}.

@@ -1,144 +1,19 @@
-индийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-тотем=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-жуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-знак=S,m,inan=(acc,sg|nom,sg)
-,\n
-резной=A=nom,sg,plen,f
-_
-сложный=A=nom,sg,plen,f
-_
-колонна=S,f,inan=nom,sg
-.\n
-из=PR=
-_
-зверь=S,m,anim=(acc,sg|gen,sg)
-_\u2014_
-зверь=S,m,anim=nom,sg
-._
-кто=SPRO,sg,m,anim=nom
-_
-друг=S,m,anim=nom,sg
-,_
-кто=SPRO,sg,m,anim=nom
-_
-враг=S,m,anim=nom,sg
-,\n
-не=PART=
-_
-разбирать=V=inpraes,sg,indic,2p,pf
-._
-здесь=ADVPRO=
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-уклонный=A=sg,brev,n
-.\n\n
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-держать=V,ipf,tran=inpraes,pl,indic,3p
-_
-все=SPRO,pl=(acc|nom)
-_
-во=PR=
-_
-рот=S,m,inan=(dat,sg|loc,sg)
-,\n
-убийца=S,mf,anim=nom,sg
-_\u2014_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-и=CONJ=
-_
-убитый=S,m,anim=nom,sg
-.\n
-грызть=V,ipf,tran=inpraes,ger
-,_
-рождать=V,ipf,tran=inpraes,pl,indic,3p
-_
-красота=S,f,inan=acc,sg
-,\n
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-бесовский=A=pl,brev
--
-волчий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-свита=S,f,inan=ins,sg
-.\n\n
-уста=S,pl,inan=(acc|nom)
-,_
-и=CONJ=
-_
-паста=S,f,inan=nom,sg
-,_
-и=CONJ=
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-зверинокрылость?=S,f,inan=(acc,sg|nom,sg)
-,_
-чудо=S,n,inan=(acc,sg|nom,sg)
--
-рыба=S,f,anim=nom,sg
-.\n
-в=PR=
-_
-цветной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-зрачок=S,m,inan=abl,pl
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-гроза=S,f,inan=nom,sg
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-в=PR=
-_
-змейность?=S,f,inan=abl,pl
-_
-изгиб=S,m,inan=gen,sg
-.\n\n
-и=CONJ=
-_
-древо=S,n,inan=(acc,sg|nom,sg)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-расти=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-чудовищный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-прикраса=S,f,inan=(abl,sg|dat,sg)
-,\n
-являться=V,intr=inpraes,ger,ipf
-_
-я=SPRO,sg,1p=ins
-,_
-чтоб=CONJ=
-_
-становиться=V,intr=inf,pf
-_
-ты=SPRO,sg,2p=ins
-,\n
-пьянить=V,ipf,tran=inpraes,ger
-_
-и=CONJ=
-_
-множить=V,ipf,tran=inpraes,ger
-_
-ипостась=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{индийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {тотем=S,m,inan=(acc,sg|nom,sg)} — {жуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {знак=S,m,inan=(acc,sg|nom,sg)},
+{резной=A=nom,sg,plen,f} {сложный=A=nom,sg,plen,f} {колонна=S,f,inan=nom,sg}.
+{из=PR=} {зверь=S,m,anim=(acc,sg|gen,sg)} — {зверь=S,m,anim=nom,sg}. {кто=SPRO,sg,m,anim=nom} {друг=S,m,anim=nom,sg}, {кто=SPRO,sg,m,anim=nom} {враг=S,m,anim=nom,sg},
+{не=PART=} {разбирать=V=inpraes,sg,indic,2p,pf}. {здесь=ADVPRO=} {все=SPRO,pl=(acc|nom)} — {уклонный=A=sg,brev,n}.
+
+{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {держать=V,ipf,tran=inpraes,pl,indic,3p} {все=SPRO,pl=(acc|nom)} {во=PR=} {рот=S,m,inan=(dat,sg|loc,sg)},
+{убийца=S,mf,anim=nom,sg} — {каждый=APRO=(acc,sg,m,inan|nom,sg,m)}, {и=CONJ=} {убитый=S,m,anim=nom,sg}.
+{грызть=V,ipf,tran=inpraes,ger}, {рождать=V,ipf,tran=inpraes,pl,indic,3p} {красота=S,f,inan=acc,sg},
+{глядеть=V,ipf,tran=inpraes,pl,indic,3p} {бесовский=A=pl,brev}-{волчий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {свита=S,f,inan=ins,sg}.
+
+{уста=S,pl,inan=(acc|nom)}, {и=CONJ=} {паста=S,f,inan=nom,sg}, {и=CONJ=} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{зверинокрылость?=S,f,inan=(acc,sg|nom,sg)}, {чудо=S,n,inan=(acc,sg|nom,sg)}-{рыба=S,f,anim=nom,sg}.
+{в=PR=} {цветной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {зрачок=S,m,inan=abl,pl} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {гроза=S,f,inan=nom,sg},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {в=PR=} {змейность?=S,f,inan=abl,pl} {изгиб=S,m,inan=gen,sg}.
+
+{и=CONJ=} {древо=S,n,inan=(acc,sg|nom,sg)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{расти=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {чудовищный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прикраса=S,f,inan=(abl,sg|dat,sg)},
+{являться=V,intr=inpraes,ger,ipf} {я=SPRO,sg,1p=ins}, {чтоб=CONJ=} {становиться=V,intr=inf,pf} {ты=SPRO,sg,2p=ins},
+{пьянить=V,ipf,tran=inpraes,ger} {и=CONJ=} {множить=V,ipf,tran=inpraes,ger} {ипостась=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

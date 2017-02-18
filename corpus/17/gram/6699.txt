@@ -1,114 +1,14 @@
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-садиться=V,intr=praet,sg,indic,n,pf
-,_
-и=CONJ=
-_
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-погасать=V,intr=praet,pl,indic,pf
-.\n
-чистый=A=sg,brev,m
-_
-и=CONJ=
-_
-ясный=A=sg,brev,m
-_
-пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-небосвод=S,m,inan=(acc,sg|nom,sg)
-.\n
-как=CONJ=
-_
-сардинка=S,f,anim=nom,sg
-_
-в=PR=
-_
-оливковый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-масло=S,n,inan=abl,sg
-,_\n
-одиночный=A=nom,sg,plen,f
-_
-тучка=S,f,inan=nom,sg
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-не=PART=
-_
-особенно=ADV=
-_
-важный=A=nom,sg,plen,f
-_
-штучка=S,f,inan=nom,sg
-_\n
-и=CONJ=
-,_
-притом=CONJ=
-,_
-не=PART=
-_
-нужный=A=sg,brev,f
-_
-никто=SPRO,sg,m,anim=dat
-,\n
-ну=PART=
-,_
-а=CONJ=
-_
-все-таки=PART=
-,_
-милый=A=nom,sg,plen,f
-_
-тучка=S,f,inan=nom,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-в=PR=
-_
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-взять=V,pf,tran=inpraes,sg,indic,1p
-.\n\n
-много=ADV,praed=
-_
-в=PR=
-_
-немой=A=sg,brev,m
-_
-всевозможный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-хлам=S,m,inan=gen,sg
-._\n
-много=ADV,praed=
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-мало=ADV=
-_
-ум=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-царить=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-немой=A=sg,brev,m
-_
-прекрасный=A=nom,sg,plen,f
-_
-дама=S,f,anim=nom,sg
-,_\n
-кто=SPRO,sg,m,anim=nom
-_
-такой=APRO=nom,sg,f
-_\u2014_
-увидеть=V,pf,tran=inpraes,sg,indic,2p
-_
-сам=APRO=nom,sg,f
-.\n
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {садиться=V,intr=praet,sg,indic,n,pf}, {и=CONJ=} {краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {погасать=V,intr=praet,pl,indic,pf}.
+{чистый=A=sg,brev,m} {и=CONJ=} {ясный=A=sg,brev,m} {пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {небосвод=S,m,inan=(acc,sg|nom,sg)}.
+{как=CONJ=} {сардинка=S,f,anim=nom,sg} {в=PR=} {оливковый=A=(abl,sg,plen,m|abl,sg,plen,n)} {масло=S,n,inan=abl,sg}, 
+{одиночный=A=nom,sg,plen,f} {тучка=S,f,inan=nom,sg} {плыть=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{не=PART=} {особенно=ADV=} {важный=A=nom,sg,plen,f} {штучка=S,f,inan=nom,sg} 
+{и=CONJ=}, {притом=CONJ=}, {не=PART=} {нужный=A=sg,brev,f} {никто=SPRO,sg,m,anim=dat},
+{ну=PART=}, {а=CONJ=} {все-таки=PART=}, {милый=A=nom,sg,plen,f} {тучка=S,f,inan=nom,sg},
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {в=PR=} {этот=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {взять=V,pf,tran=inpraes,sg,indic,1p}.
+
+{много=ADV,praed=} {в=PR=} {немой=A=sg,brev,m} {всевозможный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {хлам=S,m,inan=gen,sg}. 
+{много=ADV,praed=} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {мало=ADV=} {ум=S,m,inan=gen,sg},
+{и=CONJ=} {царить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {немой=A=sg,brev,m} {прекрасный=A=nom,sg,plen,f} {дама=S,f,anim=nom,sg}, 
+{кто=SPRO,sg,m,anim=nom} {такой=APRO=nom,sg,f} — {увидеть=V,pf,tran=inpraes,sg,indic,2p} {сам=APRO=nom,sg,f}.

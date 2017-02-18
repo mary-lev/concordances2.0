@@ -1,76 +1,9 @@
-давать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-и=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-любый??
-,\n
-и=CONJ=
-_
-восхитительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-выгиб=S,m,inan=(acc,sg|nom,sg)
-_
-лоб=S,m,inan=gen,sg
-.\n
-судьба=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-целовать=V,ipf,tran=praet,sg,indic,f
-_
-в=PR=
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-учить=V,ipf,tran=praet,sg,indic,f
-_
-первенствовать=V,ipf,intr=inf
-_
-судьба=S,f,inan=nom,sg
-.\n\n
-уста=S,pl,inan=dat
-_
-платить=V,ipf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=nom
-_
-щедрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дань=S,f,inan=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сыпать=V,ipf,tran=praet,sg,indic,f
-_
-на=PR=
-_
-гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-но=CONJ=
-_
-на=PR=
-_
-бег=S,sg,m,inan=(dat|loc)
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-тяжкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-длань=S,f,inan=ins,sg
-\n
-схватывать=V,tran=praet,sg,indic,f,pf
-_
-за=PR=
-_
-волос=S,m,inan=(acc,pl|nom,pl)
-_
-судьба=S,f,inan=nom,sg
-!\n
+{давать=V,tran=praet,pl,partcp,brev,pf,pass} {я=SPRO,sg,1p=(abl|dat)} {быть=V,intr=praet,pl,indic,ipf} {и=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} {любый??},
+{и=CONJ=} {восхитительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {выгиб=S,m,inan=(acc,sg|nom,sg)} {лоб=S,m,inan=gen,sg}.
+{судьба=S,f,inan=nom,sg} {я=SPRO,sg,1p=(acc|gen)} {целовать=V,ipf,tran=praet,sg,indic,f} {в=PR=} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{учить=V,ipf,tran=praet,sg,indic,f} {первенствовать=V,ipf,intr=inf} {судьба=S,f,inan=nom,sg}.
+
+{уста=S,pl,inan=dat} {платить=V,ipf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=nom} {щедрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дань=S,f,inan=ins,sg},
+{я=SPRO,sg,1p=nom} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сыпать=V,ipf,tran=praet,sg,indic,f} {на=PR=} {гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+{но=CONJ=} {на=PR=} {бег=S,sg,m,inan=(dat|loc)} {я=SPRO,sg,1p=(acc|gen)} {тяжкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {длань=S,f,inan=ins,sg}
+{схватывать=V,tran=praet,sg,indic,f,pf} {за=PR=} {волос=S,m,inan=(acc,pl|nom,pl)} {судьба=S,f,inan=nom,sg}!

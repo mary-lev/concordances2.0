@@ -1,126 +1,19 @@
-между=PR=
-_
-каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-громада=S,f,inan=gen,pl
-\n
-захирелый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-на=PR=
-_
-ветвь=S,f,inan=abl,pl
-_
-у=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-блестеть=V,ipf,intr=inpraes,pl,indic,3p
-\n
-бриллиантовый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мальчик=S,m,anim=nom,sg
-_
-к=PR=
-_
-они=SPRO,pl=dat
-_
-приходить=V,intr=praet,sg,indic,m,pf
-;\n
-ствол=S,m,inan=(acc,sg|nom,sg)
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-обнимать=V,tran=inpraes,ger,ipf
-,\n
-с=PR=
-_
-она=SPRO,sg,3p,f=ins
-_
-тихо=ADV=
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-_
-поводить=V,intr=praet,sg,indic,m,pf
-:\n\u2014_
-ах=INTJ=
-,_
-березка=S,f,inan=nom,sg
-_
-дорогой=A=nom,sg,plen,f
-!\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=nom
-_
-плакать=V,ipf,intr=inpraes,sg,indic,2p
-_
-по=PR=
-_
-утро=S,n,inan=dat,pl
-?\n
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-опускать=V=praet,sg,indic,f,pf
-?_\u2014\n\u2014_
-не=PART=
-_
-милый=A=sg,brev,f
-_
-столица=S,f,inan=nom,sg
-_
-мы=SPRO,pl,1p=dat
-!\n
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-,_\u2014_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-облеплять=V,tran=praet,sg,indic,f,pf
-.\n\n
-вот=PART=
-_
-и=CONJ=
-_
-трудно=ADV=
-_
-мы=SPRO,pl,1p=dat
-_
-дышать=V,ipf,intr=inf
-,\n
-вот=PART=
-_
-и=CONJ=
-_
-литься=V,ipf,intr=inpraes,pl,indic,3p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-мы=SPRO,pl,1p=dat
-_
-и=CONJ=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-видать=V,ipf,tran=inf
-!_\u2014\n
-и=CONJ=
-_
-заплакать=V,pf,tran=praet,pl,indic
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{между=PR=} {каменный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {громада=S,f,inan=gen,pl}
+{захирелый=A=(acc,pl,plen,inan|nom,pl,plen)} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{на=PR=} {ветвь=S,f,inan=abl,pl} {у=PR=} {они=SPRO,pl=(abl|acc|gen)} {блестеть=V,ipf,intr=inpraes,pl,indic,3p}
+{бриллиантовый=A=(acc,pl,plen,inan|nom,pl,plen)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мальчик=S,m,anim=nom,sg} {к=PR=} {они=SPRO,pl=dat} {приходить=V,intr=praet,sg,indic,m,pf};
+{ствол=S,m,inan=(acc,sg|nom,sg)} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {обнимать=V,tran=inpraes,ger,ipf},
+{с=PR=} {она=SPRO,sg,3p,f=ins} {тихо=ADV=} {речь=S,f,inan=(acc,sg|nom,sg)} {поводить=V,intr=praet,sg,indic,m,pf}:
+— {ах=INTJ=}, {березка=S,f,inan=nom,sg} {дорогой=A=nom,sg,plen,f}!
+
+{что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=nom} {плакать=V,ipf,intr=inpraes,sg,indic,2p} {по=PR=} {утро=S,n,inan=dat,pl}?
+{что=CONJ=} {ты=SPRO,sg,2p=nom} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {опускать=V=praet,sg,indic,f,pf}? —
+— {не=PART=} {милый=A=sg,brev,f} {столица=S,f,inan=nom,sg} {мы=SPRO,pl,1p=dat}!
+{видеть=V,ipf,tran=inpraes,sg,indic,2p}, — {пыль=S,f,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=(abl|acc|gen)} {облеплять=V,tran=praet,sg,indic,f,pf}.
+
+{вот=PART=} {и=CONJ=} {трудно=ADV=} {мы=SPRO,pl,1p=dat} {дышать=V,ipf,intr=inf},
+{вот=PART=} {и=CONJ=} {литься=V,ipf,intr=inpraes,pl,indic,3p} {наш=APRO=(nom,pl|acc,pl,inan)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{мы=SPRO,pl,1p=dat} {и=CONJ=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {видать=V,ipf,tran=inf}! —
+{и=CONJ=} {заплакать=V,pf,tran=praet,pl,indic} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

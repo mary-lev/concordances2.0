@@ -1,54 +1,9 @@
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-колоколенка=S,f,inan=ins,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-любоваться=V,ipf,intr=inpraes,sg,indic,2p
-_\u2014_
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-.\n
-голосок=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-тоненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-в=PR=
-_
-ясный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-купол=S,m,inan=abl,sg
-_\u2014_
-звездочка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-куполок=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-золотенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-ясный=A=pl,brev
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-под=PR=
-_
-лобик=S,m,inan=ins,sg
-,\n
-голосочек=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-тоненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-ты=SPRO,sg,2p=nom
-_
-сам=APRO=nom,sg,f
-_
-колоколенка=S,f,inan=nom,sg
-.\n
+{молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {колоколенка=S,f,inan=ins,sg}
+{ты=SPRO,sg,2p=nom} {любоваться=V,ipf,intr=inpraes,sg,indic,2p} — {в=PR=} {воздух=S,m,inan=abl,sg}.
+{голосок=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {тоненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{в=PR=} {ясный=A=(abl,sg,plen,m|abl,sg,plen,n)} {купол=S,m,inan=abl,sg} — {звездочка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{куполок=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {золотенький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{ясный=A=pl,brev} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {под=PR=} {лобик=S,m,inan=ins,sg},
+{голосочек=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {тоненький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{ты=SPRO,sg,2p=nom} {сам=APRO=nom,sg,f} {колоколенка=S,f,inan=nom,sg}.

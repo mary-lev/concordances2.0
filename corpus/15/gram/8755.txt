@@ -1,114 +1,14 @@
-над=PR=
-_
-омут=S,m,inan=ins,sg
-,_
-жутко=ADV=
--
-немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-глянцевитый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n\t
-ущербный=A=nom,sg,plen,f
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-луна=S,f,inan=nom,sg
-,\n
-с=PR=
-_
-лицо=S,n,inan=ins,sg
-_
-опрокидывать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-,_
-странно=ADV=
-_
-неслитой?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n\t
-с=PR=
-_
-покой=S,m,inan=ins,sg
-_
-полночный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-сон=S,m,inan=gen,sg
-.\n\n
-но=CONJ=
-_
-слитный=A=nom,sg,plen,f
-_
-страшно=ADV=
-_
-с=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-пропасть=S,f,inan=ins,sg
-_
-властный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n\t
-с=PR=
-_
-то=SPRO,sg,n,inan=ins
-_
-круглый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-застывший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-жерло=S,n,inan=ins,sg
-,\n
-где=ADVPRO=
-_
-прошлый=A=ins,sg,plen,f
-_
-осень=S,f,inan=ins,sg
-,_
-ночь=S,f,inan=ins,sg
-_
-ненастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n\t
-они=SPRO,pl=nom
-_
-утопиться=V,pf,intr=praet,pl,indic
-_
-вдвоем=ADV=
-.\n\n
-они=SPRO,pl=nom
-,_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-странный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-бледный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-человек=S,m,anim=nom,pl
-,\n\t
-который=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-встречать=V,tran=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-весна=S,f,inan=ins,sg
-,\n
-когда=CONJ=
-_
-расцветать=V,intr=praet,pl,indic,ipf
-_
-на=PR=
-_
-влага=S,f,inan=(abl,sg|dat,sg)
-,_
-как=CONJ=
-_
-в=PR=
-_
-чудо=S,n,inan=abl,sg
-,\n\t
-кувшинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-под=PR=
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=ins,sg
-.\n
+{над=PR=} {омут=S,m,inan=ins,sg}, {жутко=ADV=}-{немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {глянцевитый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+	{ущербный=A=nom,sg,plen,f} {светить=V,ipf,intr=inpraes,sg,indic,3p} {луна=S,f,inan=nom,sg},
+{с=PR=} {лицо=S,n,inan=ins,sg} {опрокидывать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}, {странно=ADV=} {неслитой?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+	{с=PR=} {покой=S,m,inan=ins,sg} {полночный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {сон=S,m,inan=gen,sg}.
+
+{но=CONJ=} {слитный=A=nom,sg,plen,f} {страшно=ADV=} {с=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {пропасть=S,f,inan=ins,sg} {властный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+	{с=PR=} {то=SPRO,sg,n,inan=ins} {круглый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {застывший=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жерло=S,n,inan=ins,sg},
+{где=ADVPRO=} {прошлый=A=ins,sg,plen,f} {осень=S,f,inan=ins,sg}, {ночь=S,f,inan=ins,sg} {ненастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+	{они=SPRO,pl=nom} {утопиться=V,pf,intr=praet,pl,indic} {вдвоем=ADV=}.
+
+{они=SPRO,pl=nom}, {этот=APRO=(nom,pl|acc,pl,inan)} {странный=A=(acc,pl,plen,inan|nom,pl,plen)} {бледный=A=(acc,pl,plen,inan|nom,pl,plen)} {человек=S,m,anim=nom,pl},
+	{который=APRO=(abl,pl|gen,pl|acc,pl,anim)} {встречать=V,tran=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {весна=S,f,inan=ins,sg},
+{когда=CONJ=} {расцветать=V,intr=praet,pl,indic,ipf} {на=PR=} {влага=S,f,inan=(abl,sg|dat,sg)}, {как=CONJ=} {в=PR=} {чудо=S,n,inan=abl,sg},
+	{кувшинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {под=PR=} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=ins,sg}.

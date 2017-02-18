@@ -1,98 +1,11 @@
-счастливый=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-бег=S,sg,m,inan=(acc|nom)
-_
-упасть=V,pf,intr=praet,sg,indic,m
-,\n
-в=PR=
-_
-бег=S,sg,m,inan=abl
-_
-до=PR=
-_
-цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-так=ADVPRO=
-_
-белый=A=ins,sg,plen,f
-_
-пена=S,f,inan=ins,sg
-_
-увенчивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-вал=S,m,inan=(acc,sg|nom,sg)
-\n
-рассыпаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-радостный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-хмель=S,m,inan=abl,sg
-.\n
-счастливый=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-узнавать=V,tran=praet,sg,indic,m,pf
-_
-устремление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-вал=S,m,inan=(acc,sg|nom,sg)
-_
-разбегаться=V,pf,intr=praet,sg,indic,m
-,_
-хмельной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-кружево=S,n,inan=ins,sg
-_
-белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-прекрасный=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-к=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-рожать=V=praet,sg,partcp,brev,m,pf,pass,tran
-_
-глубина=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-к=PR=
-_
-безвестный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-стремиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-предел=S,m,inan=dat,pl
-.\n
-счастливый=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-узнавать=V,tran=praet,sg,indic,m,pf
-_
-быть=V,intr=inf,ipf
-_
-в=PR=
-_
-стремление=S,n,inan=abl,sg
-_
-смелый=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n
+{счастливый=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {в=PR=} {бег=S,sg,m,inan=(acc|nom)} {упасть=V,pf,intr=praet,sg,indic,m},
+{в=PR=} {бег=S,sg,m,inan=abl} {до=PR=} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{так=ADVPRO=} {белый=A=ins,sg,plen,f} {пена=S,f,inan=ins,sg} {увенчивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {вал=S,m,inan=(acc,sg|nom,sg)}
+{рассыпаться=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {радостный=A=(abl,sg,plen,m|abl,sg,plen,n)} {хмель=S,m,inan=abl,sg}.
+{счастливый=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {узнавать=V,tran=praet,sg,indic,m,pf} {устремление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{вал=S,m,inan=(acc,sg|nom,sg)} {разбегаться=V,pf,intr=praet,sg,indic,m}, {хмельной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{кружево=S,n,inan=ins,sg} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{прекрасный=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {к=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {рожать=V=praet,sg,partcp,brev,m,pf,pass,tran} {глубина=S,f,inan=ins,sg},
+{и=CONJ=} {к=PR=} {безвестный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {стремиться=V,ipf,intr=inpraes,sg,indic,3p} {предел=S,m,inan=dat,pl}.
+{счастливый=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {узнавать=V,tran=praet,sg,indic,m,pf} {быть=V,intr=inf,ipf} {в=PR=} {стремление=S,n,inan=abl,sg} {смелый=A=(abl,sg,plen,m|abl,sg,plen,n)}.

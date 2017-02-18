@@ -1,112 +1,12 @@
-я=SPRO,sg,1p=nom
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-до=PR=
-_
-дно=S,n,inan=gen,sg
-..._
-брать=V,ipf,tran=sg,imper,2p
-_
-и=CONJ=
-_
-пить=V,ipf,tran=sg,imper,2p
-:\n
-мой=APRO=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-неистощимый=A=sg,brev,f
-,_\n
-бескрайный=A=sg,brev,f
-,_
-как=CONJ=
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-_
-степь=S,f,inan=gen,pl
-,_\n
-и=CONJ=
-,_
-как=CONJ=
-_
-судьба=S,f,inan=nom,sg
-,_
-непоправимый=A=sg,brev,f
-.\n
-за=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-,_
-зачем=ADVPRO=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-?_\n
-позор=S,m,inan=ins,sg
-_
-кроить=V,ipf,tran=inpraes,sg,indic,1p
-_
-иль=CONJ=
-_
-прославлять=V,tran=inpraes,sg,indic,1p,pf
-?_\n
-но=CONJ=
-_
-пусть=PART=
-_
-с=PR=
-_
-себя=SPRO=ins
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-губить=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_\n
-живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-оставлять=V,tran=inpraes,sg,indic,1p,pf
-.\n
-как=CONJ=
-_
-жертва=S,f,inan=acc,sg
-,_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-держать=V,ipf,tran=inpraes,sg,indic,1p
-._\n
-трепетать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-ладонь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-близкий=A=sg,brev,m
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,_
-когда=CONJ=
-_
-заржать=V,pf,intr=inpraes,pl,indic,3p
-_\n
-на=PR=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-обещать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-конь=S,m,anim=nom,pl
-.\n
+{я=SPRO,sg,1p=nom} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {до=PR=} {дно=S,n,inan=gen,sg}... {брать=V,ipf,tran=sg,imper,2p} {и=CONJ=} {пить=V,ipf,tran=sg,imper,2p}:
+{мой=APRO=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)} {неистощимый=A=sg,brev,f}, 
+{бескрайный=A=sg,brev,f}, {как=CONJ=} {простор=S,m,inan=(acc,sg|nom,sg)} {степь=S,f,inan=gen,pl}, 
+{и=CONJ=}, {как=CONJ=} {судьба=S,f,inan=nom,sg}, {непоправимый=A=sg,brev,f}.
+{за=PR=} {что=SPRO,sg,n,inan=(acc|nom)}, {зачем=ADVPRO=} {ты=SPRO,sg,2p=(acc|gen)} {любить=V,ipf,tran=inpraes,sg,indic,1p}? 
+{позор=S,m,inan=ins,sg} {кроить=V,ipf,tran=inpraes,sg,indic,1p} {иль=CONJ=} {прославлять=V,tran=inpraes,sg,indic,1p,pf}? 
+{но=CONJ=} {пусть=PART=} {с=PR=} {себя=SPRO=ins} {ты=SPRO,sg,2p=(acc|gen)} {губить=V,ipf,tran=inpraes,sg,indic,1p} — 
+{живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {не=PART=} {оставлять=V,tran=inpraes,sg,indic,1p,pf}.
+{как=CONJ=} {жертва=S,f,inan=acc,sg}, {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {я=SPRO,sg,1p=nom} {держать=V,ipf,tran=inpraes,sg,indic,1p}. 
+{трепетать=V,ipf,intr=inpraes,sg,indic,3p}, {биться=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {ладонь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {близкий=A=sg,brev,m} {час=S,m,inan=(acc,sg|nom,sg)}, {когда=CONJ=} {заржать=V,pf,intr=inpraes,pl,indic,3p} 
+{на=PR=} {смерть=S,f,inan=(acc,sg|nom,sg)} {обещать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {конь=S,m,anim=nom,pl}.

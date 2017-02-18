@@ -1,76 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тень=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-глупость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-скука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-плач=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-страсть=S,f,inan=gen,pl
-.\n
-как=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-она=SPRO,sg,3p,f=nom
-_
-нестись=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-бледный=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-,\n
-и=CONJ=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-рваться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бедный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-не=PART=
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-жить=V,ipf,intr=inpraes,sg,indic,1p
-,_
-смеяться=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-платить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-.\n
+{я=SPRO,sg,1p=nom} {в=PR=} {область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тень=S,f,inan=gen,pl},
+{и=CONJ=} {глупость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {и=CONJ=} {скука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {плач=S,m,inan=gen,sg} {и=CONJ=} {страсть=S,f,inan=gen,pl}.
+{как=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)} {она=SPRO,sg,3p,f=nom} {нестись=V,ipf,intr=inpraes,sg,indic,3p},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {бледный=A=nom,sg,plen,f} {мой=APRO=nom,sg,f},
+{и=CONJ=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нить=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {рваться=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бедный=A=(acc,sg,plen,n|nom,sg,plen,n)} {не=PART=} {биться=V,ipf,intr=inpraes,sg,indic,3p},
+{жить=V,ipf,intr=inpraes,sg,indic,1p}, {смеяться=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {платить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}.

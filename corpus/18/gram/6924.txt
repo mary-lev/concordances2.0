@@ -1,118 +1,14 @@
-перепутывать=V,tran=praet,sg,indic,m,pf
-_
-карта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_
-пасьянс=S,m,inan=gen,sg
-,\n
-ключ=S,m,inan=(acc,sg|nom,sg)
-_
-иссякать=V,intr=praet,sg,indic,m,pf
-,_
-и=CONJ=
-_
-русло=S,n,inan=(acc,sg|nom,sg)
-_
-пусто=ADV=
-_
-ныне=ADV=
-._\n
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-пленный=A=sg,brev,m
-_
-сад=S,m,inan=ins,pl
-_
-иль=CONJ=
-_
-де=PART=
--
-франс=S,persn,m,anim=(acc,sg|gen,sg)
-,_\n
-а=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-тосковать=V,ipf,intr=inpraes,sg,indic,3p
-_
-по=PR=
-_
-пустыня=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-бродить=V,ipf,intr=inpraes,sg,indic,3p
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-парк=S,m,inan=ins,pl
-_
-версаль=S,geo,m,inan=gen,sg
-,\n
-весь=APRO=nom,sg,f
-_
-закатный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-зарево=S,n,inan=ins,sg
-_
-объять=V,tran=praet,sg,partcp,brev,f,pf,pass
-...\n
-я=SPRO,sg,1p=(abl|dat)
-_
-же=PART=
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-рыцарь=S,m,anim=nom,pl
-_
-грааль?=S,m,inan=gen,sg
-_\n
-на=PR=
-_
-скала=S,f,inan=abl,pl
-_
-суровый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-монсальват?=S,m,inan=gen,sg
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-,_
-париж=S,geo,m,inan=(acc,sg|nom,sg)
-,_
-желанный=A=sg,brev,f
-_
-и=CONJ=
-_
-знакомый=A=sg,brev,f
-_\n
-власть=S,f,inan=(acc,sg|nom,sg)
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-хмель=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-отрава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!_\n
-ах=INTJ=
-!_
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_-_
-пустыня=S,f,inan=nom,sg
-_
-меганома?=S,f,inan=nom,sg
-,_\n
-зной=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-камень=S,m,inan=(acc,pl|nom,pl)
-,_
-и=CONJ=
-_
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
+{перепутывать=V,tran=praet,sg,indic,m,pf} {карта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom} {пасьянс=S,m,inan=gen,sg},
+{ключ=S,m,inan=(acc,sg|nom,sg)} {иссякать=V,intr=praet,sg,indic,m,pf}, {и=CONJ=} {русло=S,n,inan=(acc,sg|nom,sg)} {пусто=ADV=} {ныне=ADV=}. 
+{взор=S,m,inan=(acc,sg|nom,sg)} {пленный=A=sg,brev,m} {сад=S,m,inan=ins,pl} {иль=CONJ=} {де=PART=}-{франс=S,persn,m,anim=(acc,sg|gen,sg)}, 
+{а=CONJ=} {душа=S,f,inan=nom,sg} {тосковать=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {пустыня=S,f,inan=(abl,sg|dat,sg)}.
+
+{бродить=V,ipf,intr=inpraes,sg,indic,3p} {осень=S,f,inan=(acc,sg|nom,sg)} {парк=S,m,inan=ins,pl} {версаль=S,geo,m,inan=gen,sg},
+{весь=APRO=nom,sg,f} {закатный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зарево=S,n,inan=ins,sg} {объять=V,tran=praet,sg,partcp,brev,f,pf,pass}...
+{я=SPRO,sg,1p=(abl|dat)} {же=PART=} {сниться=V,ipf,intr=inpraes,pl,indic,3p} {рыцарь=S,m,anim=nom,pl} {грааль?=S,m,inan=gen,sg} 
+{на=PR=} {скала=S,f,inan=abl,pl} {суровый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {монсальват?=S,m,inan=gen,sg}.
+
+{я=SPRO,sg,1p=(abl|dat)}, {париж=S,geo,m,inan=(acc,sg|nom,sg)}, {желанный=A=sg,brev,f} {и=CONJ=} {знакомый=A=sg,brev,f} 
+{власть=S,f,inan=(acc,sg|nom,sg)} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {хмель=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {отрава=S,f,inan=(acc,pl|gen,sg|nom,pl)}! 
+{ах=INTJ=}! {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} - {пустыня=S,f,inan=nom,sg} {меганома?=S,f,inan=nom,sg}, 
+{зной=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {камень=S,m,inan=(acc,pl|nom,pl)}, {и=CONJ=} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)}...

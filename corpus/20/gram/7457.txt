@@ -1,168 +1,24 @@
-о=PR=
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-!_
-о=PR=
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-пробуждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n\t
-опять=ADV=
-_
-не=PART=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-_
-ль=PART=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-в=PR=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-позорный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-не=PART=
-_
-тот=APRO=nom,sg,f
-_
-ли=PART=
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-?\n\n
-не=PART=
-_
-тот=APRO=nom,sg,f
-,_
-не=PART=
-_
-тот=APRO=nom,sg,f
-!_
-стремить=V,ipf,tran=inpraes,sg,indic,3p
-_
-еще=ADV=
-_
-стремительно=ADV=comp
-_\n\t
-лавина=S,f,inan=nom,sg
-_
-день=S,m,inan=gen,pl
-,\n
-и=CONJ=
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-еще=ADV=
-_
-тупой=A=comp
-_
-и=CONJ=
-_
-мучительно=ADV=comp
-,\n\t
-еще=ADV=
-_
-стыдно=ADV=comp
-.\n\n
-мелькать=V,ipf,intr=inpraes,pl,indic,3p
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-под=PR=
-_
-серый=A=ins,pl,plen
-_
-покров=S,m,inan=ins,pl
-,\n\t
-а=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-длинный=A=sg,brev,f
-.\n
-и=CONJ=
-_
-весь=APRO=nom,sg,f
-_
-струиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-длительный=A=ins,pl,plen
-_
-зов=S,m,inan=ins,pl
-_\n\t
-из=PR=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014_
-со=PR=
-_
-дно=S,n,inan=gen,sg
-...\n\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-из=PR=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-навеки=ADV=
-_
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n\t
-неслышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стон=S,m,inan=(acc,sg|nom,sg)
-...\n
-как=ADVPRO=
-_
-мышь=S,f,anim=(acc,sg|nom,sg)
-_
-ночной=A=nom,sg,plen,f
-,_
-злой=A=nom,sg,plen,f
-,_
-острокрылый=A=nom,sg,plen,f
-,\n\t
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-кто=SPRO,sg,m,anim=dat
-_
-страдание=S,n,inan=(acc,sg|nom,sg)
-_
-нести=V,ipf,tran=inf
-_
-бесслезный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\n\t
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-ночь=S,f,inan=gen,pl
-?\n
-таить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ответ=S,m,inan=(acc,sg|nom,sg)
-_
-молчание=S,n,inan=(acc,sg|nom,sg)
-_
-угрозный?=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n\t
-но=CONJ=
-_
-чей=APRO=(acc,sg,m,inan|nom,sg,m)
-?_
-но=CONJ=
-_
-чей=APRO=(acc,sg,m,inan|nom,sg,m)
-?\n
+{о=PR=} {этот=APRO=(nom,pl|acc,pl,inan)} {сон=S,m,inan=(acc,pl|nom,pl)}! {о=PR=} {этот=APRO=(nom,pl|acc,pl,inan)} {пробуждение=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+	{опять=ADV=} {не=PART=} {то=SPRO,sg,n,inan=(acc|nom)} {ль=PART=},
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {в=PR=} {день=S,m,inan=(acc,pl|nom,pl)} {позорный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пленение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+	{не=PART=} {тот=APRO=nom,sg,f} {ли=PART=} {боль=S,f,inan=(acc,sg|nom,sg)}?
+
+{не=PART=} {тот=APRO=nom,sg,f}, {не=PART=} {тот=APRO=nom,sg,f}! {стремить=V,ipf,tran=inpraes,sg,indic,3p} {еще=ADV=} {стремительно=ADV=comp} 
+	{лавина=S,f,inan=nom,sg} {день=S,m,inan=gen,pl},
+{и=CONJ=} {боль=S,f,inan=(acc,sg|nom,sg)} {еще=ADV=} {тупой=A=comp} {и=CONJ=} {мучительно=ADV=comp},
+	{еще=ADV=} {стыдно=ADV=comp}.
+
+{мелькать=V,ipf,intr=inpraes,pl,indic,3p} {день=S,m,inan=(acc,pl|nom,pl)} {под=PR=} {серый=A=ins,pl,plen} {покров=S,m,inan=ins,pl},
+	{а=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} {длинный=A=sg,brev,f}.
+{и=CONJ=} {весь=APRO=nom,sg,f} {струиться=V,ipf,intr=inpraes,sg,indic,3p} {длительный=A=ins,pl,plen} {зов=S,m,inan=ins,pl} 
+	{из=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}, — {со=PR=} {дно=S,n,inan=gen,sg}...
+
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {из=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {навеки=ADV=} {милый=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+	{неслышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стон=S,m,inan=(acc,sg|nom,sg)}...
+{как=ADVPRO=} {мышь=S,f,anim=(acc,sg|nom,sg)} {ночной=A=nom,sg,plen,f}, {злой=A=nom,sg,plen,f}, {острокрылый=A=nom,sg,plen,f},
+	{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {сон=S,m,inan=(acc,sg|nom,sg)}.
+
+{кто=SPRO,sg,m,anim=dat} {страдание=S,n,inan=(acc,sg|nom,sg)} {нести=V,ipf,tran=inf} {бесслезный=A=(acc,sg,plen,n|nom,sg,plen,n)} 
+	{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ночь=S,f,inan=gen,pl}?
+{таить=V,ipf,tran=inpraes,sg,indic,3p} {ответ=S,m,inan=(acc,sg|nom,sg)} {молчание=S,n,inan=(acc,sg|nom,sg)} {угрозный?=A=(acc,sg,plen,n|nom,sg,plen,n)},
+	{но=CONJ=} {чей=APRO=(acc,sg,m,inan|nom,sg,m)}? {но=CONJ=} {чей=APRO=(acc,sg,m,inan|nom,sg,m)}?

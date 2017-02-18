@@ -1,46 +1,8 @@
-щель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-_
-вырыть=V,pf=praet,pl,partcp,brev,pass
-,\n
-не=PART=
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-.\n
-питерский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сирота=S,mf,anim=(gen,sg|nom,pl)
-,\n
-детонька?=S,persn,f,anim=(gen,sg|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-!\n
-под=PR=
-_
-земля=S,f,inan=ins,sg
-_
-не=PART=
-_
-дышаться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-сверлить=V,ipf,tran=inpraes,sg,indic,3p
-_
-висок=S,m,inan=(acc,sg|nom,sg)
-,\n
-сквозь=PR=
-_
-бомбежка=S,f,inan=acc,sg
-_
-слышаться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-голосок=S,m,inan=(acc,sg|nom,sg)
-.\n
+{щель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)} {вырыть=V,pf=praet,pl,partcp,brev,pass},
+{не=PART=} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {огонь=S,m,inan=(acc,pl|nom,pl)}.
+{питерский=A=(acc,pl,plen,inan|nom,pl,plen)} {сирота=S,mf,anim=(gen,sg|nom,pl)},
+{детонька?=S,persn,f,anim=(gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}!
+{под=PR=} {земля=S,f,inan=ins,sg} {не=PART=} {дышаться=V,ipf,intr=inpraes,sg,indic,3p},
+{боль=S,f,inan=(acc,sg|nom,sg)} {сверлить=V,ipf,tran=inpraes,sg,indic,3p} {висок=S,m,inan=(acc,sg|nom,sg)},
+{сквозь=PR=} {бомбежка=S,f,inan=acc,sg} {слышаться=V,ipf,intr=inpraes,sg,indic,3p}
+{детский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {голосок=S,m,inan=(acc,sg|nom,sg)}.

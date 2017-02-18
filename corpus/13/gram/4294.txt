@@ -1,150 +1,19 @@
-легко=ADV=comp
-_
-пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)
-,_
-молоко=S,n,inan=gen,sg
-_
-нежно=ADV=comp
-,\n
-румянец=S,m,inan=ins,sg
-_
-заря=S,f,inan=gen,sg
-_
-рдяный=A=sg,brev,n
-_
-играть=V,ipf,tran=inpraes,ger
-,\n
-отрок=S,m,anim=nom,sg
-_
-ринуться=V,pf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сени=S,pl,inan=gen
-.\n
-раскат=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-кудри=S,pl,inan=abl
-_
-раев?=S,famn,m,anim=(acc,sg|gen,sg)
-_
-грай=S,m,inan=gen,sg
-.\n\n
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мужество=S,n,inan=ins,sg
-,_
-слепота=S,sg,f,inan=ins
-_
-стрелец=S,m,anim=nom,sg
-,\n
-когда=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-без=PR=
-_
-крыло=S,n,inan=gen,pl
-_
-в=PR=
-_
-горница=S,f,inan=acc,sg
-_
-внидешь?=S,f,inan=(acc,sg|nom,sg)
-,\n
-бельмо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-замерцать=V,pf,intr=praet,sg,indic,m
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-,\n
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-зелень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-.\n\n
-в=PR=
-_
-шум=S,m,inan=abl,sg
-_
-вихревой=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-в=PR=
-_
-осияние?=S,n,inan=abl,sg
-_
-латы=S,pl,inan=gen
-_\u2014\n
-все=ADV=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-гонец=S,m,anim=nom,sg
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вельможный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n
-память=S,f,inan=(acc,sg|nom,sg)
-_
-пазуха=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!_
-откровение=S,n,inan=gen,pl
-_
-клад=S,m,inan=(acc,sg|nom,sg)
-!\n
-плыть=V,ipf,intr=pl,imper,2p
-,_
-дым=S,m,inan=(acc,pl|nom,pl)
-_
-прихоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ложный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n\n
-царь=S,m,anim=nom,sg
-_
-венчаться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,_
-вспоминать=V,ipf,tran=inpraes,sg,indic,3p
-_
-гость=S,m,anim=nom,sg
-,\n
-пришлец=S,m,anim=nom,sg
-_
-опочить=V,pf,intr=praet,sg,indic,m
-,_
-строиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-куща=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-всесожжение=S,n,inan=(acc,sg|nom,sg)
-!_
-возликовать=V,pf,intr=inpraes,sg,indic,3p
-_
-кость=S,f,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-все=ADV=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-глухой=A=comp
-_
-и=CONJ=
-_
-густой=A=comp
-.\n
+{легко=ADV=comp} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)}, {молоко=S,n,inan=gen,sg} {нежно=ADV=comp},
+{румянец=S,m,inan=ins,sg} {заря=S,f,inan=gen,sg} {рдяный=A=sg,brev,n} {играть=V,ipf,tran=inpraes,ger},
+{отрок=S,m,anim=nom,sg} {ринуться=V,pf,intr=inpraes,sg,indic,3p} {с=PR=} {золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сени=S,pl,inan=gen}.
+{раскат=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {кудри=S,pl,inan=abl} {раев?=S,famn,m,anim=(acc,sg|gen,sg)} {грай=S,m,inan=gen,sg}.
+
+{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мужество=S,n,inan=ins,sg}, {слепота=S,sg,f,inan=ins} {стрелец=S,m,anim=nom,sg},
+{когда=CONJ=} {ты=SPRO,sg,2p=nom} {без=PR=} {крыло=S,n,inan=gen,pl} {в=PR=} {горница=S,f,inan=acc,sg} {внидешь?=S,f,inan=(acc,sg|nom,sg)},
+{бельмо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {падать=V,ipf,intr=inpraes,pl,indic,3p}, {замерцать=V,pf,intr=praet,sg,indic,m} {венец=S,m,inan=(acc,sg|nom,sg)},
+{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {зелень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {видеть=V,ipf,tran=inpraes,sg,indic,2p}.
+
+{в=PR=} {шум=S,m,inan=abl,sg} {вихревой=A=(abl,sg,plen,m|abl,sg,plen,n)}, {в=PR=} {осияние?=S,n,inan=abl,sg} {латы=S,pl,inan=gen} —
+{все=ADV=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {гонец=S,m,anim=nom,sg} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вельможный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+{память=S,f,inan=(acc,sg|nom,sg)} {пазуха=S,f,inan=(acc,pl|gen,sg|nom,pl)}! {откровение=S,n,inan=gen,pl} {клад=S,m,inan=(acc,sg|nom,sg)}!
+{плыть=V,ipf,intr=pl,imper,2p}, {дым=S,m,inan=(acc,pl|nom,pl)} {прихоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ложный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+
+{царь=S,m,anim=nom,sg} {венчаться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}, {вспоминать=V,ipf,tran=inpraes,sg,indic,3p} {гость=S,m,anim=nom,sg},
+{пришлец=S,m,anim=nom,sg} {опочить=V,pf,intr=praet,sg,indic,m}, {строиться=V,ipf,intr=inpraes,pl,indic,3p} {куща=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{всесожжение=S,n,inan=(acc,sg|nom,sg)}! {возликовать=V,pf,intr=inpraes,sg,indic,3p} {кость=S,f,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {кровь=S,f,inan=(acc,sg|nom,sg)} {все=ADV=} {петь=V,ipf,tran=inpraes,sg,indic,3p} {глухой=A=comp} {и=CONJ=} {густой=A=comp}.

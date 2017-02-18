@@ -1,88 +1,12 @@
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-меркнуть=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-бледнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)
-_
-небо=S,n,inan=abl,sg
-,_\n
-все=SPRO,pl=(acc|nom)
-_
-слабо=ADV=comp
-_
-отражаться=V,intr=inpraes,ger,ipf
-_
-в=PR=
-_
-вода=S,f,inan=(abl,sg|dat,sg)
-.\n
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-проплывать=V,tran=praet,pl,indic,ipf
-,_
-как=CONJ=
-_
-лебедь=S,m,anim=nom,pl
-,\n
-с=PR=
-_
-розоветь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-даль=S,f,inan=ins,sg
-_
-редеть=V,ipf,intr=inpraes,ger
-...\n\n
-лебедь=S,m,anim=ins,pl
-_
-проплывать=V,tran=praet,pl,indic,pf
-_
-сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-тревога=S,f,inan=nom,sg
-_
-в=PR=
-_
-сияние=S,n,inan=abl,sg
-_
-померкнуть=V,pf,intr=praet,sg,indic,f
-,\n
-без=PR=
-_
-след=S,m,inan=gen,sg
-_
-растворяться=V,intr=praet,ger,pf
-_
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-,\n\n
-и=CONJ=
-_
-глядеть=V,ipf,tran=praet,sg,indic,f
-_
-душа=S,f,inan=nom,sg
-,_
-хорошеть=V,ipf,intr=inpraes,ger
-,\n
-как=CONJ=
-_
-влюбленный=A=nom,sg,plen,f
-_
-женщина=S,f,anim=nom,sg
-_
-в=PR=
-_
-зеркало=S,n,inan=(acc,sg|nom,sg)
-,_\n
-в=PR=
-_
-торжество=S,n,inan=(acc,sg|nom,sg)
-,_
-неизвестный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {меркнуть=V,ipf,intr=praet,pl,indic} {в=PR=} {бледнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)} {небо=S,n,inan=abl,sg}, 
+{все=SPRO,pl=(acc|nom)} {слабо=ADV=comp} {отражаться=V,intr=inpraes,ger,ipf} {в=PR=} {вода=S,f,inan=(abl,sg|dat,sg)}.
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {проплывать=V,tran=praet,pl,indic,ipf}, {как=CONJ=} {лебедь=S,m,anim=nom,pl},
+{с=PR=} {розоветь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {даль=S,f,inan=ins,sg} {редеть=V,ipf,intr=inpraes,ger}...
+
+{лебедь=S,m,anim=ins,pl} {проплывать=V,tran=praet,pl,indic,pf} {сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {тревога=S,f,inan=nom,sg} {в=PR=} {сияние=S,n,inan=abl,sg} {померкнуть=V,pf,intr=praet,sg,indic,f},
+{без=PR=} {след=S,m,inan=gen,sg} {растворяться=V,intr=praet,ger,pf} {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)},
+
+{и=CONJ=} {глядеть=V,ipf,tran=praet,sg,indic,f} {душа=S,f,inan=nom,sg}, {хорошеть=V,ipf,intr=inpraes,ger},
+{как=CONJ=} {влюбленный=A=nom,sg,plen,f} {женщина=S,f,anim=nom,sg} {в=PR=} {зеркало=S,n,inan=(acc,sg|nom,sg)}, 
+{в=PR=} {торжество=S,n,inan=(acc,sg|nom,sg)}, {неизвестный=A=(acc,sg,plen,n|nom,sg,plen,n)} {я=SPRO,sg,1p=(abl|dat)}.

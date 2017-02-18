@@ -1,122 +1,24 @@
-редко=ADV=
-_
-встречать=V,tran=inpraes,sg,indic,2p,pf
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-,\n
-чтобы=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-на=PR=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-пред=PR=
-_
-чужой=A,plen=ins,pl
-\n
-дерзко=ADV=
-_
-клеветать=V,ipf,intr=inf
-.\n\n
-глупо=ADV=
-_
-и=CONJ=
-_
-бесчестно=ADV=
-\n
-в=PR=
-_
-сторона=S,f,inan=(abl,sg|dat,sg)
-_
-чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-\n
-издеваться=V,ipf,intr=inf
-_
-злобно=ADV=
-\n
-над=PR=
-_
-земля=S,f,inan=ins,sg
-_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-если=CONJ=
-_
-не=PART=
-_
-иметь=V,ipf,tran=inpraes,sg,indic,2p
-\n
-в=PR=
-_
-почва=S,f,inan=(abl,sg|dat,sg)
-_
-ты=SPRO,sg,2p=nom
-_
-корень=S,m,inan=gen,pl
-,\n
-не=PART=
-_
-она=SPRO,sg,3p,f=nom
-_
-виновный=A=sg,brev,f
-\n
-в=PR=
-_
-чахлость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
-с=PR=
-_
-дух=S,m,inan=ins,sg
-_
-воробьиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-из=PR=
-_
-душевный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-взлетать=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-в=PR=
-_
-сфера=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-где=ADVPRO=
-_
-парить=V,ipf,tran=inpraes,pl,indic,3p
-_
-орел=S,m,anim=nom,pl
-.\n\n
-знать=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-:_
-не=PART=
-_
-удерживать=V,tran=inpraes,pl,indic,3p,pf
-\n
-крыло=S,n,inan=(acc,pl|nom,pl)
-,_\u2014_
-упасть=V,pf,intr=inpraes,sg,indic,2p
-,\n
-грудь=S,f,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-_
-пустой=A=acc,sg,plen,f
-\n
-даром=ADV=
-_
-разбивать=V,tran=inpraes,sg,indic,2p,pf
-.\n
+{редко=ADV=} {встречать=V,tran=inpraes,sg,indic,2p,pf} {сын=S,m,anim=(acc,sg|gen,sg)},
+{чтобы=CONJ=} {он=SPRO,sg,3p,m=nom} {на=PR=} {мать=S,f,anim=(acc,sg|nom,sg)}
+{становиться=V,intr=praet,sg,indic,m,pf} {пред=PR=} {чужой=A,plen=ins,pl}
+{дерзко=ADV=} {клеветать=V,ipf,intr=inf}.
+
+{глупо=ADV=} {и=CONJ=} {бесчестно=ADV=}
+{в=PR=} {сторона=S,f,inan=(abl,sg|dat,sg)} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}
+{издеваться=V,ipf,intr=inf} {злобно=ADV=}
+{над=PR=} {земля=S,f,inan=ins,sg} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{если=CONJ=} {не=PART=} {иметь=V,ipf,tran=inpraes,sg,indic,2p}
+{в=PR=} {почва=S,f,inan=(abl,sg|dat,sg)} {ты=SPRO,sg,2p=nom} {корень=S,m,inan=gen,pl},
+{не=PART=} {она=SPRO,sg,3p,f=nom} {виновный=A=sg,brev,f}
+{в=PR=} {чахлость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+
+{с=PR=} {дух=S,m,inan=ins,sg} {воробьиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{из=PR=} {душевный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {взлетать=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {в=PR=} {сфера=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{где=ADVPRO=} {парить=V,ipf,tran=inpraes,pl,indic,3p} {орел=S,m,anim=nom,pl}.
+
+{знать=V,ipf,tran=praet,sg,indic,m} {бы=PART=}: {не=PART=} {удерживать=V,tran=inpraes,pl,indic,3p,pf}
+{крыло=S,n,inan=(acc,pl|nom,pl)}, — {упасть=V,pf,intr=inpraes,sg,indic,2p},
+{грудь=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f} {пустой=A=acc,sg,plen,f}
+{даром=ADV=} {разбивать=V,tran=inpraes,sg,indic,2p,pf}.

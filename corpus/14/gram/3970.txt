@@ -1,110 +1,20 @@
-ни=PART=
-_
-в=PR=
-_
-лодка=S,f,inan=(abl,sg|dat,sg)
-,_
-ни=PART=
-_
-в=PR=
-_
-телега=S,f,inan=(abl,sg|dat,sg)
-\n
-нельзя=ADV,praed=
-_
-попадать=V,intr=inf,pf
-_
-сюда=ADVPRO=
-.\n
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-гиблый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-снег=S,m,inan=abl,sg
-\n
-глубокий=A=nom,sg,plen,f
-_
-вода=S,f,inan=nom,sg
-;\n\n
-усадьба=S,f,inan=acc,sg
-_
-осаждать=V=inpraes,sg,indic,3p,ipf,tran
-\n
-уже=ADV=
-_
-со=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сторона=S,f,inan=gen,pl
-...\n
-ах=INTJ=
-!_
-близко=ADV=
-_
-изнывать=V,intr=inpraes,sg,indic,3p,ipf
-\n
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-робинзон=S,persn,m,anim=nom,sg
-.\n\n
-пойти=V,pf,intr=inpraes,sg,indic,3p
-_
-взглядывать=V,intr=inf,pf
-_
-на=PR=
-_
-сани=S,pl,inan=(acc|nom)
-,\n
-на=PR=
-_
-лыжа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-на=PR=
-_
-конь=S,m,anim=(acc,sg|gen,sg)
-,\n
-а=CONJ=
-_
-после=ADV=
-_
-на=PR=
-_
-диван=S,m,inan=abl,sg
-\n
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(acc|gen)
-,\n\n
-и=CONJ=
-_
-шпора=S,f,inan=ins,sg
-_
-короткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-рвать=V,ipf,tran=inpraes,sg,indic,3p
-_
-коврик=S,m,inan=(acc,sg|nom,sg)
-_
-пополам=ADV=
-.\n
-теперь=ADV=
-_
-улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кроткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-не=PART=
-_
-видеть=V,ipf,tran=inf
-_
-зеркало=S,n,inan=dat,pl
-.\n\n
+{ни=PART=} {в=PR=} {лодка=S,f,inan=(abl,sg|dat,sg)}, {ни=PART=} {в=PR=} {телега=S,f,inan=(abl,sg|dat,sg)}
+{нельзя=ADV,praed=} {попадать=V,intr=inf,pf} {сюда=ADVPRO=}.
+{стоять=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {гиблый=A=(abl,sg,plen,m|abl,sg,plen,n)} {снег=S,m,inan=abl,sg}
+{глубокий=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg};
+
+{усадьба=S,f,inan=acc,sg} {осаждать=V=inpraes,sg,indic,3p,ipf,tran}
+{уже=ADV=} {со=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сторона=S,f,inan=gen,pl}...
+{ах=INTJ=}! {близко=ADV=} {изнывать=V,intr=inpraes,sg,indic,3p,ipf}
+{такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {же=PART=} {робинзон=S,persn,m,anim=nom,sg}.
+
+{пойти=V,pf,intr=inpraes,sg,indic,3p} {взглядывать=V,intr=inf,pf} {на=PR=} {сани=S,pl,inan=(acc|nom)},
+{на=PR=} {лыжа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {на=PR=} {конь=S,m,anim=(acc,sg|gen,sg)},
+{а=CONJ=} {после=ADV=} {на=PR=} {диван=S,m,inan=abl,sg}
+{сидеть=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)},
+
+{и=CONJ=} {шпора=S,f,inan=ins,sg} {короткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{рвать=V,ipf,tran=inpraes,sg,indic,3p} {коврик=S,m,inan=(acc,sg|nom,sg)} {пополам=ADV=}.
+{теперь=ADV=} {улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кроткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{не=PART=} {видеть=V,ipf,tran=inf} {зеркало=S,n,inan=dat,pl}.
+

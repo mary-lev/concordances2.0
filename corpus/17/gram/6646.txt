@@ -1,66 +1,13 @@
-воскресать=V,intr=inpraes,pl,indic,3p,ipf
-_
-мертвец=S,m,anim=nom,pl
-,\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-дед=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-отец=S,m,anim=nom,pl
-,_\n
-пращур=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-предок=S,m,anim=nom,pl
-.\n\n
-рваться=V,ipf,intr=inpraes,pl,indic,3p
-_
-к=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-птенец=S,m,anim=nom,pl
-,_\n
-из=PR=
-_
-постылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-клетка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-вымирать=V,intr=inpraes,pl,indic,3p,ipf
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-мужик=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-господь=S,sg,m,anim=(acc|gen)
-,_\n
-старичок=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-ребеночек=S,m,anim=nom,pl
-.\n\n
-и=CONJ=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-звезда=S,f,inan=nom,sg
-_\n
-сквозь=PR=
-_
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{воскресать=V,intr=inpraes,pl,indic,3p,ipf} {мертвец=S,m,anim=nom,pl},
+{наш=APRO=(nom,pl|acc,pl,inan)} {дед=S,m,anim=nom,pl} {и=CONJ=} {отец=S,m,anim=nom,pl}, 
+{пращур=S,m,anim=nom,pl} {и=CONJ=} {предок=S,m,anim=nom,pl}.
+
+{рваться=V,ipf,intr=inpraes,pl,indic,3p} {к=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {как=CONJ=} {птенец=S,m,anim=nom,pl}, 
+{из=PR=} {постылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {клетка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{вымирать=V,intr=inpraes,pl,indic,3p,ipf} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{мужик=S,m,anim=nom,pl} {и=CONJ=} {господь=S,sg,m,anim=(acc|gen)}, 
+{старичок=S,m,anim=nom,pl} {и=CONJ=} {ребеночек=S,m,anim=nom,pl}.
+
+{и=CONJ=} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {мир=S,m,inan=(acc,sg|nom,sg)} {звезда=S,f,inan=nom,sg} 
+{сквозь=PR=} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

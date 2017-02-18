@@ -1,116 +1,14 @@
-раскрывать=V=praet,ger,pf
-_
-ладонь=S,f,inan=(acc,sg|nom,sg)
-,_
-плечо=S,n,inan=(acc,sg|nom,sg)
-_
-склонять=V,tran=praet,sg,indic,f,pf
-...\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-видать=V,ipf,tran=praet,sg,indic,m
-_
-еще=ADV=
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-уж=PART=
-_
-знать=V,ipf,tran=praet,sg,indic,m
-,_
-какой=APRO=nom,sg,f
-_
-сила=S,f,inan=nom,sg
-\n
-в=PR=
-_
-черта=S,f,inan=abl,pl
-_
-венерин=S,famn,m,anim=(acc,sg|gen,sg)
-_
-кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-и=CONJ=
-_
-раздвоение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-линия=S,f,inan=gen,pl
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сказать=V,pf,tran=praet,sg,indic,n
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-как=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-,\n
-что=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-кольцо=S,n,inan=abl,sg
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-неволя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_-\n
-в=PR=
-_
-двойной=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-поток=S,m,inan=abl,sg
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-если=CONJ=
-_
-сужденный=A=pl,brev
-_
-мы=SPRO,pl,1p=dat
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:\n(
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-топот=S,m,inan=(acc,pl|nom,pl)
-_
-погоня=S,f,inan=gen,pl
-?)\n
-я=SPRO,sg,1p=nom
-_
-полюбить=V,pf,tran=inpraes,sg,indic,1p
-_
-не=PART=
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-только=PART=
-_
-бледный=A=acc,sg,plen,f
-_
-ладонь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{раскрывать=V=praet,ger,pf} {ладонь=S,f,inan=(acc,sg|nom,sg)}, {плечо=S,n,inan=(acc,sg|nom,sg)} {склонять=V,tran=praet,sg,indic,f,pf}...
+{я=SPRO,sg,1p=nom} {не=PART=} {видать=V,ipf,tran=praet,sg,indic,m} {еще=ADV=} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{но=CONJ=} {я=SPRO,sg,1p=nom} {уж=PART=} {знать=V,ipf,tran=praet,sg,indic,m}, {какой=APRO=nom,sg,f} {сила=S,f,inan=nom,sg}
+{в=PR=} {черта=S,f,inan=abl,pl} {венерин=S,famn,m,anim=(acc,sg|gen,sg)} {кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{и=CONJ=} {раздвоение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {линия=S,f,inan=gen,pl} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сказать=V,pf,tran=praet,sg,indic,n} {я=SPRO,sg,1p=(abl|dat)}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {как=ADVPRO=} {я=SPRO,sg,1p=nom},
+{что=CONJ=} {мы=SPRO,pl,1p=nom} {в=PR=} {кольцо=S,n,inan=abl,sg} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {неволя=S,f,inan=(acc,pl|gen,sg|nom,pl)} -
+{в=PR=} {двойной=A=(abl,sg,plen,m|abl,sg,plen,n)} {поток=S,m,inan=abl,sg} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {если=CONJ=} {сужденный=A=pl,brev} {мы=SPRO,pl,1p=dat} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+({быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {топот=S,m,inan=(acc,pl|nom,pl)} {погоня=S,f,inan=gen,pl}?)
+{я=SPRO,sg,1p=nom} {полюбить=V,pf,tran=inpraes,sg,indic,1p} {не=PART=} {взгляд=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{а=CONJ=} {только=PART=} {бледный=A=acc,sg,plen,f} {ладонь=S,f,inan=(acc,sg|nom,sg)}.

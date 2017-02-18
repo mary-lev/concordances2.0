@@ -1,113 +1,14 @@
-...
-сдавленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шепот=S,m,inan=(acc,sg|nom,sg)
-..._
-сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-кинжал=S,m,inan=gen,sg
-...\n_\u2014_\t\xAB
-мама=S,f,anim=nom,sg
-,_
-построить=V,pf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-из=PR=
-_
-кубик=S,m,inan=gen,pl
-_
-домик=S,m,inan=(acc,sg|nom,sg)
-!\xBB\u2028\n
-мама=S,f,anim=nom,sg
-_
-взволнованно=ADV=
-_
-к=PR=
-_
-сердце=S,n,inan=dat,sg
-_
-прижимать=V,tran=praet,sg,indic,f,pf
-\u2028\n
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-томик=S,m,inan=(acc,sg|nom,sg)
-.\n\n...
-гнев=S,m,inan=ins,sg
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-загораться=V,intr=praet,pl,indic,pf
-_
-у=PR=
-_
-граф=S,m,anim=(acc,sg|gen,sg)
-:\u2028\n\xAB
-здесь=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-,_
-княгиня=S,f,anim=nom,sg
-,_
-по=PR=
-_
-благость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-рок=S,m,inan=gen,sg
-!\xBB\n\xAB
-мама=S,f,anim=nom,sg
-,_
-а=CONJ=
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-жираф=S,m,anim=(acc,sg|gen,sg)
-?\xBB\u2028\n
-мама=S,f,anim=nom,sg
-_
-душа=S,f,inan=ins,sg
-_\u2014_
-далеко=ADV=
-!\n\n\xAB
-мама=S,f,anim=nom,sg
-,_
-смотреть=V,ipf,tran=sg,imper,2p
-:_
-паутинка=S,f,inan=nom,sg
-_
-в=PR=
-_
-котлета=S,f,inan=(abl,sg|dat,sg)
-!\xBB\n\u2028
-в=PR=
-_
-голос=S,m,inan=abl,sg
-_
-детский=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-упрек=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-угроза=S,f,inan=nom,sg
-.\u2028\n
-мама=S,f,anim=nom,sg
-_
-очнуться=V,pf,intr=praet,sg,indic,f
-_
-от=PR=
-_
-вымысел=S,m,inan=gen,pl
-:_
-ребенок=S,m,anim=nom,pl
-_\u2014_\u2028\n
-горький=A=nom,sg,plen,f
-_
-проза=S,f,inan=nom,sg
-!\n
+...{сдавленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шепот=S,m,inan=(acc,sg|nom,sg)}... {сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кинжал=S,m,inan=gen,sg}...
+ — 	«{мама=S,f,anim=nom,sg}, {построить=V,pf,tran=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)} {из=PR=} {кубик=S,m,inan=gen,pl} {домик=S,m,inan=(acc,sg|nom,sg)}!» 
+{мама=S,f,anim=nom,sg} {взволнованно=ADV=} {к=PR=} {сердце=S,n,inan=dat,sg} {прижимать=V,tran=praet,sg,indic,f,pf} 
+{маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {томик=S,m,inan=(acc,sg|nom,sg)}.
+
+...{гнев=S,m,inan=ins,sg} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {загораться=V,intr=praet,pl,indic,pf} {у=PR=} {граф=S,m,anim=(acc,sg|gen,sg)}: 
+«{здесь=ADVPRO=} {я=SPRO,sg,1p=nom}, {княгиня=S,f,anim=nom,sg}, {по=PR=} {благость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {рок=S,m,inan=gen,sg}!»
+«{мама=S,f,anim=nom,sg}, {а=CONJ=} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {тонуть=V,ipf,intr=inpraes,sg,indic,3p} {жираф=S,m,anim=(acc,sg|gen,sg)}?» 
+{мама=S,f,anim=nom,sg} {душа=S,f,inan=ins,sg} — {далеко=ADV=}!
+
+«{мама=S,f,anim=nom,sg}, {смотреть=V,ipf,tran=sg,imper,2p}: {паутинка=S,f,inan=nom,sg} {в=PR=} {котлета=S,f,inan=(abl,sg|dat,sg)}!»
+ {в=PR=} {голос=S,m,inan=abl,sg} {детский=A=(abl,sg,plen,m|abl,sg,plen,n)} {упрек=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {угроза=S,f,inan=nom,sg}. 
+{мама=S,f,anim=nom,sg} {очнуться=V,pf,intr=praet,sg,indic,f} {от=PR=} {вымысел=S,m,inan=gen,pl}: {ребенок=S,m,anim=nom,pl} —  
+{горький=A=nom,sg,plen,f} {проза=S,f,inan=nom,sg}!

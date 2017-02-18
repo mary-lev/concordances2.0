@@ -1,106 +1,14 @@
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мир=S,m,inan=gen,sg
-,_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-алкиан?=S,m,inan=gen,sg
-,\n
-сноп=S,m,inan=(acc,sg|nom,sg)
-_
-огонь=S,m,inan=gen,sg
-_
-в=PR=
-_
-сияние=S,n,inan=abl,sg
-_
-плеяда=S,f,inan=gen,pl
-!\n
-над=PR=
-_
-зеркальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-влага=S,f,inan=ins,sg
-_
-океан=S,m,inan=gen,sg
-_-_\n
-гроздь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-солнце=S,n,inan=gen,pl
-,_
-созвездие=S,n,inan=gen,pl
-_
-виноград=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-с=PR=
-_
-тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-звон=S,m,inan=ins,sg
-,_
-стройно=ADV=
-_
-и=CONJ=
-_
-нескоро=ADV=
-,_\n
-возноситься=V,intr=inpraes,ger,ipf
-_
-над=PR=
-_
-чуткий=A=ins,sg,plen,f
-_
-вода=S,f,inan=ins,sg
-,_\n
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-число=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пифагор=S,persn,m,anim=(acc,sg|gen,sg)
-_\n
-выпадать=V,intr=inpraes,pl,indic,3p,ipf
-_
-мерный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-череда=S,f,inan=ins,sg
-.\n\n
-как=ADVPRO=
-_
-рыбак=S,m,anim=nom,sg
-_
-из=PR=
-_
-малый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-галилей=S,famn,m,anim=nom,pl
-,\n
-как=ADVPRO=
-_
-в=PR=
-_
-степь=S,f,inan=abl,pl
-_
-халдейский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волхв=S,m,anim=nom,pl
-,_\n
-ночь=S,f,inan=(acc,sg|nom,sg)
--
-фиал=S,m,inan=(acc,sg|nom,sg)
-,_
-из=PR=
-_
-уста=S,pl,inan=gen
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-пить=V,ipf,tran=inpraes,sg,indic,1p
-_
-алмаз=S,m,inan=(acc,pl|nom,pl)
-_
-влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-синева=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мир=S,m,inan=gen,sg}, {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {алкиан?=S,m,inan=gen,sg},
+{сноп=S,m,inan=(acc,sg|nom,sg)} {огонь=S,m,inan=gen,sg} {в=PR=} {сияние=S,n,inan=abl,sg} {плеяда=S,f,inan=gen,pl}!
+{над=PR=} {зеркальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {влага=S,f,inan=ins,sg} {океан=S,m,inan=gen,sg} - 
+{гроздь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {солнце=S,n,inan=gen,pl}, {созвездие=S,n,inan=gen,pl} {виноград=S,m,inan=(acc,sg|nom,sg)}.
+
+{с=PR=} {тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {звон=S,m,inan=ins,sg}, {стройно=ADV=} {и=CONJ=} {нескоро=ADV=}, 
+{возноситься=V,intr=inpraes,ger,ipf} {над=PR=} {чуткий=A=ins,sg,plen,f} {вода=S,f,inan=ins,sg}, 
+{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {число=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пифагор=S,persn,m,anim=(acc,sg|gen,sg)} 
+{выпадать=V,intr=inpraes,pl,indic,3p,ipf} {мерный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {череда=S,f,inan=ins,sg}.
+
+{как=ADVPRO=} {рыбак=S,m,anim=nom,sg} {из=PR=} {малый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {галилей=S,famn,m,anim=nom,pl},
+{как=ADVPRO=} {в=PR=} {степь=S,f,inan=abl,pl} {халдейский=A=(acc,pl,plen,inan|nom,pl,plen)} {волхв=S,m,anim=nom,pl}, 
+{ночь=S,f,inan=(acc,sg|nom,sg)}-{фиал=S,m,inan=(acc,sg|nom,sg)}, {из=PR=} {уста=S,pl,inan=gen} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {лилея=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{пить=V,ipf,tran=inpraes,sg,indic,1p} {алмаз=S,m,inan=(acc,pl|nom,pl)} {влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {синева=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

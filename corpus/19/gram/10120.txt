@@ -1,76 +1,9 @@
-проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)
-_
-я=SPRO,sg,1p=nom
-_
-тропа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-обувать=V,tran=praet,ger,pf
-_
-стремительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-нога=S,f,inan=gen,pl
-.\n
-пробегать=V,ipf,intr=inpraes,pl,indic,3p
-_
-свободный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-по=PR=
-_
-простор=S,m,inan=dat,pl
-_
-свободный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дорога=S,f,inan=gen,pl
-.\n\n
-вот=PART=
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-сапог=S,m,inan=(acc,pl|nom,pl)
--
-скороход=S,m,anim=nom,pl
-,\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-в=PR=
-_
-прошлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-в=PR=
-_
-нынешний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n
-они=SPRO,pl=(acc|gen)
-_
-окрашивать=V=praet,pl,indic,pf
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-они=SPRO,pl=nom
-_
-годный=A=pl,brev
-_
-на=PR=
-_
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-поход=S,m,inan=(acc,sg|nom,sg)
-.\n
+{проходить=V=(inpraes,sg,indic,1p,pf,tran|inpraes,sg,indic,1p,ipf,tran)} {я=SPRO,sg,1p=nom} {тропа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{не=PART=} {обувать=V,tran=praet,ger,pf} {стремительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нога=S,f,inan=gen,pl}.
+{пробегать=V,ipf,intr=inpraes,pl,indic,3p} {свободный=A=(acc,pl,plen,inan|nom,pl,plen)} {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{по=PR=} {простор=S,m,inan=dat,pl} {свободный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl}.
+
+{вот=PART=} {мой=APRO=(nom,pl|acc,pl,inan)} {сапог=S,m,inan=(acc,pl|nom,pl)}-{скороход=S,m,anim=nom,pl},
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {в=PR=} {прошлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {в=PR=} {нынешний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+{они=SPRO,pl=(acc|gen)} {окрашивать=V=praet,pl,indic,pf} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{они=SPRO,pl=nom} {годный=A=pl,brev} {на=PR=} {всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {поход=S,m,inan=(acc,sg|nom,sg)}.

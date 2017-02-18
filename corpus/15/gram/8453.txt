@@ -1,134 +1,24 @@
-длинный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свет=S,sg,m,inan=gen
-\n\t
-ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-дымка=S,f,inan=ins,sg
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-одевать=V,tran=praet,sg,partcp,brev,n,pf,pass
-.\n\t
-дымка=S,f,inan=nom,sg
-_\u2014_
-рождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-лелеять=V,ipf,tran=inpraes,ger
-,_
-сплетать=V=inpraes,pl,indic,3p,ipf,tran
-\n\t
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-руно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-хлопья=S,pl,inan=(acc|nom)
-_
-плыть=V,ipf,intr=inpraes,pl,indic,3p
-_\u2014_
-и=CONJ=
-_
-растаивать=V,intr=inpraes,pl,indic,3p,pf
-,\n\t
-новый=A=nom,sg,plen,f
-_
-вставать=V,intr=inpraes,sg,indic,3p,pf
-_
-волна=S,f,inan=nom,sg
-.\n\n
-новый=A=acc,sg,plen,f
-_
-линия=S,f,inan=acc,sg
-_
-блеск=S,m,inan=gen,sg
-\n\t
-вытягивать=V,tran=inpraes,sg,indic,3p,pf
-_
-ласка=S,f,inan=nom,sg
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-сказка=S,f,inan=nom,sg
-_
-сверкание=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-плеск=S,m,inan=gen,sg
-\n\t
-зыбь=S,f,inan=ins,sg
-_
-доходить=V,intr=inpraes,sg,indic,3p,pf
-_
-с=PR=
-_
-глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-влажный=A=nom,sg,plen,f
-_
-пропасть=S,f,inan=(acc,sg|nom,sg)
-_
-сливаться=V,intr=inpraes,sg,indic,3p,pf
-\n\t
-с=PR=
-_
-бездна=S,f,inan=ins,sg
-_
-эфирный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-высота=S,f,inan=gen,pl
-.\n
-таинство=S,n,inan=(acc,sg|nom,sg)
-_
-небо=S,n,inan=ins,sg
-_
-даваться=V,intr=inpraes,sg,indic,3p,ipf
-,\n\t
-слитность=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-зеркальность=S,f,inan=ins,sg
-_
-вода=S,f,inan=gen,pl
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-полногласность?=S,f,inan=(acc,sg|nom,sg)
-_
-ответ=S,m,inan=gen,sg
-,\n\t
-только=PART=
-_
-желать=V,ipf,tran=sg,imper,2p
-_
-и=CONJ=
-_
-звать=V,ipf,tran=sg,imper,2p
-.\n
-длинный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-свет=S,sg,m,inan=gen
-\n\t
-тянуться=V,ipf,intr=inpraes,pl,indic,3p
-_
-к=PR=
-_
-мы=SPRO,pl,1p=dat
-_
-от=PR=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{длинный=A=(acc,pl,plen,inan|nom,pl,plen)} {линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свет=S,sg,m,inan=gen}
+	{ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{дымка=S,f,inan=ins,sg} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {одевать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+	{дымка=S,f,inan=nom,sg} — {рождение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {лелеять=V,ipf,tran=inpraes,ger}, {сплетать=V=inpraes,pl,indic,3p,ipf,tran}
+	{светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {прядь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {руно=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{хлопья=S,pl,inan=(acc|nom)} {плыть=V,ipf,intr=inpraes,pl,indic,3p} — {и=CONJ=} {растаивать=V,intr=inpraes,pl,indic,3p,pf},
+	{новый=A=nom,sg,plen,f} {вставать=V,intr=inpraes,sg,indic,3p,pf} {волна=S,f,inan=nom,sg}.
+
+{новый=A=acc,sg,plen,f} {линия=S,f,inan=acc,sg} {блеск=S,m,inan=gen,sg}
+	{вытягивать=V,tran=inpraes,sg,indic,3p,pf} {ласка=S,f,inan=nom,sg} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{сказка=S,f,inan=nom,sg} {сверкание=S,n,inan=gen,pl} {и=CONJ=} {плеск=S,m,inan=gen,sg}
+	{зыбь=S,f,inan=ins,sg} {доходить=V,intr=inpraes,sg,indic,3p,pf} {с=PR=} {глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{влажный=A=nom,sg,plen,f} {пропасть=S,f,inan=(acc,sg|nom,sg)} {сливаться=V,intr=inpraes,sg,indic,3p,pf}
+	{с=PR=} {бездна=S,f,inan=ins,sg} {эфирный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {высота=S,f,inan=gen,pl}.
+{таинство=S,n,inan=(acc,sg|nom,sg)} {небо=S,n,inan=ins,sg} {даваться=V,intr=inpraes,sg,indic,3p,ipf},
+	{слитность=S,f,inan=(acc,sg|nom,sg)} — {зеркальность=S,f,inan=ins,sg} {вода=S,f,inan=gen,pl}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {полногласность?=S,f,inan=(acc,sg|nom,sg)} {ответ=S,m,inan=gen,sg},
+	{только=PART=} {желать=V,ipf,tran=sg,imper,2p} {и=CONJ=} {звать=V,ipf,tran=sg,imper,2p}.
+{длинный=A=(acc,pl,plen,inan|nom,pl,plen)} {линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свет=S,sg,m,inan=gen}
+	{тянуться=V,ipf,intr=inpraes,pl,indic,3p} {к=PR=} {мы=SPRO,pl,1p=dat} {от=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

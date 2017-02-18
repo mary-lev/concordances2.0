@@ -1,106 +1,14 @@
-как=ADVPRO=
-_
-радостный=A=sg,brev,f
-_
-весна=S,f,inan=nom,sg
-_
-в=PR=
-_
-апрель=S,m,inan=abl,sg
-,_\n
-как=ADVPRO=
-_
-мы=SPRO,pl,1p=dat
-_
-пленительный=A=sg,brev,f
-_
-она=SPRO,sg,3p,f=nom
-!\n
-в=PR=
-_
-начало=S,n,inan=abl,sg
-_
-будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-пойти=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-сниматься=V,intr=inf,ipf
-_
-к=PR=
-_
-буасон=S,persn,m,anim=(acc,sg|gen,sg)
-.\n\n
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-покорствовать=V,ipf,intr=inpraes,ger
-_
-обряд=S,m,inan=dat,pl
-,\n
-не=PART=
-_
-размышлять=V,ipf,intr=inpraes,ger
-_
-ни=PART=
-_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-,\n
-мы=SPRO,pl,1p=nom
-_
-помещаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-нежно=ADV=
-_
-рядом=ADV=
-,_\n
-рука=S,f,inan=nom,sg
-_
-с=PR=
-_
-рука=S,f,inan=ins,sg
-,_
-плечо=S,n,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-плечо=S,n,inan=ins,sg
-.\n\n
-сомнение=S,n,inan=gen,pl
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-_
-ли=PART=
-?_\n(
-обманчивый=A=pl,brev
-_
-бывать=V,ipf,intr=inpraes,pl,indic,3p
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-!)\n
-и=CONJ=
-_
-разве=PART=
-_
-странный=A=pl,brev
-_
-мы=SPRO,pl,1p=dat
-_
-в=PR=
-_
-апрель=S,m,inan=abl,sg
-_\n
-каприз=S,m,inan=(acc,pl|nom,pl)
-_
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
+{как=ADVPRO=} {радостный=A=sg,brev,f} {весна=S,f,inan=nom,sg} {в=PR=} {апрель=S,m,inan=abl,sg}, 
+{как=ADVPRO=} {мы=SPRO,pl,1p=dat} {пленительный=A=sg,brev,f} {она=SPRO,sg,3p,f=nom}!
+{в=PR=} {начало=S,n,inan=abl,sg} {будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {неделя=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{пойти=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {сниматься=V,intr=inf,ipf} {к=PR=} {буасон=S,persn,m,anim=(acc,sg|gen,sg)}.
+
+{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {покорствовать=V,ipf,intr=inpraes,ger} {обряд=S,m,inan=dat,pl},
+{не=PART=} {размышлять=V,ipf,intr=inpraes,ger} {ни=PART=} {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)},
+{мы=SPRO,pl,1p=nom} {помещаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {нежно=ADV=} {рядом=ADV=}, 
+{рука=S,f,inan=nom,sg} {с=PR=} {рука=S,f,inan=ins,sg}, {плечо=S,n,inan=(acc,sg|nom,sg)} {с=PR=} {плечо=S,n,inan=ins,sg}.
+
+{сомнение=S,n,inan=gen,pl} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {во=PR=} {сон=S,m,inan=abl,sg} {ли=PART=}? 
+({обманчивый=A=pl,brev} {бывать=V,ipf,intr=inpraes,pl,indic,3p} {сон=S,m,inan=(acc,pl|nom,pl)}!)
+{и=CONJ=} {разве=PART=} {странный=A=pl,brev} {мы=SPRO,pl,1p=dat} {в=PR=} {апрель=S,m,inan=abl,sg} 
+{каприз=S,m,inan=(acc,pl|nom,pl)} {милый=A=(acc,pl,plen,inan|nom,pl,plen)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}?

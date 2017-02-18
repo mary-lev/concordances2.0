@@ -1,136 +1,19 @@
-нет=PART=
-,_
-никогда=ADVPRO=
-_
-не=PART=
-_
-примиряться=V,intr=inpraes,sg,indic,1p,pf
-.\n\t
-верный=A=pl,brev
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-просить=V,ipf,tran=inpraes,sg,indic,1p
-,_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-срываться=V,intr=inpraes,sg,indic,1p,pf
-\n\t
-в=PR=
-_
-железный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-как=ADVPRO=
-_
-все=SPRO,pl=(acc|nom)
-,_
-пойти=V,pf,intr=inpraes,sg,indic,1p
-,_
-умирать=V,intr=inpraes,sg,indic,1p,pf
-,_
-убивать=V,tran=inpraes,sg,indic,1p,pf
-,\n\t
-как=ADVPRO=
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-себя=SPRO=(acc|gen)
-_
-разрушать=V,tran=inpraes,sg,indic,1p,pf
-,\n
-но=CONJ=
-_
-оправдание=S,n,inan=ins,sg
-_\u2014_
-свой=APRO=acc,sg,f
-\n\t
-не=PART=
-_
-запятнать=V,pf,tran=inpraes,sg,indic,1p
-_
-душа=S,f,inan=acc,sg
-.\n\n
-в=PR=
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,_
-во=PR=
-_
-тьма=S,f,inan=(abl,sg|dat,sg)
-,_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-,\n\t
-пусть=PART=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-не=PART=
-_
-забывать=V=inpraes,sg,indic,3p,pf
-:\n
-нет=PART=
-_
-оправдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-война=S,f,inan=(abl,sg|dat,sg)
-!\n\t
-и=CONJ=
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-.\n\n
-и=CONJ=
-_
-если=CONJ=
-_
-это=PART=
-_
-божий=A,plen=nom,sg,f
-_
-длань=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n\t
-кровавый=A=nom,sg,plen,f
-_
-дорога=S,f,inan=nom,sg
-,_\u2014\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-на=PR=
-_
-брань=S,f,inan=(acc,sg|nom,sg)
-,\n\t
-восставать=V,intr=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-на=PR=
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-.\n
+{нет=PART=}, {никогда=ADVPRO=} {не=PART=} {примиряться=V,intr=inpraes,sg,indic,1p,pf}.
+	{верный=A=pl,brev} {мой=APRO=(nom,pl|acc,pl,inan)} {проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{я=SPRO,sg,1p=nom} {не=PART=} {просить=V,ipf,tran=inpraes,sg,indic,1p}, {я=SPRO,sg,1p=nom} {не=PART=} {срываться=V,intr=inpraes,sg,indic,1p,pf}
+	{в=PR=} {железный=A=(acc,pl,plen,inan|nom,pl,plen)} {объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{как=ADVPRO=} {все=SPRO,pl=(acc|nom)}, {пойти=V,pf,intr=inpraes,sg,indic,1p}, {умирать=V,intr=inpraes,sg,indic,1p,pf}, {убивать=V,tran=inpraes,sg,indic,1p,pf},
+	{как=ADVPRO=} {все=SPRO,pl=(acc|nom)} — {себя=SPRO=(acc|gen)} {разрушать=V,tran=inpraes,sg,indic,1p,pf},
+{но=CONJ=} {оправдание=S,n,inan=ins,sg} — {свой=APRO=acc,sg,f}
+	{не=PART=} {запятнать=V,pf,tran=inpraes,sg,indic,1p} {душа=S,f,inan=acc,sg}.
+
+{в=PR=} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}, {во=PR=} {тьма=S,f,inan=(abl,sg|dat,sg)}, {в=PR=} {огонь=S,m,inan=abl,sg},
+	{пусть=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {не=PART=} {забывать=V=inpraes,sg,indic,3p,pf}:
+{нет=PART=} {оправдание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {война=S,f,inan=(abl,sg|dat,sg)}!
+	{и=CONJ=} {никогда=ADVPRO=} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p}.
+
+{и=CONJ=} {если=CONJ=} {это=PART=} {божий=A,plen=nom,sg,f} {длань=S,f,inan=(acc,sg|nom,sg)} —
+	{кровавый=A=nom,sg,plen,f} {дорога=S,f,inan=nom,sg}, —
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {пойти=V,pf,intr=inpraes,sg,indic,3p} {и=CONJ=} {с=PR=} {он=SPRO,sg,3p,m=ins} {на=PR=} {брань=S,f,inan=(acc,sg|nom,sg)},
+	{восставать=V,intr=inpraes,sg,indic,3p,pf} {и=CONJ=} {на=PR=} {бог=S,m,anim=(acc,sg|gen,sg)}.

@@ -1,226 +1,29 @@
-это=PART=
-,_
-братец=S,m,anim=nom,pl
-,_
-война=S,f,inan=nom,sg
-_
-не=PART=
-_
-военный=A=nom,sg,plen,f
-,\n
-это=SPRO,sg,n,inan=(acc|nom)
-,_
-друг=S,m,anim=(acc,sg|gen,sg)
-,_
-господний=A,poss=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-наказ=S,m,inan=(acc,sg|nom,sg)
-.\n
-наш=APRO=nom,sg,f
-_
-родина=S,f,inan=nom,sg
-,_
-горький=A=nom,sg,plen,f
-,_
-пленный=A=nom,sg,plen,f
-,\n
-стонать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-молить=V,ipf,tran=inpraes,sg,indic,3p
-_
-защита=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n\n
-то=SPRO,sg,n,inan=ins
-_
-зверье=S,sg,n,inan=ins
-,_
-что=CONJ=
-_
-зваться=V,ipf,intr=inpraes,pl,indic,3p
-_\xAB
-товарищ=S,m,anim=nom,pl
-\xBB,\n
-изничтожать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-наш=APRO=nom,sg,f
-_
-земля=S,f,inan=nom,sg
-.\n
-садиться=V,intr=praet,sg,indic,f,pf
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_\u2014_
-не=PART=
-_
-садиться=V,intr=praet,sg,indic,f,pf
-,_
-пожарище=S,m,inan=(acc,pl|nom,pl)
-,\n
-опустеть=V,pf,intr=praet,pl,indic
-_
-родной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-плакать=V,ipf,intr=inpraes,pl,indic,3p
-_
-ребенок=S,m,anim=nom,pl
-,_
-томиться=V,ipf,intr=inpraes,ger
-_
-в=PR=
-_
-испытание=S,n,inan=abl,sg
-\n
-и=CONJ=
-_
-от=PR=
-_
-голод=S,m,inan=gen,sg
-_
-еле=ADV=
-_
-дышать=V,ipf,intr=inpraes,ger
-,\n
-неужель?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-на=PR=
-_
-такой=APRO=(nom,pl|acc,pl,inan)
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-откликаться=V,intr=inpraes,sg,indic,3p,pf
-_
-наш=APRO=nom,sg,f
-_
-душа=S,f,inan=nom,sg
-?\n\n
-мы=SPRO,pl,1p=nom
-_
-ль=PART=
-_
-не=PART=
-_
-слышать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_
-что=CONJ=
-_
-совесть=S,f,inan=ins,sg
-_
-велено=ADV,praed=
-?\n
-мы=SPRO,pl,1p=nom
-_
-ль=PART=
-_
-не=PART=
-_
-двинуться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-все=SPRO,pl=(acc|nom)
-,_
-как=CONJ=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-,\n
-не=PART=
-_
-показывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-бронштейн=S,famn,m,anim=dat,sg
-_
-да=CONJ=
-_
-ленин=S,famn,m,anim=dat,sg
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-на=PR=
-_
-русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-господин=S,m,anim=nom,sg
-?\n\n
-самодержец=S,m,anim=nom,pl
-_
-трусливый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-куцый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-да=CONJ=
-_
-погибать=V,intr=inpraes,pl,indic,3p,pf
-_
-под=PR=
-_
-наш=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-огонь=S,m,inan=ins,sg
-!\n
-знамя=S,n,inan=(acc,sg|nom,sg)
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-революция=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-в=PR=
-_
-земля=S,f,inan=acc,sg
-_
-русский=A=acc,sg,plen,f
-_
-мы=SPRO,pl,1p=nom
-_
-понести=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n\n
-слава=S,f,inan=nom,sg
-_
-все=SPRO,pl=dat
-,_
-кто=SPRO,sg,m,anim=nom
-_
-с=PR=
-_
-душа=S,f,inan=ins,sg
-_
-неизменный=A=ins,sg,plen,f
-\n
-в=PR=
-_
-помощь=S,f,inan=(acc,sg|nom,sg)
-_
-родина=S,f,inan=(abl,sg|dat,sg)
-_
-ныне=ADV=
-_
-идти=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-,_
-друг=S,m,anim=(acc,sg|gen,sg)
-,_
-война=S,f,inan=nom,sg
-_
-не=PART=
-_
-военный=A=nom,sg,plen,f
-,\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-божий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-свершаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-суд=S,m,inan=(acc,sg|nom,sg)
-.\n
+{это=PART=}, {братец=S,m,anim=nom,pl}, {война=S,f,inan=nom,sg} {не=PART=} {военный=A=nom,sg,plen,f},
+{это=SPRO,sg,n,inan=(acc|nom)}, {друг=S,m,anim=(acc,sg|gen,sg)}, {господний=A,poss=(acc,sg,plen,m,inan|nom,sg,plen,m)} {наказ=S,m,inan=(acc,sg|nom,sg)}.
+{наш=APRO=nom,sg,f} {родина=S,f,inan=nom,sg}, {горький=A=nom,sg,plen,f}, {пленный=A=nom,sg,plen,f},
+{стонать=V,ipf,intr=inpraes,sg,indic,3p}, {молить=V,ipf,tran=inpraes,sg,indic,3p} {защита=S,f,inan=(acc,pl|gen,sg|nom,pl)} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+
+{то=SPRO,sg,n,inan=ins} {зверье=S,sg,n,inan=ins}, {что=CONJ=} {зваться=V,ipf,intr=inpraes,pl,indic,3p} «{товарищ=S,m,anim=nom,pl}»,
+{изничтожать=V,tran=praet,sg,partcp,brev,f,pf,pass} {наш=APRO=nom,sg,f} {земля=S,f,inan=nom,sg}.
+{садиться=V,intr=praet,sg,indic,f,pf} {наш=APRO=(nom,pl|acc,pl,inan)} — {не=PART=} {садиться=V,intr=praet,sg,indic,f,pf}, {пожарище=S,m,inan=(acc,pl|nom,pl)},
+{опустеть=V,pf,intr=praet,pl,indic} {родной=A=(acc,pl,plen,inan|nom,pl,plen)} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{плакать=V,ipf,intr=inpraes,pl,indic,3p} {ребенок=S,m,anim=nom,pl}, {томиться=V,ipf,intr=inpraes,ger} {в=PR=} {испытание=S,n,inan=abl,sg}
+{и=CONJ=} {от=PR=} {голод=S,m,inan=gen,sg} {еле=ADV=} {дышать=V,ipf,intr=inpraes,ger},
+{неужель?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {на=PR=} {такой=APRO=(nom,pl|acc,pl,inan)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {откликаться=V,intr=inpraes,sg,indic,3p,pf} {наш=APRO=nom,sg,f} {душа=S,f,inan=nom,sg}?
+
+{мы=SPRO,pl,1p=nom} {ль=PART=} {не=PART=} {слышать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {что=CONJ=} {совесть=S,f,inan=ins,sg} {велено=ADV,praed=}?
+{мы=SPRO,pl,1p=nom} {ль=PART=} {не=PART=} {двинуться=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {все=SPRO,pl=(acc|nom)}, {как=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)},
+{не=PART=} {показывать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {бронштейн=S,famn,m,anim=dat,sg} {да=CONJ=} {ленин=S,famn,m,anim=dat,sg},
+{кто=SPRO,sg,m,anim=nom} {на=PR=} {русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=(abl,sg|dat,sg)} {господин=S,m,anim=nom,sg}?
+
+{самодержец=S,m,anim=nom,pl} {трусливый=A=(acc,pl,plen,inan|nom,pl,plen)}, {куцый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{да=CONJ=} {погибать=V,intr=inpraes,pl,indic,3p,pf} {под=PR=} {наш=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {огонь=S,m,inan=ins,sg}!
+{знамя=S,n,inan=(acc,sg|nom,sg)} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {революция=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{в=PR=} {земля=S,f,inan=acc,sg} {русский=A=acc,sg,plen,f} {мы=SPRO,pl,1p=nom} {понести=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}.
+
+{слава=S,f,inan=nom,sg} {все=SPRO,pl=dat}, {кто=SPRO,sg,m,anim=nom} {с=PR=} {душа=S,f,inan=ins,sg} {неизменный=A=ins,sg,plen,f}
+{в=PR=} {помощь=S,f,inan=(acc,sg|nom,sg)} {родина=S,f,inan=(abl,sg|dat,sg)} {ныне=ADV=} {идти=V,ipf,intr=inpraes,pl,indic,3p}.
+{это=SPRO,sg,n,inan=(acc|nom)}, {друг=S,m,anim=(acc,sg|gen,sg)}, {война=S,f,inan=nom,sg} {не=PART=} {военный=A=nom,sg,plen,f},
+{это=SPRO,sg,n,inan=(acc|nom)} {божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {свершаться=V,intr=inpraes,sg,indic,3p,ipf} {суд=S,m,inan=(acc,sg|nom,sg)}.

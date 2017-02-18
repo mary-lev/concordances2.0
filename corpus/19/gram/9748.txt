@@ -1,88 +1,14 @@
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-,_
-милый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-,\n
-как=ADVPRO=
-_
-звезда=S,f,inan=nom,sg
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-,\n
-между=PR=
-_
-мелкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-звезда=S,f,inan=gen,pl
-_
-блестеть=V,ipf,intr=inpraes,ger
-\n
-разноцветный=A=ins,pl,plen
-_
-огонь=S,m,inan=ins,pl
-?\n\n
-пусть=PART=
-_
-бы=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=nom,sg,f
-_
-быть=V,intr=praet,sg,indic,f,ipf
-,\n
-как=CONJ=
-_
-звезда=S,f,inan=nom,sg
-_
-небо=S,n,inan=gen,pl
-_
-далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-разноцветный=A=sg,brev,f
-_
-и=CONJ=
-_
-светлый=A=sg,brev,f
-\n
-свет=S,sg,m,inan=ins
-_
-радость=S,f,inan=gen,pl
-_
-высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n\n
-и=CONJ=
-_
-оставаться=V,intr=praet,sg,indic,f,pf
-_
-бы=PART=
-_
-чистый=A=sg,brev,f
-,\n
-как=ADVPRO=
-_
-звезда=S,f,inan=nom,sg
-,_
-краса=S,f,inan=nom,sg
-_
-ночной=A=nom,sg,plen,f
-,\n
-гордый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-мысль=S,f,inan=gen,pl
-_
-красота=S,f,inan=nom,sg
-,\n
-не=PART=
-_
-тускнеть=V,ipf,intr=inpraes,ger
-,_
-не=PART=
-_
-сгорать=V,intr=inpraes,ger,ipf
-.\n
+{видеть=V,ipf,tran=inpraes,sg,indic,2p}, {милый=A=(acc,sg,plen,n|nom,sg,plen,n)} {дитя=S,obsol,sg,n,anim=(acc|nom)},
+{как=ADVPRO=} {звезда=S,f,inan=nom,sg} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {над=PR=} {мы=SPRO,pl,1p=ins},
+{между=PR=} {мелкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {звезда=S,f,inan=gen,pl} {блестеть=V,ipf,intr=inpraes,ger}
+{разноцветный=A=ins,pl,plen} {огонь=S,m,inan=ins,pl}?
+
+{пусть=PART=} {бы=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=nom,sg,f} {быть=V,intr=praet,sg,indic,f,ipf},
+{как=CONJ=} {звезда=S,f,inan=nom,sg} {небо=S,n,inan=gen,pl} {далекий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{разноцветный=A=sg,brev,f} {и=CONJ=} {светлый=A=sg,brev,f}
+{свет=S,sg,m,inan=ins} {радость=S,f,inan=gen,pl} {высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+
+{и=CONJ=} {оставаться=V,intr=praet,sg,indic,f,pf} {бы=PART=} {чистый=A=sg,brev,f},
+{как=ADVPRO=} {звезда=S,f,inan=nom,sg}, {краса=S,f,inan=nom,sg} {ночной=A=nom,sg,plen,f},
+{гордый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мысль=S,f,inan=gen,pl} {красота=S,f,inan=nom,sg},
+{не=PART=} {тускнеть=V,ipf,intr=inpraes,ger}, {не=PART=} {сгорать=V,intr=inpraes,ger,ipf}.

@@ -1,100 +1,19 @@
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-звонкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-девчонка=S,f,anim=(acc,pl|gen,pl)
-_\n
-возле=PR=
-_
-озеро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-слышный=A=pl,brev
-,\n
-и=CONJ=
-_
-похожий=A=sg,brev,n
-_
-на=PR=
-_
-бочонок=S,m,inan=(acc,sg|nom,sg)
-_\n
-отражение=S,n,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-город=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-закатный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-на=PR=
-_
-развалины=S,pl,inan=(acc|nom)
-_
-похожий=A=sg,brev,m
-.\n
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ароматный=A=sg,brev,n
-_\n
-зеленеть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-рожь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-дождь=S,m,inan=(acc,sg|nom,sg)
-_
-проходить=V,intr=praet,sg,indic,m,pf
-,_
-дорога=S,f,inan=nom,sg
-_
-вязка=S,f,inan=nom,sg
-,_\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-прохладный=A=sg,brev,f
-_
-и=CONJ=
-_
-свежий=A=sg,brev,f
-._\n
-старомодный=A=nom,sg,plen,f
-_
-коляска=S,f,inan=nom,sg
-_\n
-прокатиться=V,pf,intr=praet,sg,indic,f
-,_
-дребезжать=V,ipf,intr=inpraes,ger
-.\n\n
-я=SPRO,sg,1p=nom
-_
-уходить=V,intr=praet,sg,indic,m,pf
-_
-сюда=ADVPRO=
-_
-забываться=V,intr=inf,pf
-_\n
-от=PR=
-_
-удушливый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ласково=ADV=
-_
-дробиться=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-отражение=S,n,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {звонкий=A=(acc,pl,plen,inan|nom,pl,plen)} {девчонка=S,f,anim=(acc,pl|gen,pl)} 
+{возле=PR=} {озеро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {слышный=A=pl,brev},
+{и=CONJ=} {похожий=A=sg,brev,n} {на=PR=} {бочонок=S,m,inan=(acc,sg|nom,sg)} 
+{отражение=S,n,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{город=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {сумрак=S,m,inan=abl,sg} {закатный=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{на=PR=} {развалины=S,pl,inan=(acc|nom)} {похожий=A=sg,brev,m}.
+{в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {ароматный=A=sg,brev,n} 
+{зеленеть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {рожь=S,f,inan=(acc,sg|nom,sg)}.
+
+{дождь=S,m,inan=(acc,sg|nom,sg)} {проходить=V,intr=praet,sg,indic,m,pf}, {дорога=S,f,inan=nom,sg} {вязка=S,f,inan=nom,sg}, 
+{ночь=S,f,inan=(acc,sg|nom,sg)} {прохладный=A=sg,brev,f} {и=CONJ=} {свежий=A=sg,brev,f}. 
+{старомодный=A=nom,sg,plen,f} {коляска=S,f,inan=nom,sg} 
+{прокатиться=V,pf,intr=praet,sg,indic,f}, {дребезжать=V,ipf,intr=inpraes,ger}.
+
+{я=SPRO,sg,1p=nom} {уходить=V,intr=praet,sg,indic,m,pf} {сюда=ADVPRO=} {забываться=V,intr=inf,pf} 
+{от=PR=} {удушливый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ласково=ADV=} {дробиться=V,ipf,intr=inpraes,sg,indic,3p} 
+{отражение=S,n,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

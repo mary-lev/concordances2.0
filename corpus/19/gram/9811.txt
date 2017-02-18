@@ -1,72 +1,9 @@
-из-под=PR=
-_
-летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-блуза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-с=PR=
-_
-полотняный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-поясок=S,m,inan=ins,sg
-\n
-до=PR=
-_
-колено=S,n,inan=gen,pl
-_
-штаны=S,pl,inan=(acc|nom)
-_
-кургузый=A=pl,brev
-,\n
-да=CONJ=
-_
-фуражка=S,f,inan=nom,sg
-_
-с=PR=
-_
-козырек=S,m,inan=ins,sg
-,\n\n
-вот=PART=
-_
-и=CONJ=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-наряд=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-скромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-и=CONJ=
-_
-в=PR=
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-,_
-и=CONJ=
-_
-в=PR=
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-_
-в=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-укромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-в=PR=
-_
-корзинка=S,f,inan=(abl,sg|dat,sg)
-_
-уносить=V=inpraes,sg,indic,1p,pf
-.\n
+{из-под=PR=} {летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {блуза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{с=PR=} {полотняный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {поясок=S,m,inan=ins,sg}
+{до=PR=} {колено=S,n,inan=gen,pl} {штаны=S,pl,inan=(acc|nom)} {кургузый=A=pl,brev},
+{да=CONJ=} {фуражка=S,f,inan=nom,sg} {с=PR=} {козырек=S,m,inan=ins,sg},
+
+{вот=PART=} {и=CONJ=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {наряд=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {скромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{и=CONJ=} {в=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)}, {и=CONJ=} {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+{что=SPRO,sg,n,inan=(acc|nom)} {находить=V=inpraes,sg,indic,1p,pf,tran} {в=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {укромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{все=SPRO,pl=(acc|nom)} {в=PR=} {корзинка=S,f,inan=(abl,sg|dat,sg)} {уносить=V=inpraes,sg,indic,1p,pf}.

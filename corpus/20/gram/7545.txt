@@ -1,70 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-воздыхать=V,intr=praet,sg,indic,m,ipf
-_
-и=CONJ=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,\n
-об=PR=
-_
-избавление=S,n,inan=abl,sg
-_
-стень?=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-чей-то=APRO=(nom,pl|acc,pl,inan)
-_
-пристальный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-око=S,n,inan=(acc,pl|nom,pl)
-\n
-взглядывать=V,intr=praet,pl,indic,pf
-_
-тихо=ADV=
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-они=SPRO,pl=nom
-_
-взглядывать=V,intr=praet,pl,indic,pf
-_
-и=CONJ=
-_
-сказать=V,pf,tran=praet,pl,indic
-:\n
-ты=SPRO,sg,2p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-неправедный=A=sg,brev,n
-_
-за=PR=
-_
-я=SPRO,sg,1p=ins
-.\n
-вернуться=V,pf,intr=sg,imper,2p
-,_
-и=CONJ=
-_
-выходить=V,intr=sg,imper,2p,pf
-_
-из=PR=
-_
-сандалия=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-с=PR=
-_
-непокрытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-голова=S,f,inan=ins,sg
-.\n
+{я=SPRO,sg,1p=nom} {воздыхать=V,intr=praet,sg,indic,m,ipf} {и=CONJ=} {день=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+{об=PR=} {избавление=S,n,inan=abl,sg} {стень?=S,m,inan=gen,sg},
+{и=CONJ=} {чей-то=APRO=(nom,pl|acc,pl,inan)} {пристальный=A=(acc,pl,plen,inan|nom,pl,plen)} {око=S,n,inan=(acc,pl|nom,pl)}
+{взглядывать=V,intr=praet,pl,indic,pf} {тихо=ADV=} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}.
+
+{они=SPRO,pl=nom} {взглядывать=V,intr=praet,pl,indic,pf} {и=CONJ=} {сказать=V,pf,tran=praet,pl,indic}:
+{ты=SPRO,sg,2p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {неправедный=A=sg,brev,n} {за=PR=} {я=SPRO,sg,1p=ins}.
+{вернуться=V,pf,intr=sg,imper,2p}, {и=CONJ=} {выходить=V,intr=sg,imper,2p,pf} {из=PR=} {сандалия=S,f,inan=gen,pl},
+{и=CONJ=} {с=PR=} {непокрытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {голова=S,f,inan=ins,sg}.

@@ -1,90 +1,14 @@
-воздушность=S,f,inan=(acc,sg|nom,sg)
-._
-несколько=NUM=(|nom|acc,inan)
-_
-цветок=S,m,inan=gen,pl
-,\n
-знакомый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-,_
-полевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-из=PR=
-_
-тайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-родники=S,geo,pl,inan=gen
-\n
-на=PR=
-_
-воля=S,f,inan=acc,sg
-_
-манить=V,ipf,tran=inpraes,pl,indic,3p
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-цветок=S,m,inan=(acc,sg|nom,sg)
-_
-склоняться=V,intr=inpraes,sg,indic,3p,ipf
-_
-к=PR=
-_
-цветок=S,m,inan=dat,sg
-,\n
-и=CONJ=
-_
-стебель=S,m,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-травка=S,f,inan=(abl,sg|dat,sg)
-_
-льнуть=V,ipf,intr=inpraes,sg,indic,3p
-.\n\u2014_
-куда=ADVPRO=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-завлекать=V=inpraes,sg,indic,1p,pf
-?_\u2014\n
-цветок=S,m,inan=(acc,sg|nom,sg)
-_
-цветок=S,m,inan=dat,sg
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-о=PR=
-,_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-только=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-понимать=V=inpraes,sg,indic,2p,pf
-\n
-безмолвный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-разговор=S,m,inan=(acc,sg|nom,sg)
-.\n
-куда=ADVPRO=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-ты=SPRO,sg,2p=nom
-_
-увлекать=V=inpraes,sg,indic,2p,pf
-?\n
-в=PR=
-_
-неволя=S,f,inan=acc,sg
-?_
-на=PR=
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-?\n
+{воздушность=S,f,inan=(acc,sg|nom,sg)}. {несколько=NUM=(|nom|acc,inan)} {цветок=S,m,inan=gen,pl},
+{знакомый=S,m,anim=(abl,pl|acc,pl|gen,pl)}, {полевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{из=PR=} {тайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {родники=S,geo,pl,inan=gen}
+{на=PR=} {воля=S,f,inan=acc,sg} {манить=V,ipf,tran=inpraes,pl,indic,3p} {стих=S,m,inan=(acc,sg|nom,sg)}.
+
+{цветок=S,m,inan=(acc,sg|nom,sg)} {склоняться=V,intr=inpraes,sg,indic,3p,ipf} {к=PR=} {цветок=S,m,inan=dat,sg},
+{и=CONJ=} {стебель=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {травка=S,f,inan=(abl,sg|dat,sg)} {льнуть=V,ipf,intr=inpraes,sg,indic,3p}.
+— {куда=ADVPRO=} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {завлекать=V=inpraes,sg,indic,1p,pf}? —
+{цветок=S,m,inan=(acc,sg|nom,sg)} {цветок=S,m,inan=dat,sg} {петь=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{о=PR=}, {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {только=PART=} {ты=SPRO,sg,2p=nom} {понимать=V=inpraes,sg,indic,2p,pf}
+{безмолвный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {разговор=S,m,inan=(acc,sg|nom,sg)}.
+{куда=ADVPRO=} {я=SPRO,sg,1p=(acc|gen)} {ты=SPRO,sg,2p=nom} {увлекать=V=inpraes,sg,indic,2p,pf}?
+{в=PR=} {неволя=S,f,inan=acc,sg}? {на=PR=} {простор=S,m,inan=(acc,sg|nom,sg)}?

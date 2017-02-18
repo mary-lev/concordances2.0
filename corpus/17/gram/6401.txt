@@ -1,74 +1,8 @@
-тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-лед=S,m,inan=ins,sg
-_
-затягивать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-лужица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-словно=CONJ=
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-,_
-чистый=A=sg,brev,f
-_
-синева=S,f,inan=nom,sg
-.\n
-не=PART=
-_
-сверкать=V,ipf,intr=inpraes,sg,indic,3p
-_
-уже=ADV=
-,_
-не=PART=
-_
-кружиться=V,ipf,intr=inpraes,sg,indic,3p
-_\n
-обессиленный=A=nom,sg,plen,f
-_
-листва=S,sg,f,inan=nom
-.\n
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-нет=ADV,praed=
-_
-ни=CONJ=
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-но=CONJ=
-_
-покой=S,m,inan=gen,sg
-_
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-тоже=PART=
-_
-нет=ADV,praed=
-:\n
-как=ADVPRO=
-_
-забывать=V=inf,pf
-_
-о=PR=
-_
-весенний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-о=PR=
-_
-сияние=S,n,inan=abl,sg
-_
-прошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-?..\n
+{тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {лед=S,m,inan=ins,sg} {затягивать=V,tran=praet,pl,partcp,brev,pf,pass} {лужица=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{словно=CONJ=} {лед=S,m,inan=(acc,sg|nom,sg)}, {чистый=A=sg,brev,f} {синева=S,f,inan=nom,sg}.
+{не=PART=} {сверкать=V,ipf,intr=inpraes,sg,indic,3p} {уже=ADV=}, {не=PART=} {кружиться=V,ipf,intr=inpraes,sg,indic,3p} 
+{обессиленный=A=nom,sg,plen,f} {листва=S,sg,f,inan=nom}.
+{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {нет=ADV,praed=} {ни=CONJ=} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{но=CONJ=} {покой=S,m,inan=gen,sg} {в=PR=} {он=SPRO,sg,3p,m=abl} {тоже=PART=} {нет=ADV,praed=}:
+{как=ADVPRO=} {забывать=V=inf,pf} {о=PR=} {весенний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сладость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{о=PR=} {сияние=S,n,inan=abl,sg} {прошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl}?..

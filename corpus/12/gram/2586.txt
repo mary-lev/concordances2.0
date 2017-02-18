@@ -1,98 +1,21 @@
-не=PART=
-_
-проламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-ребро=S,n,inan=(acc,sg|nom,sg)
-_\u2014_\n
-переламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-крыло=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-не=PART=
-_
-расстрельщик?=S,m,anim=ins,pl
-_
-навылет=ADV=
-\n
-грудь=S,f,inan=(acc,sg|nom,sg)
-_
-прострелить=V,pf,tran=praet,nom,sg,partcp,plen,f,pass
-._
-не=PART=
-_
-вынимать=V,tran=inf,pf
-\n\n
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-пуля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-не=PART=
-_
-чинить=V,ipf,tran=inpraes,pl,indic,3p
-_
-крыло=S,n,inan=gen,pl
-.\n
-изуродовать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-ходить=V,ipf,intr=praet,sg,indic,m
-.\n\n\n
-цепкий=A=sg,brev,m
-,_
-цепкий=A=sg,brev,m
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-терние=S,n,inan=gen,pl
-!\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-усопший=S,m,anim=dat,sg
-_\u2014_
-трепет=S,m,inan=(acc,sg|nom,sg)
-_
-чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n\n
-женский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-лебяжий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-пух=S,sg,m,inan=(acc|nom)
-...\n
-проходить=V=(praet,sg,indic,m,pf,tran|praet,sg,indic,m,ipf,tran)
-,_
-одинокий=A=sg,brev,m
-_
-и=CONJ=
-_
-глухой=A=sg,brev,m
-,\n\n
-замораживать=V=inpraes,ger,ipf,tran
-_
-закат=S,m,inan=(acc,pl|nom,pl)
-\n
-пустота=S,f,inan=ins,sg
-_
-безглазый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-статуя=S,f,inan=gen,pl
-.\n\n
-лишь=PART=
-_
-один=ANUM=(acc,sg,n|nom,sg,n)
-_
-еще=ADV=
-_
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-жить=V,ipf,intr=praet,sg,indic,n
-:\n
-переламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-крыло=S,n,inan=(acc,sg|nom,sg)
-.\n
+{не=PART=} {проламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {ребро=S,n,inan=(acc,sg|nom,sg)} — 
+{переламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {крыло=S,n,inan=(acc,sg|nom,sg)}.
+
+{не=PART=} {расстрельщик?=S,m,anim=ins,pl} {навылет=ADV=}
+{грудь=S,f,inan=(acc,sg|nom,sg)} {прострелить=V,pf,tran=praet,nom,sg,partcp,plen,f,pass}. {не=PART=} {вынимать=V,tran=inf,pf}
+
+{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {пуля=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {не=PART=} {чинить=V,ipf,tran=inpraes,pl,indic,3p} {крыло=S,n,inan=gen,pl}.
+{изуродовать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {ходить=V,ipf,intr=praet,sg,indic,m}.
+
+
+{цепкий=A=sg,brev,m}, {цепкий=A=sg,brev,m} {венец=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {терние=S,n,inan=gen,pl}!
+{что=SPRO,sg,n,inan=(acc|nom)} {усопший=S,m,anim=dat,sg} — {трепет=S,m,inan=(acc,sg|nom,sg)} {чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+
+{женский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {лебяжий=A,plen=(acc,sg,m,inan|nom,sg,m)} {пух=S,sg,m,inan=(acc|nom)}...
+{проходить=V=(praet,sg,indic,m,pf,tran|praet,sg,indic,m,ipf,tran)}, {одинокий=A=sg,brev,m} {и=CONJ=} {глухой=A=sg,brev,m},
+
+{замораживать=V=inpraes,ger,ipf,tran} {закат=S,m,inan=(acc,pl|nom,pl)}
+{пустота=S,f,inan=ins,sg} {безглазый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {статуя=S,f,inan=gen,pl}.
+
+{лишь=PART=} {один=ANUM=(acc,sg,n|nom,sg,n)} {еще=ADV=} {в=PR=} {он=SPRO,sg,3p,m=abl} {жить=V,ipf,intr=praet,sg,indic,n}:
+{переламывать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {крыло=S,n,inan=(acc,sg|nom,sg)}.

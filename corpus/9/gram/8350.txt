@@ -1,78 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-глухой=A=acc,sg,plen,f
-_
-о=PR=
-_
-себя=SPRO=(abl|dat)
-\n
-ложиться=V,intr=inpraes,sg,indic,1p,ipf
-,_
-как=CONJ=
-_
-в=PR=
-_
-гипсовый=A=acc,sg,plen,f
-_
-маска=S,f,inan=acc,sg
-.\n
-и=CONJ=
-_
-это=PART=
-_\u2014_
-смерть=S,f,inan=(acc,sg|nom,sg)
-:_
-застыть=V,pf,intr=inf
-_
-в=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-,\n
-в=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-_\u2014_
-формовщик=S,m,anim=(acc,sg|gen,sg)
-_
-повязка=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-вот=PART=
-_
-слепок=S,m,inan=(acc,sg|nom,sg)
-._
-горько=ADV=
-_
-разрешать=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-я=SPRO,sg,1p=nom
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-дума=S,f,inan=ins,sg
-_
-о=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-о=PR=
-_
-себя=SPRO=(abl|dat)
-_\u2014_
-как=CONJ=
-_
-капюшон=S,m,inan=(acc,sg|nom,sg)
-,\n
-чернеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-_
-капризный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
+{я=SPRO,sg,1p=nom} {в=PR=} {мысль=S,f,inan=(acc,sg|nom,sg)} {глухой=A=acc,sg,plen,f} {о=PR=} {себя=SPRO=(abl|dat)}
+{ложиться=V,intr=inpraes,sg,indic,1p,ipf}, {как=CONJ=} {в=PR=} {гипсовый=A=acc,sg,plen,f} {маска=S,f,inan=acc,sg}.
+{и=CONJ=} {это=PART=} — {смерть=S,f,inan=(acc,sg|nom,sg)}: {застыть=V,pf,intr=inf} {в=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)},
+{в=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)} — {формовщик=S,m,anim=(acc,sg|gen,sg)} {повязка=S,f,inan=(abl,sg|dat,sg)}.
+
+{вот=PART=} {слепок=S,m,inan=(acc,sg|nom,sg)}. {горько=ADV=} {разрешать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{я=SPRO,sg,1p=nom} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {дума=S,f,inan=ins,sg} {о=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{мысль=S,f,inan=(acc,sg|nom,sg)} {о=PR=} {себя=SPRO=(abl|dat)} — {как=CONJ=} {капюшон=S,m,inan=(acc,sg|nom,sg)},
+{чернеть=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {весна=S,f,inan=(abl,sg|dat,sg)} {капризный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.

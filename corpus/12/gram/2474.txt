@@ -1,146 +1,19 @@
-не=PART=
-_
-думать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-жаловаться=V,ipf,intr=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-спорить=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-не=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-не=PART=
-_
-рваться=V,ipf,intr=inpraes,sg,indic,1p
-_
-ни=CONJ=
-_
-к=PR=
-_
-солнце=S,n,inan=dat,sg
-,_
-ни=CONJ=
-_
-к=PR=
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-,_
-ни=CONJ=
-_
-к=PR=
-_
-море=S,n,inan=dat,sg
-,\n
-ни=PART=
-_
-к=PR=
-_
-корабль=S,m,inan=dat,sg
-.\n\n
-не=PART=
-_
-чувствовать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-как=CONJ=
-_
-в=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-стена=S,f,inan=abl,pl
-_
-жарко=ADV=
-,\n
-как=ADVPRO=
-_
-зеленый=A=sg,brev,n
-_
-в=PR=
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-.\n
-давно=ADV=
-_
-желанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-и=CONJ=
-_
-ждать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-_
-подарок=S,m,inan=gen,sg
-\n
-не=PART=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-не=PART=
-_
-радовать=V,ipf,tran=inpraes,pl,indic,3p
-_
-ни=CONJ=
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-,_
-ни=CONJ=
-_
-трамвай=S,m,inan=gen,sg
-\n
-звенящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бег=S,sg,m,inan=(acc|nom)
-.\n
-жить=V,ipf,intr=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,ger
-_
-день=S,m,inan=gen,sg
-,_
-позабывать=V=inpraes,ger,ipf,tran
-\n
-число=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-век=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-на=PART=
-,_
-кажется=ADV,parenth=
-,_
-надрезать=V,pf,tran=(praet,abl,sg,partcp,plen,m,pass|praet,abl,sg,partcp,plen,n,pass)
-_
-канат=S,m,inan=abl,sg
-\n
-я=SPRO,sg,1p=nom
-_\u2014_
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плясун=S,m,anim=nom,sg
-.\n
-я=SPRO,sg,1p=nom
-_\u2014_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-чей-то=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-._
-я=SPRO,sg,1p=nom
-_\u2014_
-лунатик=S,m,anim=nom,sg
-\n
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луна=S,f,inan=gen,pl
-.\n
+{не=PART=} {думать=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {жаловаться=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {спорить=V,ipf,intr=inpraes,sg,indic,1p}.
+{не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,1p}.
+{не=PART=} {рваться=V,ipf,intr=inpraes,sg,indic,1p} {ни=CONJ=} {к=PR=} {солнце=S,n,inan=dat,sg}, {ни=CONJ=} {к=PR=} {луна=S,f,inan=(abl,sg|dat,sg)}, {ни=CONJ=} {к=PR=} {море=S,n,inan=dat,sg},
+{ни=PART=} {к=PR=} {корабль=S,m,inan=dat,sg}.
+
+{не=PART=} {чувствовать=V,ipf,tran=inpraes,sg,indic,1p}, {как=CONJ=} {в=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стена=S,f,inan=abl,pl} {жарко=ADV=},
+{как=ADVPRO=} {зеленый=A=sg,brev,n} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)}.
+{давно=ADV=} {желанный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {и=CONJ=} {ждать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)} {подарок=S,m,inan=gen,sg}
+{не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{не=PART=} {радовать=V,ipf,tran=inpraes,pl,indic,3p} {ни=CONJ=} {утро=S,n,inan=(acc,sg|nom,sg)}, {ни=CONJ=} {трамвай=S,m,inan=gen,sg}
+{звенящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бег=S,sg,m,inan=(acc|nom)}.
+{жить=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {видеть=V,ipf,tran=inpraes,ger} {день=S,m,inan=gen,sg}, {позабывать=V=inpraes,ger,ipf,tran}
+{число=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {век=S,m,inan=(acc,sg|nom,sg)}.
+
+{на=PART=}, {кажется=ADV,parenth=}, {надрезать=V,pf,tran=(praet,abl,sg,partcp,plen,m,pass|praet,abl,sg,partcp,plen,n,pass)} {канат=S,m,inan=abl,sg}
+{я=SPRO,sg,1p=nom} — {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плясун=S,m,anim=nom,sg}.
+{я=SPRO,sg,1p=nom} — {тень=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {чей-то=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}. {я=SPRO,sg,1p=nom} — {лунатик=S,m,anim=nom,sg}
+{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луна=S,f,inan=gen,pl}.

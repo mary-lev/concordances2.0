@@ -1,110 +1,14 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-ли=PART=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-?_
-или=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-?_
-или=CONJ=
-_
-счастие=S,n,inan=(acc,sg|nom,sg)
-?\n
-рокот=S,m,inan=(acc,sg|nom,sg)
-_
-безмерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-органный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-тайна=S,f,inan=nom,sg
-_
-великий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-затон=S,m,inan=gen,pl
-_
-бесстрастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-мление=S,n,inan=(acc,sg|nom,sg)
-_
-вольный=A=(acc,sg,plen,n|nom,sg,plen,n)
-._
-сладость=S,f,inan=(acc,sg|nom,sg)
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-цветной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-застыть=V,pf,intr=praet,pl,indic
-_
-от=PR=
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-льдяной?=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-вставать=V,intr=praet,pl,indic,pf
-_
-воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-преграда=S,f,inan=ins,sg
-,\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-ли=PART=
-?_
-умирать=V,intr=praet,sg,indic,n,pf
-?_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-ли=PART=
-_
-молодо=ADV=
-?\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-ли=PART=
-,_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-ли=CONJ=
-_
-новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-отрада=S,f,inan=ins,sg
-?\n\n
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-огонь=S,m,inan=ins,pl
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-_
-необманный?=A=ins,pl,plen
-,\n
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-закрывать=V=praet,pl,indic,pf
-_
-холодный=A=acc,sg,plen,f
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-.\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-рыдание=S,n,inan=ins,pl
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-органный=A=ins,pl,plen
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-ли=PART=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-?\n
+{это=SPRO,sg,n,inan=(acc|nom)} {ли=PART=} {смерть=S,f,inan=(acc,sg|nom,sg)}? {или=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)}? {или=CONJ=} {счастие=S,n,inan=(acc,sg|nom,sg)}?
+{рокот=S,m,inan=(acc,sg|nom,sg)} {безмерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {органный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{тайна=S,f,inan=nom,sg} {великий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {затон=S,m,inan=gen,pl} {бесстрастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{мление=S,n,inan=(acc,sg|nom,sg)} {вольный=A=(acc,sg,plen,n|nom,sg,plen,n)}. {сладость=S,f,inan=(acc,sg|nom,sg)} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {цветной=A=(acc,pl,plen,inan|nom,pl,plen)} {застыть=V,pf,intr=praet,pl,indic} {от=PR=} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{льдяной?=A=(acc,pl,plen,inan|nom,pl,plen)}, {вставать=V,intr=praet,pl,indic,pf} {воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {преграда=S,f,inan=ins,sg},
+{быть=V,intr=praet,sg,indic,n,ipf} {ли=PART=}? {умирать=V,intr=praet,sg,indic,n,pf}? {быть=V,intr=praet,sg,indic,n,ipf} {ли=PART=} {молодо=ADV=}?
+{быть=V,intr=praet,sg,indic,n,ipf} {ли=PART=}, {становиться=V,intr=praet,sg,indic,n,pf} {ли=CONJ=} {новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {отрада=S,f,inan=ins,sg}?
+
+{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {огонь=S,m,inan=ins,pl} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {необманный?=A=ins,pl,plen},
+{сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {закрывать=V=praet,pl,indic,pf} {холодный=A=acc,sg,plen,f} {твердь=S,f,inan=(acc,sg|nom,sg)}.
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {рыдание=S,n,inan=ins,pl} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {органный=A=ins,pl,plen}.
+{это=SPRO,sg,n,inan=(acc|nom)} {ли=PART=} {смерть=S,f,inan=(acc,sg|nom,sg)}?

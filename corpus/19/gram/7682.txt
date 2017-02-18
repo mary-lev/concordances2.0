@@ -1,72 +1,9 @@
-представляться=V,intr=inpraes,sg,indic,3p,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-мой=APRO=nom,sg,f
-_
-родина=S,f,inan=nom,sg
-\n
-лучезарный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-прелестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-развратница=S,f,anim=ins,sg
-:\n
-наслаждаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-ласка=S,f,inan=ins,sg
-_
-продажный=A=ins,sg,plen,f
-,\n
-дома=ADV=
-_
-бросать=V=praet,pl,partcp,brev,pf,pass
-_
-ребенок=S,m,anim=nom,pl
-_
-голодный=S,m,anim=nom,pl
-.\n\n
-отчего=ADVPRO=
-_
-же=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-жаль=ADV,praed=
-_
-тот=APRO=acc,sg,f
-_
-развратница=S,f,anim=acc,sg
-,\n
-отчего=ADVPRO=
-_
-же=PART=
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-продажный=A=acc,sg,plen,f
-:\n
-оттого=ADVPRO=
-_
-ль=PART=
-,_
-что=CONJ=
-_
-страдать=V,ipf,intr=inpraes,sg,indic,3p
-_
-родимый=A=nom,sg,plen,f
-?\n
-оттого=ADVPRO=
-_
-ли=PART=
-,_
-что=CONJ=
-_
-хороший=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)
-_
-я=SPRO,sg,1p=nom
-_
-дожидаюся?=S,persn,f,anim=nom,sg
-?\n
+{представляться=V,intr=inpraes,sg,indic,3p,ipf} {я=SPRO,sg,1p=(abl|dat)} {мой=APRO=nom,sg,f} {родина=S,f,inan=nom,sg}
+{лучезарный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {прелестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {развратница=S,f,anim=ins,sg}:
+{наслаждаться=V,intr=inpraes,sg,indic,3p,ipf} {ласка=S,f,inan=ins,sg} {продажный=A=ins,sg,plen,f},
+{дома=ADV=} {бросать=V=praet,pl,partcp,brev,pf,pass} {ребенок=S,m,anim=nom,pl} {голодный=S,m,anim=nom,pl}.
+
+{отчего=ADVPRO=} {же=PART=} {я=SPRO,sg,1p=(abl|dat)} {жаль=ADV,praed=} {тот=APRO=acc,sg,f} {развратница=S,f,anim=acc,sg},
+{отчего=ADVPRO=} {же=PART=} {любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {продажный=A=acc,sg,plen,f}:
+{оттого=ADVPRO=} {ль=PART=}, {что=CONJ=} {страдать=V,ipf,intr=inpraes,sg,indic,3p} {родимый=A=nom,sg,plen,f}?
+{оттого=ADVPRO=} {ли=PART=}, {что=CONJ=} {хороший=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)} {я=SPRO,sg,1p=nom} {дожидаюся?=S,persn,f,anim=nom,sg}?

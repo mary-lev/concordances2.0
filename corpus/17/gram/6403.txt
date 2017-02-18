@@ -1,106 +1,14 @@
-цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-вянуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-малина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-твой=APRO=(nom,pl|acc,pl,inan)
-,_
-закат=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-тление=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-твой=APRO=(nom,pl|acc,pl,inan)
-,\n
-тревожить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-пустынный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-долина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-,_
-замерзать=V,intr=inpraes,ger,ipf
-,_
-пениться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ручей=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-и=CONJ=
-_
-лишь=PART=
-_
-пора=S,f,inan=ins,sg
-,_
-звенеть=V,ipf,intr=inpraes,ger
-_
-колоколец?=S,m,anim=ins,pl
-,_\n
-продребезжать=V,pf,intr=inpraes,sg,indic,3p
-_
-зеленый=A=nom,sg,plen,f
-_
-дуга=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-лишь=PART=
-_
-пора=S,f,inan=ins,sg
-_
-за=PR=
-_
-дальний=A=ins,pl,plen
-_
-ствол=S,m,inan=ins,pl
-_\u2014_\n
-собачий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-лай=S,m,inan=(acc,sg|nom,sg)
-,_
-охотничий=A,plen=(nom,pl|acc,pl,inan)
-_
-рог=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-снова=ADV=
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-..._
-печально=ADV=
-_
-и=CONJ=
-_
-жестоко=ADV=
-_\n
-безмолвствовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-холодный=A=nom,sg,plen,f
-_
-заря=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-_
-разноситься=V,ipf,intr=inpraes,sg,indic,3p
-_
-широко=ADV=
-_\n
-мертвящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-октябрь=S,m,inan=gen,sg
-.\n
+{цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {вянуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {малина=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{твой=APRO=(nom,pl|acc,pl,inan)}, {закат=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {тление=S,n,inan=(acc,sg|nom,sg)} — {твой=APRO=(nom,pl|acc,pl,inan)},
+{тревожить=V,ipf,tran=inpraes,sg,indic,3p} {ветер=S,m,inan=(acc,sg|nom,sg)} {пустынный=A=(acc,pl,plen,inan|nom,pl,plen)} {долина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=}, {замерзать=V,intr=inpraes,ger,ipf}, {пениться=V,ipf,intr=inpraes,pl,indic,3p} {ручей=S,m,inan=(acc,pl|nom,pl)}.
+
+{и=CONJ=} {лишь=PART=} {пора=S,f,inan=ins,sg}, {звенеть=V,ipf,intr=inpraes,ger} {колоколец?=S,m,anim=ins,pl}, 
+{продребезжать=V,pf,intr=inpraes,sg,indic,3p} {зеленый=A=nom,sg,plen,f} {дуга=S,f,inan=nom,sg}.
+{и=CONJ=} {лишь=PART=} {пора=S,f,inan=ins,sg} {за=PR=} {дальний=A=ins,pl,plen} {ствол=S,m,inan=ins,pl} — 
+{собачий=A,plen=(acc,sg,m,inan|nom,sg,m)} {лай=S,m,inan=(acc,sg|nom,sg)}, {охотничий=A,plen=(nom,pl|acc,pl,inan)} {рог=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {снова=ADV=} {тишь=S,f,inan=(acc,sg|nom,sg)}... {печально=ADV=} {и=CONJ=} {жестоко=ADV=} 
+{безмолвствовать=V,ipf,intr=inpraes,sg,indic,3p} {холодный=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}.
+{и=CONJ=} {в=PR=} {воздух=S,m,inan=abl,sg} {разноситься=V,ipf,intr=inpraes,sg,indic,3p} {широко=ADV=} 
+{мертвящий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {октябрь=S,m,inan=gen,sg}.

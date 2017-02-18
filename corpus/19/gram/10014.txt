@@ -1,58 +1,9 @@
-город=S,m,inan=(acc,sg|nom,sg)
-_
-дым=S,m,inan=ins,sg
-_
-заволакивать=V=praet,sg,partcp,brev,m,pf,pass
-:\n
-топить=V,ipf,tran=inpraes,pl,indic,3p
-_
-печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-сыр=S,m,inan=(acc,sg|nom,sg)
-.\n
-словно=CONJ=
-_
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-озабоченный=A=sg,brev,m
-,\n
-принахмуриться=V,pf,intr=praet,sg,indic,m
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_\u2014_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-без=PR=
-_
-просвет=S,m,inan=gen,sg
-,\n
-от=PR=
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-.\n
-мрачно=ADV=
-_
-все=SPRO,pl=(acc|nom)
-,_
-как=ADVPRO=
-_
-будто=PART=
-_
-где-то=ADVPRO=
-\n
-замышляться=V,ipf,intr=inpraes,sg,indic,3p
-_
-обман=S,m,inan=(acc,sg|nom,sg)
-...\n
+{город=S,m,inan=(acc,sg|nom,sg)} {дым=S,m,inan=ins,sg} {заволакивать=V=praet,sg,partcp,brev,m,pf,pass}:
+{топить=V,ipf,tran=inpraes,pl,indic,3p} {печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {воздух=S,m,inan=(acc,sg|nom,sg)} {сыр=S,m,inan=(acc,sg|nom,sg)}.
+{словно=CONJ=} {что-то=SPRO,sg,n,inan=(abl|ins)} {озабоченный=A=sg,brev,m},
+{принахмуриться=V,pf,intr=praet,sg,indic,m} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {небо=S,n,inan=abl,sg} — {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {без=PR=} {просвет=S,m,inan=gen,sg},
+{от=PR=} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {туман=S,m,inan=(acc,sg|nom,sg)}.
+{мрачно=ADV=} {все=SPRO,pl=(acc|nom)}, {как=ADVPRO=} {будто=PART=} {где-то=ADVPRO=}
+{замышляться=V,ipf,intr=inpraes,sg,indic,3p} {обман=S,m,inan=(acc,sg|nom,sg)}...

@@ -1,100 +1,12 @@
-если=CONJ=
-_
-б=PART=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-чистый=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-я=SPRO,sg,1p=nom
-_
-теперь=ADV=
-_
-иметь=V,ipf,tran=praet,sg,indic,m
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ясно=ADV=comp
-,\n
-я=SPRO,sg,1p=nom
-_
-бы=PART=
-_
-громко=ADV=comp
-_
-петь=V,ipf,tran=praet,sg,indic,m
-.\n
-петь=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-я=SPRO,sg,1p=nom
-_
-про=PR=
-_
-слава=S,f,inan=acc,sg
-\n
-и=CONJ=
-_
-свобода=S,f,inan=acc,sg
-_
-прежний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,\n
-петь=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-я=SPRO,sg,1p=nom
-_
-про=PR=
-_
-рабство=S,n,inan=(acc,sg|nom,sg)
-,\n
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-родина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n
-петь=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-_
-я=SPRO,sg,1p=nom
-_
-герой=S,m,anim=(acc,pl|gen,pl)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вперед=ADV=
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-_
-вести=V,ipf,tran=praet,pl,indic
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-благо=S,n,inan=(acc,sg|nom,sg)
-_
-родина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-бой=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-враг=S,m,anim=ins,pl
-_
-идти=V,ipf,intr=praet,pl,indic
-.\n
+{если=CONJ=} {б=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {чистый=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{я=SPRO,sg,1p=nom} {теперь=ADV=} {иметь=V,ipf,tran=praet,sg,indic,m},
+{быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {голос=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ясно=ADV=comp},
+{я=SPRO,sg,1p=nom} {бы=PART=} {громко=ADV=comp} {петь=V,ipf,tran=praet,sg,indic,m}.
+{петь=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {я=SPRO,sg,1p=nom} {про=PR=} {слава=S,f,inan=acc,sg}
+{и=CONJ=} {свобода=S,f,inan=acc,sg} {прежний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl},
+{петь=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {я=SPRO,sg,1p=nom} {про=PR=} {рабство=S,n,inan=(acc,sg|nom,sg)},
+{цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {родина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+{петь=V,ipf,tran=praet,sg,indic,m} {бы=PART=} {я=SPRO,sg,1p=nom} {герой=S,m,anim=(acc,pl|gen,pl)},
+{что=SPRO,sg,n,inan=(acc|nom)} {вперед=ADV=} {народ=S,m,inan=(acc,sg|nom,sg)} {вести=V,ipf,tran=praet,pl,indic},
+{что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {благо=S,n,inan=(acc,sg|nom,sg)} {родина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {бой=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {враг=S,m,anim=ins,pl} {идти=V,ipf,intr=praet,pl,indic}.

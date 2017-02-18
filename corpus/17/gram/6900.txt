@@ -1,64 +1,9 @@
-если=CONJ=
-_
-б=PART=
-_
-время=S,n,inan=(acc,sg|nom,sg)
-_
-останавливать=V,tran=inf,pf
-._\n
-чтобы=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-увеличиваться=V,intr=praet,sg,indic,m,pf
-_
-вдвое=ADV=
-,_\n
-перед=PR=
-_
-смерть=S,f,inan=ins,sg
-_
-благословлять=V,tran=inf,pf
-_\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-жить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-живой=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n\n
-и=CONJ=
-_
-у=PR=
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-обижать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-,_\n
-попросить=V,pf,tran=inf
-_
-смиренно=ADV=
-_
-прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-чтобы=CONJ=
-_
-вспыхивать=V,intr=praet,sg,indic,n,pf
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-огонь=S,m,inan=gen,sg
-_\n
-милосердие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-очищение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{если=CONJ=} {б=PART=} {время=S,n,inan=(acc,sg|nom,sg)} {останавливать=V,tran=inf,pf}. 
+{чтобы=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)} {увеличиваться=V,intr=praet,sg,indic,m,pf} {вдвое=ADV=}, 
+{перед=PR=} {смерть=S,f,inan=ins,sg} {благословлять=V,tran=inf,pf} 
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {жить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {живой=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+
+{и=CONJ=} {у=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {кто=SPRO,sg,m,anim=nom} {обижать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(acc|gen)}, 
+{попросить=V,pf,tran=inf} {смиренно=ADV=} {прощение=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{чтобы=CONJ=} {вспыхивать=V,intr=praet,sg,indic,n,pf} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {огонь=S,m,inan=gen,sg} 
+{милосердие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {очищение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

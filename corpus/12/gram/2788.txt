@@ -1,78 +1,9 @@
-доблесть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-девственность=S,f,inan=(acc,sg|nom,sg)
-!_\u2014_
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-союз=S,m,inan=(acc,sg|nom,sg)
-\n
-древний=A=sg,brev,m
-_
-и=CONJ=
-_
-дивный=A=sg,brev,m
-,_
-как=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-слава=S,f,inan=nom,sg
-.\n
-красный=A=ins,sg,plen,f
-_
-кровь=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-клясться=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-\n
-и=CONJ=
-_
-голова=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-кудрявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_\n\n
-ноша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-у=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-плечо=S,n,inan=gen,pl
-,\n
-кроме=PR=
-_
-божественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ноша=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-мир=S,m,inan=gen,sg
-!\n
-нежный=A=acc,sg,plen,f
-_
-рука=S,f,inan=acc,sg
-_
-класть=V,ipf=inpraes,sg,indic,1p,tran
-_
-на=PR=
-_
-меч=S,m,inan=(acc,sg|nom,sg)
-:\n
-на=PR=
-_
-лебединый=A=acc,sg,plen,f
-_
-шея=S,f,inan=acc,sg
-_
-лира=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{доблесть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {девственность=S,f,inan=(acc,sg|nom,sg)}! — {сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {союз=S,m,inan=(acc,sg|nom,sg)}
+{древний=A=sg,brev,m} {и=CONJ=} {дивный=A=sg,brev,m}, {как=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {слава=S,f,inan=nom,sg}.
+{красный=A=ins,sg,plen,f} {кровь=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {клясться=V,intr=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)}
+{и=CONJ=} {голова=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {кудрявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — 
+
+{ноша=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p} {у=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {плечо=S,n,inan=gen,pl},
+{кроме=PR=} {божественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ноша=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {мир=S,m,inan=gen,sg}!
+{нежный=A=acc,sg,plen,f} {рука=S,f,inan=acc,sg} {класть=V,ipf=inpraes,sg,indic,1p,tran} {на=PR=} {меч=S,m,inan=(acc,sg|nom,sg)}:
+{на=PR=} {лебединый=A=acc,sg,plen,f} {шея=S,f,inan=acc,sg} {лира=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

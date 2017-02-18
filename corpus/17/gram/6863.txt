@@ -1,100 +1,14 @@
-и=CONJ=
-_
-сорок=NUM=(acc|nom)
-_
-год=S,m,inan=gen,pl
-_
-спустя=PR=
-_
-мы=SPRO,pl,1p=nom
-_
-спорить=V,ipf,intr=inpraes,pl,indic,1p
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-виноватый=A=sg,brev,m
-_
-и=CONJ=
-_
-почему=ADVPRO=
-.\n
-так=ADVPRO=
-_
-в=PR=
-_
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-море=S,n,inan=ins,sg
-_\n
-россия=S,geo,f,inan=nom,sg
-_
-рухнуть=V,pf,intr=praet,sg,indic,f
-_
-во=PR=
-_
-тьма=S,f,inan=acc,sg
-.\n\n
-гостинодворец=S,m,anim=nom,pl
-,_
-царедворец=S,m,anim=nom,pl
-_\n
-во=PR=
-_
-весь=APRO=acc,sg,f
-_
-стараться=V,ipf,intr=praet,pl,indic
-_
-рысь=S,sg,f,inan=(acc|nom)
-_
-и=CONJ=
-_
-прыть=S,f,inan=(acc,sg|nom,sg)
-;_\n
-безмолвствовать=V,ipf,intr=praet,pl,indic
-_
-чудотворец=S,m,anim=nom,pl
-,\n
-не=PART=
-_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-_
-чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-совершать=V,tran=inf,pf
-.\n\n
-и=CONJ=
-_
-начинаться=V,intr=praet,sg,indic,m,pf
-_
-герой=S,m,anim=(acc,pl|gen,pl)
--
-нищий=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_\n
-голгофский?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-торжество=S,n,inan=(acc,sg|nom,sg)
-,_\n
-непримиримость=S,f,inan=(acc,sg|nom,sg)
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-прощать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-.\n
-не=PART=
-_
-позабывать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-ничто=SPRO,sg,n=gen
-.\n
+{и=CONJ=} {сорок=NUM=(acc|nom)} {год=S,m,inan=gen,pl} {спустя=PR=} {мы=SPRO,pl,1p=nom} {спорить=V,ipf,intr=inpraes,pl,indic,1p},
+{кто=SPRO,sg,m,anim=nom} {виноватый=A=sg,brev,m} {и=CONJ=} {почему=ADVPRO=}.
+{так=ADVPRO=} {в=PR=} {страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {море=S,n,inan=ins,sg} 
+{россия=S,geo,f,inan=nom,sg} {рухнуть=V,pf,intr=praet,sg,indic,f} {во=PR=} {тьма=S,f,inan=acc,sg}.
+
+{гостинодворец=S,m,anim=nom,pl}, {царедворец=S,m,anim=nom,pl} 
+{во=PR=} {весь=APRO=acc,sg,f} {стараться=V,ipf,intr=praet,pl,indic} {рысь=S,sg,f,inan=(acc|nom)} {и=CONJ=} {прыть=S,f,inan=(acc,sg|nom,sg)}; 
+{безмолвствовать=V,ipf,intr=praet,pl,indic} {чудотворец=S,m,anim=nom,pl},
+{не=PART=} {в=PR=} {сила=S,f,inan=abl,pl} {чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {совершать=V,tran=inf,pf}.
+
+{и=CONJ=} {начинаться=V,intr=praet,sg,indic,m,pf} {герой=S,m,anim=(acc,pl|gen,pl)}-{нищий=S,m,anim=(abl,pl|acc,pl|gen,pl)} 
+{голгофский?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {торжество=S,n,inan=(acc,sg|nom,sg)}, 
+{непримиримость=S,f,inan=(acc,sg|nom,sg)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {прощать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)}.
+{не=PART=} {позабывать=V=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {ничто=SPRO,sg,n=gen}.

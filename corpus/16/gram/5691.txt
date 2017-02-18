@@ -1,78 +1,14 @@
-сегодня=ADV=
-_
-утро=S,n,inan=ins,sg
-_
-зяблик=S,m,anim=nom,pl
-\n
-свистеть=V,ipf,tran=praet,pl,indic
-_
-и=CONJ=
-_
-аукать=V,ipf,intr=praet,pl,indic
-,\n
-а=CONJ=
-_
-лодка=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-кораблик=S,m,inan=(acc,pl|nom,pl)
-\n
-качели=S,pl,inan=(acc|nom)
-_
-волна=S,f,inan=gen,pl
-_
-баюкать=V,ipf,tran=praet,pl,indic
-.\n\n
-над=PR=
-_
-тихий=A=ins,sg,plen,f
-_
-деревня=S,f,inan=ins,sg
-\n
-дышать=V,ipf,intr=praet,pl,indic
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-_
-вешний=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-и=CONJ=
-_
-пред=PR=
-_
-избушка=S,f,inan=ins,sg
-_
-древний=A=ins,sg,plen,f
-\n
-светлеть=V,ipf,intr=praet,sg,indic,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-поспешно=ADV=comp
-.\n\n
-хотеться=V,ipf,intr=praet,sg,indic,n
-_
-жить=V,ipf,intr=inf
-_
-и=CONJ=
-_
-чувствовать=V,ipf,tran=inf
-\n
-заря=S,f,inan=ins,sg
-_
-студено=ADV=
--
-ясный=A=ins,sg,plen,f
-.\n
-смеяться=V,ipf,intr=inf
-_
-и=CONJ=
-_
-безумствовать=V,ipf,intr=inf
-\n
-мечта=S,f,inan=ins,sg
-_\u2014_
-всегда=ADVPRO=
-_
-напрасный=A=ins,sg,plen,f
-!\n
+{сегодня=ADV=} {утро=S,n,inan=ins,sg} {зяблик=S,m,anim=nom,pl}
+{свистеть=V,ipf,tran=praet,pl,indic} {и=CONJ=} {аукать=V,ipf,intr=praet,pl,indic},
+{а=CONJ=} {лодка=S,f,inan=acc,sg} {и=CONJ=} {кораблик=S,m,inan=(acc,pl|nom,pl)}
+{качели=S,pl,inan=(acc|nom)} {волна=S,f,inan=gen,pl} {баюкать=V,ipf,tran=praet,pl,indic}.
+
+{над=PR=} {тихий=A=ins,sg,plen,f} {деревня=S,f,inan=ins,sg}
+{дышать=V,ipf,intr=praet,pl,indic} {звук=S,m,inan=(acc,pl|nom,pl)} {вешний=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {пред=PR=} {избушка=S,f,inan=ins,sg} {древний=A=ins,sg,plen,f}
+{светлеть=V,ipf,intr=praet,sg,indic,f} {даль=S,f,inan=(acc,sg|nom,sg)} {поспешно=ADV=comp}.
+
+{хотеться=V,ipf,intr=praet,sg,indic,n} {жить=V,ipf,intr=inf} {и=CONJ=} {чувствовать=V,ipf,tran=inf}
+{заря=S,f,inan=ins,sg} {студено=ADV=}-{ясный=A=ins,sg,plen,f}.
+{смеяться=V,ipf,intr=inf} {и=CONJ=} {безумствовать=V,ipf,intr=inf}
+{мечта=S,f,inan=ins,sg} — {всегда=ADVPRO=} {напрасный=A=ins,sg,plen,f}!

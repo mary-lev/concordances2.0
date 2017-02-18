@@ -1,76 +1,9 @@
-в=PR=
-_
-горький=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-,_
-в=PR=
-_
-час=S,m,inan=(acc,pl|nom,pl)
-_
-бессонный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-побеждать=V=sg,imper,2p,ipf,tran
-,_
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-верить=V,ipf,intr=sg,imper,2p
-_
-в=PR=
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-озарять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-:\n
-божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-правда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-живой=A=pl,brev
-_
-пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-пусть=PART=
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-_
-зеленеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-низкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-помнить=V,ipf,tran=sg,imper,2p
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-_
-новогодний=A=acc,sg,plen,f
-.\n
-помнить=V,ipf,tran=sg,imper,2p
-,_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-человек=S,m,anim=nom,pl
-,_
-сердце=S,n,inan=dat,sg
-_
-близкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-веровать=V,ipf,intr=sg,imper,2p
-_
-в=PR=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-господний=A,poss=acc,sg,plen,f
-.\n
+{в=PR=} {горький=A=(acc,pl,plen,inan|nom,pl,plen)} {день=S,m,inan=(acc,pl|nom,pl)}, {в=PR=} {час=S,m,inan=(acc,pl|nom,pl)} {бессонный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{боль=S,f,inan=(acc,sg|nom,sg)} {побеждать=V=sg,imper,2p,ipf,tran}, {боль=S,f,inan=(acc,sg|nom,sg)} {одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{верить=V,ipf,intr=sg,imper,2p} {в=PR=} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свой=APRO=(nom,pl|acc,pl,inan)} {озарять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}:
+{божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {правда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {живой=A=pl,brev} {пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{пусть=PART=} {небо=S,n,inan=(acc,pl|nom,pl)} {зеленеть=V,ipf,intr=inpraes,pl,indic,3p} {низкий=A=(acc,pl,plen,inan|nom,pl,plen)},
+{помнить=V,ipf,tran=sg,imper,2p} {мысль=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f} {новогодний=A=acc,sg,plen,f}.
+{помнить=V,ipf,tran=sg,imper,2p}, {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {человек=S,m,anim=nom,pl}, {сердце=S,n,inan=dat,sg} {близкий=A=(acc,pl,plen,inan|nom,pl,plen)},
+{веровать=V,ipf,intr=sg,imper,2p} {в=PR=} {любовь=S,f,inan=(acc,sg|nom,sg)}, {в=PR=} {любовь=S,f,inan=(acc,sg|nom,sg)} {господний=A,poss=acc,sg,plen,f}.

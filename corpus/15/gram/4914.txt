@@ -1,132 +1,17 @@
-на=PR=
-_
-два=NUM=(nom,f|acc,f,inan)
-_
-морской=A,plen=(abl,sg,m|abl,sg,n)
-_
-подводный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-растение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-распространять=V,tran=inpraes,pl,indic,3p,ipf
-_
-бледный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-тянуться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-расти=V,ipf,intr=inpraes,pl,indic,3p
-_
-как=CONJ=
-_
-привидение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-безмолвие=S,n,inan=abl,sg
-_
-угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-темнота=S,sg,f,inan=gen
-.\n\n
-они=SPRO,pl=(acc|gen)
-_
-тяготить=V,ipf,tran=inpraes,sg,indic,3p
-_
-покой=S,m,inan=(acc,sg|nom,sg)
-_
-уединение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-они=SPRO,pl=(acc|gen)
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-они=SPRO,pl=dat
-_
-хотеться=V,ipf,intr=inpraes,indic
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-луч=S,m,inan=gen,pl
-,_
-волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-они=SPRO,pl=dat
-_
-сниться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ароматный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-но=CONJ=
-_
-нет=PART=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-страна=S,f,inan=acc,sg
-_
-борьба=S,sg,f,inan=gen
-_
-в=PR=
-_
-свет=S,sg,m,inan=gen
-,\n
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-кругом=ADV=
-_
-холодный=A=nom,sg,plen,f
-_
-вода=S,f,inan=nom,sg
-.\n
-акула=S,f,anim=(gen,sg|nom,pl)
-_
-проплывать=V,tran=inpraes,pl,indic,3p,ipf
-_
-иногда=ADV=
-.\n\n
-ни=CONJ=
-_
-проблеск=S,m,inan=gen,sg
-,_
-ни=CONJ=
-_
-звук=S,m,inan=gen,sg
-,_
-ни=CONJ=
-_
-привет=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-сверху=ADV=
-_
-посылать=V=inpraes,sg,indic,3p,ipf,tran
-_
-зыбь=S,f,inan=(acc,sg|nom,sg)
-_
-море=S,n,inan=gen,pl
-\n
-лишь=PART=
-_
-труп=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-обломок=S,m,inan=(acc,pl|nom,pl)
-_
-корабль=S,m,inan=gen,pl
-.\n
+{на=PR=} {два=NUM=(nom,f|acc,f,inan)} {морской=A,plen=(abl,sg,m|abl,sg,n)} {подводный=A=(acc,pl,plen,inan|nom,pl,plen)} {растение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{распространять=V,tran=inpraes,pl,indic,3p,ipf} {бледный=A=(acc,pl,plen,inan|nom,pl,plen)} {лист=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {тянуться=V,ipf,intr=inpraes,pl,indic,3p}, {расти=V,ipf,intr=inpraes,pl,indic,3p} {как=CONJ=} {привидение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {безмолвие=S,n,inan=abl,sg} {угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {темнота=S,sg,f,inan=gen}.
+
+{они=SPRO,pl=(acc|gen)} {тяготить=V,ipf,tran=inpraes,sg,indic,3p} {покой=S,m,inan=(acc,sg|nom,sg)} {уединение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{они=SPRO,pl=(acc|gen)} {манить=V,ipf,tran=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)} {безвестный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{они=SPRO,pl=dat} {хотеться=V,ipf,intr=inpraes,indic} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {луч=S,m,inan=gen,pl}, {волнение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{они=SPRO,pl=dat} {сниться=V,ipf,intr=inpraes,pl,indic,3p} {ароматный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+
+{но=CONJ=} {нет=PART=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {страна=S,f,inan=acc,sg} {борьба=S,sg,f,inan=gen} {в=PR=} {свет=S,sg,m,inan=gen},
+{молчать=V,ipf,intr=inpraes,sg,indic,3p} {кругом=ADV=} {холодный=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg}.
+{акула=S,f,anim=(gen,sg|nom,pl)} {проплывать=V,tran=inpraes,pl,indic,3p,ipf} {иногда=ADV=}.
+
+{ни=CONJ=} {проблеск=S,m,inan=gen,sg}, {ни=CONJ=} {звук=S,m,inan=gen,sg}, {ни=CONJ=} {привет=S,m,inan=gen,sg},
+{и=CONJ=} {сверху=ADV=} {посылать=V=inpraes,sg,indic,3p,ipf,tran} {зыбь=S,f,inan=(acc,sg|nom,sg)} {море=S,n,inan=gen,pl}
+{лишь=PART=} {труп=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {обломок=S,m,inan=(acc,pl|nom,pl)} {корабль=S,m,inan=gen,pl}.

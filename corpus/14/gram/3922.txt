@@ -1,66 +1,8 @@
-думать=V,ipf,intr=praet,pl,indic
-:_
-нищий=S,m,anim=nom,pl
-_
-мы=SPRO,pl,1p=nom
-,_
-нету=ADV,praed=
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-ничто=SPRO,sg,n=gen
-,\n
-а=CONJ=
-_
-как=ADVPRO=
-_
-становиться=V,intr=praet,pl,indic,pf
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-_
-за=PR=
-_
-другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-терять=V,ipf,tran=inf
-,\n
-так=ADVPRO=
-_
-что=CONJ=
-_
-сделаться=V,pf,intr=praet,sg,indic,m
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-\n
-поминальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-день=S,m,inan=ins,sg
-,_\u2014\n
-начинать=V,tran=praet,pl,indic,pf
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-слагать=V,tran=inf,ipf
-\n
-о=PR=
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-щедрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-да=PART=
-_
-о=PR=
-_
-наш=APRO=(abl,sg,m|abl,sg,n)
-_
-бывший=A,plen=(abl,sg,m|abl,sg,n)
-_
-богатство=S,n,inan=abl,sg
-.\n\n
+{думать=V,ipf,intr=praet,pl,indic}: {нищий=S,m,anim=nom,pl} {мы=SPRO,pl,1p=nom}, {нету=ADV,praed=} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {ничто=SPRO,sg,n=gen},
+{а=CONJ=} {как=ADVPRO=} {становиться=V,intr=praet,pl,indic,pf} {один=APRO=(acc,sg,n|nom,sg,n)} {за=PR=} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {терять=V,ipf,tran=inf},
+{так=ADVPRO=} {что=CONJ=} {сделаться=V,pf,intr=praet,sg,indic,m} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)}
+{поминальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {день=S,m,inan=ins,sg}, —
+{начинать=V,tran=praet,pl,indic,pf} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {слагать=V,tran=inf,ipf}
+{о=PR=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {щедрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {божий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{да=PART=} {о=PR=} {наш=APRO=(abl,sg,m|abl,sg,n)} {бывший=A,plen=(abl,sg,m|abl,sg,n)} {богатство=S,n,inan=abl,sg}.
+

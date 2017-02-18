@@ -1,55 +1,10 @@
-\t
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-_
-трудный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n\t
-такой=APRO=(acc,sg,n|nom,sg,n)
-_
-стыдный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n\t
-почти=ADV=
-_
-невозможный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\u2014\n\t
-такой=APRO=(acc,sg,n|nom,sg,n)
-_
-трудный=A=(acc,sg,plen,n|nom,sg,plen,n)
-:\n\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-подымать=V=inf,pf
-_
-ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-взглядывать=V,intr=inf,pf
-_
-в=PR=
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-,\n
-у=PR=
-_
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-убивать=V,tran=praet,pl,indic,pf
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-но=CONJ=
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-говорить=V,ipf,tran=inf
-_
-об=PR=
-_
-это=SPRO,sg,n,inan=abl
-.\n
+	{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {такой=APRO=(acc,sg,n|nom,sg,n)} {трудный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+	{такой=APRO=(acc,sg,n|nom,sg,n)} {стыдный=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+	{почти=ADV=} {невозможный=A=(acc,sg,plen,n|nom,sg,plen,n)} —
+	{такой=APRO=(acc,sg,n|nom,sg,n)} {трудный=A=(acc,sg,plen,n|nom,sg,plen,n)}:
+
+{это=SPRO,sg,n,inan=(acc|nom)} — {подымать=V=inf,pf} {ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {взглядывать=V,intr=inf,pf} {в=PR=} {лицо=S,n,inan=(acc,sg|nom,sg)} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)},
+{у=PR=} {который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {убивать=V,tran=praet,pl,indic,pf} {сын=S,m,anim=(acc,sg|gen,sg)}.
+
+{но=CONJ=} {не=PART=} {надо=ADV,praed=} {говорить=V,ipf,tran=inf} {об=PR=} {это=SPRO,sg,n,inan=abl}.

@@ -1,72 +1,10 @@
-ты=SPRO,sg,2p=nom
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-,_
-становиться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-у=PR=
-_
-источник=S,m,inan=gen,sg
-_\n
-с=PR=
-_
-улыбка=S,f,inan=ins,sg
-_
-мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-._\n
-как=ADVPRO=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-измучивать=V,tran=praet,sg,indic,m,pf
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_
-полуношник?=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-но=CONJ=
-_
-год=S,m,inan=(acc,pl|nom,pl)
-_
-страшный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-проходить=V,intr=inpraes,pl,indic,3p,pf
-,_\n
-ты=SPRO,sg,2p=nom
-_
-скоро=ADV=
-_
-снова=ADV=
-_
-быть=V,intr=inpraes,sg,indic,2p
-_
-молодой=A=sg,brev,m
-,_\n
-и=CONJ=
-_
-сохранять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-мы=SPRO,pl,1p=nom
-_
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-отсчитывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-минута=S,f,inan=gen,pl
-.\n\n
+{ты=SPRO,sg,2p=nom} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)}, {становиться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {у=PR=} {источник=S,m,inan=gen,sg} 
+{с=PR=} {улыбка=S,f,inan=ins,sg} {мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}. 
+{как=ADVPRO=} {мы=SPRO,pl,1p=(abl|acc|gen)} {измучивать=V,tran=praet,sg,indic,m,pf} {взор=S,m,inan=(acc,sg|nom,sg)} {пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {взор=S,m,inan=(acc,sg|nom,sg)} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {полуношник?=S,m,anim=(acc,sg|gen,sg)}.
+
+{но=CONJ=} {год=S,m,inan=(acc,pl|nom,pl)} {страшный=A=(acc,pl,plen,inan|nom,pl,plen)} {проходить=V,intr=inpraes,pl,indic,3p,pf}, 
+{ты=SPRO,sg,2p=nom} {скоро=ADV=} {снова=ADV=} {быть=V,intr=inpraes,sg,indic,2p} {молодой=A=sg,brev,m}, 
+{и=CONJ=} {сохранять=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {мы=SPRO,pl,1p=nom} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {холод=S,m,inan=(acc,sg|nom,sg)} 
+{ты=SPRO,sg,2p=(abl|dat)} {отсчитывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {минута=S,f,inan=gen,pl}.
+

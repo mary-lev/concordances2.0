@@ -1,54 +1,7 @@
-и=CONJ=
-_
-через=PR=
-_
-все=SPRO,pl=(acc|nom)
-,_
-и=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,\n
-через=PR=
-_
-дело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-через=PR=
-_
-безделье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-сквозить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-тайный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-веселие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-непостижимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-.\n
-о=INTJ=
-_
-боже=INTJ=
-!_
-для=PR=
-_
-что=SPRO,sg,n,inan=gen
-_
-возникать=V,intr=praet,sg,indic,m,pf
-\n
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-одинокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-келья=S,f,inan=(abl,sg|dat,sg)
-?\n\n
+{и=CONJ=} {через=PR=} {все=SPRO,pl=(acc|nom)}, {и=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)},
+{через=PR=} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {через=PR=} {безделье=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{сквозить=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {тайный=A=(acc,sg,plen,n|nom,sg,plen,n)} {веселие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{один=APRO=(acc,sg,m,inan|nom,sg,m)} {непостижимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лик=S,m,inan=(acc,sg|nom,sg)}.
+{о=INTJ=} {боже=INTJ=}! {для=PR=} {что=SPRO,sg,n,inan=gen} {возникать=V,intr=praet,sg,indic,m,pf}
+{он=SPRO,sg,3p,m=nom} {в=PR=} {одинокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {келья=S,f,inan=(abl,sg|dat,sg)}?
+

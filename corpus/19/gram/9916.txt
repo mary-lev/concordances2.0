@@ -1,100 +1,14 @@
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-_
-владеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-я=SPRO,sg,1p=ins
-.\n
-мама=S,f,anim=nom,sg
-_
-высечь=V,pf,tran=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(acc|gen)
-,\n
-беспощадный=A=ins,sg,plen,f
-_
-рука=S,f,inan=ins,sg
-\n
-за=PR=
-_
-ленивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-казнить=V,tran=inpraes,ger,ipf
-.\n\n
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-жестокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-розга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-хлестать=V,ipf,tran=inpraes,pl,indic,3p
-._
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-.\n
-проступать=V,intr=inpraes,sg,indic,3p,ipf
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-по=PR=
-_
-голь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-рев=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-крик=S,m,inan=(acc,pl|nom,pl)
-:_
-ай=INTJ=
-!_
-ой=INTJ=
-!_
-ах=INTJ=
-!\n\n
-наказание=S,n,inan=(acc,sg|nom,sg)
-_
-свершаться=V,intr=praet,sg,indic,n,pf
-.\n
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-уж=ADV=
-_
-больше=ADV=
-_
-не=PART=
-_
-томить=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-боль=S,f,inan=(acc,sg|nom,sg)
-_
-оставаться=V,intr=praet,sg,indic,f,pf
-,_
-хоть=PART=
-_
-смягчаться=V,intr=praet,sg,indic,f,pf
-.\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-я=SPRO,sg,1p=nom
-_
-красный=A=sg,brev,m
-,_
-голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стыд=S,m,inan=(acc,sg|nom,sg)
-.\n
+{страх=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {стыд=S,m,inan=(acc,sg|nom,sg)} {владеть=V,ipf,intr=inpraes,pl,indic,3p} {я=SPRO,sg,1p=ins}.
+{мама=S,f,anim=nom,sg} {высечь=V,pf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)},
+{беспощадный=A=ins,sg,plen,f} {рука=S,f,inan=ins,sg}
+{за=PR=} {ленивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {казнить=V,tran=inpraes,ger,ipf}.
+
+{тонуть=V,ipf,intr=inpraes,sg,indic,3p} {стыд=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {жестокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {хлестать=V,ipf,tran=inpraes,pl,indic,3p}. {боль=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}.
+{проступать=V,intr=inpraes,sg,indic,3p,ipf} {кровь=S,f,inan=(acc,sg|nom,sg)} {по=PR=} {голь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{рев=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {крик=S,m,inan=(acc,pl|nom,pl)}: {ай=INTJ=}! {ой=INTJ=}! {ах=INTJ=}!
+
+{наказание=S,n,inan=(acc,sg|nom,sg)} {свершаться=V,intr=praet,sg,indic,n,pf}.
+{страх=S,m,inan=(acc,sg|nom,sg)} {уж=ADV=} {больше=ADV=} {не=PART=} {томить=V,ipf,tran=inpraes,sg,indic,3p}.
+{боль=S,f,inan=(acc,sg|nom,sg)} {оставаться=V,intr=praet,sg,indic,f,pf}, {хоть=PART=} {смягчаться=V,intr=praet,sg,indic,f,pf}.
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {я=SPRO,sg,1p=nom} {красный=A=sg,brev,m}, {голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стыд=S,m,inan=(acc,sg|nom,sg)}.

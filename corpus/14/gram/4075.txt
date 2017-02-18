@@ -1,136 +1,21 @@
-господеви?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-поклонитеся?=S,persn,f,anim=nom,sg
-\n
-во=PR=
-_
-свять?=S,m,anim=ins,sg
-_
-двор=S,m,inan=abl,sg
-_
-он=SPRO,sg,3p,m=(acc|gen)
-.\n
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-юродивый=S,m,anim=nom,sg
-_
-на=PR=
-_
-паперть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=nom,sg
-.\n
-и=CONJ=
-,_
-крыло=S,n,inan=ins,sg
-_
-задеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-колокол=S,m,inan=(acc,sg|nom,sg)
-_
-заговаривать=V,tran=praet,sg,indic,m,pf
-\n
-не=PART=
-_
-набатный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-грозный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-голос=S,m,inan=ins,sg
-,\n
-а=CONJ=
-_
-прощаться=V,intr=inpraes,ger,ipf
-_
-навсегда=ADV=
-.\n
-и=CONJ=
-_
-выходить=V,intr=inpraes,pl,indic,3p,ipf
-_
-из=PR=
-_
-обитель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-риза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-древний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отдавать=V,tran=praet,ger,pf
-,\n
-чудотворец=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-святитель=S,m,anim=nom,pl
-,\n
-опираться=V,intr=inpraes,ger,ipf
-_
-на=PR=
-_
-клюка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-серафим=S,persn,m,anim=nom,sg
-_\u2014_
-в=PR=
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-саровский=S,famn,m,anim=nom,pl
-\n
-стадо=S,n,inan=(acc,sg|nom,sg)
-_
-сельский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-анна=S,persn,f,anim=nom,sg
-_\u2014_
-в=PR=
-_
-кашин=S,famn,m,anim=nom,sg
-,_
-уж=PART=
-_
-не=PART=
-_
-княжить?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-лен=S,m,inan=(acc,sg|nom,sg)
-_
-колючий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-теребить=V,ipf,tran=inf
-.\n
-провожать=V=inpraes,sg,indic,3p,ipf,tran
-_
-богородица=S,f,anim=nom,sg
-,\n
-сын=S,m,anim=(acc,sg|gen,sg)
-_
-кутать=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-платок=S,m,inan=(acc,sg|nom,sg)
-,\n
-старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-нищенка=S,f,anim=ins,sg
-_
-обронить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-\n
-у=PR=
-_
-господний=A,poss=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
+{господеви?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {поклонитеся?=S,persn,f,anim=nom,sg}
+{во=PR=} {свять?=S,m,anim=ins,sg} {двор=S,m,inan=abl,sg} {он=SPRO,sg,3p,m=(acc|gen)}.
+{спать=V,ipf,intr=inpraes,sg,indic,3p} {юродивый=S,m,anim=nom,sg} {на=PR=} {паперть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{на=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {звезда=S,f,inan=nom,sg}.
+{и=CONJ=}, {крыло=S,n,inan=ins,sg} {задеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {ангельский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{колокол=S,m,inan=(acc,sg|nom,sg)} {заговаривать=V,tran=praet,sg,indic,m,pf}
+{не=PART=} {набатный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {грозный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {голос=S,m,inan=ins,sg},
+{а=CONJ=} {прощаться=V,intr=inpraes,ger,ipf} {навсегда=ADV=}.
+{и=CONJ=} {выходить=V,intr=inpraes,pl,indic,3p,ipf} {из=PR=} {обитель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{риза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {древний=A=(acc,pl,plen,inan|nom,pl,plen)} {отдавать=V,tran=praet,ger,pf},
+{чудотворец=S,m,anim=nom,pl} {и=CONJ=} {святитель=S,m,anim=nom,pl},
+{опираться=V,intr=inpraes,ger,ipf} {на=PR=} {клюка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{серафим=S,persn,m,anim=nom,sg} — {в=PR=} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {саровский=S,famn,m,anim=nom,pl}
+{стадо=S,n,inan=(acc,sg|nom,sg)} {сельский=A=(acc,sg,plen,n|nom,sg,plen,n)} {пасть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{анна=S,persn,f,anim=nom,sg} — {в=PR=} {кашин=S,famn,m,anim=nom,sg}, {уж=PART=} {не=PART=} {княжить?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{лен=S,m,inan=(acc,sg|nom,sg)} {колючий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {теребить=V,ipf,tran=inf}.
+{провожать=V=inpraes,sg,indic,3p,ipf,tran} {богородица=S,f,anim=nom,sg},
+{сын=S,m,anim=(acc,sg|gen,sg)} {кутать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {платок=S,m,inan=(acc,sg|nom,sg)},
+{старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {нищенка=S,f,anim=ins,sg} {обронить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}
+{у=PR=} {господний=A,poss=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+

@@ -1,94 +1,13 @@
-умываться=V,intr=praet,pl,indic,ipf
-,_
-одеваться=V,intr=praet,pl,indic,ipf
-,\n
-после=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-целоваться=V,ipf,intr=praet,pl,indic
-,\n
-после=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-,_
-полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ласка=S,f,inan=gen,pl
-.\n
-на=PR=
-_
-сервиз=S,m,inan=abl,sg
-_
-лиловатый=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-будто=CONJ=
-_
-с=PR=
-_
-гость=S,m,anim=ins,sg
-,_
-будто=PART=
-_
-с=PR=
-_
-брат=S,m,anim=ins,sg
-,_\n
-пить=V,ipf,tran=praet,pl,indic
-_
-чай=S,m,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-снимать=V,tran=praet,ger,pf
-_
-маск?=S,m,anim=nom,sg
-.\n\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-маска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-улыбаться=V,intr=praet,pl,indic,ipf
-,\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-не=PART=
-_
-встречаться=V,intr=praet,pl,indic,ipf
-,\n
-и=CONJ=
-_
-уста=S,pl,inan=(acc|nom)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-немой=A=pl,brev
-.\n
-петь=V,ipf,tran=praet,pl,indic
-_\xAB
-фауст=S,famn,m,anim=(acc,sg|gen,sg)
-\xBB,_
-играть=V,ipf,tran=praet,pl,indic
-,\n
-будто=PART=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=praet,pl,indic
-,\n
-тот=APRO=(nom,pl|acc,pl,inan)
-,_
-ночной=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-тот=APRO=(nom,pl|acc,pl,inan)
-_\u2014_
-не=PART=
-_
-мы=SPRO,pl,1p=nom
-.\n
+{умываться=V,intr=praet,pl,indic,ipf}, {одеваться=V,intr=praet,pl,indic,ipf},
+{после=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {целоваться=V,ipf,intr=praet,pl,indic},
+{после=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ласка=S,f,inan=gen,pl}.
+{на=PR=} {сервиз=S,m,inan=abl,sg} {лиловатый=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{будто=CONJ=} {с=PR=} {гость=S,m,anim=ins,sg}, {будто=PART=} {с=PR=} {брат=S,m,anim=ins,sg}, 
+{пить=V,ipf,tran=praet,pl,indic} {чай=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {снимать=V,tran=praet,ger,pf} {маск?=S,m,anim=nom,sg}.
+
+{наш=APRO=(nom,pl|acc,pl,inan)} {маска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {улыбаться=V,intr=praet,pl,indic,ipf},
+{наш=APRO=(nom,pl|acc,pl,inan)} {взор=S,m,inan=(acc,pl|nom,pl)} {не=PART=} {встречаться=V,intr=praet,pl,indic,ipf},
+{и=CONJ=} {уста=S,pl,inan=(acc|nom)} {наш=APRO=(nom,pl|acc,pl,inan)} {немой=A=pl,brev}.
+{петь=V,ipf,tran=praet,pl,indic} «{фауст=S,famn,m,anim=(acc,sg|gen,sg)}», {играть=V,ipf,tran=praet,pl,indic},
+{будто=PART=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {мы=SPRO,pl,1p=nom} {не=PART=} {знать=V,ipf,tran=praet,pl,indic},
+{тот=APRO=(nom,pl|acc,pl,inan)}, {ночной=A=(acc,pl,plen,inan|nom,pl,plen)}, {тот=APRO=(nom,pl|acc,pl,inan)} — {не=PART=} {мы=SPRO,pl,1p=nom}.

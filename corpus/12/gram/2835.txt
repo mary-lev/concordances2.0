@@ -1,30 +1,4 @@
-дочь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-катить=V,ipf,tran=inpraes,pl,indic,3p
-_
-серсо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-катить=V,ipf,tran=inpraes,pl,indic,3p
-_\u2014_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-по=PR=
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-_
-столб=S,m,inan=ins,sg
-\n
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-сердце=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-серсо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n
+{дочь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {катить=V,ipf,tran=inpraes,pl,indic,3p} {серсо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {катить=V,ipf,tran=inpraes,pl,indic,3p} — {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {по=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)} {столб=S,m,inan=ins,sg}
+{пыль=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {сердце=S,n,inan=gen,pl} {и=CONJ=} {серсо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.

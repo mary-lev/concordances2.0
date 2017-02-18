@@ -1,78 +1,12 @@
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-не=PART=
-_
-беда=S,f,inan=nom,sg
-.\n
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-ерунда=S,f,inan=nom,sg
-,\n
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-прекращаться=V,intr=inpraes,sg,indic,3p,pf
-_\u2014\n
-и=CONJ=
-_
-все=SPRO,sg,n,inan=gen
-_
-верно=ADV,parenth=comp
-_\u2014_
-прощаться=V,intr=inf,pf
-,_\n
-дорогой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-господин=S,m,anim=nom,pl
-,\n
-с=PR=
-_
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-мир=S,m,inan=ins,sg
-_
-навсегда=ADV=
-.\n\n
-можно=ADV,praed=
-_
-и=CONJ=
-_
-не=PART=
-_
-умирать=V,intr=inpraes,ger,ipf
-,_\n
-оставаться=V,intr=inpraes,ger,ipf
-_
-подлец=S,m,anim=ins,sg
-,_\n
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-муж=S,m,anim=ins,sg
-_
-и=CONJ=
-_
-отец=S,m,anim=ins,sg
-,_\n
-притворяться=V,intr=inpraes,ger,ipf
-_
-и=CONJ=
-_
-играть=V,ipf,tran=inpraes,ger
-,\n
-быть=V,intr=inf,ipf
-_
-отличный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мертвец=S,m,anim=ins,sg
-.\n
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {не=PART=} {беда=S,f,inan=nom,sg}.
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {ерунда=S,f,inan=nom,sg},
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {прекращаться=V,intr=inpraes,sg,indic,3p,pf} —
+{и=CONJ=} {все=SPRO,sg,n,inan=gen} {верно=ADV,parenth=comp} — {прощаться=V,intr=inf,pf}, 
+{дорогой=A=(acc,pl,plen,inan|nom,pl,plen)} {господин=S,m,anim=nom,pl},
+{с=PR=} {этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {мир=S,m,inan=ins,sg} {навсегда=ADV=}.
+
+{можно=ADV,praed=} {и=CONJ=} {не=PART=} {умирать=V,intr=inpraes,ger,ipf}, 
+{оставаться=V,intr=inpraes,ger,ipf} {подлец=S,m,anim=ins,sg}, 
+{нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {муж=S,m,anim=ins,sg} {и=CONJ=} {отец=S,m,anim=ins,sg}, 
+{притворяться=V,intr=inpraes,ger,ipf} {и=CONJ=} {играть=V,ipf,tran=inpraes,ger},
+{быть=V,intr=inf,ipf} {отличный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мертвец=S,m,anim=ins,sg}.

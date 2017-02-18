@@ -1,130 +1,18 @@
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-очень=ADV=
-_
-сложно=ADV=
-,\n
-и=CONJ=
-_
-все=SPRO,sg,n,inan=gen
-_
-сложный=A=comp
-_
-мы=SPRO,pl,1p=nom
-,_\n
-недоступный=A=sg,brev,n
-,_
-невозможно=ADV=
-,_\n
-кроме=PR=
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-сон=S,m,inan=gen,pl
-,_
-изгнание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-сума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-очень=ADV=
-_
-просто=ADV=
-,\n
-да=CONJ=
-_
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-совсем=ADV=
-_
-простой=A=pl,brev
-_\u2014\n
-как=CONJ=
-_
-могильный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крест=S,m,inan=(acc,pl|nom,pl)
-,\n
-как=CONJ=
-_
-ослиный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-хвост=S,m,inan=(acc,pl|nom,pl)
-_\u2014_\n
-досчитывать=V,tran=sg,imper,2p,pf
-,_
-не=PART=
-_
-сбиваться=V,intr=praet,ger,pf
-,_
-до=PR=
-_
-сто=NUM=(abl|dat|gen|ins)
-_\n
-в=PR=
-_
-звонок=S,m,inan=ins,sg
-_
-мир=S,m,inan=abl,sg
-_
-суета=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-тогда=ADVPRO=
-,_
-что=CONJ=
-_
-пожелать=V,pf,tran=inpraes,sg,indic,2p
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_\u2014_
-и=CONJ=
-_
-то=PART=
-,_
-и=CONJ=
-_
-то=PART=
-!\n
-только=PART=
-_
-нет=PART=
-,_-_
-не=PART=
-_
-досчитывать=V,tran=inpraes,sg,indic,2p,pf
-,_\n
-как=ADVPRO=
-_
-не=PART=
-_
-досчитывать=V,tran=praet,sg,indic,m,pf
-_
-никто=SPRO,sg,m,anim=nom
-_\u2014_\n
-девяносто=NUM=(acc|nom)
-_
-девять=NUM=(acc|nom)
-,_
-сто=NUM=(acc|nom)
-.\n
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {очень=ADV=} {сложно=ADV=},
+{и=CONJ=} {все=SPRO,sg,n,inan=gen} {сложный=A=comp} {мы=SPRO,pl,1p=nom}, 
+{недоступный=A=sg,brev,n}, {невозможно=ADV=}, 
+{кроме=PR=} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{сон=S,m,inan=gen,pl}, {изгнание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {сума=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{все=SPRO,pl=(acc|nom)} {на=PR=} {свет=S,sg,m,inan=abl} {очень=ADV=} {просто=ADV=},
+{да=CONJ=} {и=CONJ=} {мы=SPRO,pl,1p=nom} {совсем=ADV=} {простой=A=pl,brev} —
+{как=CONJ=} {могильный=A=(acc,pl,plen,inan|nom,pl,plen)} {крест=S,m,inan=(acc,pl|nom,pl)},
+{как=CONJ=} {ослиный=A=(acc,pl,plen,inan|nom,pl,plen)} {хвост=S,m,inan=(acc,pl|nom,pl)} — 
+{досчитывать=V,tran=sg,imper,2p,pf}, {не=PART=} {сбиваться=V,intr=praet,ger,pf}, {до=PR=} {сто=NUM=(abl|dat|gen|ins)} 
+{в=PR=} {звонок=S,m,inan=ins,sg} {мир=S,m,inan=abl,sg} {суета=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {тогда=ADVPRO=}, {что=CONJ=} {пожелать=V,pf,tran=inpraes,sg,indic,2p},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {твой=APRO=(acc,sg,n|nom,sg,n)} — {и=CONJ=} {то=PART=}, {и=CONJ=} {то=PART=}!
+{только=PART=} {нет=PART=}, - {не=PART=} {досчитывать=V,tran=inpraes,sg,indic,2p,pf}, 
+{как=ADVPRO=} {не=PART=} {досчитывать=V,tran=praet,sg,indic,m,pf} {никто=SPRO,sg,m,anim=nom} — 
+{девяносто=NUM=(acc|nom)} {девять=NUM=(acc|nom)}, {сто=NUM=(acc|nom)}.

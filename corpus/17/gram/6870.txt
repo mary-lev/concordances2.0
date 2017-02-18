@@ -1,86 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=praet,sg,indic,m
-_
-как=ADVPRO=
-_
-будто=PART=
-_
-бы=PART=
-_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=praet,sg,indic,m
-_
-как=ADVPRO=
-_
-будто=PART=
-_
-бы=PART=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-,\n
-в=PR=
-_
-мечта=S,f,inan=abl,pl
-,_
-в=PR=
-_
-трансцендентальный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-план=S,m,inan=abl,sg
-,_\n
-и=CONJ=
-_
-вот=PART=
-_
-приходиться=V,intr=praet,sg,indic,n,pf
-_
-просыпаться=V,intr=inf,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-просыпаться=V,intr=inf,pf
-,_
-чтоб=CONJ=
-_
-увидеть=V,pf,tran=inf
-_
-ужас=S,m,inan=(acc,sg|nom,sg)
-._\n
-чудовищность=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n...
-о=PR=
-_
-русский=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-снег=S,m,inan=abl,sg
-,_
-русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стужа=S,f,inan=(abl,sg|dat,sg)
-...\n
-ах=INTJ=
-,_
-если=CONJ=
-_
-б=PART=
-,_
-если=CONJ=
-_
-б=PART=
-..._
-да=CONJ=
-_
-кабы=PART=
-...\n
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=praet,sg,indic,m} {как=ADVPRO=} {будто=PART=} {бы=PART=} {в=PR=} {туман=S,m,inan=abl,sg},
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=praet,sg,indic,m} {как=ADVPRO=} {будто=PART=} {бы=PART=} {во=PR=} {сон=S,m,inan=abl,sg},
+{в=PR=} {мечта=S,f,inan=abl,pl}, {в=PR=} {трансцендентальный=A=(abl,sg,plen,m|abl,sg,plen,n)} {план=S,m,inan=abl,sg}, 
+{и=CONJ=} {вот=PART=} {приходиться=V,intr=praet,sg,indic,n,pf} {просыпаться=V,intr=inf,pf} {я=SPRO,sg,1p=(abl|dat)}.
+
+{просыпаться=V,intr=inf,pf}, {чтоб=CONJ=} {увидеть=V,pf,tran=inf} {ужас=S,m,inan=(acc,sg|nom,sg)}. 
+{чудовищность=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+...{о=PR=} {русский=A=(abl,sg,plen,m|abl,sg,plen,n)} {снег=S,m,inan=abl,sg}, {русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стужа=S,f,inan=(abl,sg|dat,sg)}...
+{ах=INTJ=}, {если=CONJ=} {б=PART=}, {если=CONJ=} {б=PART=}... {да=CONJ=} {кабы=PART=}...

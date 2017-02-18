@@ -1,73 +1,10 @@
-\t\t
-лежать=V,ipf,intr=inpraes,ger
-\n
-в=PR=
-_
-прохлада=S,f,inan=(abl,sg|dat,sg)
-_
-девственный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ложе=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-волнуяся?=S,persn,f,anim=nom,sg
-,_
-увлекать=V=praet,sg,partcp,brev,f,pf,pass
-,\n
-читать=V,ipf,tran=praet,sg,indic,f
-_
-до=PR=
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-она=SPRO,sg,3p,f=nom
-.\n
-от=PR=
-_
-свет=S,sg,m,inan=gen
-_
-пальмовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-предмет=S,m,inan=(acc,pl|nom,pl)
-_
-вкруг=ADV=
-_
-казаться=V,ipf,intr=praet,pl,indic
-_
-красный=A=(pl,brev|gen,sg,brev,f)
-,\n
-а=CONJ=
-_
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-горячий=A=pl,brev
-,\n
-и=CONJ=
-_
-упоительный=A=pl,brev
-,_
-и=CONJ=
-_
-страстный=A=pl,brev
-,\n
-и=CONJ=
-_
-свет=S,sg,m,inan=gen
-_
-чуждый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-так=ADVPRO=
-_
-для=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-необычайный=A=pl,brev
-.\n
+		{лежать=V,ipf,intr=inpraes,ger}
+{в=PR=} {прохлада=S,f,inan=(abl,sg|dat,sg)} {девственный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ложе=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{волнуяся?=S,persn,f,anim=nom,sg}, {увлекать=V=praet,sg,partcp,brev,f,pf,pass},
+{читать=V,ipf,tran=praet,sg,indic,f} {до=PR=} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {она=SPRO,sg,3p,f=nom}.
+{от=PR=} {свет=S,sg,m,inan=gen} {пальмовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{предмет=S,m,inan=(acc,pl|nom,pl)} {вкруг=ADV=} {казаться=V,ipf,intr=praet,pl,indic} {красный=A=(pl,brev|gen,sg,brev,f)},
+{а=CONJ=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {быть=V,intr=praet,pl,indic,ipf} {горячий=A=pl,brev},
+{и=CONJ=} {упоительный=A=pl,brev}, {и=CONJ=} {страстный=A=pl,brev},
+{и=CONJ=} {свет=S,sg,m,inan=gen} {чуждый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {она=SPRO,sg,3p,f=(dat|ins)} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{так=ADVPRO=} {для=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {необычайный=A=pl,brev}.

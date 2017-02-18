@@ -1,62 +1,9 @@
-становиться=V,intr=praet,sg,indic,n,pf
-_
-тревожно=ADV=
--
-прохладно=ADV=
-,_\n
-благоуханный=A=sg,brev,n
-_
-в=PR=
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-.\n
-гром=S,m,inan=(acc,sg|nom,sg)
-_
-прогреметь=V,pf,intr=praet,sg,indic,m
-..._
-ну=PART=
-,_
-и=CONJ=
-_
-ладно=PART=
-,_\n
-значит=ADV,parenth=
-,_
-гулять=V,ipf,intr=inf
-_
-не=PART=
-_
-пойти=V,pf,intr=inpraes,sg,indic,1p
-.\n\n...
-с=PR=
-_
-детство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-знакомый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-чувство=S,n,inan=(acc,sg|nom,sg)
-_\n\u2014_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-бы=PART=
-_
-бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-купить=V,pf,tran=inf
-,\n
-как=ADVPRO=
-_
-бы=PART=
-_
-салазки=S,pl,inan=(acc|nom)
-_
-искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-к=PR=
-_
-летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-гроза=S,f,inan=(abl,sg|dat,sg)
-_
-прицеплять=V,tran=inf,pf
-?\n
+{становиться=V,intr=praet,sg,indic,n,pf} {тревожно=ADV=}-{прохладно=ADV=}, 
+{благоуханный=A=sg,brev,n} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)}.
+{гром=S,m,inan=(acc,sg|nom,sg)} {прогреметь=V,pf,intr=praet,sg,indic,m}... {ну=PART=}, {и=CONJ=} {ладно=PART=}, 
+{значит=ADV,parenth=}, {гулять=V,ipf,intr=inf} {не=PART=} {пойти=V,pf,intr=inpraes,sg,indic,1p}.
+
+...{с=PR=} {детство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {знакомый=A=(acc,sg,plen,n|nom,sg,plen,n)} {чувство=S,n,inan=(acc,sg|nom,sg)} 
+— {что=SPRO,sg,n,inan=(abl|ins)} {бы=PART=} {бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {купить=V,pf,tran=inf},
+{как=ADVPRO=} {бы=PART=} {салазки=S,pl,inan=(acc|nom)} {искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{к=PR=} {летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {гроза=S,f,inan=(abl,sg|dat,sg)} {прицеплять=V,tran=inf,pf}?

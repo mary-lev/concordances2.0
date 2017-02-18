@@ -1,104 +1,19 @@
-нынче=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-гость=S,m,anim=nom,sg
-_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-в=PR=
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,f
-_
-бессонница=S,f,inan=acc,sg
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-поле=S,n,inan=gen,pl
-.\n\n
-где-то=ADVPRO=
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-подкова=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-взрывать=V,tran=praet,pl,indic,ipf
-_
-трава=S,f,inan=acc,sg
-.\n
-тяжко=ADV=
-_
-вздыхать=V,intr=praet,sg,indic,f,pf
-_
-корова=S,f,anim=nom,sg
-\n
-в=PR=
-_
-сонный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-хлев=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-рассказывать=V=inpraes,sg,indic,1p,pf
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-с=PR=
-_
-грусть=S,f,inan=ins,sg
-,\n
-с=PR=
-_
-нежность=S,f,inan=ins,sg
-_
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-про=PR=
-_
-сторож=S,m,anim=(acc,sg|gen,sg|nom,pl)
--
-гусь=S,m,anim=(acc,sg|gen,sg)
-\n
-и=CONJ=
-_
-спать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-гусь=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тонуть=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-песий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-шерсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-пес=S,m,anim=nom,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_\u2014_
-седой=A=sg,brev,m
-.\n
-потом=ADVPRO=
-,_
-к=PR=
-_
-шесть=NUM=(abl|dat|gen)
-,\n
-начинаться=V,intr=praet,sg,indic,m,pf
-_
-рассвет=S,m,inan=(acc,sg|nom,sg)
-.\n
+{нынче=ADV=} {я=SPRO,sg,1p=nom} {гость=S,m,anim=nom,sg} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{в=PR=} {страна=S,f,inan=(abl,sg|dat,sg)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,f} {бессонница=S,f,inan=acc,sg} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)} {поле=S,n,inan=gen,pl}.
+
+{где-то=ADVPRO=} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {подкова=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{взрывать=V,tran=praet,pl,indic,ipf} {трава=S,f,inan=acc,sg}.
+{тяжко=ADV=} {вздыхать=V,intr=praet,sg,indic,f,pf} {корова=S,f,anim=nom,sg}
+{в=PR=} {сонный=A=(abl,sg,plen,m|abl,sg,plen,n)} {хлев=S,m,inan=(dat,sg|loc,sg)}.
+
+{рассказывать=V=inpraes,sg,indic,1p,pf} {ты=SPRO,sg,2p=(abl|dat)} {с=PR=} {грусть=S,f,inan=ins,sg},
+{с=PR=} {нежность=S,f,inan=ins,sg} {весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{про=PR=} {сторож=S,m,anim=(acc,sg|gen,sg|nom,pl)}-{гусь=S,m,anim=(acc,sg|gen,sg)}
+{и=CONJ=} {спать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {гусь=S,m,anim=(acc,pl|gen,pl)}.
+
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тонуть=V,ipf,intr=praet,pl,indic} {в=PR=} {песий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {шерсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{пес=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} — {седой=A=sg,brev,m}.
+{потом=ADVPRO=}, {к=PR=} {шесть=NUM=(abl|dat|gen)},
+{начинаться=V,intr=praet,sg,indic,m,pf} {рассвет=S,m,inan=(acc,sg|nom,sg)}.

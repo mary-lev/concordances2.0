@@ -1,122 +1,19 @@
-мерцать=V,ipf,intr=inpraes,pl,indic,3p
-_
-сумерки=S,pl,inan=(acc|nom)
-_
-в=PR=
-_
-лимонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-и=CONJ=
-_
-апельсиновый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сад=S,m,inan=abl,pl
-,\n
-и=CONJ=
-_
-слышный=A=sg,brev,m
-_
-лепет=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-лист=S,m,inan=abl,pl
-_
-сонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-и=CONJ=
-_
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-цветок=S,m,inan=abl,pl
-.\n\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-приносить=V=inpraes,sg,indic,3p,ipf,tran
-\n
-благословение=S,n,inan=(acc,sg|nom,sg)
-_
-небо=S,n,inan=gen,pl
-\n
-и=CONJ=
-_
-тайно=ADV=
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-просить=V,ipf,tran=inpraes,sg,indic,3p
-\n
-поверить=V,pf,intr=inf|поверить=V,pf,tran=inf
-_
-мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-чудо=S,n,inan=gen,pl
-.\n\n
-чудо=S,n,inan=gen,pl
-_
-ниспосылать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-нежданно=ADV=
-\n
-для=PR=
-_
-исцеление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-всюду=ADVPRO=
-,_
-беспрестанный=A=sg,brev,n
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-только=PART=
-_
-слышный=A=sg,brev,m
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-:_\xAB
-спешить=V,ipf,intr=sg,imper,2p
-\xBB.\n\n
-для=PR=
-_
-исцеление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-утомленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-находить=V=(praet,abl,pl,partcp,plen,pf,act,tran|praet,gen,pl,partcp,plen,pf,act,tran|praet,acc,pl,partcp,plen,pf,act,anim,tran)
-_
-чары=S,pl,inan=(acc|nom)
-_
-новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сон=S,m,inan=gen,pl
-,\n
-под=PR=
-_
-тень=S,f,inan=ins,sg
-_
-ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-лимонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-и=CONJ=
-_
-апельсиновый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сад=S,m,inan=gen,pl
-.\n
+{мерцать=V,ipf,intr=inpraes,pl,indic,3p} {сумерки=S,pl,inan=(acc|nom)} {в=PR=} {лимонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{и=CONJ=} {апельсиновый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сад=S,m,inan=abl,pl},
+{и=CONJ=} {слышный=A=sg,brev,m} {лепет=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {лист=S,m,inan=abl,pl} {сонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{и=CONJ=} {дремать=V,ipf,intr=inpraes,sg,indic,3p} {ветер=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {цветок=S,m,inan=abl,pl}.
+
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)}, {что=CONJ=} {приносить=V=inpraes,sg,indic,3p,ipf,tran}
+{благословение=S,n,inan=(acc,sg|nom,sg)} {небо=S,n,inan=gen,pl}
+{и=CONJ=} {тайно=ADV=} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)} {просить=V,ipf,tran=inpraes,sg,indic,3p}
+{поверить=V,pf,intr=inf|поверить=V,pf,tran=inf} {мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {чудо=S,n,inan=gen,pl}.
+
+{чудо=S,n,inan=gen,pl} {ниспосылать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {нежданно=ADV=}
+{для=PR=} {исцеление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {всюду=ADVPRO=}, {беспрестанный=A=sg,brev,n},
+{быть=V,intr=praet,sg,indic,m,ipf} {только=PART=} {слышный=A=sg,brev,m} {крик=S,m,inan=(acc,sg|nom,sg)}: «{спешить=V,ipf,intr=sg,imper,2p}».
+
+{для=PR=} {исцеление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {утомленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{находить=V=(praet,abl,pl,partcp,plen,pf,act,tran|praet,gen,pl,partcp,plen,pf,act,tran|praet,acc,pl,partcp,plen,pf,act,anim,tran)} {чары=S,pl,inan=(acc|nom)} {новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сон=S,m,inan=gen,pl},
+{под=PR=} {тень=S,f,inan=ins,sg} {ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {лимонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{и=CONJ=} {апельсиновый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сад=S,m,inan=gen,pl}.

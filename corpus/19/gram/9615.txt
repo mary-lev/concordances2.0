@@ -1,128 +1,14 @@
-промчаться=V,pf,intr=praet,sg,indic,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-смутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-к=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-_
-приближаться=V,intr=praet,sg,indic,m,ipf
-_
-он=SPRO,sg,3p,m=nom
-,\n
-и=CONJ=
-_
-часто=ADV=
-_
-думать=V,ipf,intr=praet,sg,indic,m
-:_\u2014_
-где=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-,_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-?_\u2014\n
-безрадостный=A=sg,brev,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-осенний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-ненастье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-нечего=SPRO,sg,n,inan=ins
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-поминать=V,tran=inf,pf
-.\n
-он=SPRO,sg,3p,m=nom
-_
-не=PART=
-_
-стоять=V,ipf,intr=praet,sg,indic,m
-_
-перед=PR=
-_
-гроза=S,f,inan=ins,sg
-,\n
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-буря=S,f,inan=abl,pl
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-не=PART=
-_
-тонуть=V,ipf,intr=praet,sg,indic,m
-,\n
-над=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-промчаться=V,pf,intr=praet,sg,indic,m
-_
-сторона=S,f,inan=ins,sg
-\n
-весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гроза=S,f,inan=gen,pl
-_
-могучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-.\n
-он=SPRO,sg,3p,m=nom
-_
-много=ADV,praed=
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-._
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-вянуть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-сила=S,f,inan=nom,sg
-_
-гордый=A=nom,sg,plen,f
-_
-уставать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-жаркий=A=nom,sg,plen,f
-_
-остынуть=V,pf,intr=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-смолкать=V,intr=inpraes,sg,indic,3p,pf
-_
-пылкий=A=nom,sg,plen,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{промчаться=V,pf,intr=praet,sg,indic,f} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {как=CONJ=} {смутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {к=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)} {приближаться=V,intr=praet,sg,indic,m,ipf} {он=SPRO,sg,3p,m=nom},
+{и=CONJ=} {часто=ADV=} {думать=V,ipf,intr=praet,sg,indic,m}: — {где=ADVPRO=} {ты=SPRO,sg,2p=nom}, {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}? —
+{безрадостный=A=sg,brev,m} {быть=V,intr=praet,sg,indic,m,ipf} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {путь=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)} {осенний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ненастье=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {нечего=SPRO,sg,n,inan=ins} {юность=S,f,inan=(acc,sg|nom,sg)} {поминать=V,tran=inf,pf}.
+{он=SPRO,sg,3p,m=nom} {не=PART=} {стоять=V,ipf,intr=praet,sg,indic,m} {перед=PR=} {гроза=S,f,inan=ins,sg},
+{он=SPRO,sg,3p,m=nom} {в=PR=} {буря=S,f,inan=abl,pl} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {тонуть=V,ipf,intr=praet,sg,indic,m},
+{над=PR=} {он=SPRO,sg,3p,m=ins} {промчаться=V,pf,intr=praet,sg,indic,m} {сторона=S,f,inan=ins,sg}
+{весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гроза=S,f,inan=gen,pl} {могучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гул=S,m,inan=(acc,sg|nom,sg)}.
+{он=SPRO,sg,3p,m=nom} {много=ADV,praed=} {видеть=V,ipf,tran=praet,sg,indic,m}. {юность=S,f,inan=(acc,sg|nom,sg)} {вянуть=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {сила=S,f,inan=nom,sg} {гордый=A=nom,sg,plen,f} {уставать=V,intr=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {жаркий=A=nom,sg,plen,f} {остынуть=V,pf,intr=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {смолкать=V,intr=inpraes,sg,indic,3p,pf} {пылкий=A=nom,sg,plen,f} {любовь=S,f,inan=(acc,sg|nom,sg)}.

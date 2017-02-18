@@ -1,52 +1,7 @@
-крестить=V,pf,tran=praet,pl,indic
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-в=PR=
-_
-один=APRO=(abl,sg,m|abl,sg,n)
-_
-чан=S,m,inan=(dat,sg|loc,sg)
-,\n
-венчать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-венец=S,m,inan=ins,sg
-,\n
-томить=V,ipf,tran=praet,pl,indic
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-в=PR=
-_
-один=APRO=(abl,sg,m|abl,sg,n)
-_
-плен=S,m,inan=(dat,sg|loc,sg)
-,\n
-клеймить=V,ipf,tran=praet,pl,indic
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-клеймо=S,n,inan=ins,sg
-.\n\n
-поставлять=V,tran=inpraes,pl,indic,3p,pf
-_
-мы=SPRO,pl,1p=dat
-_\u2014_
-единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
-прикрывать=V=inpraes,pl,indic,3p,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_\u2014_
-один=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-холм=S,m,inan=ins,sg
-.\n
+{крестить=V,pf,tran=praet,pl,indic} {мы=SPRO,pl,1p=(abl|acc|gen)} — {в=PR=} {один=APRO=(abl,sg,m|abl,sg,n)} {чан=S,m,inan=(dat,sg|loc,sg)},
+{венчать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)} {мы=SPRO,pl,1p=(abl|acc|gen)} — {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {венец=S,m,inan=ins,sg},
+{томить=V,ipf,tran=praet,pl,indic} {мы=SPRO,pl,1p=(abl|acc|gen)} — {в=PR=} {один=APRO=(abl,sg,m|abl,sg,n)} {плен=S,m,inan=(dat,sg|loc,sg)},
+{клеймить=V,ipf,tran=praet,pl,indic} {мы=SPRO,pl,1p=(abl|acc|gen)} — {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {клеймо=S,n,inan=ins,sg}.
+
+{поставлять=V,tran=inpraes,pl,indic,3p,pf} {мы=SPRO,pl,1p=dat} — {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)}.
+{прикрывать=V=inpraes,pl,indic,3p,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} — {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {холм=S,m,inan=ins,sg}.

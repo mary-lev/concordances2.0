@@ -1,98 +1,14 @@
-молчать=V,ipf,intr=sg,imper,2p
-,_
-склонять=V,tran=sg,imper,2p,pf
-_
-свой=APRO=(acc,sg,n|nom,sg,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-._\n
-ночной=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-страх=S,m,inan=(dat,sg|part,sg)
-_
-нет=PART=
-_
-ответ=S,m,inan=gen,sg
-._\n
-глубинный=A=comp
-_
-серый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рассвет=S,m,inan=gen,sg
-_\n
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-жемчужный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-томление=S,n,inan=gen,pl
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-письмена=S,pl,inan=(acc|nom)
-_\n
-ты=SPRO,sg,2p=nom
-_
-иссекать=V=praet,sg,indic,f,pf
-_
-на=PR=
-_
-камень=S,m,inan=abl,sg
-_
-черный=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n
-в=PR=
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-,_
-как=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-упорный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-заключать=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n\n
-теперь=ADV=
-_
-молчать=V,ipf,intr=sg,imper,2p
-._
-склонять=V,tran=sg,imper,2p,pf
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,\n
-не=PART=
-_
-плакать=V,ipf,intr=sg,imper,2p
-_
-у=PR=
-_
-гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-не=PART=
-_
-сетовать=V,ipf,intr=sg,imper,2p
-,_\n
-навстречу=ADV=
-_
-мертвый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-рассвет=S,m,inan=dat,sg
-_\n
-явь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-застывший=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-!\n
+{молчать=V,ipf,intr=sg,imper,2p}, {склонять=V,tran=sg,imper,2p,pf} {свой=APRO=(acc,sg,n|nom,sg,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}. 
+{ночной=A=(dat,sg,plen,m|dat,sg,plen,n)} {страх=S,m,inan=(dat,sg|part,sg)} {нет=PART=} {ответ=S,m,inan=gen,sg}. 
+{глубинный=A=comp} {серый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рассвет=S,m,inan=gen,sg} 
+{твой=APRO=(acc,sg,n|nom,sg,n)} {жемчужный=A=(acc,sg,plen,n|nom,sg,plen,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}.
+
+{томление=S,n,inan=gen,pl} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {письмена=S,pl,inan=(acc|nom)} 
+{ты=SPRO,sg,2p=nom} {иссекать=V=praet,sg,indic,f,pf} {на=PR=} {камень=S,m,inan=abl,sg} {черный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+{в=PR=} {мой=APRO=(abl,sg,m|abl,sg,n)} {гроб=S,m,inan=(dat,sg|loc,sg)}, {как=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)} {упорный=A=(abl,sg,plen,m|abl,sg,plen,n)}, 
+{и=CONJ=} {ты=SPRO,sg,2p=nom} {быть=V,intr=praet,sg,indic,f,ipf} {заключать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+
+{теперь=ADV=} {молчать=V,ipf,intr=sg,imper,2p}. {склонять=V,tran=sg,imper,2p,pf} {лицо=S,n,inan=(acc,sg|nom,sg)},
+{не=PART=} {плакать=V,ipf,intr=sg,imper,2p} {у=PR=} {гроб=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {не=PART=} {сетовать=V,ipf,intr=sg,imper,2p}, 
+{навстречу=ADV=} {мертвый=A=(dat,sg,plen,m|dat,sg,plen,n)} {рассвет=S,m,inan=dat,sg} 
+{явь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {застывший=A=(acc,sg,plen,n|nom,sg,plen,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}!

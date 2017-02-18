@@ -1,36 +1,3 @@
-как=ADVPRO=
-_
-будто=PART=
-_
-я=SPRO,sg,1p=nom
-_
-все=SPRO,pl=(acc|nom)
-_
-ведать=V,ipf,tran=praet,sg,indic,f
-_
-зараня=S,persn,f,anim=(abl,sg|dat,sg)
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-я=SPRO,sg,1p=nom
-_
-алмазный=A=acc,sg,plen,f
-_
-дарани?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-\n
-в=PR=
-_
-тот=APRO=(acc,sg,n|nom,sg,n)
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-очень=ADV=
-_
-много=ADV,praed=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-прочитывать=V=praet,sg,indic,f,pf
-.\n
+{как=ADVPRO=} {будто=PART=} {я=SPRO,sg,1p=nom} {все=SPRO,pl=(acc|nom)} {ведать=V,ipf,tran=praet,sg,indic,f} {зараня=S,persn,f,anim=(abl,sg|dat,sg)},
+{как=ADVPRO=} {будто=PART=} {я=SPRO,sg,1p=nom} {алмазный=A=acc,sg,plen,f} {дарани?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+{в=PR=} {тот=APRO=(acc,sg,n|nom,sg,n)} {утро=S,n,inan=(acc,sg|nom,sg)} {очень=ADV=} {много=ADV,praed=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {прочитывать=V=praet,sg,indic,f,pf}.

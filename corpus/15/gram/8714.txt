@@ -1,80 +1,14 @@
-липкий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-капля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-смола=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-с=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мы=SPRO,pl,1p=nom
-_
-сберем?=S,m,inan=(acc,sg|nom,sg)
-.\n
-бог=S,m,anim=dat,sg
-_
-лесной=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-голос=S,m,inan=ins,sg
-_
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-спеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n\n
-яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-воздвигать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-костер=S,m,inan=(acc,sg|nom,sg)
-.\n
-много=ADV,praed=
-_
-смолистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ветвь=S,f,inan=gen,pl
-.\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-радовать=V,ipf,tran=inf
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-\n
-пляска=S,f,inan=ins,sg
-_
-змеистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-огонь=S,m,inan=gen,pl
-.\n\n
-капля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-смола=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-быть=V,intr=inpraes,pl,indic,3p
-_
-гореть=V,ipf,intr=inf
-,_
-как=CONJ=
-_
-свеча=S,f,inan=nom,sg
-.\n
-бог=S,m,anim=dat,sg
-_
-лесной=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-огонь=S,m,inan=gen,pl
-_
-горячий=A=sg,brev,f
-.\n
+{липкий=A=(acc,pl,plen,inan|nom,pl,plen)} {капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {смола=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{с=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=nom} {сберем?=S,m,inan=(acc,sg|nom,sg)}.
+{бог=S,m,anim=dat,sg} {лесной=A=(dat,sg,plen,m|dat,sg,plen,n)} {хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{голос=S,m,inan=ins,sg} {светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {спеть=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}.
+
+{яркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздвигать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {костер=S,m,inan=(acc,sg|nom,sg)}.
+{много=ADV,praed=} {смолистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ветвь=S,f,inan=gen,pl}.
+{быть=V,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {радовать=V,ipf,tran=inf} {взор=S,m,inan=(acc,sg|nom,sg)}
+{пляска=S,f,inan=ins,sg} {змеистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {огонь=S,m,inan=gen,pl}.
+
+{капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {смола=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{быть=V,intr=inpraes,pl,indic,3p} {гореть=V,ipf,intr=inf}, {как=CONJ=} {свеча=S,f,inan=nom,sg}.
+{бог=S,m,anim=dat,sg} {лесной=A=(dat,sg,plen,m|dat,sg,plen,n)} {хвала=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{радость=S,f,inan=(acc,sg|nom,sg)} {огонь=S,m,inan=gen,pl} {горячий=A=sg,brev,f}.

@@ -1,94 +1,12 @@
-все=SPRO,pl=(acc|nom)
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-._
-бред=S,sg,m,inan=(dat|loc|part)
-_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-_
-я=SPRO,sg,1p=nom
-_\n
-скука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-непонимание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_\u2014_
-с=PR=
-_
-ученый=S,m,anim=(dat,pl|ins,sg)
-_
-или=CONJ=
-_
-неуч=S,m,anim=ins,sg
-_\u2014_\n
-толковать=V,ipf,tran=inf
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-в=PR=
-_
-общий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-не=PART=
-_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-бы=PART=
-_
-заживать=V,intr=praet,sg,indic,m,pf
-,_
-заживать=V,intr=praet,sg,indic,m,pf
-_
-заново=ADV=
-_\n
-не=PART=
-_
-георгий=S,persn,m,anim=ins,sg
-_
-иванов=S,famn,m,anim=(dat,pl|ins,sg)
-,\n
-а=CONJ=
-_
-слегка=ADV=
-_
-очеловечивать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-,_\n
-энергичный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-щетка=S,f,inan=ins,sg
-_
-вымывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-._\n
-вовсе=ADV=
-_
-рок=S,m,inan=ins,sg
-_
-не=PART=
-_
-отмечать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-._\n
-первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_
-встречный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
--
-поперечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\n\u2014_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-_
-какой=APRO=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-там=ADVPRO=
-...\n
+{все=SPRO,pl=(acc|nom)} {туман=S,m,inan=(acc,sg|nom,sg)}. {бред=S,sg,m,inan=(dat|loc|part)} {в=PR=} {туман=S,m,inan=abl,sg} {я=SPRO,sg,1p=nom} 
+{скука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {непонимание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} — {с=PR=} {ученый=S,m,anim=(dat,pl|ins,sg)} {или=CONJ=} {неуч=S,m,anim=ins,sg} — 
+{толковать=V,ipf,tran=inf} {я=SPRO,sg,1p=(abl|dat)}, {в=PR=} {общий=A=(abl,sg,plen,m|abl,sg,plen,n)}, {не=PART=} {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)}.
+
+{я=SPRO,sg,1p=nom} {бы=PART=} {заживать=V,intr=praet,sg,indic,m,pf}, {заживать=V,intr=praet,sg,indic,m,pf} {заново=ADV=} 
+{не=PART=} {георгий=S,persn,m,anim=ins,sg} {иванов=S,famn,m,anim=(dat,pl|ins,sg)},
+{а=CONJ=} {слегка=ADV=} {очеловечивать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}, 
+{энергичный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {щетка=S,f,inan=ins,sg} {вымывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}. 
+{вовсе=ADV=} {рок=S,m,inan=ins,sg} {не=PART=} {отмечать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}. 
+{первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {встречный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}-{поперечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} 
+— {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n} {какой=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)} {там=ADVPRO=}...

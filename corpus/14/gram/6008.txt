@@ -1,34 +1,4 @@
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-предсказывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-один=APRO=ins,sg,f
-_
-из=PR=
-_
-карта=S,f,inan=gen,pl
-,\n
-тот=APRO=ins,sg,f
-,_
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,1p
-...\n
-из=PR=
-_
-королев=S,famn,m,anim=nom,sg
-_
-на=PR=
-_
-мария=S,persn,f,anim=acc,sg
-_
-стюарт=S,famn,m,anim=nom,sg
-,\n(
-гамлетов?=S,famn,m,anim=dat,sg
-_
-гертруда=S,persn,f,anim=acc,sg
-)\n
+{путь=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {предсказывать=V=praet,sg,partcp,brev,m,pf,pass} {один=APRO=ins,sg,f} {из=PR=} {карта=S,f,inan=gen,pl},
+{тот=APRO=ins,sg,f}, {который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {не=PART=} {быть=V,intr=inpraes,sg,indic,1p}...
+{из=PR=} {королев=S,famn,m,anim=nom,sg} {на=PR=} {мария=S,persn,f,anim=acc,sg} {стюарт=S,famn,m,anim=nom,sg},
+({гамлетов?=S,famn,m,anim=dat,sg} {гертруда=S,persn,f,anim=acc,sg})

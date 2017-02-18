@@ -1,45 +1,7 @@
-\t
-д=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-._
-м=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n
-пусть=PART=
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-обман=S,m,inan=(acc,sg|nom,sg)
-,_
-мечта=S,f,inan=nom,sg
-,\n
-один=APRO=nom,sg,f
-_
-пленительный=A=nom,sg,plen,f
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-,\n
-пусть=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-по-прежнему=ADV=
-_
-пустой=A=sg,brev,f
-,_\u2014\n
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=inf
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-!\n\t
-к=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\t
-нет=PART=
-,_
-ты=SPRO,sg,2p=nom
-_
-умирать=V,intr=inpraes,sg,indic,2p,pf
-!\n
+	{д=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}. {м=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+{пусть=PART=} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {обман=S,m,inan=(acc,sg|nom,sg)}, {мечта=S,f,inan=nom,sg},
+{один=APRO=nom,sg,f} {пленительный=A=nom,sg,plen,f} {ложь=S,f,inan=(acc,sg|nom,sg)},
+{пусть=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {по-прежнему=ADV=} {пустой=A=sg,brev,f}, —
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=inf} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}!
+	{к=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+	{нет=PART=}, {ты=SPRO,sg,2p=nom} {умирать=V,intr=inpraes,sg,indic,2p,pf}!

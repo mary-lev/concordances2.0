@@ -1,30 +1,4 @@
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-на=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_
-что-то=SPRO,sg,n,inan=gen
-,\n
-что=SPRO,sg,n,inan=dat
-_
-верный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-нет=PART=
-_
-название=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-зазывать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act
-_
-дремота=S,f,inan=nom,sg
-,\n
-от=PR=
-_
-себя=SPRO=(acc|gen)
-_
-самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-ускользание?=S,n,inan=(abl,sg|acc,sg|nom,sg)
-...\n
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,f,ipf} {на=PR=} {край=S,m,inan=(dat,sg|loc,sg)} {что-то=SPRO,sg,n,inan=gen},
+{что=SPRO,sg,n,inan=dat} {верный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {нет=PART=} {название=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{зазывать=V,tran=inpraes,nom,sg,partcp,plen,f,ipf,act} {дремота=S,f,inan=nom,sg},
+{от=PR=} {себя=SPRO=(acc|gen)} {самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {ускользание?=S,n,inan=(abl,sg|acc,sg|nom,sg)}...

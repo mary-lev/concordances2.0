@@ -1,124 +1,19 @@
-островитянин=S,m,anim=dat,pl
-_
-строить=V,ipf,tran=inf
-_
-тын=S,m,inan=(acc,pl|nom,pl)
-,\n
-к=PR=
-_
-тычок=S,m,inan=dat,sg
-_
-прилаживать=V=inf,ipf,tran
-_
-лоза=S,f,inan=acc,sg
-,\n
-пока=CONJ=
-_
-не=PART=
-_
-выпускать=V=inpraes,pl,indic,3p,pf
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-туман=S,m,inan=abl,pl
-_
-скрытый=A=acc,sg,plen,f
-_
-гроза=S,f,inan=acc,sg
-.\n\n
-предвестие=S,n,inan=ins,sg
-_
-гора=S,f,inan=nom,sg
-_
-дымиться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-угроза=S,f,inan=ins,sg
-_
-гудеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-прилив=S,m,inan=(acc,sg|nom,sg)
-.\n
-со=PR=
-_
-страх=S,m,inan=ins,sg
-_
-пахарь=S,m,anim=nom,pl
-_
-за=PR=
-_
-птица=S,f,anim=ins,sg
-\n
-следить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-соха=S,f,inan=acc,sg
-_
-останавливать=V,tran=praet,ger,pf
-.\n\n
-и=CONJ=
-_
-только=PART=
-_
-девушка=S,f,anim=(gen,sg|nom,pl)
-_
-слепой=S,m,anim=nom,pl
-\n
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,pl,indic,3p
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-да=CONJ=
-_
-и=CONJ=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-\n
-заламывать=V,tran=inpraes,pl,indic,3p,pf
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-впервые=ADV=
-\n
-качнуться=V,pf,intr=inpraes,sg,indic,3p
-_
-китеж?=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-кит=S,m,anim=abl,sg
-.\n\n
-движение=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-избыток=S,m,inan=(acc,sg|nom,sg)
-!\n
-о=PR=
-,_
-атлантида=S,geo,f,inan=nom,sg
-!_
-о=PR=
-,_
-содом=S,m,inan=(acc,sg|nom,sg)
-!\n
-в=PR=
-_
-пророчество=S,n,inan=abl,sg
-_
-летучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-нитка=S,f,inan=gen,pl
-_\u2014\n
-кочевна?=S,patrn,f,anim=ins,sg
-_
-воля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-прочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-!\n
+{островитянин=S,m,anim=dat,pl} {строить=V,ipf,tran=inf} {тын=S,m,inan=(acc,pl|nom,pl)},
+{к=PR=} {тычок=S,m,inan=dat,sg} {прилаживать=V=inf,ipf,tran} {лоза=S,f,inan=acc,sg},
+{пока=CONJ=} {не=PART=} {выпускать=V=inpraes,pl,indic,3p,pf} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {туман=S,m,inan=abl,pl} {скрытый=A=acc,sg,plen,f} {гроза=S,f,inan=acc,sg}.
+
+{предвестие=S,n,inan=ins,sg} {гора=S,f,inan=nom,sg} {дымиться=V,ipf,intr=inpraes,sg,indic,3p},
+{угроза=S,f,inan=ins,sg} {гудеть=V,ipf,intr=inpraes,sg,indic,3p} {прилив=S,m,inan=(acc,sg|nom,sg)}.
+{со=PR=} {страх=S,m,inan=ins,sg} {пахарь=S,m,anim=nom,pl} {за=PR=} {птица=S,f,anim=ins,sg}
+{следить=V,ipf,intr=inpraes,pl,indic,3p}, {соха=S,f,inan=acc,sg} {останавливать=V,tran=praet,ger,pf}.
+
+{и=CONJ=} {только=PART=} {девушка=S,f,anim=(gen,sg|nom,pl)} {слепой=S,m,anim=nom,pl}
+{не=PART=} {видеть=V,ipf,tran=inpraes,pl,indic,3p} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {да=CONJ=} {и=CONJ=} {тот=APRO=(nom,pl|acc,pl,inan)}
+{заламывать=V,tran=inpraes,pl,indic,3p,pf} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {как=CONJ=} {впервые=ADV=}
+{качнуться=V,pf,intr=inpraes,sg,indic,3p} {китеж?=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {кит=S,m,anim=abl,sg}.
+
+{движение=S,n,inan=(acc,sg|nom,sg)} — {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {избыток=S,m,inan=(acc,sg|nom,sg)}!
+{о=PR=}, {атлантида=S,geo,f,inan=nom,sg}! {о=PR=}, {содом=S,m,inan=(acc,sg|nom,sg)}!
+{в=PR=} {пророчество=S,n,inan=abl,sg} {летучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нитка=S,f,inan=gen,pl} —
+{кочевна?=S,patrn,f,anim=ins,sg} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {прочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дом=S,m,inan=(acc,sg|nom,sg)}!

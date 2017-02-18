@@ -1,30 +1,17 @@
-лоб=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-мел=S,sg,m,inan=(acc|nom)
-.\n
-белый=A=sg,brev,m
-\n
-гроб=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-спеть=V,pf,tran=praet,sg,indic,m
-\n
-поп=S,m,anim=nom,sg
-.\n
-сноп=S,m,inan=(acc,sg|nom,sg)
-\n
-стрела=S,f,inan=gen,pl
-_\u2014\n\n
-день=S,m,inan=(acc,sg|nom,sg)
-\n
-святой=A=sg,brev,m
-!\n
-склеп=S,m,inan=(acc,sg|nom,sg)
-\n
-слепой=A=sg,brev,m
-.\n\n
-тень=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-в=PR=
-_
-ад=S,sg,m,inan=(acc|nom)
-!\n
+{лоб=S,m,inan=(acc,sg|nom,sg)} —
+{мел=S,sg,m,inan=(acc|nom)}.
+{белый=A=sg,brev,m}
+{гроб=S,m,inan=(acc,sg|nom,sg)}.
+
+{спеть=V,pf,tran=praet,sg,indic,m}
+{поп=S,m,anim=nom,sg}.
+{сноп=S,m,inan=(acc,sg|nom,sg)}
+{стрела=S,f,inan=gen,pl} —
+
+{день=S,m,inan=(acc,sg|nom,sg)}
+{святой=A=sg,brev,m}!
+{склеп=S,m,inan=(acc,sg|nom,sg)}
+{слепой=A=sg,brev,m}.
+
+{тень=S,f,inan=(acc,sg|nom,sg)} —
+{в=PR=} {ад=S,sg,m,inan=(acc|nom)}!

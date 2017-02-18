@@ -1,68 +1,9 @@
-война=S,f,inan=nom,sg
-,_
-война=S,f,inan=nom,sg
-!_\u2014_
-каждение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-у=PR=
-_
-киот=S,m,inan=gen,pl
-\n
-и=CONJ=
-_
-стрекот=S,m,inan=(acc,sg|nom,sg)
-_
-шпора=S,f,inan=gen,pl
-.\n
-но=CONJ=
-_
-нету=ADV,praed=
-_
-дело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-до=PR=
-_
-царский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-счет=S,m,inan=gen,pl
-,\n
-народный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ссора=S,f,inan=gen,pl
-.\n\n
-на=PART=
-,_
-кажется=ADV,parenth=
-,_\u2014_
-надтреснутый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-канат=S,m,inan=abl,sg
-\n
-я=SPRO,sg,1p=nom
-_\u2014_
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плясун=S,m,anim=nom,sg
-.\n
-я=SPRO,sg,1p=nom
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-от=PR=
-_
-чей-то=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-._
-я=SPRO,sg,1p=nom
-_
-лунатик=S,m,anim=nom,sg
-\n
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луна=S,f,inan=gen,pl
-.\n
+{война=S,f,inan=nom,sg}, {война=S,f,inan=nom,sg}! — {каждение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {у=PR=} {киот=S,m,inan=gen,pl}
+{и=CONJ=} {стрекот=S,m,inan=(acc,sg|nom,sg)} {шпора=S,f,inan=gen,pl}.
+{но=CONJ=} {нету=ADV,praed=} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=(abl|dat)} {до=PR=} {царский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {счет=S,m,inan=gen,pl},
+{народный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ссора=S,f,inan=gen,pl}.
+
+{на=PART=}, {кажется=ADV,parenth=}, — {надтреснутый=A=(abl,sg,plen,m|abl,sg,plen,n)} — {канат=S,m,inan=abl,sg}
+{я=SPRO,sg,1p=nom} — {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плясун=S,m,anim=nom,sg}.
+{я=SPRO,sg,1p=nom} {тень=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {чей-то=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}. {я=SPRO,sg,1p=nom} {лунатик=S,m,anim=nom,sg}
+{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луна=S,f,inan=gen,pl}.

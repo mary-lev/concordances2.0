@@ -1,58 +1,9 @@
-из=PR=
-_
-строгий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-стройный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-храм=S,m,inan=gen,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-выходить=V,intr=praet,sg,indic,f,pf
-_
-на=PR=
-_
-визг=S,m,inan=(acc,sg|nom,sg)
-_
-площадь=S,f,inan=gen,pl
-...\n_\u2014_\t
-свобода=S,f,inan=nom,sg
-!_\u2014_
-прекрасный=A=nom,sg,plen,f
-_
-дама=S,f,anim=nom,sg
-\n
-маркиз=S,m,anim=(acc,pl|gen,pl)
-_
-и=CONJ=
-_
-русский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-князь=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-свершаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-страшный=A=nom,sg,plen,f
-_
-спевка=S,f,inan=nom,sg
-,_\u2014_\n
-обедня=S,f,inan=nom,sg
-_
-еще=ADV=
-_
-впереди=ADV=
-!\n_\u2014_\t
-свобода=S,f,inan=nom,sg
-!_\u2014_
-гулящий=A=nom,sg,plen,f
-_
-девка=S,f,anim=nom,sg
-\n
-на=PR=
-_
-шалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-солдатский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
+{из=PR=} {строгий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {стройный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {храм=S,m,inan=gen,sg}
+{ты=SPRO,sg,2p=nom} {выходить=V,intr=praet,sg,indic,f,pf} {на=PR=} {визг=S,m,inan=(acc,sg|nom,sg)} {площадь=S,f,inan=gen,pl}...
+ — 	{свобода=S,f,inan=nom,sg}! — {прекрасный=A=nom,sg,plen,f} {дама=S,f,anim=nom,sg}
+{маркиз=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {русский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {князь=S,m,anim=(acc,pl|gen,pl)}.
+
+{свершаться=V,intr=inpraes,sg,indic,3p,ipf} {страшный=A=nom,sg,plen,f} {спевка=S,f,inan=nom,sg}, — 
+{обедня=S,f,inan=nom,sg} {еще=ADV=} {впереди=ADV=}!
+ — 	{свобода=S,f,inan=nom,sg}! — {гулящий=A=nom,sg,plen,f} {девка=S,f,anim=nom,sg}
+{на=PR=} {шалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {солдатский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!

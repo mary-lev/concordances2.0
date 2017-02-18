@@ -1,62 +1,6 @@
-наш=APRO=(acc,sg,n|nom,sg,n)
-_
-священный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-ремесло=S,n,inan=(acc,sg|nom,sg)
-\n
-существовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-тысяча=S,f,inan=acc,sg
-_
-год=S,m,inan=gen,pl
-...\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-и=CONJ=
-_
-без=PR=
-_
-свет=S,sg,m,inan=gen
-_
-мир=S,m,inan=dat,sg
-_
-светло=ADV=
-.\n
-но=CONJ=
-_
-еще=ADV=
-_
-ни=CONJ=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-сказать=V,pf,tran=praet,sg,indic,m
-_
-поэт=S,m,anim=nom,sg
-,\n
-что=CONJ=
-_
-мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-,_
-и=CONJ=
-_
-старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-,\n
-а=CONJ=
-_
-может=ADV,parenth=
-,_
-и=CONJ=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-.\n
+{наш=APRO=(acc,sg,n|nom,sg,n)} {священный=A=(acc,sg,plen,n|nom,sg,plen,n)} {ремесло=S,n,inan=(acc,sg|nom,sg)}
+{существовать=V,ipf,intr=inpraes,sg,indic,3p} {тысяча=S,f,inan=acc,sg} {год=S,m,inan=gen,pl}...
+{с=PR=} {он=SPRO,sg,3p,m=ins} {и=CONJ=} {без=PR=} {свет=S,sg,m,inan=gen} {мир=S,m,inan=dat,sg} {светло=ADV=}.
+{но=CONJ=} {еще=ADV=} {ни=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {сказать=V,pf,tran=praet,sg,indic,m} {поэт=S,m,anim=nom,sg},
+{что=CONJ=} {мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=}, {и=CONJ=} {старость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=},
+{а=CONJ=} {может=ADV,parenth=}, {и=CONJ=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=}.

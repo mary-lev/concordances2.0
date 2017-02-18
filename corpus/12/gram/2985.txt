@@ -1,78 +1,9 @@
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-рука=S,f,inan=ins,sg
-,_
-о=PR=
-_
-кой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мореход=S,m,anim=nom,pl
-\n
-протрубить=V,pf,tran=praet,pl,indic
-_
-на=PR=
-_
-сто=NUM=(acc|nom)
-_
-солнце=S,n,inan=gen,pl
-_
-окрест=ADV=
-,\n
-сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-рука=S,f,inan=ins,sg
-,_
-в=PR=
-_
-ночь=S,f,inan=abl,pl
-_
-ковать=V,ipf,tran=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_\u2014_
-ода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-неграмотный=A=nom,sg,plen,f
-_
-ставить=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-крест=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-если=CONJ=
-_
-ж=PART=
-_
-мало=ADV=
-,_\u2014_
-наперед=ADV=
-_
-согласный=A=sg,brev,f
-!\n
-оба=NUM=(nom,f|acc,f,inan)
-_
-они=SPRO,pl=(acc|gen)
-_
-на=PR=
-_
-плаха=S,f,inan=acc,sg
-,_
-чтоб=CONJ=
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-\n
-хлынуть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)
-_\u2014_
-веселый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-вал=S,m,inan=ins,sg
-_
-красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-\n
-затапливать=V,tran=inf,pf
-_
-чернильный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ручей=S,m,inan=(acc,pl|nom,pl)
-!\n
+{сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {рука=S,f,inan=ins,sg}, {о=PR=} {кой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мореход=S,m,anim=nom,pl}
+{протрубить=V,pf,tran=praet,pl,indic} {на=PR=} {сто=NUM=(acc|nom)} {солнце=S,n,inan=gen,pl} {окрест=ADV=},
+{сей=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {рука=S,f,inan=ins,sg}, {в=PR=} {ночь=S,f,inan=abl,pl} {ковать=V,ipf,tran=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} — {ода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {неграмотный=A=nom,sg,plen,f} {ставить=V,ipf,tran=inpraes,sg,indic,1p} — {крест=S,m,inan=(acc,sg|nom,sg)}.
+
+{если=CONJ=} {ж=PART=} {мало=ADV=}, — {наперед=ADV=} {согласный=A=sg,brev,f}!
+{оба=NUM=(nom,f|acc,f,inan)} {они=SPRO,pl=(acc|gen)} {на=PR=} {плаха=S,f,inan=acc,sg}, {чтоб=CONJ=} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}
+{хлынуть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)} — {веселый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вал=S,m,inan=ins,sg} {красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+{затапливать=V,tran=inf,pf} {чернильный=A=(acc,pl,plen,inan|nom,pl,plen)} {ручей=S,m,inan=(acc,pl|nom,pl)}!

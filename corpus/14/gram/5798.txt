@@ -1,102 +1,18 @@
-первый=ANUM=nom,sg,f
-_
-среди=PR=
-_
-равный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-славный=A=nom,sg,plen,f
-_
-среди=PR=
-_
-славный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n__________
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-время=S,n,inan=gen,pl
-_
-колыбель=S,f,inan=(acc,sg|nom,sg)
-!\n
-ровно=ADV=
-_
-треть=S,f,inan=(acc,sg|nom,sg)
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-растить=V,ipf,tran=inpraes,sg,indic,2p
-_
-человек=S,m,anim=(acc,sg|gen,sg)
-,\n__________
-лелеять=V,ipf,tran=inpraes,ger
-_
-великий=A=acc,sg,plen,f
-_
-цель=S,f,inan=(acc,sg|nom,sg)
-.\n
-от=PR=
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-до=PR=
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-мы=SPRO,pl,1p=dat
-_
-родной=A=nom,sg,plen,f
-,_\u2014\n__________
-сказочный=A=sg,brev,m
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-!\n
-в=PR=
-_
-труд=S,m,inan=abl,sg
-_
-и=CONJ=
-_
-в=PR=
-_
-покой=S,m,inan=abl,sg
-\n
-дружный=A=pl,brev
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-\n__________
-пятнадцать=NUM=(acc|nom)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сестра=S,f,anim=(acc,pl|gen,pl)
-.\n
-необозримый=A=sg,brev,f
-,\n
-непокорить?=V,ipf,tran=inpraes,sg,partcp,brev,f,pass
-,_\u2014\n__________
-как=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=ins
-_
-гордиться=V,ipf,intr=inpraes,sg,indic,1p
-!\n
-песня=S,f,inan=ins,sg
-_
-твой=APRO=ins,sg,f
-\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-согревать=V,tran=inpraes,sg,indic,1p,pf
-,\n__________
-отчизна=S,f,inan=nom,sg
-_\u2014_
-советский=A=nom,sg,plen,f
-_
-русь=S,geo,sg,f,inan=(acc|nom)
-!\n
+{первый=ANUM=nom,sg,f} {среди=PR=} {равный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{славный=A=nom,sg,plen,f} {среди=PR=} {славный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+          {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {время=S,n,inan=gen,pl} {колыбель=S,f,inan=(acc,sg|nom,sg)}!
+{ровно=ADV=} {треть=S,f,inan=(acc,sg|nom,sg)} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{растить=V,ipf,tran=inpraes,sg,indic,2p} {человек=S,m,anim=(acc,sg|gen,sg)},
+          {лелеять=V,ipf,tran=inpraes,ger} {великий=A=acc,sg,plen,f} {цель=S,f,inan=(acc,sg|nom,sg)}.
+{от=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {до=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {мы=SPRO,pl,1p=dat} {родной=A=nom,sg,plen,f}, —
+          {сказочный=A=sg,brev,m} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {простор=S,m,inan=(acc,sg|nom,sg)}!
+{в=PR=} {труд=S,m,inan=abl,sg} {и=CONJ=} {в=PR=} {покой=S,m,inan=abl,sg}
+{дружный=A=pl,brev} {с=PR=} {ты=SPRO,sg,2p=ins}
+          {пятнадцать=NUM=(acc|nom)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сестра=S,f,anim=(acc,pl|gen,pl)}.
+{необозримый=A=sg,brev,f},
+{непокорить?=V,ipf,tran=inpraes,sg,partcp,brev,f,pass}, —
+          {как=ADVPRO=} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=ins} {гордиться=V,ipf,intr=inpraes,sg,indic,1p}!
+{песня=S,f,inan=ins,sg} {твой=APRO=ins,sg,f}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {согревать=V,tran=inpraes,sg,indic,1p,pf},
+          {отчизна=S,f,inan=nom,sg} — {советский=A=nom,sg,plen,f} {русь=S,geo,sg,f,inan=(acc|nom)}!

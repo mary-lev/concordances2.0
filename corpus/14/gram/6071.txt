@@ -1,106 +1,14 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-тосковать=V,ipf,intr=inpraes,sg,indic,2p
-,_
-будто=PART=
-_
-бы=PART=
-_
-вчера=ADV=
-\n
-мы=SPRO,pl,1p=nom
-_
-расставаться=V,intr=praet,pl,indic,pf
-:_
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_\u2014\n
-без=PR=
-_
-особенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-примета=S,f,inan=gen,pl
-_
-дыра=S,f,inan=nom,sg
-,\n
-с=PR=
-_
-неприглядный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кличка=S,f,inan=ins,sg
-_\u2014_
-бесконечность=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-между=PR=
-_
-тысяча=S,f,inan=ins,pl
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-разлука=S,f,inan=gen,pl
-\n
-наш=APRO=nom,sg,f
-_
-превосходно=ADV=
-_
-умещаться=V,intr=praet,sg,indic,f,pf
-_\u2014\n
-сколько=ADV=
-_
-отсчитывать=V,tran=praet,sg,indic,m,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-кто-то=SPRO,sg,m,anim=nom
-_
-мука=S,f,inan=gen,pl
-,\n
-так=ADVPRO=
-_
-оно=SPRO,sg,3p,n=nom
-_
-и=CONJ=
-_
-вправду=ADV=
-_
-совершаться=V,intr=praet,sg,indic,n,pf
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-тосковать=V,ipf,intr=inpraes,sg,indic,2p
-,_
-будто=PART=
-_
-бы=PART=
-_
-вчера=ADV=
-...\n
-нет=PART=
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-ни=CONJ=
-_
-завтра=ADV=
-,_
-ни=PART=
-_
-сегодня=ADV=
-.\n
-рухнуть=V,pf,intr=praet,sg,indic,f
-_
-незримый=A=nom,sg,plen,f
-_
-гора=S,f,inan=nom,sg
-,\n
-совершаться=V,intr=praet,sg,indic,f,pf
-_
-заповедь=S,f,inan=(acc,sg|nom,sg)
-_
-господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {тосковать=V,ipf,intr=inpraes,sg,indic,2p}, {будто=PART=} {бы=PART=} {вчера=ADV=}
+{мы=SPRO,pl,1p=nom} {расставаться=V,intr=praet,pl,indic,pf}: {между=PR=} {мы=SPRO,pl,1p=ins} {вечность=S,f,inan=(acc,sg|nom,sg)} —
+{без=PR=} {особенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {примета=S,f,inan=gen,pl} {дыра=S,f,inan=nom,sg},
+{с=PR=} {неприглядный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кличка=S,f,inan=ins,sg} — {бесконечность=S,f,inan=(acc,sg|nom,sg)}.
+
+{между=PR=} {тысяча=S,f,inan=ins,pl} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {разлука=S,f,inan=gen,pl}
+{наш=APRO=nom,sg,f} {превосходно=ADV=} {умещаться=V,intr=praet,sg,indic,f,pf} —
+{сколько=ADV=} {отсчитывать=V,tran=praet,sg,indic,m,pf} {она=SPRO,sg,3p,f=(dat|ins)} {кто-то=SPRO,sg,m,anim=nom} {мука=S,f,inan=gen,pl},
+{так=ADVPRO=} {оно=SPRO,sg,3p,n=nom} {и=CONJ=} {вправду=ADV=} {совершаться=V,intr=praet,sg,indic,n,pf}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {тосковать=V,ipf,intr=inpraes,sg,indic,2p}, {будто=PART=} {бы=PART=} {вчера=ADV=}...
+{нет=PART=} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {ни=CONJ=} {завтра=ADV=}, {ни=PART=} {сегодня=ADV=}.
+{рухнуть=V,pf,intr=praet,sg,indic,f} {незримый=A=nom,sg,plen,f} {гора=S,f,inan=nom,sg},
+{совершаться=V,intr=praet,sg,indic,f,pf} {заповедь=S,f,inan=(acc,sg|nom,sg)} {господний=A,poss=(acc,sg,brev,m,anim|nom,sg,brev,f|gen,sg,brev,m|gen,sg,brev,n)}.

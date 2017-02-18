@@ -1,140 +1,20 @@
-грубый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=ins,sg
-_
-оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-нестерпимо=ADV=
-_
-уязвлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-опускать=V=inpraes,sg,indic,1p,ipf,tran
-_
-веко=S,n,inan=(acc,pl|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_\u2014\n
-и=CONJ=
-_
-дремать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-чтоб=CONJ=
-_
-легко=ADV=comp
-_
-минуть=V,pf,tran=praet,sg,indic,m
-,\n
-чтобы=CONJ=
-_
-как=ADVPRO=
-_
-отлив=S,m,inan=(acc,sg|nom,sg)
-_
-отхлынуть=V,pf,intr=praet,sg,indic,m
-\n
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-земной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-хорошо=ADV=comp,parenth
-_
-спать=V,ipf,intr=inf
-,_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-слушать=V,ipf,tran=inf
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-злобный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-малый=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-правда=S,f,inan=gen,pl
-_
-пустой=A=acc,sg,plen,f
-_
-пря=S,geo,f,inan=acc,sg
-.\n
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014\n
-хорошо=ADV=comp,parenth
-_
-сон=S,m,inan=ins,sg
-_
-к=PR=
-_
-себя=SPRO=(abl|dat)
-_
-приближать=V=inpraes,sg,indic,1p,pf
-\n
-неизвестный=A=acc,sg,plen,f
-_
-заря=S,f,inan=acc,sg
-.\n\n
-а=CONJ=
-_
-уж=PART=
-_
-если=CONJ=
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-_
-присниться=V,pf,intr=inpraes,pl,indic,3p
-,\n
-то=PART=
-_
-пускай=PART=
-_
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-повторяться=V,intr=inpraes,pl,indic,3p,pf
-\n
-детство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-давний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-:\n
-снег=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-дворик=S,m,inan=abl,sg
-_
-московский=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-иль=CONJ=
-_\u2014_
-в=PR=
-_
-петровский=A=(abl,sg,plen,m|abl,sg,plen,n)
--
-разумовский=A,geo=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-пар=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-зеркало=S,n,inan=ins,sg
-_
-пруд=S,m,inan=gen,sg
-.\n
+{грубый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=ins,sg} {оглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{нестерпимо=ADV=} {уязвлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{опускать=V=inpraes,sg,indic,1p,ipf,tran} {веко=S,n,inan=(acc,pl|nom,pl)} {я=SPRO,sg,1p=nom} —
+{и=CONJ=} {дремать=V,ipf,intr=inpraes,sg,indic,1p}, {чтоб=CONJ=} {легко=ADV=comp} {минуть=V,pf,tran=praet,sg,indic,m},
+{чтобы=CONJ=} {как=ADVPRO=} {отлив=S,m,inan=(acc,sg|nom,sg)} {отхлынуть=V,pf,intr=praet,sg,indic,m}
+{шум=S,m,inan=(acc,sg|nom,sg)} {земной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{хорошо=ADV=comp,parenth} {спать=V,ipf,intr=inf}, {что=SPRO,sg,n,inan=(abl|ins)} {слушать=V,ipf,tran=inf} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{злобный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{малый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {правда=S,f,inan=gen,pl} {пустой=A=acc,sg,plen,f} {пря=S,geo,f,inan=acc,sg}.
+{все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} —
+{хорошо=ADV=comp,parenth} {сон=S,m,inan=ins,sg} {к=PR=} {себя=SPRO=(abl|dat)} {приближать=V=inpraes,sg,indic,1p,pf}
+{неизвестный=A=acc,sg,plen,f} {заря=S,f,inan=acc,sg}.
+
+{а=CONJ=} {уж=PART=} {если=CONJ=} {сон=S,m,inan=(acc,pl|nom,pl)} {присниться=V,pf,intr=inpraes,pl,indic,3p},
+{то=PART=} {пускай=PART=} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {повторяться=V,intr=inpraes,pl,indic,3p,pf}
+{детство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {давний=A=(acc,pl,plen,inan|nom,pl,plen)} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)}:
+{снег=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {дворик=S,m,inan=abl,sg} {московский=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{иль=CONJ=} — {в=PR=} {петровский=A=(abl,sg,plen,m|abl,sg,plen,n)}-{разумовский=A,geo=(abl,sg,plen,m|abl,sg,plen,n)}
+{пар=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {зеркало=S,n,inan=ins,sg} {пруд=S,m,inan=gen,sg}.

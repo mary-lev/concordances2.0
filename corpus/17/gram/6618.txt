@@ -1,100 +1,14 @@
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-грустный=A=sg,brev,f
-,_
-ясный=A=sg,brev,f
-,_
-холодный=A=sg,brev,f
-,_
-темный=A=sg,brev,f
-,_\n
-холодный=A=sg,brev,f
-,_
-ясный=A=sg,brev,f
-,_
-грустный=A=sg,brev,f
-.\n\n
-этот=APRO=nom,sg,f
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-,_
-который=APRO=nom,sg,f
-_
-звезда=S,f,inan=gen,pl
-_
-полный=A=sg,brev,f
-,_\n
-этот=APRO=nom,sg,f
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-весна=S,f,inan=nom,sg
-.\n\n
-голубеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-,_
-чернеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-мост=S,m,inan=(acc,sg|nom,sg)
-,\n
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-тихий=A=sg,brev,m
-_
-и=CONJ=
-_
-полный=A=sg,brev,m
-_
-звезда=S,f,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-_
-страшный=A=sg,brev,f
-_
-о=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-весть=S,f,inan=(acc,sg|nom,sg)
-,\n
-тот=APRO=nom,sg,f
-,_
-что=CONJ=
-_
-в=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-нежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-?\n\n
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-_
-нужный=A=sg,brev,f
-_
-тот=APRO=nom,sg,f
-,_
-что=CONJ=
-_
-так=ADVPRO=
-_
-нежный=A=sg,brev,f
-,_\n
-что=CONJ=
-_
-нежно=ADV=comp
-_
-все=SPRO,sg,n,inan=gen
-_\u2014_
-весна=S,f,inan=nom,sg
-?\n
+{даль=S,f,inan=(acc,sg|nom,sg)} {грустный=A=sg,brev,f}, {ясный=A=sg,brev,f}, {холодный=A=sg,brev,f}, {темный=A=sg,brev,f}, 
+{холодный=A=sg,brev,f}, {ясный=A=sg,brev,f}, {грустный=A=sg,brev,f}.
+
+{этот=APRO=nom,sg,f} {грусть=S,f,inan=(acc,sg|nom,sg)}, {который=APRO=nom,sg,f} {звезда=S,f,inan=gen,pl} {полный=A=sg,brev,f}, 
+{этот=APRO=nom,sg,f} {грусть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {весна=S,f,inan=nom,sg}.
+
+{голубеть=V,ipf,intr=inpraes,sg,indic,3p} {лес=S,m,inan=(acc,sg|nom,sg)}, {чернеть=V,ipf,intr=inpraes,sg,indic,3p} {мост=S,m,inan=(acc,sg|nom,sg)},
+{вечер=S,m,inan=(acc,sg|nom,sg)} {тихий=A=sg,brev,m} {и=CONJ=} {полный=A=sg,brev,m} {звезда=S,f,inan=gen,pl}.
+
+{и=CONJ=} {кто=SPRO,sg,m,anim=dat} {страшный=A=sg,brev,f} {о=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {весть=S,f,inan=(acc,sg|nom,sg)},
+{тот=APRO=nom,sg,f}, {что=CONJ=} {в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {нежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}?
+
+{и=CONJ=} {кто=SPRO,sg,m,anim=dat} {нужный=A=sg,brev,f} {тот=APRO=nom,sg,f}, {что=CONJ=} {так=ADVPRO=} {нежный=A=sg,brev,f}, 
+{что=CONJ=} {нежно=ADV=comp} {все=SPRO,sg,n,inan=gen} — {весна=S,f,inan=nom,sg}?

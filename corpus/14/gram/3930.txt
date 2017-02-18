@@ -1,116 +1,15 @@
-мы=SPRO,pl,1p=dat
-_
-свежесть=S,f,inan=(acc,sg|nom,sg)
-_
-слово=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-простота=S,f,inan=acc,sg
-\n
-терять=V,ipf,tran=inf
-_
-не=PART=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-_
-ль=PART=
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-живописец=S,m,anim=dat,sg
-_\u2014_
-зрение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-или=CONJ=
-_
-актер=S,m,anim=dat,sg
-_\u2014_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-движение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-женщина=S,f,anim=(abl,sg|dat,sg)
-_
-прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-красота=S,f,inan=acc,sg
-?\n\n
-но=CONJ=
-_
-не=PART=
-_
-пытаться=V,ipf,intr=sg,imper,2p
-_
-для=PR=
-_
-себя=SPRO=(acc|gen)
-_
-хранить=V,ipf,tran=inf
-\n
-ты=SPRO,sg,2p=(abl|dat)
-_
-даровать=V,tran=(praet,acc,sg,partcp,plen,n,ipf,pass|praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,ipf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-небо=S,n,inan=ins,pl
-:\n
-осуждать=V=praet,pl,partcp,brev,pf,pass,tran
-_\u2014_
-и=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-сам=APRO=(nom,pl|acc,pl,inan)
-_\u2014\n
-мы=SPRO,pl,1p=nom
-_
-расточать=V,ipf,tran=inf
-,_
-а=CONJ=
-_
-не=PART=
-_
-копить=V,ipf,tran=inf
-.\n\n
-идти=V,ipf,intr=sg,imper,2p
-_
-один=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-и=CONJ=
-_
-исцелять=V,tran=sg,imper,2p,ipf
-_
-слепой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-чтобы=CONJ=
-_
-узнавать=V,tran=inf,pf
-_
-в=PR=
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-ученик=S,m,anim=(acc,pl|gen,pl)
-_
-злорадный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-глумление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-равнодушие=S,n,inan=(acc,sg|nom,sg)
-_
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
+{мы=SPRO,pl,1p=dat} {свежесть=S,f,inan=(acc,sg|nom,sg)} {слово=S,n,inan=gen,pl} {и=CONJ=} {чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {простота=S,f,inan=acc,sg}
+{терять=V,ipf,tran=inf} {не=PART=} {то=SPRO,sg,n,inan=(acc|nom)} {ль=PART=}, {что=SPRO,sg,n,inan=(acc|nom)} {живописец=S,m,anim=dat,sg} — {зрение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{или=CONJ=} {актер=S,m,anim=dat,sg} — {голос=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {движение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{а=CONJ=} {женщина=S,f,anim=(abl,sg|dat,sg)} {прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {красота=S,f,inan=acc,sg}?
+
+{но=CONJ=} {не=PART=} {пытаться=V,ipf,intr=sg,imper,2p} {для=PR=} {себя=SPRO=(acc|gen)} {хранить=V,ipf,tran=inf}
+{ты=SPRO,sg,2p=(abl|dat)} {даровать=V,tran=(praet,acc,sg,partcp,plen,n,ipf,pass|praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,ipf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {небо=S,n,inan=ins,pl}:
+{осуждать=V=praet,pl,partcp,brev,pf,pass,tran} — {и=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {сам=APRO=(nom,pl|acc,pl,inan)} —
+{мы=SPRO,pl,1p=nom} {расточать=V,ipf,tran=inf}, {а=CONJ=} {не=PART=} {копить=V,ipf,tran=inf}.
+
+{идти=V,ipf,intr=sg,imper,2p} {один=ANUM=(acc,sg,m,inan|nom,sg,m)} {и=CONJ=} {исцелять=V,tran=sg,imper,2p,ipf} {слепой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{чтобы=CONJ=} {узнавать=V,tran=inf,pf} {в=PR=} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {сомнение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{ученик=S,m,anim=(acc,pl|gen,pl)} {злорадный=A=(acc,sg,plen,n|nom,sg,plen,n)} {глумление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{и=CONJ=} {равнодушие=S,n,inan=(acc,sg|nom,sg)} {толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+

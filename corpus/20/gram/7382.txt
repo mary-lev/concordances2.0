@@ -1,104 +1,14 @@
-припадать=V,intr=praet,ger,pf
-_
-к=PR=
-_
-мой=APRO=(dat,sg,m|dat,sg,n)
-_
-изголовье=S,n,inan=dat,sg
-,\n
-ворчать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-будто=CONJ=
-_
-выстрел=S,m,inan=(acc,pl|nom,pl)
-,_
-тишина=S,sg,f,inan=nom
-,\n
-запекаться=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-кровь=S,f,inan=ins,sg
-\n
-ночной=A=nom,sg,plen,f
-_
-дыра=S,f,inan=nom,sg
-_
-полный=A=sg,brev,f
-.\n\n
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-капать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-капать=V,ipf,intr=inpraes,pl,indic,3p
-_
-скупо=ADV=
-,\n
-нет=PART=
-_
-никакой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-...\n
-но=CONJ=
-_
-не=PART=
-_
-страшный=A=sg,brev,n
-..._
-и=CONJ=
-_
-только=PART=
-_
-скука=S,f,inan=nom,sg
-,\n
-что=CONJ=
-_
-кругом=ADV=
-_\u2014_
-все=SPRO,pl=(acc|nom)
-_
-рыло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-тля=S,f,anim=(acc,pl|gen,pl|ins,sg)
-.\n\n
-тля=S,f,anim=(gen,sg|nom,pl)
-_
-по=PR=
-_
-мартовский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-алый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-заря=S,f,inan=dat,pl
-\n
-проходить=V,intr=praet,pl,indic,pf
-_
-в=PR=
-_
-гвоздевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сапог=S,m,inan=abl,pl
-.\n
-душа=S,f,inan=nom,sg
-_
-на=PR=
-_
-ключ=S,m,inan=abl,sg
-,_
-на=PR=
-_
-тяжкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-запор=S,m,inan=abl,sg
-.\n
-отврат?=S,m,inan=(acc,sg|nom,sg)
-..._
-тошнота=S,f,inan=nom,sg
-..._
-но=CONJ=
-_
-не=PART=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-.\n
+{припадать=V,intr=praet,ger,pf} {к=PR=} {мой=APRO=(dat,sg,m|dat,sg,n)} {изголовье=S,n,inan=dat,sg},
+{ворчать=V,ipf,intr=inpraes,sg,indic,3p}, {будто=CONJ=} {выстрел=S,m,inan=(acc,pl|nom,pl)}, {тишина=S,sg,f,inan=nom},
+{запекаться=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровь=S,f,inan=ins,sg}
+{ночной=A=nom,sg,plen,f} {дыра=S,f,inan=nom,sg} {полный=A=sg,brev,f}.
+
+{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {капать=V,ipf,intr=inpraes,pl,indic,3p}, {капать=V,ipf,intr=inpraes,pl,indic,3p} {скупо=ADV=},
+{нет=PART=} {никакой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {человек=S,m,anim=(acc,pl|gen,pl)}...
+{но=CONJ=} {не=PART=} {страшный=A=sg,brev,n}... {и=CONJ=} {только=PART=} {скука=S,f,inan=nom,sg},
+{что=CONJ=} {кругом=ADV=} — {все=SPRO,pl=(acc|nom)} {рыло=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тля=S,f,anim=(acc,pl|gen,pl|ins,sg)}.
+
+{тля=S,f,anim=(gen,sg|nom,pl)} {по=PR=} {мартовский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {алый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {заря=S,f,inan=dat,pl}
+{проходить=V,intr=praet,pl,indic,pf} {в=PR=} {гвоздевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сапог=S,m,inan=abl,pl}.
+{душа=S,f,inan=nom,sg} {на=PR=} {ключ=S,m,inan=abl,sg}, {на=PR=} {тяжкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {запор=S,m,inan=abl,sg}.
+{отврат?=S,m,inan=(acc,sg|nom,sg)}... {тошнота=S,f,inan=nom,sg}... {но=CONJ=} {не=PART=} {страх=S,m,inan=(acc,sg|nom,sg)}.

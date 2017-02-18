@@ -1,116 +1,19 @@
-мы=SPRO,pl,1p=dat
-_
-нравиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-поэт=S,m,anim=nom,pl
-,\n
-похожий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-на=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-,\n
-священный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-предмет=S,m,inan=(acc,pl|nom,pl)
-,\n
-дабы=CONJ=
-_
-украшать=V=inf,pf
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,_\u2014\n\n
-волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-величие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-когда=CONJ=
-,_
-себя=SPRO=(acc|gen)
-_
-сильно=ADV=comp
-,\n
-мы=SPRO,pl,1p=nom
-_
-ценить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-без=PR=
-_
-различие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сверкание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-огонь=S,m,inan=gen,pl
-,_\u2014\n\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-любой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-узор=S,m,inan=ins,sg
-,\n
-расцвет=S,m,inan=(acc,pl|nom,pl)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-начинать=V,tran=praet,sg,indic,m,pf
-,\n
-лишь=PART=
-_
-только=PART=
-_
-б=PART=
-_
-ваш=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-взор=S,m,inan=dat,pl
-\n
-они=SPRO,pl=(acc|gen)
-_
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-_
-отвечать=V,intr=praet,sg,indic,m,ipf
-,_\u2014\n\n
-лишь=PART=
-_
-только=PART=
-_
-б=PART=
-_
-с=PR=
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-буря=S,f,inan=ins,sg
-\n
-сливаться=V,intr=praet,sg,indic,m,ipf
-_
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-,\n
-от=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-или=CONJ=
-_
-фурия=S,f,anim=(acc,pl|gen,pl)
-,_\u2014\n
-не=PART=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-ли=PART=
-_
-мы=SPRO,pl,1p=dat
-_
-равный=A=sg,brev,n
-!\n
+{мы=SPRO,pl,1p=dat} {нравиться=V,ipf,intr=inpraes,pl,indic,3p} {поэт=S,m,anim=nom,pl},
+{похожий=A=(acc,pl,plen,inan|nom,pl,plen)} {на=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)},
+{священный=A=(acc,pl,plen,inan|nom,pl,plen)} {предмет=S,m,inan=(acc,pl|nom,pl)},
+{дабы=CONJ=} {украшать=V=inf,pf} {час=S,m,inan=(acc,sg|nom,sg)}, —
+
+{волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {величие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{когда=CONJ=}, {себя=SPRO=(acc|gen)} {сильно=ADV=comp},
+{мы=SPRO,pl,1p=nom} {ценить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {без=PR=} {различие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{сверкание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {огонь=S,m,inan=gen,pl}, —
+
+{цветок=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {любой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {узор=S,m,inan=ins,sg},
+{расцвет=S,m,inan=(acc,pl|nom,pl)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {начинать=V,tran=praet,sg,indic,m,pf},
+{лишь=PART=} {только=PART=} {б=PART=} {ваш=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {взор=S,m,inan=dat,pl}
+{они=SPRO,pl=(acc|gen)} {пламень=S,inan=(nom,sg,m|acc,sg,m)} {отвечать=V,intr=praet,sg,indic,m,ipf}, —
+
+{лишь=PART=} {только=PART=} {б=PART=} {с=PR=} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {буря=S,f,inan=ins,sg}
+{сливаться=V,intr=praet,sg,indic,m,ipf} {он=SPRO,sg,3p,m=nom} {в=PR=} {один=APRO=(acc,sg,n|nom,sg,n)},
+{от=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {или=CONJ=} {фурия=S,f,anim=(acc,pl|gen,pl)}, —
+{не=PART=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ли=PART=} {мы=SPRO,pl,1p=dat} {равный=A=sg,brev,n}!

@@ -1,366 +1,64 @@
-на=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
--
-океан=S,m,inan=abl,sg
-,\n
-на=PR=
-_
-остров=S,m,inan=(acc,sg|nom,sg)
-_
-буян=S,m,inan=abl,sg
-,\n
-меж=PR=
-_
-камень=S,m,inan=gen,pl
--
-богатырь=S,m,anim=nom,sg
-\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
--
-алатырь=S,geo,m,inan=(acc,sg|nom,sg)
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-белый=A=sg,brev,m
--
-горючий=A=sg,brev,m
-_
-и=PART=
-\n
-неостудить?=V,ipf,tran=inpraes,sg,partcp,brev,n,pass
-_
-жарок=S,m,inan=(acc,sg|nom,sg)
-.\n
-красивый=A=sg,brev,m
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-изгиб=S,m,inan=(acc,sg|nom,sg)
-,\n
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
--
-кип=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
--
-чудо=S,n,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-хороший=A=comp
-_
-изумруд=S,m,inan=gen,sg
-.\n
-он=SPRO,sg,3p,m=nom
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-солнцева=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-.\n\n
-под=PR=
-_
-камень=S,m,inan=ins,sg
-_
-тем=CONJ=
-_
-сокрыть=V,pf,tran=praet,sg,partcp,brev,f,pass
-\n
-мечта=S,f,inan=nom,sg
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-изживать=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n
-спешить=V,ipf,intr=sg,imper,2p
-_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-скоро=ADV=comp
-.\n
-касаться=V,intr=sg,imper,2p,pf
-_
-до=PR=
-_
-тайна=S,f,inan=gen,pl
-_
-море=S,n,inan=gen,pl
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-широко=ADV=comp
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-широко=ADV=comp
-.\n
-на=PR=
-_
-камень=S,m,inan=abl,sg
--
-алатырь=S,geo,m,inan=abl,sg
-\n
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-в=PR=
-_
-луч=S,m,inan=abl,pl
-_
-горе=S,sg,n,inan=gen
-,\n
-громовница?=S,f,anim=nom,sg
--
-заря=S,f,inan=nom,sg
-.\n\n
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-девица=S,f,anim=nom,sg
-_
-красный=A=nom,sg,brev,f
-,\n
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-_
-безучастно=ADV=
-.\n
-смешинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дева=S,f,anim=(gen,sg|nom,pl)
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\u2014\n
-рассвет=S,m,inan=(acc,pl|nom,pl)
-_
-над=PR=
-_
-вода=S,f,inan=ins,sg
-.\n\n
-а=CONJ=
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-_
-охота=ADV,praed=
-,\n
-совсем=ADV=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_
-без=PR=
-_
-счет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-смеяться=V,ipf,intr=inf
-_
-так=ADVPRO=
-_
-начинать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-что=CONJ=
-_
-молния=S,f,inan=nom,sg
-_
-сверкнуть=V,pf,intr=inpraes,sg,indic,3p
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-звонко=ADV=comp
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_
-певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-пожар=S,m,inan=ins,sg
-_
-рдеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-огнистый=A=sg,brev,f
-_
-красота=S,f,inan=nom,sg
-,\n
-светлый=A=sg,brev,f
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-фата=S,f,inan=nom,sg
-.\n\n
-на=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
--
-океан=S,m,inan=abl,sg
-,\n
-на=PR=
-_
-остров=S,m,inan=abl,sg
-_
-буян=S,m,inan=abl,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-дева=S,f,anim=acc,sg
-_
-тот=APRO=acc,sg,f
-_
-любить=V,ipf,tran=praet,sg,indic,m
-,\n
-у=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-в=PR=
-_
-гость=S,m,anim=abl,pl
-_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-.\n\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-на=PR=
-_
-это=SPRO,sg,n,inan=abl
-_
-камень=S,m,inan=abl,sg
-,\n
-и=CONJ=
-_
-заговор=S,m,inan=(acc,sg|nom,sg)
-_
-давать=V,tran=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-\n
-она=SPRO,sg,3p,f=nom
-_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-_
-живой=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-на=PR=
-_
-камень=S,m,inan=abl,sg
-_
-солнцево=S,geo,sg,n,inan=ins
-.\n\n
-о=PR=
-,_
-заговор=S,m,inan=(acc,sg|nom,sg)
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-властный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-он=SPRO,sg,3p,m=nom
-_
-давать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-дева=S,f,anim=ins,sg
-_
-страстный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-все=SPRO,pl=(acc|nom)
-_
-покорять=V,tran=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-.\n
-гореть=V,ipf,intr=sg,imper,2p
-,_
-огонь=S,m,inan=(acc,sg|nom,sg)
-,_
-сильно=ADV=comp
-!\n\n
-лишь=PART=
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-кто=SPRO,sg,m,anim=nom
-_
-изгладывать=V=inpraes,sg,indic,3p,pf
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-заговор=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-смочь=V,pf,intr=inpraes,sg,indic,3p
-\n
-лишать=V,tran=inf,pf
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-луч=S,m,inan=gen,pl
-.\n
-гореть=V,ipf,intr=sg,imper,2p
-,_
-огонь=S,m,inan=(acc,sg|nom,sg)
-,_
-скоро=ADV=comp
-!\n\n
-но=CONJ=
-_
-камень=S,m,inan=(acc,sg|nom,sg)
-_
-кто=SPRO,sg,m,anim=nom
-_
-ж=PART=
-_
-изгладывать=V=inpraes,sg,indic,3p,pf
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-_
-превозмогать=V=inpraes,sg,indic,3p,pf
-?\n
-привет=S,m,inan=(acc,sg|nom,sg)
-_
-сияние=S,n,inan=dat,sg
-_
-день=S,m,inan=gen,pl
-.\n
-гореть=V,ipf,intr=sg,imper,2p
-,_
-огонь=S,m,inan=(acc,sg|nom,sg)
-,_
-сильно=ADV=comp
-!\n
+{на=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}-{океан=S,m,inan=abl,sg},
+{на=PR=} {остров=S,m,inan=(acc,sg|nom,sg)} {буян=S,m,inan=abl,sg},
+{меж=PR=} {камень=S,m,inan=gen,pl}-{богатырь=S,m,anim=nom,sg}
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {камень=S,m,inan=(acc,sg|nom,sg)}-{алатырь=S,geo,m,inan=(acc,sg|nom,sg)}.
+
+{он=SPRO,sg,3p,m=nom} {белый=A=sg,brev,m}-{горючий=A=sg,brev,m} {и=PART=}
+{неостудить?=V,ipf,tran=inpraes,sg,partcp,brev,n,pass} {жарок=S,m,inan=(acc,sg|nom,sg)}.
+{красивый=A=sg,brev,m} {он=SPRO,sg,3p,m=(acc|gen)} {изгиб=S,m,inan=(acc,sg|nom,sg)},
+{кипеть=V,ipf,intr=inpraes,sg,indic,3p} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {камень=S,m,inan=(acc,sg|nom,sg)}-{кип=S,m,inan=(acc,sg|nom,sg)}.
+
+{гореть=V,ipf,intr=inpraes,sg,indic,3p} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {камень=S,m,inan=(acc,sg|nom,sg)}-{чудо=S,n,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {хороший=A=comp} {изумруд=S,m,inan=gen,sg}.
+{он=SPRO,sg,3p,m=nom} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)} — {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {камень=S,m,inan=(acc,sg|nom,sg)} {солнцева=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}.
+
+{под=PR=} {камень=S,m,inan=ins,sg} {тем=CONJ=} {сокрыть=V,pf,tran=praet,sg,partcp,brev,f,pass}
+{мечта=S,f,inan=nom,sg}, {что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {изживать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+{спешить=V,ipf,intr=sg,imper,2p} {к=PR=} {он=SPRO,sg,3p,m=dat} {скоро=ADV=comp}.
+{касаться=V,intr=sg,imper,2p,pf} {до=PR=} {тайна=S,f,inan=gen,pl} {море=S,n,inan=gen,pl}.
+
+{все=SPRO,pl=(acc|nom)} {широко=ADV=comp} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {широко=ADV=comp}.
+{на=PR=} {камень=S,m,inan=abl,sg}-{алатырь=S,geo,m,inan=abl,sg}
+{сидеть=V,ipf,intr=inpraes,sg,indic,3p}, {в=PR=} {луч=S,m,inan=abl,pl} {горе=S,sg,n,inan=gen},
+{громовница?=S,f,anim=nom,sg}-{заря=S,f,inan=nom,sg}.
+
+{сидеть=V,ipf,intr=inpraes,sg,indic,3p} {девица=S,f,anim=nom,sg} {красный=A=nom,sg,brev,f},
+{смеяться=V,ipf,intr=inpraes,sg,indic,3p} {безучастно=ADV=}.
+{смешинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дева=S,f,anim=(gen,sg|nom,pl)} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} —
+{рассвет=S,m,inan=(acc,pl|nom,pl)} {над=PR=} {вода=S,f,inan=ins,sg}.
+
+{а=CONJ=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {прийти=V,pf,intr=inpraes,sg,indic,3p} {охота=ADV,praed=},
+{совсем=ADV=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {смех=S,m,inan=(acc,sg|nom,sg)} {без=PR=} {счет=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{смеяться=V,ipf,intr=inf} {так=ADVPRO=} {начинать=V,tran=inpraes,sg,indic,3p,pf},
+{что=CONJ=} {молния=S,f,inan=nom,sg} {сверкнуть=V,pf,intr=inpraes,sg,indic,3p}.
+
+{все=SPRO,pl=(acc|nom)} {звонко=ADV=comp} {смех=S,m,inan=(acc,sg|nom,sg)} {певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{пожар=S,m,inan=ins,sg} {рдеть=V,ipf,intr=inpraes,pl,indic,3p} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{огнистый=A=sg,brev,f} {красота=S,f,inan=nom,sg},
+{светлый=A=sg,brev,f} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {фата=S,f,inan=nom,sg}.
+
+{на=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}-{океан=S,m,inan=abl,sg},
+{на=PR=} {остров=S,m,inan=abl,sg} {буян=S,m,inan=abl,sg},
+{я=SPRO,sg,1p=nom} {дева=S,f,anim=acc,sg} {тот=APRO=acc,sg,f} {любить=V,ipf,tran=praet,sg,indic,m},
+{у=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {в=PR=} {гость=S,m,anim=abl,pl} {я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf}.
+
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {на=PR=} {это=SPRO,sg,n,inan=abl} {камень=S,m,inan=abl,sg},
+{и=CONJ=} {заговор=S,m,inan=(acc,sg|nom,sg)} {давать=V,tran=praet,sg,indic,f,pf} {я=SPRO,sg,1p=(abl|dat)}
+{она=SPRO,sg,3p,f=nom} {в=PR=} {огонь=S,m,inan=abl,sg} {живой=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{на=PR=} {камень=S,m,inan=abl,sg} {солнцево=S,geo,sg,n,inan=ins}.
+
+{о=PR=}, {заговор=S,m,inan=(acc,sg|nom,sg)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {властный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{он=SPRO,sg,3p,m=nom} {давать=V,tran=praet,sg,partcp,brev,m,pf,pass} {я=SPRO,sg,1p=(abl|dat)} {дева=S,f,anim=ins,sg} {страстный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{все=SPRO,pl=(acc|nom)} {покорять=V,tran=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}.
+{гореть=V,ipf,intr=sg,imper,2p}, {огонь=S,m,inan=(acc,sg|nom,sg)}, {сильно=ADV=comp}!
+
+{лишь=PART=} {камень=S,m,inan=(acc,sg|nom,sg)} {кто=SPRO,sg,m,anim=nom} {изгладывать=V=inpraes,sg,indic,3p,pf},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {заговор=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {смочь=V,pf,intr=inpraes,sg,indic,3p}
+{лишать=V,tran=inf,pf} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {луч=S,m,inan=gen,pl}.
+{гореть=V,ipf,intr=sg,imper,2p}, {огонь=S,m,inan=(acc,sg|nom,sg)}, {скоро=ADV=comp}!
+
+{но=CONJ=} {камень=S,m,inan=(acc,sg|nom,sg)} {кто=SPRO,sg,m,anim=nom} {ж=PART=} {изгладывать=V=inpraes,sg,indic,3p,pf},
+{кто=SPRO,sg,m,anim=nom} {пламень=S,inan=(nom,sg,m|acc,sg,m)} {превозмогать=V=inpraes,sg,indic,3p,pf}?
+{привет=S,m,inan=(acc,sg|nom,sg)} {сияние=S,n,inan=dat,sg} {день=S,m,inan=gen,pl}.
+{гореть=V,ipf,intr=sg,imper,2p}, {огонь=S,m,inan=(acc,sg|nom,sg)}, {сильно=ADV=comp}!

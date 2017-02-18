@@ -1,66 +1,9 @@
-плохо=ADV=
-_
-сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-богатый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-тяжко=ADV=
-_
-барский=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-плечо=S,n,inan=dat,sg
-.\n
-а=CONJ=
-_
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-перед=PR=
-_
-солдат=S,m,anim=ins,sg
-\n
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-не=PART=
-_
-опускать=V=inpraes,sg,indic,1p,pf
-.\n\n
-город=S,m,inan=(acc,sg|nom,sg)
-_
-буйствовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-стонать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-в=PR=
-_
-винный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-облако=S,n,inan=abl,sg
-_\u2014_
-луна=S,f,inan=nom,sg
-.\n
-а=CONJ=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-тронуть=V,pf,tran=inpraes,sg,indic,3p
-:\n
-я=SPRO,sg,1p=nom
-_
-надменный=A=sg,brev,f
-_
-и=CONJ=
-_
-бедный=A=sg,brev,f
-.\n
+{плохо=ADV=} {сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {богатый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{тяжко=ADV=} {барский=A=(dat,sg,plen,m|dat,sg,plen,n)} {плечо=S,n,inan=dat,sg}.
+{а=CONJ=} {вот=PART=} {я=SPRO,sg,1p=nom} {перед=PR=} {солдат=S,m,anim=ins,sg}
+{светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {не=PART=} {опускать=V=inpraes,sg,indic,1p,pf}.
+
+{город=S,m,inan=(acc,sg|nom,sg)} {буйствовать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {стонать=V,ipf,intr=inpraes,sg,indic,3p},
+{в=PR=} {винный=A=(abl,sg,plen,m|abl,sg,plen,n)} {облако=S,n,inan=abl,sg} — {луна=S,f,inan=nom,sg}.
+{а=CONJ=} {я=SPRO,sg,1p=(acc|gen)} {никто=SPRO,sg,m,anim=nom} {не=PART=} {тронуть=V,pf,tran=inpraes,sg,indic,3p}:
+{я=SPRO,sg,1p=nom} {надменный=A=sg,brev,f} {и=CONJ=} {бедный=A=sg,brev,f}.

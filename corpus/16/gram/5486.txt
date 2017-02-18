@@ -1,152 +1,19 @@
-прощать=V=inpraes,sg,indic,2p,pf
-_
-ли=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-упрек=S,m,inan=(acc,pl|nom,pl)
-,\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-обидный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-любовь=S,f,inan=ins,sg
-_
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-строка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-снова=ADV=
-_
-ты=SPRO,sg,2p=nom
-_
-во=PR=
-_
-все=SPRO,pl=dat
-_
-правый=A=sg,brev,f
-!\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)
-_
-друг=S,m,anim=nom,sg
-,_
-мой=APRO=nom,sg,f
-_
-святой=A=nom,sg,plen,f
-!\n
-не=PART=
-_
-осуждать=V=sg,imper,2p,ipf,tran
-_
-больной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-затея=S,f,inan=gen,pl
-;\n
-ведь=PART=
-_
-я=SPRO,sg,1p=nom
-_
-рыдать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-рыдать=V,ipf,intr=inpraes,ger
-.\n
-я=SPRO,sg,1p=nom
-,_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-_
-не=PART=
-_
-из=PR=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-!..\n\n
-не=PART=
-_
-от=PR=
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-не=PART=
-_
-для=PR=
-_
-забава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-мой=APRO=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-полный=A=sg,brev,f
-_
-огонь=S,m,inan=gen,sg
-:\n
-ты=SPRO,sg,2p=nom
-_
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-дорогой=A=comp
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-для=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-!\n\n
-я=SPRO,sg,1p=nom
-_
-собирать=V=inpraes,sg,indic,1p,pf
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-фиалка=S,f,inan=gen,pl
-\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-плакать=V,ipf,intr=inf
-_
-об=PR=
-_
-один=APRO=(abl,sg,m|abl,sg,n)
-:\n
-не=PART=
-_
-покидать=V,tran=sg,imper,2p,ipf
-_
-я=SPRO,sg,1p=(acc|gen)
-!_\u2014_
-я=SPRO,sg,1p=nom
-_
-жалкий=A=sg,brev,m
-\n
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-величие=S,n,inan=abl,sg
-_
-больной=A=(abl,sg,plen,m|abl,sg,plen,n)
-...\n
+{прощать=V=inpraes,sg,indic,2p,pf} {ли=PART=} {ты=SPRO,sg,2p=nom} {мой=APRO=(nom,pl|acc,pl,inan)} {упрек=S,m,inan=(acc,pl|nom,pl)},
+{мой=APRO=(nom,pl|acc,pl,inan)} {обидный=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}?
+{любовь=S,f,inan=ins,sg} {дышать=V,ipf,intr=inpraes,pl,indic,3p} {этот=APRO=(nom,pl|acc,pl,inan)} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {снова=ADV=} {ты=SPRO,sg,2p=nom} {во=PR=} {все=SPRO,pl=dat} {правый=A=sg,brev,f}!
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} {друг=S,m,anim=nom,sg}, {мой=APRO=nom,sg,f} {святой=A=nom,sg,plen,f}!
+{не=PART=} {осуждать=V=sg,imper,2p,ipf,tran} {больной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {затея=S,f,inan=gen,pl};
+{ведь=PART=} {я=SPRO,sg,1p=nom} {рыдать=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {рыдать=V,ipf,intr=inpraes,ger}.
+{я=SPRO,sg,1p=nom}, {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {не=PART=} {из=PR=} {человек=S,m,anim=(acc,pl|gen,pl)}!..
+
+{не=PART=} {от=PR=} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {не=PART=} {для=PR=} {забава=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{мой=APRO=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)} {полный=A=sg,brev,f} {огонь=S,m,inan=gen,sg}:
+{ты=SPRO,sg,2p=nom} {для=PR=} {я=SPRO,sg,1p=(acc|gen)} {дорогой=A=comp} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{ты=SPRO,sg,2p=nom} — {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {на=PR=} {свет=S,sg,m,inan=abl} {для=PR=} {я=SPRO,sg,1p=(acc|gen)}!
+
+{я=SPRO,sg,1p=nom} {собирать=V=inpraes,sg,indic,1p,pf} {ты=SPRO,sg,2p=(abl|dat)} {фиалка=S,f,inan=gen,pl}
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,1p} {плакать=V,ipf,intr=inf} {об=PR=} {один=APRO=(abl,sg,m|abl,sg,n)}:
+{не=PART=} {покидать=V,tran=sg,imper,2p,ipf} {я=SPRO,sg,1p=(acc|gen)}! — {я=SPRO,sg,1p=nom} {жалкий=A=sg,brev,m}
+{в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {величие=S,n,inan=abl,sg} {больной=A=(abl,sg,plen,m|abl,sg,plen,n)}...

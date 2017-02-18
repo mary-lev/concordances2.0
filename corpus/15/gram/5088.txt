@@ -1,92 +1,14 @@
-в=PR=
-_
-тусклый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-беззвучный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-шеола?=S,f,inan=(abl,sg|dat,sg)
-\n
-дремать=V,ipf,intr=inpraes,pl,indic,3p
-_
-без=PR=
-_
-сон=S,m,inan=gen,pl
-_
-рефаима?=S,persn,f,anim=(gen,sg|nom,pl)
-,\n
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-умерший=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-на=PR=
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-,\n
-мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-неволя=S,f,inan=ins,sg
-_
-хранить=V,ipf,tran=inpraes,pl,partcp,brev,pass
-.\n\n
-память=S,f,inan=(acc,sg|nom,sg)
-_
-склоняться=V,intr=praet,sg,indic,f,pf
-_
-у=PR=
-_
-вход=S,m,inan=gen,sg
-,\n
-к=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стена=S,f,inan=(abl,sg|dat,sg)
-_
-припадать=V,intr=inpraes,ger,ipf
-.\n
-нет=PART=
-_
-они=SPRO,pl=dat
-_
-ни=CONJ=
-_
-час=S,m,inan=gen,sg
-,_
-ни=CONJ=
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-нет=PART=
-_
-они=SPRO,pl=dat
-_
-призыв=S,m,inan=gen,pl
-_
-шаддай?=S,persn,m,anim=(acc,sg|gen,sg)
-.\n\n
-в=PR=
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-подземный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пустыня=S,f,inan=(abl,sg|dat,sg)
-\n
-мертвый=S,m,anim=nom,pl
-_
-спать=V,ipf,intr=inpraes,pl,indic,3p
-_
-караван=S,m,inan=(acc,pl|nom,pl)
-,\n
-спятить=V,pf,intr=sg,imper,2p
-_
-вековой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-твердыня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-бог=S,m,anim=ins,sg
-_
-забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-страна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{в=PR=} {тусклый=A=(abl,sg,plen,m|abl,sg,plen,n)} {беззвучный=A=(abl,sg,plen,m|abl,sg,plen,n)} {шеола?=S,f,inan=(abl,sg|dat,sg)}
+{дремать=V,ipf,intr=inpraes,pl,indic,3p} {без=PR=} {сон=S,m,inan=gen,pl} {рефаима?=S,persn,f,anim=(gen,sg|nom,pl)},
+{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {умерший=S,m,anim=(abl,pl|acc,pl|gen,pl)} {на=PR=} {воля=S,f,inan=(abl,sg|dat,sg)},
+{мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {неволя=S,f,inan=ins,sg} {хранить=V,ipf,tran=inpraes,pl,partcp,brev,pass}.
+
+{память=S,f,inan=(acc,sg|nom,sg)} {склоняться=V,intr=praet,sg,indic,f,pf} {у=PR=} {вход=S,m,inan=gen,sg},
+{к=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стена=S,f,inan=(abl,sg|dat,sg)} {припадать=V,intr=inpraes,ger,ipf}.
+{нет=PART=} {они=SPRO,pl=dat} {ни=CONJ=} {час=S,m,inan=gen,sg}, {ни=CONJ=} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{нет=PART=} {они=SPRO,pl=dat} {призыв=S,m,inan=gen,pl} {шаддай?=S,persn,m,anim=(acc,sg|gen,sg)}.
+
+{в=PR=} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {подземный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пустыня=S,f,inan=(abl,sg|dat,sg)}
+{мертвый=S,m,anim=nom,pl} {спать=V,ipf,intr=inpraes,pl,indic,3p} {караван=S,m,inan=(acc,pl|nom,pl)},
+{спятить=V,pf,intr=sg,imper,2p} {вековой=A=(acc,pl,plen,inan|nom,pl,plen)} {твердыня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{бог=S,m,anim=ins,sg} {забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

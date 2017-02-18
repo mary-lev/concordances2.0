@@ -1,62 +1,16 @@
-посадить=V,pf,tran=praet,sg,indic,f
-_
-яблонька=S,f,inan=acc,sg
-:\n
-малый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014_
-забавонька?=S,f,inan=acc,sg
-,\n
-старый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_\u2014_
-младость=S,f,inan=(acc,sg|nom,sg)
-,\n
-садовник=S,m,anim=dat,sg
-_\u2014_
-радость=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-приманивать=V,tran=praet,sg,indic,f,pf
-_
-в=PR=
-_
-горница=S,f,inan=acc,sg
-\n
-белый=A=acc,sg,plen,f
-_
-горлица=S,f,anim=acc,sg
-:\n
-вор=S,m,anim=dat,sg
-_\u2014_
-досада=S,f,inan=nom,sg
-,\n
-хозяйка=S,f,anim=(abl,sg|dat,sg)
-_\u2014_
-услада=S,f,inan=nom,sg
-.\n\n
-порождать=V=praet,sg,indic,f,pf
-_
-доченька=S,f,anim=acc,sg
-_\u2014_\n
-синий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-оченька?=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-горлинка=S,f,anim=acc,sg
-_\u2014_
-голос=S,m,inan=ins,sg
-,\n
-солнышко=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-волос=S,m,inan=ins,sg
-.\n
-на=PR=
-_
-гора=S,f,inan=(abl,sg|dat,sg)
-_
-девица=S,f,anim=dat,pl
-,\n
-на=PR=
-_
-гора=S,f,inan=(abl,sg|dat,sg)
-_
-молодец=S,m,anim=dat,pl
-.\n
+{посадить=V,pf,tran=praet,sg,indic,f} {яблонька=S,f,inan=acc,sg}:
+{малый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {забавонька?=S,f,inan=acc,sg},
+{старый=A=(dat,sg,plen,m|dat,sg,plen,n)} — {младость=S,f,inan=(acc,sg|nom,sg)},
+{садовник=S,m,anim=dat,sg} — {радость=S,f,inan=(acc,sg|nom,sg)}.
+
+{приманивать=V,tran=praet,sg,indic,f,pf} {в=PR=} {горница=S,f,inan=acc,sg}
+{белый=A=acc,sg,plen,f} {горлица=S,f,anim=acc,sg}:
+{вор=S,m,anim=dat,sg} — {досада=S,f,inan=nom,sg},
+{хозяйка=S,f,anim=(abl,sg|dat,sg)} — {услада=S,f,inan=nom,sg}.
+
+{порождать=V=praet,sg,indic,f,pf} {доченька=S,f,anim=acc,sg} — 
+{синий=A=(acc,pl,plen,inan|nom,pl,plen)} {оченька?=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{горлинка=S,f,anim=acc,sg} — {голос=S,m,inan=ins,sg},
+{солнышко=S,n,inan=(acc,sg|nom,sg)} — {волос=S,m,inan=ins,sg}.
+{на=PR=} {гора=S,f,inan=(abl,sg|dat,sg)} {девица=S,f,anim=dat,pl},
+{на=PR=} {гора=S,f,inan=(abl,sg|dat,sg)} {молодец=S,m,anim=dat,pl}.

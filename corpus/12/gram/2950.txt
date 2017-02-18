@@ -1,74 +1,9 @@
-она=SPRO,sg,3p,f=nom
-_
-подкрадываться=V,intr=inpraes,sg,indic,3p,pf
-_
-неслышно=ADV=
-_\u2014_\n
-как=ADVPRO=
-_
-полночь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-дремучий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-лес=S,m,inan=(dat,sg|part,sg|loc,sg)
-.\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-в=PR=
-_
-передничек=S,m,inan=abl,sg
-_
-пышный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-я=SPRO,sg,1p=nom
-_
-голубь=S,m,anim=(acc,sg|gen,sg)
-_
-вы=SPRO,pl,2p=dat
-_
-приносить=V=inpraes,sg,indic,1p,pf
-.\n\n
-так=ADVPRO=
-:_
-вставать=V,intr=inpraes,sg,indic,1p,pf
-_
-в=PR=
-_
-дверь=S,f,inan=abl,pl
-_\u2014_
-и=CONJ=
-_
-ни=PART=
-_
-с=PR=
-_
-место=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-свинцовый=A=ins,pl,plen
-_
-гиря=S,f,inan=ins,pl
-_\u2014_
-стыд=S,m,inan=(acc,sg|nom,sg)
-.\n
-но=CONJ=
-_
-птица=S,f,anim=(abl,sg|dat,sg)
-_
-в=PR=
-_
-передник=S,m,inan=abl,sg
-_\u2014_
-тесно=ADV=
-,\n
-и=CONJ=
-_
-птица=S,f,anim=nom,sg
-_\u2014_
-сам=APRO=nom,sg,f
-_
-полететь=V,pf,intr=inpraes,sg,indic,3p
-!\n
+{она=SPRO,sg,3p,f=nom} {подкрадываться=V,intr=inpraes,sg,indic,3p,pf} {неслышно=ADV=} — 
+{как=ADVPRO=} {полночь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {дремучий=A=(abl,sg,plen,m|abl,sg,plen,n)} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}: {в=PR=} {передничек=S,m,inan=abl,sg} {пышный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{я=SPRO,sg,1p=nom} {голубь=S,m,anim=(acc,sg|gen,sg)} {вы=SPRO,pl,2p=dat} {приносить=V=inpraes,sg,indic,1p,pf}.
+
+{так=ADVPRO=}: {вставать=V,intr=inpraes,sg,indic,1p,pf} {в=PR=} {дверь=S,f,inan=abl,pl} — {и=CONJ=} {ни=PART=} {с=PR=} {место=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{свинцовый=A=ins,pl,plen} {гиря=S,f,inan=ins,pl} — {стыд=S,m,inan=(acc,sg|nom,sg)}.
+{но=CONJ=} {птица=S,f,anim=(abl,sg|dat,sg)} {в=PR=} {передник=S,m,inan=abl,sg} — {тесно=ADV=},
+{и=CONJ=} {птица=S,f,anim=nom,sg} — {сам=APRO=nom,sg,f} {полететь=V,pf,intr=inpraes,sg,indic,3p}!

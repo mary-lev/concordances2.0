@@ -1,108 +1,15 @@
-опять=ADV=
-_
-бред=S,sg,m,inan=(dat|loc|part)
-_
-я=SPRO,sg,1p=nom
-_
-босоногий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-по=PR=
-_
-ветер=S,m,inan=(dat,sg|loc,sg)
-_
-лосниться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ковыль=S,m,inan=(acc,sg|nom,sg)
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-_
-нежно=ADV=comp
-,_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_\n
-степной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-разъезженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n\n
-на=PR=
-_
-бурый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-стлаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ковер=S,m,inan=(acc,sg|nom,sg)
-_\n
-полдневный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пламень=S,inan=(nom,sg,m|acc,sg,m)
-,_
-сухой=A=sg,brev,m
-_
-и=CONJ=
-_
-ясный=A=sg,brev,m
-,_\n
-хрусталь=S,m,inan=(acc,sg|nom,sg)
-_
-предгорие=S,n,inan=gen,pl
-_
-так=ADVPRO=
-_
-прекрасный=A=sg,brev,m
-,_\n
-так=ADVPRO=
-_
-бледный=A=pl,brev
-_
-давать=V,tran=praet,pl,indic,pf
-_
-серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гора=S,f,inan=gen,pl
-.\n\n
-соленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-палец=S,m,inan=abl,pl
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-..._\n
-ах=INTJ=
-,_
-жажда=S,f,inan=acc,sg
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-хмель=S,m,inan=(acc,sg|nom,sg)
-_
-отрава=S,f,inan=gen,pl
-_\n
-не=PART=
-_
-утолять=V,tran=inpraes,sg,indic,3p,pf
-_
-ни=CONJ=
-_
-горечь=S,f,inan=(acc,sg|nom,sg)
-_
-трава=S,f,inan=gen,pl
-,\n
-ни=CONJ=
-_
-соль=S,f,inan=(acc,sg|nom,sg)
-_
-овечий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-колодец=S,m,inan=gen,sg
-...\nddd16\n
+{опять=ADV=} {бред=S,sg,m,inan=(dat|loc|part)} {я=SPRO,sg,1p=nom} {босоногий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{по=PR=} {ветер=S,m,inan=(dat,sg|loc,sg)} {лосниться=V,ipf,intr=inpraes,sg,indic,3p} {ковыль=S,m,inan=(acc,sg|nom,sg)}.
+{что=SPRO,sg,n,inan=(acc|nom)} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf} {нежно=ADV=comp}, {что=SPRO,sg,n,inan=(abl|ins)} {пыль=S,f,inan=(acc,sg|nom,sg)} 
+{степной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {разъезженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+
+{на=PR=} {бурый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стлаться=V,ipf,intr=inpraes,sg,indic,3p} {ковер=S,m,inan=(acc,sg|nom,sg)} 
+{полдневный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пламень=S,inan=(nom,sg,m|acc,sg,m)}, {сухой=A=sg,brev,m} {и=CONJ=} {ясный=A=sg,brev,m}, 
+{хрусталь=S,m,inan=(acc,sg|nom,sg)} {предгорие=S,n,inan=gen,pl} {так=ADVPRO=} {прекрасный=A=sg,brev,m}, 
+{так=ADVPRO=} {бледный=A=pl,brev} {давать=V,tran=praet,pl,indic,pf} {серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гора=S,f,inan=gen,pl}.
+
+{соленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {палец=S,m,inan=abl,pl} {виться=V,ipf,intr=inpraes,sg,indic,3p}... 
+{ах=INTJ=}, {жажда=S,f,inan=acc,sg} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {хмель=S,m,inan=(acc,sg|nom,sg)} {отрава=S,f,inan=gen,pl} 
+{не=PART=} {утолять=V,tran=inpraes,sg,indic,3p,pf} {ни=CONJ=} {горечь=S,f,inan=(acc,sg|nom,sg)} {трава=S,f,inan=gen,pl},
+{ни=CONJ=} {соль=S,f,inan=(acc,sg|nom,sg)} {овечий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {колодец=S,m,inan=gen,sg}...
+ddd16

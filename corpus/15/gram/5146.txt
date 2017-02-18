@@ -1,108 +1,17 @@
-вы=SPRO,pl,2p=nom
-_
-умирать=V,intr=inpraes,pl,indic,2p,pf
-,_
-стебель=S,m,inan=(acc,pl|nom,pl)
-_
-трава=S,f,inan=gen,pl
-,\n
-вы=SPRO,pl,2p=nom
-_
-вершина=S,f,inan=ins,pl
-_
-встречаться=V,intr=praet,pl,indic,ipf
-,\n
-в=PR=
-_
-легкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ветер=S,m,inan=abl,sg
-_
-вы=SPRO,pl,2p=nom
-_
-качаться=V,ipf,intr=praet,pl,indic
-,\n
-но=CONJ=
-,_
-блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-видать=V,ipf,tran=praet,ger
-,\n
-вы=SPRO,pl,2p=nom
-_
-умирать=V,intr=inpraes,pl,indic,2p,pf
-,_
-стебель=S,m,inan=(acc,pl|nom,pl)
-_
-трава=S,f,inan=gen,pl
-.\n\n
-в=PR=
-_
-роща=S,f,inan=(abl,sg|dat,sg)
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-,_
-шорох=S,m,inan=(acc,sg|nom,sg)
-,_
-свист=S,m,inan=(acc,sg|nom,sg)
-\n
-тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-заглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-отдаленно=ADV=
--
-приближенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-умирать=V,intr=inpraes,sg,indic,3p,ipf
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-роща=S,f,inan=(abl,sg|dat,sg)
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-,_
-шорох=S,m,inan=(acc,sg|nom,sg)
-,_
-свист=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-сонно=ADV=
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-,\n
-смутно=ADV=
-_
-шептаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-береза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-осина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-с=PR=
-_
-изменять=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-сонно=ADV=
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-.\n
+{вы=SPRO,pl,2p=nom} {умирать=V,intr=inpraes,pl,indic,2p,pf}, {стебель=S,m,inan=(acc,pl|nom,pl)} {трава=S,f,inan=gen,pl},
+{вы=SPRO,pl,2p=nom} {вершина=S,f,inan=ins,pl} {встречаться=V,intr=praet,pl,indic,ipf},
+{в=PR=} {легкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {ветер=S,m,inan=abl,sg} {вы=SPRO,pl,2p=nom} {качаться=V,ipf,intr=praet,pl,indic},
+{но=CONJ=}, {блаженство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {видать=V,ipf,tran=praet,ger},
+{вы=SPRO,pl,2p=nom} {умирать=V,intr=inpraes,pl,indic,2p,pf}, {стебель=S,m,inan=(acc,pl|nom,pl)} {трава=S,f,inan=gen,pl}.
+
+{в=PR=} {роща=S,f,inan=(abl,sg|dat,sg)} {шелест=S,m,inan=(acc,sg|nom,sg)}, {шорох=S,m,inan=(acc,sg|nom,sg)}, {свист=S,m,inan=(acc,sg|nom,sg)}
+{тихий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ровный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {заглушать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{отдаленно=ADV=}-{приближенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{умирать=V,intr=inpraes,sg,indic,3p,ipf} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {лист=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {роща=S,f,inan=(abl,sg|dat,sg)} {шелест=S,m,inan=(acc,sg|nom,sg)}, {шорох=S,m,inan=(acc,sg|nom,sg)}, {свист=S,m,inan=(acc,sg|nom,sg)}.
+
+{сонно=ADV=} {падать=V,ipf,intr=inpraes,pl,indic,3p} {лист=S,m,inan=(acc,pl|nom,pl)},
+{смутно=ADV=} {шептаться=V,ipf,intr=inpraes,pl,indic,3p} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {береза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {осина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{с=PR=} {изменять=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{сонно=ADV=} {падать=V,ipf,intr=inpraes,pl,indic,3p} {лист=S,m,inan=(acc,pl|nom,pl)}.

@@ -1,146 +1,17 @@
-приключаться=V,intr=praet,sg,indic,f,pf
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-странный=A=nom,sg,plen,f
-_
-хворь=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-сладкий=A=nom,sg,plen,supr,f
-_
-на=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-находить=V=praet,sg,indic,f,pf,tran
-_
-оторопь=S,f,inan=(acc,sg|nom,sg)
-.\n
-все=ADV=
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-ввысь=ADV=
-,\n
-и=CONJ=
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-ни=CONJ=
-_
-звезда=S,f,inan=gen,pl
-,_
-ни=CONJ=
-_
-зоря=S,f,inan=gen,pl
-\n
-зоркий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-око=S,n,inan=ins,sg
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_\u2014_
-отрок=S,m,anim=nom,sg
-.\n\n
-а=CONJ=
-_
-задремать=V,pf,intr=inpraes,sg,indic,3p
-_\u2014_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-орел=S,m,anim=nom,pl
-\n
-шумнокрылый?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слетаться=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-_
-с=PR=
-_
-клекот=S,m,inan=ins,sg
-,\n
-и=CONJ=
-_
-вести=V,ipf,tran=inpraes,pl,indic,3p
-_
-о=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-дивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-спор=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-властелин=S,m,anim=nom,sg
-_
-скала=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-клюв=S,m,inan=ins,sg
-_
-кудри=S,pl,inan=(acc|nom)
-_
-он=SPRO,sg,3p,m=dat
-_
-трепать=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-но=CONJ=
-_
-дремучий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-смыкать=V,tran=praet,ger,pf
-,\n
-но=CONJ=
-_
-уста=S,pl,inan=(acc|nom)
-_
-полураскрывать?=V=praet,ger,pf
-_\u2014_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-себе=PART=
-.\n
-и=CONJ=
-_
-не=PART=
-_
-слышать=V,ipf,tran=inpraes,sg,indic,3p
-_
-ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гость=S,m,anim=(acc,pl|gen,pl)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-клюв=S,m,inan=(acc,sg|nom,sg)
-\n
-златоокий?=A=nom,sg,plen,f
-_
-вострить=V,ipf,tran=inpraes,sg,indic,3p
-_
-птица=S,f,anim=nom,sg
-.\n
+{приключаться=V,intr=praet,sg,indic,f,pf} {с=PR=} {он=SPRO,sg,3p,m=ins} {странный=A=nom,sg,plen,f} {хворь=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {сладкий=A=nom,sg,plen,supr,f} {на=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {находить=V=praet,sg,indic,f,pf,tran} {оторопь=S,f,inan=(acc,sg|nom,sg)}.
+{все=ADV=} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {ввысь=ADV=},
+{и=CONJ=} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {ни=CONJ=} {звезда=S,f,inan=gen,pl}, {ни=CONJ=} {зоря=S,f,inan=gen,pl}
+{зоркий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {око=S,n,inan=ins,sg} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} — {отрок=S,m,anim=nom,sg}.
+
+{а=CONJ=} {задремать=V,pf,intr=inpraes,sg,indic,3p} — {к=PR=} {он=SPRO,sg,3p,m=dat} {орел=S,m,anim=nom,pl}
+{шумнокрылый?=A=(acc,pl,plen,inan|nom,pl,plen)} {слетаться=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {с=PR=} {клекот=S,m,inan=ins,sg},
+{и=CONJ=} {вести=V,ipf,tran=inpraes,pl,indic,3p} {о=PR=} {он=SPRO,sg,3p,m=abl} {дивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {спор=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} — {властелин=S,m,anim=nom,sg} {скала=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{клюв=S,m,inan=ins,sg} {кудри=S,pl,inan=(acc|nom)} {он=SPRO,sg,3p,m=dat} {трепать=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{но=CONJ=} {дремучий=A=(acc,pl,plen,inan|nom,pl,plen)} {око=S,n,inan=(acc,pl|nom,pl)} {смыкать=V,tran=praet,ger,pf},
+{но=CONJ=} {уста=S,pl,inan=(acc|nom)} {полураскрывать?=V=praet,ger,pf} — {спать=V,ipf,intr=inpraes,sg,indic,3p} {себе=PART=}.
+{и=CONJ=} {не=PART=} {слышать=V,ipf,tran=inpraes,sg,indic,3p} {ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гость=S,m,anim=(acc,pl|gen,pl)},
+{и=CONJ=} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,3p}, {как=CONJ=} {зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {клюв=S,m,inan=(acc,sg|nom,sg)}
+{златоокий?=A=nom,sg,plen,f} {вострить=V,ipf,tran=inpraes,sg,indic,3p} {птица=S,f,anim=nom,sg}.

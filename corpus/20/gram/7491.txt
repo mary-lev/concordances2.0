@@ -1,108 +1,13 @@
-тихий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сумерки=S,pl,inan=(acc|nom)
-..._
-и=CONJ=
-_
-разноцветный=A=nom,sg,plen,f
-\n
-медленно=ADV=
-_
-меркнуть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-морской=A,plen=nom,sg,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-.\n
-тоже=PART=
-_
-тихий=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-безответный=A=nom,sg,plen,f
-,\n
-розовый=A=sg,brev,n
--
-серый=A=nom,sg,plen,f
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-.\n
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-роза=S,f,inan=ins,pl
-_
-и=CONJ=
-_
-неизбежность=S,f,inan=ins,sg
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-помогать=V,intr=inpraes,sg,indic,3p,pf
-,_
-и=CONJ=
-_
-как=ADVPRO=
-_
-помогать=V,intr=inf,pf
-?\n
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-смена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-смежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-лето=S,sg,n,inan=(acc|nom)
-_
-и=CONJ=
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-...\n\n
-свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-кудрявиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-за=PR=
-_
-тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-всенощная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-к=PR=
-_
-окно=S,n,inan=dat,pl
-_
-узкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-_
-приникать=V,intr=praet,sg,indic,m,pf
-,\n
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-роза=S,f,inan=ins,pl
-..._
-как=ADVPRO=
-_
-мы=SPRO,pl,1p=nom
-_
-немощный=A=pl,brev
-!\n
-радоваться=V,ipf,intr=sg,imper,2p
-,_
-радоваться=V,ipf,intr=sg,imper,2p
-,_
-архистратиг=S,m,anim=nom,sg
-!\n
+{тихий=A=(acc,pl,plen,inan|nom,pl,plen)} {сумерки=S,pl,inan=(acc|nom)}... {и=CONJ=} {разноцветный=A=nom,sg,plen,f}
+{медленно=ADV=} {меркнуть=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {морской=A,plen=nom,sg,f} {даль=S,f,inan=(acc,sg|nom,sg)}.
+{тоже=PART=} {тихий=A=nom,sg,plen,f} {и=CONJ=} {безответный=A=nom,sg,plen,f},
+{розовый=A=sg,brev,n}-{серый=A=nom,sg,plen,f} {во=PR=} {я=SPRO,sg,1p=(abl|dat)} {печаль=S,f,inan=(acc,sg|nom,sg)}.
+{пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {роза=S,f,inan=ins,pl} {и=CONJ=} {неизбежность=S,f,inan=ins,sg},
+{кто=SPRO,sg,m,anim=nom} {помогать=V,intr=inpraes,sg,indic,3p,pf}, {и=CONJ=} {как=ADVPRO=} {помогать=V,intr=inf,pf}?
+{вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {смена=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {смежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{лето=S,sg,n,inan=(acc|nom)} {и=CONJ=} {осень=S,f,inan=(acc,sg|nom,sg)} — {день=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {ночь=S,f,inan=(acc,sg|nom,sg)}...
+
+{свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кудрявиться=V,ipf,intr=inpraes,pl,indic,3p} {за=PR=} {тихий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {всенощная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{к=PR=} {окно=S,n,inan=dat,pl} {узкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мрак=S,m,inan=(acc,sg|nom,sg)} {приникать=V,intr=praet,sg,indic,m,pf},
+{пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {роза=S,f,inan=ins,pl}... {как=ADVPRO=} {мы=SPRO,pl,1p=nom} {немощный=A=pl,brev}!
+{радоваться=V,ipf,intr=sg,imper,2p}, {радоваться=V,ipf,intr=sg,imper,2p}, {архистратиг=S,m,anim=nom,sg}!

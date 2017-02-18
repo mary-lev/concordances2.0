@@ -1,76 +1,9 @@
-колокольчик=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-опушка=S,f,inan=(abl,sg|dat,sg)
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-с=PR=
-_
-звон=S,m,inan=ins,pl
-,_
-что=CONJ=
-_
-внятный=A=pl,brev
-_
-слух=S,m,inan=dat,sg
-_
-фея=S,f,anim=(acc,pl|gen,pl)
-,\n
-бархатистый=A=sg,brev,n
--
-пышный=A=nom,sg,plen,f
-_
-завеса=S,f,inan=nom,sg
-,\n
-возле=PR=
-_
-лиловатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-орхидея=S,f,inan=gen,pl
-.\n\n
-в=PR=
-_
-лепет=S,m,inan=abl,sg
-_
-романс=S,m,inan=gen,sg
-_\u2014_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-сад=S,m,inan=(acc,sg|nom,sg)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-в=PR=
-_
-он=SPRO,sg,3p,m=abl
-_
-упавший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-красочный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-контраст=S,m,inan=abl,sg
-_\u2014_
-свет=S,sg,m,inan=(acc|nom)
-_
-и=CONJ=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-на=PR=
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-_
-лилейный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-аметист=S,m,inan=(acc,sg|nom,sg)
-.\n
+{колокольчик=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {опушка=S,f,inan=(abl,sg|dat,sg)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{с=PR=} {звон=S,m,inan=ins,pl}, {что=CONJ=} {внятный=A=pl,brev} {слух=S,m,inan=dat,sg} {фея=S,f,anim=(acc,pl|gen,pl)},
+{бархатистый=A=sg,brev,n}-{пышный=A=nom,sg,plen,f} {завеса=S,f,inan=nom,sg},
+{возле=PR=} {лиловатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {орхидея=S,f,inan=gen,pl}.
+
+{в=PR=} {лепет=S,m,inan=abl,sg} {романс=S,m,inan=gen,sg} — {цвет=S,m,inan=(acc,sg|nom,sg)} {сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{сад=S,m,inan=(acc,sg|nom,sg)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {в=PR=} {он=SPRO,sg,3p,m=abl} {упавший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лист=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {красочный=A=(abl,sg,plen,m|abl,sg,plen,n)} {контраст=S,m,inan=abl,sg} — {свет=S,sg,m,inan=(acc|nom)} {и=CONJ=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{на=PR=} {рука=S,f,inan=(abl,sg|dat,sg)} {лилейный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {аметист=S,m,inan=(acc,sg|nom,sg)}.

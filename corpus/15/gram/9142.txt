@@ -1,104 +1,19 @@
-то=CONJ=
-,_
-в=PR=
-_
-чем=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-_
-для=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-,\n\t
-вечно=ADV=
--
-близко=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
-я=SPRO,sg,1p=nom
-_\u2014_
-змеиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,\n\t
-я=SPRO,sg,1p=nom
-_
-горе=S,sg,n,inan=dat
-_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_\u2014_
-перистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-змей=S,m,anim=nom,sg
-,\n\t
-изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=nom
-_\u2014_
-волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-фея=S,f,anim=(acc,pl|gen,pl)
-,\n\t
-я=SPRO,sg,1p=(abl|dat)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-закон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-захотеть=V,pf,tran=inpraes,sg,indic,1p
-_
-что=SPRO,sg,n,inan=gen
-,_\u2014\n\t
-вот=PART=
-_
-оно=SPRO,sg,3p,n=nom
-_
-уж=PART=
-_
-тут=ADVPRO=
-,\n
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-мчать=V,ipf,tran=inpraes,sg,indic,1p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,\n\t
-на=PR=
-_
-крыло=S,n,inan=abl,pl
-_
-минута=S,f,inan=gen,pl
-.\n\n
-на=PR=
-_
-огонь=S,m,inan=abl,sg
-_
-минута=S,f,inan=gen,pl
-,\n\t
-в=PR=
-_
-брызги=S,pl,inan=abl
-_
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-слово=S,n,inan=gen,pl
-,\n
-хорошо=ADV=parenth
-_
-цвести=V,ipf,intr=inpraes,pl,indic,3p
-\n\t
-опьянение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сон=S,m,inan=gen,pl
-.\n
+{то=CONJ=}, {в=PR=} {чем=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)} {для=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)},
+	{вечно=ADV=}-{близко=ADV=} {я=SPRO,sg,1p=(abl|dat)}.
+{я=SPRO,sg,1p=nom} — {змеиный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+	{я=SPRO,sg,1p=nom} {горе=S,sg,n,inan=dat} {в=PR=} {огонь=S,m,inan=abl,sg}.
+
+{я=SPRO,sg,1p=nom} — {перистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {змей=S,m,anim=nom,sg},
+	{изумрудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=nom} — {волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {фея=S,f,anim=(acc,pl|gen,pl)},
+	{я=SPRO,sg,1p=(abl|dat)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {смех=S,m,inan=(acc,sg|nom,sg)} — {закон=S,m,inan=(acc,sg|nom,sg)}.
+
+{захотеть=V,pf,tran=inpraes,sg,indic,1p} {что=SPRO,sg,n,inan=gen}, —
+	{вот=PART=} {оно=SPRO,sg,3p,n=nom} {уж=PART=} {тут=ADVPRO=},
+{вот=PART=} {я=SPRO,sg,1p=nom} {мчать=V,ipf,tran=inpraes,sg,indic,1p} {он=SPRO,sg,3p,m=(acc|gen)},
+	{на=PR=} {крыло=S,n,inan=abl,pl} {минута=S,f,inan=gen,pl}.
+
+{на=PR=} {огонь=S,m,inan=abl,sg} {минута=S,f,inan=gen,pl},
+	{в=PR=} {брызги=S,pl,inan=abl} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слово=S,n,inan=gen,pl},
+{хорошо=ADV=parenth} {цвести=V,ipf,intr=inpraes,pl,indic,3p}
+	{опьянение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сон=S,m,inan=gen,pl}.

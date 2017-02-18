@@ -1,116 +1,14 @@
-только=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-ум=S,m,inan=(acc,sg|nom,sg)
-_
-проникать=V,intr=praet,sg,indic,m,pf
-,\n
-в=PR=
-_
-замок=S,m,inan=(acc,sg|nom,sg)
-,_
-спрятать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-за=PR=
-_
-ров=S,m,inan=ins,pl
-.\n
-ты=SPRO,sg,2p=nom
-_
-увидеть=V,pf,tran=praet,sg,indic,m
-_
-тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-,\n
-с=PR=
-_
-зачарованный=A=ins,pl,plen
-_
-сон=S,m,inan=ins,pl
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мы=SPRO,pl,1p=dat
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-?\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-примета=S,f,inan=nom,sg
-:\n
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-схимник=S,m,anim=abl,sg
-_\u2014_
-вампир=S,m,anim=nom,sg
-,\n
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-дьявол=S,m,anim=abl,sg
-_\u2014_
-комета=S,f,inan=nom,sg
-.\n\n
-только=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-понимать=V=inpraes,sg,indic,2p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
-только=PART=
-_
-ты=SPRO,sg,2p=nom
-._
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-человек=S,m,anim=nom,pl
-!\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-от=PR=
-_
-дух=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-огонь=S,m,inan=gen,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_\u2014_
-чудо=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-чудо=S,n,inan=abl,sg
-.\n
+{только=PART=} {ты=SPRO,sg,2p=nom} {в=PR=} {мой=APRO=(nom,pl|acc,pl,inan)} {ум=S,m,inan=(acc,sg|nom,sg)} {проникать=V,intr=praet,sg,indic,m,pf},
+{в=PR=} {замок=S,m,inan=(acc,sg|nom,sg)}, {спрятать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {за=PR=} {ров=S,m,inan=ins,pl}.
+{ты=SPRO,sg,2p=nom} {увидеть=V,pf,tran=praet,sg,indic,m} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лик=S,m,inan=(acc,sg|nom,sg)},
+{с=PR=} {зачарованный=A=ins,pl,plen} {сон=S,m,inan=ins,pl}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {мы=SPRO,pl,1p=dat} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)}?
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {с=PR=} {ты=SPRO,sg,2p=ins} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {примета=S,f,inan=nom,sg}:
+{в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {схимник=S,m,anim=abl,sg} — {вампир=S,m,anim=nom,sg},
+{в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {дьявол=S,m,anim=abl,sg} — {комета=S,f,inan=nom,sg}.
+
+{только=PART=} {ты=SPRO,sg,2p=nom} {понимать=V=inpraes,sg,indic,2p,pf} {я=SPRO,sg,1p=(acc|gen)}.
+{только=PART=} {ты=SPRO,sg,2p=nom}. {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {человек=S,m,anim=nom,pl}!
+{мы=SPRO,pl,1p=nom} — {от=PR=} {дух=S,m,inan=gen,sg} {и=CONJ=} {огонь=S,m,inan=gen,sg},
+{мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} — {чудо=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {чудо=S,n,inan=abl,sg}.

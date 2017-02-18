@@ -1,80 +1,8 @@
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-печальный=A=(dat,sg,plen,m|dat,sg,plen,n)
-,_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тоскливый=A=(dat,sg,plen,m|dat,sg,plen,n)
-!\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-он=SPRO,sg,3p,m=dat
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-что=CONJ=
-_
-он=SPRO,sg,3p,m=dat
-_
-звук=S,m,inan=(acc,pl|nom,pl)
-?\n
-новый=A=nom,sg,plen,f
-_
-пища=S,f,inan=nom,sg
-_
-страдание=S,n,inan=dat,sg
-_
-ревнивый=A=(dat,sg,plen,m|dat,sg,plen,n)
-,\n
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-разнузданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-напев=S,m,inan=(acc,pl|nom,pl)
-,_
-что=CONJ=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-срывать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-\n
-злобно=ADV=
-_
-лохмотья=S,pl,inan=(acc|nom)
-_
-с=PR=
-_
-усталый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-петь=V,ipf,tran=sg,imper,2p
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-не=PART=
-_
-знать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-\n
-платье=S,n,inan=dat,sg
-_
-износ=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-счастие=S,n,inan=dat,sg
-_
-предел=S,m,inan=gen,sg
-.\n
+{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {печальный=A=(dat,sg,plen,m|dat,sg,plen,n)}, {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тоскливый=A=(dat,sg,plen,m|dat,sg,plen,n)}!
+{что=SPRO,sg,n,inan=(acc|nom)} {он=SPRO,sg,3p,m=dat} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {что=CONJ=} {он=SPRO,sg,3p,m=dat} {звук=S,m,inan=(acc,pl|nom,pl)}?
+{новый=A=nom,sg,plen,f} {пища=S,f,inan=nom,sg} {страдание=S,n,inan=dat,sg} {ревнивый=A=(dat,sg,plen,m|dat,sg,plen,n)},
+{новый=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {разнузданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{этот=APRO=(nom,pl|acc,pl,inan)} {напев=S,m,inan=(acc,pl|nom,pl)}, {что=CONJ=} {ветер=S,m,inan=(acc,sg|nom,sg)} {срывать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}
+{злобно=ADV=} {лохмотья=S,pl,inan=(acc|nom)} {с=PR=} {усталый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {петь=V,ipf,tran=sg,imper,2p} {этот=APRO=(nom,pl|acc,pl,inan)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {не=PART=} {знать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}
+{платье=S,n,inan=dat,sg} {износ=S,m,inan=gen,sg} {и=CONJ=} {счастие=S,n,inan=dat,sg} {предел=S,m,inan=gen,sg}.

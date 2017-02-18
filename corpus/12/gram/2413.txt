@@ -1,142 +1,24 @@
-ясный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-жарко=ADV=
-,\n
-луг=S,m,inan=ins,sg
-_
-бежать=V,intr=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)
-_
-налегке=ADV=
-.\n
-медленно=ADV=
-_
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-барка=S,f,inan=nom,sg
-\n
-вниз=ADV=
-_
-по=PR=
-_
-ока=S,geo,f,inan=(abl,sg|dat,sg)
-.\n\n
-несколько=NUM=(|nom|acc,inan)
-_
-слово=S,n,inan=gen,pl
-_
-поневоле=ADV=
-\n
-все=SPRO,pl=(acc|nom)
-_
-повторять=V,tran=inpraes,sg,indic,2p,ipf
-_
-подряд=ADV=
-.\n
-где-то=ADVPRO=
-_
-бубенчик=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-слабо=ADV=
-_
-звенеть=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-звенеть=V,ipf,intr=inpraes,pl,indic,3p
-?_
-на=PR=
-_
-луг=S,m,inan=(dat,sg|loc,sg)
-_
-ли=PART=
-?\n
-ехать=V,ipf,intr=inpraes,pl,indic,3p
-_
-ли=PART=
-_
-на=PR=
-_
-молотьба=S,sg,f,inan=acc
-?\n
-глазок=S,m,inan=(acc,pl|nom,pl)
-_
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-заглядывать=V,intr=praet,pl,indic,pf
-\n
-в=PR=
-_
-чей-то=APRO=acc,sg,f
-_
-судьба=S,f,inan=acc,sg
-.\n\n
-синий=A=nom,sg,plen,f
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-_
-между=PR=
-_
-сосна=S,f,inan=gen,pl
-,\n
-говор=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-гумно=S,n,inan=abl,sg
-...\n
-и=CONJ=
-_
-улыбаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-\n
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-распахиваться=V,intr=praet,sg,indic,f,pf
-,_
-но=CONJ=
-_
-все=ADV=
-_
-же=PART=
-...\n
-ах=INTJ=
-,_
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-денек=S,m,inan=(acc,pl|nom,pl)
-!\n
-как=CONJ=
-_
-далекий=A=pl,brev
-_
-они=SPRO,pl=nom
-,_
-боже=S,voc,sg,m,anim=
-!\n
-господи=INTJ=
-,_
-как=CONJ=
-_
-далекий=A=pl,brev
-!\n
+{ясный=A=(acc,sg,plen,n|nom,sg,plen,n)} {утро=S,n,inan=(acc,sg|nom,sg)} {не=PART=} {жарко=ADV=},
+{луг=S,m,inan=ins,sg} {бежать=V,intr=(inpraes,sg,indic,2p,ipf|inpraes,sg,indic,2p,pf)} {налегке=ADV=}.
+{медленно=ADV=} {тянуться=V,ipf,intr=inpraes,sg,indic,3p} {барка=S,f,inan=nom,sg}
+{вниз=ADV=} {по=PR=} {ока=S,geo,f,inan=(abl,sg|dat,sg)}.
+
+{несколько=NUM=(|nom|acc,inan)} {слово=S,n,inan=gen,pl} {поневоле=ADV=}
+{все=SPRO,pl=(acc|nom)} {повторять=V,tran=inpraes,sg,indic,2p,ipf} {подряд=ADV=}.
+{где-то=ADVPRO=} {бубенчик=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{слабо=ADV=} {звенеть=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {звенеть=V,ipf,intr=inpraes,pl,indic,3p}? {на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)} {ли=PART=}?
+{ехать=V,ipf,intr=inpraes,pl,indic,3p} {ли=PART=} {на=PR=} {молотьба=S,sg,f,inan=acc}?
+{глазок=S,m,inan=(acc,pl|nom,pl)} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)} {заглядывать=V,intr=praet,pl,indic,pf}
+{в=PR=} {чей-то=APRO=acc,sg,f} {судьба=S,f,inan=acc,sg}.
+
+{синий=A=nom,sg,plen,f} {даль=S,f,inan=(acc,sg|nom,sg)} {между=PR=} {сосна=S,f,inan=gen,pl},
+{говор=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {гул=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {гумно=S,n,inan=abl,sg}...
+{и=CONJ=} {улыбаться=V,intr=inpraes,sg,indic,3p,ipf} {осень=S,f,inan=(acc,sg|nom,sg)}
+{наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {весна=S,f,inan=(abl,sg|dat,sg)}.
+
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {распахиваться=V,intr=praet,sg,indic,f,pf}, {но=CONJ=} {все=ADV=} {же=PART=}...
+{ах=INTJ=}, {золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {денек=S,m,inan=(acc,pl|nom,pl)}!
+{как=CONJ=} {далекий=A=pl,brev} {они=SPRO,pl=nom}, {боже=S,voc,sg,m,anim=}!
+{господи=INTJ=}, {как=CONJ=} {далекий=A=pl,brev}!

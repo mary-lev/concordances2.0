@@ -1,46 +1,8 @@
-белогвардеец=S,m,anim=nom,pl
-!_
-гордиев=A,plen,poss=(acc,sg,m,inan|nom,sg,m)
-_
-узел=S,m,inan=(acc,sg|nom,sg)
-\n
-доблесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n
-белогвардеец=S,m,anim=nom,pl
-!_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-груздь=S,m,inan=(acc,pl|nom,pl)
-\n
-песенка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!\n
-белогвардеец=S,m,anim=nom,pl
-!_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-выскребывать=V,tran=inf,pf
-!\n
-белогвардеец=S,m,anim=nom,pl
-!_
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гвоздь=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-антихрист=S,m,anim=dat,sg
-!\n
+{белогвардеец=S,m,anim=nom,pl}! {гордиев=A,plen,poss=(acc,sg,m,inan|nom,sg,m)} {узел=S,m,inan=(acc,sg|nom,sg)}
+{доблесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+{белогвардеец=S,m,anim=nom,pl}! {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {груздь=S,m,inan=(acc,pl|nom,pl)}
+{песенка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {русский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+{белогвардеец=S,m,anim=nom,pl}! {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {выскребывать=V,tran=inf,pf}!
+{белогвардеец=S,m,anim=nom,pl}! {черный=A=(acc,pl,plen,inan|nom,pl,plen)} {гвоздь=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {антихрист=S,m,anim=dat,sg}!

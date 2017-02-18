@@ -1,126 +1,19 @@
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-тихо=ADV=comp
-,_
-дождик=S,m,inan=(acc,sg|nom,sg)
-_
-глухой=A=comp
-,\n
-и=CONJ=
-_
-на=PR=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ответ=S,m,inan=(acc,sg|nom,sg)
-:_\n
-корабль=S,m,inan=(acc,pl|nom,pl)
-_
-увидеть=V,pf,tran=inpraes,pl,indic,3p
-_
-суша=S,f,inan=acc,sg
-,_\n
-мертвый=S,m,anim=nom,pl
-_
-увидеть=V,pf,tran=inpraes,pl,indic,3p
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n\n
-ежедневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мука=S,f,inan=acc,sg
-_\n
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-так=ADVPRO=
-_
-едва=ADV=
-_
-терпеть=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-за=PR=
-_
-ритмический=A=acc,sg,plen,f
-_
-скука=S,f,inan=acc,sg
-,_\n
-дождик=S,m,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-барабанить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-барабанить=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-барабанить=V,ipf,intr=inpraes,sg,indic,3p
-,_\u2014_
-ну=PART=
-_
-и=CONJ=
-_
-пусть=PART=
-.\n
-а=CONJ=
-_
-когда=CONJ=
-_
-совсем=ADV=
-_
-уставать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-мой=APRO=nom,sg,f
-_
-уставать=V,intr=inpraes,sg,indic,3p,pf
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-самый=APRO=(abl,sg,m|abl,sg,n)
-_
-дело=S,n,inan=abl,sg
-_\u2014_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-трусить=V,ipf,tran=inpraes,sg,indic,1p
-:_\n
-плохо=ADV=comp
-_
-страх=S,m,inan=gen,sg
-_
-вещь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-нет=ADV,praed=
-.\n
-ну=PART=
-_
-и=CONJ=
-_
-потерять=V,pf,tran=inpraes,sg,indic,1p
-_
-душа=S,f,inan=acc,sg
-,\n
-ну=PART=
-_
-и=CONJ=
-_
-не=PART=
-_
-увидеть=V,pf,tran=inpraes,sg,indic,1p
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n
+{ветер=S,m,inan=(acc,sg|nom,sg)} {тихо=ADV=comp}, {дождик=S,m,inan=(acc,sg|nom,sg)} {глухой=A=comp},
+{и=CONJ=} {на=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {ответ=S,m,inan=(acc,sg|nom,sg)}: 
+{корабль=S,m,inan=(acc,pl|nom,pl)} {увидеть=V,pf,tran=inpraes,pl,indic,3p} {суша=S,f,inan=acc,sg}, 
+{мертвый=S,m,anim=nom,pl} {увидеть=V,pf,tran=inpraes,pl,indic,3p} {свет=S,sg,m,inan=(acc|nom)}.
+
+{ежедневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мука=S,f,inan=acc,sg} 
+{я=SPRO,sg,1p=nom} {и=CONJ=} {так=ADVPRO=} {едва=ADV=} {терпеть=V,ipf,tran=inpraes,sg,indic,1p}.
+{за=PR=} {ритмический=A=acc,sg,plen,f} {скука=S,f,inan=acc,sg}, 
+{дождик=S,m,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {любить=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{барабанить=V,ipf,intr=inpraes,sg,indic,3p}, {барабанить=V,ipf,intr=inpraes,sg,indic,3p}, 
+{барабанить=V,ipf,intr=inpraes,sg,indic,3p}, — {ну=PART=} {и=CONJ=} {пусть=PART=}.
+{а=CONJ=} {когда=CONJ=} {совсем=ADV=} {уставать=V,intr=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {мой=APRO=nom,sg,f} {уставать=V,intr=inpraes,sg,indic,3p,pf} {грусть=S,f,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {самый=APRO=(abl,sg,m|abl,sg,n)} {дело=S,n,inan=abl,sg} — {что=CONJ=} {я=SPRO,sg,1p=nom} {трусить=V,ipf,tran=inpraes,sg,indic,1p}: 
+{плохо=ADV=comp} {страх=S,m,inan=gen,sg} {вещь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=}.
+{ну=PART=} {и=CONJ=} {потерять=V,pf,tran=inpraes,sg,indic,1p} {душа=S,f,inan=acc,sg},
+{ну=PART=} {и=CONJ=} {не=PART=} {увидеть=V,pf,tran=inpraes,sg,indic,1p} {свет=S,sg,m,inan=(acc|nom)}.

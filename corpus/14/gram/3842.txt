@@ -1,96 +1,15 @@
-за=PR=
-_
-узор=S,m,inan=ins,sg
-_
-дымный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стекло=S,n,inan=gen,pl
-_\n
-хвойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-под=PR=
-_
-снег=S,m,inan=ins,sg
-_
-белый=A=sg,brev,m
-._\n
-отчего=ADVPRO=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сокол=S,m,inan=(acc,sg|nom,sg)
-_\n
-не=PART=
-_
-прощаться=V,intr=praet,ger,pf
-_
-улетать=V,intr=praet,sg,indic,m,pf
-?\n\n
-слушать=V,ipf,tran=inpraes,sg,indic,1p
-_
-людской=A,plen=(nom,pl|acc,pl,inan)
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-._\n
-говорить=V,ipf,tran=inpraes,pl,indic,3p
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-колдун=S,m,anim=nom,sg
-._\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-узкий=A=sg,brev,m
-_
-с=PR=
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-шушун=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-а=CONJ=
-_
-дорога=S,f,inan=nom,sg
-_
-до=PR=
-_
-погост=S,m,inan=gen,sg
-_\n
-во=PR=
-_
-сто=NUM=(acc|nom)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-длинный=A=comp
-,_\n
-чем=CONJ=
-_
-тогда=ADVPRO=
-,_
-когда=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-просто=PART=
-_\n
-идти=V,ipf,intr=praet,sg,indic,f
-_
-бродить=V,ipf,intr=inf
-_
-по=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-.\n\n
+{за=PR=} {узор=S,m,inan=ins,sg} {дымный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стекло=S,n,inan=gen,pl} 
+{хвойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)} {под=PR=} {снег=S,m,inan=ins,sg} {белый=A=sg,brev,m}. 
+{отчего=ADVPRO=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)} 
+{не=PART=} {прощаться=V,intr=praet,ger,pf} {улетать=V,intr=praet,sg,indic,m,pf}?
+
+{слушать=V,ipf,tran=inpraes,sg,indic,1p} {людской=A,plen=(nom,pl|acc,pl,inan)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}. 
+{говорить=V,ipf,tran=inpraes,pl,indic,3p}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {колдун=S,m,anim=nom,sg}. 
+{становиться=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(abl|dat)} {узкий=A=sg,brev,m} {с=PR=} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {шушун=S,m,inan=(acc,sg|nom,sg)}.
+
+{а=CONJ=} {дорога=S,f,inan=nom,sg} {до=PR=} {погост=S,m,inan=gen,sg} 
+{во=PR=} {сто=NUM=(acc|nom)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {длинный=A=comp}, 
+{чем=CONJ=} {тогда=ADVPRO=}, {когда=CONJ=} {я=SPRO,sg,1p=nom} {просто=PART=} 
+{идти=V,ipf,intr=praet,sg,indic,f} {бродить=V,ipf,intr=inf} {по=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}.
+

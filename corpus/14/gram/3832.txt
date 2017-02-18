@@ -1,98 +1,13 @@
-здравствовать=V,ipf,intr=sg,imper,2p
-!_
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-_
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-\n
-справа=ADV=
-_
-от=PR=
-_
-стол=S,m,inan=gen,sg
-?\n
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-строчка=S,f,inan=gen,pl
-_
-не=PART=
-_
-дописывать=V,tran=inpraes,sg,indic,2p,pf
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-приходить=V,intr=praet,sg,indic,f,pf
-.\n
-неужели=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-обижать=V=inpraes,sg,indic,2p,pf
-\n
-так=ADVPRO=
-,_
-как=ADVPRO=
-_
-в=PR=
-_
-прошлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,_\u2014\n
-говорить=V,ipf,tran=inpraes,sg,indic,2p
-,_
-что=CONJ=
-_
-рука=S,f,inan=gen,pl
-_
-не=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-,\n
-рука=S,f,inan=gen,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-и=CONJ=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n
-у=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-светло=ADV=
-_
-и=CONJ=
-_
-просто=ADV=
-,\n
-не=PART=
-_
-гнать=V,ipf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-туда=ADVPRO=
-,\n
-где=ADVPRO=
-_
-под=PR=
-_
-душный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-свод=S,m,inan=ins,sg
-_
-мост=S,m,inan=gen,sg
-\n
-стыть=V,ipf=inpraes,sg,indic,3p
-_
-грязный=A=nom,sg,plen,f
-_
-вода=S,f,inan=nom,sg
-.\n\n
+{здравствовать=V,ipf,intr=sg,imper,2p}! {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шелест=S,m,inan=(acc,sg|nom,sg)} {слышать=V,ipf,tran=inpraes,sg,indic,2p}
+{справа=ADV=} {от=PR=} {стол=S,m,inan=gen,sg}?
+{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {строчка=S,f,inan=gen,pl} {не=PART=} {дописывать=V,tran=inpraes,sg,indic,2p,pf} —
+{я=SPRO,sg,1p=nom} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {приходить=V,intr=praet,sg,indic,f,pf}.
+{неужели=PART=} {ты=SPRO,sg,2p=nom} {обижать=V=inpraes,sg,indic,2p,pf}
+{так=ADVPRO=}, {как=ADVPRO=} {в=PR=} {прошлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}, —
+{говорить=V,ipf,tran=inpraes,sg,indic,2p}, {что=CONJ=} {рука=S,f,inan=gen,pl} {не=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,2p},
+{рука=S,f,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {и=CONJ=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+{у=PR=} {ты=SPRO,sg,2p=(acc|gen)} {светло=ADV=} {и=CONJ=} {просто=ADV=},
+{не=PART=} {гнать=V,ipf,tran=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)} {туда=ADVPRO=},
+{где=ADVPRO=} {под=PR=} {душный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свод=S,m,inan=ins,sg} {мост=S,m,inan=gen,sg}
+{стыть=V,ipf=inpraes,sg,indic,3p} {грязный=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg}.
+

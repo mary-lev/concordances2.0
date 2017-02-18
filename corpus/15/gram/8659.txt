@@ -1,92 +1,13 @@
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=nom
-_
-ликовать=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-я=SPRO,sg,1p=nom
-_
-свершать=V,tran=inpraes,sg,indic,1p,ipf
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-завет=S,m,inan=(acc,sg|nom,sg)
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-лелеять=V,ipf,tran=inpraes,ger
-_
-молодой=A=acc,sg,plen,f
-,\n
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-сердце=S,n,inan=dat,pl
-_
-давать=V,tran=inpraes,sg,indic,1p,ipf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=nom
-_
-ликовать=V,ipf,intr=inpraes,sg,indic,1p
-!\n\n
-но=CONJ=
-_
-сказать=V,pf,tran=sg,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_
-ты=SPRO,sg,2p=nom
-\n
-ведь=PART=
-_
-лелеять=V,ipf,tran=inpraes,sg,indic,2p
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-?\n\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-колдовать=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-я=SPRO,sg,1p=nom
-_
-проведывать=V,tran=praet,sg,indic,m,pf
-:_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-,\n
-как=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-цветочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чаша=S,f,inan=gen,pl
-,\n
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-тайна=S,f,inan=acc,sg
-_
-мировой=A=acc,sg,plen,f
-!\n
+{воздух=S,m,inan=(acc,sg|nom,sg)}, {ветер=S,m,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {ликовать=V,ipf,intr=inpraes,sg,indic,1p},
+{я=SPRO,sg,1p=nom} {свершать=V,tran=inpraes,sg,indic,1p,ipf} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {завет=S,m,inan=(acc,sg|nom,sg)},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {лелеять=V,ipf,tran=inpraes,ger} {молодой=A=acc,sg,plen,f},
+{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {сердце=S,n,inan=dat,pl} {давать=V,tran=inpraes,sg,indic,1p,ipf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {свет=S,sg,m,inan=(acc|nom)}.
+{ветер=S,m,inan=(acc,sg|nom,sg)}, {воздух=S,m,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {ликовать=V,ipf,intr=inpraes,sg,indic,1p}!
+
+{но=CONJ=} {сказать=V,pf,tran=sg,imper,2p} {я=SPRO,sg,1p=(abl|dat)}, {воздух=S,m,inan=(acc,sg|nom,sg)}, {ты=SPRO,sg,2p=nom}
+{ведь=PART=} {лелеять=V,ipf,tran=inpraes,sg,indic,2p} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {цветок=S,m,inan=(acc,pl|nom,pl)}?
+
+{ты=SPRO,sg,2p=nom} — {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {я=SPRO,sg,1p=nom} {колдовать=V,ipf,intr=inpraes,sg,indic,1p}.
+{я=SPRO,sg,1p=nom} {проведывать=V,tran=praet,sg,indic,m,pf}: {воздух=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)},
+{как=CONJ=} {душа=S,f,inan=nom,sg} {цветочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чаша=S,f,inan=gen,pl},
+{знать=V,ipf,tran=inpraes,sg,indic,3p} {тайна=S,f,inan=acc,sg} {мировой=A=acc,sg,plen,f}!

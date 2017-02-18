@@ -1,84 +1,14 @@
-уж=PART=
-_
-рыбак=S,m,anim=nom,pl
-_
-вернуться=V,pf,intr=praet,pl,indic
-_
-с=PR=
-_
-ловля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-потускнеть=V,pf,intr=praet,pl,indic
-_
-валун=S,m,inan=(acc,pl|nom,pl)
-,\n
-ложиться=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-соломенный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-розовый=A=sg,brev,n
--
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-настораживаться=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)
-_
-ухо=S,n,inan=(acc,sg|nom,sg)
-_\n
-слушать=V,ipf,tran=inpraes,sg,indic,3p
-_
-медленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-прибой=S,m,inan=(acc,sg|nom,sg)
-:_\n
-плескаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мерно=ADV=
-,_
-глухо=ADV=
-,_\n
-словно=CONJ=
-_
-час=S,m,inan=gen,pl
-_
-старинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-бой=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-над=PR=
-_
-тревожный=A=ins,pl,plen
-_
-волна=S,f,inan=ins,pl
-_\n
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-_
-гаснуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)
-,_
-бледный=A=sg,brev,f
-,_\n
-за=PR=
-_
-беспокойный=A=ins,pl,plen
-_
-ветвь=S,f,inan=ins,pl
-_\u2014_\n
-приподниматься=V,intr=inpraes,sg,indic,3p,ipf
-_
-луна=S,f,inan=nom,sg
-.\n
+{уж=PART=} {рыбак=S,m,anim=nom,pl} {вернуться=V,pf,intr=praet,pl,indic} {с=PR=} {ловля=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {потускнеть=V,pf,intr=praet,pl,indic} {валун=S,m,inan=(acc,pl|nom,pl)},
+{ложиться=V,intr=praet,sg,indic,m,pf} {на=PR=} {соломенный=A=(acc,pl,plen,inan|nom,pl,plen)} {кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{розовый=A=sg,brev,n}-{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {блеск=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{настораживаться=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)} {ухо=S,n,inan=(acc,sg|nom,sg)} 
+{слушать=V,ipf,tran=inpraes,sg,indic,3p} {медленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {прибой=S,m,inan=(acc,sg|nom,sg)}: 
+{плескаться=V,ipf,intr=inpraes,sg,indic,3p} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мерно=ADV=}, {глухо=ADV=}, 
+{словно=CONJ=} {час=S,m,inan=gen,pl} {старинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бой=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {над=PR=} {тревожный=A=ins,pl,plen} {волна=S,f,inan=ins,pl} 
+{в=PR=} {воздух=S,m,inan=abl,sg} {гаснуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)}, {бледный=A=sg,brev,f}, 
+{за=PR=} {беспокойный=A=ins,pl,plen} {ветвь=S,f,inan=ins,pl} — 
+{приподниматься=V,intr=inpraes,sg,indic,3p,ipf} {луна=S,f,inan=nom,sg}.

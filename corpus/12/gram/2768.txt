@@ -1,46 +1,7 @@
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-знать=V,ipf,tran=inf
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-богачество?=S,n,inan=(acc,sg|nom,sg)
-?\n
-скакун=S,m,anim=dat,sg
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_\u2014_
-скакаться?=V,pf,intr=inpraes,sg,indic,3p
-,\n
-мертвый=S,m,anim=(dat,pl|ins,sg)
-_\u2014_
-спаться=V,ipf,intr=inpraes,indic
-,_
-птица=S,f,anim=dat,pl
-_\u2014_
-свистаться=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-юный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014_
-рыщется?=V,inpraes,sg,indic,3p,ipf=|рыщется?=V,inpraes,sg,indic,3p,ipf,intr=
-_
-да=CONJ=
-_
-искаться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-неразумный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-баба=S,f,anim=dat,pl
-_\u2014_
-плакаться=V,ipf,intr=inpraes,sg,indic,3p
-.\n_\u2014_
-слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-богачество?=S,n,inan=(acc,sg|nom,sg)
-!\n
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {знать=V,ipf,tran=inf} {мой=APRO=(acc,sg,n|nom,sg,n)} {богачество?=S,n,inan=(acc,sg|nom,sg)}?
+{скакун=S,m,anim=dat,sg} {на=PR=} {свет=S,sg,m,inan=abl} — {скакаться?=V,pf,intr=inpraes,sg,indic,3p},
+{мертвый=S,m,anim=(dat,pl|ins,sg)} — {спаться=V,ipf,intr=inpraes,indic}, {птица=S,f,anim=dat,pl} — {свистаться=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{юный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {рыщется?=V,inpraes,sg,indic,3p,ipf=|рыщется?=V,inpraes,sg,indic,3p,ipf,intr=} {да=CONJ=} {искаться=V,ipf,intr=inpraes,sg,indic,3p},
+{неразумный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {баба=S,f,anim=dat,pl} — {плакаться=V,ipf,intr=inpraes,sg,indic,3p}.
+ — {слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дар=S,m,inan=(acc,sg|nom,sg)} — {мой=APRO=(acc,sg,n|nom,sg,n)} {богачество?=S,n,inan=(acc,sg|nom,sg)}!

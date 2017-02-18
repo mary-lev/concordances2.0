@@ -1,76 +1,8 @@
-межа=S,f,inan=gen,pl
-_
-сосна=S,f,inan=gen,pl
-_
-метель=S,f,inan=(acc,sg|nom,sg)
-_
-присмиреть=V,pf,intr=praet,sg,indic,f
-,\n
-но=CONJ=
-,_
-пьяный=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-без=PR=
-_
-вино=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-там=ADVPRO=
-,_
-словно=CONJ=
-_
-офелия=S,persn,f,anim=nom,sg
-,_
-петь=V,ipf,tran=praet,sg,indic,f
-\n
-весь=APRO=acc,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=dat
-_
-сам=APRO=nom,sg,f
-_
-тишина=S,sg,f,inan=nom
-.\n
-а=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-только=PART=
-_
-казаться=V,ipf,intr=praet,sg,indic,m
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-с=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-обручать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-тишина=S,sg,f,inan=ins
-,\n
-прощаться=V,intr=praet,ger,pf
-,_
-он=SPRO,sg,3p,m=nom
-_
-щедро=ADV=
-_
-оставаться=V,intr=praet,sg,indic,m,pf
-,\n
-он=SPRO,sg,3p,m=nom
-_
-насмерть=ADV=
-_
-оставаться=V,intr=praet,sg,indic,m,pf
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-.\n
+{межа=S,f,inan=gen,pl} {сосна=S,f,inan=gen,pl} {метель=S,f,inan=(acc,sg|nom,sg)} {присмиреть=V,pf,intr=praet,sg,indic,f},
+{но=CONJ=}, {пьяный=A=nom,sg,plen,f} {и=CONJ=} {без=PR=} {вино=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{там=ADVPRO=}, {словно=CONJ=} {офелия=S,persn,f,anim=nom,sg}, {петь=V,ipf,tran=praet,sg,indic,f}
+{весь=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=dat} {сам=APRO=nom,sg,f} {тишина=S,sg,f,inan=nom}.
+{а=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {я=SPRO,sg,1p=(abl|dat)} {только=PART=} {казаться=V,ipf,intr=praet,sg,indic,m},
+{быть=V,intr=praet,sg,indic,m,ipf} {с=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {обручать=V,tran=praet,sg,partcp,brev,m,pf,pass} {тишина=S,sg,f,inan=ins},
+{прощаться=V,intr=praet,ger,pf}, {он=SPRO,sg,3p,m=nom} {щедро=ADV=} {оставаться=V,intr=praet,sg,indic,m,pf},
+{он=SPRO,sg,3p,m=nom} {насмерть=ADV=} {оставаться=V,intr=praet,sg,indic,m,pf} {со=PR=} {я=SPRO,sg,1p=ins}.

@@ -1,150 +1,20 @@
-проходить=V,intr=praet,sg,indic,n,pf
-_
-туманный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-томление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-ясный=A=sg,brev,n
-_\u2014_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-острие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014\n
-мой=APRO=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-мучение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\n
-изнеможение=S,n,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-ничто=SPRO,sg,n=gen
-_
-забывать=V=inf,pf
-_
-не=PART=
-_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-_\n
-и=CONJ=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-не=PART=
-_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-_
-отводить=V=inf,pf
-_\n
-от=PR=
-_
-слабый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-рука=S,f,inan=gen,pl
-,_
-от=PR=
-_
-взор=S,m,inan=gen,pl
-_
-милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_\n
-от=PR=
-_
-губа=S,f,inan=gen,pl
-,_
-я=SPRO,sg,1p=(abl|dat)
-_
-шептать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-:_\xAB
-прощать=V=sg,imper,2p,pf
-\xBB.\n\n
-понимать=V=pl,imper,2p,pf
-,_
-я=SPRO,sg,1p=nom
-_
-смертельно=ADV=
-_
-больной=A=sg,brev,m
-,_\n
-отравлять=V,tran=praet,sg,partcp,brev,m,pf,pass
-,_
-сковывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-навсегда=ADV=
-.\n
-в=PR=
-_
-темница=S,f,inan=(abl,sg|dat,sg)
-,_
-где=ADVPRO=
-_
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-_
-безвольный=A=sg,brev,m
-,_\n
-лишь=PART=
-_
-ваш=APRO=(acc,sg,n|nom,sg,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-звезда=S,f,inan=nom,sg
-.\n\n
-но=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-горький=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-томление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-милый=A=comp
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-чем=CONJ=
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рай=S,sg,m,inan=(acc|nom)
-._\n
-когда=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сказать=V,pf,tran=inpraes,pl,indic,3p
-:_\xAB
-выбирать=V=sg,imper,2p,ipf,tran
-\xBB,_\n
-отвергать=V,tran=inpraes,sg,indic,1p,pf
-_
-воля=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-целение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-целовать=V,ipf,tran=inpraes,ger
-_
-вы=SPRO,pl,2p=dat
-_
-одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-край=S,m,inan=(acc,sg|nom,sg)
-.\n
+{проходить=V,intr=praet,sg,indic,n,pf} {туманный=A=(acc,sg,plen,n|nom,sg,plen,n)} {томление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{все=SPRO,pl=(acc|nom)} {ясный=A=sg,brev,n} — {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {острие=S,n,inan=(abl,sg|acc,sg|nom,sg)} —
+{мой=APRO=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)}, {мой=APRO=(acc,sg,n|nom,sg,n)} {мучение=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{изнеможение=S,n,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)}.
+
+{я=SPRO,sg,1p=nom} {ничто=SPRO,sg,n=gen} {забывать=V=inf,pf} {не=PART=} {в=PR=} {сила=S,f,inan=abl,pl} 
+{и=CONJ=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {не=PART=} {в=PR=} {сила=S,f,inan=abl,pl} {отводить=V=inf,pf} 
+{от=PR=} {слабый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {рука=S,f,inan=gen,pl}, {от=PR=} {взор=S,m,inan=gen,pl} {милый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, 
+{от=PR=} {губа=S,f,inan=gen,pl}, {я=SPRO,sg,1p=(abl|dat)} {шептать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}: «{прощать=V=sg,imper,2p,pf}».
+
+{понимать=V=pl,imper,2p,pf}, {я=SPRO,sg,1p=nom} {смертельно=ADV=} {больной=A=sg,brev,m}, 
+{отравлять=V,tran=praet,sg,partcp,brev,m,pf,pass}, {сковывать=V=praet,sg,partcp,brev,m,pf,pass} {навсегда=ADV=}.
+{в=PR=} {темница=S,f,inan=(abl,sg|dat,sg)}, {где=ADVPRO=} {лежать=V,ipf,intr=inpraes,sg,indic,1p} {безвольный=A=sg,brev,m}, 
+{лишь=PART=} {ваш=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)}, {как=CONJ=} {звезда=S,f,inan=nom,sg}.
+
+{но=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {горький=A=(acc,sg,plen,n|nom,sg,plen,n)} {томление=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{милый=A=comp} {я=SPRO,sg,1p=(abl|dat)}, {чем=CONJ=} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рай=S,sg,m,inan=(acc|nom)}. 
+{когда=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {сказать=V,pf,tran=inpraes,pl,indic,3p}: «{выбирать=V=sg,imper,2p,ipf,tran}», 
+{отвергать=V,tran=inpraes,sg,indic,1p,pf} {воля=S,f,inan=acc,sg} {и=CONJ=} {целение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{целовать=V,ipf,tran=inpraes,ger} {вы=SPRO,pl,2p=dat} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {край=S,m,inan=(acc,sg|nom,sg)}.

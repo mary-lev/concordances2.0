@@ -1,56 +1,9 @@
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-всегда=ADVPRO=
-_
-вдохновенно=ADV=
-!\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-всегда=ADVPRO=
-_
-горячо=ADV=
-!\n
-друг=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-!_
-сливаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-мгновенно=ADV=
-:\n
-наш=APRO=(acc,sg,n|nom,sg,n)
-_
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-ничей=APRO=(acc,sg,n|nom,sg,n)
-.\n\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-безнадежный=A=sg,brev,f
-_
-и=CONJ=
-_
-тленный=A=sg,brev,f
-,\n
-миг=S,m,inan=ins,sg
-_
-трепетать=V,ipf,intr=inpraes,sg,indic,3p
-_
-плечо=S,n,inan=(acc,sg|nom,sg)
-...\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-мы=SPRO,pl,1p=nom
-,_
-вдохновенно=ADV=
-!\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-мы=SPRO,pl,1p=nom
-,_
-горячо=ADV=
-!\n
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {всегда=ADVPRO=} {вдохновенно=ADV=}!
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {всегда=ADVPRO=} {горячо=ADV=}!
+{друг=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}! {сливаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {мгновенно=ADV=}:
+{наш=APRO=(acc,sg,n|nom,sg,n)} {желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {ничей=APRO=(acc,sg,n|nom,sg,n)}.
+
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {безнадежный=A=sg,brev,f} {и=CONJ=} {тленный=A=sg,brev,f},
+{миг=S,m,inan=ins,sg} {трепетать=V,ipf,intr=inpraes,sg,indic,3p} {плечо=S,n,inan=(acc,sg|nom,sg)}...
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {как=CONJ=} {мы=SPRO,pl,1p=nom}, {вдохновенно=ADV=}!
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {как=CONJ=} {мы=SPRO,pl,1p=nom}, {горячо=ADV=}!

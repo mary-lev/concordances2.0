@@ -1,182 +1,34 @@
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_
-плащ=S,m,inan=(acc,sg|nom,sg)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-фонарь=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-лужа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-как=ADVPRO=
-_
-играть=V,ipf,tran=praet,pl,indic
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-\n
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-жена=S,f,anim=acc,sg
-_
-и=CONJ=
-_
-муж=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-браслет=S,m,inan=(acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-корсет=S,m,inan=(acc,sg|nom,sg)
-,\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-малиновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жилет=S,m,inan=(acc,sg|nom,sg)
-,\n
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-клетчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плед=S,m,inan=(acc,sg|nom,sg)
-?!\n\n
-ты=SPRO,sg,2p=nom
-,_
-по=PR=
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-писать=V,ipf,tran=praet,sg,indic,m
-_
-сонет=S,m,inan=(acc,pl|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-варить=V,ipf,tran=praet,sg,indic,f
-_
-боб=S,m,inan=(acc,pl|nom,pl)
-\n
-юный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-поэт=S,m,anim=dat,sg
-.\n\n
-как=ADVPRO=
-_
-над=PR=
-_
-карта=S,f,inan=ins,sg
-_
-вино=S,n,inan=gen,pl
-\n
-мы=SPRO,pl,1p=nom
-_
-на=PR=
-_
-палец=S,m,inan=(acc,pl|nom,pl)
-_
-дуть=V,ipf,tran=praet,pl,indic
-,\n
-как=CONJ=
-_
-в=PR=
-_
-дымить=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-камин=S,m,inan=(acc,sg|nom,sg)
-\n
-полететь=V,pf,intr=praet,pl,indic
-_
-стул=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-помнить=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-шкаф=S,m,inan=(acc,sg|nom,sg)
-_
-под=PR=
-_
-орех=S,m,inan=(acc,sg|nom,sg)
-?\n
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-отчаянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-,_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-,\n
-гнев=S,m,inan=(acc,sg|nom,sg)
-_
-домохозяин=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-как=ADVPRO=
-_
-стучать=V,ipf,intr=praet,sg,indic,m
-_
-мы=SPRO,pl,1p=dat
-_
-сосед=S,m,anim=nom,sg
-,\n
-флейта=S,f,inan=ins,sg
-_
-разбудить=V,pf,tran=praet,sg,partcp,brev,m,pass
-...\n
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-_\u2014_
-в=PR=
-_
-обед=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-_\u2014_
-на=PR=
-_
-ужин=S,m,inan=(acc,sg|nom,sg)
-...\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-браслет=S,m,inan=(acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-корсет=S,m,inan=(acc,sg|nom,sg)
-,\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-малиновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жилет=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-клетчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-плед=S,m,inan=(acc,sg|nom,sg)
-...\n
+{помнить=V,ipf,tran=inpraes,sg,indic,2p} {плащ=S,m,inan=(acc,sg|nom,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{фонарь=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {лужа=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+{как=ADVPRO=} {играть=V,ipf,tran=praet,pl,indic} {с=PR=} {ты=SPRO,sg,2p=ins}
+{мы=SPRO,pl,1p=nom} {в=PR=} {жена=S,f,anim=acc,sg} {и=CONJ=} {муж=S,m,anim=(acc,sg|gen,sg)}.
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {браслет=S,m,inan=(acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {корсет=S,m,inan=(acc,sg|nom,sg)},
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {малиновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жилет=S,m,inan=(acc,sg|nom,sg)},
+{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {клетчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плед=S,m,inan=(acc,sg|nom,sg)}?!
+
+{ты=SPRO,sg,2p=nom}, {по=PR=} {воля=S,f,inan=(abl,sg|dat,sg)} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{все=SPRO,pl=(acc|nom)} {писать=V,ipf,tran=praet,sg,indic,m} {сонет=S,m,inan=(acc,pl|nom,pl)}.
+{я=SPRO,sg,1p=nom} {варить=V,ipf,tran=praet,sg,indic,f} {боб=S,m,inan=(acc,pl|nom,pl)}
+{юный=A=(dat,sg,plen,m|dat,sg,plen,n)} {поэт=S,m,anim=dat,sg}.
+
+{как=ADVPRO=} {над=PR=} {карта=S,f,inan=ins,sg} {вино=S,n,inan=gen,pl}
+{мы=SPRO,pl,1p=nom} {на=PR=} {палец=S,m,inan=(acc,pl|nom,pl)} {дуть=V,ipf,tran=praet,pl,indic},
+{как=CONJ=} {в=PR=} {дымить=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {камин=S,m,inan=(acc,sg|nom,sg)}
+{полететь=V,pf,intr=praet,pl,indic} {стул=S,m,inan=(acc,pl|nom,pl)}.
+
+{помнить=V,ipf,tran=inpraes,sg,indic,2p} — {шкаф=S,m,inan=(acc,sg|nom,sg)} {под=PR=} {орех=S,m,inan=(acc,sg|nom,sg)}?
+{холод=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {отчаянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {страх=S,m,inan=(acc,sg|nom,sg)}, {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {смех=S,m,inan=(acc,sg|nom,sg)},
+{гнев=S,m,inan=(acc,sg|nom,sg)} {домохозяин=S,m,anim=(acc,sg|gen,sg)}.
+
+{как=ADVPRO=} {стучать=V,ipf,intr=praet,sg,indic,m} {мы=SPRO,pl,1p=dat} {сосед=S,m,anim=nom,sg},
+{флейта=S,f,inan=ins,sg} {разбудить=V,pf,tran=praet,sg,partcp,brev,m,pass}...
+{поцелуй=S,m,inan=(acc,pl|nom,pl)} — {в=PR=} {обед=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {стих=S,m,inan=(acc,pl|nom,pl)} — {на=PR=} {ужин=S,m,inan=(acc,sg|nom,sg)}...
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {браслет=S,m,inan=(acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {корсет=S,m,inan=(acc,sg|nom,sg)},
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {малиновый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жилет=S,m,inan=(acc,sg|nom,sg)} — 
+{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {клетчатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {плед=S,m,inan=(acc,sg|nom,sg)}...

@@ -1,126 +1,24 @@
-часы=S,pl,inan=(acc|nom)
-_
-стучать=V,ipf,intr=inpraes,pl,indic,3p
-_
-невнятный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-нет=PART=
-_
-полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=gen
-.\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-понятный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-скучный=A=pl,brev
-.\n\n
-угроза=S,f,inan=nom,sg
-_
-одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-обет=S,m,inan=(acc,sg|nom,sg)
-...\n
-не=PART=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-ни=CONJ=
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-беда=S,f,inan=gen,pl
-.\n\n
-не=PART=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-_
-необычайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-:\n
-все=SPRO,pl=(acc|nom)
-_
-просто=PART=
-_
-и=CONJ=
-_
-мертво=ADV=
-.\n
-ни=CONJ=
-_
-страшный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-ни=CONJ=
-_
-тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\n
-нет=PART=
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ничто=SPRO,sg,n=gen
-.\n\n
-везде=ADV=
-_
-однообразие=S,n,inan=(acc,sg|nom,sg)
-,\n
-мы=SPRO,pl,1p=nom
-_\u2014_
-ребенок=S,m,anim=nom,pl
-_
-без=PR=
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-,\n
-и=CONJ=
-_
-близко=ADV=
-_
-безобразие=S,n,inan=(acc,sg|nom,sg)
-_\n
-последний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-конец=S,m,inan=gen,sg
-.\n\n
-но=CONJ=
-_
-слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-смирение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-я=SPRO,sg,1p=nom
-_
-душа=S,f,inan=acc,sg
-_
-не=PART=
-_
-отдавать=V,tran=inpraes,sg,indic,1p,pf
-.\n
-не=PART=
-_
-надо=ADV,praed=
-_
-искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-кощунственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-слово=S,n,inan=dat,pl
-!\n
+{часы=S,pl,inan=(acc|nom)} {стучать=V,ipf,intr=inpraes,pl,indic,3p} {невнятный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{нет=PART=} {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen}.
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {понятный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {скучный=A=pl,brev}.
+
+{угроза=S,f,inan=nom,sg} {одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {обет=S,m,inan=(acc,sg|nom,sg)}...
+{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{ни=CONJ=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {беда=S,f,inan=gen,pl}.
+
+{не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {необычайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}:
+{все=SPRO,pl=(acc|nom)} {просто=PART=} {и=CONJ=} {мертво=ADV=}.
+{ни=CONJ=} {страшный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {ни=CONJ=} {тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} 
+{нет=PART=} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ничто=SPRO,sg,n=gen}.
+
+{везде=ADV=} {однообразие=S,n,inan=(acc,sg|nom,sg)},
+{мы=SPRO,pl,1p=nom} — {ребенок=S,m,anim=nom,pl} {без=PR=} {отец=S,m,anim=(acc,sg|gen,sg)},
+{и=CONJ=} {близко=ADV=} {безобразие=S,n,inan=(acc,sg|nom,sg)} 
+{последний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {конец=S,m,inan=gen,sg}.
+
+{но=CONJ=} {слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {смирение=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{я=SPRO,sg,1p=nom} {душа=S,f,inan=acc,sg} {не=PART=} {отдавать=V,tran=inpraes,sg,indic,1p,pf}.
+{не=PART=} {надо=ADV,praed=} {искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{кощунственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слово=S,n,inan=dat,pl}!

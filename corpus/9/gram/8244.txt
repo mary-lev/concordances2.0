@@ -1,108 +1,14 @@
-любить=V,ipf,tran=inf
-_
-иной=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_\u2014_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-прекрасный=A=sg,brev,f
-_
-без=PR=
-_
-извилина=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-прелесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-секрет=S,m,inan=(acc,sg|nom,sg)
-\n
-разгадка=S,f,inan=(abl,sg|dat,sg)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-равносильный=A=sg,brev,m
-.\n\n
-весна=S,f,inan=ins,sg
-_
-слышный=A=sg,brev,m
-_
-шорох=S,m,inan=(acc,sg|nom,sg)
-_
-сон=S,m,inan=gen,pl
-\n
-и=CONJ=
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-_
-новость=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-истина=S,f,inan=gen,pl
-.\n
-ты=SPRO,sg,2p=nom
-_
-из=PR=
-_
-семья=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-основа=S,f,inan=gen,pl
-.\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-смысл=S,m,inan=(acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_
-бескорыстный=A=sg,brev,m
-.\n\n
-легко=ADV=
-_
-просыпаться=V,intr=inf,pf
-_
-и=CONJ=
-_
-прозревать=V,intr=inf,pf
-,\n
-словесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сор=S,m,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-вытрясть?=V,pf=inf,tran|вытрясть?=V,pf=inf,tran
-\n
-и=CONJ=
-_
-жить=V,ipf,intr=inf
-,_
-не=PART=
-_
-засоряться=V,intr=inpraes,ger,ipf
-_
-впредь=ADV=
-.\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-не=PART=
-_
-большой=A=nom,sg,plen,f
-_
-хитрость=S,f,inan=(acc,sg|nom,sg)
-.\n
+{любить=V,ipf,tran=inf} {иной=APRO=(abl,pl|gen,pl|acc,pl,anim)} — {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крест=S,m,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {ты=SPRO,sg,2p=nom} {прекрасный=A=sg,brev,f} {без=PR=} {извилина=S,f,inan=gen,pl},
+{и=CONJ=} {прелесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {секрет=S,m,inan=(acc,sg|nom,sg)}
+{разгадка=S,f,inan=(abl,sg|dat,sg)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {равносильный=A=sg,brev,m}.
+
+{весна=S,f,inan=ins,sg} {слышный=A=sg,brev,m} {шорох=S,m,inan=(acc,sg|nom,sg)} {сон=S,m,inan=gen,pl}
+{и=CONJ=} {шелест=S,m,inan=(acc,sg|nom,sg)} {новость=S,f,inan=gen,pl} {и=CONJ=} {истина=S,f,inan=gen,pl}.
+{ты=SPRO,sg,2p=nom} {из=PR=} {семья=S,f,inan=(acc,pl|gen,sg|nom,pl)} {такой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {основа=S,f,inan=gen,pl}.
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {смысл=S,m,inan=(acc,sg|nom,sg)}, {как=CONJ=} {воздух=S,m,inan=(acc,sg|nom,sg)}, {бескорыстный=A=sg,brev,m}.
+
+{легко=ADV=} {просыпаться=V,intr=inf,pf} {и=CONJ=} {прозревать=V,intr=inf,pf},
+{словесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сор=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вытрясть?=V,pf=inf,tran|вытрясть?=V,pf=inf,tran}
+{и=CONJ=} {жить=V,ipf,intr=inf}, {не=PART=} {засоряться=V,intr=inpraes,ger,ipf} {впредь=ADV=}.
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} — {не=PART=} {большой=A=nom,sg,plen,f} {хитрость=S,f,inan=(acc,sg|nom,sg)}.

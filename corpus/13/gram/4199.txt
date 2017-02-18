@@ -1,154 +1,19 @@
-душа=S,f,inan=nom,sg
-,_
-я=SPRO,sg,1p=nom
-_
-горе=S,sg,n,inan=ins
-_
-не=PART=
-_
-терзать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,\n
-но=CONJ=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-ветреный=A=nom,sg,plen,f
-_
-странница=S,f,anim=nom,sg
-.\n
-все=ADV=
-_
-продавать=V,tran=inpraes,pl,indic,1p,ipf
-_
-мы=SPRO,pl,1p=nom
-,_
-все=SPRO,pl=dat
-_
-должать=V,ipf,intr=inpraes,pl,indic,1p
-,\n
-скоро=ADV=
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-оставаться=V,intr=inpraes,sg,indic,3p,pf
-.\n\n
-конечно=ADV,parenth=
-,_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-и=CONJ=
-_
-бог=S,m,anim=nom,sg
-,_
-и=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-воображение=S,n,inan=(acc,sg|nom,sg)
-,_
-который=APRO=(acc,sg,n|nom,sg,n)
-_
-не=PART=
-_
-лениться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-_
-когда=CONJ=
-_
-сидеть=V,ipf,intr=inpraes,sg,indic,2p
-_
-почти=ADV=
-_
-без=PR=
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-становиться=V,intr=inpraes,sg,indic,2p,ipf
-_
-как=CONJ=
-_
-смешной=A=nom,sg,plen,f
-_
-пленница=S,f,anim=nom,sg
-.\n\n
-муза=S,f,anim=nom,sg
-_
-вскакивать=V,intr=inpraes,sg,indic,3p,pf
-,_
-про=PR=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-рассказывать=V=inpraes,sg,indic,3p,pf
-\n(
-она=SPRO,sg,3p,f=nom
-_
-ведь=PART=
-_
-глупенький=A=nom,sg,plen,f
-,_
-дурочка=S,f,anim=nom,sg
-),\n
-но=CONJ=
-_
-взглядывать=V,intr=inpraes,sg,indic,2p,pf
-,_
-как=CONJ=
-_
-веревка=S,f,inan=ins,sg
-_
-вязать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-тюк=S,m,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-юрочка=S,persn,m,anim=nom,sg
-,_\u2014\n\n
-и=CONJ=
-_
-останавливаться=V,intr=inpraes,sg,indic,2p,pf
-._
-отрада=S,f,inan=nom,sg
-\n
-минутный=A=nom,sg,plen,f
-,_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мелкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-но=CONJ=
-,_
-боже=INTJ=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=dat
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-надо=ADV,praed=
-,\n
-чтобы=CONJ=
-_
-вертеться=V,ipf,intr=praet,sg,indic,m
-,_
-как=CONJ=
-_
-белка=S,f,anim=nom,sg
-,_
-я=SPRO,sg,1p=nom
-?\n
+{душа=S,f,inan=nom,sg}, {я=SPRO,sg,1p=nom} {горе=S,sg,n,inan=ins} {не=PART=} {терзать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+{но=CONJ=} {плакать=V,ipf,intr=inpraes,sg,indic,1p}, {ветреный=A=nom,sg,plen,f} {странница=S,f,anim=nom,sg}.
+{все=ADV=} {продавать=V,tran=inpraes,pl,indic,1p,ipf} {мы=SPRO,pl,1p=nom}, {все=SPRO,pl=dat} {должать=V,ipf,intr=inpraes,pl,indic,1p},
+{скоро=ADV=} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {ничто=SPRO,sg,n=gen} {не=PART=} {оставаться=V,intr=inpraes,sg,indic,3p,pf}.
+
+{конечно=ADV,parenth=}, {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {и=CONJ=} {бог=S,m,anim=nom,sg}, {и=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {воображение=S,n,inan=(acc,sg|nom,sg)}, {который=APRO=(acc,sg,n|nom,sg,n)} {не=PART=} {лениться=V,ipf,intr=inpraes,sg,indic,3p},
+{но=CONJ=} {когда=CONJ=} {сидеть=V,ipf,intr=inpraes,sg,indic,2p} {почти=ADV=} {без=PR=} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{становиться=V,intr=inpraes,sg,indic,2p,ipf} {как=CONJ=} {смешной=A=nom,sg,plen,f} {пленница=S,f,anim=nom,sg}.
+
+{муза=S,f,anim=nom,sg} {вскакивать=V,intr=inpraes,sg,indic,3p,pf}, {про=PR=} {любовь=S,f,inan=(acc,sg|nom,sg)} {рассказывать=V=inpraes,sg,indic,3p,pf}
+({она=SPRO,sg,3p,f=nom} {ведь=PART=} {глупенький=A=nom,sg,plen,f}, {дурочка=S,f,anim=nom,sg}),
+{но=CONJ=} {взглядывать=V,intr=inpraes,sg,indic,2p,pf}, {как=CONJ=} {веревка=S,f,inan=ins,sg} {вязать=V,ipf,tran=inpraes,sg,indic,3p}
+{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {тюк=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {юрочка=S,persn,m,anim=nom,sg}, —
+
+{и=CONJ=} {останавливаться=V,intr=inpraes,sg,indic,2p,pf}. {отрада=S,f,inan=nom,sg}
+{минутный=A=nom,sg,plen,f}, {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мелкий=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{но=CONJ=}, {боже=INTJ=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=dat} {это=SPRO,sg,n,inan=(acc|nom)} {надо=ADV,praed=},
+{чтобы=CONJ=} {вертеться=V,ipf,intr=praet,sg,indic,m}, {как=CONJ=} {белка=S,f,anim=nom,sg}, {я=SPRO,sg,1p=nom}?

@@ -1,50 +1,10 @@
-ничто=SPRO,sg,n=nom
-_
-не=PART=
-_
-сбываться=V,intr=inpraes,sg,indic,3p,ipf
-.\n\t
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-везде=ADV=
-_
-разрушение=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-надеяться=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-все=SPRO,pl=(acc|nom)
-_
-обманывать=V,tran=inpraes,pl,indic,3p,ipf
-,\n\t
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-кругом=ADV=
-_
-несчастие=S,n,inan=(acc,sg|nom,sg)
-,\n\t
-но=CONJ=
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=inpraes,sg,indic,3p
-._\n\t
-близкий=A=nom,sg,plen,f
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-,_\n\t
-нездешний=A=nom,sg,plen,f
-_\u2014_
-здесь=ADVPRO=
-.\n
+{ничто=SPRO,sg,n=nom} {не=PART=} {сбываться=V,intr=inpraes,sg,indic,3p,ipf}.
+	{а=CONJ=} {я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p}.
+{везде=ADV=} {разрушение=S,n,inan=(acc,sg|nom,sg)},
+	{а=CONJ=} {я=SPRO,sg,1p=nom} {надеяться=V,ipf,intr=inpraes,sg,indic,1p}.
+{все=SPRO,pl=(acc|nom)} {обманывать=V,tran=inpraes,pl,indic,3p,ipf},
+	{а=CONJ=} {я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p}.
+{кругом=ADV=} {несчастие=S,n,inan=(acc,sg|nom,sg)},
+	{но=CONJ=} {радость=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=inpraes,sg,indic,3p}. 
+	{близкий=A=nom,sg,plen,f} {радость=S,f,inan=(acc,sg|nom,sg)}, 
+	{нездешний=A=nom,sg,plen,f} — {здесь=ADVPRO=}.

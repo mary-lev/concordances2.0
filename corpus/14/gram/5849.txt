@@ -1,24 +1,4 @@
-татарский=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-дремучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-\n
-приходить=V,intr=praet,sg,indic,n,pf
-_
-из=PR=
-_
-никогда=ADVPRO=
-,\n
-к=PR=
-_
-любой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-беда=S,f,inan=(abl,sg|dat,sg)
-_
-липучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-,\u2014\n
-сам=APRO=(acc,sg,n|nom,sg,n)
-_
-оно=SPRO,sg,3p,n=nom
-_\u2014_
-беда=S,f,inan=nom,sg
-.\n
+{татарский=A=(acc,sg,plen,n|nom,sg,plen,n)}, {дремучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}
+{приходить=V,intr=praet,sg,indic,n,pf} {из=PR=} {никогда=ADVPRO=},
+{к=PR=} {любой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {беда=S,f,inan=(abl,sg|dat,sg)} {липучий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)},—
+{сам=APRO=(acc,sg,n|nom,sg,n)} {оно=SPRO,sg,3p,n=nom} — {беда=S,f,inan=nom,sg}.

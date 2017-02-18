@@ -1,264 +1,37 @@
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-церковь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-звон=S,m,inan=(acc,pl|nom,pl)
-,\n
-в=PR=
-_
-каждый=APRO=(abl,sg,m|abl,sg,n)
-_
-высоко=ADV=
-_
-восходить=V,intr=inpraes,pl,indic,3p,ipf
-_
-амвон=S,m,inan=(acc,pl|nom,pl)
-.\n
-только=PART=
-_
-когда=ADVPRO=
-\n
-он=SPRO,sg,3p,m=nom
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-забывать=V=inpraes,sg,indic,3p,pf
-,\n
-свет=S,sg,m,inan=gen
-_
-убывать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-восклицать=V,intr=inpraes,sg,indic,3p,pf
-,_
-что=CONJ=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-хороший=A=sg,brev,m
-,\n
-свет=S,sg,m,inan=gen
-_
-убывать=V,intr=inpraes,sg,indic,3p,pf
-,\n
-и=CONJ=
-_
-гаснуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=nom,sg
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-,\n
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-красивый=A=sg,brev,m
-,\n
-захватистый?=A=sg,brev,m
-_
-и=CONJ=
-_
-весело=ADV=
--
-пенистый=A=sg,brev,m
-_
-разлив=S,m,inan=(acc,sg|nom,sg)
-,\n
-полый=A=nom,sg,plen,f
-_
-ширь=S,f,inan=ins,sg
-_
-владеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-вода=S,f,inan=nom,sg
-.\n
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-хороший=A=sg,brev,m
-,\n
-можно=ADV,praed=
-_
-ль=PART=
-_
-ум=S,m,inan=dat,sg
-_
-возбранять=V,tran=inf,pf
-\n
-выткать=V,pf,tran=inf
-_\u2014_
-какой=APRO=acc,sg,f
-_
-понравиться=V,pf,intr=inpraes,sg,indic,3p
-_\u2014_
-нить=S,f,inan=(acc,sg|nom,sg)
-?\n
-вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=inf,ipf
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-душа=S,f,inan=nom,sg
-,\n
-своевольный=A=nom,sg,plen,f
-_
-тьма=S,f,inan=nom,sg
-_
-хороший=A=sg,brev,f
-.\n
-если=CONJ=
-_
-вода=S,f,inan=nom,sg
-_
-затапливать=V,tran=praet,sg,indic,f,pf
-_
-угодье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-весна=S,f,inan=nom,sg
-,\n
-пир=S,m,inan=(acc,sg|nom,sg)
-_
-полноводье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-полый=A=nom,sg,plen,f
-_
-влага=S,f,inan=nom,sg
-,_
-однако=CONJ=
-,_
-мутный=A=sg,brev,f
-,\n
-полый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-стоячий=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-до=PR=
-_
-предел=S,m,inan=gen,sg
-_
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-доходить=V,intr=praet,pl,indic,pf
-.\n\n
-вспыхивать=V,intr=pl,imper,2p,pf
-,_
-домысел=S,m,inan=(acc,pl|nom,pl)
-_
-зрячий=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-пусть=PART=
-_
-зазыбиться?=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-должный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-предел=S,m,inan=abl,pl
-_
-волна=S,f,inan=nom,sg
-.\n
-о=PR=
-,_
-внемлить=V,ipf,tran=sg,imper,2p
-,\n
-своевольница=S,f,anim=nom,sg
-,_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-человеческий=A=nom,sg,plen,f
-,\n
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-рассыпать=V,pf,tran=praet,sg,indic,f
-_
-в=PR=
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-,_
-там=PART=
-_
-вон=PART=
-,_
-вдали=ADV=
-,\n
-чей-то=APRO=nom,sg,f
-_
-рука=S,f,inan=nom,sg
-,\n
-пахарь=S,m,anim=(acc,sg|gen,sg)
-_
-длань=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-отеческий=A=nom,sg,plen,f
-.\n
-звездный=A=acc,sg,plen,f
-_
-стлать=V,ipf=inpraes,pl,indic,3p,tran
-_
-дорога=S,f,inan=acc,sg
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-роса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-храм=S,m,inan=(acc,pl|nom,pl)
-_
-вставать=V,intr=inpraes,pl,indic,3p,ipf
-,_
-озарять=V,tran=inpraes,ger,ipf
-_
-откос=S,m,inan=(acc,pl|nom,pl)
-,\n
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-капля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-качание=S,n,inan=abl,pl
-_
-море=S,n,inan=gen,pl
-,\n
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-к=PR=
-_
-молитва=S,f,inan=(abl,sg|dat,sg)
-_
-идти=V,ipf,intr=pl,imper,2p
-,_
-звездный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-скоро=ADV=comp
-,_
-скоро=ADV=comp
-.\n
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {церковь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {звон=S,m,inan=(acc,pl|nom,pl)},
+{в=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {высоко=ADV=} {восходить=V,intr=inpraes,pl,indic,3p,ipf} {амвон=S,m,inan=(acc,pl|nom,pl)}.
+{только=PART=} {когда=ADVPRO=}
+{он=SPRO,sg,3p,m=nom} {это=SPRO,sg,n,inan=(acc|nom)} {забывать=V=inpraes,sg,indic,3p,pf},
+{свет=S,sg,m,inan=gen} {убывать=V,intr=inpraes,sg,indic,3p,pf},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {восклицать=V,intr=inpraes,sg,indic,3p,pf}, {что=CONJ=} {сумрак=S,m,inan=(acc,sg|nom,sg)} {хороший=A=sg,brev,m},
+{свет=S,sg,m,inan=gen} {убывать=V,intr=inpraes,sg,indic,3p,pf},
+{и=CONJ=} {гаснуть=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=nom,sg}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=},
+{сумрак=S,m,inan=(acc,sg|nom,sg)} {красивый=A=sg,brev,m},
+{захватистый?=A=sg,brev,m} {и=CONJ=} {весело=ADV=}-{пенистый=A=sg,brev,m} {разлив=S,m,inan=(acc,sg|nom,sg)},
+{полый=A=nom,sg,plen,f} {ширь=S,f,inan=ins,sg} {владеть=V,ipf,intr=inpraes,sg,indic,3p} {вода=S,f,inan=nom,sg}.
+{сумрак=S,m,inan=(acc,sg|nom,sg)} {хороший=A=sg,brev,m},
+{можно=ADV,praed=} {ль=PART=} {ум=S,m,inan=dat,sg} {возбранять=V,tran=inf,pf}
+{выткать=V,pf,tran=inf} — {какой=APRO=acc,sg,f} {понравиться=V,pf,intr=inpraes,sg,indic,3p} — {нить=S,f,inan=(acc,sg|nom,sg)}?
+{вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=inf,ipf} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg},
+{своевольный=A=nom,sg,plen,f} {тьма=S,f,inan=nom,sg} {хороший=A=sg,brev,f}.
+{если=CONJ=} {вода=S,f,inan=nom,sg} {затапливать=V,tran=praet,sg,indic,f,pf} {угодье=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{это=SPRO,sg,n,inan=(acc|nom)} {весна=S,f,inan=nom,sg},
+{пир=S,m,inan=(acc,sg|nom,sg)} {полноводье=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{полый=A=nom,sg,plen,f} {влага=S,f,inan=nom,sg}, {однако=CONJ=}, {мутный=A=sg,brev,f},
+{полый=A=(acc,pl,plen,inan|nom,pl,plen)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {стоячий=A=(acc,pl,plen,inan|nom,pl,plen)},
+{до=PR=} {предел=S,m,inan=gen,sg} {весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {доходить=V,intr=praet,pl,indic,pf}.
+
+{вспыхивать=V,intr=pl,imper,2p,pf}, {домысел=S,m,inan=(acc,pl|nom,pl)} {зрячий=A=(acc,pl,plen,inan|nom,pl,plen)},
+{пусть=PART=} {зазыбиться?=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {должный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {предел=S,m,inan=abl,pl} {волна=S,f,inan=nom,sg}.
+{о=PR=}, {внемлить=V,ipf,tran=sg,imper,2p},
+{своевольница=S,f,anim=nom,sg}, {мысль=S,f,inan=(acc,sg|nom,sg)} {человеческий=A=nom,sg,plen,f},
+{звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {рассыпать=V,pf,tran=praet,sg,indic,f} {в=PR=} {сумрак=S,m,inan=(acc,sg|nom,sg)}, {там=PART=} {вон=PART=}, {вдали=ADV=},
+{чей-то=APRO=nom,sg,f} {рука=S,f,inan=nom,sg},
+{пахарь=S,m,anim=(acc,sg|gen,sg)} {длань=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {отеческий=A=nom,sg,plen,f}.
+{звездный=A=acc,sg,plen,f} {стлать=V,ipf=inpraes,pl,indic,3p,tran} {дорога=S,f,inan=acc,sg} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {роса=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{храм=S,m,inan=(acc,pl|nom,pl)} {вставать=V,intr=inpraes,pl,indic,3p,ipf}, {озарять=V,tran=inpraes,ger,ipf} {откос=S,m,inan=(acc,pl|nom,pl)},
+{звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {качание=S,n,inan=abl,pl} {море=S,n,inan=gen,pl},
+{звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {к=PR=} {молитва=S,f,inan=(abl,sg|dat,sg)} {идти=V,ipf,intr=pl,imper,2p}, {звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {скоро=ADV=comp}, {скоро=ADV=comp}.

@@ -1,70 +1,9 @@
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-в=PR=
-_
-искра=S,f,inan=abl,pl
-_
-алый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-;\n
-в=PR=
-_
-просветление=S,n,inan=abl,pl
-_
-мимолетный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-в=PR=
-_
-греза=S,f,inan=abl,pl
-_
-яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-но=CONJ=
-_
-бесплотный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-око=S,n,inan=abl,pl
-_
-усталый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-горе=S,sg,n,inan=(abl|acc|nom)
-_\u2014_
-в=PR=
-_
-вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-порок=S,m,inan=gen,pl
-,\n
-в=PR=
-_
-постоянный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-с=PR=
-_
-они=SPRO,pl=ins
-_
-спор=S,m,inan=abl,sg
-,\n
-в=PR=
-_
-осмеяние=S,n,inan=abl,sg
-_
-пророк=S,m,anim=(acc,pl|gen,pl)
-\n
-и=CONJ=
-_
-в=PR=
-_
-искание=S,n,inan=abl,pl
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-горе=S,sg,n,inan=(abl|acc|nom)
-.\n
+{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {в=PR=} {искра=S,f,inan=abl,pl} {алый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)};
+{в=PR=} {просветление=S,n,inan=abl,pl} {мимолетный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{в=PR=} {греза=S,f,inan=abl,pl} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {но=CONJ=} {бесплотный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{и=CONJ=} {в=PR=} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {око=S,n,inan=abl,pl} {усталый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{горе=S,sg,n,inan=(abl|acc|nom)} — {в=PR=} {вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {порок=S,m,inan=gen,pl},
+{в=PR=} {постоянный=A=(abl,sg,plen,m|abl,sg,plen,n)} {с=PR=} {они=SPRO,pl=ins} {спор=S,m,inan=abl,sg},
+{в=PR=} {осмеяние=S,n,inan=abl,sg} {пророк=S,m,anim=(acc,pl|gen,pl)}
+{и=CONJ=} {в=PR=} {искание=S,n,inan=abl,pl} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {горе=S,sg,n,inan=(abl|acc|nom)}.

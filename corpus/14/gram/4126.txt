@@ -1,74 +1,9 @@
-я=SPRO,sg,1p=nom
-_
-присниться=V,pf,intr=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-овца=S,f,anim=ins,sg
-\n
-на=PR=
-_
-нетвердый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-сухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-нога=S,f,inan=abl,pl
-,\n
-подходить=V,intr=inpraes,sg,indic,1p,pf
-,_
-заблеять=V,pf,intr=inpraes,sg,indic,1p
-,_
-завыть=V,pf,intr=inpraes,sg,indic,1p
-:\n\xAB
-сладко=ADV=
-_
-ль=PART=
-_
-ужинать=V=praet,sg,indic,m,ipf,intr
-,_
-падишах=S,m,anim=nom,sg
-?\n
-ты=SPRO,sg,2p=nom
-_
-вселенная=S,f,inan=acc,sg
-_
-держать=V,ipf,tran=inpraes,sg,indic,2p
-,_
-как=ADVPRO=
-_
-бус?=S,m,inan=dat,sg
-,\n
-светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-воля=S,f,inan=ins,sg
-_
-аллах=S,m,anim=(acc,sg|gen,sg)
-_
-хранить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-...\n
-и=CONJ=
-_
-приходиться=V,intr=praet,sg,indic,m,pf
-_
-ль=PART=
-_
-сынок=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-по=PR=
-_
-вкус=S,m,inan=dat,sg
-\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-и=CONJ=
-_
-ребеночек=S,m,anim=dat,pl
-_
-твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-?\xBB\n\n
+{я=SPRO,sg,1p=nom} {присниться=V,pf,intr=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(abl|dat)} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {овца=S,f,anim=ins,sg}
+{на=PR=} {нетвердый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {сухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нога=S,f,inan=abl,pl},
+{подходить=V,intr=inpraes,sg,indic,1p,pf}, {заблеять=V,pf,intr=inpraes,sg,indic,1p}, {завыть=V,pf,intr=inpraes,sg,indic,1p}:
+«{сладко=ADV=} {ль=PART=} {ужинать=V=praet,sg,indic,m,ipf,intr}, {падишах=S,m,anim=nom,sg}?
+{ты=SPRO,sg,2p=nom} {вселенная=S,f,inan=acc,sg} {держать=V,ipf,tran=inpraes,sg,indic,2p}, {как=ADVPRO=} {бус?=S,m,inan=dat,sg},
+{светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {воля=S,f,inan=ins,sg} {аллах=S,m,anim=(acc,sg|gen,sg)} {хранить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}...
+{и=CONJ=} {приходиться=V,intr=praet,sg,indic,m,pf} {ль=PART=} {сынок=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {по=PR=} {вкус=S,m,inan=dat,sg}
+{и=CONJ=} {ты=SPRO,sg,2p=(abl|dat)} {и=CONJ=} {ребеночек=S,m,anim=dat,pl} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}?»
+

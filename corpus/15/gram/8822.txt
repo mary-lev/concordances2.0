@@ -1,430 +1,50 @@
-хмель=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-,_
-смеяться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-,\n
-пчела=S,f,anim=nom,sg
-_
-прожужжать=V,pf,intr=inpraes,sg,indic,3p
-,_
-или=CONJ=
-_
-шмель=S,m,anim=nom,sg
-,\n
-все=SPRO,pl=(acc|nom)
-_
-цвести=V,ipf,intr=inpraes,sg,indic,3p
-_
-расцветать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-.\n
-хмель=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=nom
-,_
-пьянить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,_
-и=CONJ=
-_
-млеть=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-снова=ADV=
-,_
-в=PR=
-_
-похмелье=S,n,inan=abl,sg
-,_
-хмелеть=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-и=CONJ=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-,_
-разливаться=V,intr=inpraes,ger,ipf
-,_
-свирель=S,f,inan=(acc,sg|nom,sg)
-.\n
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=nom
-_
-цвет=S,m,inan=dat,sg
-_
-да=CONJ=
-_
-гулять=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-я=SPRO,sg,1p=nom
-_
-себя=SPRO=(acc|gen)
-_
-выхваливать=V=inpraes,sg,indic,1p,ipf,tran
-:_\u2014\n
-нет=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-хмель=S,m,inan=gen,sg
-,_
-сильно=ADV=comp
-,\n
-нет=PART=
-_
-весело=ADV=comp
-_
-и=CONJ=
-_
-хмельный=A=comp
-.\n
-старый=A=sg,brev,m
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-маленький=A=sg,brev,m
-,\n
-хмель=S,m,inan=gen,sg
-,_
-как=CONJ=
-_
-вешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-леля=S,persn,f,anim=nom,sg
-,\n
-царь=S,m,anim=nom,sg
-_
-не=PART=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-восхвалять=V,tran=praet,sg,indic,m,ipf
-.\n
-долг=S,m,inan=gen,sg
-_
-без=PR=
-_
-хмель=S,m,inan=gen,sg
-_
-неделя=S,f,inan=nom,sg
-.\n
-я=SPRO,sg,1p=(acc|gen)
-_
-и=CONJ=
-_
-мудрец=S,m,anim=nom,sg
-_
-восхвалять=V,tran=praet,sg,indic,m,pf
-,\n
-приумножать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-мудрый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-сила=S,f,inan=gen,pl
-.\n
-я=SPRO,sg,1p=(acc|gen)
-_
-славословить=V,ipf,tran=praet,sg,indic,m
-_
-монах=S,m,anim=nom,sg
-\n
-в=PR=
-_
-именитый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-погреб=S,m,inan=abl,pl
-.\n
-рабочий=S,m,anim=nom,sg
-,_
-крестьянин=S,m,anim=nom,sg
-,_
-солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)
-\n
-захмелеть=V,pf,intr=inpraes,pl,indic,3p
-_\u2014_
-ой=INTJ=
-,_
-хмелюшко?=S,n,inan=(acc,sg|nom,sg)
-,_
-брат=S,m,anim=nom,sg
-!\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-скоро=ADV=comp
-_
-на=PR=
-_
-постель=S,f,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-добрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бывать=V,ipf,intr=inpraes,sg,indic,1p
-,_
-я=SPRO,sg,1p=nom
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-.\n
-девица=S,f,anim=nom,sg
-_
-ль=PART=
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-,_
-молодица=S,f,anim=nom,sg
-._\u2014\n
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=ins
-_
-любовный=A=nom,sg,plen,f
-_
-птица=S,f,anim=nom,sg
-,\n
-входить=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-они=SPRO,pl=dat
-_
-в=PR=
-_
-разум=S,m,inan=(acc,sg|nom,sg)
-,_
-пьянить=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-и=CONJ=
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-губа=S,f,inan=dat,pl
-_
-я=SPRO,sg,1p=nom
-_
-манить=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-где=ADVPRO=
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-,_\u2014_
-там=ADVPRO=
-_
-сейчас=ADV=
-_
-обниматься=V,intr=inf,ipf
-,\n
-где=ADVPRO=
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-,_\u2014_
-там=ADVPRO=
-_
-браниться=V,ipf,intr=inf
-_
-и=CONJ=
-_
-драться=V,ipf,intr=inf
-,\n
-а=CONJ=
-_
-чуть=ADV=
-_
-кто=SPRO,sg,m,anim=nom
-_
-от=PR=
-_
-хмель=S,m,inan=(dat,sg|part,sg)
-_
-проспаться=V,pf,intr=inpraes,sg,indic,3p
-,_\u2014\n
-мириться=V,ipf,intr=inf
-,_
-и=CONJ=
-_
-в=PR=
-_
-хмель=S,m,inan=abl,sg
-_
-дружиться=V,ipf,intr=inf
-.\n
-хмель=S,m,inan=gen,sg
-_
-кто=SPRO,sg,m,anim=dat
-_
-же=PART=
-_
-не=PART=
-_
-знать=V,ipf,tran=inf
-,_\u2014\n
-большой=A=sg,brev,f
-,_
-большой=A=sg,brev,f
-_
-мой=APRO=nom,sg,f
-_
-рать=S,f,inan=(acc,sg|nom,sg)
-!\n\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-только=PART=
-_
-лихо=S,n,inan=gen,pl
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-садовник=S,m,anim=nom,sg
-,\n
-сурьезный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мужик=S,m,anim=nom,sg
-.\n
-вот=PART=
-_
-он=SPRO,sg,3p,m=nom
-_
-приходить=V,intr=praet,sg,indic,m,pf
-_
-среди=PR=
-_
-день=S,m,inan=gen,sg
-_\u2014\n
-больно=ADV=
-_
-работать=V,ipf,intr=inf
-_
-привыкать=V,intr=praet,sg,indic,m,pf
-_\u2014\n
-по=PR=
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-_
-ходить=V,ipf,intr=inpraes,sg,indic,3p
-,_
-гулять=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-борозда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-всюду=ADVPRO=
-_
-копать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-солома=S,f,inan=ins,sg
-_
-они=SPRO,pl=(acc|gen)
-_
-застилать=V=inpraes,sg,indic,3p,ipf,tran
-.\n
-тут-то=ADVPRO=
-_
-я=SPRO,sg,1p=nom
-,_
-хмель=S,m,inan=(acc,sg|nom,sg)
-,_
-загадывать=V,tran=praet,sg,indic,m,pf
-,\n
-по=PR=
-_
-тычиночка?=S,f,inan=(abl,sg|dat,sg)
-_
-вверх=ADV=
-_
-подаваться=V,intr=praet,sg,indic,m,ipf
-,\n
-по=PR=
-_
-тычинка=S,f,inan=(abl,sg|dat,sg)
-_
-легко=ADV=
-_
-побежать=V,pf,intr=praet,sg,indic,m
-,\n
-над=PR=
-_
-сурьезный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-над=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-посмеяться=V,pf,intr=praet,sg,indic,m
-,_\u2014\n
-как=ADVPRO=
-_
-ударяться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-тын=S,m,inan=(acc,sg|nom,sg)
-_
-голова=S,f,inan=ins,sg
-,\n
-как=ADVPRO=
-_
-взмахиваться?=V,intr=inpraes,sg,indic,3p,pf
-_
-да=CONJ=
-_
-в=PR=
-_
-грязь=S,f,inan=(acc,sg|nom,sg)
-_
-борода=S,f,inan=ins,sg
-.\n
-так-то=PART=
-,_
-брат=S,m,anim=nom,sg
-,_
-эдак=ADVPRO,parenth=
-_
-вернее=ADV,parenth=
-,\n
-быть=V,intr=inpraes,sg,indic,2p
-_
-теперь=ADV=
-_
-хмельный=A=comp|хмельной=A=comp
-.\n
-кто=SPRO,sg,m,anim=nom
-_
-на=PR=
-_
-хмель=S,m,inan=gen,sg
-_
-восставать=V,intr=praet,sg,indic,m,pf
-,_
-беречься=V,ipf,intr=sg,imper,2p
-:_\u2014\n
-сверху=ADV=
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_\u2014_
-так-таки=PART=
-_
-вниз=ADV=
-!\n
+{хмель=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom}, {смеяться=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {хмель=S,m,inan=(acc,sg|nom,sg)},
+{пчела=S,f,anim=nom,sg} {прожужжать=V,pf,intr=inpraes,sg,indic,3p}, {или=CONJ=} {шмель=S,m,anim=nom,sg},
+{все=SPRO,pl=(acc|nom)} {цвести=V,ipf,intr=inpraes,sg,indic,3p} {расцветать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {хмель=S,m,inan=(acc,sg|nom,sg)}.
+{хмель=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom}, {пьянить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {и=CONJ=} {млеть=V,ipf,intr=inpraes,sg,indic,1p},
+{снова=ADV=}, {в=PR=} {похмелье=S,n,inan=abl,sg}, {хмелеть=V,ipf,intr=inpraes,sg,indic,1p}.
+{и=CONJ=} {петь=V,ipf,tran=inpraes,sg,indic,3p}, {разливаться=V,intr=inpraes,ger,ipf}, {свирель=S,f,inan=(acc,sg|nom,sg)}.
+{все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=nom} {цвет=S,m,inan=dat,sg} {да=CONJ=} {гулять=V,ipf,intr=inpraes,sg,indic,1p},
+{сам=APRO=(acc,sg,m,inan|nom,sg,m)} {я=SPRO,sg,1p=nom} {себя=SPRO=(acc|gen)} {выхваливать=V=inpraes,sg,indic,1p,ipf,tran}: —
+{нет=PART=} {я=SPRO,sg,1p=(acc|gen)}, {хмель=S,m,inan=gen,sg}, {сильно=ADV=comp},
+{нет=PART=} {весело=ADV=comp} {и=CONJ=} {хмельный=A=comp}.
+{старый=A=sg,brev,m} {я=SPRO,sg,1p=(acc|gen)} {знать=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {маленький=A=sg,brev,m},
+{хмель=S,m,inan=gen,sg}, {как=CONJ=} {вешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {леля=S,persn,f,anim=nom,sg},
+{царь=S,m,anim=nom,sg} {не=PART=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {восхвалять=V,tran=praet,sg,indic,m,ipf}.
+{долг=S,m,inan=gen,sg} {без=PR=} {хмель=S,m,inan=gen,sg} {неделя=S,f,inan=nom,sg}.
+{я=SPRO,sg,1p=(acc|gen)} {и=CONJ=} {мудрец=S,m,anim=nom,sg} {восхвалять=V,tran=praet,sg,indic,m,pf},
+{приумножать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {мудрый=A=(dat,sg,plen,m|dat,sg,plen,n)} {сила=S,f,inan=gen,pl}.
+{я=SPRO,sg,1p=(acc|gen)} {славословить=V,ipf,tran=praet,sg,indic,m} {монах=S,m,anim=nom,sg}
+{в=PR=} {именитый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {погреб=S,m,inan=abl,pl}.
+{рабочий=S,m,anim=nom,sg}, {крестьянин=S,m,anim=nom,sg}, {солдат=S,m,anim=(acc,pl|gen,pl|nom,sg)}
+{захмелеть=V,pf,intr=inpraes,pl,indic,3p} — {ой=INTJ=}, {хмелюшко?=S,n,inan=(acc,sg|nom,sg)}, {брат=S,m,anim=nom,sg}!
+{а=CONJ=} {я=SPRO,sg,1p=nom} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {скоро=ADV=comp} {на=PR=} {постель=S,f,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=nom} {добрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бывать=V,ipf,intr=inpraes,sg,indic,1p}, {я=SPRO,sg,1p=nom} {хмель=S,m,inan=(acc,sg|nom,sg)}.
+{девица=S,f,anim=nom,sg} {ль=PART=} {со=PR=} {я=SPRO,sg,1p=ins}, {молодица=S,f,anim=nom,sg}. —
+{петь=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=ins} {любовный=A=nom,sg,plen,f} {птица=S,f,anim=nom,sg},
+{входить=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {они=SPRO,pl=dat} {в=PR=} {разум=S,m,inan=(acc,sg|nom,sg)}, {пьянить=V,ipf,tran=inpraes,sg,indic,1p},
+{и=CONJ=} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {губа=S,f,inan=dat,pl} {я=SPRO,sg,1p=nom} {манить=V,ipf,tran=inpraes,sg,indic,1p}.
+{где=ADVPRO=} {хмель=S,m,inan=(acc,sg|nom,sg)}, — {там=ADVPRO=} {сейчас=ADV=} {обниматься=V,intr=inf,ipf},
+{где=ADVPRO=} {хмель=S,m,inan=(acc,sg|nom,sg)}, — {там=ADVPRO=} {браниться=V,ipf,intr=inf} {и=CONJ=} {драться=V,ipf,intr=inf},
+{а=CONJ=} {чуть=ADV=} {кто=SPRO,sg,m,anim=nom} {от=PR=} {хмель=S,m,inan=(dat,sg|part,sg)} {проспаться=V,pf,intr=inpraes,sg,indic,3p}, —
+{мириться=V,ipf,intr=inf}, {и=CONJ=} {в=PR=} {хмель=S,m,inan=abl,sg} {дружиться=V,ipf,intr=inf}.
+{хмель=S,m,inan=gen,sg} {кто=SPRO,sg,m,anim=dat} {же=PART=} {не=PART=} {знать=V,ipf,tran=inf}, —
+{большой=A=sg,brev,f}, {большой=A=sg,brev,f} {мой=APRO=nom,sg,f} {рать=S,f,inan=(acc,sg|nom,sg)}!
+
+{быть=V,intr=praet,sg,indic,m,ipf} {только=PART=} {лихо=S,n,inan=gen,pl} {на=PR=} {я=SPRO,sg,1p=(acc|gen)} {садовник=S,m,anim=nom,sg},
+{сурьезный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мужик=S,m,anim=nom,sg}.
+{вот=PART=} {он=SPRO,sg,3p,m=nom} {приходить=V,intr=praet,sg,indic,m,pf} {среди=PR=} {день=S,m,inan=gen,sg} —
+{больно=ADV=} {работать=V,ipf,intr=inf} {привыкать=V,intr=praet,sg,indic,m,pf} —
+{по=PR=} {сад=S,m,inan=(dat,sg|loc,sg)} {ходить=V,ipf,intr=inpraes,sg,indic,3p}, {гулять=V,ipf,intr=inpraes,sg,indic,3p},
+{борозда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {всюду=ADVPRO=} {копать=V,ipf,tran=inpraes,sg,indic,3p},
+{солома=S,f,inan=ins,sg} {они=SPRO,pl=(acc|gen)} {застилать=V=inpraes,sg,indic,3p,ipf,tran}.
+{тут-то=ADVPRO=} {я=SPRO,sg,1p=nom}, {хмель=S,m,inan=(acc,sg|nom,sg)}, {загадывать=V,tran=praet,sg,indic,m,pf},
+{по=PR=} {тычиночка?=S,f,inan=(abl,sg|dat,sg)} {вверх=ADV=} {подаваться=V,intr=praet,sg,indic,m,ipf},
+{по=PR=} {тычинка=S,f,inan=(abl,sg|dat,sg)} {легко=ADV=} {побежать=V,pf,intr=praet,sg,indic,m},
+{над=PR=} {сурьезный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {над=PR=} {он=SPRO,sg,3p,m=ins} {посмеяться=V,pf,intr=praet,sg,indic,m}, —
+{как=ADVPRO=} {ударяться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {тын=S,m,inan=(acc,sg|nom,sg)} {голова=S,f,inan=ins,sg},
+{как=ADVPRO=} {взмахиваться?=V,intr=inpraes,sg,indic,3p,pf} {да=CONJ=} {в=PR=} {грязь=S,f,inan=(acc,sg|nom,sg)} {борода=S,f,inan=ins,sg}.
+{так-то=PART=}, {брат=S,m,anim=nom,sg}, {эдак=ADVPRO,parenth=} {вернее=ADV,parenth=},
+{быть=V,intr=inpraes,sg,indic,2p} {теперь=ADV=} {хмельный=A=comp|хмельной=A=comp}.
+{кто=SPRO,sg,m,anim=nom} {на=PR=} {хмель=S,m,inan=gen,sg} {восставать=V,intr=praet,sg,indic,m,pf}, {беречься=V,ipf,intr=sg,imper,2p}: —
+{сверху=ADV=} {падать=V,ipf,intr=inpraes,pl,indic,3p} — {так-таки=PART=} {вниз=ADV=}!

@@ -1,100 +1,17 @@
-оживать=V,intr=praet,pl,indic,pf
-_
-снова=ADV=
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-воспоминание=S,n,inan=gen,pl
-_
-папирус=S,m,inan=(acc,sg|nom,sg)
-\n
-снова=ADV=
-_
-ветреть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-парус=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-бирюза=S,sg,f,inan=(abl|dat)
-_
-умиление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-_
-сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-вырастать=V,intr=praet,sg,indic,m,pf
-.\n\n
-блекло=ADV=
--
-сапфировый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)
-\n
-вяло=ADV=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-новолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-душа=S,f,inan=nom,sg
-_
-снова=ADV=
-_
-через=PR=
-\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-как=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,_
-испаряться=V,intr=praet,pl,indic,pf
-\n
-в=PR=
-_
-прямости?=S,pl,inan=(acc|nom)
-_
-жизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-линия=S,f,inan=gen,pl
-;\n
-долго=ADV=
-_
-со=PR=
-_
-зло=S,n,inan=ins,sg
-_
-мы=SPRO,pl,1p=nom
-_
-бороться=V,ipf,intr=praet,pl,indic
-,\n
-отдых=S,m,inan=(acc,sg|nom,sg)
-_
-находить=V=(pl,imper,1p,pf,tran|inpraes,pl,indic,1p,pf,tran)
-_
-в=PR=
-_
-аполлон=S,persn,m,anim=abl,sg
-.\n
-снова=ADV=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-разгораться=V,intr=praet,pl,indic,pf
-,\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{оживать=V,intr=praet,pl,indic,pf} {снова=ADV=} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{воспоминание=S,n,inan=gen,pl} {папирус=S,m,inan=(acc,sg|nom,sg)}
+{снова=ADV=} {ветреть=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {парус=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {бирюза=S,sg,f,inan=(abl|dat)} {умиление=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вырастать=V,intr=praet,sg,indic,m,pf}.
+
+{блекло=ADV=}-{сапфировый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ирис=S,inan=(nom,sg,f|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,f|nom,sg,m|acc,sg,m|abl,pl,f|acc,pl,f|dat,pl,f|gen,pl,f|ins,pl,f|nom,pl,f)}
+{вяло=ADV=} {петь=V,ipf,tran=inpraes,sg,indic,3p} {новолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{литься=V,ipf,intr=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg} {снова=ADV=} {через=PR=}
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {как=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)}, {испаряться=V,intr=praet,pl,indic,pf}
+{в=PR=} {прямости?=S,pl,inan=(acc|nom)} {жизненный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {линия=S,f,inan=gen,pl};
+{долго=ADV=} {со=PR=} {зло=S,n,inan=ins,sg} {мы=SPRO,pl,1p=nom} {бороться=V,ipf,intr=praet,pl,indic},
+{отдых=S,m,inan=(acc,sg|nom,sg)} {находить=V=(pl,imper,1p,pf,tran|inpraes,pl,indic,1p,pf,tran)} {в=PR=} {аполлон=S,persn,m,anim=abl,sg}.
+{снова=ADV=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {разгораться=V,intr=praet,pl,indic,pf},
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)}!

@@ -1,112 +1,14 @@
-прозвенеть=V,pf,intr=inpraes,sg,indic,3p
-_
-ли=PART=
-_
-вдали=ADV=
-_
-колокольчик=S,m,inan=(acc,sg|nom,sg)
-,\n
-колокольчик=S,m,inan=(acc,sg|nom,sg)
-,_
-во=PR=
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-,_\u2014\n
-догорать=V,intr=inpraes,sg,indic,3p,ipf
-_
-ли=PART=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-тучка=S,f,inan=ins,sg
-,\n
-там=ADVPRO=
-_
-за=PR=
-_
-тучка=S,f,inan=ins,sg
-,_
-бледнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-,_
-тающий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\u2014\n\n
-наклоняться=V,intr=inpraes,sg,indic,1p,pf
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-,_
-полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-о=PR=
-,_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-глубоко=ADV=
--
-мучительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-!_\u2014\n
-над=PR=
-_
-вода=S,f,inan=ins,sg
-,_
-над=PR=
-_
-река=S,f,inan=ins,sg
-_
-безглагольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-безглагольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-безгласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\u2014\n\n
-предо=PR=
-_
-я=SPRO,sg,1p=ins
-_
-вставать=V,intr=inpraes,sg,indic,2p,ipf
-_
-ты=SPRO,sg,2p=nom
-,_
-родной=A=nom,sg,plen,f
-,\n
-ты=SPRO,sg,2p=nom
-,_
-родной=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-хранить=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,pass
-,_\u2014\n
-вдруг=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-забытый=A=sg,brev,f
-,\n
-позабывать=V=praet,nom,sg,partcp,plen,f,pf,pass
-,_
-горько=ADV=
--
-любимая=S,f,anim=nom,sg
-.\n
+{прозвенеть=V,pf,intr=inpraes,sg,indic,3p} {ли=PART=} {вдали=ADV=} {колокольчик=S,m,inan=(acc,sg|nom,sg)},
+{колокольчик=S,m,inan=(acc,sg|nom,sg)}, {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)} {убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}, —
+{догорать=V,intr=inpraes,sg,indic,3p,ipf} {ли=PART=} {месяц=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {тучка=S,f,inan=ins,sg},
+{там=ADVPRO=} {за=PR=} {тучка=S,f,inan=ins,sg}, {бледнеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}, {тающий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, —
+
+{наклоняться=V,intr=inpraes,sg,indic,1p,pf} {ли=PART=} {я=SPRO,sg,1p=nom}, {полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{о=PR=}, {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {глубоко=ADV=}-{мучительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}! —
+{над=PR=} {вода=S,f,inan=ins,sg}, {над=PR=} {река=S,f,inan=ins,sg} {безглагольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{безглагольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {безгласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, —
+
+{предо=PR=} {я=SPRO,sg,1p=ins} {вставать=V,intr=inpraes,sg,indic,2p,ipf} {ты=SPRO,sg,2p=nom}, {родной=A=nom,sg,plen,f},
+{ты=SPRO,sg,2p=nom}, {родной=A=nom,sg,plen,f} {и=CONJ=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {хранить=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,pass}, —
+{вдруг=ADV=} {я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {не=PART=} {забытый=A=sg,brev,f},
+{позабывать=V=praet,nom,sg,partcp,plen,f,pf,pass}, {горько=ADV=}-{любимая=S,f,anim=nom,sg}.

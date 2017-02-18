@@ -1,94 +1,17 @@
-кто=SPRO,sg,m,anim=dat
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-знакомый=A=sg,brev,m
-,\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-понимать=V=inpraes,pl,indic,3p,ipf,tran
-,\n
-как=CONJ=
-_
-лепесток=S,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-лепесток=S,m,inan=ins,sg
-_\n
-томительно=ADV=
-_
-влюбленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-рот=S,m,inan=ins,sg
-_\n
-срывать=V,ipf,tran=inpraes,pl,indic,3p
-,\n\n
-и=CONJ=
-_
-сочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-яд=S,m,inan=(acc,sg|nom,sg)
-_\n
-впивать=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)
-_
-сладко=ADV=
-,\n
-и=CONJ=
-_
-щека=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пламень=S,inan=ins,sg,n
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-..._\n
-туманить=V,ipf,tran=inpraes,sg,indic,3p
-_
-нежно=ADV=
-_
-близкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_\n
-догадка=S,f,inan=nom,sg
-.\n\n
-еще=ADV=
-,_
-еще=ADV=
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\n
-не=PART=
-_
-роза=S,f,inan=acc,sg
-,_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!..\n
-игра=S,f,inan=nom,sg
-_
-причудливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-проказа=S,f,inan=gen,pl
-_\n
-и=CONJ=
-_
-трепет=S,m,inan=(acc,sg|nom,sg)
-_
-томно=ADV=
--
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-люба=S,persn,f,anim=(gen,sg|nom,pl)
-.\n
+{кто=SPRO,sg,m,anim=dat} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {огонь=S,m,inan=(acc,sg|nom,sg)} {знакомый=A=sg,brev,m},
+{тот=APRO=(nom,pl|acc,pl,inan)} {понимать=V=inpraes,pl,indic,3p,ipf,tran},
+{как=CONJ=} {лепесток=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {лепесток=S,m,inan=ins,sg} 
+{томительно=ADV=} {влюбленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рот=S,m,inan=ins,sg} 
+{срывать=V,ipf,tran=inpraes,pl,indic,3p},
+
+{и=CONJ=} {сочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {яд=S,m,inan=(acc,sg|nom,sg)} 
+{впивать=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)} {сладко=ADV=},
+{и=CONJ=} {щека=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пламень=S,inan=ins,sg,n} {гореть=V,ipf,intr=inpraes,pl,indic,3p}... 
+{туманить=V,ipf,tran=inpraes,sg,indic,3p} {нежно=ADV=} {близкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взгляд=S,m,inan=(acc,sg|nom,sg)} 
+{догадка=S,f,inan=nom,sg}.
+
+{еще=ADV=}, {еще=ADV=} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} 
+{не=PART=} {роза=S,f,inan=acc,sg}, {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}!..
+{игра=S,f,inan=nom,sg} {причудливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {проказа=S,f,inan=gen,pl} 
+{и=CONJ=} {трепет=S,m,inan=(acc,sg|nom,sg)} {томно=ADV=}-{темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} 
+{я=SPRO,sg,1p=(abl|dat)} {люба=S,persn,f,anim=(gen,sg|nom,pl)}.

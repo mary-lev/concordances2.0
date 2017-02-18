@@ -1,112 +1,14 @@
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-чуть=ADV=
-_
-мерцать=V,ipf,intr=inpraes,sg,indic,3p
-_
-под=PR=
-_
-луна=S,f,inan=ins,sg
-\n
-зеркало=S,n,inan=ins,sg
-_
-глубокий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-и=CONJ=
-_
-холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-сон=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-грусть=S,f,inan=ins,sg
-_
-неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-что-то=SPRO,sg,n,inan=(abl|ins)
-_
-дальний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-сладостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-свободный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n\n
-точно=CONJ=
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-навек=ADV=
-_
-уходить=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-день=S,m,inan=gen,pl
-\n
-вставать=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-немой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-воспоминание=S,n,inan=gen,pl
-,\n
-становиться=V,intr=praet,sg,indic,m,pf
-_
-шептать=V,ipf,tran=inf
-_
-слышно=ADV=comp
-_
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-слышно=ADV=comp
-\n
-сказка=S,f,inan=acc,sg
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-музыка=S,f,inan=ins,sg
-_
-рыдание=S,n,inan=gen,pl
-.\n\n
-светоч=S,m=(ins,sg,anim|ins,sg,inan)
-_
-болезненный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сверкнуть=V,pf,intr=praet,sg,indic,m
-,\n
-ярко=ADV=
-_
-вспыхивать=V,intr=praet,sg,indic,m,pf
-_
-дрогнуть=V,ipf=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-слеза=S,f,inan=ins,sg
-,\n
-проживать=V,tran=praet,sg,indic,m,pf
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-в=PR=
-_
-бездна=S,f,inan=(abl,sg|dat,sg)
-_
-утопать=V,intr=praet,sg,indic,m,pf
-,\n
-бросать=V=praet,ger,pf,tran
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-широкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-полоса=S,f,inan=ins,sg
-.\n
+{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {чуть=ADV=} {мерцать=V,ipf,intr=inpraes,sg,indic,3p} {под=PR=} {луна=S,f,inan=ins,sg}
+{зеркало=S,n,inan=ins,sg} {глубокий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{веять=V,ipf,tran=inpraes,sg,indic,3p} {сон=S,m,inan=ins,sg} {и=CONJ=} {грусть=S,f,inan=ins,sg} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{что-то=SPRO,sg,n,inan=(abl|ins)} {дальний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {сладостный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {свободный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+
+{точно=CONJ=} {дух=S,m,inan=(acc,sg|nom,sg)} {навек=ADV=} {уходить=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {день=S,m,inan=gen,pl}
+{вставать=V,intr=praet,sg,indic,m,pf} {в=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {немой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {воспоминание=S,n,inan=gen,pl},
+{становиться=V,intr=praet,sg,indic,m,pf} {шептать=V,ipf,tran=inf} {слышно=ADV=comp} {и=CONJ=} {все=SPRO,pl=(acc|nom)} {слышно=ADV=comp}
+{сказка=S,f,inan=acc,sg} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {музыка=S,f,inan=ins,sg} {рыдание=S,n,inan=gen,pl}.
+
+{светоч=S,m=(ins,sg,anim|ins,sg,inan)} {болезненный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сверкнуть=V,pf,intr=praet,sg,indic,m},
+{ярко=ADV=} {вспыхивать=V,intr=praet,sg,indic,m,pf} {дрогнуть=V,ipf=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {слеза=S,f,inan=ins,sg},
+{проживать=V,tran=praet,sg,indic,m,pf} {миг=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {в=PR=} {бездна=S,f,inan=(abl,sg|dat,sg)} {утопать=V,intr=praet,sg,indic,m,pf},
+{бросать=V=praet,ger,pf,tran} {свет=S,sg,m,inan=(acc|nom)} {широкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {полоса=S,f,inan=ins,sg}.

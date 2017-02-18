@@ -1,94 +1,14 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-только=PART=
-_
-бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рай=S,sg,m,inan=(acc|nom)
-,_\n
-только=PART=
-_
-песня=S,f,inan=gen,pl
-_
-растерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лад=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-задыхаться=V,intr=sg,imper,2p,ipf
-,_
-душа=S,f,inan=nom,sg
-,_
-и=CONJ=
-_
-сгорать=V,intr=sg,imper,2p,ipf
-.\n
-как=CONJ=
-_
-закатный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-задыхаться=V,intr=sg,imper,2p,ipf
-_
-от=PR=
-_
-нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-утрата=S,f,inan=gen,pl
-_\n
-и=CONJ=
-_
-сгорать=V,intr=sg,imper,2p,ipf
-_
-от=PR=
-_
-блаженный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-обида=S,f,inan=gen,pl
-_\u2014_\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-только=PART=
-_
-сиять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-ад=S,sg,m,inan=(acc|nom)
-,\n
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-_
-гесперид?=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-над=PR=
-_
-ледяной=A=ins,sg,plen,f
-_
-вода=S,f,inan=ins,sg
-,\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-сквозь=PR=
-_
-холодеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-роза=S,f,inan=ins,sg
-,_
-печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=ins,sg
-_\n
-погибать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-маяк=S,m,inan=(acc,sg|nom,sg)
-.\n
+{это=SPRO,sg,n,inan=(acc|nom)} {только=PART=} {бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рай=S,sg,m,inan=(acc|nom)}, 
+{только=PART=} {песня=S,f,inan=gen,pl} {растерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лад=S,m,inan=(acc,sg|nom,sg)} — 
+{задыхаться=V,intr=sg,imper,2p,ipf}, {душа=S,f,inan=nom,sg}, {и=CONJ=} {сгорать=V,intr=sg,imper,2p,ipf}.
+{как=CONJ=} {закатный=A=(acc,pl,plen,inan|nom,pl,plen)} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{задыхаться=V,intr=sg,imper,2p,ipf} {от=PR=} {нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {утрата=S,f,inan=gen,pl} 
+{и=CONJ=} {сгорать=V,intr=sg,imper,2p,ipf} {от=PR=} {блаженный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {обида=S,f,inan=gen,pl} — 
+{это=SPRO,sg,n,inan=(acc|nom)} {только=PART=} {сиять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {ад=S,sg,m,inan=(acc|nom)},
+{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {сад=S,m,inan=(acc,pl|nom,pl)} {гесперид?=S,m,inan=(acc,sg|nom,sg)}.
+
+{это=SPRO,sg,n,inan=(acc|nom)} — {над=PR=} {ледяной=A=ins,sg,plen,f} {вода=S,f,inan=ins,sg},
+{это=SPRO,sg,n,inan=(acc|nom)} — {сквозь=PR=} {холодеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {мрак=S,m,inan=(acc,sg|nom,sg)} — 
+{синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {роза=S,f,inan=ins,sg}, {печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=ins,sg} 
+{погибать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {светить=V,ipf,intr=inpraes,sg,indic,3p} {маяк=S,m,inan=(acc,sg|nom,sg)}.

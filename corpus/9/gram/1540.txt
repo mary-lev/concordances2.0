@@ -1,158 +1,24 @@
-приходить=V,intr=praet,sg,indic,m,ipf
-_
-по=PR=
-_
-ночь=S,f,inan=dat,pl
-\n
-в=PR=
-_
-синева=S,f,inan=(abl,sg|dat,sg)
-_
-ледник=S,m,inan=gen,sg
-_
-от=PR=
-_
-тамара=S,persn,f,anim=(gen,sg|nom,pl)
-,\n
-пара=S,f,inan=ins,sg
-_
-крыло=S,n,inan=gen,pl
-_
-намечать=V,tran=praet,sg,indic,m,ipf
-,\n
-где=ADVPRO=
-_
-гудеть=V,ipf,intr=inf
-,_
-где=ADVPRO=
-_
-кончаться=V,intr=inf,ipf
-_
-кошмар=S,m,inan=dat,sg
-.\n\n
-не=PART=
-_
-рыдать=V,ipf,intr=praet,sg,indic,m
-,_
-не=PART=
-_
-сплетать=V=praet,sg,indic,m,ipf,tran
-\n
-оголять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-,_
-исхлестывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-,_
-в=PR=
-_
-шрам=S,m,inan=abl,pl
-.\n
-уцелеть=V,pf,intr=praet,sg,indic,f
-_
-плита=S,f,inan=nom,sg
-\n
-за=PR=
-_
-ограда=S,f,inan=ins,sg
-_
-грузинский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-храм=S,m,inan=gen,sg
-.\n\n
-как=CONJ=
-_
-горбунья=S,f,anim=nom,sg
-_
-дурной=A=sg,brev,f
-,\n
-под=PR=
-_
-решетка=S,f,inan=ins,sg
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-кривляться=V,ipf,intr=praet,sg,indic,f
-.\n
-у=PR=
-_
-лампада=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-зурна=S,f,inan=nom,sg
-,\n
-чуть=ADV=
-_
-дышать=V,ipf,intr=inpraes,ger
-,_
-о=PR=
-_
-княжна=S,f,anim=(abl,sg|dat,sg)
-_
-не=PART=
-_
-справляться=V,intr=praet,sg,indic,f,ipf
-.\n\n
-но=CONJ=
-_
-сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-рваться=V,ipf,intr=praet,sg,indic,n
-\n
-в=PR=
-_
-волос=S,m,inan=abl,pl
-_
-и=CONJ=
-,_
-как=CONJ=
-_
-фосфор=S,m,inan=(acc,sg|nom,sg)
-,_
-трещать=V,ipf,intr=praet,pl,indic
-.\n
-и=CONJ=
-_
-не=PART=
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-_
-колосс=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-седеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-кавказ=S,geo,m,inan=(acc,sg|nom,sg)
-_
-за=PR=
-_
-печаль=S,f,inan=ins,sg
-.\n\n
-от=PR=
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-аршин=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,\n
-пробирать=V=inpraes,ger,ipf,tran
-_
-шерстинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бурнус=S,m,inan=gen,sg
-,\n
-клясться=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-_
-лед=S,m,inan=ins,pl
-_
-вершина=S,f,inan=gen,pl
-:\n
-спать=V,ipf,intr=sg,imper,2p
-,_
-подруга=S,f,anim=nom,sg
-,_\u2014_
-лавина=S,f,inan=ins,sg
-_
-вернуся?=S,persn,f,anim=nom,sg
-.\n
+{приходить=V,intr=praet,sg,indic,m,ipf} {по=PR=} {ночь=S,f,inan=dat,pl}
+{в=PR=} {синева=S,f,inan=(abl,sg|dat,sg)} {ледник=S,m,inan=gen,sg} {от=PR=} {тамара=S,persn,f,anim=(gen,sg|nom,pl)},
+{пара=S,f,inan=ins,sg} {крыло=S,n,inan=gen,pl} {намечать=V,tran=praet,sg,indic,m,ipf},
+{где=ADVPRO=} {гудеть=V,ipf,intr=inf}, {где=ADVPRO=} {кончаться=V,intr=inf,ipf} {кошмар=S,m,inan=dat,sg}.
+
+{не=PART=} {рыдать=V,ipf,intr=praet,sg,indic,m}, {не=PART=} {сплетать=V=praet,sg,indic,m,ipf,tran}
+{оголять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)}, {исхлестывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)}, {в=PR=} {шрам=S,m,inan=abl,pl}.
+{уцелеть=V,pf,intr=praet,sg,indic,f} {плита=S,f,inan=nom,sg}
+{за=PR=} {ограда=S,f,inan=ins,sg} {грузинский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {храм=S,m,inan=gen,sg}.
+
+{как=CONJ=} {горбунья=S,f,anim=nom,sg} {дурной=A=sg,brev,f},
+{под=PR=} {решетка=S,f,inan=ins,sg} {тень=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {кривляться=V,ipf,intr=praet,sg,indic,f}.
+{у=PR=} {лампада=S,f,inan=(acc,pl|gen,sg|nom,pl)} {зурна=S,f,inan=nom,sg},
+{чуть=ADV=} {дышать=V,ipf,intr=inpraes,ger}, {о=PR=} {княжна=S,f,anim=(abl,sg|dat,sg)} {не=PART=} {справляться=V,intr=praet,sg,indic,f,ipf}.
+
+{но=CONJ=} {сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {рваться=V,ipf,intr=praet,sg,indic,n}
+{в=PR=} {волос=S,m,inan=abl,pl} {и=CONJ=}, {как=CONJ=} {фосфор=S,m,inan=(acc,sg|nom,sg)}, {трещать=V,ipf,intr=praet,pl,indic}.
+{и=CONJ=} {не=PART=} {слышать=V,ipf,tran=praet,sg,indic,m} {колосс=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {седеть=V,ipf,intr=inpraes,sg,indic,3p} {кавказ=S,geo,m,inan=(acc,sg|nom,sg)} {за=PR=} {печаль=S,f,inan=ins,sg}.
+
+{от=PR=} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {аршин=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+{пробирать=V=inpraes,ger,ipf,tran} {шерстинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бурнус=S,m,inan=gen,sg},
+{клясться=V,intr=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {лед=S,m,inan=ins,pl} {вершина=S,f,inan=gen,pl}:
+{спать=V,ipf,intr=sg,imper,2p}, {подруга=S,f,anim=nom,sg}, — {лавина=S,f,inan=ins,sg} {вернуся?=S,persn,f,anim=nom,sg}.

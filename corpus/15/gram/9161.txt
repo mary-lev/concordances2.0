@@ -1,84 +1,13 @@
-легко=ADV=
-_
-порхать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-сам=APRO=nom,sg,f
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-куда=ADVPRO=
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-зачем=ADVPRO=
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-звенеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-для=PR=
-_
-слух=S,m,inan=gen,sg
-,\n
-всегда=ADVPRO=
-_
-старуха=S,f,anim=nom,sg
-,\n
-всегда=ADVPRO=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-для=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-легко=ADV=
-_
-порхать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-жужжать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-так=ADVPRO=
-_
-внимать=V,intr=praet,sg,indic,m,ipf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_\u2014_
-фараон=S,m,anim=nom,sg
-.\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-виться=V,ipf,intr=inf
-,\n
-и=CONJ=
-_
-так=ADVPRO=
-_
-кружиться=V,ipf,intr=inf
-\n
-на=PR=
-_
-тризна=S,f,inan=(abl,sg|dat,sg)
-_
-крайний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-все=SPRO,pl=(abl|acc|gen)
-,_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-время=S,n,inan=gen,pl
-.\n
+{легко=ADV=} {порхать=V,ipf,intr=inpraes,sg,indic,3p},
+{сам=APRO=nom,sg,f} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+{куда=ADVPRO=} {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {зачем=ADVPRO=} {жить=V,ipf,intr=inpraes,sg,indic,3p}.
+{звенеть=V,ipf,intr=inpraes,sg,indic,3p} {для=PR=} {слух=S,m,inan=gen,sg},
+{всегда=ADVPRO=} {старуха=S,f,anim=nom,sg},
+{всегда=ADVPRO=} {она=SPRO,sg,3p,f=(dat|ins)} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {для=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {год=S,m,inan=(acc,sg|nom,sg)}.
+
+{легко=ADV=} {порхать=V,ipf,intr=inpraes,sg,indic,3p},
+{жужжать=V,ipf,intr=inpraes,sg,indic,3p}, {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+{что=SPRO,sg,n,inan=(acc|nom)} {так=ADVPRO=} {внимать=V,intr=praet,sg,indic,m,ipf} {она=SPRO,sg,3p,f=(dat|ins)} — {фараон=S,m,anim=nom,sg}.
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {виться=V,ipf,intr=inf},
+{и=CONJ=} {так=ADVPRO=} {кружиться=V,ipf,intr=inf}
+{на=PR=} {тризна=S,f,inan=(abl,sg|dat,sg)} {крайний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {все=SPRO,pl=(abl|acc|gen)}, {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {время=S,n,inan=gen,pl}.

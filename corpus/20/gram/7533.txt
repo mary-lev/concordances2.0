@@ -1,74 +1,9 @@
-лукавый=A=pl,brev
-_
-дьявольский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-искушение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-но=CONJ=
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-лукавый=A=comp
-_
-один=APRO=(acc,sg,n|nom,sg,n)
-,_\u2014_
-последний=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
-тем=CONJ=
-_
-невозвратный=A=comp
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-падение=S,n,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-неподатливость=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=nom,sg,f
-_
-победный=A=comp
-.\n\n
-но=CONJ=
-_
-тайно=ADV=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,_
-что=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-справляться=V,intr=inpraes,sg,indic,3p,pf
-\n
-и=CONJ=
-_
-с=PR=
-_
-торжествующий=A=ins,sg,plen,f
-_
-преисподняя=S,f,inan=ins,sg
-,\n
-что=CONJ=
-_
-не=PART=
-_
-притупляться=V,intr=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-не=PART=
-_
-расплавляться=V,intr=inpraes,sg,indic,3p,pf
-\n
-копье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-вручать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)
-_
-рука=S,f,inan=ins,sg
-_
-господний=A,poss=ins,sg,plen,f
-.\n
+{лукавый=A=pl,brev} {дьявольский=A=(acc,pl,plen,inan|nom,pl,plen)} {искушение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{но=CONJ=} {все=SPRO,pl=(abl|acc|gen)} {лукавый=A=comp} {один=APRO=(acc,sg,n|nom,sg,n)}, — {последний=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+{тем=CONJ=} {невозвратный=A=comp} {твой=APRO=(acc,sg,n|nom,sg,n)} {падение=S,n,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {неподатливость=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=nom,sg,f} {победный=A=comp}.
+
+{но=CONJ=} {тайно=ADV=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {что=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {справляться=V,intr=inpraes,sg,indic,3p,pf}
+{и=CONJ=} {с=PR=} {торжествующий=A=ins,sg,plen,f} {преисподняя=S,f,inan=ins,sg},
+{что=CONJ=} {не=PART=} {притупляться=V,intr=inpraes,sg,indic,3p,pf} {и=CONJ=} {не=PART=} {расплавляться=V,intr=inpraes,sg,indic,3p,pf}
+{копье=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {вручать=V,tran=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {рука=S,f,inan=ins,sg} {господний=A,poss=ins,sg,plen,f}.

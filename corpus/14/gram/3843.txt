@@ -1,104 +1,15 @@
-ты=SPRO,sg,2p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,2p
-,_
-я=SPRO,sg,1p=nom
-_
-томиться=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-неволя=S,f,inan=(abl,sg|dat,sg)
-,_\n
-о=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-господин=S,m,anim=nom,pl
-_
-молить=V,ipf,tran=inpraes,ger
-._\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-памятный=A=sg,brev,f
-_
-до=PR=
-_
-боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-тверская=S,geo,sg,f,inan=nom
-_
-скудный=A=nom,sg,plen,f
-_
-земля=S,f,inan=nom,sg
-.\n\n
-журавль=S,m,anim=nom,sg
-_
-у=PR=
-_
-ветхий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-колодец=S,m,inan=gen,sg
-,_\n
-над=PR=
-_
-он=SPRO,sg,3p,m=ins
-,_
-как=CONJ=
-_
-кипень=S,f,inan=(acc,sg|nom,sg)
-,_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-в=PR=
-_
-поле=S,n,inan=abl,pl
-_
-скрипучий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-воротца=S,pl,inan=(acc|nom)
-,_\n
-и=CONJ=
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-тоска=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-неяркий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-простор=S,m,inan=(acc,pl|nom,pl)
-,_\n
-где=ADVPRO=
-_
-даже=PART=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-слабый=A=sg,brev,m
-,_\n
-и=CONJ=
-_
-осуждающий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_\n
-спокойный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-загорелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-баба=S,f,anim=(acc,pl|gen,pl)
-.\n\n
+{ты=SPRO,sg,2p=nom} {знать=V,ipf,tran=inpraes,sg,indic,2p}, {я=SPRO,sg,1p=nom} {томиться=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {неволя=S,f,inan=(abl,sg|dat,sg)}, 
+{о=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {господин=S,m,anim=nom,pl} {молить=V,ipf,tran=inpraes,ger}. 
+{но=CONJ=} {все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {памятный=A=sg,brev,f} {до=PR=} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{тверская=S,geo,sg,f,inan=nom} {скудный=A=nom,sg,plen,f} {земля=S,f,inan=nom,sg}.
+
+{журавль=S,m,anim=nom,sg} {у=PR=} {ветхий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {колодец=S,m,inan=gen,sg}, 
+{над=PR=} {он=SPRO,sg,3p,m=ins}, {как=CONJ=} {кипень=S,f,inan=(acc,sg|nom,sg)}, {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{в=PR=} {поле=S,n,inan=abl,pl} {скрипучий=A=(acc,pl,plen,inan|nom,pl,plen)} {воротца=S,pl,inan=(acc|nom)}, 
+{и=CONJ=} {запах=S,m,inan=(acc,sg|nom,sg)} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {тоска=S,f,inan=nom,sg}.
+
+{и=CONJ=} {тот=APRO=(nom,pl|acc,pl,inan)} {неяркий=A=(acc,pl,plen,inan|nom,pl,plen)} {простор=S,m,inan=(acc,pl|nom,pl)}, 
+{где=ADVPRO=} {даже=PART=} {голос=S,m,inan=(acc,sg|nom,sg)} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {слабый=A=sg,brev,m}, 
+{и=CONJ=} {осуждающий=A=(acc,pl,plen,inan|nom,pl,plen)} {взор=S,m,inan=(acc,pl|nom,pl)} 
+{спокойный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {загорелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {баба=S,f,anim=(acc,pl|gen,pl)}.
+

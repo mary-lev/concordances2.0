@@ -1,90 +1,11 @@
-все=SPRO,pl=(acc|nom)
-_
-представлять=V,tran=inpraes,sg,indic,1p,ipf
-_
-в=PR=
-_
-блаженный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-туман=S,m,inan=abl,sg
-_
-я=SPRO,sg,1p=nom
-:_\n
-статуя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-арка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-сад=S,m,inan=(acc,pl|nom,pl)
-,_
-цветник=S,m,inan=(acc,pl|nom,pl)
-.\n
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-начинаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-значит=ADV,parenth=
-..._
-а=CONJ=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-пустяк=S,m,inan=(acc,pl|nom,pl)
-.\n\n...
-вот=PART=
-_
-вылезать=V,intr=inpraes,sg,indic,1p,ipf
-,_
-как=CONJ=
-_
-зверь=S,m,anim=nom,sg
-,_
-из=PR=
-_
-берлога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=nom
-,_\n
-в=PR=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-париж=S,geo,m,inan=gen,sg
-,_
-сутулый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-больной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-..._\n\xAB
-бедный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-человек=S,m,anim=nom,pl
-\xBB_\u2014_
-пример=S,m,inan=(acc,sg|nom,sg)
-_
-тавтология=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-кто=SPRO,sg,m,anim=ins
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-сказать=V,pf,tran=praet,sg,partcp,brev,n,pass
-?_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-я=SPRO,sg,1p=ins
-.\n
+{все=SPRO,pl=(acc|nom)} {представлять=V,tran=inpraes,sg,indic,1p,ipf} {в=PR=} {блаженный=A=(abl,sg,plen,m|abl,sg,plen,n)} {туман=S,m,inan=abl,sg} {я=SPRO,sg,1p=nom}: 
+{статуя=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {арка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {сад=S,m,inan=(acc,pl|nom,pl)}, {цветник=S,m,inan=(acc,pl|nom,pl)}.
+{темный=A=(acc,pl,plen,inan|nom,pl,plen)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {начинаться=V,intr=inpraes,pl,indic,3p,ipf} {воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{значит=ADV,parenth=}... {а=CONJ=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {пустяк=S,m,inan=(acc,pl|nom,pl)}.
+
+...{вот=PART=} {вылезать=V,intr=inpraes,sg,indic,1p,ipf}, {как=CONJ=} {зверь=S,m,anim=nom,sg}, {из=PR=} {берлога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom}, 
+{в=PR=} {холод=S,m,inan=(acc,sg|nom,sg)} {париж=S,geo,m,inan=gen,sg}, {сутулый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {больной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}... 
+«{бедный=A=(acc,pl,plen,inan|nom,pl,plen)} {человек=S,m,anim=nom,pl}» — {пример=S,m,inan=(acc,sg|nom,sg)} {тавтология=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{кто=SPRO,sg,m,anim=ins} {это=SPRO,sg,n,inan=(acc|nom)} {сказать=V,pf,tran=praet,sg,partcp,brev,n,pass}? {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {я=SPRO,sg,1p=ins}.

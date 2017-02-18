@@ -1,114 +1,21 @@
-в=PR=
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\n
-слышный=A=sg,brev,m
-_
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-ветвь=S,f,inan=gen,pl
-,_\n
-и=CONJ=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-туда=ADVPRO=
-_\n
-белый=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-соловей=S,m,anim=nom,sg
-_\n
-за=PR=
-_
-твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-окно=S,n,inan=ins,sg
-,\n
-и=CONJ=
-_
-светло=ADV=
-,_
-как=CONJ=
-_
-день=S,m,inan=ins,sg
-,\n
-в=PR=
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
-только=PART=
-_
-тишина=S,sg,f,inan=nom
-,_\n
-только=PART=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-навеки=ADV=
-_
-дно=S,n,inan=gen,sg
-_\n
-не=PART=
-_
-доставать=V,tran=inpraes,sg,indic,3p,pf
-_
-лот=S,m,inan=(acc,sg|nom,sg)
-._\n
-самый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_\n
-не=PART=
-_
-увидеть=V,pf,tran=inpraes,sg,indic,3p
-_
-дно=S,n,inan=gen,sg
-,_\n
-самый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-_\n
-не=PART=
-_
-услышать=V,pf,tran=inpraes,sg,indic,3p
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_\u2014_\n
-где=ADVPRO=
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-_
-судьба=S,f,inan=nom,sg
-,_\n
-тишина=S,sg,f,inan=nom
-,_
-весна=S,f,inan=nom,sg
-_\n
-один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-из=PR=
-_
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-,_\n
-один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-из=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
+{в=PR=} {комната=S,f,inan=(abl,sg|dat,sg)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} 
+{слышный=A=sg,brev,m} {шум=S,m,inan=(acc,sg|nom,sg)} {ветвь=S,f,inan=gen,pl}, 
+{и=CONJ=} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {туда=ADVPRO=} 
+{белый=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.
+{плакать=V,ipf,intr=inpraes,sg,indic,3p} {соловей=S,m,anim=nom,sg} 
+{за=PR=} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {окно=S,n,inan=ins,sg},
+{и=CONJ=} {светло=ADV=}, {как=CONJ=} {день=S,m,inan=ins,sg},
+{в=PR=} {комната=S,f,inan=(abl,sg|dat,sg)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+
+{только=PART=} {тишина=S,sg,f,inan=nom}, 
+{только=PART=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лед=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {навеки=ADV=} {дно=S,n,inan=gen,sg} 
+{не=PART=} {доставать=V,tran=inpraes,sg,indic,3p,pf} {лот=S,m,inan=(acc,sg|nom,sg)}. 
+{самый=APRO=(acc,sg,m,inan|nom,sg,m)} {зоркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} 
+{не=PART=} {увидеть=V,pf,tran=inpraes,sg,indic,3p} {дно=S,n,inan=gen,sg}, 
+{самый=APRO=(acc,sg,m,inan|nom,sg,m)} {чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {слух=S,m,inan=(acc,sg|nom,sg)} 
+{не=PART=} {услышать=V,pf,tran=inpraes,sg,indic,3p} {час=S,m,inan=(acc,sg|nom,sg)} — 
+{где=ADVPRO=} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {судьба=S,f,inan=nom,sg}, 
+{тишина=S,sg,f,inan=nom}, {весна=S,f,inan=nom,sg} 
+{один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {из=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)}, 
+{один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {из=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.

@@ -1,44 +1,8 @@
-художник=S,m,anim=(acc,pl|gen,pl)
-_
-развязный=A=nom,sg,plen,f
-_
-мазня=S,f,inan=nom,sg
-,_\n
-поэт=S,m,anim=(acc,pl|gen,pl)
-_
-выспренний=A=nom,sg,plen,f
-_
-болтовня=S,f,inan=nom,sg
-...\n\n
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-на=PR=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-рабский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-старание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_\n
-испытывать=V,tran=inpraes,ger,ipf
-_
-жалость=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-тоска=S,f,inan=acc,sg
-:\n\n
-насколько=ADV=
-_
-хорошо=ADV=comp,parenth
-_\u2014_
-блеяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бараний=A,plen=(acc,sg,n|nom,sg,n)
-,_\n
-мычание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-кваканье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-кукурек?=S,m,inan=dat,sg
-.\n
+{художник=S,m,anim=(acc,pl|gen,pl)} {развязный=A=nom,sg,plen,f} {мазня=S,f,inan=nom,sg}, 
+{поэт=S,m,anim=(acc,pl|gen,pl)} {выспренний=A=nom,sg,plen,f} {болтовня=S,f,inan=nom,sg}...
+
+{глядеть=V,ipf,tran=inpraes,sg,indic,1p} {на=PR=} {это=SPRO,sg,n,inan=(acc|nom)} {рабский=A=(acc,sg,plen,n|nom,sg,plen,n)} {старание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, 
+{испытывать=V,tran=inpraes,ger,ipf} {жалость=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {тоска=S,f,inan=acc,sg}:
+
+{насколько=ADV=} {хорошо=ADV=comp,parenth} — {блеяние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бараний=A,plen=(acc,sg,n|nom,sg,n)}, 
+{мычание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {кваканье=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {кукурек?=S,m,inan=dat,sg}.

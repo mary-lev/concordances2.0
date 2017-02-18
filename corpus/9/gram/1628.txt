@@ -1,182 +1,24 @@
-рассвет=S,m,inan=(acc,sg|nom,sg)
-_
-расколыхивать?=V=inpraes,sg,indic,3p,pf
-_
-свеча=S,f,inan=acc,sg
-,_\n
-зажигать=V=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-пускать=V=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-цель=S,f,inan=(acc,sg|nom,sg)
-_
-стриж=S,m,anim=(acc,sg|gen,sg)
-._\n
-напоминание=S,n,inan=ins,sg
-_
-влетать=V,intr=inpraes,sg,indic,1p,pf
-:_\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-же=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-свежий=A=sg,brev,f
-!\n\n
-заря=S,f,inan=nom,sg
-,_
-как=CONJ=
-_
-выстрел=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-темнота=S,sg,f,inan=acc
-._\n
-баба=S,f,anim=abl,pl
-!_\u2014_
-и=CONJ=
-_
-тухнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-лет=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\n
-пожар=S,m,inan=(acc,sg|nom,sg)
-_
-ружейный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пыж=S,m,inan=gen,sg
-._\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-же=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-свежий=A=sg,brev,f
-.\n\n
-еще=ADV=
-_
-снаружи=ADV=
-_\u2014_
-ветерок=S,m,inan=(acc,sg|nom,sg)
-,_\n
-что=CONJ=
-_
-ночь=S,f,inan=ins,sg
-_
-жаться=V,ipf,intr=praet,sg,indic,m
-_
-к=PR=
-_
-мы=SPRO,pl,1p=dat
-,_
-дрожать=V,ipf,intr=inpraes,ger
-._\n
-заря=S,f,inan=ins,sg
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-дождь=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-он=SPRO,sg,3p,m=nom
-_
-продрогнуть=V,pf,intr=praet,sg,indic,m
-._\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-же=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-свежий=A=sg,brev,f
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-поразительно=ADV=
-_
-смешной=A=sg,brev,m
-!_\n
-зачем=ADVPRO=
-_
-соваться=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-сторож=S,m,anim=(acc,sg|gen,sg|nom,pl)
-?_\n
-он=SPRO,sg,3p,m=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-,_\u2014_
-вход=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-разрешать=V,tran=praet,sg,partcp,brev,m,pf,pass
-._\n
-да=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-же=PART=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-свежий=A=sg,brev,f
-.\n\n
-повелевать=V,ipf,intr=sg,imper,2p
-,_
-пока=CONJ=
-_
-на=PR=
-_
-взмах=S,m,inan=(acc,sg|nom,sg)
-_\n
-платок=S,m,inan=gen,sg
-_\u2014_
-пока=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-госпожа=S,f=nom,sg,anim
-,_\n
-пока=CONJ=
-_\u2014_
-покамест=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-впотьмах=ADV=
-,_\n
-покамест=ADV=
-_
-не=PART=
-_
-угасать=V,intr=praet,sg,indic,m,pf
-_
-пожар=S,m,inan=(acc,sg|nom,sg)
-.\n
+{рассвет=S,m,inan=(acc,sg|nom,sg)} {расколыхивать?=V=inpraes,sg,indic,3p,pf} {свеча=S,f,inan=acc,sg}, 
+{зажигать=V=inpraes,sg,indic,3p,pf} {и=CONJ=} {пускать=V=inpraes,sg,indic,3p,pf} {в=PR=} {цель=S,f,inan=(acc,sg|nom,sg)} {стриж=S,m,anim=(acc,sg|gen,sg)}. 
+{напоминание=S,n,inan=ins,sg} {влетать=V,intr=inpraes,sg,indic,1p,pf}: 
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {так=ADVPRO=} {же=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {свежий=A=sg,brev,f}!
+
+{заря=S,f,inan=nom,sg}, {как=CONJ=} {выстрел=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {темнота=S,sg,f,inan=acc}. 
+{баба=S,f,anim=abl,pl}! — {и=CONJ=} {тухнуть=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {лет=S,m,inan=(dat,sg|part,sg|loc,sg)} 
+{пожар=S,m,inan=(acc,sg|nom,sg)} {ружейный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пыж=S,m,inan=gen,sg}. 
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {так=ADVPRO=} {же=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {свежий=A=sg,brev,f}.
+
+{еще=ADV=} {снаружи=ADV=} — {ветерок=S,m,inan=(acc,sg|nom,sg)}, 
+{что=CONJ=} {ночь=S,f,inan=ins,sg} {жаться=V,ipf,intr=praet,sg,indic,m} {к=PR=} {мы=SPRO,pl,1p=dat}, {дрожать=V,ipf,intr=inpraes,ger}. 
+{заря=S,f,inan=ins,sg} {идти=V,ipf,intr=praet,sg,indic,m} {дождь=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {он=SPRO,sg,3p,m=nom} {продрогнуть=V,pf,intr=praet,sg,indic,m}. 
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {так=ADVPRO=} {же=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {свежий=A=sg,brev,f}.
+
+{он=SPRO,sg,3p,m=nom} {поразительно=ADV=} {смешной=A=sg,brev,m}! 
+{зачем=ADVPRO=} {соваться=V,ipf,intr=praet,sg,indic,m} {в=PR=} {сторож=S,m,anim=(acc,sg|gen,sg|nom,pl)}? 
+{он=SPRO,sg,3p,m=nom} {видеть=V,ipf,tran=praet,sg,indic,m}, — {вход=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {разрешать=V,tran=praet,sg,partcp,brev,m,pf,pass}. 
+{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {так=ADVPRO=} {же=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {свежий=A=sg,brev,f}.
+
+{повелевать=V,ipf,intr=sg,imper,2p}, {пока=CONJ=} {на=PR=} {взмах=S,m,inan=(acc,sg|nom,sg)} 
+{платок=S,m,inan=gen,sg} — {пока=CONJ=} {ты=SPRO,sg,2p=nom} {госпожа=S,f=nom,sg,anim}, 
+{пока=CONJ=} — {покамест=CONJ=} {мы=SPRO,pl,1p=nom} {впотьмах=ADV=}, 
+{покамест=ADV=} {не=PART=} {угасать=V,intr=praet,sg,indic,m,pf} {пожар=S,m,inan=(acc,sg|nom,sg)}.

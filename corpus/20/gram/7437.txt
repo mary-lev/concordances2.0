@@ -1,72 +1,9 @@
-скоро=ADV=
-_
-изменяться=V,intr=inpraes,pl,indic,3p,pf
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,_\n
-я=SPRO,sg,1p=nom
-_
-отходить=V,intr=inpraes,sg,indic,1p,pf
-_
-ото=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-милый=A=sg,brev,m
-,_\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-иной=APRO=(nom,pl|acc,pl,inan)
-_
-искать=V,ipf,tran=inf
-_
-ответ=S,m,inan=(acc,pl|nom,pl)
-,_\n\t
-если=CONJ=
-_
-здешний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-отлюбить=V,pf,tran=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-падение=S,n,inan=gen,pl
-_
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-:_\n
-просто=PART=
-_
-сходить=V,intr=inpraes,sg,indic,1p,pf
-_
-со=PR=
-_
-ступень=S,f,inan=(acc,sg|nom,sg)
-_
-крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-просто=PART=
-_
-свиваться=V,intr=inpraes,sg,indic,3p,pf
-_
-свиток=S,m,inan=(acc,sg|nom,sg)
-_
-звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n\t
-если=CONJ=
-_
-дочитывать=V=praet,sg,partcp,brev,m,pf,pass
-_\u2014_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-.\n
+{скоро=ADV=} {изменяться=V,intr=inpraes,pl,indic,3p,pf} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {цветок=S,m,inan=(acc,pl|nom,pl)}, 
+{я=SPRO,sg,1p=nom} {отходить=V,intr=inpraes,sg,indic,1p,pf} {ото=PR=} {все=SPRO,pl=(abl|acc|gen)}, {кто=SPRO,sg,m,anim=nom} {милый=A=sg,brev,m}, 
+{быть=V,intr=inpraes,sg,indic,1p} {иной=APRO=(nom,pl|acc,pl,inan)} {искать=V,ipf,tran=inf} {ответ=S,m,inan=(acc,pl|nom,pl)}, 
+	{если=CONJ=} {здешний=A=(acc,pl,plen,inan|nom,pl,plen)} {отлюбить=V,pf,tran=praet,sg,indic,m}.
+
+{и=CONJ=} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p} {падение=S,n,inan=gen,pl} {в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {бездна=S,f,inan=(acc,pl|gen,sg|nom,pl)}: 
+{просто=PART=} {сходить=V,intr=inpraes,sg,indic,1p,pf} {со=PR=} {ступень=S,f,inan=(acc,sg|nom,sg)} {крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{просто=PART=} {свиваться=V,intr=inpraes,sg,indic,3p,pf} {свиток=S,m,inan=(acc,sg|nom,sg)} {звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+	{если=CONJ=} {дочитывать=V=praet,sg,partcp,brev,m,pf,pass} — {до=PR=} {конец=S,m,inan=gen,sg}.

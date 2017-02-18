@@ -1,60 +1,9 @@
-пароход=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-тонуть=V,ipf,intr=inpraes,pl,indic,3p
-,_\n
-опускаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-на=PR=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-.\n
-они=SPRO,pl=dat
-_
-в=PR=
-_
-междупланетный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-омут=S,m,inan=(acc,sg|nom,sg)
-_\n
-окунаться=V,intr=inf,pf
-_
-не=PART=
-_
-давать=V,tran=praet,sg,partcp,brev,n,pf,pass
-.\n\n
-сухо=ADV=
-_
-шелестеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-омела=S,f,inan=nom,sg
-,\n
-тянуть=V,ipf,tran=inpraes,sg,indic,3p
-_
-вечность=S,f,inan=ins,sg
-_
-с=PR=
-_
-планета=S,f,inan=gen,pl
-..._\n
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-_
-какой=APRO=(acc,sg,n|nom,sg,n)
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-нет=PART=
-?\n
+{пароход=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {тонуть=V,ipf,intr=inpraes,pl,indic,3p}, 
+{опускаться=V,intr=inpraes,pl,indic,3p,ipf} {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)}.
+{они=SPRO,pl=dat} {в=PR=} {междупланетный=A,plen=(acc,sg,m,inan|nom,sg,m)} {омут=S,m,inan=(acc,sg|nom,sg)} 
+{окунаться=V,intr=inf,pf} {не=PART=} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+
+{сухо=ADV=} {шелестеть=V,ipf,intr=inpraes,sg,indic,3p} {омела=S,f,inan=nom,sg},
+{тянуть=V,ipf,tran=inpraes,sg,indic,3p} {вечность=S,f,inan=ins,sg} {с=PR=} {планета=S,f,inan=gen,pl}... 
+{и=CONJ=} {кто=SPRO,sg,m,anim=dat} {какой=APRO=(acc,sg,n|nom,sg,n)} {дело=S,n,inan=(acc,sg|nom,sg)}.
+{что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(acc|gen)} {на=PR=} {свет=S,sg,m,inan=abl} {нет=PART=}?

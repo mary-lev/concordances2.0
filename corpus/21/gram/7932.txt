@@ -1,112 +1,14 @@
-друг=S,m,anim=nom,pl
-,_
-друг=S,m,anim=nom,pl
-!_
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-скоро=ADV=
-_\u2014\n
-и=CONJ=
-_
-не=PART=
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-,_
-а=CONJ=
-_
-наяву=ADV=
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-_
-пустой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-разговор=S,m,inan=gen,sg
-\n
-для=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-нежданно=ADV=
-_
-оборвать=V,pf,tran=inpraes,sg,indic,1p
-\n\n
-и=CONJ=
-,_
-повиноваться=V,intr=inpraes,ger,ipf
-_
-только=PART=
-_
-звук=S,m,inan=dat,sg
-\n
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-запевать=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-,_
-как=CONJ=
-_
-смычок=S,m,inan=(acc,sg|nom,sg)
-,\n
-вдруг=ADV=
-_
-подымать=V=inpraes,sg,indic,1p,pf
-_
-на=PR=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-рука=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-затрепетать=V,pf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-,\n\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-увидеть=V,pf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-открывать=V=inpraes,sg,indic,1p,pf
-\n
-цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-,_
-цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,_\u2014\n
-о=INTJ=
-,_
-если=CONJ=
-_
-бы=PART=
-_
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-\n
-мочь=V,ipf,intr=praet,pl,indic
-_
-туда=ADVPRO=
-_
-перешагивать=V,tran=inf,pf
-!\n
+{друг=S,m,anim=nom,pl}, {друг=S,m,anim=nom,pl}! {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {скоро=ADV=} —
+{и=CONJ=} {не=PART=} {во=PR=} {сон=S,m,inan=abl,sg}, {а=CONJ=} {наяву=ADV=} —
+{я=SPRO,sg,1p=nom} {нить=S,f,inan=(acc,sg|nom,sg)} {пустой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {разговор=S,m,inan=gen,sg}
+{для=PR=} {все=SPRO,pl=(abl|acc|gen)} {нежданно=ADV=} {оборвать=V,pf,tran=inpraes,sg,indic,1p}
+
+{и=CONJ=}, {повиноваться=V,intr=inpraes,ger,ipf} {только=PART=} {звук=S,m,inan=dat,sg}
+{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {запевать=V,tran=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)}, {как=CONJ=} {смычок=S,m,inan=(acc,sg|nom,sg)},
+{вдруг=ADV=} {подымать=V=inpraes,sg,indic,1p,pf} {на=PR=} {воздух=S,m,inan=(acc,sg|nom,sg)} {рука=S,f,inan=acc,sg},
+{и=CONJ=} {затрепетать=V,pf,intr=inpraes,sg,indic,3p} {в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {цветок=S,m,inan=(acc,sg|nom,sg)},
+
+{и=CONJ=} {я=SPRO,sg,1p=nom} {увидеть=V,pf,tran=inpraes,sg,indic,1p} {и=CONJ=} {открывать=V=inpraes,sg,indic,1p,pf}
+{цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)}, {цветочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)}, —
+{о=INTJ=}, {если=CONJ=} {бы=PART=} {и=CONJ=} {вы=SPRO,pl,2p=nom} {со=PR=} {я=SPRO,sg,1p=ins}
+{мочь=V,ipf,intr=praet,pl,indic} {туда=ADVPRO=} {перешагивать=V,tran=inf,pf}!

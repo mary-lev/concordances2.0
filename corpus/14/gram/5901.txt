@@ -1,42 +1,5 @@
-вместо=PR=
-_
-праздничный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-поздравление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-жесткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-приносить=V=inpraes,sg,indic,3p,pf
-_
-вы=SPRO,pl,2p=dat
-_
-только=PART=
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-тление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-привкус=S,m,inan=(acc,sg|nom,sg)
-_
-дым=S,m,inan=gen,sg
-_
-и=CONJ=
-_
-стихотворение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-написать=V,pf,tran=praet,pl,partcp,brev,pass
-_
-рука=S,f,inan=ins,sg
-.\n
+{вместо=PR=} {праздничный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {поздравление=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {жесткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {сухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{приносить=V=inpraes,sg,indic,3p,pf} {вы=SPRO,pl,2p=dat} {только=PART=} {запах=S,m,inan=(acc,sg|nom,sg)} {тление=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{привкус=S,m,inan=(acc,sg|nom,sg)} {дым=S,m,inan=gen,sg} {и=CONJ=} {стихотворение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{что=SPRO,sg,n,inan=(acc|nom)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {написать=V,pf,tran=praet,pl,partcp,brev,pass} {рука=S,f,inan=ins,sg}.

@@ -1,66 +1,9 @@
-петь=V,ipf,tran=pl,imper,2p
-_\u2014_
-петь=V,ipf,tran=pl,imper,2p
-,_
-бубенчик=S,m,inan=(acc,pl|nom,pl)
-_
-ландыш=S,m,inan=gen,pl
-,\n
-петь=V,ipf,tran=pl,imper,2p
-_\u2014_
-петь=V,ipf,tran=pl,imper,2p
-_
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_\u2014\n
-о=PR=
-_
-весенний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-тихо=ADV=
-_
-кануть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-,\n
-о=PR=
-_
-любовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-;\n\n
-о=PR=
-_
-улыбка=S,f,inan=(abl,sg|dat,sg)
-_
-лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-девичья=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-\n
-и=CONJ=
-_\u2014_
-о=PR=
-,_
-боль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-о=PR=
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-...\n
-петь=V,ipf,tran=pl,imper,2p
-_\u2014_
-петь=V,ipf,tran=pl,imper,2p
-,_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-королевич=S,m,anim=nom,pl
-,\n
-петь=V,ipf,tran=pl,imper,2p
-_\u2014_
-петь=V,ipf,tran=pl,imper,2p
-_
-вы=SPRO,pl,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-!\n
+{петь=V,ipf,tran=pl,imper,2p} — {петь=V,ipf,tran=pl,imper,2p}, {бубенчик=S,m,inan=(acc,pl|nom,pl)} {ландыш=S,m,inan=gen,pl},
+{петь=V,ipf,tran=pl,imper,2p} — {петь=V,ipf,tran=pl,imper,2p} {вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(abl|dat)} —
+{о=PR=} {весенний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {тихо=ADV=} {кануть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)},
+{о=PR=} {любовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(abl,sg|dat,sg)};
+
+{о=PR=} {улыбка=S,f,inan=(abl,sg|dat,sg)} {лазоревый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {девичья=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+{и=CONJ=} — {о=PR=}, {боль=S,f,inan=(acc,sg|nom,sg)} — {о=PR=} {луна=S,f,inan=(abl,sg|dat,sg)}...
+{петь=V,ipf,tran=pl,imper,2p} — {петь=V,ipf,tran=pl,imper,2p}, {мой=APRO=(nom,pl|acc,pl,inan)} {королевич=S,m,anim=nom,pl},
+{петь=V,ipf,tran=pl,imper,2p} — {петь=V,ipf,tran=pl,imper,2p} {вы=SPRO,pl,2p=nom} {я=SPRO,sg,1p=(abl|dat)}!

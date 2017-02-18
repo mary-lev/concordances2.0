@@ -1,128 +1,19 @@
-когда=CONJ=
-_
-царица=S,f,anim=(gen,sg|nom,pl)
-_
-скромно=ADV=
-_
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-плести=V,ipf,tran=praet,pl,indic
-,_
-как=CONJ=
-_
-жена=S,f,anim=(gen,sg|nom,pl)
-_
-пастух=S,m,anim=(acc,pl|gen,pl)
-,\n
-и=CONJ=
-_
-почасту=ADV=
-_
-ходить=V,ipf,intr=praet,pl,indic
-_
-босой=A=pl,brev
-\n
-по=PR=
-_
-стогна=S,f,inan=dat,pl
-_
-тихий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-город=S,m,inan=gen,pl
-,\n\n
-ремень=S,m,inan=ins,pl
-_
-тесный=A=ins,pl,plen
-_
-сандалия=S,f,inan=gen,pl
-\n
-не=PART=
-_
-жать=V,ipf,tran=praet,pl,indic
-_
-голый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стопа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-затягивать=V,tran=praet,pl,indic,ipf
-_
-талия=S,f,inan=gen,pl
-\n
-на=PR=
-_
-удивление=S,n,inan=(acc,sg|nom,sg)
-_
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-в=PR=
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-цвести=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act
-_
-эллада=S,persn,f,anim=nom,sg
-\n
-рождать=V,ipf,tran=praet,sg,indic,f
-_
-то=PART=
-,_
-что=SPRO,sg,n,inan=(abl|ins)
-_
-живой=A=pl,brev
-_
-мы=SPRO,pl,1p=nom
-,\n
-в=PR=
-_
-чем=CONJ=
-_
-наш=APRO=nom,sg,f
-_
-верный=A=nom,sg,plen,f
-_
-ограда=S,f,inan=nom,sg
-\n
-от=PR=
-_
-вековечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-воскресать=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-человек=S,m,anim=(acc,sg|gen,sg)
-\n
-давно=ADV=
-_
-погибший=A=nom,sg,plen,f
-_
-мечта=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-ребенок=S,m,anim=nom,pl
-_
-будущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-понимать=V=inpraes,pl,indic,3p,pf
-,_
-что=CONJ=
-_
-значит=ADV,parenth=
-_
-красота=S,f,inan=nom,sg
-.\n
+{когда=CONJ=} {царица=S,f,anim=(gen,sg|nom,pl)} {скромно=ADV=} {коса=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{плести=V,ipf,tran=praet,pl,indic}, {как=CONJ=} {жена=S,f,anim=(gen,sg|nom,pl)} {пастух=S,m,anim=(acc,pl|gen,pl)},
+{и=CONJ=} {почасту=ADV=} {ходить=V,ipf,intr=praet,pl,indic} {босой=A=pl,brev}
+{по=PR=} {стогна=S,f,inan=dat,pl} {тихий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {город=S,m,inan=gen,pl},
+
+{ремень=S,m,inan=ins,pl} {тесный=A=ins,pl,plen} {сандалия=S,f,inan=gen,pl}
+{не=PART=} {жать=V,ipf,tran=praet,pl,indic} {голый=A=(acc,pl,plen,inan|nom,pl,plen)} {стопа=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {не=PART=} {затягивать=V,tran=praet,pl,indic,ipf} {талия=S,f,inan=gen,pl}
+{на=PR=} {удивление=S,n,inan=(acc,sg|nom,sg)} {толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{в=PR=} {тот=APRO=(nom,pl|acc,pl,inan)} {день=S,m,inan=(acc,pl|nom,pl)} {цвести=V,ipf,intr=inpraes,nom,sg,partcp,plen,f,act} {эллада=S,persn,f,anim=nom,sg}
+{рождать=V,ipf,tran=praet,sg,indic,f} {то=PART=}, {что=SPRO,sg,n,inan=(abl|ins)} {живой=A=pl,brev} {мы=SPRO,pl,1p=nom},
+{в=PR=} {чем=CONJ=} {наш=APRO=nom,sg,f} {верный=A=nom,sg,plen,f} {ограда=S,f,inan=nom,sg}
+{от=PR=} {вековечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{воскресать=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {человек=S,m,anim=(acc,sg|gen,sg)}
+{давно=ADV=} {погибший=A=nom,sg,plen,f} {мечта=S,f,inan=nom,sg},
+{и=CONJ=} {ребенок=S,m,anim=nom,pl} {будущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{понимать=V=inpraes,pl,indic,3p,pf}, {что=CONJ=} {значит=ADV,parenth=} {красота=S,f,inan=nom,sg}.

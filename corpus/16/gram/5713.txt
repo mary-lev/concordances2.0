@@ -1,112 +1,14 @@
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-принцесса=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-аккорд=S,m,inan=(acc,pl|nom,pl)
-_
-лира=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-венок=S,m,inan=(acc,pl|nom,pl)
-_
-созвучие=S,n,inan=gen,pl
-_
-и=CONJ=
-_
-лента=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-а=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-эстет=S,m,anim=nom,pl
-,_
-мы=SPRO,pl,1p=nom
-_\u2014_
-ювелир=S,m,anim=nom,pl
-,\n
-мы=SPRO,pl,1p=nom
-_
-ювелир=S,m,anim=nom,pl
-_
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\n
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-принцесса=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-небо=S,n,inan=gen,pl
-_
-палаццо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-насмешка=S,f,inan=nom,sg
-,_
-горечь=S,f,inan=(acc,sg|nom,sg)
-,_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-грех=S,m,inan=(acc,pl|nom,pl)
-,\n
-гримаса=S,f,inan=nom,sg
-_
-боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-лицо=S,n,inan=abl,sg
-_
-паяц=S,m,anim=(acc,sg|gen,sg)
-...\n
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-принцесса=S,f,anim=(gen,sg|nom,pl)
-_\u2014_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-принцесса=S,f,anim=(gen,sg|nom,pl)
-,_
-колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-принцесса=S,f,anim=(gen,sg|nom,pl)
-...\n
-но=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-принцесса=S,f,anim=nom,sg
-,_
-но=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-же=PART=
-_
-тот=APRO=nom,sg,f
-_\u2014\n
-кто=SPRO,sg,m,anim=dat
-_
-все=SPRO,pl=(acc|nom)
-_
-гимн=S,m,inan=(acc,pl|nom,pl)
-,_
-кто=SPRO,sg,m,anim=dat
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-месса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-мой=APRO=nom,sg,f
-_
-принцесса=S,f,anim=nom,sg
-_\u2014_
-мой=APRO=nom,sg,f
-_
-мечта=S,f,inan=nom,sg
-!\n
+{колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {принцесса=S,f,anim=(gen,sg|nom,pl)} — {аккорд=S,m,inan=(acc,pl|nom,pl)} {лира=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{венок=S,m,inan=(acc,pl|nom,pl)} {созвучие=S,n,inan=gen,pl} {и=CONJ=} {лента=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{а=CONJ=} {мы=SPRO,pl,1p=nom} {эстет=S,m,anim=nom,pl}, {мы=SPRO,pl,1p=nom} — {ювелир=S,m,anim=nom,pl},
+{мы=SPRO,pl,1p=nom} {ювелир=S,m,anim=nom,pl} {такой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+
+{колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {принцесса=S,f,anim=(gen,sg|nom,pl)} — {небо=S,n,inan=gen,pl} {палаццо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{насмешка=S,f,inan=nom,sg}, {горечь=S,f,inan=(acc,sg|nom,sg)}, {любовь=S,f,inan=(acc,sg|nom,sg)}, {грех=S,m,inan=(acc,pl|nom,pl)},
+{гримаса=S,f,inan=nom,sg} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {лицо=S,n,inan=abl,sg} {паяц=S,m,anim=(acc,sg|gen,sg)}...
+{колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {принцесса=S,f,anim=(gen,sg|nom,pl)} — {мой=APRO=(nom,pl|acc,pl,inan)} {стих=S,m,inan=(acc,pl|nom,pl)}.
+
+{колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {принцесса=S,f,anim=(gen,sg|nom,pl)}, {колье=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {принцесса=S,f,anim=(gen,sg|nom,pl)}...
+{но=CONJ=} {кто=SPRO,sg,m,anim=nom} {принцесса=S,f,anim=nom,sg}, {но=CONJ=} {кто=SPRO,sg,m,anim=nom} {же=PART=} {тот=APRO=nom,sg,f} —
+{кто=SPRO,sg,m,anim=dat} {все=SPRO,pl=(acc|nom)} {гимн=S,m,inan=(acc,pl|nom,pl)}, {кто=SPRO,sg,m,anim=dat} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {месса=S,f,inan=(acc,pl|gen,sg|nom,pl)}?
+{мой=APRO=nom,sg,f} {принцесса=S,f,anim=nom,sg} — {мой=APRO=nom,sg,f} {мечта=S,f,inan=nom,sg}!

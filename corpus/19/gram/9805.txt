@@ -1,156 +1,34 @@
-можно=ADV,praed=
-_
-быть=V,intr=inf,ipf
-_
-скотина=S,f,inan=ins,sg
-,\n
-подлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-наглец=S,m,anim=ins,sg
-,\n
-можно=ADV,praed=
-,_
-как=CONJ=
-_
-картина=S,f,inan=ins,sg
-,\n
-торговать=V,ipf,tran=inf
-_
-лицо=S,n,inan=ins,sg
-.\n\n
-можно=ADV,praed=
-_
-грабить=V,ipf,tran=inf
-_
-ловко=ADV=
-,\n
-не=PART=
-_
-бояться=V,ipf,intr=inpraes,ger
-_
-суд=S,m,inan=gen,sg
-,\n
-если=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-сноровка=S,f,inan=nom,sg
-,\n
-если=CONJ=
-_
-нет=ADV,praed=
-_
-стыд=S,m,inan=gen,sg
-.\n\n
-можно=ADV,praed=
-_
-втайне=ADV=
-_
-взятка=S,f,inan=acc,sg
-\n
-получать=V,tran=inf,pf
-_
-и=CONJ=
-_
-давать=V,tran=inf,pf
-;\n
-можно=ADV,praed=
-_
-волчий=A,plen=acc,sg,f
-_
-хватка=S,f,inan=acc,sg
-\n
-в=PR=
-_
-нужда=S,f,inan=(abl,sg|dat,sg)
-_
-показывать=V=inf,pf
-.\n\n
-беззаботно=ADV=
-_
-птичка=S,f,anim=nom,sg
-\n
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ль=PART=
-_
-на=PR=
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\u2014\n
-можно=ADV,praed=
-,_
-как=CONJ=
-_
-лисичка=S,f,anim=nom,sg
-,\n
-к=PR=
-_
-глупый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-подползать=V,intr=inf,pf
-,\n\n
-выпивать=V,tran=inf,pf
-_
-без=PR=
-_
-остаток=S,m,inan=gen,sg
-\n
-молодой=A=acc,sg,plen,f
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,\n
-облизываться=V,intr=inf,pf
-_
-сладко=ADV=
-,\n
-и=CONJ=
-_
-таиться=V,ipf,intr=inf
-_
-вновь=ADV=
-.\n\n
-всякий=APRO=acc,sg,plen,f
-_
-затея=S,f,inan=acc,sg
-,\n
-всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-подлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-\n
-мы=SPRO,pl,1p=nom
-_
-прощать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-злодей=S,m,anim=dat,sg
-\n
-за=PR=
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-успех=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-в=PR=
-_
-наш=APRO=(abl,sg,m|abl,sg,n)
-_
-поколение=S,n,inan=abl,sg
-\n
-встречать=V,tran=inpraes,sg,indic,3p,pf
-_
-дружный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-,\n
-злоба=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-презрение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-только=PART=
-_
-неуспех=S,m,inan=(acc,sg|nom,sg)
-.\n
+{можно=ADV,praed=} {быть=V,intr=inf,ipf} {скотина=S,f,inan=ins,sg},
+{подлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {наглец=S,m,anim=ins,sg},
+{можно=ADV,praed=}, {как=CONJ=} {картина=S,f,inan=ins,sg},
+{торговать=V,ipf,tran=inf} {лицо=S,n,inan=ins,sg}.
+
+{можно=ADV,praed=} {грабить=V,ipf,tran=inf} {ловко=ADV=},
+{не=PART=} {бояться=V,ipf,intr=inpraes,ger} {суд=S,m,inan=gen,sg},
+{если=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {сноровка=S,f,inan=nom,sg},
+{если=CONJ=} {нет=ADV,praed=} {стыд=S,m,inan=gen,sg}.
+
+{можно=ADV,praed=} {втайне=ADV=} {взятка=S,f,inan=acc,sg}
+{получать=V,tran=inf,pf} {и=CONJ=} {давать=V,tran=inf,pf};
+{можно=ADV,praed=} {волчий=A,plen=acc,sg,f} {хватка=S,f,inan=acc,sg}
+{в=PR=} {нужда=S,f,inan=(abl,sg|dat,sg)} {показывать=V=inf,pf}.
+
+{беззаботно=ADV=} {птичка=S,f,anim=nom,sg}
+{виться=V,ipf,intr=inpraes,sg,indic,3p} {ль=PART=} {на=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, —
+{можно=ADV,praed=}, {как=CONJ=} {лисичка=S,f,anim=nom,sg},
+{к=PR=} {глупый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {подползать=V,intr=inf,pf},
+
+{выпивать=V,tran=inf,pf} {без=PR=} {остаток=S,m,inan=gen,sg}
+{молодой=A=acc,sg,plen,f} {кровь=S,f,inan=(acc,sg|nom,sg)},
+{облизываться=V,intr=inf,pf} {сладко=ADV=},
+{и=CONJ=} {таиться=V,ipf,intr=inf} {вновь=ADV=}.
+
+{всякий=APRO=acc,sg,plen,f} {затея=S,f,inan=acc,sg},
+{всякий=APRO=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грех=S,m,inan=(acc,sg|nom,sg)}
+{мы=SPRO,pl,1p=nom} {прощать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {злодей=S,m,anim=dat,sg}
+{за=PR=} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {успех=S,m,inan=(acc,sg|nom,sg)}.
+
+{в=PR=} {наш=APRO=(abl,sg,m|abl,sg,n)} {поколение=S,n,inan=abl,sg}
+{встречать=V,tran=inpraes,sg,indic,3p,pf} {дружный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смех=S,m,inan=(acc,sg|nom,sg)},
+{злоба=S,f,inan=acc,sg} {и=CONJ=} {презрение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{только=PART=} {неуспех=S,m,inan=(acc,sg|nom,sg)}.

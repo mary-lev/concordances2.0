@@ -1,118 +1,15 @@
-из=PR=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-проливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-в=PR=
-_
-бой=S,m,inan=abl,pl
-,\n
-из=PR=
-_
-прах=S,m,inan=gen,sg
-_
-обращать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-в=PR=
-_
-прах=S,m,inan=(acc,sg|nom,sg)
-,\n
-из=PR=
-_
-мука=S,f,inan=gen,pl
-_
-казнить=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-поколение=S,n,inan=gen,pl
-,\n
-из=PR=
-_
-душа=S,f,inan=gen,pl
-,_
-креститься=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-в=PR=
-_
-кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-из=PR=
-_
-ненавидящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-из=PR=
-_
-преступление=S,n,inan=gen,pl
-,_
-исступление=S,n,inan=gen,pl
-_\u2014_\n
-возникать=V,intr=inpraes,sg,indic,3p,pf
-_
-праведный=A=nom,sg,plen,f
-_
-русь=S,geo,sg,f,inan=(acc|nom)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-за=PR=
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-за=PR=
-_
-весь=APRO=acc,sg,f
-_
-молиться=V,ipf,intr=inpraes,sg,indic,1p
-_\n
-и=CONJ=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-замысел=S,m,inan=dat,pl
-_
-предвечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-:_\n
-она=SPRO,sg,3p,f=(acc|gen)
-_
-ковать=V,ipf,tran=inpraes,pl,indic,3p
-_
-удар=S,m,inan=ins,sg
-_
-мечный?=S,m,anim=(dat,pl|ins,sg)
-,\n
-она=SPRO,sg,3p,f=nom
-_
-моститься=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-кость=S,f,inan=abl,pl
-,\n
-она=SPRO,sg,3p,f=nom
-_
-святиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-ярый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-битва=S,f,inan=abl,pl
-,\n
-на=PR=
-_
-жгучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-строиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-мощь=S,f,inan=abl,pl
-,\n
-в=PR=
-_
-безумный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-плавиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-молитва=S,f,inan=abl,pl
-.\n
+{из=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {проливать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {в=PR=} {бой=S,m,inan=abl,pl},
+{из=PR=} {прах=S,m,inan=gen,sg} {обращать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {в=PR=} {прах=S,m,inan=(acc,sg|nom,sg)},
+{из=PR=} {мука=S,f,inan=gen,pl} {казнить=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {поколение=S,n,inan=gen,pl},
+{из=PR=} {душа=S,f,inan=gen,pl}, {креститься=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{из=PR=} {ненавидящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{из=PR=} {преступление=S,n,inan=gen,pl}, {исступление=S,n,inan=gen,pl} — 
+{возникать=V,intr=inpraes,sg,indic,3p,pf} {праведный=A=nom,sg,plen,f} {русь=S,geo,sg,f,inan=(acc|nom)}.
+
+{я=SPRO,sg,1p=nom} {за=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {за=PR=} {весь=APRO=acc,sg,f} {молиться=V,ipf,intr=inpraes,sg,indic,1p} 
+{и=CONJ=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {замысел=S,m,inan=dat,pl} {предвечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}: 
+{она=SPRO,sg,3p,f=(acc|gen)} {ковать=V,ipf,tran=inpraes,pl,indic,3p} {удар=S,m,inan=ins,sg} {мечный?=S,m,anim=(dat,pl|ins,sg)},
+{она=SPRO,sg,3p,f=nom} {моститься=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {кость=S,f,inan=abl,pl},
+{она=SPRO,sg,3p,f=nom} {святиться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {ярый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {битва=S,f,inan=abl,pl},
+{на=PR=} {жгучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {строиться=V,ipf,intr=inpraes,sg,indic,3p} {мощь=S,f,inan=abl,pl},
+{в=PR=} {безумный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {плавиться=V,ipf,intr=inpraes,sg,indic,3p} {молитва=S,f,inan=abl,pl}.

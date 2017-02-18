@@ -1,114 +1,15 @@
-бисерный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-почерк=S,m,inan=ins,sg
-_
-писать=V,ipf,tran=inpraes,pl,indic,2p
-,_
-Lise??
-,_\n
-уже=ADV=
-_
-не=PART=
-_
-подруга=S,f,anim=(abl,sg|dat,sg)
-,_
-не=PART=
-_
-старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тетка=S,f,anim=(abl,sg|dat,sg)
-._\n
-голубь=S,m,anim=nom,pl
-_
-взлетать=V,intr=praet,pl,indic,pf
-_
-на=PR=
-_
-карниз=S,m,inan=(acc,sg|nom,sg)
-,_\n
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-заиграть=V,pf,tran=praet,sg,indic,m
-_
-на=PR=
-_
-балконный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-решетка=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-ваш=APRO=(acc,sg,n|nom,sg,n)
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-_
-опять=ADV=
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-\n
-под=PR=
-_
-веночек=S,m,inan=ins,sg
-,_
-длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-стрела=S,f,inan=ins,sg
-_
-пронзать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)
-.\n
-как=ADVPRO=
-_
-хорошо=ADV=parenth
-_
-в=PR=
-_
-осенний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сад=S,m,inan=(dat,sg|loc,sg)
-!\n
-как=ADVPRO=
-_
-хорошо=ADV=parenth
-_
-быть=V,intr=inf,ipf
-_
-совсем=ADV=
-_
-влюбленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-!\n\n
-желтый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-светло=ADV=
-_
-блестеть=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-желтый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-в=PR=
-_
-окно=S,n,inan=abl,sg
-_
-золотиться=V,ipf,intr=inpraes,sg,indic,3p
-..._\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-она=SPRO,sg,3p,f=nom
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-прощать=V=inpraes,sg,indic,3p,pf
-,_\n
-если=CONJ=
-_
-осмеливаться=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-поклониться=V,pf,intr=inf
-.\n\n
+{бисерный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {почерк=S,m,inan=ins,sg} {писать=V,ipf,tran=inpraes,pl,indic,2p}, {Lise??}, 
+{уже=ADV=} {не=PART=} {подруга=S,f,anim=(abl,sg|dat,sg)}, {не=PART=} {старый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тетка=S,f,anim=(abl,sg|dat,sg)}. 
+{голубь=S,m,anim=nom,pl} {взлетать=V,intr=praet,pl,indic,pf} {на=PR=} {карниз=S,m,inan=(acc,sg|nom,sg)}, 
+{луч=S,m,inan=(acc,sg|nom,sg)} {заиграть=V,pf,tran=praet,sg,indic,m} {на=PR=} {балконный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {решетка=S,f,inan=(abl,sg|dat,sg)}.
+
+{ваш=APRO=(acc,sg,n|nom,sg,n)} {окошко=S,n,inan=(acc,sg|nom,sg)} {опять=ADV=} {находить=V=inpraes,sg,indic,1p,pf,tran}
+{под=PR=} {веночек=S,m,inan=ins,sg}, {длинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {стрела=S,f,inan=ins,sg} {пронзать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)}.
+{как=ADVPRO=} {хорошо=ADV=parenth} {в=PR=} {осенний=A=(abl,sg,plen,m|abl,sg,plen,n)} {сад=S,m,inan=(dat,sg|loc,sg)}!
+{как=ADVPRO=} {хорошо=ADV=parenth} {быть=V,intr=inf,ipf} {совсем=ADV=} {влюбленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}!
+
+{желтый=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {светло=ADV=} {блестеть=V,ipf,intr=inpraes,sg,indic,3p}, 
+{желтый=A=(acc,sg,plen,n|nom,sg,plen,n)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {окно=S,n,inan=abl,sg} {золотиться=V,ipf,intr=inpraes,sg,indic,3p}... 
+{знать=V,ipf,tran=inpraes,sg,indic,1p} — {она=SPRO,sg,3p,f=nom} {никогда=ADVPRO=} {не=PART=} {прощать=V=inpraes,sg,indic,3p,pf}, 
+{если=CONJ=} {осмеливаться=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {она=SPRO,sg,3p,f=(dat|ins)} {поклониться=V,pf,intr=inf}.
+

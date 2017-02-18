@@ -1,78 +1,22 @@
-запах=S,m,inan=(acc,sg|nom,sg)
-,_
-запах=S,m,inan=(acc,sg|nom,sg)
-\n
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-смуглый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-запах=S,m,inan=(acc,sg|nom,sg)
-!\n
-перстень=S,m,inan=(acc,pl|nom,pl)
-,_
-перо=S,n,inan=(acc,pl|nom,pl)
-,\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-панама=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-синий=A=nom,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-\n
-монако=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-.\n\n
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-немножко=ADV=
-_
-затхлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-:\n
-в=PR=
-_
-красный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-туман=S,m,inan=abl,sg
-_\u2014_\n
-запад=S,geo,m,inan=(acc,sg|nom,sg)
-.\n
-столб=S,m,inan=(acc,sg|nom,sg)
-_
-фонарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-и=CONJ=
-_
-рокот=S,m,inan=(acc,sg|nom,sg)
-_
-темза=S,geo,sg,f,inan=gen
-,\n
-что=SPRO,sg,n,inan=(abl|ins)
-_
-же=PART=
-_
-еще=ADV=
-?\n
-что=SPRO,sg,n,inan=(abl|ins)
-_
-же=PART=
-?\n\n
-ах=INTJ=
-,_
-вена=S,f,inan=ins,sg
-!\n
-духи=S,pl,inan=ins
-,_
-сено=S,n,inan=ins,sg
-,\n
-открытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сцена=S,f,inan=ins,sg
-,\n
-измена=S,f,inan=ins,sg
-!\n
+{запах=S,m,inan=(acc,sg|nom,sg)}, {запах=S,m,inan=(acc,sg|nom,sg)}
+{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{смуглый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сигара=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{запах=S,m,inan=(acc,sg|nom,sg)}!
+{перстень=S,m,inan=(acc,pl|nom,pl)}, {перо=S,n,inan=(acc,pl|nom,pl)},
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {панама=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+{синий=A=nom,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)}
+{монако=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+
+{запах=S,m,inan=(acc,sg|nom,sg)} {странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{немножко=ADV=} {затхлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}:
+{в=PR=} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {туман=S,m,inan=abl,sg} — 
+{запад=S,geo,m,inan=(acc,sg|nom,sg)}.
+{столб=S,m,inan=(acc,sg|nom,sg)} {фонарный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{и=CONJ=} {рокот=S,m,inan=(acc,sg|nom,sg)} {темза=S,geo,sg,f,inan=gen},
+{что=SPRO,sg,n,inan=(abl|ins)} {же=PART=} {еще=ADV=}?
+{что=SPRO,sg,n,inan=(abl|ins)} {же=PART=}?
+
+{ах=INTJ=}, {вена=S,f,inan=ins,sg}!
+{духи=S,pl,inan=ins}, {сено=S,n,inan=ins,sg},
+{открытый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сцена=S,f,inan=ins,sg},
+{измена=S,f,inan=ins,sg}!

@@ -1,106 +1,11 @@
-среди=PR=
-_
-морозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-праздничный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-москва=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-где=ADVPRO=
-_
-протекать=V,intr=inpraes,sg,indic,3p,ipf
-_
-наш=APRO=(acc,sg,n|nom,sg,n)
-_
-расставание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-где=ADVPRO=
-,_
-наверное=ADV,parenth=
-,_
-прочитывать=V=inpraes,pl,indic,2p,pf
-_
-вы=SPRO,pl,2p=nom
-\n
-прощальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-песня=S,f,inan=gen,pl
-_
-первый=ANUM=(acc,sg,n|nom,sg,n)
-_
-издание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014\n
-немного=ADV=
-_
-удивленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-:\n\xAB
-что=SPRO,sg,n,inan=(acc|nom)
-?_
-что=SPRO,sg,n,inan=(acc|nom)
-?_
-уже=ADV=
-?.._
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-!\xBB_\u2014_\xAB
-конечно=ADV,parenth=
-!..\xBB\n
-и=CONJ=
-_
-святочный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-бирюза=S,sg,f,inan=nom
-,\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-кругом=ADV=
-_
-блаженно=ADV=
-_
-и=CONJ=
-_
-безгрешный=A=sg,brev,n
-...\n
-нет=PART=
-,_
-так=ADVPRO=
-_
-не=PART=
-_
-расставаться=V,intr=praet,sg,indic,m,ipf
-_
-никогда=ADVPRO=
-\n
-никто=SPRO,sg,m,anim=nom
-_
-ни=PART=
-_
-с=PR=
-_
-кто=SPRO,sg,m,anim=ins
-,_
-и=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-мы=SPRO,pl,1p=dat
-_
-награда=S,f,inan=nom,sg
-\n
-за=PR=
-_
-подвиг=S,m,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
+{среди=PR=} {морозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {праздничный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {москва=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)},
+{где=ADVPRO=} {протекать=V,intr=inpraes,sg,indic,3p,ipf} {наш=APRO=(acc,sg,n|nom,sg,n)} {расставание=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{и=CONJ=} {где=ADVPRO=}, {наверное=ADV,parenth=}, {прочитывать=V=inpraes,pl,indic,2p,pf} {вы=SPRO,pl,2p=nom}
+{прощальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {песня=S,f,inan=gen,pl} {первый=ANUM=(acc,sg,n|nom,sg,n)} {издание=S,n,inan=(abl,sg|acc,sg|nom,sg)} —
+{немного=ADV=} {удивленный=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}:
+«{что=SPRO,sg,n,inan=(acc|nom)}? {что=SPRO,sg,n,inan=(acc|nom)}? {уже=ADV=}?.. {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}!» — «{конечно=ADV,parenth=}!..»
+{и=CONJ=} {святочный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {бирюза=S,sg,f,inan=nom},
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} {кругом=ADV=} {блаженно=ADV=} {и=CONJ=} {безгрешный=A=sg,brev,n}...
+{нет=PART=}, {так=ADVPRO=} {не=PART=} {расставаться=V,intr=praet,sg,indic,m,ipf} {никогда=ADVPRO=}
+{никто=SPRO,sg,m,anim=nom} {ни=PART=} {с=PR=} {кто=SPRO,sg,m,anim=ins}, {и=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {мы=SPRO,pl,1p=dat} {награда=S,f,inan=nom,sg}
+{за=PR=} {подвиг=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)}.

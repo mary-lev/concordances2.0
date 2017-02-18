@@ -1,124 +1,19 @@
-как=ADVPRO=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-близкий=A=sg,brev,m
-_
-и=CONJ=
-_
-понятный=A=sg,brev,m
-_\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-прозрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пятно=S,n,inan=gen,pl
-_\n
-и=CONJ=
-_
-упругий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-гибкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-линия=S,f,inan=gen,pl
-.\n\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-стряхивать=V,tran=praet,sg,indic,m,pf
-_
-покров=S,m,inan=(acc,sg|nom,sg)
-_
-туманов=S,famn,m,anim=nom,sg
-._\n
-четкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-свежий=A=sg,brev,m
-_
-и=CONJ=
-_
-чистый=A=sg,brev,m
-.\n
-на=PR=
-_
-большой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ствол=S,m,inan=abl,pl
-_
-каштан=S,m,inan=gen,pl
-_\n
-ярко=ADV=
-_
-вспыхивать=V,intr=praet,sg,indic,m,pf
-_
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-моргать=V,ipf,intr=inpraes,sg,indic,3p
-_\n(
-прыснуть=V,pf,tran=inpraes,sg,indic,3p
-_
-дождик=S,m,inan=(acc,sg|nom,sg)
-,_
-брызнуть=V,pf,tran=inpraes,sg,indic,3p
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-),_\n
-развивать=V=inpraes,sg,indic,3p,ipf,tran
-_
-и=CONJ=
-_
-свивать=V=inpraes,sg,indic,3p,ipf,tran
-_\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-покров=S,m,inan=(acc,sg|nom,sg)
-_
-из=PR=
-_
-сизый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-туча=S,f,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-сквозь=PR=
-_
-дымчатый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-щель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-потускнеть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-бледно=ADV=
-_
-писать=V,ipf,tran=inpraes,sg,indic,3p
-_
-акварель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\n
-этот=APRO=nom,sg,f
-_
-бледный=A=nom,sg,plen,f
-_
-весна=S,f,inan=nom,sg
-.\n
+{как=ADVPRO=} {я=SPRO,sg,1p=(abl|dat)} {близкий=A=sg,brev,m} {и=CONJ=} {понятный=A=sg,brev,m} 
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} — {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{мир=S,m,inan=(acc,sg|nom,sg)} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {прозрачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пятно=S,n,inan=gen,pl} 
+{и=CONJ=} {упругий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {гибкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {линия=S,f,inan=gen,pl}.
+
+{мир=S,m,inan=(acc,sg|nom,sg)} {стряхивать=V,tran=praet,sg,indic,m,pf} {покров=S,m,inan=(acc,sg|nom,sg)} {туманов=S,famn,m,anim=nom,sg}. 
+{четкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздух=S,m,inan=(acc,sg|nom,sg)} {свежий=A=sg,brev,m} {и=CONJ=} {чистый=A=sg,brev,m}.
+{на=PR=} {большой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ствол=S,m,inan=abl,pl} {каштан=S,m,inan=gen,pl} 
+{ярко=ADV=} {вспыхивать=V,intr=praet,sg,indic,m,pf} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лист=S,m,inan=(acc,sg|nom,sg)}.
+
+{небо=S,n,inan=(acc,sg|nom,sg)} {целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {моргать=V,ipf,intr=inpraes,sg,indic,3p} 
+({прыснуть=V,pf,tran=inpraes,sg,indic,3p} {дождик=S,m,inan=(acc,sg|nom,sg)}, {брызнуть=V,pf,tran=inpraes,sg,indic,3p} {луч=S,m,inan=(acc,sg|nom,sg)}), 
+{развивать=V=inpraes,sg,indic,3p,ipf,tran} {и=CONJ=} {свивать=V=inpraes,sg,indic,3p,ipf,tran} 
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {покров=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {сизый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {туча=S,f,inan=gen,pl}.
+
+{и=CONJ=} {сквозь=PR=} {дымчатый=A=(acc,pl,plen,inan|nom,pl,plen)} {щель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{потускнеть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{бледно=ADV=} {писать=V,ipf,tran=inpraes,sg,indic,3p} {акварель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} 
+{этот=APRO=nom,sg,f} {бледный=A=nom,sg,plen,f} {весна=S,f,inan=nom,sg}.

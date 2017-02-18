@@ -1,104 +1,12 @@
-сумерки=S,pl,inan=(acc|nom)
-._
-медленно=ADV=
-_
-в=PR=
-_
-вода=S,f,inan=acc,sg
-_
-входить=V,intr=praet,sg,indic,f,pf
-\n
-девочка=S,f,anim=nom,sg
-_
-цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-тихо=ADV=
-._
-не=PART=
-_
-мучить=V,ipf=inpraes,pl,indic,3p,tran
-_
-уснуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-мерный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-всплеск=S,m,inan=(acc,pl|nom,pl)
-_
-весло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-весь=APRO=nom,sg,f
-_\u2014_
-как=CONJ=
-_
-наяда=S,f,anim=nom,sg
-._
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-зеленый=A=pl,brev
-,\n
-стебель=S,m,inan=ins,sg
-_
-меж=PR=
-_
-вода=S,f,inan=gen,pl
-_
-расцветать=V,intr=praet,sg,indic,f,pf
-.\n
-сумерки=S,pl,inan=dat
-_\u2014_
-верность=S,f,inan=(acc,sg|nom,sg)
-,_
-они=SPRO,pl=dat
-,_
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-хвала=S,f,inan=nom,sg
-:\n
-ребенок=S,m,anim=nom,pl
-_
-от=PR=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-больной=A=pl,brev
-.\n
-ребенок=S,m,anim=nom,pl
-_\u2014_
-безумец=S,m,anim=nom,pl
-._
-они=SPRO,pl=nom
-_
-влюблять=V,tran=praet,pl,partcp,brev,pf,pass
-\n
-в=PR=
-_
-вода=S,f,inan=acc,sg
-,_
-в=PR=
-_
-рояль=S,m,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-мама=S,f,anim=nom,sg
-_
-с=PR=
-_
-балкон=S,m,inan=gen,sg
-_
-домой=ADV=
-_
-позвать=V,pf,tran=praet,sg,indic,f
-\n
-девочка=S,f,anim=acc,sg
-_
-цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{сумерки=S,pl,inan=(acc|nom)}. {медленно=ADV=} {в=PR=} {вода=S,f,inan=acc,sg} {входить=V,intr=praet,sg,indic,f,pf}
+{девочка=S,f,anim=nom,sg} {цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{тихо=ADV=}. {не=PART=} {мучить=V,ipf=inpraes,pl,indic,3p,tran} {уснуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{мерный=A=(acc,pl,plen,inan|nom,pl,plen)} {всплеск=S,m,inan=(acc,pl|nom,pl)} {весло=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{весь=APRO=nom,sg,f} — {как=CONJ=} {наяда=S,f,anim=nom,sg}. {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {зеленый=A=pl,brev},
+{стебель=S,m,inan=ins,sg} {меж=PR=} {вода=S,f,inan=gen,pl} {расцветать=V,intr=praet,sg,indic,f,pf}.
+{сумерки=S,pl,inan=dat} — {верность=S,f,inan=(acc,sg|nom,sg)}, {они=SPRO,pl=dat}, {нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {хвала=S,f,inan=nom,sg}:
+{ребенок=S,m,anim=nom,pl} {от=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {больной=A=pl,brev}.
+{ребенок=S,m,anim=nom,pl} — {безумец=S,m,anim=nom,pl}. {они=SPRO,pl=nom} {влюблять=V,tran=praet,pl,partcp,brev,pf,pass}
+{в=PR=} {вода=S,f,inan=acc,sg}, {в=PR=} {рояль=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{мама=S,f,anim=nom,sg} {с=PR=} {балкон=S,m,inan=gen,sg} {домой=ADV=} {позвать=V,pf,tran=praet,sg,indic,f}
+{девочка=S,f,anim=acc,sg} {цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

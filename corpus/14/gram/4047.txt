@@ -1,116 +1,20 @@
-чугунный=A=nom,sg,plen,f
-_
-ограда=S,f,inan=nom,sg
-,\n
-сосновый=A=nom,sg,plen,f
-_
-кровать=S,f,inan=(acc,sg|nom,sg)
-.\n
-как=ADVPRO=
-_
-сладко=ADV=
-,_
-что=CONJ=
-_
-не=PART=
-_
-надо=ADV,praed=
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-больше=ADV=
-_
-ревновать=V,ipf,tran=inf
-.\n\n
-постель=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-стлать=V,ipf=inpraes,pl,indic,3p,tran
-_
-этот=APRO=acc,sg,f
-\n
-с=PR=
-_
-рыдание=S,n,inan=ins,sg
-_
-и=CONJ=
-_
-мольба=S,f,inan=ins,sg
-;\n
-теперь=ADV=
-_
-гулять=V,ipf,intr=sg,imper,2p
-_
-по=PR=
-_
-свет=S,sg,m,inan=(dat|loc|part)
-\n
-где=ADVPRO=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-,_
-бог=S,m,anim=nom,sg
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-!\n\n
-теперь=ADV=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-слух=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-ранить=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-\n
-неистовый=A=nom,sg,plen,f
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-,\n
-теперь=ADV=
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-\n
-свеча=S,f,inan=acc,sg
-_
-до=PR=
-_
-утро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-жечь=V,ipf,tran=inf
-.\n\n
-добиваться=V,intr=praet,pl,indic,pf
-_
-мы=SPRO,pl,1p=nom
-_
-покой=S,m,inan=(dat,sg|part,sg)
-\n
-и=CONJ=
-_
-непорочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-...\n
-ты=SPRO,sg,2p=nom
-_
-плакать=V,ipf,intr=inpraes,sg,indic,2p
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-стоить=V,ipf=inpraes,sg,indic,1p
-\n
-один=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
+{чугунный=A=nom,sg,plen,f} {ограда=S,f,inan=nom,sg},
+{сосновый=A=nom,sg,plen,f} {кровать=S,f,inan=(acc,sg|nom,sg)}.
+{как=ADVPRO=} {сладко=ADV=}, {что=CONJ=} {не=PART=} {надо=ADV,praed=}
+{я=SPRO,sg,1p=(abl|dat)} {больше=ADV=} {ревновать=V,ipf,tran=inf}.
+
+{постель=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)} {стлать=V,ipf=inpraes,pl,indic,3p,tran} {этот=APRO=acc,sg,f}
+{с=PR=} {рыдание=S,n,inan=ins,sg} {и=CONJ=} {мольба=S,f,inan=ins,sg};
+{теперь=ADV=} {гулять=V,ipf,intr=sg,imper,2p} {по=PR=} {свет=S,sg,m,inan=(dat|loc|part)}
+{где=ADVPRO=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p}, {бог=S,m,anim=nom,sg} {с=PR=} {ты=SPRO,sg,2p=ins}!
+
+{теперь=ADV=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {слух=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {ранить=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}
+{неистовый=A=nom,sg,plen,f} {речь=S,f,inan=(acc,sg|nom,sg)},
+{теперь=ADV=} {никто=SPRO,sg,m,anim=nom} {не=PART=} {становиться=V,intr=inpraes,sg,indic,3p,pf}
+{свеча=S,f,inan=acc,sg} {до=PR=} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)} {жечь=V,ipf,tran=inf}.
+
+{добиваться=V,intr=praet,pl,indic,pf} {мы=SPRO,pl,1p=nom} {покой=S,m,inan=(dat,sg|part,sg)}
+{и=CONJ=} {непорочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}...
+{ты=SPRO,sg,2p=nom} {плакать=V,ipf,intr=inpraes,sg,indic,2p} — {я=SPRO,sg,1p=nom} {не=PART=} {стоить=V,ipf=inpraes,sg,indic,1p}
+{один=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+

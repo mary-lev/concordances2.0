@@ -1,72 +1,9 @@
-на=PR=
-_
-столик=S,m,inan=abl,sg
-_
-чай=S,m,inan=(acc,sg|nom,sg)
-,_
-печение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-сдобный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-в=PR=
-_
-серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вазочка=S,f,inan=(abl,sg|dat,sg)
-_
-драже=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-._\n
-подбирать=V=praet,sg,indic,f,pf
-_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-садиться=V,intr=praet,sg,indic,f,pf
-_
-удобно=ADV=comp
-,_\n
-равнодушно=ADV=
-_
-спрашивать=V=praet,sg,indic,f,pf
-:_\xAB
-уже=ADV=
-?\xBB_\n
-протягивать=V,tran=praet,sg,indic,f,pf
-_
-рука=S,f,inan=acc,sg
-._
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-дотрагиваться=V,intr=praet,pl,indic,pf
-_\n
-до=PR=
-_
-холодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гладкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-кольцо=S,n,inan=gen,pl
-.\n
-о=PR=
-_
-будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-встреча=S,f,inan=(abl,sg|dat,sg)
-_
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-уславливаться=V,intr=praet,pl,indic,pf
-._\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-конец=S,m,inan=(acc,sg|nom,sg)
-.\n\n
+{на=PR=} {столик=S,m,inan=abl,sg} {чай=S,m,inan=(acc,sg|nom,sg)}, {печение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сдобный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{в=PR=} {серебряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вазочка=S,f,inan=(abl,sg|dat,sg)} {драже=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}. 
+{подбирать=V=praet,sg,indic,f,pf} {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {садиться=V,intr=praet,sg,indic,f,pf} {удобно=ADV=comp}, 
+{равнодушно=ADV=} {спрашивать=V=praet,sg,indic,f,pf}: «{уже=ADV=}?» 
+{протягивать=V,tran=praet,sg,indic,f,pf} {рука=S,f,inan=acc,sg}. {мой=APRO=(nom,pl|acc,pl,inan)} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дотрагиваться=V,intr=praet,pl,indic,pf} 
+{до=PR=} {холодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гладкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {кольцо=S,n,inan=gen,pl}.
+{о=PR=} {будущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {встреча=S,f,inan=(abl,sg|dat,sg)} {мы=SPRO,pl,1p=nom} {не=PART=} {уславливаться=V,intr=praet,pl,indic,pf}. 
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=praet,sg,indic,m}, {что=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {конец=S,m,inan=(acc,sg|nom,sg)}.
+

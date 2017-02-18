@@ -1,130 +1,20 @@
-арка=S,f,inan=nom,sg
-..._
-разбивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-карниз=S,m,inan=(acc,sg|nom,sg)
-,_\n
-свод=S,m,inan=(acc,pl|nom,pl)
-,_
-колонна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-стена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-обломок=S,m,inan=(acc,pl|nom,pl)
-_
-кулиса=S,f,inan=gen,pl
-_\n
-сломать=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)
-_
-сцена=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-здесь=ADVPRO=
-_
-пьедестал=S,m,inan=(acc,pl|nom,pl)
-_
-колонна=S,f,inan=gen,pl
-,_\n
-там=ADVPRO=
-_
-возвышаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-ростра=S,f,inan=nom,sg
-,\n
-где=ADVPRO=
-_
-говорить=V,ipf,tran=praet,sg,indic,m
-_
-цицерон=S,persn,m,anim=nom,sg
-_\n
-плавно=ADV=
-,_
-красиво=ADV=
-_
-и=CONJ=
-_
-остро=ADV=
-._\n
-между=PR=
-_
-разбитый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-камень=S,m,inan=gen,pl
-_\n
-ящерица=S,f,anim=(acc,pl|gen,pl)
-_
-быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-движение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\n
-зной=S,m,inan=(acc,sg|nom,sg)
-_
-неподвижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-луч=S,m,inan=gen,pl
-,_\n
-струйка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-немолчный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\n
-здание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-на=PR=
-_
-холм=S,m,inan=(acc,sg|nom,sg)
-_
-подниматься=V,intr=praet,sg,indic,n,pf
-_\n
-цепь=S,f,inan=ins,sg
-_
-изогнутый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-линия=S,f,inan=gen,pl
-.\n
-в=PR=
-_
-кружево=S,n,inan=abl,sg
-_
-легкое=S,n,inan=(abl,pl|gen,pl)
-_
-мимоза=S,f,inan=gen,pl
-_\n
-очерк=S,m,inan=(acc,pl|nom,pl)
-_
-царственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-пиния=S,f,inan=gen,pl
-._\n
-вечер=S,m,inan=(acc,sg|nom,sg)
-..._
-и=CONJ=
-_
-форум=S,m,inan=(acc,sg|nom,sg)
-_
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-._\n
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-мерцание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-заря=S,f,inan=gen,sg
-_
-я=SPRO,sg,1p=nom
-.\n
-в=PR=
-_
-воздух=S,m,inan=abl,sg
-_
-ясный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-:\n\t
-Ave??
-_
-Maria??
-!\n
+{арка=S,f,inan=nom,sg}... {разбивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {карниз=S,m,inan=(acc,sg|nom,sg)}, 
+{свод=S,m,inan=(acc,pl|nom,pl)}, {колонна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {стена=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+{это=SPRO,sg,n,inan=(acc|nom)} {обломок=S,m,inan=(acc,pl|nom,pl)} {кулиса=S,f,inan=gen,pl} 
+{сломать=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)} {сцена=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{здесь=ADVPRO=} {пьедестал=S,m,inan=(acc,pl|nom,pl)} {колонна=S,f,inan=gen,pl}, 
+{там=ADVPRO=} {возвышаться=V,intr=inpraes,sg,indic,3p,ipf} {ростра=S,f,inan=nom,sg},
+{где=ADVPRO=} {говорить=V,ipf,tran=praet,sg,indic,m} {цицерон=S,persn,m,anim=nom,sg} 
+{плавно=ADV=}, {красиво=ADV=} {и=CONJ=} {остро=ADV=}. 
+{между=PR=} {разбитый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {камень=S,m,inan=gen,pl} 
+{ящерица=S,f,anim=(acc,pl|gen,pl)} {быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {движение=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+{зной=S,m,inan=(acc,sg|nom,sg)} {неподвижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луч=S,m,inan=gen,pl}, 
+{струйка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {немолчный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пение=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+{здание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {на=PR=} {холм=S,m,inan=(acc,sg|nom,sg)} {подниматься=V,intr=praet,sg,indic,n,pf} 
+{цепь=S,f,inan=ins,sg} {изогнутый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {линия=S,f,inan=gen,pl}.
+{в=PR=} {кружево=S,n,inan=abl,sg} {легкое=S,n,inan=(abl,pl|gen,pl)} {мимоза=S,f,inan=gen,pl} 
+{очерк=S,m,inan=(acc,pl|nom,pl)} {царственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пиния=S,f,inan=gen,pl}. 
+{вечер=S,m,inan=(acc,sg|nom,sg)}... {и=CONJ=} {форум=S,m,inan=(acc,sg|nom,sg)} {молчать=V,ipf,intr=inpraes,sg,indic,3p}. 
+{видеть=V,ipf,tran=inpraes,sg,indic,1p} {мерцание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {заря=S,f,inan=gen,sg} {я=SPRO,sg,1p=nom}.
+{в=PR=} {воздух=S,m,inan=abl,sg} {ясный=A=(abl,sg,plen,m|abl,sg,plen,n)} {звучать=V,ipf,intr=inpraes,sg,indic,3p}:
+	{Ave??} {Maria??}!

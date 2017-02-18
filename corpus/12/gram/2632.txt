@@ -1,98 +1,14 @@
-через=PR=
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-слышать=V,ipf,tran=inpraes,sg,indic,2p
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-,_
-звучать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-еще=ADV=
-_
-в=PR=
-_
-эдем=S,m,inan=abl,sg
-?\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-слуга=S,m,anim=nom,sg
-\n
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-господин=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-время=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-конь=S,m,anim=(acc,pl|gen,pl)
-\n
-слышать=V,ipf,tran=inpraes,sg,indic,1p
-_
-топот=S,m,inan=(acc,sg|nom,sg)
-.\n
-нет=PART=
-_
-у=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-верно=ADV,parenth=comp
-\n
-слуга=S,m,anim=(gen,sg|nom,pl)
-_\u2014_
-и=CONJ=
-_
-понятливый=A=comp
-_
-ученица=S,f,anim=(gen,sg|nom,pl)
-.\n\n
-ров=S,m,inan=(dat,sg|loc,sg)
-_
-за=PR=
-_
-цветок=S,m,inan=ins,sg
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-_
-петь=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-.\n_\u2014_
-о=PR=
-_
-бытие=S,n,inan=(acc,sg|nom,sg)
-!_
-глоток=S,m,inan=(acc,sg|nom,sg)
-\n
-горячий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-грог=S,m,inan=gen,sg
-_
-на=PR=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-грясти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-!\n
+{через=PR=} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} — 
+{слышать=V,ipf,tran=inpraes,sg,indic,2p} {голос=S,m,inan=(acc,sg|nom,sg)}, {звучать=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {еще=ADV=} {в=PR=} {эдем=S,m,inan=abl,sg}?
+{это=SPRO,sg,n,inan=(acc|nom)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {слуга=S,m,anim=nom,sg}
+{с=PR=} {ты=SPRO,sg,2p=ins} {говорить=V,ipf,tran=inpraes,sg,indic,3p}, {господин=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} — {время=S,n,inan=(acc,sg|nom,sg)}.
+
+{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {конь=S,m,anim=(acc,pl|gen,pl)}
+{слышать=V,ipf,tran=inpraes,sg,indic,1p} {топот=S,m,inan=(acc,sg|nom,sg)}.
+{нет=PART=} {у=PR=} {ты=SPRO,sg,2p=(acc|gen)} {верно=ADV,parenth=comp}
+{слуга=S,m,anim=(gen,sg|nom,pl)} — {и=CONJ=} {понятливый=A=comp} {ученица=S,f,anim=(gen,sg|nom,pl)}.
+
+{ров=S,m,inan=(dat,sg|loc,sg)} {за=PR=} {цветок=S,m,inan=ins,sg} {цветок=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {целовать=V,ipf,tran=inpraes,sg,indic,3p}, {целовать=V,ipf,tran=inpraes,sg,indic,3p} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {рот=S,m,inan=(acc,sg|nom,sg)} {петь=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}.
+ — {о=PR=} {бытие=S,n,inan=(acc,sg|nom,sg)}! {глоток=S,m,inan=(acc,sg|nom,sg)}
+{горячий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {грог=S,m,inan=gen,sg} {на=PR=} {сон=S,m,inan=(acc,sg|nom,sg)} {грясти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}!

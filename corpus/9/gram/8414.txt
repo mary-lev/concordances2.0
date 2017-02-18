@@ -1,116 +1,14 @@
-дерево=S,n,inan=(acc,pl|nom,pl)
-,_
-только=PART=
-_
-ради=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-,\n
-и=CONJ=
-_
-ваш=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-прекрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ради=PR=
-,\n
-жить=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-в=PR=
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,\n
-на=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-и=CONJ=
-_
-ваш=APRO=acc,sg,f
-_
-прелесть=S,f,inan=(acc,sg|nom,sg)
-_
-глядеть=V,ipf,tran=inpraes,ger
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-часто=ADV=
-_
-думаться=V,ipf,intr=inpraes,sg,indic,3p
-,_\u2014_
-бог=S,m,anim=nom,sg
-\n
-свой=APRO=acc,sg,f
-_
-живой=A=acc,sg,plen,f
-_
-краска=S,f,inan=acc,sg
-_
-кисть=S,f,inan=ins,sg
-\n
-из=PR=
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-извлекать=V=praet,sg,indic,m,pf
-\n
-и=CONJ=
-_
-перенести=V,pf=praet,sg,indic,m
-_
-на=PR=
-_
-ваш=APRO=(nom,pl|acc,pl,inan)
-_
-лист=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-и=CONJ=
-_
-если=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-близкий=A=sg,brev,f
-,_
-как=CONJ=
-_
-вы=SPRO,pl,2p=nom
-,\n
-какой-то=APRO=nom,sg,f
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-личность=S,f,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-тоже=PART=
-_
-простота=S,f,inan=nom,sg
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-листва=S,sg,f,inan=gen
-_
-и=CONJ=
-_
-высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-непривычность=S,f,inan=(acc,sg|nom,sg)
-.\n
+{дерево=S,n,inan=(acc,pl|nom,pl)}, {только=PART=} {ради=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)},
+{и=CONJ=} {ваш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {прекрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ради=PR=},
+{жить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {мир=S,m,inan=abl,sg} {в=PR=} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+{на=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {и=CONJ=} {ваш=APRO=acc,sg,f} {прелесть=S,f,inan=(acc,sg|nom,sg)} {глядеть=V,ipf,tran=inpraes,ger}.
+
+{я=SPRO,sg,1p=(abl|dat)} {часто=ADV=} {думаться=V,ipf,intr=inpraes,sg,indic,3p}, — {бог=S,m,anim=nom,sg}
+{свой=APRO=acc,sg,f} {живой=A=acc,sg,plen,f} {краска=S,f,inan=acc,sg} {кисть=S,f,inan=ins,sg}
+{из=PR=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {извлекать=V=praet,sg,indic,m,pf}
+{и=CONJ=} {перенести=V,pf=praet,sg,indic,m} {на=PR=} {ваш=APRO=(nom,pl|acc,pl,inan)} {лист=S,m,inan=(acc,pl|nom,pl)}.
+
+{и=CONJ=} {если=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {близкий=A=sg,brev,f}, {как=CONJ=} {вы=SPRO,pl,2p=nom},
+{какой-то=APRO=nom,sg,f} {на=PR=} {свет=S,sg,m,inan=abl} {личность=S,f,inan=(acc,sg|nom,sg)},
+{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {тоже=PART=} {простота=S,f,inan=nom,sg} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{листва=S,sg,f,inan=gen} {и=CONJ=} {высь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {непривычность=S,f,inan=(acc,sg|nom,sg)}.

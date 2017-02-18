@@ -1,170 +1,24 @@
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-по=PR=
-_
-выжигать=V=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)
-_
-край=S,m,inan=(dat,sg|loc,sg)
-\n
-какой-то=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-сказочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дорога=S,f,inan=gen,pl
-.\n
-я=SPRO,sg,1p=nom
-_
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-думать=V,ipf,intr=praet,sg,indic,m
-,_
-что=CONJ=
-,_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-но=CONJ=
-_
-что=CONJ=
-_
-не=PART=
-_
-думать=V,ipf,intr=inf
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-полумертвый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-руины=S,pl,inan=(acc|nom)
-\n
-полузабытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-город=S,m,inan=gen,pl
-\n
-безмолвный=A=pl,brev
-_
-быть=V,intr=praet,pl,indic,ipf
-,_
-как=CONJ=
-_
-картина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-_
-памятный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-.\n\n
-я=SPRO,sg,1p=nom
-_
-вспоминать=V,ipf,tran=praet,sg,indic,m
-,_
-я=SPRO,sg,1p=nom
-_
-уклоняться=V,intr=praet,sg,indic,m,ipf
-,\n
-я=SPRO,sg,1p=nom
-_
-изменяться=V,intr=praet,sg,indic,m,ipf
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-близко=ADV=comp
--
-близко=ADV=comp
-_
-наклоняться=V,intr=praet,sg,indic,m,ipf
-\n
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-собственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-двойник=S,m,anim=nom,sg
-.\n\n
-и=CONJ=
-_
-утомительно=ADV=
-_
-мелькать=V,ipf,intr=praet,pl,indic
-\n
-с=PR=
-_
-полуослепнуть?=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-из=PR=
-_
-тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-руины=S,pl,inan=gen
-,_
-из=PR=
-_
-яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-неговорящий=A,plen=(nom,pl|acc,pl,inan)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-но=CONJ=
-_
-на=PR=
-_
-крутой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-внезапный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-склон=S,m,inan=abl,sg
-,\n
-среди=PR=
-_
-камень=S,m,inan=gen,pl
-,_
-я=SPRO,sg,1p=nom
-_
-понимать=V=praet,sg,indic,m,pf
-_
-вновь=ADV=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-немой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-затон=S,m,inan=abl,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-бессмертный=A=nom,sg,plen,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {по=PR=} {выжигать=V=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)} {край=S,m,inan=(dat,sg|loc,sg)}
+{какой-то=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сказочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl}.
+{я=SPRO,sg,1p=nom} {что-то=SPRO,sg,n,inan=(acc|nom)} {думать=V,ipf,intr=praet,sg,indic,m}, {что=CONJ=}, {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p},
+{но=CONJ=} {что=CONJ=} {не=PART=} {думать=V,ipf,intr=inf} — {я=SPRO,sg,1p=nom} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}.
+
+{и=CONJ=} {полумертвый=A=(acc,pl,plen,inan|nom,pl,plen)} {руины=S,pl,inan=(acc|nom)}
+{полузабытый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {город=S,m,inan=gen,pl}
+{безмолвный=A=pl,brev} {быть=V,intr=praet,pl,indic,ipf}, {как=CONJ=} {картина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {голос=S,m,inan=(acc,sg|nom,sg)} {памятный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl}.
+
+{я=SPRO,sg,1p=nom} {вспоминать=V,ipf,tran=praet,sg,indic,m}, {я=SPRO,sg,1p=nom} {уклоняться=V,intr=praet,sg,indic,m,ipf},
+{я=SPRO,sg,1p=nom} {изменяться=V,intr=praet,sg,indic,m,ipf} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {миг=S,m,inan=(acc,sg|nom,sg)},
+{но=CONJ=} {близко=ADV=comp}-{близко=ADV=comp} {наклоняться=V,intr=praet,sg,indic,m,ipf}
+{ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {собственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {двойник=S,m,anim=nom,sg}.
+
+{и=CONJ=} {утомительно=ADV=} {мелькать=V,ipf,intr=praet,pl,indic}
+{с=PR=} {полуослепнуть?=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{из=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {руины=S,pl,inan=gen}, {из=PR=} {яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{неговорящий=A,plen=(nom,pl|acc,pl,inan)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+
+{но=CONJ=} {на=PR=} {крутой=A=(abl,sg,plen,m|abl,sg,plen,n)} {внезапный=A=(abl,sg,plen,m|abl,sg,plen,n)} {склон=S,m,inan=abl,sg},
+{среди=PR=} {камень=S,m,inan=gen,pl}, {я=SPRO,sg,1p=nom} {понимать=V=praet,sg,indic,m,pf} {вновь=ADV=},
+{что=SPRO,sg,n,inan=(acc|nom)} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {жизнь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {немой=A=(abl,sg,plen,m|abl,sg,plen,n)} {затон=S,m,inan=abl,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {бессмертный=A=nom,sg,plen,f} {любовь=S,f,inan=(acc,sg|nom,sg)}.

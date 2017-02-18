@@ -1,72 +1,9 @@
-листва=S,sg,f,inan=ins
-_
-засыпать=V,pf,tran=praet,pl,partcp,brev,pass
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-...\n
-луг=S,m,inan=(acc,sg|nom,sg)
-_
-потускнелый=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-гладко=ADV=
-_
-скашивать=V=praet,sg,partcp,brev,m,pf,pass
-..._\n
-бескрайний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-ветер=S,m,inan=ins,sg
-_
-в=PR=
-_
-бездна=S,f,inan=acc,sg
-_
-вбрасывать=V=praet,sg,partcp,brev,m,pf,pass
-,_\n
-день=S,m,inan=(acc,sg|nom,sg)
-_
-отлетать=V,intr=praet,sg,indic,m,pf
-,_
-как=CONJ=
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-_
-осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-итак=CONJ=
-,_
-лишь=PART=
-_
-нить=S,f,inan=ins,sg
-,_
-тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-стебель=S,m,inan=ins,sg
-,_\n
-он=SPRO,sg,3p,m=nom
-_
-к=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-легко=ADV=
-_
-прицеплять=V,tran=praet,sg,partcp,brev,m,pf,pass
-!\n
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-затепливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-неугасимый=A=sg,brev,m
-_
-и=CONJ=
-_
-неколебать?=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)
-.\n
+{листва=S,sg,f,inan=ins} {засыпать=V,pf,tran=praet,pl,partcp,brev,pass} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}...
+{луг=S,m,inan=(acc,sg|nom,sg)} {потускнелый=A,plen=(acc,sg,m,inan|nom,sg,m)} {гладко=ADV=} {скашивать=V=praet,sg,partcp,brev,m,pf,pass}... 
+{бескрайний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ветер=S,m,inan=ins,sg} {в=PR=} {бездна=S,f,inan=acc,sg} {вбрасывать=V=praet,sg,partcp,brev,m,pf,pass}, 
+{день=S,m,inan=(acc,sg|nom,sg)} {отлетать=V,intr=praet,sg,indic,m,pf}, {как=CONJ=} {лист=S,m,inan=(acc,sg|nom,sg)} {осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{итак=CONJ=}, {лишь=PART=} {нить=S,f,inan=ins,sg}, {тонкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {стебель=S,m,inan=ins,sg}, 
+{он=SPRO,sg,3p,m=nom} {к=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {быть=V,intr=praet,sg,indic,m,ipf} {легко=ADV=} {прицеплять=V,tran=praet,sg,partcp,brev,m,pf,pass}!
+{в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=(abl,sg|dat,sg)} {огонь=S,m,inan=(acc,sg|nom,sg)} {затепливать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{неугасимый=A=sg,brev,m} {и=CONJ=} {неколебать?=V,pf,tran=(inpraes,pl,indic,1p|pl,imper,1p)}.

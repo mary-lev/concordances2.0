@@ -1,118 +1,16 @@
-накипать=V,intr=praet,nom,sg,partcp,plen,f,pf,act
-_
-за=PR=
-_
-год=S,m,inan=(acc,pl|nom,pl)
-_\n
-злость=S,f,inan=(acc,sg|nom,sg)
-,_
-сводить=V=inpraes,nom,sg,partcp,plen,f,ipf,act,tran
-_
-с=PR=
-_
-ум=S,m,inan=gen,sg
-.\n
-злость=S,f,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-поборник=S,m,anim=dat,pl
-_
-свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-злость=S,f,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-ревнитель=S,m,anim=dat,pl
-_
-ярмо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-злость=S,f,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-хамье=S,sg,n,inan=dat
-_
-и=CONJ=
-_
-джентльмен=S,m,anim=dat,pl
-_\u2014_\n
-разномастный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-специмен?=S,m,inan=dat,pl
-_\n
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-же=PART=
-_\xAB
-мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\xBB,\n
-к=PR=
-_
-мир=S,m,inan=dat,sg
-_
-и=CONJ=
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-злость=S,f,inan=(acc,sg|nom,sg)
-?_
-вернее=ADV,parenth=
-,_
-безразличие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-к=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-к=PR=
-_
-вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-к=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-._\n
-нечто=SPRO,sg,n,inan=(acc|nom)
-_
-кошкин=A,plen,poss=(acc,sg,n|nom,sg,n)
-_
-иль=CONJ=
-_
-птичий=A,plen=(acc,sg,n|nom,sg,n)
-,\n
-отчего=ADVPRO=
-_
-не=PART=
-_
-по=PR=
-_
-себя=SPRO=(abl|dat)
-_\n
-верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-рыцарь=S,m,anim=dat,pl
-_
-приличие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-благонравный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-а=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-и=CONJ=
-_
-б=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-усаживаться=V,intr=praet,pl,indic,pf
-_
-на=PR=
-_
-труба=S,f,inan=(abl,sg|dat,sg)
-.\n
+{накипать=V,intr=praet,nom,sg,partcp,plen,f,pf,act} {за=PR=} {год=S,m,inan=(acc,pl|nom,pl)} 
+{злость=S,f,inan=(acc,sg|nom,sg)}, {сводить=V=inpraes,nom,sg,partcp,plen,f,ipf,act,tran} {с=PR=} {ум=S,m,inan=gen,sg}.
+{злость=S,f,inan=(acc,sg|nom,sg)} {к=PR=} {поборник=S,m,anim=dat,pl} {свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{злость=S,f,inan=(acc,sg|nom,sg)} {к=PR=} {ревнитель=S,m,anim=dat,pl} {ярмо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{злость=S,f,inan=(acc,sg|nom,sg)} {к=PR=} {хамье=S,sg,n,inan=dat} {и=CONJ=} {джентльмен=S,m,anim=dat,pl} — 
+{разномастный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {специмен?=S,m,inan=dat,pl} 
+{тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} «{мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}»,
+{к=PR=} {мир=S,m,inan=dat,sg} {и=CONJ=} {страна=S,f,inan=(abl,sg|dat,sg)} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{злость=S,f,inan=(acc,sg|nom,sg)}? {вернее=ADV,parenth=}, {безразличие=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{к=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {к=PR=} {вечность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {к=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)}. 
+{нечто=SPRO,sg,n,inan=(acc|nom)} {кошкин=A,plen,poss=(acc,sg,n|nom,sg,n)} {иль=CONJ=} {птичий=A,plen=(acc,sg,n|nom,sg,n)},
+{отчего=ADVPRO=} {не=PART=} {по=PR=} {себя=SPRO=(abl|dat)} 
+{верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рыцарь=S,m,anim=dat,pl} {приличие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{благонравный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {а=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {и=CONJ=} {б=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {усаживаться=V,intr=praet,pl,indic,pf} {на=PR=} {труба=S,f,inan=(abl,sg|dat,sg)}.

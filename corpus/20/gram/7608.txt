@@ -1,112 +1,19 @@
-ряд=S,m,inan=(acc,pl|nom,pl)
-,_
-ряд=S,m,inan=(acc,pl|nom,pl)
-_
-невестный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-как=CONJ=
-_
-девушка=S,f,anim=(gen,sg|nom,pl)
-,_
-свеча=S,f,inan=gen,pl
-,\n
-украшать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)
-_
-чудесно=ADV=
-\n
-венец=S,m,inan=ins,pl
-_
-из=PR=
-_
-огонь=S,m,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-,_
-и=CONJ=
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-...\n
-склонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-колено=S,n,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-надежда=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-мольба=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-дрожать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-роза=S,f,inan=ins,pl
-_
-цвести=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-она=SPRO,sg,3p,f=nom
-_
-ли=PART=
-_
-не=PART=
-_
-услышать=V,pf,tran=inpraes,sg,indic,3p
-?\n
-она=SPRO,sg,3p,f=nom
-_
-ли=PART=
-_
-не=PART=
-_
-понимать=V=inpraes,sg,indic,3p,pf
-?\n\n
-о=PR=
-,_
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-упование=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-о=INTJ=
-,_
-этот=APRO=nom,sg,f
-_
-тишина=S,sg,f,inan=nom
-!\n
-и=CONJ=
-_
-теплый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-,_\u2014_
-и=CONJ=
-_
-она=SPRO,sg,3p,f=nom
-.\n
+{ряд=S,m,inan=(acc,pl|nom,pl)}, {ряд=S,m,inan=(acc,pl|nom,pl)} {невестный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{как=CONJ=} {девушка=S,f,anim=(gen,sg|nom,pl)}, {свеча=S,f,inan=gen,pl},
+{украшать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)} {чудесно=ADV=}
+{венец=S,m,inan=ins,pl} {из=PR=} {огонь=S,m,inan=gen,pl}.
+
+{и=CONJ=} {свет=S,sg,m,inan=(acc|nom)}, {и=CONJ=} {тишь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{и=CONJ=} {чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)} {вздох=S,m,inan=(acc,sg|nom,sg)} — {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}...
+{склонять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {колено=S,n,inan=(acc,pl|nom,pl)}
+{в=PR=} {надежда=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {мольба=S,f,inan=(abl,sg|dat,sg)}.
+
+{огонь=S,m,inan=(acc,sg|nom,sg)} {дрожать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {дышать=V,ipf,intr=inpraes,sg,indic,3p}
+{и=CONJ=} {роза=S,f,inan=ins,pl} {цвести=V,ipf,intr=inpraes,sg,indic,3p}.
+{она=SPRO,sg,3p,f=nom} {ли=PART=} {не=PART=} {услышать=V,pf,tran=inpraes,sg,indic,3p}?
+{она=SPRO,sg,3p,f=nom} {ли=PART=} {не=PART=} {понимать=V=inpraes,sg,indic,3p,pf}?
+
+{о=PR=}, {этот=APRO=(acc,sg,n|nom,sg,n)} {упование=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{о=INTJ=}, {этот=APRO=nom,sg,f} {тишина=S,sg,f,inan=nom}!
+{и=CONJ=} {теплый=A=(acc,sg,plen,n|nom,sg,plen,n)} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {нежность=S,f,inan=(acc,sg|nom,sg)}, — {и=CONJ=} {она=SPRO,sg,3p,f=nom}.

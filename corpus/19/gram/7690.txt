@@ -1,126 +1,17 @@
-толпа=S,f,inan=nom,sg
-_
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-толпа=S,f,inan=nom,sg
-_
-ликовать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-печальный=A=sg,brev,m
-_
-и=CONJ=
-_
-угрюмый=A=sg,brev,m
-,\n
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_
-болеть=V,ipf,intr=inpraes,sg,indic,3p
-,_
-тосковать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-волновать=V,ipf,tran=inpraes,sg,indic,3p
-\n
-суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рой=S,m,inan=(acc,sg|nom,sg)
-_
-суровый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дума=S,f,inan=gen,pl
-.\n\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-младенческий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-год=S,m,inan=nom,pl
-\n
-и=CONJ=
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-_
-темный=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-\n
-луч=S,m,inan=ins,sg
-_
-отрадный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-не=PART=
-_
-согревать=V,tran=praet,pl,partcp,brev,pf,pass
-,\n
-и=CONJ=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-теплый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-привет=S,m,inan=gen,sg
-\n
-ни=PART=
-_
-раз=S,m,inan=(dat,sg|part,sg)
-_
-не=PART=
-_
-услышать=V,pf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-.\n\n
-семья=S,f,inan=nom,sg
-_\u2014_
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-_
-унылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-она=SPRO,sg,3p,f=nom
-_
-угрюмый=A=sg,brev,f
-_
-и=CONJ=
-_
-мрачный=A=sg,brev,f
-:\n
-не=PART=
-_
-вечно=ADV=
-_
-дышать=V,ipf,intr=inpraes,ins,sg,partcp,plen,f,act
-_
-сила=S,f,inan=ins,sg
-,\n
-она=SPRO,sg,3p,f=nom
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-всегда=ADVPRO=
-_
-могила=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-тьма=S,f,inan=ins,sg
-,_
-и=CONJ=
-_
-холод=S,m,inan=ins,sg
-_
-полный=A=sg,brev,f
-.\n
+{толпа=S,f,inan=nom,sg} {шуметь=V,ipf,intr=inpraes,sg,indic,3p}, {толпа=S,f,inan=nom,sg} {ликовать=V,ipf,intr=inpraes,sg,indic,3p},
+{но=CONJ=} {я=SPRO,sg,1p=nom} {печальный=A=sg,brev,m} {и=CONJ=} {угрюмый=A=sg,brev,m},
+{душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} {болеть=V,ipf,intr=inpraes,sg,indic,3p}, {тосковать=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)} {волновать=V,ipf,tran=inpraes,sg,indic,3p}
+{суровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рой=S,m,inan=(acc,sg|nom,sg)} {суровый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дума=S,f,inan=gen,pl}.
+
+{мой=APRO=(nom,pl|acc,pl,inan)} {младенческий=A=(acc,pl,plen,inan|nom,pl,plen)} {год=S,m,inan=nom,pl}
+{и=CONJ=} {юность=S,f,inan=(acc,sg|nom,sg)} {темный=A=nom,sg,plen,f} {мой=APRO=nom,sg,f}
+{луч=S,m,inan=ins,sg} {отрадный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {не=PART=} {согревать=V,tran=praet,pl,partcp,brev,pf,pass},
+{и=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {теплый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {привет=S,m,inan=gen,sg}
+{ни=PART=} {раз=S,m,inan=(dat,sg|part,sg)} {не=PART=} {услышать=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom}.
+
+{семья=S,f,inan=nom,sg} — {в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страна=S,f,inan=(abl,sg|dat,sg)} {унылый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{она=SPRO,sg,3p,f=nom} {угрюмый=A=sg,brev,f} {и=CONJ=} {мрачный=A=sg,brev,f}:
+{не=PART=} {вечно=ADV=} {дышать=V,ipf,intr=inpraes,ins,sg,partcp,plen,f,act} {сила=S,f,inan=ins,sg},
+{она=SPRO,sg,3p,f=nom} {глядеть=V,ipf,tran=inpraes,sg,indic,3p} {всегда=ADVPRO=} {могила=S,f,inan=ins,sg},
+{и=CONJ=} {тьма=S,f,inan=ins,sg}, {и=CONJ=} {холод=S,m,inan=ins,sg} {полный=A=sg,brev,f}.

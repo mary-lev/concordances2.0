@@ -1,32 +1,5 @@
-как=ADVPRO=
-_
-слепоглухонемой=A,plen=nom,sg,f
-,\n
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-оставаться=V,intr=praet,pl,indic,pf
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-\n
-лишь=PART=
-_
-запах=S,m,inan=(acc,pl|nom,pl)
-,_
-я=SPRO,sg,1p=nom
-_
-вдыхать=V,tran=inpraes,sg,indic,1p,ipf
-\n
-сырость=S,f,inan=(acc,sg|nom,sg)
-,_
-прелость=S,f,inan=(acc,sg|nom,sg)
-,_
-ненастье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-мимолетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дымок=S,m,inan=(acc,sg|nom,sg)
-...\n
+{как=ADVPRO=} {слепоглухонемой=A,plen=nom,sg,f},
+{который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {оставаться=V,intr=praet,pl,indic,pf} {на=PR=} {свет=S,sg,m,inan=abl}
+{лишь=PART=} {запах=S,m,inan=(acc,pl|nom,pl)}, {я=SPRO,sg,1p=nom} {вдыхать=V,tran=inpraes,sg,indic,1p,ipf}
+{сырость=S,f,inan=(acc,sg|nom,sg)}, {прелость=S,f,inan=(acc,sg|nom,sg)}, {ненастье=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{и=CONJ=} {мимолетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дымок=S,m,inan=(acc,sg|nom,sg)}...

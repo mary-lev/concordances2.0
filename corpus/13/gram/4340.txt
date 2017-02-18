@@ -1,99 +1,14 @@
+{йони=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{голубка=S,f,anim=(gen,sg|nom,pl)}, {ионин=S,famn,m,anim=nom,pl} {недра=S,pl,inan=(acc|nom)},
+{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {иоанн=S,persn,m,anim=nom,sg} {иорданский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {струя=S,f,inan=gen,pl}!
+{мирт=S,m,inan=(acc,pl|nom,pl)} {киприд?=S,m,anim=nom,pl}, {кибелин?=S,m,inan=(acc,pl|nom,pl)} {кедр=S,m,inan=(acc,pl|nom,pl)},
+{млечный=A=nom,sg,plen,f} {мать=S,f,anim=(acc,sg|nom,sg)}, {маргарита=S,persn,f,anim=nom,sg} {море=S,n,inan=gen,pl}!
 
-йони=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
--
-голубка=S,f,anim=(gen,sg|nom,pl)
-,_
-ионин=S,famn,m,anim=nom,pl
-_
-недра=S,pl,inan=(acc|nom)
-,\n
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-иоанн=S,persn,m,anim=nom,sg
-_
-иорданский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-струя=S,f,inan=gen,pl
-!\n
-мирт=S,m,inan=(acc,pl|nom,pl)
-_
-киприд?=S,m,anim=nom,pl
-,_
-кибелин?=S,m,inan=(acc,pl|nom,pl)
-_
-кедр=S,m,inan=(acc,pl|nom,pl)
-,\n
-млечный=A=nom,sg,plen,f
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-,_
-маргарита=S,persn,f,anim=nom,sg
-_
-море=S,n,inan=gen,pl
-!\n\n
-выходить=V,intr=praet,sg,indic,m,pf
-_
-врата=S,pl,inan=ins
-,_
-немотствовать=V,ipf,intr=inpraes,ger
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-,\n
-влажный=A=acc,sg,plen,f
-_
-выводить=V=praet,sg,indic,m,pf
-_
-волна=S,f,inan=ins,sg
-_
-колыбель=S,f,inan=(acc,sg|nom,sg)
-.\n
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-!_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-еще=ADV=
-_
-боле=ADV=
-?\n
-сердце=S,n,inan=dat,sg
-_
-срединный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-солнечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-хмель=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-произрастание=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-верхний=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-сев=S,m,inan=dat,sg
-!\n
-воспоминание=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-нижний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-вода=S,f,inan=dat,pl
-!\n
-дым=S,m,inan=(acc,pl|nom,pl)
-_
-колдовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-дельфийский=A=acc,sg,plen,f
-_
-дева=S,f,anim=acc,sg
-,\n
-ствол=S,m,inan=(acc,sg|nom,sg)
-_
-богоносный?=A,plen=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-адам=S,persn,m,anim=nom,sg
-!\n
+{выходить=V,intr=praet,sg,indic,m,pf} {врата=S,pl,inan=ins}, {немотствовать=V,ipf,intr=inpraes,ger} {воля=S,f,inan=(abl,sg|dat,sg)},
+{влажный=A=acc,sg,plen,f} {выводить=V=praet,sg,indic,m,pf} {волна=S,f,inan=ins,sg} {колыбель=S,f,inan=(acc,sg|nom,sg)}.
+{берег=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {ветер=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)}! {что=SPRO,sg,n,inan=(acc|nom)} {еще=ADV=} {боле=ADV=}?
+{сердце=S,n,inan=dat,sg} {срединный=A=(dat,sg,plen,m|dat,sg,plen,n)} {солнечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хмель=S,m,inan=(acc,sg|nom,sg)}.
+
+{произрастание=S,n,inan=(acc,sg|nom,sg)} — {верхний=A=(dat,sg,plen,m|dat,sg,plen,n)} {сев=S,m,inan=dat,sg}!
+{воспоминание=S,n,inan=(acc,sg|nom,sg)} — {нижний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вода=S,f,inan=dat,pl}!
+{дым=S,m,inan=(acc,pl|nom,pl)} {колдовать=V,ipf,intr=inpraes,pl,indic,3p} {дельфийский=A=acc,sg,plen,f} {дева=S,f,anim=acc,sg},
+{ствол=S,m,inan=(acc,sg|nom,sg)} {богоносный?=A,plen=(acc,sg,m,inan|nom,sg,m)} — {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {адам=S,persn,m,anim=nom,sg}!

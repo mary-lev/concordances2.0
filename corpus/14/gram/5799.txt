@@ -1,138 +1,16 @@
-в=PR=
-_
-грозный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-вой=S,m,inan=abl,sg
-_
-степной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ураган=S,m,inan=gen,pl
-,\n
-рассекать=V=inpraes,ger,ipf,tran
-_
-земной=A=acc,sg,plen,f
-_
-грудь=S,f,inan=(acc,sg|nom,sg)
-,\n
-мимо=PR=
-_
-древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-скифский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-курган=S,m,inan=gen,pl
-\n
-волга=S,f,inan=nom,sg
-_
-к=PR=
-_
-дон=S,geo,sg,m,inan=(dat|loc)
-_
-проводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-.\n
-если=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-повивать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_
-туман=S,m,inan=ins,sg
-,\n
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-прожектор=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-светлый=A=sg,brev,m
-_
-и=CONJ=
-_
-прямой=A=sg,brev,m
-,\n
-экскаватор=S,m,inan=(acc,sg|nom,sg)
-_
-живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-великан=S,m,anim=ins,sg
-\n
-по=PR=
-_
-бескрайний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-шагать=V,ipf,intr=inpraes,sg,indic,3p
-_
-степь=S,f,inan=dat,pl
-.\n
-что=CONJ=
-_
-петровский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-мечта=S,f,inan=ins,sg
-,\n
-становиться=V,intr=praet,sg,indic,n,pf
-_
-быль=S,f,inan=ins,sg
-_
-в=PR=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-век=S,m,inan=(acc,sg|nom,sg)
-.\n
-здесь=ADVPRO=
-_
-усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-утраивать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-чтоб=CONJ=
-_
-добиваться=V,intr=inf,pf
-_
-всего=PART=
-,_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-.\n
-и=CONJ=
-_
-прочно=ADV=comp
-_
-ижевский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-становиться=V,intr=praet,pl,indic,pf
-\n(
-это=SPRO,sg,n,inan=(acc|nom)
-_
-значить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-прочно=ADV=comp
-_
-все=SPRO,sg,n,inan=gen
-)\n
-слово=S,n,inan=(acc,sg|nom,sg)
-_
-то=PART=
-,_
-что=CONJ=
-_
-сказать=V,pf,tran=praet,sg,indic,m
-_
-мы=SPRO,pl,1p=dat
-_
-сталин=S,famn,m,anim=nom,sg
-,_\u2014\n
-наш=APRO=nom,sg,f
-_
-слава=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-торжество=S,n,inan=(acc,sg|nom,sg)
-.\n
+{в=PR=} {грозный=A=(abl,sg,plen,m|abl,sg,plen,n)} {вой=S,m,inan=abl,sg} {степной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ураган=S,m,inan=gen,pl},
+{рассекать=V=inpraes,ger,ipf,tran} {земной=A=acc,sg,plen,f} {грудь=S,f,inan=(acc,sg|nom,sg)},
+{мимо=PR=} {древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {скифский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {курган=S,m,inan=gen,pl}
+{волга=S,f,inan=nom,sg} {к=PR=} {дон=S,geo,sg,m,inan=(dat|loc)} {проводить=V=inpraes,sg,indic,3p,ipf,tran} {путь=S,m,inan=(acc,sg|nom,sg)}.
+{если=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {повивать=V,tran=praet,sg,partcp,brev,n,pf,pass} {туман=S,m,inan=ins,sg},
+{луч=S,m,inan=(acc,sg|nom,sg)} {прожектор=S,m,inan=(acc,pl|gen,sg|nom,pl)} {светлый=A=sg,brev,m} {и=CONJ=} {прямой=A=sg,brev,m},
+{экскаватор=S,m,inan=(acc,sg|nom,sg)} {живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {великан=S,m,anim=ins,sg}
+{по=PR=} {бескрайний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {шагать=V,ipf,intr=inpraes,sg,indic,3p} {степь=S,f,inan=dat,pl}.
+{что=CONJ=} {петровский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=praet,sg,indic,n,ipf} {мечта=S,f,inan=ins,sg},
+{становиться=V,intr=praet,sg,indic,n,pf} {быль=S,f,inan=ins,sg} {в=PR=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {век=S,m,inan=(acc,sg|nom,sg)}.
+{здесь=ADVPRO=} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {свой=APRO=(nom,pl|acc,pl,inan)} {утраивать=V,tran=inpraes,sg,indic,3p,pf},
+{чтоб=CONJ=} {добиваться=V,intr=inf,pf} {всего=PART=}, {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}.
+{и=CONJ=} {прочно=ADV=comp} {ижевский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {становиться=V,intr=praet,pl,indic,pf}
+({это=SPRO,sg,n,inan=(acc|nom)} {значить=V,ipf,tran=inpraes,sg,indic,3p}, {прочно=ADV=comp} {все=SPRO,sg,n,inan=gen})
+{слово=S,n,inan=(acc,sg|nom,sg)} {то=PART=}, {что=CONJ=} {сказать=V,pf,tran=praet,sg,indic,m} {мы=SPRO,pl,1p=dat} {сталин=S,famn,m,anim=nom,sg}, —
+{наш=APRO=nom,sg,f} {слава=S,f,inan=nom,sg} {и=CONJ=} {торжество=S,n,inan=(acc,sg|nom,sg)}.

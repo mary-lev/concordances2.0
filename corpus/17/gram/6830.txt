@@ -1,38 +1,4 @@
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-океан=S,m,inan=gen,sg
-,\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-такой=APRO=(nom,pl|acc,pl,inan)
-,_
-что=CONJ=
-_
-больно=ADV=
-_
-смотреть=V,ipf,tran=inf
-,_\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-значить=V,ipf,tran=inpraes,sg,indic,3p
-_\u2014_
-поздно=ADV=
-_
-иль=CONJ=
-_
-рано=ADV=
-_\n
-надо=ADV,praed=
-_
-и=CONJ=
-_
-мы=SPRO,pl,1p=dat
-_
-умирать=V,intr=inf,pf
-...\n
+{черный=A=(acc,pl,plen,inan|nom,pl,plen)} {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {шум=S,m,inan=(acc,sg|nom,sg)} {океан=S,m,inan=gen,sg},
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {такой=APRO=(nom,pl|acc,pl,inan)}, {что=CONJ=} {больно=ADV=} {смотреть=V,ipf,tran=inf}, 
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {значить=V,ipf,tran=inpraes,sg,indic,3p} — {поздно=ADV=} {иль=CONJ=} {рано=ADV=} 
+{надо=ADV,praed=} {и=CONJ=} {мы=SPRO,pl,1p=dat} {умирать=V,intr=inf,pf}...

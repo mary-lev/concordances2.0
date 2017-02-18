@@ -1,70 +1,8 @@
-амбразура=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-окно=S,n,inan=gen,pl
-_
-потемнеть=V,pf,intr=praet,pl,indic
-,\u2028\n
-не=PART=
-_
-вздыхать=V,intr=inpraes,sg,indic,3p,ipf
-_
-ветерок=S,m,inan=(acc,sg|nom,sg)
-_
-долинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n\u2028
-ясный=A=sg,brev,m
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-;_
-сквозь=PR=
-_
-вершина=S,f,inan=acc,sg
-_
-есть=V,ipf,tran=praet,pl,indic
-\u2028\n
-кинуть=V,pf,tran=praet,sg,indic,m
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\u2028\n
-ангел=S,m,anim=nom,sg
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-опускать=V=praet,sg,indic,m,pf
-_
-святой=S,m,anim=nom,pl
-,\u2028\n
-человек=S,m,anim=nom,pl
-_
-рад=A,brev=pl
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-промелькнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-,\u2028\n
-и=CONJ=
-_
-спокойный=A=pl,brev
-_
-глазок=S,m,inan=(acc,pl|nom,pl)
-_
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-\u2028\n
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-девочка=S,f,anim=(gen,sg|nom,pl)
-,_
-к=PR=
-_
-окно=S,n,inan=dat,sg
-_
-прильнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-.\n
+{амбразура=S,f,inan=(acc,pl|gen,sg|nom,pl)} {окно=S,n,inan=gen,pl} {потемнеть=V,pf,intr=praet,pl,indic}, 
+{не=PART=} {вздыхать=V,intr=inpraes,sg,indic,3p,ipf} {ветерок=S,m,inan=(acc,sg|nom,sg)} {долинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+ {ясный=A=sg,brev,m} {вечер=S,m,inan=(acc,sg|nom,sg)}; {сквозь=PR=} {вершина=S,f,inan=acc,sg} {есть=V,ipf,tran=praet,pl,indic} 
+{кинуть=V,pf,tran=praet,sg,indic,m} {месяц=S,m,inan=(acc,sg|nom,sg)} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {луч=S,m,inan=(acc,sg|nom,sg)} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}. 
+{ангел=S,m,anim=nom,sg} {взор=S,m,inan=(acc,pl|nom,pl)} {опускать=V=praet,sg,indic,m,pf} {святой=S,m,anim=nom,pl}, 
+{человек=S,m,anim=nom,pl} {рад=A,brev=pl} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {промелькнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)}, 
+{и=CONJ=} {спокойный=A=pl,brev} {глазок=S,m,inan=(acc,pl|nom,pl)} {золотой=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {девочка=S,f,anim=(gen,sg|nom,pl)}, {к=PR=} {окно=S,n,inan=dat,sg} {прильнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)}.

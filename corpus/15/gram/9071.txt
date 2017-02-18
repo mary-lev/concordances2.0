@@ -1,194 +1,25 @@
-долго=ADV=
-,_
-день=S,m,inan=ins,pl
-_
-и=CONJ=
-_
-ночь=S,f,inan=ins,pl
-,\n__________
-по=PR=
-_
-таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дорога=S,f,inan=(abl,sg|dat,sg)
-,\n
-многосложный=A=ins,pl,plen
-_
-путь=S,m,inan=ins,pl
-\n__________
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-святой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-блуждать=V,ipf,intr=praet,sg,indic,m
-_
-чертог=S,m,inan=abl,sg
-.\n
-в=PR=
-_
-зима=S,f,inan=acc,sg
-,_
-день=S,m,inan=ins,pl
-_
-и=CONJ=
-_
-ночь=S,f,inan=ins,pl
-,\n__________
-проходить=V=inpraes,ger,ipf,tran
-_
-закон=S,m,inan=(acc,pl|nom,pl)
-_
-строгий=A=pl,brev
-,\n
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-духовный=A=ins,pl,plen
-_
-свеча=S,f,inan=ins,pl
-\n__________
-быть=V,intr=praet,sg,indic,m,ipf
-_
-во=PR=
-_
-внутренний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-чертог=S,m,inan=abl,sg
-.\n
-в=PR=
-_
-лето=S,sg,n,inan=(acc|nom)
-,_
-день=S,m,inan=ins,pl
-_
-и=CONJ=
-_
-ночь=S,f,inan=ins,pl
-,\n__________
-возлюбить=V,pf,tran=praet,ger
-_
-расцвет=S,m,inan=(acc,pl|nom,pl)
-_
-многий=APRO=pl,brev
-,\n
-я=SPRO,sg,1p=nom
-_
-закрытый=A=ins,pl,plen
-_
-око=S,n,inan=ins,pl
-\n__________
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-богатство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-зреть=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-чертог=S,m,inan=abl,sg
-.\n\n
-и=CONJ=
-_
-теперь=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-в=PR=
-_
-гадание=S,n,inan=abl,sg
-\n__________
-зреть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-но=CONJ=
-_
-в=PR=
-_
-самый=APRO=(abl,sg,m|abl,sg,n)
-_
-откровение=S,n,inan=abl,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-негаснущий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сияние=S,n,inan=abl,sg
-,\n__________
-в=PR=
-_
-бесконечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-восхождение=S,n,inan=abl,sg
-.\n
-и=CONJ=
-_
-теперь=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-в=PR=
-_
-гадание=S,n,inan=abl,sg
-\n__________
-о=PR=
-_
-мирской=A,plen=(abl,sg,m|abl,sg,n)
-_
-предназначение=S,n,inan=abl,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-великий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ожидание=S,n,inan=abl,sg
-,\n__________
-в=PR=
-_
-вечно=ADV=
--
-новый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-восхождение=S,n,inan=abl,sg
-.\n
-и=CONJ=
-_
-гадать=V,ipf,intr=inpraes,ger
-_\u2014_
-не=PART=
-_
-в=PR=
-_
-гадание=S,n,inan=abl,sg
-_\u2014\n__________
-я=SPRO,sg,1p=nom
-_
-угадывать=V,tran=inpraes,sg,indic,1p,ipf
-_
-в=PR=
-_
-пение=S,n,inan=abl,sg
-,\n
-во=PR=
-_
-вселенский=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-я=SPRO,sg,1p=nom
-_
-сияние=S,n,inan=abl,sg
-,\n__________
-во=PR=
-_
-всемирный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-восхождение=S,n,inan=abl,sg
-.\n
+{долго=ADV=}, {день=S,m,inan=ins,pl} {и=CONJ=} {ночь=S,f,inan=ins,pl},
+          {по=PR=} {таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорога=S,f,inan=(abl,sg|dat,sg)},
+{многосложный=A=ins,pl,plen} {путь=S,m,inan=ins,pl}
+          {я=SPRO,sg,1p=nom} {в=PR=} {святой=A=(abl,sg,plen,m|abl,sg,plen,n)} {блуждать=V,ipf,intr=praet,sg,indic,m} {чертог=S,m,inan=abl,sg}.
+{в=PR=} {зима=S,f,inan=acc,sg}, {день=S,m,inan=ins,pl} {и=CONJ=} {ночь=S,f,inan=ins,pl},
+          {проходить=V=inpraes,ger,ipf,tran} {закон=S,m,inan=(acc,pl|nom,pl)} {строгий=A=pl,brev},
+{я=SPRO,sg,1p=nom} {с=PR=} {духовный=A=ins,pl,plen} {свеча=S,f,inan=ins,pl}
+          {быть=V,intr=praet,sg,indic,m,ipf} {во=PR=} {внутренний=A=(abl,sg,plen,m|abl,sg,plen,n)} {чертог=S,m,inan=abl,sg}.
+{в=PR=} {лето=S,sg,n,inan=(acc|nom)}, {день=S,m,inan=ins,pl} {и=CONJ=} {ночь=S,f,inan=ins,pl},
+          {возлюбить=V,pf,tran=praet,ger} {расцвет=S,m,inan=(acc,pl|nom,pl)} {многий=APRO=pl,brev},
+{я=SPRO,sg,1p=nom} {закрытый=A=ins,pl,plen} {око=S,n,inan=ins,pl}
+          {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {богатство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {зреть=V,ipf,intr=praet,sg,indic,m} {в=PR=} {чертог=S,m,inan=abl,sg}.
+
+{и=CONJ=} {теперь=ADV=} {я=SPRO,sg,1p=nom} {не=PART=} {в=PR=} {гадание=S,n,inan=abl,sg}
+          {зреть=V,ipf,tran=inpraes,sg,indic,1p}, {но=CONJ=} {в=PR=} {самый=APRO=(abl,sg,m|abl,sg,n)} {откровение=S,n,inan=abl,sg},
+{я=SPRO,sg,1p=nom} {в=PR=} {негаснущий=A=(abl,sg,plen,m|abl,sg,plen,n)} {сияние=S,n,inan=abl,sg},
+          {в=PR=} {бесконечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {восхождение=S,n,inan=abl,sg}.
+{и=CONJ=} {теперь=ADV=} {я=SPRO,sg,1p=nom} {не=PART=} {в=PR=} {гадание=S,n,inan=abl,sg}
+          {о=PR=} {мирской=A,plen=(abl,sg,m|abl,sg,n)} {предназначение=S,n,inan=abl,sg},
+{я=SPRO,sg,1p=nom} {в=PR=} {великий=A=(abl,sg,plen,m|abl,sg,plen,n)} {ожидание=S,n,inan=abl,sg},
+          {в=PR=} {вечно=ADV=}-{новый=A=(abl,sg,plen,m|abl,sg,plen,n)} {восхождение=S,n,inan=abl,sg}.
+{и=CONJ=} {гадать=V,ipf,intr=inpraes,ger} — {не=PART=} {в=PR=} {гадание=S,n,inan=abl,sg} —
+          {я=SPRO,sg,1p=nom} {угадывать=V,tran=inpraes,sg,indic,1p,ipf} {в=PR=} {пение=S,n,inan=abl,sg},
+{во=PR=} {вселенский=A=(abl,sg,plen,m|abl,sg,plen,n)} {я=SPRO,sg,1p=nom} {сияние=S,n,inan=abl,sg},
+          {во=PR=} {всемирный=A=(abl,sg,plen,m|abl,sg,plen,n)} {восхождение=S,n,inan=abl,sg}.

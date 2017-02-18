@@ -1,130 +1,19 @@
-светиться=V,ipf,intr=sg,imper,2p
-,_
-светиться=V,ipf,intr=sg,imper,2p
-,_
-иерусалим=S,geo,m,inan=(acc,sg|nom,sg)
-,\n
-светиться=V,ipf,intr=sg,imper,2p
-,_
-светиться=V,ipf,intr=sg,imper,2p
-,_
-новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-мы=SPRO,pl,1p=nom
-_
-обвенчать=V,pf,tran=praet,pl,indic
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-,\n
-входить=V,intr=praet,pl,indic,pf
-_
-в=PR=
-_
-тайник=S,m,inan=(acc,sg|nom,sg)
-_
-основа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-ликовать=V,ipf,intr=sg,imper,2p
-_
-и=CONJ=
-_
-веселиться=V,ipf,intr=sg,imper,2p
-,_
-сион?=S,m,inan=(acc,sg|nom,sg)
-,\n
-ликовать=V,ipf,intr=sg,imper,2p
-,_
-ликовать=V,ipf,intr=sg,imper,2p
-,_
-сион?=S,m,inan=abl,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-понимать=V=praet,pl,indic,pf
-_
-закон=S,m,inan=(acc,sg|nom,sg)
-,\n
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-праздник=S,m,inan=abl,sg
-_
-и=CONJ=
-_
-в=PR=
-_
-звон=S,m,inan=abl,sg
-.\n\n
-светиться=V,ipf,intr=sg,imper,2p
-,_
-светиться=V,ipf,intr=sg,imper,2p
-,_
-мой=APRO=nom,sg,f
-_
-сестра=S,f,anim=nom,sg
-,\n
-светиться=V,ipf,intr=sg,imper,2p
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-братик=S,m,anim=nom,sg
-_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-мы=SPRO,pl,1p=nom
-_
-быть=V,intr=praet,pl,indic,ipf
-_
-мертвый=A=ins,pl,plen
-_
-вчера=ADV=
-,\n
-мы=SPRO,pl,1p=nom
-_
-выходить=V,intr=praet,pl,indic,pf
-_
-из=PR=
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-да=PART=
-_
-воспевать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-как=CONJ=
-_
-сонм=S,m,inan=(acc,pl|nom,pl)
-_
-лира=S,f,inan=gen,pl
-,\n
-да=PART=
-_
-возгреметь=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-как=CONJ=
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-светиться=V,ipf,intr=sg,imper,2p
-,_
-светиться=V,ipf,intr=sg,imper,2p
-,_
-воскресать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-,\n
-воспевать=V,tran=sg,imper,2p,pf
-_\u2014_
-кто=SPRO,sg,m,anim=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
+{светиться=V,ipf,intr=sg,imper,2p}, {светиться=V,ipf,intr=sg,imper,2p}, {иерусалим=S,geo,m,inan=(acc,sg|nom,sg)},
+{светиться=V,ipf,intr=sg,imper,2p}, {светиться=V,ipf,intr=sg,imper,2p}, {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{мы=SPRO,pl,1p=nom} {обвенчать=V,pf,tran=praet,pl,indic} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {он=SPRO,sg,3p,m=ins},
+{входить=V,intr=praet,pl,indic,pf} {в=PR=} {тайник=S,m,inan=(acc,sg|nom,sg)} {основа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{ликовать=V,ipf,intr=sg,imper,2p} {и=CONJ=} {веселиться=V,ipf,intr=sg,imper,2p}, {сион?=S,m,inan=(acc,sg|nom,sg)},
+{ликовать=V,ipf,intr=sg,imper,2p}, {ликовать=V,ipf,intr=sg,imper,2p}, {сион?=S,m,inan=abl,sg},
+{мы=SPRO,pl,1p=nom} {верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {понимать=V=praet,pl,indic,pf} {закон=S,m,inan=(acc,sg|nom,sg)},
+{мы=SPRO,pl,1p=nom} {в=PR=} {праздник=S,m,inan=abl,sg} {и=CONJ=} {в=PR=} {звон=S,m,inan=abl,sg}.
+
+{светиться=V,ipf,intr=sg,imper,2p}, {светиться=V,ipf,intr=sg,imper,2p}, {мой=APRO=nom,sg,f} {сестра=S,f,anim=nom,sg},
+{светиться=V,ipf,intr=sg,imper,2p}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {братик=S,m,anim=nom,sg} {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{мы=SPRO,pl,1p=nom} {быть=V,intr=praet,pl,indic,ipf} {мертвый=A=ins,pl,plen} {вчера=ADV=},
+{мы=SPRO,pl,1p=nom} {выходить=V,intr=praet,pl,indic,pf} {из=PR=} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{да=PART=} {воспевать=V,tran=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {как=CONJ=} {сонм=S,m,inan=(acc,pl|nom,pl)} {лира=S,f,inan=gen,pl},
+{да=PART=} {возгреметь=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {как=CONJ=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{светиться=V,ipf,intr=sg,imper,2p}, {светиться=V,ipf,intr=sg,imper,2p}, {воскресать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {мир=S,m,inan=(acc,sg|nom,sg)},
+{воспевать=V,tran=sg,imper,2p,pf} — {кто=SPRO,sg,m,anim=nom} {становиться=V,intr=praet,sg,indic,m,pf} {певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.

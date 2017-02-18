@@ -1,112 +1,13 @@
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-вступать=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-вертоград=S,m,inan=(acc,sg|nom,sg)
-,\n
-кровь=S,f,inan=ins,sg
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-купить=V,pf,tran=inpraes,sg,indic,3p
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-,\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-лишь=PART=
-_
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-_
-жалеть=V,ipf,tran=inf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-аромат=S,m,inan=(acc,sg|nom,sg)
-\n
-мало=ADV=
-_
-он=SPRO,sg,3p,m=nom
-_
-понести=V,pf,tran=praet,sg,indic,m
-_
-утрата=S,f,inan=gen,pl
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-терзаться=V,ipf,intr=inf
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-рад=A,brev=sg,m
-,\n
-а=CONJ=
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-воздушный=A=sg,brev,f
-_
-сеть=S,f,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-пышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-,\n
-желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-виноград=S,m,inan=(acc,sg|nom,sg)
-,\n
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-виноград=S,m,inan=(acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-за=PR=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-сгорать=V,intr=inf,pf
-,\n
-жить=V,ipf,intr=inf
-_
-и=CONJ=
-_
-вместе=ADV=
-_
-умирать=V,intr=inf,pf
-.\n
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {вступать=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {вертоград=S,m,inan=(acc,sg|nom,sg)},
+{кровь=S,f,inan=ins,sg} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {купить=V,pf,tran=inpraes,sg,indic,3p} {сад=S,m,inan=(acc,sg|nom,sg)},
+{быть=V,intr=inpraes,sg,indic,3p} {лишь=PART=} {о=PR=} {то=SPRO,sg,n,inan=abl} {жалеть=V,ipf,tran=inf},
+{что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {аромат=S,m,inan=(acc,sg|nom,sg)}
+{мало=ADV=} {он=SPRO,sg,3p,m=nom} {понести=V,pf,tran=praet,sg,indic,m} {утрата=S,f,inan=gen,pl},
+{что=SPRO,sg,n,inan=(acc|nom)} {терзаться=V,ipf,intr=inf} {быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {рад=A,brev=sg,m},
+{а=CONJ=} {быть=V,intr=praet,sg,indic,f,ipf} {воздушный=A=sg,brev,f} {сеть=S,f,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {пышный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сад=S,m,inan=(acc,sg|nom,sg)},
+{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {виноград=S,m,inan=(acc,sg|nom,sg)},
+{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {виноград=S,m,inan=(acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {за=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сад=S,m,inan=(acc,sg|nom,sg)}
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {сгорать=V,intr=inf,pf},
+{жить=V,ipf,intr=inf} {и=CONJ=} {вместе=ADV=} {умирать=V,intr=inf,pf}.

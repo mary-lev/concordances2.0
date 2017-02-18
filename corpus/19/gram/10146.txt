@@ -1,122 +1,14 @@
-он=SPRO,sg,3p,m=nom
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-безумие=S,n,inan=ins,sg
-_
-во=PR=
-_
-взор=S,m,inan=abl,sg
-,\n
-с=PR=
-_
-радость=S,f,inan=ins,sg
-,_
-разливать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-на=PR=
-_
-лицо=S,n,inan=abl,sg
-,\n
-на=PR=
-_
-восток=S,geo,m,inan=(acc,sg|nom,sg)
-,_
-где=ADVPRO=
-_
-ярко=ADV=
-_
-блистать=V,ipf,intr=inpraes,pl,indic,3p
-_
-заря=S,f,inan=(acc,pl|nom,pl)
-,\n
-где=ADVPRO=
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-золотой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-венец=S,m,inan=abl,sg
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-,_
-счастливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-прощать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)
-,\n
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-знание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-встречать=V,tran=inf,ipf
-,\n
-и=CONJ=
-,_
-огонь=S,m,inan=ins,sg
-_
-могучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-не=PART=
-_
-сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-они=SPRO,pl=(acc|gen)
-_
-целовать=V,ipf,tran=inf
-,\n\n
-и=CONJ=
-_
-когда=CONJ=
-_
-вернуться=V,pf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-к=PR=
-_
-народ=S,m,inan=(dat,sg|part,sg)
-,\n
-свет=S,sg,m,inan=ins
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-проникнутый=A=sg,brev,m
-_
-и=CONJ=
-_
-обливать=V=praet,sg,partcp,brev,m,pf,pass
-,\n
-он=SPRO,sg,3p,m=nom
-_
-давно=ADV=
-_
-желанный=A=acc,sg,plen,f
-_
-свобода=S,f,inan=acc,sg
-\n
-изнемогать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)
-_
-брат=S,m,anim=dat,pl
-_
-возвещать=V=inpraes,sg,indic,3p,pf
-.\n
+{он=SPRO,sg,3p,m=nom} {пойти=V,pf,intr=inpraes,sg,indic,3p} {с=PR=} {безумие=S,n,inan=ins,sg} {во=PR=} {взор=S,m,inan=abl,sg},
+{с=PR=} {радость=S,f,inan=ins,sg}, {разливать=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {на=PR=} {лицо=S,n,inan=abl,sg},
+{на=PR=} {восток=S,geo,m,inan=(acc,sg|nom,sg)}, {где=ADVPRO=} {ярко=ADV=} {блистать=V,ipf,intr=inpraes,pl,indic,3p} {заря=S,f,inan=(acc,pl|nom,pl)},
+{где=ADVPRO=} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {золотой=A=(abl,sg,plen,m|abl,sg,plen,n)} {венец=S,m,inan=abl,sg}.
+
+{он=SPRO,sg,3p,m=nom} {пойти=V,pf,intr=inpraes,sg,indic,3p}, {счастливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {прощать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)},
+{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {знание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {встречать=V,tran=inf,ipf},
+{и=CONJ=}, {огонь=S,m,inan=ins,sg} {могучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {не=PART=} {сжигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{быть=V,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {луч=S,m,inan=(acc,pl|nom,pl)} {они=SPRO,pl=(acc|gen)} {целовать=V,ipf,tran=inf},
+
+{и=CONJ=} {когда=CONJ=} {вернуться=V,pf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {к=PR=} {народ=S,m,inan=(dat,sg|part,sg)},
+{свет=S,sg,m,inan=ins} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {проникнутый=A=sg,brev,m} {и=CONJ=} {обливать=V=praet,sg,partcp,brev,m,pf,pass},
+{он=SPRO,sg,3p,m=nom} {давно=ADV=} {желанный=A=acc,sg,plen,f} {свобода=S,f,inan=acc,sg}
+{изнемогать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)} {брат=S,m,anim=dat,pl} {возвещать=V=inpraes,sg,indic,3p,pf}.

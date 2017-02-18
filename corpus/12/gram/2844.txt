@@ -1,62 +1,9 @@
-кружка=S,f,inan=nom,sg
-,_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-краюшка=S,f,inan=nom,sg
-\n
-да=CONJ=
-_
-малинка=S,f,inan=nom,sg
-_
-в=PR=
-_
-лукошко=S,n,inan=abl,sg
-,\n
-эх=INTJ=
-,_\u2014_
-да=PART=
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-окошко=S,n,inan=abl,sg
-,_\u2014_\n
-вот=PART=
-_
-и=CONJ=
-_
-весь=APRO=nom,sg,f
-_
-мы=SPRO,pl,1p=dat
-_
-пирушка=S,f,inan=nom,sg
-!\n\n
-а=CONJ=
-_
-мальчишка=S,m,anim=acc,sg
-_\u2014_
-погреться=V,pf,intr=inf
-_\u2014_\n
-подарить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-в=PR=
-_
-придача=S,f,inan=acc,sg
-_\u2014_\n
-я=SPRO,sg,1p=nom
-_
-тогда=ADVPRO=
-_
-и=CONJ=
-_
-без=PR=
-_
-хлебец=S,m,inan=gen,sg
-\n
-никогда=ADVPRO=
-_
-не=PART=
-_
-заплакать=V,pf,tran=inpraes,sg,indic,1p
-!\n
+{кружка=S,f,inan=nom,sg}, {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)} {краюшка=S,f,inan=nom,sg}
+{да=CONJ=} {малинка=S,f,inan=nom,sg} {в=PR=} {лукошко=S,n,inan=abl,sg},
+{эх=INTJ=}, — {да=PART=} {месяц=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {окошко=S,n,inan=abl,sg}, — 
+{вот=PART=} {и=CONJ=} {весь=APRO=nom,sg,f} {мы=SPRO,pl,1p=dat} {пирушка=S,f,inan=nom,sg}!
+
+{а=CONJ=} {мальчишка=S,m,anim=acc,sg} — {погреться=V,pf,intr=inf} — 
+{подарить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {в=PR=} {придача=S,f,inan=acc,sg} — 
+{я=SPRO,sg,1p=nom} {тогда=ADVPRO=} {и=CONJ=} {без=PR=} {хлебец=S,m,inan=gen,sg}
+{никогда=ADVPRO=} {не=PART=} {заплакать=V,pf,tran=inpraes,sg,indic,1p}!

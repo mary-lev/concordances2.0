@@ -1,104 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-сходить=V,intr=praet,sg,indic,f,pf
-_
-с=PR=
-_
-ум=S,m,inan=gen,sg
-,_
-о=PR=
-_
-мальчик=S,m,anim=nom,sg
-_
-странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-в=PR=
-_
-среда=S,f,inan=acc,sg
-,_
-в=PR=
-_
-три=NUM=(nom|acc,inan)
-_
-час=S,m,inan=gen,sg
-!\n
-укалывать=V,tran=praet,sg,indic,f,pf
-_
-палец=S,m,inan=(acc,sg|nom,sg)
-_
-безымянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-звенящий=A=nom,sg,plen,f
-_
-оса=S,f,anim=nom,sg
-.\n|\n
-я=SPRO,sg,1p=nom
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_
-нечаянно=ADV=
-_
-прижимать=V,tran=praet,sg,indic,f,pf
-,\n
-и=CONJ=
-,_
-казаться=V,ipf,intr=praet,sg,indic,n
-,_
-умирать=V,intr=praet,sg,indic,f,pf
-_
-она=SPRO,sg,3p,f=nom
-,\n
-но=CONJ=
-_
-конец=S,m,inan=(acc,sg|nom,sg)
-_
-отравлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-_
-жать=V,ipf,tran=praet,sg,indic,f
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-остро=ADV=comp
-_
-веретено=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n|\n
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-_
-заплакать=V,pf,tran=inpraes,sg,indic,1p
-,_
-странный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-улыбаться=V,intr=inpraes,sg,indic,3p,pf
-_
-ль=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-?\n
-посмотреть=V,pf,tran=sg,imper,2p
-!_
-на=PR=
-_
-палец=S,m,inan=abl,sg
-_
-безымянный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-так=ADVPRO=
-_
-красиво=ADV=
-_
-гладкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-.\n
+{я=SPRO,sg,1p=nom} {сходить=V,intr=praet,sg,indic,f,pf} {с=PR=} {ум=S,m,inan=gen,sg}, {о=PR=} {мальчик=S,m,anim=nom,sg} {странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{в=PR=} {среда=S,f,inan=acc,sg}, {в=PR=} {три=NUM=(nom|acc,inan)} {час=S,m,inan=gen,sg}!
+{укалывать=V,tran=praet,sg,indic,f,pf} {палец=S,m,inan=(acc,sg|nom,sg)} {безымянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{я=SPRO,sg,1p=(abl|dat)} {звенящий=A=nom,sg,plen,f} {оса=S,f,anim=nom,sg}.
+|
+{я=SPRO,sg,1p=nom} {она=SPRO,sg,3p,f=(acc|gen)} {нечаянно=ADV=} {прижимать=V,tran=praet,sg,indic,f,pf},
+{и=CONJ=}, {казаться=V,ipf,intr=praet,sg,indic,n}, {умирать=V,intr=praet,sg,indic,f,pf} {она=SPRO,sg,3p,f=nom},
+{но=CONJ=} {конец=S,m,inan=(acc,sg|nom,sg)} {отравлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)} {жать=V,ipf,tran=praet,sg,indic,f}
+{быть=V,intr=praet,sg,indic,m,ipf} {остро=ADV=comp} {веретено=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+|
+{о=PR=} {ты=SPRO,sg,2p=(abl|dat)} {ли=PART=} {я=SPRO,sg,1p=nom} {заплакать=V,pf,tran=inpraes,sg,indic,1p}, {странный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{улыбаться=V,intr=inpraes,sg,indic,3p,pf} {ль=PART=} {я=SPRO,sg,1p=(abl|dat)} {твой=APRO=(acc,sg,n|nom,sg,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}?
+{посмотреть=V,pf,tran=sg,imper,2p}! {на=PR=} {палец=S,m,inan=abl,sg} {безымянный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{так=ADVPRO=} {красиво=ADV=} {гладкий=A=(acc,sg,plen,n|nom,sg,plen,n)} {кольцо=S,n,inan=(acc,sg|nom,sg)}.

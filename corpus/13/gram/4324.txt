@@ -1,100 +1,14 @@
-как=CONJ=
-_
-птица=S,f,anim=nom,sg
-,_
-закликать=V,ipf,tran=inf
-_
-и=CONJ=
-_
-биться=V,ipf,intr=inf
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-строптивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-не=PART=
-_
-уставать=V,intr=praet,sg,indic,m,pf
-.\n
-все=ADV=
-_
-золотой=A=nom,sg,plen,f
-_
-воля=S,f,inan=nom,sg
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-в=PR=
-_
-неверный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-отблеск=S,m,inan=abl,sg
-_
-зеркало=S,n,inan=gen,pl
-.\n\n
-свой=APRO=(nom,pl|acc,pl,inan)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-давать=V,tran=praet,sg,indic,f,pf
-_
-толпа=S,f,inan=(abl,sg|dat,sg)
-_
-ты=SPRO,sg,2p=nom
-\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-топот=S,m,inan=(dat,sg|part,sg)
-_
-копыто=S,n,inan=gen,pl
-,\n
-но=CONJ=
-_
-заклинание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-уж=PART=
-_
-пропеть=V,pf,tran=praet,pl,partcp,brev,pass
-\n
-и=CONJ=
-_
-вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-знак=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-отмывать=V=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-бестрепетный=A=sg,brev,n
-_
-открывать=V=praet,pl,partcp,brev,pf,pass
-_
-жила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-густой=A=nom,sg,plen,f
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-течь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-красный=A=nom,sg,brev,f
-.\n
-сам=APRO=nom,sg,f
-_
-себя=SPRO=(acc|gen)
-_
-завораживать=V,tran=praet,sg,indic,f,pf
-\n
-твой=APRO=nom,sg,f
-_\xAB
-вселенский=A=nom,sg,plen,f
-_
-весна=S,f,inan=nom,sg
-\xBB.\n
+{как=CONJ=} {птица=S,f,anim=nom,sg}, {закликать=V,ipf,tran=inf} {и=CONJ=} {биться=V,ipf,intr=inf}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {строптивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {не=PART=} {уставать=V,intr=praet,sg,indic,m,pf}.
+{все=ADV=} {золотой=A=nom,sg,plen,f} {воля=S,f,inan=nom,sg} {сниться=V,ipf,intr=inpraes,sg,indic,3p}
+{в=PR=} {неверный=A=(abl,sg,plen,m|abl,sg,plen,n)} {отблеск=S,m,inan=abl,sg} {зеркало=S,n,inan=gen,pl}.
+
+{свой=APRO=(nom,pl|acc,pl,inan)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {давать=V,tran=praet,sg,indic,f,pf} {толпа=S,f,inan=(abl,sg|dat,sg)} {ты=SPRO,sg,2p=nom}
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {топот=S,m,inan=(dat,sg|part,sg)} {копыто=S,n,inan=gen,pl},
+{но=CONJ=} {заклинание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {уж=PART=} {пропеть=V,pf,tran=praet,pl,partcp,brev,pass}
+{и=CONJ=} {вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {знак=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {отмывать=V=praet,sg,partcp,brev,m,pf,pass}.
+
+{бестрепетный=A=sg,brev,n} {открывать=V=praet,pl,partcp,brev,pf,pass} {жила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{густой=A=nom,sg,plen,f} {кровь=S,f,inan=(acc,sg|nom,sg)} {течь=V,ipf,intr=inpraes,sg,indic,3p}, {красный=A=nom,sg,brev,f}.
+{сам=APRO=nom,sg,f} {себя=SPRO=(acc|gen)} {завораживать=V,tran=praet,sg,indic,f,pf}
+{твой=APRO=nom,sg,f} «{вселенский=A=nom,sg,plen,f} {весна=S,f,inan=nom,sg}».

@@ -1,88 +1,14 @@
-ниничка?=S,f,anim=(acc,pl|gen,pl)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-таращить=V,ipf,tran=inpraes,sg,indic,3p
-\n
-на=PR=
-_
-вокзальный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-часы=S,pl,inan=(acc|nom)
-,\n
-очень=ADV=
-_
-беспокоиться=V,ipf,intr=inpraes,ger
-_
-на=PR=
-_
-счет=S,m,inan=(acc,sg|nom,sg)
-\n
-женственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-краса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-с=PR=
-_
-любовный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-треволнение=S,n,inan=ins,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-приезжать=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-назад=ADV=
-,\n
-и=CONJ=
-_
-взирать=V,intr=inpraes,sg,indic,3p,ipf
-_
-с=PR=
-_
-нетерпение=S,n,inan=ins,sg
-\n
-в=PR=
-_
-супротивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-циферблат=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-завивать=V,tran=inpraes,sg,indic,3p,ipf
-_
-русый=A=pl,brev
-_
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-помада=S,f,inan=ins,sg
-_
-щека=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тереть=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-но=CONJ=
-_
-у=PR=
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-раскос=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-всегда=ADVPRO=
-_
-она=SPRO,sg,3p,f=nom
-_
-урод=S,m,anim=nom,sg
-.\n
+{ниничка?=S,f,anim=(acc,pl|gen,pl)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {таращить=V,ipf,tran=inpraes,sg,indic,3p}
+{на=PR=} {вокзальный=A=(acc,pl,plen,inan|nom,pl,plen)} {часы=S,pl,inan=(acc|nom)},
+{очень=ADV=} {беспокоиться=V,ipf,intr=inpraes,ger} {на=PR=} {счет=S,m,inan=(acc,sg|nom,sg)}
+{женственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {краса=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{ждать=V,ipf,tran=inpraes,sg,indic,3p} {с=PR=} {любовный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {треволнение=S,n,inan=ins,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {приезжать=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {назад=ADV=},
+{и=CONJ=} {взирать=V,intr=inpraes,sg,indic,3p,ipf} {с=PR=} {нетерпение=S,n,inan=ins,sg}
+{в=PR=} {супротивный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {циферблат=S,m,inan=(acc,sg|nom,sg)}.
+
+{завивать=V,tran=inpraes,sg,indic,3p,ipf} {русый=A=pl,brev} {коса=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {помада=S,f,inan=ins,sg} {щека=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тереть=V,ipf,tran=inpraes,sg,indic,3p}.
+{но=CONJ=} {у=PR=} {она=SPRO,sg,3p,f=(dat|ins)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {раскос=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {всегда=ADVPRO=} {она=SPRO,sg,3p,f=nom} {урод=S,m,anim=nom,sg}.

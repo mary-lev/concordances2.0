@@ -1,108 +1,17 @@
-я=SPRO,sg,1p=nom
-_
-смыкать=V,tran=praet,sg,indic,m,pf
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-мир=S,m,inan=gen,sg
-_
-больше=ADV=
-_
-нет=ADV,praed=
-.\n
-плакать=V,ipf,intr=pl,imper,2p
-,_
-плакать=V,ipf,intr=pl,imper,2p
-,_
-запоздалый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-светить=V,ipf,intr=inf
-_
-вы=SPRO,pl,2p=dat
-_
-лишь=PART=
-_
-поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-.\n
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-сумерки=S,pl,inan=(acc|nom)
-_
-неясный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-смотреть=V,ipf,tran=inpraes,pl,indic,3p
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-с=PR=
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-плакать=V,ipf,intr=pl,imper,2p
-,_
-страстный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-подвластный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-тайна=S,f,inan=dat,pl
-_
-темнота=S,sg,f,inan=gen
-.\n\n
-я=SPRO,sg,1p=nom
-_
-закрывать=V=praet,sg,indic,m,pf
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-погасать=V,intr=praet,sg,indic,m,pf
-.\n
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-слагать=V,tran=inpraes,sg,indic,3p,ipf
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-алый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-и=CONJ=
-_
-обманывать=V,tran=inpraes,sg,indic,3p,ipf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-шелест=S,m,inan=(acc,pl|nom,pl)
-_
-неясный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-дымно=ADV=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-речной=A=nom,sg,plen,f
-_
-гладь=S,f,inan=(acc,sg|nom,sg)
-.\n
-плакать=V,ipf,intr=pl,imper,2p
-,_
-страстный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-безгласный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-вы=SPRO,pl,2p=dat
-_
-недолго=ADV=
-_
-спать=V,ipf,intr=inf
-.\n
+{я=SPRO,sg,1p=nom} {смыкать=V,tran=praet,sg,indic,m,pf} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {усталый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{мир=S,m,inan=gen,sg} {больше=ADV=} {нет=ADV,praed=}.
+{плакать=V,ipf,intr=pl,imper,2p}, {плакать=V,ipf,intr=pl,imper,2p}, {запоздалый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{светить=V,ipf,intr=inf} {вы=SPRO,pl,2p=dat} {лишь=PART=} {поздний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}.
+{дышать=V,ipf,intr=inpraes,pl,indic,3p} {сумерки=S,pl,inan=(acc|nom)} {неясный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{смотреть=V,ipf,tran=inpraes,pl,indic,3p} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{плакать=V,ipf,intr=pl,imper,2p}, {страстный=A=(acc,pl,plen,inan|nom,pl,plen)}, {подвластный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{тайна=S,f,inan=dat,pl} {темнота=S,sg,f,inan=gen}.
+
+{я=SPRO,sg,1p=nom} {закрывать=V=praet,sg,indic,m,pf} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {усталый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {погасать=V,intr=praet,sg,indic,m,pf}.
+{кровь=S,f,inan=(acc,sg|nom,sg)} {слагать=V,tran=inpraes,sg,indic,3p,ipf} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {алый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {обманывать=V,tran=inpraes,sg,indic,3p,ipf} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+{дышать=V,ipf,intr=inpraes,pl,indic,3p} {шелест=S,m,inan=(acc,pl|nom,pl)} {неясный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{дымно=ADV=} {спать=V,ipf,intr=inpraes,sg,indic,3p} {речной=A=nom,sg,plen,f} {гладь=S,f,inan=(acc,sg|nom,sg)}.
+{плакать=V,ipf,intr=pl,imper,2p}, {страстный=A=(acc,pl,plen,inan|nom,pl,plen)}, {безгласный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{вы=SPRO,pl,2p=dat} {недолго=ADV=} {спать=V,ipf,intr=inf}.

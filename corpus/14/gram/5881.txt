@@ -1,76 +1,8 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мы=SPRO,pl,1p=dat
-_
-разлука=S,f,inan=nom,sg
-?_\u2014_
-лихой=A=nom,sg,plen,f
-_
-забава=S,f,inan=nom,sg
-,\n
-беда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-скучать=V,ipf,intr=inpraes,pl,indic,3p
-_
-без=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
-спьяну=ADV=
-_
-ли=PART=
-_
-вваливаться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-горница=S,f,inan=acc,sg
-_
-слава=S,f,inan=nom,sg
-,\n
-бить=V,ipf,tran=inpraes,sg,indic,3p
-_
-ли=CONJ=
-_
-тринадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-.\n
-или=CONJ=
-_
-забытый=A=pl,brev
-,_
-забивать=V,tran=praet,pl,partcp,brev,pf,pass
-,_
-за=PR=
-..._
-кто=SPRO,sg,m,anim=nom
-_
-там=ADVPRO=
-\n
-так=ADVPRO=
-_
-научаться=V,intr=praet,sg,indic,m,pf
-_
-стучать=V,ipf,intr=inf
-?_\u2014\n
-вот=PART=
-_
-и=CONJ=
-_
-идти=V,ipf,intr=inf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-обратно=ADV=
-_
-к=PR=
-_
-ворота=S,pl,inan=dat
-\n
-новый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-горе=S,sg,n,inan=(abl|acc|nom)
-_
-встречать=V,tran=inf,ipf
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {мы=SPRO,pl,1p=dat} {разлука=S,f,inan=nom,sg}? — {лихой=A=nom,sg,plen,f} {забава=S,f,inan=nom,sg},
+{беда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {скучать=V,ipf,intr=inpraes,pl,indic,3p} {без=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+{спьяну=ADV=} {ли=PART=} {вваливаться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {горница=S,f,inan=acc,sg} {слава=S,f,inan=nom,sg},
+{бить=V,ipf,tran=inpraes,sg,indic,3p} {ли=CONJ=} {тринадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}.
+{или=CONJ=} {забытый=A=pl,brev}, {забивать=V,tran=praet,pl,partcp,brev,pf,pass}, {за=PR=}... {кто=SPRO,sg,m,anim=nom} {там=ADVPRO=}
+{так=ADVPRO=} {научаться=V,intr=praet,sg,indic,m,pf} {стучать=V,ipf,intr=inf}? —
+{вот=PART=} {и=CONJ=} {идти=V,ipf,intr=inf} {я=SPRO,sg,1p=(abl|dat)} {обратно=ADV=} {к=PR=} {ворота=S,pl,inan=dat}
+{новый=A=(acc,sg,plen,n|nom,sg,plen,n)} {горе=S,sg,n,inan=(abl|acc|nom)} {встречать=V,tran=inf,ipf}.

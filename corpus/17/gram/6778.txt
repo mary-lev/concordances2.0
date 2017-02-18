@@ -1,86 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-себя=SPRO=(abl|dat)
-,_
-насвистывать=V=inpraes,ger,ipf,tran
-,_\n
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-блузочка=S,f,inan=nom,sg
-_
-батистовый=A=nom,sg,plen,f
-_\n
-замечтаться=V,pf,intr=praet,sg,indic,f
-_
-у=PR=
-_
-плетень=S,m,inan=gen,sg
-.\n\n
-не=PART=
-_
-модистка=S,f,anim=nom,sg
-_
-и=CONJ=
-_
-не=PART=
-_
-горничная=S,f,anim=nom,sg
-_\u2014_\n
-гимназисточка?=S,f,inan=nom,sg
-_
-скоро=ADV=comp
-.\n
-литься=V,ipf,intr=sg,imper,2p
-,_
-литься=V,ipf,intr=sg,imper,2p
-,_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-солнечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-пуще=ADV=
-_
-душа=S,f,inan=acc,sg
-_
-разогревать=V,tran=sg,imper,2p,pf
-.\n\n
-и=CONJ=
-_
-плетень=S,m,inan=(acc,sg|nom,sg)
-_
-толкать=V,ipf,tran=inpraes,sg,indic,1p
-_
-тросточка=S,f,inan=ins,sg
-,_\n
-и=CONJ=
-_
-улыбка=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-в=PR=
-_
-ответ=S,m,inan=(acc,sg|nom,sg)
-:_\n
-миловидный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-подросточка?=S,f,inan=nom,sg
-_
-я=SPRO,sg,1p=nom
-_\n
-поцеловать=V,pf,tran=inpraes,sg,indic,1p
-_
-или=CONJ=
-_
-нет=PART=
-?\n
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=inpraes,sg,indic,1p} {себя=SPRO=(abl|dat)}, {насвистывать=V=inpraes,ger,ipf,tran}, 
+{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {литься=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}.
+{видеть=V,ipf,tran=inpraes,sg,indic,1p} — {блузочка=S,f,inan=nom,sg} {батистовый=A=nom,sg,plen,f} 
+{замечтаться=V,pf,intr=praet,sg,indic,f} {у=PR=} {плетень=S,m,inan=gen,sg}.
+
+{не=PART=} {модистка=S,f,anim=nom,sg} {и=CONJ=} {не=PART=} {горничная=S,f,anim=nom,sg} — 
+{гимназисточка?=S,f,inan=nom,sg} {скоро=ADV=comp}.
+{литься=V,ipf,intr=sg,imper,2p}, {литься=V,ipf,intr=sg,imper,2p}, {пламень=S,inan=(acc,sg,n|nom,sg,n)} {солнечный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{пуще=ADV=} {душа=S,f,inan=acc,sg} {разогревать=V,tran=sg,imper,2p,pf}.
+
+{и=CONJ=} {плетень=S,m,inan=(acc,sg|nom,sg)} {толкать=V,ipf,tran=inpraes,sg,indic,1p} {тросточка=S,f,inan=ins,sg}, 
+{и=CONJ=} {улыбка=S,f,inan=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {в=PR=} {ответ=S,m,inan=(acc,sg|nom,sg)}: 
+{миловидный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {подросточка?=S,f,inan=nom,sg} {я=SPRO,sg,1p=nom} 
+{поцеловать=V,pf,tran=inpraes,sg,indic,1p} {или=CONJ=} {нет=PART=}?

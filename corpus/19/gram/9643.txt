@@ -1,68 +1,9 @@
-спасибо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ручей=S,m,inan=(acc,sg|nom,sg)
-!\n
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ты=SPRO,sg,2p=nom
-_
-ласковый=A=sg,brev,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_\u2014\n
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-зной=S,m,inan=(acc,sg|nom,sg)
-_
-холодный=A=ins,sg,plen,f
-_
-вода=S,f,inan=ins,sg
-\n
-я=SPRO,sg,1p=(acc|gen)
-,_
-скиталец=S,m,anim=(acc,sg|gen,sg)
-,_
-напоить=V,pf,tran=praet,sg,indic,m
-.\n\n
-полдневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жажда=S,f,inan=ins,sg
-_
-утомлять=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-я=SPRO,sg,1p=nom
-_
-рад=A,brev=sg,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-шум=S,m,inan=(dat,sg|part,sg)
-_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-струя=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-скорбный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-прогнать=V,pf,tran=praet,sg,indic,m
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-тихоструйный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-поцелуй=S,m,inan=(acc,sg|nom,sg)
-.\n
+{спасибо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ручей=S,m,inan=(acc,sg|nom,sg)}!
+{ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {ты=SPRO,sg,2p=nom} {ласковый=A=sg,brev,m} {быть=V,intr=praet,sg,indic,m,ipf}, —
+{ты=SPRO,sg,2p=nom} {в=PR=} {зной=S,m,inan=(acc,sg|nom,sg)} {холодный=A=ins,sg,plen,f} {вода=S,f,inan=ins,sg}
+{я=SPRO,sg,1p=(acc|gen)}, {скиталец=S,m,anim=(acc,sg|gen,sg)}, {напоить=V,pf,tran=praet,sg,indic,m}.
+
+{полдневный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жажда=S,f,inan=ins,sg} {утомлять=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{я=SPRO,sg,1p=nom} {рад=A,brev=sg,m} {быть=V,intr=praet,sg,indic,m,ipf} {шум=S,m,inan=(dat,sg|part,sg)} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {струя=S,f,inan=gen,pl},
+{и=CONJ=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {скорбный=A=(acc,pl,plen,inan|nom,pl,plen)} {прогнать=V,pf,tran=praet,sg,indic,m}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {тихоструйный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {поцелуй=S,m,inan=(acc,sg|nom,sg)}.

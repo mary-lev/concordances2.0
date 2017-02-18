@@ -1,70 +1,12 @@
-матовый=A=nom,sg,plen,f
-_
-песня=S,f,inan=nom,sg
-,\n
-светоч=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-_
-без=PR=
-_
-луч=S,m,inan=gen,pl
-,_\u2014\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-_
-родной=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n
-северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поле=S,n,inan=gen,pl
-.\n
-как=CONJ=
-_
-больная=S,f,anim=nom,sg
-_
-дева=S,f,anim=nom,sg
-,\n
-без=PR=
-_
-веселый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-греза=S,f,inan=gen,pl
-\n
-смотреть=V,ipf,tran=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-на=PR=
-_
-земля=S,f,inan=acc,sg
-\n
-сквозь=PR=
-_
-завеса=S,f,inan=acc,sg
-_
-слезать=V,intr=praet,sg,indic,m,pf
-.\n
-в=PR=
-_
-жаркий=A=(abl,sg,plen,m|abl,sg,plen,n)
-,_
-чуткий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стон=S,m,inan=(acc,sg|nom,sg)
-_
-людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-\n
-будить=V,ipf,tran=inpraes,sg,indic,3p
-_
-отголосок=S,m,inan=(acc,sg|nom,sg)
-\n
-скорбный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-больной=S,m,anim=nom,sg
-.\n
+{матовый=A=nom,sg,plen,f} {песня=S,f,inan=nom,sg},
+{светоч=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {без=PR=} {луч=S,m,inan=gen,pl}, —
+{ты=SPRO,sg,2p=nom} — {дитя=S,obsol,sg,n,anim=(acc|nom)} {родной=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=gen,pl}.
+{как=CONJ=} {больная=S,f,anim=nom,sg} {дева=S,f,anim=nom,sg},
+{без=PR=} {веселый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {греза=S,f,inan=gen,pl}
+{смотреть=V,ipf,tran=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {на=PR=} {земля=S,f,inan=acc,sg}
+{сквозь=PR=} {завеса=S,f,inan=acc,sg} {слезать=V,intr=praet,sg,indic,m,pf}.
+{в=PR=} {жаркий=A=(abl,sg,plen,m|abl,sg,plen,n)}, {чуткий=A=(abl,sg,plen,m|abl,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {стон=S,m,inan=(acc,sg|nom,sg)} {людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}
+{будить=V,ipf,tran=inpraes,sg,indic,3p} {отголосок=S,m,inan=(acc,sg|nom,sg)}
+{скорбный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {больной=S,m,anim=nom,sg}.

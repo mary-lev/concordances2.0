@@ -1,114 +1,13 @@
-гореть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-атом=S,m,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=nom
-_
-лететь=V,ipf,intr=inpraes,sg,indic,1p
-\n
-в=PR=
-_
-пространство=S,n,inan=abl,pl
-_\u2014_
-сердце=S,n,inan=dat,sg
-_
-лишь=PART=
-_
-известный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-останавливаться=V,intr=inf,pf
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-покорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жгучий=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-луч=S,m,inan=dat,sg
-,\n
-который=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-жать=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-поле=S,n,inan=abl,pl
-_
-небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-колос=S,m,inan=(acc,pl|nom,pl)
-_
-мысль=S,f,inan=gen,pl
-_
-золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-и=CONJ=
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-посылать=V=inpraes,sg,indic,3p,ipf,tran
-,\n
-и=CONJ=
-_
-в=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-зерно=S,n,inan=abl,pl
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-пылать=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-блестка=S,f,inan=gen,pl
-_
-молодые=S,pl,anim=(abl|acc|gen)
-,\n
-огонь=S,m,inan=(acc,pl|nom,pl)
-_
-для=PR=
-_
-атом=S,m,inan=gen,pl
-_
-мятежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мчаться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-так=ADVPRO=
-_
-же=PART=
-,_
-как=ADVPRO=
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-,\n
-в=PR=
-_
-туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-_
-пустыня=S,f,inan=gen,pl
-_
-безбрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-в=PR=
-_
-бездонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сфера=S,f,inan=abl,pl
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{гореть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {атом=S,m,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {лететь=V,ipf,intr=inpraes,sg,indic,1p}
+{в=PR=} {пространство=S,n,inan=abl,pl} — {сердце=S,n,inan=dat,sg} {лишь=PART=} {известный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{останавливаться=V,intr=inf,pf} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p},
+{покорный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жгучий=A=(dat,sg,plen,m|dat,sg,plen,n)} {луч=S,m,inan=dat,sg},
+{который=APRO=(acc,sg,m,inan|nom,sg,m)} {жать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {поле=S,n,inan=abl,pl} {небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{колос=S,m,inan=(acc,pl|nom,pl)} {мысль=S,f,inan=gen,pl} {золотой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{и=CONJ=} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)} {посылать=V=inpraes,sg,indic,3p,ipf,tran},
+{и=CONJ=} {в=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {зерно=S,n,inan=abl,pl} {жизнь=S,f,inan=(acc,sg|nom,sg)} {пылать=V,ipf,intr=inpraes,sg,indic,3p},
+{сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {блестка=S,f,inan=gen,pl} {молодые=S,pl,anim=(abl|acc|gen)},
+{огонь=S,m,inan=(acc,pl|nom,pl)} {для=PR=} {атом=S,m,inan=gen,pl} {мятежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{что=SPRO,sg,n,inan=(acc|nom)} {мчаться=V,ipf,intr=inpraes,pl,indic,3p}, {так=ADVPRO=} {же=PART=}, {как=ADVPRO=} {и=CONJ=} {я=SPRO,sg,1p=nom},
+{в=PR=} {туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)} {пустыня=S,f,inan=gen,pl} {безбрежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{в=PR=} {бездонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сфера=S,f,inan=abl,pl} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

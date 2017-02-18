@@ -1,76 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-лесной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-ароматный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-забава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-невозвратный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-колокольный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-призыв=S,m,inan=(acc,pl|nom,pl)
-,\n
-отдаленный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-над=PR=
-_
-ручей=S,m,inan=ins,sg
-_
-уснуть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)
-_
-ива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-полусонный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-лицо=S,n,inan=gen,pl
-_
-мелькнуть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-,\n
-неизвестный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сказка=S,f,inan=gen,pl
-_
-обманывать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-,\n
-бестелесный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-все=SPRO,pl=(acc|nom)
-,_
-что=CONJ=
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-обманывать=V,tran=inpraes,sg,indic,3p,pf
-\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-загадка=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-навеки=ADV=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-ранить=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-\n
-тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сладкий=A=ins,sg,plen,f
-.\n
+{я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p} {лесной=A=(acc,pl,plen,inan|nom,pl,plen)} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{ароматный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{поцелуй=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {забава=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{невозвратный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{колокольный=A=(acc,pl,plen,inan|nom,pl,plen)} {призыв=S,m,inan=(acc,pl|nom,pl)},
+{отдаленный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{над=PR=} {ручей=S,m,inan=ins,sg} {уснуть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)} {ива=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{полусонный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лицо=S,n,inan=gen,pl} {мелькнуть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)},
+{неизвестный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сказка=S,f,inan=gen,pl} {обманывать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)},
+{бестелесный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{все=SPRO,pl=(acc|nom)}, {что=CONJ=} {манить=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {обманывать=V,tran=inpraes,sg,indic,3p,pf}
+{мы=SPRO,pl,1p=(abl|acc|gen)} {загадка=S,f,inan=ins,sg},
+{и=CONJ=} {навеки=ADV=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {ранить=V,tran=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}
+{тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сладкий=A=ins,sg,plen,f}.

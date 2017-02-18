@@ -1,140 +1,19 @@
-прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-обаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-очарование=S,n,inan=(acc,sg|nom,sg)
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-невнятный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-журчание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-звезда=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-блеск=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-и=CONJ=
-_
-ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-где-то=ADVPRO=
-_
-песня=S,f,inan=nom,sg
-_
-соловей=S,m,anim=(acc,sg|gen,sg)
-...\n
-но=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,2p
-,_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-тоска=S,f,inan=nom,sg
-_
-ревнивый=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-!\n\n
-и=CONJ=
-_
-вновь=ADV=
-_
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_
-тревога=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-снова=ADV=
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-глаз=S,m,inan=abl,pl
-,\n
-и=CONJ=
-_
-совесть=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-твердить=V,ipf,tran=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-строго=ADV=
-\n
-о=PR=
-_
-юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=abl,pl
-,\n\n
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-порочный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-чад=S,geo,m,inan=ins,sg
-\n
-безумно=ADV=
-_
-омрачать=V,tran=praet,sg,indic,m,pf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-!..\n
-и=CONJ=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-яд=S,m,inan=ins,sg
-\n
-в=PR=
-_
-мой=APRO=acc,sg,f
-_
-раздавливать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass
-_
-грудь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {обаяние=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{очарование=S,n,inan=(acc,sg|nom,sg)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{река=S,f,inan=(acc,pl|gen,sg|nom,pl)} {невнятный=A=(acc,sg,plen,n|nom,sg,plen,n)} {журчание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {звезда=S,f,inan=gen,pl} {и=CONJ=} {блеск=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{и=CONJ=} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {нежный=A=(acc,sg,plen,n|nom,sg,plen,n)} {дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {где-то=ADVPRO=} {песня=S,f,inan=nom,sg} {соловей=S,m,anim=(acc,sg|gen,sg)}...
+{но=CONJ=} {ты=SPRO,sg,2p=nom} {не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,2p}, {мой=APRO=(acc,sg,n|nom,sg,n)} {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{тоска=S,f,inan=nom,sg} {ревнивый=A=nom,sg,plen,f} {мой=APRO=nom,sg,f}!
+
+{и=CONJ=} {вновь=ADV=} {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {тревога=S,f,inan=nom,sg},
+{и=CONJ=} {снова=ADV=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {глаз=S,m,inan=abl,pl},
+{и=CONJ=} {совесть=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)} {твердить=V,ipf,tran=inpraes,sg,indic,3p} {так=ADVPRO=} {строго=ADV=}
+{о=PR=} {юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=abl,pl},
+
+{о=PR=} {то=SPRO,sg,n,inan=abl}, {что=CONJ=} {я=SPRO,sg,1p=nom} {порочный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {чад=S,geo,m,inan=ins,sg}
+{безумно=ADV=} {омрачать=V,tran=praet,sg,indic,m,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)}!..
+{и=CONJ=} {воздух=S,m,inan=(acc,sg|nom,sg)} {литься=V,ipf,intr=inpraes,sg,indic,3p} {жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {яд=S,m,inan=ins,sg}
+{в=PR=} {мой=APRO=acc,sg,f} {раздавливать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass} {грудь=S,f,inan=(acc,sg|nom,sg)}.

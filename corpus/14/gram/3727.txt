@@ -1,60 +1,8 @@
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-голос=S,m,inan=(acc,sg|nom,sg)
-,_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-,_\n
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-же=PART=
-_
-волос=S,m,inan=(acc,pl|nom,pl)
-_
-льняной=A=(acc,pl,plen,inan|nom,pl,plen)
-._\n
-все=SPRO,pl=(acc|nom)
-_
-как=ADVPRO=
-_
-год=S,m,inan=(acc,sg|nom,sg)
-_
-то=SPRO,sg,n,inan=dat
-_
-назад=ADV=
-._\n
-сквозь=PR=
-_
-стекло=S,n,inan=(acc,sg|nom,sg)
-_
-луч=S,m,inan=(acc,pl|nom,pl)
-_
-дневной=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-известь=S,f,inan=(acc,sg|nom,sg)
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стена=S,f,inan=gen,pl
-_
-пестреть=V,ipf,intr=inpraes,pl,indic,3p
-..._\n
-свежий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лилия=S,f,inan=gen,pl
-_
-аромат=S,m,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-простой=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {голос=S,m,inan=(acc,sg|nom,sg)}, {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {взгляд=S,m,inan=(acc,sg|nom,sg)}, 
+{тот=APRO=(nom,pl|acc,pl,inan)} {же=PART=} {волос=S,m,inan=(acc,pl|nom,pl)} {льняной=A=(acc,pl,plen,inan|nom,pl,plen)}. 
+{все=SPRO,pl=(acc|nom)} {как=ADVPRO=} {год=S,m,inan=(acc,sg|nom,sg)} {то=SPRO,sg,n,inan=dat} {назад=ADV=}. 
+{сквозь=PR=} {стекло=S,n,inan=(acc,sg|nom,sg)} {луч=S,m,inan=(acc,pl|nom,pl)} {дневной=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{известь=S,f,inan=(acc,sg|nom,sg)} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стена=S,f,inan=gen,pl} {пестреть=V,ipf,intr=inpraes,pl,indic,3p}... 
+{свежий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лилия=S,f,inan=gen,pl} {аромат=S,m,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)} {простой=A=(acc,pl,plen,inan|nom,pl,plen)}.
+

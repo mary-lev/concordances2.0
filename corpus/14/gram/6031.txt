@@ -1,110 +1,14 @@
-стрясаться=V,intr=praet,sg,indic,n,pf
-_
-небывалый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-злой=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-никак=ADVPRO,parenth=
-_
-не=PART=
-_
-избывать=V=inpraes,sg,indic,2p,pf
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-в=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-трое=NUM=(nom|acc,inan)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-,_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-плохой=A=comp
-_
-все=SPRO,sg,n,inan=gen
-.\n\n
-с=PR=
-_
-один=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-еще=ADV=
-_
-слаживать=V=inf,pf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,\n
-но=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-подсовывать=V,tran=praet,sg,indic,m,pf
-_
-другой=APRO=acc,sg,f
-,\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-теперь=ADV=
-_
-совладать=V,pf,intr=inf
-.\n
-в=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\u2014_
-и=CONJ=
-_
-сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-память=S,f,inan=(acc,sg|nom,sg)
-,\n\n
-и=CONJ=
-_
-выдержка=S,f,inan=nom,sg
-_
-хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)
-_
-время=S,n,inan=gen,pl
-.\n
-в=PR=
-_
-другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_\u2014_
-негасимый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-.\n
-другой=APRO=nom,sg,f
-_\u2014_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-облачный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-крыло=S,n,inan=(acc,sg|nom,sg)
-.\n
+{стрясаться=V,intr=praet,sg,indic,n,pf} {небывалый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {злой=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{никак=ADVPRO,parenth=} {не=PART=} {избывать=V=inpraes,sg,indic,2p,pf} {он=SPRO,sg,3p,m=(acc|gen)},
+{и=CONJ=} {мы=SPRO,pl,1p=(abl|acc|gen)} {в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {комната=S,f,inan=(abl,sg|dat,sg)} {трое=NUM=(nom|acc,inan)},
+{что=SPRO,sg,n,inan=(acc|nom)}, {казаться=V,ipf,intr=inpraes,sg,indic,3p}, {плохой=A=comp} {все=SPRO,sg,n,inan=gen}.
+
+{с=PR=} {один=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {еще=ADV=} {слаживать=V=inf,pf} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom},
+{но=CONJ=} {кто=SPRO,sg,m,anim=nom} {я=SPRO,sg,1p=(abl|dat)} {подсовывать=V,tran=praet,sg,indic,m,pf} {другой=APRO=acc,sg,f},
+{и=CONJ=} {как=ADVPRO=} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {теперь=ADV=} {совладать=V,pf,intr=inf}.
+{в=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} — {и=CONJ=} {сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {и=CONJ=} {память=S,f,inan=(acc,sg|nom,sg)},
+
+{и=CONJ=} {выдержка=S,f,inan=nom,sg} {хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)} {время=S,n,inan=gen,pl}.
+{в=PR=} {другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} — {негасимый=A=(acc,sg,plen,n|nom,sg,plen,n)} {пламень=S,inan=(acc,sg,n|nom,sg,n)}.
+{другой=APRO=nom,sg,f} — {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {облачный=A=(acc,sg,plen,n|nom,sg,plen,n)} {крыло=S,n,inan=(acc,sg|nom,sg)}.

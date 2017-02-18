@@ -1,108 +1,15 @@
-озерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-пронзительный=A=sg,brev,m
-,\n
-дорога=S,f,inan=nom,sg
-_
-в=PR=
-_
-гора=S,f,inan=acc,sg
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-...\n
-так=ADVPRO=
-_
-простой=A=sg,brev,m
-_
-и=CONJ=
-_
-так=ADVPRO=
-_
-умилительный=A=sg,brev,m
-\n
-накреняться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бот=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n\n
-если=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-готовиться=V,ipf,intr=inpraes,sg,indic,2p
-,\n
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-наверное=ADV,parenth=
-:_
-все=SPRO,pl=(acc|nom)
-_
-ж=PART=
-\n
-на=PR=
-_
-поворот=S,m,inan=abl,sg
-_
-ты=SPRO,sg,2p=nom
-_
-останавливаться=V,intr=inpraes,sg,indic,2p,pf
-\n
-и=CONJ=
-_
-шляпа=S,f,inan=ins,sg
-_
-махнуть=V,pf,intr=inpraes,sg,indic,2p
-...\n\n
-а=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-почему-то=ADVPRO=
-_
-кажется=ADV,parenth=
-,\n
-что=CONJ=
-_
-оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-поехать=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-вдвоем=ADV=
-,\n
-и=CONJ=
-_
-в=PR=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-оказываться=V,intr=inpraes,sg,indic,3p,pf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-никто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-отважиться=V,pf,intr=inpraes,sg,indic,3p
-\n
-вернуться=V,pf,intr=inf
-_
-в=PR=
-_
-покидать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
+{озерный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {пронзительный=A=sg,brev,m},
+{дорога=S,f,inan=nom,sg} {в=PR=} {гора=S,f,inan=acc,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}...
+{так=ADVPRO=} {простой=A=sg,brev,m} {и=CONJ=} {так=ADVPRO=} {умилительный=A=sg,brev,m}
+{накреняться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бот=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+
+{если=CONJ=} {ты=SPRO,sg,2p=nom} {в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)} {готовиться=V,ipf,intr=inpraes,sg,indic,2p},
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p} {наверное=ADV,parenth=}: {все=SPRO,pl=(acc|nom)} {ж=PART=}
+{на=PR=} {поворот=S,m,inan=abl,sg} {ты=SPRO,sg,2p=nom} {останавливаться=V,intr=inpraes,sg,indic,2p,pf}
+{и=CONJ=} {шляпа=S,f,inan=ins,sg} {махнуть=V,pf,intr=inpraes,sg,indic,2p}...
+
+{а=CONJ=} {все=SPRO,pl=(acc|nom)} {почему-то=ADVPRO=} {кажется=ADV,parenth=},
+{что=CONJ=} {оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {поехать=V,pf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {вдвоем=ADV=},
+{и=CONJ=} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {оказываться=V,intr=inpraes,sg,indic,3p,pf},
+{что=SPRO,sg,n,inan=(acc|nom)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {никто=SPRO,sg,m,anim=nom} {не=PART=} {отважиться=V,pf,intr=inpraes,sg,indic,3p}
+{вернуться=V,pf,intr=inf} {в=PR=} {покидать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {дом=S,m,inan=(acc,sg|nom,sg)}.

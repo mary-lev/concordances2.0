@@ -1,112 +1,14 @@
-страшиться=V,ipf,intr=sg,imper,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-как=CONJ=
-_
-крыжак?=S,famn,m,anim=(acc,sg|gen,sg)
-,\n
-держаться=V,ipf,intr=sg,imper,2p
-_
-как=CONJ=
-_
-чумный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-монгол=S,m,anim=(acc,sg|gen,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-ночь=S,f,inan=ins,sg
-_
-край=S,m,inan=ins,sg
-_
-пиджак=S,m,inan=gen,sg
-\n
-касаться=V,intr=praet,sg,indic,m,ipf
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-строка=S,f,inan=gen,pl
-_
-про=PR=
-_
-голод=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-утро=S,n,inan=ins,sg
-_
-платье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-сменить=V,pf,tran=praet,sg,indic,m
-,\n
-карболка=S,f,inan=ins,sg
-_
-не=PART=
-_
-сплескивать=V,tran=praet,sg,indic,m,pf
-_
-глагол=S,m,inan=gen,pl
-,\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-дверь=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-вышвыривать=V,tran=praet,sg,indic,m,pf
-_
-чернила=S,pl,inan=gen
-,\n
-который=APRO=ins,pl
-_
-писать=V,ipf,tran=praet,sg,indic,m
-_
-про=PR=
-_
-голод=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-что=CONJ=
-_
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-мука=S,f,inan=dat,pl
-_
-нет=PART=
-_
-имя=S,n,inan=gen,pl
-,\n
-я=SPRO,sg,1p=nom
-_
-должный=A=sg,brev,m
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-знать=V,ipf,tran=inf
-_
-зараня=S,persn,f,anim=(abl,sg|dat,sg)
-,\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-искать=V,ipf,tran=praet,sg,indic,m
-_
-они=SPRO,pl=(acc|gen)
-,_
-и=CONJ=
-_
-клеймить=V,ipf,tran=praet,sg,partcp,brev,m,pass
-\n
-позор=S,m,inan=ins,sg
-_
-этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-старание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{страшиться=V,ipf,intr=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)} {как=CONJ=} {крыжак?=S,famn,m,anim=(acc,sg|gen,sg)},
+{держаться=V,ipf,intr=sg,imper,2p} {как=CONJ=} {чумный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {монгол=S,m,anim=(acc,sg|gen,sg)},
+{я=SPRO,sg,1p=nom} {ночь=S,f,inan=ins,sg} {край=S,m,inan=ins,sg} {пиджак=S,m,inan=gen,sg}
+{касаться=V,intr=praet,sg,indic,m,ipf} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {строка=S,f,inan=gen,pl} {про=PR=} {голод=S,m,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {утро=S,n,inan=ins,sg} {платье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {сменить=V,pf,tran=praet,sg,indic,m},
+{карболка=S,f,inan=ins,sg} {не=PART=} {сплескивать=V,tran=praet,sg,indic,m,pf} {глагол=S,m,inan=gen,pl},
+{я=SPRO,sg,1p=nom} {в=PR=} {дверь=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {вышвыривать=V,tran=praet,sg,indic,m,pf} {чернила=S,pl,inan=gen},
+{который=APRO=ins,pl} {писать=V,ipf,tran=praet,sg,indic,m} {про=PR=} {голод=S,m,inan=(acc,sg|nom,sg)}.
+
+{что=CONJ=} {этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {мука=S,f,inan=dat,pl} {нет=PART=} {имя=S,n,inan=gen,pl},
+{я=SPRO,sg,1p=nom} {должный=A=sg,brev,m} {быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {знать=V,ipf,tran=inf} {зараня=S,persn,f,anim=(abl,sg|dat,sg)},
+{но=CONJ=} {я=SPRO,sg,1p=nom} {искать=V,ipf,tran=praet,sg,indic,m} {они=SPRO,pl=(acc|gen)}, {и=CONJ=} {клеймить=V,ipf,tran=praet,sg,partcp,brev,m,pass}
+{позор=S,m,inan=ins,sg} {этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {старание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

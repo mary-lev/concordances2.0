@@ -1,74 +1,14 @@
-серп=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-вместе=ADV=
-_
-с=PR=
-_
-пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=ins,sg
-,\n
-в=PR=
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вышина=S,f,inan=(abl,sg|dat,sg)
-,\n
-ярко=ADV=
-_
-видеться=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-серп=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-над=PR=
-_
-застывший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-вода=S,f,inan=ins,sg
-,\n
-на=PR=
-_
-уснуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-волна=S,f,inan=(abl,sg|dat,sg)
-,\n
-странный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-серп=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-с=PR=
-_
-лучезарный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=ins,sg
-,\n
-в=PR=
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=(abl|dat)
-,\n
-сказка=S,f,inan=ins,sg
-_
-чудиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n
+{серп=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{вместе=ADV=} {с=PR=} {пышный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=ins,sg},
+{в=PR=} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вышина=S,f,inan=(abl,sg|dat,sg)},
+{ярко=ADV=} {видеться=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.
+
+{серп=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{над=PR=} {застывший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вода=S,f,inan=ins,sg},
+{на=PR=} {уснуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {волна=S,f,inan=(abl,sg|dat,sg)},
+{странный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {казаться=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.
+
+{серп=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{с=PR=} {лучезарный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=ins,sg},
+{в=PR=} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=(abl|dat)},
+{сказка=S,f,inan=ins,sg} {чудиться=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.

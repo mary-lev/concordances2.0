@@ -1,76 +1,10 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ж=PART=
-,_
-поэт=S,m,anim=ins,sg
-_
-долго=ADV=
-_
-ли=PART=
-_
-родиться=V,ipf,intr=inf
-..._\n
-вот=PART=
-_
-суметь=V,pf,intr=sg,imper,2p
-_
-поэт=S,m,anim=ins,sg
-_
-умирать=V,intr=inf,pf
-!_\n
-собственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-позор=S,m,inan=ins,sg
-_
-наслаждаться=V,intr=inf,pf
-,_\n
-в=PR=
-_
-собственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-бессмыслица=S,f,inan=(abl,sg|dat,sg)
-_
-сгорать=V,intr=inf,pf
-!\n\n
-разрушать=V,tran=inpraes,ger,ipf
-,_
-снова=ADV=
-_
-начинать=V,tran=inpraes,ger,ipf
-,\n
-все=SPRO,pl=(acc|nom)
-_
-автоматически=ADV=
-_
-губить=V,ipf,tran=inpraes,ger
-,\n
-в=PR=
-_
-доказательство=S,n,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-иной=APRO=nom,sg,f
-_\n
-так=ADVPRO=
-_
-же=PART=
-_
-безнадежный=A=sg,brev,f
-,_
-как=CONJ=
-_
-земной=A=nom,sg,plen,f
-,\n
-так=ADVPRO=
-_
-же=PART=
-_
-недоступный=A=sg,brev,f
-_
-для=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}, {поэт=S,m,anim=ins,sg} {долго=ADV=} {ли=PART=} {родиться=V,ipf,intr=inf}... 
+{вот=PART=} {суметь=V,pf,intr=sg,imper,2p} {поэт=S,m,anim=ins,sg} {умирать=V,intr=inf,pf}! 
+{собственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {позор=S,m,inan=ins,sg} {наслаждаться=V,intr=inf,pf}, 
+{в=PR=} {собственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {бессмыслица=S,f,inan=(abl,sg|dat,sg)} {сгорать=V,intr=inf,pf}!
+
+{разрушать=V,tran=inpraes,ger,ipf}, {снова=ADV=} {начинать=V,tran=inpraes,ger,ipf},
+{все=SPRO,pl=(acc|nom)} {автоматически=ADV=} {губить=V,ipf,tran=inpraes,ger},
+{в=PR=} {доказательство=S,n,inan=(acc,sg|nom,sg)}, {что=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {иной=APRO=nom,sg,f} 
+{так=ADVPRO=} {же=PART=} {безнадежный=A=sg,brev,f}, {как=CONJ=} {земной=A=nom,sg,plen,f},
+{так=ADVPRO=} {же=PART=} {недоступный=A=sg,brev,f} {для=PR=} {ты=SPRO,sg,2p=(acc|gen)}.

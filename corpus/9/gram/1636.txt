@@ -1,142 +1,19 @@
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-дождик=S,m,inan=ins,sg
-_
-частый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сечься=V,ipf,intr=inpraes,sg,indic,3p
-._\n
-поседеть=V,pf,intr=praet,ger
-,_
-шелудиветь=V,ipf,intr=inpraes,sg,indic,3p
-_
-лед=S,m,inan=(acc,sg|nom,sg)
-._\n
-ждать=V,ipf,tran=inpraes,sg,indic,2p
-:_
-вот-вот=ADV=
-_
-горизонт=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-очнуться=V,pf,intr=inpraes,sg,indic,3p
-_\n
-и=CONJ=
-_\u2014_
-начинаться=V,intr=inpraes,sg,indic,3p,pf
-._
-и=CONJ=
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-.\n\n
-как=CONJ=
-_
-всегда=ADVPRO=
-,_
-расстегнуть=V,pf,tran=praet,ger
-_
-нараспашку=ADV=
-_\n
-пальтецо=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-кашне=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-на=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-пред=PR=
-_
-себя=SPRO=ins
-_
-он=SPRO,sg,3p,m=nom
-_
-погнать=V,pf,tran=inpraes,sg,indic,3p
-_
-неспать?=V,pf=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-,_\n
-очумелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-птица=S,f,anim=(acc,pl|gen,pl)
-_
-впереди=ADV=
-.\n\n
-он=SPRO,sg,3p,m=nom
-_
-зайти=V,pf,intr=inpraes,sg,indic,3p
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-и=CONJ=
-,_
-развинчивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,_\n
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-свечный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-натек=S,m,inan=(acc,sg|nom,sg)
-_
-колупать=V,ipf,tran=inf
-_\n
-и=CONJ=
-_
-зевнуть=V,pf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-припоминать=V,tran=inpraes,sg,indic,3p,pf
-,_
-что=CONJ=
-_
-нынче=ADV=
-_\n
-можно=ADV,praed=
-_
-снимать=V,tran=inf,pf
-_
-с=PR=
-_
-гиацинт=S,m,inan=gen,pl
-_
-колпак=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-шальной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-шевелюра=S,f,inan=acc,sg
-_
-ерошить=V,ipf,tran=inpraes,ger
-,_\n
-в=PR=
-_
-замешательство=S,n,inan=abl,sg
-_
-смысл=S,m,inan=(acc,sg|nom,sg)
-_
-темнить=V,ipf,tran=inpraes,ger
-,_\n
-ошарашивать=V,tran=inpraes,sg,indic,3p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-нехороший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\n
-глупый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сказка=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-про=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n
+{воздух=S,m,inan=(acc,sg|nom,sg)} {дождик=S,m,inan=ins,sg} {частый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сечься=V,ipf,intr=inpraes,sg,indic,3p}. 
+{поседеть=V,pf,intr=praet,ger}, {шелудиветь=V,ipf,intr=inpraes,sg,indic,3p} {лед=S,m,inan=(acc,sg|nom,sg)}. 
+{ждать=V,ipf,tran=inpraes,sg,indic,2p}: {вот-вот=ADV=} {горизонт=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {очнуться=V,pf,intr=inpraes,sg,indic,3p} 
+{и=CONJ=} — {начинаться=V,intr=inpraes,sg,indic,3p,pf}. {и=CONJ=} {гул=S,m,inan=(acc,sg|nom,sg)} {пойти=V,pf,intr=inpraes,sg,indic,3p}.
+
+{как=CONJ=} {всегда=ADVPRO=}, {расстегнуть=V,pf,tran=praet,ger} {нараспашку=ADV=} 
+{пальтецо=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {кашне=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {на=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{пред=PR=} {себя=SPRO=ins} {он=SPRO,sg,3p,m=nom} {погнать=V,pf,tran=inpraes,sg,indic,3p} {неспать?=V,pf=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)}, 
+{очумелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {птица=S,f,anim=(acc,pl|gen,pl)} {впереди=ADV=}.
+
+{он=SPRO,sg,3p,m=nom} {зайти=V,pf,intr=inpraes,sg,indic,3p} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {и=CONJ=}, {развинчивать=V,tran=praet,sg,partcp,brev,m,pf,pass}, 
+{становиться=V,intr=inpraes,sg,indic,3p,pf} {свечный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {натек=S,m,inan=(acc,sg|nom,sg)} {колупать=V,ipf,tran=inf} 
+{и=CONJ=} {зевнуть=V,pf,intr=inpraes,sg,indic,3p} {и=CONJ=} {припоминать=V,tran=inpraes,sg,indic,3p,pf}, {что=CONJ=} {нынче=ADV=} 
+{можно=ADV,praed=} {снимать=V,tran=inf,pf} {с=PR=} {гиацинт=S,m,inan=gen,pl} {колпак=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {шальной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {шевелюра=S,f,inan=acc,sg} {ерошить=V,ipf,tran=inpraes,ger}, 
+{в=PR=} {замешательство=S,n,inan=abl,sg} {смысл=S,m,inan=(acc,sg|nom,sg)} {темнить=V,ipf,tran=inpraes,ger}, 
+{ошарашивать=V,tran=inpraes,sg,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {нехороший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+{глупый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сказка=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {про=PR=} {я=SPRO,sg,1p=(acc|gen)}.

@@ -1,158 +1,26 @@
-как=CONJ=
-_
-песня=S,f,inan=nom,sg
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_\n
-над=PR=
-_
-колыбель=S,f,inan=ins,sg
-_
-ребенок=S,m,anim=(acc,sg|gen,sg)
-,_\n
-как=CONJ=
-_
-горный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-эхо=S,n,inan=(acc,sg|nom,sg)
-,\n
-утро=S,n,inan=ins,sg
-_
-на=PR=
-_
-пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-рожок=S,m,inan=(acc,sg|nom,sg)
-_
-отзываться=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)
-,_\n
-как=CONJ=
-_
-далекий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-прибой=S,m,inan=(acc,sg|nom,sg)
-_\n
-родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-давно=ADV=
-_
-не=PART=
-_
-видеть=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_\n
-трижды=ADV=
-_
-блаженный=A=(acc,sg,plen,n|nom,sg,plen,n)
-:\n
-александрия=S,geo,f,inan=nom,sg
-!\n\n
-как=CONJ=
-_
-прерывистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шепот=S,m,inan=(acc,sg|nom,sg)
-\n
-любовный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-под=PR=
-_
-дуб=S,m,inan=ins,pl
-_
-признание=S,n,inan=gen,pl
-,\n
-как=CONJ=
-_
-таинственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-шум=S,m,inan=(acc,sg|nom,sg)
-\n
-тенистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-роща=S,f,inan=gen,pl
-_
-священный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-как=CONJ=
-_
-тамбурин=S,m,inan=(acc,sg|nom,sg)
-_
-кибел?=S,m,inan=(acc,pl|nom,pl)
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-подобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дальний=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-гром=S,m,inan=dat,sg
-_
-и=CONJ=
-_
-голубь=S,m,anim=(acc,pl|gen,pl)
-_
-воркование=S,n,inan=dat,sg
-,\n
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-\n
-трижды=ADV=
-_
-мудрый=A=(acc,sg,plen,n|nom,sg,plen,n)
-:\n
-александрия=S,geo,f,inan=nom,sg
-!\n\n
-как=CONJ=
-_
-звук=S,m,inan=(acc,sg|nom,sg)
-_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-перед=PR=
-_
-бой=S,m,inan=ins,sg
-,_\n
-клекот=S,m,inan=(acc,sg|nom,sg)
-_
-орлов=S,geo,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-бездна=S,f,inan=ins,sg
-,_\n
-шум=S,m,inan=(acc,sg|nom,sg)
-_
-крыло=S,n,inan=gen,pl
-_
-лететь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-ника=S,persn,f,anim=(gen,sg|nom,pl)
-,_\n
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_\n
-трижды=ADV=
-_
-великий=A=(acc,sg,plen,n|nom,sg,plen,n)
-:\n
-александрия=S,geo,f,inan=nom,sg
-!_\n
+{как=CONJ=} {песня=S,f,inan=nom,sg} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} 
+{над=PR=} {колыбель=S,f,inan=ins,sg} {ребенок=S,m,anim=(acc,sg|gen,sg)}, 
+{как=CONJ=} {горный=A=(acc,sg,plen,n|nom,sg,plen,n)} {эхо=S,n,inan=(acc,sg|nom,sg)},
+{утро=S,n,inan=ins,sg} {на=PR=} {пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)} {рожок=S,m,inan=(acc,sg|nom,sg)} {отзываться=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)}, 
+{как=CONJ=} {далекий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {прибой=S,m,inan=(acc,sg|nom,sg)} 
+{родной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {давно=ADV=} {не=PART=} {видеть=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,anim|praet,gen,sg,partcp,plen,m,pass|praet,gen,sg,partcp,plen,n,pass)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{звучать=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {имя=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} 
+{трижды=ADV=} {блаженный=A=(acc,sg,plen,n|nom,sg,plen,n)}:
+{александрия=S,geo,f,inan=nom,sg}!
+
+{как=CONJ=} {прерывистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шепот=S,m,inan=(acc,sg|nom,sg)}
+{любовный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {под=PR=} {дуб=S,m,inan=ins,pl} {признание=S,n,inan=gen,pl},
+{как=CONJ=} {таинственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шум=S,m,inan=(acc,sg|nom,sg)}
+{тенистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {роща=S,f,inan=gen,pl} {священный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{как=CONJ=} {тамбурин=S,m,inan=(acc,sg|nom,sg)} {кибел?=S,m,inan=(acc,pl|nom,pl)} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{подобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дальний=A=(dat,sg,plen,m|dat,sg,plen,n)} {гром=S,m,inan=dat,sg} {и=CONJ=} {голубь=S,m,anim=(acc,pl|gen,pl)} {воркование=S,n,inan=dat,sg},
+{звучать=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {имя=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)}
+{трижды=ADV=} {мудрый=A=(acc,sg,plen,n|nom,sg,plen,n)}:
+{александрия=S,geo,f,inan=nom,sg}!
+
+{как=CONJ=} {звук=S,m,inan=(acc,sg|nom,sg)} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {перед=PR=} {бой=S,m,inan=ins,sg}, 
+{клекот=S,m,inan=(acc,sg|nom,sg)} {орлов=S,geo,m,inan=(acc,sg|nom,sg)} {над=PR=} {бездна=S,f,inan=ins,sg}, 
+{шум=S,m,inan=(acc,sg|nom,sg)} {крыло=S,n,inan=gen,pl} {лететь=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {ника=S,persn,f,anim=(gen,sg|nom,pl)}, 
+{звучать=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {имя=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} 
+{трижды=ADV=} {великий=A=(acc,sg,plen,n|nom,sg,plen,n)}:
+{александрия=S,geo,f,inan=nom,sg}! 

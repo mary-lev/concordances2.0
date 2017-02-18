@@ -1,126 +1,19 @@
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-небо=S,n,inan=dat,sg
-!_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-море=S,n,inan=dat,sg
-!\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-!_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-день=S,m,inan=dat,sg
-!\n
-никто=SPRO,sg,m,anim=(acc|gen)
-_
-не=PART=
-_
-опозорить=V,pf,tran=inpraes,sg,indic,1p
-!\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-осквернять=V,tran=inpraes,sg,indic,1p,pf
-!\n\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-солнце=S,n,inan=dat,sg
-!_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-вера=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-греза=S,f,inan=(abl,sg|dat,sg)
-!_
-каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-жертва=S,f,inan=(abl,sg|dat,sg)
-!\n
-слово=S,n,inan=dat,sg
-_
-вечный=A=(dat,sg,plen,m|dat,sg,plen,n)
-:_\xAB
-жить=V,ipf,intr=sg,imper,2p
-\xBB!\n\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-фабрика=S,f,inan=acc,sg
-!_
-в=PR=
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-!\n
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-строгий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-в=PR=
-_
-вульгарный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\xAB
-хи-хи=INTJ=
-\xBB!\n\n
-все=SPRO,pl=(acc|nom)
-_
-приемлемый=A=sg,brev,n
-,_
-все=SPRO,pl=(acc|nom)
-_
-нужно=ADV,praed=
-,_\u2014\n
-это=PART=
-_
-каждый=APRO=(dat,sg,m|dat,sg,n)
-_
-сказать=V,pf,tran=sg,imper,2p
-,\n
-как=ADVPRO=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-северный=A=sg,brev,n
-,_
-как=ADVPRO=
-_
-южный=A=sg,brev,n
-\n
-верить=V,ipf,intr=inf
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-общий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {небо=S,n,inan=dat,sg}! {верить=V,ipf,intr=inpraes,sg,indic,1p} {море=S,n,inan=dat,sg}!
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}! {верить=V,ipf,intr=inpraes,sg,indic,1p} {день=S,m,inan=dat,sg}!
+{никто=SPRO,sg,m,anim=(acc|gen)} {не=PART=} {опозорить=V,pf,tran=inpraes,sg,indic,1p}!
+{ничто=SPRO,sg,n=gen} {не=PART=} {осквернять=V,tran=inpraes,sg,indic,1p,pf}!
+
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {солнце=S,n,inan=dat,sg}! {верить=V,ipf,intr=inpraes,sg,indic,1p} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {вера=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+{каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {греза=S,f,inan=(abl,sg|dat,sg)}! {каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {жертва=S,f,inan=(abl,sg|dat,sg)}!
+{слово=S,n,inan=dat,sg} {вечный=A=(dat,sg,plen,m|dat,sg,plen,n)}: «{жить=V,ipf,intr=sg,imper,2p}»!
+
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {радость=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {фабрика=S,f,inan=acc,sg}! {в=PR=} {стих=S,m,inan=(acc,pl|nom,pl)}!
+{верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {строгий=A=(acc,sg,plen,n|nom,sg,plen,n)} {молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{и=CONJ=} {в=PR=} {вульгарный=A=(acc,sg,plen,n|nom,sg,plen,n)} «{хи-хи=INTJ=}»!
+
+{все=SPRO,pl=(acc|nom)} {приемлемый=A=sg,brev,n}, {все=SPRO,pl=(acc|nom)} {нужно=ADV,praed=}, —
+{это=PART=} {каждый=APRO=(dat,sg,m|dat,sg,n)} {сказать=V,pf,tran=sg,imper,2p},
+{как=ADVPRO=} {я=SPRO,sg,1p=(abl|dat)} {северный=A=sg,brev,n}, {как=ADVPRO=} {южный=A=sg,brev,n}
+{верить=V,ipf,intr=inf} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {общий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

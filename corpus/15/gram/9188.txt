@@ -1,138 +1,17 @@
-в=PR=
-_
-вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ясность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-молчание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-какой=APRO=(acc,sg,n|nom,sg,n)
-_
-тайный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-влияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-влечь=V,ipf,tran=inpraes,sg,indic,3p
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-предел=S,m,inan=(acc,sg|nom,sg)
-?\n
-то=CONJ=
-_
-час=S,m,inan=(acc,sg|nom,sg)
-_
-прощание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-то=CONJ=
-_
-ангел=S,m,anim=nom,sg
-_
-звук=S,m,inan=gen,pl
-_
-пролететь=V,pf=praet,sg,indic,m
-.\n\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-оканчивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-_
-пир=S,m,inan=gen,sg
-\n
-отображать=V=praet,sg,indic,f,pf
-_
-арфа=S,f,inan=nom,sg
--
-лира=S,f,inan=nom,sg
-\n
-преображать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)
-_
-облако=S,n,inan=gen,pl
-.\n
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)
-,_
-и=CONJ=
-_
-в=PR=
-_
-бездна=S,f,inan=abl,pl
-_
-мир=S,m,inan=gen,sg
-,\n
-качнуться=V,pf,intr=praet,pl,indic
-_
-сонм=S,m,inan=(acc,pl|nom,pl)
-_
-тайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-слово=S,n,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-со=PR=
-_
-тьма=S,f,inan=ins,sg
-,_
-и=CONJ=
-_
-тьма=S,f,inan=nom,sg
-_
-со=PR=
-_
-свет=S,sg,m,inan=ins
-\n
-сливаться=V,intr=praet,pl,indic,pf
-,_
-как=CONJ=
-_
-сливать=V=praet,sg,partcp,brev,f,pf,pass
-_
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-лето=S,sg,n,inan=ins
-,\n
-как=CONJ=
-_
-сливать=V=praet,sg,partcp,brev,f,pf,pass
-_
-с=PR=
-_
-воздух=S,m,inan=ins,sg
-_
-вода=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-в=PR=
-_
-высота=S,f,inan=(abl,sg|dat,sg)
-,_
-немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-привет=S,m,inan=ins,sg
-.\n
-зажигаться=V,intr=praet,sg,indic,f,pf
-_
-вечерний=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n
+{в=PR=} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ясность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {молчание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{какой=APRO=(acc,sg,n|nom,sg,n)} {тайный=A=(acc,sg,plen,n|nom,sg,plen,n)} {влияние=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{влечь=V,ipf,tran=inpraes,sg,indic,3p} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {предел=S,m,inan=(acc,sg|nom,sg)}?
+{то=CONJ=} {час=S,m,inan=(acc,sg|nom,sg)} {прощание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{то=CONJ=} {ангел=S,m,anim=nom,sg} {звук=S,m,inan=gen,pl} {пролететь=V,pf=praet,sg,indic,m}.
+
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {гул=S,m,inan=(acc,sg|nom,sg)} {оканчивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)} {пир=S,m,inan=gen,sg}
+{отображать=V=praet,sg,indic,f,pf} {арфа=S,f,inan=nom,sg}-{лира=S,f,inan=nom,sg}
+{преображать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)} {облако=S,n,inan=gen,pl}.
+{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}, {и=CONJ=} {в=PR=} {бездна=S,f,inan=abl,pl} {мир=S,m,inan=gen,sg},
+{качнуться=V,pf,intr=praet,pl,indic} {сонм=S,m,inan=(acc,pl|nom,pl)} {тайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слово=S,n,inan=gen,pl}.
+
+{и=CONJ=} {свет=S,sg,m,inan=(acc|nom)} {со=PR=} {тьма=S,f,inan=ins,sg}, {и=CONJ=} {тьма=S,f,inan=nom,sg} {со=PR=} {свет=S,sg,m,inan=ins}
+{сливаться=V,intr=praet,pl,indic,pf}, {как=CONJ=} {сливать=V=praet,sg,partcp,brev,f,pf,pass} {осень=S,f,inan=(acc,sg|nom,sg)} {с=PR=} {лето=S,sg,n,inan=ins},
+{как=CONJ=} {сливать=V=praet,sg,partcp,brev,f,pf,pass} {с=PR=} {воздух=S,m,inan=ins,sg} {вода=S,f,inan=nom,sg}.
+{и=CONJ=} {в=PR=} {высота=S,f,inan=(abl,sg|dat,sg)}, {немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {привет=S,m,inan=ins,sg}.
+{зажигаться=V,intr=praet,sg,indic,f,pf} {вечерний=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.

@@ -1,22 +1,4 @@
-вражий=A,plen=(acc,sg,n|nom,sg,n)
-_
-знамя=S,n,inan=(acc,sg|nom,sg)
-\n
-растаивать=V,intr=inpraes,sg,indic,3p,pf
-,_
-как=CONJ=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-,\n
-правда=ADV,parenth=
-_
-за=PR=
-_
-мы=SPRO,pl,1p=ins
-,\n
-и=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-побеждать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-.\n
+{вражий=A,plen=(acc,sg,n|nom,sg,n)} {знамя=S,n,inan=(acc,sg|nom,sg)}
+{растаивать=V,intr=inpraes,sg,indic,3p,pf}, {как=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)},
+{правда=ADV,parenth=} {за=PR=} {мы=SPRO,pl,1p=ins},
+{и=CONJ=} {мы=SPRO,pl,1p=nom} {побеждать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.

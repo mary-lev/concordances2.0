@@ -1,160 +1,24 @@
-так=ADVPRO=
-_
-скоро=ADV=
-_
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=praet,sg,indic,f
-:\n\xAB
-нет=PART=
-_
-больше=ADV=
-_
-сила=S,f,inan=gen,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-\xBB.\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-друг=S,m,anim=nom,sg
-,_
-так=ADVPRO=
-_
-мало=ADV=
-?\n
-я=SPRO,sg,1p=nom
-_
-только=PART=
-_
-начинать=V,tran=praet,sg,indic,m,pf
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-,_
-всегда=ADVPRO=
-_
-победный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-желать=V,ipf,tran=inpraes,sg,indic,3p
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-о=INTJ=
-,_
-друг=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-друг=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-не=PART=
-_
-отстрадать=V,pf,intr=praet,sg,indic,f
-_
-ты=SPRO,sg,2p=nom
-.\n\n
-еще=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-,_
-в=PR=
-_
-пытка=S,f,inan=(abl,sg|dat,sg)
-,\n
-терзаться=V,ipf,intr=inf
-_
-и=CONJ=
-_
-терзать=V,ipf,tran=inf
-.\n
-я=SPRO,sg,1p=nom
-_
-должный=A=sg,brev,m
-_
-в=PR=
-_
-длинный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-свитка=S,rare,f,inan=(abl,sg|dat,sg)
-\n
-легенда=S,f,inan=acc,sg
-_
-рассказывать=V=inf,pf
-.\n\n
-легенда=S,f,inan=acc,sg
-_
-яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=praet,pl,indic,ipf
-\n
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,\n
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-,_
-как=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-любить=V,ipf,tran=praet,pl,indic
-,\n
-как=ADVPRO=
-_
-любить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-вновь=ADV=
-_
-и=CONJ=
-_
-вновь=ADV=
-.\n\n
-и=CONJ=
-_
-вот=PART=
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мучение=S,n,inan=gen,pl
-\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-как=CONJ=
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n
-я=SPRO,sg,1p=nom
-_
-жажда=S,f,inan=acc,sg
-_
-песнопение=S,n,inan=gen,pl
-,\n
-я=SPRO,sg,1p=nom
-_
-только=PART=
-_
-начинать=V,tran=praet,sg,indic,m,pf
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-.\n
+{так=ADVPRO=} {скоро=ADV=} {ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=praet,sg,indic,f}:
+«{нет=PART=} {больше=ADV=} {сила=S,f,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}».
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {друг=S,m,anim=nom,sg}, {так=ADVPRO=} {мало=ADV=}?
+{я=SPRO,sg,1p=nom} {только=PART=} {начинать=V,tran=praet,sg,indic,m,pf} {стих=S,m,inan=(acc,sg|nom,sg)}.
+
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {стих=S,m,inan=(acc,sg|nom,sg)}, {всегда=ADVPRO=} {победный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{желать=V,ipf,tran=inpraes,sg,indic,3p} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{о=INTJ=}, {друг=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {друг=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {бедный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{не=PART=} {отстрадать=V,pf,intr=praet,sg,indic,f} {ты=SPRO,sg,2p=nom}.
+
+{еще=ADV=} {я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p}, {в=PR=} {пытка=S,f,inan=(abl,sg|dat,sg)},
+{терзаться=V,ipf,intr=inf} {и=CONJ=} {терзать=V,ipf,tran=inf}.
+{я=SPRO,sg,1p=nom} {должный=A=sg,brev,m} {в=PR=} {длинный=A=(abl,sg,plen,m|abl,sg,plen,n)} {свитка=S,rare,f,inan=(abl,sg|dat,sg)}
+{легенда=S,f,inan=acc,sg} {рассказывать=V=inf,pf}.
+
+{легенда=S,f,inan=acc,sg} {яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=praet,pl,indic,ipf}
+{о=PR=} {то=SPRO,sg,n,inan=abl}, {что=CONJ=} {я=SPRO,sg,1p=nom} — {любовь=S,f,inan=(acc,sg|nom,sg)},
+{о=PR=} {то=SPRO,sg,n,inan=abl}, {как=CONJ=} {мы=SPRO,pl,1p=nom} {любить=V,ipf,tran=praet,pl,indic},
+{как=ADVPRO=} {любить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {вновь=ADV=} {и=CONJ=} {вновь=ADV=}.
+
+{и=CONJ=} {вот=PART=} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мучение=S,n,inan=gen,pl}
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {как=CONJ=} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.
+{я=SPRO,sg,1p=nom} {жажда=S,f,inan=acc,sg} {песнопение=S,n,inan=gen,pl},
+{я=SPRO,sg,1p=nom} {только=PART=} {начинать=V,tran=praet,sg,indic,m,pf} {стих=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,86 +1,9 @@
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-посудить=V,pf,tran=sg,imper,2p
-:_
-так=ADVPRO=
-_
-топор=S,m,inan=ins,sg
-_
-рубить=V,ipf,tran=praet,sg,indic,f
-,\n
-что=ADVPRO=
-_
-невдомек=ADV,praed=
-:_
-дрова=S,pl,inan=(acc|nom)
-_
-трещать=V,ipf,intr=inpraes,pl,indic,3p
-_\u2014_
-аль=CONJ=
-_
-ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)
-?\n
-а=CONJ=
-_
-главное=ADV,parenth=
-:_
-ты=SPRO,sg,2p=(abl|dat)
-_
-не=PART=
-_
-согрубить?=V,pf,intr=praet,sg,indic,f
-,\n
-а=CONJ=
-_
-главное=ADV,parenth=
-:_<
-сам=APRO=nom,sg,f
->_
-оставаться=V,intr=praet,sg,indic,f,pf
-_
-добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-работать=V,ipf,intr=praet,sg,indic,f
-_
-за=PR=
-_
-мужик=S,m,anim=(acc,sg|gen,sg)
-,_
-за=PR=
-_
-баба=S,f,anim=acc,sg
-,\n
-а=CONJ=
-_
-больше=ADV=
-_
-уж=PART=
-_
-нельзя=ADV,praed=
-_\u2014_
-лопнуть=V,pf,intr=inpraes,pl,indic,3p
-_
-висок=S,m,inan=(acc,pl|nom,pl)
-!\n_\u2014_
-нет=PART=
-,_
-рука=S,f,inan=acc,sg
-_
-прикладывать=V,tran=inf,pf
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-пора=ADV,praed=
-_
-бы=PART=
-:\n
-у=PR=
-_
-человек=S,m,anim=(acc,sg|gen,sg)
-_
-только=PART=
-_
-два=NUM=(nom,f|acc,f,inan)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{сам=APRO=(acc,sg,m,inan|nom,sg,m)} {посудить=V,pf,tran=sg,imper,2p}: {так=ADVPRO=} {топор=S,m,inan=ins,sg} {рубить=V,ipf,tran=praet,sg,indic,f},
+{что=ADVPRO=} {невдомек=ADV,praed=}: {дрова=S,pl,inan=(acc|nom)} {трещать=V,ipf,intr=inpraes,pl,indic,3p} — {аль=CONJ=} {ребро=S,n,inan=(acc,pl|gen,sg|nom,pl)}?
+{а=CONJ=} {главное=ADV,parenth=}: {ты=SPRO,sg,2p=(abl|dat)} {не=PART=} {согрубить?=V,pf,intr=praet,sg,indic,f},
+{а=CONJ=} {главное=ADV,parenth=}: <{сам=APRO=nom,sg,f}> {оставаться=V,intr=praet,sg,indic,f,pf} {добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{работать=V,ipf,intr=praet,sg,indic,f} {за=PR=} {мужик=S,m,anim=(acc,sg|gen,sg)}, {за=PR=} {баба=S,f,anim=acc,sg},
+{а=CONJ=} {больше=ADV=} {уж=PART=} {нельзя=ADV,praed=} — {лопнуть=V,pf,intr=inpraes,pl,indic,3p} {висок=S,m,inan=(acc,pl|nom,pl)}!
+ — {нет=PART=}, {рука=S,f,inan=acc,sg} {прикладывать=V,tran=inf,pf} {ты=SPRO,sg,2p=(abl|dat)} {пора=ADV,praed=} {бы=PART=}:
+{у=PR=} {человек=S,m,anim=(acc,sg|gen,sg)} {только=PART=} {два=NUM=(nom,f|acc,f,inan)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

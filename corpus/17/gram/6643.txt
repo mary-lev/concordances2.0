@@ -1,80 +1,9 @@
-игра=S,f,inan=nom,sg
-_
-судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-игра=S,f,inan=nom,sg
-_
-добро=S,sg,n,inan=gen
-_
-и=CONJ=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-игра=S,f,inan=nom,sg
-_
-ум=S,m,inan=gen,sg
-._
-игра=S,f,inan=nom,sg
-_
-воображение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n\xAB
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-отражать=V=inpraes,pl,indic,3p,ipf,tran
-_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-взаимно=ADV=
-_
-искажать=V=inpraes,ger,ipf,tran
-_
-отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\xBB\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-говорить=V,ipf,tran=inpraes,pl,indic,3p
-_\u2014_
-ты=SPRO,sg,2p=nom
-_
-выигрывать=V,tran=praet,sg,indic,m,pf
-_
-игра=S,f,inan=acc,sg
-!_\n
-но=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-._
-я=SPRO,sg,1p=nom
-_
-больше=ADV=
-_
-не=PART=
-_
-играть=V,ipf,tran=inpraes,sg,indic,1p
-._\n
-допускать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-,_
-как=CONJ=
-_
-поэт=S,m,anim=nom,sg
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-умирать=V,intr=inpraes,sg,indic,1p,pf
-,_\n
-зато=CONJ=
-_
-как=ADVPRO=
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-_
-я=SPRO,sg,1p=nom
-_
-умирать=V,intr=inpraes,sg,indic,1p,ipf
-.\n
+{игра=S,f,inan=nom,sg} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {игра=S,f,inan=nom,sg} {добро=S,sg,n,inan=gen} {и=CONJ=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{игра=S,f,inan=nom,sg} {ум=S,m,inan=gen,sg}. {игра=S,f,inan=nom,sg} {воображение=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+«{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {отражать=V=inpraes,pl,indic,3p,ipf,tran} {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{взаимно=ADV=} {искажать=V=inpraes,ger,ipf,tran} {отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)}...»
+
+{я=SPRO,sg,1p=(abl|dat)} {говорить=V,ipf,tran=inpraes,pl,indic,3p} — {ты=SPRO,sg,2p=nom} {выигрывать=V,tran=praet,sg,indic,m,pf} {игра=S,f,inan=acc,sg}! 
+{но=CONJ=} {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}. {я=SPRO,sg,1p=nom} {больше=ADV=} {не=PART=} {играть=V,ipf,tran=inpraes,sg,indic,1p}. 
+{допускать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}, {как=CONJ=} {поэт=S,m,anim=nom,sg} {я=SPRO,sg,1p=nom} {не=PART=} {умирать=V,intr=inpraes,sg,indic,1p,pf}, 
+{зато=CONJ=} {как=ADVPRO=} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {я=SPRO,sg,1p=nom} {умирать=V,intr=inpraes,sg,indic,1p,ipf}.

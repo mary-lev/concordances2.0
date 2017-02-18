@@ -1,118 +1,14 @@
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-свет=S,sg,m,inan=(acc|nom)
-,_
-что=CONJ=
-_
-сходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-к=PR=
-_
-мы=SPRO,pl,1p=dat
-_
-оттуда=ADVPRO=
-,\n
-из=PR=
-_
-царство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-звезда=S,f,inan=gen,pl
-,_
-с=PR=
-_
-лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-она=SPRO,sg,3p,f=nom
-_
-в=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-будить=V,ipf,tran=inpraes,sg,indic,3p
-_
-жажда=S,f,inan=acc,sg
-_
-чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n\t\t
-и=CONJ=
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-и=CONJ=
-_
-красота=S,f,inan=nom,sg
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-луч=S,m,inan=(acc,sg|nom,sg)
-,_
-который=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-вдали=ADV=
-_
-от=PR=
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-в=PR=
-_
-сумрак=S,m,inan=abl,sg
-_
-тень=S,f,inan=gen,pl
-,\n\t
-когда=CONJ=
-_
-оно=SPRO,sg,3p,n=nom
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-уронить=V,pf,tran=inpraes,sg,indic,3p
-\n\t\t
-в=PR=
-_
-ум=S,m,inan=(acc,pl|nom,pl)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-и=CONJ=
-,_
-если=CONJ=
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-пронизывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-свет=S,sg,m,inan=ins
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-слать=V,ipf,tran=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=dat
-_
-небесный=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-,\n\t
-он=SPRO,sg,3p,m=nom
-_
-жадно=ADV=
-_
-мчаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-за=PR=
-_
-ответ=S,m,inan=ins,sg
-,\n\t\t
-туда=ADVPRO=
-,_
-туда=ADVPRO=
-.\n
+{любовь=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {свет=S,sg,m,inan=(acc|nom)}, {что=CONJ=} {сходить=V,intr=inpraes,sg,indic,3p,ipf} {к=PR=} {мы=SPRO,pl,1p=dat} {оттуда=ADVPRO=},
+{из=PR=} {царство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {звезда=S,f,inan=gen,pl}, {с=PR=} {лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+	{она=SPRO,sg,3p,f=nom} {в=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {будить=V,ipf,tran=inpraes,sg,indic,3p} {жажда=S,f,inan=acc,sg} {чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+		{и=CONJ=} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{и=CONJ=} {красота=S,f,inan=nom,sg} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {луч=S,m,inan=(acc,sg|nom,sg)}, {который=APRO=(acc,sg,m,inan|nom,sg,m)} {тонуть=V,ipf,intr=inpraes,sg,indic,3p},
+{вдали=ADV=} {от=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {в=PR=} {сумрак=S,m,inan=abl,sg} {тень=S,f,inan=gen,pl},
+	{когда=CONJ=} {оно=SPRO,sg,3p,n=nom} {он=SPRO,sg,3p,m=(acc|gen)} {уронить=V,pf,tran=inpraes,sg,indic,3p}
+		{в=PR=} {ум=S,m,inan=(acc,pl|nom,pl)} {человек=S,m,anim=(acc,pl|gen,pl)}.
+
+{и=CONJ=}, {если=CONJ=} {дух=S,m,inan=(acc,sg|nom,sg)} {людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {пронизывать=V=praet,sg,partcp,brev,m,pf,pass} {свет=S,sg,m,inan=ins},
+{что=SPRO,sg,n,inan=(acc|nom)} {слать=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=dat} {небесный=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg},
+	{он=SPRO,sg,3p,m=nom} {жадно=ADV=} {мчаться=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {ответ=S,m,inan=ins,sg},
+		{туда=ADVPRO=}, {туда=ADVPRO=}.

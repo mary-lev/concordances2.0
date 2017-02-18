@@ -1,136 +1,17 @@
-мелодия=S,f,inan=nom,sg
-_
-становиться=V,intr=inpraes,sg,indic,3p,ipf
-_
-цветок=S,m,inan=ins,sg
-,\n
-он=SPRO,sg,3p,m=nom
-_
-распускаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-и=CONJ=
-_
-осыпаться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-он=SPRO,sg,3p,m=nom
-_
-делаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-ветер=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-песок=S,m,inan=ins,sg
-,\n
-лететь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-_
-на=PR=
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-_
-весенний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мотылек=S,m,anim=ins,sg
-,_\n
-ветвь=S,f,inan=ins,pl
-_
-ива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-вода=S,f,inan=acc,sg
-_
-опускаться=V,intr=inpraes,sg,indic,3p,ipf
-...\n\n
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-_
-тысяча=S,f,inan=nom,sg
-_
-мгновенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-год=S,m,inan=gen,pl
-,\n
-и=CONJ=
-_
-перевоплощаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-мелодия=S,f,inan=nom,sg
-_\n
-в=PR=
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-эполет=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-рейтузы=S,pl,inan=(acc|nom)
-,_
-в=PR=
-_
-ментик=S,m,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_\xAB
-ваш=APRO=(acc,sg,n|nom,sg,n)
-_
-благородие=S,n,inan=(acc,sg|nom,sg)
-\xBB,_\n
-в=PR=
-_
-корнет=S,m,anim=(acc,sg|gen,sg)
-_
-гвардия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-о=PR=
-,_
-почему=ADVPRO=
-_
-бы=PART=
-_
-нет=ADV,praed=
-?..\n\n
-туман=S,m,inan=(acc,sg|nom,sg)
-..._
-тамань=S,geo,f,inan=(acc,sg|nom,sg)
-..._
-пустыня=S,f,inan=nom,sg
-_
-внимать=V,intr=inpraes,sg,indic,3p,ipf
-_
-бог=S,m,anim=dat,sg
-._\n\u2014_
-как=ADVPRO=
-_
-далеко=ADV=
-_
-до=PR=
-_
-завтрашний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-!..\n\n
-и=CONJ=
-_
-лермонтов=S,famn,m,anim=nom,sg
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-выходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-на=PR=
-_
-дорога=S,f,inan=acc,sg
-,_\n
-серебряный=A=ins,pl,plen
-_
-шпора=S,f,inan=ins,pl
-_
-звенеть=V,ipf,intr=inpraes,ger
-.\n
+{мелодия=S,f,inan=nom,sg} {становиться=V,intr=inpraes,sg,indic,3p,ipf} {цветок=S,m,inan=ins,sg},
+{он=SPRO,sg,3p,m=nom} {распускаться=V,intr=inpraes,sg,indic,3p,ipf} {и=CONJ=} {осыпаться=V,ipf,intr=inpraes,sg,indic,3p},
+{он=SPRO,sg,3p,m=nom} {делаться=V,ipf,intr=inpraes,sg,indic,3p} {ветер=S,m,inan=ins,sg} {и=CONJ=} {песок=S,m,inan=ins,sg},
+{лететь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {на=PR=} {огонь=S,m,inan=(acc,sg|nom,sg)} {весенний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мотылек=S,m,anim=ins,sg}, 
+{ветвь=S,f,inan=ins,pl} {ива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {вода=S,f,inan=acc,sg} {опускаться=V,intr=inpraes,sg,indic,3p,ipf}...
+
+{проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {тысяча=S,f,inan=nom,sg} {мгновенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {год=S,m,inan=gen,pl},
+{и=CONJ=} {перевоплощаться=V,intr=inpraes,sg,indic,3p,ipf} {мелодия=S,f,inan=nom,sg} 
+{в=PR=} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {взгляд=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {эполет=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {рейтузы=S,pl,inan=(acc|nom)}, {в=PR=} {ментик=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} «{ваш=APRO=(acc,sg,n|nom,sg,n)} {благородие=S,n,inan=(acc,sg|nom,sg)}», 
+{в=PR=} {корнет=S,m,anim=(acc,sg|gen,sg)} {гвардия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {о=PR=}, {почему=ADVPRO=} {бы=PART=} {нет=ADV,praed=}?..
+
+{туман=S,m,inan=(acc,sg|nom,sg)}... {тамань=S,geo,f,inan=(acc,sg|nom,sg)}... {пустыня=S,f,inan=nom,sg} {внимать=V,intr=inpraes,sg,indic,3p,ipf} {бог=S,m,anim=dat,sg}. 
+— {как=ADVPRO=} {далеко=ADV=} {до=PR=} {завтрашний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}!..
+
+{и=CONJ=} {лермонтов=S,famn,m,anim=nom,sg} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {выходить=V,intr=inpraes,sg,indic,3p,ipf} {на=PR=} {дорога=S,f,inan=acc,sg}, 
+{серебряный=A=ins,pl,plen} {шпора=S,f,inan=ins,pl} {звенеть=V,ipf,intr=inpraes,ger}.

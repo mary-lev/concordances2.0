@@ -1,26 +1,4 @@
-ждать=V,ipf,tran=sg,imper,2p
-_
-удивительный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-иль=CONJ=
-_
-предсказание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-оттуда=ADVPRO=
-,\n
-где=ADVPRO=
-_
-у=PR=
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-_
-едва-едва=ADV=
-\n
-работать=V,ipf,intr=inf
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-голова=S,f,inan=nom,sg
-.\n
+{ждать=V,ipf,tran=sg,imper,2p} {удивительный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {чудо=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{иль=CONJ=} {предсказание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {оттуда=ADVPRO=},
+{где=ADVPRO=} {у=PR=} {человек=S,m,anim=(acc,pl|gen,pl)} {едва-едва=ADV=}
+{работать=V,ipf,intr=inf} {становиться=V,intr=praet,sg,indic,f,pf} {голова=S,f,inan=nom,sg}.

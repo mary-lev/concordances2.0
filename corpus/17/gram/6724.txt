@@ -1,106 +1,15 @@
-тускнеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,\n
-река=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-частокол=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-туман=S,m,inan=abl,sg
-...\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-связывать=V=inpraes,sg,indic,3p,ipf,tran
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-?_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-?_\n
-взаимный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-непонимание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-беда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-дело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-_
-без=PR=
-_
-исключение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_
-век=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-она=SPRO,sg,3p,f=nom
-_
-течь=V,ipf,intr=praet,sg,indic,f
-,\n
-и=CONJ=
-_
-вот=PART=
-_
-я=SPRO,sg,1p=nom
-_
-приносить=V=praet,sg,partcp,brev,m,pf,pass
-_
-течение=S,n,inan=ins,sg
-_\u2014\n\n
-в=PR=
-_
-парижский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пригород=S,m,inan=(acc,sg|nom,sg)
-,_
-сюда=ADVPRO=
-,\n
-где=ADVPRO=
-_
-мальчик=S,m,anim=nom,sg
-_
-огород=S,m,inan=(acc,sg|nom,sg)
-_
-копать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-гудеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-протяжно=ADV=
-_
-провод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-робко=ADV=
-_
-первый=ANUM=nom,sg,f
-_
-звезда=S,f,inan=nom,sg
-\n
-сквозь=PR=
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сумрак=S,m,inan=(acc,sg|nom,sg)
-_
-проступать=V,intr=inpraes,sg,indic,3p,ipf
-.\n
+{тускнеть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)},
+{река=S,f,inan=nom,sg} {и=CONJ=} {частокол=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {туман=S,m,inan=abl,sg}...
+{что=SPRO,sg,n,inan=(acc|nom)} {связывать=V=inpraes,sg,indic,3p,ipf,tran} {мы=SPRO,pl,1p=(abl|acc|gen)}? {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мы=SPRO,pl,1p=(abl|acc|gen)}? 
+{взаимный=A=(acc,sg,plen,n|nom,sg,plen,n)} {непонимание=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {наш=APRO=(nom,pl|acc,pl,inan)} {беда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {человек=S,m,anim=(acc,pl|gen,pl)} {без=PR=} {исключение=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{век=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} {она=SPRO,sg,3p,f=nom} {течь=V,ipf,intr=praet,sg,indic,f},
+{и=CONJ=} {вот=PART=} {я=SPRO,sg,1p=nom} {приносить=V=praet,sg,partcp,brev,m,pf,pass} {течение=S,n,inan=ins,sg} —
+
+{в=PR=} {парижский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пригород=S,m,inan=(acc,sg|nom,sg)}, {сюда=ADVPRO=},
+{где=ADVPRO=} {мальчик=S,m,anim=nom,sg} {огород=S,m,inan=(acc,sg|nom,sg)} {копать=V,ipf,tran=inpraes,sg,indic,3p},
+{гудеть=V,ipf,intr=inpraes,pl,indic,3p} {протяжно=ADV=} {провод=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {робко=ADV=} {первый=ANUM=nom,sg,f} {звезда=S,f,inan=nom,sg}
+{сквозь=PR=} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сумрак=S,m,inan=(acc,sg|nom,sg)} {проступать=V,intr=inpraes,sg,indic,3p,ipf}.

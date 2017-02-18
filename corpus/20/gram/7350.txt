@@ -1,128 +1,19 @@
-по=PR=
-_
-слово=S,n,inan=dat,sg
-_
-извечно=ADV=
--
-сущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-\n
-бессменный=A=sg,brev,m
-_
-поток=S,m,inan=(acc,sg|nom,sg)
-_
-время=S,n,inan=gen,pl
-.\n\t
-чуять=V,ipf,tran=inpraes,sg,indic,1p
-_
-лишь=PART=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,\n\t
-новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-миг=S,m,inan=gen,sg
-_
-звон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-с=PR=
-_
-падение=S,n,inan=ins,sg
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-,_
-с=PR=
-_
-победа=S,f,inan=ins,sg
-?\n
-олива=S,f,inan=acc,sg
-_
-нести=V,ipf,tran=inpraes,sg,indic,3p
-_
-иль=CONJ=
-_
-меч=S,m,inan=(acc,sg|nom,sg)
-?\n\t
-лика=S,persn,f,anim=nom,sg
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-ведать=V,ipf,tran=inpraes,sg,indic,1p
-,\n\t
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_
-лишь=PART=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-встреча=S,f,inan=gen,pl
-.\n\n
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-_
-не=PART=
-_
-здешний=A=ins,pl,plen
-_
-птица=S,f,anim=ins,pl
-\n
-в=PR=
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-_
-бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-вперед=ADV=
-,\n\t
-миг=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-закрывать=V=praet,ins,pl,partcp,plen,pf,pass
-_
-лицо=S,n,inan=ins,pl
-...\n\t
-как=ADVPRO=
-_
-удерживать=V,tran=inpraes,sg,indic,1p,pf
-_
-они=SPRO,pl=(acc|gen)
-_
-год=S,m,inan=gen,pl
-?\n\n
-и=CONJ=
-_
-в=PR=
-_
-тесность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-в=PR=
-_
-перекрестность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\u2014\n
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-,_\u2014\n\t
-черный=A=acc,sg,plen,f
-_
-топь=S,f,inan=(acc,sg|nom,sg)
-_
-неизвестность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n\t
-резать=V,ipf,tran=inpraes,sg,indic,3p
-_
-мой=APRO=nom,sg,f
-_
-ладья=S,f,inan=nom,sg
-.\n
+{по=PR=} {слово=S,n,inan=dat,sg} {извечно=ADV=}-{сущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{бессменный=A=sg,brev,m} {поток=S,m,inan=(acc,sg|nom,sg)} {время=S,n,inan=gen,pl}.
+	{чуять=V,ipf,tran=inpraes,sg,indic,1p} {лишь=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)} {грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+	{новый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {миг=S,m,inan=gen,sg} {звон=S,m,inan=(acc,sg|nom,sg)}.
+
+{с=PR=} {падение=S,n,inan=ins,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}, {с=PR=} {победа=S,f,inan=ins,sg}?
+{олива=S,f,inan=acc,sg} {нести=V,ipf,tran=inpraes,sg,indic,3p} {иль=CONJ=} {меч=S,m,inan=(acc,sg|nom,sg)}?
+	{лика=S,persn,f,anim=nom,sg} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {я=SPRO,sg,1p=nom} {не=PART=} {ведать=V,ipf,tran=inpraes,sg,indic,1p},
+	{знать=V,ipf,tran=inpraes,sg,indic,1p} {лишь=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)} {встреча=S,f,inan=gen,pl}.
+
+{лететь=V,ipf,intr=inpraes,pl,indic,3p} {не=PART=} {здешний=A=ins,pl,plen} {птица=S,f,anim=ins,pl}
+{в=PR=} {кольцо=S,n,inan=(acc,sg|nom,sg)} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {вперед=ADV=},
+	{миг=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {закрывать=V=praet,ins,pl,partcp,plen,pf,pass} {лицо=S,n,inan=ins,pl}...
+	{как=ADVPRO=} {удерживать=V,tran=inpraes,sg,indic,1p,pf} {они=SPRO,pl=(acc|gen)} {год=S,m,inan=gen,pl}?
+
+{и=CONJ=} {в=PR=} {тесность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {в=PR=} {перекрестность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, —
+{хотеть=V,ipf,tran=inpraes,sg,indic,1p}, {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {ли=PART=} {я=SPRO,sg,1p=nom}, —
+	{черный=A=acc,sg,plen,f} {топь=S,f,inan=(acc,sg|nom,sg)} {неизвестность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+	{резать=V,ipf,tran=inpraes,sg,indic,3p} {мой=APRO=nom,sg,f} {ладья=S,f,inan=nom,sg}.

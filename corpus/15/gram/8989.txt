@@ -1,108 +1,17 @@
-плавучий=A=ins,pl,plen
-_
-туман=S,m,inan=ins,pl
-\n
-одевать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-под=PR=
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-.\n
-за=PR=
-_
-белый=A=ins,pl,plen
-_
-поляна=S,f,inan=ins,pl
-\n
-уж=PART=
-_
-лик=S,m,inan=(acc,sg|nom,sg)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-исчезать=V,intr=praet,sg,indic,m,pf
-,\n
-и=CONJ=
-_
-белый=A=ins,pl,plen
-_
-поляна=S,f,inan=ins,pl
-\n
-проходить=V=(pl,imper,1p,pf,tran|inpraes,pl,indic,1p,pf,tran|inpraes,sg,partcp,brev,m,ipf,pass,intr|inpraes,pl,indic,1p,ipf,tran)
-_
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n
-звать=V,ipf,tran=inpraes,sg,indic,3p
-_
-гость=S,m,anim=ins,pl
-_
-званый=A=ins,pl,plen
-\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-цветик=S,m,inan=(acc,sg|nom,sg)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-_
-мы=SPRO,pl,1p=dat
-_
-быть=V,intr=inf,ipf
-_
-веселый=A=ins,pl,plen
-,\n
-еще=ADV=
-_
-приходить=V,intr=inf,pf
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n
-светло=ADV=
-_
-звонить=V,ipf,intr=inf
-_
-над=PR=
-_
-дол=S,m,inan=ins,pl
-\n
-заутреня=S,f,inan=ins,sg
-_
-цветной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-над=PR=
-_
-синий=A=ins,pl,plen
-_
-над=PR=
-_
-дол=S,m,inan=ins,pl
-\n
-звонить=V,ipf,intr=inpraes,sg,indic,3p
-_
-он=SPRO,sg,3p,m=nom
-_
-корабль=S,m,inan=dat,sg
-.\n
-равнять=V,ipf,tran=inpraes,sg,indic,3p
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-с=PR=
-_
-пчела=S,f,anim=ins,pl
-,\n\xAB
-любить=V,ipf,tran=inpraes,sg,indic,1p
-\xBB_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-,_\xAB
-любить=V,ipf,tran=inpraes,sg,indic,1p
-\xBB.\n
+{плавучий=A=ins,pl,plen} {туман=S,m,inan=ins,pl}
+{одевать=V,tran=praet,sg,partcp,brev,m,pf,pass} {под=PR=} {утро=S,n,inan=(acc,sg|nom,sg)} {лес=S,m,inan=(acc,sg|nom,sg)}.
+{за=PR=} {белый=A=ins,pl,plen} {поляна=S,f,inan=ins,pl}
+{уж=PART=} {лик=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {исчезать=V,intr=praet,sg,indic,m,pf},
+{и=CONJ=} {белый=A=ins,pl,plen} {поляна=S,f,inan=ins,pl}
+{проходить=V=(pl,imper,1p,pf,tran|inpraes,pl,indic,1p,pf,tran|inpraes,sg,partcp,brev,m,ipf,pass,intr|inpraes,pl,indic,1p,ipf,tran)} {мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins}.
+{звать=V,ipf,tran=inpraes,sg,indic,3p} {гость=S,m,anim=ins,pl} {званый=A=ins,pl,plen}
+{мы=SPRO,pl,1p=(abl|acc|gen)} {цветик=S,m,inan=(acc,sg|nom,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{велеть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {мы=SPRO,pl,1p=dat} {быть=V,intr=inf,ipf} {веселый=A=ins,pl,plen},
+{еще=ADV=} {приходить=V,intr=inf,pf} {с=PR=} {ты=SPRO,sg,2p=ins}.
+{светло=ADV=} {звонить=V,ipf,intr=inf} {над=PR=} {дол=S,m,inan=ins,pl}
+{заутреня=S,f,inan=ins,sg} {цветной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{над=PR=} {синий=A=ins,pl,plen} {над=PR=} {дол=S,m,inan=ins,pl}
+{звонить=V,ipf,intr=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom} {корабль=S,m,inan=dat,sg}.
+{равнять=V,ipf,tran=inpraes,sg,indic,3p} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {с=PR=} {пчела=S,f,anim=ins,pl},
+«{любить=V,ipf,tran=inpraes,sg,indic,1p}» {петь=V,ipf,tran=inpraes,sg,indic,3p}, «{любить=V,ipf,tran=inpraes,sg,indic,1p}».

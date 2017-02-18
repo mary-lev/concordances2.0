@@ -1,76 +1,9 @@
-клубиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-при=PR=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-зимний=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-нестись=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-дебри=S,pl,inan=(acc|nom)
-_
-паровоз=S,m,inan=(acc,sg|nom,sg)
-;\n
-причудливый=A=sg,brev,m
-_
-он=SPRO,sg,3p,m=nom
-_
-в=PR=
-_
-хитон=S,m,inan=abl,sg
-_
-дымный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-в=PR=
-_
-хитон=S,m,inan=abl,sg
-_
-смутный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-как=CONJ=
-_
-хаос=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-снег=S,m,inan=(acc,sg|nom,sg)
-_
-лиловатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-оттенок=S,m,inan=gen,sg
-\n
-пылить=V,ipf,intr=inpraes,sg,indic,3p
-_
-под=PR=
-_
-небо=S,n,inan=ins,sg
-_
-голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-.\n
-вдали=ADV=
-_
-темнеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-стенка=S,f,inan=nom,sg
-,\n
-а=CONJ=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-как=CONJ=
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-как=CONJ=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-.\n
+{клубиться=V,ipf,intr=inpraes,sg,indic,3p} {дым=S,m,inan=(acc,sg|nom,sg)} {при=PR=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {зимний=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{нестись=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {дебри=S,pl,inan=(acc|nom)} {паровоз=S,m,inan=(acc,sg|nom,sg)};
+{причудливый=A=sg,brev,m} {он=SPRO,sg,3p,m=nom} {в=PR=} {хитон=S,m,inan=abl,sg} {дымный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{в=PR=} {хитон=S,m,inan=abl,sg} {смутный=A=(abl,sg,plen,m|abl,sg,plen,n)} {как=CONJ=} {хаос=S,m,inan=(acc,sg|nom,sg)}.
+
+{снег=S,m,inan=(acc,sg|nom,sg)} {лиловатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {оттенок=S,m,inan=gen,sg}
+{пылить=V,ipf,intr=inpraes,sg,indic,3p} {под=PR=} {небо=S,n,inan=ins,sg} {голубой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+{вдали=ADV=} {темнеть=V,ipf,intr=inpraes,sg,indic,3p} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {стенка=S,f,inan=nom,sg},
+{а=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)} — {как=CONJ=} {снег=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {снег=S,m,inan=(acc,sg|nom,sg)} — {как=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)}.

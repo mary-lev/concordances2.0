@@ -1,72 +1,9 @@
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-ясный=A=acc,sg,plen,f
-,_
-несмелый=A=acc,sg,plen,f
-,\n
-чистый=A=acc,sg,plen,f
-,_
-как=CONJ=
-_
-ромашка=S,f,inan=nom,sg
-_
-в=PR=
-_
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-душа=S,f,inan=acc,sg
-_
-твой=APRO=acc,sg,f
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-белый=A=acc,sg,plen,f
-,\n
-покорный=A=acc,sg,plen,f
-_
-господний=A,poss=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-и=CONJ=
-_
-радоваться=V,ipf,intr=inpraes,sg,indic,1p
-_
-радость=S,f,inan=ins,sg
-_
-бесконечный=A=ins,sg,plen,f
-,\n
-что=CONJ=
-_
-дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-скрещиваться=V,intr=praet,pl,indic,pf
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-любовь=S,f,inan=ins,sg
-_
-вечный=A=ins,sg,plen,f
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-вместе=ADV=
-_\u2014_
-уже=ADV=
-_
-молиться=V,ipf,intr=praet,pl,indic
-.\n
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)} {ясный=A=acc,sg,plen,f}, {несмелый=A=acc,sg,plen,f},
+{чистый=A=acc,sg,plen,f}, {как=CONJ=} {ромашка=S,f,inan=nom,sg} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{душа=S,f,inan=acc,sg} {твой=APRO=acc,sg,f} {любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {белый=A=acc,sg,plen,f},
+{покорный=A=acc,sg,plen,f} {господний=A,poss=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {воля=S,f,inan=(abl,sg|dat,sg)}.
+
+{и=CONJ=} {радоваться=V,ipf,intr=inpraes,sg,indic,1p} {радость=S,f,inan=ins,sg} {бесконечный=A=ins,sg,plen,f},
+{что=CONJ=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)} {скрещиваться=V,intr=praet,pl,indic,pf},
+{что=SPRO,sg,n,inan=(acc|nom)} {любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)} {любовь=S,f,inan=ins,sg} {вечный=A=ins,sg,plen,f},
+{как=ADVPRO=} {будто=PART=} {мы=SPRO,pl,1p=nom} {вместе=ADV=} — {уже=ADV=} {молиться=V,ipf,intr=praet,pl,indic}.

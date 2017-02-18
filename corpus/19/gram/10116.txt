@@ -1,68 +1,9 @@
-не=PART=
-_
-следовать=V,ipf=sg,imper,2p
-_
-чуждый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-пример=S,m,inan=dat,sg
-,\n
-вслед=ADV=
-_
-за=PR=
-_
-толпа=S,f,inan=ins,sg
-_
-не=PART=
-_
-идти=V,ipf,intr=sg,imper,2p
-,\n
-откинуть=V,pf,tran=sg,imper,2p
-_
-младенческий=A=acc,sg,plen,f
-_
-вера=S,f,inan=acc,sg
-,\n
-чудо=S,n,inan=gen,pl
-_
-таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-не=PART=
-_
-ждать=V,ipf,tran=sg,imper,2p
-.\n\n
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-,_
-что=CONJ=
-_
-то=SPRO,sg,n,inan=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-красота=S,f,inan=ins,sg
-\n
-звать=V,ipf,tran=inpraes,pl,indic,3p
-,_
-на=PR=
-_
-самый=APRO=(abl,sg,m|abl,sg,n)
-_
-дело=S,n,inan=abl,sg
-_
-тот=APRO=nom,sg,f
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-беспокойный=A=ins,sg,plen,f
-_
-душа=S,f,inan=ins,sg
-\n
-ты=SPRO,sg,2p=nom
-_
-жадно=ADV=
-_
-искать=V,ipf,tran=inpraes,sg,indic,2p
-,_
-красота=S,f,inan=nom,sg
-.\n
+{не=PART=} {следовать=V,ipf=sg,imper,2p} {чуждый=A=(dat,sg,plen,m|dat,sg,plen,n)} {пример=S,m,inan=dat,sg},
+{вслед=ADV=} {за=PR=} {толпа=S,f,inan=ins,sg} {не=PART=} {идти=V,ipf,intr=sg,imper,2p},
+{откинуть=V,pf,tran=sg,imper,2p} {младенческий=A=acc,sg,plen,f} {вера=S,f,inan=acc,sg},
+{чудо=S,n,inan=gen,pl} {таинственный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {не=PART=} {ждать=V,ipf,tran=sg,imper,2p}.
+
+{не=PART=} {верить=V,ipf,intr=sg,imper,2p}, {что=CONJ=} {то=SPRO,sg,n,inan=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {красота=S,f,inan=ins,sg}
+{звать=V,ipf,tran=inpraes,pl,indic,3p}, {на=PR=} {самый=APRO=(abl,sg,m|abl,sg,n)} {дело=S,n,inan=abl,sg} {тот=APRO=nom,sg,f},
+{что=SPRO,sg,n,inan=(acc|nom)} {беспокойный=A=ins,sg,plen,f} {душа=S,f,inan=ins,sg}
+{ты=SPRO,sg,2p=nom} {жадно=ADV=} {искать=V,ipf,tran=inpraes,sg,indic,2p}, {красота=S,f,inan=nom,sg}.

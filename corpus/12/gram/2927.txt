@@ -1,100 +1,14 @@
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-знать=V,ipf,tran=inf
-,_
-как=CONJ=
-_
-день=S,m,inan=(acc,pl|nom,pl)
-_
-проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)
-,\n
-день=S,m,inan=(acc,pl|nom,pl)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-в=PR=
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-_
-обида=S,f,inan=gen,pl
-?\n
-два=NUM=(nom,f|acc,f,inan)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пила=S,f,inan=ins,sg
-_
-водить=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-эх=INTJ=
-!_
-проходить=V,intr=praet,sg,indic,m,pf
-_
-бы=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-по=PR=
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\u2014_\n
-знать=V,ipf,tran=praet,sg,indic,m
-_
-бы=PART=
-!_
-так=ADVPRO=
-_
-в=PR=
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-точно=ADV=
-_
-по=PR=
-_
-что=SPRO,sg,n,inan=dat
-_
-другой=APRO=(dat,sg,m|dat,sg,n)
-_\u2014_\n
-не=PART=
-_
-по=PR=
-_
-дерево=S,n,inan=dat,sg
-_\u2014_
-пилить=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-и=CONJ=
-_
-чудить=V,ipf,intr=inpraes,pl,indic,3p
-,_
-чудить=V,ipf,intr=inpraes,pl,indic,3p
-_
-пила=S,f,inan=ins,sg
-\n
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-вольный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-досель=ADVPRO=
-.\n
-и=CONJ=
-_
-мести=V,ipf,tran=inpraes,sg,indic,3p
-,_
-мести=V,ipf,tran=inpraes,sg,indic,3p
-_
-метла=S,f,inan=ins,sg
-\n
-богородица=S,f,anim=nom,sg
--
-метель=S,f,inan=(acc,sg|nom,sg)
-.\n
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {знать=V,ipf,tran=inf}, {как=CONJ=} {день=S,m,inan=(acc,pl|nom,pl)} {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)},
+{день=S,m,inan=(acc,pl|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} {в=PR=} {страна=S,f,inan=(abl,sg|dat,sg)} {обида=S,f,inan=gen,pl}?
+{два=NUM=(nom,f|acc,f,inan)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пила=S,f,inan=ins,sg} {водить=V,ipf,tran=inpraes,pl,indic,3p},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {имя=S,n,inan=(acc,sg|nom,sg)} {говорить=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{эх=INTJ=}! {проходить=V,intr=praet,sg,indic,m,pf} {бы=PART=} {ты=SPRO,sg,2p=nom} {по=PR=} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)} — 
+{знать=V,ipf,tran=praet,sg,indic,m} {бы=PART=}! {так=ADVPRO=} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {петь=V,ipf,tran=inpraes,sg,indic,1p},
+{точно=ADV=} {по=PR=} {что=SPRO,sg,n,inan=dat} {другой=APRO=(dat,sg,m|dat,sg,n)} — 
+{не=PART=} {по=PR=} {дерево=S,n,inan=dat,sg} — {пилить=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{и=CONJ=} {чудить=V,ipf,intr=inpraes,pl,indic,3p}, {чудить=V,ipf,intr=inpraes,pl,indic,3p} {пила=S,f,inan=ins,sg}
+{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {вольный=A=(acc,pl,plen,inan|nom,pl,plen)} {досель=ADVPRO=}.
+{и=CONJ=} {мести=V,ipf,tran=inpraes,sg,indic,3p}, {мести=V,ipf,tran=inpraes,sg,indic,3p} {метла=S,f,inan=ins,sg}
+{богородица=S,f,anim=nom,sg}-{метель=S,f,inan=(acc,sg|nom,sg)}.

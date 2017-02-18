@@ -1,98 +1,14 @@
-звезда=S,f,inan=nom,sg
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-звезда=S,f,inan=(abl,sg|dat,sg)
-,\n
-волна=S,f,inan=(abl,sg|dat,sg)
-_
-журчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-волна=S,f,inan=nom,sg
-.\n
-но=CONJ=
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-,_
-что=SPRO,sg,n,inan=gen
-_
-нигде=ADVPRO=
-:\n
-она=SPRO,sg,3p,f=nom
-_
-себя=SPRO=ins
-_
-полный=A=sg,brev,f
-!\n\n
-заплакать=V,pf,tran=inpraes,sg,indic,3p
-,\u2014_
-блистать=V,ipf,intr=inpraes,sg,indic,3p
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-.\n
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,\u2014_
-слышный=A=sg,brev,m
-_
-плач=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_
-она=SPRO,sg,3p,f=(acc|gen)
-_\u2014_
-не=PART=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-не=PART=
-_
-палач=S,m,anim=nom,sg
-...\n\n
-пускай=PART=
-_
-звезда=S,f,inan=nom,sg
-_
-к=PR=
-_
-звезда=S,f,inan=(abl,sg|dat,sg)
-!\n
-пускай=PART=
-_
-к=PR=
-_
-волна=S,f,inan=(abl,sg|dat,sg)
-_
-волна=S,f,inan=nom,sg
-!\n
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-нет=PART=
-,_
-что=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-везде=ADV=
-,\n
-и=CONJ=
-_
-в=PR=
-_
-это=SPRO,sg,n,inan=abl
-_\u2014_
-весь=APRO=nom,sg,f
-_
-она=SPRO,sg,3p,f=nom
-!\n
+{звезда=S,f,inan=nom,sg} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=(abl,sg|dat,sg)},
+{волна=S,f,inan=(abl,sg|dat,sg)} {журчать=V,ipf,intr=inpraes,sg,indic,3p} {волна=S,f,inan=nom,sg}.
+{но=CONJ=} {в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}, {что=SPRO,sg,n,inan=gen} {нигде=ADVPRO=}:
+{она=SPRO,sg,3p,f=nom} {себя=SPRO=ins} {полный=A=sg,brev,f}!
+
+{заплакать=V,pf,tran=inpraes,sg,indic,3p},— {блистать=V,ipf,intr=inpraes,sg,indic,3p} {смех=S,m,inan=(acc,sg|nom,sg)}.
+{смеяться=V,ipf,intr=inpraes,sg,indic,3p},— {слышный=A=sg,brev,m} {плач=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {грех=S,m,inan=(acc,sg|nom,sg)} {она=SPRO,sg,3p,f=(acc|gen)} — {не=PART=} {грех=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {она=SPRO,sg,3p,f=(dat|ins)} {не=PART=} {палач=S,m,anim=nom,sg}...
+
+{пускай=PART=} {звезда=S,f,inan=nom,sg} {к=PR=} {звезда=S,f,inan=(abl,sg|dat,sg)}!
+{пускай=PART=} {к=PR=} {волна=S,f,inan=(abl,sg|dat,sg)} {волна=S,f,inan=nom,sg}!
+{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {нет=PART=}, {что=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {везде=ADV=},
+{и=CONJ=} {в=PR=} {это=SPRO,sg,n,inan=abl} — {весь=APRO=nom,sg,f} {она=SPRO,sg,3p,f=nom}!

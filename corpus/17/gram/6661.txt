@@ -1,104 +1,17 @@
-на=PR=
-_
-грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-таяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-лед=S,m,inan=gen,sg
-_\n
-зеленоватый=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n\n
-на=PR=
-_
-грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-сон=S,m,inan=gen,sg
-_\n
-пол=S,m,inan=(dat,sg|loc,sg)
--
-зима=S,f,inan=nom,sg
-,_
-пол=S,m,inan=(dat,sg|loc,sg)
--
-весна=S,f,inan=nom,sg
-,\n\n
-к=PR=
-_
-невеста=S,f,anim=(abl,sg|dat,sg)
-_
-тянуться=V,ipf,intr=inpraes,sg,indic,3p
-_
-жених=S,m,anim=nom,sg
-_\n
-и=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-падать=V,ipf,intr=inpraes,pl,indic,3p
-_
-на=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-,\n\n
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-_
-сквозь=PR=
-_
-снежный=A=acc,sg,plen,f
-_
-фата=S,f,inan=acc,sg
-,_\n
-в=PR=
-_
-сиять=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act
-_
-пустота=S,f,inan=acc,sg
-.\n\n
-ты=SPRO,sg,2p=nom
-_\u2014_
-это=PART=
-_
-я=SPRO,sg,1p=nom
-._
-я=SPRO,sg,1p=nom
-_\u2014_
-это=PART=
-_
-ты=SPRO,sg,2p=nom
-._\n
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-нежный=A=pl,brev
-._
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пустой=A=pl,brev
-.\n\n
-я=SPRO,sg,1p=nom
-_\u2014_
-это=PART=
-_
-ты=SPRO,sg,2p=nom
-._
-ты=SPRO,sg,2p=nom
-_\u2014_
-это=PART=
-_
-я=SPRO,sg,1p=nom
-_\n
-на=PR=
-_
-хрупкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_
-небытие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{на=PR=} {грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {таяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {лед=S,m,inan=gen,sg} 
+{зеленоватый=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.
+
+{на=PR=} {грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {сон=S,m,inan=gen,sg} 
+{пол=S,m,inan=(dat,sg|loc,sg)}-{зима=S,f,inan=nom,sg}, {пол=S,m,inan=(dat,sg|loc,sg)}-{весна=S,f,inan=nom,sg},
+
+{к=PR=} {невеста=S,f,anim=(abl,sg|dat,sg)} {тянуться=V,ipf,intr=inpraes,sg,indic,3p} {жених=S,m,anim=nom,sg} 
+{и=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {падать=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {они=SPRO,pl=(abl|acc|gen)},
+
+{лететь=V,ipf,intr=inpraes,pl,indic,3p} {сквозь=PR=} {снежный=A=acc,sg,plen,f} {фата=S,f,inan=acc,sg}, 
+{в=PR=} {сиять=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act} {пустота=S,f,inan=acc,sg}.
+
+{ты=SPRO,sg,2p=nom} — {это=PART=} {я=SPRO,sg,1p=nom}. {я=SPRO,sg,1p=nom} — {это=PART=} {ты=SPRO,sg,2p=nom}. 
+{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нежный=A=pl,brev}. {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пустой=A=pl,brev}.
+
+{я=SPRO,sg,1p=nom} — {это=PART=} {ты=SPRO,sg,2p=nom}. {ты=SPRO,sg,2p=nom} — {это=PART=} {я=SPRO,sg,1p=nom} 
+{на=PR=} {хрупкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {лед=S,m,inan=(dat,sg|part,sg|loc,sg)} {небытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

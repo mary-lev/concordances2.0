@@ -1,84 +1,9 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-ненавистный=A=sg,brev,m
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-гигантский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-город=S,m,inan=gen,pl
-,\n
-противно=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-движение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-_
-среди=PR=
-_
-лес=S,m,inan=gen,pl
-,\n
-где=ADVPRO=
-_
-в=PR=
-_
-тишина=S,sg,f,inan=(abl|dat)
-_
-уединение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-внимать=V,intr=inpraes,sg,indic,1p,ipf
-_
-я=SPRO,sg,1p=nom
-_
-музыка=S,f,inan=(abl,sg|dat,sg)
-_
-незримый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-голос=S,m,inan=gen,pl
-,\n
-где=ADVPRO=
-_
-неустанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бег=S,sg,m,inan=(acc|nom)
-_
-час=S,m,inan=gen,pl
-\n
-не=PART=
-_
-возмущать=V,tran=inpraes,sg,indic,3p,ipf
-_
-упоение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-где=ADVPRO=
-_
-сладко=ADV=
-_
-быть=V,intr=inf,ipf
-_
-среди=PR=
-_
-цветок=S,m,inan=gen,pl
-\n
-и=CONJ=
-_
-полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-чаша=S,f,inan=ins,sg
-_
-пить=V,ipf,tran=inf
-_
-из=PR=
-_
-родник=S,m,inan=gen,sg
-_
-забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{я=SPRO,sg,1p=(abl|dat)} {ненавистный=A=sg,brev,m} {гул=S,m,inan=(acc,sg|nom,sg)} {гигантский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {город=S,m,inan=gen,pl},
+{противно=ADV=} {я=SPRO,sg,1p=(abl|dat)} {толпа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {движение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {жить=V,ipf,intr=inpraes,sg,indic,3p} {среди=PR=} {лес=S,m,inan=gen,pl},
+{где=ADVPRO=} {в=PR=} {тишина=S,sg,f,inan=(abl|dat)} {уединение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{внимать=V,intr=inpraes,sg,indic,1p,ipf} {я=SPRO,sg,1p=nom} {музыка=S,f,inan=(abl,sg|dat,sg)} {незримый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {голос=S,m,inan=gen,pl},
+{где=ADVPRO=} {неустанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бег=S,sg,m,inan=(acc|nom)} {час=S,m,inan=gen,pl}
+{не=PART=} {возмущать=V,tran=inpraes,sg,indic,3p,ipf} {упоение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{где=ADVPRO=} {сладко=ADV=} {быть=V,intr=inf,ipf} {среди=PR=} {цветок=S,m,inan=gen,pl}
+{и=CONJ=} {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чаша=S,f,inan=ins,sg} {пить=V,ipf,tran=inf} {из=PR=} {родник=S,m,inan=gen,sg} {забвение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

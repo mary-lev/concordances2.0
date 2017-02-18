@@ -1,102 +1,19 @@
-устилать=V=inpraes,pl,indic,3p,ipf,tran
-_\u2014_
-мой=APRO=(nom,pl|acc,pl,inan)
-_\u2014_
-сени=S,pl,inan=(acc|nom)
-\n
-пролетать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-голубь=S,m,anim=(acc,pl|gen,pl)
-_\u2014_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-сколько=ADV=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-усыновление=S,n,inan=gen,pl
-!\n
-умиление=S,n,inan=gen,pl
-!\n\n
-выходить=V,intr=inpraes,sg,indic,1p,ipf
-_
-на=PR=
-_
-крыльцо=S,n,inan=(acc,sg|nom,sg)
-:_
-веять=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-подымать=V,ipf,tran=inpraes,sg,indic,1p
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-:_
-греть=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-но=CONJ=
-_
-душа=S,f,inan=nom,sg
-_
-уже=ADV=
-_\u2014_
-не=PART=
-_\u2014_
-млеть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-не=PART=
-_
-жалеть=V,ipf,tran=inpraes,sg,indic,3p
-.\n\n
-на=PR=
-_
-ступенька=S,f,inan=(abl,sg|dat,sg)
-_
-стоять=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_
-верхний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-развеваться=V,ipf,intr=inpraes,pl,indic,3p
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_\u2014_
-ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-скоро=ADV=
-_
-купол=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-церковь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-померкнуть=V,pf,intr=inpraes,sg,indic,3p
-.\n\n
-облако=S,n,inan=ins,pl
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-_
-пасха=S,f,inan=nom,sg
-,\n
-колокол=S,m,inan=ins,pl
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-_
-пасха=S,f,inan=nom,sg
-...\n
-в=PR=
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-_
-распинать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_\u2014_\n
-на=PR=
-_
-пасха=S,f,inan=acc,sg
-.\n
+{устилать=V=inpraes,pl,indic,3p,ipf,tran} — {мой=APRO=(nom,pl|acc,pl,inan)} — {сени=S,pl,inan=(acc|nom)}
+{пролетать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {голубь=S,m,anim=(acc,pl|gen,pl)} — {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{сколько=ADV=} {быть=V,intr=praet,sg,indic,n,ipf} {усыновление=S,n,inan=gen,pl}!
+{умиление=S,n,inan=gen,pl}!
+
+{выходить=V,intr=inpraes,sg,indic,1p,ipf} {на=PR=} {крыльцо=S,n,inan=(acc,sg|nom,sg)}: {веять=V,ipf,tran=inpraes,sg,indic,3p},
+{подымать=V,ipf,tran=inpraes,sg,indic,1p} {лицо=S,n,inan=(acc,sg|nom,sg)}: {греть=V,ipf,tran=inpraes,sg,indic,3p}.
+{но=CONJ=} {душа=S,f,inan=nom,sg} {уже=ADV=} — {не=PART=} — {млеть=V,ipf,intr=inpraes,sg,indic,3p},
+{не=PART=} {жалеть=V,ipf,tran=inpraes,sg,indic,3p}.
+
+{на=PR=} {ступенька=S,f,inan=(abl,sg|dat,sg)} {стоять=V,ipf,intr=inpraes,sg,indic,1p} — {верхний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{развеваться=V,ipf,intr=inpraes,pl,indic,3p} {надо=ADV,praed=} {я=SPRO,sg,1p=ins} — {ветка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{скоро=ADV=} {купол=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {церковь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{померкнуть=V,pf,intr=inpraes,sg,indic,3p}.
+
+{облако=S,n,inan=ins,pl} {плыть=V,ipf,intr=inpraes,sg,indic,3p} {пасха=S,f,inan=nom,sg},
+{колокол=S,m,inan=ins,pl} {плыть=V,ipf,intr=inpraes,sg,indic,3p} {пасха=S,f,inan=nom,sg}...
+{в=PR=} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {распинать=V,tran=praet,sg,partcp,brev,m,pf,pass} — 
+{на=PR=} {пасха=S,f,inan=acc,sg}.

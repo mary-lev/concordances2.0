@@ -1,96 +1,12 @@
-куриться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-крутить=V,ipf,tran=inpraes,pl,indic,3p
-_
-роща=S,f,inan=gen,pl
-_
-отрог=S,m,inan=(acc,pl|nom,pl)
-,\n
-синеться=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-сияние=S,n,inan=abl,sg
-_
-день=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-летний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-огонь=S,m,inan=gen,sg
-\n
-так=ADVPRO=
-_
-упоительный=A=sg,brev,n
-_
-не=PART=
-_
-строгий=A=pl,brev
-!\n
-прозрачно=ADV=
-_
-розоветь=V,ipf,intr=inpraes,pl,indic,3p
-_
-пятка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-проворный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-нимфа=S,f,anim=(acc,pl|gen,pl)
-_
-на=PR=
-_
-небо=S,n,inan=abl,pl
-.\n
-в=PR=
-_
-курчавый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-скрытый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лес=S,m,inan=abl,pl
-\n
-кукушка=S,f,anim=(gen,sg|nom,pl)
-_
-заиграть=V,pf,tran=praet,pl,indic
-_
-в=PR=
-_
-прятки=S,pl,inan=(acc|nom)
-.\n
-и=CONJ=
-_
-только=PART=
-_
-сниться=V,ipf,intr=inpraes,sg,indic,3p
-_
-иногда=ADV=
-\n
-шатание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-накренять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-палуба=S,f,inan=gen,pl
-:\n
-ведь=PART=
-_
-путевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-жалоба=S,f,inan=gen,pl
-,\n
-коль=CONJ=
-_
-суша=S,f,inan=nom,sg
-_
-под=PR=
-_
-нога=S,f,inan=ins,sg
-_
-твердый=A=sg,brev,f
-.\n
+{куриться=V,ipf,intr=inpraes,pl,indic,3p}, {крутить=V,ipf,tran=inpraes,pl,indic,3p} {роща=S,f,inan=gen,pl} {отрог=S,m,inan=(acc,pl|nom,pl)},
+{синеться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {сияние=S,n,inan=abl,sg} {день=S,m,inan=gen,sg},
+{и=CONJ=} {стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)} {летний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {огонь=S,m,inan=gen,sg}
+{так=ADVPRO=} {упоительный=A=sg,brev,n} {не=PART=} {строгий=A=pl,brev}!
+{прозрачно=ADV=} {розоветь=V,ipf,intr=inpraes,pl,indic,3p} {пятка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{проворный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нимфа=S,f,anim=(acc,pl|gen,pl)} {на=PR=} {небо=S,n,inan=abl,pl}.
+{в=PR=} {курчавый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {скрытый=A=(acc,pl,plen,inan|nom,pl,plen)} {лес=S,m,inan=abl,pl}
+{кукушка=S,f,anim=(gen,sg|nom,pl)} {заиграть=V,pf,tran=praet,pl,indic} {в=PR=} {прятки=S,pl,inan=(acc|nom)}.
+{и=CONJ=} {только=PART=} {сниться=V,ipf,intr=inpraes,sg,indic,3p} {иногда=ADV=}
+{шатание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {накренять=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {палуба=S,f,inan=gen,pl}:
+{ведь=PART=} {путевой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {не=PART=} {надо=ADV,praed=} {жалоба=S,f,inan=gen,pl},
+{коль=CONJ=} {суша=S,f,inan=nom,sg} {под=PR=} {нога=S,f,inan=ins,sg} {твердый=A=sg,brev,f}.

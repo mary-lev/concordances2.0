@@ -1,12 +1,2 @@
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-май=S,sg,m,inan=(acc|nom)
-,_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-праздник=S,m,inan=(acc,sg|nom,sg)
-_\u2014\n
-вознесение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {месяц=S,m,inan=(acc,sg|nom,sg)} {май=S,sg,m,inan=(acc|nom)}, {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {праздник=S,m,inan=(acc,sg|nom,sg)} —
+{вознесение=S,n,inan=(abl,sg|acc,sg|nom,sg)}.

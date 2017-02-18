@@ -1,146 +1,24 @@
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-ветер=S,m,inan=gen,pl
-,_
-зефир=S,m,inan=(acc,sg|nom,sg)
-_
-игривый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-прошуметь=V,pf,intr=praet,sg,indic,m
-_
-среди=PR=
-_
-лист=S,m,inan=gen,pl
-,\n
-прикасаться=V,intr=praet,sg,indic,m,pf
-_
-шаловливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-к=PR=
-_
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-чашечка=S,f,inan=dat,pl
-_
-цветок=S,m,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-шепнуть=V,pf,tran=praet,sg,indic,m
-_
-неуловимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-волна=S,f,inan=ins,sg
-_
-шевельнуть=V,pf,tran=praet,sg,indic,m
-,\n
-к=PR=
-_
-арфа=S,f,inan=(abl,sg|dat,sg)
-_
-звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-длань=S,f,inan=ins,sg
-_
-быстрый=A=ins,sg,plen,f
-_
-прильнуть=V,pf,intr=praet,sg,indic,m
-.\n\n
-и=CONJ=
-_
-с=PR=
-_
-беспечность=S,f,inan=ins,sg
-_
-ребенок=S,m,anim=(acc,sg|gen,sg)
-,\n
-не=PART=
-_
-заботиться=V,ipf,intr=inpraes,ger
-_
-ни=PART=
-_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-играть=V,ipf,tran=praet,sg,indic,m
-_
-легко=ADV=
-_
-и=CONJ=
-_
-звонко=ADV=
-\n
-в=PR=
-_
-ясный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-воздух=S,m,inan=abl,sg
-_
-ночной=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-и=CONJ=
-_
-влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-наяда=S,f,anim=(gen,sg|nom,pl)
-\n
-показываться=V,intr=praet,pl,indic,pf
-_
-из=PR=
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-кидать=V,ipf,tran=praet,pl,indic
-_
-взгляд=S,m,inan=(acc,pl|nom,pl)
-\n
-в=PR=
-_
-свет=S,sg,m,inan=abl
-_
-гаснуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-нимфа=S,f,anim=nom,sg
-_
-с=PR=
-_
-нимфа=S,f,anim=ins,sg
-_
-шептаться=V,ipf,intr=praet,sg,indic,f
-,\n
-о=PR=
-_
-блаженство=S,n,inan=abl,sg
-_
-говорить=V,ipf,tran=inpraes,ger
-.\n
-а=CONJ=
-_
-за=PR=
-_
-море=S,n,inan=ins,sg
-_
-пробуждаться=V,intr=praet,sg,indic,f,ipf
-\n
-розоперстый?=A=nom,sg,plen,f
-_
-заря=S,f,inan=nom,sg
-.\n
+{дух=S,m,inan=(acc,sg|nom,sg)} {ветер=S,m,inan=gen,pl}, {зефир=S,m,inan=(acc,sg|nom,sg)} {игривый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{прошуметь=V,pf,intr=praet,sg,indic,m} {среди=PR=} {лист=S,m,inan=gen,pl},
+{прикасаться=V,intr=praet,sg,indic,m,pf} {шаловливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{к=PR=} {нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {чашечка=S,f,inan=dat,pl} {цветок=S,m,inan=gen,pl}.
+
+{и=CONJ=} {шепнуть=V,pf,tran=praet,sg,indic,m} {неуловимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {волна=S,f,inan=ins,sg} {шевельнуть=V,pf,tran=praet,sg,indic,m},
+{к=PR=} {арфа=S,f,inan=(abl,sg|dat,sg)} {звучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {незримый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{длань=S,f,inan=ins,sg} {быстрый=A=ins,sg,plen,f} {прильнуть=V,pf,intr=praet,sg,indic,m}.
+
+{и=CONJ=} {с=PR=} {беспечность=S,f,inan=ins,sg} {ребенок=S,m,anim=(acc,sg|gen,sg)},
+{не=PART=} {заботиться=V,ipf,intr=inpraes,ger} {ни=PART=} {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)},
+{он=SPRO,sg,3p,m=nom} {играть=V,ipf,tran=praet,sg,indic,m} {легко=ADV=} {и=CONJ=} {звонко=ADV=}
+{в=PR=} {ясный=A=(abl,sg,plen,m|abl,sg,plen,n)} {воздух=S,m,inan=abl,sg} {ночной=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{и=CONJ=} {влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)} {наяда=S,f,anim=(gen,sg|nom,pl)}
+{показываться=V,intr=praet,pl,indic,pf} {из=PR=} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {к=PR=} {он=SPRO,sg,3p,m=dat} {кидать=V,ipf,tran=praet,pl,indic} {взгляд=S,m,inan=(acc,pl|nom,pl)}
+{в=PR=} {свет=S,sg,m,inan=abl} {гаснуть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{нимфа=S,f,anim=nom,sg} {с=PR=} {нимфа=S,f,anim=ins,sg} {шептаться=V,ipf,intr=praet,sg,indic,f},
+{о=PR=} {блаженство=S,n,inan=abl,sg} {говорить=V,ipf,tran=inpraes,ger}.
+{а=CONJ=} {за=PR=} {море=S,n,inan=ins,sg} {пробуждаться=V,intr=praet,sg,indic,f,ipf}
+{розоперстый?=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}.

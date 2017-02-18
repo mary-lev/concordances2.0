@@ -1,42 +1,6 @@
-любовь=S,f,inan=(acc,sg|nom,sg)
-!_
-любовь=S,f,inan=(acc,sg|nom,sg)
-!_
-куда=ADVPRO=
-_
-уходить=V,intr=praet,sg,indic,f,pf
-_
-ты=SPRO,sg,2p=nom
-?\n\u2014\t
-оставлять=V,tran=praet,sg,indic,f,pf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-богатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-надевать=V,tran=praet,sg,indic,f,pf
-_
-воинский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-латы=S,pl,inan=(acc|nom)
-.\n\n\u2014\t
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-голос=S,m,inan=ins,sg
-_
-и=CONJ=
-_
-гнев=S,m,inan=ins,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-орлеанский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-дева=S,f,anim=ins,sg
-.\n
+{любовь=S,f,inan=(acc,sg|nom,sg)}! {любовь=S,f,inan=(acc,sg|nom,sg)}! {куда=ADVPRO=} {уходить=V,intr=praet,sg,indic,f,pf} {ты=SPRO,sg,2p=nom}?
+—	{оставлять=V,tran=praet,sg,indic,f,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {дом=S,m,inan=(acc,sg|nom,sg)} {богатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{надевать=V,tran=praet,sg,indic,f,pf} {воинский=A=(acc,pl,plen,inan|nom,pl,plen)} {латы=S,pl,inan=(acc|nom)}.
+
+—	{я=SPRO,sg,1p=nom} {становиться=V,intr=praet,sg,indic,f,pf} {голос=S,m,inan=ins,sg} {и=CONJ=} {гнев=S,m,inan=ins,sg},
+{я=SPRO,sg,1p=nom} {становиться=V,intr=praet,sg,indic,f,pf} {орлеанский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дева=S,f,anim=ins,sg}.

@@ -1,58 +1,9 @@
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-,_
-дитя=S,obsol,sg,n,anim=(acc|nom)
-,_
-когда=CONJ=
-_
-увидеть=V,pf,tran=inpraes,sg,indic,1p
-\n
-твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-и=CONJ=
-_
-ненавидеть=V,ipf,tran=inpraes,sg,indic,1p
-\n
-без=PR=
-_
-конец=S,m,inan=gen,sg
-:\n\n
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-он=SPRO,sg,3p,m=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-напоминание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-укор=S,m,inan=(acc,sg|nom,sg)
-...\n
-и=CONJ=
-_
-твой=APRO=nom,sg,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-позор=S,m,inan=(acc,sg|nom,sg)
-!\n
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}, {дитя=S,obsol,sg,n,anim=(acc|nom)}, {когда=CONJ=} {увидеть=V,pf,tran=inpraes,sg,indic,1p}
+{твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {отец=S,m,anim=(acc,sg|gen,sg)},
+{я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)} {и=CONJ=} {ненавидеть=V,ipf,tran=inpraes,sg,indic,1p}
+{без=PR=} {конец=S,m,inan=gen,sg}:
+
+{о=PR=} {ты=SPRO,sg,2p=(abl|dat)} {он=SPRO,sg,3p,m=nom} {я=SPRO,sg,1p=(abl|dat)} {напоминание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{о=PR=} {ты=SPRO,sg,2p=(abl|dat)} {укор=S,m,inan=(acc,sg|nom,sg)}...
+{и=CONJ=} {твой=APRO=nom,sg,f} {любовь=S,f,inan=(acc,sg|nom,sg)}, {твой=APRO=(acc,sg,n|nom,sg,n)} {страдание=S,n,inan=(abl,sg|acc,sg|nom,sg)} —
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {позор=S,m,inan=(acc,sg|nom,sg)}!

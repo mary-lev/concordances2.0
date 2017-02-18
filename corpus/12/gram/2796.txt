@@ -1,120 +1,20 @@
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-преступница=S,f,anim=nom,sg
-_
-и=CONJ=
-_
-монашек=S,rare,m,anim=(acc,sg|gen,sg)
-.\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-,_
-потуплять=V,tran=praet,ger,pf
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-.\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-часто=ADV=
-_
-и=CONJ=
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-тяжко=ADV=
-.\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-любить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-когда=CONJ=
-_
-глядеть=V,ipf,tran=inpraes,pl,indic,3p
-.\n\n
-не=PART=
-_
-стоить=V,ipf=inpraes,sg,indic,3p
-_
-со=PR=
-_
-свеча=S,f,inan=ins,sg
-_
-во=PR=
-_
-храм=S,m,inan=abl,sg
-,\n
-никто=SPRO,sg,m,anim=dat
-_
-не=PART=
-_
-жена=S,f,anim=nom,sg
-,_
-не=PART=
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-.\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-ночевать=V,ipf,intr=inpraes,sg,indic,3p
-_
-на=PR=
-_
-твердый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-камень=S,m,inan=abl,sg
-,\n
-никто=SPRO,sg,m,anim=(acc|gen)
-_
-не=PART=
-_
-целовать=V,ipf,tran=inpraes,sg,indic,3p
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-даром=ADV=
-,_
-что=CONJ=
-_
-сквозь=PR=
-\n
-слезинка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-свистать=V,ipf,tran=inpraes,pl,indic,1p
-,\n
-даром=ADV=
-,_
-что=CONJ=
-_\u2014_
-врозь=ADV=
-\n
-по=PR=
-_
-свет=S,sg,m,inan=(dat|loc|part)
-_
-рыскать=V,ipf=inpraes,pl,indic,1p
-,_\u2014_\n\n
-нет=PART=
-,_
-не=PART=
-_
-помогать=V,intr=inf,pf
-!\n
-завтра=ADV=
-_
-ль=PART=
-,_
-сегодня=ADV=
-_\u2014_\n
-скручивать=V,tran=inpraes,sg,indic,3p,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-\n
-старый=A=nom,sg,plen,f
-_
-сводня=S,f,anim=nom,sg
-_\u2014_\n
-ночь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{ночь=S,f,inan=(acc,sg|nom,sg)} — {преступница=S,f,anim=nom,sg} {и=CONJ=} {монашек=S,rare,m,anim=(acc,sg|gen,sg)}.
+{ночь=S,f,inan=(acc,sg|nom,sg)} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)}, {потуплять=V,tran=praet,ger,pf} {взгляд=S,m,inan=(acc,sg|nom,sg)}.
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} — {часто=ADV=} {и=CONJ=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} — {тяжко=ADV=}.
+{ночь=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {любить=V,ipf,tran=inpraes,sg,indic,3p}, {когда=CONJ=} {глядеть=V,ipf,tran=inpraes,pl,indic,3p}.
+
+{не=PART=} {стоить=V,ipf=inpraes,sg,indic,3p} {со=PR=} {свеча=S,f,inan=ins,sg} {во=PR=} {храм=S,m,inan=abl,sg},
+{никто=SPRO,sg,m,anim=dat} {не=PART=} {жена=S,f,anim=nom,sg}, {не=PART=} {дочь=S,f,anim=(acc,sg|nom,sg)}.
+{ночь=S,f,inan=(acc,sg|nom,sg)} {ночевать=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {твердый=A=(abl,sg,plen,m|abl,sg,plen,n)} {камень=S,m,inan=abl,sg},
+{никто=SPRO,sg,m,anim=(acc|gen)} {не=PART=} {целовать=V,ipf,tran=inpraes,sg,indic,3p} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+
+{даром=ADV=}, {что=CONJ=} {сквозь=PR=}
+{слезинка=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {свистать=V,ipf,tran=inpraes,pl,indic,1p},
+{даром=ADV=}, {что=CONJ=} — {врозь=ADV=}
+{по=PR=} {свет=S,sg,m,inan=(dat|loc|part)} {рыскать=V,ipf=inpraes,pl,indic,1p}, — 
+
+{нет=PART=}, {не=PART=} {помогать=V,intr=inf,pf}!
+{завтра=ADV=} {ль=PART=}, {сегодня=ADV=} — 
+{скручивать=V,tran=inpraes,sg,indic,3p,pf} {мы=SPRO,pl,1p=(abl|acc|gen)}
+{старый=A=nom,sg,plen,f} {сводня=S,f,anim=nom,sg} — 
+{ночь=S,f,inan=(acc,sg|nom,sg)}!

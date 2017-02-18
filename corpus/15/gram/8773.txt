@@ -1,140 +1,20 @@
-парк=S,m,inan=(acc,pl|nom,pl)
-,_
-норный=A=pl,brev
-,_
-суденица?=S,f,anim=(gen,sg|nom,pl)
-,\n
-назначать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,\n
-необманный?=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-девица=S,f,anim=(gen,sg|nom,pl)
-,\n
-кто=SPRO,sg,m,anim=nom
-_
-вы=SPRO,pl,2p=dat
-,_
-страшный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-предавать=V,tran=praet,sg,indic,m,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-?\n
-парк=S,m,inan=(acc,pl|nom,pl)
-,_
-норный=A=pl,brev
-,_
-суденица?=S,f,anim=(gen,sg|nom,pl)
-,\n
-скоро=ADV=
-_
-ль=PART=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-наставать=V,intr=inpraes,sg,indic,3p,pf
-_
-час=S,m,inan=(acc,sg|nom,sg)
-?\n\n
-ткань=S,f,inan=(acc,sg|nom,sg)
-_
-готовый=A=sg,brev,f
-._
-бредить=V,ipf,intr=praet,sg,indic,m
-_
-случай=S,m,inan=(acc,sg|nom,sg)
-.\n
-я=SPRO,sg,1p=nom
-_
-встречаться=V,intr=praet,sg,indic,m,ipf
-_
-с=PR=
-_
-красота=S,f,inan=ins,sg
-.\n
-большой=A=comp
-,_
-миг=S,m,inan=(acc,sg|nom,sg)
-,_
-я=SPRO,sg,1p=(acc|gen)
-_
-не=PART=
-_
-мучить=V,ipf=sg,imper,2p
-,\n
-не=PART=
-_
-сменять=V,ipf,tran=sg,imper,2p
-_
-черта=S,f,inan=acc,sg
-_
-черта=S,f,inan=ins,sg
-.\n
-да=CONJ=
-_
-укрываться=V,intr=inpraes,sg,indic,1p,pf
-_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-туча=S,f,inan=ins,sg
-,\n
-да=CONJ=
-_
-упиваться=V,intr=inpraes,sg,indic,1p,pf
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-беда=S,f,inan=ins,sg
-.\n\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-быть=V,intr=praet,sg,indic,n,ipf
-,_
-есть=V,ipf,tran=inf
-,_
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_\u2014\n
-раздроблять=V,tran=praet,sg,indic,n,pf
-_
-цельность=S,f,inan=(acc,sg|nom,sg)
-_
-сон=S,m,inan=gen,sg
-.\n
-норный=A=pl,brev
-,_
-север=S,m,inan=(acc,sg|nom,sg)
-_
-да=CONJ=
-_
-остужать=V=inpraes,sg,indic,3p,pf
-\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-где=ADVPRO=
-_
-жить=V,ipf,intr=praet,sg,indic,f
-_
-весна=S,f,inan=nom,sg
-.\n
-пусть=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-забывать=V=inpraes,sg,indic,3p,pf
-.\n
-я=SPRO,sg,1p=ins
-_
-забывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-он=SPRO,sg,3p,m=nom
-._
-тишина=S,sg,f,inan=nom
-.\n
+{парк=S,m,inan=(acc,pl|nom,pl)}, {норный=A=pl,brev}, {суденица?=S,f,anim=(gen,sg|nom,pl)},
+{назначать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)} {час=S,m,inan=(acc,sg|nom,sg)},
+{необманный?=A=(acc,pl,plen,inan|nom,pl,plen)} {девица=S,f,anim=(gen,sg|nom,pl)},
+{кто=SPRO,sg,m,anim=nom} {вы=SPRO,pl,2p=dat}, {страшный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {предавать=V,tran=praet,sg,indic,m,pf} {мы=SPRO,pl,1p=(abl|acc|gen)}?
+{парк=S,m,inan=(acc,pl|nom,pl)}, {норный=A=pl,brev}, {суденица?=S,f,anim=(gen,sg|nom,pl)},
+{скоро=ADV=} {ль=PART=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {наставать=V,intr=inpraes,sg,indic,3p,pf} {час=S,m,inan=(acc,sg|nom,sg)}?
+
+{ткань=S,f,inan=(acc,sg|nom,sg)} {готовый=A=sg,brev,f}. {бредить=V,ipf,intr=praet,sg,indic,m} {случай=S,m,inan=(acc,sg|nom,sg)}.
+{я=SPRO,sg,1p=nom} {встречаться=V,intr=praet,sg,indic,m,ipf} {с=PR=} {красота=S,f,inan=ins,sg}.
+{большой=A=comp}, {миг=S,m,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {мучить=V,ipf=sg,imper,2p},
+{не=PART=} {сменять=V,ipf,tran=sg,imper,2p} {черта=S,f,inan=acc,sg} {черта=S,f,inan=ins,sg}.
+{да=CONJ=} {укрываться=V,intr=inpraes,sg,indic,1p,pf} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {туча=S,f,inan=ins,sg},
+{да=CONJ=} {упиваться=V,intr=inpraes,sg,indic,1p,pf} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {беда=S,f,inan=ins,sg}.
+
+{это=SPRO,sg,n,inan=(acc|nom)} — {быть=V,intr=praet,sg,indic,n,ipf}, {есть=V,ipf,tran=inf}, {и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} —
+{раздроблять=V,tran=praet,sg,indic,n,pf} {цельность=S,f,inan=(acc,sg|nom,sg)} {сон=S,m,inan=gen,sg}.
+{норный=A=pl,brev}, {север=S,m,inan=(acc,sg|nom,sg)} {да=CONJ=} {остужать=V=inpraes,sg,indic,3p,pf}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {где=ADVPRO=} {жить=V,ipf,intr=praet,sg,indic,f} {весна=S,f,inan=nom,sg}.
+{пусть=PART=} {я=SPRO,sg,1p=(acc|gen)} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {забывать=V=inpraes,sg,indic,3p,pf}.
+{я=SPRO,sg,1p=ins} {забывать=V=praet,sg,partcp,brev,m,pf,pass} {он=SPRO,sg,3p,m=nom}. {тишина=S,sg,f,inan=nom}.

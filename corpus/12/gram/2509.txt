@@ -1,94 +1,14 @@
-с=PR=
-_
-большой=A=ins,sg,plen,f
-_
-нежность=S,f,inan=ins,sg
-_\u2014_
-потому=ADVPRO=
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-скоро=ADV=
-_
-уходить=V,intr=inpraes,sg,indic,1p,pf
-_
-от=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-_\u2014_\n
-я=SPRO,sg,1p=nom
-_
-все=SPRO,pl=(acc|nom)
-_
-раздумывать=V,intr=inpraes,sg,indic,1p,ipf
-,_
-кто=SPRO,sg,m,anim=dat
-\n
-доставаться=V,intr=inpraes,sg,indic,3p,pf
-_
-волчий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-мех=S,m,inan=(acc,sg|nom,sg)
-,\n\n
-кто=SPRO,sg,m,anim=dat
-_\u2014_
-разнеживать=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-плед=S,m,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-тонкий=A=nom,sg,plen,f
-_
-трость=S,f,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-борзая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-,\n
-кто=SPRO,sg,m,anim=dat
-_\u2014_
-серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-браслет=S,m,inan=(acc,sg|nom,sg)
-,\n
-осыпать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-_
-бирюза=S,sg,f,inan=ins
-...\n\n
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_\u2014_
-записка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_\u2014_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,\n
-который=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-хранить=V,ipf,tran=inf
-_\u2014_
-невмочь=ADV,praed=
-...\n
-последний=A=nom,sg,plen,f
-_
-рифма=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_\u2014_
-и=CONJ=
-_
-ты=SPRO,sg,2p=nom
-,\n
-последний=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-!\n
+{с=PR=} {большой=A=ins,sg,plen,f} {нежность=S,f,inan=ins,sg} — {потому=ADVPRO=},
+{что=SPRO,sg,n,inan=(acc|nom)} {скоро=ADV=} {уходить=V,intr=inpraes,sg,indic,1p,pf} {от=PR=} {все=SPRO,pl=(abl|acc|gen)} — 
+{я=SPRO,sg,1p=nom} {все=SPRO,pl=(acc|nom)} {раздумывать=V,intr=inpraes,sg,indic,1p,ipf}, {кто=SPRO,sg,m,anim=dat}
+{доставаться=V,intr=inpraes,sg,indic,3p,pf} {волчий=A,plen=(acc,sg,m,inan|nom,sg,m)} {мех=S,m,inan=(acc,sg|nom,sg)},
+
+{кто=SPRO,sg,m,anim=dat} — {разнеживать=V,tran=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {плед=S,m,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {тонкий=A=nom,sg,plen,f} {трость=S,f,inan=(acc,sg|nom,sg)} {с=PR=} {борзая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)},
+{кто=SPRO,sg,m,anim=dat} — {серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {браслет=S,m,inan=(acc,sg|nom,sg)},
+{осыпать=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {бирюза=S,sg,f,inan=ins}...
+
+{и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} — {записка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} — {цветок=S,m,inan=(acc,pl|nom,pl)},
+{который=APRO=(abl,pl|gen,pl|acc,pl,anim)} {хранить=V,ipf,tran=inf} — {невмочь=ADV,praed=}...
+{последний=A=nom,sg,plen,f} {рифма=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} — {и=CONJ=} {ты=SPRO,sg,2p=nom},
+{последний=A=nom,sg,plen,f} {мой=APRO=nom,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)}!

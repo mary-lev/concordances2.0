@@ -1,56 +1,10 @@
-хоть=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-петь=V,ipf,tran=sg,imper,2p
-_
-соловей=S,m,anim=ins,sg
-,\n
-иль=CONJ=
-_
-куковать=V,ipf,intr=sg,imper,2p
-_
-кукушка=S,f,inan=ins,sg
-,\n
-иль=CONJ=
-_
-трещать=V,ipf,intr=sg,imper,2p
-_
-скворец=S,m,anim=ins,sg
-,\n
-голосить=V,ipf,intr=sg,imper,2p
-_
-старушка=S,f,anim=ins,sg
-,\n
-хоть=PART=
-_
-волчонок=S,m,anim=ins,sg
-_
-выть=V,ipf,intr=sg,imper,2p
-,\n
-хоть=PART=
-_
-девчонка=S,f,anim=ins,sg
-_
-петь=V,ipf,tran=sg,imper,2p
-,\n\u2014_
-все-таки=PART=
-_
-приходиться=V,intr=inpraes,sg,indic,3p,pf
-\n
-исполнять=V,tran=inf,ipf
-_
-приказ=S,m,inan=(acc,sg|nom,sg)
-:\n
-никогда=ADVPRO=
-_
-не=PART=
-_
-удаваться=V,intr=inpraes,sg,indic,3p,ipf
-\n
-оппозиция=S,f,inan=nom,sg
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
+{хоть=PART=} {ты=SPRO,sg,2p=nom} {петь=V,ipf,tran=sg,imper,2p} {соловей=S,m,anim=ins,sg},
+{иль=CONJ=} {куковать=V,ipf,intr=sg,imper,2p} {кукушка=S,f,inan=ins,sg},
+{иль=CONJ=} {трещать=V,ipf,intr=sg,imper,2p} {скворец=S,m,anim=ins,sg},
+{голосить=V,ipf,intr=sg,imper,2p} {старушка=S,f,anim=ins,sg},
+{хоть=PART=} {волчонок=S,m,anim=ins,sg} {выть=V,ipf,intr=sg,imper,2p},
+{хоть=PART=} {девчонка=S,f,anim=ins,sg} {петь=V,ipf,tran=sg,imper,2p},
+— {все-таки=PART=} {приходиться=V,intr=inpraes,sg,indic,3p,pf}
+{исполнять=V,tran=inf,ipf} {приказ=S,m,inan=(acc,sg|nom,sg)}:
+{никогда=ADVPRO=} {не=PART=} {удаваться=V,intr=inpraes,sg,indic,3p,ipf}
+{оппозиция=S,f,inan=nom,sg} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.

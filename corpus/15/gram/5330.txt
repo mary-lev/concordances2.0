@@ -1,84 +1,14 @@
-если=CONJ=
-_
-грустно=ADV=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,\n
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-думать=V,ipf,intr=sg,imper,2p
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-друг=S,m,anim=nom,sg
-.\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-очерчивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-в=PR=
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-\n
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-разве=PART=
-_
-думать=V,ipf,intr=inpraes,sg,indic,3p
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-?\n
-разве=PART=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-о=PR=
-_
-что=SPRO,sg,n,inan=(abl|ins)
-?\n
-он=SPRO,sg,3p,m=nom
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-_
-для=PR=
-_
-чудо=S,n,inan=gen,pl
-,\n
-озарять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-луч=S,m,inan=ins,sg
-.\n\n
-разве=PART=
-_
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-думать=V,ipf,intr=inf
-_
-весна=S,f,inan=ins,sg
-?\n
-верить=V,ipf,intr=sg,imper,2p
-_
-напевность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-строка=S,f,inan=gen,pl
-,\n
-быть=V,intr=sg,imper,2p
-_
-без=PR=
-_
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-.\n
+{если=CONJ=} {грустно=ADV=} {ты=SPRO,sg,2p=(abl|dat)},
+{ты=SPRO,sg,2p=nom} {не=PART=} {думать=V,ipf,intr=sg,imper,2p}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg}.
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {очерчивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {в=PR=} {судьба=S,f,inan=(abl,sg|dat,sg)}
+{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {круг=S,m,inan=(acc,sg|nom,sg)}.
+
+{разве=PART=} {думать=V,ipf,intr=inpraes,sg,indic,3p} {лес=S,m,inan=(acc,sg|nom,sg)}?
+{разве=PART=} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {о=PR=} {что=SPRO,sg,n,inan=(abl|ins)}?
+{он=SPRO,sg,3p,m=nom} {жить=V,ipf,intr=inpraes,sg,indic,3p} {для=PR=} {чудо=S,n,inan=gen,pl},
+{озарять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {луч=S,m,inan=ins,sg}.
+
+{разве=PART=} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цветок=S,m,inan=(acc,sg|nom,sg)}
+{быть=V,intr=inpraes,sg,indic,3p} {думать=V,ipf,intr=inf} {весна=S,f,inan=ins,sg}?
+{верить=V,ipf,intr=sg,imper,2p} {напевность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {строка=S,f,inan=gen,pl},
+{быть=V,intr=sg,imper,2p} {без=PR=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {со=PR=} {я=SPRO,sg,1p=ins}.

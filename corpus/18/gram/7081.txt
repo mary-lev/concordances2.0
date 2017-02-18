@@ -1,214 +1,34 @@
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-отрок=S,m,anim=nom,sg
-_
-солнцекудрый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-с=PR=
-_
-белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мышь=S,f,anim=ins,sg
-_
-на=PR=
-_
-плечо=S,n,inan=abl,sg
-!\n
-правый=A=sg,brev,m
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,_
-слепой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-как=CONJ=
-_
-молитва=S,f,inan=nom,sg
-_
-на=PR=
-_
-меч=S,m,inan=abl,sg
-.\n\n
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-дерзкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-меднолицый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-возжелать=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-\n
-править=V,ipf,tran=inf
-_
-грозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-колесница=S,f,inan=ins,sg
-\n
-пламеносный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-!\n\n
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-,_
-распростирать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-фаэтон=S,m,inan=(acc,sg|nom,sg)
-,\n
-грезить=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-,_
-с=PR=
-_
-земля=S,f,inan=ins,sg
-_
-стертый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-все=ADV=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-и=CONJ=
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-:\n\n
-быть=V,intr=inf,ipf
-_
-как=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!_
-до=PR=
-_
-зенит=S,m,inan=gen,sg
-\n
-разъяренный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-гнать=V,ipf,tran=inf
-_
-конь=S,m,anim=(acc,pl|gen,pl)
-_-\n
-пусть=PART=
-_
-алмазный=A=nom,sg,plen,f
-_
-орбита=S,f,inan=nom,sg
-\n
-прыскать?=V,ipf=inpraes,sg,indic,3p
-_
-взрыв=S,m,inan=ins,pl
-_
-огонь=S,m,inan=gen,pl
-!\n\n
-и=CONJ=
-_
-неверный=A=ins,sg,plen,f
-_
-рука=S,f,inan=ins,sg
-\n
-не=PART=
-_
-сдерживать=V,tran=praet,ger,pf
-_
-узда=S,f,inan=acc,sg
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-со=PR=
-_
-священный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-четверня=S,f,inan=ins,sg
-\n
-рухнуть=V,pf,intr=inf
-_
-с=PR=
-_
-горний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-высота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n\n
-в=PR=
-_
-темный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-пафос=S,geo,m,inan=abl,sg
-_
-падение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-дым=S,m,inan=abl,pl
-_
-жертвенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-костер=S,m,inan=gen,pl
-\n
-славить=V,ipf,tran=sg,imper,2p
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-исступление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-вопль=S,m,inan=ins,pl
-_
-напевный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-строфа=S,f,inan=gen,pl
-!\n\n
-жечь=V,ipf,tran=sg,imper,2p
-_
-дома=ADV=
-_
-и=CONJ=
-_
-нива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-жечь=V,ipf,tran=sg,imper,2p
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-,_
-холм=S,m,inan=(acc,pl|nom,pl)
-,_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-чтоб=CONJ=
-_
-огонь=S,m,inan=(acc,sg|nom,sg)
-,_
-упавший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-взвиваться=V,intr=praet,sg,indic,m,pf
-_
-снова=ADV=
-_
-в=PR=
-_
-небо=S,n,inan=(acc,pl|nom,pl)
-!\n
+{здравствовать=V,ipf,intr=sg,imper,2p}, {отрок=S,m,anim=nom,sg} {солнцекудрый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{с=PR=} {белый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мышь=S,f,anim=ins,sg} {на=PR=} {плечо=S,n,inan=abl,sg}!
+{правый=A=sg,brev,m} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)}, {слепой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{как=CONJ=} {молитва=S,f,inan=nom,sg} {на=PR=} {меч=S,m,inan=abl,sg}.
+
+{здравствовать=V,ipf,intr=sg,imper,2p}, {дерзкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {меднолицый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{возжелать=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {до=PR=} {конец=S,m,inan=gen,sg}
+{править=V,ipf,tran=inf} {грозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {колесница=S,f,inan=ins,sg}
+{пламеносный?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {отец=S,m,anim=(acc,sg|gen,sg)}!
+
+{с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)}, {распростирать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {фаэтон=S,m,inan=(acc,sg|nom,sg)},
+{грезить=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom}, {с=PR=} {земля=S,f,inan=ins,sg} {стертый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{все=ADV=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {и=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {сон=S,m,inan=(acc,sg|nom,sg)}:
+
+{быть=V,intr=inf,ipf} {как=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {до=PR=} {зенит=S,m,inan=gen,sg}
+{разъяренный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гнать=V,ipf,tran=inf} {конь=S,m,anim=(acc,pl|gen,pl)} -
+{пусть=PART=} {алмазный=A=nom,sg,plen,f} {орбита=S,f,inan=nom,sg}
+{прыскать?=V,ipf=inpraes,sg,indic,3p} {взрыв=S,m,inan=ins,pl} {огонь=S,m,inan=gen,pl}!
+
+{и=CONJ=} {неверный=A=ins,sg,plen,f} {рука=S,f,inan=ins,sg}
+{не=PART=} {сдерживать=V,tran=praet,ger,pf} {узда=S,f,inan=acc,sg} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{со=PR=} {священный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {четверня=S,f,inan=ins,sg}
+{рухнуть=V,pf,intr=inf} {с=PR=} {горний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+
+{в=PR=} {темный=A=(abl,sg,plen,m|abl,sg,plen,n)} {пафос=S,geo,m,inan=abl,sg} {падение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {дым=S,m,inan=abl,pl} {жертвенный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {костер=S,m,inan=gen,pl}
+{славить=V,ipf,tran=sg,imper,2p} {любовь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {исступление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{вопль=S,m,inan=ins,pl} {напевный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {строфа=S,f,inan=gen,pl}!
+
+{жечь=V,ipf,tran=sg,imper,2p} {дома=ADV=} {и=CONJ=} {нива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {хлеб=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{жечь=V,ipf,tran=sg,imper,2p} {человек=S,m,anim=(acc,pl|gen,pl)}, {холм=S,m,inan=(acc,pl|nom,pl)}, {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
+{чтоб=CONJ=} {огонь=S,m,inan=(acc,sg|nom,sg)}, {упавший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{взвиваться=V,intr=praet,sg,indic,m,pf} {снова=ADV=} {в=PR=} {небо=S,n,inan=(acc,pl|nom,pl)}!

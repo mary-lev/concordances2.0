@@ -1,58 +1,9 @@
-в=PR=
-_
-промежуток=S,m,inan=(acc,pl|nom,pl)
-_
-между=PR=
-_
-гроза=S,f,inan=ins,pl
-,\n
-мрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-яркость=S,f,inan=ins,sg
-_
-богатый=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-над=PR=
-_
-притихать=V,intr=praet,ins,pl,partcp,plen,pf,act
-_
-береза=S,f,inan=ins,pl
-\n
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-стоять=V,ipf,intr=inpraes,pl,indic,3p
-_
-крылатый=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-чуть=ADV=
-_
-гроза=S,f,inan=nom,sg
-_
-на=PR=
-_
-запад=S,geo,m,inan=(acc,sg|nom,sg)
-_
-спрятаться=V,pf,intr=inpraes,sg,indic,3p
-\n
-и=CONJ=
-_
-наставать=V,intr=inpraes,sg,indic,3p,pf
-_
-тишь=S,f,inan=(acc,sg|nom,sg)
-_
-чудесный=A=nom,sg,plen,f
-,\n
-а=CONJ=
-_
-с=PR=
-_
-восток=S,geo,m,inan=gen,sg
-_
-снова=ADV=
-_
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-колесница=S,f,inan=nom,sg
-_
-поднебесный=A=nom,sg,plen,f
-.\n\n
+{в=PR=} {промежуток=S,m,inan=(acc,pl|nom,pl)} {между=PR=} {гроза=S,f,inan=ins,pl},
+{мрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {яркость=S,f,inan=ins,sg} {богатый=A=(acc,pl,plen,inan|nom,pl,plen)},
+{над=PR=} {притихать=V,intr=praet,ins,pl,partcp,plen,pf,act} {береза=S,f,inan=ins,pl}
+{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {стоять=V,ipf,intr=inpraes,pl,indic,3p} {крылатый=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{чуть=ADV=} {гроза=S,f,inan=nom,sg} {на=PR=} {запад=S,geo,m,inan=(acc,sg|nom,sg)} {спрятаться=V,pf,intr=inpraes,sg,indic,3p}
+{и=CONJ=} {наставать=V,intr=inpraes,sg,indic,3p,pf} {тишь=S,f,inan=(acc,sg|nom,sg)} {чудесный=A=nom,sg,plen,f},
+{а=CONJ=} {с=PR=} {восток=S,geo,m,inan=gen,sg} {снова=ADV=} {катиться=V,ipf,intr=inpraes,sg,indic,3p}
+{колесница=S,f,inan=nom,sg} {поднебесный=A=nom,sg,plen,f}.
+

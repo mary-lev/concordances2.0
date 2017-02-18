@@ -1,78 +1,14 @@
-где-то=ADVPRO=
-_
-белый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-медведь=S,m,anim=nom,pl
-_\n
-на=PR=
-_
-такой=APRO=(abl,sg,m|abl,sg,n)
-_
-же=PART=
-_
-белый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-лед=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\n
-повторять=V,tran=inpraes,pl,indic,3p,ipf
-_\xAB
-бук=S,m,inan=(acc,pl|nom,pl)
--
-вести=V,ipf,tran=sg,imper,2p
-\xBB,_\n
-приниматься=V,intr=inpraes,ger,ipf
-_
-за=PR=
-_
-еда=S,sg,f,inan=acc
-.\n\n
-где-то=ADVPRO=
-_
-рыжий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-верблюд=S,m,anim=nom,pl
-_\n
-на=PR=
-_
-оранжевый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-песок=S,m,inan=abl,sg
-_\n
-опасаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-простуда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-напевать=V,tran=inpraes,ger,ipf
-_\xAB
-бре?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
--
-ке??
--
-ке??
-\xBB.\n\n
-все=SPRO,pl=(acc|nom)
-_
-всегда=ADVPRO=
-,_
-когда-то=ADVPRO=
-,_
-где-то=ADVPRO=
-_\n
-время=S,n,inan=(acc,sg|nom,sg)
-_
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-ползти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-я=SPRO,sg,1p=(abl|dat)
-_
-шестерик=S,m,inan=ins,sg
-_
-карета=S,f,inan=nom,sg
-_\n
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-привозить=V=inpraes,sg,indic,3p,pf
-.\n
+{где-то=ADVPRO=} {белый=A=(acc,pl,plen,inan|nom,pl,plen)} {медведь=S,m,anim=nom,pl} 
+{на=PR=} {такой=APRO=(abl,sg,m|abl,sg,n)} {же=PART=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {лед=S,m,inan=(dat,sg|part,sg|loc,sg)} 
+{повторять=V,tran=inpraes,pl,indic,3p,ipf} «{бук=S,m,inan=(acc,pl|nom,pl)}-{вести=V,ipf,tran=sg,imper,2p}», 
+{приниматься=V,intr=inpraes,ger,ipf} {за=PR=} {еда=S,sg,f,inan=acc}.
+
+{где-то=ADVPRO=} {рыжий=A=(acc,pl,plen,inan|nom,pl,plen)} {верблюд=S,m,anim=nom,pl} 
+{на=PR=} {оранжевый=A=(abl,sg,plen,m|abl,sg,plen,n)} {песок=S,m,inan=abl,sg} 
+{опасаться=V,ipf,intr=inpraes,pl,indic,3p} {простуда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{напевать=V,tran=inpraes,ger,ipf} «{бре?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{ке??}-{ке??}».
+
+{все=SPRO,pl=(acc|nom)} {всегда=ADVPRO=}, {когда-то=ADVPRO=}, {где-то=ADVPRO=} 
+{время=S,n,inan=(acc,sg|nom,sg)} {глупый=A=(acc,sg,plen,n|nom,sg,plen,n)} {ползти=V,ipf,intr=inpraes,sg,indic,3p}.
+{я=SPRO,sg,1p=(abl|dat)} {шестерик=S,m,inan=ins,sg} {карета=S,f,inan=nom,sg} 
+{ничто=SPRO,sg,n=gen} {не=PART=} {привозить=V=inpraes,sg,indic,3p,pf}.

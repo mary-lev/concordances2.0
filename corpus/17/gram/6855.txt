@@ -1,64 +1,9 @@
-история=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-трюм=S,m,inan=(acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-поколение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-маяться=V,ipf,intr=inpraes,pl,indic,3p
-,_\n
-откуда=ADVPRO=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-шурум-бурум=S,m,inan=(acc,sg|nom,sg)
-_\n
-к=PR=
-_
-вершина=S,f,inan=dat,pl
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-подниматься=V,intr=inpraes,sg,indic,3p,ipf
-,\n\n
-и=CONJ=
-_
-там=ADVPRO=
-_
-на=PR=
-_
-девственный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-снег=S,m,inan=(dat,sg|part,sg|loc,sg)
-_\n
-ложиться=V,intr=inpraes,sg,indic,3p,ipf
-_
-черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-слой=S,m,inan=ins,sg
-_
-копоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-..._\n\xAB
-довольно=ADV=
-!_
-больше=ADV=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-!\xBB_\u2014_\n
-поставлять=V,tran=pl,imper,2p,pf
-_
-к=PR=
-_
-стенка=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-ухлопывать=V,tran=pl,imper,2p,pf
-!\n
+{история=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {трюм=S,m,inan=(acc,sg|nom,sg)},
+{где=ADVPRO=} {наш=APRO=(nom,pl|acc,pl,inan)} {поколение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {маяться=V,ipf,intr=inpraes,pl,indic,3p}, 
+{откуда=ADVPRO=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {шурум-бурум=S,m,inan=(acc,sg|nom,sg)} 
+{к=PR=} {вершина=S,f,inan=dat,pl} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {подниматься=V,intr=inpraes,sg,indic,3p,ipf},
+
+{и=CONJ=} {там=ADVPRO=} {на=PR=} {девственный=A=(abl,sg,plen,m|abl,sg,plen,n)} {снег=S,m,inan=(dat,sg|part,sg|loc,sg)} 
+{ложиться=V,intr=inpraes,sg,indic,3p,ipf} {черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слой=S,m,inan=ins,sg} {копоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}... 
+«{довольно=ADV=}! {больше=ADV=} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}!» — 
+{поставлять=V,tran=pl,imper,2p,pf} {к=PR=} {стенка=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {ухлопывать=V,tran=pl,imper,2p,pf}!

@@ -1,134 +1,19 @@
-я=SPRO,sg,1p=nom
-_
-только=PART=
-_
-девочка=S,f,anim=nom,sg
-._
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-долг=S,m,inan=(acc,sg|nom,sg)
-\n
-до=PR=
-_
-брачный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-венец=S,m,inan=gen,sg
-\n
-не=PART=
-_
-забывать=V=inf,ipf,tran
-,_
-что=CONJ=
-_
-всюду=ADVPRO=
-_\u2014_
-волк=S,m,anim=nom,sg
-\n
-и=CONJ=
-_
-помнить=V,ipf,tran=inf
-:_
-я=SPRO,sg,1p=nom
-_\u2014_
-овца=S,f,anim=nom,sg
-.\n\n
-мечтать=V,ipf,intr=inf
-_
-о=PR=
-_
-замок=S,m,inan=abl,sg
-_
-золото=S,sg,n,inan=ins
-,\n
-качать=V,ipf,tran=inf
-,_
-кружить=V,ipf,tran=inf
-,_
-трясти=V,ipf,tran=inf
-\n
-сначала=ADV=
-_
-кукла=S,f=(acc,sg,inan|acc,sg,anim)
-,_
-а=CONJ=
-_
-потом=ADVPRO=
-\n
-не=PART=
-_
-кукла=S,f=(acc,sg,inan|acc,sg,anim)
-,_
-а=CONJ=
-_
-почти=ADV=
-.\n\n
-в=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-_
-не=PART=
-_
-быть=V,intr=inf,ipf
-_
-метать=V,ipf=inpraes,sg,indic,1p
-,\n
-не=PART=
-_
-зазвенеть=V,pf,intr=inf
-_
-струна=S,f,inan=(abl,sg|dat,sg)
-.\n
-я=SPRO,sg,1p=nom
-_
-только=PART=
-_
-девочка=S,f,anim=nom,sg
-,_\u2014_
-молчать=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-ах=INTJ=
-,_
-если=CONJ=
-_
-бы=PART=
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-\n\n
-взглядывать=V,intr=praet,ger,pf
-_
-на=PR=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-знать=V,ipf,tran=inf
-,_
-что=CONJ=
-_
-там=ADVPRO=
-\n
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-звезда=S,f,inan=nom,sg
-_
-зажигаться=V,intr=praet,sg,indic,f,pf
-\n
-и=CONJ=
-_
-улыбаться=V,intr=inf,ipf
-_
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-глаз=S,m,inan=dat,pl
-,\n
-не=PART=
-_
-опускать=V=inpraes,ger,ipf,tran
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-!\n
+{я=SPRO,sg,1p=nom} {только=PART=} {девочка=S,f,anim=nom,sg}. {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {долг=S,m,inan=(acc,sg|nom,sg)}
+{до=PR=} {брачный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {венец=S,m,inan=gen,sg}
+{не=PART=} {забывать=V=inf,ipf,tran}, {что=CONJ=} {всюду=ADVPRO=} — {волк=S,m,anim=nom,sg}
+{и=CONJ=} {помнить=V,ipf,tran=inf}: {я=SPRO,sg,1p=nom} — {овца=S,f,anim=nom,sg}.
+
+{мечтать=V,ipf,intr=inf} {о=PR=} {замок=S,m,inan=abl,sg} {золото=S,sg,n,inan=ins},
+{качать=V,ipf,tran=inf}, {кружить=V,ipf,tran=inf}, {трясти=V,ipf,tran=inf}
+{сначала=ADV=} {кукла=S,f=(acc,sg,inan|acc,sg,anim)}, {а=CONJ=} {потом=ADVPRO=}
+{не=PART=} {кукла=S,f=(acc,sg,inan|acc,sg,anim)}, {а=CONJ=} {почти=ADV=}.
+
+{в=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=(abl,sg|dat,sg)} {не=PART=} {быть=V,intr=inf,ipf} {метать=V,ipf=inpraes,sg,indic,1p},
+{не=PART=} {зазвенеть=V,pf,intr=inf} {струна=S,f,inan=(abl,sg|dat,sg)}.
+{я=SPRO,sg,1p=nom} {только=PART=} {девочка=S,f,anim=nom,sg}, — {молчать=V,ipf,intr=inpraes,sg,indic,1p}.
+{ах=INTJ=}, {если=CONJ=} {бы=PART=} {и=CONJ=} {я=SPRO,sg,1p=(abl|dat)}
+
+{взглядывать=V,intr=praet,ger,pf} {на=PR=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {знать=V,ipf,tran=inf}, {что=CONJ=} {там=ADVPRO=}
+{и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {звезда=S,f,inan=nom,sg} {зажигаться=V,intr=praet,sg,indic,f,pf}
+{и=CONJ=} {улыбаться=V,intr=inf,ipf} {весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {глаз=S,m,inan=dat,pl},
+{не=PART=} {опускать=V=inpraes,ger,ipf,tran} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}!

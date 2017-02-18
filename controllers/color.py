@@ -82,18 +82,23 @@ def author(): # отображение данных по цветообозна�
 
 def author_all_color():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
+    authors = trymysql().select(trymysql.author.ALL)
     result = []
     test_words = ['сизый']
-    for all in test_words:
-        rows = d((d.mystem.word==all)&(d.mystem.author==request.args(0))).select()
-        word_title_number = [[w.title, int(w.id)] for w in rows]
-        result.append(word_title_number)
-    before_text = []
-    for res in result:
-        for r in res:
-            gram_text_words = ' '.join([w.word for w in d((d.mystem.title==int(r[0]))&(d.mystem.id<r[1])).select()])
-            before_text.append(gram_text_words)
-    return dict(before_text=before_text)
+    for all in color2:
+        color_list = []
+        pros = [p.pro for p in trymysql(trymysql.slovar1.word==all).select()]
+        pros.append(all)
+        rows = d((d.mystem.word.belongs(pros))&(d.mystem.author==request.args(0))).select()
+        for r in rows:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '/' + str(r.title) + '.txt'
+            with open(filename, 'rb') as f:
+                text = f.readlines()
+            corpus_text = text[int(r.location)-1]
+            text = trymysql(trymysql.text1.id == r.title).select()[0]
+            color_list.append([corpus_text, text])
+        result.append([all, color_list])
+    return dict(text=result, author = author1, authors=authors)
 
 @auth.requires_login()
 def author_index(): # сохраняем авторские данные в текстовый файл для ускорения рисования кружочков

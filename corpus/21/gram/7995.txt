@@ -1,134 +1,24 @@
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-говорить=V,ipf,tran=inf
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-совсем=ADV=
-_
-подходить=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)
-.\n
-оплетать=V=sg,imper,2p,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-синева=S,f,inan=nom,sg
-,\n
-нить=S,f,inan=ins,pl
-_
-тонко=ADV=
-_
-звенящий=A=ins,pl,plen
-!\n\n
-из=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-цепь=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-неволя=S,f,inan=gen,pl
-\n
-вырывать=V,tran=inpraes,pl,indic,3p,ipf
-_
-строка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-неверный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-где=ADVPRO=
-_
-каждый=APRO=(acc,sg,n|nom,sg,n)
-_
-слово=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-пароль=S,m,inan=(acc,sg|nom,sg)
-\n
-проникать=V,intr=inf,pf
-_
-в=PR=
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вечерний=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-мучительный=A=pl,brev
-_
-ваш=APRO=(nom,pl|acc,pl,inan)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-словно=CONJ=
-_
-к=PR=
-_
-крест=S,m,inan=dat,sg
-_
-пригвождать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)
-.\n
-я=SPRO,sg,1p=(abl|dat)
-_
-вечер=S,m,inan=ins,sg
-_
-шептать=V,ipf,tran=inpraes,sg,indic,3p
-_
-трава=S,f,inan=nom,sg
-\n
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-ласково=ADV=
--
-сонный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-очищать=V=inpraes,pl,indic,3p,ipf,tran
-_
-от=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-неволя=S,f,inan=gen,pl
-\n
-рифма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-однообразный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-утихать=V,intr=inpraes,sg,indic,3p,ipf
-_
-ветхий=A=nom,sg,plen,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-\n
-под=PR=
-_
-напев=S,m,inan=(acc,pl|nom,pl)
-_
-грустно=ADV=
--
-бесстрастный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-вольно=ADV=
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-_
-синева=S,f,inan=nom,sg
-\n
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-неясно=ADV=
-_
-звенеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)
-.\n
-рождать=V,ipf,tran=inpraes,pl,indic,3p
-_
-тайна=S,f,inan=acc,sg
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-не=PART=
-_
-совсем=ADV=
-_
-подходить=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)
-.\n
+{любить=V,ipf,tran=inpraes,sg,indic,1p} {говорить=V,ipf,tran=inf} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{не=PART=} {совсем=ADV=} {подходить=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)}.
+{оплетать=V=sg,imper,2p,pf} {я=SPRO,sg,1p=(acc|gen)}, {синева=S,f,inan=nom,sg},
+{нить=S,f,inan=ins,pl} {тонко=ADV=} {звенящий=A=ins,pl,plen}!
+
+{из=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {цепь=S,f,inan=gen,pl} {и=CONJ=} {неволя=S,f,inan=gen,pl}
+{вырывать=V,tran=inpraes,pl,indic,3p,ipf} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {неверный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{где=ADVPRO=} {каждый=APRO=(acc,sg,n|nom,sg,n)} {слово=S,n,inan=(acc,sg|nom,sg)} — {пароль=S,m,inan=(acc,sg|nom,sg)}
+{проникать=V,intr=inf,pf} {в=PR=} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вечерний=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{мучительный=A=pl,brev} {ваш=APRO=(nom,pl|acc,pl,inan)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{словно=CONJ=} {к=PR=} {крест=S,m,inan=dat,sg} {пригвождать=V=(praet,acc,pl,partcp,plen,pf,pass,inan,tran|praet,nom,pl,partcp,plen,pf,pass,tran)}.
+{я=SPRO,sg,1p=(abl|dat)} {вечер=S,m,inan=ins,sg} {шептать=V,ipf,tran=inpraes,sg,indic,3p} {трава=S,f,inan=nom,sg}
+{речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ласково=ADV=}-{сонный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{очищать=V=inpraes,pl,indic,3p,ipf,tran} {от=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {неволя=S,f,inan=gen,pl}
+{рифма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {однообразный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{утихать=V,intr=inpraes,sg,indic,3p,ipf} {ветхий=A=nom,sg,plen,f} {боль=S,f,inan=(acc,sg|nom,sg)}
+{под=PR=} {напев=S,m,inan=(acc,pl|nom,pl)} {грустно=ADV=}-{бесстрастный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{вольно=ADV=} {петь=V,ipf,tran=inpraes,sg,indic,3p} {синева=S,f,inan=nom,sg}
+{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {неясно=ADV=} {звенеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}.
+{рождать=V,ipf,tran=inpraes,pl,indic,3p} {тайна=S,f,inan=acc,sg} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{не=PART=} {совсем=ADV=} {подходить=V,intr=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)}.

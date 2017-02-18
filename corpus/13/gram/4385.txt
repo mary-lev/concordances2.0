@@ -1,170 +1,21 @@
-персидский=A=nom,sg,plen,f
-_
-сирень=S,f,inan=(acc,sg|nom,sg)
-!_\xAB
-двенадцатый=ANUM=nom,sg,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-\xBB.\n
-желтеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-кожа=S,f,inan=ins,sg
-_
-водораздел=S,m,inan=(acc,sg|nom,sg)
-_
-желание=S,n,inan=gen,pl
-.\n
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-за=PR=
-_
-прялка=S,f,inan=ins,sg
-_
-придурковатый=A=sg,brev,n
-_
-дочь=S,f,anim=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-не=PART=
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-_
-поить=V,ipf,tran=inf
-_
-псаломский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лань=S,f,anim=(acc,pl|gen,pl)
-.\n
-без=PR=
-_
-звонок=S,m,inan=gen,sg
-,_
-через=PR=
-_
-кухня=S,f,inan=acc,sg
-,_
-миновать=V,tran=inpraes,ger,ipf
-_
-швейцар=S,m,anim=(acc,sg|gen,sg)
-,\n
-не=PART=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-не=PART=
-_
-прямо=PART=
-,_
-прямо=PART=
-_
-и=CONJ=
-_
-просто=ADV=
-\n
-и=CONJ=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-,\n
-как=CONJ=
-_
-заказной=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-письмо=S,n,inan=(acc,sg|nom,sg)
-\n
-с=PR=
-_
-точный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-адрес=S,m,inan=ins,sg
-_
-под=PR=
-_
-расписка=S,f,inan=acc,sg
-,\n
-вы=SPRO,pl,2p=nom
-_
-приходить=V,intr=praet,pl,indic,pf
-.\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-глаз=S,m,inan=ins,pl
-_(
-чем=CONJ=
-_
-же=PART=
-?)\n
-очень=ADV=
-_
-белый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,\n
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-волос=S,m,inan=(acc,pl|nom,pl)
-,\n
-высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-для=PR=
-_
-год=S,m,inan=gen,pl
-_
-рост=S,m,inan=(acc,sg|nom,sg)
-.\n
-все=SPRO,pl=(acc|nom)
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-не=PART=
-_
-так=ADVPRO=
-.\n
-я=SPRO,sg,1p=nom
-_
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-не=PART=
-_
-глаз=S,m,inan=ins,pl
-,\n
-не=PART=
-_
-ухо=S,n,inan=ins,pl
-_
-я=SPRO,sg,1p=nom
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-:\n
-от=PR=
-_
-желтый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-обои=S,pl,inan=gen
-_
-петь=V,ipf,tran=praet,sg,indic,n
-\n
-шекспировский=A=pl,brev
-_
-плотный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-тело=S,n,inan=(acc,sg|nom,sg)
-:\n\u2014_\xAB
-за=PR=
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-,_
-лентяйка=S,f,anim=nom,sg
-,_
-за=PR=
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-\xBB.\n
+{персидский=A=nom,sg,plen,f} {сирень=S,f,inan=(acc,sg|nom,sg)}! «{двенадцатый=ANUM=nom,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)}».
+{желтеть=V,ipf,intr=inpraes,sg,indic,3p} {кожа=S,f,inan=ins,sg} {водораздел=S,m,inan=(acc,sg|nom,sg)} {желание=S,n,inan=gen,pl}.
+{сидеть=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {прялка=S,f,inan=ins,sg} {придурковатый=A=sg,brev,n} {дочь=S,f,anim=(acc,sg|nom,sg)},
+{и=CONJ=} {не=PART=} {идти=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom} {поить=V,ipf,tran=inf} {псаломский?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лань=S,f,anim=(acc,pl|gen,pl)}.
+{без=PR=} {звонок=S,m,inan=gen,sg}, {через=PR=} {кухня=S,f,inan=acc,sg}, {миновать=V,tran=inpraes,ger,ipf} {швейцар=S,m,anim=(acc,sg|gen,sg)},
+{не=PART=} {один=APRO=(acc,sg,m,inan|nom,sg,m)}, {не=PART=} {прямо=PART=}, {прямо=PART=} {и=CONJ=} {просто=ADV=}
+{и=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)},
+{как=CONJ=} {заказной=A=(acc,sg,plen,n|nom,sg,plen,n)} {письмо=S,n,inan=(acc,sg|nom,sg)}
+{с=PR=} {точный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {адрес=S,m,inan=ins,sg} {под=PR=} {расписка=S,f,inan=acc,sg},
+{вы=SPRO,pl,2p=nom} {приходить=V,intr=praet,pl,indic,pf}.
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {глаз=S,m,inan=ins,pl} ({чем=CONJ=} {же=PART=}?)
+{очень=ADV=} {белый=A=(acc,sg,plen,n|nom,sg,plen,n)} {лицо=S,n,inan=(acc,sg|nom,sg)},
+{светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {волос=S,m,inan=(acc,pl|nom,pl)},
+{высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {для=PR=} {год=S,m,inan=gen,pl} {рост=S,m,inan=(acc,sg|nom,sg)}.
+{все=SPRO,pl=(acc|nom)} {быть=V,intr=praet,sg,indic,n,ipf} {не=PART=} {так=ADVPRO=}.
+{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=praet,sg,indic,m} {не=PART=} {глаз=S,m,inan=ins,pl},
+{не=PART=} {ухо=S,n,inan=ins,pl} {я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=praet,sg,indic,m}:
+{от=PR=} {желтый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {обои=S,pl,inan=gen} {петь=V,ipf,tran=praet,sg,indic,n}
+{шекспировский=A=pl,brev} {плотный=A=(acc,sg,plen,n|nom,sg,plen,n)} {тело=S,n,inan=(acc,sg|nom,sg)}:
+— «{за=PR=} {дело=S,n,inan=(acc,sg|nom,sg)}, {лентяйка=S,f,anim=nom,sg}, {за=PR=} {дело=S,n,inan=(acc,sg|nom,sg)}».

@@ -1,100 +1,19 @@
-голубь=S,m,anim=nom,pl
-_
-реять=V,ipf,intr=inpraes,pl,indic,3p
-_
-серебряный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-растерянный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-вечерний=A=(acc,pl,plen,inan|nom,pl,plen)
-...\n
-материнский=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-благословение=S,n,inan=(acc,sg|nom,sg)
-\n
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-жалобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-вороненок=S,m,anim=nom,sg
-.\n\n
-иссиня-черный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-исчерна?=ADV=
--\n
-синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-оперение=S,n,inan=(acc,sg|nom,sg)
-.\n
-жесткий=A=nom,sg,plen,f
-,_
-жадный=A=nom,sg,plen,f
-,_
-жаркий=A=nom,sg,plen,f
-\n
-масть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-быть=V,intr=praet,sg,indic,n,ipf
-_
-еще=ADV=
-_
-двое=NUM=(nom|acc,inan)
-\n
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-же=PART=
-_
-масть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-молния=S,f,inan=ins,sg
-_
-сгасать?=V,intr=praet,pl,indic,pf
-!\n
-лермонтов=S,famn,m,anim=nom,sg
-,_
-бонапарт=S,famn,m,anim=nom,sg
-.\n\n
-выпускать=V=praet,sg,indic,f,pf
-_
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-,\n
-лететь=V,ipf,intr=sg,imper,2p
-_
-себя=SPRO=(abl|dat)
-,_
-лететь=V,ipf,intr=sg,imper,2p
-,_
-болезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-смиренный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-благословенный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-голубь=S,m,anim=nom,pl
-_
-реять=V,ipf,intr=inpraes,pl,indic,3p
-_
-серебряный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-серебряный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n
+{голубь=S,m,anim=nom,pl} {реять=V,ipf,intr=inpraes,pl,indic,3p} {серебряный=A=(acc,pl,plen,inan|nom,pl,plen)}, {растерянный=A=(acc,pl,plen,inan|nom,pl,plen)}, {вечерний=A=(acc,pl,plen,inan|nom,pl,plen)}...
+{материнский=A=(acc,sg,plen,n|nom,sg,plen,n)} {мой=APRO=(acc,sg,n|nom,sg,n)} {благословение=S,n,inan=(acc,sg|nom,sg)}
+{над=PR=} {ты=SPRO,sg,2p=ins}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {жалобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{вороненок=S,m,anim=nom,sg}.
+
+{иссиня-черный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {исчерна?=ADV=}-
+{синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {твой=APRO=(acc,sg,n|nom,sg,n)} {оперение=S,n,inan=(acc,sg|nom,sg)}.
+{жесткий=A=nom,sg,plen,f}, {жадный=A=nom,sg,plen,f}, {жаркий=A=nom,sg,plen,f}
+{масть=S,f,inan=(acc,sg|nom,sg)}.
+
+{быть=V,intr=praet,sg,indic,n,ipf} {еще=ADV=} {двое=NUM=(nom|acc,inan)}
+{тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} {масть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {молния=S,f,inan=ins,sg} {сгасать?=V,intr=praet,pl,indic,pf}!
+{лермонтов=S,famn,m,anim=nom,sg}, {бонапарт=S,famn,m,anim=nom,sg}.
+
+{выпускать=V=praet,sg,indic,f,pf} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)},
+{лететь=V,ipf,intr=sg,imper,2p} {себя=SPRO=(abl|dat)}, {лететь=V,ipf,intr=sg,imper,2p}, {болезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{смиренный=A=(acc,pl,plen,inan|nom,pl,plen)}, {благословенный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{голубь=S,m,anim=nom,pl} {реять=V,ipf,intr=inpraes,pl,indic,3p} {серебряный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} {над=PR=} {ты=SPRO,sg,2p=ins}.

@@ -1,58 +1,9 @@
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-брат=S,m,anim=nom,pl
-_
-в=PR=
-_
-жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-!\n
-я=SPRO,sg,1p=(abl|dat)
-_
-жалко=ADV=parenth
-_
-нищий=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-и=CONJ=
-_
-царь=S,m,anim=(acc,pl|gen,pl)
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-жалко=ADV=parenth
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-_
-и=CONJ=
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-...\n\n
-за=PR=
-_
-будущий=A=acc,sg,plen,f
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-за=PR=
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-венец=S,m,inan=gen,sg
-,\n
-за=PR=
-_
-тень=S,f,inan=(acc,sg|nom,sg)
-_
-сквозной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-деревце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n_\u2014_
-впалость=S,f,inan=(acc,sg|nom,sg)
-_
-плечи=S,pl,inan=gen
-...\n
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {брат=S,m,anim=nom,pl} {в=PR=} {жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}!
+{я=SPRO,sg,1p=(abl|dat)} {жалко=ADV=parenth} {нищий=S,m,anim=(abl,pl|acc,pl|gen,pl)} {и=CONJ=} {царь=S,m,anim=(acc,pl|gen,pl)},
+{я=SPRO,sg,1p=(abl|dat)} {жалко=ADV=parenth} {сын=S,m,anim=(acc,sg|gen,sg)} {и=CONJ=} {отец=S,m,anim=(acc,sg|gen,sg)}...
+
+{за=PR=} {будущий=A=acc,sg,plen,f} {тень=S,f,inan=(acc,sg|nom,sg)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{за=PR=} {тень=S,f,inan=(acc,sg|nom,sg)} {грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {венец=S,m,inan=gen,sg},
+{за=PR=} {тень=S,f,inan=(acc,sg|nom,sg)} {сквозной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {деревце=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+
+ — {впалость=S,f,inan=(acc,sg|nom,sg)} {плечи=S,pl,inan=gen}...

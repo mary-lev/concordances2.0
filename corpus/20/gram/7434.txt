@@ -1,58 +1,9 @@
-весь=APRO=acc,sg,f
-_
-душа=S,f,inan=acc,sg
-_
-не=PART=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-_\n\t
-нести=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-но=CONJ=
-_
-тщетно=ADV=
-:_\n
-как=CONJ=
-_
-тихий=A=nom,sg,plen,f
-_
-корделия?=S,persn,f,anim=nom,sg
-,\n\t
-ты=SPRO,sg,2p=nom
-_
-неответный?=A=sg,brev,f
-.\n\n
-заря=S,f,inan=nom,sg
-_
-над=PR=
-_
-сад=S,m,inan=ins,sg
-_
-красный=A=nom,sg,plen,f
-,\n\t
-но=CONJ=
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-_
-вечерня=S,f,inan=gen,pl
-.\n
-и=CONJ=
-,_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-напрасно=ADV=
-_
-я=SPRO,sg,1p=nom
-_\n\t
-ты=SPRO,sg,2p=(abl|dat)
-_
-так=ADVPRO=
-_
-верный=A=sg,brev,m
-.\n
+{весь=APRO=acc,sg,f} {душа=S,f,inan=acc,sg} {не=PART=} {ты=SPRO,sg,2p=(abl|dat)} {ли=PART=} {я=SPRO,sg,1p=nom} 
+	{нести=V,ipf,tran=inpraes,sg,indic,1p} — {но=CONJ=} {тщетно=ADV=}: 
+{как=CONJ=} {тихий=A=nom,sg,plen,f} {корделия?=S,persn,f,anim=nom,sg},
+	{ты=SPRO,sg,2p=nom} {неответный?=A=sg,brev,f}.
+
+{заря=S,f,inan=nom,sg} {над=PR=} {сад=S,m,inan=ins,sg} {красный=A=nom,sg,plen,f},
+	{но=CONJ=} {сад=S,m,inan=(acc,sg|nom,sg)} {вечерня=S,f,inan=gen,pl}.
+{и=CONJ=}, {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {напрасно=ADV=} {я=SPRO,sg,1p=nom} 
+	{ты=SPRO,sg,2p=(abl|dat)} {так=ADVPRO=} {верный=A=sg,brev,m}.

@@ -1,112 +1,14 @@
-ты=SPRO,sg,2p=nom
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-дорога=S,f,inan=ins,sg
-_
-проезжий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-трудолюбивый=A=sg,brev,m
-,\n
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-парить=V,ipf,tran=praet,sg,indic,m
-_
-в=PR=
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-осколок=S,m,inan=(acc,pl|nom,pl)
-_
-раздроблять=V,tran=praet,ger,pf
-!\n\n
-ты=SPRO,sg,2p=nom
-_
-робко=ADV=
-_
-петь=V,ipf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-робко=ADV=
-_
-идти=V,ipf,intr=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=nom
-,\n
-бояться=V,ipf,intr=inpraes,ger
-_
-прохожий=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-обгонять=V=inf,pf
-...\n
-лист=S,m,inan=(acc,sg|nom,sg)
-_
-зеленеть=V,ipf,intr=praet,sg,indic,m
-,_
-потом=ADVPRO=
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\u2014\n
-зазеленеть=V,pf,intr=inpraes,sg,indic,3p
-_
-ли=PART=
-?_\u2014_
-как=ADVPRO=
-_
-знать=V,ipf,tran=inf
-!\n\n
-ты=SPRO,sg,2p=nom
-_
-изменять=V,tran=praet,sg,indic,m,pf
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-_
-и=CONJ=
-_
-нимфа=S,f,anim=(abl,sg|dat,sg)
-,\n
-измена=S,f,inan=ins,sg
-_
-поругать=V,pf,tran=praet,ger
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-но=CONJ=
-_
-пусть=PART=
-_
-шалаш=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-на=PR=
-_
-олимп=S,geo,m,inan=abl,sg
-_\u2014\n
-напротив=PR=
-_
-мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-дворец=S,m,inan=gen,sg
-!\n
+{ты=SPRO,sg,2p=nom} {идти=V,ipf,intr=praet,sg,indic,m} {дорога=S,f,inan=ins,sg} {проезжий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{и=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {шаг=S,m,inan=(acc,sg|nom,sg)} {трудолюбивый=A=sg,brev,m},
+{а=CONJ=} {я=SPRO,sg,1p=nom} {парить=V,ipf,tran=praet,sg,indic,m} {в=PR=} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {осколок=S,m,inan=(acc,pl|nom,pl)} {раздроблять=V,tran=praet,ger,pf}!
+
+{ты=SPRO,sg,2p=nom} {робко=ADV=} {петь=V,ipf,tran=praet,sg,indic,m} {и=CONJ=} {робко=ADV=} {идти=V,ipf,intr=praet,sg,indic,m} {ты=SPRO,sg,2p=nom},
+{бояться=V,ipf,intr=inpraes,ger} {прохожий=S,m,anim=(abl,pl|acc,pl|gen,pl)} {обгонять=V=inf,pf}...
+{лист=S,m,inan=(acc,sg|nom,sg)} {зеленеть=V,ipf,intr=praet,sg,indic,m}, {потом=ADVPRO=} {становиться=V,intr=praet,sg,indic,m,pf} {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},—
+{зазеленеть=V,pf,intr=inpraes,sg,indic,3p} {ли=PART=}? — {как=ADVPRO=} {знать=V,ipf,tran=inf}!
+
+{ты=SPRO,sg,2p=nom} {изменять=V,tran=praet,sg,indic,m,pf} {луна=S,f,inan=(abl,sg|dat,sg)} {и=CONJ=} {нимфа=S,f,anim=(abl,sg|dat,sg)},
+{измена=S,f,inan=ins,sg} {поругать=V,pf,tran=praet,ger} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{но=CONJ=} {пусть=PART=} {шалаш=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {на=PR=} {олимп=S,geo,m,inan=abl,sg} —
+{напротив=PR=} {мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {дворец=S,m,inan=gen,sg}!

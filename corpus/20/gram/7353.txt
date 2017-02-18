@@ -1,81 +1,14 @@
-\t
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-как=CONJ=
-_
-пена=S,f,inan=nom,sg
-,\n
-невозвратимый=A=pl,brev
-_
-и=CONJ=
-_
-ничтожный=A=pl,brev
-.\n\t
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-измена=S,f,inan=nom,sg
-,\n
-когда=CONJ=
-_
-молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-невозможный=A=pl,brev
-.\n\n\t
-пусть=PART=
-_
-длиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-дление?=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-не=PART=
-_
-я=SPRO,sg,1p=nom
-_
-безмолвие=S,n,inan=(acc,sg|nom,sg)
-_
-нарушать=V,tran=inpraes,sg,indic,1p,pf
-.\n\t
-но=CONJ=
-_
-исцеление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-сходить=V,intr=inpraes,sg,indic,3p,pf
-_
-ли=PART=
-_
-в=PR=
-_
-замкнутый=A=acc,sg,plen,f
-_
-душа=S,f,inan=acc,sg
-?\n\n\t
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-надо=ADV,praed=
-\n
-сейчас=ADV=
-_
-молчание=S,n,inan=dat,sg
-_
-покоряться=V,intr=inf,pf
-.\n\t
-но=CONJ=
-_
-в=PR=
-_
-тот=APRO=(abl,sg,m|abl,sg,n)
-_
-отрада=S,f,inan=nom,sg
-,\n
-что=CONJ=
-_
-дление?=S,n,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-вечно=ADV=
-_
-длиться=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+	{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {как=CONJ=} {пена=S,f,inan=nom,sg},
+{невозвратимый=A=pl,brev} {и=CONJ=} {ничтожный=A=pl,brev}.
+	{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {измена=S,f,inan=nom,sg},
+{когда=CONJ=} {молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {невозможный=A=pl,brev}.
+
+	{пусть=PART=} {длиться=V,ipf,intr=inpraes,sg,indic,3p} {дление?=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{не=PART=} {я=SPRO,sg,1p=nom} {безмолвие=S,n,inan=(acc,sg|nom,sg)} {нарушать=V,tran=inpraes,sg,indic,1p,pf}.
+	{но=CONJ=} {исцеление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{сходить=V,intr=inpraes,sg,indic,3p,pf} {ли=PART=} {в=PR=} {замкнутый=A=acc,sg,plen,f} {душа=S,f,inan=acc,sg}?
+
+	{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {надо=ADV,praed=}
+{сейчас=ADV=} {молчание=S,n,inan=dat,sg} {покоряться=V,intr=inf,pf}.
+	{но=CONJ=} {в=PR=} {тот=APRO=(abl,sg,m|abl,sg,n)} {отрада=S,f,inan=nom,sg},
+{что=CONJ=} {дление?=S,n,inan=(acc,sg|nom,sg)} {не=PART=} {вечно=ADV=} {длиться=V,ipf,intr=inpraes,sg,indic,3p}.

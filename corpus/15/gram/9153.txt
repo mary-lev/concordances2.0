@@ -1,116 +1,14 @@
-красный=A=nom,sg,plen,f
-_
-горка=S,geo,f,inan=nom,sg
-._
-парень=S,m,anim=nom,pl
-_
-и=CONJ=
-_
-девица=S,f,anim=(gen,sg|nom,pl)
-\n
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-обливать=V=inpraes,pl,indic,3p,ipf,tran
-_
-вода=S,f,inan=ins,sg
-_
-ключевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-липка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-березка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-хмельной=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-в=PR=
-_
-небо=S,n,inan=abl,sg
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-.\n
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-разливаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-влага=S,f,inan=ins,sg
-_
-живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-красный=A=nom,sg,plen,f
-_
-горка=S,geo,f,inan=nom,sg
-_
-радость=S,f,inan=gen,pl
-_
-пасхальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-брызги=S,pl,inan=(acc|nom)
-_
-веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-влажность=S,f,inan=gen,pl
-_
-живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-светлый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-взгляд=S,m,inan=gen,pl
-_
-обручальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-земля=S,f,inan=acc,sg
-_\u2014_
-в=PR=
-_
-луч=S,m,inan=abl,pl
-_
-идти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-стих=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-красный=A=nom,sg,plen,f
-_
-горка=S,geo,f,inan=nom,sg
-,_
-таинство=S,n,inan=(acc,sg|nom,sg)
-_
-мгновение=S,n,inan=gen,pl
-,\n
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-причастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-розовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-цвет=S,m,inan=ins,sg
-_
-утро=S,n,inan=(acc,sg|nom,sg)
-_
-обновление=S,n,inan=gen,pl
-\n
-праздновать=V,ipf,tran=inpraes,sg,indic,3p
-_
-сила=S,f,inan=acc,sg
-_
-смарагдовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{красный=A=nom,sg,plen,f} {горка=S,geo,f,inan=nom,sg}. {парень=S,m,anim=nom,pl} {и=CONJ=} {девица=S,f,anim=(gen,sg|nom,pl)}
+{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {обливать=V=inpraes,pl,indic,3p,ipf,tran} {вода=S,f,inan=ins,sg} {ключевой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{липка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {березка=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {хмельной=A=(acc,pl,plen,inan|nom,pl,plen)} {в=PR=} {небо=S,n,inan=abl,sg} {птица=S,f,anim=(gen,sg|nom,pl)}.
+{звон=S,m,inan=(acc,sg|nom,sg)} {разливаться=V,intr=inpraes,sg,indic,3p,ipf} {влага=S,f,inan=ins,sg} {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{красный=A=nom,sg,plen,f} {горка=S,geo,f,inan=nom,sg} {радость=S,f,inan=gen,pl} {пасхальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{брызги=S,pl,inan=(acc|nom)} {веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {влажность=S,f,inan=gen,pl} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{светлый=A=(acc,pl,plen,inan|nom,pl,plen)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {взгляд=S,m,inan=gen,pl} {обручальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {земля=S,f,inan=acc,sg} — {в=PR=} {луч=S,m,inan=abl,pl} {идти=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {стих=S,m,inan=(acc,sg|nom,sg)}.
+
+{красный=A=nom,sg,plen,f} {горка=S,geo,f,inan=nom,sg}, {таинство=S,n,inan=(acc,sg|nom,sg)} {мгновение=S,n,inan=gen,pl},
+{праздник=S,m,inan=(acc,sg|nom,sg)} {причастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{розовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {цвет=S,m,inan=ins,sg} {утро=S,n,inan=(acc,sg|nom,sg)} {обновление=S,n,inan=gen,pl}
+{праздновать=V,ipf,tran=inpraes,sg,indic,3p} {сила=S,f,inan=acc,sg} {смарагдовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

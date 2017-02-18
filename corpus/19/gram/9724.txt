@@ -1,74 +1,8 @@
-вот=PART=
-_
-кладбище=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-могила=S,f,inan=nom,sg
-.\n
-и=CONJ=
-_
-вокруг=ADV=
-_
-с=PR=
-_
-безучастие=S,n,inan=ins,sg
-_
-немой=S,m,anim=(dat,pl|ins,sg)
-\n
-собралася?=S,persn,mf,anim=nom,sg
-_
-толпа=S,f,inan=nom,sg
-._
-из=PR=
-_
-кадило=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-струйка=S,f,inan=ins,sg
-_
-ладан=S,m,inan=gen,sg
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-\n
-подыматься=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-расплываться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-и=CONJ=
-_
-мешаться=V,ipf,intr=inpraes,sg,indic,3p
-\n
-с=PR=
-_
-свежий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-запах=S,m,inan=ins,sg
-_
-лист=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-трава=S,f,inan=gen,pl
-,\n
-с=PR=
-_
-испарение=S,n,inan=ins,sg
-_
-гнить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-канава=S,f,inan=gen,pl
-.\n
+{вот=PART=} {кладбище=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {и=CONJ=} {гроб=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {могила=S,f,inan=nom,sg}.
+{и=CONJ=} {вокруг=ADV=} {с=PR=} {безучастие=S,n,inan=ins,sg} {немой=S,m,anim=(dat,pl|ins,sg)}
+{собралася?=S,persn,mf,anim=nom,sg} {толпа=S,f,inan=nom,sg}. {из=PR=} {кадило=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {струйка=S,f,inan=ins,sg} {ладан=S,m,inan=gen,sg} {дым=S,m,inan=(acc,sg|nom,sg)}
+{подыматься=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {расплываться=V,ipf,intr=inpraes,sg,indic,3p},
+{литься=V,ipf,intr=inpraes,sg,indic,3p} {запах=S,m,inan=(acc,sg|nom,sg)} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {и=CONJ=} {мешаться=V,ipf,intr=inpraes,sg,indic,3p}
+{с=PR=} {свежий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {запах=S,m,inan=ins,sg} {лист=S,m,inan=gen,pl} {и=CONJ=} {трава=S,f,inan=gen,pl},
+{с=PR=} {испарение=S,n,inan=ins,sg} {гнить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {канава=S,f,inan=gen,pl}.

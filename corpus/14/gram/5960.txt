@@ -1,33 +1,4 @@
-...
-горький=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-чаша=S,f,inan=acc,sg
-\n(
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-прощать=V=praet,pl,indic,pf
-_
-ничто=SPRO,sg,n=gen
-)\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ничто=SPRO,sg,n=gen
-_
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-прощать=V=inpraes,sg,indic,3p,pf
-\n
-и=CONJ=
-_
-даже=PART=
-_
-гибель=S,f,inan=(acc,sg|nom,sg)
-_
-наш=APRO=acc,sg,f
-.\n
+...{горький=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {чаша=S,f,inan=acc,sg}
+({мы=SPRO,pl,1p=dat} {не=PART=} {прощать=V=praet,pl,indic,pf} {ничто=SPRO,sg,n=gen})
+{что=SPRO,sg,n,inan=(acc|nom)} {ничто=SPRO,sg,n=gen} {мы=SPRO,pl,1p=dat} {не=PART=} {прощать=V=inpraes,sg,indic,3p,pf}
+{и=CONJ=} {даже=PART=} {гибель=S,f,inan=(acc,sg|nom,sg)} {наш=APRO=acc,sg,f}.

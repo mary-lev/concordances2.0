@@ -1,72 +1,9 @@
-в=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-отрывок=S,m,inan=abl,pl
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-герой=S,m,anim=(acc,sg|gen,sg)
-,\n
-незнакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-между=PR=
-_
-себя=SPRO=ins
-.\n
-но=CONJ=
-_
-общий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-что-то=SPRO,sg,n,inan=(acc|nom)
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-между=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-и=CONJ=
-_
-я=SPRO,sg,1p=ins
-.\n\n
-и=CONJ=
-_\u2014_
-прощать=V=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)
-,_
-читатель=S,m,anim=nom,sg
-,_
-заранее=ADV=
-:\n
-когда=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-встречаться=V,intr=inpraes,pl,indic,1p,ipf
-_
-в=PR=
-_
-песий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-,\n
-все=SPRO,pl=(acc|nom)
-_
-казаться=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-для=PR=
-_
-компания=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-третий=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-не=PART=
-_
-хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)
-_\u2014_
-вы=SPRO,pl,2p=(abl|acc|gen)
-.\n
+{в=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {отрывок=S,m,inan=abl,pl} {мы=SPRO,pl,1p=(abl|acc|gen)} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {герой=S,m,anim=(acc,sg|gen,sg)},
+{незнакомый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {между=PR=} {себя=SPRO=ins}.
+{но=CONJ=} {общий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {что-то=SPRO,sg,n,inan=(acc|nom)} {такой=APRO=(acc,sg,n|nom,sg,n)}
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {между=PR=} {он=SPRO,sg,3p,m=ins} {и=CONJ=} {я=SPRO,sg,1p=ins}.
+
+{и=CONJ=} — {прощать=V=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)}, {читатель=S,m,anim=nom,sg}, {заранее=ADV=}:
+{когда=CONJ=} {мы=SPRO,pl,1p=nom} {встречаться=V,intr=inpraes,pl,indic,1p,ipf} {в=PR=} {песий=A,plen=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)},
+{все=SPRO,pl=(acc|nom)} {казаться=V,ipf,intr=inpraes,sg,indic,3p} — {для=PR=} {компания=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{третий=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {не=PART=} {хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)} — {вы=SPRO,pl,2p=(abl|acc|gen)}.

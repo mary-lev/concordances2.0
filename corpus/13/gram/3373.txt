@@ -1,82 +1,14 @@
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-туча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гнать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-в=PR=
-_
-засиять=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-синева=S,f,inan=(abl,sg|dat,sg)
-_\n
-облак?=S,famn,m,anim=nom,sg
-_
-рваться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-облак?=S,m,inan=(acc,sg|nom,sg)
-_
-тонуть=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-отражаться=V,intr=praet,sg,indic,m,ipf
-_
-в=PR=
-_
-нева=S,geo,f,inan=(abl,sg|dat,sg)
-.\n\n
-словно=CONJ=
-_
-вздыбливать=V,tran=praet,ger,pf
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-конь=S,m,anim=(acc,pl|gen,pl)
-,_\n
-заскакивать=V=praet,pl,indic,pf
-_
-трубач=S,m,anim=nom,pl
-.\n
-взмылиться?=V,ipf,intr=inpraes,ger
-_
-бешеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-погоня=S,f,inan=ins,sg
-,_\n
-трепать=V,ipf,tran=inpraes,pl,indic,3p
-_
-грива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-космач=S,m,anim=nom,pl
-.\n\n
-пусть=PART=
-_
-нестись=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-буйный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-клок=S,m,inan=abl,pl
-_\n
-по=PR=
-_
-эмаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-о=PR=
-_
-весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-полномочие=S,n,inan=abl,pl
-_\n
-звонкий=A=ins,sg,plen,f
-_
-трубить=V,ipf,tran=inpraes,ger
-_
-труба=S,f,inan=ins,sg
-.\n
+{ветер=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гнать=V,ipf,tran=inpraes,sg,indic,3p},
+{в=PR=} {засиять=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {синева=S,f,inan=(abl,sg|dat,sg)} 
+{облак?=S,famn,m,anim=nom,sg} {рваться=V,ipf,intr=inpraes,sg,indic,3p}, {облак?=S,m,inan=(acc,sg|nom,sg)} {тонуть=V,ipf,intr=inpraes,sg,indic,3p}, 
+{отражаться=V,intr=praet,sg,indic,m,ipf} {в=PR=} {нева=S,geo,f,inan=(abl,sg|dat,sg)}.
+
+{словно=CONJ=} {вздыбливать=V,tran=praet,ger,pf} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {конь=S,m,anim=(acc,pl|gen,pl)}, 
+{заскакивать=V=praet,pl,indic,pf} {трубач=S,m,anim=nom,pl}.
+{взмылиться?=V,ipf,intr=inpraes,ger} {бешеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {погоня=S,f,inan=ins,sg}, 
+{трепать=V,ipf,tran=inpraes,pl,indic,3p} {грива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {космач=S,m,anim=nom,pl}.
+
+{пусть=PART=} {нестись=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {буйный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {клок=S,m,inan=abl,pl} 
+{по=PR=} {эмаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{о=PR=} {весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {полномочие=S,n,inan=abl,pl} 
+{звонкий=A=ins,sg,plen,f} {трубить=V,ipf,tran=inpraes,ger} {труба=S,f,inan=ins,sg}.

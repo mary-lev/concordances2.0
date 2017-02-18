@@ -1,94 +1,15 @@
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n\u2014_
-вот=PART=
-_
-и=CONJ=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-.\n
-догорать=V,intr=sg,imper,2p,ipf
-,_
-пожар=S,m,inan=(acc,sg|nom,sg)
-_
-огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-догорать=V,intr=sg,imper,2p,ipf
-_
-без=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-уходить=V,intr=inpraes,pl,indic,1p,ipf
-_
-в=PR=
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-млечность?=S,f,inan=(acc,sg|nom,sg)
-_\n
-звезда=S,f,inan=gen,pl
-,_
-сиять=V,ipf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-_
-зря=ADV=
-,\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-уводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-в=PR=
-_
-бесконечность=S,f,inan=(acc,sg|nom,sg)
-_\n
-черно=ADV=
--
-желтый=A=nom,sg,plen,f
-_
-заря=S,f,inan=nom,sg
-.\n\n
-и=CONJ=
-_
-потерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-бездомный=S,famn,m,anim=nom,sg
-_\n
-не=PART=
-_
-оглянуться=V,pf,intr=inpraes,sg,indic,3p
-_
-назад=ADV=
-.\n\u2014_
-догорать=V,intr=sg,imper,2p,ipf
-,_
-пожар=S,m,inan=(acc,sg|nom,sg)
-_
-огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!\n
-и=CONJ=
-_
-не=PART=
-_
-дрогнуть=V,pf,intr=inpraes,sg,indic,3p
-_
-факел=S,m,inan=(acc,sg|nom,sg)
-_
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-освещать=V,tran=inpraes,ger,ipf
-_
-ад=S,sg,m,inan=(acc|nom)
-.\n
+{мир=S,m,inan=(acc,sg|nom,sg)} {торжественный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+— {вот=PART=} {и=CONJ=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}.
+{догорать=V,intr=sg,imper,2p,ipf}, {пожар=S,m,inan=(acc,sg|nom,sg)} {огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{догорать=V,intr=sg,imper,2p,ipf} {без=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+
+{мы=SPRO,pl,1p=nom} {уходить=V,intr=inpraes,pl,indic,1p,ipf} {в=PR=} {вечность=S,f,inan=(acc,sg|nom,sg)}, {в=PR=} {млечность?=S,f,inan=(acc,sg|nom,sg)} 
+{звезда=S,f,inan=gen,pl}, {сиять=V,ipf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {зря=ADV=},
+{мы=SPRO,pl,1p=(abl|acc|gen)} {уводить=V=inpraes,sg,indic,3p,ipf,tran} {в=PR=} {бесконечность=S,f,inan=(acc,sg|nom,sg)} 
+{черно=ADV=}-{желтый=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}.
+
+{и=CONJ=} {потерянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {бездомный=S,famn,m,anim=nom,sg} 
+{не=PART=} {оглянуться=V,pf,intr=inpraes,sg,indic,3p} {назад=ADV=}.
+— {догорать=V,intr=sg,imper,2p,ipf}, {пожар=S,m,inan=(acc,sg|nom,sg)} {огромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+{и=CONJ=} {не=PART=} {дрогнуть=V,pf,intr=inpraes,sg,indic,3p} {факел=S,m,inan=(acc,sg|nom,sg)} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{освещать=V,tran=inpraes,ger,ipf} {ад=S,sg,m,inan=(acc|nom)}.

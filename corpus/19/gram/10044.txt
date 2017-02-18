@@ -1,42 +1,6 @@
-слава=S,f,inan=nom,sg
-_
-бог=S,m,anim=dat,sg
-!_
-слава=S,f,inan=nom,sg
-_
-бог=S,m,anim=dat,sg
-!\n\t
-кончаться=V,intr=praet,sg,indic,m,pf
-_
-совет=S,m,inan=(acc,sg|nom,sg)
-!\n
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-дорога=S,f,inan=acc,sg
-,_
-в=PR=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-дорога=S,f,inan=acc,sg
-\n\t
-на=PR=
-_
-обед=S,m,inan=(acc,sg|nom,sg)
-,_
-обед=S,m,inan=(acc,sg|nom,sg)
-!!!!\n
-ой=INTJ=
-,_
-человек=S,m,anim=nom,pl
-,_
-человек=S,m,anim=nom,pl
-,_
-человек=S,m,anim=nom,pl
-,\n\t
-на=PR=
-_
-обед=S,m,inan=(acc,sg|nom,sg)
-!\n
+{слава=S,f,inan=nom,sg} {бог=S,m,anim=dat,sg}! {слава=S,f,inan=nom,sg} {бог=S,m,anim=dat,sg}!
+	{кончаться=V,intr=praet,sg,indic,m,pf} {совет=S,m,inan=(acc,sg|nom,sg)}!
+{в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)} {дорога=S,f,inan=acc,sg}, {в=PR=} {путь=S,m,inan=(acc,sg|nom,sg)} {дорога=S,f,inan=acc,sg}
+	{на=PR=} {обед=S,m,inan=(acc,sg|nom,sg)}, {обед=S,m,inan=(acc,sg|nom,sg)}!!!!
+{ой=INTJ=}, {человек=S,m,anim=nom,pl}, {человек=S,m,anim=nom,pl}, {человек=S,m,anim=nom,pl},
+	{на=PR=} {обед=S,m,inan=(acc,sg|nom,sg)}!

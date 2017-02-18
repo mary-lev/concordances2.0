@@ -1,3 +1,20 @@
+{{right_sidebar_enabled=True}}
 {{extend 'layout.html'}}
-<h1>Это шаблон color/author_all_color.html</h1>
-{{=BEAUTIFY(response._vars)}}
+
+<h1>Цветообозначения: {{=author.name}} {{=author.family}}</h1>
+<ol>
+{{for a in text:}}
+<h4>{{=a[0]}}</h4>
+{{for all in a[1]:}}
+<li>{{=all[0]}} {{if all[1].title:}} ({{=A(all[1].title, _href=URL('show', 'show1', args = all[1].id))}}) {{else:}} ({{=A(all[1].first_string, _href=URL('show', 'show1', args=all[1].id))}}) {{pass}} </li>
+{{pass}}
+{{pass}}
+    </ol>
+
+{{block right_sidebar}}
+<h4>Цвета по авторам</h4>
+{{for one in authors:}}
+<li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}}</li>
+{{pass}}
+<h4>Цвет по всему корпусу</h4>
+{{end}}

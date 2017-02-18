@@ -1,80 +1,13 @@
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-змея=S,f,anim=(gen,sg|nom,pl)
-,_
-змея=S,f,anim=(gen,sg|nom,pl)
-_
-извив=S,m,inan=(acc,pl|nom,pl)
-,_\n
-пестрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ткань=S,f,inan=gen,pl
-_
-перелив=S,m,inan=(acc,pl|nom,pl)
-,_\n
-небывалость?=S,f,inan=(acc,sg|nom,sg)
-_
-знойный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-поза=S,f,inan=gen,pl
-..._\n
-то=CONJ=
-_
-бесстыдный=A=pl,brev
-,_
-то=CONJ=
-_
-стыдливый=A=pl,brev
-\n
-поцелуй=S,m,inan=gen,pl
-_
-все=ADV=
-_
-отлив=S,m,inan=(acc,pl|nom,pl)
-,\n
-сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-роза=S,f,inan=gen,pl
-...\n\n
-замирание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-обнимание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-рука=S,f,inan=gen,pl
-_
-змеистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-завивание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-искусный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-трепет=S,m,inan=(acc,sg|nom,sg)
-_
-нога=S,f,inan=gen,pl
-...\n
-и=CONJ=
-_
-искусный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-лобзание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-легкость=S,f,inan=(acc,sg|nom,sg)
-_
-близкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-прощание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-чрез=PR=
-_
-порог=S,m,inan=(acc,sg|nom,sg)
-.\n
+{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {змея=S,f,anim=(gen,sg|nom,pl)}, {змея=S,f,anim=(gen,sg|nom,pl)} {извив=S,m,inan=(acc,pl|nom,pl)}, 
+{пестрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ткань=S,f,inan=gen,pl} {перелив=S,m,inan=(acc,pl|nom,pl)}, 
+{небывалость?=S,f,inan=(acc,sg|nom,sg)} {знойный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поза=S,f,inan=gen,pl}... 
+{то=CONJ=} {бесстыдный=A=pl,brev}, {то=CONJ=} {стыдливый=A=pl,brev}
+{поцелуй=S,m,inan=gen,pl} {все=ADV=} {отлив=S,m,inan=(acc,pl|nom,pl)},
+{сладкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {запах=S,m,inan=(acc,sg|nom,sg)} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {роза=S,f,inan=gen,pl}...
+
+{замирание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {обнимание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{рука=S,f,inan=gen,pl} {змеистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {завивание=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{и=CONJ=} {искусный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {трепет=S,m,inan=(acc,sg|nom,sg)} {нога=S,f,inan=gen,pl}...
+{и=CONJ=} {искусный=A=(acc,sg,plen,n|nom,sg,plen,n)} {лобзание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{легкость=S,f,inan=(acc,sg|nom,sg)} {близкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {прощание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {чрез=PR=} {порог=S,m,inan=(acc,sg|nom,sg)}.

@@ -1,68 +1,9 @@
-не=PART=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-в=PR=
-_
-красота=S,f,inan=acc,sg
-_
-земной=A=acc,sg,plen,f
-\n
-и=CONJ=
-_
-здешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-правда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-.\n
-и=CONJ=
-_
-тот=APRO=acc,sg,f
-,_
-который=APRO=acc,sg,f
-_
-целый=A=acc,sg,plen,f
-,\n
-простой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-счастие=S,n,inan=dat,sg
-_
-не=PART=
-_
-учить=V,ipf,tran=inpraes,sg,indic,1p
-.\n\n
-по=PR=
-_
-нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-нож=S,m,inan=(acc,sg|nom,sg)
-_
-проводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жечь=V,ipf,tran=inpraes,pl,indic,3p
-:\n
-пусть=PART=
-_
-я=SPRO,sg,1p=ins
-_
-целовать=V,ipf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)
-_
-плечо=S,n,inan=(acc,pl|nom,pl)
-\n
-опять=ADV=
-_
-крыло=S,n,inan=ins,pl
-_
-прорастать=V,intr=inpraes,pl,indic,3p,pf
-!\n
+{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {красота=S,f,inan=acc,sg} {земной=A=acc,sg,plen,f}
+{и=CONJ=} {здешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {правда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}.
+{и=CONJ=} {тот=APRO=acc,sg,f}, {который=APRO=acc,sg,f} {целый=A=acc,sg,plen,f},
+{простой=A=(dat,sg,plen,m|dat,sg,plen,n)} {счастие=S,n,inan=dat,sg} {не=PART=} {учить=V,ipf,tran=inpraes,sg,indic,1p}.
+
+{по=PR=} {нежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {плоть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {человечий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {нож=S,m,inan=(acc,sg|nom,sg)} {проводить=V=inpraes,sg,indic,3p,ipf,tran} {алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жечь=V,ipf,tran=inpraes,pl,indic,3p}:
+{пусть=PART=} {я=SPRO,sg,1p=ins} {целовать=V,ipf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)} {плечо=S,n,inan=(acc,pl|nom,pl)}
+{опять=ADV=} {крыло=S,n,inan=ins,pl} {прорастать=V,intr=inpraes,pl,indic,3p,pf}!

@@ -1,98 +1,13 @@
-как=CONJ=
-_
-страдалица=S,f,anim=nom,sg
-_
-безмолвный=A=nom,sg,plen,f
-,\n
-в=PR=
-_
-дума=S,f,inan=acc,sg
-_
-весь=APRO=nom,sg,f
-_
-погружать=V=praet,sg,partcp,brev,f,pf,pass,tran
-,\n
-ты=SPRO,sg,2p=nom
-_
-стоять=V,ipf,intr=inpraes,sg,indic,2p
-,_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-полный=A=nom,sg,plen,f
-,\n
-скорбный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-радость=S,f,inan=ins,sg
-_
-полный=A=sg,brev,f
-.\n
-ты=SPRO,sg,2p=nom
-_
-мечтать=V,ipf,intr=inpraes,sg,indic,2p
-_
-ли=PART=
-,_
-печальный=A=nom,sg,plen,f
-,\n
-об=PR=
-_
-отрадный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-старина=S,f,inan=(abl,sg|dat,sg)
-,\n
-вспоминаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-ли=PART=
-_
-дальний=A=nom,sg,plen,f
-\n
-там=ADVPRO=
-_
-семья=S,f,inan=nom,sg
-_
-в=PR=
-_
-родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-?\n
-или=CONJ=
-_
-тяжкий=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-страдание=S,n,inan=dat,sg
-\n
-ты=SPRO,sg,2p=nom
-,_
-как=CONJ=
-_
-жертва=S,f,anim=nom,sg
-,_
-отдавать=V,tran=praet,sg,partcp,brev,f,pf,pass
-,\n
-и=CONJ=
-_
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-нет=PART=
-_
-упование=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-ни=CONJ=
-_
-дума=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-ни=CONJ=
-_
-мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-исполнять=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-она=SPRO,sg,3p,f=nom
-.\n
+{как=CONJ=} {страдалица=S,f,anim=nom,sg} {безмолвный=A=nom,sg,plen,f},
+{в=PR=} {дума=S,f,inan=acc,sg} {весь=APRO=nom,sg,f} {погружать=V=praet,sg,partcp,brev,f,pf,pass,tran},
+{ты=SPRO,sg,2p=nom} {стоять=V,ipf,intr=inpraes,sg,indic,2p}, {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {полный=A=nom,sg,plen,f},
+{скорбный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {радость=S,f,inan=ins,sg} {полный=A=sg,brev,f}.
+{ты=SPRO,sg,2p=nom} {мечтать=V,ipf,intr=inpraes,sg,indic,2p} {ли=PART=}, {печальный=A=nom,sg,plen,f},
+{об=PR=} {отрадный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {старина=S,f,inan=(abl,sg|dat,sg)},
+{вспоминаться=V,intr=inpraes,sg,indic,3p,ipf} {ли=PART=} {дальний=A=nom,sg,plen,f}
+{там=ADVPRO=} {семья=S,f,inan=nom,sg} {в=PR=} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(abl,sg|dat,sg)}?
+{или=CONJ=} {тяжкий=A=(dat,sg,plen,m|dat,sg,plen,n)} {страдание=S,n,inan=dat,sg}
+{ты=SPRO,sg,2p=nom}, {как=CONJ=} {жертва=S,f,anim=nom,sg}, {отдавать=V,tran=praet,sg,partcp,brev,f,pf,pass},
+{и=CONJ=} {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {нет=PART=} {упование=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {ни=CONJ=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {исполнять=V,tran=praet,sg,partcp,brev,f,pf,pass} {она=SPRO,sg,3p,f=nom}.

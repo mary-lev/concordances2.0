@@ -1,104 +1,14 @@
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=ins,sg
-_
-вседержитель=S,m,anim=nom,sg
-_\n
-к=PR=
-_
-спасение=S,n,inan=dat,sg
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-приводить=V=inf,pf
-.\n
-и=CONJ=
-_
-уготовать=V,pf,tran=praet,sg,partcp,brev,f,pass
-_
-обитель=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-предназначать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-решать=V,tran=praet,sg,partcp,brev,n,pf,pass
-_
-от=PR=
-_
-дух=S,m,inan=gen,sg
-_
-святой=A=sg,brev,f
-,\n
-он=SPRO,sg,3p,m=nom
-_
-держать=V,ipf,tran=inpraes,sg,indic,3p
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-судьба=S,f,inan=gen,pl
-_
-ключ=S,m,inan=(acc,pl|nom,pl)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-спасать=V=inpraes,sg,indic,3p,pf
-._
-не=PART=
-_
-трогать=V,ipf,tran=sg,imper,2p
-_
-брат=S,m,anim=(acc,sg|gen,sg)
-,_\n
-не=PART=
-_
-убеждать=V=sg,imper,2p,ipf,tran
-..._
-оставлять=V,tran=sg,imper,2p,pf
-._
-молчать=V,ipf,intr=sg,imper,2p
-.\n\n
-но=CONJ=
-_
-если=CONJ=
-_
-все=SPRO,pl=dat
-_
-свой=APRO=nom,sg,f
-_
-дорога=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-завет=S,m,inan=(acc,sg|nom,sg)
-:_
-не=PART=
-_
-прекословить=V,ipf,intr=sg,imper,2p
-,_\u2014_\n
-зачем=ADVPRO=
-_
-же=PART=
-_
-мы=SPRO,pl,1p=dat
-,_
-по=PR=
-_
-воля=S,f,inan=(abl,sg|dat,sg)
-_
-бог=S,m,anim=(acc,sg|gen,sg)
-,\n
-давать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_\u2014_
-бездейственный=A=sg,brev,n
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-?\n
+{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=ins,sg} {вседержитель=S,m,anim=nom,sg} 
+{к=PR=} {спасение=S,n,inan=dat,sg} {хотеть=V,ipf,tran=inpraes,sg,indic,3p} {приводить=V=inf,pf}.
+{и=CONJ=} {уготовать=V,pf,tran=praet,sg,partcp,brev,f,pass} {обитель=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {предназначать=V,tran=praet,pl,partcp,brev,pf,pass} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{все=SPRO,pl=(acc|nom)} {решать=V,tran=praet,sg,partcp,brev,n,pf,pass} {от=PR=} {дух=S,m,inan=gen,sg} {святой=A=sg,brev,f},
+{он=SPRO,sg,3p,m=nom} {держать=V,ipf,tran=inpraes,sg,indic,3p} {все=SPRO,pl=(abl|acc|gen)} {судьба=S,f,inan=gen,pl} {ключ=S,m,inan=(acc,pl|nom,pl)},
+{он=SPRO,sg,3p,m=nom} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {спасать=V=inpraes,sg,indic,3p,pf}. {не=PART=} {трогать=V,ipf,tran=sg,imper,2p} {брат=S,m,anim=(acc,sg|gen,sg)}, 
+{не=PART=} {убеждать=V=sg,imper,2p,ipf,tran}... {оставлять=V,tran=sg,imper,2p,pf}. {молчать=V,ipf,intr=sg,imper,2p}.
+
+{но=CONJ=} {если=CONJ=} {все=SPRO,pl=dat} {свой=APRO=nom,sg,f} {дорога=S,f,inan=nom,sg},
+{и=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {завет=S,m,inan=(acc,sg|nom,sg)}: {не=PART=} {прекословить=V,ipf,intr=sg,imper,2p}, — 
+{зачем=ADVPRO=} {же=PART=} {мы=SPRO,pl,1p=dat}, {по=PR=} {воля=S,f,inan=(abl,sg|dat,sg)} {бог=S,m,anim=(acc,sg|gen,sg)},
+{давать=V,tran=praet,sg,partcp,brev,f,pf,pass} — {бездейственный=A=sg,brev,n} — {любовь=S,f,inan=(acc,sg|nom,sg)}?

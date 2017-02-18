@@ -1,110 +1,19 @@
-на=PR=
-_
-луг=S,m,inan=(dat,sg|loc,sg)
-_
-большой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-куча=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-свежий?=A=sg,brev,n
--
-вырыть=V,pf=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-лето=S,sg,n,inan=(acc|nom)
-._
-жарко=ADV=
-._
-полдень=S,m,inan=(acc,sg|nom,sg)
-_
-жгучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\t
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-_
-вдали=ADV=
-.\n\n
-кто=SPRO,sg,m,anim=nom
-_
-здесь=ADVPRO=
-_
-рыться=V,ipf,intr=praet,sg,indic,m
-?_
-может=ADV,parenth=
-,_
-гном=S,m,anim=nom,pl
-.\n
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-смешной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-толпа=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n
-строить=V,ipf,tran=inpraes,pl,indic,3p
-_
-нижний=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-хоромы=S,pl,inan=(acc|nom)
-\n\t
-для=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-царь=S,m,anim=(acc,pl|gen,pl)
-?\n\n
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-во=PR=
-_
-тьма=S,f,inan=(abl,sg|dat,sg)
-_
-возводить=V=inpraes,pl,indic,3p,ipf,tran
-,\n
-строить=V,ipf,tran=inpraes,pl,indic,3p
-_
-замок=S,m,inan=(acc,pl|nom,pl)
-_
-под=PR=
-_
-земля=S,f,inan=ins,sg
-.\n
-и=CONJ=
-,_
-уродливый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-\n\t
-под=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-нога=S,f,inan=ins,sg
-?\n\n
-зажигать=V=inpraes,pl,indic,3p,ipf,tran
-_
-вырезной=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-лампа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-царство=S,n,inan=abl,sg
-_
-темнота=S,sg,f,inan=gen
-?\n
-нет=PART=
-,_
-ошибаться=V,intr=praet,sg,indic,m,pf
-._
-то=PART=
-_\u2014_
-слепой=S,m,anim=nom,pl
-\n\t
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крот=S,m,anim=nom,pl
-.\n
+{на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)} {большой=A=(acc,pl,plen,inan|nom,pl,plen)} {куча=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{свежий?=A=sg,brev,n}-{вырыть=V,pf=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{лето=S,sg,n,inan=(acc|nom)}. {жарко=ADV=}. {полдень=S,m,inan=(acc,sg|nom,sg)} {жгучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+	{дым=S,m,inan=(acc,sg|nom,sg)} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {вдали=ADV=}.
+
+{кто=SPRO,sg,m,anim=nom} {здесь=ADVPRO=} {рыться=V,ipf,intr=praet,sg,indic,m}? {может=ADV,parenth=}, {гном=S,m,anim=nom,pl}.
+{весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {смешной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {толпа=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+{строить=V,ipf,tran=inpraes,pl,indic,3p} {нижний=A=(acc,pl,plen,inan|nom,pl,plen)} {хоромы=S,pl,inan=(acc|nom)}
+	{для=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {царь=S,m,anim=(acc,pl|gen,pl)}?
+
+{город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {во=PR=} {тьма=S,f,inan=(abl,sg|dat,sg)} {возводить=V=inpraes,pl,indic,3p,ipf,tran},
+{строить=V,ipf,tran=inpraes,pl,indic,3p} {замок=S,m,inan=(acc,pl|nom,pl)} {под=PR=} {земля=S,f,inan=ins,sg}.
+{и=CONJ=}, {уродливый=A=(acc,pl,plen,inan|nom,pl,plen)}, {ходить=V,ipf,intr=inpraes,pl,indic,3p}
+	{под=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {нога=S,f,inan=ins,sg}?
+
+{зажигать=V=inpraes,pl,indic,3p,ipf,tran} {вырезной=A=(acc,pl,plen,inan|nom,pl,plen)}
+{лампа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {царство=S,n,inan=abl,sg} {темнота=S,sg,f,inan=gen}?
+{нет=PART=}, {ошибаться=V,intr=praet,sg,indic,m,pf}. {то=PART=} — {слепой=S,m,anim=nom,pl}
+	{черный=A=(acc,pl,plen,inan|nom,pl,plen)} {крот=S,m,anim=nom,pl}.

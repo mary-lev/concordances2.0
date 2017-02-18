@@ -1,181 +1,24 @@
-
-муза=S,f,anim=nom,sg
--
-сестра=S,f,anim=nom,sg
-_
-заглядывать=V,intr=praet,sg,indic,f,pf
-_
-в=PR=
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,\n
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-ясный=A=sg,brev,m
-_
-и=CONJ=
-_
-яркий=A=sg,brev,m
-.\n
-и=CONJ=
-_
-отнимать=V,tran=praet,sg,indic,f,pf
-_
-золотой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-кольцо=S,n,inan=(acc,sg|nom,sg)
-,\n
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-подарок=S,m,inan=(acc,sg|nom,sg)
-.\n|\n
-муза=S,f,anim=nom,sg
-!_
-ты=SPRO,sg,2p=nom
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-,_
-как=ADVPRO=
-_
-счастливый=A=pl,brev
-_
-все=SPRO,pl=(acc|nom)
-_\u2014\n
-девушка=S,f,anim=(gen,sg|nom,pl)
-,_
-женщина=S,f,anim=(gen,sg|nom,pl)
-,_
-вдова=S,f,anim=(gen,sg|nom,pl)
-...\n
-хорошо=ADV=comp,parenth
-_
-погибать=V,intr=inpraes,sg,indic,1p,pf
-_
-на=PR=
-_
-колесо=S,n,inan=abl,sg
-,\n
-только=PART=
-_
-не=PART=
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-оковы=S,pl,inan=(acc|nom)
-.\n|\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-:_
-гадать=V,ipf,intr=inpraes,ger
-,_
-и=CONJ=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-обрывать=V,ipf,tran=inf
-\n
-нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-_
-маргаритка=S,f,inan=acc,sg
-.\n
-должный=A=sg,brev,m
-_
-на=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-испытывать=V,tran=inf,pf
-\n
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-любовный=A=acc,sg,plen,f
-_
-пытка=S,f,inan=acc,sg
-.\n|\n
-жечь=V,ipf,tran=inpraes,sg,indic,1p
-_
-до=PR=
-_
-заря=S,f,inan=gen,sg
-_
-на=PR=
-_
-окошко=S,n,inan=abl,sg
-_
-свеча=S,f,inan=acc,sg
-\n
-и=CONJ=
-_
-ни=PART=
-_
-о=PR=
-_
-кто=SPRO,sg,m,anim=abl
-_
-не=PART=
-_
-тосковать=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-но=CONJ=
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-\n
-знать=V,ipf,tran=inf
-,_
-как=CONJ=
-_
-целовать=V,ipf,tran=inpraes,pl,indic,3p
-_
-другой=APRO=acc,sg,f
-.\n|\n
-завтра=ADV=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-сказать=V,pf,tran=inpraes,pl,indic,3p
-,_
-смеяться=V,ipf,intr=inpraes,ger
-,_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-:\n\xAB
-взор=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-ясный=A=sg,brev,m
-,_
-не=PART=
-_
-яркий=A=sg,brev,m
-...\xBB\n
-тихо=ADV=
-_
-отвечать=V,intr=inpraes,sg,indic,1p,pf
-:_\xAB
-она=SPRO,sg,3p,f=nom
-_
-отнимать=V,tran=praet,sg,indic,f,pf
-\n
-божий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-подарок=S,m,inan=(acc,sg|nom,sg)
-\xBB.\n
+{муза=S,f,anim=nom,sg}-{сестра=S,f,anim=nom,sg} {заглядывать=V,intr=praet,sg,indic,f,pf} {в=PR=} {лицо=S,n,inan=(acc,sg|nom,sg)},
+{взгляд=S,m,inan=(acc,sg|nom,sg)} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {ясный=A=sg,brev,m} {и=CONJ=} {яркий=A=sg,brev,m}.
+{и=CONJ=} {отнимать=V,tran=praet,sg,indic,f,pf} {золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {кольцо=S,n,inan=(acc,sg|nom,sg)},
+{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подарок=S,m,inan=(acc,sg|nom,sg)}.
+|
+{муза=S,f,anim=nom,sg}! {ты=SPRO,sg,2p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,2p}, {как=ADVPRO=} {счастливый=A=pl,brev} {все=SPRO,pl=(acc|nom)} —
+{девушка=S,f,anim=(gen,sg|nom,pl)}, {женщина=S,f,anim=(gen,sg|nom,pl)}, {вдова=S,f,anim=(gen,sg|nom,pl)}...
+{хорошо=ADV=comp,parenth} {погибать=V,intr=inpraes,sg,indic,1p,pf} {на=PR=} {колесо=S,n,inan=abl,sg},
+{только=PART=} {не=PART=} {этот=APRO=(nom,pl|acc,pl,inan)} {оковы=S,pl,inan=(acc|nom)}.
+|
+{знать=V,ipf,tran=inpraes,sg,indic,1p}: {гадать=V,ipf,intr=inpraes,ger}, {и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {обрывать=V,ipf,tran=inf}
+{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цветок=S,m,inan=(acc,sg|nom,sg)} {маргаритка=S,f,inan=acc,sg}.
+{должный=A=sg,brev,m} {на=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {земля=S,f,inan=(abl,sg|dat,sg)} {испытывать=V,tran=inf,pf}
+{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {любовный=A=acc,sg,plen,f} {пытка=S,f,inan=acc,sg}.
+|
+{жечь=V,ipf,tran=inpraes,sg,indic,1p} {до=PR=} {заря=S,f,inan=gen,sg} {на=PR=} {окошко=S,n,inan=abl,sg} {свеча=S,f,inan=acc,sg}
+{и=CONJ=} {ни=PART=} {о=PR=} {кто=SPRO,sg,m,anim=abl} {не=PART=} {тосковать=V,ipf,intr=inpraes,sg,indic,1p},
+{но=CONJ=} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}, {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}, {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}
+{знать=V,ipf,tran=inf}, {как=CONJ=} {целовать=V,ipf,tran=inpraes,pl,indic,3p} {другой=APRO=acc,sg,f}.
+|
+{завтра=ADV=} {я=SPRO,sg,1p=(abl|dat)} {сказать=V,pf,tran=inpraes,pl,indic,3p}, {смеяться=V,ipf,intr=inpraes,ger}, {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)}:
+«{взор=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {ясный=A=sg,brev,m}, {не=PART=} {яркий=A=sg,brev,m}...»
+{тихо=ADV=} {отвечать=V,intr=inpraes,sg,indic,1p,pf}: «{она=SPRO,sg,3p,f=nom} {отнимать=V,tran=praet,sg,indic,f,pf}
+{божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {подарок=S,m,inan=(acc,sg|nom,sg)}».

@@ -1,132 +1,19 @@
-подумать=V,pf,intr=inpraes,sg,indic,2p
-,_
-тоже=PART=
-_
-работа=S,f,inan=nom,sg
-,_\u2014\n
-беспечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-житие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-:\n
-подслушивать=V,tran=inf,pf
-_
-у=PR=
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-что-то=SPRO,sg,n,inan=(acc|nom)
-\n
-и=CONJ=
-_
-выдавать=V,tran=inf,pf
-_
-шутя=ADV=
-_
-за=PR=
-_
-свое=SPRO,sg,n,inan=(acc|nom)
-.\n\n
-и=CONJ=
-_
-чей-то=APRO=(acc,sg,n|nom,sg,n)
-_
-веселый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-скерцо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-\n
-в=PR=
-_
-какой-то=APRO=(nom,pl|acc,pl,inan)
-_
-строка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-вкладывать=V,tran=praet,ger,pf
-,\n
-поклясться=V,pf,intr=inf
-,_
-что=CONJ=
-_
-бедный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-так=ADVPRO=
-_
-стонать=V,ipf,intr=inpraes,sg,indic,3p
-_
-средь=PR=
-_
-блистать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-нива=S,f,inan=gen,pl
-.\n\n
-а=CONJ=
-_
-после=PR=
-_
-подслушивать=V,tran=inf,pf
-_
-у=PR=
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-у=PR=
-_
-сосна=S,f,inan=gen,pl
-,_
-молчальница=S,f,anim=(acc,pl|gen,pl)
-_
-на=PR=
-_
-вид=S,m,inan=(acc,sg|nom,sg)
-,\n
-пока=CONJ=
-_
-дымовой=A=nom,sg,plen,f
-_
-завеса=S,f,inan=nom,sg
-\n
-туман=S,m,inan=gen,sg
-_
-повсюду=ADV=
-_
-стоять=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-налево=ADV=
-_
-брать=V,ipf,tran=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-направо=ADV=
-\n
-и=CONJ=
-_
-даже=PART=
-,_
-без=PR=
-_
-чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-вина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-немного=ADV=
-_
-у=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-лукавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-и=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-_\u2014_
-у=PR=
-_
-ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тишина=S,sg,f,inan=gen
-.\n
+{подумать=V,pf,intr=inpraes,sg,indic,2p}, {тоже=PART=} {работа=S,f,inan=nom,sg}, —
+{беспечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {этот=APRO=(acc,sg,n|nom,sg,n)} {житие=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
+{подслушивать=V,tran=inf,pf} {у=PR=} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {что-то=SPRO,sg,n,inan=(acc|nom)}
+{и=CONJ=} {выдавать=V,tran=inf,pf} {шутя=ADV=} {за=PR=} {свое=SPRO,sg,n,inan=(acc|nom)}.
+
+{и=CONJ=} {чей-то=APRO=(acc,sg,n|nom,sg,n)} {веселый=A=(acc,sg,plen,n|nom,sg,plen,n)} {скерцо=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+{в=PR=} {какой-то=APRO=(nom,pl|acc,pl,inan)} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вкладывать=V,tran=praet,ger,pf},
+{поклясться=V,pf,intr=inf}, {что=CONJ=} {бедный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{так=ADVPRO=} {стонать=V,ipf,intr=inpraes,sg,indic,3p} {средь=PR=} {блистать=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {нива=S,f,inan=gen,pl}.
+
+{а=CONJ=} {после=PR=} {подслушивать=V,tran=inf,pf} {у=PR=} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{у=PR=} {сосна=S,f,inan=gen,pl}, {молчальница=S,f,anim=(acc,pl|gen,pl)} {на=PR=} {вид=S,m,inan=(acc,sg|nom,sg)},
+{пока=CONJ=} {дымовой=A=nom,sg,plen,f} {завеса=S,f,inan=nom,sg}
+{туман=S,m,inan=gen,sg} {повсюду=ADV=} {стоять=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{налево=ADV=} {брать=V,ipf,tran=inpraes,sg,indic,1p} {и=CONJ=} {направо=ADV=}
+{и=CONJ=} {даже=PART=}, {без=PR=} {чувство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{немного=ADV=} {у=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {лукавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{и=CONJ=} {все=SPRO,pl=(acc|nom)} — {у=PR=} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen}.

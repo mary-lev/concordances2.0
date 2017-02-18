@@ -1,148 +1,17 @@
-страшный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-грубый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-липкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-грязный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-жестко=ADV=
--
-тупой=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-всегда=ADVPRO=
-_
-безобразный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-медленно=ADV=
-_
-рвать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,n,act|inpraes,nom,sg,partcp,plen,n,act)
-,_
-мелко=ADV=
--
-нечестный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-скользкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-стыдный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-низкий=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-тесный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-явно=ADV=
-_
-довольный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-тайно=ADV=
--
-блудливый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-плоско=ADV=
--
-смешной=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-и=CONJ=
-_
-тошно=ADV=
--
-трусливый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-вязко=ADV=
-,_
-болотный=A=sg,brev,n
-_
-и=CONJ=
-_
-тинный=A=sg,brev,n
-_
-застойный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-равный=A=sg,brev,n
-_
-недостойный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-рабский=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-хамский=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-гнойный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-черный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-изредка=ADV=
-_
-серый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-в=PR=
-_
-серый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-упорный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-вечно=ADV=
-_
-лежачий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-,_
-дьявольски=ADV=
-_
-косный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-глупый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-сохлый=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-сонный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-злостный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-трупный=A=sg,brev,n
--
-холодный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-жалко=ADV=parenth
--
-ничтожный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-непереносный=A,plen=(acc,sg,n|nom,sg,n)
-,_
-ложный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_
-ложный=A=(acc,sg,plen,n|nom,sg,plen,n)
-!\n\n\t
-но=CONJ=
-_
-жалоба=S,f,inan=gen,pl
-_
-не=PART=
-_
-надо=ADV,praed=
-;_
-что=CONJ=
-_
-радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-в=PR=
-_
-плач=S,m,inan=abl,sg
-?\n\t
-мы=SPRO,pl,1p=nom
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,_
-мы=SPRO,pl,1p=nom
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-:_
-все=SPRO,pl=(acc|nom)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-иначе=CONJ=
-.\n
+{страшный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {грубый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {липкий=A=(acc,sg,plen,n|nom,sg,plen,n)}, {грязный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{жестко=ADV=}-{тупой=A=(acc,sg,plen,n|nom,sg,plen,n)}, {всегда=ADVPRO=} {безобразный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{медленно=ADV=} {рвать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,n,act|inpraes,nom,sg,partcp,plen,n,act)}, {мелко=ADV=}-{нечестный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{скользкий=A=(acc,sg,plen,n|nom,sg,plen,n)}, {стыдный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {низкий=A=(acc,sg,plen,n|nom,sg,plen,n)}, {тесный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{явно=ADV=} {довольный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {тайно=ADV=}-{блудливый=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{плоско=ADV=}-{смешной=A=(acc,sg,plen,n|nom,sg,plen,n)} {и=CONJ=} {тошно=ADV=}-{трусливый=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{вязко=ADV=}, {болотный=A=sg,brev,n} {и=CONJ=} {тинный=A=sg,brev,n} {застойный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {равный=A=sg,brev,n} {недостойный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{рабский=A=(acc,sg,plen,n|nom,sg,plen,n)}, {хамский=A=(acc,sg,plen,n|nom,sg,plen,n)}, {гнойный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {черный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{изредка=ADV=} {серый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {в=PR=} {серый=A=(abl,sg,plen,m|abl,sg,plen,n)} {упорный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{вечно=ADV=} {лежачий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)}, {дьявольски=ADV=} {косный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{глупый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {сохлый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {сонный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {злостный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{трупный=A=sg,brev,n}-{холодный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {жалко=ADV=parenth}-{ничтожный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{непереносный=A,plen=(acc,sg,n|nom,sg,n)}, {ложный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {ложный=A=(acc,sg,plen,n|nom,sg,plen,n)}!
+
+	{но=CONJ=} {жалоба=S,f,inan=gen,pl} {не=PART=} {надо=ADV,praed=}; {что=CONJ=} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {плач=S,m,inan=abl,sg}?
+	{мы=SPRO,pl,1p=nom} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {мы=SPRO,pl,1p=nom} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}: {все=SPRO,pl=(acc|nom)} {быть=V,intr=inpraes,sg,indic,3p} {иначе=CONJ=}.

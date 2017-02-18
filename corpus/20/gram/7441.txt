@@ -1,112 +1,14 @@
-твой=APRO=nom,sg,f
-_
-печальный=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-_\n
-недолго=ADV=
-_
-радость=S,f,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-:\n
-чуть=ADV=
-_
-просверкнуть?=V,pf,intr=praet,sg,indic,f
-,_\u2014_
-и=CONJ=
-_
-туда=ADVPRO=
-,\n
-на=PR=
-_
-земля=S,f,inan=acc,sg
-,_\u2014_
-пасть=V,pf,intr=praet,sg,indic,f
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-камень=S,m,inan=ins,sg
-.\n\n
-твой=APRO=nom,sg,f
-_
-печальный=A=nom,sg,plen,f
-_
-душа=S,f,inan=nom,sg
-_\n
-любить=V,ipf,tran=inf
-_
-улыбка=S,f,inan=acc,sg
-_
-не=PART=
-_
-посметь=V,pf,intr=praet,sg,indic,f
-_\n
-и=CONJ=
-,_
-от=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-уходить=V,intr=inf,pf
-_
-спешить=V,ipf,intr=inpraes,ger
-,\n
-покров=S,m,inan=(acc,pl|nom,pl)
-_
-черный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-надевать=V,tran=praet,sg,indic,f,pf
-.\n\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-навек=ADV=
-_
-с=PR=
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-судьба=S,f,inan=ins,sg
-_\n
-связывать=V=praet,sg,indic,m,pf
-_
-мой=APRO=acc,sg,f
-_\u2014_
-в=PR=
-_
-один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-надежда=S,f,inan=(abl,sg|dat,sg)
-._\n
-где=ADVPRO=
-_
-б=PART=
-_
-ни=PART=
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-ты=SPRO,sg,2p=nom
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-как=CONJ=
-_
-прежде=ADV=
-.\n
+{твой=APRO=nom,sg,f} {печальный=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg} 
+{недолго=ADV=} {радость=S,f,inan=ins,sg} {быть=V,intr=praet,sg,indic,f,ipf} {я=SPRO,sg,1p=(abl|dat)}:
+{чуть=ADV=} {просверкнуть?=V,pf,intr=praet,sg,indic,f}, — {и=CONJ=} {туда=ADVPRO=},
+{на=PR=} {земля=S,f,inan=acc,sg}, — {пасть=V,pf,intr=praet,sg,indic,f} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {камень=S,m,inan=ins,sg}.
+
+{твой=APRO=nom,sg,f} {печальный=A=nom,sg,plen,f} {душа=S,f,inan=nom,sg} 
+{любить=V,ipf,tran=inf} {улыбка=S,f,inan=acc,sg} {не=PART=} {посметь=V,pf,intr=praet,sg,indic,f} 
+{и=CONJ=}, {от=PR=} {я=SPRO,sg,1p=(acc|gen)} {уходить=V,intr=inf,pf} {спешить=V,ipf,intr=inpraes,ger},
+{покров=S,m,inan=(acc,pl|nom,pl)} {черный=A=(acc,pl,plen,inan|nom,pl,plen)} {надевать=V,tran=praet,sg,indic,f,pf}.
+
+{но=CONJ=} {я=SPRO,sg,1p=nom} {навек=ADV=} {с=PR=} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {судьба=S,f,inan=ins,sg} 
+{связывать=V=praet,sg,indic,m,pf} {мой=APRO=acc,sg,f} — {в=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {надежда=S,f,inan=(abl,sg|dat,sg)}. 
+{где=ADVPRO=} {б=PART=} {ни=PART=} {быть=V,intr=praet,sg,indic,f,ipf} {ты=SPRO,sg,2p=nom} — {я=SPRO,sg,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins},
+{и=CONJ=} {я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {как=CONJ=} {прежде=ADV=}.

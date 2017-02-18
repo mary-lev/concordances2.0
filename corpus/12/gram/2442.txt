@@ -1,162 +1,29 @@
-мальчик=S,m,anim=ins,sg
-,_
-бежать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)
-_
-резво=ADV=
-,\n
-я=SPRO,sg,1p=nom
-_
-представать=V,intr=praet,sg,indic,f,pf
-_
-вы=SPRO,pl,2p=dat
-.\n
-вы=SPRO,pl,2p=nom
-_
-посмеиваться=V,ipf,intr=praet,pl,indic
-_
-трезво=ADV=
-\n
-злой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-слово=S,n,inan=dat,pl
-:\n\n\xAB
-шалость=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-имя=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-шалость=S,f,inan=(acc,sg|nom,sg)
-.\n
-смеяться=V,ipf,intr=sg,imper,2p
-,_
-кто=SPRO,sg,m,anim=nom
-_
-не=PART=
-_
-глупый=A=sg,brev,m
-!\xBB\n
-и=CONJ=
-_
-не=PART=
-_
-видеть=V,ipf,tran=praet,pl,indic
-_
-усталость=S,f,inan=(acc,sg|nom,sg)
-\n
-побледнеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-_
-губа=S,f,inan=gen,pl
-.\n\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-притягивать=V,tran=praet,pl,indic,ipf
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-огромный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n_\u2014_
-слишком=ADV=
-_
-розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-и=CONJ=
-_
-юный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-для=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-!\n\n
-тающий=A=nom,sg,plen,f
-_
-легко=ADV=comp
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_\u2014_
-как=CONJ=
-_
-сталь=S,f,inan=(acc,sg|nom,sg)
-.\n
-мячик=S,m,inan=(acc,sg|nom,sg)
-,_
-прыгнуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-_
-с=PR=
-_
-разбег=S,m,inan=gen,sg
-\n
-прямо=PART=
-_
-на=PR=
-_
-рояль=S,m,inan=(acc,sg|nom,sg)
-,\n\n
-скрип=S,m,inan=(acc,sg|nom,sg)
-_
-песок=S,m,inan=gen,sg
-_
-под=PR=
-_
-зуб=S,m,inan=ins,sg
-,_
-или=CONJ=
-\n
-становиться=V,intr=praet,pl,indic,pf
-_
-по=PR=
-_
-стекло=S,n,inan=dat,sg
-...\n_\u2014_
-только=PART=
-_
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-улавливать=V,tran=praet,pl,indic,pf
-\n
-грозный=A=acc,sg,plen,f
-_
-стрела=S,f,inan=acc,sg
-\n\n
-легкое=S,n,inan=(abl,pl|gen,pl)
-_
-слово=S,n,inan=gen,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-,_
-и=CONJ=
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-\n
-гнев=S,m,inan=gen,sg
-_
-напоказ=ADV=
-...\n_\u2014_
-каменный=A=acc,sg,plen,f
-_
-безнадежность=S,f,inan=(acc,sg|nom,sg)
-\n
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-проказа=S,f,inan=gen,pl
-!\n
+{мальчик=S,m,anim=ins,sg}, {бежать=V,intr=(inpraes,dat,pl,partcp,plen,ipf,act|inpraes,ins,sg,partcp,plen,m,ipf,act|inpraes,ins,sg,partcp,plen,n,ipf,act)} {резво=ADV=},
+{я=SPRO,sg,1p=nom} {представать=V,intr=praet,sg,indic,f,pf} {вы=SPRO,pl,2p=dat}.
+{вы=SPRO,pl,2p=nom} {посмеиваться=V,ipf,intr=praet,pl,indic} {трезво=ADV=}
+{злой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {слово=S,n,inan=dat,pl}:
+
+«{шалость=S,f,inan=(acc,sg|nom,sg)} — {жизнь=S,f,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)}, {имя=S,n,inan=(acc,sg|nom,sg)} — {шалость=S,f,inan=(acc,sg|nom,sg)}.
+{смеяться=V,ipf,intr=sg,imper,2p}, {кто=SPRO,sg,m,anim=nom} {не=PART=} {глупый=A=sg,brev,m}!»
+{и=CONJ=} {не=PART=} {видеть=V,ipf,tran=praet,pl,indic} {усталость=S,f,inan=(acc,sg|nom,sg)}
+{побледнеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {губа=S,f,inan=gen,pl}.
+
+{вы=SPRO,pl,2p=(abl|acc|gen)} {притягивать=V,tran=praet,pl,indic,ipf} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {огромный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+ — {слишком=ADV=} {розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {юный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,f,ipf} {для=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)}!
+
+{тающий=A=nom,sg,plen,f} {легко=ADV=comp} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,f,ipf} — {как=CONJ=} {сталь=S,f,inan=(acc,sg|nom,sg)}.
+{мячик=S,m,inan=(acc,sg|nom,sg)}, {прыгнуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {с=PR=} {разбег=S,m,inan=gen,sg}
+{прямо=PART=} {на=PR=} {рояль=S,m,inan=(acc,sg|nom,sg)},
+
+{скрип=S,m,inan=(acc,sg|nom,sg)} {песок=S,m,inan=gen,sg} {под=PR=} {зуб=S,m,inan=ins,sg}, {или=CONJ=}
+{становиться=V,intr=praet,pl,indic,pf} {по=PR=} {стекло=S,n,inan=dat,sg}...
+ — {только=PART=} {вы=SPRO,pl,2p=nom} {не=PART=} {улавливать=V,tran=praet,pl,indic,pf}
+{грозный=A=acc,sg,plen,f} {стрела=S,f,inan=acc,sg}
+
+{легкое=S,n,inan=(abl,pl|gen,pl)} {слово=S,n,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {и=CONJ=} {нежность=S,f,inan=(acc,sg|nom,sg)}
+{гнев=S,m,inan=gen,sg} {напоказ=ADV=}...
+ — {каменный=A=acc,sg,plen,f} {безнадежность=S,f,inan=(acc,sg|nom,sg)}
+{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {проказа=S,f,inan=gen,pl}!

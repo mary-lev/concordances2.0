@@ -1,86 +1,12 @@
-сладкий=A=sg,brev,m
-_
-отдых=S,m,inan=(acc,sg|nom,sg)
-,_
-тягостный=A=pl,brev
-_
-занятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-мерещиться=V,ipf,intr=inpraes,pl,indic,3p
-_
-объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n\t
-поцелуй=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-;\n
-это=PART=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстно=ADV=
--
-знойный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-этот=APRO=(acc,sg,n|nom,sg,n)
-_
-лето=S,sg,n,inan=(acc|nom)
-_
-беспокойный=A=(acc,sg,plen,n|nom,sg,plen,n)
-\n\t
-я=SPRO,sg,1p=(abl|dat)
-_
-волновать=V,ipf,tran=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-;\n
-но=CONJ=
-_
-в=PR=
-_
-ухо=S,n,inan=abl,pl
-_
-звучать=V,ipf,intr=inpraes,pl,indic,3p
-_
-проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-вновь=ADV=
-_
-страдать=V,ipf,intr=inpraes,pl,indic,3p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-братия=S,f,inan=nom,sg
-,\n\t
-загреметь=V,pf,intr=praet,pl,indic
-_
-цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-вновь=ADV=
-.\n
-нива=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-жалкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-бесплодный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гордый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-холодный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n\t
-зацветать=V,intr=inpraes,sg,indic,3p,pf
-_
-ли=CONJ=
-_
-в=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-?\n
+{сладкий=A=sg,brev,m} {отдых=S,m,inan=(acc,sg|nom,sg)}, {тягостный=A=pl,brev} {занятие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{я=SPRO,sg,1p=(abl|dat)} {мерещиться=V,ipf,intr=inpraes,pl,indic,3p} {объятие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+	{поцелуй=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {любовь=S,f,inan=(acc,sg|nom,sg)};
+{это=PART=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстно=ADV=}-{знойный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{этот=APRO=(acc,sg,n|nom,sg,n)} {лето=S,sg,n,inan=(acc|nom)} {беспокойный=A=(acc,sg,plen,n|nom,sg,plen,n)}
+	{я=SPRO,sg,1p=(abl|dat)} {волновать=V,ipf,tran=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)};
+{но=CONJ=} {в=PR=} {ухо=S,n,inan=abl,pl} {звучать=V,ipf,intr=inpraes,pl,indic,3p} {проклятие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, —
+{вновь=ADV=} {страдать=V,ipf,intr=inpraes,pl,indic,3p} {наш=APRO=(nom,pl|acc,pl,inan)} {братия=S,f,inan=nom,sg},
+	{загреметь=V,pf,intr=praet,pl,indic} {цепь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вновь=ADV=}.
+{нива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жалкий=A=(acc,pl,plen,inan|nom,pl,plen)}, {бесплодный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гордый=A=(acc,pl,plen,inan|nom,pl,plen)}, {холодный=A=(acc,pl,plen,inan|nom,pl,plen)},
+	{зацветать=V,intr=inpraes,sg,indic,3p,pf} {ли=CONJ=} {в=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {любовь=S,f,inan=(acc,sg|nom,sg)}?

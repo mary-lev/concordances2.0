@@ -1,112 +1,17 @@
-приволье=S,n,inan=ins,sg
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-,\n
-пыль=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-луч=S,m,inan=ins,sg
-,\n
-фиалка=S,f,inan=ins,sg
-_\u2014_
-девичий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-золото=S,sg,n,inan=(acc|nom)
-_\u2014_
-ничто=SPRO,sg,n=ins
-.\n
-вода=S,f,inan=ins,sg
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-резеда=S,sg,f,inan=nom
-\n
-и=CONJ=
-_
-яблоко=S,n,inan=ins,sg
-_\u2014_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-узнавать=V,tran=praet,pl,indic,pf
-_
-навсегда=ADV=
-,\n
-что=CONJ=
-_
-кровь=S,f,inan=ins,sg
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-_
-только=PART=
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-...\n\n
-и=CONJ=
-_
-напрасно=ADV=
-_
-наместник=S,m,anim=nom,sg
-_
-рим=S,geo,m,inan=gen,sg
-\n
-мыть=V,ipf,tran=praet,sg,indic,m
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пред=PR=
-_
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-народ=S,m,inan=ins,sg
-\n
-под=PR=
-_
-зловещий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-крик=S,m,inan=(acc,pl|nom,pl)
-_
-чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-;\n
-и=CONJ=
-_
-шотландский=A,geo=nom,sg,plen,f
-_
-королева=S,f,anim=nom,sg
-\n
-напрасно=ADV=
-_
-с=PR=
-_
-узкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ладонь=S,f,inan=gen,pl
-\n
-стирать=V,ipf,tran=praet,sg,indic,f
-_
-красный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-брызги=S,pl,inan=(acc|nom)
-\n
-в=PR=
-_
-душный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мрак=S,m,inan=abl,sg
-_
-царский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-дом=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
+{приволье=S,n,inan=ins,sg} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мед=S,m,inan=(acc,sg|nom,sg)},
+{пыль=S,f,inan=(acc,sg|nom,sg)} — {солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {луч=S,m,inan=ins,sg},
+{фиалка=S,f,inan=ins,sg} — {девичий=A,plen=(acc,sg,m,inan|nom,sg,m)} {рот=S,m,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {золото=S,sg,n,inan=(acc|nom)} — {ничто=SPRO,sg,n=ins}.
+{вода=S,f,inan=ins,sg} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {резеда=S,sg,f,inan=nom}
+{и=CONJ=} {яблоко=S,n,inan=ins,sg} — {любовь=S,f,inan=(acc,sg|nom,sg)},
+{но=CONJ=} {мы=SPRO,pl,1p=nom} {узнавать=V,tran=praet,pl,indic,pf} {навсегда=ADV=},
+{что=CONJ=} {кровь=S,f,inan=ins,sg} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p} {только=PART=} {кровь=S,f,inan=(acc,sg|nom,sg)}...
+
+{и=CONJ=} {напрасно=ADV=} {наместник=S,m,anim=nom,sg} {рим=S,geo,m,inan=gen,sg}
+{мыть=V,ipf,tran=praet,sg,indic,m} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пред=PR=} {весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {народ=S,m,inan=ins,sg}
+{под=PR=} {зловещий=A=(acc,pl,plen,inan|nom,pl,plen)} {крик=S,m,inan=(acc,pl|nom,pl)} {чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)};
+{и=CONJ=} {шотландский=A,geo=nom,sg,plen,f} {королева=S,f,anim=nom,sg}
+{напрасно=ADV=} {с=PR=} {узкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ладонь=S,f,inan=gen,pl}
+{стирать=V,ipf,tran=praet,sg,indic,f} {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {брызги=S,pl,inan=(acc|nom)}
+{в=PR=} {душный=A=(abl,sg,plen,m|abl,sg,plen,n)} {мрак=S,m,inan=abl,sg} {царский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дом=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+

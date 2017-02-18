@@ -1,84 +1,15 @@
-уезжать=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=nom
-_
-средь=PR=
-_
-мрак=S,m,inan=gen,sg
-...\n
-провожать=V=praet,pl,indic,ipf,tran
-_
-я=SPRO,sg,1p=(acc|gen)
-_\n
-только=PART=
-_
-друг=S,m,anim=nom,sg
-_
-да=CONJ=
-_
-собака=S,f,anim=nom,sg
-.\n\n
-паровоз=S,m,inan=(acc,pl|nom,pl)
-_
-свистеть=V,ipf,tran=praet,pl,indic
-...\n
-так=ADVPRO=
-_
-же=PART=
-_
-ль=PART=
-_
-верный=A=sg,brev,m
-_
-ты=SPRO,sg,2p=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-?\n
-и=CONJ=
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-ли=PART=
-?\n\n
-надвигаться=V,intr=praet,pl,indic,ipf
-_
-туман=S,m,inan=(acc,pl|nom,pl)
-...\n
-неужели=PART=
-_
-во=PR=
-_
-тьма=S,f,inan=(abl,sg|dat,sg)
-_\n
-только=PART=
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-обман=S,m,inan=(acc,pl|nom,pl)
-?..\n\n
-только=PART=
-_
-друг=S,m,anim=nom,sg
-_
-да=CONJ=
-_
-собака=S,f,anim=nom,sg
-_\n
-пожалеть=V,pf,tran=praet,pl,indic
-_
-я=SPRO,sg,1p=(acc|gen)
-_\n
-и=CONJ=
-_
-исчезать=V,intr=praet,pl,indic,pf
-_
-средь=PR=
-_
-мрак=S,m,inan=gen,sg
-.\n
+{уезжать=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=nom} {средь=PR=} {мрак=S,m,inan=gen,sg}...
+{провожать=V=praet,pl,indic,ipf,tran} {я=SPRO,sg,1p=(acc|gen)} 
+{только=PART=} {друг=S,m,anim=nom,sg} {да=CONJ=} {собака=S,f,anim=nom,sg}.
+
+{паровоз=S,m,inan=(acc,pl|nom,pl)} {свистеть=V,ipf,tran=praet,pl,indic}...
+{так=ADVPRO=} {же=PART=} {ль=PART=} {верный=A=sg,brev,m} {ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)}?
+{и=CONJ=} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {наш=APRO=(nom,pl|acc,pl,inan)} {тот=APRO=(nom,pl|acc,pl,inan)} {ли=PART=}?
+
+{надвигаться=V,intr=praet,pl,indic,ipf} {туман=S,m,inan=(acc,pl|nom,pl)}...
+{неужели=PART=} {во=PR=} {тьма=S,f,inan=(abl,sg|dat,sg)} 
+{только=PART=} {ложь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {обман=S,m,inan=(acc,pl|nom,pl)}?..
+
+{только=PART=} {друг=S,m,anim=nom,sg} {да=CONJ=} {собака=S,f,anim=nom,sg} 
+{пожалеть=V,pf,tran=praet,pl,indic} {я=SPRO,sg,1p=(acc|gen)} 
+{и=CONJ=} {исчезать=V,intr=praet,pl,indic,pf} {средь=PR=} {мрак=S,m,inan=gen,sg}.

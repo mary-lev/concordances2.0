@@ -1,96 +1,15 @@
-звучать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-гора=S,f,inan=abl,pl
-,_
-весна=S,f,inan=acc,sg
-_
-встречать=V,tran=inpraes,ger,ipf
-,_\n
-ручей=S,m,inan=gen,pl
-_
-прерывистый=A=nom,sg,plen,f
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-;\n
-по=PR=
-_
-сланцы=S,geo,pl,inan=dat
-_
-стебель=S,m,inan=(acc,pl|nom,pl)
-_
-молочай=S,m,inan=gen,sg
-_\n
-вставать=V,intr=inpraes,pl,indic,3p,ipf
-_
-ряд=S,m,inan=ins,pl
-_
-бледный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-свеча=S,f,inan=gen,pl
-.\n\n
-а=CONJ=
-_
-на=PR=
-_
-поляна=S,f,inan=abl,pl
-_
-влажно=ADV=
--
-мшистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-средь=PR=
-_
-сгнивать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-за=PR=
-_
-зима=S,f,inan=acc,sg
-_
-лист=S,m,inan=gen,pl
-_-_\n
-глухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-заросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-безлистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\n
-лиловый=A=sg,brev,n
--
-дымчатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-куст=S,m,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-ветвь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тянуться=V,ipf,intr=inpraes,pl,indic,3p
-_
-к=PR=
-_
-простор=S,m,inan=dat,pl
-,_\n
-молиться=V,ipf,intr=inpraes,ger
-_
-введение=S,n,inan=dat,sg
-_
-весна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-семисвечник=S,m,inan=(acc,sg|nom,sg)
-,_
-на=PR=
-_
-который=APRO=(abl,sg,m|abl,sg,n)
-_\n
-огонь=S,m,inan=(acc,pl|nom,pl)
-_
-еще=ADV=
-_
-не=PART=
-_
-зажигать=V=praet,pl,partcp,brev,pf,pass
-.\nddd16\n
+{звучать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {гора=S,f,inan=abl,pl}, {весна=S,f,inan=acc,sg} {встречать=V,tran=inpraes,ger,ipf}, 
+{ручей=S,m,inan=gen,pl} {прерывистый=A=nom,sg,plen,f} {речь=S,f,inan=(acc,sg|nom,sg)};
+{по=PR=} {сланцы=S,geo,pl,inan=dat} {стебель=S,m,inan=(acc,pl|nom,pl)} {молочай=S,m,inan=gen,sg} 
+{вставать=V,intr=inpraes,pl,indic,3p,ipf} {ряд=S,m,inan=ins,pl} {бледный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {свеча=S,f,inan=gen,pl}.
+
+{а=CONJ=} {на=PR=} {поляна=S,f,inan=abl,pl} {влажно=ADV=}-{мшистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{средь=PR=} {сгнивать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {за=PR=} {зима=S,f,inan=acc,sg} {лист=S,m,inan=gen,pl} - 
+{глухой=A=(acc,pl,plen,inan|nom,pl,plen)} {заросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {безлистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} 
+{лиловый=A=sg,brev,n}-{дымчатый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {куст=S,m,inan=gen,pl}.
+
+{и=CONJ=} {ветвь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тянуться=V,ipf,intr=inpraes,pl,indic,3p} {к=PR=} {простор=S,m,inan=dat,pl}, 
+{молиться=V,ipf,intr=inpraes,ger} {введение=S,n,inan=dat,sg} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {семисвечник=S,m,inan=(acc,sg|nom,sg)}, {на=PR=} {который=APRO=(abl,sg,m|abl,sg,n)} 
+{огонь=S,m,inan=(acc,pl|nom,pl)} {еще=ADV=} {не=PART=} {зажигать=V=praet,pl,partcp,brev,pf,pass}.
+ddd16

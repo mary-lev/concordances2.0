@@ -1,84 +1,9 @@
-какой=APRO=nom,sg,f
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-небо=S,n,inan=gen,pl
-,\n
-в=PR=
-_
-бездонность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-с=PR=
-_
-единственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-звезда=S,f,inan=ins,sg
-.\n
-изваять=V,pf,tran=praet,sg,partcp,brev,m,pass
-,_
-отодвигать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)
-_
-в=PR=
-_
-вечность=S,f,inan=(acc,sg|nom,sg)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-,\n
-удвоенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-глубокий=A=ins,sg,plen,f
-_
-вода=S,f,inan=ins,sg
-.\n\n
-из=PR=
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-край=S,m,inan=(acc,sg|nom,sg)
-_
-уходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-.\n
-хрустальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-холодный=A=sg,brev,m
-,_
-без=PR=
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-о=PR=
-,_
-май=S,persn,m,anim=nom,sg
-,_
-ужель=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-когда-нибудь=ADVPRO=
-?\n
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-печаль=S,f,inan=(acc,sg|nom,sg)
-_
-застывший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{какой=APRO=nom,sg,f} {грусть=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {небо=S,n,inan=gen,pl},
+{в=PR=} {бездонность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {с=PR=} {единственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=ins,sg}.
+{изваять=V,pf,tran=praet,sg,partcp,brev,m,pass}, {отодвигать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)} {в=PR=} {вечность=S,f,inan=(acc,sg|nom,sg)} {лес=S,m,inan=(acc,sg|nom,sg)},
+{удвоенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глубокий=A=ins,sg,plen,f} {вода=S,f,inan=ins,sg}.
+
+{из=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {край=S,m,inan=(acc,sg|nom,sg)} {уходить=V,intr=inpraes,sg,indic,3p,ipf} {длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)}.
+{хрустальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздух=S,m,inan=(acc,sg|nom,sg)} {холодный=A=sg,brev,m}, {без=PR=} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{о=PR=}, {май=S,persn,m,anim=nom,sg}, {ужель=PART=} {ты=SPRO,sg,2p=nom} {быть=V,intr=praet,sg,indic,m,ipf} {когда-нибудь=ADVPRO=}?
+{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} — {печаль=S,f,inan=(acc,sg|nom,sg)} {застывший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,134 +1,24 @@
-народный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-поверье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-неполный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-страница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-разрозненный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-перо=S,n,inan=(acc,pl|nom,pl)
-\n
-от=PR=
-_
-улетать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-вот=PART=
-_
-тут=ADVPRO=
-_
-сидеть=V,ipf,intr=praet,sg,indic,f
-\n
-на=PR=
-_
-камень=S,m,inan=abl,sg
-_
-самоцветный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-и=CONJ=
-_
-петь=V,ipf,tran=praet,sg,indic,f
-_
-здесь=ADVPRO=
-_
-так=ADVPRO=
-_
-смело=ADV=
-\n
-о=PR=
-_
-сон=S,m,inan=abl,sg
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-заветный=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-_
-заморский=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-край=S,m,inan=abl,sg
-,\n
-где=ADVPRO=
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-с=PR=
-_
-небо=S,n,inan=ins,sg
-_
-сливать=V=praet,sg,partcp,brev,n,pf,pass
-,\n
-где=ADVPRO=
-_
-дума=S,f,inan=nom,sg
-,_
-в=PR=
-_
-вечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-май=S,sg,m,inan=abl
-,\n
-цветок=S,m,inan=ins,pl
-_
-перевивать=V,tran=praet,sg,partcp,brev,f,pf,pass
-.\n\n
-где=ADVPRO=
-_
-светов=S,famn,m,anim=nom,sg
-_
-зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-завершение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мрак=S,m,inan=gen,pl
-,\n
-где=ADVPRO=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-_
-ум=S,m,inan=(acc,sg|nom,sg)
-_
-сплетение=S,n,inan=(acc,sg|nom,sg)
-\n
-всего=PART=
-_
-как=CONJ=
-_
-вещий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-знак=S,m,inan=gen,pl
-.\n\n
-пропеть=V,pf,tran=praet,sg,indic,f
-,_
-улетать=V,intr=praet,sg,indic,f,pf
-,\n
-пред=PR=
-_
-взор=S,m,inan=ins,sg
-_
-лишь=PART=
-_
-зарница=S,f,inan=nom,sg
-,\n
-лишь=PART=
-_
-видеть=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-здесь=ADVPRO=
-_
-блестеть=V,ipf,intr=praet,sg,indic,f
-\n
-воистину=ADV,parenth=
-_
-жар-птица=S,f,anim=nom,sg
-.\n
+{народный=A=(acc,pl,plen,inan|nom,pl,plen)} {поверье=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{неполный=A=(acc,pl,plen,inan|nom,pl,plen)} {страница=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{разрозненный=A=(acc,pl,plen,inan|nom,pl,plen)} {перо=S,n,inan=(acc,pl|nom,pl)}
+{от=PR=} {улетать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {птица=S,f,anim=(gen,sg|nom,pl)}.
+
+{она=SPRO,sg,3p,f=nom} {вот=PART=} {тут=ADVPRO=} {сидеть=V,ipf,intr=praet,sg,indic,f}
+{на=PR=} {камень=S,m,inan=abl,sg} {самоцветный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{и=CONJ=} {петь=V,ipf,tran=praet,sg,indic,f} {здесь=ADVPRO=} {так=ADVPRO=} {смело=ADV=}
+{о=PR=} {сон=S,m,inan=abl,sg} {свой=APRO=(abl,sg,m|abl,sg,n)} {заветный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{о=PR=} {то=SPRO,sg,n,inan=abl} {заморский=A=(abl,sg,plen,m|abl,sg,plen,n)} {край=S,m,inan=abl,sg},
+{где=ADVPRO=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {с=PR=} {небо=S,n,inan=ins,sg} {сливать=V=praet,sg,partcp,brev,n,pf,pass},
+{где=ADVPRO=} {дума=S,f,inan=nom,sg}, {в=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {май=S,sg,m,inan=abl},
+{цветок=S,m,inan=ins,pl} {перевивать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+
+{где=ADVPRO=} {светов=S,famn,m,anim=nom,sg} {зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{где=ADVPRO=} {завершение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мрак=S,m,inan=gen,pl},
+{где=ADVPRO=} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {ум=S,m,inan=(acc,sg|nom,sg)} {сплетение=S,n,inan=(acc,sg|nom,sg)}
+{всего=PART=} {как=CONJ=} {вещий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {знак=S,m,inan=gen,pl}.
+
+{пропеть=V,pf,tran=praet,sg,indic,f}, {улетать=V,intr=praet,sg,indic,f,pf},
+{пред=PR=} {взор=S,m,inan=ins,sg} {лишь=PART=} {зарница=S,f,inan=nom,sg},
+{лишь=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,2p} — {здесь=ADVPRO=} {блестеть=V,ipf,intr=praet,sg,indic,f}
+{воистину=ADV,parenth=} {жар-птица=S,f,anim=nom,sg}.

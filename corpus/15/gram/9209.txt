@@ -1,24 +1,4 @@
-пошутить=V,pf,intr=inpraes,sg,indic,3p
-_
-водяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_\u2014_
-измачивать=V,tran=inpraes,sg,indic,3p,pf
-,\n
-пошутить=V,pf,intr=inpraes,sg,indic,3p
-_
-леший=S,m,anim=nom,sg
-_\u2014_
-закружить=V,pf,tran=inpraes,sg,indic,3p
-,\n
-русалка=S,f,anim=nom,sg
-_
-шутить=V,ipf,intr=inpraes,sg,indic,3p
-_\u2014_
-защекотать=V,pf,tran=inpraes,sg,indic,3p
-,\n
-пошутить=V,pf,intr=inf
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-завораживать=V,tran=inpraes,sg,indic,3p,pf
-.\n
+{пошутить=V,pf,intr=inpraes,sg,indic,3p} {водяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {измачивать=V,tran=inpraes,sg,indic,3p,pf},
+{пошутить=V,pf,intr=inpraes,sg,indic,3p} {леший=S,m,anim=nom,sg} — {закружить=V,pf,tran=inpraes,sg,indic,3p},
+{русалка=S,f,anim=nom,sg} {шутить=V,ipf,intr=inpraes,sg,indic,3p} — {защекотать=V,pf,tran=inpraes,sg,indic,3p},
+{пошутить=V,pf,intr=inf} {ночь=S,f,inan=(acc,sg|nom,sg)} — {завораживать=V,tran=inpraes,sg,indic,3p,pf}.

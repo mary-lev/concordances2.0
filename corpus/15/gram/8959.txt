@@ -1,100 +1,19 @@
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-по=PR=
-_
-закон=S,m,inan=dat,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-по=PR=
-_
-благодать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-озарять=V,tran=praet,ger,pf
-_
-икона=S,f,inan=acc,sg
-,\n
-ложиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-на=PR=
-_
-кровать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-не=PART=
-_
-знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-_
-брак=S,m,inan=gen,sg
-\n
-высоко=ADV=comp
-,_
-чем=CONJ=
-_
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-глубина=S,f,inan=abl,pl
-_
-мрак=S,m,inan=gen,sg
-\n
-яркий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-вне=PR=
-_
-сцепление=S,n,inan=gen,pl
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-литься=V,ipf,intr=inpraes,pl,indic,3p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-может=ADV,parenth=
-,_
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-снова=ADV=
-\n
-в=PR=
-_
-столь=ADVPRO=
-_
-же=PART=
-_
-вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-встреча=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-может=ADV,parenth=
-,_
-бесповторять?=V,tran=praet,sg,partcp,brev,m,pf,pass
-\n
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-пусть=PART=
-._
-чертог=S,m,inan=(acc,sg|nom,sg)
-_
-узорный=A=sg,brev,m
-\n
-два=NUM=(abl|gen|acc,m,anim|acc,f,anim)
-_
-свободный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-счастие=S,n,inan=gen,pl
-.\n
+{мы=SPRO,pl,1p=nom} {не=PART=} {по=PR=} {закон=S,m,inan=dat,sg},
+{мы=SPRO,pl,1p=nom} {по=PR=} {благодать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{озарять=V,tran=praet,ger,pf} {икона=S,f,inan=acc,sg},
+{ложиться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {на=PR=} {кровать=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{мы=SPRO,pl,1p=nom} {не=PART=} {знать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {брак=S,m,inan=gen,sg}
+{высоко=ADV=comp}, {чем=CONJ=} {желание=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{мы=SPRO,pl,1p=nom} {в=PR=} {глубина=S,f,inan=abl,pl} {мрак=S,m,inan=gen,sg}
+{яркий=A=(acc,sg,plen,n|nom,sg,plen,n)} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{вне=PR=} {сцепление=S,n,inan=gen,pl} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{литься=V,ipf,intr=inpraes,pl,indic,3p} {наш=APRO=(nom,pl|acc,pl,inan)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{может=ADV,parenth=}, {быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {снова=ADV=}
+{в=PR=} {столь=ADVPRO=} {же=PART=} {вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {встреча=S,f,inan=(abl,sg|dat,sg)}.
+
+{может=ADV,parenth=}, {бесповторять?=V,tran=praet,sg,partcp,brev,m,pf,pass}
+{праздник=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{пусть=PART=}. {чертог=S,m,inan=(acc,sg|nom,sg)} {узорный=A=sg,brev,m}
+{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {свободный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {счастие=S,n,inan=gen,pl}.

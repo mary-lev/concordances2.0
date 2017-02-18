@@ -1,146 +1,19 @@
-мы=SPRO,pl,1p=nom
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-лишь=PART=
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-отголосок=S,m,inan=gen,sg
-:\n
-ты=SPRO,sg,2p=nom
-_
-затихнуть?=V,ipf,intr=praet,sg,indic,m
-,_
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-замолчать=V,pf,tran=inpraes,sg,indic,1p
-.\n
-мы=SPRO,pl,1p=nom
-_
-когда-то=ADVPRO=
-_
-с=PR=
-_
-покорность=S,f,inan=ins,sg
-_
-воск=S,m,inan=gen,sg
-\n
-отдаваться=V,intr=praet,pl,indic,pf
-_
-роковой=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-луч=S,m,inan=dat,sg
-.\n\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-чувство=S,n,inan=(acc,sg|nom,sg)
-_
-сладкий=A=(dat,pl,plen,supr|ins,sg,plen,supr,m|ins,sg,plen,supr,n)
-_
-недуг=S,m,inan=ins,sg
-\n
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-терзать=V,ipf,tran=praet,sg,indic,n
-_
-и=CONJ=
-_
-жечь=V,ipf,tran=praet,sg,indic,n
-.\n
-оттого=ADVPRO=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-чувствовать=V,ipf,tran=inf
-_
-другой=APRO=(abl,sg,m|abl,sg,n)
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-пора=S,f,inan=ins,sg
-_
-до=PR=
-_
-слезать=V,intr=praet,sg,indic,m,pf
-_
-тяжело=ADV=
-.\n\n
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-горечь=S,f,inan=(acc,sg|nom,sg)
-_
-улыбка=S,f,inan=ins,sg
-_
-скоро=ADV=
-,\n
-и=CONJ=
-_
-усталость=S,f,inan=ins,sg
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-.\n
-жаль=ADV,praed=
-_
-не=PART=
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-поверять=V=sg,imper,2p,pf
-,_
-и=CONJ=
-_
-не=PART=
-_
-взор=S,m,inan=gen,sg
-,\n
-только=PART=
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-утрачивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-жаль=ADV,praed=
-!\n\n
-от=PR=
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-утомлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-анатом=S,m,anim=nom,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-познавать=V,tran=praet,sg,indic,f,pf
-_
-сладкий=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)
-_
-зло=S,n,inan=(acc,sg|nom,sg)
-.\n
-оттого=ADVPRO=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-чувствовать=V,ipf,tran=inf
-_
-брат=S,m,anim=ins,sg
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-пора=S,f,inan=ins,sg
-_
-до=PR=
-_
-слезать=V,intr=praet,sg,indic,m,pf
-_
-тяжело=ADV=
-.\n
+{мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} {лишь=PART=} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {отголосок=S,m,inan=gen,sg}:
+{ты=SPRO,sg,2p=nom} {затихнуть?=V,ipf,intr=praet,sg,indic,m}, {и=CONJ=} {я=SPRO,sg,1p=nom} {замолчать=V,pf,tran=inpraes,sg,indic,1p}.
+{мы=SPRO,pl,1p=nom} {когда-то=ADVPRO=} {с=PR=} {покорность=S,f,inan=ins,sg} {воск=S,m,inan=gen,sg}
+{отдаваться=V,intr=praet,pl,indic,pf} {роковой=A=(dat,sg,plen,m|dat,sg,plen,n)} {луч=S,m,inan=dat,sg}.
+
+{это=SPRO,sg,n,inan=(acc|nom)} {чувство=S,n,inan=(acc,sg|nom,sg)} {сладкий=A=(dat,pl,plen,supr|ins,sg,plen,supr,m|ins,sg,plen,supr,n)} {недуг=S,m,inan=ins,sg}
+{наш=APRO=(nom,pl|acc,pl,inan)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {терзать=V,ipf,tran=praet,sg,indic,n} {и=CONJ=} {жечь=V,ipf,tran=praet,sg,indic,n}.
+{оттого=ADVPRO=} {ты=SPRO,sg,2p=(acc|gen)} {чувствовать=V,ipf,tran=inf} {другой=APRO=(abl,sg,m|abl,sg,n)}
+{я=SPRO,sg,1p=(abl|dat)} {пора=S,f,inan=ins,sg} {до=PR=} {слезать=V,intr=praet,sg,indic,m,pf} {тяжело=ADV=}.
+
+{становиться=V,intr=inpraes,sg,indic,3p,pf} {горечь=S,f,inan=(acc,sg|nom,sg)} {улыбка=S,f,inan=ins,sg} {скоро=ADV=},
+{и=CONJ=} {усталость=S,f,inan=ins,sg} {становиться=V,intr=inpraes,sg,indic,3p,pf} {печаль=S,f,inan=(acc,sg|nom,sg)}.
+{жаль=ADV,praed=} {не=PART=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {поверять=V=sg,imper,2p,pf}, {и=CONJ=} {не=PART=} {взор=S,m,inan=gen,sg},
+{только=PART=} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {утрачивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {жаль=ADV,praed=}!
+
+{от=PR=} {ты=SPRO,sg,2p=(acc|gen)}, {утомлять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {анатом=S,m,anim=nom,sg},
+{я=SPRO,sg,1p=nom} {познавать=V,tran=praet,sg,indic,f,pf} {сладкий=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)} {зло=S,n,inan=(acc,sg|nom,sg)}.
+{оттого=ADVPRO=} {ты=SPRO,sg,2p=(acc|gen)} {чувствовать=V,ipf,tran=inf} {брат=S,m,anim=ins,sg}
+{я=SPRO,sg,1p=(abl|dat)} {пора=S,f,inan=ins,sg} {до=PR=} {слезать=V,intr=praet,sg,indic,m,pf} {тяжело=ADV=}.

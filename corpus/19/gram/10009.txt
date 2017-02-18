@@ -1,146 +1,19 @@
-средь=PR=
-_
-бой=S,m,inan=gen,sg
-_
-бросать=V=praet,sg,partcp,brev,m,pf,pass
-,_
-одинокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-я=SPRO,sg,1p=nom
-_
-помощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-напрасно=ADV=
-_
-ждать=V,ipf,tran=praet,sg,indic,m
-:\n
-я=SPRO,sg,1p=(acc|gen)
-_
-сваливать=V=praet,sg,indic,m,pf,tran
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-враг=S,m,anim=nom,sg
-_
-жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-кинжал=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-обливать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-кровь=S,f,inan=ins,sg
-,\n
-в=PR=
-_
-мучение=S,n,inan=abl,pl
-_
-корчиться=V,ipf,intr=inpraes,ger
-_
-на=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-,\n
-и=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-с=PR=
-_
-вражда=S,sg,f,inan=ins
-_
-и=CONJ=
-_
-любовь=S,f,inan=ins,sg
-\n
-скрываться=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-зловещий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-_
-мгла=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-померкнуть=V,pf,intr=praet,sg,indic,m
-_
-над=PR=
-_
-я=SPRO,sg,1p=ins
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-окутывать=V,tran=praet,sg,indic,m,pf
-_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-смертный=S,m,anim=nom,sg
-_
-мрак=S,m,inan=(acc,sg|nom,sg)
-,\n
-с=PR=
-_
-хрипение=S,n,inan=ins,sg
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-переливаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-кой-как=ADV=
-.\n\n
-и=CONJ=
-,_
-слабо=ADV=
-_
-простирать=V=inpraes,ger,ipf,tran
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-молить=V,ipf,tran=inpraes,sg,indic,1p
-_
-враг=S,m,anim=(acc,sg|gen,sg)
-:_
-о=PR=
-_
-пощадить=V,pf,tran=sg,imper,2p
-!\n
-давать=V,tran=sg,imper,2p,pf
-_
-умирать=V,intr=inf,pf
-_
-без=PR=
-_
-лишний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-не=PART=
-_
-повертывать=V=sg,imper,2p,pf
-_
-нож=S,m,inan=gen,sg
-_
-в=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-!\n
+{средь=PR=} {бой=S,m,inan=gen,sg} {бросать=V=praet,sg,partcp,brev,m,pf,pass}, {одинокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{я=SPRO,sg,1p=nom} {помощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {напрасно=ADV=} {ждать=V,ipf,tran=praet,sg,indic,m}:
+{я=SPRO,sg,1p=(acc|gen)} {сваливать=V=praet,sg,indic,m,pf,tran} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {враг=S,m,anim=nom,sg} {жестокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {он=SPRO,sg,3p,m=(acc|gen)} {кинжал=S,m,inan=(acc,sg|nom,sg)}.
+
+{лежать=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {обливать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {кровь=S,f,inan=ins,sg},
+{в=PR=} {мучение=S,n,inan=abl,pl} {корчиться=V,ipf,intr=inpraes,ger} {на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)},
+{и=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {с=PR=} {вражда=S,sg,f,inan=ins} {и=CONJ=} {любовь=S,f,inan=ins,sg}
+{скрываться=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {зловещий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {мгла=S,f,inan=(abl,sg|dat,sg)}.
+
+{померкнуть=V,pf,intr=praet,sg,indic,m} {над=PR=} {я=SPRO,sg,1p=ins} {свод=S,m,inan=(acc,sg|nom,sg)} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{окутывать=V,tran=praet,sg,indic,m,pf} {око=S,n,inan=(acc,pl|nom,pl)} {смертный=S,m,anim=nom,sg} {мрак=S,m,inan=(acc,sg|nom,sg)},
+{с=PR=} {хрипение=S,n,inan=ins,sg} {воздух=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{переливаться=V,intr=inpraes,sg,indic,3p,ipf} {кой-как=ADV=}.
+
+{и=CONJ=}, {слабо=ADV=} {простирать=V=inpraes,ger,ipf,tran} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{молить=V,ipf,tran=inpraes,sg,indic,1p} {враг=S,m,anim=(acc,sg|gen,sg)}: {о=PR=} {пощадить=V,pf,tran=sg,imper,2p}!
+{давать=V,tran=sg,imper,2p,pf} {умирать=V,intr=inf,pf} {без=PR=} {лишний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{не=PART=} {повертывать=V=sg,imper,2p,pf} {нож=S,m,inan=gen,sg} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!

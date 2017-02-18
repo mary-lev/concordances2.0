@@ -1,64 +1,9 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ты=SPRO,sg,2p=nom
-_
-бродить=V,ipf,intr=inpraes,sg,indic,2p
-_
-неприкаянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-дышать=V,ipf,intr=inpraes,ger
-?\n
-верно=ADV,parenth=
-_
-понимать=V=praet,sg,indic,m,pf
-:_
-крепко=ADV=
-_
-спаять=V,pf,tran=praet,sg,partcp,brev,f,pass
-\n
-на=PR=
-_
-двое=NUM=(abl|gen|acc,anim)
-_
-один=APRO=nom,sg,f
-_
-душа=S,f,inan=nom,sg
-.\n
-быть=V,intr=inpraes,sg,indic,2p
-,_
-быть=V,intr=inpraes,sg,indic,2p
-_
-я=SPRO,sg,1p=ins
-_
-утешать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-,\n
-как=ADVPRO=
-_
-не=PART=
-_
-сниться=V,ipf,intr=praet,sg,indic,n
-_
-никто=SPRO,sg,m,anim=dat
-,\n
-а=CONJ=
-_
-обижать=V=inpraes,sg,indic,2p,pf
-_
-словом=ADV,parenth=
-_
-бешеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_\u2014\n
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-больно=ADV=
-_
-сам=APRO=(dat,sg,m|dat,sg,n)
-.\n\n
+{что=SPRO,sg,n,inan=(acc|nom)} {ты=SPRO,sg,2p=nom} {бродить=V,ipf,intr=inpraes,sg,indic,2p} {неприкаянный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{что=SPRO,sg,n,inan=(acc|nom)} {глядеть=V,ipf,tran=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {не=PART=} {дышать=V,ipf,intr=inpraes,ger}?
+{верно=ADV,parenth=} {понимать=V=praet,sg,indic,m,pf}: {крепко=ADV=} {спаять=V,pf,tran=praet,sg,partcp,brev,f,pass}
+{на=PR=} {двое=NUM=(abl|gen|acc,anim)} {один=APRO=nom,sg,f} {душа=S,f,inan=nom,sg}.
+{быть=V,intr=inpraes,sg,indic,2p}, {быть=V,intr=inpraes,sg,indic,2p} {я=SPRO,sg,1p=ins} {утешать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)},
+{как=ADVPRO=} {не=PART=} {сниться=V,ipf,intr=praet,sg,indic,n} {никто=SPRO,sg,m,anim=dat},
+{а=CONJ=} {обижать=V=inpraes,sg,indic,2p,pf} {словом=ADV,parenth=} {бешеный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} —
+{становиться=V,intr=inpraes,sg,indic,3p,pf} {больно=ADV=} {сам=APRO=(dat,sg,m|dat,sg,n)}.
+

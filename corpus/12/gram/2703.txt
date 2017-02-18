@@ -1,104 +1,14 @@
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-последний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-величие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-на=PR=
-_
-дерзкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-голод=S,m,inan=abl,sg
-_
-заплата=S,f,inan=gen,pl
-!\n
-в=PR=
-_
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-ростовщичий=A,plen=(nom,pl|acc,pl,inan)
-\n
-снести=V,pf=praet,sg,partcp,brev,m,pass
-_
-последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-заклад=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-проматывать=V,tran=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)
-_\u2014_
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-наследство=S,n,inan=dat,sg
-\n
-у=PR=
-_
-господь=S,sg,m,anim=(acc|gen)
-_\u2014_
-особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-счет=S,m,inan=(acc,sg|nom,sg)
-.\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-не=PART=
-_
-сходиться=V,intr=praet,sg,indic,m,pf
-._
-не=PART=
-_
-по=PR=
-_
-средство=S,n,inan=dat,pl
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-этот=APRO=nom,sg,f
-_
-роскошь=S,f,inan=(acc,sg|nom,sg)
-:_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-прощаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-ж=PART=
-_
-короче=ADV=
-_
-и=CONJ=
-_
-просто=ADV=
-\n_\u2014_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-уметь=V,ipf,intr=inpraes,pl,indic,3p
-_
-красть=V,ipf=inf,tran
-!_\u2014_\n
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-нелепый=A=nom,sg,plen,supr,f
-_
-роскошь=S,f,inan=(acc,sg|nom,sg)
-,\n
-роскошный=A=nom,sg,plen,f
-_
-нелепость=S,f,inan=(acc,sg|nom,sg)
-!_\u2014_
-страсть=S,f,inan=(acc,sg|nom,sg)
-!\n
+{мой=APRO=(acc,sg,n|nom,sg,n)} {последний=A=(acc,sg,plen,n|nom,sg,plen,n)} {величие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{на=PR=} {дерзкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {голод=S,m,inan=abl,sg} {заплата=S,f,inan=gen,pl}!
+{в=PR=} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ростовщичий=A,plen=(nom,pl|acc,pl,inan)}
+{снести=V,pf=praet,sg,partcp,brev,m,pass} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {заклад=S,m,inan=(acc,sg|nom,sg)}.
+
+{проматывать=V,tran=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)} — {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} — {наследство=S,n,inan=dat,sg}
+{у=PR=} {господь=S,sg,m,anim=(acc|gen)} — {особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {счет=S,m,inan=(acc,sg|nom,sg)}.
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} — {не=PART=} {сходиться=V,intr=praet,sg,indic,m,pf}. {не=PART=} {по=PR=} {средство=S,n,inan=dat,pl}
+{я=SPRO,sg,1p=(abl|dat)} {этот=APRO=nom,sg,f} {роскошь=S,f,inan=(acc,sg|nom,sg)}: {ночь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {рот=S,m,inan=(acc,sg|nom,sg)}.
+
+{прощаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {ж=PART=} {короче=ADV=} {и=CONJ=} {просто=ADV=}
+ — {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {уметь=V,ipf,intr=inpraes,pl,indic,3p} {красть=V,ipf=inf,tran}! — 
+{с=PR=} {ты=SPRO,sg,2p=ins}, {нелепый=A=nom,sg,plen,supr,f} {роскошь=S,f,inan=(acc,sg|nom,sg)},
+{роскошный=A=nom,sg,plen,f} {нелепость=S,f,inan=(acc,sg|nom,sg)}! — {страсть=S,f,inan=(acc,sg|nom,sg)}!

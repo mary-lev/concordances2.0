@@ -1,74 +1,9 @@
-сыпать=V,ipf,tran=inpraes,pl,indic,3p
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-с=PR=
-_
-колесо=S,n,inan=ins,pl
-_
-спорить=V,ipf,intr=inpraes,ger
-,\n
-серебристый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-брызги=S,pl,inan=(acc|nom)
-_
-вокруг=ADV=
-.\n
-ни=CONJ=
-_
-смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-ни=CONJ=
-_
-горе=S,sg,n,inan=gen
-,_\u2014_\n
-быть=V,intr=sg,imper,2p
-_
-счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-друг=S,m,anim=nom,sg
-!\n\n
-в=PR=
-_
-синева=S,f,inan=acc,sg
-_
-беспокойный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-выплывать=V,intr=inpraes,sg,indic,3p,ipf
-_
-отважный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-фрегат=S,m,inan=(acc,sg|nom,sg)
-.\n
-ни=CONJ=
-_
-смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-ни=CONJ=
-_
-горе=S,sg,n,inan=gen
-,_\u2014_\n
-быть=V,intr=sg,imper,2p
-_
-счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-брат=S,m,anim=nom,sg
-!\n
+{сыпать=V,ipf,tran=inpraes,pl,indic,3p} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {с=PR=} {колесо=S,n,inan=ins,pl} {спорить=V,ipf,intr=inpraes,ger},
+{серебристый=A=(acc,pl,plen,inan|nom,pl,plen)} {брызги=S,pl,inan=(acc|nom)} {вокруг=ADV=}.
+{ни=CONJ=} {смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {ни=CONJ=} {горе=S,sg,n,inan=gen}, — 
+{быть=V,intr=sg,imper,2p} {счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {друг=S,m,anim=nom,sg}!
+
+{в=PR=} {синева=S,f,inan=acc,sg} {беспокойный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{выплывать=V,intr=inpraes,sg,indic,3p,ipf} {отважный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {фрегат=S,m,inan=(acc,sg|nom,sg)}.
+{ни=CONJ=} {смущение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {ни=CONJ=} {горе=S,sg,n,inan=gen}, — 
+{быть=V,intr=sg,imper,2p} {счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg}!

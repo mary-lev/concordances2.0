@@ -1,77 +1,9 @@
-...
-облетать=V=inpraes,pl,indic,3p,ipf,tran|облетать=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)
-_
-белила=S,pl,inan=(acc|nom)
-,_
-тускнеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-румяный=A=sg,brev,f
-,_\n
-догорать=V,intr=inpraes,sg,indic,3p,ipf
-_
-заря=S,f,inan=nom,sg
-,_
-отступать=V,intr=inpraes,pl,indic,3p,ipf
-_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-опускаться=V,intr=sg,imper,2p,ipf
-_
-на=PR=
-_
-самый=APRO=(acc,sg,n|nom,sg,n)
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-_
-океан=S,m,inan=gen,sg
-_\n
-бесполезный=A=ins,sg,plen,f
-,_
-черный=A=ins,sg,plen,f
-_
-роза=S,f,inan=ins,sg
-_
-горе=S,sg,n,inan=gen
-!\n\n
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-_
-слишком=ADV=
-_
-поздно=ADV=
-._
-всегда=ADVPRO=
-_
-слишком=ADV=
-_
-рано=ADV=
-._\n\xAB
-догорать=V,intr=praet,pl,indic,pf
-_
-огонь=S,m,inan=(acc,pl|nom,pl)
-,_
-облетать=V=praet,pl,indic,pf|облетать=V=praet,pl,indic,pf
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-\xBB_\u2014\n
-опускаться=V,intr=sg,imper,2p,ipf
-_
-на=PR=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-_
-мировой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-туман=S,m,inan=gen,sg
-,\n
-в=PR=
-_
-непроглядный=A=acc,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+...{облетать=V=inpraes,pl,indic,3p,ipf,tran|облетать=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} {белила=S,pl,inan=(acc|nom)}, {тускнеть=V,ipf,intr=inpraes,pl,indic,3p} {румяный=A=sg,brev,f}, 
+{догорать=V,intr=inpraes,sg,indic,3p,ipf} {заря=S,f,inan=nom,sg}, {отступать=V,intr=inpraes,pl,indic,3p,ipf} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+{опускаться=V,intr=sg,imper,2p,ipf} {на=PR=} {самый=APRO=(acc,sg,n|nom,sg,n)} {дно=S,n,inan=(acc,sg|nom,sg)} {океан=S,m,inan=gen,sg} 
+{бесполезный=A=ins,sg,plen,f}, {черный=A=ins,sg,plen,f} {роза=S,f,inan=ins,sg} {горе=S,sg,n,inan=gen}!
+
+{все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n} {слишком=ADV=} {поздно=ADV=}. {всегда=ADVPRO=} {слишком=ADV=} {рано=ADV=}. 
+«{догорать=V,intr=praet,pl,indic,pf} {огонь=S,m,inan=(acc,pl|nom,pl)}, {облетать=V=praet,pl,indic,pf|облетать=V=praet,pl,indic,pf} {цветок=S,m,inan=(acc,pl|nom,pl)}» —
+{опускаться=V,intr=sg,imper,2p,ipf} {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)} {мировой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {туман=S,m,inan=gen,sg},
+{в=PR=} {непроглядный=A=acc,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

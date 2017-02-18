@@ -1,80 +1,9 @@
-я=SPRO,sg,1p=(acc|gen)
-_
-влечь=V,ipf,tran=inpraes,sg,indic,3p
-_
-обратно=ADV=
-_
-в=PR=
-_
-край=S,m,inan=(acc,sg|nom,sg)
-_
-гафиз=S,persn,m,anim=(acc,sg|gen,sg)
-,_\n
-там=ADVPRO=
-_
-зеленеть=V,ipf,intr=praet,sg,indic,m
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-польнара=S,persn,f,anim=(gen,sg|nom,pl)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-_\n
-и=CONJ=
-_
-полночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сафировый?=A=nom,sg,plen,f
-_
-риза=S,f,inan=nom,sg
-_\n
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-раскрываться=V,intr=praet,sg,indic,f,ipf
-,_
-как=CONJ=
-_
-шатер=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-память=S,f,inan=(acc,sg|nom,sg)
-_
-обездоливать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-искать=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-везде=ADV=
-,_
-везде=ADV=
-_
-примета=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-поле=S,n,inan=gen,pl
-,\n
-где=ADVPRO=
-_
-лютня=S,f,inan=nom,sg
-_
-бросать=V=praet,nom,sg,partcp,plen,f,pf,pass
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-где=ADVPRO=
-_
-свистать=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-над=PR=
-_
-вечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-роза=S,f,inan=ins,sg
-_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-соловей=S,m,anim=nom,sg
-.\n
+{я=SPRO,sg,1p=(acc|gen)} {влечь=V,ipf,tran=inpraes,sg,indic,3p} {обратно=ADV=} {в=PR=} {край=S,m,inan=(acc,sg|nom,sg)} {гафиз=S,persn,m,anim=(acc,sg|gen,sg)}, 
+{там=ADVPRO=} {зеленеть=V,ipf,intr=praet,sg,indic,m} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {польнара=S,persn,f,anim=(gen,sg|nom,pl)} {взор=S,m,inan=(acc,sg|nom,sg)} 
+{и=CONJ=} {полночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сафировый?=A=nom,sg,plen,f} {риза=S,f,inan=nom,sg} 
+{над=PR=} {мы=SPRO,pl,1p=ins} {раскрываться=V,intr=praet,sg,indic,f,ipf}, {как=CONJ=} {шатер=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {память=S,f,inan=(acc,sg|nom,sg)} {обездоливать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {искать=V,ipf,tran=inpraes,sg,indic,3p} 
+{везде=ADV=}, {везде=ADV=} {примета=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {поле=S,n,inan=gen,pl},
+{где=ADVPRO=} {лютня=S,f,inan=nom,sg} {бросать=V=praet,nom,sg,partcp,plen,f,pf,pass} {ждать=V,ipf,tran=inpraes,sg,indic,3p}, {где=ADVPRO=} {свистать=V,ipf,tran=inpraes,sg,indic,3p} 
+{над=PR=} {вечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роза=S,f,inan=ins,sg} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {соловей=S,m,anim=nom,sg}.

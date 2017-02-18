@@ -1,174 +1,29 @@
-посвящать=V,tran=inpraes,sg,indic,1p,ipf
-_
-этот=APRO=(nom,pl|acc,pl,inan)
-_
-строка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-устраивать=V,tran=inpraes,sg,indic,3p,pf
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-.\n
-приоткрывать=V=inpraes,pl,indic,3p,pf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-ненавистный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лоб=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-изменять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-без=PR=
-_
-нужда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-с=PR=
-_
-венчик=S,m,inan=ins,sg
-_
-на=PR=
-_
-лоб=S,m,inan=(dat,sg|loc,sg)
-,\n
-собственный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-сердце=S,n,inan=dat,sg
-_
-чуждый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-не=PART=
-_
-увидеть=V,pf,tran=inpraes,pl,indic,3p
-_
-на=PR=
-_
-лицо=S,n,inan=abl,sg
-:\n\xAB
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-слышно=ADV=parenth
-!_
-все=SPRO,pl=(acc|nom)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-видно=ADV,praed=
-!\n
-я=SPRO,sg,1p=(abl|dat)
-_
-в=PR=
-_
-гроб=S,m,inan=(dat,sg|loc,sg)
-_
-еще=ADV=
-_
-обидно=ADV=
-\n
-быть=V,intr=inf,ipf
-_
-как=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-\xBB.\n\n
-в=PR=
-_
-платье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-белоснежный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-с=PR=
-_
-детство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-нелюбимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-!_\u2014_\n
-ложиться=V,intr=inpraes,sg,indic,1p,pf
-_\u2014_
-с=PR=
-_
-кто-то=SPRO,sg,m,anim=ins
-_
-по=PR=
-_
-соседство=S,n,inan=dat,sg
-?_\u2014_\n
-до=PR=
-_
-скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-год=S,m,inan=gen,pl
-.\n\n
-слушать=V,ipf,tran=pl,imper,2p
-!_\u2014_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-приемлить=V,ipf=inpraes,sg,indic,1p
-!\n
-это=SPRO,sg,n,inan=(acc|nom)
-_\u2014_
-западня=S,f,inan=nom,sg
-!\n
-не=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-опускать=V=inpraes,pl,indic,3p,pf
-_
-в=PR=
-_
-земля=S,f,inan=acc,sg
-,\n
-не=PART=
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
-знать=V,ipf,tran=inpraes,sg,indic,1p
-!_\u2014_
-все=SPRO,pl=(acc|nom)
-_
-сгорать=V,intr=inpraes,sg,indic,3p,pf
-_
-дотла=ADV=
-!\n
-и=CONJ=
-_
-не=PART=
-_
-приютить=V,pf,tran=inpraes,sg,indic,3p
-_
-могила=S,f,inan=nom,sg
-\n
-ничего=ADV=
-,_
-что=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=praet,sg,indic,f
-,\n
-чем=CONJ=
-_
-жить=V,ipf,intr=praet,sg,indic,f
-.\n
+{посвящать=V,tran=inpraes,sg,indic,1p,ipf} {этот=APRO=(nom,pl|acc,pl,inan)} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)}, {кто=SPRO,sg,m,anim=nom} {я=SPRO,sg,1p=(abl|dat)} {устраивать=V,tran=inpraes,sg,indic,3p,pf} {гроб=S,m,inan=(acc,sg|nom,sg)}.
+{приоткрывать=V=inpraes,pl,indic,3p,pf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{ненавистный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лоб=S,m,inan=(acc,sg|nom,sg)}.
+
+{изменять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {без=PR=} {нужда=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{с=PR=} {венчик=S,m,inan=ins,sg} {на=PR=} {лоб=S,m,inan=(dat,sg|loc,sg)},
+{собственный=A=(dat,sg,plen,m|dat,sg,plen,n)} {сердце=S,n,inan=dat,sg} {чуждый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{быть=V,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)}.
+
+{не=PART=} {увидеть=V,pf,tran=inpraes,pl,indic,3p} {на=PR=} {лицо=S,n,inan=abl,sg}:
+«{все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {слышно=ADV=parenth}! {все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {видно=ADV,praed=}!
+{я=SPRO,sg,1p=(abl|dat)} {в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)} {еще=ADV=} {обидно=ADV=}
+{быть=V,intr=inf,ipf} {как=CONJ=} {все=SPRO,pl=(acc|nom)}».
+
+{в=PR=} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {белоснежный=A=(abl,sg,plen,m|abl,sg,plen,n)} — {с=PR=} {детство=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{нелюбимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)}! — 
+{ложиться=V,intr=inpraes,sg,indic,1p,pf} — {с=PR=} {кто-то=SPRO,sg,m,anim=ins} {по=PR=} {соседство=S,n,inan=dat,sg}? — 
+{до=PR=} {скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {год=S,m,inan=gen,pl}.
+
+{слушать=V,ipf,tran=pl,imper,2p}! — {я=SPRO,sg,1p=nom} {не=PART=} {приемлить=V,ipf=inpraes,sg,indic,1p}!
+{это=SPRO,sg,n,inan=(acc|nom)} — {западня=S,f,inan=nom,sg}!
+{не=PART=} {я=SPRO,sg,1p=(acc|gen)} {опускать=V=inpraes,pl,indic,3p,pf} {в=PR=} {земля=S,f,inan=acc,sg},
+{не=PART=} {я=SPRO,sg,1p=(acc|gen)}.
+
+{знать=V,ipf,tran=inpraes,sg,indic,1p}! — {все=SPRO,pl=(acc|nom)} {сгорать=V,intr=inpraes,sg,indic,3p,pf} {дотла=ADV=}!
+{и=CONJ=} {не=PART=} {приютить=V,pf,tran=inpraes,sg,indic,3p} {могила=S,f,inan=nom,sg}
+{ничего=ADV=}, {что=CONJ=} {я=SPRO,sg,1p=nom} {любить=V,ipf,tran=praet,sg,indic,f},
+{чем=CONJ=} {жить=V,ipf,intr=praet,sg,indic,f}.

@@ -1,106 +1,14 @@
-опять=ADV=
-_
-белила=S,pl,inan=(acc|nom)
-,_
-сепия=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-сажа=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-труба=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-гений=S,m,anim=(acc,pl|gen,pl)
-_
-греметь=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-упор=S,m,inan=(acc,sg|nom,sg)
-.\n
-опять=ADV=
-_
-архитектурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пейзаж=S,m,inan=gen,sg
-_\n
-стесненный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-раскрываться=V,intr=inpraes,sg,indic,3p,ipf
-_
-простор=S,m,inan=(acc,sg|nom,sg)
-!\n\n
-горбатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мост=S,m,inan=(acc,sg|nom,sg)
-_
-прорезать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)
-_
-лебедка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-павлиний=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-веер=S,m,inan=(acc,sg|nom,sg)
-_
-распускать=V=praet,sg,indic,m,pf
-_
-закат=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-легкое=S,n,inan=(acc,pl|nom,pl)
-,_
-как=CONJ=
-_
-парусный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лодка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-над=PR=
-_
-купол=S,m,inan=ins,pl
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-лететь=V,ipf,intr=inpraes,pl,indic,3p
-.\n\n
-на=PR=
-_
-плоский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-отблеск=S,m,inan=(acc,sg|nom,sg)
-_
-лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-отбрасывать=V=praet,sg,indic,m,pf
-_
-зарево=S,n,inan=(acc,sg|nom,sg)
-._
-и=CONJ=
-,_
-присмиреть=V,pf,intr=praet,ger
-,\n
-на=PR=
-_
-черный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-цоколь=S,m,inan=abl,sg
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-шар=S,m,inan=(acc,sg|nom,sg)
-_
-чугунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лапа=S,f,inan=ins,sg
-_
-сжимать=V=inpraes,sg,indic,3p,ipf,tran
-_
-лев=S,m,anim=nom,sg
-.\n
+{опять=ADV=} {белила=S,pl,inan=(acc|nom)}, {сепия=S,f,inan=nom,sg} {и=CONJ=} {сажа=S,f,inan=nom,sg},
+{и=CONJ=} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гений=S,m,anim=(acc,pl|gen,pl)} {греметь=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {упор=S,m,inan=(acc,sg|nom,sg)}.
+{опять=ADV=} {архитектурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пейзаж=S,m,inan=gen,sg} 
+{стесненный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {раскрываться=V,intr=inpraes,sg,indic,3p,ipf} {простор=S,m,inan=(acc,sg|nom,sg)}!
+
+{горбатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мост=S,m,inan=(acc,sg|nom,sg)} {прорезать=V,tran=(praet,pl,indic,ipf|praet,pl,indic,pf)} {лебедка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{павлиний=A,plen=(acc,sg,m,inan|nom,sg,m)} {веер=S,m,inan=(acc,sg|nom,sg)} {распускать=V=praet,sg,indic,m,pf} {закат=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {легкое=S,n,inan=(acc,pl|nom,pl)}, {как=CONJ=} {парусный=A=(acc,pl,plen,inan|nom,pl,plen)} {лодка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{над=PR=} {купол=S,m,inan=ins,pl} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лететь=V,ipf,intr=inpraes,pl,indic,3p}.
+
+{на=PR=} {плоский=A=(acc,pl,plen,inan|nom,pl,plen)} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {отблеск=S,m,inan=(acc,sg|nom,sg)} {лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{отбрасывать=V=praet,sg,indic,m,pf} {зарево=S,n,inan=(acc,sg|nom,sg)}. {и=CONJ=}, {присмиреть=V,pf,intr=praet,ger},
+{на=PR=} {черный=A=(abl,sg,plen,m|abl,sg,plen,n)} {цоколь=S,m,inan=abl,sg} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {шар=S,m,inan=(acc,sg|nom,sg)} {чугунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лапа=S,f,inan=ins,sg} {сжимать=V=inpraes,sg,indic,3p,ipf,tran} {лев=S,m,anim=nom,sg}.

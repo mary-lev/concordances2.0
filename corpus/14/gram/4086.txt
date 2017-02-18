@@ -1,104 +1,15 @@
-как=ADVPRO=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-_
-ты=SPRO,sg,2p=nom
-,_
-сильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-забывать=V=inf,pf
-_
-у=PR=
-_
-ласковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-колено=S,n,inan=gen,pl
-,\n
-что=CONJ=
-_
-грех=S,m,inan=(acc,sg|nom,sg)
-_
-карать=V,ipf,tran=inpraes,pl,indic,3p
-_
-первородный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-уничтожение=S,n,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-тлен=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-зачем=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-давать=V,tran=praet,sg,indic,m,pf
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-на=PR=
-_
-забава=S,f,inan=acc,sg
-\n
-весь=APRO=acc,sg,f
-_
-тайна=S,f,inan=acc,sg
-_
-чудотворный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,_\u2014\n
-она=SPRO,sg,3p,f=nom
-_
-твой=APRO=acc,sg,f
-_
-развеивать=V,tran=inpraes,sg,indic,3p,pf
-_
-слава=S,f,inan=acc,sg
-\n
-рука=S,f,inan=ins,sg
-_
-хищный=A=ins,sg,plen,f
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n\n
-стыдиться=V,ipf,intr=sg,imper,2p
-,_
-и=CONJ=
-_
-творческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-не=PART=
-_
-у=PR=
-_
-земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жена=S,f,anim=(gen,sg|nom,pl)
-_
-моль=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-.\n
-такой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-в=PR=
-_
-монастырь=S,m,inan=(acc,pl|nom,pl)
-_
-ссылать=V=praet,pl,indic,ipf,tran
-\n
-и=CONJ=
-_
-на=PR=
-_
-костер=S,m,inan=abl,pl
-_
-высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-жечь=V,ipf,tran=praet,pl,indic
-.\n\n
+{как=ADVPRO=} {мочь=V,ipf,intr=praet,sg,indic,m} {ты=SPRO,sg,2p=nom}, {сильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{забывать=V=inf,pf} {у=PR=} {ласковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {колено=S,n,inan=gen,pl},
+{что=CONJ=} {грех=S,m,inan=(acc,sg|nom,sg)} {карать=V,ipf,tran=inpraes,pl,indic,3p} {первородный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{уничтожение=S,n,inan=(acc,sg|nom,sg)} {и=CONJ=} {тлен=S,m,inan=(acc,sg|nom,sg)}.
+
+{зачем=ADVPRO=} {ты=SPRO,sg,2p=nom} {давать=V,tran=praet,sg,indic,m,pf} {она=SPRO,sg,3p,f=(dat|ins)} {на=PR=} {забава=S,f,inan=acc,sg}
+{весь=APRO=acc,sg,f} {тайна=S,f,inan=acc,sg} {чудотворный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}, —
+{она=SPRO,sg,3p,f=nom} {твой=APRO=acc,sg,f} {развеивать=V,tran=inpraes,sg,indic,3p,pf} {слава=S,f,inan=acc,sg}
+{рука=S,f,inan=ins,sg} {хищный=A=ins,sg,plen,f} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+
+{стыдиться=V,ipf,intr=sg,imper,2p}, {и=CONJ=} {творческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{не=PART=} {у=PR=} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жена=S,f,anim=(gen,sg|nom,pl)} {моль=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)}.
+{такой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {в=PR=} {монастырь=S,m,inan=(acc,pl|nom,pl)} {ссылать=V=praet,pl,indic,ipf,tran}
+{и=CONJ=} {на=PR=} {костер=S,m,inan=abl,pl} {высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {жечь=V,ipf,tran=praet,pl,indic}.
+

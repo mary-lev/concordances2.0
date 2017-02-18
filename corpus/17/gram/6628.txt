@@ -1,116 +1,14 @@
-только=PART=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-._
-только=PART=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-,_\n
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-синий=A=sg,brev,n
--
-звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-над=PR=
-_
-ты=SPRO,sg,2p=ins
-_
-и=CONJ=
-_
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-.\n\n
-тихо=ADV=comp
-,_
-тихо=ADV=comp
-._
-за=PR=
-_
-полярный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-круг=S,m,inan=ins,sg
-_\n
-спать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-не=PART=
-_
-разнимать=V,tran=inpraes,ger,ipf
-_
-рука=S,f,inan=gen,pl
-,\n
-с=PR=
-_
-верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-друг=S,m,anim=ins,sg
-,_
-с=PR=
-_
-неразлучный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-друг=S,m,anim=ins,sg
-,_\n
-с=PR=
-_
-мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-друг=S,m,anim=ins,sg
-_\u2014_
-мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-друг=S,m,anim=nom,sg
-.\n\n
-они=SPRO,pl=dat
-_
-спокойно=ADV=
-_
-вместе=ADV=
-,_
-они=SPRO,pl=dat
-_
-блаженно=ADV=
-_
-рядом=ADV=
-..._\n
-тихо=ADV=comp
-,_
-тихо=ADV=comp
-._
-не=PART=
-_
-дышать=V,ipf,intr=sg,imper,2p
-.\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-только=PART=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-над=PR=
-_
-пустынный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сад=S,m,inan=ins,sg
-,_\n
-только=PART=
-_
-синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-свет=S,sg,m,inan=(acc|nom)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-душа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{только=PART=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {только=PART=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздух=S,m,inan=(acc,sg|nom,sg)}, 
+{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {синий=A=sg,brev,n}-{звездный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{над=PR=} {ты=SPRO,sg,2p=ins} {и=CONJ=} {надо=ADV,praed=} {я=SPRO,sg,1p=ins}.
+
+{тихо=ADV=comp}, {тихо=ADV=comp}. {за=PR=} {полярный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {круг=S,m,inan=ins,sg} 
+{спать=V,ipf,intr=inpraes,pl,indic,3p}, {не=PART=} {разнимать=V,tran=inpraes,ger,ipf} {рука=S,f,inan=gen,pl},
+{с=PR=} {верный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {друг=S,m,anim=ins,sg}, {с=PR=} {неразлучный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {друг=S,m,anim=ins,sg}, 
+{с=PR=} {мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {друг=S,m,anim=ins,sg} — {мертвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {друг=S,m,anim=nom,sg}.
+
+{они=SPRO,pl=dat} {спокойно=ADV=} {вместе=ADV=}, {они=SPRO,pl=dat} {блаженно=ADV=} {рядом=ADV=}... 
+{тихо=ADV=comp}, {тихо=ADV=comp}. {не=PART=} {дышать=V,ipf,intr=sg,imper,2p}.
+{это=SPRO,sg,n,inan=(acc|nom)} {только=PART=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {пустынный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сад=S,m,inan=ins,sg}, 
+{только=PART=} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

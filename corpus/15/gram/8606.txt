@@ -1,124 +1,24 @@
-история=S,f,inan=nom,sg
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-_\u2014\n
-история=S,f,inan=nom,sg
-_
-война=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-разнузданность=S,f,inan=(acc,sg|nom,sg)
-_
-страсть=S,f,inan=gen,pl
-\n
-в=PR=
-_
-театр=S,m,inan=abl,sg
-_
-сатана=S,mf,anim=(gen,sg|nom,pl)
-.\n\n
-страна=S,f,inan=nom,sg
-_
-теснить=V,ipf,tran=inpraes,sg,indic,3p
-_
-страна=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-_
-встречать=V,tran=inpraes,sg,indic,3p,ipf
-_
-взгляд=S,m,inan=(acc,sg|nom,sg)
-.\n
-за=PR=
-_
-краткий=A=acc,sg,plen,f
-_
-весна=S,f,inan=acc,sg
-\n
-несчетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ряд=S,m,inan=(acc,sg|nom,sg)
-_
-расплата=S,f,inan=gen,pl
-.\n\n
-у=PR=
-_
-бешенство=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-бешеный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-язык=S,m,inan=(acc,sg|nom,sg)
-,\n
-личина=S,f,inan=nom,sg
-_
-доброта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-спадать=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-быстрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-правда=S,f,inan=ins,sg
-_
-звать=V,ipf,tran=inpraes,pl,indic,3p
-,\n
-мучительный=A=nom,sg,plen,f
-_
-ложь=S,f,inan=(acc,sg|nom,sg)
-.\n
-смеяться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ль=PART=
-,_\u2014_
-тут=ADVPRO=
-_
-как=CONJ=
-_
-тут=ADVPRO=
-.\n
-за=PR=
-_
-пазуха=S,f,inan=ins,sg
-_
-нож=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-снова=ADV=
-_
-литься=V,ipf,intr=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-\n
-из=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-и=CONJ=
-_
-вот=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-вновь=ADV=
-,_
-мы=SPRO,pl,1p=nom
-_
-вновь=ADV=
-_\u2014\n
-актер=S,m,anim=nom,pl
-_
-сатана=S,mf,anim=(gen,sg|nom,pl)
-.\n
+{история=S,f,inan=nom,sg} {человек=S,m,anim=(acc,pl|gen,pl)} —
+{история=S,f,inan=nom,sg} {война=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{разнузданность=S,f,inan=(acc,sg|nom,sg)} {страсть=S,f,inan=gen,pl}
+{в=PR=} {театр=S,m,inan=abl,sg} {сатана=S,mf,anim=(gen,sg|nom,pl)}.
+
+{страна=S,f,inan=nom,sg} {теснить=V,ipf,tran=inpraes,sg,indic,3p} {страна=S,f,inan=acc,sg},
+{и=CONJ=} {взгляд=S,m,inan=(acc,sg|nom,sg)} {встречать=V,tran=inpraes,sg,indic,3p,ipf} {взгляд=S,m,inan=(acc,sg|nom,sg)}.
+{за=PR=} {краткий=A=acc,sg,plen,f} {весна=S,f,inan=acc,sg}
+{несчетный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ряд=S,m,inan=(acc,sg|nom,sg)} {расплата=S,f,inan=gen,pl}.
+
+{у=PR=} {бешенство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {бешеный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {язык=S,m,inan=(acc,sg|nom,sg)},
+{личина=S,f,inan=nom,sg} {доброта=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{спадать=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {быстрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {миг=S,m,inan=(acc,sg|nom,sg)}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {правда=S,f,inan=ins,sg} {звать=V,ipf,tran=inpraes,pl,indic,3p},
+{мучительный=A=nom,sg,plen,f} {ложь=S,f,inan=(acc,sg|nom,sg)}.
+{смеяться=V,ipf,intr=inpraes,pl,indic,3p} {ль=PART=}, — {тут=ADVPRO=} {как=CONJ=} {тут=ADVPRO=}.
+{за=PR=} {пазуха=S,f,inan=ins,sg} {нож=S,m,inan=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {снова=ADV=} {литься=V,ipf,intr=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)}
+{из=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {глубина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{и=CONJ=} {вот=PART=} {мы=SPRO,pl,1p=nom} {вновь=ADV=}, {мы=SPRO,pl,1p=nom} {вновь=ADV=} —
+{актер=S,m,anim=nom,pl} {сатана=S,mf,anim=(gen,sg|nom,pl)}.

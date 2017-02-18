@@ -1,112 +1,14 @@
-белизна=S,sg,f,inan=nom
-_\u2014_
-угроза=S,f,inan=nom,sg
-_
-чернота=S,sg,f,inan=(abl|dat)
-.\n
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-храм=S,m,inan=(acc,sg|nom,sg)
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-гроб=S,m,inan=dat,pl
-_
-и=CONJ=
-_
-гром=S,m,inan=dat,sg
-.\n
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-праведник=S,m,anim=nom,sg
-_
-грозить=V,ipf,intr=inpraes,sg,indic,3p
-_
-содом=S,m,inan=dat,sg
-\n
-не=PART=
-_
-меч=S,m,inan=ins,sg
-_\u2014_
-а=CONJ=
-_
-лилия=S,f,inan=ins,sg
-_
-в=PR=
-_
-щит=S,m,inan=abl,sg
-!\n\n
-белизна=S,sg,f,inan=nom
-!_
-нерукотворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-круг=S,m,inan=(acc,sg|nom,sg)
-!\n
-чан=S,m,inan=(acc,sg|nom,sg)
-_
-крестильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_
-вещий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-седина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-червь=S,m,anim=nom,sg
-_
-и=CONJ=
-_
-чернь=S,f,inan=(acc,sg|nom,sg)
-_
-узнавать=V,tran=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)
-_
-господин=S,m,anim=(acc,sg|gen,sg)
-\n
-по=PR=
-_
-цветок=S,m,inan=dat,sg
-,_
-цвести=V,ipf,intr=(inpraes,dat,sg,partcp,plen,m,act|inpraes,dat,sg,partcp,plen,n,act)
-_
-из=PR=
-_
-рука=S,f,inan=gen,pl
-.\n\n
-только=PART=
-_
-агнец=S,m,anim=(acc,sg|gen,sg)
-_
-убояться=V,pf,intr=inpraes,sg,indic,3p
-_\u2014_
-волк=S,m,anim=nom,sg
-,\n
-только=PART=
-_
-ангел=S,m,anim=dat,sg
-_
-сдаваться=V,intr=inpraes,sg,indic,3p,ipf
-_
-крепость=S,f,inan=(acc,sg|nom,sg)
-.\n
-торжество=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-в=PR=
-_
-подвал=S,m,inan=abl,pl
-_
-и=CONJ=
-_
-в=PR=
-_
-вертеп=S,m,inan=abl,pl
-!\n
-и=CONJ=
-_
-восходить=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-столица=S,f,inan=acc,sg
-_\u2014_
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-полк=S,m,inan=(acc,sg|nom,sg)
-!\n
+{белизна=S,sg,f,inan=nom} — {угроза=S,f,inan=nom,sg} {чернота=S,sg,f,inan=(abl|dat)}.
+{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {храм=S,m,inan=(acc,sg|nom,sg)} {грозить=V,ipf,intr=inpraes,sg,indic,3p} {гроб=S,m,inan=dat,pl} {и=CONJ=} {гром=S,m,inan=dat,sg}.
+{бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {праведник=S,m,anim=nom,sg} {грозить=V,ipf,intr=inpraes,sg,indic,3p} {содом=S,m,inan=dat,sg}
+{не=PART=} {меч=S,m,inan=ins,sg} — {а=CONJ=} {лилия=S,f,inan=ins,sg} {в=PR=} {щит=S,m,inan=abl,sg}!
+
+{белизна=S,sg,f,inan=nom}! {нерукотворный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {круг=S,m,inan=(acc,sg|nom,sg)}!
+{чан=S,m,inan=(acc,sg|nom,sg)} {крестильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! {вещий=A=(acc,pl,plen,inan|nom,pl,plen)} {седина=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+{червь=S,m,anim=nom,sg} {и=CONJ=} {чернь=S,f,inan=(acc,sg|nom,sg)} {узнавать=V,tran=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {господин=S,m,anim=(acc,sg|gen,sg)}
+{по=PR=} {цветок=S,m,inan=dat,sg}, {цвести=V,ipf,intr=(inpraes,dat,sg,partcp,plen,m,act|inpraes,dat,sg,partcp,plen,n,act)} {из=PR=} {рука=S,f,inan=gen,pl}.
+
+{только=PART=} {агнец=S,m,anim=(acc,sg|gen,sg)} {убояться=V,pf,intr=inpraes,sg,indic,3p} — {волк=S,m,anim=nom,sg},
+{только=PART=} {ангел=S,m,anim=dat,sg} {сдаваться=V,intr=inpraes,sg,indic,3p,ipf} {крепость=S,f,inan=(acc,sg|nom,sg)}.
+{торжество=S,n,inan=(acc,sg|nom,sg)} — {в=PR=} {подвал=S,m,inan=abl,pl} {и=CONJ=} {в=PR=} {вертеп=S,m,inan=abl,pl}!
+{и=CONJ=} {восходить=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {столица=S,f,inan=acc,sg} — {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {полк=S,m,inan=(acc,sg|nom,sg)}!

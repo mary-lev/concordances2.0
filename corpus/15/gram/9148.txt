@@ -1,116 +1,23 @@
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-приходить=V,intr=praet,sg,indic,f,pf
-\n
-богиня=S,f,anim=nom,sg
-_
-лада=S,persn,f,anim=nom,sg
-.\n
-нежный=A=sg,brev,f
-,_
-светлый=A=sg,brev,f
-,\n
-она=SPRO,sg,3p,f=nom
-_
-быть=V,intr=praet,sg,indic,f,ipf
-,\n
-как=CONJ=
-_
-предрассветный=A=nom,sg,plen,f
-_
-прохлада=S,f,inan=nom,sg
-.\n\n
-я=SPRO,sg,1p=nom
-_
-целовать=V,ipf,tran=praet,sg,indic,m
-,\n
-твердить=V,ipf,tran=inpraes,ger
-:_\xAB
-о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-лада=S,persn,f,anim=nom,sg
-!\xBB\n
-я=SPRO,sg,1p=nom
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-давать=V,tran=praet,sg,indic,m,ipf
-\n
-любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-фиал=S,m,inan=(acc,sg|nom,sg)
-,\n
-она=SPRO,sg,3p,f=nom
-_
-шепнуть=V,pf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=(abl|dat)
-:_\xAB
-не=PART=
-_
-надо=ADV,praed=
-!\xBB\n\n
-но=CONJ=
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-алеть=V,ipf,intr=praet,sg,indic,m
-,\n
-как=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сад=S,m,inan=gen,sg
-.\n
-и=CONJ=
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-_
-сметь=V,ipf,intr=praet,sg,indic,m
-,\n
-любить=V,ipf,tran=praet,sg,indic,m
-,_
-гореть=V,ipf,intr=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-становиться=V,intr=praet,sg,indic,f,pf
-_
-розовый=A=ins,sg,plen,f
-_
-лада=S,persn,f,anim=nom,sg
-.\n\n
-и=CONJ=
-_
-понимать=V=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=nom
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-услада=S,f,inan=nom,sg
-.\n\xAB
-мой=APRO=nom,sg,f
-!_
-мой=APRO=nom,sg,f
-!\xBB\n\xAB\u2014_
-о=PR=
-,_
-ты=SPRO,sg,2p=nom
-_
-змея=S,f,anim=nom,sg
-!\xBB\n
-шепнуть=V,pf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-слабеть=V,ipf,intr=inpraes,ger
-,_
-лада=S,mf,anim=nom,sg
-.\n
+{ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {приходить=V,intr=praet,sg,indic,f,pf}
+{богиня=S,f,anim=nom,sg} {лада=S,persn,f,anim=nom,sg}.
+{нежный=A=sg,brev,f}, {светлый=A=sg,brev,f},
+{она=SPRO,sg,3p,f=nom} {быть=V,intr=praet,sg,indic,f,ipf},
+{как=CONJ=} {предрассветный=A=nom,sg,plen,f} {прохлада=S,f,inan=nom,sg}.
+
+{я=SPRO,sg,1p=nom} {целовать=V,ipf,tran=praet,sg,indic,m},
+{твердить=V,ipf,tran=inpraes,ger}: «{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {лада=S,persn,f,anim=nom,sg}!»
+{я=SPRO,sg,1p=nom} {она=SPRO,sg,3p,f=(dat|ins)} {давать=V,tran=praet,sg,indic,m,ipf}
+{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {фиал=S,m,inan=(acc,sg|nom,sg)},
+{она=SPRO,sg,3p,f=nom} {шепнуть=V,pf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=(abl|dat)}: «{не=PART=} {надо=ADV,praed=}!»
+
+{но=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)} {алеть=V,ipf,intr=praet,sg,indic,m},
+{как=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сад=S,m,inan=gen,sg}.
+{и=CONJ=} {становиться=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {сметь=V,ipf,intr=praet,sg,indic,m},
+{любить=V,ipf,tran=praet,sg,indic,m}, {гореть=V,ipf,intr=praet,sg,indic,m},
+{и=CONJ=} {становиться=V,intr=praet,sg,indic,f,pf} {розовый=A=ins,sg,plen,f} {лада=S,persn,f,anim=nom,sg}.
+
+{и=CONJ=} {понимать=V=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom},
+{что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {услада=S,f,inan=nom,sg}.
+«{мой=APRO=nom,sg,f}! {мой=APRO=nom,sg,f}!»
+«— {о=PR=}, {ты=SPRO,sg,2p=nom} {змея=S,f,anim=nom,sg}!»
+{шепнуть=V,pf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=(abl|dat)}, {слабеть=V,ipf,intr=inpraes,ger}, {лада=S,mf,anim=nom,sg}.

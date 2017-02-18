@@ -1,138 +1,29 @@
-рассказывать=V=praet,pl,indic,pf
-_
-страшный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,_\n
-давать=V,tran=praet,pl,indic,pf
-_
-точный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-адрес=S,m,inan=(acc,sg|nom,sg)
-._\n
-отпирать=V=inpraes,pl,indic,3p,ipf,tran
-,_
-спрашивать=V=inpraes,pl,indic,3p,ipf,tran
-,_\n
-двигаться=V,ipf,intr=inpraes,pl,indic,3p
-,_
-как=CONJ=
-_
-в=PR=
-_
-театр=S,m,inan=abl,sg
-.\n\n
-тишина=S,sg,f,inan=nom
-,_
-ты=SPRO,sg,2p=nom
-_\u2014_
-хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)
-_\n
-из=PR=
-_
-все=SPRO,sg,n,inan=gen
-,_
-что=CONJ=
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-._\n
-некоторые=SPRO,pl=(abl|acc|gen)
-_
-мучить=V,ipf=inpraes,sg,indic,3p,tran
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-летать=V,ipf,intr=inpraes,pl,indic,3p
-_
-мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-.\n\n
-июльский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=ins,sg
-_
-слобода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-чудный=A=sg,brev,n
-_
-белокурый=A=pl,brev
-,_\n
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-бездна=S,f,inan=(abl,sg|dat,sg)
-_
-повод=S,m,inan=gen,pl
-,_\n
-чтоб=CONJ=
-_
-набедокурить=V,pf,intr=inf
-.\n\n
-блистать=V,ipf,intr=inpraes,pl,indic,3p
-,_
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-радость=S,f,inan=ins,sg
-,_\n
-обдавать=V,tran=inpraes,pl,indic,3p,ipf
-_
-сияние=S,n,inan=ins,sg
-,_\n
-на=PR=
-_
-такой-то=APRO=(abl,sg,m|abl,sg,n)
-_
-градус=S,m,inan=abl,sg
-_\n
-и=CONJ=
-_
-меридиан=S,m,inan=abl,sg
-.\n\n
-ветер=S,m,inan=(acc,sg|nom,sg)
-_
-роза=S,f,inan=acc,sg
-_
-пробовать=V,ipf,tran=inpraes,sg,indic,3p
-_\n
-приподымать=V=inf,pf
-_
-по=PR=
-_
-просьба=S,f,inan=(abl,sg|dat,sg)
-_\n
-губа=S,f,inan=gen,pl
-,
-волос=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-и=CONJ=
-_
-обувь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-подол=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-прозвище=S,n,inan=gen,pl
-.\n\n
-газовый=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-жаркий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-осыпать=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-гравий=S,m,inan=(acc,sg|nom,sg)
-_\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-они=SPRO,pl=dat
-_
-нашаркать=V,pf,intr=praet,pl,indic
-,_\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-наигрывать=V,tran=praet,pl,indic,pf
-.\n
+{рассказывать=V=praet,pl,indic,pf} {страшный=A=(acc,sg,plen,n|nom,sg,plen,n)}, 
+{давать=V,tran=praet,pl,indic,pf} {точный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {адрес=S,m,inan=(acc,sg|nom,sg)}. 
+{отпирать=V=inpraes,pl,indic,3p,ipf,tran}, {спрашивать=V=inpraes,pl,indic,3p,ipf,tran}, 
+{двигаться=V,ipf,intr=inpraes,pl,indic,3p}, {как=CONJ=} {в=PR=} {театр=S,m,inan=abl,sg}.
+
+{тишина=S,sg,f,inan=nom}, {ты=SPRO,sg,2p=nom} — {хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)} 
+{из=PR=} {все=SPRO,sg,n,inan=gen}, {что=CONJ=} {слышать=V,ipf,tran=praet,sg,indic,m}. 
+{некоторые=SPRO,pl=(abl|acc|gen)} {мучить=V,ipf=inpraes,sg,indic,3p,tran}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {летать=V,ipf,intr=inpraes,pl,indic,3p} {мышь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)}.
+
+{июльский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=ins,sg} {слобода=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{чудный=A=sg,brev,n} {белокурый=A=pl,brev}, 
+{небо=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {бездна=S,f,inan=(abl,sg|dat,sg)} {повод=S,m,inan=gen,pl}, 
+{чтоб=CONJ=} {набедокурить=V,pf,intr=inf}.
+
+{блистать=V,ipf,intr=inpraes,pl,indic,3p}, {дышать=V,ipf,intr=inpraes,pl,indic,3p} {радость=S,f,inan=ins,sg}, 
+{обдавать=V,tran=inpraes,pl,indic,3p,ipf} {сияние=S,n,inan=ins,sg}, 
+{на=PR=} {такой-то=APRO=(abl,sg,m|abl,sg,n)} {градус=S,m,inan=abl,sg} 
+{и=CONJ=} {меридиан=S,m,inan=abl,sg}.
+
+{ветер=S,m,inan=(acc,sg|nom,sg)} {роза=S,f,inan=acc,sg} {пробовать=V,ipf,tran=inpraes,sg,indic,3p} 
+{приподымать=V=inf,pf} {по=PR=} {просьба=S,f,inan=(abl,sg|dat,sg)} 
+{губа=S,f,inan=gen,pl},{волос=S,m,inan=(acc,sg|gen,pl|nom,sg)} {и=CONJ=} {обувь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{подол=S,m,inan=gen,pl} {и=CONJ=} {прозвище=S,n,inan=gen,pl}.
+
+{газовый=A=(acc,pl,plen,inan|nom,pl,plen)}, {жаркий=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{осыпать=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {гравий=S,m,inan=(acc,sg|nom,sg)} 
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {они=SPRO,pl=dat} {нашаркать=V,pf,intr=praet,pl,indic}, 
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {наигрывать=V,tran=praet,pl,indic,pf}.

@@ -1,104 +1,14 @@
-клониться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-клониться=V,ipf,intr=inpraes,sg,indic,3p
-_
-лоб=S,m,inan=(acc,sg|nom,sg)
-_
-тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-колос=S,m,inan=ins,sg
-_
-клониться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-жнец=S,m,anim=(acc,sg|gen,sg)
-.\n
-друг=S,m,anim=nom,sg
-!_
-равнодушие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\u2014_
-дурной=A=nom,sg,plen,f
-_
-школа=S,f,inan=nom,sg
-!\n
-ожесточать=V,tran=inpraes,sg,indic,3p,ipf
-_
-оно=SPRO,sg,3p,n=nom
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-жнец=S,m,anim=nom,sg
-_\u2014_
-милосердный=A=sg,brev,m
-:_
-сжинать=V=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-связывать=V=inpraes,sg,indic,3p,pf
-,\n
-поле=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-опять=ADV=
-_
-прорастать=V,intr=inpraes,sg,indic,3p,pf
-_
-трава=S,f,inan=ins,sg
-...\n
-а=CONJ=
-_
-равнодушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\u2014_
-бог=S,m,anim=nom,sg
-_
-наказывать=V=inpraes,sg,indic,3p,pf
-!\n
-страшно=ADV=
-_
-ступать=V,intr=inf,ipf
-_
-по=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-друг=S,m,anim=nom,sg
-!_
-неизжитый=A=nom,sg,plen,f
-_
-нежность=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-душить=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-хоть=PART=
-_
-на=PR=
-_
-алтын=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-полюбить=V,pf,tran=sg,imper,2p
-_\u2014_
-принимать=V=inpraes,sg,indic,1p,pf
-!\n
-друг=S,m,anim=nom,sg
-_
-равнодушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-!_\u2014_
-так=ADVPRO=
-_
-страшно=ADV=
-_
-слушать=V,ipf,tran=inf
-\n
-черный=A=acc,sg,plen,f
-_
-полночь=S,f,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-пустой=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-дом=S,m,inan=(dat,sg|part,sg|loc,sg)
-!\n
+{клониться=V,ipf,intr=inpraes,sg,indic,3p}, {клониться=V,ipf,intr=inpraes,sg,indic,3p} {лоб=S,m,inan=(acc,sg|nom,sg)} {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{колос=S,m,inan=ins,sg} {клониться=V,ipf,intr=inpraes,sg,indic,3p}, {ждать=V,ipf,tran=inpraes,sg,indic,3p} {жнец=S,m,anim=(acc,sg|gen,sg)}.
+{друг=S,m,anim=nom,sg}! {равнодушие=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {дурной=A=nom,sg,plen,f} {школа=S,f,inan=nom,sg}!
+{ожесточать=V,tran=inpraes,sg,indic,3p,ipf} {оно=SPRO,sg,3p,n=nom} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{жнец=S,m,anim=nom,sg} — {милосердный=A=sg,brev,m}: {сжинать=V=inpraes,sg,indic,3p,pf} {и=CONJ=} {связывать=V=inpraes,sg,indic,3p,pf},
+{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {опять=ADV=} {прорастать=V,intr=inpraes,sg,indic,3p,pf} {трава=S,f,inan=ins,sg}...
+{а=CONJ=} {равнодушный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} — {бог=S,m,anim=nom,sg} {наказывать=V=inpraes,sg,indic,3p,pf}!
+{страшно=ADV=} {ступать=V,intr=inf,ipf} {по=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{друг=S,m,anim=nom,sg}! {неизжитый=A=nom,sg,plen,f} {нежность=S,f,inan=(acc,sg|nom,sg)} — {душить=V,ipf,tran=inpraes,sg,indic,3p}.
+{хоть=PART=} {на=PR=} {алтын=S,m,inan=(acc,sg|gen,pl|nom,sg)} {полюбить=V,pf,tran=sg,imper,2p} — {принимать=V=inpraes,sg,indic,1p,pf}!
+{друг=S,m,anim=nom,sg} {равнодушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}! — {так=ADVPRO=} {страшно=ADV=} {слушать=V,ipf,tran=inf}
+{черный=A=acc,sg,plen,f} {полночь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {пустой=A=(abl,sg,plen,m|abl,sg,plen,n)} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)}!

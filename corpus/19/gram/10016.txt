@@ -1,64 +1,9 @@
-надутый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ветер=S,m,inan=ins,sg
-_
-парус=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-рьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-конь=S,m,anim=nom,sg
-,_
-лодчонка=S,f,inan=acc,sg
-_
-мчать=V,ipf,tran=inpraes,sg,indic,3p
-.\n
-вода=S,f,inan=nom,sg
-_
-от=PR=
-_
-веселый=A=sg,brev,m
-,_
-как=CONJ=
-_
-стеклярус=S,m,inan=(acc,sg|nom,sg)
-,\n
-сверкать=V,ipf,intr=inpraes,ger
-_
-брызги=S,pl,inan=ins
-,_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-приумолкать=V,intr=praet,sg,indic,f,pf
-._
-пыхать=V,ipf,intr=inpraes,sg,indic,3p
-_
-зной=S,m,inan=ins,sg
-\n
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-лицо=S,n,inan=(acc,sg|nom,sg)
-,_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-.\n
-какой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-пленительный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-покой=S,m,inan=ins,sg
-\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-берег=S,m,inan=(acc,sg|nom,sg)
-_
-подарить=V,pf,tran=inpraes,pl,indic,3p
-!\n
+{надутый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=ins,sg} {парус=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {рьяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {конь=S,m,anim=nom,sg}, {лодчонка=S,f,inan=acc,sg} {мчать=V,ipf,tran=inpraes,sg,indic,3p}.
+{вода=S,f,inan=nom,sg} {от=PR=} {веселый=A=sg,brev,m}, {как=CONJ=} {стеклярус=S,m,inan=(acc,sg|nom,sg)},
+{сверкать=V,ipf,intr=inpraes,ger} {брызги=S,pl,inan=ins}, {лететь=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{ты=SPRO,sg,2p=nom} {приумолкать=V,intr=praet,sg,indic,f,pf}. {пыхать=V,ipf,intr=inpraes,sg,indic,3p} {зной=S,m,inan=ins,sg}
+{твой=APRO=(acc,sg,n|nom,sg,n)} {лицо=S,n,inan=(acc,sg|nom,sg)}, {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p}.
+{какой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {пленительный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {покой=S,m,inan=ins,sg}
+{мы=SPRO,pl,1p=(abl|acc|gen)} {лес=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {берег=S,m,inan=(acc,sg|nom,sg)} {подарить=V,pf,tran=inpraes,pl,indic,3p}!

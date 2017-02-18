@@ -1,88 +1,14 @@
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-о=PR=
-_
-подружка=S,f,anim=nom,sg
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-ты=SPRO,sg,2p=nom
-_
-жаворонок=S,m,anim=ins,sg
-_
-взлетать=V,intr=praet,sg,indic,f,pf
-,\n
-и=CONJ=
-_
-благостный=A=sg,brev,f
-,_
-и=CONJ=
-_
-сметь=V,ipf,intr=praet,sg,indic,f
-,\n
-что=CONJ=
-_
-божеский=A=nom,sg,plen,f
-_
-стрела=S,f,inan=nom,sg
-.\n\n
-теперь=ADV=
-_
-только=PART=
-_
-песня=S,f,inan=nom,sg
-_
-литься=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-все=SPRO,pl=(acc|nom)
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-вокруг=PR=
-_
-колодец=S,m,inan=gen,sg
-.\n
-кто=SPRO,sg,m,anim=nom
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-увидать=V,pf=praet,sg,indic,m,tran
-_
-отец=S,m,anim=(acc,sg|gen,sg)
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-радостный=A=sg,brev,m
-_
-до=PR=
-_
-конец=S,m,inan=gen,sg
-.\n\n
-сонливый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-глухой=A=comp
-...\n
-восторг=S,m,inan=ins,sg
-_
-остриться=V,ipf,intr=inpraes,pl,indic,3p
-_
-ухо=S,n,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-к=PR=
-_
-тело=S,n,inan=dat,sg
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-_
-душа=S,f,inan=nom,sg
-,\n
-жасмин=S,m,inan=ins,sg
-_
-небо=S,n,inan=gen,pl
-_
-дышать=V,ipf,intr=inpraes,ger
-.\n
+{любовь=S,f,inan=(acc,sg|nom,sg)}, {о=PR=} {подружка=S,f,anim=nom,sg} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{ты=SPRO,sg,2p=nom} {жаворонок=S,m,anim=ins,sg} {взлетать=V,intr=praet,sg,indic,f,pf},
+{и=CONJ=} {благостный=A=sg,brev,f}, {и=CONJ=} {сметь=V,ipf,intr=praet,sg,indic,f},
+{что=CONJ=} {божеский=A=nom,sg,plen,f} {стрела=S,f,inan=nom,sg}.
+
+{теперь=ADV=} {только=PART=} {песня=S,f,inan=nom,sg} {литься=V,ipf,intr=inpraes,sg,indic,3p},
+{все=SPRO,pl=(acc|nom)} {виться=V,ipf,intr=inpraes,sg,indic,3p} {вокруг=PR=} {колодец=S,m,inan=gen,sg}.
+{кто=SPRO,sg,m,anim=nom} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {увидать=V,pf=praet,sg,indic,m,tran} {отец=S,m,anim=(acc,sg|gen,sg)},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {радостный=A=sg,brev,m} {до=PR=} {конец=S,m,inan=gen,sg}.
+
+{сонливый=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {глухой=A=comp}...
+{восторг=S,m,inan=ins,sg} {остриться=V,ipf,intr=inpraes,pl,indic,3p} {ухо=S,n,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {к=PR=} {тело=S,n,inan=dat,sg} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg},
+{жасмин=S,m,inan=ins,sg} {небо=S,n,inan=gen,pl} {дышать=V,ipf,intr=inpraes,ger}.

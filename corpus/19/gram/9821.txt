@@ -1,32 +1,4 @@
-у=PR=
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-_
-отнимать=V,tran=praet,pl,indic,pf
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-,\n
-у=PR=
-_
-сын=S,m,anim=(acc,sg|gen,sg)
-_\u2014_
-любимый=A=acc,sg,plen,f
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-.\n
-тосковать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-_
-ребенок=S,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-некого=SPRO,sg=dat
-_
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-унимать=V=inf,pf
-.\n
+{у=PR=} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)} {отнимать=V,tran=praet,pl,indic,pf} {сын=S,m,anim=(acc,sg|gen,sg)},
+{у=PR=} {сын=S,m,anim=(acc,sg|gen,sg)} — {любимый=A=acc,sg,plen,f} {мать=S,f,anim=(acc,sg|nom,sg)}.
+{тосковать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {ребенок=S,m,anim=nom,sg},
+{и=CONJ=} {некого=SPRO,sg=dat} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {унимать=V=inf,pf}.

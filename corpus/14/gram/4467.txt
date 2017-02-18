@@ -1,56 +1,7 @@
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-опять=ADV=
-_
-возвращаться=V,intr=inpraes,sg,indic,3p,pf
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-:\n
-раскаленный=A=nom,sg,plen,f
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-томление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n(
-словно=CONJ=
-_
-азия=S,geo,f,inan=nom,sg
-_
-бредить=V,ipf,intr=inpraes,sg,indic,3p
-_
-во=PR=
-_
-сон=S,m,inan=abl,sg
-),\n
-халима=S,persn,f,anim=(gen,sg|nom,pl)
-_
-соловьиный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-пение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-библейский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-нарцисс=S,m,inan=gen,pl
-_
-цветение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-незримый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-благословение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-ветерок=S,m,inan=ins,sg
-_
-шелестнуть?=V,pf,tran=inpraes,sg,indic,3p
-_
-по=PR=
-_
-страна=S,f,inan=(abl,sg|dat,sg)
-.\n
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {опять=ADV=} {возвращаться=V,intr=inpraes,sg,indic,3p,pf} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)}:
+{раскаленный=A=nom,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {томление=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+({словно=CONJ=} {азия=S,geo,f,inan=nom,sg} {бредить=V,ipf,intr=inpraes,sg,indic,3p} {во=PR=} {сон=S,m,inan=abl,sg}),
+{халима=S,persn,f,anim=(gen,sg|nom,pl)} {соловьиный=A=(acc,sg,plen,n|nom,sg,plen,n)} {пение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {библейский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нарцисс=S,m,inan=gen,pl} {цветение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {незримый=A=(acc,sg,plen,n|nom,sg,plen,n)} {благословение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{ветерок=S,m,inan=ins,sg} {шелестнуть?=V,pf,tran=inpraes,sg,indic,3p} {по=PR=} {страна=S,f,inan=(abl,sg|dat,sg)}.

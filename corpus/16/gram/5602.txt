@@ -1,130 +1,19 @@
-я=SPRO,sg,1p=(acc|gen)
-_
-полагать=V,tran=inpraes,pl,indic,3p,pf
-_
-в=PR=
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-_
-фарфоровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-на=PR=
-_
-ткань=S,f,inan=(acc,sg|nom,sg)
-_
-снежинка=S,f,inan=gen,pl
-_
-яблонов?=S,famn,m,anim=(abl,pl|acc,pl|gen,pl)
-,\n
-и=CONJ=
-_
-похоронить=V,pf,tran=inpraes,pl,indic,3p
-_(...
-как=CONJ=
-_
-суворов=S,famn,m,anim=(acc,sg|gen,sg)
-...)\n
-я=SPRO,sg,1p=(acc|gen)
-,_
-новый=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)
-_
-из=PR=
-_
-новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-не=PART=
-_
-везти=V=inpraes,pl,indic,3p,pf,intr
-_
-поэт=S,m,anim=(acc,sg|gen,sg)
-_
-лошадь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-,\u2014\n
-век=S,m,inan=(acc,sg|nom,sg)
-_
-давать=V,tran=inpraes,sg,indic,3p,pf
-_
-мотор=S,m,inan=(acc,sg|nom,sg)
-_
-для=PR=
-_
-катафалк=S,m,inan=gen,sg
-.\n
-на=PR=
-_
-гроб=S,m,inan=(acc,sg|nom,sg)
-_
-букет=S,m,inan=(acc,pl|nom,pl)
-_
-вы=SPRO,pl,2p=nom
-_
-полагать=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)
-:\n
-мимоза=S,f,inan=nom,sg
-,_
-лилия=S,f,inan=nom,sg
-,_
-фиалка=S,f,inan=nom,sg
-.\n\n
-под=PR=
-_
-искра=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-оркестровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-под=PR=
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-_
-изнеженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-малина=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014\n
-она=SPRO,sg,3p,f=nom
-,_
-кто=SPRO,sg,m,anim=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-так=ADVPRO=
-_
-приветствовать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-,\n
-протрелит?=S,m,inan=(acc,sg|nom,sg)
-_
-полонез=S,m,inan=(acc,sg|nom,sg)
-_
-филин=S,m,anim=nom,pl
-.\n\n
-все=SPRO,pl=dat
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-весело=ADV=
-_
-и=CONJ=
-_
-солнечно=ADV=
-,\n
-освещать=V,tran=inpraes,sg,indic,3p,pf
-_
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-милосердие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-...\n
-и=CONJ=
-_
-светозарный=A=sg,brev,n
--
-ореолочно?=ADV=
-\n
-согревать=V,tran=inpraes,sg,indic,3p,pf
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
+{я=SPRO,sg,1p=(acc|gen)} {полагать=V,tran=inpraes,pl,indic,3p,pf} {в=PR=} {гроб=S,m,inan=(acc,sg|nom,sg)} {фарфоровый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{на=PR=} {ткань=S,f,inan=(acc,sg|nom,sg)} {снежинка=S,f,inan=gen,pl} {яблонов?=S,famn,m,anim=(abl,pl|acc,pl|gen,pl)},
+{и=CONJ=} {похоронить=V,pf,tran=inpraes,pl,indic,3p} (...{как=CONJ=} {суворов=S,famn,m,anim=(acc,sg|gen,sg)}...)
+{я=SPRO,sg,1p=(acc|gen)}, {новый=A=(acc,sg,plen,supr,m,anim|gen,sg,plen,supr,m|gen,sg,plen,supr,n)} {из=PR=} {новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{не=PART=} {везти=V=inpraes,pl,indic,3p,pf,intr} {поэт=S,m,anim=(acc,sg|gen,sg)} {лошадь=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)},—
+{век=S,m,inan=(acc,sg|nom,sg)} {давать=V,tran=inpraes,sg,indic,3p,pf} {мотор=S,m,inan=(acc,sg|nom,sg)} {для=PR=} {катафалк=S,m,inan=gen,sg}.
+{на=PR=} {гроб=S,m,inan=(acc,sg|nom,sg)} {букет=S,m,inan=(acc,pl|nom,pl)} {вы=SPRO,pl,2p=nom} {полагать=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)}:
+{мимоза=S,f,inan=nom,sg}, {лилия=S,f,inan=nom,sg}, {фиалка=S,f,inan=nom,sg}.
+
+{под=PR=} {искра=S,f,inan=(acc,pl|gen,sg|nom,pl)} {музыка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {оркестровый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{под=PR=} {вздох=S,m,inan=(acc,sg|nom,sg)} {изнеженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {малина=S,f,inan=(acc,pl|gen,sg|nom,pl)} —
+{она=SPRO,sg,3p,f=nom}, {кто=SPRO,sg,m,anim=(acc|gen)} {я=SPRO,sg,1p=nom} {так=ADVPRO=} {приветствовать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)},
+{протрелит?=S,m,inan=(acc,sg|nom,sg)} {полонез=S,m,inan=(acc,sg|nom,sg)} {филин=S,m,anim=nom,pl}.
+
+{все=SPRO,pl=dat} {быть=V,intr=inpraes,sg,indic,3p} {весело=ADV=} {и=CONJ=} {солнечно=ADV=},
+{освещать=V,tran=inpraes,sg,indic,3p,pf} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {милосердие=S,n,inan=(abl,sg|acc,sg|nom,sg)}...
+{и=CONJ=} {светозарный=A=sg,brev,n}-{ореолочно?=ADV=}
+{согревать=V,tran=inpraes,sg,indic,3p,pf} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мой=APRO=(acc,sg,n|nom,sg,n)} {бессмертие=S,n,inan=(abl,sg|acc,sg|nom,sg)}!

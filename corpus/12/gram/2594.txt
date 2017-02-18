@@ -1,106 +1,19 @@
-много=ADV,praed=
-_
-ты=SPRO,sg,2p=ins
-_
-проходить=V,intr=praet,sg,partcp,brev,n,pf,pass
-\n
-русский=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-дорога=S,f,inan=gen,pl
-_
-глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n
-ныне=ADV=
-_
-же=PART=
-_
-весь=APRO=nom,sg,f
-_
-родина=S,f,inan=nom,sg
-\n
-причащаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-тайна=S,f,inan=gen,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мы=SPRO,pl,1p=nom
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-причастник=S,m,anim=nom,pl
-,\n
-смиловаться=V,pf,intr=sg,imper,2p
-,_
-допускать=V=sg,imper,2p,pf
-!_\u2014_\n
-кровь=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-причастный=A=pl,brev
-_
-мы=SPRO,pl,1p=nom
-\n
-крестный=S,m,anim=dat,sg
-_
-твой=APRO=(dat,sg,m|dat,sg,n)
-_
-путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-чаша=S,f,inan=nom,sg
-_
-сей=APRO=nom,sg,f
-_\u2014_
-полный=A=nom,sg,plen,f
-,\n\u2014\t
-причащаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-святой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-дар=S,m,inan=gen,pl
-!_\u2014_\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сей=APRO=(nom,pl|acc,pl,inan)
-_
-соленый=A=pl,brev
-,\n\u2014\t
-причащаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-святой=S,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-дар=S,m,inan=gen,pl
-!_\u2014_\n\n
-тянуть=V,ipf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)
-\n
-кровный=A=acc,sg,plen,f
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-_
-свой=APRO=acc,sg,f
-.\n
-я=SPRO,sg,1p=nom
-_
-же=PART=
-_\u2014_
-слепец=S,m,anim=nom,sg
-_
-на=PR=
-_
-паперть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_\n
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-петь=V,ipf,tran=inpraes,sg,indic,1p
-.\n
+{много=ADV,praed=} {ты=SPRO,sg,2p=ins} {проходить=V,intr=praet,sg,partcp,brev,n,pf,pass}
+{русский=S,m,anim=(abl,pl|acc,pl|gen,pl)} {дорога=S,f,inan=gen,pl} {глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+{ныне=ADV=} {же=PART=} {весь=APRO=nom,sg,f} {родина=S,f,inan=nom,sg}
+{причащаться=V,intr=inpraes,sg,indic,3p,ipf} {тайна=S,f,inan=gen,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мы=SPRO,pl,1p=nom} {твой=APRO=(nom,pl|acc,pl,inan)} {причастник=S,m,anim=nom,pl},
+{смиловаться=V,pf,intr=sg,imper,2p}, {допускать=V=sg,imper,2p,pf}! — 
+{кровь=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {причастный=A=pl,brev} {мы=SPRO,pl,1p=nom}
+{крестный=S,m,anim=dat,sg} {твой=APRO=(dat,sg,m|dat,sg,n)} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{чаша=S,f,inan=nom,sg} {сей=APRO=nom,sg,f} — {полный=A=nom,sg,plen,f},
+—	{причащаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)} {дар=S,m,inan=gen,pl}! — 
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сей=APRO=(nom,pl|acc,pl,inan)} {соленый=A=pl,brev},
+—	{причащаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)} {дар=S,m,inan=gen,pl}! — 
+
+{тянуть=V,ipf,tran=(inpraes,pl,indic,3p|praet,sg,partcp,brev,m,pass)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {мать=S,f,anim=(abl,sg|dat,sg|gen,sg|nom,pl)}
+{кровный=A=acc,sg,plen,f} {кровь=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=acc,sg,f}.
+{я=SPRO,sg,1p=nom} {же=PART=} — {слепец=S,m,anim=nom,sg} {на=PR=} {паперть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — 
+{имя=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} {петь=V,ipf,tran=inpraes,sg,indic,1p}.

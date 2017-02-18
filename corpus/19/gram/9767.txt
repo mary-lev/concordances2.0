@@ -1,98 +1,19 @@
-приникать=V,intr=sg,imper,2p,pf
-,_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-дорожный=A=nom,sg,plen,f
-,\n
-к=PR=
-_
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-босой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-нога=S,f,inan=dat,pl
-.\n
-душа=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-_
-тревожный=A=nom,sg,plen,f
-,\n
-послушать=V,pf,tran=sg,imper,2p
-_
-птичий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-гам=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-под=PR=
-_
-лепет=S,m,inan=(acc,pl|nom,pl)
-_
-струиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-\n
-в=PR=
-_
-лесной=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ручей=S,m,inan=abl,sg
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-забывать=V=sg,imper,2p,pf
-_
-роптание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-злиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-,\n
-томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-нужда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-замыкать=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)
-_
-тетрадка=S,f,inan=ins,pl
-\n
-и=CONJ=
-_
-тупость=S,f,inan=ins,sg
-_
-ребенок=S,m,anim=(acc,pl|gen,pl)
-,\n
-и=CONJ=
-_
-глупый=A=ins,pl,plen
-_
-загадка=S,f,inan=ins,pl
-\n
-неумолимый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-.\n\n
-хоть=PART=
-_
-на=PR=
-_
-минута=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-малый=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-понимать=V=sg,imper,2p,pf
-,_
-что=CONJ=
-_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-,\n
-простор=S,m,inan=(acc,pl|nom,pl)
-,_
-заря=S,f,inan=(acc,pl|nom,pl)
-_
-алый=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-и=CONJ=
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{приникать=V,intr=sg,imper,2p,pf}, {пыль=S,f,inan=(acc,sg|nom,sg)} {дорожный=A=nom,sg,plen,f},
+{к=PR=} {мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {босой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {нога=S,f,inan=dat,pl}.
+{душа=S,f,inan=nom,sg} {мой=APRO=nom,sg,f} {тревожный=A=nom,sg,plen,f},
+{послушать=V,pf,tran=sg,imper,2p} {птичий=A,plen=(acc,sg,m,inan|nom,sg,m)} {гам=S,m,inan=(acc,sg|nom,sg)}.
+
+{под=PR=} {лепет=S,m,inan=(acc,pl|nom,pl)} {струиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}
+{в=PR=} {лесной=A=(abl,sg,plen,m|abl,sg,plen,n)} {ручей=S,m,inan=abl,sg} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{забывать=V=sg,imper,2p,pf} {роптание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {злиться=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)},
+{томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {нужда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{замыкать=V,pf,tran=(praet,abl,sg,partcp,plen,f,pass|praet,dat,sg,partcp,plen,f,pass|praet,gen,sg,partcp,plen,f,pass|praet,ins,sg,partcp,plen,f,pass)} {тетрадка=S,f,inan=ins,pl}
+{и=CONJ=} {тупость=S,f,inan=ins,sg} {ребенок=S,m,anim=(acc,pl|gen,pl)},
+{и=CONJ=} {глупый=A=ins,pl,plen} {загадка=S,f,inan=ins,pl}
+{неумолимый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}.
+
+{хоть=PART=} {на=PR=} {минута=S,f,inan=(acc,pl|gen,sg|nom,pl)} {малый=A=(acc,pl,plen,inan|nom,pl,plen)}
+{понимать=V=sg,imper,2p,pf}, {что=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {цветок=S,m,inan=(acc,pl|nom,pl)},
+{простор=S,m,inan=(acc,pl|nom,pl)}, {заря=S,f,inan=(acc,pl|nom,pl)} {алый=A=(acc,pl,plen,inan|nom,pl,plen)}
+{и=CONJ=} {радость=S,f,inan=(acc,sg|nom,sg)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

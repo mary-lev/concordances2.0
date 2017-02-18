@@ -1,176 +1,29 @@
-я=SPRO,sg,1p=nom
-_
-храбрый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-марш=S,m,inan=(acc,pl|nom,pl)
-_
-играть=V,ipf,tran=inpraes,sg,indic,1p
-,_\n
-скакать=V,ipf,intr=inpraes,sg,indic,1p
-_
-на=PR=
-_
-картонный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-конь=S,m,anim=abl,sg
-,\n
-и=CONJ=
-,_
-если=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-умирать=V,intr=inpraes,sg,indic,1p,ipf
-,\n
-все=SPRO,pl=(acc|nom)
-_
-звонко=ADV=
-_
-хлопать=V,ipf,tran=inpraes,pl,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-.\n\n
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-представление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-неплохой=A=pl,brev
-,_\n
-понравиться=V,pf,intr=inpraes,pl,indic,3p
-,_
-коль=CONJ=
-_
-поглядеть=V,pf,tran=inpraes,sg,indic,2p
-._\n
-ученый=A=pl,brev
-_
-прыгать=V,ipf,intr=inpraes,pl,indic,3p
-_
-блоха=S,f,anim=(gen,sg|nom,pl)
-,_\n
-танцевать=V,ipf,tran=inpraes,sg,indic,3p
-_
-умный=A=nom,sg,plen,f
-_
-мышь=S,f,anim=(acc,sg|nom,sg)
-.\n\n
-а=CONJ=
-_
-то=PART=
-,_
-если=CONJ=
-_
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гость=S,m,anim=nom,pl
-_\n
-хотеть=V,ipf,tran=inpraes,pl,indic,3p
-,_
-мы=SPRO,pl,1p=nom
-_
-в=PR=
-_
-дальний=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-угол=S,m,inan=(dat,sg|loc,sg)
-_\n
-отыскивать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)
-_
-ржавый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-гвоздь=S,m,inan=(acc,pl|nom,pl)
-,_\n
-особенный=A=acc,sg,plen,f
-_
-пила=S,f,inan=acc,sg
-.\n\n
-приятно=ADV=
-_
-тело=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-восковой=A=(acc,pl,plen,inan|nom,pl,plen)
-_\n
-гвоздь=S,m,inan=ins,sg
-_
-раскалять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)
-_
-колоть=V,ipf,tran=inf
-:_\n
-трепетать=V,ipf,intr=inpraes,pl,indic,3p
-_
-они=SPRO,pl=nom
-,_
-как=CONJ=
-_
-живой=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-нежный=A=pl,brev
-,_
-как=CONJ=
-_
-живой=A=nom,sg,plen,f
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-когда-то=ADVPRO=
-_
-измучивать=V,tran=praet,sg,indic,m,pf
-,\n
-и=CONJ=
-_
-становиться=V,intr=praet,sg,indic,n,pf
-_
-негодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-оно=SPRO,sg,3p,n=nom
-,\n
-а=CONJ=
-_
-пытка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-для=PR=
-_
-глупый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чучело=S,n,anim=(acc,pl|gen,pl)
-_\n
-выдумывать=V,tran=inf,ipf
-_\u2014_
-так=ADVPRO=
-_
-смешно=ADV=
-.\n\n
-я=SPRO,sg,1p=nom
-_
-детский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-песня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-играть=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-в=PR=
-_
-карман=S,m,inan=abl,pl
-_
-носить=V,ipf,tran=inpraes,sg,indic,1p
-_
-леденец=S,m,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-,_
-если=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-умирать=V,intr=inpraes,sg,indic,1p,ipf
-,\n
-звенеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-бубенец=S,m,inan=(acc,pl|nom,pl)
-.\n
+{я=SPRO,sg,1p=nom} {храбрый=A=(acc,pl,plen,inan|nom,pl,plen)} {марш=S,m,inan=(acc,pl|nom,pl)} {играть=V,ipf,tran=inpraes,sg,indic,1p}, 
+{скакать=V,ipf,intr=inpraes,sg,indic,1p} {на=PR=} {картонный=A=(abl,sg,plen,m|abl,sg,plen,n)} {конь=S,m,anim=abl,sg},
+{и=CONJ=}, {если=CONJ=} {я=SPRO,sg,1p=nom} {умирать=V,intr=inpraes,sg,indic,1p,ipf},
+{все=SPRO,pl=(acc|nom)} {звонко=ADV=} {хлопать=V,ipf,tran=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)}.
+
+{мой=APRO=(nom,pl|acc,pl,inan)} {представление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {неплохой=A=pl,brev}, 
+{понравиться=V,pf,intr=inpraes,pl,indic,3p}, {коль=CONJ=} {поглядеть=V,pf,tran=inpraes,sg,indic,2p}. 
+{ученый=A=pl,brev} {прыгать=V,ipf,intr=inpraes,pl,indic,3p} {блоха=S,f,anim=(gen,sg|nom,pl)}, 
+{танцевать=V,ipf,tran=inpraes,sg,indic,3p} {умный=A=nom,sg,plen,f} {мышь=S,f,anim=(acc,sg|nom,sg)}.
+
+{а=CONJ=} {то=PART=}, {если=CONJ=} {милый=A=(acc,pl,plen,inan|nom,pl,plen)} {гость=S,m,anim=nom,pl} 
+{хотеть=V,ipf,tran=inpraes,pl,indic,3p}, {мы=SPRO,pl,1p=nom} {в=PR=} {дальний=A=(abl,sg,plen,m|abl,sg,plen,n)} {угол=S,m,inan=(dat,sg|loc,sg)} 
+{отыскивать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {ржавый=A=(acc,pl,plen,inan|nom,pl,plen)} {гвоздь=S,m,inan=(acc,pl|nom,pl)}, 
+{особенный=A=acc,sg,plen,f} {пила=S,f,inan=acc,sg}.
+
+{приятно=ADV=} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {восковой=A=(acc,pl,plen,inan|nom,pl,plen)} 
+{гвоздь=S,m,inan=ins,sg} {раскалять=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {колоть=V,ipf,tran=inf}: 
+{трепетать=V,ipf,intr=inpraes,pl,indic,3p} {они=SPRO,pl=nom}, {как=CONJ=} {живой=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{нежный=A=pl,brev}, {как=CONJ=} {живой=A=nom,sg,plen,f} {плоть=S,f,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {когда-то=ADVPRO=} {измучивать=V,tran=praet,sg,indic,m,pf},
+{и=CONJ=} {становиться=V,intr=praet,sg,indic,n,pf} {негодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {оно=SPRO,sg,3p,n=nom},
+{а=CONJ=} {пытка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {для=PR=} {глупый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чучело=S,n,anim=(acc,pl|gen,pl)} 
+{выдумывать=V,tran=inf,ipf} — {так=ADVPRO=} {смешно=ADV=}.
+
+{я=SPRO,sg,1p=nom} {детский=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {играть=V,ipf,tran=inpraes,sg,indic,1p},
+{в=PR=} {карман=S,m,inan=abl,pl} {носить=V,ipf,tran=inpraes,sg,indic,1p} {леденец=S,m,inan=(acc,pl|nom,pl)},
+{и=CONJ=}, {если=CONJ=} {я=SPRO,sg,1p=nom} {умирать=V,intr=inpraes,sg,indic,1p,ipf},
+{звенеть=V,ipf,intr=inpraes,pl,indic,3p} {мой=APRO=(nom,pl|acc,pl,inan)} {бубенец=S,m,inan=(acc,pl|nom,pl)}.

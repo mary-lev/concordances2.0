@@ -1,116 +1,15 @@
-видеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-выцветший=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-флаг=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-таможня=S,f,inan=ins,sg
-_\n
-и=CONJ=
-_
-над=PR=
-_
-город=S,m,inan=ins,sg
-_
-желтый=A=acc,sg,plen,f
-_
-муть=S,f,inan=(acc,sg|nom,sg)
-._\n
-вот=PART=
-_
-уж=PART=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-осторожно=ADV=comp
-_\n
-замирать=V,intr=inpraes,sg,indic,3p,ipf
-,_
-и=CONJ=
-_
-больно=ADV=
-_
-вздыхать=V,intr=inf,pf
-.\n\n
-становиться=V,intr=inf,pf
-_
-бы=PART=
-_
-снова=ADV=
-_
-приморский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-девчонка=S,f,anim=ins,sg
-,_\n
-туфля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-босу=ADV=
-_
-нога=S,f,inan=acc,sg
-_
-надевать=V,tran=inf,pf
-,_\n
-и=CONJ=
-_
-закладывать=V,tran=inf,ipf
-_
-коса=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-коронка=S,f,inan=ins,sg
-,_\n
-и=CONJ=
-_
-взволновать=V,pf,tran=(praet,dat,pl,partcp,plen,pass|praet,ins,sg,partcp,plen,m,pass|praet,ins,sg,partcp,plen,n,pass)
-_
-голос=S,m,inan=ins,sg
-_
-петь=V,ipf,tran=inf
-.\n\n
-все=SPRO,pl=(acc|nom)
-_
-глядеть=V,ipf,tran=inf
-_
-бы=PART=
-_
-на=PR=
-_
-смуглый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-херсонесский?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-храм=S,m,inan=gen,sg
-_
-с=PR=
-_
-крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-не=PART=
-_
-знать=V,ipf,tran=inf
-,_
-что=CONJ=
-_
-от=PR=
-_
-счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-безнадежно=ADV=
-_
-дряхлеть=V,ipf,intr=inpraes,pl,indic,3p
-_
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
+{видеть=V,ipf,tran=inpraes,sg,indic,1p} {выцветший=A,plen=(acc,sg,m,inan|nom,sg,m)} {флаг=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {таможня=S,f,inan=ins,sg} 
+{и=CONJ=} {над=PR=} {город=S,m,inan=ins,sg} {желтый=A=acc,sg,plen,f} {муть=S,f,inan=(acc,sg|nom,sg)}. 
+{вот=PART=} {уж=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {осторожно=ADV=comp} 
+{замирать=V,intr=inpraes,sg,indic,3p,ipf}, {и=CONJ=} {больно=ADV=} {вздыхать=V,intr=inf,pf}.
+
+{становиться=V,intr=inf,pf} {бы=PART=} {снова=ADV=} {приморский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {девчонка=S,f,anim=ins,sg}, 
+{туфля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {босу=ADV=} {нога=S,f,inan=acc,sg} {надевать=V,tran=inf,pf}, 
+{и=CONJ=} {закладывать=V,tran=inf,ipf} {коса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {коронка=S,f,inan=ins,sg}, 
+{и=CONJ=} {взволновать=V,pf,tran=(praet,dat,pl,partcp,plen,pass|praet,ins,sg,partcp,plen,m,pass|praet,ins,sg,partcp,plen,n,pass)} {голос=S,m,inan=ins,sg} {петь=V,ipf,tran=inf}.
+
+{все=SPRO,pl=(acc|nom)} {глядеть=V,ipf,tran=inf} {бы=PART=} {на=PR=} {смуглый=A=(acc,pl,plen,inan|nom,pl,plen)} {глава=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{херсонесский?=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {храм=S,m,inan=gen,sg} {с=PR=} {крыльцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {не=PART=} {знать=V,ipf,tran=inf}, {что=CONJ=} {от=PR=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{безнадежно=ADV=} {дряхлеть=V,ipf,intr=inpraes,pl,indic,3p} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+

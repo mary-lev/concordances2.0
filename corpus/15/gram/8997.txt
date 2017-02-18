@@ -1,142 +1,20 @@
-я=SPRO,sg,1p=(acc|gen)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-брать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-из=PR=
-_
-ум=S,m,inan=gen,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-милый=A=sg,brev,m
-_
-нейти=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-где-то=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-?_
-уж=PART=
-_
-темно=ADV,praed=
-.\n
-месяц=S,m,inan=(acc,sg|nom,sg)
-_
-смотреться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-.\n
-где-то=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-?_
-где-то=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-?\n
-приходить=V,intr=sg,imper,2p,ipf
-_
-ко=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-хоть=PART=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-а=CONJ=
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-_
-соскальзывать=V,intr=praet,sg,indic,m,pf
-,\n
-на=PR=
-_
-ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-дохнуть=V,pf,intr=praet,sg,indic,m
-,\n
-пошептать=V,pf,tran=praet,sg,indic,m
-_\u2014_
-приводить=V=inpraes,sg,indic,1p,pf
-,\n
-засвечивать=V,tran=inpraes,sg,indic,1p,pf
-_
-твой=APRO=acc,sg,f
-_
-звезда=S,f,inan=acc,sg
-.\n
-где-то=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-?_
-где-то=ADVPRO=
-_
-он=SPRO,sg,3p,m=nom
-?\n
-размаривать=V,tran=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-,_
-не=PART=
-_
-глядеть=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-весь=APRO=nom,sg,f
-_
-как=CONJ=
-_
-пьяный=A=nom,sg,plen,f
-_
-лежать=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-ль=PART=
-,_
-в=PR=
-_
-цветок=S,m,inan=abl,pl
-_
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-?\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-горница=S,f,inan=nom,sg
-_
-иль=CONJ=
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-?\n
-это=PART=
-_
-он=SPRO,sg,3p,m=nom
-!_
-это=PART=
-_
-он=SPRO,sg,3p,m=nom
-!\n
-ах=INTJ=
-_
-как=ADVPRO=
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-небосклон=S,m,inan=(acc,sg|nom,sg)
-!\n
+{я=SPRO,sg,1p=(acc|gen)} {сон=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {брать=V,ipf,tran=inpraes,sg,indic,3p},
+{из=PR=} {ум=S,m,inan=gen,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {милый=A=sg,brev,m} {нейти=V,ipf,intr=inpraes,sg,indic,3p}.
+{где-то=ADVPRO=} {он=SPRO,sg,3p,m=nom}? {уж=PART=} {темно=ADV,praed=}.
+{месяц=S,m,inan=(acc,sg|nom,sg)} {смотреться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {окно=S,n,inan=(acc,sg|nom,sg)}.
+{где-то=ADVPRO=} {он=SPRO,sg,3p,m=nom}? {где-то=ADVPRO=} {он=SPRO,sg,3p,m=nom}?
+{приходить=V,intr=sg,imper,2p,ipf} {ко=PR=} {я=SPRO,sg,1p=(abl|dat)} {хоть=PART=} {сон=S,m,inan=(acc,sg|nom,sg)}.
+
+{а=CONJ=} {сон=S,m,inan=(acc,sg|nom,sg)} {соскальзывать=V,intr=praet,sg,indic,m,pf},
+{на=PR=} {ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=(abl|dat)} {дохнуть=V,pf,intr=praet,sg,indic,m},
+{пошептать=V,pf,tran=praet,sg,indic,m} — {приводить=V=inpraes,sg,indic,1p,pf},
+{засвечивать=V,tran=inpraes,sg,indic,1p,pf} {твой=APRO=acc,sg,f} {звезда=S,f,inan=acc,sg}.
+{где-то=ADVPRO=} {он=SPRO,sg,3p,m=nom}? {где-то=ADVPRO=} {он=SPRO,sg,3p,m=nom}?
+{размаривать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(acc|gen)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {сон=S,m,inan=(acc,sg|nom,sg)}.
+
+{глядеть=V,ipf,tran=inpraes,sg,indic,1p}, {не=PART=} {глядеть=V,ipf,tran=inpraes,sg,indic,1p},
+{весь=APRO=nom,sg,f} {как=CONJ=} {пьяный=A=nom,sg,plen,f} {лежать=V,ipf,intr=inpraes,sg,indic,1p}.
+{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {что=SPRO,sg,n,inan=(acc|nom)} {ль=PART=}, {в=PR=} {цветок=S,m,inan=abl,pl} {гореть=V,ipf,intr=inpraes,pl,indic,3p}?
+{это=SPRO,sg,n,inan=(acc|nom)} {горница=S,f,inan=nom,sg} {иль=CONJ=} {сад=S,m,inan=(acc,sg|nom,sg)}?
+{это=PART=} {он=SPRO,sg,3p,m=nom}! {это=PART=} {он=SPRO,sg,3p,m=nom}!
+{ах=INTJ=} {как=ADVPRO=} {светить=V,ipf,intr=inpraes,sg,indic,3p} {небосклон=S,m,inan=(acc,sg|nom,sg)}!

@@ -1,72 +1,12 @@
-заснуть=V,pf,intr=inf
-_
-огорченный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-просыпаться=V,intr=inf,pf
-_
-влюбленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-увидеть=V,pf,tran=inf
-,_
-как=CONJ=
-_
-красный=A=sg,brev,m
-_
-мак=S,m,inan=(acc,sg|nom,sg)
-.\n
-какой-то=APRO=nom,sg,f
-_
-сила=S,f,inan=nom,sg
-\n
-сегодня=ADV=
-_
-входить=V,intr=praet,sg,indic,f,ipf
-\n
-в=PR=
-_
-твой=APRO=(acc,sg,n|nom,sg,n)
-_
-святилище=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-мрак=S,m,inan=(acc,sg|nom,sg)
-!\n
-мангалочий?=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-дворик=S,m,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-дым=S,m,inan=(acc,sg|nom,sg)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-горький=A=sg,brev,m
-\n
-и=CONJ=
-_
-как=CONJ=
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-тополь=S,m,inan=(acc,sg|nom,sg)
-_
-высокий=A=sg,brev,m
-...\n
-шехерезад?=S,persn,m,anim=(acc,sg|gen,sg)
-\n
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-из=PR=
-_
-сад=S,m,inan=gen,sg
-...\n
-так=ADVPRO=
-_
-вот=PART=
-_
-ты=SPRO,sg,2p=nom
-_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_
-восток=S,geo,m,inan=(acc,sg|nom,sg)
-!\n
+{заснуть=V,pf,intr=inf} {огорченный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{просыпаться=V,intr=inf,pf} {влюбленный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{увидеть=V,pf,tran=inf}, {как=CONJ=} {красный=A=sg,brev,m} {мак=S,m,inan=(acc,sg|nom,sg)}.
+{какой-то=APRO=nom,sg,f} {сила=S,f,inan=nom,sg}
+{сегодня=ADV=} {входить=V,intr=praet,sg,indic,f,ipf}
+{в=PR=} {твой=APRO=(acc,sg,n|nom,sg,n)} {святилище=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {мрак=S,m,inan=(acc,sg|nom,sg)}!
+{мангалочий?=A,plen=(acc,sg,m,inan|nom,sg,m)} {дворик=S,m,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {горький=A=sg,brev,m}
+{и=CONJ=} {как=CONJ=} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {тополь=S,m,inan=(acc,sg|nom,sg)} {высокий=A=sg,brev,m}...
+{шехерезад?=S,persn,m,anim=(acc,sg|gen,sg)}
+{идти=V,ipf,intr=inpraes,sg,indic,3p} {из=PR=} {сад=S,m,inan=gen,sg}...
+{так=ADVPRO=} {вот=PART=} {ты=SPRO,sg,2p=nom} {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {восток=S,geo,m,inan=(acc,sg|nom,sg)}!

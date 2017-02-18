@@ -1,118 +1,21 @@
-часы=S,pl,inan=(acc|nom)
-_
-буркнуть=V,pf,tran=praet,pl,indic
-_\xAB
-бом=INTJ=
-!\xBB\n
-попугай=S,m,anim=nom,sg
-_
-в=PR=
-_
-угол=S,m,inan=(dat,sg|loc,sg)
-_\xAB
-каково=ADV,praed=
-!\xBB\n
-бабушка=S,f,anim=nom,sg
-_
-охнуть=V,pf,intr=praet,sg,indic,f
-_\xAB
-джо=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!\xBB\n
-и=CONJ=
-_
-упасть=V,pf,intr=praet,sg,indic,f
-_
-со=PR=
-_
-стул=S,m,inan=gen,sg
-.\n\n
-малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-влетать=V,intr=praet,sg,indic,m,pf
-,_
-как=CONJ=
-_
-шквал=S,m,inan=(acc,sg|nom,sg)
-,\n
-собака=S,f,anim=acc,sg
-_
-к=PR=
-_
-куртка=S,f,inan=(abl,sg|dat,sg)
-_
-прижимать=V,tran=praet,sg,indic,m,pf
-,\n
-хлопнуть=V,pf,tran=praet,sg,indic,m
-_
-грог=S,m,inan=gen,sg
-_
-бокал=S,m,inan=(acc,sg|nom,sg)
-,_\u2014\n
-дом=S,m,inan=(acc,sg|nom,sg)
-_
-загудеть=V,pf,intr=praet,sg,indic,m
-,_
-как=CONJ=
-_
-улей=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-скрип=S,m,inan=(acc,sg|nom,sg)
-,_
-беготня=S,f,inan=nom,sg
-,_
-шум=S,m,inan=(acc,sg|nom,sg)
-,\n
-трубка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-побивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-грум=S,m,anim=nom,sg
-,\n
-рассказ=S,m,inan=(acc,pl|nom,pl)
-,_
-пиф-паф=INTJ=
-,_
-бум=S,m,inan=(acc,sg|nom,sg)
--
-бум=S,m,inan=(acc,sg|nom,sg)
-!\n
-господи=INTJ=
-_
-иисус=S,persn,m,anim=abl,sg
-!\n\n
-нелли=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-рябой=A=nom,sg,plen,f
-:_\xAB
-мама=S,f,anim=(acc,pl|gen,pl|voc,sg)
-,\n
-я=SPRO,sg,1p=nom
-_
-каморка=S,f,inan=acc,sg
-_
-свой=APRO=acc,sg,f
-_
-отдавать=V,tran=inpraes,sg,indic,1p,pf
-.\n
-спать=V,ipf,intr=inf
-_
-в=PR=
-_
-столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-_\u2014_
-срам=S,m,inan=(acc,sg|nom,sg)
-:\n
-мальчик=S,m,anim=nom,sg
--
-то=PART=
-_
-не=PART=
-_
-безусый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\xBB.\n\n
-гип=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
--
-гип=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-вест-индия=S,geo,sg,f,inan=nom
-!!\n
+{часы=S,pl,inan=(acc|nom)} {буркнуть=V,pf,tran=praet,pl,indic} «{бом=INTJ=}!»
+{попугай=S,m,anim=nom,sg} {в=PR=} {угол=S,m,inan=(dat,sg|loc,sg)} «{каково=ADV,praed=}!»
+{бабушка=S,f,anim=nom,sg} {охнуть=V,pf,intr=praet,sg,indic,f} «{джо=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!»
+{и=CONJ=} {упасть=V,pf,intr=praet,sg,indic,f} {со=PR=} {стул=S,m,inan=gen,sg}.
+
+{малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {влетать=V,intr=praet,sg,indic,m,pf}, {как=CONJ=} {шквал=S,m,inan=(acc,sg|nom,sg)},
+{собака=S,f,anim=acc,sg} {к=PR=} {куртка=S,f,inan=(abl,sg|dat,sg)} {прижимать=V,tran=praet,sg,indic,m,pf},
+{хлопнуть=V,pf,tran=praet,sg,indic,m} {грог=S,m,inan=gen,sg} {бокал=S,m,inan=(acc,sg|nom,sg)}, —
+{дом=S,m,inan=(acc,sg|nom,sg)} {загудеть=V,pf,intr=praet,sg,indic,m}, {как=CONJ=} {улей=S,m,inan=(acc,sg|nom,sg)}.
+
+{скрип=S,m,inan=(acc,sg|nom,sg)}, {беготня=S,f,inan=nom,sg}, {шум=S,m,inan=(acc,sg|nom,sg)},
+{трубка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {побивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {грум=S,m,anim=nom,sg},
+{рассказ=S,m,inan=(acc,pl|nom,pl)}, {пиф-паф=INTJ=}, {бум=S,m,inan=(acc,sg|nom,sg)}-{бум=S,m,inan=(acc,sg|nom,sg)}!
+{господи=INTJ=} {иисус=S,persn,m,anim=abl,sg}!
+
+{нелли=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {рябой=A=nom,sg,plen,f}: «{мама=S,f,anim=(acc,pl|gen,pl|voc,sg)},
+{я=SPRO,sg,1p=nom} {каморка=S,f,inan=acc,sg} {свой=APRO=acc,sg,f} {отдавать=V,tran=inpraes,sg,indic,1p,pf}.
+{спать=V,ipf,intr=inf} {в=PR=} {столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)} — {срам=S,m,inan=(acc,sg|nom,sg)}:
+{мальчик=S,m,anim=nom,sg}-{то=PART=} {не=PART=} {безусый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}».
+
+{гип=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{гип=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {вест-индия=S,geo,sg,f,inan=nom}!!

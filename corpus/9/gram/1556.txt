@@ -1,140 +1,18 @@
-душистый=A=ins,sg,plen,f
-_
-ветка=S,f,inan=ins,sg
-_
-машучи?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_\n
-впивать=V,tran=inpraes,ger,ipf
-_
-впотьмах=ADV=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-благо=S,n,inan=(acc,sg|nom,sg)
-,_\n
-бежать=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)
-_
-на=PR=
-_
-чашечка=S,f,inan=acc,sg
-_
-с=PR=
-_
-чашечка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-гроза=S,f,inan=ins,sg
-_
-одурять?=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-влага=S,f,inan=nom,sg
-.\n\n
-на=PR=
-_
-чашечка=S,f,inan=acc,sg
-_
-с=PR=
-_
-чашечка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-скатываться=V,ipf,intr=inpraes,ger
-,_\n
-скользнуть=V,pf,intr=praet,sg,indic,f
-_
-по=PR=
-_
-два=NUM=dat
-,_\u2014_
-и=CONJ=
-_
-в=PR=
-_
-оба=NUM=(abl,f|gen,f|acc,f,anim)
-_\n
-огромный=A=ins,sg,plen,f
-_
-капля=S,f,inan=ins,sg
-_
-агатовый=A=ins,sg,plen,f
-_\n
-повисать=V,intr=praet,sg,indic,f,pf
-,_
-сверкать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-робеть=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-пусть=PART=
-_
-ветер=S,m,inan=(acc,sg|nom,sg)
-,_
-по=PR=
-_
-таволга=S,f,inan=(abl,sg|dat,sg)
-_
-веять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-,_\n
-тот=APRO=acc,sg,f
-_
-капелька=S,f,inan=acc,sg
-_
-мучить=V,ipf=inpraes,sg,indic,3p,tran
-_
-и=CONJ=
-_
-плющить=V,ipf,tran=inpraes,sg,indic,3p
-._\n
-целый=A=sg,brev,f
-,_
-не=PART=
-_
-дробиться=V,ipf,intr=inpraes,sg,indic,3p
-,_\u2014_
-они=SPRO,pl=(acc|gen)
-_
-два=NUM=(nom,f|acc,f,inan)
-_
-еще=ADV=
-_
-целоваться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)
-_
-и=CONJ=
-_
-пьющий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-.\n\n
-смеяться=V,ipf,intr=inpraes,pl,indic,3p
-_
-и=CONJ=
-_
-вырываться=V,intr=inf,pf
-_
-силиться=V,ipf,intr=inpraes,pl,indic,3p
-_\n
-и=CONJ=
-_
-выпрямляться=V,intr=inf,pf
-,_
-как=CONJ=
-_
-прежде=ADV=
-,_\n
-да=CONJ=
-_
-капля=S,f,inan=(abl,sg|dat,sg)
-_
-из=PR=
-_
-рыльце=S,n,inan=gen,pl
-_
-не=PART=
-_
-выливаться=V,intr=inf,pf
-,_\n
-и=CONJ=
-_
-не=PART=
-_
-разлучаться=V,intr=inpraes,pl,indic,3p,pf
-,_
-хоть=PART=
-_
-резать=V,ipf,tran=pl,imper,2p
-.\n
+{душистый=A=ins,sg,plen,f} {ветка=S,f,inan=ins,sg} {машучи?=S,m,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, 
+{впивать=V,tran=inpraes,ger,ipf} {впотьмах=ADV=} {это=SPRO,sg,n,inan=(acc|nom)} {благо=S,n,inan=(acc,sg|nom,sg)}, 
+{бежать=V,intr=(praet,sg,indic,f,ipf|praet,sg,indic,f,pf)} {на=PR=} {чашечка=S,f,inan=acc,sg} {с=PR=} {чашечка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{гроза=S,f,inan=ins,sg} {одурять?=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {влага=S,f,inan=nom,sg}.
+
+{на=PR=} {чашечка=S,f,inan=acc,sg} {с=PR=} {чашечка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {скатываться=V,ipf,intr=inpraes,ger}, 
+{скользнуть=V,pf,intr=praet,sg,indic,f} {по=PR=} {два=NUM=dat}, — {и=CONJ=} {в=PR=} {оба=NUM=(abl,f|gen,f|acc,f,anim)} 
+{огромный=A=ins,sg,plen,f} {капля=S,f,inan=ins,sg} {агатовый=A=ins,sg,plen,f} 
+{повисать=V,intr=praet,sg,indic,f,pf}, {сверкать=V,ipf,intr=inpraes,sg,indic,3p}, {робеть=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{пусть=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)}, {по=PR=} {таволга=S,f,inan=(abl,sg|dat,sg)} {веять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}, 
+{тот=APRO=acc,sg,f} {капелька=S,f,inan=acc,sg} {мучить=V,ipf=inpraes,sg,indic,3p,tran} {и=CONJ=} {плющить=V,ipf,tran=inpraes,sg,indic,3p}. 
+{целый=A=sg,brev,f}, {не=PART=} {дробиться=V,ipf,intr=inpraes,sg,indic,3p}, — {они=SPRO,pl=(acc|gen)} {два=NUM=(nom,f|acc,f,inan)} {еще=ADV=} {целоваться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {и=CONJ=} {пьющий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+
+{смеяться=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {вырываться=V,intr=inf,pf} {силиться=V,ipf,intr=inpraes,pl,indic,3p} 
+{и=CONJ=} {выпрямляться=V,intr=inf,pf}, {как=CONJ=} {прежде=ADV=}, 
+{да=CONJ=} {капля=S,f,inan=(abl,sg|dat,sg)} {из=PR=} {рыльце=S,n,inan=gen,pl} {не=PART=} {выливаться=V,intr=inf,pf}, 
+{и=CONJ=} {не=PART=} {разлучаться=V,intr=inpraes,pl,indic,3p,pf}, {хоть=PART=} {резать=V,ipf,tran=pl,imper,2p}.

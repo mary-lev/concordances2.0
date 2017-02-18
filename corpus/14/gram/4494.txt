@@ -1,48 +1,5 @@
-вспыхивать=V,intr=praet,sg,indic,m,pf
-_
-над=PR=
-_
-мол=S,m,inan=ins,sg
-_
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-маяк=S,m,inan=(acc,sg|nom,sg)
-,\n
-другой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-маяк=S,m,inan=gen,pl
-_
-предтеча=S,mf,anim=nom,sg
-,_\u2014\n
-заплакать=V,pf,tran=praet,sg,indic,m
-_
-и=CONJ=
-_
-шапка=S,f,inan=acc,sg
-_
-снимать=V,tran=praet,sg,indic,m,pf
-_
-моряк=S,m,anim=nom,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-плавать=V,ipf,intr=praet,sg,indic,m
-_
-в=PR=
-_
-набивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-смерть=S,f,inan=ins,sg
-_
-море=S,n,inan=abl,pl
-\n
-вдоль=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-навстречу=ADV=
-.\n
+{вспыхивать=V,intr=praet,sg,indic,m,pf} {над=PR=} {мол=S,m,inan=ins,sg} {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {маяк=S,m,inan=(acc,sg|nom,sg)},
+{другой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {маяк=S,m,inan=gen,pl} {предтеча=S,mf,anim=nom,sg}, —
+{заплакать=V,pf,tran=praet,sg,indic,m} {и=CONJ=} {шапка=S,f,inan=acc,sg} {снимать=V,tran=praet,sg,indic,m,pf} {моряк=S,m,anim=nom,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {плавать=V,ipf,intr=praet,sg,indic,m} {в=PR=} {набивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {смерть=S,f,inan=ins,sg} {море=S,n,inan=abl,pl}
+{вдоль=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {навстречу=ADV=}.

@@ -1,118 +1,14 @@
-зима=S,f,inan=nom,sg
-_
-все=SPRO,pl=(acc|nom)
-_
-часто=ADV=comp
-_
-делать=V,ipf,tran=praet,sg,indic,f
-_
-промах=S,m,inan=(acc,pl|nom,pl)
-,_\n
-незаметно=ADV=
-_
-растаивать=V,intr=praet,pl,indic,pf
-_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-лед=S,m,inan=(acc,pl|nom,pl)
-.\n
-и=CONJ=
-_
-вот=PART=
-_
-уже=ADV=
-_
-радостно=ADV=
-_
-одевать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-_\n
-пахучий=A=ins,pl,plen
-_
-цветок=S,m,inan=ins,pl
-_
-черемуха=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-в=PR=
-_
-зелень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-грустить=V,ipf,intr=inpraes,sg,indic,3p
-_
-мраморный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-купидон=S,m,anim=nom,sg
-_\n
-о=PR=
-_
-то=SPRO,sg,n,inan=abl
-,_
-что=CONJ=
-_
-у=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-каменный=A=nom,sg,plen,f
-_
-плоть=S,f,inan=(acc,sg|nom,sg)
-._\n
-девушка=S,f,anim=nom,sg
-_
-к=PR=
-_
-платье=S,n,inan=dat,sg
-_
-спешить=V,ipf,intr=inpraes,sg,indic,3p
-_
-прикалывать=V,tran=inf,pf
-_\n
-полураспускаться?=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бутон=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-ах=INTJ=
-,_
-ранний=A=nom,sg,plen,f
-_
-весна=S,f,inan=nom,sg
-,_
-как=CONJ=
-_
-мила=S,persn,f,anim=nom,sg
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-ты=SPRO,sg,2p=nom
-._\n
-какой=APRO=nom,sg,f
-_
-неожиданный=A=nom,sg,plen,f
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-для=PR=
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-:_\n
-просыпаться=V,intr=praet,ger,pf
-_
-утро=S,n,inan=ins,sg
-,_
-увидеть=V,pf,tran=inf
-_
-тотчас=ADV=
-_\n
-заливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-веселый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-солнце=S,n,inan=ins,sg
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-.\n
+{зима=S,f,inan=nom,sg} {все=SPRO,pl=(acc|nom)} {часто=ADV=comp} {делать=V,ipf,tran=praet,sg,indic,f} {промах=S,m,inan=(acc,pl|nom,pl)}, 
+{незаметно=ADV=} {растаивать=V,intr=praet,pl,indic,pf} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {лед=S,m,inan=(acc,pl|nom,pl)}.
+{и=CONJ=} {вот=PART=} {уже=ADV=} {радостно=ADV=} {одевать=V,tran=praet,pl,partcp,brev,pf,pass} {сад=S,m,inan=(acc,pl|nom,pl)} 
+{пахучий=A=ins,pl,plen} {цветок=S,m,inan=ins,pl} {черемуха=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{в=PR=} {зелень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {грустить=V,ipf,intr=inpraes,sg,indic,3p} {мраморный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {купидон=S,m,anim=nom,sg} 
+{о=PR=} {то=SPRO,sg,n,inan=abl}, {что=CONJ=} {у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {каменный=A=nom,sg,plen,f} {плоть=S,f,inan=(acc,sg|nom,sg)}. 
+{девушка=S,f,anim=nom,sg} {к=PR=} {платье=S,n,inan=dat,sg} {спешить=V,ipf,intr=inpraes,sg,indic,3p} {прикалывать=V,tran=inf,pf} 
+{полураспускаться?=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {розовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бутон=S,m,inan=(acc,sg|nom,sg)}.
+
+{ах=INTJ=}, {ранний=A=nom,sg,plen,f} {весна=S,f,inan=nom,sg}, {как=CONJ=} {мила=S,persn,f,anim=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {ты=SPRO,sg,2p=nom}. 
+{какой=APRO=nom,sg,f} {неожиданный=A=nom,sg,plen,f} {радость=S,f,inan=(acc,sg|nom,sg)} {для=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}: 
+{просыпаться=V,intr=praet,ger,pf} {утро=S,n,inan=ins,sg}, {увидеть=V,pf,tran=inf} {тотчас=ADV=} 
+{заливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {веселый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {солнце=S,n,inan=ins,sg} {цветок=S,m,inan=(acc,pl|nom,pl)}.

@@ -1,78 +1,9 @@
-рождаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-внезапный=A=nom,sg,plen,f
-_
-строка=S,f,inan=nom,sg
-,\n
-за=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_
-немедленно=ADV=
-_
-другой=APRO=nom,sg,f
-,\n
-мелькать=V,ipf,intr=inpraes,sg,indic,3p
-_
-третий=ANUM=nom,sg,f
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-издалека=ADV=
-,\n
-четвертый=ANUM=nom,sg,f
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,_
-набегать=V,intr=inpraes,ger,ipf
-.\n\n
-и=CONJ=
-_
-пятый=ANUM=nom,sg,f
-,_
-и=CONJ=
-_
-после=PR=
-,_
-и=CONJ=
-_
-потом=ADVPRO=
-,\n
-откуда=ADVPRO=
-,_
-сколько=ADV=
-,_
-я=SPRO,sg,1p=nom
-_
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-но=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-размышлять=V,ipf,intr=inpraes,sg,indic,1p
-_
-над=PR=
-_
-стих=S,m,inan=ins,sg
-,\n
-и=CONJ=
-,_
-право=S,n,inan=(acc,sg|nom,sg)
-,_
-никогда=ADVPRO=
-_\u2014_
-не=PART=
-_
-сочинять=V,tran=inpraes,sg,indic,1p,ipf
-.\n
+{рождаться=V,intr=inpraes,sg,indic,3p,ipf} {внезапный=A=nom,sg,plen,f} {строка=S,f,inan=nom,sg},
+{за=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {немедленно=ADV=} {другой=APRO=nom,sg,f},
+{мелькать=V,ipf,intr=inpraes,sg,indic,3p} {третий=ANUM=nom,sg,f} {она=SPRO,sg,3p,f=(dat|ins)} {издалека=ADV=},
+{четвертый=ANUM=nom,sg,f} {смеяться=V,ipf,intr=inpraes,sg,indic,3p}, {набегать=V,intr=inpraes,ger,ipf}.
+
+{и=CONJ=} {пятый=ANUM=nom,sg,f}, {и=CONJ=} {после=PR=}, {и=CONJ=} {потом=ADVPRO=},
+{откуда=ADVPRO=}, {сколько=ADV=}, {я=SPRO,sg,1p=nom} {и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p},
+{но=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {размышлять=V,ipf,intr=inpraes,sg,indic,1p} {над=PR=} {стих=S,m,inan=ins,sg},
+{и=CONJ=}, {право=S,n,inan=(acc,sg|nom,sg)}, {никогда=ADVPRO=} — {не=PART=} {сочинять=V,tran=inpraes,sg,indic,1p,ipf}.

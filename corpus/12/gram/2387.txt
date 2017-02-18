@@ -1,84 +1,9 @@
-до=PR=
-_
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_(
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-ли=CONJ=
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-еще=ADV=
-?\n
-ведь=PART=
-_
-все=ADV=
-_
-изменять=V,tran=inpraes,sg,indic,3p,ipf
-_
-тайком=ADV=
-!)\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-молиться=V,ipf,intr=inf
-_\u2014_
-кто=SPRO,sg,m,anim=dat
-?_\u2014_
-горячо=ADV=
-,\n
-безумно=ADV=
-_
-молиться=V,ipf,intr=inf
-_\u2014_
-о=PR=
-_
-кто=SPRO,sg,m,anim=abl
-?\n\n
-молитва=S,f,inan=nom,sg
-_(
-равный=A=sg,brev,n
-_
-ведь=PART=
-,_
-о=PR=
-_
-кто=SPRO,sg,m,anim=abl
-_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=dat
-!)\n
-растапливать=V,tran=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-лед=S,m,inan=(acc,pl|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-молиться=V,ipf,intr=inf
-_
-в=PR=
-_
-свой=APRO=(abl,sg,m|abl,sg,n)
-_
-терем=S,m,inan=dat,sg
-\n
-до=PR=
-_
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,_
-до=PR=
-_
-первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n
+{до=PR=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} ({быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {ли=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {еще=ADV=}?
+{ведь=PART=} {все=ADV=} {изменять=V,tran=inpraes,sg,indic,3p,ipf} {тайком=ADV=}!)
+{я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {молиться=V,ipf,intr=inf} — {кто=SPRO,sg,m,anim=dat}? — {горячо=ADV=},
+{безумно=ADV=} {молиться=V,ipf,intr=inf} — {о=PR=} {кто=SPRO,sg,m,anim=abl}?
+
+{молитва=S,f,inan=nom,sg} ({равный=A=sg,brev,n} {ведь=PART=}, {о=PR=} {кто=SPRO,sg,m,anim=abl} {и=CONJ=} {кто=SPRO,sg,m,anim=dat}!)
+{растапливать=V,tran=inpraes,sg,indic,3p,pf} {и=CONJ=} {вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {лед=S,m,inan=(acc,pl|nom,pl)}.
+{я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {молиться=V,ipf,intr=inf} {в=PR=} {свой=APRO=(abl,sg,m|abl,sg,n)} {терем=S,m,inan=dat,sg}
+{до=PR=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}, {до=PR=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

@@ -1,160 +1,20 @@
-я=SPRO,sg,1p=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-убивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_\n
-весна=S,f,inan=ins,sg
-,_
-на=PR=
-_
-талый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-снег=S,m,inan=abl,sg
-...\n
-как=CONJ=
-_
-путник=S,m,anim=nom,sg
-_
-усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-,_\n
-согреваться=V,intr=praet,ger,pf
-_
-в=PR=
-_
-теплый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ночлег=S,m,inan=abl,sg
-,_\n
-так=ADVPRO=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-лежать=V,ipf,intr=inf
-,_
-лежать=V,ipf,intr=inf
-,_\n
-пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-о=PR=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-,_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-,\n
-не=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-гадать=V,ipf,intr=praet,sg,indic,f
-_
-гадалка=S,f,anim=nom,sg
-,\n
-но=CONJ=
-_
-чей-то=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-уста=S,pl,inan=dat
-_\n
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-жалко=ADV=parenth
-...\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-лежать=V,ipf,intr=inf
-,_
-лежать=V,ipf,intr=inf
-,_\n
-пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-о=PR=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-.\n\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-,_\n
-наклоняться=V,intr=inpraes,sg,indic,3p,pf
-_
-ль=PART=
-_
-кто=SPRO,sg,m,anim=nom
-_
-надо=PR=
-_
-я=SPRO,sg,1p=ins
-,_\n
-но=CONJ=
-_
-в=PR=
-_
-небо=S,n,inan=gen,pl
-_
-голубой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-_\n
-взглядывать=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-улыбка=S,f,inan=ins,sg
-_
-земной=A=ins,sg,plen,f
-.\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,1p
-_
-лежать=V,ipf,intr=inf
-,_
-лежать=V,ipf,intr=inf
-,_\n
-пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_
-о=PR=
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-._\n
+{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {убивать=V,tran=praet,sg,partcp,brev,m,pf,pass} 
+{весна=S,f,inan=ins,sg}, {на=PR=} {талый=A=(abl,sg,plen,m|abl,sg,plen,n)} {снег=S,m,inan=abl,sg}...
+{как=CONJ=} {путник=S,m,anim=nom,sg} {усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {спать=V,ipf,intr=inpraes,sg,indic,3p}, 
+{согреваться=V,intr=praet,ger,pf} {в=PR=} {теплый=A=(abl,sg,plen,m|abl,sg,plen,n)} {ночлег=S,m,inan=abl,sg}, 
+{так=ADVPRO=} {быть=V,intr=inpraes,sg,indic,1p} {лежать=V,ipf,intr=inf}, {лежать=V,ipf,intr=inf}, 
+{пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}, {о=PR=} {мать=S,f,anim=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {это=SPRO,sg,n,inan=(acc|nom)} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {сам=APRO=(acc,sg,m,inan|nom,sg,m)},
+{не=PART=} {я=SPRO,sg,1p=(abl|dat)} {гадать=V,ipf,intr=praet,sg,indic,f} {гадалка=S,f,anim=nom,sg},
+{но=CONJ=} {чей-то=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {милый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {уста=S,pl,inan=dat} 
+{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {быть=V,intr=inpraes,sg,indic,3p} {жалко=ADV=parenth}...
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,1p} {лежать=V,ipf,intr=inf}, {лежать=V,ipf,intr=inf}, 
+{пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}, {о=PR=} {мать=S,f,anim=(acc,sg|nom,sg)}.
+
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n}, 
+{наклоняться=V,intr=inpraes,sg,indic,3p,pf} {ль=PART=} {кто=SPRO,sg,m,anim=nom} {надо=PR=} {я=SPRO,sg,1p=ins}, 
+{но=CONJ=} {в=PR=} {небо=S,n,inan=gen,pl} {голубой=A=(acc,sg,plen,n|nom,sg,plen,n)} {дно=S,n,inan=(acc,sg|nom,sg)} 
+{взглядывать=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {с=PR=} {улыбка=S,f,inan=ins,sg} {земной=A=ins,sg,plen,f}.
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,1p} {лежать=V,ipf,intr=inf}, {лежать=V,ipf,intr=inf}, 
+{пригвождать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)}, {о=PR=} {мать=S,f,anim=(acc,sg|nom,sg)}. 

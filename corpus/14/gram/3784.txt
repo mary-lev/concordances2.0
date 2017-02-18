@@ -1,138 +1,20 @@
-я=SPRO,sg,1p=(acc|gen)
-_
-покидать=V,tran=praet,sg,indic,m,pf
-_
-в=PR=
-_
-новолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-друг=S,m,anim=nom,sg
-_
-любимый=S,m,anim=nom,sg
-._
-ну=PART=
-_
-так=ADVPRO=
-_
-что=CONJ=
-_
-ж=PART=
-!_\n
-шутить=V,ipf,intr=praet,sg,indic,m
-:_\xAB
-канатный=A=nom,sg,plen,f
-_
-плясунья=S,f,anim=nom,sg
-!_\n
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-до=PR=
-_
-май=S,sg,m,inan=gen
-_
-доживать=V,tran=inpraes,sg,indic,2p,pf
-?\xBB\n\n
-он=SPRO,sg,3p,m=dat
-_
-отвечать=V,intr=praet,sg,indic,f,pf
-,_
-как=CONJ=
-_
-брат=S,m,anim=dat,sg
-,_\n
-я=SPRO,sg,1p=nom
-,_
-не=PART=
-_
-ревновать=V,ipf,tran=inpraes,ger
-,_
-не=PART=
-_
-роптать=V,ipf,intr=inpraes,ger
-,_\n
-но=CONJ=
-_
-не=PART=
-_
-заменять=V,tran=inpraes,pl,indic,3p,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-утрата=S,f,inan=acc,sg
-_\n
-четыре=NUM=(nom|acc,inan)
-_
-новый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-плащ=S,m,inan=gen,sg
-.\n\n
-пусть=PART=
-_
-страшный=A=sg,brev,m
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-пусть=PART=
-_
-опасный=A=sg,brev,m
-,_\n
-еще=ADV=
-_
-страшно=ADV=comp
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-..._\n
-как=ADVPRO=
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-китайский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-зонтик=S,m,inan=(acc,sg|nom,sg)
-_
-красный=A=sg,brev,m
-,_\n
-натирать=V=praet,pl,partcp,brev,pf,pass
-_
-мел=S,sg,m,inan=ins
-_
-башмачок=S,m,inan=(acc,pl|nom,pl)
-!\n\n
-оркестр=S,m,inan=(acc,sg|nom,sg)
-_
-веселый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-играть=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-улыбаться=V,intr=inpraes,pl,indic,3p,ipf
-_
-уста=S,pl,inan=(acc|nom)
-.\n
-но=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n
-что=CONJ=
-_
-ложе=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пятый=ANUM=nom,sg,f
-_
-пустой=A=sg,brev,f
-!\n\n
+{я=SPRO,sg,1p=(acc|gen)} {покидать=V,tran=praet,sg,indic,m,pf} {в=PR=} {новолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg} {любимый=S,m,anim=nom,sg}. {ну=PART=} {так=ADVPRO=} {что=CONJ=} {ж=PART=}! 
+{шутить=V,ipf,intr=praet,sg,indic,m}: «{канатный=A=nom,sg,plen,f} {плясунья=S,f,anim=nom,sg}! 
+{как=ADVPRO=} {ты=SPRO,sg,2p=nom} {до=PR=} {май=S,sg,m,inan=gen} {доживать=V,tran=inpraes,sg,indic,2p,pf}?»
+
+{он=SPRO,sg,3p,m=dat} {отвечать=V,intr=praet,sg,indic,f,pf}, {как=CONJ=} {брат=S,m,anim=dat,sg}, 
+{я=SPRO,sg,1p=nom}, {не=PART=} {ревновать=V,ipf,tran=inpraes,ger}, {не=PART=} {роптать=V,ipf,intr=inpraes,ger}, 
+{но=CONJ=} {не=PART=} {заменять=V,tran=inpraes,pl,indic,3p,pf} {я=SPRO,sg,1p=(abl|dat)} {утрата=S,f,inan=acc,sg} 
+{четыре=NUM=(nom|acc,inan)} {новый=A=(acc,pl,plen,inan|nom,pl,plen)} {плащ=S,m,inan=gen,sg}.
+
+{пусть=PART=} {страшный=A=sg,brev,m} {путь=S,m,inan=(acc,sg|nom,sg)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {пусть=PART=} {опасный=A=sg,brev,m}, 
+{еще=ADV=} {страшно=ADV=comp} {путь=S,m,inan=(acc,sg|nom,sg)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}... 
+{как=ADVPRO=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {китайский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зонтик=S,m,inan=(acc,sg|nom,sg)} {красный=A=sg,brev,m}, 
+{натирать=V=praet,pl,partcp,brev,pf,pass} {мел=S,sg,m,inan=ins} {башмачок=S,m,inan=(acc,pl|nom,pl)}!
+
+{оркестр=S,m,inan=(acc,sg|nom,sg)} {веселый=A=(acc,sg,plen,n|nom,sg,plen,n)} {играть=V,ipf,tran=inpraes,sg,indic,3p},
+{и=CONJ=} {улыбаться=V,intr=inpraes,pl,indic,3p,ipf} {уста=S,pl,inan=(acc|nom)}.
+{но=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {знать=V,ipf,tran=inpraes,sg,indic,3p}, {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+{что=CONJ=} {ложе=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пятый=ANUM=nom,sg,f} {пустой=A=sg,brev,f}!
+

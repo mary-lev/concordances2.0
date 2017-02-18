@@ -1,74 +1,8 @@
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-не=PART=
-_
-свозить=V=inpraes,sg,indic,1p,ipf,tran
-_
-с=PR=
-_
-горизонт=S,m,inan=gen,sg
-,\n
-где=ADVPRO=
-_
-мятеть?=V,pf,intr=praet,pl,indic
-_
-плясать=V,ipf,tran=inpraes,pl,indic,3p
-_
-чардаш=S,m,inan=(acc,sg|nom,sg)
-...\n
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-,_
-друг=S,m,anim=nom,sg
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-три=NUM=(nom|acc,inan)
-_
-фронт=S,m,inan=gen,sg
-:\n
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-и=CONJ=
-_
-вражий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-и=CONJ=
-_
-снова=ADV=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n
-я=SPRO,sg,1p=nom
-_
-бояться=V,ipf,intr=praet,sg,indic,f
-_
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-много=ADV=comp
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-позор=S,m,inan=gen,sg
-,_
-тюрьма=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-молиться=V,ipf,intr=praet,sg,indic,f
-,_
-чтоб=CONJ=
-_
-смертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-удостаиваться=V,intr=praet,pl,indic,pf
-_
-вместе=ADV=
-_
-мы=SPRO,pl,1p=nom
-.\n
+{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {не=PART=} {свозить=V=inpraes,sg,indic,1p,ipf,tran} {с=PR=} {горизонт=S,m,inan=gen,sg},
+{где=ADVPRO=} {мятеть?=V,pf,intr=praet,pl,indic} {плясать=V,ipf,tran=inpraes,pl,indic,3p} {чардаш=S,m,inan=(acc,sg|nom,sg)}...
+{между=PR=} {мы=SPRO,pl,1p=ins}, {друг=S,m,anim=nom,sg} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}, {три=NUM=(nom|acc,inan)} {фронт=S,m,inan=gen,sg}:
+{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {и=CONJ=} {вражий=A,plen=(acc,sg,m,inan|nom,sg,m)} {и=CONJ=} {снова=ADV=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)}.
+{я=SPRO,sg,1p=nom} {бояться=V,ipf,intr=praet,sg,indic,f} {такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{много=ADV=comp} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {позор=S,m,inan=gen,sg}, {тюрьма=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{я=SPRO,sg,1p=nom} {молиться=V,ipf,intr=praet,sg,indic,f}, {чтоб=CONJ=} {смертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{удостаиваться=V,intr=praet,pl,indic,pf} {вместе=ADV=} {мы=SPRO,pl,1p=nom}.

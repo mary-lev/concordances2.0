@@ -1,138 +1,17 @@
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=inf
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-_
-настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inpraes,sg,indic,1p
-_
-беспокойный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-,\n
-под=PR=
-_
-солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-блеск=S,m,inan=ins,sg
-_
-палить=V,ipf,tran=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-,\n
-и=CONJ=
-_
-под=PR=
-_
-влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мерцание=S,n,inan=ins,sg
-_
-луна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-я=SPRO,sg,1p=nom
-_
-жить=V,ipf,intr=inf
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_
-настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-внимать=V,intr=inpraes,sg,indic,1p,ipf
-_
-намек=S,m,inan=dat,pl
-_
-струна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-цветок=S,m,inan=dat,pl
-_
-и=CONJ=
-_
-дерево=S,n,inan=dat,pl
-_
-шуметь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)
-,\n
-и=CONJ=
-_
-легенда=S,f,inan=dat,pl
-_
-приморский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-желание=S,n,inan=ins,sg
-_
-томиться=V,ipf,intr=inpraes,ger
-_
-несказанный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-неясный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-грядущее=S,n,inan=abl,sg
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-вздыхать=V,intr=inpraes,sg,indic,1p,ipf
-_
-в=PR=
-_
-рассвет=S,m,inan=abl,sg
-_
-туманный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-и=CONJ=
-_
-с=PR=
-_
-вечерний=A=ins,sg,plen,f
-_
-тучка=S,f,inan=ins,sg
-_
-плыть=V,ipf,intr=inpraes,sg,indic,1p
-.\n
-и=CONJ=
-_
-часто=ADV=
-_
-в=PR=
-_
-восторг=S,m,inan=abl,sg
-_
-нежданный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-поцелуй=S,m,inan=ins,sg
-_
-тревожить=V,ipf,tran=inpraes,sg,indic,1p
-_
-листва=S,sg,f,inan=acc
-.\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-бегство=S,n,inan=abl,sg
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-_
-неустанный=A=(abl,sg,plen,m|abl,sg,plen,n)
-,\n
-в=PR=
-_
-ненасытный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тревога=S,f,inan=(abl,sg|dat,sg)
-_
-жить=V,ipf,intr=inpraes,sg,indic,1p
-.\n
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=inf} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p} {настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inpraes,sg,indic,1p} {беспокойный=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)},
+{под=PR=} {солнечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {блеск=S,m,inan=ins,sg} {палить=V,ipf,tran=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)},
+{и=CONJ=} {под=PR=} {влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мерцание=S,n,inan=ins,sg} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+{я=SPRO,sg,1p=nom} {жить=V,ipf,intr=inf} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {настоящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{я=SPRO,sg,1p=nom} {внимать=V,intr=inpraes,sg,indic,1p,ipf} {намек=S,m,inan=dat,pl} {струна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{цветок=S,m,inan=dat,pl} {и=CONJ=} {дерево=S,n,inan=dat,pl} {шуметь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)},
+{и=CONJ=} {легенда=S,f,inan=dat,pl} {приморский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{желание=S,n,inan=ins,sg} {томиться=V,ipf,intr=inpraes,ger} {несказанный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+{я=SPRO,sg,1p=nom} {в=PR=} {неясный=A=(abl,sg,plen,m|abl,sg,plen,n)} {грядущее=S,n,inan=abl,sg} {жить=V,ipf,intr=inpraes,sg,indic,1p},
+{вздыхать=V,intr=inpraes,sg,indic,1p,ipf} {в=PR=} {рассвет=S,m,inan=abl,sg} {туманный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{и=CONJ=} {с=PR=} {вечерний=A=ins,sg,plen,f} {тучка=S,f,inan=ins,sg} {плыть=V,ipf,intr=inpraes,sg,indic,1p}.
+{и=CONJ=} {часто=ADV=} {в=PR=} {восторг=S,m,inan=abl,sg} {нежданный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{поцелуй=S,m,inan=ins,sg} {тревожить=V,ipf,tran=inpraes,sg,indic,1p} {листва=S,sg,f,inan=acc}.
+{я=SPRO,sg,1p=nom} {в=PR=} {бегство=S,n,inan=abl,sg} {жить=V,ipf,intr=inpraes,sg,indic,1p} {неустанный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+{в=PR=} {ненасытный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тревога=S,f,inan=(abl,sg|dat,sg)} {жить=V,ipf,intr=inpraes,sg,indic,1p}.

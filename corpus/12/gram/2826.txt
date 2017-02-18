@@ -1,76 +1,12 @@
-быть=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-подавать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-с=PR=
-_
-высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-небо=S,n,inan=gen,pl
-\n
-меч=S,m,inan=(acc,sg|nom,sg)
-_
-серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014_
-воинский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-тропарь=S,m,inan=(acc,sg|nom,sg)
-:\n_\u2014_
-иоанн=S,persn,m,anim=(acc,sg|gen,sg)
-!_
-восставать=V,intr=sg,imper,2p,pf
-,_
-дева=S,f,anim=nom,sg
--
-царь=S,m,anim=nom,sg
-!\n\n
-и=CONJ=
-_
-восставать=V,intr=praet,sg,indic,f,pf
-_\u2014_
-мир=S,m,inan=(acc,pl|nom,pl)
-_
-побороть=V,pf,tran=inf
-_\u2014_\n
-посвящать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-_
-в=PR=
-_
-рыцарь=S,m,anim=nom,pl
-_\u2014_
-плоть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-подставлять=V,tran=inpraes,sg,indic,1p,ipf
-_
-открытый=A=acc,sg,plen,f
-_
-грудь=S,f,inan=(acc,sg|nom,sg)
-.\n
-познавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-_
-серединный=A=acc,sg,plen,f
-_
-суть=S,f,inan=(acc,sg|nom,sg)
-.\n
-обязываться=V,intr=inpraes,sg,indic,1p,ipf
-_
-гореть=V,ipf,intr=inf
-_
-и=CONJ=
-_
-тонуть=V,ipf,intr=inf
-.\n
+{быть=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=(abl|dat)} {подавать=V,tran=praet,sg,partcp,brev,m,pf,pass} {с=PR=} {высокий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl}
+{меч=S,m,inan=(acc,sg|nom,sg)} {серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {воинский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крест=S,m,inan=(acc,sg|nom,sg)}.
+
+{быть=V,intr=praet,sg,indic,m,ipf} {я=SPRO,sg,1p=(abl|dat)} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {тропарь=S,m,inan=(acc,sg|nom,sg)}:
+ — {иоанн=S,persn,m,anim=(acc,sg|gen,sg)}! {восставать=V,intr=sg,imper,2p,pf}, {дева=S,f,anim=nom,sg}-{царь=S,m,anim=nom,sg}!
+
+{и=CONJ=} {восставать=V,intr=praet,sg,indic,f,pf} — {мир=S,m,inan=(acc,pl|nom,pl)} {побороть=V,pf,tran=inf} — 
+{посвящать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass} {в=PR=} {рыцарь=S,m,anim=nom,pl} — {плоть=S,f,inan=(acc,sg|nom,sg)}.
+
+{подставлять=V,tran=inpraes,sg,indic,1p,ipf} {открытый=A=acc,sg,plen,f} {грудь=S,f,inan=(acc,sg|nom,sg)}.
+{познавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)} {серединный=A=acc,sg,plen,f} {суть=S,f,inan=(acc,sg|nom,sg)}.
+{обязываться=V,intr=inpraes,sg,indic,1p,ipf} {гореть=V,ipf,intr=inf} {и=CONJ=} {тонуть=V,ipf,intr=inf}.

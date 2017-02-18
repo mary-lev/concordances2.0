@@ -1,174 +1,28 @@
-искательница=S,f,anim=nom,sg
-_
-приключение=S,n,inan=gen,pl
-,\n
-искатель=S,m,anim=nom,sg
-_
-подвиг=S,m,inan=gen,pl
-_\u2014_
-опять=ADV=
-\n
-мы=SPRO,pl,1p=dat
-_
-воля=S,f,inan=ins,sg
-_
-роковой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стечение=S,n,inan=gen,pl
-\n
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-суждено=ADV,praed=
-_
-узнавать=V,tran=inf,pf
-.\n\n
-но=CONJ=
-_
-между=PR=
-_
-мы=SPRO,pl,1p=ins
-_\u2014_
-океан=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-лондонский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-туман=S,m,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-роза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-свадебный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-пир=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-доблестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-британский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лев=S,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-пятый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-заповедь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-гнев=S,m,inan=(acc,sg|nom,sg)
-,_\u2014_\n
-и=CONJ=
-_
-этот=APRO=nom,sg,f
-_
-ветреный=A=nom,sg,plen,f
-_
-лира=S,f,inan=nom,sg
-!\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-и=CONJ=
-_
-тогда=ADVPRO=
-_
-на=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-\n
-не=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-место=S,n,inan=(acc,pl|gen,sg|nom,pl)
-!\n
-я=SPRO,sg,1p=(abl|dat)
-_
-и=CONJ=
-_
-тогда=ADVPRO=
-_
-на=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-\n
-всюду=ADVPRO=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-дом=S,m,inan=(acc,sg|nom,sg)
-.\n
-а=CONJ=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-ждать=V,ipf,tran=praet,sg,indic,f
-_
-прелестный=A=nom,sg,plen,f
-_
-невеста=S,f,anim=nom,sg
-\n
-в=PR=
-_
-поместье=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-родовой=A=(abl,sg,plen,m|abl,sg,plen,n)
-.\n\n
-по=PR=
-_
-ночь=S,f,inan=dat,pl
-,_
-в=PR=
-_
-дилижанс=S,m,inan=abl,sg
-,_\u2014_\n
-и=CONJ=
-_
-за=PR=
-_
-бокал=S,m,inan=ins,sg
-_
-асти?=S,pl,inan=(acc|nom)
-,\n
-я=SPRO,sg,1p=nom
-_
-слагать=V,tran=praet,sg,indic,f,ipf
-_
-вы=SPRO,pl,2p=dat
-_
-станс=S,m,inan=(acc,pl|nom,pl)
-\n
-о=PR=
-_
-прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-гнать=V,ipf,tran=praet,sg,indic,m
-_
-веттуриный?=A=sg,brev,n
-,\n
-пинья?=S,persn,m,anim=(gen,sg|nom,pl)
-_
-клониться=V,ipf,intr=praet,pl,indic
-:_
-Salve??
-!_\n
-звать=V,ipf,tran=praet,pl,indic
-_
-я=SPRO,sg,1p=(acc|gen)
-_\u2014_
-коринна=S,persn,f,anim=ins,sg
-,\n
-вы=SPRO,pl,2p=(abl|acc|gen)
-_\u2014_
-освальд=S,persn,m,anim=ins,sg
-.\n
+{искательница=S,f,anim=nom,sg} {приключение=S,n,inan=gen,pl},
+{искатель=S,m,anim=nom,sg} {подвиг=S,m,inan=gen,pl} — {опять=ADV=}
+{мы=SPRO,pl,1p=dat} {воля=S,f,inan=ins,sg} {роковой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стечение=S,n,inan=gen,pl}
+{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {суждено=ADV,praed=} {узнавать=V,tran=inf,pf}.
+
+{но=CONJ=} {между=PR=} {мы=SPRO,pl,1p=ins} — {океан=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {лондонский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {туман=S,m,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свадебный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пир=S,m,inan=gen,sg},
+{и=CONJ=} {доблестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {британский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лев=S,m,anim=nom,sg},
+{и=CONJ=} {пятый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {заповедь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гнев=S,m,inan=(acc,sg|nom,sg)}, — 
+{и=CONJ=} {этот=APRO=nom,sg,f} {ветреный=A=nom,sg,plen,f} {лира=S,f,inan=nom,sg}!
+
+{я=SPRO,sg,1p=(abl|dat)} {и=CONJ=} {тогда=ADVPRO=} {на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}
+{не=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {место=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+{я=SPRO,sg,1p=(abl|dat)} {и=CONJ=} {тогда=ADVPRO=} {на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}
+{всюду=ADVPRO=} {быть=V,intr=praet,sg,indic,m,ipf} {дом=S,m,inan=(acc,sg|nom,sg)}.
+{а=CONJ=} {вы=SPRO,pl,2p=(abl|acc|gen)} {ждать=V,ipf,tran=praet,sg,indic,f} {прелестный=A=nom,sg,plen,f} {невеста=S,f,anim=nom,sg}
+{в=PR=} {поместье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {родовой=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+
+{по=PR=} {ночь=S,f,inan=dat,pl}, {в=PR=} {дилижанс=S,m,inan=abl,sg}, — 
+{и=CONJ=} {за=PR=} {бокал=S,m,inan=ins,sg} {асти?=S,pl,inan=(acc|nom)},
+{я=SPRO,sg,1p=nom} {слагать=V,tran=praet,sg,indic,f,ipf} {вы=SPRO,pl,2p=dat} {станс=S,m,inan=(acc,pl|nom,pl)}
+{о=PR=} {прекрасный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страсть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{гнать=V,ipf,tran=praet,sg,indic,m} {веттуриный?=A=sg,brev,n},
+{пинья?=S,persn,m,anim=(gen,sg|nom,pl)} {клониться=V,ipf,intr=praet,pl,indic}: {Salve??}! 
+{звать=V,ipf,tran=praet,pl,indic} {я=SPRO,sg,1p=(acc|gen)} — {коринна=S,persn,f,anim=ins,sg},
+{вы=SPRO,pl,2p=(abl|acc|gen)} — {освальд=S,persn,m,anim=ins,sg}.

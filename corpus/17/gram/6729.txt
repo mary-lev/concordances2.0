@@ -1,70 +1,9 @@
-поэзия=S,f,inan=nom,sg
-:_
-искусственный=A=nom,sg,plen,f
-_
-поза=S,f,inan=nom,sg
-,\n
-условный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-звездный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чары=S,pl,inan=gen
-,\n
-где=ADVPRO=
-,_
-улыбаться=V,intr=inpraes,ger,ipf
-,_
-произносить=V=inpraes,pl,indic,3p,ipf,tran
-_\u2014_\xAB
-роза=S,persn,f,anim=nom,sg
-\xBB\n
-и=CONJ=
-_
-с=PR=
-_
-содрогание=S,n,inan=ins,sg
-_
-думать=V,ipf,intr=inpraes,pl,indic,3p
-:_\xAB
-анчар=S,m,inan=(acc,sg|nom,sg)
-\xBB.\n\n
-где=ADVPRO=
-,_
-говорить=V,ipf,tran=inpraes,ger
-_
-о=PR=
-_
-рай=S,sg,m,inan=abl
-,_
-дышать=V,ipf,intr=inpraes,pl,indic,3p
-_
-ад=S,sg,m,inan=ins
-_\n
-мучительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ночь=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-страшный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,_\n
-пропитывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-насквозь=ADV=
-_
-блаженный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-яд=S,m,inan=ins,sg
-_\n
-прорастать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)
-_
-в=PR=
-_
-мироздание=S,n,inan=(acc,sg|nom,sg)
-_
-корень=S,m,inan=gen,pl
-.\n
+{поэзия=S,f,inan=nom,sg}: {искусственный=A=nom,sg,plen,f} {поза=S,f,inan=nom,sg},
+{условный=A=(acc,sg,plen,n|nom,sg,plen,n)} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {звездный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чары=S,pl,inan=gen},
+{где=ADVPRO=}, {улыбаться=V,intr=inpraes,ger,ipf}, {произносить=V=inpraes,pl,indic,3p,ipf,tran} — «{роза=S,persn,f,anim=nom,sg}»
+{и=CONJ=} {с=PR=} {содрогание=S,n,inan=ins,sg} {думать=V,ipf,intr=inpraes,pl,indic,3p}: «{анчар=S,m,inan=(acc,sg|nom,sg)}».
+
+{где=ADVPRO=}, {говорить=V,ipf,tran=inpraes,ger} {о=PR=} {рай=S,sg,m,inan=abl}, {дышать=V,ipf,intr=inpraes,pl,indic,3p} {ад=S,sg,m,inan=ins} 
+{мучительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=gen,pl} {и=CONJ=} {страшный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}, 
+{пропитывать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {насквозь=ADV=} {блаженный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {яд=S,m,inan=ins,sg} 
+{прорастать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {в=PR=} {мироздание=S,n,inan=(acc,sg|nom,sg)} {корень=S,m,inan=gen,pl}.

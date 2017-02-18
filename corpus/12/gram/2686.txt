@@ -1,92 +1,12 @@
-колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-и=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-туча=S,f,inan=abl,pl
-.\n
-на=PR=
-_
-перстень=S,m,inan=abl,sg
-_\u2014_
-герб=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-вязь=S,f,inan=(acc,sg|nom,sg)
-.\n
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_
-плывучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-и=CONJ=
-_
-певучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-:\n\u2014\t
-сударыня=S,f,anim=nom,sg
-?_\u2014_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-князь=S,m,anim=nom,sg
-?\n\n\u2014\t
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-приводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-к=PR=
-_
-мой=APRO=(dat,sg,m|dat,sg,n)
-_
-подъезд=S,m,inan=dat,sg
-?\n\u2014\t
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-возраст=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-и=CONJ=
-_
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-.\n
-цилиндр=S,m,inan=(acc,sg|nom,sg)
-_
-снимать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,_
-и=CONJ=
-_
-тьма=S,f,inan=acc,sg
-_
-волос=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-прорезать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)
-\n
-серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пробор=S,m,inan=(acc,sg|nom,sg)
-.\n\n\u2014\t
-ну=PART=
-,_
-что=CONJ=
-_
-сказать=V,pf,tran=praet,pl,indic
-_
-на=PR=
-_
-денек=S,m,inan=(acc,sg|nom,sg)
-_
-вчерашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-российский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-ум=S,m,inan=(acc,pl|nom,pl)
-?\n
+{колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)} — {и=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {туча=S,f,inan=abl,pl}.
+{на=PR=} {перстень=S,m,inan=abl,sg} — {герб=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {вязь=S,f,inan=(acc,sg|nom,sg)}.
+{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} — {плывучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {и=CONJ=} {певучий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}:
+—	{сударыня=S,f,anim=nom,sg}? — {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {князь=S,m,anim=nom,sg}?
+
+—	{что=SPRO,sg,n,inan=(acc|nom)} {вы=SPRO,pl,2p=(abl|acc|gen)} {приводить=V=inpraes,sg,indic,3p,ipf,tran} {к=PR=} {мой=APRO=(dat,sg,m|dat,sg,n)} {подъезд=S,m,inan=dat,sg}?
+—	{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {возраст=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {взор=S,m,inan=(acc,sg|nom,sg)}.
+{цилиндр=S,m,inan=(acc,sg|nom,sg)} {снимать=V,tran=praet,sg,partcp,brev,m,pf,pass}, {и=CONJ=} {тьма=S,f,inan=acc,sg} {волос=S,m,inan=(acc,sg|gen,pl|nom,sg)} {прорезать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)}
+{серебряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пробор=S,m,inan=(acc,sg|nom,sg)}.
+
+—	{ну=PART=}, {что=CONJ=} {сказать=V,pf,tran=praet,pl,indic} {на=PR=} {денек=S,m,inan=(acc,sg|nom,sg)} {вчерашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{российский=A=(acc,pl,plen,inan|nom,pl,plen)} {ум=S,m,inan=(acc,pl|nom,pl)}?

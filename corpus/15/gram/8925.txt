@@ -1,166 +1,29 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-,_
-голубь=S,m,anim=nom,sg
-_
-ворковать=V,ipf,intr=inpraes,sg,indic,3p
-?\n
-ключ=S,m,inan=(acc,sg|nom,sg)
-_
-ли=PART=
-_
-журчать=V,ipf,intr=inpraes,sg,indic,3p
-_
-неустанно=ADV=
-?\n
-нет=PART=
-,_
-это=PART=
-_
-плакать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-тосковать=V,ipf,intr=inpraes,sg,indic,3p
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-на=PR=
-_
-луг=S,m,inan=(dat,sg|loc,sg)
-_
-там=ADVPRO=
-_
-белеть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-светиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-лунный=A=sg,brev,n
-_
-и=CONJ=
-_
-странно=ADV=
-?\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-туман=S,m,inan=(acc,pl|nom,pl)
-_
-лелеять=V,ipf,tran=inpraes,sg,indic,3p
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-в=PR=
-_
-мельница=S,f,inan=acc,sg
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-жернов=S,m,inan=(acc,sg|nom,sg)
-_
-крутить=V,ipf,tran=inpraes,sg,indic,3p
-_
-первозданный=A=sg,brev,n
-?\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-хохотать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-.\n\n
-плакать=V,ipf,intr=praet,sg,indic,f
-,_
-больше=ADV=
-_
-не=PART=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,3p
-\n
-плакать=V,ipf,intr=inf
-_
-так=ADVPRO=
-_
-струнный=A=sg,brev,n
--
-обманно=ADV=
-,\n
-в=PR=
-_
-мельничный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-брызги=S,pl,inan=abl
-_
-хохотать=V,ipf,intr=inpraes,sg,indic,3p
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-.\n\n
-кто-то=SPRO,sg,m,anim=nom
-_
-ходить=V,ipf,intr=praet,sg,indic,m
-_
-на=PR=
-_
-откос=S,m,inan=abl,pl
-,\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-она=SPRO,sg,3p,f=nom
-_
-виться=V,ipf,intr=inpraes,sg,indic,3p
-_
-слиянно?=ADV=
-.\n
-нежиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-мельничный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-роса=S,f,inan=abl,pl
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-.\n\n
-возле=PR=
-_
-крутой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-обрыв=S,m,inan=gen,sg
-\n
-тайна=S,f,inan=nom,sg
-_
-царить=V,ipf,intr=inpraes,sg,indic,3p
-_
-невозбранный=A=sg,brev,n
-.\n
-о=INTJ=
-,_
-как=ADVPRO=
-_
-бледный=A=sg,brev,f
-_
-и=CONJ=
-_
-красивый=A=sg,brev,f
-\n\t
-водный=A=nom,sg,plen,f
-_
-панна=S,f,anim=nom,sg
-!\n
+{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)}, {голубь=S,m,anim=nom,sg} {ворковать=V,ipf,intr=inpraes,sg,indic,3p}?
+{ключ=S,m,inan=(acc,sg|nom,sg)} {ли=PART=} {журчать=V,ipf,intr=inpraes,sg,indic,3p} {неустанно=ADV=}?
+{нет=PART=}, {это=PART=} {плакать=V,ipf,intr=inpraes,sg,indic,3p}, {тосковать=V,ipf,intr=inpraes,sg,indic,3p}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)} {там=ADVPRO=} {белеть=V,ipf,intr=inpraes,sg,indic,3p},
+{светиться=V,ipf,intr=inpraes,sg,indic,3p} {лунный=A=sg,brev,n} {и=CONJ=} {странно=ADV=}?
+{это=SPRO,sg,n,inan=(acc|nom)} {туман=S,m,inan=(acc,pl|nom,pl)} {лелеять=V,ipf,tran=inpraes,sg,indic,3p}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {в=PR=} {мельница=S,f,inan=acc,sg} {биться=V,ipf,intr=inpraes,sg,indic,3p},
+{жернов=S,m,inan=(acc,sg|nom,sg)} {крутить=V,ipf,tran=inpraes,sg,indic,3p} {первозданный=A=sg,brev,n}?
+{это=SPRO,sg,n,inan=(acc|nom)} {хохотать=V,ipf,intr=inpraes,sg,indic,3p}, {смеяться=V,ipf,intr=inpraes,sg,indic,3p}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}.
+
+{плакать=V,ipf,intr=praet,sg,indic,f}, {больше=ADV=} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,3p}
+{плакать=V,ipf,intr=inf} {так=ADVPRO=} {струнный=A=sg,brev,n}-{обманно=ADV=},
+{в=PR=} {мельничный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {брызги=S,pl,inan=abl} {хохотать=V,ipf,intr=inpraes,sg,indic,3p}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}.
+
+{кто-то=SPRO,sg,m,anim=nom} {ходить=V,ipf,intr=praet,sg,indic,m} {на=PR=} {откос=S,m,inan=abl,pl},
+{с=PR=} {он=SPRO,sg,3p,m=ins} {она=SPRO,sg,3p,f=nom} {виться=V,ipf,intr=inpraes,sg,indic,3p} {слиянно?=ADV=}.
+{нежиться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {мельничный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {роса=S,f,inan=abl,pl}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}.
+
+{возле=PR=} {крутой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {обрыв=S,m,inan=gen,sg}
+{тайна=S,f,inan=nom,sg} {царить=V,ipf,intr=inpraes,sg,indic,3p} {невозбранный=A=sg,brev,n}.
+{о=INTJ=}, {как=ADVPRO=} {бледный=A=sg,brev,f} {и=CONJ=} {красивый=A=sg,brev,f}
+	{водный=A=nom,sg,plen,f} {панна=S,f,anim=nom,sg}!

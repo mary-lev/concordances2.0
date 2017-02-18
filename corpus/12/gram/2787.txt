@@ -1,76 +1,14 @@
-рыцарь=S,m,anim=nom,sg
-_
-ангелоподобный=A,plen=(acc,sg,m,inan|nom,sg,m)
-_\u2014_\n
-долг=S,m,inan=(acc,sg|nom,sg)
-!_\u2014_
-небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-часовой=S,m,anim=nom,sg
-!\n
-белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-памятник=S,m,inan=(acc,sg|nom,sg)
-_
-надгробный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-на=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-за=PR=
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-спина=S,f,inan=ins,sg
-_
-крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-вырастать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)
-_
-ключарь=S,m,anim=nom,sg
-,\n
-еженощный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-соглядатай=S,m,anim=nom,sg
-,\n
-ежеутренний=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-звонарь=S,m,anim=nom,sg
-.\n\n
-страсть=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-юность=S,f,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-гордыня=S,f,inan=nom,sg
-_\u2014_\n
-все=SPRO,pl=(acc|nom)
-_
-сдаваться=V,intr=praet,sg,indic,n,pf
-_
-без=PR=
-_
-мятеж=S,m,inan=gen,sg
-,\n
-оттого=ADVPRO=
-_
-что=CONJ=
-_
-ты=SPRO,sg,2p=nom
-_
-рабыня=S,f,anim=(abl,sg|dat,sg)
-\n
-первый=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-молвить=V,pf,tran=praet,sg,indic,m
-:_\u2014_
-госпожа=S,f,anim=(nom,pl|nom,sg)
-!\n
+{рыцарь=S,m,anim=nom,sg} {ангелоподобный=A,plen=(acc,sg,m,inan|nom,sg,m)} — 
+{долг=S,m,inan=(acc,sg|nom,sg)}! — {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {часовой=S,m,anim=nom,sg}!
+{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {памятник=S,m,inan=(acc,sg|nom,sg)} {надгробный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{на=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{за=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {спина=S,f,inan=ins,sg} {крылатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{вырастать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {ключарь=S,m,anim=nom,sg},
+{еженощный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {соглядатай=S,m,anim=nom,sg},
+{ежеутренний=A,plen=(acc,sg,m,inan|nom,sg,m)} {звонарь=S,m,anim=nom,sg}.
+
+{страсть=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {юность=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {гордыня=S,f,inan=nom,sg} — 
+{все=SPRO,pl=(acc|nom)} {сдаваться=V,intr=praet,sg,indic,n,pf} {без=PR=} {мятеж=S,m,inan=gen,sg},
+{оттого=ADVPRO=} {что=CONJ=} {ты=SPRO,sg,2p=nom} {рабыня=S,f,anim=(abl,sg|dat,sg)}
+{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {молвить=V,pf,tran=praet,sg,indic,m}: — {госпожа=S,f,anim=(nom,pl|nom,sg)}!

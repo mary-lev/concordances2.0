@@ -1,120 +1,20 @@
-висеть=V,ipf,intr=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-,_
-не=PART=
-_
-качаться=V,ipf,intr=inpraes,ger
-,\n
-на=PR=
-_
-узкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ремешок=S,m,inan=abl,sg
-.\n
-сваливаться=V,intr=praet,nom,sg,partcp,plen,f,pf,act
-_
-шляпа=S,f,inan=nom,sg
-\n
-чернеть=V,ipf,intr=praet,sg,indic,f
-_
-на=PR=
-_
-песок=S,m,inan=abl,sg
-.\n
-в=PR=
-_
-ладонь=S,f,inan=(acc,sg|nom,sg)
-_
-впиваться=V,intr=praet,pl,indic,ipf
-_
-ноготь=S,m,inan=(acc,pl|nom,pl)
-\n
-на=PR=
-_
-стискивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-рука=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-а=CONJ=
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-восходить=V,intr=praet,sg,indic,n,ipf
-,\n
-стремя=S,n,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-полдень=S,m,inan=dat,sg
-_
-бег=S,sg,m,inan=(acc|nom)
-,\n
-и=CONJ=
-_
-перед=PR=
-_
-этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-солнце=S,n,inan=ins,sg
-,\n
-не=PART=
-_
-опускать=V=inpraes,ger,ipf,tran
-_
-век=S,m,inan=(acc,sg|nom,sg)
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-высоко=ADV=
-_
-приподымать=V=praet,sg,partcp,brev,m,pf,pass
-\n
-на=PR=
-_
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-.\n\n
-и=CONJ=
-_
-зорко=ADV=
-,_
-зорко=ADV=
-,_
-зорко=ADV=
-\n
-смотреть=V,ipf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-на=PR=
-_
-восток=S,geo,m,inan=(acc,sg|nom,sg)
-.\n
-внизу=ADV=
-_
-столпиться=V,pf,intr=praet,pl,indic
-_
-человек=S,m,anim=nom,pl
-\n
-в=PR=
-_
-притихать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-кружок=S,m,inan=(acc,sg|nom,sg)
-.\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-почти=ADV=
-_
-невидимый=A=sg,brev,m
-\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-узкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-ремешок=S,m,inan=(acc,sg|nom,sg)
-.\n
+{висеть=V,ipf,intr=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom}, {не=PART=} {качаться=V,ipf,intr=inpraes,ger},
+{на=PR=} {узкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {ремешок=S,m,inan=abl,sg}.
+{сваливаться=V,intr=praet,nom,sg,partcp,plen,f,pf,act} {шляпа=S,f,inan=nom,sg}
+{чернеть=V,ipf,intr=praet,sg,indic,f} {на=PR=} {песок=S,m,inan=abl,sg}.
+{в=PR=} {ладонь=S,f,inan=(acc,sg|nom,sg)} {впиваться=V,intr=praet,pl,indic,ipf} {ноготь=S,m,inan=(acc,pl|nom,pl)}
+{на=PR=} {стискивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {рука=S,f,inan=(abl,sg|dat,sg)}.
+
+{а=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {восходить=V,intr=praet,sg,indic,n,ipf},
+{стремя=S,n,inan=(acc,sg|nom,sg)} {к=PR=} {полдень=S,m,inan=dat,sg} {бег=S,sg,m,inan=(acc|nom)},
+{и=CONJ=} {перед=PR=} {этот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {солнце=S,n,inan=ins,sg},
+{не=PART=} {опускать=V=inpraes,ger,ipf,tran} {век=S,m,inan=(acc,sg|nom,sg)},
+{быть=V,intr=praet,sg,indic,m,ipf} {высоко=ADV=} {приподымать=V=praet,sg,partcp,brev,m,pf,pass}
+{на=PR=} {воздух=S,m,inan=(acc,sg|nom,sg)} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}.
+
+{и=CONJ=} {зорко=ADV=}, {зорко=ADV=}, {зорко=ADV=}
+{смотреть=V,ipf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {на=PR=} {восток=S,geo,m,inan=(acc,sg|nom,sg)}.
+{внизу=ADV=} {столпиться=V,pf,intr=praet,pl,indic} {человек=S,m,anim=nom,pl}
+{в=PR=} {притихать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {кружок=S,m,inan=(acc,sg|nom,sg)}.
+{и=CONJ=} {быть=V,intr=praet,sg,indic,m,ipf} {почти=ADV=} {невидимый=A=sg,brev,m}
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {узкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ремешок=S,m,inan=(acc,sg|nom,sg)}.

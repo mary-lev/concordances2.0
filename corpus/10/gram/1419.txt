@@ -1,74 +1,9 @@
-в=PR=
-_
-ухо=S,n,inan=abl,pl
-_
-обрывок=S,m,inan=(acc,pl|nom,pl)
-_
-теплый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-бал=S,m,inan=gen,sg
-,\n
-а=CONJ=
-_
-с=PR=
-_
-север=S,m,inan=gen,sg
-_\u2014_
-снег=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-седеть=V,ipf,intr=sg,imper,2p
-_\u2014\n
-туман=S,m,inan=(acc,sg|nom,sg)
-,_
-с=PR=
-_
-кровожадный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-лицо=S,n,inan=ins,sg
-_
-каннибал=S,m,anim=(acc,sg|gen,sg)
-,\n
-жевать=V,ipf,tran=praet,sg,indic,m
-_
-невкусный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-часы=S,pl,inan=(acc|nom)
-_
-нависать=V,intr=praet,pl,indic,ipf
-,_
-как=CONJ=
-_
-грубый=A=nom,sg,plen,f
-_
-брань=S,f,inan=(acc,sg|nom,sg)
-,\n
-за=PR=
-_
-пятый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_
-нависать=V,intr=praet,sg,indic,m,pf
-_
-шестой=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-.\n
-а=CONJ=
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-смотреть=V,ipf,tran=praet,sg,indic,f
-_
-какой-то=APRO=nom,sg,f
-_
-дрянь=S,f,inan=(acc,sg|nom,sg)
-\n
-величественно=ADV=
-,_
-как=CONJ=
-_
-лев=S,persn,m,anim=nom,sg
-_
-толстой=S,famn,m,anim=nom,sg
-.\n
+{в=PR=} {ухо=S,n,inan=abl,pl} {обрывок=S,m,inan=(acc,pl|nom,pl)} {теплый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бал=S,m,inan=gen,sg},
+{а=CONJ=} {с=PR=} {север=S,m,inan=gen,sg} — {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} {седеть=V,ipf,intr=sg,imper,2p} —
+{туман=S,m,inan=(acc,sg|nom,sg)}, {с=PR=} {кровожадный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {лицо=S,n,inan=ins,sg} {каннибал=S,m,anim=(acc,sg|gen,sg)},
+{жевать=V,ipf,tran=praet,sg,indic,m} {невкусный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {человек=S,m,anim=(acc,pl|gen,pl)}.
+
+{часы=S,pl,inan=(acc|nom)} {нависать=V,intr=praet,pl,indic,ipf}, {как=CONJ=} {грубый=A=nom,sg,plen,f} {брань=S,f,inan=(acc,sg|nom,sg)},
+{за=PR=} {пятый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {нависать=V,intr=praet,sg,indic,m,pf} {шестой=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
+{а=CONJ=} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {смотреть=V,ipf,tran=praet,sg,indic,f} {какой-то=APRO=nom,sg,f} {дрянь=S,f,inan=(acc,sg|nom,sg)}
+{величественно=ADV=}, {как=CONJ=} {лев=S,persn,m,anim=nom,sg} {толстой=S,famn,m,anim=nom,sg}.

@@ -1,110 +1,14 @@
-меж=PR=
-_
-два=NUM=ins
-_
-гора=S,f,inan=ins,pl
-,_
-черная=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-и=CONJ=
-_
-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-мы=SPRO,pl,1p=nom
-,_
-безумный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-метаться=V,ipf,intr=praet,pl,indic
-_
-тщетно=ADV=
-.\n
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-меж=PR=
-_
-черная=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-_
-и=CONJ=
-_
-красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-огненный=A=nom,sg,plen,f
-_
-стена=S,f,inan=nom,sg
-_
-из=PR=
-_
-этна=S,geo,sg,f,inan=gen
-.\n\n
-запрягать=V=praet,pl,indic,pf
-_
-индюшка=S,f,anim=(acc,pl|gen,pl)
-_\u2014_
-рваться=V,ipf,intr=inpraes,pl,indic,1p
-_
-налево=ADV=
-,\n
-запрягать=V=praet,pl,indic,pf
-_
-свинья=S,f,anim=(acc,pl|gen,pl)
-_\u2014_
-бежать=V,intr=(inf,ipf|inf,pf)
-_
-направо=ADV=
-,\n
-но=CONJ=
-_
-нет=PART=
-_
-спасение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-ни=CONJ=
-_
-направо=ADV=
-,_
-ни=CONJ=
-_
-налево=ADV=
-,\n
-и=CONJ=
-_
-близко=ADV=comp
-_
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-лава=S,f,inan=nom,sg
-.\n\n
-катиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-с=PR=
-_
-металлический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-скрип=S,m,inan=ins,sg
-,\n
-с=PR=
-_
-тяжелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-подземный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-лай=S,m,inan=ins,sg
-.\n
-опаливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-,_
-оглушать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-скрип=S,m,inan=ins,sg
-,\n
-мы=SPRO,pl,1p=nom
-_
-корчиться=V,ipf,intr=inpraes,pl,indic,1p
-,_
-шипеть=V,ipf,intr=inpraes,pl,indic,1p
-_\u2014_
-и=CONJ=
-_
-пропадать=V,intr=inpraes,pl,indic,1p,ipf
-.\n
+{меж=PR=} {два=NUM=ins} {гора=S,f,inan=ins,pl}, {черная=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)} {и=CONJ=} {красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{мы=SPRO,pl,1p=nom}, {безумный=A=(acc,pl,plen,inan|nom,pl,plen)}, {метаться=V,ipf,intr=praet,pl,indic} {тщетно=ADV=}.
+{катиться=V,ipf,intr=inpraes,sg,indic,3p} {меж=PR=} {черная=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)} {и=CONJ=} {красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{огненный=A=nom,sg,plen,f} {стена=S,f,inan=nom,sg} {из=PR=} {этна=S,geo,sg,f,inan=gen}.
+
+{запрягать=V=praet,pl,indic,pf} {индюшка=S,f,anim=(acc,pl|gen,pl)} — {рваться=V,ipf,intr=inpraes,pl,indic,1p} {налево=ADV=},
+{запрягать=V=praet,pl,indic,pf} {свинья=S,f,anim=(acc,pl|gen,pl)} — {бежать=V,intr=(inf,ipf|inf,pf)} {направо=ADV=},
+{но=CONJ=} {нет=PART=} {спасение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {ни=CONJ=} {направо=ADV=}, {ни=CONJ=} {налево=ADV=},
+{и=CONJ=} {близко=ADV=comp} {дышать=V,ipf,intr=inpraes,sg,indic,3p}, {катиться=V,ipf,intr=inpraes,sg,indic,3p} {лава=S,f,inan=nom,sg}.
+
+{катиться=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {металлический=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {скрип=S,m,inan=ins,sg},
+{с=PR=} {тяжелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {подземный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {лай=S,m,inan=ins,sg}.
+{опаливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, {оглушать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {скрип=S,m,inan=ins,sg},
+{мы=SPRO,pl,1p=nom} {корчиться=V,ipf,intr=inpraes,pl,indic,1p}, {шипеть=V,ipf,intr=inpraes,pl,indic,1p} — {и=CONJ=} {пропадать=V,intr=inpraes,pl,indic,1p,ipf}.

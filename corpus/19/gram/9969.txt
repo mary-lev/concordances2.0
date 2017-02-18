@@ -1,82 +1,9 @@
-у=PR=
-_
-древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-быть=V,intr=praet,sg,indic,f,ipf
-_
-откровенный=A=sg,brev,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-эрос=S,m,inan=(acc,sg|nom,sg)
-_
-крылатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-и=CONJ=
-_
-голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-как=CONJ=
-_
-роза=S,f,inan=nom,sg
-,_
-простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-как=CONJ=
-_
-морковь=S,f,inan=(acc,sg|nom,sg)
-,\n
-как=CONJ=
-_
-вешний=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-в=PR=
-_
-подвенечный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-наряд=S,m,inan=abl,sg
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,\n
-а=CONJ=
-_
-все-таки=PART=
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-_
-не=PART=
-_
-просто=ADV=comp
-:\n
-невестка=S,f,anim=acc,sg
-_
-ругать=V,ipf,tran=inpraes,sg,indic,3p
-_
-за=PR=
-_
-шашни=S,pl,inan=(acc|nom)
-_
-свекровь=S,f,anim=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-теща=S,f,anim=(gen,sg|nom,pl)
-_
-от=PR=
-_
-злобность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тощий=A=pl,brev
-.\n
+{у=PR=} {древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {быть=V,intr=praet,sg,indic,f,ipf} {откровенный=A=sg,brev,f} {любовь=S,f,inan=(acc,sg|nom,sg)},
+{быть=V,intr=praet,sg,indic,m,ipf} {эрос=S,m,inan=(acc,sg|nom,sg)} {крылатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{румяный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {как=CONJ=} {роза=S,f,inan=nom,sg}, {простой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {как=CONJ=} {морковь=S,f,inan=(acc,sg|nom,sg)},
+{как=CONJ=} {вешний=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {в=PR=} {подвенечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {наряд=S,m,inan=abl,sg} {любовь=S,f,inan=(acc,sg|nom,sg)},
+{а=CONJ=} {все-таки=PART=} {дело=S,n,inan=(acc,sg|nom,sg)} {не=PART=} {просто=ADV=comp}:
+{невестка=S,f,anim=acc,sg} {ругать=V,ipf,tran=inpraes,sg,indic,3p} {за=PR=} {шашни=S,pl,inan=(acc|nom)} {свекровь=S,f,anim=(acc,sg|nom,sg)},
+{и=CONJ=} {теща=S,f,anim=(gen,sg|nom,pl)} {от=PR=} {злобность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тощий=A=pl,brev}.

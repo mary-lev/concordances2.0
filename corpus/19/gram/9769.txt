@@ -1,72 +1,9 @@
-как=ADVPRO=
-_
-ты=SPRO,sg,2p=nom
-_
-ночь=S,f,inan=ins,sg
-_
-ни=PART=
-_
-гулять=V,ipf,intr=sg,imper,2p
-,\n
-хоть=PART=
-_
-и=CONJ=
-_
-в=PR=
-_
-майский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-суббота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-не=PART=
-_
-спасаться=V,intr=inpraes,sg,indic,2p,pf
-,_
-так=ADVPRO=
-_
-и=CONJ=
-_
-знать=V,ipf,tran=sg,imper,2p
-,\n
-от=PR=
-_
-дремота=S,f,inan=(acc,pl|gen,sg|nom,pl)
--
-потягота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-уж=PART=
-_
-идти=V,ipf,intr=sg,imper,2p
-_
-скоро=ADV=comp
-_
-домой=ADV=
-,\n
-а=CONJ=
-_
-не=PART=
-_
-то=PART=
-_
-под=PR=
-_
-кустик=S,m,inan=(acc,sg|nom,sg)
-_
-ложиться=V,intr=inpraes,sg,indic,2p,pf
-,\n
-и=CONJ=
-_
-кто-то=SPRO,sg,m,anim=dat
-_
-с=PR=
-_
-зевота=S,f,inan=ins,sg
-\n
-ты=SPRO,sg,2p=nom
-_\xAB
-покойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-\xBB_
-сказать=V,pf,tran=inpraes,sg,indic,2p
-.\n
+{как=ADVPRO=} {ты=SPRO,sg,2p=nom} {ночь=S,f,inan=ins,sg} {ни=PART=} {гулять=V,ipf,intr=sg,imper,2p},
+{хоть=PART=} {и=CONJ=} {в=PR=} {майский=A=(acc,pl,plen,inan|nom,pl,plen)} {суббота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{не=PART=} {спасаться=V,intr=inpraes,sg,indic,2p,pf}, {так=ADVPRO=} {и=CONJ=} {знать=V,ipf,tran=sg,imper,2p},
+{от=PR=} {дремота=S,f,inan=(acc,pl|gen,sg|nom,pl)}-{потягота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{уж=PART=} {идти=V,ipf,intr=sg,imper,2p} {скоро=ADV=comp} {домой=ADV=},
+{а=CONJ=} {не=PART=} {то=PART=} {под=PR=} {кустик=S,m,inan=(acc,sg|nom,sg)} {ложиться=V,intr=inpraes,sg,indic,2p,pf},
+{и=CONJ=} {кто-то=SPRO,sg,m,anim=dat} {с=PR=} {зевота=S,f,inan=ins,sg}
+{ты=SPRO,sg,2p=nom} «{покойный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}» {сказать=V,pf,tran=inpraes,sg,indic,2p}.

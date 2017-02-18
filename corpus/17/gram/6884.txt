@@ -1,70 +1,11 @@
-в=PR=
-_
-зеркало=S,n,inan=abl,sg
-_
-сутулый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-тощий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_\n
-складка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-у=PR=
-_
-бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-._\n
-это=SPRO,sg,n,inan=(acc|nom)
-_
-все=SPRO,pl=(acc|nom)
-_
-гораздо=ADV=
-_
-просто=ADV=comp
-,_\n
-будничный=A=comp
-_
-во=PR=
-_
-сто=NUM=(acc|nom)
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-.\n\n
-будничный=A=comp
-_
-и=CONJ=
-_
-бедный=A=comp
-_\u2014_\n
-знойный=A=sg,brev,m
-_
-опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-сад=S,m,inan=(acc,sg|nom,sg)
-,\n
-дно=S,n,inan=(acc,sg|nom,sg)
-_
-зеркальный=A=(acc,sg,plen,n|nom,sg,plen,n)
-._
-на=PR=
-_
-дно=S,n,inan=abl,sg
-._
-и=PART=
-_\n
-никакой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-путь=S,m,inan=gen,pl
-_
-назад=ADV=
-.\n\n
-я=SPRO,sg,1p=nom
-_
-уже=ADV=
-_
-спускаться=V,intr=praet,sg,indic,m,pf
-_
-в=PR=
-_
-ад=S,sg,m,inan=(acc|nom)
-.\n
+{в=PR=} {зеркало=S,n,inan=abl,sg} {сутулый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {тощий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, 
+{складка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {у=PR=} {бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)}. 
+{это=SPRO,sg,n,inan=(acc|nom)} {все=SPRO,pl=(acc|nom)} {гораздо=ADV=} {просто=ADV=comp}, 
+{будничный=A=comp} {во=PR=} {сто=NUM=(acc|nom)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}.
+
+{будничный=A=comp} {и=CONJ=} {бедный=A=comp} — 
+{знойный=A=sg,brev,m} {опаливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {сад=S,m,inan=(acc,sg|nom,sg)},
+{дно=S,n,inan=(acc,sg|nom,sg)} {зеркальный=A=(acc,sg,plen,n|nom,sg,plen,n)}. {на=PR=} {дно=S,n,inan=abl,sg}. {и=PART=} 
+{никакой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {путь=S,m,inan=gen,pl} {назад=ADV=}.
+
+{я=SPRO,sg,1p=nom} {уже=ADV=} {спускаться=V,intr=praet,sg,indic,m,pf} {в=PR=} {ад=S,sg,m,inan=(acc|nom)}.

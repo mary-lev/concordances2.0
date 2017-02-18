@@ -1,86 +1,9 @@
-дьявол=S,m,anim=nom,sg
-_
-не=PART=
-_
-выдавать=V,tran=praet,sg,indic,m,pf
-._
-я=SPRO,sg,1p=(abl|dat)
-_
-все=SPRO,pl=(acc|nom)
-_
-удаваться=V,intr=praet,sg,indic,n,pf
-.\n
-вот=PART=
-_
-и=CONJ=
-_
-могущество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-явный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-знак=S,m,inan=(acc,pl|nom,pl)
-.\n
-вынимать=V,tran=sg,imper,2p,pf
-_
-из=PR=
-_
-грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-и=CONJ=
-_
-бросать=V=sg,imper,2p,pf
-\n
-самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-голодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-собака=S,f,anim=(abl,sg|dat,sg)
-.\n
-больше=ADV=
-_
-уже=ADV=
-_
-ни=PART=
-_
-на=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-годиться=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-ни=PART=
-_
-один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-вымолвить=V,pf,tran=inpraes,sg,indic,1p
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-нет=PART=
-_
-настоящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\u2014_
-прошлое=S,n,inan=(dat,pl|ins,sg)
-_
-гордиться=V,ipf,intr=inpraes,sg,indic,1p
-\n
-и=CONJ=
-_
-задыхаться=V,intr=praet,sg,indic,f,pf
-_
-от=PR=
-_
-срам=S,m,inan=gen,sg
-_
-такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-.\n\n
+{дьявол=S,m,anim=nom,sg} {не=PART=} {выдавать=V,tran=praet,sg,indic,m,pf}. {я=SPRO,sg,1p=(abl|dat)} {все=SPRO,pl=(acc|nom)} {удаваться=V,intr=praet,sg,indic,n,pf}.
+{вот=PART=} {и=CONJ=} {могущество=S,n,inan=(acc,pl|gen,sg|nom,pl)} {явный=A=(acc,pl,plen,inan|nom,pl,plen)} {знак=S,m,inan=(acc,pl|nom,pl)}.
+{вынимать=V,tran=sg,imper,2p,pf} {из=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {бросать=V=sg,imper,2p,pf}
+{самый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {голодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {собака=S,f,anim=(abl,sg|dat,sg)}.
+{больше=ADV=} {уже=ADV=} {ни=PART=} {на=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {годиться=V,ipf,intr=inpraes,sg,indic,1p},
+{ни=PART=} {один=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {я=SPRO,sg,1p=nom} {не=PART=} {вымолвить=V,pf,tran=inpraes,sg,indic,1p} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{нет=PART=} {настоящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} — {прошлое=S,n,inan=(dat,pl|ins,sg)} {гордиться=V,ipf,intr=inpraes,sg,indic,1p}
+{и=CONJ=} {задыхаться=V,intr=praet,sg,indic,f,pf} {от=PR=} {срам=S,m,inan=gen,sg} {такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}.
+

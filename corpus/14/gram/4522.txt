@@ -1,60 +1,7 @@
-я=SPRO,sg,1p=nom
-_
-не=PART=
-_
-любить=V,ipf,tran=praet,sg,indic,f
-_
-с=PR=
-_
-давний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,\n
-чтобы=CONJ=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-жалеть=V,ipf,tran=praet,pl,indic
-,\n
-а=CONJ=
-_
-с=PR=
-_
-капля=S,f,inan=ins,sg
-_
-жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-\n
-идти=V,ipf,intr=inpraes,sg,indic,1p
-,_
-как=CONJ=
-_
-с=PR=
-_
-солнце=S,n,inan=ins,sg
-_
-в=PR=
-_
-тело=S,n,inan=abl,sg
-.\n
-вот=PART=
-_
-отчего=ADVPRO=
-_
-вокруг=PR=
-_
-заря=S,f,inan=nom,sg
-.\n
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-,_
-чудо=S,n,inan=(acc,pl|nom,pl)
-_
-творить=V,ipf,tran=inpraes,ger
-,\n
-вот=PART=
-_
-отчего=ADVPRO=
-!\n
+{я=SPRO,sg,1p=nom} {не=PART=} {любить=V,ipf,tran=praet,sg,indic,f} {с=PR=} {давний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl},
+{чтобы=CONJ=} {я=SPRO,sg,1p=(acc|gen)} {жалеть=V,ipf,tran=praet,pl,indic},
+{а=CONJ=} {с=PR=} {капля=S,f,inan=ins,sg} {жалость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+{идти=V,ipf,intr=inpraes,sg,indic,1p}, {как=CONJ=} {с=PR=} {солнце=S,n,inan=ins,sg} {в=PR=} {тело=S,n,inan=abl,sg}.
+{вот=PART=} {отчего=ADVPRO=} {вокруг=PR=} {заря=S,f,inan=nom,sg}.
+{идти=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {чудо=S,n,inan=(acc,pl|nom,pl)} {творить=V,ipf,tran=inpraes,ger},
+{вот=PART=} {отчего=ADVPRO=}!

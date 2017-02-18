@@ -1,90 +1,15 @@
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=nom,sg,f
-_\u2014_
-бред=S,sg,m,inan=(acc|nom)
-_
-о=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-,_\n
-день=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-равнодушный=A=(acc,sg,plen,n|nom,sg,plen,n)
-:_
-пусть=PART=
-!_\n
-я=SPRO,sg,1p=nom
-_
-улыбаться=V,intr=praet,sg,indic,f,pf
-_
-судьба=S,f,inan=(abl,sg|dat,sg)
-,_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-посылать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)
-_
-грусть=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-тяжкий=A=sg,brev,m
-_
-вчерашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-угар=S,m,inan=(acc,sg|nom,sg)
-,_\n
-скоро=ADV=
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-_
-догорать=V,intr=inpraes,sg,indic,1p,pf
-,_\n
-кажется=ADV,parenth=
-,_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-пожар=S,m,inan=(acc,sg|nom,sg)
-_\n
-не=PART=
-_
-превращаться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-заря=S,f,inan=acc,sg
-.\n\n
-долго=ADV=
-_
-ль=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-биться=V,ipf,intr=inf
-_
-в=PR=
-_
-огонь=S,m,inan=abl,sg
-_\n
-дальний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-тайно=ADV=
-_
-клясть=V,ipf,tran=inpraes,ger
-?.._\n
-в=PR=
-_
-страшный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-западня=S,f,inan=(abl,sg|dat,sg)
-_\n
-ты=SPRO,sg,2p=nom
-_
-не=PART=
-_
-увидеть=V,pf,tran=inpraes,sg,indic,2p
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
+{ночь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f} — {бред=S,sg,m,inan=(acc|nom)} {о=PR=} {ты=SPRO,sg,2p=(abl|dat)}, 
+{день=S,m,inan=(acc,sg|nom,sg)} — {равнодушный=A=(acc,sg,plen,n|nom,sg,plen,n)}: {пусть=PART=}! 
+{я=SPRO,sg,1p=nom} {улыбаться=V,intr=praet,sg,indic,f,pf} {судьба=S,f,inan=(abl,sg|dat,sg)}, 
+{я=SPRO,sg,1p=(abl|dat)} {посылать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)} {грусть=S,f,inan=(acc,sg|nom,sg)}.
+
+{тяжкий=A=sg,brev,m} {вчерашний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {угар=S,m,inan=(acc,sg|nom,sg)}, 
+{скоро=ADV=} {ли=PART=} {я=SPRO,sg,1p=nom} {догорать=V,intr=inpraes,sg,indic,1p,pf}, 
+{кажется=ADV,parenth=}, {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {пожар=S,m,inan=(acc,sg|nom,sg)} 
+{не=PART=} {превращаться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {заря=S,f,inan=acc,sg}.
+
+{долго=ADV=} {ль=PART=} {я=SPRO,sg,1p=(abl|dat)} {биться=V,ipf,intr=inf} {в=PR=} {огонь=S,m,inan=abl,sg} 
+{дальний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {тайно=ADV=} {клясть=V,ipf,tran=inpraes,ger}?.. 
+{в=PR=} {страшный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {западня=S,f,inan=(abl,sg|dat,sg)} 
+{ты=SPRO,sg,2p=nom} {не=PART=} {увидеть=V,pf,tran=inpraes,sg,indic,2p} {я=SPRO,sg,1p=(acc|gen)}.
+

@@ -1,52 +1,6 @@
-кто=SPRO,sg,m,anim=nom
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-_
-слава=S,f,inan=nom,sg
-!\n
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-цена=S,f,inan=ins,sg
-_
-купить=V,pf,tran=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-право=S,n,inan=(acc,sg|nom,sg)
-,\n
-возможность=S,f,inan=(acc,sg|nom,sg)
-_
-или=CONJ=
-_
-благодать=S,f,inan=(acc,sg|nom,sg)
-\n
-над=PR=
-_
-все=SPRO,pl=dat
-_
-так=ADVPRO=
-_
-мудро=ADV=
-_
-и=CONJ=
-_
-лукаво=ADV=
-\n
-шутить=V,ipf,intr=inf
-,_
-таинственно=ADV=
-_
-молчать=V,ipf,intr=inf
-\n
-и=CONJ=
-_
-нога=S,f,inan=acc,sg
-_
-ножка=S,f,inan=ins,sg
-_
-называть=V,tran=inf,ipf
-?\n
+{кто=SPRO,sg,m,anim=nom} {знать=V,ipf,tran=inpraes,sg,indic,3p}, {что=CONJ=} {такой=APRO=(acc,sg,n|nom,sg,n)} {слава=S,f,inan=nom,sg}!
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {цена=S,f,inan=ins,sg} {купить=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {право=S,n,inan=(acc,sg|nom,sg)},
+{возможность=S,f,inan=(acc,sg|nom,sg)} {или=CONJ=} {благодать=S,f,inan=(acc,sg|nom,sg)}
+{над=PR=} {все=SPRO,pl=dat} {так=ADVPRO=} {мудро=ADV=} {и=CONJ=} {лукаво=ADV=}
+{шутить=V,ipf,intr=inf}, {таинственно=ADV=} {молчать=V,ipf,intr=inf}
+{и=CONJ=} {нога=S,f,inan=acc,sg} {ножка=S,f,inan=ins,sg} {называть=V,tran=inf,ipf}?

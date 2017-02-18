@@ -1,110 +1,14 @@
-мы=SPRO,pl,1p=nom
-_
-вчера=ADV=
-_
-говорить=V,ipf,tran=praet,pl,indic
-,_
-говорить=V,ipf,tran=praet,pl,indic
-..._\n
-прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-ясный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-вырастать=V,intr=praet,pl,indic,ipf
-,_\n
-тонкий=A=(acc,pl,plen,inan|nom,pl,plen)
-,_
-стройный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-трава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-всходить=V,intr=praet,pl,indic,ipf
-,_\n
-вырастать=V,intr=praet,pl,indic,ipf
-,_
-всходить=V,intr=praet,pl,indic,ipf
-_\u2014_
-и=CONJ=
-_
-вянуть=V,ipf,intr=praet,pl,indic
-...\n\n
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стебель=S,m,inan=(acc,pl|nom,pl)
-_
-поникать=V,intr=praet,pl,indic,pf
-,_
-повисать=V,intr=praet,pl,indic,pf
-,_\n
-и=CONJ=
-_
-не=PART=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-ничего=ADV=
-,_
-что=CONJ=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-...\n
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-связывать=V=praet,pl,indic,pf
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_\n
-а=CONJ=
-_
-страшный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-имя=S,n,inan=(acc,sg|nom,sg)
-_
-разделять=V,tran=praet,sg,indic,n,pf
-.\n\n
-мы=SPRO,pl,1p=nom
-_
-расходиться=V,intr=praet,pl,indic,pf
-_
-забвенный?=A=sg,brev,n
-_
-и=CONJ=
-_
-косно=ADV=
-,\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-праведно=ADV=
-_
-иль=CONJ=
-_
-греховно=ADV=
-..._\n
-ужели=PART=
-_
-навек=ADV=
-_
-все=ADV=
-_
-меж=PR=
-_
-мы=SPRO,pl,1p=ins
-_
-безросно?=ADV=
-,_\n
-и=CONJ=
-_
-безросно?=ADV=
-,_
-и=CONJ=
-_
-безлюбовно?=ADV=
-?\n
+{мы=SPRO,pl,1p=nom} {вчера=ADV=} {говорить=V,ipf,tran=praet,pl,indic}, {говорить=V,ipf,tran=praet,pl,indic}... 
+{прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)}, {ясный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)} {вырастать=V,intr=praet,pl,indic,ipf}, 
+{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)}, {стройный=A=(acc,pl,plen,inan|nom,pl,plen)} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {всходить=V,intr=praet,pl,indic,ipf}, 
+{вырастать=V,intr=praet,pl,indic,ipf}, {всходить=V,intr=praet,pl,indic,ipf} — {и=CONJ=} {вянуть=V,ipf,intr=praet,pl,indic}...
+
+{сухой=A=(acc,pl,plen,inan|nom,pl,plen)} {стебель=S,m,inan=(acc,pl|nom,pl)} {поникать=V,intr=praet,pl,indic,pf}, {повисать=V,intr=praet,pl,indic,pf}, 
+{и=CONJ=} {не=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {ничего=ADV=}, {что=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf}...
+{мы=SPRO,pl,1p=(abl|acc|gen)} {связывать=V=praet,pl,indic,pf} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+{а=CONJ=} {страшный=A=(acc,sg,plen,n|nom,sg,plen,n)} {имя=S,n,inan=(acc,sg|nom,sg)} {разделять=V,tran=praet,sg,indic,n,pf}.
+
+{мы=SPRO,pl,1p=nom} {расходиться=V,intr=praet,pl,indic,pf} {забвенный?=A=sg,brev,n} {и=CONJ=} {косно=ADV=},
+{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p} — {праведно=ADV=} {иль=CONJ=} {греховно=ADV=}... 
+{ужели=PART=} {навек=ADV=} {все=ADV=} {меж=PR=} {мы=SPRO,pl,1p=ins} {безросно?=ADV=}, 
+{и=CONJ=} {безросно?=ADV=}, {и=CONJ=} {безлюбовно?=ADV=}?

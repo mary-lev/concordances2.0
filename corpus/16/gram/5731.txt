@@ -1,144 +1,19 @@
-вы=SPRO,pl,2p=nom
-_
-не=PART=
-_
-бывать=V,ipf,intr=praet,pl,indic
-_
-в=PR=
-_
-чайный=A,plen=(abl,sg,m|abl,sg,n)
-_
-домик=S,m,inan=abl,sg
-\n
-напротив=ADV,parenth=
-_
-вилла=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-адвокат=S,m,anim=(acc,sg|gen,sg)
-?\n
-и=CONJ=
-_
-на=PR=
-_
-бамбуковый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ли=PART=
-_
-столик=S,m,inan=abl,sg
-\n
-поить=V,ipf,tran=praet,sg,indic,f
-_
-чай=S,m,inan=ins,sg
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-кин=S,m,inan=(acc,sg|nom,sg)
--
-като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-?\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-вы=SPRO,pl,2p=dat
-_
-она=SPRO,sg,3p,f=nom
-_
-читать=V,ipf,tran=praet,sg,indic,f
-_
-в=PR=
-_
-томик=S,m,inan=abl,sg
-\n
-цветок=S,m,inan=gen,pl
-_
-восточный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-закат=S,m,inan=gen,sg
-?\n
-глаз=S,m,inan=ins,pl
-,_
-резвый=A=ins,pl,plen
-_
-как=CONJ=
-_
-кролик=S,m,anim=nom,pl
-,\n
-на=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-смотреть=V,ipf,tran=praet,sg,indic,f
-_
-ли=PART=
-_
-кин=S,m,inan=(acc,sg|nom,sg)
--
-като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-?\n\n
-в=PR=
-_
-благоухание=S,n,inan=abl,sg
-_
-карилопсис?=S,m,inan=gen,sg
-\n
-вы=SPRO,pl,2p=nom
-_
-с=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-сидеть=V,ipf,intr=praet,pl,indic
-_
-ли=PART=
-_
-покато=ADV=
-,\n
-следить=V,ipf,intr=inpraes,ger
-,_
-как=CONJ=
-_
-от=PR=
-_
-желание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-лопаться=V,ipf,intr=praet,sg,indic,m
-\n
-костюм=S,m,inan=(acc,sg|nom,sg)
-_
-вуалевый?=S,m,anim=nom,sg
-_
-кин=S,m,inan=(acc,sg|nom,sg)
--
-като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-?\n\n
-сказать=V,pf,tran=pl,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-,_
-какой=APRO=ins,pl
-_
-тема=S,f,inan=ins,pl
-\n
-вы=SPRO,pl,2p=nom
-_
-увлекать=V=praet,pl,indic,pf
-_
-жена=S,f,anim=acc,sg
-_
-фрегат=S,m,inan=gen,sg
-?\n
-о=INTJ=
-,_
-вероятно=ADV,parenth=
-,_
-кризантэм?=S,persn,m,anim=ins,pl
-\n
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-торс=S,m,inan=(acc,sg|nom,sg)
-_
-украшать=V=praet,sg,indic,f,pf
-_
-кин=S,m,inan=(acc,sg|nom,sg)
--
-като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!..\n
+{вы=SPRO,pl,2p=nom} {не=PART=} {бывать=V,ipf,intr=praet,pl,indic} {в=PR=} {чайный=A,plen=(abl,sg,m|abl,sg,n)} {домик=S,m,inan=abl,sg}
+{напротив=ADV,parenth=} {вилла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {адвокат=S,m,anim=(acc,sg|gen,sg)}?
+{и=CONJ=} {на=PR=} {бамбуковый=A=(abl,sg,plen,m|abl,sg,plen,n)} {ли=PART=} {столик=S,m,inan=abl,sg}
+{поить=V,ipf,tran=praet,sg,indic,f} {чай=S,m,inan=ins,sg} {вы=SPRO,pl,2p=(abl|acc|gen)} {кин=S,m,inan=(acc,sg|nom,sg)}-{като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}?
+
+{что=SPRO,sg,n,inan=(acc|nom)} {вы=SPRO,pl,2p=dat} {она=SPRO,sg,3p,f=nom} {читать=V,ipf,tran=praet,sg,indic,f} {в=PR=} {томик=S,m,inan=abl,sg}
+{цветок=S,m,inan=gen,pl} {восточный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {закат=S,m,inan=gen,sg}?
+{глаз=S,m,inan=ins,pl}, {резвый=A=ins,pl,plen} {как=CONJ=} {кролик=S,m,anim=nom,pl},
+{на=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {смотреть=V,ipf,tran=praet,sg,indic,f} {ли=PART=} {кин=S,m,inan=(acc,sg|nom,sg)}-{като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}?
+
+{в=PR=} {благоухание=S,n,inan=abl,sg} {карилопсис?=S,m,inan=gen,sg}
+{вы=SPRO,pl,2p=nom} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {сидеть=V,ipf,intr=praet,pl,indic} {ли=PART=} {покато=ADV=},
+{следить=V,ipf,intr=inpraes,ger}, {как=CONJ=} {от=PR=} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лопаться=V,ipf,intr=praet,sg,indic,m}
+{костюм=S,m,inan=(acc,sg|nom,sg)} {вуалевый?=S,m,anim=nom,sg} {кин=S,m,inan=(acc,sg|nom,sg)}-{като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}?
+
+{сказать=V,pf,tran=pl,imper,2p} {я=SPRO,sg,1p=(abl|dat)}, {какой=APRO=ins,pl} {тема=S,f,inan=ins,pl}
+{вы=SPRO,pl,2p=nom} {увлекать=V=praet,pl,indic,pf} {жена=S,f,anim=acc,sg} {фрегат=S,m,inan=gen,sg}?
+{о=INTJ=}, {вероятно=ADV,parenth=}, {кризантэм?=S,persn,m,anim=ins,pl}
+{ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {торс=S,m,inan=(acc,sg|nom,sg)} {украшать=V=praet,sg,indic,f,pf} {кин=S,m,inan=(acc,sg|nom,sg)}-{като=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!..

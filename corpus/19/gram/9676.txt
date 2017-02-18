@@ -1,156 +1,24 @@
-мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-видеть=V,ipf,tran=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-напрасный=A=pl,brev
-\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-стремление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-к=PR=
-_
-бесконечный=A=(dat,sg,plen,m|dat,sg,plen,n)
-,\n
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тайный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-бесстрастный=A=pl,brev
-,\n
-на=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-нет=PART=
-_
-место=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-вечный=A=(dat,sg,plen,m|dat,sg,plen,n)
-.\n\n
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-_\u2014_
-лишь=PART=
-_
-форма=S,f,inan=nom,sg
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_\u2014_
-недолгий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-движение=S,n,inan=(acc,sg|nom,sg)
-.\n
-нет=PART=
-_
-от=PR=
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-дух=S,m,inan=dat,sg
-_
-гордый=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-спасение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-_
-предстоящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-покой=S,m,inan=(acc,sg|nom,sg)
-_
-или=CONJ=
-_
-ничтожество=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)
-.\n
-в=PR=
-_
-немой=A=sg,brev,m
-_
-весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-настоящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)
-\n
-прекращаться=V,intr=inpraes,sg,indic,3p,pf
-_
-в=PR=
-_
-мир=S,m,inan=abl,sg
-_
-множество=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-но=CONJ=
-_
-из=PR=
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-же=PART=
-_
-могила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-после=PR=
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-тление=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вновь=ADV=
-_
-возникать=V,intr=inpraes,pl,indic,3p,pf
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-сила=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-возрождаться=V,intr=inpraes,sg,indic,3p,pf
-_
-вновь=ADV=
-_
-движение=S,n,inan=(acc,sg|nom,sg)
-.\n\n
-без=PR=
-_
-начало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-без=PR=
-_
-цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-происходить=V,intr=inpraes,sg,indic,3p,ipf
-_
-бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-и=CONJ=
-_
-напрасно=ADV=
-_
-б=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-хотеть=V,ipf,tran=praet,pl,indic
-\n
-бренный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-дух=S,m,inan=ins,sg
-_
-вызнавать=V,tran=inf,pf
-_
-вечный=A=(acc,sg,plen,n|nom,sg,plen,n)
-.\n
+{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {видеть=V,ipf,tran=inpraes,sg,indic,3p}, {что=CONJ=} {напрасный=A=pl,brev}
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {стремление=S,n,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {бесконечный=A=(dat,sg,plen,m|dat,sg,plen,n)},
+{сила=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тайный=A=(acc,pl,plen,inan|nom,pl,plen)} {бесстрастный=A=pl,brev},
+{на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {нет=PART=} {место=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вечный=A=(dat,sg,plen,m|dat,sg,plen,n)}.
+
+{человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} — {лишь=PART=} {форма=S,f,inan=nom,sg} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} — {недолгий=A=(acc,sg,plen,n|nom,sg,plen,n)} {движение=S,n,inan=(acc,sg|nom,sg)}.
+{нет=PART=} {от=PR=} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{дух=S,m,inan=dat,sg} {гордый=A=(dat,sg,plen,m|dat,sg,plen,n)} {спасение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {холод=S,m,inan=(acc,sg|nom,sg)} {предстоящий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {покой=S,m,inan=(acc,sg|nom,sg)} {или=CONJ=} {ничтожество=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)}.
+{в=PR=} {немой=A=sg,brev,m} {весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {настоящий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+{прекращаться=V,intr=inpraes,sg,indic,3p,pf} {в=PR=} {мир=S,m,inan=abl,sg} {множество=S,n,inan=(acc,sg|nom,sg)}.
+
+{но=CONJ=} {из=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{после=PR=} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {тление=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{вновь=ADV=} {возникать=V,intr=inpraes,pl,indic,3p,pf} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сила=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{возрождаться=V,intr=inpraes,sg,indic,3p,pf} {вновь=ADV=} {движение=S,n,inan=(acc,sg|nom,sg)}.
+
+{без=PR=} {начало=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {без=PR=} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{происходить=V,intr=inpraes,sg,indic,3p,ipf} {бесконечный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{и=CONJ=} {напрасно=ADV=} {б=PART=} {мы=SPRO,pl,1p=nom} {хотеть=V,ipf,tran=praet,pl,indic}
+{бренный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дух=S,m,inan=ins,sg} {вызнавать=V,tran=inf,pf} {вечный=A=(acc,sg,plen,n|nom,sg,plen,n)}.

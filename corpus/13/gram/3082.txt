@@ -1,152 +1,20 @@
-кто=SPRO,sg,m,anim=ins
-_
-воспевать=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-лето=S,sg,n,inan=gen
-:_\n
-роща=S,f,inan=nom,sg
-,_
-радуга=S,f,inan=nom,sg
-,_
-ракета=S,f,inan=nom,sg
-,\n
-на=PR=
-_
-лужайка=S,f,inan=(abl,sg|dat,sg)
-_
-смех=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-крик=S,m,inan=(acc,sg|nom,sg)
-?\n
-в=PR=
-_
-пестрота=S,f,inan=(abl,sg|dat,sg)
-_
-огонь=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-свет=S,sg,m,inan=gen
-_\n
-под=PR=
-_
-мотив=S,m,inan=(acc,pl|nom,pl)
-_
-менуэт=S,m,inan=gen,sg
-_\n
-стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-фавн=S,m,anim=nom,sg
-_
-глава=S,f,inan=ins,sg
-_
-поникать=V,intr=praet,sg,indic,m,pf
-.\n\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-белеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-у=PR=
-_
-фонтан=S,m,inan=gen,sg
-_\n
-в=PR=
-_
-серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-нежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-туман=S,m,inan=gen,sg
-?\n
-чей=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-там=PART=
-_
-шепот=S,m,inan=(acc,sg|nom,sg)
-,_
-чей=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-там=PART=
-_
-вздох=S,m,inan=(acc,sg|nom,sg)
-?_\n
-сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-рана=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лишь=PART=
-_
-обман=S,m,inan=(acc,pl|nom,pl)
-,_\n
-лишь=PART=
-_
-на=PR=
-_
-вечер=S,m,inan=(acc,sg|nom,sg)
-_
-тот=APRO=(nom,pl|acc,pl,inan)
-_
-тюрбан=S,m,inan=(acc,pl|nom,pl)
-_\u2014_\n
-и=CONJ=
-_
-искусственный=A=sg,brev,m
-_
-в=PR=
-_
-грот=S,m,inan=abl,sg
-_
-мох=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-запах=S,m,inan=(acc,sg|nom,sg)
-_
-грядка=S,f,inan=gen,pl
-_
-пряный=A=sg,brev,m
-_
-и=CONJ=
-_
-сладкий=A=sg,brev,m
-,_\n
-арлекин=S,m,anim=nom,sg
-_
-на=PR=
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-падкий=A=sg,brev,m
-,_\n
-коломбина=S,f,anim=nom,sg
-_
-не=PART=
-_
-строгий=A=sg,brev,f
-.\n
-пусть=PART=
-_
-минутный=A=pl,brev
-_
-краска=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-радуга=S,f,inan=gen,pl
-,_\n
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-хрупкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-загадка=S,f,inan=gen,pl
-,_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-_
-твой=APRO=nom,sg,f
-_
-дуга=S,f,inan=nom,sg
-!\n
+{кто=SPRO,sg,m,anim=ins} {воспевать=V,tran=praet,sg,partcp,brev,f,pf,pass} {радость=S,f,inan=(acc,sg|nom,sg)} {лето=S,sg,n,inan=gen}: 
+{роща=S,f,inan=nom,sg}, {радуга=S,f,inan=nom,sg}, {ракета=S,f,inan=nom,sg},
+{на=PR=} {лужайка=S,f,inan=(abl,sg|dat,sg)} {смех=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {крик=S,m,inan=(acc,sg|nom,sg)}?
+{в=PR=} {пестрота=S,f,inan=(abl,sg|dat,sg)} {огонь=S,m,inan=gen,pl} {и=CONJ=} {свет=S,sg,m,inan=gen} 
+{под=PR=} {мотив=S,m,inan=(acc,pl|nom,pl)} {менуэт=S,m,inan=gen,sg} 
+{стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {фавн=S,m,anim=nom,sg} {глава=S,f,inan=ins,sg} {поникать=V,intr=praet,sg,indic,m,pf}.
+
+{что=SPRO,sg,n,inan=(acc|nom)} {белеть=V,ipf,intr=inpraes,sg,indic,3p} {у=PR=} {фонтан=S,m,inan=gen,sg} 
+{в=PR=} {серый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {нежность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {туман=S,m,inan=gen,sg}?
+{чей=APRO=(acc,sg,m,inan|nom,sg,m)} {там=PART=} {шепот=S,m,inan=(acc,sg|nom,sg)}, {чей=APRO=(acc,sg,m,inan|nom,sg,m)} {там=PART=} {вздох=S,m,inan=(acc,sg|nom,sg)}? 
+{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {рана=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лишь=PART=} {обман=S,m,inan=(acc,pl|nom,pl)}, 
+{лишь=PART=} {на=PR=} {вечер=S,m,inan=(acc,sg|nom,sg)} {тот=APRO=(nom,pl|acc,pl,inan)} {тюрбан=S,m,inan=(acc,pl|nom,pl)} — 
+{и=CONJ=} {искусственный=A=sg,brev,m} {в=PR=} {грот=S,m,inan=abl,sg} {мох=S,m,inan=(acc,sg|nom,sg)}.
+
+{запах=S,m,inan=(acc,sg|nom,sg)} {грядка=S,f,inan=gen,pl} {пряный=A=sg,brev,m} {и=CONJ=} {сладкий=A=sg,brev,m}, 
+{арлекин=S,m,anim=nom,sg} {на=PR=} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {падкий=A=sg,brev,m}, 
+{коломбина=S,f,anim=nom,sg} {не=PART=} {строгий=A=sg,brev,f}.
+{пусть=PART=} {минутный=A=pl,brev} {краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {радуга=S,f,inan=gen,pl}, 
+{милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {хрупкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {загадка=S,f,inan=gen,pl}, 
+{я=SPRO,sg,1p=(abl|dat)} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {твой=APRO=nom,sg,f} {дуга=S,f,inan=nom,sg}!

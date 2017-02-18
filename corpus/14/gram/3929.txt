@@ -1,126 +1,18 @@
-быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)
-_
-вместе=ADV=
-,_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-вместе=ADV=
-,\n
-знать=V,ipf,tran=inpraes,pl,indic,3p
-_
-все=SPRO,pl=(acc|nom)
-,_
-что=CONJ=
-_
-мы=SPRO,pl,1p=nom
-_
-родной=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-а=CONJ=
-_
-лукавый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-насмешка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-как=CONJ=
-_
-бубенчик=S,m,inan=(acc,sg|nom,sg)
-_
-отдаленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-обижать=V=inf,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-и=CONJ=
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,3p
-_
-огорчать=V,tran=inf,pf
-.\n\n
-где=ADVPRO=
-_
-венчаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)
-_
-мы=SPRO,pl,1p=nom
-_\u2014_
-не=PART=
-_
-помнить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)
-,\n
-но=CONJ=
-_
-сверкать=V,ipf,intr=praet,sg,indic,f
-_
-этот=APRO=nom,sg,f
-_
-церковь=S,f,inan=(acc,sg|nom,sg)
-\n
-тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-неистовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сияние=S,n,inan=ins,sg
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-лишь=PART=
-_
-ангел=S,m,anim=nom,pl
-_
-уметь=V,ipf,intr=inpraes,pl,indic,3p
-\n
-в=PR=
-_
-белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-крыло=S,n,inan=abl,pl
-_
-приносить=V=inf,ipf,tran
-.\n\n
-а=CONJ=
-_
-теперь=ADV=
-_
-пора=ADV,praed=
-_
-такой=APRO=nom,sg,f
-,\n
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-город=S,m,inan=(acc,sg|nom,sg)
-.\n
-как=ADVPRO=
-_
-же=PART=
-_
-можно=ADV,praed=
-_
-разлучаться=V,intr=inf,pf
-\n
-я=SPRO,sg,1p=(abl|dat)
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-,_
-ты=SPRO,sg,2p=(abl|dat)
-_
-со=PR=
-_
-я=SPRO,sg,1p=ins
-?\n\n
+{быть=V,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {вместе=ADV=}, {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {вместе=ADV=},
+{знать=V,ipf,tran=inpraes,pl,indic,3p} {все=SPRO,pl=(acc|nom)}, {что=CONJ=} {мы=SPRO,pl,1p=nom} {родной=A=(acc,pl,plen,inan|nom,pl,plen)},
+{а=CONJ=} {лукавый=A=(acc,pl,plen,inan|nom,pl,plen)} {насмешка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{как=CONJ=} {бубенчик=S,m,inan=(acc,sg|nom,sg)} {отдаленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {обижать=V=inf,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} {не=PART=} {мочь=V,ipf,intr=inpraes,pl,indic,3p},
+{и=CONJ=} {не=PART=} {мочь=V,ipf,intr=inpraes,pl,indic,3p} {огорчать=V,tran=inf,pf}.
+
+{где=ADVPRO=} {венчаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)} {мы=SPRO,pl,1p=nom} — {не=PART=} {помнить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+{но=CONJ=} {сверкать=V,ipf,intr=praet,sg,indic,f} {этот=APRO=nom,sg,f} {церковь=S,f,inan=(acc,sg|nom,sg)}
+{тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {неистовый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сияние=S,n,inan=ins,sg},
+{что=SPRO,sg,n,inan=(acc|nom)} {лишь=PART=} {ангел=S,m,anim=nom,pl} {уметь=V,ipf,intr=inpraes,pl,indic,3p}
+{в=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крыло=S,n,inan=abl,pl} {приносить=V=inf,ipf,tran}.
+
+{а=CONJ=} {теперь=ADV=} {пора=ADV,praed=} {такой=APRO=nom,sg,f},
+{страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {страшный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {город=S,m,inan=(acc,sg|nom,sg)}.
+{как=ADVPRO=} {же=PART=} {можно=ADV,praed=} {разлучаться=V,intr=inf,pf}
+{я=SPRO,sg,1p=(abl|dat)} {с=PR=} {ты=SPRO,sg,2p=ins}, {ты=SPRO,sg,2p=(abl|dat)} {со=PR=} {я=SPRO,sg,1p=ins}?
+

@@ -1,92 +1,26 @@
-струя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-лунный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-среброструнный?=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-поэтичный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-грустно=ADV=
--
-нежный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\u2014\n
-словно=CONJ=
-_
-сказка=S,f,inan=nom,sg
-,_
-вы=SPRO,pl,2p=nom
-\n
-литься=V,ipf,intr=inpraes,pl,indic,2p
-,_
-ласковый=A=pl,brev
-,\n
-мелодичный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-безмятежный=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n\n
-бледно=ADV=
--
-палевый=A=pl,brev
-\n
-вдруг=ADV=
-_
-упасть=V,pf,intr=praet,pl,indic
-_
-вы=SPRO,pl,2p=nom
-\n
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-;\n
-литься=V,ipf,intr=inpraes,pl,indic,2p
-_
-струя=S,f,inan=ins,pl
-\n
-со=PR=
-_
-святыня=S,f,inan=gen,pl
-_
-он=SPRO,sg,3p,m=(acc|gen)
-\n
-поцелуй=S,m,inan=ins,pl
-,\n
-скорбь=S,f,inan=(acc,sg|nom,sg)
-_
-сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-свет=S,sg,m,inan=(acc|nom)
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-литься=V,ipf,intr=pl,imper,2p
-,_
-вечный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-бесприютный=A=(acc,pl,plen,inan|nom,pl,plen)
-_\u2014\n
-как=CONJ=
-_
-сердечный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-жаркий=A=(acc,pl,plen,inan|nom,pl,plen)
-!..\n
-вы=SPRO,pl,2p=nom
-,_
-бескровный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-литься=V,ipf,intr=pl,imper,2p
-,_
-ровный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\u2014\n
-счастие=S,n,inan=ins,sg
-_
-мутный=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-горе=S,sg,n,inan=ins
-_
-яркий=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
+{струя=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лунный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{среброструнный?=A=(acc,pl,plen,inan|nom,pl,plen)},
+{поэтичный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{грустно=ADV=}-{нежный=A=(acc,pl,plen,inan|nom,pl,plen)},—
+{словно=CONJ=} {сказка=S,f,inan=nom,sg}, {вы=SPRO,pl,2p=nom}
+{литься=V,ipf,intr=inpraes,pl,indic,2p}, {ласковый=A=pl,brev},
+{мелодичный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{безмятежный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+
+{бледно=ADV=}-{палевый=A=pl,brev}
+{вдруг=ADV=} {упасть=V,pf,intr=praet,pl,indic} {вы=SPRO,pl,2p=nom}
+{с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)};
+{литься=V,ipf,intr=inpraes,pl,indic,2p} {струя=S,f,inan=ins,pl}
+{со=PR=} {святыня=S,f,inan=gen,pl} {он=SPRO,sg,3p,m=(acc|gen)}
+{поцелуй=S,m,inan=ins,pl},
+{скорбь=S,f,inan=(acc,sg|nom,sg)} {сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+{свет=S,sg,m,inan=(acc|nom)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{литься=V,ipf,intr=pl,imper,2p}, {вечный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{бесприютный=A=(acc,pl,plen,inan|nom,pl,plen)} —
+{как=CONJ=} {сердечный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жаркий=A=(acc,pl,plen,inan|nom,pl,plen)}!..
+{вы=SPRO,pl,2p=nom}, {бескровный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{литься=V,ipf,intr=pl,imper,2p}, {ровный=A=(acc,pl,plen,inan|nom,pl,plen)},—
+{счастие=S,n,inan=ins,sg} {мутный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{горе=S,sg,n,inan=ins} {яркий=A=(acc,pl,plen,inan|nom,pl,plen)}.

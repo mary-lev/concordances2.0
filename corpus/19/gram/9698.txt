@@ -1,64 +1,14 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мой=APRO=nom,sg,f
-_
-судьбина=S,f,inan=nom,sg
-,\n
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-иль=CONJ=
-_
-беда=S,f,inan=nom,sg
-?\n
-двигаться=V,ipf,intr=inpraes,sg,indic,3p
-_
-машина=S,f,inan=nom,sg
-\n
-общий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-труд=S,m,inan=gen,sg
-.\n\n
-винтик=S,m,inan=(acc,sg|nom,sg)
-_
-очень=ADV=
-_
-малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\u2014\n
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-машина=S,f,inan=(abl,sg|dat,sg)
-_
-тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-.\n
-к=PR=
-_
-вечер=S,m,inan=dat,sg
-_
-усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-я=SPRO,sg,1p=nom
-_
-сидеть=V,ipf,intr=inpraes,sg,indic,1p
-_
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-скучный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-тетрадка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-надо=ADV,praed=
-_
-поправлять=V,tran=inf,ipf
-,\n
-на=PR=
-_
-судьба=S,f,inan=acc,sg
-_
-оглядка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-надо=ADV,praed=
-_
-забывать=V=inf,ipf,tran
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {мой=APRO=nom,sg,f} {судьбина=S,f,inan=nom,sg},
+{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {иль=CONJ=} {беда=S,f,inan=nom,sg}?
+{двигаться=V,ipf,intr=inpraes,sg,indic,3p} {машина=S,f,inan=nom,sg}
+{общий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {труд=S,m,inan=gen,sg}.
+
+{винтик=S,m,inan=(acc,sg|nom,sg)} {очень=ADV=} {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
+{я=SPRO,sg,1p=nom} {в=PR=} {машина=S,f,inan=(abl,sg|dat,sg)} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+{к=PR=} {вечер=S,m,inan=dat,sg} {усталый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{я=SPRO,sg,1p=nom} {сидеть=V,ipf,intr=inpraes,sg,indic,1p} {босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{скучный=A=(acc,pl,plen,inan|nom,pl,plen)} {тетрадка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{надо=ADV,praed=} {поправлять=V,tran=inf,ipf},
+{на=PR=} {судьба=S,f,inan=acc,sg} {оглядка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{надо=ADV,praed=} {забывать=V=inf,ipf,tran}.

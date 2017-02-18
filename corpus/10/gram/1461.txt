@@ -1,90 +1,21 @@
-петух=S,m,anim=nom,sg
-_
-однажды=ADV=
-,\n
-дог=S,m,anim=nom,sg
-\n
-и=CONJ=
-_
-вор=S,m,anim=nom,sg
-\n
-такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-скреплять=V,tran=praet,pl,indic,pf
-_
-договор=S,m,inan=(acc,sg|nom,sg)
-:\n
-дог=S,m,anim=nom,sg
-\n
-собирать=V=inpraes,sg,indic,3p,pf
-_
-из=PR=
-_
-дог=S,m,anim=(acc,pl|gen,pl)
-_
-свора=S,f,inan=acc,sg
-,\n
-накрадывать=V=inf,pf
-_
-предоставляться=V,ipf,intr=praet,sg,indic,n
-_
-вор=S,m,anim=dat,sg
-,\n
-а=CONJ=
-_
-петух=S,m,anim=dat,sg
-\n
-про=PR=
-_
-гром=S,m,inan=(acc,sg|nom,sg)
-_
-победа=S,f,inan=gen,pl
-\n
-орать=V,ipf,tran=inf
-,\n
-и=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-все=SPRO,pl=dat
-_
-обед=S,m,inan=(acc,sg|nom,sg)
-.\n
-но=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-все=SPRO,pl=(acc|nom)
-_
-раскрываться=V,intr=praet,sg,indic,n,pf
-_
-скоро=ADV=
-.\n
-прогнать=V,pf,tran=praet,pl,indic
-\n
-с=PR=
-_
-трон=S,m,inan=gen,sg
-\n
-в=PR=
-_
-шея=S,f,inan=acc,sg
-\n
-вор=S,m,anim=(acc,sg|gen,sg)
-.\n\n
-навертываться=V,intr=inpraes,sg,indic,3p,ipf
-_
-мораль=S,f,inan=(acc,sg|nom,sg)
-:\n
-туда=ADVPRO=
-_
-же=PART=
-\n
-дог=S,m,anim=dat,sg
-\n
-не=PART=
-_
-пора=ADV,praed=
-_
-ль=PART=
-?\n
+{петух=S,m,anim=nom,sg} {однажды=ADV=},
+{дог=S,m,anim=nom,sg}
+{и=CONJ=} {вор=S,m,anim=nom,sg}
+{такой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {скреплять=V,tran=praet,pl,indic,pf} {договор=S,m,inan=(acc,sg|nom,sg)}:
+{дог=S,m,anim=nom,sg}
+{собирать=V=inpraes,sg,indic,3p,pf} {из=PR=} {дог=S,m,anim=(acc,pl|gen,pl)} {свора=S,f,inan=acc,sg},
+{накрадывать=V=inf,pf} {предоставляться=V,ipf,intr=praet,sg,indic,n} {вор=S,m,anim=dat,sg},
+{а=CONJ=} {петух=S,m,anim=dat,sg}
+{про=PR=} {гром=S,m,inan=(acc,sg|nom,sg)} {победа=S,f,inan=gen,pl}
+{орать=V,ipf,tran=inf},
+{и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {все=SPRO,pl=dat} {обед=S,m,inan=(acc,sg|nom,sg)}.
+{но=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {все=SPRO,pl=(acc|nom)} {раскрываться=V,intr=praet,sg,indic,n,pf} {скоро=ADV=}.
+{прогнать=V,pf,tran=praet,pl,indic}
+{с=PR=} {трон=S,m,inan=gen,sg}
+{в=PR=} {шея=S,f,inan=acc,sg}
+{вор=S,m,anim=(acc,sg|gen,sg)}.
+
+{навертываться=V,intr=inpraes,sg,indic,3p,ipf} {мораль=S,f,inan=(acc,sg|nom,sg)}:
+{туда=ADVPRO=} {же=PART=}
+{дог=S,m,anim=dat,sg}
+{не=PART=} {пора=ADV,praed=} {ль=PART=}?

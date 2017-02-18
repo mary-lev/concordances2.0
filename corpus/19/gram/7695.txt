@@ -1,44 +1,8 @@
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-стонать=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-биться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-человек=S,m,anim=nom,pl
-_
-тонуть=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-человек=S,m,anim=nom,pl
-_
-рваться=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-и=CONJ=
-_
-холодный=A=nom,sg,plen,f
-,_
-суровый=A=nom,sg,plen,f
-,\n
-поглощать=V,tran=inpraes,sg,indic,3p,ipf
-_
-они=SPRO,pl=(acc|gen)
-_
-волна=S,f,inan=nom,sg
-,\n
-где=ADVPRO=
-_
-же=PART=
-_
-наш=APRO=nom,sg,f
-_
-радость=S,f,inan=(acc,sg|nom,sg)
-_
-новый=A=nom,sg,plen,f
-,\n
-где=ADVPRO=
-_
-скрываться=V,intr=inpraes,sg,indic,3p,ipf
-_
-она=SPRO,sg,3p,f=nom
-?\n
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {стонать=V,ipf,intr=inpraes,pl,indic,3p},
+{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {биться=V,ipf,intr=inpraes,pl,indic,3p},
+{человек=S,m,anim=nom,pl} {тонуть=V,ipf,intr=inpraes,pl,indic,3p},
+{человек=S,m,anim=nom,pl} {рваться=V,ipf,intr=inpraes,pl,indic,3p},
+{и=CONJ=} {холодный=A=nom,sg,plen,f}, {суровый=A=nom,sg,plen,f},
+{поглощать=V,tran=inpraes,sg,indic,3p,ipf} {они=SPRO,pl=(acc|gen)} {волна=S,f,inan=nom,sg},
+{где=ADVPRO=} {же=PART=} {наш=APRO=nom,sg,f} {радость=S,f,inan=(acc,sg|nom,sg)} {новый=A=nom,sg,plen,f},
+{где=ADVPRO=} {скрываться=V,intr=inpraes,sg,indic,3p,ipf} {она=SPRO,sg,3p,f=nom}?

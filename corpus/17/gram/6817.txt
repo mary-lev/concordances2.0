@@ -1,74 +1,9 @@
-ужели=PART=
-_
-все=SPRO,pl=(acc|nom)
-_
-мечтать=V,ipf,intr=inf
-,_
-ужели=PART=
-_
-все=SPRO,pl=(acc|nom)
-_
-надеяться=V,ipf,intr=inf
-,\n\t
-и=CONJ=
-_
-только=PART=
-_
-для=PR=
-_
-то=SPRO,sg,n,inan=gen
-,\n
-чтобы=CONJ=
-_
-закрывать=V=inf,pf
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-по=PR=
-_
-ветер=S,m,inan=(dat,sg|loc,sg)
-_
-развеиваться=V,intr=inf,pf
-,_\n\t
-не=PART=
-_
-помнить=V,ipf,tran=inpraes,ger
-_
-ничто=SPRO,sg,n=gen
-.\n\n
-и=CONJ=
-_
-некого=SPRO,sg=dat
-_
-сказать=V,pf,tran=inf
-,_
-как=CONJ=
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-называться=V,ipf,intr=inpraes,sg,indic,3p
-.\n\t
-еще=ADV=
-_
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-гроза=S,f,inan=nom,sg
-,\n
-еще=ADV=
-_
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-но=CONJ=
-_
-сам=APRO=(nom,pl|acc,pl,inan)
-_
-закрываться=V,intr=inpraes,pl,indic,3p,ipf
-_\n\t
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{ужели=PART=} {все=SPRO,pl=(acc|nom)} {мечтать=V,ipf,intr=inf}, {ужели=PART=} {все=SPRO,pl=(acc|nom)} {надеяться=V,ipf,intr=inf},
+	{и=CONJ=} {только=PART=} {для=PR=} {то=SPRO,sg,n,inan=gen},
+{чтобы=CONJ=} {закрывать=V=inf,pf} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {по=PR=} {ветер=S,m,inan=(dat,sg|loc,sg)} {развеиваться=V,intr=inf,pf}, 
+	{не=PART=} {помнить=V,ipf,tran=inpraes,ger} {ничто=SPRO,sg,n=gen}.
+
+{и=CONJ=} {некого=SPRO,sg=dat} {сказать=V,pf,tran=inf}, {как=CONJ=} {это=SPRO,sg,n,inan=(acc|nom)} {называться=V,ipf,intr=inpraes,sg,indic,3p}.
+	{еще=ADV=} {шуметь=V,ipf,intr=inpraes,sg,indic,3p} {гроза=S,f,inan=nom,sg},
+{еще=ADV=} {сиять=V,ipf,intr=inpraes,sg,indic,3p} {день=S,m,inan=(acc,sg|nom,sg)} — {но=CONJ=} {сам=APRO=(nom,pl|acc,pl,inan)} {закрываться=V,intr=inpraes,pl,indic,3p,ipf} 
+	{усталый=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}.

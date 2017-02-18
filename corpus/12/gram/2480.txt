@@ -1,110 +1,14 @@
-вы=SPRO,pl,2p=dat
-_
-одеваться=V,intr=inf,ipf
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-лень=ADV,praed=
-,\n
-и=CONJ=
-_
-быть=V,intr=praet,sg,indic,n,ipf
-_
-лень=ADV,praed=
-_
-вставать=V,intr=inf,ipf
-_
-из=PR=
-_
-кресло=S,n,inan=gen,pl
-.\n_\u2014_
-а=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-грядущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-день=S,m,inan=(acc,sg|nom,sg)
-\n
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-веселие=S,n,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-веселый=A=sg,brev,m
-.\n\n
-особенно=ADV=
-_
-смущать=V,tran=praet,sg,indic,n,ipf
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-\n
-идти=V,ipf,intr=inf
-_
-так=ADVPRO=
-_
-поздно=ADV=
-_
-в=PR=
-_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-.\n_\u2014_
-а=CONJ=
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-ваш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-грядущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-час=S,m,inan=(acc,sg|nom,sg)
-\n
-мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-веселие=S,n,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-бы=PART=
-_
-молодой=A=sg,brev,m
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-сделать=V,pf,tran=praet,pl,indic
-_
-без=PR=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-невинно=ADV=
-_
-и=CONJ=
-_
-непоправимый=A=sg,brev,n
-.\n_\u2014_
-я=SPRO,sg,1p=nom
-_
-ваш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-юность=S,f,inan=ins,sg
-_
-быть=V,intr=praet,sg,indic,f,ipf
-,\n
-который=APRO=nom,sg,f
-_
-проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)
-_
-мимо=ADV=
-.\n
+{вы=SPRO,pl,2p=dat} {одеваться=V,intr=inf,ipf} {быть=V,intr=praet,sg,indic,n,ipf} {лень=ADV,praed=},
+{и=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {лень=ADV,praed=} {вставать=V,intr=inf,ipf} {из=PR=} {кресло=S,n,inan=gen,pl}.
+ — {а=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {грядущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)}
+{мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {веселие=S,n,inan=ins,sg} {быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {веселый=A=sg,brev,m}.
+
+{особенно=ADV=} {смущать=V,tran=praet,sg,indic,n,ipf} {вы=SPRO,pl,2p=(abl|acc|gen)}
+{идти=V,ipf,intr=inf} {так=ADVPRO=} {поздно=ADV=} {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {холод=S,m,inan=(acc,sg|nom,sg)}.
+ — {а=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {ваш=APRO=(acc,sg,m,inan|nom,sg,m)} {грядущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)}
+{мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {веселие=S,n,inan=ins,sg} {быть=V,intr=praet,sg,indic,m,ipf} {бы=PART=} {молодой=A=sg,brev,m}.
+
+{вы=SPRO,pl,2p=nom} {это=SPRO,sg,n,inan=(acc|nom)} {сделать=V,pf,tran=praet,pl,indic} {без=PR=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{невинно=ADV=} {и=CONJ=} {непоправимый=A=sg,brev,n}.
+ — {я=SPRO,sg,1p=nom} {ваш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {юность=S,f,inan=ins,sg} {быть=V,intr=praet,sg,indic,f,ipf},
+{который=APRO=nom,sg,f} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {мимо=ADV=}.

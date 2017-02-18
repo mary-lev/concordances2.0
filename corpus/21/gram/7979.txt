@@ -1,58 +1,6 @@
-не=PART=
-_
-ждать=V,ipf,tran=sg,imper,2p
-,_
-не=PART=
-_
-уповать=V,ipf,intr=sg,imper,2p
-,_
-не=PART=
-_
-верить=V,ipf,intr=sg,imper,2p
-:\n
-все=SPRO,pl=(acc|nom)
-_
-то=PART=
-_
-же=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-,_
-что=CONJ=
-_
-теперь=ADV=
-.\n
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-усталый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-смежать=V,tran=sg,imper,2p,pf
-,\n
-в=PR=
-_
-стих=S,m,inan=abl,pl
-,_
-пожалуй=PART,parenth=
-,_
-ворожить=V,ipf,intr=sg,imper,2p
-,\n
-но=CONJ=
-_
-помнить=V,ipf,tran=sg,imper,2p
-,_
-что=CONJ=
-_
-прийти=V,pf,intr=inpraes,sg,indic,3p
-_
-пора=ADV,praed=
-\n
-и=CONJ=
-_
-шея=S,f,inan=acc,sg
-_
-брить=V,ipf,tran=sg,imper,2p
-_
-для=PR=
-_
-топор=S,m,inan=gen,sg
-.\n
+{не=PART=} {ждать=V,ipf,tran=sg,imper,2p}, {не=PART=} {уповать=V,ipf,intr=sg,imper,2p}, {не=PART=} {верить=V,ipf,intr=sg,imper,2p}:
+{все=SPRO,pl=(acc|nom)} {то=PART=} {же=PART=} {быть=V,intr=inpraes,sg,indic,3p}, {что=CONJ=} {теперь=ADV=}.
+{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {усталый=A=(acc,pl,plen,inan|nom,pl,plen)} {смежать=V,tran=sg,imper,2p,pf},
+{в=PR=} {стих=S,m,inan=abl,pl}, {пожалуй=PART,parenth=}, {ворожить=V,ipf,intr=sg,imper,2p},
+{но=CONJ=} {помнить=V,ipf,tran=sg,imper,2p}, {что=CONJ=} {прийти=V,pf,intr=inpraes,sg,indic,3p} {пора=ADV,praed=}
+{и=CONJ=} {шея=S,f,inan=acc,sg} {брить=V,ipf,tran=sg,imper,2p} {для=PR=} {топор=S,m,inan=gen,sg}.

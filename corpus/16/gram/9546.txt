@@ -1,130 +1,19 @@
-он=SPRO,sg,3p,m=nom
-_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-бесстранный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-король=S,m,anim=ins,sg
-:\n\xAB
-гном=S,m,anim=nom,sg
-\xBB_
-становиться=V,intr=praet,sg,indic,m,pf
-_
-большой=A=sg,brev,m
-...\n
-загрезиться?=V,ipf,intr=praet,sg,indic,m
-,_
-забываться=V,intr=praet,sg,indic,m,pf
-_
-над=PR=
-_
-руль=S,m,inan=ins,sg
-_\u2014\n
-на=PR=
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-...\n\n\xAB
-куда=ADVPRO=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,1p
-_\u2014_
-везде=ADV=
-:_
-в=PR=
-_
-дурман=S,m,inan=(acc,sg|nom,sg)
-_
-гитана=S,f,inan=gen,pl
-,\n
-иль=CONJ=
-_
-на=PR=
-_
-квантун?=S,persn,m,anim=nom,sg
-...\n
-я=SPRO,sg,1p=nom
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-!\xBB_\u2014_
-подумать=V,pf,intr=praet,sg,indic,m
-_
-капитан=S,m,anim=nom,sg
-_\u2014\n
-летун=S,m,anim=nom,sg
-.\n\n\xAB
-не=PART=
-_
-все=SPRO,pl=(acc|nom)
-\xBB,_\u2014_
-шепнуться?=V,pf,intr=praet,sg,indic,n
-_
-кто-то=SPRO,sg,m,anim=ins
-,_
-и=CONJ=
-_
-на=PR=
-_
-твердь=S,f,inan=(acc,sg|nom,sg)
-,_\u2014\n
-ни=CONJ=
-_
-то=PART=
-,_
-ни=CONJ=
-_
-се=PART=
-_\u2014\n
-он=SPRO,sg,3p,m=nom
-_
-грохнуться=V,pf,intr=praet,sg,indic,m
-._
-то=CONJ=
-_
-прошептать=V,pf,tran=praet,sg,indic,f
-_
-смерть=S,f,inan=(acc,sg|nom,sg)
-:\n\xAB
-не=PART=
-_
-все=SPRO,pl=(acc|nom)
-...\xBB\n\n
-столяр=S,m,anim=nom,sg
-,_
-сюда=ADVPRO=
-!_
-рубанок=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-касса=S,f,inan=nom,sg
-_
-ты=SPRO,sg,2p=nom
-\n
-для=PR=
-_
-все=SPRO,pl=(abl|acc|gen)
-_
-порфир=S,m,inan=(acc,sg|nom,sg)
-...\n
-в=PR=
-_
-эфир=S,m,inan=(acc,sg|nom,sg)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-искать=V,ipf,tran=inpraes,sg,indic,3p
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\u2014\n
-в=PR=
-_
-эфир=S,m,inan=(acc,sg|nom,sg)
-!\n
+{он=SPRO,sg,3p,m=nom} {становиться=V,intr=praet,sg,indic,m,pf} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)} {бесстранный?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {король=S,m,anim=ins,sg}:
+«{гном=S,m,anim=nom,sg}» {становиться=V,intr=praet,sg,indic,m,pf} {большой=A=sg,brev,m}...
+{загрезиться?=V,ipf,intr=praet,sg,indic,m}, {забываться=V,intr=praet,sg,indic,m,pf} {над=PR=} {руль=S,m,inan=ins,sg} —
+{на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)}...
+
+«{куда=ADVPRO=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} — {везде=ADV=}: {в=PR=} {дурман=S,m,inan=(acc,sg|nom,sg)} {гитана=S,f,inan=gen,pl},
+{иль=CONJ=} {на=PR=} {квантун?=S,persn,m,anim=nom,sg}...
+{я=SPRO,sg,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мочь=V,ipf,intr=inpraes,sg,indic,1p}!» — {подумать=V,pf,intr=praet,sg,indic,m} {капитан=S,m,anim=nom,sg} —
+{летун=S,m,anim=nom,sg}.
+
+«{не=PART=} {все=SPRO,pl=(acc|nom)}», — {шепнуться?=V,pf,intr=praet,sg,indic,n} {кто-то=SPRO,sg,m,anim=ins}, {и=CONJ=} {на=PR=} {твердь=S,f,inan=(acc,sg|nom,sg)}, —
+{ни=CONJ=} {то=PART=}, {ни=CONJ=} {се=PART=} —
+{он=SPRO,sg,3p,m=nom} {грохнуться=V,pf,intr=praet,sg,indic,m}. {то=CONJ=} {прошептать=V,pf,tran=praet,sg,indic,f} {смерть=S,f,inan=(acc,sg|nom,sg)}:
+«{не=PART=} {все=SPRO,pl=(acc|nom)}...»
+
+{столяр=S,m,anim=nom,sg}, {сюда=ADVPRO=}! {рубанок=S,m,inan=(acc,sg|nom,sg)} — {касса=S,f,inan=nom,sg} {ты=SPRO,sg,2p=nom}
+{для=PR=} {все=SPRO,pl=(abl|acc|gen)} {порфир=S,m,inan=(acc,sg|nom,sg)}...
+{в=PR=} {эфир=S,m,inan=(acc,sg|nom,sg)}, {кто=SPRO,sg,m,anim=nom} {в=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {искать=V,ipf,tran=inpraes,sg,indic,3p} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{в=PR=} {эфир=S,m,inan=(acc,sg|nom,sg)}!

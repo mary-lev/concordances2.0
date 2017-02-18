@@ -1,78 +1,9 @@
-видеть=V,ipf,tran=praet,sg,indic,m
-_
-я=SPRO,sg,1p=nom
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-_
-златокованый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-...\n
-не=PART=
-_
-завидовать=V,ipf,intr=sg,imper,2p
-_
-такой=APRO=(dat,sg,m|dat,sg,n)
-_
-венец=S,m,inan=dat,sg
-!\n
-оттого=ADVPRO=
-,_
-что=CONJ=
-_
-и=CONJ=
-_
-сам=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-он=SPRO,sg,3p,m=nom
-_
-ворованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-он=SPRO,sg,3p,m=nom
-_
-совсем=ADV=
-_
-не=PART=
-_
-к=PR=
-_
-лицо=S,n,inan=dat,sg
-.\n
-туго=ADV=
-_
-согнутый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ветка=S,f,inan=ins,sg
-_
-терновый=A=ins,sg,plen,f
-\n
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-венец=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-заблестеть=V,pf,intr=inpraes,sg,indic,3p
-.\n
-ничто=SPRO,sg,n=gen
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-роса=S,f,inan=ins,sg
-_
-багровый=A=ins,sg,plen,f
-\n
-он=SPRO,sg,3p,m=nom
-_
-изнеженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лоб=S,m,inan=(acc,sg|nom,sg)
-_
-освежать=V,tran=inpraes,sg,indic,3p,pf
-.\n\n
+{видеть=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {венец=S,m,inan=(acc,sg|nom,sg)} {златокованый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}...
+{не=PART=} {завидовать=V,ipf,intr=sg,imper,2p} {такой=APRO=(dat,sg,m|dat,sg,n)} {венец=S,m,inan=dat,sg}!
+{оттого=ADVPRO=}, {что=CONJ=} {и=CONJ=} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {он=SPRO,sg,3p,m=nom} {ворованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{и=CONJ=} {ты=SPRO,sg,2p=(abl|dat)} {он=SPRO,sg,3p,m=nom} {совсем=ADV=} {не=PART=} {к=PR=} {лицо=S,n,inan=dat,sg}.
+{туго=ADV=} {согнутый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ветка=S,f,inan=ins,sg} {терновый=A=ins,sg,plen,f}
+{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {венец=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {ты=SPRO,sg,2p=(abl|dat)} {заблестеть=V,pf,intr=inpraes,sg,indic,3p}.
+{ничто=SPRO,sg,n=gen}, {что=SPRO,sg,n,inan=(acc|nom)} {роса=S,f,inan=ins,sg} {багровый=A=ins,sg,plen,f}
+{он=SPRO,sg,3p,m=nom} {изнеженный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лоб=S,m,inan=(acc,sg|nom,sg)} {освежать=V,tran=inpraes,sg,indic,3p,pf}.
+

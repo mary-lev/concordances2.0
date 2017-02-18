@@ -1,38 +1,4 @@
-невинный=A=pl,brev
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-событие=S,n,inan=gen,pl
-,\n
-но=CONJ=
-_
-они=SPRO,pl=(acc|gen)
-_
-не=PART=
-_
-путать=V,ipf,tran=sg,imper,2p
-,_
-не=PART=
-_
-вязать=V,ipf,tran=sg,imper,2p
-,\n
-и=CONJ=
-_
-чистота=S,sg,f,inan=nom
-,_
-единость?=S,f,inan=(acc,sg|nom,sg)
-_
-нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-всегда=ADVPRO=
-_
-спасать=V=inpraes,sg,indic,3p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-от=PR=
-_
-ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
+{невинный=A=pl,brev} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {событие=S,n,inan=gen,pl},
+{но=CONJ=} {они=SPRO,pl=(acc|gen)} {не=PART=} {путать=V,ipf,tran=sg,imper,2p}, {не=PART=} {вязать=V,ipf,tran=sg,imper,2p},
+{и=CONJ=} {чистота=S,sg,f,inan=nom}, {единость?=S,f,inan=(acc,sg|nom,sg)} {нить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{всегда=ADVPRO=} {спасать=V=inpraes,sg,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {от=PR=} {ложь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.

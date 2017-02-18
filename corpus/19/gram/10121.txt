@@ -1,178 +1,24 @@
-поздно=ADV=
-._
-в=PR=
-_
-дом=S,m,inan=abl,sg
-_
-все=SPRO,pl=(acc|nom)
-_
-заснуть=V,pf,intr=praet,pl,indic
-.\n
-старший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сын=S,m,anim=nom,sg
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-не=PART=
-_
-спать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-как=CONJ=
-_
-приковывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-на=PR=
-_
-стул=S,m,inan=abl,sg
-,\n
-над=PR=
-_
-гомер=S,persn,m,anim=ins,sg
-_
-он=SPRO,sg,3p,m=nom
-_
-сидеть=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-год=S,m,inan=gen,pl
-_14_
-мальчишка=S,m,anim=(abl,sg|dat,sg)
-,\n
-а=CONJ=
-_
-солидный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вид=S,m,inan=(acc,sg|nom,sg)
-_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-!\n
-не=PART=
-_
-отвлекать=V=inf,pf
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-от=PR=
-_
-книжка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-видно=ADV,parenth=
-,_
-малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-с=PR=
-_
-голова=S,f,inan=ins,sg
-!\n
-щека=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-бледный=A=pl,brev
-,_
-тусклый=A=pl,brev
-_
-око=S,n,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-узкий=A=sg,brev,f
-_
-и=CONJ=
-_
-впадать=V,intr=praet,sg,indic,f,pf
-_
-грудь=S,f,inan=(acc,sg|nom,sg)
-.\n
-пролететь=V,pf=praet,sg,indic,n
-_
-уж=PART=
-_
-полночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-он=SPRO,sg,3p,m=nom
-_
-не=PART=
-_
-думать=V,ipf,intr=praet,sg,indic,m
-_
-отдыхать=V,intr=inf,pf
-.\n
-над=PR=
-_
-заснуть=V,pf,intr=praet,ins,sg,partcp,plen,f,act
-_
-столица=S,f,inan=ins,sg
-\n
-дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дух=S,m,inan=(acc,sg|nom,sg)
-_
-лететь=V,ipf,intr=praet,sg,indic,m
-,\n
-и=CONJ=
-_
-ребенок=S,m,anim=(acc,sg|gen,sg)
-_
-небылица=S,f,inan=ins,sg
-\n
-соблазнять=V,tran=inf,pf
-_
-он=SPRO,sg,3p,m=nom
-_
-захотеть=V,pf,tran=praet,sg,indic,m
-.\n
-в=PR=
-_
-вид=S,m,inan=abl,sg
-_
-отрок=S,m,anim=(acc,sg|gen,sg)
--
-спартанец=S,m,anim=(acc,sg|gen,sg)
-\n
-к=PR=
-_
-гимназист=S,m,anim=dat,sg
-_
-он=SPRO,sg,3p,m=nom
-_
-проникать=V,intr=praet,sg,indic,m,pf
-\n
-и=CONJ=
-_
-являться=V,intr=praet,sg,indic,m,pf
-_
-из-за=PR=
-_
-ранец=S,m,inan=gen,sg
-,\n
-из-за=PR=
-_
-груда=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пыльный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-книга=S,f,inan=gen,pl
-.\n
-полуголый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-смуглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-смелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-чуть=ADV=
-_
-прикрывать=V=praet,sg,partcp,brev,m,pf,pass
-_
-свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)
-_
-плащ=S,m,inan=ins,sg
-...\n
-гимназистика?=S,obsc,f,inan=gen,pl
-_
-оробелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-\n
-осеняться=V,intr=inpraes,sg,indic,3p,ipf
-_
-крест=S,m,inan=ins,sg
-.\n
+{поздно=ADV=}. {в=PR=} {дом=S,m,inan=abl,sg} {все=SPRO,pl=(acc|nom)} {заснуть=V,pf,intr=praet,pl,indic}.
+{старший=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сын=S,m,anim=nom,sg} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,3p}.
+{как=CONJ=} {приковывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {на=PR=} {стул=S,m,inan=abl,sg},
+{над=PR=} {гомер=S,persn,m,anim=ins,sg} {он=SPRO,sg,3p,m=nom} {сидеть=V,ipf,intr=inpraes,sg,indic,3p}.
+{год=S,m,inan=gen,pl} 14 {мальчишка=S,m,anim=(abl,sg|dat,sg)},
+{а=CONJ=} {солидный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вид=S,m,inan=(acc,sg|nom,sg)} {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}!
+{не=PART=} {отвлекать=V=inf,pf} {он=SPRO,sg,3p,m=(acc|gen)} {от=PR=} {книжка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{видно=ADV,parenth=}, {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {с=PR=} {голова=S,f,inan=ins,sg}!
+{щека=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бледный=A=pl,brev}, {тусклый=A=pl,brev} {око=S,n,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {узкий=A=sg,brev,f} {и=CONJ=} {впадать=V,intr=praet,sg,indic,f,pf} {грудь=S,f,inan=(acc,sg|nom,sg)}.
+{пролететь=V,pf=praet,sg,indic,n} {уж=PART=} {полночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{он=SPRO,sg,3p,m=nom} {не=PART=} {думать=V,ipf,intr=praet,sg,indic,m} {отдыхать=V,intr=inf,pf}.
+{над=PR=} {заснуть=V,pf,intr=praet,ins,sg,partcp,plen,f,act} {столица=S,f,inan=ins,sg}
+{дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {злобный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {лететь=V,ipf,intr=praet,sg,indic,m},
+{и=CONJ=} {ребенок=S,m,anim=(acc,sg|gen,sg)} {небылица=S,f,inan=ins,sg}
+{соблазнять=V,tran=inf,pf} {он=SPRO,sg,3p,m=nom} {захотеть=V,pf,tran=praet,sg,indic,m}.
+{в=PR=} {вид=S,m,inan=abl,sg} {отрок=S,m,anim=(acc,sg|gen,sg)}-{спартанец=S,m,anim=(acc,sg|gen,sg)}
+{к=PR=} {гимназист=S,m,anim=dat,sg} {он=SPRO,sg,3p,m=nom} {проникать=V,intr=praet,sg,indic,m,pf}
+{и=CONJ=} {являться=V,intr=praet,sg,indic,m,pf} {из-за=PR=} {ранец=S,m,inan=gen,sg},
+{из-за=PR=} {груда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пыльный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {книга=S,f,inan=gen,pl}.
+{полуголый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {смуглый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {смелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{чуть=ADV=} {прикрывать=V=praet,sg,partcp,brev,m,pf,pass} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {плащ=S,m,inan=ins,sg}...
+{гимназистика?=S,obsc,f,inan=gen,pl} {оробелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+{осеняться=V,intr=inpraes,sg,indic,3p,ipf} {крест=S,m,inan=ins,sg}.

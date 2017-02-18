@@ -1,36 +1,4 @@
-они=SPRO,pl=(acc|gen)
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-семь=NUM=(acc|nom)
-,\u2014_
-я=SPRO,sg,1p=nom
-_
-так=ADVPRO=
-_
-решать=V,tran=praet,sg,indic,f,pf
-,\n
-пора=ADV,praed=
-_
-испытывать=V,tran=inf,ipf
-_
-судьба=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-первый=ANUM=nom,sg,f
-_
-уже=ADV=
-_
-свершать=V,tran=praet,sg,indic,f,pf
-\n
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-позорный=A=(dat,sg,plen,m|dat,sg,plen,n)
-_
-столб=S,m,inan=dat,sg
-...\n
+{они=SPRO,pl=(acc|gen)} {быть=V,intr=inpraes,sg,indic,3p} {семь=NUM=(acc|nom)},— {я=SPRO,sg,1p=nom} {так=ADVPRO=} {решать=V,tran=praet,sg,indic,f,pf},
+{пора=ADV,praed=} {испытывать=V,tran=inf,ipf} {судьба=S,f,inan=acc,sg},
+{и=CONJ=} {первый=ANUM=nom,sg,f} {уже=ADV=} {свершать=V,tran=praet,sg,indic,f,pf}
+{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {позорный=A=(dat,sg,plen,m|dat,sg,plen,n)} {столб=S,m,inan=dat,sg}...

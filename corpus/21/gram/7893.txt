@@ -1,70 +1,9 @@
-лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-долго=ADV=
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мыло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-крепко=ADV=
-_
-рука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-тереть=V,ipf,tran=praet,sg,indic,f
-.\n
-этот=APRO=nom,sg,f
-_
-лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-не=PART=
-_
-забывать=V=praet,sg,indic,f,pf
-\n
-окровавленный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-горло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-,_
-лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-!_
-вы=SPRO,pl,2p=nom
-_
-как=CONJ=
-_
-птица=S,f,anim=nom,sg
-\n
-биться=V,ipf,intr=inpraes,pl,indic,2p
-_
-на=PR=
-_
-бессонный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-триста=NUM=(acc|nom)
-_
-год=S,m,inan=gen,pl
-_
-уж=PART=
-_
-вы=SPRO,pl,2p=dat
-_
-не=PART=
-_
-спаться=V,ipf,intr=inpraes,indic
-_\u2014\n
-я=SPRO,sg,1p=(abl|dat)
-_
-год=S,m,inan=gen,pl
-_
-шесть=NUM=(acc|nom)
-_
-не=PART=
-_
-спаться=V,ipf,intr=inpraes,indic
-_
-тоже=PART=
-.\n
+{лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {долго=ADV=} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мыло=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {крепко=ADV=} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {тереть=V,ipf,tran=praet,sg,indic,f}.
+{этот=APRO=nom,sg,f} {лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {не=PART=} {забывать=V=praet,sg,indic,f,pf}
+{окровавленный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {горло=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {лэди?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}! {вы=SPRO,pl,2p=nom} {как=CONJ=} {птица=S,f,anim=nom,sg}
+{биться=V,ipf,intr=inpraes,pl,indic,2p} {на=PR=} {бессонный=A=(abl,sg,plen,m|abl,sg,plen,n)} {ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{триста=NUM=(acc|nom)} {год=S,m,inan=gen,pl} {уж=PART=} {вы=SPRO,pl,2p=dat} {не=PART=} {спаться=V,ipf,intr=inpraes,indic} —
+{я=SPRO,sg,1p=(abl|dat)} {год=S,m,inan=gen,pl} {шесть=NUM=(acc|nom)} {не=PART=} {спаться=V,ipf,intr=inpraes,indic} {тоже=PART=}.

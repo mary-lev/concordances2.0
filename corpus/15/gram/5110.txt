@@ -1,104 +1,15 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-же=PART=
-_
-там=ADVPRO=
-_
-за=PR=
-_
-странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-?\n
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-уснуть=V,pf,intr=praet,sg,indic,m
-.\n
-ты=SPRO,sg,2p=nom
-_
-сказать=V,pf,tran=praet,sg,indic,m
-,_
-что=CONJ=
-_
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-лес=S,m,inan=(acc,sg|nom,sg)
-\n
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-безмолвие=S,n,inan=abl,sg
-_
-чудо=S,n,inan=gen,pl
-,\n
-дремать=V,ipf,intr=inpraes,sg,indic,3p
-_
-сказка=S,f,inan=ins,sg
-_
-быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-день=S,m,inan=gen,pl
-,\n
-бредить=V,ipf,intr=inpraes,sg,indic,3p
-_
-греза=S,f,inan=ins,pl
-_
-тень=S,f,inan=gen,pl
-.\n\n
-долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-гул=S,m,inan=(acc,sg|nom,sg)
-_
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-.\n
-это=PART=
-_
-колокол=S,m,inan=(acc,sg|nom,sg)
-_
-петь=V,ipf,tran=inpraes,sg,indic,3p
-!\n
-совесть=S,f,inan=(acc,sg|nom,sg)
-_
-грозный=A=nom,sg,plen,f
-_
-земля=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-говорить=V,ipf,tran=inpraes,sg,indic,3p
-:_\xAB
-восставать=V,intr=sg,imper,2p,pf
-!_
-внимать=V,intr=sg,imper,2p,ipf
-!\xBB\n
-это=PART=
-_
-колокол=S,m,inan=(acc,sg|nom,sg)
-_
-гудеть=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-долгий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-гул=S,m,inan=ins,sg
-_
-сердце=S,n,inan=dat,sg
-_
-мстить=V,ipf,intr=inpraes,sg,indic,3p
-\n
-за=PR=
-_
-греховный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-искаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-красота=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {там=ADVPRO=} {за=PR=} {странный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гул=S,m,inan=(acc,sg|nom,sg)}?
+{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=praet,sg,indic,m}, {что=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {уснуть=V,pf,intr=praet,sg,indic,m}.
+{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=praet,sg,indic,m}, {что=CONJ=} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)}
+{спать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {безмолвие=S,n,inan=abl,sg} {чудо=S,n,inan=gen,pl},
+{дремать=V,ipf,intr=inpraes,sg,indic,3p} {сказка=S,f,inan=ins,sg} {быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl},
+{бредить=V,ipf,intr=inpraes,sg,indic,3p} {греза=S,f,inan=ins,pl} {тень=S,f,inan=gen,pl}.
+
+{долгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гул=S,m,inan=(acc,sg|nom,sg)} {вставать=V,intr=inpraes,sg,indic,3p,ipf}.
+{это=PART=} {колокол=S,m,inan=(acc,sg|nom,sg)} {петь=V,ipf,tran=inpraes,sg,indic,3p}!
+{совесть=S,f,inan=(acc,sg|nom,sg)} {грозный=A=nom,sg,plen,f} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{говорить=V,ipf,tran=inpraes,sg,indic,3p}: «{восставать=V,intr=sg,imper,2p,pf}! {внимать=V,intr=sg,imper,2p,ipf}!»
+{это=PART=} {колокол=S,m,inan=(acc,sg|nom,sg)} {гудеть=V,ipf,intr=inpraes,sg,indic,3p},
+{долгий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гул=S,m,inan=ins,sg} {сердце=S,n,inan=dat,sg} {мстить=V,ipf,intr=inpraes,sg,indic,3p}
+{за=PR=} {греховный=A=(acc,pl,plen,inan|nom,pl,plen)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{искаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

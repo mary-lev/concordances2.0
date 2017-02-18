@@ -1,58 +1,8 @@
-тешить=V,ipf,tran=praet,sg,indic,m
-_\u2014_
-ужас=S,m,inan=(acc,sg|nom,sg)
-._
-греть=V,ipf,tran=praet,sg,indic,f
-_\u2014_
-вьюга=S,f,inan=nom,sg
-.\n
-вести=V,ipf,tran=praet,sg,indic,m
-_
-вдоль=PR=
-_
-смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-мрак=S,m,inan=(acc,sg|nom,sg)
-.\n
-отнимать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-мы=SPRO,pl,1p=nom
-_
-друг=S,m,anim=nom,sg
-_
-у=PR=
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-...\n
-разве=PART=
-_
-можно=ADV,praed=
-_
-так=ADVPRO=
-?\n
-если=CONJ=
-_
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_\u2014_
-расколдовывать=V=inpraes,sg,indic,1p,pf
-,\n
-добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-быть=V,intr=inf,ipf
-_
-позволять=V,tran=sg,imper,2p,pf
-:\n
-выбирать=V=sg,imper,2p,ipf,tran
-_
-себя=SPRO=(abl|dat)
-_
-любой=APRO=acc,sg,f
-,\n
-но=CONJ=
-_
-не=PART=
-_
-этот=APRO=acc,sg,f
-_
-боль=S,f,inan=(acc,sg|nom,sg)
-.\n
+{тешить=V,ipf,tran=praet,sg,indic,m} — {ужас=S,m,inan=(acc,sg|nom,sg)}. {греть=V,ipf,tran=praet,sg,indic,f} — {вьюга=S,f,inan=nom,sg}.
+{вести=V,ipf,tran=praet,sg,indic,m} {вдоль=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {мрак=S,m,inan=(acc,sg|nom,sg)}.
+{отнимать=V,tran=praet,pl,partcp,brev,pf,pass} {мы=SPRO,pl,1p=nom} {друг=S,m,anim=nom,sg} {у=PR=} {друг=S,m,anim=(acc,sg|gen,sg)}...
+{разве=PART=} {можно=ADV,praed=} {так=ADVPRO=}?
+{если=CONJ=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p} — {расколдовывать=V=inpraes,sg,indic,1p,pf},
+{добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {быть=V,intr=inf,ipf} {позволять=V,tran=sg,imper,2p,pf}:
+{выбирать=V=sg,imper,2p,ipf,tran} {себя=SPRO=(abl|dat)} {любой=APRO=acc,sg,f},
+{но=CONJ=} {не=PART=} {этот=APRO=acc,sg,f} {боль=S,f,inan=(acc,sg|nom,sg)}.

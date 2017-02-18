@@ -1,88 +1,9 @@
-отражать=V=inpraes,ger,ipf,tran
-_
-волна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-голубой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-свет=S,sg,m,inan=gen
-,\n
-в=PR=
-_
-направление=S,n,inan=abl,sg
-_
-ницца=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-пробежать=V,pf=praet,sg,indic,m
-_
-трамвай=S,m,inan=(acc,sg|nom,sg)
-._\n\u2014_
-задавать=V,tran=sg,imper,2p,ipf
-_
-вопрос=S,m,inan=(acc,pl|nom,pl)
-._
-не=PART=
-_
-просить=V,ipf,tran=sg,imper,2p
-_
-ответ=S,m,inan=gen,sg
-._\n
-хорошо=ADV=comp,parenth
-_
-и=CONJ=
-_
-вопрос=S,m,inan=gen,pl
-,_
-друг=S,m,anim=nom,sg
-,_
-не=PART=
-_
-задавать=V,tran=sg,imper,2p,ipf
-.\n\n
-улыбаться=V,intr=sg,imper,2p,ipf
-_
-море=S,n,inan=dat,sg
-._
-наслаждаться=V,intr=sg,imper,2p,ipf
-_
-юг=S,m,inan=ins,sg
-._\n
-помнить=V,ipf,tran=sg,imper,2p
-,_
-что=CONJ=
-_
-в=PR=
-_
-россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_\u2014_
-ночь=S,f,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-холод=S,m,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-помнить=V,ipf,tran=sg,imper,2p
-,_
-что=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=nom
-_
-называть=V,tran=inpraes,sg,indic,1p,ipf
-_
-другой=APRO=(abl,sg,m|abl,sg,n)
-,\n
-знать=V,ipf,tran=inpraes,ger
-,_
-что=CONJ=
-_
-не=PART=
-_
-встречать=V,tran=inpraes,sg,indic,1p,pf
-_
-нигде=ADVPRO=
-_
-и=CONJ=
-_
-никогда=ADVPRO=
-...\n
+{отражать=V=inpraes,ger,ipf,tran} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {голубой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {свет=S,sg,m,inan=gen},
+{в=PR=} {направление=S,n,inan=abl,sg} {ницца=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)} {пробежать=V,pf=praet,sg,indic,m} {трамвай=S,m,inan=(acc,sg|nom,sg)}. 
+— {задавать=V,tran=sg,imper,2p,ipf} {вопрос=S,m,inan=(acc,pl|nom,pl)}. {не=PART=} {просить=V,ipf,tran=sg,imper,2p} {ответ=S,m,inan=gen,sg}. 
+{хорошо=ADV=comp,parenth} {и=CONJ=} {вопрос=S,m,inan=gen,pl}, {друг=S,m,anim=nom,sg}, {не=PART=} {задавать=V,tran=sg,imper,2p,ipf}.
+
+{улыбаться=V,intr=sg,imper,2p,ipf} {море=S,n,inan=dat,sg}. {наслаждаться=V,intr=sg,imper,2p,ipf} {юг=S,m,inan=ins,sg}. 
+{помнить=V,ipf,tran=sg,imper,2p}, {что=CONJ=} {в=PR=} {россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {ночь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {холод=S,m,inan=(acc,pl|gen,sg|nom,pl)}, 
+{помнить=V,ipf,tran=sg,imper,2p}, {что=CONJ=} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {называть=V,tran=inpraes,sg,indic,1p,ipf} {другой=APRO=(abl,sg,m|abl,sg,n)},
+{знать=V,ipf,tran=inpraes,ger}, {что=CONJ=} {не=PART=} {встречать=V,tran=inpraes,sg,indic,1p,pf} {нигде=ADVPRO=} {и=CONJ=} {никогда=ADVPRO=}...

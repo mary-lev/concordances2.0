@@ -1,62 +1,9 @@
-снимать=V,tran=praet,sg,indic,m,pf
-_
-затвор=S,m,inan=(acc,pl|nom,pl)
-_
-я=SPRO,sg,1p=nom
-_
-с=PR=
-_
-калитка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вечерок=S,m,inan=ins,sg
-_
-тревожно=ADV=
-_
-ждать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-ли=CONJ=
-_
-выглядывать=V,intr=inpraes,sg,indic,1p,pf
-_
-в=PR=
-_
-окошко=S,n,inan=(acc,sg|nom,sg)
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-ли=PART=
-_
-к=PR=
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-подходить=V,intr=inpraes,sg,indic,1p,pf
-.\n\n
-не=PART=
-_
-идти=V,ipf,intr=inpraes,sg,indic,3p
-_
-мой=APRO=nom,sg,f
-_
-голубка=S,f,anim=nom,sg
-,\n
-а=CONJ=
-_
-во=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-бушевать=V,ipf,intr=inpraes,sg,indic,3p
-_
-кровь=S,f,inan=(acc,sg|nom,sg)
-,\n
-разгораться=V,intr=inpraes,sg,indic,3p,ipf
-_
-больно=ADV=comp
-\n
-одинокий=A=nom,sg,plen,f
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-.\n
+{снимать=V,tran=praet,sg,indic,m,pf} {затвор=S,m,inan=(acc,pl|nom,pl)} {я=SPRO,sg,1p=nom} {с=PR=} {калитка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{вечерок=S,m,inan=ins,sg} {тревожно=ADV=} {ждать=V,ipf,tran=inpraes,sg,indic,1p},
+{то=SPRO,sg,n,inan=(acc|nom)} {ли=CONJ=} {выглядывать=V,intr=inpraes,sg,indic,1p,pf} {в=PR=} {окошко=S,n,inan=(acc,sg|nom,sg)},
+{то=SPRO,sg,n,inan=(acc|nom)} {ли=PART=} {к=PR=} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {подходить=V,intr=inpraes,sg,indic,1p,pf}.
+
+{не=PART=} {идти=V,ipf,intr=inpraes,sg,indic,3p} {мой=APRO=nom,sg,f} {голубка=S,f,anim=nom,sg},
+{а=CONJ=} {во=PR=} {я=SPRO,sg,1p=(abl|dat)} {бушевать=V,ipf,intr=inpraes,sg,indic,3p} {кровь=S,f,inan=(acc,sg|nom,sg)},
+{разгораться=V,intr=inpraes,sg,indic,3p,ipf} {больно=ADV=comp}
+{одинокий=A=nom,sg,plen,f} {любовь=S,f,inan=(acc,sg|nom,sg)}.

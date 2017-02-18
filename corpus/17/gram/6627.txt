@@ -1,180 +1,23 @@
-ни=CONJ=
-_
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-имя=S,n,inan=ins,sg
-_
-бог=S,m,anim=(acc,pl|gen,pl)
-,\n
-ни=CONJ=
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-имя=S,n,inan=ins,sg
-_
-природа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!_\n...
-еще=ADV=
-_
-у=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-берег=S,m,inan=gen,pl
-_\n
-шуметь=V,ipf,intr=inpraes,pl,indic,3p
-_
-дерево=S,n,inan=(acc,pl|nom,pl)
-,_
-плескать=V,ipf,tran=inpraes,pl,indic,3p
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-...\n\n
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-оплывать=V,ipf,tran=inpraes,sg,indic,3p
-,_
-как=CONJ=
-_
-свеча=S,f,inan=nom,sg
-,\n
-и=CONJ=
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-палец=S,m,inan=(acc,pl|nom,pl)
-_
-обжигать=V=inpraes,sg,indic,3p,ipf,tran
-._\n
-бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-музыка=S,f,inan=ins,sg
-_
-звучать=V,ipf,intr=inpraes,ger
-,_\n
-он=SPRO,sg,3p,m=nom
-_
-шириться=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-погибать=V,intr=inpraes,sg,indic,3p,ipf
-.\n
-и=CONJ=
-_
-тьма=S,f,inan=nom,sg
-_\u2014_
-уже=ADV=
-_
-не=PART=
-_
-тьма=S,f,inan=nom,sg
-,_
-а=CONJ=
-_
-свет=S,sg,m,inan=(acc|nom)
-._\n
-и=CONJ=
-_
-да=PART=
-_\u2014_
-уже=ADV=
-_
-не=PART=
-_
-да=PART=
-,_
-а=CONJ=
-_
-нет=PART=
-.\n\n...
-и=CONJ=
-_
-не=PART=
-_
-восставать=V,intr=inpraes,pl,indic,3p,pf
-_
-из=PR=
-_
-гроб=S,m,inan=gen,pl
-_\n
-и=CONJ=
-_
-не=PART=
-_
-вернуть=V,pf,tran=inpraes,pl,indic,3p
-_
-былой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\u2014_\n
-ни=CONJ=
-_
-светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-имя=S,n,inan=ins,sg
-_
-бог=S,m,anim=(acc,pl|gen,pl)
-,\n
-ни=CONJ=
-_
-темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-имя=S,n,inan=ins,sg
-_
-природа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-!\n\n
-она=SPRO,sg,3p,f=nom
-_
-прекрасный=A=sg,brev,f
-,_
-этот=APRO=nom,sg,f
-_
-мгла=S,f,inan=nom,sg
-.\n
-она=SPRO,sg,3p,f=nom
-_
-похожий=A=sg,brev,f
-_
-на=PR=
-_
-сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
-добро=S,sg,n,inan=gen
-_
-и=CONJ=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-добро=S,sg,n,inan=gen
-_
-и=CONJ=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-неразрывный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\n
-добро=S,sg,n,inan=gen
-_
-и=CONJ=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-добро=S,sg,n,inan=gen
-_
-и=CONJ=
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-смысл=S,m,inan=(acc,sg|nom,sg)
-,_
-раскалять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-добела=ADV=
-.\n
+{ни=CONJ=} {светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {имя=S,n,inan=ins,sg} {бог=S,m,anim=(acc,pl|gen,pl)},
+{ни=CONJ=} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {имя=S,n,inan=ins,sg} {природа=S,f,inan=(acc,pl|gen,sg|nom,pl)}! 
+...{еще=ADV=} {у=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {берег=S,m,inan=gen,pl} 
+{шуметь=V,ipf,intr=inpraes,pl,indic,3p} {дерево=S,n,inan=(acc,pl|nom,pl)}, {плескать=V,ipf,tran=inpraes,pl,indic,3p} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+
+{мир=S,m,inan=(acc,sg|nom,sg)} {оплывать=V,ipf,tran=inpraes,sg,indic,3p}, {как=CONJ=} {свеча=S,f,inan=nom,sg},
+{и=CONJ=} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {палец=S,m,inan=(acc,pl|nom,pl)} {обжигать=V=inpraes,sg,indic,3p,ipf,tran}. 
+{бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {музыка=S,f,inan=ins,sg} {звучать=V,ipf,intr=inpraes,ger}, 
+{он=SPRO,sg,3p,m=nom} {шириться=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {погибать=V,intr=inpraes,sg,indic,3p,ipf}.
+{и=CONJ=} {тьма=S,f,inan=nom,sg} — {уже=ADV=} {не=PART=} {тьма=S,f,inan=nom,sg}, {а=CONJ=} {свет=S,sg,m,inan=(acc|nom)}. 
+{и=CONJ=} {да=PART=} — {уже=ADV=} {не=PART=} {да=PART=}, {а=CONJ=} {нет=PART=}.
+
+...{и=CONJ=} {не=PART=} {восставать=V,intr=inpraes,pl,indic,3p,pf} {из=PR=} {гроб=S,m,inan=gen,pl} 
+{и=CONJ=} {не=PART=} {вернуть=V,pf,tran=inpraes,pl,indic,3p} {былой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {свобода=S,f,inan=(acc,pl|gen,sg|nom,pl)} — 
+{ни=CONJ=} {светлый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {имя=S,n,inan=ins,sg} {бог=S,m,anim=(acc,pl|gen,pl)},
+{ни=CONJ=} {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {имя=S,n,inan=ins,sg} {природа=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+
+{она=SPRO,sg,3p,f=nom} {прекрасный=A=sg,brev,f}, {этот=APRO=nom,sg,f} {мгла=S,f,inan=nom,sg}.
+{она=SPRO,sg,3p,f=nom} {похожий=A=sg,brev,f} {на=PR=} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+{добро=S,sg,n,inan=gen} {и=CONJ=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {добро=S,sg,n,inan=gen} {и=CONJ=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {неразрывный=A=(acc,sg,plen,n|nom,sg,plen,n)} {слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+{добро=S,sg,n,inan=gen} {и=CONJ=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {добро=S,sg,n,inan=gen} {и=CONJ=} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{смысл=S,m,inan=(acc,sg|nom,sg)}, {раскалять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {добела=ADV=}.

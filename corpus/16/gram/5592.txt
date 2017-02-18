@@ -1,166 +1,24 @@
-король=S,m,anim=nom,sg
-_
-на=PR=
-_
-плаха=S,f,inan=(abl,sg|dat,sg)
-._
-королевство=S,n,inan=(acc,sg|nom,sg)
-_\u2014\n
-уже=ADV=
-_
-республика=S,f,inan=nom,sg
-:_
-и=CONJ=
-_
-принц=S,m,anim=nom,sg
-\n
-бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)
-,_
-сестра=S,f,anim=(gen,sg|nom,pl)
-_
-спасать=V=inpraes,ger,ipf,tran
-_
-детство=S,n,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-один=APRO=acc,sg,f
-_
-из=PR=
-_
-морев?=S,famn,m,anim=(abl,pl|acc,pl|gen,pl)
-_
-провинц?=S,m,anim=nom,sg
-.\n\n
-и=CONJ=
-_
-там=ADVPRO=
-,_
-в=PR=
-_
-улыбность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-привет=S,m,inan=gen,sg
-,\n
-у=PR=
-_
-острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-шхеры=S,pl,inan=gen
-,_
-у=PR=
-_
-сонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дюна=S,f,inan=gen,pl
-,\n
-они=SPRO,pl=(acc|gen)
-_
-ждать=V,ipf,tran=inpraes,pl,indic,3p
-_\u2014_
-и=CONJ=
-_
-палуба=S,f,inan=nom,sg
-_
-корвет=S,m,inan=gen,sg
-,\n
-и=CONJ=
-_
-комфортабельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-летун=S,m,anim=nom,sg
-,\n\n
-вперед=ADV=
-!_\u2014_
-осолнечный?=A=sg,brev,m
-_
-пропеллер=S,m,inan=(acc,sg|nom,sg)
-,\n
-стрекотать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-ветривать?=V,tran=inpraes,sg,indic,3p,pf
-_
-и=CONJ=
-_
-трещать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-моторолет?=ADV=
-_
-крылять?=V,tran=inpraes,sg,indic,3p,pf
-_
-на=PR=
-_
-север=S,m,inan=(acc,sg|nom,sg)
-,\n
-где=ADVPRO=
-_
-ощетинивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-бор=S,m,inan=gen,sg
-_
-щит=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-скорбеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-принцесса=S,f,anim=nom,sg
-._
-в=PR=
-_
-алый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лента=S,f,inan=(abl,sg|dat,sg)
-\n
-лукавить=V,ipf,intr=inpraes,sg,indic,3p
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-как=CONJ=
-_
-пилат=S,famn,m,anim=nom,sg
-.\n
-злодей=S,m,anim=(acc,sg|gen,sg)
-_
-мыслить=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-президент=S,m,anim=abl,sg
-\n
-беглец=S,m,anim=nom,sg
-_
-из=PR=
-_
-мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-палата=S,f,inan=gen,pl
-.\n\n
-и=CONJ=
-,_
-очарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-полет=S,m,inan=ins,sg
-,\n
-дарить=V,ipf,tran=inpraes,sg,indic,3p
-_
-пилот=S,m,anim=dat,sg
-_
-комплимент=S,m,inan=(acc,sg|nom,sg)
-,\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,ger
-,_
-что=CONJ=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-пилот=S,m,anim=ins,sg
-_\u2014\n
-никто=SPRO,sg,m,anim=nom
-_
-иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-,_
-как=CONJ=
-_
-президент=S,m,anim=nom,sg
-!\n
+{король=S,m,anim=nom,sg} {на=PR=} {плаха=S,f,inan=(abl,sg|dat,sg)}. {королевство=S,n,inan=(acc,sg|nom,sg)} —
+{уже=ADV=} {республика=S,f,inan=nom,sg}: {и=CONJ=} {принц=S,m,anim=nom,sg}
+{бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)}, {сестра=S,f,anim=(gen,sg|nom,pl)} {спасать=V=inpraes,ger,ipf,tran} {детство=S,n,inan=(acc,sg|nom,sg)},
+{в=PR=} {один=APRO=acc,sg,f} {из=PR=} {морев?=S,famn,m,anim=(abl,pl|acc,pl|gen,pl)} {провинц?=S,m,anim=nom,sg}.
+
+{и=CONJ=} {там=ADVPRO=}, {в=PR=} {улыбность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {привет=S,m,inan=gen,sg},
+{у=PR=} {острый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {шхеры=S,pl,inan=gen}, {у=PR=} {сонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дюна=S,f,inan=gen,pl},
+{они=SPRO,pl=(acc|gen)} {ждать=V,ipf,tran=inpraes,pl,indic,3p} — {и=CONJ=} {палуба=S,f,inan=nom,sg} {корвет=S,m,inan=gen,sg},
+{и=CONJ=} {комфортабельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {летун=S,m,anim=nom,sg},
+
+{вперед=ADV=}! — {осолнечный?=A=sg,brev,m} {пропеллер=S,m,inan=(acc,sg|nom,sg)},
+{стрекотать=V,ipf,intr=inpraes,sg,indic,3p}, {ветривать?=V,tran=inpraes,sg,indic,3p,pf} {и=CONJ=} {трещать=V,ipf,intr=inpraes,sg,indic,3p}.
+{моторолет?=ADV=} {крылять?=V,tran=inpraes,sg,indic,3p,pf} {на=PR=} {север=S,m,inan=(acc,sg|nom,sg)},
+{где=ADVPRO=} {ощетинивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {бор=S,m,inan=gen,sg} {щит=S,m,inan=(acc,sg|nom,sg)}.
+
+{скорбеть=V,ipf,intr=inpraes,sg,indic,3p} {принцесса=S,f,anim=nom,sg}. {в=PR=} {алый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лента=S,f,inan=(abl,sg|dat,sg)}
+{лукавить=V,ipf,intr=inpraes,sg,indic,3p} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {как=CONJ=} {пилат=S,famn,m,anim=nom,sg}.
+{злодей=S,m,anim=(acc,sg|gen,sg)} {мыслить=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {президент=S,m,anim=abl,sg}
+{беглец=S,m,anim=nom,sg} {из=PR=} {мраморный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {палата=S,f,inan=gen,pl}.
+
+{и=CONJ=}, {очарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {полет=S,m,inan=ins,sg},
+{дарить=V,ipf,tran=inpraes,sg,indic,3p} {пилот=S,m,anim=dat,sg} {комплимент=S,m,inan=(acc,sg|nom,sg)},
+{не=PART=} {знать=V,ipf,tran=inpraes,ger}, {что=CONJ=} {он=SPRO,sg,3p,m=(acc|gen)} {пилот=S,m,anim=ins,sg} —
+{никто=SPRO,sg,m,anim=nom} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {как=CONJ=} {президент=S,m,anim=nom,sg}!

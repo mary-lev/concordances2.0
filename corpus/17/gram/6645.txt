@@ -1,76 +1,9 @@
-где=ADVPRO=
-_
-прошлогодний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,_
-сказать=V,pf,tran=pl,imper,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-?.._\n
-нетаять?=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)
-,_
-почти=ADV=
-_
-альпийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-снег=S,m,inan=(acc,sg|nom,sg)
-,_\n
-невинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-жертва=S,f,anim=ins,sg
-_
-отдавать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-весна=S,f,inan=(abl,sg|dat,sg)
-,_\n
-апрель=S,m,inan=ins,sg
-_
-обращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-плеск=S,m,inan=(acc,sg|nom,sg)
-_
-и=CONJ=
-_
-бег=S,sg,m,inan=(acc|nom)
-,\n
-в=PR=
-_
-дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-одуванчик=S,m,inan=gen,pl
-_
-и=CONJ=
-_
-роза=S,f,inan=gen,pl
-,_\n
-взволнованный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-мир=S,m,inan=gen,sg
-_
-светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вал=S,m,inan=(acc,sg|nom,sg)
-,\n
-в=PR=
-_
-поэзия=S,f,inan=acc,sg
-,\n_________
-в=PR=
-_
-бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вопрос=S,m,inan=(acc,sg|nom,sg)
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-она=SPRO,sg,3p,f=(dat|ins)
-_
-виллон?=S,m,inan=(acc,sg|nom,sg)
-_
-когда-то=ADVPRO=
-_
-задавать=V,tran=praet,sg,indic,m,ipf
-?\n
+{где=ADVPRO=} {прошлогодний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {снег=S,m,inan=(acc,sg|nom,sg)}, {сказать=V,pf,tran=pl,imper,2p} {я=SPRO,sg,1p=(abl|dat)}?.. 
+{нетаять?=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)}, {почти=ADV=} {альпийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {снег=S,m,inan=(acc,sg|nom,sg)}, 
+{невинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жертва=S,f,anim=ins,sg} {отдавать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {весна=S,f,inan=(abl,sg|dat,sg)}, 
+{апрель=S,m,inan=ins,sg} {обращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {плеск=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {бег=S,sg,m,inan=(acc|nom)},
+{в=PR=} {дыхание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {одуванчик=S,m,inan=gen,pl} {и=CONJ=} {роза=S,f,inan=gen,pl}, 
+{взволнованный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {мир=S,m,inan=gen,sg} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вал=S,m,inan=(acc,sg|nom,sg)},
+{в=PR=} {поэзия=S,f,inan=acc,sg},
+         {в=PR=} {бессмысленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вопрос=S,m,inan=(acc,sg|nom,sg)}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {она=SPRO,sg,3p,f=(dat|ins)} {виллон?=S,m,inan=(acc,sg|nom,sg)} {когда-то=ADVPRO=} {задавать=V,tran=praet,sg,indic,m,ipf}?

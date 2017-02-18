@@ -1,72 +1,9 @@
-рассказывать=V=inf,pf
-_
-обо=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мировой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-дурак=S,m,anim=abl,pl
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-судьба=S,f,inan=acc,sg
-_
-человечество=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-держать=V,ipf,tran=inpraes,pl,indic,3p
-_
-в=PR=
-_
-рука=S,f,inan=abl,pl
-?\n\n
-рассказывать=V=inf,pf
-_
-обо=PR=
-_
-весь=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-мертвец=S,m,anim=abl,pl
--
-подлец=S,m,anim=abl,pl
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-уходить=V,intr=inpraes,pl,indic,3p,ipf
-_
-в=PR=
-_
-история=S,f,inan=acc,sg
-_
-в=PR=
-_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-венец=S,m,inan=abl,pl
-?\n\n
-для=PR=
-_
-что=SPRO,sg,n,inan=gen
-?\n__________
-тишина=S,sg,f,inan=nom
-_
-под=PR=
-_
-парижский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-мост=S,m,inan=ins,sg
-._\n
-и=CONJ=
-_
-какой=APRO=(acc,sg,n|nom,sg,n)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-потом=ADVPRO=
-.\n
+{рассказывать=V=inf,pf} {обо=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мировой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дурак=S,m,anim=abl,pl}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {судьба=S,f,inan=acc,sg} {человечество=S,n,inan=(acc,pl|gen,sg|nom,pl)} {держать=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {рука=S,f,inan=abl,pl}?
+
+{рассказывать=V=inf,pf} {обо=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мертвец=S,m,anim=abl,pl}-{подлец=S,m,anim=abl,pl}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {уходить=V,intr=inpraes,pl,indic,3p,ipf} {в=PR=} {история=S,f,inan=acc,sg} {в=PR=} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {венец=S,m,inan=abl,pl}?
+
+{для=PR=} {что=SPRO,sg,n,inan=gen}?
+          {тишина=S,sg,f,inan=nom} {под=PR=} {парижский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {мост=S,m,inan=ins,sg}. 
+{и=CONJ=} {какой=APRO=(acc,sg,n|nom,sg,n)} {я=SPRO,sg,1p=(abl|dat)} {дело=S,n,inan=(acc,sg|nom,sg)}, {что=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {потом=ADVPRO=}.

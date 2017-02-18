@@ -1,128 +1,20 @@
-я=SPRO,sg,1p=nom
-_
-приходить=V,intr=praet,sg,indic,f,pf
-_
-к=PR=
-_
-поэт=S,m,anim=dat,sg
-_
-в=PR=
-_
-гость=S,m,anim=nom,pl
-._\n
-ровно=ADV=
-_
-полдень=S,m,inan=(acc,sg|nom,sg)
-._
-воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-._\n
-тихо=ADV=
-_
-в=PR=
-_
-комната=S,f,inan=(abl,sg|dat,sg)
-_
-просторный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-а=CONJ=
-_
-за=PR=
-_
-окно=S,n,inan=ins,pl
-_
-мороз=S,m,inan=(acc,sg|nom,sg)
-\n\n
-и=CONJ=
-_
-малиновый=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-над=PR=
-_
-лохматый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-сизый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-дым=S,m,inan=ins,sg
-..._\n
-как=ADVPRO=
-_
-хозяин=S,m,anim=nom,sg
-_
-молчаливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_\n
-ясно=ADV=
-_
-смотреть=V,ipf,tran=inpraes,sg,indic,3p
-_
-на=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-!\n\n
-у=PR=
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-такой=APRO=(nom,pl|acc,pl,inan)
-,_\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-запоминать=V,tran=inf,pf
-_
-каждый=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-должный=A=sg,brev,m
-;_\n
-я=SPRO,sg,1p=(abl|dat)
-_
-же=PART=
-_
-хорошо=ADV=comp,parenth
-,_
-осторожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_\n
-в=PR=
-_
-они=SPRO,pl=(abl|acc|gen)
-_
-и=CONJ=
-_
-вовсе=ADV=
-_
-не=PART=
-_
-глядеть=V,ipf,tran=inf
-.\n\n
-но=CONJ=
-_
-запоминаться=V,intr=inpraes,sg,indic,3p,pf
-_
-беседа=S,f,inan=nom,sg
-,_\n
-дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-полдень=S,m,inan=(acc,sg|nom,sg)
-,_
-воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-в=PR=
-_
-дом=S,m,inan=abl,sg
-_
-серый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-высокий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\n
-у=PR=
-_
-морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-ворота=S,pl,inan=gen
-_
-нева=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
+{я=SPRO,sg,1p=nom} {приходить=V,intr=praet,sg,indic,f,pf} {к=PR=} {поэт=S,m,anim=dat,sg} {в=PR=} {гость=S,m,anim=nom,pl}. 
+{ровно=ADV=} {полдень=S,m,inan=(acc,sg|nom,sg)}. {воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+{тихо=ADV=} {в=PR=} {комната=S,f,inan=(abl,sg|dat,sg)} {просторный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{а=CONJ=} {за=PR=} {окно=S,n,inan=ins,pl} {мороз=S,m,inan=(acc,sg|nom,sg)}
+
+{и=CONJ=} {малиновый=A=(acc,sg,plen,n|nom,sg,plen,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{над=PR=} {лохматый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сизый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дым=S,m,inan=ins,sg}... 
+{как=ADVPRO=} {хозяин=S,m,anim=nom,sg} {молчаливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} 
+{ясно=ADV=} {смотреть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}!
+
+{у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {такой=APRO=(nom,pl|acc,pl,inan)}, 
+{что=SPRO,sg,n,inan=(acc|nom)} {запоминать=V,tran=inf,pf} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {должный=A=sg,brev,m}; 
+{я=SPRO,sg,1p=(abl|dat)} {же=PART=} {хорошо=ADV=comp,parenth}, {осторожный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {и=CONJ=} {вовсе=ADV=} {не=PART=} {глядеть=V,ipf,tran=inf}.
+
+{но=CONJ=} {запоминаться=V,intr=inpraes,sg,indic,3p,pf} {беседа=S,f,inan=nom,sg}, 
+{дымный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {полдень=S,m,inan=(acc,sg|nom,sg)}, {воскресение=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{в=PR=} {дом=S,m,inan=abl,sg} {серый=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {высокий=A=(abl,sg,plen,m|abl,sg,plen,n)} 
+{у=PR=} {морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {ворота=S,pl,inan=gen} {нева=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)}.
+

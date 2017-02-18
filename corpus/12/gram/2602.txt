@@ -1,86 +1,14 @@
-на=PR=
-_
-базар=S,m,inan=abl,sg
-_
-кричать=V,ipf,intr=praet,sg,indic,m
-_
-народ=S,m,inan=(acc,sg|nom,sg)
-,\n
-пар=S,m,inan=(acc,sg|nom,sg)
-_
-вылетать=V,intr=praet,sg,indic,m,ipf
-_
-из=PR=
-_
-булочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-я=SPRO,sg,1p=nom
-_
-запоминать=V,tran=praet,sg,indic,f,pf
-_
-алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-рот=S,m,inan=(acc,sg|nom,sg)
-\n
-узколицый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-певица=S,f,anim=(gen,sg|nom,pl)
-_
-уличный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n\n
-в=PR=
-_
-темный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-с=PR=
-_
-цветик=S,m,inan=ins,pl
-_\u2014_
-платок=S,m,inan=abl,sg
-,\n_\u2014_\t
-милость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-удостаиваться=V,intr=inf,pf
-\n
-ты=SPRO,sg,2p=nom
-,_
-потуплять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass
-,_
-в=PR=
-_
-толпа=S,f,inan=(abl,sg|dat,sg)
-\n
-богомолка=S,f,anim=(acc,pl|gen,pl)
-_
-у=PR=
-_
-сергий=S,persn,m,anim=nom,sg
--
-троица=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n\n
-помолиться=V,pf,intr=sg,imper,2p
-_
-за=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-,_
-краса=S,f,inan=nom,sg
-\n
-грустный=A=nom,sg,plen,f
-_
-и=CONJ=
-_
-бесовский=A=nom,sg,plen,f
-,\n
-как=ADVPRO=
-_
-поставлять=V,tran=inpraes,pl,indic,3p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-лес=S,m,inan=(acc,pl|gen,sg|nom,pl)
-\n
-богородица=S,f,anim=ins,sg
-_
-хлыстовский=A=ins,sg,plen,f
-.\n
+{на=PR=} {базар=S,m,inan=abl,sg} {кричать=V,ipf,intr=praet,sg,indic,m} {народ=S,m,inan=(acc,sg|nom,sg)},
+{пар=S,m,inan=(acc,sg|nom,sg)} {вылетать=V,intr=praet,sg,indic,m,ipf} {из=PR=} {булочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{я=SPRO,sg,1p=nom} {запоминать=V,tran=praet,sg,indic,f,pf} {алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {рот=S,m,inan=(acc,sg|nom,sg)}
+{узколицый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {певица=S,f,anim=(gen,sg|nom,pl)} {уличный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+
+{в=PR=} {темный=A=(abl,sg,plen,m|abl,sg,plen,n)} — {с=PR=} {цветик=S,m,inan=ins,pl} — {платок=S,m,inan=abl,sg},
+ — 	{милость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {удостаиваться=V,intr=inf,pf}
+{ты=SPRO,sg,2p=nom}, {потуплять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}, {в=PR=} {толпа=S,f,inan=(abl,sg|dat,sg)}
+{богомолка=S,f,anim=(acc,pl|gen,pl)} {у=PR=} {сергий=S,persn,m,anim=nom,sg}-{троица=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+
+{помолиться=V,pf,intr=sg,imper,2p} {за=PR=} {я=SPRO,sg,1p=(acc|gen)}, {краса=S,f,inan=nom,sg}
+{грустный=A=nom,sg,plen,f} {и=CONJ=} {бесовский=A=nom,sg,plen,f},
+{как=ADVPRO=} {поставлять=V,tran=inpraes,pl,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+{богородица=S,f,anim=ins,sg} {хлыстовский=A=ins,sg,plen,f}.

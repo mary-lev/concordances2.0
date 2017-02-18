@@ -1,104 +1,15 @@
-плотно=ADV=
-_
-смыкать=V,tran=praet,pl,partcp,brev,pf,pass
-_
-губа=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-сухой=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\n
-жарко=ADV=
-_
-пламень=S,inan=(acc,sg,n|nom,sg,n)
-_
-три=NUM=(abl|gen|acc,anim)
-_
-тысяча=S,f,inan=gen,pl
-_
-свеча=S,f,inan=gen,pl
-._\n
-так=ADVPRO=
-_
-лежать=V,ipf,intr=praet,sg,indic,f
-_
-княжна=S,f,anim=nom,sg
-_
-евдокия=S,persn,f,anim=nom,sg
-_\n
-на=PR=
-_
-душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-сапфирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-парча=S,f,inan=(abl,sg|dat,sg)
-.\n\n
-и=CONJ=
-,_
-сгибаться=V,intr=praet,ger,pf
-,_
-бесслезный=A=sg,brev,n
-_
-молиться=V,ipf,intr=praet,sg,indic,f
-_\n
-она=SPRO,sg,3p,f=(dat|ins)
-_
-о=PR=
-_
-слепенький=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-мальчик=S,m,anim=abl,sg
-_
-мать=S,f,anim=(acc,sg|nom,sg)
-,_\n
-и=CONJ=
-_
-кликуша=S,f,anim=nom,sg
-_
-без=PR=
-_
-голос=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-биться=V,ipf,intr=praet,sg,indic,f
-,_\n
-воздух=S,m,inan=(acc,sg|nom,sg)
-_
-силиться=V,ipf,intr=inpraes,ger
-_
-губа=S,f,inan=ins,pl
-_
-поймать=V,pf,tran=inf
-.\n\n
-а=CONJ=
-_
-приходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-из=PR=
-_
-южный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-край=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-черноглазый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-горбатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-старик=S,m,anim=nom,sg
-,_\n
-словно=CONJ=
-_
-к=PR=
-_
-дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-рай=S,sg,m,inan=gen
-,_\n
-к=PR=
-_
-потемнеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-ступенька=S,f,inan=(abl,sg|dat,sg)
-_
-приникать=V,intr=praet,sg,indic,m,pf
-.\n\n
+{плотно=ADV=} {смыкать=V,tran=praet,pl,partcp,brev,pf,pass} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)}, 
+{жарко=ADV=} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {три=NUM=(abl|gen|acc,anim)} {тысяча=S,f,inan=gen,pl} {свеча=S,f,inan=gen,pl}. 
+{так=ADVPRO=} {лежать=V,ipf,intr=praet,sg,indic,f} {княжна=S,f,anim=nom,sg} {евдокия=S,persn,f,anim=nom,sg} 
+{на=PR=} {душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сапфирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {парча=S,f,inan=(abl,sg|dat,sg)}.
+
+{и=CONJ=}, {сгибаться=V,intr=praet,ger,pf}, {бесслезный=A=sg,brev,n} {молиться=V,ipf,intr=praet,sg,indic,f} 
+{она=SPRO,sg,3p,f=(dat|ins)} {о=PR=} {слепенький=A=(abl,sg,plen,m|abl,sg,plen,n)} {мальчик=S,m,anim=abl,sg} {мать=S,f,anim=(acc,sg|nom,sg)}, 
+{и=CONJ=} {кликуша=S,f,anim=nom,sg} {без=PR=} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)} {биться=V,ipf,intr=praet,sg,indic,f}, 
+{воздух=S,m,inan=(acc,sg|nom,sg)} {силиться=V,ipf,intr=inpraes,ger} {губа=S,f,inan=ins,pl} {поймать=V,pf,tran=inf}.
+
+{а=CONJ=} {приходить=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {из=PR=} {южный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+{черноглазый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {горбатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {старик=S,m,anim=nom,sg}, 
+{словно=CONJ=} {к=PR=} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {небесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {рай=S,sg,m,inan=gen}, 
+{к=PR=} {потемнеть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {ступенька=S,f,inan=(abl,sg|dat,sg)} {приникать=V,intr=praet,sg,indic,m,pf}.
+

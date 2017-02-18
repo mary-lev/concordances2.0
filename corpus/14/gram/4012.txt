@@ -1,110 +1,15 @@
-с=PR=
-_
-первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)
-_
-звук=S,m,inan=ins,sg
-,_
-слетать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)
-_
-с=PR=
-_
-рояль=S,m,inan=gen,sg
-,\n
-я=SPRO,sg,1p=nom
-_
-шептать=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(abl|dat)
-:_\xAB
-здравствовать=V,ipf,intr=sg,imper,2p
-,_
-князь=S,m,anim=nom,sg
-\xBB.\n
-это=PART=
-_
-ты=SPRO,sg,2p=nom
-,_
-веселить=V,ipf,tran=inpraes,ger
-_
-и=CONJ=
-_
-печалить=V,ipf,tran=inpraes,ger
-,\n
-надо=ADV,praed=
-_
-я=SPRO,sg,1p=ins
-_
-стоять=V,ipf,intr=inpraes,sg,indic,2p
-,_
-наклонясь=ADV=
-,\n\n
-но=CONJ=
-_
-во=PR=
-_
-взор=S,m,inan=abl,sg
-_
-упорный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-и=CONJ=
-_
-странный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-угадывать=V,tran=inf,pf
-_
-ничто=SPRO,sg,n=gen
-_
-не=PART=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-только=PART=
-_
-в=PR=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-окаянный=A=(abl,sg,plen,m|abl,sg,plen,n)
-\n
-золотой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-берег=S,m,inan=(dat,sg|loc,sg)
-.\n\n
-ты=SPRO,sg,2p=nom
-_
-когда-нибудь=ADVPRO=
-,_
-скука=S,f,inan=ins,sg
-_
-томить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)
-,\n
-они=SPRO,pl=(acc|gen)
-_
-прочитывать=V=inpraes,sg,indic,2p,pf
-_
-на=PR=
-_
-чужой=A,plen=(abl,sg,m|abl,sg,n)
-_
-язык=S,m,inan=abl,sg
-\n
-и=CONJ=
-_
-подумать=V,pf,intr=inpraes,sg,indic,2p
-:_
-я=SPRO,sg,1p=(abl|dat)
-_
-серафима=S,persn,f,anim=(gen,sg|nom,pl)
-\n
-оснащать=V=inpraes,pl,indic,3p,ipf,tran
-_
-корабль=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-река=S,f,inan=(abl,sg|dat,sg)
-.\n\n
+{с=PR=} {первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {звук=S,m,inan=ins,sg}, {слетать=V,intr=(praet,dat,pl,partcp,plen,pf,act|praet,ins,sg,partcp,plen,m,pf,act|praet,ins,sg,partcp,plen,n,pf,act)} {с=PR=} {рояль=S,m,inan=gen,sg},
+{я=SPRO,sg,1p=nom} {шептать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(abl|dat)}: «{здравствовать=V,ipf,intr=sg,imper,2p}, {князь=S,m,anim=nom,sg}».
+{это=PART=} {ты=SPRO,sg,2p=nom}, {веселить=V,ipf,tran=inpraes,ger} {и=CONJ=} {печалить=V,ipf,tran=inpraes,ger},
+{надо=ADV,praed=} {я=SPRO,sg,1p=ins} {стоять=V,ipf,intr=inpraes,sg,indic,2p}, {наклонясь=ADV=},
+
+{но=CONJ=} {во=PR=} {взор=S,m,inan=abl,sg} {упорный=A=(abl,sg,plen,m|abl,sg,plen,n)} {и=CONJ=} {странный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{угадывать=V,tran=inf,pf} {ничто=SPRO,sg,n=gen} {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p},
+{только=PART=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(abl,sg,m|abl,sg,n)} {окаянный=A=(abl,sg,plen,m|abl,sg,plen,n)}
+{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {берег=S,m,inan=(dat,sg|loc,sg)}.
+
+{ты=SPRO,sg,2p=nom} {когда-нибудь=ADVPRO=}, {скука=S,f,inan=ins,sg} {томить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)},
+{они=SPRO,pl=(acc|gen)} {прочитывать=V=inpraes,sg,indic,2p,pf} {на=PR=} {чужой=A,plen=(abl,sg,m|abl,sg,n)} {язык=S,m,inan=abl,sg}
+{и=CONJ=} {подумать=V,pf,intr=inpraes,sg,indic,2p}: {я=SPRO,sg,1p=(abl|dat)} {серафима=S,persn,f,anim=(gen,sg|nom,pl)}
+{оснащать=V=inpraes,pl,indic,3p,ipf,tran} {корабль=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {река=S,f,inan=(abl,sg|dat,sg)}.
+

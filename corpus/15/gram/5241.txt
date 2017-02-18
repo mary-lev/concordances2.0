@@ -1,154 +1,20 @@
-я=SPRO,sg,1p=nom
-_
-слышать=V,ipf,tran=praet,sg,indic,m
-_
-о=PR=
-_
-светлый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-герой=S,m,anim=abl,sg
-,\n
-свободный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-от=PR=
-_
-всякий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-желание=S,n,inan=gen,pl
-,\n
-о=PR=
-_
-немой=A=sg,brev,m
-,_
-переходить=V,tran=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)
-_
-поток=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-лучистый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-застыть=V,pf,intr=praet,sg,indic,m
-_
-он=SPRO,sg,3p,m=nom
-_
-покой=S,m,inan=abl,sg
-,\n
-покидать=V,tran=praet,ger,pf
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-восклицание=S,n,inan=gen,pl
-\n
-для=PR=
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-несозданный=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-строка=S,f,inan=gen,pl
-.\n\n
-в=PR=
-_
-разрыв=S,m,inan=abl,pl
-_
-глубокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-край=S,m,inan=(dat,sg|loc,sg)
-_
-отодвигать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-давать=V,tran=praet,pl,indic,pf
-,\n
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-тайно=ADV=
-_
-колдовать=V,ipf,intr=inpraes,sg,indic,3p
-_
-судьба=S,f,inan=nom,sg
-.\n
-к=PR=
-_
-он=SPRO,sg,3p,m=dat
-_
-не=PART=
-_
-притрагиваться=V,intr=inpraes,pl,indic,3p,pf
-_
-буря=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-он=SPRO,sg,3p,m=(acc|gen)
-_
-не=PART=
-_
-касаться=V,intr=inpraes,pl,indic,3p,pf
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n
-он=SPRO,sg,3p,m=dat
-_
-не=PART=
-_
-знакомый=A=sg,brev,f
-_
-борьба=S,sg,f,inan=nom
-.\n\n
-с=PR=
-_
-бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-загадка=S,f,inan=ins,sg
-_
-во=PR=
-_
-взор=S,m,inan=abl,sg
-,\n
-он=SPRO,sg,3p,m=nom
-_
-выситься=V,ipf,intr=inpraes,sg,indic,3p
-_
-где-то=ADVPRO=
-_
-над=PR=
-_
-мы=SPRO,pl,1p=ins
-,\n
-в=PR=
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-отражать=V=praet,ger,pf
-_
-небосвод=S,m,inan=(acc,sg|nom,sg)
-.\n
-в=PR=
-_
-высоко=ADV=
--
-мятущийся=A,plen=(abl,sg,m|abl,sg,n)
-_
-море=S,n,inan=(abl,sg|acc,sg|nom,sg)
-\n
-он=SPRO,sg,3p,m=nom
-_
-остров=S,m,inan=(acc,sg|nom,sg)
-_
-забывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-_
-ветер=S,m,inan=ins,pl
-,\n
-среди=PR=
-_
-успокаивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-вода=S,f,inan=gen,pl
-.\n
+{я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=praet,sg,indic,m} {о=PR=} {светлый=A=(abl,sg,plen,m|abl,sg,plen,n)} {герой=S,m,anim=abl,sg},
+{свободный=A=(abl,sg,plen,m|abl,sg,plen,n)} {от=PR=} {всякий=APRO=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {желание=S,n,inan=gen,pl},
+{о=PR=} {немой=A=sg,brev,m}, {переходить=V,tran=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)} {поток=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {лучистый=A=(abl,sg,plen,m|abl,sg,plen,n)} {застыть=V,pf,intr=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {покой=S,m,inan=abl,sg},
+{покидать=V,tran=praet,ger,pf} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {восклицание=S,n,inan=gen,pl}
+{для=PR=} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {несозданный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {строка=S,f,inan=gen,pl}.
+
+{в=PR=} {разрыв=S,m,inan=abl,pl} {глубокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{в=PR=} {край=S,m,inan=(dat,sg|loc,sg)} {отодвигать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {давать=V,tran=praet,pl,indic,pf},
+{с=PR=} {он=SPRO,sg,3p,m=ins} {тайно=ADV=} {колдовать=V,ipf,intr=inpraes,sg,indic,3p} {судьба=S,f,inan=nom,sg}.
+{к=PR=} {он=SPRO,sg,3p,m=dat} {не=PART=} {притрагиваться=V,intr=inpraes,pl,indic,3p,pf} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{он=SPRO,sg,3p,m=(acc|gen)} {не=PART=} {касаться=V,intr=inpraes,pl,indic,3p,pf} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{он=SPRO,sg,3p,m=dat} {не=PART=} {знакомый=A=sg,brev,f} {борьба=S,sg,f,inan=nom}.
+
+{с=PR=} {бессмертный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {загадка=S,f,inan=ins,sg} {во=PR=} {взор=S,m,inan=abl,sg},
+{он=SPRO,sg,3p,m=nom} {выситься=V,ipf,intr=inpraes,sg,indic,3p} {где-то=ADVPRO=} {над=PR=} {мы=SPRO,pl,1p=ins},
+{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {отражать=V=praet,ger,pf} {небосвод=S,m,inan=(acc,sg|nom,sg)}.
+{в=PR=} {высоко=ADV=}-{мятущийся=A,plen=(abl,sg,m|abl,sg,n)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+{он=SPRO,sg,3p,m=nom} {остров=S,m,inan=(acc,sg|nom,sg)} {забывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {ветер=S,m,inan=ins,pl},
+{среди=PR=} {успокаивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {вода=S,f,inan=gen,pl}.

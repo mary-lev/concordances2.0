@@ -1,122 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-больше=ADV=
-_
-ни=PART=
-_
-во=PR=
-_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-,\n
-как=CONJ=
-_
-только=PART=
-_
-в=PR=
-_
-мука=S,f,inan=acc,sg
-_
-и=CONJ=
-_
-печаль=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-в=PR=
-_
-бесконечный=A=acc,sg,plen,f
-_
-потеря=S,f,inan=acc,sg
-,\n
-и=CONJ=
-_
-в=PR=
-_
-отнимать=V,tran=inpraes,acc,sg,partcp,plen,f,ipf,act
-_
-даль=S,f,inan=(acc,sg|nom,sg)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-быть=V,intr=praet,sg,indic,m,ipf
-,_
-как=CONJ=
-_
-все=SPRO,pl=(acc|nom)
-,_
-красивый=A=sg,brev,m
-_
-и=CONJ=
-_
-молодой=A=sg,brev,m
-,\n
-но=CONJ=
-_
-торжествовать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)
-_
-цветок=S,m,inan=(acc,sg|nom,sg)
-\n
-в=PR=
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-должный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-миг=S,m,inan=(acc,sg|nom,sg)
-_
-воспринимать=V=praet,sg,indic,m,pf
-_
-холод=S,m,inan=(acc,sg|nom,sg)
-\n
-и=CONJ=
-_
-много=ADV=comp
-_
-нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-быть=V,intr=inf,ipf
-_
-не=PART=
-_
-мочь=V,ipf,intr=praet,sg,indic,m
-.\n\n
-я=SPRO,sg,1p=(abl|dat)
-_
-никогда=ADVPRO=
-_
-не=PART=
-_
-вспыхивать=V,intr=inf,pf
-_
-снова=ADV=
-,\n
-себя=SPRO=(acc|gen)
-_
-и=CONJ=
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-веселить=V,ipf,tran=inpraes,ger
-,\n
-и=CONJ=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-низко=ADV=
-_
-и=CONJ=
-_
-свинцовый=A=sg,brev,n
-,\n
-и=CONJ=
-_
-весь=APRO=nom,sg,f
-_
-безрадостный=A=sg,brev,f
-_
-земля=S,f,inan=nom,sg
-.\n
+{я=SPRO,sg,1p=nom} {больше=ADV=} {ни=PART=} {во=PR=} {что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p},
+{как=CONJ=} {только=PART=} {в=PR=} {мука=S,f,inan=acc,sg} {и=CONJ=} {печаль=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {в=PR=} {бесконечный=A=acc,sg,plen,f} {потеря=S,f,inan=acc,sg},
+{и=CONJ=} {в=PR=} {отнимать=V,tran=inpraes,acc,sg,partcp,plen,f,ipf,act} {даль=S,f,inan=(acc,sg|nom,sg)}.
+
+{я=SPRO,sg,1p=nom} {быть=V,intr=praet,sg,indic,m,ipf}, {как=CONJ=} {все=SPRO,pl=(acc|nom)}, {красивый=A=sg,brev,m} {и=CONJ=} {молодой=A=sg,brev,m},
+{но=CONJ=} {торжествовать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {цветок=S,m,inan=(acc,sg|nom,sg)}
+{в=PR=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {должный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {миг=S,m,inan=(acc,sg|nom,sg)} {воспринимать=V=praet,sg,indic,m,pf} {холод=S,m,inan=(acc,sg|nom,sg)}
+{и=CONJ=} {много=ADV=comp} {нежный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {быть=V,intr=inf,ipf} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}.
+
+{я=SPRO,sg,1p=(abl|dat)} {никогда=ADVPRO=} {не=PART=} {вспыхивать=V,intr=inf,pf} {снова=ADV=},
+{себя=SPRO=(acc|gen)} {и=CONJ=} {взор=S,m,inan=(acc,pl|nom,pl)} {веселить=V,ipf,tran=inpraes,ger},
+{и=CONJ=} {небо=S,n,inan=(acc,sg|nom,sg)} {низко=ADV=} {и=CONJ=} {свинцовый=A=sg,brev,n},
+{и=CONJ=} {весь=APRO=nom,sg,f} {безрадостный=A=sg,brev,f} {земля=S,f,inan=nom,sg}.

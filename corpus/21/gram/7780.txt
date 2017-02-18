@@ -1,64 +1,9 @@
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-среди=PR=
-_
-речной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-излучина=S,f,inan=gen,pl
-,_\n
-при=PR=
-_
-клика=S,f,inan=abl,pl
-_
-поздний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-журавль=S,m,anim=(acc,pl|gen,pl)
-,_\n
-сегодня=ADV=
-_
-снова=ADV=
-_
-я=SPRO,sg,1p=nom
-_
-научать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_\n
-безмолвный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-поле=S,n,inan=gen,pl
-.\n\n
-и=CONJ=
-_
-становиться=V,intr=praet,pl,indic,pf
-_
-мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-тайный=A=comp
-,_
-строгий=A=comp
-,_\n
-и=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-робкий=A=comp
-_
-шелест=S,m,inan=(acc,sg|nom,sg)
-_
-тростник=S,m,inan=gen,sg
-._\n
-опадать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)
-_
-лист=S,m,inan=(acc,sg|nom,sg)
-_
-в=PR=
-_
-песчаный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_\n
-хоронить=V,ipf,tran=inpraes,sg,indic,3p
-_
-хмурый=A=nom,sg,plen,f
-_
-река=S,f,inan=nom,sg
-.\n
+{один=APRO=(acc,sg,m,inan|nom,sg,m)}, {среди=PR=} {речной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {излучина=S,f,inan=gen,pl}, 
+{при=PR=} {клика=S,f,inan=abl,pl} {поздний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {журавль=S,m,anim=(acc,pl|gen,pl)}, 
+{сегодня=ADV=} {снова=ADV=} {я=SPRO,sg,1p=nom} {научать=V,tran=praet,sg,partcp,brev,m,pf,pass} 
+{безмолвный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {поле=S,n,inan=gen,pl}.
+
+{и=CONJ=} {становиться=V,intr=praet,pl,indic,pf} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {тайный=A=comp}, {строгий=A=comp}, 
+{и=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {робкий=A=comp} {шелест=S,m,inan=(acc,sg|nom,sg)} {тростник=S,m,inan=gen,sg}. 
+{опадать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {лист=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {песчаный=A=(abl,sg,plen,m|abl,sg,plen,n)} {ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+{хоронить=V,ipf,tran=inpraes,sg,indic,3p} {хмурый=A=nom,sg,plen,f} {река=S,f,inan=nom,sg}.

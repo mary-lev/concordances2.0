@@ -1,134 +1,18 @@
-я=SPRO,sg,1p=(abl|dat)
-_
-все=SPRO,pl=(acc|nom)
-_
-твой=APRO=nom,sg,f
-_
-мерещиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-работа=S,f,inan=nom,sg
-,\n
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-благословенный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-труд=S,m,inan=(acc,pl|nom,pl)
-:\n
-липа=S,f,inan=gen,pl
-,_
-навсегда=ADV=
-_
-осенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_
-позолота=S,f,inan=nom,sg
-\n
-и=CONJ=
-_
-синь=S,f,inan=(acc,sg|nom,sg)
-_
-сегодня=ADV=
-_
-создавать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-вода=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-подумать=V,pf,intr=sg,imper,2p
-,_
-и=CONJ=
-_
-тонкий=A=nom,sg,plen,supr,f
-_
-дремота=S,f,inan=nom,sg
-\n
-уже=ADV=
-_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-в=PR=
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-сад=S,m,inan=(acc,pl|nom,pl)
-,\n
-где=ADVPRO=
-,_
-каждый=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-пугаться=V,ipf,intr=inpraes,ger
-_
-поворот=S,m,inan=gen,sg
-,\n
-в=PR=
-_
-беспамятство=S,n,inan=abl,sg
-_
-искать=V,ipf,tran=inpraes,sg,indic,1p
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-след=S,m,inan=(acc,pl|nom,pl)
-.\n\n
-входить=V,intr=inpraes,sg,indic,1p,pf
-_
-ли=PART=
-_
-я=SPRO,sg,1p=nom
-_
-под=PR=
-_
-свод=S,m,inan=(acc,sg|nom,sg)
-_
-преображать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)
-,\n
-твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-рука=S,f,inan=ins,sg
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-превращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)
-,\n
-чтоб=CONJ=
-_
-остужаться=V,intr=praet,sg,indic,m,pf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-постылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-жар=S,sg,m,inan=(acc|nom)
-?..\n\n
-там=ADVPRO=
-_
-становиться=V,intr=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-блаженный=A=ins,sg,plen,f
-_
-навеки=ADV=
-\n
-и=CONJ=
-,_
-раскалять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)
-_
-смежать=V,tran=inpraes,ger,ipf
-_
-веко=S,n,inan=(acc,pl|nom,pl)
-,\n
-там=ADVPRO=
-_
-снова=ADV=
-_
-обретать=V=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-.\n\n
+{я=SPRO,sg,1p=(abl|dat)} {все=SPRO,pl=(acc|nom)} {твой=APRO=nom,sg,f} {мерещиться=V,ipf,intr=inpraes,sg,indic,3p} {работа=S,f,inan=nom,sg},
+{твой=APRO=(nom,pl|acc,pl,inan)} {благословенный=A=(acc,pl,plen,inan|nom,pl,plen)} {труд=S,m,inan=(acc,pl|nom,pl)}:
+{липа=S,f,inan=gen,pl}, {навсегда=ADV=} {осенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {позолота=S,f,inan=nom,sg}
+{и=CONJ=} {синь=S,f,inan=(acc,sg|nom,sg)} {сегодня=ADV=} {создавать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{подумать=V,pf,intr=sg,imper,2p}, {и=CONJ=} {тонкий=A=nom,sg,plen,supr,f} {дремота=S,f,inan=nom,sg}
+{уже=ADV=} {вести=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)} {в=PR=} {твой=APRO=(nom,pl|acc,pl,inan)} {сад=S,m,inan=(acc,pl|nom,pl)},
+{где=ADVPRO=}, {каждый=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {пугаться=V,ipf,intr=inpraes,ger} {поворот=S,m,inan=gen,sg},
+{в=PR=} {беспамятство=S,n,inan=abl,sg} {искать=V,ipf,tran=inpraes,sg,indic,1p} {твой=APRO=(nom,pl|acc,pl,inan)} {след=S,m,inan=(acc,pl|nom,pl)}.
+
+{входить=V,intr=inpraes,sg,indic,1p,pf} {ли=PART=} {я=SPRO,sg,1p=nom} {под=PR=} {свод=S,m,inan=(acc,sg|nom,sg)} {преображать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan,tran|praet,nom,sg,partcp,plen,m,pf,pass,tran)},
+{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рука=S,f,inan=ins,sg} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {превращать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+{чтоб=CONJ=} {остужаться=V,intr=praet,sg,indic,m,pf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {постылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жар=S,sg,m,inan=(acc|nom)}?..
+
+{там=ADVPRO=} {становиться=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {блаженный=A=ins,sg,plen,f} {навеки=ADV=}
+{и=CONJ=}, {раскалять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {смежать=V,tran=inpraes,ger,ipf} {веко=S,n,inan=(acc,pl|nom,pl)},
+{там=ADVPRO=} {снова=ADV=} {обретать=V=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {слезный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дар=S,m,inan=(acc,sg|nom,sg)}.
+

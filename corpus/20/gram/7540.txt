@@ -1,120 +1,14 @@
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-бывать=V,ipf,intr=inpraes,sg,indic,3p
-,_
-не=PART=
-_
-исчезать=V,intr=inpraes,sg,indic,3p,ipf
-.\n
-пусть=PART=
-_
-миновать=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)
-,_
-но=CONJ=
-_
-не=PART=
-_
-проходить=V,intr=praet,sg,indic,n,pf
-.\n\t
-лунный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-,\n\t
-лунный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-праздно=ADV=
--
-светло=ADV=
-.\n\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мелькнуть=V,pf,intr=praet,sg,indic,n
-,_\u2014_
-новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-вернуться=V,pf,intr=inpraes,sg,indic,3p
-.\n
-осень=S,f,inan=(acc,sg|nom,sg)
-_
-сегодня=ADV=
-_\u2014_
-завтра=ADV=
-_
-весна=S,f,inan=nom,sg
-...\n\t
-звездоубийца?=S,mf,anim=nom,sg
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-смеяться=V,ipf,intr=inpraes,sg,indic,3p
-,\n\t
-звездоубийца?=S,mf,anim=nom,sg
-,_
-злой=A=nom,sg,plen,f
-_
-луна=S,f,inan=nom,sg
-.\n\n
-в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-явь=S,f,inan=(acc,sg|nom,sg)
-_
-превращать=V,tran=inpraes,sg,indic,1p,pf
-_
-я=SPRO,sg,1p=nom
-_
-воля=S,f,inan=ins,sg
-_
-мой=APRO=ins,sg,f
-\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=(acc|nom)
-_
-мерцать=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-тающий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-сон=S,m,inan=abl,sg
-.\n
-сердце=S,n,inan=dat,sg
-_
-ль=PART=
-_
-не=PART=
-_
-верить=V,ipf,intr=inf
-?_
-я=SPRO,sg,1p=nom
-_
-ль=PART=
-_
-не=PART=
-_
-посметь=V,pf,intr=inpraes,sg,indic,1p
-?\n\t
-только=PART=
-_
-не=PART=
-_
-надо=ADV,praed=
-_
-верить=V,ipf,intr=inf
-_
-луна=S,f,inan=(abl,sg|dat,sg)
-.\n
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {бывать=V,ipf,intr=inpraes,sg,indic,3p}, {не=PART=} {исчезать=V,intr=inpraes,sg,indic,3p,ipf}.
+{пусть=PART=} {миновать=V,tran=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)}, {но=CONJ=} {не=PART=} {проходить=V,intr=praet,sg,indic,n,pf}.
+	{лунный=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p},
+	{лунный=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)} {праздно=ADV=}-{светло=ADV=}.
+
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {мелькнуть=V,pf,intr=praet,sg,indic,n}, — {новый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вернуться=V,pf,intr=inpraes,sg,indic,3p}.
+{осень=S,f,inan=(acc,sg|nom,sg)} {сегодня=ADV=} — {завтра=ADV=} {весна=S,f,inan=nom,sg}...
+	{звездоубийца?=S,mf,anim=nom,sg} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {смеяться=V,ipf,intr=inpraes,sg,indic,3p},
+	{звездоубийца?=S,mf,anim=nom,sg}, {злой=A=nom,sg,plen,f} {луна=S,f,inan=nom,sg}.
+
+{в=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {явь=S,f,inan=(acc,sg|nom,sg)} {превращать=V,tran=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {воля=S,f,inan=ins,sg} {мой=APRO=ins,sg,f}
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {мерцать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {тающий=A=(abl,sg,plen,m|abl,sg,plen,n)} {сон=S,m,inan=abl,sg}.
+{сердце=S,n,inan=dat,sg} {ль=PART=} {не=PART=} {верить=V,ipf,intr=inf}? {я=SPRO,sg,1p=nom} {ль=PART=} {не=PART=} {посметь=V,pf,intr=inpraes,sg,indic,1p}?
+	{только=PART=} {не=PART=} {надо=ADV,praed=} {верить=V,ipf,intr=inf} {луна=S,f,inan=(abl,sg|dat,sg)}.

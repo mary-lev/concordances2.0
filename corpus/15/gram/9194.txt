@@ -1,106 +1,14 @@
-зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-\n
-литовец=S,m,anim=nom,pl
-_
-разный=A=sg,brev,n
-_
-чтить=V,ipf=praet,pl,indic,tran
-.\n
-в=PR=
-_
-зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-видеть=V,ipf,tran=praet,pl,indic
-_
-расцвет=S,m,inan=(acc,sg|nom,sg)
-,\n
-блаженство=S,n,inan=(acc,sg|nom,sg)
-_
-изобилие=S,n,inan=gen,pl
-.\n\n
-в=PR=
-_
-горение=S,n,inan=abl,sg
-_
-красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_\u2014_
-война=S,f,inan=acc,sg
-,\n
-а=CONJ=
-_
-в=PR=
-_
-черный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_\u2014_
-ведьма=S,f,anim=acc,sg
-_
-злой=A=acc,sg,plen,f
-.\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-сонм=S,m,inan=(acc,pl|nom,pl)
-_
-душа=S,f,inan=gen,pl
-_
-вести=V,ipf,tran=inpraes,sg,indic,3p
-_
-ко=PR=
-_
-сон=S,m,inan=dat,sg
-\n
-чрез=PR=
-_
-язва=S,f,inan=acc,sg
-_
-моровой=A=acc,sg,plen,f
-.\n\n
-я=SPRO,sg,1p=nom
-_
-весь=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-весна=S,f,inan=nom,sg
-_\u2014_
-ведь=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-поэт=S,m,anim=nom,sg
-,\n
-и=CONJ=
-_
-я=SPRO,sg,1p=nom
-_
-война=S,f,inan=nom,sg
-_\u2014_
-я=SPRO,sg,1p=nom
-_
-ранить=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-но=CONJ=
-_
-в=PR=
-_
-три=NUM=(abl|gen|acc,anim)
-_
-цветок=S,m,inan=abl,pl
-_
-лишь=PART=
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-,\n
-я=SPRO,sg,1p=(abl|dat)
-_
-черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-цвет=S,m,inan=(acc,sg|nom,sg)
-_
-желанный=A=sg,brev,m
-.\n
+{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)}
+{литовец=S,m,anim=nom,pl} {разный=A=sg,brev,n} {чтить=V,ipf=praet,pl,indic,tran}.
+{в=PR=} {зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)} {видеть=V,ipf,tran=praet,pl,indic} {расцвет=S,m,inan=(acc,sg|nom,sg)},
+{блаженство=S,n,inan=(acc,sg|nom,sg)} {изобилие=S,n,inan=gen,pl}.
+
+{в=PR=} {горение=S,n,inan=abl,sg} {красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} — {война=S,f,inan=acc,sg},
+{а=CONJ=} {в=PR=} {черный=A=(abl,sg,plen,m|abl,sg,plen,n)} — {ведьма=S,f,anim=acc,sg} {злой=A=acc,sg,plen,f}.
+{что=SPRO,sg,n,inan=(acc|nom)} {сонм=S,m,inan=(acc,pl|nom,pl)} {душа=S,f,inan=gen,pl} {вести=V,ipf,tran=inpraes,sg,indic,3p} {ко=PR=} {сон=S,m,inan=dat,sg}
+{чрез=PR=} {язва=S,f,inan=acc,sg} {моровой=A=acc,sg,plen,f}.
+
+{я=SPRO,sg,1p=nom} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {весна=S,f,inan=nom,sg} — {ведь=CONJ=} {я=SPRO,sg,1p=nom} {поэт=S,m,anim=nom,sg},
+{и=CONJ=} {я=SPRO,sg,1p=nom} {война=S,f,inan=nom,sg} — {я=SPRO,sg,1p=nom} {ранить=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{но=CONJ=} {в=PR=} {три=NUM=(abl|gen|acc,anim)} {цветок=S,m,inan=abl,pl} {лишь=PART=} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)},
+{я=SPRO,sg,1p=(abl|dat)} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)} {желанный=A=sg,brev,m}.

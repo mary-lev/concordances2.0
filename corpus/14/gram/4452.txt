@@ -1,24 +1,3 @@
-ленинградский=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-голубой=A=(acc,pl,plen,inan|nom,pl,plen)
-,\n
-три=NUM=(nom|acc,inan)
-_
-год=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-глядеть=V,ipf,tran=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)
-,\n
-взглядывать=V,intr=pl,imper,2p,pf
-_
-с=PR=
-_
-небо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
+{ленинградский=A=(acc,pl,plen,inan|nom,pl,plen)} {голубой=A=(acc,pl,plen,inan|nom,pl,plen)},
+{три=NUM=(nom|acc,inan)} {год=S,m,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {глядеть=V,ipf,tran=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)},
+{взглядывать=V,intr=pl,imper,2p,pf} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.

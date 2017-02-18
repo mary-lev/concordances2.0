@@ -1,70 +1,8 @@
-это=SPRO,sg,n,inan=(acc|nom)
-_
-и=CONJ=
-_
-не=PART=
-_
-старый=A=sg,brev,n
-,_
-и=CONJ=
-_
-не=PART=
-_
-новый=A=sg,brev,n
-,\n
-ничто=SPRO,sg,n=gen
-_
-нет=ADV,praed=
-_
-сказочный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-тут=ADVPRO=
-.\n
-как=CONJ=
-_
-отрепьев=S,famn,m,anim=(acc,sg|gen,sg)
-_
-и=CONJ=
-_
-пугачева=S,famn,f,anim=nom,sg
-,\n
-так=ADVPRO=
-_
-я=SPRO,sg,1p=(acc|gen)
-_
-тринадцать=NUM=(acc|nom)
-_
-год=S,m,inan=gen,pl
-_
-клясть=V,ipf,tran=inpraes,pl,indic,3p
-.\n
-неуклонно=ADV=
-,_
-тупо=ADV=
-_
-и=CONJ=
-_
-жестоко=ADV=
-\n
-и=CONJ=
-_
-неодолимый=A=sg,brev,n
-,_
-как=CONJ=
-_
-гранит=S,m,inan=(acc,sg|nom,sg)
-,\n
-от=PR=
-_
-либава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-до=PR=
-_
-владивосток=S,geo,m,inan=gen,sg
-\n
-грозный=A=nom,sg,plen,f
-_
-анафема=S,f,inan=nom,sg
-_
-гудеть=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+{это=SPRO,sg,n,inan=(acc|nom)} {и=CONJ=} {не=PART=} {старый=A=sg,brev,n}, {и=CONJ=} {не=PART=} {новый=A=sg,brev,n},
+{ничто=SPRO,sg,n=gen} {нет=ADV,praed=} {сказочный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {тут=ADVPRO=}.
+{как=CONJ=} {отрепьев=S,famn,m,anim=(acc,sg|gen,sg)} {и=CONJ=} {пугачева=S,famn,f,anim=nom,sg},
+{так=ADVPRO=} {я=SPRO,sg,1p=(acc|gen)} {тринадцать=NUM=(acc|nom)} {год=S,m,inan=gen,pl} {клясть=V,ipf,tran=inpraes,pl,indic,3p}.
+{неуклонно=ADV=}, {тупо=ADV=} {и=CONJ=} {жестоко=ADV=}
+{и=CONJ=} {неодолимый=A=sg,brev,n}, {как=CONJ=} {гранит=S,m,inan=(acc,sg|nom,sg)},
+{от=PR=} {либава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {до=PR=} {владивосток=S,geo,m,inan=gen,sg}
+{грозный=A=nom,sg,plen,f} {анафема=S,f,inan=nom,sg} {гудеть=V,ipf,intr=inpraes,sg,indic,3p}.

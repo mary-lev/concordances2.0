@@ -1,98 +1,14 @@
-быть=V,intr=praet,sg,indic,m,ipf
-_
-блаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-колыбель=S,f,inan=ins,sg
-_\n
-темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-город=S,m,inan=(acc,sg|nom,sg)
-_
-у=PR=
-_
-грозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-и=CONJ=
-_
-торжественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-брачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-постель=S,f,inan=ins,sg
-,_\n
-над=PR=
-_
-который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-держать=V,ipf,tran=praet,pl,indic
-_
-венок=S,m,inan=(acc,pl|nom,pl)
-_\n
-молодой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-серафима=S,persn,f,anim=(gen,sg|nom,pl)
-,_\u2014_\n
-город=S,m,inan=(acc,sg|nom,sg)
-,_
-горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-любовь=S,f,inan=ins,sg
-_
-любимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n\n
-солея=S,f,inan=ins,sg
-_
-моление=S,n,inan=gen,pl
-_
-мой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-\n
-быть=V,intr=praet,sg,indic,m,ipf
-_
-ты=SPRO,sg,2p=nom
-,_
-строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,_
-туманный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-.\n
-там=ADVPRO=
-_
-впервые=ADV=
-_
-представать=V,intr=praet,sg,indic,m,pf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-жених=S,m,anim=nom,sg
-,\n
-указывать=V=praet,ger,pf
-_
-мой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)
-,\n
-и=CONJ=
-_
-печальный=A=nom,sg,plen,f
-_
-муза=S,f,anim=nom,sg
-_
-мой=APRO=nom,sg,f
-,\n
-как=CONJ=
-_
-слепой=A=acc,sg,plen,f
-,_
-водить=V,ipf,tran=praet,sg,indic,f
-_
-я=SPRO,sg,1p=(acc|gen)
-.\n\n
+{быть=V,intr=praet,sg,indic,m,ipf} {блаженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {колыбель=S,f,inan=ins,sg} 
+{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {город=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {грозный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+{и=CONJ=} {торжественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {брачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {постель=S,f,inan=ins,sg}, 
+{над=PR=} {который=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {держать=V,ipf,tran=praet,pl,indic} {венок=S,m,inan=(acc,pl|nom,pl)} 
+{молодой=A=(acc,pl,plen,inan|nom,pl,plen)} {твой=APRO=(nom,pl|acc,pl,inan)} {серафима=S,persn,f,anim=(gen,sg|nom,pl)}, — 
+{город=S,m,inan=(acc,sg|nom,sg)}, {горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {любовь=S,f,inan=ins,sg} {любимый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+
+{солея=S,f,inan=ins,sg} {моление=S,n,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)}
+{быть=V,intr=praet,sg,indic,m,ipf} {ты=SPRO,sg,2p=nom}, {строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {туманный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+{там=ADVPRO=} {впервые=ADV=} {представать=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=(abl|dat)} {жених=S,m,anim=nom,sg},
+{указывать=V=praet,ger,pf} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)},
+{и=CONJ=} {печальный=A=nom,sg,plen,f} {муза=S,f,anim=nom,sg} {мой=APRO=nom,sg,f},
+{как=CONJ=} {слепой=A=acc,sg,plen,f}, {водить=V,ipf,tran=praet,sg,indic,f} {я=SPRO,sg,1p=(acc|gen)}.
+

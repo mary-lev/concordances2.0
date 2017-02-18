@@ -1,138 +1,19 @@
-любовь=S,f,inan=(acc,sg|nom,sg)
-_
-твой=APRO=nom,sg,f
-_
-жаждать=V,ipf,intr=inpraes,sg,indic,3p
-_
-так=ADVPRO=
-_
-много=ADV,praed=
-,\n
-рыдать=V,ipf,intr=inpraes,ger
-,_
-просить=V,ipf,tran=inpraes,ger
-,_
-упрекать=V,tran=inpraes,ger,ipf
-...\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-молча=ADV=
-_
-и=CONJ=
-_
-строго=ADV=
-,\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-,_
-медленно=ADV=
-_
-таить=V,ipf,tran=inpraes,ger
-.\n\n
-светить=V,ipf,intr=sg,imper,2p
-_
-он=SPRO,sg,3p,m=dat
-_
-пламень=S,inan=ins,sg,n
-_
-белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_-\n
-бездымно=ADV=
-,_
-безгрустно?=ADV=
-,_
-безвольный=A=sg,brev,n
-.\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-радостно=ADV=
-_
-тело=S,n,inan=ins,sg
-,\n
-а=CONJ=
-_
-сердце=S,n,inan=ins,sg
-_
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-больно=ADV=
-.\n\n
-пусть=PART=
-_
-призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)
-,_
-творить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)
-_
-любовь=S,f,inan=ins,sg
-,\n
-лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-не=PART=
-_
-заслонять=V,tran=inpraes,sg,indic,3p,pf
-_
-иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,_-\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-с=PR=
-_
-плоть=S,f,inan=ins,sg
-_
-и=CONJ=
-_
-кровь=S,f,inan=ins,sg
-_-\n
-простой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-,_
-земной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-...\n\n
-хранить=V,ipf,tran=inpraes,ger
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-знак=S,m,inan=(acc,sg|nom,sg)
-_
-суеверно=ADV=
-,\n
-не=PART=
-_
-бояться=V,ipf,intr=sg,imper,2p
-_
-враг=S,m,anim=(acc,sg|gen,sg)
-_
-в=PR=
-_
-иноверец=S,m,anim=abl,sg
-...\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-метко=ADV=
-_
-и=CONJ=
-_
-верно=ADV,parenth=
-_-\n
-любить=V,ipf,tran=sg,imper,2p
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-в=PR=
-_
-самый=APRO=(acc,sg,n|nom,sg,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
+{любовь=S,f,inan=(acc,sg|nom,sg)} {твой=APRO=nom,sg,f} {жаждать=V,ipf,intr=inpraes,sg,indic,3p} {так=ADVPRO=} {много=ADV,praed=},
+{рыдать=V,ipf,intr=inpraes,ger}, {просить=V,ipf,tran=inpraes,ger}, {упрекать=V,tran=inpraes,ger,ipf}...
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {молча=ADV=} {и=CONJ=} {строго=ADV=},
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)}, {медленно=ADV=} {таить=V,ipf,tran=inpraes,ger}.
+
+{светить=V,ipf,intr=sg,imper,2p} {он=SPRO,sg,3p,m=dat} {пламень=S,inan=ins,sg,n} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} -
+{бездымно=ADV=}, {безгрустно?=ADV=}, {безвольный=A=sg,brev,n}.
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {радостно=ADV=} {тело=S,n,inan=ins,sg},
+{а=CONJ=} {сердце=S,n,inan=ins,sg} {любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {больно=ADV=}.
+
+{пусть=PART=} {призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)}, {творить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)} {любовь=S,f,inan=ins,sg},
+{лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {заслонять=V,tran=inpraes,sg,indic,3p,pf} {иной=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}, -
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {с=PR=} {плоть=S,f,inan=ins,sg} {и=CONJ=} {кровь=S,f,inan=ins,sg} -
+{простой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {живой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {земной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}...
+
+{хранить=V,ipf,tran=inpraes,ger} {он=SPRO,sg,3p,m=(acc|gen)} {знак=S,m,inan=(acc,sg|nom,sg)} {суеверно=ADV=},
+{не=PART=} {бояться=V,ipf,intr=sg,imper,2p} {враг=S,m,anim=(acc,sg|gen,sg)} {в=PR=} {иноверец=S,m,anim=abl,sg}...
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {метко=ADV=} {и=CONJ=} {верно=ADV,parenth=} -
+{любить=V,ipf,tran=sg,imper,2p} {он=SPRO,sg,3p,m=(acc|gen)} {в=PR=} {самый=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}!

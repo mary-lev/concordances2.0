@@ -1,144 +1,24 @@
-житься=V,ipf,intr=inpraes,sg,indic,3p
-_
-мы=SPRO,pl,1p=dat
-_
-не=PART=
-_
-плохо=ADV=
-:\n
-водица=S,f,inan=nom,sg
-_
-да=CONJ=
-_
-песок=S,m,inan=(acc,sg|nom,sg)
-...\n
-к=PR=
-_
-земля=S,f,inan=(abl,sg|dat,sg)
-_
-чего=ADVPRO=
-_
-же=PART=
-_
-охать=V,ipf,intr=inf
-,\n
-а=CONJ=
-_
-к=PR=
-_
-бог=S,m,anim=dat,sg
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-высокий=A=sg,brev,m
-!\n\n
-не=PART=
-_
-больной=A=sg,brev,m
-,_
-не=PART=
-_
-утапливать=V,tran=praet,sg,partcp,brev,m,pf,pass
-,\n
-не=PART=
-_
-спятить=V,pf,intr=praet,sg,indic,m
-,_
-не=PART=
-_
-убивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-!\n
-не=PART=
-_
-знать=V,ipf,tran=inpraes,sg,indic,3p
-_
-вовсе=ADV=
-_
-вопль=S,m,inan=gen,pl
-\n
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-кроликовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-скит=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-молиться=V,ipf,intr=inf
-_
-вздумать=V,pf,intr=praet,sg,indic,m
-,_
-милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-?\n(
-кочан=S,m,inan=(acc,sg|nom,sg)
-_
-зайчонок=S,m,anim=nom,sg
-_
-есть=V,ipf,tran=inpraes,sg,indic,3p
-.)\n
-над=PR=
-_
-каждый=APRO=ins,sg,f
-_
-могила=S,f,inan=ins,sg
-\n
-поставлять=V,tran=inpraes,pl,indic,3p,pf
-_
-свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-крест=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-оконце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-слюдяной=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-тепло=ADV=
-_
-лазурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-льдина=S,f,inan=gen,pl
-!\n
-когда=CONJ=
-_
-на=PR=
-_
-свет=S,sg,m,inan=abl
-_
-двое=NUM=(nom|acc,inan)
-,\n
-то=SPRO,sg,n,inan=(acc|nom)
-_
-значит=ADV,parenth=
-_\u2014_
-не=PART=
-_
-один=APRO=(acc,sg,m,inan|nom,sg,m)
-.\n\n
-а=CONJ=
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-_
-быть=V,intr=inf,ipf
-,_
-и=CONJ=
-_
-третий=ANUM=(acc,sg,m,inan|nom,sg,m)
-\n
-невидимый=A=sg,brev,n
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-кто=SPRO,sg,m,anim=(acc|gen)
-_
-он=SPRO,sg,3p,m=nom
-_
-раз=S,m,inan=(acc,sg|gen,pl|nom,sg)
-_
-привечать=V,tran=praet,sg,indic,m,pf
-,\n
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-сирый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-не=PART=
-_
-умирать=V,intr=inpraes,sg,indic,3p,pf
-.\n
+{житься=V,ipf,intr=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat} {не=PART=} {плохо=ADV=}:
+{водица=S,f,inan=nom,sg} {да=CONJ=} {песок=S,m,inan=(acc,sg|nom,sg)}...
+{к=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {чего=ADVPRO=} {же=PART=} {охать=V,ipf,intr=inf},
+{а=CONJ=} {к=PR=} {бог=S,m,anim=dat,sg} {путь=S,m,inan=(acc,sg|nom,sg)} {высокий=A=sg,brev,m}!
+
+{не=PART=} {больной=A=sg,brev,m}, {не=PART=} {утапливать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+{не=PART=} {спятить=V,pf,intr=praet,sg,indic,m}, {не=PART=} {убивать=V,tran=praet,sg,partcp,brev,m,pf,pass}!
+{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p} {вовсе=ADV=} {вопль=S,m,inan=gen,pl}
+{наш=APRO=(acc,sg,m,inan|nom,sg,m)} {кроликовый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {скит=S,m,inan=(acc,sg|nom,sg)}.
+
+{молиться=V,ipf,intr=inf} {вздумать=V,pf,intr=praet,sg,indic,m}, {милый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}?
+({кочан=S,m,inan=(acc,sg|nom,sg)} {зайчонок=S,m,anim=nom,sg} {есть=V,ipf,tran=inpraes,sg,indic,3p}.)
+{над=PR=} {каждый=APRO=ins,sg,f} {могила=S,f,inan=ins,sg}
+{поставлять=V,tran=inpraes,pl,indic,3p,pf} {свежий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крест=S,m,inan=(acc,sg|nom,sg)}.
+
+{оконце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {слюдяной=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{тепло=ADV=} {лазурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {льдина=S,f,inan=gen,pl}!
+{когда=CONJ=} {на=PR=} {свет=S,sg,m,inan=abl} {двое=NUM=(nom|acc,inan)},
+{то=SPRO,sg,n,inan=(acc|nom)} {значит=ADV,parenth=} — {не=PART=} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.
+
+{а=CONJ=} {мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {и=CONJ=} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)}
+{невидимый=A=sg,brev,n} {жить=V,ipf,intr=inpraes,sg,indic,3p}.
+{кто=SPRO,sg,m,anim=(acc|gen)} {он=SPRO,sg,3p,m=nom} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {привечать=V,tran=praet,sg,indic,m,pf},
+{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {сирый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {не=PART=} {умирать=V,intr=inpraes,sg,indic,3p,pf}.

@@ -1,92 +1,19 @@
-анютин=A,plen,poss=(nom,pl|acc,pl,inan)
-_
-глазок=S,m,inan=(acc,pl|nom,pl)
-,\n
-жасмин=S,m,inan=(acc,sg|nom,sg)
-,_
-маргаритка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-вы=SPRO,pl,2p=nom
-_\u2014_
-буква=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-на=PR=
-_
-свиток=S,m,inan=abl,sg
-\n
-поблекнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)
-_
-сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-где-то=ADVPRO=
-_
-дышать=V,ipf,intr=praet,pl,indic
-,\n
-кто-то=SPRO,sg,m,anim=dat
-_
-светить=V,ipf,intr=praet,pl,indic
-,\n
-без=PR=
-_
-слеза=S,f,inan=gen,pl
-,_
-без=PR=
-_
-печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n
-вы=SPRO,pl,2p=nom
-_
-жить=V,ipf,intr=praet,pl,indic
-,_
-вы=SPRO,pl,2p=nom
-_
-быть=V,intr=praet,pl,indic,ipf
-.\n\n
-и=CONJ=
-_
-вот=PART=
-_
-чрез=PR=
-_
-мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-воздушный=A=pl,brev
-_
-и=CONJ=
-_
-зыбкий=A=pl,brev
-,\n
-вы=SPRO,pl,2p=nom
-_
-слать=V,ipf,tran=inpraes,pl,indic,2p
-_
-сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
-дарить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)
-_
-улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-вы=SPRO,pl,2p=nom
-_
-слать=V,ipf,tran=inpraes,pl,indic,2p
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-бессмертный=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-избыток=S,m,inan=abl,sg
-,\n
-жасмин=S,m,inan=(acc,sg|nom,sg)
-,_
-маргаритка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-анютин=A,plen,poss=(nom,pl|acc,pl,inan)
-_
-глазок=S,m,inan=(acc,pl|nom,pl)
-.\n
+{анютин=A,plen,poss=(nom,pl|acc,pl,inan)} {глазок=S,m,inan=(acc,pl|nom,pl)},
+{жасмин=S,m,inan=(acc,sg|nom,sg)}, {маргаритка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{вы=SPRO,pl,2p=nom} — {буква=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {свиток=S,m,inan=abl,sg}
+{поблекнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {сказка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{вы=SPRO,pl,2p=nom} {где-то=ADVPRO=} {дышать=V,ipf,intr=praet,pl,indic},
+{кто-то=SPRO,sg,m,anim=dat} {светить=V,ipf,intr=praet,pl,indic},
+{без=PR=} {слеза=S,f,inan=gen,pl}, {без=PR=} {печаль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+{вы=SPRO,pl,2p=nom} {жить=V,ipf,intr=praet,pl,indic}, {вы=SPRO,pl,2p=nom} {быть=V,intr=praet,pl,indic,ipf}.
+
+{и=CONJ=} {вот=PART=} {чрез=PR=} {мечтание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{воздушный=A=pl,brev} {и=CONJ=} {зыбкий=A=pl,brev},
+{вы=SPRO,pl,2p=nom} {слать=V,ipf,tran=inpraes,pl,indic,2p} {сияние=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+{дарить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {улыбка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{вы=SPRO,pl,2p=nom} {слать=V,ipf,tran=inpraes,pl,indic,2p} {я=SPRO,sg,1p=(abl|dat)} {ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {бессмертный=A=(abl,sg,plen,m|abl,sg,plen,n)} {избыток=S,m,inan=abl,sg},
+{жасмин=S,m,inan=(acc,sg|nom,sg)}, {маргаритка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{анютин=A,plen,poss=(nom,pl|acc,pl,inan)} {глазок=S,m,inan=(acc,pl|nom,pl)}.

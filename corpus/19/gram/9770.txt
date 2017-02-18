@@ -1,94 +1,14 @@
-чем=CONJ=
-_
-глубоко=ADV=comp
-_
-в=PR=
-_
-себя=SPRO=(acc|gen)
-_
-погружаться=V,intr=inpraes,sg,indic,1p,ipf
-,\n
-тем=CONJ=
-_
-хорошо=ADV=comp,parenth
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-_
-познавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)
-,\n
-и=CONJ=
-_
-с=PR=
-_
-мир=S,m,inan=ins,sg
-_
-полно=ADV=comp
-_
-сообщаться=V,intr=inpraes,sg,indic,1p,ipf
-\n
-чрез=PR=
-_
-грешный=A=acc,sg,plen,f
-_
-душа=S,f,inan=acc,sg
-_
-свой=APRO=acc,sg,f
-.\n\n
-читать=V,ipf,tran=inpraes,sg,indic,1p
-_
-деяние=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-злой=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-проживать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)
-_
-бессмысленно=ADV=
-_
-день=S,m,inan=gen,pl
-,_\u2014\n
-и=CONJ=
-_
-ясный=A=pl,brev
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-битва=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-мирской=A,plen=(nom,pl|acc,pl,inan)
-\n
-и=CONJ=
-_
-злой=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-безумие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-человек=S,m,anim=(acc,pl|gen,pl)
-.\n\n
-объять=V,tran=praet,sg,partcp,brev,f,pf,pass
-_
-внезапный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-тоска=S,f,inan=ins,sg
-,\n
-раскаяние=S,n,inan=ins,sg
-_
-жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-полный=A=sg,brev,f
-,\n
-горевать=V,ipf,intr=inpraes,sg,indic,3p
-_
-душа=S,f,inan=nom,sg
-_
-над=PR=
-_
-себя=SPRO=ins
-,\n
-над=PR=
-_
-мир=S,m,inan=ins,sg
-_
-рыдать=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-.\n
+{чем=CONJ=} {глубоко=ADV=comp} {в=PR=} {себя=SPRO=(acc|gen)} {погружаться=V,intr=inpraes,sg,indic,1p,ipf},
+{тем=CONJ=} {хорошо=ADV=comp,parenth} {человек=S,m,anim=(acc,pl|gen,pl)} {познавать=V,tran=(inpraes,sg,indic,1p,ipf|inpraes,sg,indic,1p,pf)},
+{и=CONJ=} {с=PR=} {мир=S,m,inan=ins,sg} {полно=ADV=comp} {сообщаться=V,intr=inpraes,sg,indic,1p,ipf}
+{чрез=PR=} {грешный=A=acc,sg,plen,f} {душа=S,f,inan=acc,sg} {свой=APRO=acc,sg,f}.
+
+{читать=V,ipf,tran=inpraes,sg,indic,1p} {деяние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {злой=A=(acc,pl,plen,inan|nom,pl,plen)}
+{проживать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {бессмысленно=ADV=} {день=S,m,inan=gen,pl}, —
+{и=CONJ=} {ясный=A=pl,brev} {я=SPRO,sg,1p=(abl|dat)} {битва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мирской=A,plen=(nom,pl|acc,pl,inan)}
+{и=CONJ=} {злой=A=(acc,sg,plen,n|nom,sg,plen,n)} {безумие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {человек=S,m,anim=(acc,pl|gen,pl)}.
+
+{объять=V,tran=praet,sg,partcp,brev,f,pf,pass} {внезапный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тоска=S,f,inan=ins,sg},
+{раскаяние=S,n,inan=ins,sg} {жгучий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {полный=A=sg,brev,f},
+{горевать=V,ipf,intr=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg} {над=PR=} {себя=SPRO=ins},
+{над=PR=} {мир=S,m,inan=ins,sg} {рыдать=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom}.

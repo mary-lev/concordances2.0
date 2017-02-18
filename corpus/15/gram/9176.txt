@@ -1,86 +1,11 @@
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-,_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-же=PART=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-\n
-еще=ADV=
-_
-находить=V=inf,pf,tran
-_
-ты=SPRO,sg,2p=nom
-_
-смочь=V,pf,intr=inpraes,sg,indic,2p
-?\n
-быть=V,intr=inf,ipf
-_
-мочь=V,ipf,intr=inpraes,sg,indic,3p
-,_
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-он=SPRO,sg,3p,m=nom
-_
-где-нибудь=ADVPRO=
-?\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-суметь=V,pf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-вздыхать=V,intr=inf,pf
-,\n
-и=CONJ=
-_
-как=ADVPRO=
-_
-себя=SPRO=(abl|dat)
-_
-помогать=V,intr=inpraes,sg,indic,2p,pf
-?\n\n
-в=PR=
-_
-конец=S,m,inan=abl,sg
-_
-конец=S,m,inan=gen,pl
-_\u2014_
-лишь=PART=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-цветок=S,m,inan=gen,sg
-,\n
-лишь=PART=
-_
-путь=S,m,inan=(acc,sg|nom,sg)
-_
-ребенок=S,m,anim=(acc,sg|gen,sg)
-,_
-птица=S,f,anim=(gen,sg|nom,pl)
-,\n
-меж=PR=
-_
-трава=S,f,inan=gen,pl
-_
-полночный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_\u2014_
-светляк=S,m,anim=(acc,sg|gen,sg)
-,\n
-свирельный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-струя=S,f,inan=gen,pl
-_
-издалека=ADV=
-,\n
-узорчатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-зарница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {же=PART=} {путь=S,m,inan=(acc,sg|nom,sg)}, {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {же=PART=} {путь=S,m,inan=(acc,sg|nom,sg)}
+{еще=ADV=} {находить=V=inf,pf,tran} {ты=SPRO,sg,2p=nom} {смочь=V,pf,intr=inpraes,sg,indic,2p}?
+{быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p}, {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {он=SPRO,sg,3p,m=nom} {где-нибудь=ADVPRO=}?
+{и=CONJ=} {как=ADVPRO=} {суметь=V,pf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {вздыхать=V,intr=inf,pf},
+{и=CONJ=} {как=ADVPRO=} {себя=SPRO=(abl|dat)} {помогать=V,intr=inpraes,sg,indic,2p,pf}?
+
+{в=PR=} {конец=S,m,inan=abl,sg} {конец=S,m,inan=gen,pl} — {лишь=PART=} {путь=S,m,inan=(acc,sg|nom,sg)} {цветок=S,m,inan=gen,sg},
+{лишь=PART=} {путь=S,m,inan=(acc,sg|nom,sg)} {ребенок=S,m,anim=(acc,sg|gen,sg)}, {птица=S,f,anim=(gen,sg|nom,pl)},
+{меж=PR=} {трава=S,f,inan=gen,pl} {полночный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} — {светляк=S,m,anim=(acc,sg|gen,sg)},
+{свирельный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {струя=S,f,inan=gen,pl} {издалека=ADV=},
+{узорчатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {зарница=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,78 +1,14 @@
-пять=NUM=ins
-_
-восемь=NUM=(acc|nom)
-_
-сорок=NUM=(acc|nom)
-!\n
-лес=S,m,inan=(acc,sg|nom,sg)
-_
-писать=V,ipf,tran=sg,imper,2p
-_
-чрез=PR=
-_
-ять=S,m,inan=(acc,sg|nom,sg)
-!\n
-филин=S,m,anim=nom,sg
-_
-ночь=S,f,inan=ins,sg
-_
-зоркий=A=sg,brev,m
-!\n
-припять=S,geo,f,inan=(acc,sg|nom,sg)
-,_
-не=PART=
-_
-припять=S,geo,f,inan=(acc,sg|nom,sg)
-!\n\n
-повторять=V,tran=inpraes,sg,indic,1p,ipf
-_
-это=SPRO,sg,n,inan=(acc|nom)
-\n
-вот=PART=
-_
-уж=PART=
-_
-третий=ANUM=(acc,sg,m,inan|nom,sg,m)
-_
-год=S,m,inan=(acc,sg|nom,sg)
-.\n
-вот=PART=
-_
-уж=PART=
-_
-третий=ANUM=(acc,sg,n|nom,sg,n)
-_
-лето=S,sg,n,inan=(acc|nom)
-\n
-скоро=ADV=
-_
-подходить=V,intr=inpraes,sg,indic,3p,pf
-.\n\n
-хоть=PART=
-_
-и=CONJ=
-_
-надоедать=V,intr=praet,sg,indic,n,pf
-,\n
-да=CONJ=
-_
-не=PART=
-_
-спрашивать=V=inpraes,pl,indic,3p,pf
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-.\n
-уж=PART=
-_
-такой=APRO=(acc,sg,n|nom,sg,n)
-_
-дело=S,n,inan=(acc,sg|nom,sg)
-,_\u2014\n
-живо=ADV=
-_
-шлепать=V,ipf,tran=sg,imper,2p
-_
-в=PR=
-_
-класс=S,m,inan=(acc,sg|nom,sg)
-!\n
+{пять=NUM=ins} {восемь=NUM=(acc|nom)} {сорок=NUM=(acc|nom)}!
+{лес=S,m,inan=(acc,sg|nom,sg)} {писать=V,ipf,tran=sg,imper,2p} {чрез=PR=} {ять=S,m,inan=(acc,sg|nom,sg)}!
+{филин=S,m,anim=nom,sg} {ночь=S,f,inan=ins,sg} {зоркий=A=sg,brev,m}!
+{припять=S,geo,f,inan=(acc,sg|nom,sg)}, {не=PART=} {припять=S,geo,f,inan=(acc,sg|nom,sg)}!
+
+{повторять=V,tran=inpraes,sg,indic,1p,ipf} {это=SPRO,sg,n,inan=(acc|nom)}
+{вот=PART=} {уж=PART=} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)} {год=S,m,inan=(acc,sg|nom,sg)}.
+{вот=PART=} {уж=PART=} {третий=ANUM=(acc,sg,n|nom,sg,n)} {лето=S,sg,n,inan=(acc|nom)}
+{скоро=ADV=} {подходить=V,intr=inpraes,sg,indic,3p,pf}.
+
+{хоть=PART=} {и=CONJ=} {надоедать=V,intr=praet,sg,indic,n,pf},
+{да=CONJ=} {не=PART=} {спрашивать=V=inpraes,pl,indic,3p,pf} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+{уж=PART=} {такой=APRO=(acc,sg,n|nom,sg,n)} {дело=S,n,inan=(acc,sg|nom,sg)}, —
+{живо=ADV=} {шлепать=V,ipf,tran=sg,imper,2p} {в=PR=} {класс=S,m,inan=(acc,sg|nom,sg)}!

@@ -1,138 +1,19 @@
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,_
-пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)
-_
-капризный=A=comp
-,\n
-в=PR=
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-дикий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лепесток=S,m,inan=abl,pl
-,\n
-я=SPRO,sg,1p=nom
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-_
-в=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-стих=S,m,inan=abl,pl
-\n
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=gen
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-подобный=A=sg,brev,f
-_
-корабль=S,m,inan=dat,sg
-:\n
-чуть=ADV=
-_
-испанский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-замок=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-мимо=ADV=
-!\n
-все=SPRO,pl=(acc|nom)
-,_
-что=CONJ=
-_
-неосуществимый=A=sg,brev,n
-,\n
-я=SPRO,sg,1p=nom
-_
-сам=APRO=nom,sg,f
-_
-осуществлять=V,tran=inpraes,sg,indic,1p,pf
-.\n\n
-весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)
-_
-случайность=S,f,inan=dat,pl
-_
-навстречу=ADV=
-!\n
-путь=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-ли=PART=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-равный=A=sg,brev,n
-?\n
-пусть=PART=
-_
-ответ=S,m,inan=gen,sg
-_
-не=PART=
-_
-давать=V,tran=praet,sg,partcp,brev,n,pf,pass
-,_\u2014_\n
-я=SPRO,sg,1p=nom
-_
-сам=APRO=nom,sg,f
-_
-себя=SPRO=(abl|dat)
-_
-отвечать=V,intr=inpraes,sg,indic,1p,pf
-!\n\n
-с=PR=
-_
-детский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-песня=S,f,inan=ins,sg
-_
-на=PR=
-_
-уста=S,pl,inan=abl
-\n
-я=SPRO,sg,1p=nom
-_
-идти=V,ipf,intr=inpraes,sg,indic,1p
-_\u2014_
-к=PR=
-_
-какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-отчизна=S,f,inan=(abl,sg|dat,sg)
-?\n_\u2014_
-все=SPRO,pl=(acc|nom)
-,_
-что=SPRO,sg,n,inan=gen
-_
-не=PART=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-я=SPRO,sg,1p=nom
-_
-находить=V=inpraes,sg,indic,1p,pf,tran
-_
-в=PR=
-_
-свой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-стих=S,m,inan=abl,pl
-!\n
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} {капризный=A=comp},
+{в=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дикий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лепесток=S,m,inan=abl,pl},
+{я=SPRO,sg,1p=nom} {находить=V=inpraes,sg,indic,1p,pf,tran} {в=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стих=S,m,inan=abl,pl}
+{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=gen} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {подобный=A=sg,brev,f} {корабль=S,m,inan=dat,sg}:
+{чуть=ADV=} {испанский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {замок=S,m,inan=(acc,sg|nom,sg)} — {мимо=ADV=}!
+{все=SPRO,pl=(acc|nom)}, {что=CONJ=} {неосуществимый=A=sg,brev,n},
+{я=SPRO,sg,1p=nom} {сам=APRO=nom,sg,f} {осуществлять=V,tran=inpraes,sg,indic,1p,pf}.
+
+{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {случайность=S,f,inan=dat,pl} {навстречу=ADV=}!
+{путь=S,m,inan=(acc,sg|nom,sg)} — {не=PART=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ли=PART=} {я=SPRO,sg,1p=(abl|dat)} {равный=A=sg,brev,n}?
+{пусть=PART=} {ответ=S,m,inan=gen,sg} {не=PART=} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass}, — 
+{я=SPRO,sg,1p=nom} {сам=APRO=nom,sg,f} {себя=SPRO=(abl|dat)} {отвечать=V,intr=inpraes,sg,indic,1p,pf}!
+
+{с=PR=} {детский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песня=S,f,inan=ins,sg} {на=PR=} {уста=S,pl,inan=abl}
+{я=SPRO,sg,1p=nom} {идти=V,ipf,intr=inpraes,sg,indic,1p} — {к=PR=} {какой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {отчизна=S,f,inan=(abl,sg|dat,sg)}?
+ — {все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=gen} {не=PART=} {быть=V,intr=inpraes,sg,indic,3p} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{я=SPRO,sg,1p=nom} {находить=V=inpraes,sg,indic,1p,pf,tran} {в=PR=} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стих=S,m,inan=abl,pl}!

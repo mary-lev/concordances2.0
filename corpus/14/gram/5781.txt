@@ -1,104 +1,14 @@
-как=ADVPRO=
-_
-молодеть=V,ipf,intr=inpraes,sg,indic,2p
-_
-ты=SPRO,sg,2p=nom
-_
-день=S,m,inan=(acc,sg|nom,sg)
-_
-ото=PR=
-_
-день=S,m,inan=gen,sg
-,\n
-но=CONJ=
-_
-оставаться=V,intr=inpraes,sg,indic,2p,ipf
-_
-всегда=ADVPRO=
-_
-неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-верность=S,f,inan=(acc,sg|nom,sg)
-_
-народ=S,m,inan=(dat,sg|part,sg)
-_
-и=CONJ=
-_
-правда=S,f,inan=(abl,sg|dat,sg)
-_
-хранить=V,ipf,tran=inpraes,ger
-,\n
-жаркий=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)
-!\n\n
-слышный=A=pl,brev
-_
-в=PR=
-_
-раскат=S,m,inan=abl,pl
-_
-сирена=S,f,inan=gen,pl
-_
-трудовой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-\n
-отзвук=S,m,inan=(acc,pl|nom,pl)
-_
-слава=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-московский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-...\n
-горький=S,famn,m,anim=nom,sg
-_
-здесь=ADVPRO=
-_
-правда=S,f,inan=(abl,sg|dat,sg)
-_
-учить=V,ipf,tran=praet,sg,indic,m
-_
-молодой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-прославлять=V,tran=praet,sg,indic,m,ipf
-_
-маяковский=S,famn,m,anim=nom,sg
-.\n\n
-плавный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-говор=S,m,inan=(acc,sg|nom,sg)
-,_
-рассвет=S,m,inan=(acc,sg|nom,sg)
-_
-голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-весна=S,f,inan=gen,pl
-_
-твой=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-наступление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-!\n
-солнечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-праздник=S,m,inan=(acc,sg|nom,sg)
-_
-мы=SPRO,pl,1p=dat
-_\u2014_
-встреча=S,f,inan=nom,sg
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-.\n
-мысль=S,f,inan=gen,pl
-_
-и=CONJ=
-_
-чувство=S,n,inan=gen,pl
-_
-обновление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n
+{как=ADVPRO=} {молодеть=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {день=S,m,inan=(acc,sg|nom,sg)} {ото=PR=} {день=S,m,inan=gen,sg},
+{но=CONJ=} {оставаться=V,intr=inpraes,sg,indic,2p,ipf} {всегда=ADVPRO=} {неизменный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{верность=S,f,inan=(acc,sg|nom,sg)} {народ=S,m,inan=(dat,sg|part,sg)} {и=CONJ=} {правда=S,f,inan=(abl,sg|dat,sg)} {хранить=V,ipf,tran=inpraes,ger},
+{жаркий=A=(acc,sg,plen,n|nom,sg,plen,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}!
+
+{слышный=A=pl,brev} {в=PR=} {раскат=S,m,inan=abl,pl} {сирена=S,f,inan=gen,pl} {трудовой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+{отзвук=S,m,inan=(acc,pl|nom,pl)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {московский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...
+{горький=S,famn,m,anim=nom,sg} {здесь=ADVPRO=} {правда=S,f,inan=(abl,sg|dat,sg)} {учить=V,ipf,tran=praet,sg,indic,m} {молодой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {прославлять=V,tran=praet,sg,indic,m,ipf} {маяковский=S,famn,m,anim=nom,sg}.
+
+{плавный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {говор=S,m,inan=(acc,sg|nom,sg)}, {рассвет=S,m,inan=(acc,sg|nom,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{весна=S,f,inan=gen,pl} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {наступление=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+{солнечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {праздник=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=dat} — {встреча=S,f,inan=nom,sg} {с=PR=} {ты=SPRO,sg,2p=ins}.
+{мысль=S,f,inan=gen,pl} {и=CONJ=} {чувство=S,n,inan=gen,pl} {обновление=S,n,inan=(abl,sg|acc,sg|nom,sg)}.

@@ -1,82 +1,9 @@
-стоить=V,ipf=praet,sg,indic,n
-_
-ли=PART=
-_
-это=SPRO,sg,n,inan=gen
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-безрассудный=A=(acc,sg,plen,n|nom,sg,plen,n)
-?_\n
-все-таки=PART=
-_
-возможный=A=(acc,sg,plen,n|nom,sg,plen,n)
-?_
-о=PR=
-,_
-конечно=ADV,parenth=
-,_
-да=PART=
-.\n
-птица=S,f,anim=ins,sg
-_
-улетать=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)
-_
-в=PR=
-_
-небо=S,n,inan=(acc,sg|nom,sg)
-_
-изумрудный=A=(acc,sg,plen,n|nom,sg,plen,n)
-,\n
-где=ADVPRO=
-_
-переливаться=V,intr=inpraes,sg,indic,3p,ipf
-_
-вечерний=A=nom,sg,plen,f
-_
-звезда=S,f,inan=nom,sg
-.\n\n
-быть=V,intr=pl,imper,2p
-_
-легкомысленно=ADV=comp
-!_
-быть=V,intr=pl,imper,2p
-_
-легковерный=A=comp
-!_\n
-если=CONJ=
-_
-вы=SPRO,pl,2p=dat
-_
-не=PART=
-_
-спаться=V,ipf,intr=inpraes,indic
-_\u2014_
-выдумывать=V,tran=pl,imper,2p,ipf
-_
-сон=S,m,inan=(acc,pl|nom,pl)
-._\n
-быть=V,intr=pl,imper,2p
-,_
-если=CONJ=
-_
-мочь=V,ipf,intr=inpraes,pl,indic,2p
-,_
-как=CONJ=
-_
-звезда=S,f,inan=nom,sg
-_
-вечерний=A=nom,sg,plen,f
-._\n
-так=ADVPRO=
-_
-же=PART=
-_
-упоительный=A=pl,brev
-,_
-так=ADVPRO=
-_
-же=PART=
-_
-холодный=A=pl,brev
-.\n
+{стоить=V,ipf=praet,sg,indic,n} {ли=PART=} {это=SPRO,sg,n,inan=gen} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {безрассудный=A=(acc,sg,plen,n|nom,sg,plen,n)}? 
+{все-таки=PART=} {возможный=A=(acc,sg,plen,n|nom,sg,plen,n)}? {о=PR=}, {конечно=ADV,parenth=}, {да=PART=}.
+{птица=S,f,anim=ins,sg} {улетать=V,intr=(praet,acc,sg,partcp,plen,n,pf,act|praet,nom,sg,partcp,plen,n,pf,act)} {в=PR=} {небо=S,n,inan=(acc,sg|nom,sg)} {изумрудный=A=(acc,sg,plen,n|nom,sg,plen,n)},
+{где=ADVPRO=} {переливаться=V,intr=inpraes,sg,indic,3p,ipf} {вечерний=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}.
+
+{быть=V,intr=pl,imper,2p} {легкомысленно=ADV=comp}! {быть=V,intr=pl,imper,2p} {легковерный=A=comp}! 
+{если=CONJ=} {вы=SPRO,pl,2p=dat} {не=PART=} {спаться=V,ipf,intr=inpraes,indic} — {выдумывать=V,tran=pl,imper,2p,ipf} {сон=S,m,inan=(acc,pl|nom,pl)}. 
+{быть=V,intr=pl,imper,2p}, {если=CONJ=} {мочь=V,ipf,intr=inpraes,pl,indic,2p}, {как=CONJ=} {звезда=S,f,inan=nom,sg} {вечерний=A=nom,sg,plen,f}. 
+{так=ADVPRO=} {же=PART=} {упоительный=A=pl,brev}, {так=ADVPRO=} {же=PART=} {холодный=A=pl,brev}.

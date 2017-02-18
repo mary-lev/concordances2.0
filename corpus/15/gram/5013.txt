@@ -1,56 +1,15 @@
-грусть=S,f,inan=(acc,sg|nom,sg)
-_
-утихать=V,intr=inpraes,sg,indic,3p,ipf
-:\n
-с=PR=
-_
-друг=S,m,anim=ins,sg
-_
-легко=ADV=
-.\n
-кто-то=SPRO,sg,m,anim=nom
-_
-вздыхать=V,intr=inpraes,sg,indic,3p,ipf
-_\u2014\n
-там=ADVPRO=
-_\u2014_
-далеко=ADV=
-.\n\n
-счастливый=A=sg,brev,m
-,_
-кто=SPRO,sg,m,anim=nom
-_
-мирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-доля=S,f,inan=(gen,pl|ins,sg)
-_
-жить=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-кто-то=SPRO,sg,m,anim=nom
-_
-в=PR=
-_
-обширный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-бездна=S,f,inan=(abl,sg|dat,sg)
-_
-плыть=V,ipf,intr=inpraes,sg,indic,3p
-.\n\n
-нежный=A=nom,sg,plen,f
-_
-ива=S,f,inan=nom,sg
-\n
-спать=V,ipf,intr=inpraes,sg,indic,3p
-_
-и=CONJ=
-_
-молчать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
-где-то=ADVPRO=
-\n
-тоскливо=ADV=
-\n
-чайка=S,f,anim=nom,sg
-_
-кричать=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+{грусть=S,f,inan=(acc,sg|nom,sg)} {утихать=V,intr=inpraes,sg,indic,3p,ipf}:
+{с=PR=} {друг=S,m,anim=ins,sg} {легко=ADV=}.
+{кто-то=SPRO,sg,m,anim=nom} {вздыхать=V,intr=inpraes,sg,indic,3p,ipf} —
+{там=ADVPRO=} — {далеко=ADV=}.
+
+{счастливый=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {мирный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{доля=S,f,inan=(gen,pl|ins,sg)} {жить=V,ipf,intr=inpraes,sg,indic,3p}.
+{кто-то=SPRO,sg,m,anim=nom} {в=PR=} {обширный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{бездна=S,f,inan=(abl,sg|dat,sg)} {плыть=V,ipf,intr=inpraes,sg,indic,3p}.
+
+{нежный=A=nom,sg,plen,f} {ива=S,f,inan=nom,sg}
+{спать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {молчать=V,ipf,intr=inpraes,sg,indic,3p}.
+{где-то=ADVPRO=}
+{тоскливо=ADV=}
+{чайка=S,f,anim=nom,sg} {кричать=V,ipf,intr=inpraes,sg,indic,3p}.

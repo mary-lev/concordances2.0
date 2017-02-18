@@ -1,108 +1,14 @@
-дерево=S,n,inan=(acc,pl|nom,pl)
-,_
-парус=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-цветок=S,m,inan=(acc,pl|nom,pl)
-_
-и=CONJ=
-_
-радуга=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_
-море=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-птица=S,f,anim=(gen,sg|nom,pl)
-_\u2014_\n
-все=SPRO,pl=(acc|nom)
-_
-это=SPRO,sg,n,inan=(acc|nom)
-_
-веселить=V,ipf,tran=inpraes,sg,indic,3p
-_
-твой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-взор=S,m,inan=(acc,sg|nom,sg)
-,_
-пока=ADV=
-_\n
-устало=ADV=
-_
-не=PART=
-_
-опускаться=V,intr=inpraes,pl,indic,3p,pf
-_
-ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-но=CONJ=
-_
-пестрый=A=nom,sg,plen,f
-_
-завеса=S,f,inan=nom,sg
-_
-упасть=V,pf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-,_
-только=PART=
-_
-петь=V,ipf,tran=inf
-_
-и=CONJ=
-_
-вспоминать=V,ipf,tran=inf
-_
-уметь=V,ipf,intr=inpraes,ger
-,_\n
-душа=S,f,inan=nom,sg
-_
-опустошенный=A=nom,sg,plen,f
-_
-пойти=V,pf,intr=inpraes,sg,indic,3p
-_\n
-по=PR=
-_
-след=S,m,inan=(dat,sg|loc,sg)
-_
-безутешный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-орфей=S,persn,m,anim=(acc,sg|gen,sg)
-.\n\n
-иль=CONJ=
-_
-быть=V,intr=inpraes,sg,indic,3p
-_
-навсегда=ADV=
-_
-осуждать=V=praet,sg,partcp,brev,f,pf,pass,tran
-,\n
-как=CONJ=
-_
-пленница=S,f,anim=nom,sg
-,_
-зюлейк?=S,famn,m,anim=(acc,sg|gen,sg)
-_
-иль=CONJ=
-_
-зарема=S,persn,f,anim=nom,sg
-,_\n
-вздыхать=V,intr=inf,ipf
-_
-у=PR=
-_
-потаенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-окно=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_\n
-в=PR=
-_
-благоуханный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-роскошь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-гарем=S,m,inan=gen,sg
-.\n
+{дерево=S,n,inan=(acc,pl|nom,pl)}, {парус=S,m,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{цветок=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {радуга=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {птица=S,f,anim=(gen,sg|nom,pl)} — 
+{все=SPRO,pl=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {веселить=V,ipf,tran=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {взор=S,m,inan=(acc,sg|nom,sg)}, {пока=ADV=} 
+{устало=ADV=} {не=PART=} {опускаться=V,intr=inpraes,pl,indic,3p,pf} {ресница=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{но=CONJ=} {пестрый=A=nom,sg,plen,f} {завеса=S,f,inan=nom,sg} {упасть=V,pf,intr=inpraes,sg,indic,3p},
+{и=CONJ=}, {только=PART=} {петь=V,ipf,tran=inf} {и=CONJ=} {вспоминать=V,ipf,tran=inf} {уметь=V,ipf,intr=inpraes,ger}, 
+{душа=S,f,inan=nom,sg} {опустошенный=A=nom,sg,plen,f} {пойти=V,pf,intr=inpraes,sg,indic,3p} 
+{по=PR=} {след=S,m,inan=(dat,sg|loc,sg)} {безутешный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {орфей=S,persn,m,anim=(acc,sg|gen,sg)}.
+
+{иль=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {навсегда=ADV=} {осуждать=V=praet,sg,partcp,brev,f,pf,pass,tran},
+{как=CONJ=} {пленница=S,f,anim=nom,sg}, {зюлейк?=S,famn,m,anim=(acc,sg|gen,sg)} {иль=CONJ=} {зарема=S,persn,f,anim=nom,sg}, 
+{вздыхать=V,intr=inf,ipf} {у=PR=} {потаенный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {окно=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+{в=PR=} {благоуханный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роскошь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гарем=S,m,inan=gen,sg}.

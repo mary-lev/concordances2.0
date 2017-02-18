@@ -1,158 +1,24 @@
-не=PART=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-лихорадка=S,f,inan=nom,sg
-!\n
-легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бой=S,m,inan=(acc,sg|nom,sg)
-_
-лукавый=A=sg,brev,m
-_
-и=CONJ=
-_
-лживый=A=sg,brev,m
-.\n
-нынче=ADV=
-_
-тошно=ADV=
-,_
-завтра=ADV=
-_
-сладко=ADV=
-,\n
-нынче=ADV=
-_
-помирать=V,intr=praet,sg,indic,m,pf
-,_
-завтра=ADV=
-_
-живой=A=sg,brev,m
-.\n\n
-бой=S,m,inan=(acc,sg|nom,sg)
-_
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-._
-смешно=ADV=
-_
-оба=NUM=(dat,m|dat,n)
-:\n
-как=CONJ=
-_
-умный=A=sg,brev,m
-_\u2014_
-и=CONJ=
-_
-как=CONJ=
-_
-умный=A=sg,brev,f
-!\n
-героиня=S,f,anim=ins,sg
-_
-и=CONJ=
-_
-герой=S,m,anim=ins,sg
-\n
-я=SPRO,sg,1p=nom
-_
-равный=A=sg,brev,n
-_
-обольщать=V=praet,sg,partcp,brev,f,pf,pass,tran
-.\n\n
-жезл=S,m,inan=(acc,sg|nom,sg)
-_
-пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)
-_\u2014_
-или=CONJ=
-_
-шпага=S,f,inan=nom,sg
-?\n
-зритель=S,m,anim=nom,sg
-,_
-бой=S,m,inan=(acc,sg|nom,sg)
-_\u2014_
-или=CONJ=
-_
-гавот=S,m,inan=(acc,sg|nom,sg)
-?\n
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-вперед=ADV=
-_\u2014_
-назад=ADV=
-_
-три=NUM=(nom|acc,inan)
-_
-шаг=S,m,inan=gen,sg
-,\n
-шаг=S,m,inan=(acc,sg|nom,sg)
-_
-назад=ADV=
-_\u2014_
-и=CONJ=
-_
-три=NUM=(nom|acc,inan)
-_
-вперед=ADV=
-.\n\n
-рот=S,m,inan=(acc,sg|nom,sg)
-_
-как=CONJ=
-_
-мед=S,m,inan=(acc,sg|nom,sg)
-,_
-в=PR=
-_
-око=S,n,inan=abl,pl
-_
-доверие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-уже=ADV=
-_
-взлетать=V,intr=inpraes,sg,indic,3p,ipf
-_
-бровь=S,f,inan=(acc,sg|nom,sg)
-.\n
-не=PART=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-,_
-а=CONJ=
-_
-лицемерие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-лицедейство=S,n,inan=(acc,sg|nom,sg)
-_\u2014_
-не=PART=
-_
-любовь=S,f,inan=(acc,sg|nom,sg)
-!\n\n
-и=CONJ=
-_
-итог=S,m,inan=ins,sg
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_(
-в=PR=
-_
-скобка=S,f,inan=abl,pl
-_\u2014_\n
-несодеять?=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)
-!)_
-грех=S,m,inan=gen,pl
-_\u2014_\n
-быть=V,intr=inpraes,sg,indic,3p
-_
-легонький=A=nom,sg,plen,f
-_
-стопка=S,f,inan=nom,sg
-\n
-восхитительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-стих=S,m,inan=gen,pl
-.\n
+{не=PART=} {любовь=S,f,inan=(acc,sg|nom,sg)}, {а=CONJ=} {лихорадка=S,f,inan=nom,sg}!
+{легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бой=S,m,inan=(acc,sg|nom,sg)} {лукавый=A=sg,brev,m} {и=CONJ=} {лживый=A=sg,brev,m}.
+{нынче=ADV=} {тошно=ADV=}, {завтра=ADV=} {сладко=ADV=},
+{нынче=ADV=} {помирать=V,intr=praet,sg,indic,m,pf}, {завтра=ADV=} {живой=A=sg,brev,m}.
+
+{бой=S,m,inan=(acc,sg|nom,sg)} {кипеть=V,ipf,intr=inpraes,sg,indic,3p}. {смешно=ADV=} {оба=NUM=(dat,m|dat,n)}:
+{как=CONJ=} {умный=A=sg,brev,m} — {и=CONJ=} {как=CONJ=} {умный=A=sg,brev,f}!
+{героиня=S,f,anim=ins,sg} {и=CONJ=} {герой=S,m,anim=ins,sg}
+{я=SPRO,sg,1p=nom} {равный=A=sg,brev,n} {обольщать=V=praet,sg,partcp,brev,f,pf,pass,tran}.
+
+{жезл=S,m,inan=(acc,sg|nom,sg)} {пастуший=A,plen=(acc,sg,m,inan|nom,sg,m)} — {или=CONJ=} {шпага=S,f,inan=nom,sg}?
+{зритель=S,m,anim=nom,sg}, {бой=S,m,inan=(acc,sg|nom,sg)} — {или=CONJ=} {гавот=S,m,inan=(acc,sg|nom,sg)}?
+{шаг=S,m,inan=(acc,sg|nom,sg)} {вперед=ADV=} — {назад=ADV=} {три=NUM=(nom|acc,inan)} {шаг=S,m,inan=gen,sg},
+{шаг=S,m,inan=(acc,sg|nom,sg)} {назад=ADV=} — {и=CONJ=} {три=NUM=(nom|acc,inan)} {вперед=ADV=}.
+
+{рот=S,m,inan=(acc,sg|nom,sg)} {как=CONJ=} {мед=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} {око=S,n,inan=abl,pl} {доверие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{но=CONJ=} {уже=ADV=} {взлетать=V,intr=inpraes,sg,indic,3p,ipf} {бровь=S,f,inan=(acc,sg|nom,sg)}.
+{не=PART=} {любовь=S,f,inan=(acc,sg|nom,sg)}, {а=CONJ=} {лицемерие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{лицедейство=S,n,inan=(acc,sg|nom,sg)} — {не=PART=} {любовь=S,f,inan=(acc,sg|nom,sg)}!
+
+{и=CONJ=} {итог=S,m,inan=ins,sg} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} ({в=PR=} {скобка=S,f,inan=abl,pl} — 
+{несодеять?=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)}!) {грех=S,m,inan=gen,pl} — 
+{быть=V,intr=inpraes,sg,indic,3p} {легонький=A=nom,sg,plen,f} {стопка=S,f,inan=nom,sg}
+{восхитительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стих=S,m,inan=gen,pl}.

@@ -1,56 +1,15 @@
-косой=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-соответствие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-в=PR=
-_
-пространство=S,n,inan=(acc,sg|nom,sg)
-_
-бросать=V=inf,pf
-\n
-зеркальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-сфера=S,f,inan=gen,pl
-,_\u2014\n
-безумный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-парабола=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-звенеть=V,ipf,intr=inpraes,ger
-,_
-взвивать=V=inpraes,pl,indic,3p,ipf,tran
-\n
-побег=S,m,inan=(acc,sg|nom,sg)
-_
-стебель=S,m,inan=gen,pl
-.\n\n
-зодиакальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-племя=S,n,inan=ins,sg
-\n
-поле=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-пылать=V,ipf,intr=inpraes,pl,indic,3p
-,\n
-кипеть=V,ipf,intr=inpraes,sg,indic,3p
-_
-эфир=S,m,inan=(acc,sg|nom,sg)
-,\n
-но=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-пересечение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-чертеж=S,m,inan=(acc,sg|nom,sg)
-_
-выводить=V=inpraes,pl,indic,3p,ipf,tran
-\n
-недвижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-буква=S,f,inan=gen,pl
-\n\n
-имя=S,n,inan=(abl,sg|dat,sg|gen,sg)
-_
-твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-!\n
+{косой=A=(acc,pl,plen,inan|nom,pl,plen)} {соответствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{в=PR=} {пространство=S,n,inan=(acc,sg|nom,sg)} {бросать=V=inf,pf}
+{зеркальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сфера=S,f,inan=gen,pl}, —
+{безумный=A=(acc,pl,plen,inan|nom,pl,plen)} {парабола=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{звенеть=V,ipf,intr=inpraes,ger}, {взвивать=V=inpraes,pl,indic,3p,ipf,tran}
+{побег=S,m,inan=(acc,sg|nom,sg)} {стебель=S,m,inan=gen,pl}.
+
+{зодиакальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {племя=S,n,inan=ins,sg}
+{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пылать=V,ipf,intr=inpraes,pl,indic,3p},
+{кипеть=V,ipf,intr=inpraes,sg,indic,3p} {эфир=S,m,inan=(acc,sg|nom,sg)},
+{но=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {пересечение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{чертеж=S,m,inan=(acc,sg|nom,sg)} {выводить=V=inpraes,pl,indic,3p,ipf,tran}
+{недвижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {буква=S,f,inan=gen,pl}
+
+{имя=S,n,inan=(abl,sg|dat,sg|gen,sg)} {твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}!

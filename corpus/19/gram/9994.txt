@@ -1,32 +1,4 @@
-назваться=V,pf,intr=praet,sg,indic,m
-_
-груздь=S,m,inan=ins,sg
-,_
-так=ADVPRO=
-_
-в=PR=
-_
-кузов=S,m,inan=(acc,sg|nom,sg)
-\n
-полезть=V,pf,intr=sg,imper,2p
-!_
-честной=A=nom,sg,plen,f
-_
-публика=S,f,inan=nom,sg
-,\n
-ведь=PART=
-_
-у=PR=
-_
-мы=SPRO,pl,1p=(abl|acc|gen)
-_
-не=PART=
-_
-у=PR=
-_
-француз=S,m,anim=(acc,pl|gen,pl)
-,_\u2014\n
-не=PART=
-_
-республика=S,f,inan=nom,sg
-!\n
+{назваться=V,pf,intr=praet,sg,indic,m} {груздь=S,m,inan=ins,sg}, {так=ADVPRO=} {в=PR=} {кузов=S,m,inan=(acc,sg|nom,sg)}
+{полезть=V,pf,intr=sg,imper,2p}! {честной=A=nom,sg,plen,f} {публика=S,f,inan=nom,sg},
+{ведь=PART=} {у=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {не=PART=} {у=PR=} {француз=S,m,anim=(acc,pl|gen,pl)}, —
+{не=PART=} {республика=S,f,inan=nom,sg}!

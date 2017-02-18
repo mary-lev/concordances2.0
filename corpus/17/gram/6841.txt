@@ -1,106 +1,14 @@
-собиратель=S,m,anim=nom,pl
-_
-марка=S,f,inan=gen,pl
-,_
-эстет=S,m,anim=nom,pl
-,_\n
-рыболов=S,m,anim=nom,pl
-_
-с=PR=
-_
-великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-река=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-чемпион=S,m,anim=nom,pl
-_
-вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-газета=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-футболист=S,m,anim=nom,pl
-,_
-биржевик=S,m,anim=nom,pl
-;\n\n
-все=SPRO,pl=(acc|nom)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-ходить=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-кино=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-и=CONJ=
-_
-театр=S,m,inan=(acc,pl|nom,pl)
-,\n
-все=SPRO,pl=(acc|nom)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-ездить=V,ipf,intr=inpraes,pl,indic,3p
-_
-в=PR=
-_
-метро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-и=CONJ=
-_
-в=PR=
-_
-такси=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-;_\n
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-,_
-чучело=S,n,inan=(acc,sg|nom,sg)
-,_
-нос=S,m,inan=(acc,sg|nom,sg)
-_
-клеопатра=S,persn,f,anim=(gen,sg|nom,pl)
-?_\n
-хотеть=V,ipf,tran=inpraes,sg,indic,2p
-_
-быть=V,intr=inf,ipf
-_
-муссолини=S,famn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-?_\u2014_
-просить=V,ipf,tran=sg,imper,2p
-!\n\n
-и=CONJ=
-_
-просить=V,ipf,tran=praet,pl,indic
-,_
-и=CONJ=
-_
-получать=V,tran=praet,pl,indic,ipf
-,\n
-только=PART=
-_
-мы=SPRO,pl,1p=nom
-_
-почему-то=ADVPRO=
-_
-с=PR=
-_
-ты=SPRO,sg,2p=ins
-_\n
-не=PART=
-_
-словчиться=V,pf,intr=praet,pl,indic
-,_
-не=PART=
-_
-перекрикивать=V=praet,pl,indic,pf
-_\n
-в=PR=
-_
-утомительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-схватка=S,f,inan=(abl,sg|dat,sg)
-_
-с=PR=
-_
-судьба=S,f,inan=ins,sg
-.\n
+{собиратель=S,m,anim=nom,pl} {марка=S,f,inan=gen,pl}, {эстет=S,m,anim=nom,pl}, 
+{рыболов=S,m,anim=nom,pl} {с=PR=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{чемпион=S,m,anim=nom,pl} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {газета=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+{футболист=S,m,anim=nom,pl}, {биржевик=S,m,anim=nom,pl};
+
+{все=SPRO,pl=(acc|nom)}, {кто=SPRO,sg,m,anim=nom} {ходить=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {кино=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {и=CONJ=} {театр=S,m,inan=(acc,pl|nom,pl)},
+{все=SPRO,pl=(acc|nom)}, {кто=SPRO,sg,m,anim=nom} {ездить=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {метро=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {и=CONJ=} {в=PR=} {такси=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}; 
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p}, {чучело=S,n,inan=(acc,sg|nom,sg)}, {нос=S,m,inan=(acc,sg|nom,sg)} {клеопатра=S,persn,f,anim=(gen,sg|nom,pl)}? 
+{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {быть=V,intr=inf,ipf} {муссолини=S,famn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}? — {просить=V,ipf,tran=sg,imper,2p}!
+
+{и=CONJ=} {просить=V,ipf,tran=praet,pl,indic}, {и=CONJ=} {получать=V,tran=praet,pl,indic,ipf},
+{только=PART=} {мы=SPRO,pl,1p=nom} {почему-то=ADVPRO=} {с=PR=} {ты=SPRO,sg,2p=ins} 
+{не=PART=} {словчиться=V,pf,intr=praet,pl,indic}, {не=PART=} {перекрикивать=V=praet,pl,indic,pf} 
+{в=PR=} {утомительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {схватка=S,f,inan=(abl,sg|dat,sg)} {с=PR=} {судьба=S,f,inan=ins,sg}.

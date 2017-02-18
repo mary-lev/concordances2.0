@@ -1,64 +1,8 @@
-друг=S,m,anim=nom,sg
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-_
-отражать=V=inpraes,pl,indic,3p,ipf,tran
-_
-зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_\n
-взаимно=ADV=
-_
-искажать=V=inpraes,ger,ipf,tran
-_
-отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-я=SPRO,sg,1p=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,1p
-_
-не=PART=
-_
-в=PR=
-_
-непобедимость=S,f,inan=(acc,sg|nom,sg)
-_
-зло=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-а=CONJ=
-_
-только=PART=
-_
-в=PR=
-_
-неизбежность=S,f,inan=(acc,sg|nom,sg)
-_
-поражение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n\n
-не=PART=
-_
-в=PR=
-_
-музыка=S,f,inan=acc,sg
-,_
-что=CONJ=
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-мой=APRO=acc,sg,f
-_
-сжигать=V=praet,sg,indic,f,pf
-,_\n
-а=CONJ=
-_
-в=PR=
-_
-пепел=S,m,inan=(acc,sg|nom,sg)
-,_
-что=CONJ=
-_
-оставаться=V,intr=praet,sg,indic,m,pf
-_
-от=PR=
-_
-сожжение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)} {отражать=V=inpraes,pl,indic,3p,ipf,tran} {зеркало=S,n,inan=(acc,pl|gen,sg|nom,pl)}, 
+{взаимно=ADV=} {искажать=V=inpraes,ger,ipf,tran} {отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} {не=PART=} {в=PR=} {непобедимость=S,f,inan=(acc,sg|nom,sg)} {зло=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{а=CONJ=} {только=PART=} {в=PR=} {неизбежность=S,f,inan=(acc,sg|nom,sg)} {поражение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+
+{не=PART=} {в=PR=} {музыка=S,f,inan=acc,sg}, {что=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f} {сжигать=V=praet,sg,indic,f,pf}, 
+{а=CONJ=} {в=PR=} {пепел=S,m,inan=(acc,sg|nom,sg)}, {что=CONJ=} {оставаться=V,intr=praet,sg,indic,m,pf} {от=PR=} {сожжение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

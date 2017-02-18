@@ -1,170 +1,22 @@
-желание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_\u2014_
-сорвать=V,pf,tran=inf
-\n
-на=PR=
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-лежать=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act
-_
-печать=S,f,inan=(acc,sg|nom,sg)
-,\n
-тоска=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-страстный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-томление=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-надежда=S,f,inan=nom,sg
-_
-тяжкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-принимать=V=inf,pf
-_
-святой=A=acc,sg,plen,f
-_
-благодать=S,f,inan=(acc,sg|nom,sg)
-,\n
-боязнь=S,f,inan=(acc,sg|nom,sg)
-_
-этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-день=S,m,inan=gen,pl
-_
-хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)
-,_
-светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ожидание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-мысль=S,f,inan=(acc,sg|nom,sg)
-_
-гнетущий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)
-_
-сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-не=PART=
-_
-видать=V,ipf,tran=inf
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-этот=APRO=(abl,pl|gen,pl|acc,pl,anim)
-_
-день=S,m,inan=gen,pl
-,\n
-блестящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-радость=S,f,inan=ins,sg
-_
-свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,_\u2014\n
-какой=APRO=nom,sg,f
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-!_
-как=ADVPRO=
-_
-мгла=S,f,inan=nom,sg
-_
-густой=A=nom,sg,plen,f
-,\n
-все=SPRO,pl=(acc|nom)
-_
-темно=ADV,praed=
-,_
-темно=ADV=
-_
-вкруг=PR=
-_
-я=SPRO,sg,1p=(acc|gen)
-;\n
-то=CONJ=
-_
-веселясти?=V,ipf,tran=inpraes,ger
-,_
-то=CONJ=
-_
-страдать=V,ipf,intr=inpraes,ger
-,\n
-то=CONJ=
-_
-равнодушно=ADV=
-_
-ожидать=V,ipf,tran=inpraes,ger
-\n
-рассвет=S,m,inan=gen,sg
-_
-радостный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)
-_
-день=S,m,inan=gen,sg
-,\n
-то=CONJ=
-_
-наслаждаясти?=V,ipf,tran=inpraes,ger
-_
-весна=S,f,inan=ins,sg
-,\n
-то=PART=
-_
-унижаясти?=V,ipf,tran=inpraes,ger
-_
-пора=S,f,inan=ins,sg
-,\n
-жить=V,ipf,intr=inpraes,sg,indic,1p
-,_
-смеяться=V,ipf,intr=inpraes,sg,indic,1p
-_
-и=CONJ=
-_
-платить=V,ipf,tran=inpraes,sg,indic,1p
-_
-я=SPRO,sg,1p=nom
-.\n
-как=CONJ=
-_
-бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-сон=S,m,inan=(acc,sg|nom,sg)
-,_
-она=SPRO,sg,3p,f=nom
-_
-нестись=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-одинокий=A=nom,sg,plen,f
-_
-мой=APRO=nom,sg,f
-,\n
-и=CONJ=
-_
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-бедный=A=(acc,sg,plen,n|nom,sg,plen,n)
-_
-все=SPRO,pl=(acc|nom)
-_
-биться=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-и=CONJ=
-_
-ненавидеть=V,ipf,tran=inpraes,ger
-,_
-и=CONJ=
-_
-любить=V,ipf,tran=inpraes,ger
-.\n
+{желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)} — {сорвать=V,pf,tran=inf}
+{на=PR=} {я=SPRO,sg,1p=(abl|dat)} {лежать=V,ipf,intr=inpraes,acc,sg,partcp,plen,f,act} {печать=S,f,inan=(acc,sg|nom,sg)},
+{тоска=S,f,inan=nom,sg} {и=CONJ=} {страстный=A=(acc,sg,plen,n|nom,sg,plen,n)} {томление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{надежда=S,f,inan=nom,sg} {тяжкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{принимать=V=inf,pf} {святой=A=acc,sg,plen,f} {благодать=S,f,inan=(acc,sg|nom,sg)},
+{боязнь=S,f,inan=(acc,sg|nom,sg)} {этот=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{день=S,m,inan=gen,pl} {хороший=A=(abl,pl,plen,supr|acc,pl,plen,supr,anim|gen,pl,plen,supr)}, {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ожидание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{и=CONJ=} {мысль=S,f,inan=(acc,sg|nom,sg)} {гнетущий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {сознание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {видать=V,ipf,tran=inf} {я=SPRO,sg,1p=(abl|dat)} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {день=S,m,inan=gen,pl},
+{блестящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {радость=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}, —
+{какой=APRO=nom,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)}! {как=ADVPRO=} {мгла=S,f,inan=nom,sg} {густой=A=nom,sg,plen,f},
+{все=SPRO,pl=(acc|nom)} {темно=ADV,praed=}, {темно=ADV=} {вкруг=PR=} {я=SPRO,sg,1p=(acc|gen)};
+{то=CONJ=} {веселясти?=V,ipf,tran=inpraes,ger}, {то=CONJ=} {страдать=V,ipf,intr=inpraes,ger},
+{то=CONJ=} {равнодушно=ADV=} {ожидать=V,ipf,tran=inpraes,ger}
+{рассвет=S,m,inan=gen,sg} {радостный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg},
+{то=CONJ=} {наслаждаясти?=V,ipf,tran=inpraes,ger} {весна=S,f,inan=ins,sg},
+{то=PART=} {унижаясти?=V,ipf,tran=inpraes,ger} {пора=S,f,inan=ins,sg},
+{жить=V,ipf,intr=inpraes,sg,indic,1p}, {смеяться=V,ipf,intr=inpraes,sg,indic,1p} {и=CONJ=} {платить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}.
+{как=CONJ=} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}, {она=SPRO,sg,3p,f=nom} {нестись=V,ipf,intr=inpraes,sg,indic,3p},
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {одинокий=A=nom,sg,plen,f} {мой=APRO=nom,sg,f},
+{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {бедный=A=(acc,sg,plen,n|nom,sg,plen,n)} {все=SPRO,pl=(acc|nom)} {биться=V,ipf,intr=inpraes,sg,indic,3p},
+{и=CONJ=} {ненавидеть=V,ipf,tran=inpraes,ger}, {и=CONJ=} {любить=V,ipf,tran=inpraes,ger}.

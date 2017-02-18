@@ -1,138 +1,19 @@
-что=SPRO,sg,n,inan=(acc|nom)
-_
-делать=V,ipf,tran=inf
-_
-с=PR=
-_
-вы=SPRO,pl,2p=ins
-,_
-милый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-?_\n
-кончаться=V,intr=inpraes,pl,indic,2p,ipf
-,_
-едва=ADV=
-_
-начинаться=V,intr=praet,ger,pf
-._\n
-счастливый=A=pl,brev
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-:_
-невеста=S,f,anim=(gen,sg|nom,pl)
-,_
-жених=S,m,anim=nom,pl
-,_\n
-покойник=S,m,anim=nom,sg
-_
-мертвый=A=sg,brev,m
-,_
-скончаться=V,pf,intr=praet,ger
-.\n\n
-в=PR=
-_
-роман=S,m,inan=abl,pl
-_
-строгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-ясный=A=pl,brev
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-слово=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-в=PR=
-_
-конец=S,m,inan=abl,sg
-_\u2014_
-большой=A=nom,sg,plen,f
-_
-точка=S,f,inan=nom,sg
-;\n
-известно=ADV,praed=
-_\u2014_
-кто=SPRO,sg,m,anim=nom
-_
-арман=S,persn,m,anim=nom,sg
-,_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=nom
-_
-вдова=S,f,anim=nom,sg
-,_\n
-и=CONJ=
-_
-чей=APRO=nom,sg,f
-_
-элиза=S,persn,f,anim=nom,sg
-_
-дочка=S,f,anim=nom,sg
-.\n\n
-но=CONJ=
-_
-в=PR=
-_
-легкий=A=(abl,sg,plen,m|abl,sg,plen,n)
-_
-бег=S,sg,m,inan=abl
-_
-повесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_\n
-нет=PART=
-_
-стройность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-намек=S,m,inan=gen,sg
-,\n
-над=PR=
-_
-пропасть=S,f,inan=ins,sg
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-_
-она=SPRO,sg,3p,f=nom
-_
-вольно=ADV=comp
-_\n
-газель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-скок=S,m,inan=gen,sg
-.\n\n
-слезать=V,intr=praet,sg,indic,m,pf
-_
-не=PART=
-_
-замечать=V,tran=inpraes,sg,indic,3p,pf
-_
-на=PR=
-_
-мой=APRO=(abl,sg,m|abl,sg,n)
-_
-лицо=S,n,inan=abl,sg
-_\n
-читатель=S,m,anim=nom,sg
--
-плакса=S,mf,anim=nom,sg
-,\n
-судьба=S,f,inan=ins,sg
-_
-не=PART=
-_
-точка=S,f,inan=nom,sg
-_
-ставиться=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-конец=S,m,inan=abl,sg
-,_\n
-а=CONJ=
-_
-только=PART=
-_
-клякса=S,f,inan=nom,sg
-.\n
+{что=SPRO,sg,n,inan=(acc|nom)} {делать=V,ipf,tran=inf} {с=PR=} {вы=SPRO,pl,2p=ins}, {милый=A=(acc,pl,plen,inan|nom,pl,plen)} {стих=S,m,inan=(acc,pl|nom,pl)}? 
+{кончаться=V,intr=inpraes,pl,indic,2p,ipf}, {едва=ADV=} {начинаться=V,intr=praet,ger,pf}. 
+{счастливый=A=pl,brev} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)}: {невеста=S,f,anim=(gen,sg|nom,pl)}, {жених=S,m,anim=nom,pl}, 
+{покойник=S,m,anim=nom,sg} {мертвый=A=sg,brev,m}, {скончаться=V,pf,intr=praet,ger}.
+
+{в=PR=} {роман=S,m,inan=abl,pl} {строгий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ясный=A=pl,brev} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{в=PR=} {конец=S,m,inan=abl,sg} — {большой=A=nom,sg,plen,f} {точка=S,f,inan=nom,sg};
+{известно=ADV,praed=} — {кто=SPRO,sg,m,anim=nom} {арман=S,persn,m,anim=nom,sg}, {и=CONJ=} {кто=SPRO,sg,m,anim=nom} {вдова=S,f,anim=nom,sg}, 
+{и=CONJ=} {чей=APRO=nom,sg,f} {элиза=S,persn,f,anim=nom,sg} {дочка=S,f,anim=nom,sg}.
+
+{но=CONJ=} {в=PR=} {легкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {бег=S,sg,m,inan=abl} {повесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} 
+{нет=PART=} {стройность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {намек=S,m,inan=gen,sg},
+{над=PR=} {пропасть=S,f,inan=ins,sg} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom} {вольно=ADV=comp} 
+{газель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {скок=S,m,inan=gen,sg}.
+
+{слезать=V,intr=praet,sg,indic,m,pf} {не=PART=} {замечать=V,tran=inpraes,sg,indic,3p,pf} {на=PR=} {мой=APRO=(abl,sg,m|abl,sg,n)} {лицо=S,n,inan=abl,sg} 
+{читатель=S,m,anim=nom,sg}-{плакса=S,mf,anim=nom,sg},
+{судьба=S,f,inan=ins,sg} {не=PART=} {точка=S,f,inan=nom,sg} {ставиться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {конец=S,m,inan=abl,sg}, 
+{а=CONJ=} {только=PART=} {клякса=S,f,inan=nom,sg}.

@@ -1,97 +1,14 @@
-...
-нет=PART=
-!_
-из=PR=
-_
-слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-истощать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)
-\n\t
-никуда=ADVPRO=
-!_
-никуда=ADVPRO=
-!\n
-сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)
-_
-мой=APRO=(acc,sg,n|nom,sg,n)
-_
-обтекать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)
-_
-как=CONJ=
-_
-вода=S,f,inan=nom,sg
-!\n\t
-как=CONJ=
-_
-вода=S,f,inan=nom,sg
-!\n\n
-ужель=PART=
-_
-написать=V,pf,tran=praet,sg,partcp,brev,n,pass
-_\u2014_
-и=CONJ=
-_
-кто=SPRO,sg,m,anim=ins
-_
-оно=SPRO,sg,3p,n=nom
-?\n\t
-в=PR=
-_
-небо=S,n,inan=abl,pl
-,\n
-чтоб=CONJ=
-_
-въедаться=V,intr=praet,pl,indic,ipf
-_
-в=PR=
-_
-душа=S,f,inan=acc,sg
-_
-два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)
-_
-демон=S,m,anim=(acc,sg|gen,sg)
-,\n\t
-надежда=S,f,inan=nom,sg
-_
-и=CONJ=
-_
-страх=S,m,inan=(acc,sg|nom,sg)
-?\n\n
-не=PART=
-_
-спасаться=V,intr=inpraes,sg,indic,1p,pf
-,_
-я=SPRO,sg,1p=nom
-_
-бороться=V,ipf,intr=inpraes,sg,indic,1p
-,\n\t
-так=ADVPRO=
-_
-давно=ADV=
-!_
-так=ADVPRO=
-_
-давно=ADV=
-!\n
-все=SPRO,pl=(acc|nom)
-_
-равный=A=sg,brev,n
-_
-утопать=V,intr=inpraes,sg,indic,1p,pf
-,_
-уж=PART=
-_
-скоро=ADV=comp
-_
-бы=PART=
-_
-ко=PR=
-_
-дно=S,n,inan=dat,sg
-...\n\t
-но=CONJ=
-_
-где=ADVPRO=
-_
-дно=S,n,inan=(acc,sg|nom,sg)
-?..\n
+...{нет=PART=}! {из=PR=} {слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {истощать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)}
+	{никуда=ADVPRO=}! {никуда=ADVPRO=}!
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {обтекать=V=(inpraes,abl,sg,partcp,plen,f,ipf,act,tran|inpraes,dat,sg,partcp,plen,f,ipf,act,tran|inpraes,gen,sg,partcp,plen,f,ipf,act,tran|inpraes,ins,sg,partcp,plen,f,ipf,act,tran)} {как=CONJ=} {вода=S,f,inan=nom,sg}!
+	{как=CONJ=} {вода=S,f,inan=nom,sg}!
+
+{ужель=PART=} {написать=V,pf,tran=praet,sg,partcp,brev,n,pass} — {и=CONJ=} {кто=SPRO,sg,m,anim=ins} {оно=SPRO,sg,3p,n=nom}?
+	{в=PR=} {небо=S,n,inan=abl,pl},
+{чтоб=CONJ=} {въедаться=V,intr=praet,pl,indic,ipf} {в=PR=} {душа=S,f,inan=acc,sg} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {демон=S,m,anim=(acc,sg|gen,sg)},
+	{надежда=S,f,inan=nom,sg} {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}?
+
+{не=PART=} {спасаться=V,intr=inpraes,sg,indic,1p,pf}, {я=SPRO,sg,1p=nom} {бороться=V,ipf,intr=inpraes,sg,indic,1p},
+	{так=ADVPRO=} {давно=ADV=}! {так=ADVPRO=} {давно=ADV=}!
+{все=SPRO,pl=(acc|nom)} {равный=A=sg,brev,n} {утопать=V,intr=inpraes,sg,indic,1p,pf}, {уж=PART=} {скоро=ADV=comp} {бы=PART=} {ко=PR=} {дно=S,n,inan=dat,sg}...
+	{но=CONJ=} {где=ADVPRO=} {дно=S,n,inan=(acc,sg|nom,sg)}?..

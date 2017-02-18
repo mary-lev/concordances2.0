@@ -1,34 +1,4 @@
-быть=V,intr=inf,ipf
-_
-страшно=ADV=
-_
-ты=SPRO,sg,2p=ins
-_
-хвалить=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,pass|inpraes,dat,sg,partcp,plen,f,pass|inpraes,gen,sg,partcp,plen,f,pass|inpraes,ins,sg,partcp,plen,f,pass)
-...\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-подсчитывать=V,tran=praet,sg,indic,f,pf
-_
-грех=S,m,inan=(acc,pl|nom,pl)
-.\n
-и=CONJ=
-_
-в=PR=
-_
-последний=A=acc,sg,plen,f
-_
-речь=S,f,inan=(acc,sg|nom,sg)
-_
-подсудимая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)
-\n
-ты=SPRO,sg,2p=nom
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-превращать=V,tran=praet,sg,indic,f,pf
-_
-стих=S,m,inan=(acc,pl|nom,pl)
-.\n
+{быть=V,intr=inf,ipf} {страшно=ADV=} {ты=SPRO,sg,2p=ins} {хвалить=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,pass|inpraes,dat,sg,partcp,plen,f,pass|inpraes,gen,sg,partcp,plen,f,pass|inpraes,ins,sg,partcp,plen,f,pass)}...
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {мой=APRO=(nom,pl|acc,pl,inan)} {подсчитывать=V,tran=praet,sg,indic,f,pf} {грех=S,m,inan=(acc,pl|nom,pl)}.
+{и=CONJ=} {в=PR=} {последний=A=acc,sg,plen,f} {речь=S,f,inan=(acc,sg|nom,sg)} {подсудимая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}
+{ты=SPRO,sg,2p=nom} {мой=APRO=(nom,pl|acc,pl,inan)} {превращать=V,tran=praet,sg,indic,f,pf} {стих=S,m,inan=(acc,pl|nom,pl)}.

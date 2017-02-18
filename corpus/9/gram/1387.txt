@@ -1,70 +1,8 @@
-сад=S,m,inan=(acc,pl|nom,pl)
-_
-тошнить=V,ipf=inpraes,sg,indic,3p
-_
-от=PR=
-_
-верста=S,f,inan=gen,pl
-_
-затишье=S,n,inan=(acc,pl|gen,sg|nom,pl)
-._\n
-столбняк=S,m,inan=(acc,sg|nom,sg)
-_
-рассерженный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лощина=S,f,inan=gen,pl
-_
-страшно=ADV=comp
-,_
-чем=CONJ=
-_
-ураган=S,m,inan=(acc,sg|nom,sg)
-,_
-и=CONJ=
-_
-лихой=A=comp
-,_\n
-чем=CONJ=
-_
-буря=S,f,inan=nom,sg
-,_
-в=PR=
-_
-сила=S,f,inan=abl,pl
-_
-всполошить=V,pf,tran=inf
-.\n\n
-гроза=S,f,inan=nom,sg
-_
-близкий=A=sg,brev,f
-._
-у=PR=
-_
-сад=S,m,inan=gen,sg
-_
-пахнуть=V,ipf,intr=inpraes,sg,indic,3p
-\n
-из=PR=
-_
-усыхать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,anim|inpraes,gen,sg,partcp,plen,m,ipf,act|inpraes,gen,sg,partcp,plen,n,ipf,act)
-_
-рот=S,m,inan=gen,sg
-\n
-крапива=S,f,inan=ins,sg
-,_
-кровля=S,f,inan=ins,sg
-,_
-тление=S,n,inan=ins,sg
-,_
-страх=S,m,inan=ins,sg
-.\n
-вставать=V,intr=inpraes,sg,indic,3p,ipf
-_
-в=PR=
-_
-колонна=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-рев=S,m,inan=(acc,sg|nom,sg)
-_
-скот=S,m,inan=gen,sg
-.\n
+{сад=S,m,inan=(acc,pl|nom,pl)} {тошнить=V,ipf=inpraes,sg,indic,3p} {от=PR=} {верста=S,f,inan=gen,pl} {затишье=S,n,inan=(acc,pl|gen,sg|nom,pl)}. 
+{столбняк=S,m,inan=(acc,sg|nom,sg)} {рассерженный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лощина=S,f,inan=gen,pl} {страшно=ADV=comp}, {чем=CONJ=} {ураган=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {лихой=A=comp}, 
+{чем=CONJ=} {буря=S,f,inan=nom,sg}, {в=PR=} {сила=S,f,inan=abl,pl} {всполошить=V,pf,tran=inf}.
+
+{гроза=S,f,inan=nom,sg} {близкий=A=sg,brev,f}. {у=PR=} {сад=S,m,inan=gen,sg} {пахнуть=V,ipf,intr=inpraes,sg,indic,3p}
+{из=PR=} {усыхать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,anim|inpraes,gen,sg,partcp,plen,m,ipf,act|inpraes,gen,sg,partcp,plen,n,ipf,act)} {рот=S,m,inan=gen,sg}
+{крапива=S,f,inan=ins,sg}, {кровля=S,f,inan=ins,sg}, {тление=S,n,inan=ins,sg}, {страх=S,m,inan=ins,sg}.
+{вставать=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {колонна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {рев=S,m,inan=(acc,sg|nom,sg)} {скот=S,m,inan=gen,sg}.

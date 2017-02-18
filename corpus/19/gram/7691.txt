@@ -1,32 +1,4 @@
-обширный=A=sg,brev,m
-_
-русский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-пантеон=S,m,inan=(acc,sg|nom,sg)
-,\n
-бог=S,m,anim=(acc,pl|gen,pl)
-_
-чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)
-_
-вмещать=V=inpraes,sg,indic,3p,ipf,tran
-_
-он=SPRO,sg,3p,m=nom
-,\n
-а=CONJ=
-_
-наш=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-бог=S,m,anim=nom,sg
-\n
-давно=ADV=
-_
-покидать=V,tran=praet,sg,indic,m,pf
-_
-свой=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-чертог=S,m,inan=(acc,sg|nom,sg)
-.\n
+{обширный=A=sg,brev,m} {русский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пантеон=S,m,inan=(acc,sg|nom,sg)},
+{бог=S,m,anim=(acc,pl|gen,pl)} {чужой=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {вмещать=V=inpraes,sg,indic,3p,ipf,tran} {он=SPRO,sg,3p,m=nom},
+{а=CONJ=} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бог=S,m,anim=nom,sg}
+{давно=ADV=} {покидать=V,tran=praet,sg,indic,m,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {чертог=S,m,inan=(acc,sg|nom,sg)}.

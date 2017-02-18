@@ -1,134 +1,19 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-правдивый=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-сон=S,m,inan=(acc,pl|nom,pl)
-,_
-давать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)
-_
-забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)
-,\n
-луч=S,m,inan=(acc,sg|nom,sg)
-_
-над=PR=
-_
-бездна=S,f,inan=ins,sg
-_
-вечно=ADV=
--
-зыбкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-взор=S,m,inan=(acc,pl|nom,pl)
-_
-с=PR=
-_
-кроткий=A=ins,sg,plen,f
-_
-улыбка=S,f,inan=ins,sg
-.\n\n
-в=PR=
-_
-темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)
-_
-этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-зов=S,m,inan=(acc,sg|nom,sg)
-_
-к=PR=
-_
-иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)
-_
-отчизна=S,f,inan=(abl,sg|dat,sg)
-,\n
-звон=S,m,inan=(acc,sg|nom,sg)
-_
-заоблачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-собор=S,m,inan=gen,pl
-,\n
-ткань=S,f,inan=(acc,sg|nom,sg)
-_
-светлый=A=comp
-_
-земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-узор=S,m,inan=gen,pl
-.\n\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-намек=S,m,inan=(acc,sg|nom,sg)
-_
-на=PR=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-святыня=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-оазис=S,m,inan=(acc,pl|nom,pl)
-_
-в=PR=
-_
-пустыня=S,f,inan=(abl,sg|dat,sg)
-,\n
-счастливый=A=sg,brev,m
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-ждать=V,ipf,tran=inpraes,sg,indic,3p
-_
-участие=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-счастливый=A=sg,brev,m
-_
-тот=APRO=(acc,sg,m,inan|nom,sg,m)
-,_
-кто=SPRO,sg,m,anim=nom
-_
-верить=V,ipf,intr=inpraes,sg,indic,3p
-_
-в=PR=
-_
-счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)
-.\n\n
-все=SPRO,pl=(acc|nom)
-,_
-на=PR=
-_
-чем=CONJ=
-_
-печать=S,f,inan=(acc,sg|nom,sg)
-_
-мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-брызгать=V,ipf,intr=inpraes,sg,indic,3p
-_
-свет=S,sg,m,inan=ins
-_
-откровение=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-веять=V,ipf,tran=inpraes,sg,indic,3p
-_
-жизнь=S,f,inan=ins,sg
-_
-вечно=ADV=
--
-цельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-дышать=V,ipf,intr=inpraes,sg,indic,3p
-_
-правда=S,f,inan=ins,sg
-_
-запредельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {правдивый=A=(acc,pl,plen,inan|nom,pl,plen)} {мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{сон=S,m,inan=(acc,pl|nom,pl)}, {давать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+{луч=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {бездна=S,f,inan=ins,sg} {вечно=ADV=}-{зыбкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{взор=S,m,inan=(acc,pl|nom,pl)} {с=PR=} {кроткий=A=ins,sg,plen,f} {улыбка=S,f,inan=ins,sg}.
+
+{в=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} {зов=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {отчизна=S,f,inan=(abl,sg|dat,sg)},
+{звон=S,m,inan=(acc,sg|nom,sg)} {заоблачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {собор=S,m,inan=gen,pl},
+{ткань=S,f,inan=(acc,sg|nom,sg)} {светлый=A=comp} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {узор=S,m,inan=gen,pl}.
+
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {намек=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {мир=S,m,inan=(acc,sg|nom,sg)} {святыня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {оазис=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {пустыня=S,f,inan=(abl,sg|dat,sg)},
+{счастливый=A=sg,brev,m} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {участие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{счастливый=A=sg,brev,m} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {верить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+
+{все=SPRO,pl=(acc|nom)}, {на=PR=} {чем=CONJ=} {печать=S,f,inan=(acc,sg|nom,sg)} {мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{брызгать=V,ipf,intr=inpraes,sg,indic,3p} {свет=S,sg,m,inan=ins} {откровение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{веять=V,ipf,tran=inpraes,sg,indic,3p} {жизнь=S,f,inan=ins,sg} {вечно=ADV=}-{цельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{дышать=V,ipf,intr=inpraes,sg,indic,3p} {правда=S,f,inan=ins,sg} {запредельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.

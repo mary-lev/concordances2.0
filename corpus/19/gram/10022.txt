@@ -1,106 +1,12 @@
-молить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-владыко?=ADV=
-_
-правосудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-,\n
-молить=V,ipf,tran=inpraes,sg,indic,1p
-_
-ты=SPRO,sg,2p=(acc|gen)
-,_
-распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)
-_
-христос=S,famn,m,anim=(acc,sg|gen,sg)
-,\n
-чтоб=CONJ=
-_
-не=PART=
-_
-оставаться=V,intr=praet,sg,indic,f,pf
-_
-греза=S,f,inan=ins,sg
-_
-безрассудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-\n
-мой=APRO=nom,sg,f
-_
-горячий=A=nom,sg,plen,f
-_
-мечта=S,f,inan=nom,sg
-,\n
-чтоб=CONJ=
-_
-злой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-,_
-бессмысленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-разврат=S,m,inan=ins,sg
-\n
-не=PART=
-_
-коротаться=V,ipf,intr=praet,sg,indic,m
-_
-юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-век=S,m,inan=(acc,sg|nom,sg)
-,\n
-чтоб=CONJ=
-,_
-говорить=V,ipf,tran=inpraes,ger
-_
-с=PR=
-_
-владыка=S,m,anim=ins,sg
-_
-или=CONJ=
-_
-брат=S,m,anim=ins,sg
-,\n
-не=PART=
-_
-трепетать=V,ipf,intr=praet,sg,indic,m
-_
-от=PR=
-_
-страх=S,m,inan=gen,sg
-_
-человек=S,m,anim=(acc,pl|gen,pl|nom,sg)
-,\n
-чтоб=CONJ=
-_
-смолкать=V,intr=praet,sg,indic,m,pf
-_
-навек=ADV=
-_
-ужасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-вопль=S,m,inan=(acc,sg|nom,sg)
-_
-страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-вокруг=PR=
-_
-украшать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)
-_
-столица=S,f,inan=gen,pl
-,\n
-и=CONJ=
-_
-чтобы=CONJ=
-_
-ужас=S,m,inan=(acc,sg|nom,sg)
-_
-истязание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-не=PART=
-_
-искажать=V=praet,sg,indic,m,pf
-_
-невинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-детский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лицо=S,n,inan=gen,pl
-.\n
+{молить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {владыко?=ADV=} {правосудный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+{молить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {распинать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)} {христос=S,famn,m,anim=(acc,sg|gen,sg)},
+{чтоб=CONJ=} {не=PART=} {оставаться=V,intr=praet,sg,indic,f,pf} {греза=S,f,inan=ins,sg} {безрассудный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{мой=APRO=nom,sg,f} {горячий=A=nom,sg,plen,f} {мечта=S,f,inan=nom,sg},
+{чтоб=CONJ=} {злой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {бессмысленный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {разврат=S,m,inan=ins,sg}
+{не=PART=} {коротаться=V,ipf,intr=praet,sg,indic,m} {юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {век=S,m,inan=(acc,sg|nom,sg)},
+{чтоб=CONJ=}, {говорить=V,ipf,tran=inpraes,ger} {с=PR=} {владыка=S,m,anim=ins,sg} {или=CONJ=} {брат=S,m,anim=ins,sg},
+{не=PART=} {трепетать=V,ipf,intr=praet,sg,indic,m} {от=PR=} {страх=S,m,inan=gen,sg} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)},
+{чтоб=CONJ=} {смолкать=V,intr=praet,sg,indic,m,pf} {навек=ADV=} {ужасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вопль=S,m,inan=(acc,sg|nom,sg)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{вокруг=PR=} {украшать=V=(praet,abl,pl,partcp,plen,pf,pass,tran|praet,acc,pl,partcp,plen,pf,pass,anim,tran|praet,gen,pl,partcp,plen,pf,pass,tran)} {столица=S,f,inan=gen,pl},
+{и=CONJ=} {чтобы=CONJ=} {ужас=S,m,inan=(acc,sg|nom,sg)} {истязание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{не=PART=} {искажать=V=praet,sg,indic,m,pf} {невинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {детский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лицо=S,n,inan=gen,pl}.

@@ -1,34 +1,5 @@
-пусть=PART=
-_
-шуметь=V,ipf,intr=inpraes,sg,indic,3p
-_
-кровавый=A=nom,sg,plen,f
-_
-гроза=S,f,inan=nom,sg
-,\n
-пусть=PART=
-_
-греметь=V,ipf,intr=inpraes,pl,indic,3p
-_
-звериный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-раскат=S,m,inan=(acc,pl|nom,pl)
-...\n\n
-быть=V,intr=inpraes,sg,indic,1p
-_
-петь=V,ipf,tran=inf
-_
-я=SPRO,sg,1p=nom
-_
-тихий=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-закат=S,m,inan=(acc,pl|nom,pl)
-\n
-и=CONJ=
-_
-твой=APRO=(nom,pl|acc,pl,inan)
-_
-влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)
-_
-глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)
-.\n
+{пусть=PART=} {шуметь=V,ipf,intr=inpraes,sg,indic,3p} {кровавый=A=nom,sg,plen,f} {гроза=S,f,inan=nom,sg},
+{пусть=PART=} {греметь=V,ipf,intr=inpraes,pl,indic,3p} {звериный=A=(acc,pl,plen,inan|nom,pl,plen)} {раскат=S,m,inan=(acc,pl|nom,pl)}...
+
+{быть=V,intr=inpraes,sg,indic,1p} {петь=V,ipf,tran=inf} {я=SPRO,sg,1p=nom} {тихий=A=(acc,pl,plen,inan|nom,pl,plen)} {закат=S,m,inan=(acc,pl|nom,pl)}
+{и=CONJ=} {твой=APRO=(nom,pl|acc,pl,inan)} {влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}.

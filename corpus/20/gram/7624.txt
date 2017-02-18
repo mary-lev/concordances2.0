@@ -1,120 +1,14 @@
-быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)
-_
-божий=A,plen=(acc,sg,m,inan|nom,sg,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-._
-с=PR=
-_
-он=SPRO,sg,3p,m=ins
-_
-жизнь=S,f,inan=(acc,sg|nom,sg)
-_
-милый=A=comp
-_
-и=CONJ=
-_
-красивый=A=comp
-.\n\t
-ясно=ADV=comp
-_
-мы=SPRO,pl,1p=dat
-_
-правда=ADV,parenth=
-_\u2014_
-и=CONJ=
-_
-обман=S,m,inan=(acc,sg|nom,sg)
-.\n
-не=PART=
-_
-все=SPRO,pl=dat
-,_
-не=PART=
-_
-каждый=APRO=(dat,sg,m|dat,sg,n)
-_
-в=PR=
-_
-юдоль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-,\n\t
-а=CONJ=
-_
-только=PART=
-_
-избранный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-он=SPRO,sg,3p,m=nom
-_
-давать=V,tran=praet,sg,partcp,brev,m,pf,pass
-.\n\n
-но=CONJ=
-_
-светить=V,ipf,intr=inpraes,sg,indic,3p
-_
-все=SPRO,pl=dat
-._
-и=CONJ=
-,_
-благостно=ADV=
-_
-сиять=V,ipf,intr=inpraes,ger
-,\n\t
-овивать=V,tran=praet,sg,partcp,brev,m,pf,pass
-_
-такой=APRO=ins,sg,f
-_
-тишина=S,sg,f,inan=ins
-,\n
-что=SPRO,sg,n,inan=(acc|nom)
-_
-даже=PART=
-_
-ангел=S,m,anim=nom,pl
-,_
-на=PR=
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-_
-взирать=V,intr=inpraes,ger,ipf
-,\n\t
-завидовать=V,ipf,intr=inpraes,pl,indic,3p
-_
-он=SPRO,sg,3p,m=dat
-_
-пора=S,f,inan=ins,sg
-.\n\n
-луч=S,m,inan=gen,pl
-_
-он=SPRO,sg,3p,m=(acc|gen)
-_
-бояться=V,ipf,intr=inpraes,sg,indic,3p
-_
-не=PART=
-_
-напрасно=ADV=
-\n\t
-земной=A=nom,sg,plen,f
-,_
-злой=A=nom,sg,plen,f
-_
-темнота=S,sg,f,inan=nom
-.\n
-и=CONJ=
-_
-этот=APRO=(acc,sg,m,inan|nom,sg,m)
-_
-дар=S,m,inan=(acc,sg|nom,sg)
-,_
-прекрасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-из=PR=
-_
-прекрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-,_\u2014\n\t
-святой=A=nom,sg,plen,f
-_
-доброта=S,f,inan=nom,sg
-.\n
+{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {дар=S,m,inan=(acc,sg|nom,sg)}. {с=PR=} {он=SPRO,sg,3p,m=ins} {жизнь=S,f,inan=(acc,sg|nom,sg)} {милый=A=comp} {и=CONJ=} {красивый=A=comp}.
+	{ясно=ADV=comp} {мы=SPRO,pl,1p=dat} {правда=ADV,parenth=} — {и=CONJ=} {обман=S,m,inan=(acc,sg|nom,sg)}.
+{не=PART=} {все=SPRO,pl=dat}, {не=PART=} {каждый=APRO=(dat,sg,m|dat,sg,n)} {в=PR=} {юдоль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {наш=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+	{а=CONJ=} {только=PART=} {избранный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {он=SPRO,sg,3p,m=nom} {давать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+
+{но=CONJ=} {светить=V,ipf,intr=inpraes,sg,indic,3p} {все=SPRO,pl=dat}. {и=CONJ=}, {благостно=ADV=} {сиять=V,ipf,intr=inpraes,ger},
+	{овивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {такой=APRO=ins,sg,f} {тишина=S,sg,f,inan=ins},
+{что=SPRO,sg,n,inan=(acc|nom)} {даже=PART=} {ангел=S,m,anim=nom,pl}, {на=PR=} {мир=S,m,inan=(acc,sg|nom,sg)} {взирать=V,intr=inpraes,ger,ipf},
+	{завидовать=V,ipf,intr=inpraes,pl,indic,3p} {он=SPRO,sg,3p,m=dat} {пора=S,f,inan=ins,sg}.
+
+{луч=S,m,inan=gen,pl} {он=SPRO,sg,3p,m=(acc|gen)} {бояться=V,ipf,intr=inpraes,sg,indic,3p} {не=PART=} {напрасно=ADV=}
+	{земной=A=nom,sg,plen,f}, {злой=A=nom,sg,plen,f} {темнота=S,sg,f,inan=nom}.
+{и=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {дар=S,m,inan=(acc,sg|nom,sg)}, {прекрасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {из=PR=} {прекрасный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, —
+	{святой=A=nom,sg,plen,f} {доброта=S,f,inan=nom,sg}.

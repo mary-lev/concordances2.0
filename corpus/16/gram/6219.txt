@@ -1,108 +1,19 @@
-скромный=A=comp
-_
-быть=V,intr=sg,imper,2p
-_
-в=PR=
-_
-желание=S,n,inan=abl,pl
-,\n
-и=CONJ=
-_
-воцаряться=V,intr=inpraes,sg,indic,3p,pf
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-:\n
-яд=S,m,inan=(acc,sg|nom,sg)
-_
-зависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-к=PR=
-_
-страдание=S,n,inan=dat,pl
-\n
-влечь=V,ipf,tran=inpraes,sg,indic,3p
-_
-ненастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)
-_
-мир=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-о=PR=
-,_
-зависть=S,f,inan=(acc,sg|nom,sg)
-_
-ненавистный=A=sg,brev,f
-\n
-и=CONJ=
-_
-рушить=V,ipf,tran=inpraes,sg,indic,3p
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-...\n
-рай=S,sg,m,inan=(acc|nom)
-_
-шептать=V,ipf,tran=inpraes,sg,indic,3p
-_
-укоризна=S,f,inan=acc,sg
-,\n
-ад=S,sg,m,inan=(acc|nom)
-_
-манить=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-ворота=S,pl,inan=(acc|nom)
-.\n\n
-она=SPRO,sg,3p,f=nom
-_
-заводить=V=inpraes,sg,indic,3p,ipf,tran
-_
-война=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-и=CONJ=
-_
-слава=S,f,inan=acc,sg
-_
-топтать=V,ipf,tran=inpraes,sg,indic,3p
-_
-в=PR=
-_
-грязь=S,f,inan=(acc,sg|nom,sg)
-,\n
-и=CONJ=
-_
-дерзко=ADV=
-,_
-и=CONJ=
-_
-спокойно=ADV=
-\n
-право=S,n,inan=(acc,pl|gen,sg|nom,pl)
-_
-клеймить=V,ipf,tran=inpraes,sg,indic,3p
-,_
-смеяться=V,ipf,intr=inpraes,ger
-.\n\n
-и=CONJ=
-_
-материнский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-причина=S,f,inan=ins,sg
-_
-она=SPRO,sg,3p,f=nom
-.\n
-мало=ADV=comp
-_
-греза=S,f,inan=gen,pl
-_
-от=PR=
-_
-скука=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-и=CONJ=
-_
-становиться=V,intr=inpraes,sg,indic,3p,pf
-_
-тишина=S,sg,f,inan=nom
-.\n
+{скромный=A=comp} {быть=V,intr=sg,imper,2p} {в=PR=} {желание=S,n,inan=abl,pl},
+{и=CONJ=} {воцаряться=V,intr=inpraes,sg,indic,3p,pf} {мир=S,m,inan=(acc,sg|nom,sg)}:
+{яд=S,m,inan=(acc,sg|nom,sg)} {зависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {к=PR=} {страдание=S,n,inan=dat,pl}
+{влечь=V,ipf,tran=inpraes,sg,indic,3p} {ненастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)}.
+
+{о=PR=}, {зависть=S,f,inan=(acc,sg|nom,sg)} {ненавистный=A=sg,brev,f}
+{и=CONJ=} {рушить=V,ipf,tran=inpraes,sg,indic,3p} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+{рай=S,sg,m,inan=(acc|nom)} {шептать=V,ipf,tran=inpraes,sg,indic,3p} {укоризна=S,f,inan=acc,sg},
+{ад=S,sg,m,inan=(acc|nom)} {манить=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {ворота=S,pl,inan=(acc|nom)}.
+
+{она=SPRO,sg,3p,f=nom} {заводить=V=inpraes,sg,indic,3p,ipf,tran} {война=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{и=CONJ=} {слава=S,f,inan=acc,sg} {топтать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {грязь=S,f,inan=(acc,sg|nom,sg)},
+{и=CONJ=} {дерзко=ADV=}, {и=CONJ=} {спокойно=ADV=}
+{право=S,n,inan=(acc,pl|gen,sg|nom,pl)} {клеймить=V,ipf,tran=inpraes,sg,indic,3p}, {смеяться=V,ipf,intr=inpraes,ger}.
+
+{и=CONJ=} {материнский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{причина=S,f,inan=ins,sg} {она=SPRO,sg,3p,f=nom}.
+{мало=ADV=comp} {греза=S,f,inan=gen,pl} {от=PR=} {скука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{и=CONJ=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {тишина=S,sg,f,inan=nom}.

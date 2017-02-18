@@ -1,122 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-в=PR=
-_
-ранний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-любить=V,ipf,tran=praet,sg,indic,m
-_
-эмар?=S,famn,m,anim=(acc,sg|gen,sg)
-,\n
-очарование=S,n,inan=(acc,sg|nom,sg)
-_
-его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)
-_
-рассказ=S,m,inan=gen,pl
-.\n
-мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-фантазия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,_
-раба=S,f,anim=(abl,sg|dat,sg)
-_
-экстаз=S,m,inan=gen,pl
-,\n
-дорогой=A=comp
-_
-многое=SPRO,sg,n=gen
-_
-семья=S,f,inan=nom,sg
-_
-омар=S,m,anim=(acc,sg|gen,sg)
-...\n\n
-дорогой=A=comp
-_
-многое=SPRO,sg,n=gen
-_
-душа=S,f,inan=(abl,sg|dat,sg)
-_
-фантаст=S,m,anim=(acc,sg|gen,sg)
-\n
-вы=SPRO,pl,2p=nom
-,_
-краснокожий=S,m,anim=nom,pl
-,_
-и=CONJ=
-_
-вы=SPRO,pl,2p=nom
-,_
-пампасс?=S,m,inan=(acc,pl|nom,pl)
-!\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-фабрика=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-и=CONJ=
-_
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-лампас=S,m,inan=(acc,pl|nom,pl)
-\n
-за=PR=
-_
-вы=SPRO,pl,2p=(abl|acc|gen)
-_
-отдавать=V,tran=praet,sg,indic,m,pf
-_
-бы=PART=
-_
-я=SPRO,sg,1p=nom
-,_
-как=CONJ=
-_
-груз=S,m,inan=(acc,sg|nom,sg)
-_
-балласт=S,m,inan=gen,sg
-.\n\n
-весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)
-_
-ребенок=S,m,anim=nom,pl
-_
-город=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-больной=A=pl,brev
-,_
-курносый=A=pl,brev
-,\n
-бездушный=A=pl,brev
-_
-женщина=S,f,anim=(gen,sg|nom,pl)
-,_
-мужчина=S,m,anim=(gen,sg|nom,pl)
-_
-грубый=A=pl,brev
-,\n
-вампир=S,m,anim=nom,pl
-_
-в=PR=
-_
-смокинг=S,m,inan=abl,pl
-,_
-в=PR=
-_
-пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)
-_
-инкуб=S,m,anim=nom,pl
-...\n
-бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)
-,_
-мечта=S,f,inan=nom,sg
-_
-мой=APRO=nom,sg,f
-,_
-бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)
-_
-в=PR=
-_
-льяносы=S,pl,inan=(acc|nom)
-!\n
+{я=SPRO,sg,1p=nom} {в=PR=} {ранний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {любить=V,ipf,tran=praet,sg,indic,m} {эмар?=S,famn,m,anim=(acc,sg|gen,sg)},
+{очарование=S,n,inan=(acc,sg|nom,sg)} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {рассказ=S,m,inan=gen,pl}.
+{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {фантазия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {раба=S,f,anim=(abl,sg|dat,sg)} {экстаз=S,m,inan=gen,pl},
+{дорогой=A=comp} {многое=SPRO,sg,n=gen} {семья=S,f,inan=nom,sg} {омар=S,m,anim=(acc,sg|gen,sg)}...
+
+{дорогой=A=comp} {многое=SPRO,sg,n=gen} {душа=S,f,inan=(abl,sg|dat,sg)} {фантаст=S,m,anim=(acc,sg|gen,sg)}
+{вы=SPRO,pl,2p=nom}, {краснокожий=S,m,anim=nom,pl}, {и=CONJ=} {вы=SPRO,pl,2p=nom}, {пампасс?=S,m,inan=(acc,pl|nom,pl)}!
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {наш=APRO=(nom,pl|acc,pl,inan)} {фабрика=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {лампас=S,m,inan=(acc,pl|nom,pl)}
+{за=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {отдавать=V,tran=praet,sg,indic,m,pf} {бы=PART=} {я=SPRO,sg,1p=nom}, {как=CONJ=} {груз=S,m,inan=(acc,sg|nom,sg)} {балласт=S,m,inan=gen,sg}.
+
+{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ребенок=S,m,anim=nom,pl} {город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {больной=A=pl,brev}, {курносый=A=pl,brev},
+{бездушный=A=pl,brev} {женщина=S,f,anim=(gen,sg|nom,pl)}, {мужчина=S,m,anim=(gen,sg|nom,pl)} {грубый=A=pl,brev},
+{вампир=S,m,anim=nom,pl} {в=PR=} {смокинг=S,m,inan=abl,pl}, {в=PR=} {пальто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {инкуб=S,m,anim=nom,pl}...
+{бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)}, {мечта=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}, {бежать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,ipf|inpraes,pl,indic,1p,pf)} {в=PR=} {льяносы=S,pl,inan=(acc|nom)}!

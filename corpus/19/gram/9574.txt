@@ -1,137 +1,19 @@
-__
-покрывать=V=praet,pl,partcp,brev,pf,pass
-_
-грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-переплеск=S,m,inan=ins,pl
-\n
-чрез=PR=
-_
-улица=S,f,inan=acc,sg
-_
-ведущий=S,m,anim=nom,pl
-_
-стезя=S,f,inan=(acc,pl|gen,sg|nom,pl)
-,\n
-устилать=V=praet,pl,indic,pf
-_
-кой-где=ADV=
-_
-переход=S,m,inan=(acc,pl|nom,pl)
-_
-доска=S,f,inan=ins,pl
-,\n
-все=SPRO,pl=(acc|nom)
-_
-ж=PART=
-_
-вязнуть=V,ipf,intr=inf
-_
-надобно=ADV,praed=
-_
-в=PR=
-_
-грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-.\n\n__
-идти=V,ipf,intr=inpraes,pl,indic,3p
-_
-прохожий=S,m,anim=nom,pl
-_
-тихохонький=A=sg,brev,n
-,\n
-и=CONJ=
-_
-по=PR=
-_
-мосток=S,m,inan=dat,pl
-_
-сырой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)
-_
-скользить=V,ipf,intr=inpraes,pl,indic,3p
-_
-шаг=S,m,inan=(acc,pl|nom,pl)
-,\n
-на=PR=
-_
-перекресток=S,m,inan=abl,pl
--
-то=CONJ=
-_
-грязнехонько?=ADV=
-,\n__
-и=CONJ=
-_
-пачкаться=V,ipf,intr=inpraes,pl,indic,3p
-_
-сапог=S,m,inan=(acc,pl|nom,pl)
-.\n\n__
-а=CONJ=
-_
-я=SPRO,sg,1p=nom
-,_\u2014_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-привычка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-скромный=A=(acc,pl,plen,inan|nom,pl,plen)
-,_\u2014\n
-босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,_
-не=PART=
-_
-разбирать=V=inpraes,sg,indic,1p,ipf,tran
-_
-я=SPRO,sg,1p=nom
-_
-дорога=S,f,inan=gen,pl
-.\n
-пора=S,f,inan=ins,sg
-_
-долетать=V,intr=inpraes,pl,indic,3p,ipf
-_
-брызги=S,pl,inan=(acc|nom)
-_
-темный=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-до=PR=
-_
-верх=S,m,inan=(acc,pl|gen,sg|nom,pl)
-_
-покраснеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)
-_
-нога=S,f,inan=gen,pl
-.\n\n__
-отмывать=V=inf,pf
-_
-нетрудно=ADV=
-_
-нога=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-голый=A=(acc,pl,plen,inan|nom,pl,plen)
-.\n
-насмешливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-чего=ADVPRO=
-_
-стыдиться=V,ipf,intr=inf
-_
-слово=S,n,inan=gen,pl
-?\n
-забавный=A=pl,brev
-_
-на=PR=
-_
-мосток=S,m,inan=abl,pl
-_
-шлепка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-веселый=A=(acc,pl,plen,inan|nom,pl,plen)
-\n
-по=PR=
-_
-мокрота=S,f,inan=(abl,sg|dat,sg)
-_
-бежать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)
-_
-нога=S,f,inan=gen,pl
-.\n
+  {покрывать=V=praet,pl,partcp,brev,pf,pass} {грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {переплеск=S,m,inan=ins,pl}
+{чрез=PR=} {улица=S,f,inan=acc,sg} {ведущий=S,m,anim=nom,pl} {стезя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{устилать=V=praet,pl,indic,pf} {кой-где=ADV=} {переход=S,m,inan=(acc,pl|nom,pl)} {доска=S,f,inan=ins,pl},
+{все=SPRO,pl=(acc|nom)} {ж=PART=} {вязнуть=V,ipf,intr=inf} {надобно=ADV,praed=} {в=PR=} {грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+
+  {идти=V,ipf,intr=inpraes,pl,indic,3p} {прохожий=S,m,anim=nom,pl} {тихохонький=A=sg,brev,n},
+{и=CONJ=} {по=PR=} {мосток=S,m,inan=dat,pl} {сырой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {скользить=V,ipf,intr=inpraes,pl,indic,3p} {шаг=S,m,inan=(acc,pl|nom,pl)},
+{на=PR=} {перекресток=S,m,inan=abl,pl}-{то=CONJ=} {грязнехонько?=ADV=},
+  {и=CONJ=} {пачкаться=V,ipf,intr=inpraes,pl,indic,3p} {сапог=S,m,inan=(acc,pl|nom,pl)}.
+
+  {а=CONJ=} {я=SPRO,sg,1p=nom}, — {мой=APRO=(nom,pl|acc,pl,inan)} {привычка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {скромный=A=(acc,pl,plen,inan|nom,pl,plen)}, —
+{босой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {не=PART=} {разбирать=V=inpraes,sg,indic,1p,ipf,tran} {я=SPRO,sg,1p=nom} {дорога=S,f,inan=gen,pl}.
+{пора=S,f,inan=ins,sg} {долетать=V,intr=inpraes,pl,indic,3p,ipf} {брызги=S,pl,inan=(acc|nom)} {темный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{до=PR=} {верх=S,m,inan=(acc,pl|gen,sg|nom,pl)} {покраснеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {нога=S,f,inan=gen,pl}.
+
+  {отмывать=V=inf,pf} {нетрудно=ADV=} {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {голый=A=(acc,pl,plen,inan|nom,pl,plen)}.
+{насмешливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {чего=ADVPRO=} {стыдиться=V,ipf,intr=inf} {слово=S,n,inan=gen,pl}?
+{забавный=A=pl,brev} {на=PR=} {мосток=S,m,inan=abl,pl} {шлепка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {веселый=A=(acc,pl,plen,inan|nom,pl,plen)}
+{по=PR=} {мокрота=S,f,inan=(abl,sg|dat,sg)} {бежать=V,intr=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {нога=S,f,inan=gen,pl}.

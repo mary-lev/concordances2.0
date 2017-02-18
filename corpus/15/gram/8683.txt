@@ -1,59 +1,9 @@
-\xAB
-фея=S,f,anim=nom,sg
-\xBB_\u2014_
-шепнуть=V,pf,tran=praet,pl,indic
-_
-сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-,\n\t\xAB
-фея=S,f,anim=nom,sg
-\xBB_\u2014_
-призыв=S,m,inan=(acc,sg|nom,sg)
-_
-быть=V,intr=praet,sg,indic,m,ipf
-_
-стриж=S,m,anim=(acc,sg|gen,sg)
-.\n\xAB
-фея=S,f,anim=nom,sg
-\xBB_\u2014_
-шепнуть=V,pf,tran=praet,pl,indic
-_
-сквозь=PR=
-_
-тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-\n\t
-ландыш=S,m,inan=(acc,pl|nom,pl)
-,_
-око=S,n,inan=(acc,pl|nom,pl)
-_
-смеж?=S,m,inan=gen,sg
-.\n\n\xAB
-фея=S,f,anim=nom,sg
-\xBB,_\u2014_
-сквозить=V,ipf,intr=inpraes,ger
-_
-изумрудный=A=sg,brev,n
-,\n\t
-травка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-промолвить=V,pf,tran=praet,sg,indic,f
-_
-нить=S,f,inan=(acc,sg|nom,sg)
-.\n
-фея=S,f,anim=nom,sg
-_
-вздыхать=V,intr=praet,sg,indic,f,pf
-:_
-как=ADVPRO=
-_
-трудно=ADV=
-!\n\t
-все=SPRO,pl=(abl|acc|gen)
--
-то=PART=
-_
-должный=A=sg,brev,f
-_
-я=SPRO,sg,1p=nom
-_
-любить=V,ipf,tran=inf
-.\n
+«{фея=S,f,anim=nom,sg}» — {шепнуть=V,pf,tran=praet,pl,indic} {сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+	«{фея=S,f,anim=nom,sg}» — {призыв=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {стриж=S,m,anim=(acc,sg|gen,sg)}.
+«{фея=S,f,anim=nom,sg}» — {шепнуть=V,pf,tran=praet,pl,indic} {сквозь=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+	{ландыш=S,m,inan=(acc,pl|nom,pl)}, {око=S,n,inan=(acc,pl|nom,pl)} {смеж?=S,m,inan=gen,sg}.
+
+«{фея=S,f,anim=nom,sg}», — {сквозить=V,ipf,intr=inpraes,ger} {изумрудный=A=sg,brev,n},
+	{травка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {промолвить=V,pf,tran=praet,sg,indic,f} {нить=S,f,inan=(acc,sg|nom,sg)}.
+{фея=S,f,anim=nom,sg} {вздыхать=V,intr=praet,sg,indic,f,pf}: {как=ADVPRO=} {трудно=ADV=}!
+	{все=SPRO,pl=(abl|acc|gen)}-{то=PART=} {должный=A=sg,brev,f} {я=SPRO,sg,1p=nom} {любить=V,ipf,tran=inf}.

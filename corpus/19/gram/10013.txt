@@ -1,110 +1,19 @@
-мы=SPRO,pl,1p=nom
-_
-ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)
-_
-возле=PR=
-_
-речка=S,f,inan=(acc,pl|gen,sg|nom,pl)
-\n
-на=PR=
-_
-рьяный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)
-_
-лошадь=S,f,anim=abl,pl
-.\n
-гореть=V,ipf,intr=inpraes,pl,indic,3p
-_
-мой=APRO=(nom,pl|acc,pl,inan)
-_
-лобзание=S,n,inan=(acc,pl|gen,sg|nom,pl)
-\n
-у=PR=
-_
-милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-на=PR=
-_
-щека=S,f,inan=abl,pl
-.\n\n
-сиять=V,ipf,intr=inpraes,pl,indic,3p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-взор=S,m,inan=(acc,pl|nom,pl)
-,\n
-сиять=V,ipf,intr=inpraes,sg,indic,3p
-_
-все=SPRO,pl=(acc|nom)
-_
-вокруг=ADV=
-:\n
-река=S,f,inan=nom,sg
-,_
-холм=S,m,inan=(acc,pl|nom,pl)
-,_
-дерево=S,n,inan=(acc,pl|nom,pl)
-,\n
-и=CONJ=
-_
-облако=S,n,inan=(acc,pl|gen,sg|nom,pl)
-,_
-и=CONJ=
-_
-луг=S,m,inan=(acc,sg|nom,sg)
-.\n\n
-с=PR=
-_
-веселый=A=ins,sg,plen,f
-_
-улыбка=S,f,inan=ins,sg
-,\n
-и=CONJ=
-_
-розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-_
-мечта=S,f,inan=ins,sg
-\n
-мы=SPRO,pl,1p=nom
-,_
-глядеть=V,ipf,tran=inpraes,ger
-_
-друг=S,m,anim=nom,sg
-_
-на=PR=
-_
-друг=S,m,anim=(acc,sg|gen,sg)
-,\n
-торопиться=V,ipf,intr=inpraes,pl,indic,1p
-_
-домой=ADV=
-.\n\n
-нестись=V,ipf,intr=inpraes,pl,indic,3p
-_
-наш=APRO=(nom,pl|acc,pl,inan)
-_
-конь=S,m,anim=nom,pl
-,\n
-и=CONJ=
-_
-следом=ADV=
-_
-пыль=S,f,inan=(acc,sg|nom,sg)
-_
-лететь=V,ipf,intr=inpraes,sg,indic,3p
-,\n
-как=ADVPRO=
-_
-будто=PART=
-_
-бы=PART=
-_
-дорога=S,f,inan=nom,sg
-,\n
-где=ADVPRO=
-_
-ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)
-_
-мы=SPRO,pl,1p=nom
-,_
-гореть=V,ipf,intr=inpraes,sg,indic,3p
-.\n
+{мы=SPRO,pl,1p=nom} {ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)} {возле=PR=} {речка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+{на=PR=} {рьяный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лошадь=S,f,anim=abl,pl}.
+{гореть=V,ipf,intr=inpraes,pl,indic,3p} {мой=APRO=(nom,pl|acc,pl,inan)} {лобзание=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{у=PR=} {милый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {на=PR=} {щека=S,f,inan=abl,pl}.
+
+{сиять=V,ipf,intr=inpraes,pl,indic,3p} {наш=APRO=(nom,pl|acc,pl,inan)} {взор=S,m,inan=(acc,pl|nom,pl)},
+{сиять=V,ipf,intr=inpraes,sg,indic,3p} {все=SPRO,pl=(acc|nom)} {вокруг=ADV=}:
+{река=S,f,inan=nom,sg}, {холм=S,m,inan=(acc,pl|nom,pl)}, {дерево=S,n,inan=(acc,pl|nom,pl)},
+{и=CONJ=} {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {луг=S,m,inan=(acc,sg|nom,sg)}.
+
+{с=PR=} {веселый=A=ins,sg,plen,f} {улыбка=S,f,inan=ins,sg},
+{и=CONJ=} {розовый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мечта=S,f,inan=ins,sg}
+{мы=SPRO,pl,1p=nom}, {глядеть=V,ipf,tran=inpraes,ger} {друг=S,m,anim=nom,sg} {на=PR=} {друг=S,m,anim=(acc,sg|gen,sg)},
+{торопиться=V,ipf,intr=inpraes,pl,indic,1p} {домой=ADV=}.
+
+{нестись=V,ipf,intr=inpraes,pl,indic,3p} {наш=APRO=(nom,pl|acc,pl,inan)} {конь=S,m,anim=nom,pl},
+{и=CONJ=} {следом=ADV=} {пыль=S,f,inan=(acc,sg|nom,sg)} {лететь=V,ipf,intr=inpraes,sg,indic,3p},
+{как=ADVPRO=} {будто=PART=} {бы=PART=} {дорога=S,f,inan=nom,sg},
+{где=ADVPRO=} {ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)} {мы=SPRO,pl,1p=nom}, {гореть=V,ipf,intr=inpraes,sg,indic,3p}.

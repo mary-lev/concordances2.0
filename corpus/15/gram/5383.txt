@@ -1,112 +1,14 @@
-я=SPRO,sg,1p=nom
-_
-нарывать=V=praet,sg,indic,m,pf,tran
-_
-черемуха=S,f,inan=(acc,pl|gen,sg|nom,pl)
-_
-душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-,\n
-освежать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)
-_
-утренний=A=ins,sg,plen,f
-_
-мгла=S,f,inan=ins,sg
-.\n
-как=CONJ=
-_
-в=PR=
-_
-она=SPRO,sg,3p,f=(abl|dat|gen|ins)
-_
-много=ADV,praed=
-_
-пьяность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)
-_
-росистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)
-.\n
-милый=A=nom,sg,plen,f
-,_
-скоро=ADV=comp
-_
-окно=S,n,inan=(acc,sg|nom,sg)
-_
-открывать=V=sg,imper,2p,pf
-!\n\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-к=PR=
-_
-ты=SPRO,sg,2p=(abl|dat)
-_
-сам=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)
-_
-ревновать=V,ipf,tran=inpraes,sg,indic,1p
-,\n
-я=SPRO,sg,1p=nom
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-так=ADVPRO=
-_
-тесно=ADV=
-_
-обвивать=V=inpraes,sg,indic,1p,pf
-,\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-цветок=S,m,inan=ins,pl
-_
-зачаровывать=V=inpraes,sg,indic,1p,pf
-,\n
-и=CONJ=
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-роса=S,f,inan=ins,sg
-_
-напой=S,m,inan=dat,sg
-.\n\n
-предо=PR=
-_
-я=SPRO,sg,1p=ins
-_
-тонкий=A=nom,sg,plen,f
-_
-преграда=S,f,inan=nom,sg
-,\n
-сквозь=PR=
-_
-стекло=S,n,inan=(acc,sg|nom,sg)
-_
-видный=A=sg,brev,f
-_
-твой=APRO=nom,sg,f
-_
-кровать=S,f,inan=(acc,sg|nom,sg)
-.\n
-нет=PART=
-,_
-не=PART=
-_
-надо=ADV,praed=
-_
-твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)
-,_
-не=PART=
-_
-надо=ADV,praed=
-,\n
-давать=V,tran=sg,imper,2p,pf
-_
-ты=SPRO,sg,2p=(acc|gen)
-_
-я=SPRO,sg,1p=(abl|dat)
-_
-весь=APRO=acc,sg,f
-_
-поцеловать=V,pf,tran=inf
-!\n
+{я=SPRO,sg,1p=nom} {нарывать=V=praet,sg,indic,m,pf,tran} {черемуха=S,f,inan=(acc,pl|gen,sg|nom,pl)} {душистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+{освежать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {утренний=A=ins,sg,plen,f} {мгла=S,f,inan=ins,sg}.
+{как=CONJ=} {в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {много=ADV,praed=} {пьяность?=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {росистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+{милый=A=nom,sg,plen,f}, {скоро=ADV=comp} {окно=S,n,inan=(acc,sg|nom,sg)} {открывать=V=sg,imper,2p,pf}!
+
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {сам=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {ревновать=V,ipf,tran=inpraes,sg,indic,1p},
+{я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(acc|gen)} {так=ADVPRO=} {тесно=ADV=} {обвивать=V=inpraes,sg,indic,1p,pf},
+{и=CONJ=} {ты=SPRO,sg,2p=(acc|gen)} {цветок=S,m,inan=ins,pl} {зачаровывать=V=inpraes,sg,indic,1p,pf},
+{и=CONJ=} {ты=SPRO,sg,2p=(acc|gen)} {роса=S,f,inan=ins,sg} {напой=S,m,inan=dat,sg}.
+
+{предо=PR=} {я=SPRO,sg,1p=ins} {тонкий=A=nom,sg,plen,f} {преграда=S,f,inan=nom,sg},
+{сквозь=PR=} {стекло=S,n,inan=(acc,sg|nom,sg)} {видный=A=sg,brev,f} {твой=APRO=nom,sg,f} {кровать=S,f,inan=(acc,sg|nom,sg)}.
+{нет=PART=}, {не=PART=} {надо=ADV,praed=} {твой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)}, {не=PART=} {надо=ADV,praed=},
+{давать=V,tran=sg,imper,2p,pf} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=(abl|dat)} {весь=APRO=acc,sg,f} {поцеловать=V,pf,tran=inf}!
