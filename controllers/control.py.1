@@ -16,10 +16,10 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in range(10260,10275): # if text not yet in database (last:4811,7088, 10260)
+    for x in range(10800,11164): # if text not yet in database (last:4811,7088, 10260) 11164
         text2 = trymysql(trymysql.text1.id==x).select().first()
         text1 = text2['body'].decode('utf-8')
-        filename = "/home/concordance/web2py/applications/test/corpus/" + str(text2.author.id) + str(text2.id) + '.txt'
+        filename = "/home/concordance/web2py/applications/test/corpus/" + str(text2.author.id) + "/" + str(text2.id) + '.txt'
         f = open(filename, 'w')
         f.write(text1.encode('utf-8'))
         f.close()
@@ -73,7 +73,7 @@ def parse_tags(tags, list_tags):
 
 @auth.requires_login()
 def search_for_files():
-    path = "/home/concordance/web2py/applications/test/corpus/"
+    path = "/home/concordance/web2py/applications/test/corpus/new/"
     files = [f for f in listdir(path) if isfile(join(path,f)) ]
     filename=str(path)+files[0]
     new = open(filename, 'rb')
@@ -105,7 +105,7 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=8, group_text=81, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=24, group_text=88, writing_location=location, body = ''.join(text['t']))
             stih = []
             text= {}
             year=''
@@ -145,10 +145,10 @@ def verbs_all(): # parse mystem result
         try:
             #s = ypart.intersection(all['analysis'][0]['gr'].split())
             l=''
-            if ypart[0] in all['analysis'][0]['gr']:
-                l=yapart[0]
+            if ypart[11] in all['analysis'][0]['gr']:
+                l=ypart[11]
             c.append([len(all['analysis']), all['analysis'][0]['lex'], all['analysis'][0]['gr'], l])
-            
+
         except:
             pass
     return dict(c=c)

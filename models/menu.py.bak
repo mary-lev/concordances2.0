@@ -40,7 +40,7 @@ def _():
     # useful links to internal and external resources
     response.menu += [
         (SPAN('Корпус', _class='highlighted'), False, '', [
-        (T('Александ Блок'), False, URL('author', 'all_author', args='1')),
+        (T('Александр Блок'), False, URL('author', 'all_author', args='1')),
         (T('Николай Гумилев'), False, URL('author', 'all_author', args='2')),
         (T('Осип Мандельштам'), False, URL('author', 'all_author', args='4')),
         (T('Андрей Белый'), False, URL('author', 'all_author', args='5')),
@@ -51,7 +51,7 @@ def _():
 
         (SPAN('Цвета', _class='highlighted'), False, URL('color', 'index'), [
         (T('В корпусе'), False, URL('color', 'index')),
-        (T('Александ Блок'), False, URL('color', 'author', args='1')),
+        (T('Александр Блок'), False, URL('color', 'author', args='1')),
         (T('Николай Гумилев'), False, URL('color', 'author', args='2')),
         (T('Осип Мандельштам'), False, URL('color', 'author', args='4')),
         (T('Андрей Белый'), False, URL('color', 'author', args='5'))

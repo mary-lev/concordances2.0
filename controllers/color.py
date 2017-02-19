@@ -84,7 +84,7 @@ def author_all_color():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     authors = trymysql().select(trymysql.author.ALL)
     result = []
-    test_words = ['сизый']
+    #test_words = ['сизый']
     for all in color2:
         color_list = []
         pros = [p.pro for p in trymysql(trymysql.slovar1.word==all).select()]

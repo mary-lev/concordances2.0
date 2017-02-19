@@ -64,7 +64,7 @@ def _():
         (SPAN('Конкорданс', _class='highlighted'), False, URL('concordance', 'create_concordance') ),
 
         (SPAN('Статистика', _class='highlighted'), False, URL('count', 'index'), [
-        (T('Части речи'), False, URL('context', 'index')),
+        (T('Части речи'), False, URL('count', 'index')),
         ] ),
 
         (SPAN('Векторная модель', _class='highlighted'), False, URL('concordance', 'model'), [

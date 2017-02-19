@@ -82,6 +82,7 @@ def author(): # отображение данных по цветообозна�
 
 def author_all_color():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
+    authors = trymysql().select(trymysql.author.ALL)
     result = []
     test_words = ['сизый']
     for all in color2:
@@ -97,7 +98,7 @@ def author_all_color():
             text = trymysql(trymysql.text1.id == r.title).select()[0]
             color_list.append([corpus_text, text])
         result.append([all, color_list])
-    return dict(text=result, author = author1)
+    return dict(text=result, author = author1, authors=authors)
 
 @auth.requires_login()
 def author_index(): # сохраняем авторские данные в текстовый файл для ускорения рисования кружочков

@@ -1,0 +1,98 @@
+{рокот=S,m,inan=(acc,pl|nom,pl)} {лирный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{спектр=S,m,inan=(acc,pl|nom,pl)} {созвучный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{славить=V,ipf,tran=inpraes,pl,indic,3p}, {ответный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{вы=SPRO,pl,2p=(abl|acc|gen)}, {огнезвучный?=A,plen=(nom,pl|acc,pl,inan)}
+{струна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {всемирный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{вы=SPRO,pl,2p=(abl|acc|gen)}, {семицветный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{арка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {эфирный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{ярко=ADV=}-{просветный=A,plen=(nom,pl|acc,pl,inan)}!
+
+{реяние=S,n,inan=gen,pl} {знамение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{веяние=S,n,inan=gen,pl} {вестница=S,f,anim=(gen,sg|nom,pl)},
+{райский=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {каменья=S,pl,inan=(acc|nom)}
+{легкое=S,n,inan=(acc,pl|nom,pl)} {лестница=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+{вы=SPRO,pl,2p=(abl|acc|gen)}, {нисхождение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{отсвет=S,m,inan=(acc,pl|nom,pl)} {бледный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{и=CONJ=} {восхождение=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {победный=A=(acc,pl,plen,inan|nom,pl,plen)}!
+{дух=S,m,inan=gen,sg} {и=CONJ=} {брение?=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{звение?=S,n,inan=(acc,pl|gen,sg|nom,pl)} {брачный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{сон=S,m,inan=(acc,pl|nom,pl)} {предварение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{сон=S,m,inan=(acc,pl|nom,pl)} {огнезрачный?=A=(acc,pl,plen,inan|nom,pl,plen)}, —
+{вы=SPRO,pl,2p=(abl|acc|gen)}, {семицветный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{дуга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {заветный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{радуга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мирный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {обетный?=A=(acc,pl,plen,inan|nom,pl,plen)}!
+
+{небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лазурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} {зарево=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{дымный=A=(acc,pl,plen,inan|nom,pl,plen)} {марево=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+{сумрак=S,m,inan=gen,sg} {бурный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{влажный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {горение=S,n,inan=ins,sg}
+{вы=SPRO,pl,2p=nom} {напояете?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)};
+{вы=SPRO,pl,2p=nom} {растворение=S,n,inan=ins,sg}
+{светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прозрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{в=PR=} {молнийный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мрачность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+{сладко=ADV=} {сиять=V,ipf,intr=inpraes,pl,indic,2p}.
+{рая=S,persn,f,anim=nom,sg} {павлин=S,m,anim=ins,pl}
+{вы=SPRO,pl,2p=nom} {возлетать?=V=inpraes,pl,indic,2p,ipf};
+{гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {долина=S,f,inan=ins,pl}
+{вы=SPRO,pl,2p=nom} {сочетать=V,tran=(inpraes,pl,indic,2p,ipf|inpraes,pl,indic,2p,pf)};
+{вздох=S,m,inan=ins,pl} {таять=V,ipf,intr=inpraes,pl,indic,2p}
+{в=PR=} {горний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {селение=S,n,inan=abl,pl},
+{в=PR=} {буйный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стремление=S,n,inan=abl,pl}
+{дольний=A=ins,pl,plen} {чадо=S,n,anim=ins,pl}
+{над=PR=} {водопад=S,m,inan=ins,pl}
+{вы=SPRO,pl,2p=nom} {расцветать=V,intr=inpraes,pl,indic,2p,ipf}.
+
+{о=PR=} {мимолетный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бесплотный=A=(acc,pl,plen,inan|nom,pl,plen)},
+{мир=S,m,inan=(acc,sg|nom,sg)} {улегчать?=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)} {вы=SPRO,pl,2p=nom},
+{мир=S,m,inan=(acc,sg|nom,sg)} {научать=V,tran=(inpraes,pl,indic,2p,pf|pl,imper,2p,pf)} {вы=SPRO,pl,2p=nom},
+{как=ADVPRO=} {растворяться=V,intr=inpraes,sg,indic,3p,ipf}
+{тайна=S,f,inan=nom,sg} {в=PR=} {явление=S,n,inan=abl,sg},
+{как=ADVPRO=} {претворяться=V,intr=inpraes,sg,indic,3p,ipf}
+{тень=S,f,inan=(acc,sg|nom,sg)} {разделение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+{как=ADVPRO=} {умиряться=V,intr=inpraes,sg,indic,3p,ipf}
+{рознь=S,f,inan=(acc,sg|nom,sg)} {семилучный?=A=nom,sg,plen,f},
+{как=ADVPRO=} {оперяться=V,intr=inpraes,sg,indic,3p,ipf}
+{жертва=S,f,anim=nom,sg} {разлучный=A,plen=nom,sg,f};
+{как=CONJ=} {однозвучный=A=nom,sg,plen,f}
+{вдруг=ADV=} {озаряться=V,intr=inpraes,sg,indic,3p,ipf}
+{жизнь=S,f,inan=(acc,sg|nom,sg)} {наш=APRO=nom,sg,f} {бедный=A=nom,sg,plen,f};
+{греза=S,f,inan=nom,sg} {победный=A=nom,sg,plen,f}
+{высь=S,f,inan=ins,sg} {неслеживать?=V=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)}
+{в=PR=} {ткань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {разреженный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+{как=ADVPRO=} {воцаряться=V,intr=inpraes,sg,indic,3p,ipf},
+{как=CONJ=} {сиротливый=A=(acc,sg,plen,n|nom,sg,plen,n)}
+{она=SPRO,sg,3p,f=(dat|ins)} {уверяться=V,intr=inpraes,sg,indic,3p,ipf}
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {тоскливый=A=(acc,sg,plen,n|nom,sg,plen,n)};
+{как=ADVPRO=} {отворяться=V,intr=inpraes,sg,indic,3p,ipf}
+{крыша=S,f,inan=nom,sg} {тюремный=A=nom,sg,plen,f};
+{жажда=S,f,inan=nom,sg} {надземный=A=nom,sg,plen,f}
+{как=ADVPRO=} {одариваться=V,ipf,intr=inpraes,sg,indic,3p}!
+
+{свод=S,m,inan=(acc,pl|nom,pl)} {кристальный=A=(acc,pl,plen,inan|nom,pl,plen)}
+{стройный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {обитель=S,f,inan=gen,pl},
+{смелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {зиждитель=S,m,anim=(acc,pl|gen,pl)}
+{замысел=S,m,inan=(acc,pl|nom,pl)} {дальный?=A=(acc,pl,plen,inan|nom,pl,plen)},
+{взор=S,m,inan=(acc,pl|nom,pl)} {чаровать=V,ipf,tran=pl,imper,2p} {мы=SPRO,pl,1p=dat},
+{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {врачевать=V,ipf,tran=pl,imper,2p} {мы=SPRO,pl,1p=dat},
+{тайна=S,f,inan=acc,sg} {поведывать=V,tran=pl,imper,2p,pf}
+{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {прекрасный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+{заповедь=S,f,inan=(acc,sg|nom,sg)} {ясный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}
+{сон=S,m,inan=gen,sg} {заповедовать=V,tran=pl,imper,2p,pf}:
+{как=ADVPRO=} {улыбаться=V,intr=inpraes,sg,indic,3p,ipf}
+{светлость=S,f,inan=(acc,sg|nom,sg)} {под=PR=} {туча=S,f,inan=ins,pl}
+{как=ADVPRO=} {нагибаться=V,intr=inpraes,sg,indic,3p,ipf}
+{легкость=S,f,inan=(acc,sg|nom,sg)} {над=PR=} {круча=S,f,inan=ins,pl}
+{как=ADVPRO=} {упиваться=V,intr=inpraes,pl,indic,3p,ipf}
+{света=S,persn,f,anim=ins,pl} {зыбкий=A=ins,pl,plen},
+{осияваться?=V,obsc,ipf,intr=inpraes,pl,indic,3p|осияваться?=V,inform,obsc,ipf,intr=inpraes,pl,indic,3p|осияваться?=V,ipf,intr=inpraes,pl,indic,3p|осияваться?=V,obsc,ipf,intr=inpraes,pl,indic,3p}
+{цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {улыбка=S,f,inan=ins,pl}
+{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {окрылять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)};
+{как=ADVPRO=} {очищаться=V,intr=inpraes,pl,indic,3p,ipf}
+{сумрак=S,m,inan=(acc,pl|nom,pl)} {краска=S,f,inan=ins,pl},
+{как=ADVPRO=} {освещаться=V,intr=inpraes,pl,indic,3p,ipf}
+{проливень=S,m,inan=gen,pl} {пляска=S,f,inan=ins,pl}
+{склон=S,m,inan=(acc,pl|nom,pl)} {зеленый=A=(acc,pl,plen,inan|nom,pl,plen)}.
