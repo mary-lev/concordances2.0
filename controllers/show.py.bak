@@ -73,7 +73,7 @@ def show3(): #variants from txt files
                     else:
                         s.append(['- ' + all for all in clear[count][2:].split()])
                 else:
-                    s.append(clear[count].split())
+                     s.append(['- ' + all for all in clear[count][2:].split()])
             elif clear[count].startswith('+'):
                 s.append(['+ ' + all for all in clear[count][2:].split()])
             else:

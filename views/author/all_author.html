@@ -8,7 +8,7 @@
 {{if books:}}
     <h3>Сборники</h3>
     {{for all in books:}}
-        <li>{{=all.title}} ({{=I(all.year)}})</li>
+        <li>{{=A(all.title, _href=URL('show', 'show_group', args=all.id))}} {{if all.year:}} ({{=I(all.year)}}) {{pass}}</li>
 {{pass}}    {{pass}}
 {{end}}
 </div>

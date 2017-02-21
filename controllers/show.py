@@ -174,3 +174,8 @@ def show_book():
     if len(old)==0:
         drafts = trymysql(trymysql.drafts.book==request.args(0)).select()
     return dict(book=book, pages=pages, texts=texts, old=old, obl=obl, drafts=drafts)
+
+def show_group():
+    texts = trymysql(trymysql.text1.group_text==request.args(0)).select()
+    group = trymysql(trymysql.group_text.id==request.args(0)).select()[0]
+    return dict(texts=texts, group=group)

@@ -16,14 +16,16 @@ def index():
     return dict(texts=texts)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    for x in xrange(11164,11334): # if text not yet in database (last:4811,7088, 10260) 11334 11452
-        text2 = trymysql(trymysql.text1.id==x).select()[0]
-        text1 = text2['body'].decode('utf-8')
-        filename = "/home/concordance/web2py/applications/test/corpus/" + str(text2.author.id) + "/" + str(text2.id) + '.txt'
+    rows = trymysql(trymysql.text1.author==26).select()
+    #for x in xrange(11164,11334): # if text not yet in database (last:4811,7088, 10260) 11334 11452
+    for all in rows:
+        #text2 = trymysql(trymysql.text1.id=all.id).select()[0]
+        text1 = all['body'].decode('utf-8')
+        filename = "/home/concordance/web2py/applications/test/corpus/" + str(all.author.id) + "/" + str(all.id) + '.txt'
         f = open(filename, 'w')
         f.write(text1.encode('utf-8'))
         f.close()
-        text2.update_record(filename=filename)
+        all.update_record(filename=filename)
         #normal = normalize_new2(text1, 0)
         #for token in normal:
             #trymysql.allword.insert(title=text2.id, word=token[0], partos=str(token[1]), author=text2.author, text_location=token[3], tense=str(token[4]), lemma=str(token[2].encode('utf-8')))
@@ -105,7 +107,7 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=24, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=26, writing_location=location, body = ''.join(text['t']))
             stih = []
             text= {}
             year=''

@@ -64,7 +64,7 @@ all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect
 
 @auth.requires_login()
 def slovar():
-    all_text = trymysql(trymysql.text1.author==24).select()[500:800]
+    all_text = trymysql(trymysql.text1.author==25).select()
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'

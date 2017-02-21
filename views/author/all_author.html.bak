@@ -8,7 +8,7 @@
 {{if books:}}
     <h3>Сборники</h3>
     {{for all in books:}}
-        <li>{{=all.title}} ({{=I(all.year)}})</li>
+        <li>{{=A(all.title, _href=URL('show', 'show_group', args=all.id))}} ({{=I(all.year)}})</li>
 {{pass}}    {{pass}}
 {{end}}
 </div>
@@ -31,7 +31,7 @@
 
 {{block right_sidebar}}
 
-<h3>{{=T("Публикации")}}</h3>
+<h3>{{=T("Издания")}}</h3>
 {{for all in publ:}}
  <li> {{=A(all.title, _href=URL("show", "show_book", args=all.id))}} {{if all.part:}} {{=all.year}}. {{=all.part}} {{else:}} ({{=all.year}}) {{pass}}</li>
 {{pass}}

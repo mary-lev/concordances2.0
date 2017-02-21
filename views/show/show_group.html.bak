@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>{{=group.title}}. {{=group.author.name}} {{=group.author.family}}</h1>
+
+{{for all in texts:}}
+<li>{{=all.title}}</li>
+{{pass}}
