@@ -4,6 +4,7 @@
 #########################################################################
 ## Customize your APP title, subtitle and menus here
 #########################################################################
+from zauthor import au
 
 response.logo = A(B('concor',SPAN('dances')),XML('.ru'),
                   _class="brand",_href="http://concordances.ru")
@@ -12,7 +13,7 @@ response.subtitle = ''
 
 ## read more at http://dev.w3.org/html5/markup/meta.name.html
 response.meta.author = 'Maria Levchenko <marylevchenko@gmail.com>'
-response.meta.keywords = 'concordance, natural language processing, critics'
+response.meta.keywords = 'concordance, natural language processing, russian poetry'
 response.meta.generator = 'Частотный словарь русской литературы'
 
 ## your http://google.com/analytics id
@@ -64,7 +65,7 @@ def _():
         (SPAN('Конкорданс', _class='highlighted'), False, URL('concordance', 'create_concordance') ),
 
         (SPAN('Статистика', _class='highlighted'), False, URL('count', 'index'), [
-        (T('Части речи'), False, URL('context', 'index')),
+        (T('Части речи'), False, URL('count', 'index')),
         ] ),
 
         (SPAN('Векторная модель', _class='highlighted'), False, URL('concordance', 'model'), [
@@ -73,7 +74,8 @@ def _():
         (T('Птицы'), False, URL('concordance', 'birds')),
         ] )
          ]
-
+    response.menu.append(['Test', False, '#',
+                              [[all.name, False, URL('author', 'all_author', args=all.id)] for all in au()]])
 if DEVELOPMENT_MENU: _()
 
 if "auth" in locals(): auth.wikimenu()

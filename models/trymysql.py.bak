@@ -1,4 +1,6 @@
+from gluon import current
 trymysql = DAL('mysql://concordance:sosnora@concordance.mysql.pythonanywhere-services.com/concordance$new')
+current.trymysql = trymysql
 
 trymysql.define_table('author',
                   Field('name', label="Имя"),
@@ -86,27 +88,6 @@ trymysql.define_table('allword',
                   Field('lexical_group', label="Лексическая группа"),
                   Field('concordance_number',  label="Номер в конкордансе"),
                   Field('warning', label = "Warning"),
-                  Field('author', label="Автор"),
-                  migrate=False,fake_migrate=True)
-
-trymysql.define_table('mystem',
-                  Field('word', label="Слово"),
-                  Field('lemma'),
-                  Field('title', trymysql.text1, label="Текст"),
-                  Field('partos', label="Часть речи"),
-                  Field('anim', label="Одушевленность"),
-                  Field('gendr', label="Род"),
-                  Field('number', label="Число"),
-                  Field('cas', label="Падеж"),
-                  Field('tense', label="Время"),
-                  Field('aspect', label="Вид"),
-                  Field('person', label="Лицо"),
-                  Field('transitivity', label="Переходность"),
-                  Field('mood', label="Наклонение"),
-                  Field('voice', label="Залог"),
-                  Field('other', label="Другое"),
-                  Field('lexical_group', label="Лексическая группа"),
-                  Field('concordance_number',  label="Номер в конкордансе"),
                   Field('author', label="Автор"),
                   migrate=False,fake_migrate=True)
 

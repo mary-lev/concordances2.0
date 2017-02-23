@@ -12,7 +12,7 @@ response.subtitle = ''
 
 ## read more at http://dev.w3.org/html5/markup/meta.name.html
 response.meta.author = 'Maria Levchenko <marylevchenko@gmail.com>'
-response.meta.keywords = 'concordance, natural language processing, critics'
+response.meta.keywords = 'concordance, natural language processing, russian poetry'
 response.meta.generator = 'Частотный словарь русской литературы'
 
 ## your http://google.com/analytics id
