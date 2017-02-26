@@ -10,15 +10,25 @@
         <td>{{if texts.dedication: }}
             <p><i>{{=texts.dedication}}</i>
                 {{pass}}
-                {{if epi:}}
-            <p>{{for e in epi_text:}}
-                {{=e}}<br>
+            {{if epigraphs:}}
+                {{for epi in epigraphs:}}
+
+                    {{if epi.epi_text_id:}}
+                        {{for e in epi_text[epigraphs.index(epi)]:}}
+                         <p style="font-size:10px"> {{=A(e, _href=URL('show', 'show1', args=epi.epi_text_id))}}<br> </font>
+                            {{pass}}
+                    {{else:}}
+                            {{for e in epi_text[epigraphs.index(epi)]:}}
+                                 {{=e}}<br>
+                            {{pass}}
+                    {{pass}} </p>
+
+            <p><i>{{if epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
+                    {{elif epi.epi_author:}} {{=epi.epi_author}} {{pass}} </i>
+            <p><i>{{if epi.epi_book:}} {{=epi.epi_book}} {{pass}}</i></p>
                 {{pass}}
-            <p><i>{{if epi.epi_text_id:}} {{=A(epi.epi_author, _href=URL('show', 'show1', args=epi.epi_text_id))}}
-                {{elif epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
-                {{elif epi.author:}} {{=epi.epi_author}} {{pass}} </i>
-            <p><i>{{=epi.epi_book}}</i>
-                {{pass}}
+            {{pass}}
+
 <p>            {{for line in content:}}
     {{if '|' in line:}}
     <br>

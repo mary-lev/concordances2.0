@@ -23,15 +23,17 @@ def show1():   # show text from file
     elif texts.year_writing:
         date = texts.year_writing + ' год'
     image = [all.url for all in d(d.pages.text==request.args(0)).select()]
-    epi=''
-    epi_text=''
+    epi=[]
+    epi_text=[]
     if texts.epigraph:
-        epi = trymysql(trymysql.epi.text==request.args(0)).select()
-        filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(epi.text) + '.txt'
-        with open(filename, 'r') as f:
-            epi_text = f.readlines()
+        epig = trymysql(trymysql.epi.text==request.args(0)).select()
+        for all in epig:
+            with open(all.filename, 'r') as f:
+                epi_lines = f.readlines()
+                epi_text.append(epi_lines)
+            epi.append(all)
 
-    return dict(texts=texts, content=content, image=image, date=date, epi=epi, epi_text=epi_text)
+    return dict(texts=texts, content=content, image=image, date=date, epigraphs=epi, epi_text=epi_text)
 
 def month_index(month, mlist):
     if month!='10':

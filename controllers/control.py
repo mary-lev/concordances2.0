@@ -20,17 +20,10 @@ def epi():
     #texts = trymysql(trymysql.text1.id==5348).select()
     for all in texts:
         filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(all.id) + '.txt'
-        #filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(all.id) + '.json'
-        epi_json = {}
-        di = {}
-        di['epi_text'] = all.epigraph
-        di['epi_author'] = all.epigraph_author
-        di['epi_book'] = all.epigraph_text_name
-        epi_json['0'] = di
         with open(filename, 'wb') as f:
             f.write(all.epigraph)
-#        trymysql.epi.insert(text=all.id, epi_text=all.epigraph, epi_filename=filename, epi_author = all.epigraph_author, epi_book=all.epigraph_text_name)
-    return dict(filename=filename, epi_json=epi_json, a=len(epi_json))
+        trymysql.epi.insert(text=all.id, epi_text=all.epigraph, epi_filename=filename, epi_author = all.epigraph_author, epi_book=all.epigraph_text_name)
+    return dict(filename=filename)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
     rows = trymysql(trymysql.text1.author==19).select()[700:]

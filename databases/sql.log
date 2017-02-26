@@ -134468,3 +134468,10 @@ success!
 timestamp: 2017-02-25T21:56:20.226884
 ALTER TABLE epi ADD epi_text_id INT, ADD INDEX epi_text_id__idx (epi_text_id), ADD FOREIGN KEY (epi_text_id) REFERENCES text1 (id) ON DELETE CASCADE;
 success!
+timestamp: 2017-02-26T19:32:28.297970
+ALTER TABLE mystem ADD word_text VARCHAR(512);
+success!
+success!
+timestamp: 2017-02-26T19:33:30.775563
+ALTER TABLE mystem DROP COLUMN word_text;
+success!

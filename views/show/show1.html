@@ -10,21 +10,27 @@
         <td>{{if texts.dedication: }}
             <p><i>{{=texts.dedication}}</i>
                 {{pass}}
-                {{if epi:}}
+            {{if epigraphs:}}
+                {{for epi in epigraphs:}}
+              <p style="font-size:12px">
                     {{if epi.epi_text_id:}}
-                        <p>{{for e in epi_text:}}
-                        {{=A(e, _href=URL('show', 'show1', args=epi.epi_text_id))}}<br>
-                        {{pass}}
-                    {{else:}}
-                            {{for e in epi_text:}}
-                         {{=e}}<br>
+                            {{for e in epi_text[epigraphs.index(epi)]:}}
+                               {{=A(e, _href=URL('show', 'show1', args=epi.epi_text_id))}}<br> 
                             {{pass}}
+                    {{else:}}
+                            {{for e in epi_text[epigraphs.index(epi)]:}}
+                                {{=e}}<br>
+                            {{pass}}
+                    {{pass}} </p>
+
+            <p style="font-size:12px"><i>{{if epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
+                    {{elif epi.epi_author:}} {{=epi.epi_author}}. {{pass}}
+                {{if epi.epi_book:}} {{=epi.epi_book}} {{pass}}</i></p>
+
                 {{pass}}
 
-            <p><i>{{if epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
-                {{elif epi.epi_author:}} {{=epi.epi_author}} {{pass}} </i>
-            <p><i>{{if epi.epi_book:}} {{=epi.epi_book}} {{pass}}</i>
-                {{pass}}
+            {{pass}}
+
 <p>            {{for line in content:}}
     {{if '|' in line:}}
     <br>
@@ -33,7 +39,8 @@
     {{pass}}{{pass}}
 <p>
     <p>{{if date:}} {{=I(date)}} {{pass}}</p>
-    <p>{{=texts.writing_location}}
+    <p>{{=texts.writing_location}}</p>
+    <p>{{if texts.group_text:}} Из книги «{{=A(texts.group_text.title, _href=URL('show', 'show_group', args=texts.group_text))}}» {{pass}} </p>
 <p>Источник текста: {{=texts.book}}</td>
         <td>{{ for all in image:}}
             {{=IMG(_src=URL('static', all), _alt="My Logo")}}

@@ -253,6 +253,13 @@ def search_result():
     response.title = 'Результаты поиска'
     return dict(strings=strings, message=message)
 
+def fix():
+    rows = d((d.mystem.word.like('%?'))&(d.mystem.word!='?')).select(groupby=d.mystem.word)
+    words = [all.word for all in rows]
+    with open('/home/concordance/web2py/applications/test/corpus/fixlist.txt', 'wb') as f:
+        f.write('\n'.join(words))
+    return dict(a = len(words))
+
 @auth.requires_login()
 def correct_word():
     record = trymysql.allword(request.args(0))
