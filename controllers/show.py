@@ -4,13 +4,42 @@ from xml.etree import cElementTree as ET
 import difflib
 import re
 import gensim
+import json
+
+months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
+months2 = ['январЬ', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
 
 def show1():   # show text from file
     texts = trymysql(trymysql.text1.id==request.args(0)).select().first()
     f = open(texts.filename, 'rb')
     content = f.readlines()
+    date = ''
+    if texts.day_writing:
+        month = month_index(texts.month_writing, months)
+        date = texts.day_writing + ' ' + month + ' ' + texts.year_writing + ' года'
+    elif texts.month_writing:
+        month = month_index(texts.month_writing, months2)
+        date = month + ' ' + texts.year_writing + ' ' + 'года'
+    elif texts.year_writing:
+        date = texts.year_writing + ' год'
     image = [all.url for all in d(d.pages.text==request.args(0)).select()]
-    return dict(texts=texts, content=content, image=image)
+    epi=''
+    epi_text=''
+    if texts.epigraph:
+        epi = trymysql(trymysql.epi.text==request.args(0)).select()[0]
+        filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(epi.text) + '.txt'
+        with open(filename, 'r') as f:
+            epi_text = f.readlines()
+
+    return dict(texts=texts, content=content, image=image, date=date, epi=epi, epi_text=epi_text)
+
+def month_index(month, mlist):
+    if month!='10':
+        month = int(month.replace('0', ''))
+    else:
+        month = int(month)
+    word_month = mlist[month-1]
+    return word_month
 
 def show2(): # варианты из текстового файла, проблема с пустыми строками между строфами
     text = trymysql(trymysql.text1.id==483).select()[0]

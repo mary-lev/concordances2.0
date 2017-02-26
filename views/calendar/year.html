@@ -23,7 +23,7 @@
 			events: [
                 {{for date in dates:}}
 				{
-                title: "{{=date.author.family}}. {{=date.title}} {{=date.first_string}}",
+                title: "{{=date.author.family}}. {{if date.title:}} {{=date.title}} {{else:}} {{=date.first_string}} {{pass}}",
                 start: "{{=date.year_writing}}-{{=date.month_writing}}-{{=date.day_writing}}",
                 url: "http://concordance.pythonanywhere.com/test/show/show1/{{=date.id}}"
 				},

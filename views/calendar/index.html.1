@@ -23,9 +23,9 @@
 			events: [
                 {{for date in dates:}}
 				{
-                title: "{{=date.author.family}}. {{=date.title}}",
+                title: "{{=date.author.family}}. {{if date.title:}} {{=date.title}} {{else:}} {{=date.first_string}} {{pass}}",
                 start: "{{=date.year_writing}}-{{=date.month_writing}}-{{=date.day_writing}}",
-                url: "http://concordance.pythonanywhere.com/test/control/show1/{{=date.id}}"
+                url: "http://concordance.pythonanywhere.com/test/show/show1/{{=date.id}}"
 				},
                 {{pass}}
 				
@@ -41,8 +41,11 @@
 
 </script>
 </head>
-<body>
+<body><h3>Хронология текстов</h3>
+<center><h4>    {{for year in range(1900, 1917):}}
+    {{=A(year,  _href=URL('year', args=year))}}
+    {{pass}}</h4></center>
 <div id='calendar'></div>
-    
+
 </body>
 </html>

@@ -10,20 +10,29 @@
         <td>{{if texts.dedication: }}
             <p><i>{{=texts.dedication}}</i>
                 {{pass}}
-                {{if texts.epigraph:}}
-            <p>{{=texts.epigraph}}
+                {{if epi:}}
+                    {{if epi.epi_text_id:}}
+                        <p>{{for e in epi_text:}}
+                        {{=A(e, _href=URL('show', 'show1', args=epi.epi_text_id))}}<br>
+                        {{pass}}
+                    {{else:}}
+                            {{for e in epi_text:}}
+                         {{=e}}<br>
+                            {{pass}}
                 {{pass}}
-                {{if texts.epigraph_author:}}
-            <p><i>{{=texts.epigraph_author}}</i>
-                {{pass}}
-                {{if texts.epigraph_text_name:}}
-            <p><i>{{=texts.epigraph_text_name}}</i>
+
+            <p><i>{{if epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
+                {{elif epi.epi_author:}} {{=epi.epi_author}} {{pass}} </i>
+            <p><i>{{=epi.epi_book}}</i>
                 {{pass}}
 <p>            {{for line in content:}}
-{{=line}}<br>
-{{pass}}
+    {{if '|' in line:}}
+    <br>
+    {{else:}}
+    {{=line}}<br>
+    {{pass}}{{pass}}
 <p>
-<p>{{=texts.day_writing}} {{=texts.month_writing}} {{=texts.year_writing}}<br>
+    <p>{{if date:}} {{=I(date)}} {{pass}}</p>
     <p>{{=texts.writing_location}}
 <p>Источник текста: {{=texts.book}}</td>
         <td>{{ for all in image:}}

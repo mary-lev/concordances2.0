@@ -1,0 +1,9 @@
+{зажигать=V=pl,imper,2p,ipf,tran} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{говорить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{подымать=V,ipf,tran=pl,imper,2p} {шум=S,m,inan=(acc,sg|nom,sg)}, —
+{тешить=V,ipf,tran=pl,imper,2p}, {тешить=V,ipf,tran=pl,imper,2p} {ум=S,m,inan=(acc,sg|nom,sg)}!
+
+{погасить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+{пусть=PART=} {умолкать=V,intr=inpraes,pl,indic,3p,pf} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+{пусть=PART=} {наступать=V,intr=inpraes,sg,indic,3p,pf} {тьма=S,f,inan=nom,sg}, —
+{в=PR=} {ласка=S,f,inan=abl,pl} {нет=PART=} {ум=S,m,inan=gen,sg}.

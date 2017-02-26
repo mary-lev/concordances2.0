@@ -1,0 +1,19 @@
+# coding: utf8
+# попробовать что-либо вида
+
+def index():
+    dates = trymysql(trymysql.text1.day_writing>0).select()
+    return dict(dates=dates)
+
+def year():
+    new_year = request.args(0)
+    dates = trymysql((trymysql.text1.day_writing>0)&(trymysql.text1.year_writing==new_year)).select()
+    return dict(new_year=new_year, dates=dates)
+
+def update_dates():
+    dates = trymysql((trymysql.text1.id==7631)&(trymysql.text1.author==19)).select()
+    #dates = [all.year_writing for all in dates]
+    n = []
+    for all in dates:
+        all.update_record(dday_writing='')
+    return dict(dates=n)

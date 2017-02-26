@@ -1,0 +1,8 @@
+trymysql2 = DAL('mysql://concordance:sosnora@concordance.mysql.pythonanywhere-services.com/concordance$new')
+
+trymysql2.define_table('epi',
+                       Field('text', trymysql.text1),
+                       Field('epi_text', 'text', label='Текст'),
+                       Field('epi_author', label='Автор'),
+                       Field('epi_book', label='Книга'),
+                       Field('epi_filename', label='Файл'))

@@ -10,7 +10,7 @@
 <script>
 
 	$(document).ready(function() {
-		
+
 		$('#calendar').fullCalendar({
 			header: {
 				left: 'prev,next today',
@@ -23,12 +23,12 @@
 			events: [
                 {{for date in dates:}}
 				{
-                title: "{{=date.author.family}}. {{=date.title}}",
+                title: "{{=date.author.family}}. {{if date.title:}} {{=date.title}} {{else:}} {{=date.first_string}} {{pass}}",
                 start: "{{=date.year_writing}}-{{=date.month_writing}}-{{=date.day_writing}}",
                 url: "http://concordance.pythonanywhere.com/test/show/show1/{{=date.id}}"
 				},
                 {{pass}}
-				
+
 				{
 					title: 'Click for Google',
 					url: 'http://google.com/',
@@ -36,7 +36,7 @@
 				}
 			]
 		});
-		
+
 	});
 
 </script>

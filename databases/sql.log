@@ -134451,3 +134451,20 @@ timestamp: 2017-02-16T22:12:29.893717
 ALTER TABLE mystem ADD location VARCHAR(512);
 success!
 success!
+timestamp: 2017-02-25T09:41:48.784026
+CREATE TABLE epi(
+    id INT AUTO_INCREMENT NOT NULL,
+    text INT, INDEX text__idx (text), FOREIGN KEY (text) REFERENCES text1 (id) ON DELETE CASCADE,
+    epi_text LONGTEXT,
+    epi_author VARCHAR(512),
+    epi_book VARCHAR(512),
+    epi_filename VARCHAR(512),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2017-02-25T21:56:19.757327
+ALTER TABLE epi ADD epi_author_id INT, ADD INDEX epi_author_id__idx (epi_author_id), ADD FOREIGN KEY (epi_author_id) REFERENCES author (id) ON DELETE CASCADE;
+success!
+timestamp: 2017-02-25T21:56:20.226884
+ALTER TABLE epi ADD epi_text_id INT, ADD INDEX epi_text_id__idx (epi_text_id), ADD FOREIGN KEY (epi_text_id) REFERENCES text1 (id) ON DELETE CASCADE;
+success!

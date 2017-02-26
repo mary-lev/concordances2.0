@@ -227,6 +227,15 @@ trymysql.define_table('old',
                       Field('book', trymysql.biblio),
                       Field('book_page', label='Страница'))
 
+trymysql.define_table('epi',
+                       Field('text', trymysql.text1),
+                       Field('epi_text', 'text', label='Текст'),
+                       Field('epi_author', label='Автор'),
+                       Field('epi_author_id', trymysql.author, requires=None),
+                       Field('epi_book', label='Книга'),
+                       Field('epi_text_id', trymysql.text1, requires=None),
+                       Field('epi_filename', label='Файл'))
+
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)
 b = (trymysql.variants.comment_book==trymysql.biblio.id)

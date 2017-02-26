@@ -16,7 +16,7 @@
 {{for one in authors:}}
 <li>{{=A(one.name, " ", one.family, _href=URL('author', args=one.id))}}</li>
 {{pass}}
-<h4>Цвет по всему корпусу</h4>
+<h4>{{=A('Цвет по всему корпусу', _href=URL('color', 'index'))}}</h4>
 {{end}}
 
 <script>

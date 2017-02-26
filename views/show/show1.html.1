@@ -1,0 +1,38 @@
+{{extend 'layout.html'}}
+<h1>
+    {{=texts.title}}
+</h1>
+<h2>
+   {{=texts.author.name}} {{=texts.author.family}}
+</h2>
+<table>
+    <tr>
+        <td>{{if texts.dedication: }}
+            <p><i>{{=texts.dedication}}</i>
+                {{pass}}
+                {{if epi:}}
+            <p>{{for e in epi_text:}}
+                {{=e}}<br>
+                {{pass}}
+            <p><i>{{if epi.epi_text_id:}} {{=A(epi.epi_author, _href=URL('show', 'show1', args=epi.epi_text_id))}}
+                {{elif epi.epi_author_id:}} {{=A(epi.epi_author, _href=URL('author', 'all_author', args=epi.epi_author_id))}}
+                {{elif epi.author:}} {{=epi.epi_author}} {{pass}} </i>
+            <p><i>{{=epi.epi_book}}</i>
+                {{pass}}
+<p>            {{for line in content:}}
+    {{if '|' in line:}}
+    <br>
+    {{else:}}
+    {{=line}}<br>
+    {{pass}}{{pass}}
+<p>
+    <p>{{if date:}} {{=I(date)}} {{pass}}</p>
+    <p>{{=texts.writing_location}}
+<p>Источник текста: {{=texts.book}}</td>
+        <td>{{ for all in image:}}
+            {{=IMG(_src=URL('static', all), _alt="My Logo")}}
+        {{pass}}</td>
+    </tr>
+    </table>
+
+<h6>{{=A("Предыдущий текст", _href=URL("show1", args=texts.id-1))}} | {{=A(texts.author.name, " ", texts.author.family, _href=URL("author", "all_author", args=texts.author.id))}} | {{=A("Следующий текст", _href=URL("show1", args=texts.id+1))}}</h6>
