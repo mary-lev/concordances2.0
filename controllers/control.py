@@ -26,7 +26,7 @@ def epi():
     return dict(filename=filename)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    rows = trymysql(trymysql.text1.author==19).select()[700:]
+    rows = trymysql(trymysql.text1.author==30).select()
     #for x in xrange(11164,11334): # if text not yet in database (last:4811,7088, 10260) 11334 11452
     for all in rows:
         #text2 = trymysql(trymysql.text1.id=all.id).select()[0]
@@ -94,7 +94,7 @@ def search_for_files():
     text = {}
     n=0
     stih=[]
-    zagl=ded=year=day=month=location=epi=a_epi=''
+    zagl=ded=year=day=month=location=epi=a_epi=epi2=aut2=''
     string_number=0
     for all in content:
         string_number +=1
@@ -110,6 +110,10 @@ def search_for_files():
             location = all[3:]
         elif 'DDD' in all:
             ded = all[3:]
+        elif 'EPPP' in all:
+            epi2 = all[4:]
+        elif 'AUUU' in all:
+            aut2 = all[4:]
         elif 'EPI' in all:
             epi = all[3:]
         elif 'AUT' in all:
@@ -117,7 +121,18 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=19, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=30, writing_location=location, body = ''.join(text['t']))
+            if epi:
+                maxID=trymysql(trymysql.text1).select(trymysql.text1.id.max()).first()[trymysql.text1.id.max()]
+                filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(maxID) + '.txt'
+                trymysql.epi.insert(text=maxID, epi_text=epi, epi_author=a_epi, epi_filename=filename)
+                with open(filename, 'wb') as f:
+                    f.write(epi)
+                if epi2:
+                    new_filename = filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(maxID) + '_1' + '.txt'
+                    trymysql.epi.insert(text=maxID, epi_text=epi2, epi_author=aut2, epi_filename=new_filename)
+                    with open(new_filename, 'wb') as f:
+                        f.write(epi2)
             stih = []
             text= {}
             year=''
@@ -125,7 +140,7 @@ def search_for_files():
             month=''
             day=''
             location=''
-            ded=epi=a_epi=''
+            ded=epi=a_epi=epi2=aut2=''
             n+=1
             string_number=0
         else:

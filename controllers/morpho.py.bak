@@ -64,7 +64,7 @@ all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect
 
 @auth.requires_login()
 def slovar():
-    all_text = trymysql((trymysql.text1.author==19)&(trymysql.text1.id>14000)).select()[450:]
+    all_text = trymysql(trymysql.text1.author==7).select()
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'
@@ -117,6 +117,66 @@ def slovar():
                         pass
                     if punct:
                         d.mystem.insert(word = punct, title=text, author=author, partos = 'PNCT', location = n)
+    return dict(new=new, n=n)
+
+def slovar1():
+    #file = ['/home/concordance/stem/2.txt']
+    all_text = trymysql(trymysql.text1.author==7).select()
+    for row in all_text:
+        text = row.id
+        z = 'corpus/' + str(row.author) + '/'
+        z2 = 'corpus/' + str(row.author) + '/gram/'
+        filename = row.filename.replace(z, z2)
+        author = row.author
+        with open(filename, 'rb') as fi:
+            lines = fi.readlines()
+        n = 0
+        for line in lines:
+            n += 1
+            if '{' in line:
+                line = line.split(' ')
+                for word in line:
+                    if '{' not in word:
+                        trymysql.mystem.insert(word = word, lemma = word, title=text, author=author, partos = 'PNCT', location = n)
+                    else:
+                        punct=''
+                        if '«' in word:
+                            trymysql.mystem.insert(word = '«', lemma = '«', title=text, author=author, partos = 'PNCT', location = n)
+                            word = word.replace('«', '')
+                        lemma_end = word.find('{')
+                        lemma = word[:lemma_end]
+                        word = word[lemma_end:]
+                        if not word.endswith('}'):
+                            punct = word.split('}')[-1]
+                            punct = punct.replace('\n', '')
+                            word = ''.join(word.split('}')[:-1])
+                        num = {}
+                        new = word.replace('{', '').replace('}', '').split('=')
+                        num['word'] = new[0]
+                        l = []
+                        if len(new) > 2:
+                            if '|' in new[2]:
+                                point = new[2].find('|')
+                                ptime = new[2][1:point].split(',')
+                            else:
+                                ptime = new[2].split(',')
+                            l += ptime
+                        if len(new) > 1:
+                            partos = new[1].split(',')
+                            num['part'] = partos.pop(0)
+                            l += partos
+                        num['l'] = l
+                        for p in all_parts:
+                            num[p[0]] = ''.join(set(p).intersection(l))
+                        try:
+                            trymysql.mystem.insert(word = num['word'], lemma = lemma, title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], \
+                                    comp = num['comp'], number = num['number'], cas = num['case'], tense = num['tense'], aspect = num['aspect'], \
+                                    person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
+                                    other = num['other'], author = author, location = n)
+                        except:
+                            pass
+                        if punct:
+                            trymysql.mystem.insert(word = punct, lemma=punct, title=text, author=author, partos = 'PNCT', location = n)
     return dict(new=new, n=n)
 
 def count_partos(): # count categories by author
@@ -257,7 +317,7 @@ def fix():
     rows = d((d.mystem.word.like('%?'))&(d.mystem.word!='?')).select(groupby=d.mystem.word)
     words = [all.word for all in rows]
     with open('/home/concordance/web2py/applications/test/corpus/fixlist.txt', 'wb') as f:
-        f.writeline(words)
+        f.write('\n'.join(words))
     return dict(a = len(words))
 
 @auth.requires_login()

@@ -3,7 +3,7 @@
 def index(): # get text from user's file
     form = SQLFORM.factory(Field('word')).process()
     if form.accepted:
-        redirect(URL('context1', vars = form.vars))
+        redirect(URL('context', vars = form.vars))
     return dict(form=form)
 
 def context1():
@@ -25,5 +25,20 @@ def context1():
                     string= string + " " + str(for_string.lemma)
             except:
                 pass
+        strings.append((string +"...", title, author, int(title1.id)))
+    return dict(strings=strings)
+
+def context():
+    text1 = request.vars.word
+    texts = d(d.mystem.word==request.vars.word).select()
+    strings=[]
+    for all in texts:
+        location = all.location
+        title1 = trymysql(trymysql.text1.id==int(all.title)).select()[0]
+        title=title1.title
+        author= (title1.author.name, title1.author.family)
+        with open(title1.filename, 'r') as f:
+            content = f.readlines()
+            string = content[int(all.location)-1]
         strings.append((string +"...", title, author, int(title1.id)))
     return dict(strings=strings)

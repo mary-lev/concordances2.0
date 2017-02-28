@@ -134475,3 +134475,30 @@ success!
 timestamp: 2017-02-26T19:33:30.775563
 ALTER TABLE mystem DROP COLUMN word_text;
 success!
+timestamp: 2017-02-28T03:08:09.209210
+CREATE TABLE mystem(
+    id INT AUTO_INCREMENT NOT NULL,
+    word VARCHAR(512),
+    lemma VARCHAR(512),
+    title INT, INDEX title__idx (title), FOREIGN KEY (title) REFERENCES text1 (id) ON DELETE CASCADE,
+    partos VARCHAR(512),
+    anim VARCHAR(512),
+    gender VARCHAR(512),
+    forma VARCHAR(512),
+    comp VARCHAR(512),
+    number VARCHAR(512),
+    cas VARCHAR(512),
+    tense VARCHAR(512),
+    aspect VARCHAR(512),
+    person VARCHAR(512),
+    trans VARCHAR(512),
+    verb VARCHAR(512),
+    voice VARCHAR(512),
+    other VARCHAR(512),
+    lexical_group VARCHAR(512),
+    location VARCHAR(512),
+    concordance_number VARCHAR(512),
+    author INT, INDEX author__idx (author), FOREIGN KEY (author) REFERENCES author (id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
