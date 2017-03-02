@@ -1,29 +1,29 @@
-{шутить=V,ipf,intr=inf} {пора=S,f,inan=ins,sg} {мы=SPRO,pl,1p=nom} {начинать=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)},
-{когда=CONJ=} {кто-то=SPRO,sg,m,anim=dat} {не=PART=} {смешно=ADV=}.
-{шутливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смысл=S,m,inan=(acc,sg|nom,sg)} {тогда=ADVPRO=} {влагать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}
-{в=PR=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {известный=A=(acc,pl,plen,inan|nom,pl,plen)} {давно=ADV=}.
+Шутить{шутить=V,ipf,intr=inf} порой{пора=S,f,inan=ins,sg} мы{мы=SPRO,pl,1p=nom} начинаем{начинать=V,tran=(inpraes,pl,indic,1p,ipf|inpraes,sg,partcp,brev,m,ipf,pass)},
+Когда{когда=CONJ=} кому-то{кто-то=SPRO,sg,m,anim=dat} не{не=PART=} смешно{смешно=ADV=}.
+Шутливый{шутливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} смысл{смысл=S,m,inan=(acc,sg|nom,sg)} тогда{тогда=ADVPRO=} влагаем{влагать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}
+В{в=PR=} слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}, известные{известный=A=(acc,pl,plen,inan|nom,pl,plen)} давно{давно=ADV=}.
 
-{утрачивать=V,tran=praet,ger,pf} {прежний=A=(acc,pl,plen,inan|nom,pl,plen)} {значение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {причудливый=A=sg,brev,n} {звучать=V,ipf,intr=inpraes,pl,indic,3p}.
-{орать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)} {сечение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{ну=PART=}, {значит=ADV,parenth=}, {я=SPRO,sg,1p=nom} — {аристократ=S,m,anim=nom,sg}.
+Утратив{утрачивать=V,tran=praet,ger,pf} прежние{прежний=A=(acc,pl,plen,inan|nom,pl,plen)} значенья{значение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} причудливо{причудливый=A=sg,brev,n} звучат{звучать=V,ipf,intr=inpraes,pl,indic,3p}.
+Ору{орать=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} в{в=PR=} грозный{грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} час{час=S,m,inan=(acc,sg|nom,sg)} сеченья{сечение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Ну{ну=PART=}, значит{значит=ADV,parenth=}, я{я=SPRO,sg,1p=nom} — аристократ{аристократ=S,m,anim=nom,sg}.
 
-{как=ADVPRO=} {будто=PART=} {бы=PART=} {на=PR=} {самый=APRO=(abl,sg,m|abl,sg,n)} {дело=S,n,inan=abl,sg}
-{значение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {разный=A=(acc,pl,plen,inan|nom,pl,plen)} {смешать=V,pf,tran=praet,ger},
-{наделать=V,pf,tran=praet,ger} {ссадина=S,f,inan=gen,pl}-{граф=S,m,anim=nom,sg} {на=PR=} {тело=S,n,inan=abl,sg},
-{мать=S,f,anim=(acc,sg|nom,sg)} {вспоминать=V,ipf,tran=inpraes,sg,indic,3p} {телеграф=S,m,inan=(acc,sg|nom,sg)}.
+Как{как=ADVPRO=} будто{будто=PART=} бы{бы=PART=} на{на=PR=} самом{самый=APRO=(abl,sg,m|abl,sg,n)} деле{дело=S,n,inan=abl,sg}
+Значенья{значение=S,n,inan=(acc,pl|gen,sg|nom,pl)} разные{разный=A=(acc,pl,plen,inan|nom,pl,plen)} смешав{смешать=V,pf,tran=praet,ger},
+Наделав{наделать=V,pf,tran=praet,ger} ссадин{ссадина=S,f,inan=gen,pl}-граф{граф=S,m,anim=nom,sg} на{на=PR=} теле{тело=S,n,inan=abl,sg},
+Мать{мать=S,f,anim=(acc,sg|nom,sg)} вспоминает{вспоминать=V,ipf,tran=inpraes,sg,indic,3p} телеграф{телеграф=S,m,inan=(acc,sg|nom,sg)}.
 
-{недавно=ADV=} {рассердить=V,pf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {мама=S,f,anim=acc,sg},
-{потом=ADVPRO=} {я=SPRO,sg,1p=nom} {на=PR=} {пол=S,m,inan=(dat,sg|loc,sg)} {лежать=V,ipf,intr=praet,sg,indic,m},
-{и=CONJ=} {с=PR=} {громкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {крик=S,m,inan=ins,sg} {телеграмма=S,f,inan=acc,sg}
-{довольно=ADV=} {долго=ADV=} {принимать=V=praet,sg,indic,m,ipf,tran}.
+Недавно{недавно=ADV=} рассердил{рассердить=V,pf,tran=praet,sg,indic,m} я{я=SPRO,sg,1p=nom} маму{мама=S,f,anim=acc,sg},
+Потом{потом=ADVPRO=} я{я=SPRO,sg,1p=nom} на{на=PR=} полу{пол=S,m,inan=(dat,sg|loc,sg)} лежал{лежать=V,ipf,intr=praet,sg,indic,m},
+И{и=CONJ=} с{с=PR=} громким{громкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} криком{крик=S,m,inan=ins,sg} телеграмму{телеграмма=S,f,inan=acc,sg}
+Довольно{довольно=ADV=} долго{долго=ADV=} принимал{принимать=V=praet,sg,indic,m,ipf,tran}.
 
-{мать=S,f,anim=(acc,sg|nom,sg)} {называть=V,tran=praet,sg,indic,f,pf} {я=SPRO,sg,1p=(acc|gen)} {облом=S,m,inan=ins,sg}:
-— {вишь=PART,parenth=}, {обломать=V,pf,tran=praet,sg,indic,f} {веник=S,m,inan=(acc,sg|nom,sg)} {весь=APRO=(acc,sg,m,inan|nom,sg,m)}. —
-{сестра=S,f,anim=nom,sg} {дразнить=V,ipf,tran=praet,sg,indic,f} {насекомое=S,n,anim=(dat,pl|ins,sg)},
-{значение=S,n,inan=gen,pl} {составлять=V,tran=inpraes,ger,ipf} {смесь=S,f,inan=(acc,sg|nom,sg)}.
+Мать{мать=S,f,anim=(acc,sg|nom,sg)} назвала{называть=V,tran=praet,sg,indic,f,pf} меня{я=SPRO,sg,1p=(acc|gen)} обломом{облом=S,m,inan=ins,sg}:
+— Вишь{вишь=PART,parenth=}, обломала{обломать=V,pf,tran=praet,sg,indic,f} веник{веник=S,m,inan=(acc,sg|nom,sg)} весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)}. —
+Сестра{сестра=S,f,anim=nom,sg} дразнила{дразнить=V,ipf,tran=praet,sg,indic,f} насекомым{насекомое=S,n,anim=(dat,pl|ins,sg)},
+Значений{значение=S,n,inan=gen,pl} составляя{составлять=V,tran=inpraes,ger,ipf} смесь{смесь=S,f,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=} {грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смысл=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {приурочивать=V,tran=praet,sg,partcp,brev,m,pf,pass}
-{к=PR=} {простой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слово=S,n,inan=dat,pl}, — {сказать=V,pf,tran=praet,sg,indic,f} {мать=S,f,anim=(acc,sg|nom,sg)}:
-— {простегивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {славно=ADV=} {и=CONJ=} {прострачивать=V,tran=praet,sg,partcp,brev,m,pf,pass},
-{как=ADVPRO=} {одеяло=S,n,inan=(acc,sg|nom,sg)} {на=PR=} {кровать=S,f,inan=(acc,sg|nom,sg)}. —
+И{и=CONJ=} грозный{грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} смысл{смысл=S,m,inan=(acc,sg|nom,sg)} был{быть=V,intr=praet,sg,indic,m,ipf} приурочен{приурочивать=V,tran=praet,sg,partcp,brev,m,pf,pass}
+К{к=PR=} простым{простой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} словам{слово=S,n,inan=dat,pl}, — сказала{сказать=V,pf,tran=praet,sg,indic,f} мать{мать=S,f,anim=(acc,sg|nom,sg)}:
+— Простеган{простегивать=V,tran=praet,sg,partcp,brev,m,pf,pass} славно{славно=ADV=} и{и=CONJ=} прострочен{прострачивать=V,tran=praet,sg,partcp,brev,m,pf,pass},
+Как{как=ADVPRO=} одеяло{одеяло=S,n,inan=(acc,sg|nom,sg)} на{на=PR=} кровать{кровать=S,f,inan=(acc,sg|nom,sg)}. —

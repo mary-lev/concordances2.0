@@ -1,24 +1,24 @@
-{время=S,n,inan=(acc,sg|nom,sg)} {спокойный=A=(acc,sg,plen,n|nom,sg,plen,n)} — {сеча=S,f,inan=nom,sg}
-{кончаться=V,intr=praet,sg,indic,f,pf} — {жажда=S,f,inan=acc,sg} {я=SPRO,sg,1p=nom} {битва=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{только=PART=} {об=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)}-{то=CONJ=} {и=CONJ=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{только=PART=} {об=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {и=CONJ=} {молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Время{время=S,n,inan=(acc,sg|nom,sg)} спокойное{спокойный=A=(acc,sg,plen,n|nom,sg,plen,n)} — сеча{сеча=S,f,inan=nom,sg}
+Кончилась{кончаться=V,intr=praet,sg,indic,f,pf} — жажду{жажда=S,f,inan=acc,sg} я{я=SPRO,sg,1p=nom} битвы{битва=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Только{только=PART=} об{об=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)}-то{то=CONJ=} и{и=CONJ=} речи{речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Только{только=PART=} об{об=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} и{и=CONJ=} молитвы{молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{сеча=S,f,inan=nom,sg} {приспевать=V,intr=inpraes,sg,indic,3p,pf} — {клясть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}
-{шум=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {волнение=S,n,inan=(acc,sg|nom,sg)} {битва=S,f,inan=(acc,pl|gen,sg|nom,pl)};
-{лишь=PART=} {о=PR=} {покой=S,m,inan=abl,sg} {тосковать=V,ipf,intr=inpraes,ger},
-{слать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {о=PR=} {мир=S,m,inan=abl,sg} {молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Сеча{сеча=S,f,inan=nom,sg} приспеет{приспевать=V,intr=inpraes,sg,indic,3p,pf} — кляну{клясть=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom}
+Шум{шум=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} волнение{волнение=S,n,inan=(acc,sg|nom,sg)} битвы{битва=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+Лишь{лишь=PART=} о{о=PR=} покое{покой=S,m,inan=abl,sg} тоскуя{тосковать=V,ipf,intr=inpraes,ger},
+Шлю{слать=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} о{о=PR=} мире{мир=S,m,inan=abl,sg} молитвы{молитва=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{смех=S,m,inan=ins,sg} {смеяться=V,ipf,intr=inpraes,pl,indic,3p} {над=PR=} {я=SPRO,sg,1p=ins}
-{тот=APRO=(nom,pl|acc,pl,inan)}, {что=CONJ=} {в=PR=} {война=S,f,inan=(abl,sg|dat,sg)} {терпеливый=A=pl,brev}, —
-{дома=ADV=}, {с=PR=} {невольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тоска=S,f,inan=ins,sg},
-{бурный=A=(acc,pl,plen,inan|nom,pl,plen)} {видеть=V,ipf,tran=inpraes,pl,indic,3p} {порыв=S,m,inan=(acc,pl|nom,pl)}.
+Смехом{смех=S,m,inan=ins,sg} смеются{смеяться=V,ipf,intr=inpraes,pl,indic,3p} над{над=PR=} мною{я=SPRO,sg,1p=ins}
+Те{тот=APRO=(nom,pl|acc,pl,inan)}, что{что=CONJ=} в{в=PR=} войне{война=S,f,inan=(abl,sg|dat,sg)} терпеливы{терпеливый=A=pl,brev}, —
+Дома{дома=ADV=}, с{с=PR=} невольной{невольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} тоскою{тоска=S,f,inan=ins,sg},
+Бурные{бурный=A=(acc,pl,plen,inan|nom,pl,plen)} видят{видеть=V,ipf,tran=inpraes,pl,indic,3p} порывы{порыв=S,m,inan=(acc,pl|nom,pl)}.
 
-{сметь=V,ipf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {и=CONJ=} {честный=A=sg,brev,m} {с=PR=} {себя=SPRO=ins},
-{меч=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=(abl|dat)}, — {и=CONJ=} {брошуся?=S,persn,f,anim=nom,sg} {в=PR=} {битва=S,f,inan=acc,sg}.
-{становиться=V,intr=inpraes,sg,indic,1p,pf} {пред=PR=} {пошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {толпа=S,f,inan=ins,sg},
-{только=PART=} {читать=V,ipf,tran=inpraes,sg,indic,1p} {молитва=S,f,inan=acc,sg}.
+Смел{сметь=V,ipf,intr=praet,sg,indic,m} я{я=SPRO,sg,1p=nom} и{и=CONJ=} честен{честный=A=sg,brev,m} с{с=PR=} собою{себя=SPRO=ins},
+Меч{меч=S,m,inan=(acc,sg|nom,sg)} мне{я=SPRO,sg,1p=(abl|dat)}, — и{и=CONJ=} брошуся{брошуся?=S,persn,f,anim=nom,sg} в{в=PR=} битву{битва=S,f,inan=acc,sg}.
+Стану{становиться=V,intr=inpraes,sg,indic,1p,pf} пред{пред=PR=} пошлой{пошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} толпою{толпа=S,f,inan=ins,sg},
+Только{только=PART=} читаю{читать=V,ipf,tran=inpraes,sg,indic,1p} молитву{молитва=S,f,inan=acc,sg}.
 
-{будто=PART=} {бы=PART=} {связывать=V=praet,pl,partcp,brev,pf,pass} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
-{будто=PART=} {бы=PART=} {сломать=V,pf,tran=praet,pl,partcp,brev,pass} {крыло=S,n,inan=(acc,pl|nom,pl)},
-{много=ADV,praed=} {болезненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{стоить=V,ipf=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {этот=APRO=(nom,pl|acc,pl,inan)} {усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Будто{будто=PART=} бы{бы=PART=} связаны{связывать=V=praet,pl,partcp,brev,pf,pass} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, —
+Будто{будто=PART=} бы{бы=PART=} сломаны{сломать=V,pf,tran=praet,pl,partcp,brev,pass} крылья{крыло=S,n,inan=(acc,pl|nom,pl)},
+Много{много=ADV,praed=} болезненной{болезненный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} муки{мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Стоят{стоить=V,ipf=inpraes,pl,indic,3p} мне{я=SPRO,sg,1p=(abl|dat)} эти{этот=APRO=(nom,pl|acc,pl,inan)} усилья{усилие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

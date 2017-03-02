@@ -1,14 +1,14 @@
-{внимать=V,intr=pl,imper,2p,ipf}, {смертный=A=(acc,pl,plen,inan|nom,pl,plen)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{я=SPRO,sg,1p=nom} {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {быть=V,intr=praet,sg,indic,m,ipf}, {кто=SPRO,sg,m,anim=nom} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}, {кто=SPRO,sg,m,anim=nom} {быть=V,intr=inpraes,sg,indic,3p},
-{чей=APRO=(nom,pl|acc,pl,inan)} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бездна=S,f,inan=acc,sg} {звезда=S,f,inan=gen,pl} {зажигать=V=praet,pl,indic,pf},
-{кто=SPRO,sg,m,anim=nom} {бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {травка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {забывать=V=inpraes,sg,indic,3p,pf}.
+Внемлите{внимать=V,intr=pl,imper,2p,ipf}, смертные{смертный=A=(acc,pl,plen,inan|nom,pl,plen)} Земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Я{я=SPRO,sg,1p=nom} Тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, Кто{кто=SPRO,sg,m,anim=nom} был{быть=V,intr=praet,sg,indic,m,ipf}, Кто{кто=SPRO,sg,m,anim=nom} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}, Кто{кто=SPRO,sg,m,anim=nom} будет{быть=V,intr=inpraes,sg,indic,3p},
+Чьи{чей=APRO=(nom,pl|acc,pl,inan)} мысли{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} бездну{бездна=S,f,inan=acc,sg} звезд{звезда=S,f,inan=gen,pl} зажгли{зажигать=V=praet,pl,indic,pf},
+Кто{кто=SPRO,sg,m,anim=nom} бледной{бледный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} травки{травка=S,f,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} забудет{забывать=V=inpraes,sg,indic,3p,pf}.
 
-{любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, {смертный=S,m,anim=nom,pl}, {я=SPRO,sg,1p=(acc|gen)},
-{свой=APRO=acc,sg,f} {мечта=S,f,inan=acc,sg} {боготворить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)},
-{молиться=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} {митра=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {блеск=S,m,inan=abl,sg} {день=S,m,inan=gen,sg},
-{и=CONJ=} {ночь=S,f,inan=ins,sg} {петь=V,ipf,tran=pl,imper,2p} {гимн=S,m,inan=(acc,sg|nom,sg)} {танит?=S,m,inan=abl,sg}.
+Любите{любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, смертные{смертный=S,m,anim=nom,pl}, Меня{я=SPRO,sg,1p=(acc|gen)},
+Свою{свой=APRO=acc,sg,f} мечту{мечта=S,f,inan=acc,sg} боготворите{боготворить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)},
+Молитесь{молиться=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)} Митре{митра=S,f,inan=(abl,sg|dat,sg)} в{в=PR=} блеске{блеск=S,m,inan=abl,sg} дня{день=S,m,inan=gen,sg},
+И{и=CONJ=} ночью{ночь=S,f,inan=ins,sg} пойте{петь=V,ipf,tran=pl,imper,2p} гимн{гимн=S,m,inan=(acc,sg|nom,sg)} Таните{танит?=S,m,inan=abl,sg}.
 
-{звать=V,ipf,tran=pl,imper,2p} {тысяча=NUM,f=ins,sg} {имя=S,n,inan=gen,pl}
-{то=SPRO,sg,n,inan=gen}, {кто=SPRO,sg,m,anim=nom} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вы=SPRO,pl,2p=dat} {пробуждать=V=inpraes,sg,indic,3p,pf},
-{боготворить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)},
-{который=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=praet,sg,indic,m,ipf}, {и=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}, {и=CONJ=} {быть=V,intr=inpraes,sg,indic,3p}.
+Зовите{звать=V,ipf,tran=pl,imper,2p} тысячью{тысяча=NUM,f=ins,sg} имен{имя=S,n,inan=gen,pl}
+Того{то=SPRO,sg,n,inan=gen}, Кто{кто=SPRO,sg,m,anim=nom} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} вам{вы=SPRO,pl,2p=dat} пробудит{пробуждать=V=inpraes,sg,indic,3p,pf},
+Боготворите{боготворить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Сон{сон=S,m,inan=(acc,sg|nom,sg)},
+Который{который=APRO=(acc,sg,m,inan|nom,sg,m)} был{быть=V,intr=praet,sg,indic,m,ipf}, и{и=CONJ=} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)}, и{и=CONJ=} будет{быть=V,intr=inpraes,sg,indic,3p}.

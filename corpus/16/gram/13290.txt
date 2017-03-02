@@ -1,24 +1,24 @@
-{смехач=S,m,anim=nom,sg}, {из=PR=} {цирк=S,m,inan=gen,sg} {клоун=S,m,anim=nom,sg} {рыжий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{смешить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {публика=S,f,inan=acc,sg} {до=PR=} {слеза=S,f,inan=gen,pl},
-{быть=V,intr=praet,sg,indic,m,ipf} {безобразный=A=comp} {все=SPRO,pl=(abl|acc|gen)} {в=PR=} {париж=S,geo,m,inan=abl,sg},
-{и=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {жест=S,m,inan=(acc,sg|nom,sg)} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} — {курьез=S,m,inan=(acc,sg|nom,sg)}.
+Смехач{смехач=S,m,anim=nom,sg}, из{из=PR=} цирка{цирк=S,m,inan=gen,sg} клоун{клоун=S,m,anim=nom,sg} рыжий{рыжий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Смешивший{смешить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} публику{публика=S,f,inan=acc,sg} до{до=PR=} слез{слеза=S,f,inan=gen,pl},
+Был{быть=V,intr=praet,sg,indic,m,ipf} безобразней{безобразный=A=comp} всех{все=SPRO,pl=(abl|acc|gen)} в{в=PR=} Париже{париж=S,geo,m,inan=abl,sg},
+И{и=CONJ=} каждый{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} жест{жест=S,m,inan=(acc,sg|nom,sg)} его{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} — курьез{курьез=S,m,inan=(acc,sg|nom,sg)}.
 
-{но=CONJ=} {в=PR=} {частный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нет=ADV,praed=} {унылый=A=comp}
-{и=CONJ=} {безотрадный=A=comp} {смехач=S,m,anim=(acc,sg|gen,sg)}:
-{он=SPRO,sg,3p,m=nom} — {циник=S,m,anim=nom,sg}, {девственный=A=comp} {лилия=S,f,inan=gen,pl},
-{он=SPRO,sg,3p,m=nom} — {шут=S,m,anim=nom,sg}, {мрачный=A=comp} {палач=S,m,anim=(acc,sg|gen,sg)}.
+Но{но=CONJ=} в{в=PR=} частной{частный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} нет{нет=ADV,praed=} унылей{унылый=A=comp}
+И{и=CONJ=} безотрадней{безотрадный=A=comp} Смехача{смехач=S,m,anim=(acc,sg|gen,sg)}:
+Он{он=SPRO,sg,3p,m=nom} — циник{циник=S,m,anim=nom,sg}, девственнее{девственный=A=comp} лилий{лилия=S,f,inan=gen,pl},
+Он{он=SPRO,sg,3p,m=nom} — шут{шут=S,m,anim=nom,sg}, мрачнее{мрачный=A=comp} палача{палач=S,m,anim=(acc,sg|gen,sg)}.
 
-{снедать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {скорбь=S,f,inan=ins,sg}, {напоследок=ADV=}
-{смехач=S,m,anim=nom,sg} {решать=V,tran=praet,sg,indic,m,pf} {пойти=V,pf,intr=inf} {к=PR=} {врач=S,m,anim=dat,sg}.
-{и=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {лечить=V,ipf,tran=inf} {душевный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {недуг=S,m,inan=(acc,sg|nom,sg)}
-{он=SPRO,sg,3p,m=(acc|gen)} {направлять=V,tran=praet,sg,indic,m,pf}... {к=PR=} {смехач=S,m,anim=dat,sg}!..
+Снедаем{снедать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} скорбью{скорбь=S,f,inan=ins,sg}, напоследок{напоследок=ADV=}
+Смехач{смехач=S,m,anim=nom,sg} решил{решать=V,tran=praet,sg,indic,m,pf} пойти{пойти=V,pf,intr=inf} к{к=PR=} врачу{врач=S,m,anim=dat,sg}.
+И{и=CONJ=} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} лечить{лечить=V,ipf,tran=inf} душевный{душевный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} недуг{недуг=S,m,inan=(acc,sg|nom,sg)}
+Его{он=SPRO,sg,3p,m=(acc|gen)} направил{направлять=V,tran=praet,sg,indic,m,pf}... к{к=PR=} Смехачу{смехач=S,m,anim=dat,sg}!..
 
-{в=PR=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {семья=S,f,inan=(abl,sg|dat,sg)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {впервые=ADV=}
-{урод=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {истинный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {шут=S,m,anim=ins,sg}:
-{как=ADVPRO=} {хохотать=V,ipf,intr=praet,pl,indic} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {родные=S,pl,anim=nom},
-{когда=CONJ=} {он=SPRO,sg,3p,m=nom}, {затягивать=V,tran=praet,ger,pf} {жгут=S,m,inan=ins,sg}
+В{в=PR=} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} семье{семья=S,f,inan=(abl,sg|dat,sg)} своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} впервые{впервые=ADV=}
+Урод{урод=S,m,anim=nom,sg} был{быть=V,intr=praet,sg,indic,m,ipf} истинным{истинный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} шутом{шут=S,m,anim=ins,sg}:
+Как{как=ADVPRO=} хохотали{хохотать=V,ipf,intr=praet,pl,indic} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} родные{родные=S,pl,anim=nom},
+Когда{когда=CONJ=} он{он=SPRO,sg,3p,m=nom}, затянув{затягивать=V,tran=praet,ger,pf} жгутом{жгут=S,m,inan=ins,sg}
 
-{свой=APRO=acc,sg,f} {напудривать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass} {шея=S,f,inan=acc,sg}
-{повиснуть?=V,ipf,intr=praet,sg,indic,m} {на=PR=} {большой=A=(abl,sg,plen,m|abl,sg,plen,n)} {крюк=S,m,inan=abl,sg}
-{в=PR=} {дырявый=A=(abl,sg,plen,m|abl,sg,plen,n)} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сюртук=S,m,inan=abl,sg}
-{и=CONJ=} {с=PR=} {крик=S,m,inan=ins,sg}: «{как=ADVPRO=} {я=SPRO,sg,1p=nom} {хороший=A=ins,sg,plen,f}!..»
+Свою{свой=APRO=acc,sg,f} напудренную{напудривать=V,tran=praet,acc,sg,partcp,plen,f,pf,pass} шею{шея=S,f,inan=acc,sg}
+Повиснул{повиснуть?=V,ipf,intr=praet,sg,indic,m} на{на=PR=} большом{большой=A=(abl,sg,plen,m|abl,sg,plen,n)} крюке{крюк=S,m,inan=abl,sg}
+В{в=PR=} дырявом{дырявый=A=(abl,sg,plen,m|abl,sg,plen,n)} красном{красный=A=(abl,sg,plen,m|abl,sg,plen,n)} сюртуке{сюртук=S,m,inan=abl,sg}
+И{и=CONJ=} с{с=PR=} криком{крик=S,m,inan=ins,sg}: «Как{как=ADVPRO=} я{я=SPRO,sg,1p=nom} хорошею{хороший=A=ins,sg,plen,f}!..»

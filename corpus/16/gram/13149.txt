@@ -1,20 +1,20 @@
-{девятый=ANUM=(acc,sg,n|nom,sg,n)} {октябрь=S,m,inan=gen,sg}
-{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {октябрь=S,m,inan=gen,sg}
-{оранжевый=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}
-{сводить=V=praet,sg,indic,f,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} {у=PR=} {струя=S,f,inan=gen,pl} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{молить=V,ipf,tran=praet,sg,indic,f} {рука=S,f,inan=nom,sg} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+ДЕВЯТОЕ{девятый=ANUM=(acc,sg,n|nom,sg,n)} ОКТЯБРЯ{октябрь=S,m,inan=gen,sg}
+Девятого{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} октября{октябрь=S,m,inan=gen,sg}
+Оранжевая{оранжевый=A=nom,sg,plen,f} заря{заря=S,f,inan=nom,sg}
+Свела{сводить=V=praet,sg,indic,f,pf} нас{мы=SPRO,pl,1p=(abl|acc|gen)} у{у=PR=} струй{струя=S,f,inan=gen,pl} реки{река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Молила{молить=V,ipf,tran=praet,sg,indic,f} рука{рука=S,f,inan=nom,sg} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {октябрь=S,m,inan=gen,sg}
-{приходить=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {к=PR=} {река=S,f,inan=(abl,sg|dat,sg)}, {горе=S,sg,n,inan=gen}
-{любовь=S,f,inan=ins,sg} {к=PR=} {ты=SPRO,sg,2p=(abl|dat)} {большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{постигать=V=praet,ger,pf} {ты=SPRO,sg,2p=(acc|gen)} {душа=S,f,inan=ins,sg}.
+Девятого{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} октября{октябрь=S,m,inan=gen,sg}
+Пришел{приходить=V,intr=praet,sg,indic,m,pf} я{я=SPRO,sg,1p=nom} к{к=PR=} реке{река=S,f,inan=(abl,sg|dat,sg)}, горя{горе=S,sg,n,inan=gen}
+Любовью{любовь=S,f,inan=ins,sg} к{к=PR=} тебе{ты=SPRO,sg,2p=(abl|dat)} большой{большой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Постигнув{постигать=V=praet,ger,pf} тебя{ты=SPRO,sg,2p=(acc|gen)} душой{душа=S,f,inan=ins,sg}.
 
-{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {октябрь=S,m,inan=gen,sg}
-{ты=SPRO,sg,2p=nom} {встречаться=V,intr=praet,sg,indic,f,pf} {я=SPRO,sg,1p=(abl|dat)}, {дарить=V,ipf,tran=inpraes,ger}
-{святой=A=(acc,sg,plen,n|nom,sg,plen,n)} {свой=APRO=(acc,sg,n|nom,sg,n)} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)}
-{и=CONJ=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {непорочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стих=S,m,inan=(acc,sg|nom,sg)}.
+Девятого{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} октября{октябрь=S,m,inan=gen,sg}
+Ты{ты=SPRO,sg,2p=nom} встретилась{встречаться=V,intr=praet,sg,indic,f,pf} мне{я=SPRO,sg,1p=(abl|dat)}, даря{дарить=V,ipf,tran=inpraes,ger}
+Святое{святой=A=(acc,sg,plen,n|nom,sg,plen,n)} свое{свой=APRO=(acc,sg,n|nom,sg,n)} святых{святой=S,m,anim=(abl,pl|acc,pl|gen,pl)}
+И{и=CONJ=} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} непорочный{непорочный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} стих{стих=S,m,inan=(acc,sg|nom,sg)}.
 
-{с=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} {я=SPRO,sg,1p=nom}, {ничей=APRO=(acc,sg,m,inan|nom,sg,m)}, {становиться=V,intr=praet,sg,indic,m,pf} {твой=APRO=(acc,sg,m,inan|nom,sg,m)},
-{и=CONJ=} {ты=SPRO,sg,2p=nom} {над=PR=} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {листва=S,sg,f,inan=ins} —
-{оранжевый=A=nom,sg,plen,f} {заря=S,f,inan=nom,sg}
-{с=PR=} {девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {октябрь=S,m,inan=gen,sg}.
+С{с=PR=} тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} пор{пора=S,f,inan=gen,pl} я{я=SPRO,sg,1p=nom}, ничей{ничей=APRO=(acc,sg,m,inan|nom,sg,m)}, стал{становиться=V,intr=praet,sg,indic,m,pf} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)},
+И{и=CONJ=} ты{ты=SPRO,sg,2p=nom} над{над=PR=} моей{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} листвой{листва=S,sg,f,inan=ins} —
+Оранжевая{оранжевый=A=nom,sg,plen,f} заря{заря=S,f,inan=nom,sg}
+С{с=PR=} девятого{девятый=ANUM=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} октября{октябрь=S,m,inan=gen,sg}.

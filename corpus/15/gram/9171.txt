@@ -1,11 +1,11 @@
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {драма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мир=S,m,inan=gen,sg} — {на=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-	{или=CONJ=} {с=PR=} {любовь=S,f,inan=ins,sg} {сливать=V=praet,pl,partcp,brev,pf,pass},
-{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {скальд=S,m,anim=(acc,pl|gen,pl)} {мир=S,m,inan=gen,sg} {позвать=V,pf,tran=sg,imper,2p},
-{и=CONJ=} {сказать=V,pf,tran=inpraes,pl,indic,3p}: — {песнь=S,f,inan=(acc,sg|nom,sg)} {жить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-	{в=PR=} {сердце=S,n,inan=abl,pl}, {что=CONJ=} {страсть=S,f,inan=ins,sg} {взрыть=V,pf=praet,pl,partcp,brev,pass}. —
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} драмы{драма=S,f,inan=(acc,pl|gen,sg|nom,pl)} мира{мир=S,m,inan=gen,sg} — на{на=PR=} любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+	Или{или=CONJ=} с{с=PR=} любовью{любовь=S,f,inan=ins,sg} слиты{сливать=V=praet,pl,partcp,brev,pf,pass},
+Всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} скальдов{скальд=S,m,anim=(acc,pl|gen,pl)} мира{мир=S,m,inan=gen,sg} позови{позвать=V,pf,tran=sg,imper,2p},
+И{и=CONJ=} скажут{сказать=V,pf,tran=inpraes,pl,indic,3p}: — Песнь{песнь=S,f,inan=(acc,sg|nom,sg)} живет{жить=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} крови{кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+	В{в=PR=} сердцах{сердце=S,n,inan=abl,pl}, что{что=CONJ=} страстью{страсть=S,f,inan=ins,sg} взрыты{взрыть=V,pf=praet,pl,partcp,brev,pass}. —
 
-{и=CONJ=} {если=CONJ=} {нежно=ADV=} {я=SPRO,sg,1p=nom} {петь=V,ipf,tran=inpraes,sg,indic,1p},
-	{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg}, {не=PART=} {веровать=V,ipf,intr=sg,imper,2p} {чудо=S,n,inan=dat,sg}.
-{я=SPRO,sg,1p=nom} {просто=PART=} {в=PR=} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {алость?=S,f,inan=(acc,sg|nom,sg)} {лить=V,ipf,tran=inpraes,sg,indic,1p},
-{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {друг=S,m,anim=nom,sg}, {чужой=A,plen=acc,sg,f} {и=CONJ=} {свой=APRO=acc,sg,f}: —
-	{я=SPRO,sg,1p=nom} {скальд=S,m,anim=nom,sg}, {и=CONJ=} {скальд=S,m,anim=ins,sg} {быть=V,intr=inpraes,sg,indic,1p}.
+И{и=CONJ=} если{если=CONJ=} нежно{нежно=ADV=} я{я=SPRO,sg,1p=nom} пою{петь=V,ipf,tran=inpraes,sg,indic,1p},
+	Мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} друг{друг=S,m,anim=nom,sg}, не{не=PART=} веруй{веровать=V,ipf,intr=sg,imper,2p} чуду{чудо=S,n,inan=dat,sg}.
+Я{я=SPRO,sg,1p=nom} просто{просто=PART=} в{в=PR=} строки{строка=S,f,inan=(acc,pl|gen,sg|nom,pl)} алость{алость?=S,f,inan=(acc,sg|nom,sg)} лью{лить=V,ipf,tran=inpraes,sg,indic,1p},
+Мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} друг{друг=S,m,anim=nom,sg}, чужую{чужой=A,plen=acc,sg,f} и{и=CONJ=} свою{свой=APRO=acc,sg,f}: —
+	Я{я=SPRO,sg,1p=nom} скальд{скальд=S,m,anim=nom,sg}, и{и=CONJ=} скальдом{скальд=S,m,anim=ins,sg} буду{быть=V,intr=inpraes,sg,indic,1p}.

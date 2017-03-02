@@ -1,14 +1,14 @@
-{вы=SPRO,pl,2p=nom}, {чей=APRO=(nom,pl|acc,pl,inan)} {резец=S,m,inan=(acc,sg|nom,sg)}, {палитра=S,f,inan=nom,sg}, {лира=S,f,inan=nom,sg},
-{согласный=S,m,inan=(abl,pl|gen,pl)} {муза=S,f,anim=(acc,pl|gen,pl)} {один=APRO=nom,sg,f} {семья=S,f,inan=nom,sg},
-{вы=SPRO,pl,2p=nom} {мы=SPRO,pl,1p=(abl|acc|gen)} {уводить=V=(inpraes,pl,indic,2p,ipf,tran|pl,imper,2p,ipf,tran)} {из=PR=} {мир=S,m,inan=gen,sg}
-{в=PR=} {соседство=S,n,inan=(acc,sg|nom,sg)} {инобытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Вы{вы=SPRO,pl,2p=nom}, чьи{чей=APRO=(nom,pl|acc,pl,inan)} резец{резец=S,m,inan=(acc,sg|nom,sg)}, палитра{палитра=S,f,inan=nom,sg}, лира{лира=S,f,inan=nom,sg},
+Согласных{согласный=S,m,inan=(abl,pl|gen,pl)} Муз{муза=S,f,anim=(acc,pl|gen,pl)} одна{один=APRO=nom,sg,f} семья{семья=S,f,inan=nom,sg},
+Вы{вы=SPRO,pl,2p=nom} нас{мы=SPRO,pl,1p=(abl|acc|gen)} уводите{уводить=V=(inpraes,pl,indic,2p,ipf,tran|pl,imper,2p,ipf,tran)} из{из=PR=} мира{мир=S,m,inan=gen,sg}
+В{в=PR=} соседство{соседство=S,n,inan=(acc,sg|nom,sg)} инобытия{инобытие=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{и=CONJ=} {чем=CONJ=} {зеркальный=A=comp} {отражать=V=inpraes,sg,indic,3p,ipf,tran}
-{кристал=S,persn,m,anim=nom,sg} {искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {лик=S,m,inan=(acc,sg|nom,sg)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{то=SPRO,sg,n,inan=ins} {явственный=A=comp} {мы=SPRO,pl,1p=(abl|acc|gen)} {поражать=V=inpraes,sg,indic,3p,ipf,tran}
-{в=PR=} {немой=A=sg,brev,m} {жизнь=S,f,inan=(acc,sg|nom,sg)} {иной=APRO=nom,sg,f}, {свет=S,sg,m,inan=(acc|nom)} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
+И{и=CONJ=} чем{чем=CONJ=} зеркальней{зеркальный=A=comp} отражает{отражать=V=inpraes,sg,indic,3p,ipf,tran}
+Кристал{кристал=S,persn,m,anim=nom,sg} искусства{искусство=S,n,inan=(acc,pl|gen,sg|nom,pl)} лик{лик=S,m,inan=(acc,sg|nom,sg)} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Тем{то=SPRO,sg,n,inan=ins} явственней{явственный=A=comp} нас{мы=SPRO,pl,1p=(abl|acc|gen)} поражает{поражать=V=inpraes,sg,indic,3p,ipf,tran}
+В{в=PR=} нем{немой=A=sg,brev,m} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} иная{иной=APRO=nom,sg,f}, свет{свет=S,sg,m,inan=(acc|nom)} иной{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
 
-{и=CONJ=} {про=PR=} {себя=SPRO=(acc|gen)} {даваться=V,intr=inpraes,pl,indic,1p,ipf} {диво=S,n,inan=dat,sg},
-{что=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {примечать=V,tran=praet,pl,indic,pf} {досель=ADVPRO=},
-{как=CONJ=} {ветерок=S,m,inan=(acc,sg|nom,sg)} {ласкать=V,ipf,tran=inpraes,sg,indic,3p} {нива=S,f,inan=acc,sg}
-{и=CONJ=} {зеленый=A=sg,brev,f} {под=PR=} {снег=S,m,inan=ins,sg} {ель=S,f,inan=(acc,sg|nom,sg)}.
+И{и=CONJ=} про{про=PR=} себя{себя=SPRO=(acc|gen)} даемся{даваться=V,intr=inpraes,pl,indic,1p,ipf} диву{диво=S,n,inan=dat,sg},
+Что{что=SPRO,sg,n,inan=(acc|nom)} не{не=PART=} приметили{примечать=V,tran=praet,pl,indic,pf} досель{досель=ADVPRO=},
+Как{как=CONJ=} ветерок{ветерок=S,m,inan=(acc,sg|nom,sg)} ласкает{ласкать=V,ipf,tran=inpraes,sg,indic,3p} ниву{нива=S,f,inan=acc,sg}
+И{и=CONJ=} зелена{зеленый=A=sg,brev,f} под{под=PR=} снегом{снег=S,m,inan=ins,sg} ель{ель=S,f,inan=(acc,sg|nom,sg)}.

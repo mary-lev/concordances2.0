@@ -1,24 +1,24 @@
-{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {всегда=ADVPRO=} {необычайный=A=sg,brev,m}.
-{скрывать=V=inpraes,ger,ipf,tran} {скука=S,f,inan=acc,sg}, {горечь=S,f,inan=(acc,sg|nom,sg)}, {злость=S,f,inan=(acc,sg|nom,sg)},
-{поэт=S,m,anim=nom,sg} — {приветливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хозяин=S,m,anim=nom,sg},
-{читатель=S,m,anim=nom,sg} — {благосклонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гость=S,m,anim=nom,sg}.
+Тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} всегда{всегда=ADVPRO=} необычаен{необычайный=A=sg,brev,m}.
+Скрывая{скрывать=V=inpraes,ger,ipf,tran} скуку{скука=S,f,inan=acc,sg}, горечь{горечь=S,f,inan=(acc,sg|nom,sg)}, злость{злость=S,f,inan=(acc,sg|nom,sg)},
+Поэт{поэт=S,m,anim=nom,sg} — приветливый{приветливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} хозяин{хозяин=S,m,anim=nom,sg},
+Читатель{читатель=S,m,anim=nom,sg} — благосклонный{благосклонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} гость{гость=S,m,anim=nom,sg}.
 
-{один=APRO=(acc,sg,m,inan|nom,sg,m)} {поэт=S,m,anim=nom,sg} {вести=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {хоромы=S,pl,inan=(acc|nom)},
-{другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} — {под=PR=} {свод=S,m,inan=(acc,pl|nom,pl)} {шалаш=S,m,inan=gen,sg},
-{а=CONJ=} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)} — {прямо=PART=} {в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {истома=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} — {и=CONJ=} {дыба=S,f,inan=nom,sg} {хороший=A=sg,brev,f}.
+Один{один=APRO=(acc,sg,m,inan|nom,sg,m)} поэт{поэт=S,m,anim=nom,sg} ведет{вести=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} хоромы{хоромы=S,pl,inan=(acc|nom)},
+Другой{другой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} — под{под=PR=} своды{свод=S,m,inan=(acc,pl|nom,pl)} шалаша{шалаш=S,m,inan=gen,sg},
+А{а=CONJ=} третий{третий=ANUM=(acc,sg,m,inan|nom,sg,m)} — прямо{прямо=PART=} в{в=PR=} ночь{ночь=S,f,inan=(acc,sg|nom,sg)} истомы{истома=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Моим{мой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} — и{и=CONJ=} дыба{дыба=S,f,inan=nom,sg} хороша{хороший=A=sg,brev,f}.
 
-{зачем=ADVPRO=}, {какой=APRO=(nom,pl|acc,pl,inan)} {и=CONJ=} {откуда=ADVPRO=}
-{и=CONJ=} {по=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {никуда=ADVPRO=},
-{что=SPRO,sg,n,inan=(acc|nom)} {они=SPRO,pl=(acc|gen)} {влечь=V,ipf,tran=inpraes,sg,indic,3p} — {какой=APRO=(acc,sg,n|nom,sg,n)} {чудо=S,n,inan=(acc,sg|nom,sg)},
-{какой=APRO=nom,sg,f} {черный=A=nom,sg,plen,f} {звезда=S,f,inan=nom,sg}? —
+Зачем{зачем=ADVPRO=}, какие{какой=APRO=(nom,pl|acc,pl,inan)} и{и=CONJ=} откуда{откуда=ADVPRO=}
+И{и=CONJ=} по{по=PR=} дороге{дорога=S,f,inan=(abl,sg|dat,sg)} в{в=PR=} никуда{никуда=ADVPRO=},
+Что{что=SPRO,sg,n,inan=(acc|nom)} их{они=SPRO,pl=(acc|gen)} влечет{влечь=V,ipf,tran=inpraes,sg,indic,3p} — какое{какой=APRO=(acc,sg,n|nom,sg,n)} чудо{чудо=S,n,inan=(acc,sg|nom,sg)},
+Какая{какой=APRO=nom,sg,f} черная{черный=A=nom,sg,plen,f} звезда{звезда=S,f,inan=nom,sg}? —
 
-{но=CONJ=} {весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {они=SPRO,pl=dat} {несомненно=ADV,parenth=} {ясно=ADV=},
-{какой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {за=PR=} {это=SPRO,sg,n,inan=(acc|nom)} {ждать=V,ipf,tran=inf} {награда=S,f,inan=gen,pl},
-{что=SPRO,sg,n,inan=(acc|nom)} {оставаться=V,intr=inf,ipf} {здесь=ADVPRO=} {опасно=ADV=},
-{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {эдемский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сад=S,m,inan=(acc,sg|nom,sg)}.
+Но{но=CONJ=} всем{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} им{они=SPRO,pl=dat} несомненно{несомненно=ADV,parenth=} ясно{ясно=ADV=},
+Каких{какой=APRO=(abl,pl|gen,pl|acc,pl,anim)} за{за=PR=} это{это=SPRO,sg,n,inan=(acc|nom)} ждать{ждать=V,ipf,tran=inf} наград{награда=S,f,inan=gen,pl},
+Что{что=SPRO,sg,n,inan=(acc|nom)} оставаться{оставаться=V,intr=inf,ipf} здесь{здесь=ADVPRO=} опасно{опасно=ADV=},
+Что{что=SPRO,sg,n,inan=(acc|nom)} это{это=SPRO,sg,n,inan=(acc|nom)} не{не=PART=} Эдемский{эдемский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сад{сад=S,m,inan=(acc,sg|nom,sg)}.
 
-{а=CONJ=} {вот=PART=} {поди=INTJ=} {ж=PART=}! {опять=ADV=} {нахлынуть=V,pf,intr=inpraes,pl,indic,3p},
-{и=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)} {неотвратимый=A=sg,brev,m}...
-{и=CONJ=} {мимоходом=ADV=} — {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вынимать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)}
-{глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сочувствие=S,n,inan=ins,sg} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.
+А{а=CONJ=} вот{вот=PART=} поди{поди=INTJ=} ж{ж=PART=}! Опять{опять=ADV=} нахлынут{нахлынуть=V,pf,intr=inpraes,pl,indic,3p},
+И{и=CONJ=} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} час{час=S,m,inan=(acc,sg|nom,sg)} неотвратим{неотвратимый=A=sg,brev,m}...
+И{и=CONJ=} мимоходом{мимоходом=ADV=} — сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} вынут{вынимать=V,tran=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)}
+Глухим{глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} сочувствием{сочувствие=S,n,inan=ins,sg} своим{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.

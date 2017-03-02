@@ -1,14 +1,14 @@
-{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {быть=V,intr=inf,ipf} {дерзкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {быть=V,intr=inf,ipf} {смелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{из=PR=} {сочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гроздие?=S,n,inan=gen,pl} {венок=S,m,inan=(acc,pl|nom,pl)} {свивать=V=inf,ipf,tran}.
-{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {упиваться=V,intr=inf,pf} {роскошный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {тело=S,n,inan=ins,sg},
-{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {ты=SPRO,sg,2p=(acc|gen)} {сорвать=V,pf,tran=inf}!
+Хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} быть{быть=V,intr=inf,ipf} дерзким{дерзкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} быть{быть=V,intr=inf,ipf} смелым{смелый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+Из{из=PR=} сочных{сочный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гроздий{гроздие?=S,n,inan=gen,pl} венки{венок=S,m,inan=(acc,pl|nom,pl)} свивать{свивать=V=inf,ipf,tran}.
+Хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} упиться{упиваться=V,intr=inf,pf} роскошным{роскошный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} телом{тело=S,n,inan=ins,sg},
+Хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} одежды{одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} с{с=PR=} тебя{ты=SPRO,sg,2p=(acc|gen)} сорвать{сорвать=V,pf,tran=inf}!
 
-{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {зной=S,m,inan=gen,sg} {атласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{мы=SPRO,pl,1p=nom} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {желание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {один=APRO=(acc,sg,n|nom,sg,n)} {сливать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
-{уходить=V,intr=pl,imper,2p,pf}, {бог=S,m,anim=nom,pl}! {уходить=V,intr=pl,imper,2p,pf}, {человек=S,m,anim=nom,pl}!
-{я=SPRO,sg,1p=(abl|dat)} {сладко=ADV=} {с=PR=} {она=SPRO,sg,3p,f=ins} {побыть=V,pf,intr=inf} {вдвоем=ADV=}!
+Хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} зноя{зной=S,m,inan=gen,sg} атласной{атласный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} груди{грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Мы{мы=SPRO,pl,1p=nom} два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} желанья{желание=S,n,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} одно{один=APRO=(acc,sg,n|nom,sg,n)} сольем{сливать=V=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
+Уйдите{уходить=V,intr=pl,imper,2p,pf}, боги{бог=S,m,anim=nom,pl}! Уйдите{уходить=V,intr=pl,imper,2p,pf}, люди{человек=S,m,anim=nom,pl}!
+Мне{я=SPRO,sg,1p=(abl|dat)} сладко{сладко=ADV=} с{с=PR=} нею{она=SPRO,sg,3p,f=ins} побыть{побыть=V,pf,intr=inf} вдвоем{вдвоем=ADV=}!
 
-{пусть=PART=} {быть=V,intr=inpraes,sg,indic,3p} {завтра=ADV=} {и=CONJ=} {мрак=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {холод=S,m,inan=(acc,sg|nom,sg)},
-{сегодня=ADV=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {отдавать=V,tran=inpraes,sg,indic,1p,pf} {луч=S,m,inan=dat,sg}.
-{я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {счастливый=A=sg,brev,m}! {я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {молодой=A=sg,brev,m}!
-{я=SPRO,sg,1p=nom} {быть=V,intr=inpraes,sg,indic,1p} {дерзкий=A=sg,brev,m}! {я=SPRO,sg,1p=nom} {так=ADVPRO=} {хотеть=V,ipf,tran=inpraes,sg,indic,1p}!
+Пусть{пусть=PART=} будет{быть=V,intr=inpraes,sg,indic,3p} завтра{завтра=ADV=} и{и=CONJ=} мрак{мрак=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} холод{холод=S,m,inan=(acc,sg|nom,sg)},
+Сегодня{сегодня=ADV=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} отдам{отдавать=V,tran=inpraes,sg,indic,1p,pf} лучу{луч=S,m,inan=dat,sg}.
+Я{я=SPRO,sg,1p=nom} буду{быть=V,intr=inpraes,sg,indic,1p} счастлив{счастливый=A=sg,brev,m}! Я{я=SPRO,sg,1p=nom} буду{быть=V,intr=inpraes,sg,indic,1p} молод{молодой=A=sg,brev,m}!
+Я{я=SPRO,sg,1p=nom} буду{быть=V,intr=inpraes,sg,indic,1p} дерзок{дерзкий=A=sg,brev,m}! Я{я=SPRO,sg,1p=nom} так{так=ADVPRO=} хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p}!

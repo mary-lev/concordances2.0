@@ -1,24 +1,24 @@
-{ветер=S,m,inan=(acc,sg|nom,sg)}, {ветер=S,m,inan=(acc,sg|nom,sg)}, {выметать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)},
-{заметать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} {след=S,m,inan=(acc,pl|nom,pl)}!
-{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {птица=S,f,anim=ins,sg} {залетать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}
-{в=PR=} {белокаменный=A=(acc,pl,plen,inan|nom,pl,plen)} {лоб=S,m,inan=(acc,pl|nom,pl)}.
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, выметающий{выметать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)},
+Заметающий{заметать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} следы{след=S,m,inan=(acc,pl|nom,pl)}!
+Красной{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} птицей{птица=S,f,anim=ins,sg} залетающий{залетать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)}
+В{в=PR=} белокаменные{белокаменный=A=(acc,pl,plen,inan|nom,pl,plen)} лбы{лоб=S,m,inan=(acc,pl|nom,pl)}.
 
-{длинноногий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {пес=S,m,anim=ins,sg} {нырять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}
-{вдоль=PR=} {равнина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {овсяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
- — {ветер=S,m,inan=(acc,sg|nom,sg)}, {голова=S,f,inan=acc,sg} {терять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}
-{от=PR=} {юбчонка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {кружевной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+Длинноногим{длинноногий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} псом{пес=S,m,anim=ins,sg} ныряющий{нырять=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}
+Вдоль{вдоль=PR=} равнины{равнина=S,f,inan=(acc,pl|gen,sg|nom,pl)} овсяной{овсяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+ — Ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, голову{голова=S,f,inan=acc,sg} теряющий{терять=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)}
+От{от=PR=} юбчонки{юбчонка=S,f,inan=(acc,pl|gen,sg|nom,pl)} кружевной{кружевной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
 
-{пурпуровый=A=(acc,sg,plen,n|nom,sg,plen,n)} {поветрие=S,n,inan=(acc,sg|nom,sg)},
-{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {вестник=S,m,inan=(acc,sg|nom,sg)} {мятеж=S,m,inan=dat,sg}, — 
-{ветер=S,m,inan=(acc,sg|nom,sg)} — {висельник=S,m,anim=nom,sg} {и=CONJ=} {ветреник=S,m,anim=nom,sg}, — 
-{в=PR=} {кулачок=S,m,inan=abl,sg} {ты=SPRO,sg,2p=(acc|gen)} {держать=V,ipf,tran=inpraes,sg,indic,1p}!
+Пурпуровое{пурпуровый=A=(acc,sg,plen,n|nom,sg,plen,n)} поветрие{поветрие=S,n,inan=(acc,sg|nom,sg)},
+Первый{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} вестник{вестник=S,m,inan=(acc,sg|nom,sg)} мятежу{мятеж=S,m,inan=dat,sg}, — 
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)} — висельник{висельник=S,m,anim=nom,sg} и{и=CONJ=} ветреник{ветреник=S,m,anim=nom,sg}, — 
+В{в=PR=} кулачке{кулачок=S,m,inan=abl,sg} тебя{ты=SPRO,sg,2p=(acc|gen)} держу{держать=V,ipf,tran=inpraes,sg,indic,1p}!
 
-{полно=ADV=} {баловать=V,ipf,tran=inf} {над=PR=} {круча=S,f,inan=ins,pl},
-{голова=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сбивать=V,tran=inf,ipf} {снег=S,m,inan=dat,pl}, — 
-{ты=SPRO,sg,2p=nom} — {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {косынка=S,f,inan=ins,sg} {скручивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
-{по=PR=} {рука=S,f,inan=dat,pl} {и=CONJ=} {по=PR=} {нога=S,f,inan=dat,pl}!
+Полно{полно=ADV=} баловать{баловать=V,ipf,tran=inf} над{над=PR=} кручами{круча=S,f,inan=ins,pl},
+Головы{голова=S,f,inan=(acc,pl|gen,sg|nom,pl)} сбивать{сбивать=V,tran=inf,ipf} снегам{снег=S,m,inan=dat,pl}, — 
+Ты{ты=SPRO,sg,2p=nom} — моей{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} косынкой{косынка=S,f,inan=ins,sg} скрученный{скручивать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
+По{по=PR=} рукам{рука=S,f,inan=dat,pl} и{и=CONJ=} по{по=PR=} ногам{нога=S,f,inan=dat,pl}!
 
-{за=PR=} {твой=APRO=(nom,pl|acc,pl,inan)} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {острожный=A=(acc,pl,plen,inan|nom,pl,plen)}, — 
-{расквитываться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {с=PR=} {ты=SPRO,sg,2p=ins}, — 
-{ветер=S,m,inan=(acc,sg|nom,sg)}, {ветер=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {куртка=S,f,inan=(abl,sg|dat,sg)} {кожаный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{с=PR=} {красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {да=CONJ=} {во=PR=} {лоб=S,m,inan=(dat,sg|loc,sg)} — {звезда=S,f,inan=ins,sg}!
+За{за=PR=} твои{твой=APRO=(nom,pl|acc,pl,inan)} дела{дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} острожные{острожный=A=(acc,pl,plen,inan|nom,pl,plen)}, — 
+Расквитаемся{расквитываться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} с{с=PR=} тобой{ты=SPRO,sg,2p=ins}, — 
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, ветер{ветер=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} куртке{куртка=S,f,inan=(abl,sg|dat,sg)} кожаной{кожаный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+С{с=PR=} красной{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — да{да=CONJ=} во{во=PR=} лбу{лоб=S,m,inan=(dat,sg|loc,sg)} — звездой{звезда=S,f,inan=ins,sg}!

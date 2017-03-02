@@ -30,7 +30,7 @@ def context1():
 
 def context():
     text1 = request.vars.word
-    texts = d(d.mystem.word==request.vars.word).select()
+    texts = trymysql(trymysql.mystem.word==request.vars.word).select()
     strings=[]
     for all in texts:
         location = all.location
@@ -40,5 +40,13 @@ def context():
         with open(title1.filename, 'r') as f:
             content = f.readlines()
             string = content[int(all.location)-1]
-        strings.append((string +"...", title, author, int(title1.id)))
+            all_string_words = [[w.lemma, w.id] for w in trymysql((trymysql.mystem.title==all.title)&(trymysql.mystem.location==all.location)).select()]
+            color_string = []
+            for lemma in all_string_words:
+                if lemma[1] == all.id:
+                    color_word = '&' + lemma[0]
+                    color_string.append(color_word)
+                else:
+                    color_string.append(lemma[0])
+        strings.append((' '.join(color_string) +"...", title, author, int(title1.id)))
     return dict(strings=strings)

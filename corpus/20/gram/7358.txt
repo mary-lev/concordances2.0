@@ -1,15 +1,15 @@
-{ник=S,persn,m,anim=nom,sg}. {с=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-{му=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
-{что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {делать=V,ipf,tran=inf} {со=PR=} {смерть=S,f,inan=ins,sg} — {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}.
-{а=CONJ=} {вы=SPRO,pl,2p=nom}, {другой=APRO=(nom,pl|acc,pl,inan)}, — {знать=V,ipf,tran=inpraes,pl,indic,2p}? {знать=V,ipf,tran=inpraes,pl,indic,2p}?
-{только=PART=} {скрывать=V=inpraes,pl,indic,2p,ipf,tran}, {тоже=PART=} {не=PART=} {знать=V,ipf,tran=inpraes,pl,indic,2p}.
-{я=SPRO,sg,1p=nom} {же=PART=} {незнание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {не=PART=} {скрывать=V=inpraes,sg,indic,1p,ipf,tran}.
+Ник{ник=S,persn,m,anim=nom,sg}. С{с=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}-му{му=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+Что{что=SPRO,sg,n,inan=(acc|nom)} мне{я=SPRO,sg,1p=(abl|dat)} делать{делать=V,ipf,tran=inf} со{со=PR=} смертью{смерть=S,f,inan=ins,sg} — не{не=PART=} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p}.
+А{а=CONJ=} вы{вы=SPRO,pl,2p=nom}, другие{другой=APRO=(nom,pl|acc,pl,inan)}, — знаете{знать=V,ipf,tran=inpraes,pl,indic,2p}? Знаете{знать=V,ipf,tran=inpraes,pl,indic,2p}?
+Только{только=PART=} скрываете{скрывать=V=inpraes,pl,indic,2p,ipf,tran}, тоже{тоже=PART=} не{не=PART=} знаете{знать=V,ipf,tran=inpraes,pl,indic,2p}.
+Я{я=SPRO,sg,1p=nom} же{же=PART=} незнанья{незнание=S,n,inan=(acc,pl|gen,sg|nom,pl)} моего{мой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} не{не=PART=} скрываю{скрывать=V=inpraes,sg,indic,1p,ipf,tran}.
 
-{как=CONJ=} {ни=PART=} {жить=V,ipf,intr=sg,imper,2p} — {жизнь=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {отвечать=V,intr=inpraes,sg,indic,3p,pf},
-{разве=PART=} {жизнь=S,f,inan=ins,sg} {смерть=S,f,inan=(acc,sg|nom,sg)} {побеждаться=V,ipf,intr=inpraes,sg,indic,3p}?
-{сказать=V,pf,tran=praet,sg,partcp,brev,n,pass} — {смерть=S,f,inan=ins,sg} {смерть=S,f,inan=(acc,sg|nom,sg)} {побеждаться=V,ipf,intr=inpraes,sg,indic,3p},
-{значит=ADV,parenth=}, {на=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {путь=S,m,inan=abl,pl} {она=SPRO,sg,3p,f=nom} {встречать=V,tran=inpraes,sg,indic,3p,pf}.
+Как{как=CONJ=} ни{ни=PART=} живи{жить=V,ipf,intr=sg,imper,2p} — жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} не{не=PART=} ответит{отвечать=V,intr=inpraes,sg,indic,3p,pf},
+Разве{разве=PART=} жизнью{жизнь=S,f,inan=ins,sg} смерть{смерть=S,f,inan=(acc,sg|nom,sg)} побеждается{побеждаться=V,ipf,intr=inpraes,sg,indic,3p}?
+Сказано{сказать=V,pf,tran=praet,sg,partcp,brev,n,pass} — смертью{смерть=S,f,inan=ins,sg} смерть{смерть=S,f,inan=(acc,sg|nom,sg)} побеждается{побеждаться=V,ipf,intr=inpraes,sg,indic,3p},
+Значит{значит=ADV,parenth=}, на{на=PR=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} путях{путь=S,m,inan=abl,pl} она{она=SPRO,sg,3p,f=nom} встретит{встречать=V,tran=inpraes,sg,indic,3p,pf}.
 
-{а=CONJ=} {я=SPRO,sg,1p=nom} {она=SPRO,sg,3p,f=(acc|gen)} {всякий=APRO=acc,sg,plen,f} — {ненавидеть=V,ipf,tran=inpraes,sg,indic,1p}.
-{только=PART=} {свой=APRO=acc,sg,f} {любить=V,ipf,tran=inpraes,sg,indic,1p}, {неизвестный=A=acc,sg,plen,f}.
-{за=PR=} {то=SPRO,sg,n,inan=(acc|nom)} {и=CONJ=} {любить=V,ipf,tran=inpraes,sg,indic,1p}, {что=CONJ=} {она=SPRO,sg,3p,f=nom} {неизвестный=A=nom,sg,plen,f},
-{что=SPRO,sg,n,inan=(acc|nom)} {умирать=V,intr=inpraes,sg,indic,1p,pf} — {и=CONJ=} {око=S,n,inan=gen,pl} {она=SPRO,sg,3p,f=(acc|gen)} {не=PART=} {увидеть=V,pf,tran=inpraes,sg,indic,1p}...
+А{а=CONJ=} я{я=SPRO,sg,1p=nom} ее{она=SPRO,sg,3p,f=(acc|gen)} всякую{всякий=APRO=acc,sg,plen,f} — ненавижу{ненавидеть=V,ipf,tran=inpraes,sg,indic,1p}.
+Только{только=PART=} свою{свой=APRO=acc,sg,f} люблю{любить=V,ipf,tran=inpraes,sg,indic,1p}, неизвестную{неизвестный=A=acc,sg,plen,f}.
+За{за=PR=} то{то=SPRO,sg,n,inan=(acc|nom)} и{и=CONJ=} люблю{любить=V,ipf,tran=inpraes,sg,indic,1p}, что{что=CONJ=} она{она=SPRO,sg,3p,f=nom} неизвестная{неизвестный=A=nom,sg,plen,f},
+Что{что=SPRO,sg,n,inan=(acc|nom)} умру{умирать=V,intr=inpraes,sg,indic,1p,pf} — и{и=CONJ=} очей{око=S,n,inan=gen,pl} ее{она=SPRO,sg,3p,f=(acc|gen)} не{не=PART=} увижу{увидеть=V,pf,tran=inpraes,sg,indic,1p}...

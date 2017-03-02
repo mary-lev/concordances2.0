@@ -1,9 +1,9 @@
-{девочка=S,f,anim=nom,sg} {мальчик=S,m,anim=dat,sg} {роза=S,f,inan=acc,sg} {дарить=V,ipf,tran=inpraes,sg,indic,3p},
-{первый=ANUM=acc,sg,f} {роза=S,f,inan=acc,sg} {с=PR=} {куст=S,m,inan=gen,sg}.
-{девочка=S,f,anim=acc,sg} {мальчик=S,m,anim=nom,sg} {целовать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {уста=S,pl,inan=(acc|nom)},
-{первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} {лобзание=S,n,inan=ins,sg} {дарить=V,ipf,tran=inpraes,sg,indic,3p}.
+Девочка{девочка=S,f,anim=nom,sg} мальчику{мальчик=S,m,anim=dat,sg} розу{роза=S,f,inan=acc,sg} дарит{дарить=V,ipf,tran=inpraes,sg,indic,3p},
+Первую{первый=ANUM=acc,sg,f} розу{роза=S,f,inan=acc,sg} с{с=PR=} куста{куст=S,m,inan=gen,sg}.
+Девочку{девочка=S,f,anim=acc,sg} мальчик{мальчик=S,m,anim=nom,sg} целует{целовать=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} уста{уста=S,pl,inan=(acc|nom)},
+Первым{первый=ANUM=(dat,pl|ins,sg,m|ins,sg,n)} лобзаньем{лобзание=S,n,inan=ins,sg} дарит{дарить=V,ipf,tran=inpraes,sg,indic,3p}.
 
-{солнышко=S,n,inan=(acc,sg|nom,sg)} {скрываться=V,intr=praet,sg,indic,n,pf}, {аллея=S,f,inan=nom,sg} {пустой=A=sg,brev,f}...
-{стыдно=ADV=} {в=PR=} {уста=S,pl,inan=(acc|nom)} {целовать=V,ipf,tran=inf}!
-{девочка=S,f,anim=nom,sg}, {надо=ADV,praed=} {ли=PART=} {быть=V,intr=praet,sg,indic,n,ipf} {срывать=V,ipf,tran=inf}
-{первый=ANUM=acc,sg,f} {роза=S,f,inan=acc,sg} {с=PR=} {куст=S,m,inan=gen,sg}?
+Солнышко{солнышко=S,n,inan=(acc,sg|nom,sg)} скрылось{скрываться=V,intr=praet,sg,indic,n,pf}, аллея{аллея=S,f,inan=nom,sg} пуста{пустой=A=sg,brev,f}...
+Стыдно{стыдно=ADV=} в{в=PR=} уста{уста=S,pl,inan=(acc|nom)} целовать{целовать=V,ipf,tran=inf}!
+Девочка{девочка=S,f,anim=nom,sg}, надо{надо=ADV,praed=} ли{ли=PART=} было{быть=V,intr=praet,sg,indic,n,ipf} срывать{срывать=V,ipf,tran=inf}
+Первую{первый=ANUM=acc,sg,f} розу{роза=S,f,inan=acc,sg} с{с=PR=} куста{куст=S,m,inan=gen,sg}?

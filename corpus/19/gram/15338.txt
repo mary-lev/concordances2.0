@@ -1,14 +1,14 @@
-{не=PART=} {опасаться=V,ipf,intr=pl,imper,2p} {шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {смелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{не=PART=} {бояться=V,ipf,intr=pl,imper,2p} {шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {шутовской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)},
-{пред=PR=} {сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рабски=ADV=} {онемелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{пред=PR=} {сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {нагло=ADV=} {разбитной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Не{не=PART=} опасайтесь{опасаться=V,ipf,intr=pl,imper,2p} шутки{шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} смелой{смелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Не{не=PART=} бойтесь{бояться=V,ipf,intr=pl,imper,2p} шутки{шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} шутовской{шутовской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)},
+Пред{пред=PR=} сильным{сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} рабски{рабски=ADV=} онемелой{онемелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Пред{пред=PR=} сильным{сильный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} нагло{нагло=ADV=} разбитной{разбитной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{она=SPRO,sg,3p,f=nom} {клеймить=V,ipf,tran=inpraes,sg,indic,3p}, {она=SPRO,sg,3p,f=nom} {марать=V,ipf,tran=inpraes,sg,indic,3p},
-{не=PART=} {понимать=V=inpraes,sg,indic,3p,ipf,tran} {красота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {клевета=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {отличать=V,tran=inpraes,sg,indic,3p,ipf}
-{от=PR=} {малословный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {правота=S,sg,f,inan=gen}.
+Она{она=SPRO,sg,3p,f=nom} клеймит{клеймить=V,ipf,tran=inpraes,sg,indic,3p}, она{она=SPRO,sg,3p,f=nom} марает{марать=V,ipf,tran=inpraes,sg,indic,3p},
+Не{не=PART=} понимает{понимать=V=inpraes,sg,indic,3p,ipf,tran} красоты{красота=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} клеветы{клевета=S,f,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} отличает{отличать=V,tran=inpraes,sg,indic,3p,ipf}
+От{от=PR=} малословной{малословный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} правоты{правота=S,sg,f,inan=gen}.
 
-{пред=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {открываться=V,intr=inf,pf} — {это=SPRO,sg,n,inan=(acc|nom)} {плохо=ADV=comp},
-{чем=CONJ=} {на=PR=} {базар=S,m,inan=abl,sg} {голый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {быть=V,intr=inf,ipf},
-{или=CONJ=} {купаться=V,ipf,intr=inf} {в=PR=} {грязный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лужа=S,f,inan=(abl,sg|dat,sg)},
-{иль=CONJ=} {зачумленный=A=acc,sg,plen,f} {любить=V,ipf,tran=inf}.
+Пред{пред=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} открыться{открываться=V,intr=inf,pf} — это{это=SPRO,sg,n,inan=(acc|nom)} хуже{плохо=ADV=comp},
+Чем{чем=CONJ=} на{на=PR=} базаре{базар=S,m,inan=abl,sg} голым{голый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} быть{быть=V,intr=inf,ipf},
+Или{или=CONJ=} купаться{купаться=V,ipf,intr=inf} в{в=PR=} грязной{грязный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} луже{лужа=S,f,inan=(abl,sg|dat,sg)},
+Иль{иль=CONJ=} зачумленную{зачумленный=A=acc,sg,plen,f} любить{любить=V,ipf,tran=inf}.

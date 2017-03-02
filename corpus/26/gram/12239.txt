@@ -1,9 +1,9 @@
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {сон=S,m,inan=(acc,sg|nom,sg)}. {он=SPRO,sg,3p,m=nom} {повторяться=V,intr=inpraes,sg,indic,3p,ipf}, {как=CONJ=} {томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{стук=S,m,inan=(acc,sg|nom,sg)} {замуровывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)}. {в=PR=} {этот=APRO=(abl,sg,m|abl,sg,n)} {сон=S,m,inan=abl,sg}
-{кирка=S,f,inan=ins,sg} {работать=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {дыра=S,f,inan=(abl,sg|dat,sg)} {огромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{и=CONJ=} {находить=V=inpraes,sg,indic,1p,ipf} {обломок=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {глубина=S,f,inan=(abl,sg|dat,sg)}.
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} сон{сон=S,m,inan=(acc,sg|nom,sg)}. Он{он=SPRO,sg,3p,m=nom} повторяется{повторяться=V,intr=inpraes,sg,indic,3p,ipf}, как{как=CONJ=} томный{томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+стук{стук=S,m,inan=(acc,sg|nom,sg)} замурованного{замуровывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,anim|praet,gen,sg,partcp,plen,m,pf,pass|praet,gen,sg,partcp,plen,n,pf,pass)}. В{в=PR=} этом{этот=APRO=(abl,sg,m|abl,sg,n)} сне{сон=S,m,inan=abl,sg}
+киркой{кирка=S,f,inan=ins,sg} работаю{работать=V,ipf,intr=inpraes,sg,indic,1p} в{в=PR=} дыре{дыра=S,f,inan=(abl,sg|dat,sg)} огромной{огромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+и{и=CONJ=} нахожу{находить=V=inpraes,sg,indic,1p,ipf} обломок{обломок=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} глубине{глубина=S,f,inan=(abl,sg|dat,sg)}.
 
-{и=CONJ=} {фонарь=S,m,inan=ins,sg} {на=PR=} {он=SPRO,sg,3p,m=abl} {я=SPRO,sg,1p=nom} {освещать=V,tran=inpraes,sg,indic,1p,ipf}
-{след=S,m,inan=(acc,sg|nom,sg)} {надпись=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {нагота=S,sg,f,inan=acc} {червь=S,m,anim=(acc,sg|gen,sg)}.
-«{читать=V,ipf,tran=sg,imper,2p}, {читать=V,ipf,tran=sg,imper,2p}!» — {кричать=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {кровь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f}:
-{р=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},0,{с=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, — {нет=PART=}, {я=SPRO,sg,1p=nom} {буква=S,f,inan=gen,pl} {не=PART=} {различать=V,tran=inpraes,sg,indic,1p,ipf}.
+И{и=CONJ=} фонарем{фонарь=S,m,inan=ins,sg} на{на=PR=} нем{он=SPRO,sg,3p,m=abl} я{я=SPRO,sg,1p=nom} освещаю{освещать=V,tran=inpraes,sg,indic,1p,ipf}
+след{след=S,m,inan=(acc,sg|nom,sg)} надписи{надпись=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} и{и=CONJ=} наготу{нагота=S,sg,f,inan=acc} червя{червь=S,m,anim=(acc,sg|gen,sg)}.
+«Читай{читать=V,ipf,tran=sg,imper,2p}, читай{читать=V,ipf,tran=sg,imper,2p}!» — кричит{кричать=V,ipf,intr=inpraes,sg,indic,3p} мне{я=SPRO,sg,1p=(abl|dat)} кровь{кровь=S,f,inan=(acc,sg|nom,sg)} моя{мой=APRO=nom,sg,f}:
+Р{р=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},0,С{с=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, — нет{нет=PART=}, я{я=SPRO,sg,1p=nom} букв{буква=S,f,inan=gen,pl} не{не=PART=} различаю{различать=V,tran=inpraes,sg,indic,1p,ipf}.

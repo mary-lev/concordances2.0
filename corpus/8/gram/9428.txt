@@ -1,23 +1,23 @@
-{золото=S,sg,n,inan=(acc|nom)}, {убранство=S,n,inan=(acc,sg|nom,sg)} {тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ковчег=S,m,inan=gen,sg},
-{где=ADVPRO=} {хранить=V,ipf,tran=inpraes,pl,indic,3p} {издревле=ADV=} {благостный=A=(acc,pl,plen,inan|nom,pl,plen)} {мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{золото=S,sg,n,inan=(acc|nom)}, {добыча=S,f,inan=nom,sg} {хищный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {набег=S,m,inan=gen,sg},
-{золото=S,sg,n,inan=(acc|nom)}, {ты=SPRO,sg,2p=nom} {символ=S,m,inan=(acc,sg|nom,sg)} {сладострастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{и=CONJ=} {в=PR=} {твой=APRO=(abl,sg,m|abl,sg,n)} {сверкание=S,n,inan=abl,sg} {медленный=A=nom,sg,plen,f} {нега=S,f,inan=nom,sg}.
+Золото{золото=S,sg,n,inan=(acc|nom)}, убранство{убранство=S,n,inan=(acc,sg|nom,sg)} тайного{тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} ковчега{ковчег=S,m,inan=gen,sg},
+Где{где=ADVPRO=} хранят{хранить=V,ipf,tran=inpraes,pl,indic,3p} издревле{издревле=ADV=} благостные{благостный=A=(acc,pl,plen,inan|nom,pl,plen)} мощи{мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Золото{золото=S,sg,n,inan=(acc|nom)}, добыча{добыча=S,f,inan=nom,sg} хищного{хищный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} набега{набег=S,m,inan=gen,sg},
+Золото{золото=S,sg,n,inan=(acc|nom)}, ты{ты=SPRO,sg,2p=nom} символ{символ=S,m,inan=(acc,sg|nom,sg)} сладострастной{сладострастный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} мощи{мощь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+И{и=CONJ=} в{в=PR=} твоем{твой=APRO=(abl,sg,m|abl,sg,n)} сверканьи{сверкание=S,n,inan=abl,sg} медленная{медленный=A=nom,sg,plen,f} нега{нега=S,f,inan=nom,sg}.
 
-{серебро=S,sg,n,inan=(acc|nom)} {сиять=V,ipf,intr=inpraes,sg,indic,3p} {тихо=ADV=} {на=PR=} {икона=S,f,inan=(abl,sg|dat,sg)},
-{мученица=S,f,anim=(abl,sg|dat,sg)} {юный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {покрывать=V=inpraes,sg,indic,3p,ipf,tran} {плечо=S,n,inan=(acc,pl|nom,pl)},
-{серебро=S,sg,n,inan=(acc|nom)} {так=ADVPRO=} {ясный=A=sg,brev,n} {в=PR=} {перелетный=A=(abl,sg,plen,m|abl,sg,plen,n)} {звон=S,m,inan=abl,sg},
-{голос=S,m,inan=(acc,sg|nom,sg)} {серебристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {я=SPRO,sg,1p=(abl|dat)} {звучать=V,ipf,intr=praet,sg,indic,m} {предтеча=S,mf,anim=ins,sg}
-{прежде=PR=} {недоступный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сладостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гармония=S,f,inan=gen,pl}.
+Серебро{серебро=S,sg,n,inan=(acc|nom)} сияет{сиять=V,ipf,intr=inpraes,sg,indic,3p} тихо{тихо=ADV=} на{на=PR=} иконе{икона=S,f,inan=(abl,sg|dat,sg)},
+Мученице{мученица=S,f,anim=(abl,sg|dat,sg)} юной{юный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} покрывает{покрывать=V=inpraes,sg,indic,3p,ipf,tran} плечи{плечо=S,n,inan=(acc,pl|nom,pl)},
+Серебро{серебро=S,sg,n,inan=(acc|nom)} так{так=ADVPRO=} ясно{ясный=A=sg,brev,n} в{в=PR=} перелетном{перелетный=A=(abl,sg,plen,m|abl,sg,plen,n)} звоне{звон=S,m,inan=abl,sg},
+Голос{голос=S,m,inan=(acc,sg|nom,sg)} серебристый{серебристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мне{я=SPRO,sg,1p=(abl|dat)} звучал{звучать=V,ipf,intr=praet,sg,indic,m} предтечей{предтеча=S,mf,anim=ins,sg}
+Прежде{прежде=PR=} недоступных{недоступный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} сладостных{сладостный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гармоний{гармония=S,f,inan=gen,pl}.
 
-{и=CONJ=} {любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {бронза=S,f,inan=acc,sg}: {сумрачный=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {баядерка=S,f,anim=(gen,sg|nom,pl)} {в=PR=} {роскошь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
-{в=PR=} {твердость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {изгиб=S,m,inan=gen,pl} {столько=NUM=(acc|nom)} {легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{отблеск=S,m,inan=(acc,pl|nom,pl)} {так=ADVPRO=} {чистый=A=pl,brev} {на=PR=} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
-{да=PART=}, {любить=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {бронза=S,f,inan=(abl,sg|dat,sg)} {тайна=S,f,inan=acc,sg} {отражение=S,n,inan=gen,pl}.
+И{и=CONJ=} люблю{любить=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} бронзу{бронза=S,f,inan=acc,sg}: сумрачные{сумрачный=A=(acc,pl,plen,inan|nom,pl,plen)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Томной{томный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} баядерки{баядерка=S,f,anim=(gen,sg|nom,pl)} в{в=PR=} роскоши{роскошь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} вечерней{вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+В{в=PR=} твердости{твердость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} изгибов{изгиб=S,m,inan=gen,pl} столько{столько=NUM=(acc|nom)} легкой{легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} лени{лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Отблески{отблеск=S,m,inan=(acc,pl|nom,pl)} так{так=ADVPRO=} чисты{чистый=A=pl,brev} на{на=PR=} холодной{холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} черни{чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+Да{да=PART=}, люблю{любить=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} в{в=PR=} бронзе{бронза=S,f,inan=(abl,sg|dat,sg)} тайну{тайна=S,f,inan=acc,sg} отражений{отражение=S,n,inan=gen,pl}.
 
-{но=CONJ=} {не=PART=} {этот=APRO=(nom,pl|acc,pl,inan)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {металл=S,m,inan=abl,sg}!
-{не=PART=} {сравнивать=V,tran=inpraes,sg,indic,1p,pf} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom} {с=PR=} {кинжальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {блеск=S,m,inan=ins,sg}!
-{змея=S,f,anim=(gen,sg|nom,pl)} {резкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {молния=S,f,inan=gen,pl} {быстро=ADV=} {засверкать=V,pf,intr=praet,pl,indic},
-{я=SPRO,sg,1p=nom} {прильнуть=V,pf,intr=praet,sg,indic,m}, {ревнивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {к=PR=} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {занавеска=S,f,inan=dat,pl}...
-{ты=SPRO,sg,2p=nom} — {мой=APRO=nom,sg,f} {надежда=S,f,inan=nom,sg}, {мщение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {верный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сталь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+Но{но=CONJ=} не{не=PART=} эти{этот=APRO=(nom,pl|acc,pl,inan)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} металле{металл=S,m,inan=abl,sg}!
+Не{не=PART=} сравню{сравнивать=V,tran=inpraes,sg,indic,1p,pf} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} блестки{блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)} я{я=SPRO,sg,1p=nom} с{с=PR=} кинжальным{кинжальный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} блеском{блеск=S,m,inan=ins,sg}!
+Змеи{змея=S,f,anim=(gen,sg|nom,pl)} резких{резкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} молний{молния=S,f,inan=gen,pl} быстро{быстро=ADV=} засверкали{засверкать=V,pf,intr=praet,pl,indic},
+Я{я=SPRO,sg,1p=nom} прильнул{прильнуть=V,pf,intr=praet,sg,indic,m}, ревнивый{ревнивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, к{к=PR=} белым{белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} занавескам{занавеска=S,f,inan=dat,pl}...
+Ты{ты=SPRO,sg,2p=nom} — моя{мой=APRO=nom,sg,f} надежда{надежда=S,f,inan=nom,sg}, мщенье{мщение=S,n,inan=(abl,sg|acc,sg|nom,sg)} верной{верный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} стали{сталь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!

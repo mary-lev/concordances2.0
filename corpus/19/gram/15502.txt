@@ -1,19 +1,19 @@
-{ускользать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{обольстительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)},
-{и=CONJ=} {ревнивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{угрожающий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бред=S,sg,m,inan=(acc|nom)}...
+Ускользающей{ускользать=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} цели{цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Обольстительный{обольстительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свет{свет=S,sg,m,inan=(acc|nom)},
+И{и=CONJ=} ревнивой{ревнивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} метели{метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Угрожающий{угрожающий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} бред{бред=S,sg,m,inan=(acc|nom)}...
 
-{или=CONJ=} {время=S,n,inan=(acc,sg|nom,sg)} {крылатый=A=sg,brev,n}?
-{или=CONJ=} {сила=S,f,inan=gen,pl} {нет=ADV,praed=} {во=PR=} {я=SPRO,sg,1p=(abl|dat)}?
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)}, {что=SPRO,sg,n,inan=(abl|ins)} {жить=V,ipf,intr=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {когда-то=ADVPRO=},
-{словно=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {во=PR=} {сон=S,m,inan=abl,sg}.
+Или{или=CONJ=} время{время=S,n,inan=(acc,sg|nom,sg)} крылато{крылатый=A=sg,brev,n}?
+Или{или=CONJ=} сил{сила=S,f,inan=gen,pl} нет{нет=ADV,praed=} во{во=PR=} мне{я=SPRO,sg,1p=(abl|dat)}?
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)}, чем{что=SPRO,sg,n,inan=(abl|ins)} жил{жить=V,ipf,intr=praet,sg,indic,m} я{я=SPRO,sg,1p=nom} когда-то{когда-то=ADVPRO=},
+Словно{словно=CONJ=} было{быть=V,intr=praet,sg,indic,n,ipf} во{во=PR=} сне{сон=S,m,inan=abl,sg}.
 
-{замыкаться=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, —
-{и=CONJ=} {темнеть=V,ipf,intr=inpraes,sg,indic,3p} {кругом=ADV=}, —
-{и=CONJ=} {утрата=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {потеря=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {бессильно=ADV=} {умирать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
+Замыкаются{замыкаться=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} двери{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, —
+И{и=CONJ=} темнеет{темнеть=V,ipf,intr=inpraes,sg,indic,3p} кругом{кругом=ADV=}, —
+И{и=CONJ=} утраты{утрата=S,f,inan=(acc,pl|gen,sg|nom,pl)}, потери{потеря=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} бессильно{бессильно=ADV=} умрем{умирать=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)}.
 
-{истечение=S,n,inan=(acc,sg|nom,sg)} {чуять=V,ipf,tran=inpraes,sg,indic,1p}
-{холодеть=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {сила=S,f,inan=gen,pl},
-{и=CONJ=} {тоска=S,f,inan=acc,sg} {вековой=A=acc,sg,plen,f}
-{беспощадный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {могила=S,f,inan=gen,pl}.
+Истечение{истечение=S,n,inan=(acc,sg|nom,sg)} чую{чуять=V,ipf,tran=inpraes,sg,indic,1p}
+Холодеющих{холодеть=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} сил{сила=S,f,inan=gen,pl},
+И{и=CONJ=} тоску{тоска=S,f,inan=acc,sg} вековую{вековой=A=acc,sg,plen,f}
+Беспощадных{беспощадный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} могил{могила=S,f,inan=gen,pl}.

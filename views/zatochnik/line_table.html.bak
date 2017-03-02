@@ -1,0 +1,10 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон zatochnik/line_table.html</h1>
+<table border='1px'>
+{{for x in range(0, 786):}}
+<tr>{{for all in texts:}}
+    <td>{{=all[x]}}</td>
+    {{pass}}
+</tr>
+{{pass}}
+</table>

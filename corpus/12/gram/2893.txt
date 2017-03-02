@@ -1,23 +1,23 @@
-{пустыня=S,f,inan=ins,sg} {девичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
-{бред=S,sg,m,inan=(dat|loc|part)} {за=PR=} {нырять=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {гроб=S,m,inan=ins,sg}.
-{сугроб=S,m,inan=(acc,pl|nom,pl)} — {ухаб=S,m,inan=(acc,pl|nom,pl)} — {сугроб=S,m,inan=(acc,pl|nom,pl)}.
-{москва=S,geo,f,inan=nom,sg}. — {девятнадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)} {год=S,m,inan=(acc,sg|nom,sg)}. — 
+Пустыней{пустыня=S,f,inan=ins,sg} Девичьего{девичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} Поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+Бреду{бред=S,sg,m,inan=(dat|loc|part)} за{за=PR=} ныряющим{нырять=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} гробом{гроб=S,m,inan=ins,sg}.
+Сугробы{сугроб=S,m,inan=(acc,pl|nom,pl)} — ухабы{ухаб=S,m,inan=(acc,pl|nom,pl)} — сугробы{сугроб=S,m,inan=(acc,pl|nom,pl)}.
+Москва{москва=S,geo,f,inan=nom,sg}. — Девятнадцатый{девятнадцатый=ANUM=(acc,sg,m,inan|nom,sg,m)} год{год=S,m,inan=(acc,sg|nom,sg)}. — 
 
-{в=PR=} {гроб=S,m,inan=(dat,sg|loc,sg)} — {несравненный=A=(acc,pl,plen,inan|nom,pl,plen)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{скрещиваться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} {самовольный=A=sg,brev,n},
-{и=CONJ=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {высокий=A=ins,sg,plen,f} {жизнь=S,f,inan=ins,sg}
-{купить=V,pf,tran=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)} {право=S,n,inan=(acc,sg|nom,sg)} — {не=PART=} {жить=V,ipf,intr=inf}.
+В{в=PR=} гробу{гроб=S,m,inan=(dat,sg|loc,sg)} — несравненные{несравненный=A=(acc,pl,plen,inan|nom,pl,plen)} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Скрестившиеся{скрещиваться=V,intr=(praet,nom,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,inan)} самовольно{самовольный=A=sg,brev,n},
+И{и=CONJ=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — высокою{высокий=A=ins,sg,plen,f} жизнью{жизнь=S,f,inan=ins,sg}
+Купившее{купить=V,pf,tran=(praet,acc,sg,partcp,plen,n,act|praet,nom,sg,partcp,plen,n,act)} право{право=S,n,inan=(acc,sg|nom,sg)} — не{не=PART=} жить{жить=V,ipf,intr=inf}.
 
-{какой=APRO=nom,sg,f} {печальный=A=nom,sg,plen,f} {свита=S,f,inan=nom,sg}!
-{распутица=S,f,inan=acc,sg} — {холод=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {голод=S,m,inan=(acc,sg|nom,sg)}
-{последний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {почетный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {эскорт=S,m,inan=ins,sg}
-{ты=SPRO,sg,2p=(abl|dat)} {отряжать=V=praet,sg,indic,f,pf} {москва=S,geo,f,inan=nom,sg}.
+Какая{какой=APRO=nom,sg,f} печальная{печальный=A=nom,sg,plen,f} свита{свита=S,f,inan=nom,sg}!
+Распутицу{распутица=S,f,inan=acc,sg} — холод{холод=S,m,inan=(acc,sg|nom,sg)} — и{и=CONJ=} голод{голод=S,m,inan=(acc,sg|nom,sg)}
+Последним{последний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} почетным{почетный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} эскортом{эскорт=S,m,inan=ins,sg}
+Тебе{ты=SPRO,sg,2p=(abl|dat)} отрядила{отряжать=V=praet,sg,indic,f,pf} Москва{москва=S,geo,f,inan=nom,sg}.
 
-{кто=SPRO,sg,m,anim=nom} {помирать=V,intr=praet,sg,indic,m,pf}? — {с=PR=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {товарищ=S,m,anim=nom,sg}!
-{не=PART=} {ваш=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {разум=S,m,inan=gen,sg} {дело=S,n,inan=(acc,sg|nom,sg)}:
- — {исконный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {высокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {род=S,m,inan=(acc,pl|gen,sg|nom,pl)} — 
-{высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {дворянин=S,m,anim=nom,sg}.
+Кто{кто=SPRO,sg,m,anim=nom} помер{помирать=V,intr=praet,sg,indic,m,pf}? — С{с=PR=} дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}, товарищ{товарищ=S,m,anim=nom,sg}!
+Не{не=PART=} вашего{ваш=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} разума{разум=S,m,inan=gen,sg} дело{дело=S,n,inan=(acc,sg|nom,sg)}:
+ — Исконный{исконный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — высокого{высокий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} рода{род=S,m,inan=(acc,pl|gen,sg|nom,pl)} — 
+Высокой{высокий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} души{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} — дворянин{дворянин=S,m,anim=nom,sg}.
 
-{пустыня=S,f,inan=ins,sg} {девичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
-{молиться=V,ipf,intr=inpraes,sg,indic,1p} {за=PR=} {блаженный=A=acc,sg,plen,f} {встреча=S,f,inan=acc,sg}
-{в=PR=} {тепло=S,sg,n,inan=abl} {елисейский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=gen,pl}!
+Пустыней{пустыня=S,f,inan=ins,sg} Девичьего{девичий=A,plen=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} Поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+Молюсь{молиться=V,ipf,intr=inpraes,sg,indic,1p} за{за=PR=} блаженную{блаженный=A=acc,sg,plen,f} встречу{встреча=S,f,inan=acc,sg}
+В{в=PR=} тепле{тепло=S,sg,n,inan=abl} Елисейских{елисейский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} Полей{поле=S,n,inan=gen,pl}!

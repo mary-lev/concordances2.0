@@ -1,9 +1,9 @@
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {он=SPRO,sg,3p,m=nom} {отец=S,m,anim=nom,sg},
-{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {соколица?=S,f,inan=nom,sg}, — {это=SPRO,sg,n,inan=(acc|nom)} {мать=S,f,anim=(acc,sg|nom,sg)}.
-{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {клюв=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {коготь=S,m,inan=(acc,pl|nom,pl)} — {в=PR=} {глубь=S,f,inan=(acc,sg|nom,sg)} {сердце=S,n,inan=gen,pl},
-{он=SPRO,sg,3p,m=nom} {коготь=S,m,inan=ins,pl} {так=ADVPRO=} {уметь=V,ipf,intr=inpraes,sg,indic,3p} {обнимать=V,tran=inf,ipf}.
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, он{он=SPRO,sg,3p,m=nom} отец{отец=S,m,anim=nom,sg},
+Серый{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, соколица{соколица?=S,f,inan=nom,sg}, — это{это=SPRO,sg,n,inan=(acc|nom)} мать{мать=S,f,anim=(acc,sg|nom,sg)}.
+Светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, клюв{клюв=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} когти{коготь=S,m,inan=(acc,pl|nom,pl)} — в{в=PR=} глубь{глубь=S,f,inan=(acc,sg|nom,sg)} сердец{сердце=S,n,inan=gen,pl},
+Он{он=SPRO,sg,3p,m=nom} когтями{коготь=S,m,inan=ins,pl} так{так=ADVPRO=} умеет{уметь=V,ipf,intr=inpraes,sg,indic,3p} обнимать{обнимать=V,tran=inf,ipf}.
 
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {сильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {солнцеокий?=A=sg,brev,m},
-{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)} — {в=PR=} {глубь=S,f,inan=(acc,sg|nom,sg)} {гнездо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
-{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {полет=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {луч=S,m,inan=abl,pl} {высокий=A=sg,brev,m},
-{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сокол=S,m,inan=(acc,sg|nom,sg)}, {над=PR=} {ты=SPRO,sg,2p=ins} {во=PR=} {тьма=S,f,inan=(abl,sg|dat,sg)} {звезда=S,f,inan=nom,sg}.
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, сильный{сильный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, солнцеок{солнцеокий?=A=sg,brev,m},
+Серый{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, темный{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)} — в{в=PR=} глубь{глубь=S,f,inan=(acc,sg|nom,sg)} гнезда{гнездо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} полет{полет=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} лучах{луч=S,m,inan=abl,pl} высок{высокий=A=sg,brev,m},
+Темный{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сокол{сокол=S,m,inan=(acc,sg|nom,sg)}, над{над=PR=} тобой{ты=SPRO,sg,2p=ins} во{во=PR=} тьме{тьма=S,f,inan=(abl,sg|dat,sg)} звезда{звезда=S,f,inan=nom,sg}.

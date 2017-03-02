@@ -1,14 +1,14 @@
-{измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {ночь=S,f,inan=ins,sg} {ядовитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
-{бессонница=S,f,inan=ins,sg} {и=CONJ=} {вино=S,n,inan=ins,sg},
-{стоять=V,ipf,intr=inpraes,sg,indic,1p}, {дышать=V,ipf,intr=inpraes,sg,indic,1p} {перед=PR=} {раскрывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}, 
-{в=PR=} {туман=S,m,inan=(acc,sg|nom,sg)} {светлеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {окно=S,n,inan=ins,sg}.
+Измучен{измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass} ночью{ночь=S,f,inan=ins,sg} ядовитой{ядовитый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+Бессонницею{бессонница=S,f,inan=ins,sg} и{и=CONJ=} вином{вино=S,n,inan=ins,sg},
+Стою{стоять=V,ipf,intr=inpraes,sg,indic,1p}, дышу{дышать=V,ipf,intr=inpraes,sg,indic,1p} перед{перед=PR=} раскрытым{раскрывать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)}, 
+В{в=PR=} туман{туман=S,m,inan=(acc,sg|nom,sg)} светлеющим{светлеть=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} окном{окно=S,n,inan=ins,sg}.
 
-{и=CONJ=} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {ветка=S,f,inan=gen,pl} 
-{в=PR=} {лиловый=A=sg,brev,n}-{розовый=A=(abl,sg,plen,m|abl,sg,plen,n)} {дым=S,m,inan=(dat,sg|part,sg|loc,sg)}.
-{и=CONJ=} {нет=PART=} {вопрос=S,m,inan=gen,sg}, {нет=ADV,praed=} {ответ=S,m,inan=gen,sg}, 
-{который=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {я=SPRO,sg,1p=nom} {не=PART=} {принимать=V=inpraes,sg,indic,1p,pf}.
+И{и=CONJ=} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} очертанья{очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} веток{ветка=S,f,inan=gen,pl} 
+В{в=PR=} лилово{лиловый=A=sg,brev,n}-розовом{розовый=A=(abl,sg,plen,m|abl,sg,plen,n)} дыму{дым=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+И{и=CONJ=} нет{нет=PART=} вопроса{вопрос=S,m,inan=gen,sg}, нет{нет=ADV,praed=} ответа{ответ=S,m,inan=gen,sg}, 
+Которого{который=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} я{я=SPRO,sg,1p=nom} не{не=PART=} приму{принимать=V=inpraes,sg,indic,1p,pf}.
 
-{отдаваться=V,intr=praet,ger,pf} {нежный=A=(dat,sg,plen,m|dat,sg,plen,n)} {безволие=S,n,inan=dat,sg}, 
-{следить=V,ipf,intr=inpraes,sg,indic,1p} {за=PR=} {вы=SPRO,pl,2p=ins} — {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {головной=A=ins,sg,plen,f} {боль=S,f,inan=ins,sg} 
-{томить=V,ipf,tran=inpraes,sg,indic,3p} {вчерашний=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg}.
+Отдавшись{отдаваться=V,intr=praet,ger,pf} нежному{нежный=A=(dat,sg,plen,m|dat,sg,plen,n)} безволью{безволие=S,n,inan=dat,sg}, 
+Слежу{следить=V,ipf,intr=inpraes,sg,indic,1p} за{за=PR=} вами{вы=SPRO,pl,2p=ins} — облака{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} легкой{легкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} головною{головной=A=ins,sg,plen,f} болью{боль=S,f,inan=ins,sg} 
+Томит{томить=V,ipf,tran=inpraes,sg,indic,3p} вчерашняя{вчерашний=A=nom,sg,plen,f} тоска{тоска=S,f,inan=nom,sg}.

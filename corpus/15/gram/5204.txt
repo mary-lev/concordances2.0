@@ -1,19 +1,19 @@
-{валун=S,m,inan=(acc,pl|nom,pl)}, {и=CONJ=} {равнина=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {заливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {лава=S,f,inan=ins,sg},
-{сонм=S,m,inan=(acc,pl|nom,pl)} {глетчер=S,m,inan=gen,pl}, {брызги=S,pl,inan=(acc|nom)} {горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ключ=S,m,inan=gen,pl}.
-{скала=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {полный=A=(acc,pl,plen,inan|nom,pl,plen)} {грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {величавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{убелять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {холод=S,m,inan=ins,sg} {бледный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луч=S,m,inan=gen,pl}.
+Валуны{валун=S,m,inan=(acc,pl|nom,pl)}, и{и=CONJ=} равнины{равнина=S,f,inan=(acc,pl|gen,sg|nom,pl)}, залитые{заливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} лавой{лава=S,f,inan=ins,sg},
+Сонмы{сонм=S,m,inan=(acc,pl|nom,pl)} глетчеров{глетчер=S,m,inan=gen,pl}, брызги{брызги=S,pl,inan=(acc|nom)} горячих{горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} ключей{ключ=S,m,inan=gen,pl}.
+Скалы{скала=S,f,inan=(acc,pl|gen,sg|nom,pl)}, полные{полный=A=(acc,pl,plen,inan|nom,pl,plen)} грусти{грусть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} величавой{величавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Убеленные{убелять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} холодом{холод=S,m,inan=ins,sg} бледных{бледный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} лучей{луч=S,m,inan=gen,pl}.
 
-{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {чахлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дерево=S,n,inan=gen,pl}, {и=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}... {о=PR=}, {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
-{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {пена=S,f,inan=nom,sg}, {и=CONJ=} {чайка=S,f,anim=(gen,sg|nom,pl)}, {пустыня=S,f,inan=nom,sg} {вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
-{здесь=ADVPRO=} {забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {скальд=S,m,anim=nom,pl}, {на=PR=} {влажный=A=(abl,sg,plen,m|abl,sg,plen,n)} {простор=S,m,inan=abl,sg},
-{петь=V,ipf,tran=praet,pl,indic} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {при=PR=} {свет=S,sg,m,inan=abl} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} чахлых{чахлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} деревьев{дерево=S,n,inan=gen,pl}, и{и=CONJ=} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)}... О{о=PR=}, Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)}!
+Волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, пена{пена=S,f,inan=nom,sg}, и{и=CONJ=} чайки{чайка=S,f,anim=(gen,sg|nom,pl)}, пустыня{пустыня=S,f,inan=nom,sg} воды{вода=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+Здесь{здесь=ADVPRO=} забытые{забывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} скальды{скальд=S,m,anim=nom,pl}, на{на=PR=} влажном{влажный=A=(abl,sg,plen,m|abl,sg,plen,n)} просторе{простор=S,m,inan=abl,sg},
+Пели{петь=V,ipf,tran=praet,pl,indic} песни{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} при{при=PR=} свете{свет=S,sg,m,inan=abl} вечерней{вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{этот=APRO=(nom,pl|acc,pl,inan)} {снорри=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {сигурд=S,persn,m,anim=nom,pl}, {тормодда?=S,m,anim=(gen,sg|nom,pl)}, {гуннар=S,persn,m,anim=nom,pl},
-{с=PR=} {имя=S,n,inan=ins,pl} {железный=A=ins,pl,plen}, {дух=S,m,inan=(acc,pl|nom,pl)} {море=S,n,inan=gen,pl},
-{от=PR=} {ветер=S,m,inan=gen,pl} {получать=V,tran=praet,pl,indic,pf} {суровый=A=(acc,pl,plen,inan|nom,pl,plen)} {чары=S,pl,inan=(acc|nom)}
-{для=PR=} {угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+Эти{этот=APRO=(nom,pl|acc,pl,inan)} Снорри{снорри=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, Сигурды{сигурд=S,persn,m,anim=nom,pl}, Тормодды{тормодда?=S,m,anim=(gen,sg|nom,pl)}, Гуннары{гуннар=S,persn,m,anim=nom,pl},
+С{с=PR=} именами{имя=S,n,inan=ins,pl} железными{железный=A=ins,pl,plen}, духи{дух=S,m,inan=(acc,pl|nom,pl)} морей{море=S,n,inan=gen,pl},
+От{от=PR=} ветров{ветер=S,m,inan=gen,pl} получили{получать=V,tran=praet,pl,indic,pf} суровые{суровый=A=(acc,pl,plen,inan|nom,pl,plen)} чары{чары=S,pl,inan=(acc|nom)}
+Для{для=PR=} угрюмой{угрюмый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} томительной{томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} песни{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
 
-{и=CONJ=} {в=PR=} {строка=S,f,inan=abl,pl} {перепевный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {доныне=ADV=} {храниться=V,ipf,intr=inpraes,sg,indic,3p}
-{ропот=S,m,inan=(acc,sg|nom,sg)} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {и=CONJ=} {гром=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {ворчание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {кричать=V,ipf,intr=inpraes,sg,indic,3p} {альбатрос=S,m,anim=nom,sg}, {длиннокрылый=A=nom,sg,plen,f} {птица=S,f,anim=nom,sg},
-{из=PR=} {воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {из=PR=} {мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {из=PR=} {вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} в{в=PR=} строках{строка=S,f,inan=abl,pl} перепевных{перепевный?=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} доныне{доныне=ADV=} хранится{храниться=V,ipf,intr=inpraes,sg,indic,3p}
+Ропот{ропот=S,m,inan=(acc,sg|nom,sg)} бури{буря=S,f,inan=(acc,pl|gen,sg|nom,pl)}, и{и=CONJ=} гром{гром=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} ворчанье{ворчание=S,n,inan=(abl,sg|acc,sg|nom,sg)} волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} кричит{кричать=V,ipf,intr=inpraes,sg,indic,3p} альбатрос{альбатрос=S,m,anim=nom,sg}, длиннокрылая{длиннокрылый=A=nom,sg,plen,f} птица{птица=S,f,anim=nom,sg},
+Из{из=PR=} воздушной{воздушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, из{из=PR=} мертвой{мертвый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, из{из=PR=} вольной{вольный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} страны{страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

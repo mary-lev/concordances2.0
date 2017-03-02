@@ -1,17 +1,17 @@
-{славить=V,ipf,tran=inpraes,sg,indic,3p} {меч=S,m,inan=(acc,sg|nom,sg)} {багряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {слава=S,f,inan=ins,sg} {роза=S,persn,f,anim=nom,sg};
-{расцветать=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {битва=S,f,inan=(abl,sg|dat,sg)} {правый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роза=S,persn,f,anim=nom,sg}.
+Славит{славить=V,ipf,tran=inpraes,sg,indic,3p} меч{меч=S,m,inan=(acc,sg|nom,sg)} багряной{багряный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} славой{слава=S,f,inan=ins,sg} Роза{роза=S,persn,f,anim=nom,sg};
+Расцветает{расцветать=V,intr=inpraes,sg,indic,3p,ipf} в{в=PR=} битве{битва=S,f,inan=(abl,sg|dat,sg)} правой{правый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Роза{роза=S,persn,f,anim=nom,sg}.
 
-{в=PR=} {тридевятый=A=(abl,sg,plen,m|abl,sg,plen,n)}, {невидимый=A=(abl,sg,plen,m|abl,sg,plen,n)} {царство=S,n,inan=abl,sg}
-{пленять=V,tran=praet,sg,partcp,brev,f,pf,pass} {густой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дубрава=S,f,inan=ins,sg} {роза=S,persn,f,anim=nom,sg}.
+В{в=PR=} тридевятом{тридевятый=A=(abl,sg,plen,m|abl,sg,plen,n)}, невидимом{невидимый=A=(abl,sg,plen,m|abl,sg,plen,n)} царстве{царство=S,n,inan=abl,sg}
+Пленена{пленять=V,tran=praet,sg,partcp,brev,f,pf,pass} густой{густой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дубравой{дубрава=S,f,inan=ins,sg} Роза{роза=S,persn,f,anim=nom,sg}.
 
-{за=PR=} {врата=S,pl,inan=ins} {из=PR=} {литой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {злата=S,persn,f,anim=nom,sg},
-{за=PR=} {шелковый=A=ins,sg,plen,f} {застава=S,f,inan=ins,sg} {роза=S,persn,f,anim=nom,sg}.
+За{за=PR=} вратами{врата=S,pl,inan=ins} из{из=PR=} литого{литой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} злата{злата=S,persn,f,anim=nom,sg},
+За{за=PR=} шелковою{шелковый=A=ins,sg,plen,f} заставой{застава=S,f,inan=ins,sg} Роза{роза=S,persn,f,anim=nom,sg}.
 
-{не=PART=} {в=PR=} {твердыня=S,f,inan=(abl,sg|dat,sg)} {тот=APRO=(nom,pl|acc,pl,inan)} {врата=S,pl,inan=(acc|nom)}, {не=PART=} {в=PR=} {тын=S,m,inan=abl,sg}:
-{нить=S,f,inan=ins,sg} {откать?=V,pf,tran=praet,sg,partcp,brev,f,pass} {лукавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роза=S,persn,f,anim=nom,sg}.
+Не{не=PART=} в{в=PR=} твердыне{твердыня=S,f,inan=(abl,sg|dat,sg)} те{тот=APRO=(nom,pl|acc,pl,inan)} врата{врата=S,pl,inan=(acc|nom)}, не{не=PART=} в{в=PR=} тыне{тын=S,m,inan=abl,sg}:
+Нитью{нить=S,f,inan=ins,sg} откана{откать?=V,pf,tran=praet,sg,partcp,brev,f,pass} лукавой{лукавый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Роза{роза=S,persn,f,anim=nom,sg}.
 
-{в=PR=} {лютый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дебри=S,pl,inan=abl}, {под=PR=} {заклятие=S,n,inan=ins,sg} {крепкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{у=INTJ=} {змея=S,f,anim=(gen,sg|nom,pl)} {тысячеглавый?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {роза=S,persn,f,anim=nom,sg}.
+В{в=PR=} лютых{лютый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дебрях{дебри=S,pl,inan=abl}, под{под=PR=} заклятьем{заклятие=S,n,inan=ins,sg} крепким{крепкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+У{у=INTJ=} Змеи{змея=S,f,anim=(gen,sg|nom,pl)} тысячеглавой{тысячеглавый?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Роза{роза=S,persn,f,anim=nom,sg}.
 
-{знаменовать=V,ipf,tran=pl,imper,2p}, {мученик=S,m,anim=nom,pl}, {латы=S,pl,inan=(acc|nom)};
-{лев=S,persn,m,anim=(acc,sg|gen,sg)} {звать=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {пир=S,m,inan=(acc,sg|nom,sg)} {кровавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {роза=S,persn,f,anim=nom,sg}.
+Знаменуйте{знаменовать=V,ipf,tran=pl,imper,2p}, мученики{мученик=S,m,anim=nom,pl}, латы{латы=S,pl,inan=(acc|nom)};
+Льва{лев=S,persn,m,anim=(acc,sg|gen,sg)} зовет{звать=V,ipf,tran=inpraes,sg,indic,3p} на{на=PR=} пир{пир=S,m,inan=(acc,sg|nom,sg)} кровавый{кровавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Роза{роза=S,persn,f,anim=nom,sg}.

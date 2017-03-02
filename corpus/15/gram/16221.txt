@@ -1,20 +1,20 @@
-{скрипка=S,f,inan=nom,sg} — {всклика?=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {всплеск=S,m,inan=(acc,pl|nom,pl)}, {пламень=S,inan=(acc,sg,n|nom,sg,n)},
-{горло=S,n,inan=(acc,sg|nom,sg)} {птица=S,f,anim=(gen,sg|nom,pl)}, {гуд=S,m,inan=(acc,sg|nom,sg)} {жук=S,m,anim=(acc,sg|gen,sg)},
-{в=PR=} {чаща=S,f,inan=(abl,sg|dat,sg)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}: {ночь=S,f,inan=ins,sg}, {в=PR=} {яма=S,f,inan=(abl,sg|dat,sg)},
-{пересвет?=S,m,inan=(acc,pl|nom,pl)} {светляк=S,m,anim=(acc,sg|gen,sg)}.
-{в=PR=} {мшистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ямина=S,f,inan=(abl,sg|dat,sg)}, {в=PR=} {ложбина=S,f,inan=(abl,sg|dat,sg)},
-{ключ=S,m,inan=(acc,sg|nom,sg)}, {разбрызгивать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {ток=S,m,inan=(acc,sg|nom,sg)},
-{с=PR=} {сердцевина=S,f,inan=ins,sg} {златосинь?=S,f,inan=gen,pl},
-{сказка=S,f,inan=ins,sg} {дышать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {цветок=S,m,inan=(acc,sg|nom,sg)}.
-{полный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ход=S,m,inan=ins,sg} {плясать=V,ipf,tran=inpraes,sg,indic,3p} {танец=S,m,inan=(acc,sg|nom,sg)},
-{поцелуй=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {струна=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {смычок=S,m,inan=abl,sg},
-{сразу=ADV=} {вспыхивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {румянец=S,m,inan=(acc,sg|nom,sg)}
-{на=PR=} {застенчивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {щека=S,f,inan=(abl,sg|dat,sg)}.
-{кто-то=SPRO,sg,m,anim=nom} {вспомнить=V,pf,tran=praet,sg,indic,m} {что-то=SPRO,sg,n,inan=(acc|nom)} {где-то=ADVPRO=},
-{сам=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {себя=SPRO=(acc|gen)} {искать=V,ipf,tran=inpraes,ger},
-{в=PR=} {яркий=A=(abl,sg,plen,m|abl,sg,plen,n)} {выступ=S,m,inan=abl,sg} {просвет=S,m,inan=gen,sg}
-{биться=V,ipf,intr=inpraes,sg,indic,3p} {лист=S,m,inan=(acc,sg|nom,sg)} {о=PR=} {лист=S,m,inan=(acc,sg|nom,sg)} {плющ=S,m,inan=gen,sg}.
-{камень=S,m,inan=gen,sg} {лунный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {окраска=S,f,inan=nom,sg} —
-{в=PR=} {глубь=S,f,inan=(acc,sg|nom,sg)} {себя=SPRO=(acc|gen)} {входить=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} — {слово=S,n,inan=gen,pl},
-{паутинный=A=nom,sg,plen,f} {завязка=S,f,inan=nom,sg}
-{неразвязывать?=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {узел=S,m,inan=gen,pl}.
+Скрипка{скрипка=S,f,inan=nom,sg} — всклики{всклика?=S,f,inan=(acc,pl|gen,sg|nom,pl)}, всплески{всплеск=S,m,inan=(acc,pl|nom,pl)}, пламя{пламень=S,inan=(acc,sg,n|nom,sg,n)},
+Горло{горло=S,n,inan=(acc,sg|nom,sg)} птицы{птица=S,f,anim=(gen,sg|nom,pl)}, гуд{гуд=S,m,inan=(acc,sg|nom,sg)} жука{жук=S,m,anim=(acc,sg|gen,sg)},
+В{в=PR=} чаще{чаща=S,f,inan=(abl,sg|dat,sg)} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}: ночью{ночь=S,f,inan=ins,sg}, в{в=PR=} яме{яма=S,f,inan=(abl,sg|dat,sg)},
+Пересветы{пересвет?=S,m,inan=(acc,pl|nom,pl)} светляка{светляк=S,m,anim=(acc,sg|gen,sg)}.
+В{в=PR=} мшистой{мшистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ямине{ямина=S,f,inan=(abl,sg|dat,sg)}, в{в=PR=} ложбине{ложбина=S,f,inan=(abl,sg|dat,sg)},
+Ключ{ключ=S,m,inan=(acc,sg|nom,sg)}, разбрызгавший{разбрызгивать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} ток{ток=S,m,inan=(acc,sg|nom,sg)},
+С{с=PR=} сердцевиной{сердцевина=S,f,inan=ins,sg} златосиней{златосинь?=S,f,inan=gen,pl},
+Сказкой{сказка=S,f,inan=ins,sg} дышащий{дышать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} цветок{цветок=S,m,inan=(acc,sg|nom,sg)}.
+Полным{полный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} ходом{ход=S,m,inan=ins,sg} пляшет{плясать=V,ipf,tran=inpraes,sg,indic,3p} танец{танец=S,m,inan=(acc,sg|nom,sg)},
+Поцелуй{поцелуй=S,m,inan=(acc,sg|nom,sg)} к{к=PR=} струне{струна=S,f,inan=(abl,sg|dat,sg)} в{в=PR=} смычке{смычок=S,m,inan=abl,sg},
+Сразу{сразу=ADV=} вспыхнувший{вспыхивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} румянец{румянец=S,m,inan=(acc,sg|nom,sg)}
+На{на=PR=} застенчивой{застенчивый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} щеке{щека=S,f,inan=(abl,sg|dat,sg)}.
+Кто-то{кто-то=SPRO,sg,m,anim=nom} вспомнил{вспомнить=V,pf,tran=praet,sg,indic,m} что-то{что-то=SPRO,sg,n,inan=(acc|nom)} где-то{где-то=ADVPRO=},
+Самого{сам=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} себя{себя=SPRO=(acc|gen)} ища{искать=V,ipf,tran=inpraes,ger},
+В{в=PR=} ярком{яркий=A=(abl,sg,plen,m|abl,sg,plen,n)} выступе{выступ=S,m,inan=abl,sg} просвета{просвет=S,m,inan=gen,sg}
+Бьется{биться=V,ipf,intr=inpraes,sg,indic,3p} лист{лист=S,m,inan=(acc,sg|nom,sg)} о{о=PR=} лист{лист=S,m,inan=(acc,sg|nom,sg)} плюща{плющ=S,m,inan=gen,sg}.
+Камня{камень=S,m,inan=gen,sg} лунного{лунный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} окраска{окраска=S,f,inan=nom,sg} —
+В{в=PR=} глубь{глубь=S,f,inan=(acc,sg|nom,sg)} себя{себя=SPRO=(acc|gen)} вошедших{входить=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} — слов{слово=S,n,inan=gen,pl},
+Паутинная{паутинный=A=nom,sg,plen,f} завязка{завязка=S,f,inan=nom,sg}
+Неразвязанных{неразвязывать?=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} узлов{узел=S,m,inan=gen,pl}.

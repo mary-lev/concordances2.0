@@ -1,14 +1,14 @@
-{ни=CONJ=} {зверь=S,m,anim=(acc,pl|gen,pl)}, {ни=CONJ=} {змей=S,m,anim=nom,sg}, {ни=CONJ=} {птица=S,f,anim=(acc,pl|gen,pl)},
-{ни=PART=} {манящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {растение=S,n,inan=gen,pl}.
-{прах=S,m,inan=(acc,sg|nom,sg)} {песчаный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {без=PR=} {граница=S,f,inan=gen,pl},
-{облачко=S,n,inan=gen,pl} {случайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Ни{ни=CONJ=} зверей{зверь=S,m,anim=(acc,pl|gen,pl)}, ни{ни=CONJ=} змей{змей=S,m,anim=nom,sg}, ни{ни=CONJ=} птиц{птица=S,f,anim=(acc,pl|gen,pl)},
+Ни{ни=PART=} манящих{манящий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} глаз{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} растений{растение=S,n,inan=gen,pl}.
+Прах{прах=S,m,inan=(acc,sg|nom,sg)} песчаный{песчаный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} без{без=PR=} границ{граница=S,f,inan=gen,pl},
+Облачков{облачко=S,n,inan=gen,pl} случайных{случайный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
 
-{и=CONJ=} {ползучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шелест=S,m,inan=(acc,sg|nom,sg)}-{шум=S,m,inan=(acc,sg|nom,sg)}
-{угрожать=V,ipf,intr=inpraes,sg,indic,3p}: — {здесь=ADVPRO=} {могила=S,f,inan=nom,sg}.
-{то=CONJ=} — {воронка=S,f,inan=ins,sg} {вставать=V,intr=praet,sg,indic,m,pf} {самум=S,m,inan=(acc,sg|nom,sg)},
-{то=SPRO,sg,n,inan=(acc|nom)} — {бесовский=A=(acc,sg,plen,n|nom,sg,plen,n)} {сверлило=S,m,anim=nom,sg}.
+И{и=CONJ=} ползучий{ползучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} шелест{шелест=S,m,inan=(acc,sg|nom,sg)}-шум{шум=S,m,inan=(acc,sg|nom,sg)}
+Угрожает{угрожать=V,ipf,intr=inpraes,sg,indic,3p}: — Здесь{здесь=ADVPRO=} могила{могила=S,f,inan=nom,sg}.
+То{то=CONJ=} — воронкой{воронка=S,f,inan=ins,sg} встал{вставать=V,intr=praet,sg,indic,m,pf} самум{самум=S,m,inan=(acc,sg|nom,sg)},
+То{то=SPRO,sg,n,inan=(acc|nom)} — бесовское{бесовский=A=(acc,sg,plen,n|nom,sg,plen,n)} сверлило{сверлило=S,m,anim=nom,sg}.
 
-{лишь=PART=} {верблюжий=A,plen=(nom,pl|acc,pl,inan)} {череп=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{знак=S,m,inan=(acc,sg|nom,sg)} {томление=S,n,inan=gen,pl} {караван=S,m,inan=gen,sg},
-{говорить=V,ipf,tran=inpraes,pl,indic,3p}, {что=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {тропа=S,f,inan=nom,sg},
-{выход=S,m,inan=(acc,sg|nom,sg)} {к=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {из=PR=} {дурман=S,m,inan=gen,sg}.
+Лишь{лишь=PART=} верблюжьи{верблюжий=A,plen=(nom,pl|acc,pl,inan)} черепа{череп=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+Знак{знак=S,m,inan=(acc,sg|nom,sg)} томлений{томление=S,n,inan=gen,pl} каравана{караван=S,m,inan=gen,sg},
+Говорят{говорить=V,ipf,tran=inpraes,pl,indic,3p}, что{что=CONJ=} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} тропа{тропа=S,f,inan=nom,sg},
+Выход{выход=S,m,inan=(acc,sg|nom,sg)} к{к=PR=} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} из{из=PR=} дурмана{дурман=S,m,inan=gen,sg}.

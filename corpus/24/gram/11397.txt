@@ -1,24 +1,24 @@
-{робкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {палец=S,m,inan=dat,pl} {струна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лада=S,f,inan=nom,sg}
-{непослушный=A=pl,brev};
-{а=CONJ=} {душа=S,f,inan=nom,sg} {подобный=A=sg,brev,f} {чаша=S,f,inan=(abl,sg|dat,sg)},
-{полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {песня=S,f,inan=gen,pl}...
-{что=CONJ=} {небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {странница=S,f,anim=(acc,pl|gen,pl)} {красивый=A=comp},
-{легкое=S,n,inan=(abl,pl|gen,pl)} {тучка=S,f,inan=gen,pl}, {божий=A,plen=nom,sg,f} {стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{кроткий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {агницы?=S,pl,inan=gen}? {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {воздушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{край=S,m,inan=(acc,sg|nom,sg)} {чудесный=A=sg,brev,m}.
+Робким{робкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} пальцам{палец=S,m,inan=dat,pl} струны{струна=S,f,inan=(acc,pl|gen,sg|nom,pl)} лада{лада=S,f,inan=nom,sg}
+Непослушны{непослушный=A=pl,brev};
+А{а=CONJ=} душа{душа=S,f,inan=nom,sg} подобна{подобный=A=sg,brev,f} чаше{чаша=S,f,inan=(abl,sg|dat,sg)},
+Полной{полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} песен{песня=S,f,inan=gen,pl}...
+Что{что=CONJ=} небесных{небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} странниц{странница=S,f,anim=(acc,pl|gen,pl)} краше{красивый=A=comp},
+Легких{легкое=S,n,inan=(abl,pl|gen,pl)} тучек{тучка=S,f,inan=gen,pl}, Божья{божий=A,plen=nom,sg,f} стада{стадо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Кротких{кроткий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} агниц{агницы?=S,pl,inan=gen}? Их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} воздушный{воздушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Край{край=S,m,inan=(acc,sg|nom,sg)} чудесен{чудесный=A=sg,brev,m}.
 
-{но=CONJ=} {не=PART=} {вечно=ADV=} {они=SPRO,pl=dat} {во=PR=} {сон=S,m,inan=abl,sg}
-{серебриться=V,ipf,intr=inf} {при=PR=} {луна=S,f,inan=(abl,sg|dat,sg)},
-{красить=V,ipf,tran=inf} {заря=S,f,inan=(acc,pl|nom,pl)} {изумруд=S,m,inan=ins,pl}
-{и=CONJ=} {рубина=S,persn,f,anim=ins,pl} {венец=S,m,inan=gen,sg}:
-{час=S,m,inan=(acc,sg|nom,sg)} {прийти=V,pf,intr=inpraes,sg,indic,3p} {скопиться=V,pf,intr=inf} {груда=S,f,inan=ins,pl}
-{шлак=S,m,inan=gen,sg}, {пепел=S,m,inan=gen,sg} {и=CONJ=} {свинец=S,m,inan=gen,sg}.
+Но{но=CONJ=} не{не=PART=} вечно{вечно=ADV=} им{они=SPRO,pl=dat} во{во=PR=} сне{сон=S,m,inan=abl,sg}
+Серебриться{серебриться=V,ipf,intr=inf} при{при=PR=} луне{луна=S,f,inan=(abl,sg|dat,sg)},
+Красить{красить=V,ipf,tran=inf} зори{заря=S,f,inan=(acc,pl|nom,pl)} изумрудами{изумруд=S,m,inan=ins,pl}
+И{и=CONJ=} рубинами{рубина=S,persn,f,anim=ins,pl} венца{венец=S,m,inan=gen,sg}:
+Час{час=S,m,inan=(acc,sg|nom,sg)} придет{прийти=V,pf,intr=inpraes,sg,indic,3p} скопиться{скопиться=V,pf,intr=inf} грудами{груда=S,f,inan=ins,pl}
+Шлака{шлак=S,m,inan=gen,sg}, пепла{пепел=S,m,inan=gen,sg} и{и=CONJ=} свинца{свинец=S,m,inan=gen,sg}.
 
-{и=CONJ=} {полный=A=sg,brev,f} {до=PR=} {край=S,m,inan=(acc,pl|gen,sg|nom,pl)} {чаша=S,f,inan=nom,sg} {становиться=V,intr=inpraes,sg,indic,3p,pf}
-{крупный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слезать=V,intr=praet,sg,indic,m,pf} {и=CONJ=} {зрелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {песня=S,f,inan=gen,pl};
-{и=CONJ=} {когда=CONJ=} {весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цвет=S,m,inan=(acc,sg|nom,sg)} {увянуть=V,pf,intr=inpraes,sg,indic,3p},
-{быть=V,intr=inpraes,sg,indic,3p} {колос=S,m,inan=(acc,sg|nom,sg)} {лето=S,sg,n,inan=gen} {полновесный=A=sg,brev,m}.
-{давать=V,tran=praet,sg,partcp,brev,m,pf,pass} {закон=S,m,inan=(acc,sg|nom,sg)} {художник=S,m,anim=dat,sg} {предельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}:
-{только=PART=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {из=PR=} {гимн=S,m,inan=gen,pl} {долговечный=A=sg,brev,m},
-{в=PR=} {кой=APRO=(abl,sg,m|abl,sg,n)} {сон=S,m,inan=(acc,sg|nom,sg)} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {колыбельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{обескрыливать=V,tran=praet,sg,partcp,brev,m,pf,pass} {и=CONJ=} {вочеловечивать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+И{и=CONJ=} полна{полный=A=sg,brev,f} до{до=PR=} края{край=S,m,inan=(acc,pl|gen,sg|nom,pl)} чаша{чаша=S,f,inan=nom,sg} станет{становиться=V,intr=inpraes,sg,indic,3p,pf}
+Крупных{крупный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} слез{слезать=V,intr=praet,sg,indic,m,pf} и{и=CONJ=} зрелых{зрелый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} песен{песня=S,f,inan=gen,pl};
+И{и=CONJ=} когда{когда=CONJ=} весенний{весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} цвет{цвет=S,m,inan=(acc,sg|nom,sg)} увянет{увянуть=V,pf,intr=inpraes,sg,indic,3p},
+Будет{быть=V,intr=inpraes,sg,indic,3p} колос{колос=S,m,inan=(acc,sg|nom,sg)} лета{лето=S,sg,n,inan=gen} полновесен{полновесный=A=sg,brev,m}.
+Дан{давать=V,tran=praet,sg,partcp,brev,m,pf,pass} закон{закон=S,m,inan=(acc,sg|nom,sg)} художнику{художник=S,m,anim=dat,sg} предельный{предельный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}:
+Только{только=PART=} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} из{из=PR=} гимнов{гимн=S,m,inan=gen,pl} долговечен{долговечный=A=sg,brev,m},
+В{в=PR=} коем{кой=APRO=(abl,sg,m|abl,sg,n)} сон{сон=S,m,inan=(acc,sg|nom,sg)} лазури{лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} колыбельной{колыбельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Обескрылен{обескрыливать=V,tran=praet,sg,partcp,brev,m,pf,pass} и{и=CONJ=} вочеловечен{вочеловечивать=V,tran=praet,sg,partcp,brev,m,pf,pass}.

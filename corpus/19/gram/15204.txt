@@ -1,24 +1,24 @@
-{где=ADVPRO=} {грустить=V,ipf,intr=inpraes,pl,indic,3p} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {дремливый?=A=(acc,pl,plen,inan|nom,pl,plen)},
-{изнурять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {мороз=S,m,inan=ins,pl},
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {долина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {молчаливый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{зачаровывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {гроза=S,f,inan=ins,pl}.
+Где{где=ADVPRO=} грустят{грустить=V,ipf,intr=inpraes,pl,indic,3p} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} дремливые{дремливый?=A=(acc,pl,plen,inan|nom,pl,plen)},
+Изнуренные{изнурять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} морозами{мороз=S,m,inan=ins,pl},
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} долины{долина=S,f,inan=(acc,pl|gen,sg|nom,pl)} молчаливые{молчаливый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Зачарованные{зачаровывать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} грозами{гроза=S,f,inan=ins,pl}.
 
-{как=CONJ=} {чуждый=A=sg,brev,f} {непосвященный=S,m,anim=dat,sg},
-{в=PR=} {сон=S,m,inan=(acc,pl|nom,pl)} {мирской=A,plen=(nom,pl|acc,pl,inan)} {погружать=V=(praet,dat,sg,partcp,plen,m,pf,pass,tran|praet,dat,sg,partcp,plen,n,pf,pass,tran)},
-{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {краса=S,f,inan=nom,sg} {необычайный=A=nom,sg,plen,f},
-{неслучайный=A=nom,sg,plen,f} {и=CONJ=} {тайный=A=nom,sg,plen,f}!
+Как{как=CONJ=} чужда{чуждый=A=sg,brev,f} непосвященному{непосвященный=S,m,anim=dat,sg},
+В{в=PR=} сны{сон=S,m,inan=(acc,pl|nom,pl)} мирские{мирской=A,plen=(nom,pl|acc,pl,inan)} погруженному{погружать=V=(praet,dat,sg,partcp,plen,m,pf,pass,tran|praet,dat,sg,partcp,plen,n,pf,pass,tran)},
+Их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} краса{краса=S,f,inan=nom,sg} необычайная{необычайный=A=nom,sg,plen,f},
+Неслучайная{неслучайный=A=nom,sg,plen,f} и{и=CONJ=} тайная{тайный=A=nom,sg,plen,f}!
 
-{смотреть=V,ipf,tran=inpraes,pl,indic,3p} {ива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {суковатый=A=(acc,pl,plen,inan|nom,pl,plen)}
-{на=PR=} {пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {берег=S,m,inan=(acc,sg|nom,sg)} {илистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
-{вот=PART=} {кувшинка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {сон=S,m,inan=ins,sg} {объять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
-{над=PR=} {река=S,f,inan=ins,sg} {немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {извилистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Смотрят{смотреть=V,ipf,tran=inpraes,pl,indic,3p} ивы{ива=S,f,inan=(acc,pl|gen,sg|nom,pl)} суковатые{суковатый=A=(acc,pl,plen,inan|nom,pl,plen)}
+На{на=PR=} пустынный{пустынный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} берег{берег=S,m,inan=(acc,sg|nom,sg)} илистый{илистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+Вот{вот=PART=} кувшинки{кувшинка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, сном{сон=S,m,inan=ins,sg} объятые{объять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
+Над{над=PR=} рекой{река=S,f,inan=ins,sg} немой{немой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, извилистой{извилистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{вот=PART=} {березка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {захирелый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{над=PR=} {болотный=A=ins,sg,plen,f} {равнина=S,f,inan=ins,sg}.
-{там=ADVPRO=}, {вдали=ADV=}, {стена=S,f,inan=ins,sg} {несмелый=A=ins,sg,plen,f}
-{бор=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {раздумье=S,n,inan=ins,sg} {и=CONJ=} {кручина=S,f,inan=ins,sg}.
+Вот{вот=PART=} березки{березка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, захирелые{захирелый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Над{над=PR=} болотною{болотный=A=ins,sg,plen,f} равниною{равнина=S,f,inan=ins,sg}.
+Там{там=ADVPRO=}, вдали{вдали=ADV=}, стеной{стена=S,f,inan=ins,sg} несмелою{несмелый=A=ins,sg,plen,f}
+Бор{бор=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} раздумьем{раздумье=S,n,inan=ins,sg} и{и=CONJ=} кручиною{кручина=S,f,inan=ins,sg}.
 
-{как=CONJ=} {чуждый=A=sg,brev,f} {непосвященный=S,m,anim=dat,sg},
-{в=PR=} {сон=S,m,inan=(acc,pl|nom,pl)} {мирской=A,plen=(nom,pl|acc,pl,inan)} {погружать=V=(praet,dat,sg,partcp,plen,m,pf,pass,tran|praet,dat,sg,partcp,plen,n,pf,pass,tran)},
-{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {краса=S,f,inan=nom,sg} {необычайный=A=nom,sg,plen,f},
-{неслучайный=A=nom,sg,plen,f} {и=CONJ=} {тайный=A=nom,sg,plen,f}!
+Как{как=CONJ=} чужда{чуждый=A=sg,brev,f} непосвященному{непосвященный=S,m,anim=dat,sg},
+В{в=PR=} сны{сон=S,m,inan=(acc,pl|nom,pl)} мирские{мирской=A,plen=(nom,pl|acc,pl,inan)} погруженному{погружать=V=(praet,dat,sg,partcp,plen,m,pf,pass,tran|praet,dat,sg,partcp,plen,n,pf,pass,tran)},
+Их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} краса{краса=S,f,inan=nom,sg} необычайная{необычайный=A=nom,sg,plen,f},
+Неслучайная{неслучайный=A=nom,sg,plen,f} и{и=CONJ=} тайная{тайный=A=nom,sg,plen,f}!

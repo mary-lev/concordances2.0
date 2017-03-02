@@ -1,14 +1,14 @@
-{камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {давить=V,ipf,tran=inpraes,sg,indic,3p} {дух=S,m,inan=(acc,sg|nom,sg)},
-	{крыло=S,n,inan=(acc,pl|nom,pl)} {белый=A=(acc,pl,plen,inan|nom,pl,plen)}, {шелестеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}, 
-	{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {легкое=S,n,inan=(acc,pl|nom,pl)} {и=CONJ=} {творить=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}... 
-{давить=V,ipf,tran=inpraes,sg,indic,3p} {камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {дух=S,m,inan=(acc,sg|nom,sg)}.
+Камень{камень=S,m,inan=(acc,sg|nom,sg)} тела{тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} давит{давить=V,ipf,tran=inpraes,sg,indic,3p} дух{дух=S,m,inan=(acc,sg|nom,sg)},
+	Крылья{крыло=S,n,inan=(acc,pl|nom,pl)} белые{белый=A=(acc,pl,plen,inan|nom,pl,plen)}, шелестящие{шелестеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}, 
+	Думы{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} легкие{легкое=S,n,inan=(acc,pl|nom,pl)} и{и=CONJ=} творящие{творить=V,ipf,tran=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)}... 
+Давит{давить=V,ipf,tran=inpraes,sg,indic,3p} камень{камень=S,m,inan=(acc,sg|nom,sg)} тела{тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — дух{дух=S,m,inan=(acc,sg|nom,sg)}.
 
-{камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {душить=V,ipf,tran=inpraes,sg,indic,3p} {плоть=S,f,inan=(acc,sg|nom,sg)},
-	{радость=S,f,inan=(acc,sg|nom,sg)} {детский=A=acc,sg,plen,f}, {с=PR=} {тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {свивать=V=praet,acc,sg,partcp,plen,f,pf,pass}, 
-	{ласка=S,f,inan=acc,sg} {быстрый=A=acc,sg,plen,f} {и=CONJ=} {открывать=V=praet,acc,sg,partcp,plen,f,pf,pass}... 
-{душить=V,ipf,tran=inpraes,sg,indic,3p} {камень=S,m,inan=(acc,sg|nom,sg)} {тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {плоть=S,f,inan=(acc,sg|nom,sg)}.
+Камень{камень=S,m,inan=(acc,sg|nom,sg)} тела{тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} душит{душить=V,ipf,tran=inpraes,sg,indic,3p} плоть{плоть=S,f,inan=(acc,sg|nom,sg)},
+	Радость{радость=S,f,inan=(acc,sg|nom,sg)} детскую{детский=A=acc,sg,plen,f}, с{с=PR=} тайной{тайный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} свитую{свивать=V=praet,acc,sg,partcp,plen,f,pf,pass}, 
+	Ласку{ласка=S,f,inan=acc,sg} быструю{быстрый=A=acc,sg,plen,f} и{и=CONJ=} открытую{открывать=V=praet,acc,sg,partcp,plen,f,pf,pass}... 
+Душит{душить=V,ipf,tran=inpraes,sg,indic,3p} камень{камень=S,m,inan=(acc,sg|nom,sg)} тела{тело=S,n,inan=(acc,pl|gen,sg|nom,pl)} — плоть{плоть=S,f,inan=(acc,sg|nom,sg)}.
 
-{камень=S,m,inan=dat,sg} {к=PR=} {камень=S,m,inan=dat,sg} {нет=ADV,praed=} {путь=S,m,inan=gen,pl}.
-	{мы=SPRO,pl,1p=nom} {в=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {земля=S,f,inan=(abl,sg|dat,sg)} — {погребать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, 
-	{и=CONJ=} {себя=SPRO=ins} {в=PR=} {себя=SPRO=(abl|dat)} — {разделять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}... 
-{мы=SPRO,pl,1p=dat} {друг=S,m,anim=nom,sg} {к=PR=} {друг=S,m,anim=dat,sg} {нет=ADV,praed=} {путь=S,m,inan=gen,pl}.
+Камню{камень=S,m,inan=dat,sg} к{к=PR=} камню{камень=S,m,inan=dat,sg} нет{нет=ADV,praed=} путей{путь=S,m,inan=gen,pl}.
+	Мы{мы=SPRO,pl,1p=nom} в{в=PR=} одной{один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} земле{земля=S,f,inan=(abl,sg|dat,sg)} — погребенные{погребать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}, 
+	И{и=CONJ=} собой{себя=SPRO=ins} в{в=PR=} себе{себя=SPRO=(abl|dat)} — разделенные{разделять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}... 
+Нам{мы=SPRO,pl,1p=dat} друг{друг=S,m,anim=nom,sg} к{к=PR=} другу{друг=S,m,anim=dat,sg} нет{нет=ADV,praed=} путей{путь=S,m,inan=gen,pl}.

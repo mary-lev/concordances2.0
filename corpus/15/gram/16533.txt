@@ -1,17 +1,17 @@
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {очертание=S,n,inan=abl,sg} {раковина=S,f,inan=gen,pl} {морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)}
-{извив=S,m,inan=(acc,sg|nom,sg)} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {океан=S,m,inan=gen,sg}.
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {отсвет=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {огонь=S,m,inan=gen,pl} {заря=S,f,inan=gen,sg}, {что=CONJ=} {рано=ADV=}
-{и=CONJ=} {поздно=ADV=} {лить=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {волна=S,f,inan=acc,sg} {жемчужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стих=S,m,inan=(acc,sg|nom,sg)}.
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} в{в=PR=} очертаньи{очертание=S,n,inan=abl,sg} раковин{раковина=S,f,inan=gen,pl} морских{морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)}
+Извив{извив=S,m,inan=(acc,sg|nom,sg)} волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)} лазурной{лазурный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} океана{океан=S,m,inan=gen,sg}.
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} отсвет{отсвет=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} огней{огонь=S,m,inan=gen,pl} зари{заря=S,f,inan=gen,sg}, что{что=CONJ=} рано{рано=ADV=}
+И{и=CONJ=} поздно{поздно=ADV=} льет{лить=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} волну{волна=S,f,inan=acc,sg} жемчужный{жемчужный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} стих{стих=S,m,inan=(acc,sg|nom,sg)}.
 
-{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {и=CONJ=} {лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}, {что=CONJ=} {нежно=ADV=} {тихий=A=sg,brev,m}
-{и=INTJ=} {чародейный=A=sg,brev,m} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)}, {когда=CONJ=} {светлана=S,persn,f,anim=nom,sg}
-{восходить=V,intr=inf,ipf} {розоватый=A=sg,brev,f} {и=CONJ=} {медвяный=A=sg,brev,f},
-{и=CONJ=} {ворожить=V,ipf,intr=inpraes,sg,indic,3p} {течение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {чары=S,pl,inan=gen} {густой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+В{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} и{и=CONJ=} лунный{лунный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свет{свет=S,sg,m,inan=(acc|nom)}, что{что=CONJ=} нежно{нежно=ADV=} тих{тихий=A=sg,brev,m}
+И{и=INTJ=} чародеен{чародейный=A=sg,brev,m} в{в=PR=} час{час=S,m,inan=(acc,sg|nom,sg)}, когда{когда=CONJ=} Светлана{светлана=S,persn,f,anim=nom,sg}
+Восходить{восходить=V,intr=inf,ipf} розовата{розоватый=A=sg,brev,f} и{и=CONJ=} медвяна{медвяный=A=sg,brev,f},
+И{и=CONJ=} ворожит{ворожить=V,ipf,intr=inpraes,sg,indic,3p} теченье{течение=S,n,inan=(abl,sg|acc,sg|nom,sg)} чар{чары=S,pl,inan=gen} густых{густой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
 
-{глубинный=A=(acc,pl,plen,inan|nom,pl,plen)} — {приемлить=V,ipf=inpraes,pl,indic,3p} {трепетание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{покорно=ADV=} {подчиняться=V,intr=inpraes,ger,ipf} {без=PR=} {конец=S,m,inan=gen,sg}
-{и=CONJ=} {раскрывать=V=inpraes,ger,ipf,tran} {створка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {как=CONJ=} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Глубинные{глубинный=A=(acc,pl,plen,inan|nom,pl,plen)} — приемлют{приемлить=V,ipf=inpraes,pl,indic,3p} трепетанья{трепетание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Покорно{покорно=ADV=} подчиняясь{подчиняться=V,intr=inpraes,ger,ipf} без{без=PR=} конца{конец=S,m,inan=gen,sg}
+И{и=CONJ=} раскрывая{раскрывать=V=inpraes,ger,ipf,tran} створки{створка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, как{как=CONJ=} сердца{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{а=CONJ=} {в=PR=} {тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}, {что=CONJ=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {открытый=A=comp} {пить=V,ipf,tran=inpraes,sg,indic,3p} {влияние=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{слиять?=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {поцелуй=S,m,inan=(acc,sg|nom,sg)} {созвучный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сила=S,f,inan=gen,pl}
-{себя=SPRO=(acc|gen)}, {как=CONJ=} {греза=S,f,inan=acc,sg}, {жемчуг=S,m,inan=ins,sg} {являть=V,tran=praet,sg,indic,m,pf}.
+А{а=CONJ=} в{в=PR=} той{тот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}, что{что=CONJ=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} открытей{открытый=A=comp} пьет{пить=V,ipf,tran=inpraes,sg,indic,3p} влиянье{влияние=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Слиянный{слиять?=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} поцелуй{поцелуй=S,m,inan=(acc,sg|nom,sg)} созвучных{созвучный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} сил{сила=S,f,inan=gen,pl}
+Себя{себя=SPRO=(acc|gen)}, как{как=CONJ=} грезу{греза=S,f,inan=acc,sg}, жемчугом{жемчуг=S,m,inan=ins,sg} явил{являть=V,tran=praet,sg,indic,m,pf}.

@@ -1,34 +1,34 @@
-{заснуть=V,pf,intr=praet,sg,indic,m} {чапультепек?=S,m,inan=(acc,sg|nom,sg)}, {роскошный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {парк=S,m,inan=(acc,sg|nom,sg)} {ацтек=S,m,anim=(acc,pl|gen,pl)},
-{растаптывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {в=PR=} {борьба=S,sg,f,inan=(abl|dat)} {за=PR=} {красный=A=(acc,pl,plen,inan|nom,pl,plen)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
-{затихать=V,intr=praet,sg,indic,m,pf} {напрасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шум=S,m,inan=(acc,sg|nom,sg)} {повторный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {человек?=S,m,anim=(acc,pl|gen,pl)}.
-{созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {дружный=A=(acc,pl,plen,inan|nom,pl,plen)} {сиять=V,ipf,intr=inpraes,pl,indic,3p} {с=PR=} {высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Заснул{заснуть=V,pf,intr=praet,sg,indic,m} Чапультепек{чапультепек?=S,m,inan=(acc,sg|nom,sg)}, роскошный{роскошный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} парк{парк=S,m,inan=(acc,sg|nom,sg)} Ацтеков{ацтек=S,m,anim=(acc,pl|gen,pl)},
+Растоптанных{растаптывать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} в{в=PR=} борьбе{борьба=S,sg,f,inan=(abl|dat)} за{за=PR=} красные{красный=A=(acc,pl,plen,inan|nom,pl,plen)} цветы{цветок=S,m,inan=(acc,pl|nom,pl)}.
+Затих{затихать=V,intr=praet,sg,indic,m,pf} напрасный{напрасный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} шум{шум=S,m,inan=(acc,sg|nom,sg)} повторных{повторный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} человеков{человек?=S,m,anim=(acc,pl|gen,pl)}.
+Созвездья{созвездие=S,n,inan=(acc,pl|gen,sg|nom,pl)} дружные{дружный=A=(acc,pl,plen,inan|nom,pl,plen)} сияют{сиять=V,ipf,intr=inpraes,pl,indic,3p} с{с=PR=} высоты{высота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {ты=SPRO,sg,2p=nom} {думать=V,ipf,intr=inpraes,sg,indic,2p}, {печальница=S,f,anim=nom,sg} {немой=A=nom,sg,plen,f},
-{ты=SPRO,sg,2p=nom}, {переплывать=V,tran=praet,nom,sg,partcp,plen,f,pf,act} {атлантика=S,geo,f,inan=acc,sg} {со=PR=} {я=SPRO,sg,1p=ins},
-{ты=SPRO,sg,2p=nom}, {встречать=V,tran=praet,nom,sg,partcp,plen,f,pf,act} {день=S,m,inan=(acc,pl|nom,pl)} {единственный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {май=S,sg,m,inan=gen},
-{как=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {луч=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} — {ласкать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {волна=S,f,inan=ins,sg}.
+О{о=PR=} чем{что=SPRO,sg,n,inan=(abl|ins)} ты{ты=SPRO,sg,2p=nom} думаешь{думать=V,ipf,intr=inpraes,sg,indic,2p}, печальница{печальница=S,f,anim=nom,sg} немая{немой=A=nom,sg,plen,f},
+Ты{ты=SPRO,sg,2p=nom}, переплывшая{переплывать=V,tran=praet,nom,sg,partcp,plen,f,pf,act} Атлантику{атлантика=S,geo,f,inan=acc,sg} со{со=PR=} мной{я=SPRO,sg,1p=ins},
+Ты{ты=SPRO,sg,2p=nom}, встретившая{встречать=V,tran=praet,nom,sg,partcp,plen,f,pf,act} дни{день=S,m,inan=(acc,pl|nom,pl)} единственного{единственный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} Мая{май=S,sg,m,inan=gen},
+Как{как=CONJ=} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} луч{луч=S,m,inan=(acc,sg|nom,sg)} Луны{луна=S,f,inan=(acc,pl|gen,sg|nom,pl)} — ласкающей{ласкать=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} волной{волна=S,f,inan=ins,sg}.
 
-{мы=SPRO,pl,1p=nom} {здесь=ADVPRO=} {с=PR=} {ты=SPRO,sg,2p=ins} {один=APRO=(nom,pl|acc,pl,inan)}, {мы=SPRO,pl,1p=dat} {близко=ADV=comp} {тень=S,f,inan=(acc,sg|nom,sg)} {кортес=S,famn,m,anim=(acc,sg|gen,sg)},
-{чем=CONJ=} {призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {друг=S,m,anim=(acc,pl|gen,pl)} {в=PR=} {туманность=S,f,inan=abl,pl} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{к=PR=} {мы=SPRO,pl,1p=dat} {зов=S,m,inan=(acc,pl|nom,pl)} {не=PART=} {доходить=V,intr=inpraes,pl,indic,3p,pf} {из=PR=} {северный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{все=SPRO,pl=(acc|nom)}, {мы=SPRO,pl,1p=dat} {привычный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {растаивать=V,intr=praet,sg,indic,n,pf} {вдали=ADV=}.
+Мы{мы=SPRO,pl,1p=nom} здесь{здесь=ADVPRO=} с{с=PR=} тобой{ты=SPRO,sg,2p=ins} одни{один=APRO=(nom,pl|acc,pl,inan)}, нам{мы=SPRO,pl,1p=dat} ближе{близко=ADV=comp} тень{тень=S,f,inan=(acc,sg|nom,sg)} Кортеса{кортес=S,famn,m,anim=(acc,sg|gen,sg)},
+Чем{чем=CONJ=} призраки{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} друзей{друг=S,m,anim=(acc,pl|gen,pl)} в{в=PR=} туманностях{туманность=S,f,inan=abl,pl} Земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+К{к=PR=} нам{мы=SPRO,pl,1p=dat} зовы{зов=S,m,inan=(acc,pl|nom,pl)} не{не=PART=} дойдут{доходить=V,intr=inpraes,pl,indic,3p,pf} из{из=PR=} Северного{северный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+Все{все=SPRO,pl=(acc|nom)}, нам{мы=SPRO,pl,1p=dat} привычное{привычный=A=(acc,sg,plen,n|nom,sg,plen,n)}, растаяло{растаивать=V,intr=praet,sg,indic,n,pf} вдали{вдали=ADV=}.
 
-{воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {что=CONJ=} {призрачно=ADV=}-{угрюмый=A=pl,brev},
-{да=CONJ=} {не=PART=} {восставать=V,intr=inpraes,pl,indic,3p,pf} {вновь=ADV=} {из-за=PR=} {громада=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вода=S,f,inan=gen,pl}.
-{здесь=ADVPRO=} {агуэгуэтля?=S,persn,f,anim=(acc,pl|gen,pl)}, {любимец=S,m,anim=nom,sg} {монтесум?=S,m,anim=nom,pl},
-{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {листва=S,sg,f,inan=ins} {складываться=V,intr=praet,sg,indic,m,pf} {в=PR=} {мирный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свод=S,m,inan=(acc,sg|nom,sg)}.
+Воспоминания{воспоминание=S,n,inan=(acc,pl|gen,sg|nom,pl)}, что{что=CONJ=} призрачно{призрачно=ADV=}-угрюмы{угрюмый=A=pl,brev},
+Да{да=CONJ=} не{не=PART=} восстанут{восставать=V,intr=inpraes,pl,indic,3p,pf} вновь{вновь=ADV=} из-за{из-за=PR=} громады{громада=S,f,inan=(acc,pl|gen,sg|nom,pl)} вод{вода=S,f,inan=gen,pl}.
+Здесь{здесь=ADVPRO=} агуэгуэтль{агуэгуэтля?=S,persn,f,anim=(acc,pl|gen,pl)}, любимец{любимец=S,m,anim=nom,sg} Монтесумы{монтесум?=S,m,anim=nom,pl},
+Своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} седой{седой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} листвой{листва=S,sg,f,inan=ins} сложился{складываться=V,intr=praet,sg,indic,m,pf} в{в=PR=} мирный{мирный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свод{свод=S,m,inan=(acc,sg|nom,sg)}.
 
-{воздушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветерок=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {ветвь=S,f,inan=abl,pl} {шуршать=V,ipf,intr=inpraes,sg,indic,3p} {напевно=ADV=},
-{уходить=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {от=PR=} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {дума=S,f,inan=gen,pl}, {всецело=ADV=}, {в=PR=} {наш=APRO=(nom,pl|acc,pl,inan)} {сон=S,m,inan=(acc,pl|nom,pl)}.
-{вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мексика=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)} {лучистый=A=nom,sg,plen,f} {царевна=S,f,anim=nom,sg},
-{венера=S,persn,f,anim=nom,sg} {манить=V,ipf,tran=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=(abl|acc|gen)} {с=PR=} {прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Воздушный{воздушный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ветерок{ветерок=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} ветвях{ветвь=S,f,inan=abl,pl} шуршит{шуршать=V,ipf,intr=inpraes,sg,indic,3p} напевно{напевно=ADV=},
+Уйдем{уходить=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} от{от=PR=} наших{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} дум{дума=S,f,inan=gen,pl}, всецело{всецело=ADV=}, в{в=PR=} наши{наш=APRO=(nom,pl|acc,pl,inan)} сны{сон=S,m,inan=(acc,pl|nom,pl)}.
+Вечерней{вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Мексики{мексика=S,geo,f,inan=(acc,pl|gen,sg|nom,pl)} лучистая{лучистый=A=nom,sg,plen,f} царевна{царевна=S,f,anim=nom,sg},
+Венера{венера=S,persn,f,anim=nom,sg} манит{манить=V,ipf,tran=inpraes,sg,indic,3p} нас{мы=SPRO,pl,1p=(abl|acc|gen)} с{с=PR=} прозрачной{прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} вышины{вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{богиня=S,f,anim=nom,sg} {с=PR=} {прядь=S,f,inan=ins,pl} {волос=S,m,inan=(acc,sg|gen,pl|nom,sg)} {лучисто=ADV=}-{длинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{венера=S,persn,f,anim=nom,sg} {влюбленный=A=sg,brev,f} {по-прежнему=ADV=} {в=PR=} {любовь=S,f,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {слать=V,ipf,tran=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зов=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {тучка=S,f,inan=gen,pl} {паутинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}: —
-{гореть=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)}, {вы=SPRO,pl,2p=nom} {вдвоем=ADV=}, {любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {вновь=ADV=} {и=CONJ=} {вновь=ADV=}.
+Богиня{богиня=S,f,anim=nom,sg} с{с=PR=} прядями{прядь=S,f,inan=ins,pl} волос{волос=S,m,inan=(acc,sg|gen,pl|nom,sg)} лучисто{лучисто=ADV=}-длинных{длинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Венера{венера=S,persn,f,anim=nom,sg} влюблена{влюбленный=A=sg,brev,f} по-прежнему{по-прежнему=ADV=} в{в=PR=} любовь{любовь=S,f,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} шлет{слать=V,ipf,tran=inpraes,sg,indic,3p} нам{мы=SPRO,pl,1p=dat} светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} зов{зов=S,m,inan=(acc,sg|nom,sg)} из{из=PR=} тучек{тучка=S,f,inan=gen,pl} паутинных{паутинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}: —
+Горите{гореть=V,ipf,intr=(inpraes,pl,indic,2p|pl,imper,2p)}, вы{вы=SPRO,pl,2p=nom} вдвоем{вдвоем=ADV=}, любите{любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} вновь{вновь=ADV=} и{и=CONJ=} вновь{вновь=ADV=}.
 
-{а=CONJ=} {ицтаксигуатль?=S,m,inan=(acc,sg|nom,sg)}, {венчать=V,tran=praet,nom,sg,partcp,plen,f,ipf,pass} {снег=S,m,inan=ins,pl},
-{и=CONJ=} {попокатепетль?=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} {убор=S,m,inan=abl,sg} {из=PR=} {снег=S,m,inan=gen,pl},
-{свой=APRO=(acc,sg,m,inan|nom,sg,m)} {горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {возносить=V=inpraes,pl,indic,3p,ipf,tran} {лик=S,m,inan=(acc,sg|nom,sg)} {пред=PR=} {мы=SPRO,pl,1p=ins}: —
-{любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, {вы=SPRO,pl,2p=nom} {вдвоем=ADV=}, {доверяться=V,intr=pl,imper,2p,pf} {власть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сон=S,m,inan=gen,pl}.
+А{а=CONJ=} Ицтаксигуатль{ицтаксигуатль?=S,m,inan=(acc,sg|nom,sg)}, венчанная{венчать=V,tran=praet,nom,sg,partcp,plen,f,ipf,pass} снегами{снег=S,m,inan=ins,pl},
+И{и=CONJ=} Попокатепетль{попокатепетль?=S,m,inan=(acc,sg|nom,sg)}, в{в=PR=} уборе{убор=S,m,inan=abl,sg} из{из=PR=} снегов{снег=S,m,inan=gen,pl},
+Свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} горный{горный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} и{и=CONJ=} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} возносят{возносить=V=inpraes,pl,indic,3p,ipf,tran} лик{лик=S,m,inan=(acc,sg|nom,sg)} пред{пред=PR=} нами{мы=SPRO,pl,1p=ins}: —
+Любите{любить=V,ipf,tran=(inpraes,pl,indic,2p|pl,imper,2p)}, вы{вы=SPRO,pl,2p=nom} вдвоем{вдвоем=ADV=}, доверьтесь{доверяться=V,intr=pl,imper,2p,pf} власти{власть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} снов{сон=S,m,inan=gen,pl}.

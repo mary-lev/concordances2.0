@@ -1,20 +1,20 @@
-{пламенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {истлевать=V,intr=praet,sg,indic,m,pf} {закат=S,m,inan=(acc,sg|nom,sg)}...
-{стелющийся=A,plen=(acc,sg,m,inan|nom,sg,m)} {дым=S,m,inan=(acc,sg|nom,sg)} {костер=S,m,inan=gen,sg},
-{тлеющий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {у=PR=} {шатер=S,m,inan=gen,sg},
-{вызывать=V,tran=inpraes,sg,indic,3p,pf} {ты=SPRO,sg,2p=(acc|gen)} {назад=ADV=}.
+Пламенный{пламенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} истлел{истлевать=V,intr=praet,sg,indic,m,pf} закат{закат=S,m,inan=(acc,sg|nom,sg)}...
+Стелющийся{стелющийся=A,plen=(acc,sg,m,inan|nom,sg,m)} дым{дым=S,m,inan=(acc,sg|nom,sg)} костра{костер=S,m,inan=gen,sg},
+Тлеющего{тлеющий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} у{у=PR=} шатра{шатер=S,m,inan=gen,sg},
+Вызовет{вызывать=V,tran=inpraes,sg,indic,3p,pf} тебя{ты=SPRO,sg,2p=(acc|gen)} назад{назад=ADV=}.
 
-	{ждать=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {брат=S,m,anim=nom,sg}, -
-	{бросать=V=praet,nom,sg,partcp,plen,f,pf,pass} {сестра=S,f,anim=nom,sg}...
+	Жду{ждать=V,ipf,tran=inpraes,sg,indic,1p} тебя{ты=SPRO,sg,2p=(acc|gen)}, дальний{дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} брат{брат=S,m,anim=nom,sg}, -
+	Брошенная{бросать=V=praet,nom,sg,partcp,plen,f,pf,pass} сестра{сестра=S,f,anim=nom,sg}...
 
-{топот=S,m,inan=(acc,sg|nom,sg)} {глухой=S,m,anim=(abl,pl|acc,pl|gen,pl)} {копыто=S,n,inan=gen,pl}
-{чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {ловить=V,ipf,tran=inpraes,sg,indic,3p} {слух=S,m,inan=(acc,sg|nom,sg)}...
-{всадник=S,m,anim=nom,sg} {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {как=CONJ=} {дух=S,m,inan=(acc,sg|nom,sg)},
-{взмыливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {конь=S,m,anim=nom,sg} {храпеть=V,ipf,intr=inpraes,sg,indic,3p}...
+Топот{топот=S,m,inan=(acc,sg|nom,sg)} глухих{глухой=S,m,anim=(abl,pl|acc,pl|gen,pl)} копыт{копыто=S,n,inan=gen,pl}
+Чуткий{чуткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} ловит{ловить=V,ipf,tran=inpraes,sg,indic,3p} слух{слух=S,m,inan=(acc,sg|nom,sg)}...
+Всадник{всадник=S,m,anim=nom,sg} летит{лететь=V,ipf,intr=inpraes,sg,indic,3p}, как{как=CONJ=} дух{дух=S,m,inan=(acc,sg|nom,sg)},
+Взмыленный{взмыливать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} конь{конь=S,m,anim=nom,sg} храпит{храпеть=V,ipf,intr=inpraes,sg,indic,3p}...
 
-{дышать=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {темнота=S,sg,f,inan=(abl|dat)} {верблюд=S,m,anim=nom,sg},
-{вздрагивать=V,intr=inpraes,pl,indic,3p,ipf} {бубенец=S,m,inan=(acc,pl|nom,pl)},
-{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} {свой=APRO=(nom,pl|acc,pl,inan)} {венец=S,m,inan=(acc,pl|nom,pl)}
-{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {песок=S,m,inan=abl,sg} {плести=V,ipf,tran=inpraes,pl,indic,3p}...
+Дышит{дышать=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} темноте{темнота=S,sg,f,inan=(abl|dat)} верблюд{верблюд=S,m,anim=nom,sg},
+Вздрагивают{вздрагивать=V,intr=inpraes,pl,indic,3p,ipf} бубенцы{бубенец=S,m,inan=(acc,pl|nom,pl)},
+Тонкие{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} свои{свой=APRO=(nom,pl|acc,pl,inan)} венцы{венец=S,m,inan=(acc,pl|nom,pl)}
+Звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} на{на=PR=} песке{песок=S,m,inan=abl,sg} плетут{плести=V,ipf,tran=inpraes,pl,indic,3p}...
 
-	{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)} — {гонец=S,m,anim=nom,pl}
-	{вслед=ADV=} {за=PR=} {конь=S,m,anim=ins,sg} {бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)}.
+	Мысли{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} мои{мой=APRO=(nom,pl|acc,pl,inan)} — гонцы{гонец=S,m,anim=nom,pl}
+	Вслед{вслед=ADV=} за{за=PR=} конем{конь=S,m,anim=ins,sg} бегут{бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)}.

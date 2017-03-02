@@ -1,11 +1,11 @@
-{высокий=A=nom,sg,plen,f} {стоять=V,ipf,intr=inpraes,sg,indic,3p} {луна=S,f,inan=nom,sg}.
-{высокий=A=(acc,pl,plen,inan|nom,pl,plen)} {стоять=V,ipf,intr=inpraes,pl,indic,3p} {мороз=S,m,inan=(acc,pl|nom,pl)}.
-{далекий=A=(acc,pl,plen,inan|nom,pl,plen)} {скрипеть=V,ipf,intr=inpraes,pl,indic,3p} {обоз=S,m,inan=(acc,pl|nom,pl)}.
-{и=CONJ=} {кажется=ADV,parenth=}, {что=CONJ=} {мы=SPRO,pl,1p=dat} {слышный=A=sg,brev,f}
-{архангельский=A=nom,sg,plen,f} {тишина=S,sg,f,inan=nom}.
+Высокая{высокий=A=nom,sg,plen,f} стоит{стоять=V,ipf,intr=inpraes,sg,indic,3p} луна{луна=S,f,inan=nom,sg}.
+Высокие{высокий=A=(acc,pl,plen,inan|nom,pl,plen)} стоят{стоять=V,ipf,intr=inpraes,pl,indic,3p} морозы{мороз=S,m,inan=(acc,pl|nom,pl)}.
+Далекие{далекий=A=(acc,pl,plen,inan|nom,pl,plen)} скрипят{скрипеть=V,ipf,intr=inpraes,pl,indic,3p} обозы{обоз=S,m,inan=(acc,pl|nom,pl)}.
+И{и=CONJ=} кажется{кажется=ADV,parenth=}, что{что=CONJ=} нам{мы=SPRO,pl,1p=dat} слышна{слышный=A=sg,brev,f}
+Архангельская{архангельский=A=nom,sg,plen,f} тишина{тишина=S,sg,f,inan=nom}.
 
-{она=SPRO,sg,3p,f=nom} {слышный=A=sg,brev,f}, — {она=SPRO,sg,3p,f=nom} {видный=A=sg,brev,f}:
-{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {всхлип=S,m,inan=(acc,pl|nom,pl)} {клюквенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {хруст=S,m,inan=(acc,pl|nom,pl)} {снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {парусина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {тихий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крыло=S,n,inan=gen,pl} {белизна=S,sg,f,inan=nom} —
-{архангельский=A=nom,sg,plen,f} {тишина=S,sg,f,inan=nom}...
+Она{она=SPRO,sg,3p,f=nom} слышна{слышный=A=sg,brev,f}, — она{она=SPRO,sg,3p,f=nom} видна{видный=A=sg,brev,f}:
+В{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} всхлипы{всхлип=S,m,inan=(acc,pl|nom,pl)} клюквенной{клюквенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} трясины{трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} хрусты{хруст=S,m,inan=(acc,pl|nom,pl)} снежной{снежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} парусины{парусина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} тихих{тихий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} крыльев{крыло=S,n,inan=gen,pl} белизна{белизна=S,sg,f,inan=nom} —
+Архангельская{архангельский=A=nom,sg,plen,f} тишина{тишина=S,sg,f,inan=nom}...

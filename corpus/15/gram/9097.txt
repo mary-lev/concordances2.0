@@ -1,33 +1,33 @@
-{риза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нетленный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{венец=S,m,inan=(acc,pl|nom,pl)} {семигранный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{и=CONJ=} {друг=S,m,anim=nom,pl} {неизменный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{и=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {необманный?=A=(acc,pl,plen,inan|nom,pl,plen)}.
-{и=CONJ=} {для=PR=} {вольный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=gen,pl}
-{много=ADV,praed=} {пышный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {стебель=S,m,inan=gen,pl}.
-{и=CONJ=} {в=PR=} {луг=S,m,inan=abl,pl} {табун=S,m,inan=(acc,pl|nom,pl)}
-{богатырский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {конь=S,m,anim=(acc,pl|gen,pl)}.
-{и=CONJ=} {луна=S,f,inan=nom,sg} {с=PR=} {вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{с=PR=} {свита=S,f,inan=ins,sg} {солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}.
-{и=CONJ=} {дрожание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {струна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{все=SPRO,pl=(acc|nom)} {нежный=A=comp} {и=CONJ=} {нежно=ADV=comp}.
+Ризы{риза=S,f,inan=(acc,pl|gen,sg|nom,pl)} нетленные{нетленный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Венцы{венец=S,m,inan=(acc,pl|nom,pl)} семигранные{семигранный=A=(acc,pl,plen,inan|nom,pl,plen)},
+И{и=CONJ=} друзья{друг=S,m,anim=nom,pl} неизменные{неизменный=A=(acc,pl,plen,inan|nom,pl,plen)},
+И{и=CONJ=} слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} необманные{необманный?=A=(acc,pl,plen,inan|nom,pl,plen)}.
+И{и=CONJ=} для{для=PR=} вольных{вольный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} полей{поле=S,n,inan=gen,pl}
+Много{много=ADV,praed=} пышных{пышный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} стеблей{стебель=S,m,inan=gen,pl}.
+И{и=CONJ=} в{в=PR=} лугах{луг=S,m,inan=abl,pl} табуны{табун=S,m,inan=(acc,pl|nom,pl)}
+Богатырских{богатырский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} коней{конь=S,m,anim=(acc,pl|gen,pl)}.
+И{и=CONJ=} Луна{луна=S,f,inan=nom,sg} с{с=PR=} вышины{вышина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+С{с=PR=} свитой{свита=S,f,inan=ins,sg} солнечных{солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дней{день=S,m,inan=gen,pl}.
+И{и=CONJ=} дрожанье{дрожание=S,n,inan=(abl,sg|acc,sg|nom,sg)} струны{струна=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Все{все=SPRO,pl=(acc|nom)} нежней{нежный=A=comp} и{и=CONJ=} нежней{нежно=ADV=comp}.
 
-{и=CONJ=} {когда=CONJ=}, {день=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {день=S,m,inan=ins,sg},
-{завершаться=V,intr=inpraes,sg,indic,3p,ipf} {год=S,m,inan=(acc,sg|nom,sg)},
-{серп=S,m,inan=(acc,sg|nom,sg)} {звенеть=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {серп=S,m,inan=ins,sg},
-{жатва=S,f,inan=(acc,pl|gen,sg|nom,pl)} {хотеть=V,ipf,tran=inpraes,sg,indic,3p}, {петь=V,ipf,tran=inpraes,sg,indic,3p}.
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стебель=S,m,inan=(acc,sg|nom,sg)} {расти=V,ipf,intr=inpraes,sg,indic,3p},
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {колос=S,m,inan=(acc,sg|nom,sg)} {гореть=V,ipf,intr=inpraes,sg,indic,3p}.
-{умножаться=V,intr=inpraes,sg,indic,3p,ipf} {счет=S,m,inan=(acc,sg|nom,sg)},
-{изумруд=S,m,inan=(acc,sg|nom,sg)}, {маргарит=S,m,inan=(acc,sg|nom,sg)}.
-{бриллиант=S,m,inan=(acc,pl|nom,pl)} {расти=V,ipf,intr=inpraes,pl,indic,3p},
-{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {бархат=S,m,inan=(acc,sg|nom,sg)} {плести=V,ipf,tran=inpraes,pl,indic,3p}.
+И{и=CONJ=} когда{когда=CONJ=}, день{день=S,m,inan=(acc,sg|nom,sg)} за{за=PR=} днем{день=S,m,inan=ins,sg},
+Завершается{завершаться=V,intr=inpraes,sg,indic,3p,ipf} год{год=S,m,inan=(acc,sg|nom,sg)},
+Серп{серп=S,m,inan=(acc,sg|nom,sg)} звенит{звенеть=V,ipf,intr=inpraes,sg,indic,3p} за{за=PR=} серпом{серп=S,m,inan=ins,sg},
+Жатвы{жатва=S,f,inan=(acc,pl|gen,sg|nom,pl)} хочет{хотеть=V,ipf,tran=inpraes,sg,indic,3p}, поет{петь=V,ipf,tran=inpraes,sg,indic,3p}.
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} стебель{стебель=S,m,inan=(acc,sg|nom,sg)} растет{расти=V,ipf,intr=inpraes,sg,indic,3p},
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} колос{колос=S,m,inan=(acc,sg|nom,sg)} горит{гореть=V,ipf,intr=inpraes,sg,indic,3p}.
+Умножается{умножаться=V,intr=inpraes,sg,indic,3p,ipf} счет{счет=S,m,inan=(acc,sg|nom,sg)},
+Изумруд{изумруд=S,m,inan=(acc,sg|nom,sg)}, Маргарит{маргарит=S,m,inan=(acc,sg|nom,sg)}.
+Бриллианты{бриллиант=S,m,inan=(acc,pl|nom,pl)} растут{расти=V,ipf,intr=inpraes,pl,indic,3p},
+Ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} бархат{бархат=S,m,inan=(acc,sg|nom,sg)} плетут{плести=V,ipf,tran=inpraes,pl,indic,3p}.
 
-{золотой=A=acc,sg,plen,f} {игла=S,f,inan=acc,sg}
-{кто-то=SPRO,sg,m,anim=nom} {держать=V,ipf,tran=inpraes,sg,indic,3p}, {и=CONJ=} {шить=V,ipf,tran=inpraes,sg,indic,3p}.
-{бисер=S,m,inan=(acc,sg|nom,sg)} {вызвездить=V,pf,intr=praet,sg,indic,m} {мгла=S,f,inan=acc,sg},
-{умножаться=V,intr=inpraes,sg,indic,3p,ipf} {счет=S,m,inan=(acc,sg|nom,sg)}.
+Золотую{золотой=A=acc,sg,plen,f} иглу{игла=S,f,inan=acc,sg}
+Кто-то{кто-то=SPRO,sg,m,anim=nom} держит{держать=V,ipf,tran=inpraes,sg,indic,3p}, и{и=CONJ=} шьет{шить=V,ipf,tran=inpraes,sg,indic,3p}.
+Бисер{бисер=S,m,inan=(acc,sg|nom,sg)} вызвездил{вызвездить=V,pf,intr=praet,sg,indic,m} мглу{мгла=S,f,inan=acc,sg},
+Умножается{умножаться=V,intr=inpraes,sg,indic,3p,ipf} счет{счет=S,m,inan=(acc,sg|nom,sg)}.
 
-{светить=V,ipf,intr=inpraes,pl,indic,3p} {риза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нетленный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{и=CONJ=} {венец=S,m,inan=(acc,pl|nom,pl)} {семигранный=A=(acc,pl,plen,inan|nom,pl,plen)}.
-{вольный=A=pl,brev} {бывший=A,plen=(nom,pl|acc,pl,inan)} {пленный=S,m,anim=nom,pl},
-{струнный=A=pl,brev} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ждать=V,ipf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)}.
+Светят{светить=V,ipf,intr=inpraes,pl,indic,3p} ризы{риза=S,f,inan=(acc,pl|gen,sg|nom,pl)} нетленные{нетленный=A=(acc,pl,plen,inan|nom,pl,plen)},
+И{и=CONJ=} венцы{венец=S,m,inan=(acc,pl|nom,pl)} семигранные{семигранный=A=(acc,pl,plen,inan|nom,pl,plen)}.
+Вольны{вольный=A=pl,brev} бывшие{бывший=A,plen=(nom,pl|acc,pl,inan)} пленные{пленный=S,m,anim=nom,pl},
+Струнны{струнный=A=pl,brev} радости{радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} жданные{ждать=V,ipf,tran=(praet,acc,pl,partcp,plen,pass,inan|praet,nom,pl,partcp,plen,pass)}.

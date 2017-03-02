@@ -1,24 +1,24 @@
-{народный=A=(acc,pl,plen,inan|nom,pl,plen)} {поверье=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
-{неполный=A=(acc,pl,plen,inan|nom,pl,plen)} {страница=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{разрозненный=A=(acc,pl,plen,inan|nom,pl,plen)} {перо=S,n,inan=(acc,pl|nom,pl)}
-{от=PR=} {улетать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {птица=S,f,anim=(gen,sg|nom,pl)}.
+Народные{народный=A=(acc,pl,plen,inan|nom,pl,plen)} поверья{поверье=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+Неполные{неполный=A=(acc,pl,plen,inan|nom,pl,plen)} страницы{страница=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Разрозненные{разрозненный=A=(acc,pl,plen,inan|nom,pl,plen)} перья{перо=S,n,inan=(acc,pl|nom,pl)}
+От{от=PR=} улетевшей{улетать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} птицы{птица=S,f,anim=(gen,sg|nom,pl)}.
 
-{она=SPRO,sg,3p,f=nom} {вот=PART=} {тут=ADVPRO=} {сидеть=V,ipf,intr=praet,sg,indic,f}
-{на=PR=} {камень=S,m,inan=abl,sg} {самоцветный=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{и=CONJ=} {петь=V,ipf,tran=praet,sg,indic,f} {здесь=ADVPRO=} {так=ADVPRO=} {смело=ADV=}
-{о=PR=} {сон=S,m,inan=abl,sg} {свой=APRO=(abl,sg,m|abl,sg,n)} {заветный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+Она{она=SPRO,sg,3p,f=nom} вот{вот=PART=} тут{тут=ADVPRO=} сидела{сидеть=V,ipf,intr=praet,sg,indic,f}
+На{на=PR=} камне{камень=S,m,inan=abl,sg} самоцветном{самоцветный=A=(abl,sg,plen,m|abl,sg,plen,n)},
+И{и=CONJ=} пела{петь=V,ipf,tran=praet,sg,indic,f} здесь{здесь=ADVPRO=} так{так=ADVPRO=} смело{смело=ADV=}
+О{о=PR=} сне{сон=S,m,inan=abl,sg} своем{свой=APRO=(abl,sg,m|abl,sg,n)} заветном{заветный=A=(abl,sg,plen,m|abl,sg,plen,n)}.
 
-{о=PR=} {то=SPRO,sg,n,inan=abl} {заморский=A=(abl,sg,plen,m|abl,sg,plen,n)} {край=S,m,inan=abl,sg},
-{где=ADVPRO=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {с=PR=} {небо=S,n,inan=ins,sg} {сливать=V=praet,sg,partcp,brev,n,pf,pass},
-{где=ADVPRO=} {дума=S,f,inan=nom,sg}, {в=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {май=S,sg,m,inan=abl},
-{цветок=S,m,inan=ins,pl} {перевивать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
+О{о=PR=} том{то=SPRO,sg,n,inan=abl} заморском{заморский=A=(abl,sg,plen,m|abl,sg,plen,n)} крае{край=S,m,inan=abl,sg},
+Где{где=ADVPRO=} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} с{с=PR=} Небом{небо=S,n,inan=ins,sg} слито{сливать=V=praet,sg,partcp,brev,n,pf,pass},
+Где{где=ADVPRO=} дума{дума=S,f,inan=nom,sg}, в{в=PR=} вечном{вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} Мае{май=S,sg,m,inan=abl},
+Цветами{цветок=S,m,inan=ins,pl} перевита{перевивать=V,tran=praet,sg,partcp,brev,f,pf,pass}.
 
-{где=ADVPRO=} {светов=S,famn,m,anim=nom,sg} {зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{где=ADVPRO=} {завершение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мрак=S,m,inan=gen,pl},
-{где=ADVPRO=} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {ум=S,m,inan=(acc,sg|nom,sg)} {сплетение=S,n,inan=(acc,sg|nom,sg)}
-{всего=PART=} {как=CONJ=} {вещий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {знак=S,m,inan=gen,pl}.
+Где{где=ADVPRO=} Светов{светов=S,famn,m,anim=nom,sg} зарожденье{зарождение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Где{где=ADVPRO=} завершенье{завершение=S,n,inan=(abl,sg|acc,sg|nom,sg)} мраков{мрак=S,m,inan=gen,pl},
+Где{где=ADVPRO=} видит{видеть=V,ipf,tran=inpraes,sg,indic,3p} ум{ум=S,m,inan=(acc,sg|nom,sg)} сплетение{сплетение=S,n,inan=(acc,sg|nom,sg)}
+Всего{всего=PART=} как{как=CONJ=} вещих{вещий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} знаков{знак=S,m,inan=gen,pl}.
 
-{пропеть=V,pf,tran=praet,sg,indic,f}, {улетать=V,intr=praet,sg,indic,f,pf},
-{пред=PR=} {взор=S,m,inan=ins,sg} {лишь=PART=} {зарница=S,f,inan=nom,sg},
-{лишь=PART=} {видеть=V,ipf,tran=inpraes,sg,indic,2p} — {здесь=ADVPRO=} {блестеть=V,ipf,intr=praet,sg,indic,f}
-{воистину=ADV,parenth=} {жар-птица=S,f,anim=nom,sg}.
+Пропела{пропеть=V,pf,tran=praet,sg,indic,f}, улетела{улетать=V,intr=praet,sg,indic,f,pf},
+Пред{пред=PR=} взором{взор=S,m,inan=ins,sg} лишь{лишь=PART=} зарница{зарница=S,f,inan=nom,sg},
+Лишь{лишь=PART=} видишь{видеть=V,ipf,tran=inpraes,sg,indic,2p} — здесь{здесь=ADVPRO=} блестела{блестеть=V,ipf,intr=praet,sg,indic,f}
+Воистину{воистину=ADV,parenth=} Жар-Птица{жар-птица=S,f,anim=nom,sg}.

@@ -1,24 +1,24 @@
-{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {воздух=S,m,inan=(acc,sg|nom,sg)}
-{я=SPRO,sg,1p=nom} {вдыхать=V,tran=praet,sg,indic,m,ipf} {в=PR=} {смятение=S,n,inan=abl,sg} {и=CONJ=} {тоска=S,f,inan=(abl,sg|dat,sg)}.
-{я=SPRO,sg,1p=nom} {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {поужинать=V,pf,intr=inf}, {и=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {в=PR=} {темный=A=(abl,sg,plen,m|abl,sg,plen,n)} {кошелек=S,m,inan=abl,sg}!
+Целый{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} день{день=S,m,inan=(acc,sg|nom,sg)} сырой{сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} осенний{осенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} воздух{воздух=S,m,inan=(acc,sg|nom,sg)}
+Я{я=SPRO,sg,1p=nom} вдыхал{вдыхать=V,tran=praet,sg,indic,m,ipf} в{в=PR=} смятеньи{смятение=S,n,inan=abl,sg} и{и=CONJ=} тоске{тоска=S,f,inan=(abl,sg|dat,sg)}.
+Я{я=SPRO,sg,1p=nom} хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} поужинать{поужинать=V,pf,intr=inf}, и{и=CONJ=} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Золотые{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} в{в=PR=} темном{темный=A=(abl,sg,plen,m|abl,sg,plen,n)} кошельке{кошелек=S,m,inan=abl,sg}!
 |
-{и=CONJ=}, {дрожать=V,ipf,intr=inpraes,ger} {от=PR=} {желтый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {туман=S,m,inan=gen,sg},
-{я=SPRO,sg,1p=nom} {спускаться=V,intr=praet,sg,indic,m,pf} {в=PR=} {маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подвал=S,m,inan=(acc,sg|nom,sg)}.
-{я=SPRO,sg,1p=nom} {нигде=ADVPRO=} {такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {ресторан=S,m,inan=gen,sg}
-{и=CONJ=} {такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {сброд=S,m,inan=gen,sg} {не=PART=} {видать=V,ipf,tran=praet,sg,indic,m}!
+И{и=CONJ=}, дрожа{дрожать=V,ipf,intr=inpraes,ger} от{от=PR=} желтого{желтый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} тумана{туман=S,m,inan=gen,sg},
+Я{я=SPRO,sg,1p=nom} спустился{спускаться=V,intr=praet,sg,indic,m,pf} в{в=PR=} маленький{маленький=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} подвал{подвал=S,m,inan=(acc,sg|nom,sg)}.
+Я{я=SPRO,sg,1p=nom} нигде{нигде=ADVPRO=} такого{такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} ресторана{ресторан=S,m,inan=gen,sg}
+И{и=CONJ=} такого{такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} сброда{сброд=S,m,inan=gen,sg} не{не=PART=} видал{видать=V,ipf,tran=praet,sg,indic,m}!
 |
-{мелкий=A=(acc,pl,plen,inan|nom,pl,plen)} {чиновник=S,m,anim=nom,pl}, {японец=S,m,anim=nom,pl},
-{теоретик=S,m,anim=nom,pl} {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {казна=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
-{за=PR=} {прилавок=S,m,inan=ins,sg} {щупать=V,ipf,tran=inpraes,sg,indic,3p} {червонец=S,m,inan=(acc,pl|nom,pl)}
-{человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}, — {и=CONJ=} {все=SPRO,pl=(acc|nom)} {они=SPRO,pl=nom} {пьяный=A=pl,brev}.
+Мелкие{мелкий=A=(acc,pl,plen,inan|nom,pl,plen)} чиновники{чиновник=S,m,anim=nom,pl}, японцы{японец=S,m,anim=nom,pl},
+Теоретики{теоретик=S,m,anim=nom,pl} чужой{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} казны{казна=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+За{за=PR=} прилавком{прилавок=S,m,inan=ins,sg} щупает{щупать=V,ipf,tran=inpraes,sg,indic,3p} червонцы{червонец=S,m,inan=(acc,pl|nom,pl)}
+Человек{человек=S,m,anim=(acc,pl|gen,pl|nom,sg)}, — и{и=CONJ=} все{все=SPRO,pl=(acc|nom)} они{они=SPRO,pl=nom} пьяны{пьяный=A=pl,brev}.
 |
-— {быть=V,intr=pl,imper,2p} {так=ADVPRO=} {любезный=A=pl,brev}, {разменивать=V,tran=pl,imper,2p,pf}, —
-{убедительно=ADV=} {он=SPRO,sg,3p,m=(acc|gen)} {просить=V,ipf,tran=inpraes,sg,indic,1p}, —
-{только=PART=} {я=SPRO,sg,1p=(abl|dat)} {бумажка=S,f,inan=gen,pl} {не=PART=} {давать=V,tran=pl,imper,2p,ipf} —
-{трехрублевка=S,f,inan=gen,pl} {я=SPRO,sg,1p=nom} {не=PART=} {выносить=V,ipf,tran=inpraes,sg,indic,1p}!
+— Будьте{быть=V,intr=pl,imper,2p} так{так=ADVPRO=} любезны{любезный=A=pl,brev}, разменяйте{разменивать=V,tran=pl,imper,2p,pf}, —
+Убедительно{убедительно=ADV=} его{он=SPRO,sg,3p,m=(acc|gen)} прошу{просить=V,ipf,tran=inpraes,sg,indic,1p}, —
+Только{только=PART=} мне{я=SPRO,sg,1p=(abl|dat)} бумажек{бумажка=S,f,inan=gen,pl} не{не=PART=} давайте{давать=V,tran=pl,imper,2p,ipf} —
+Трехрублевок{трехрублевка=S,f,inan=gen,pl} я{я=SPRO,sg,1p=nom} не{не=PART=} выношу{выносить=V,ipf,tran=inpraes,sg,indic,1p}!
 |
-{что=SPRO,sg,n,inan=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {делать=V,ipf,tran=inf} {с=PR=} {пьяный=A=ins,sg,plen,f} {орава=S,f,inan=ins,sg}?
-{как=ADVPRO=} {попадать=V,intr=praet,sg,indic,m,pf} {сюда=ADVPRO=} {я=SPRO,sg,1p=nom}, {боже=S,voc,sg,m,anim=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}?
-{если=CONJ=} {я=SPRO,sg,1p=nom} {на=PR=} {то=SPRO,sg,n,inan=(acc|nom)} {иметь=V,ipf,tran=inpraes,sg,indic,1p} {право=S,n,inan=(acc,sg|nom,sg)}, —
-{разменивать=V,tran=pl,imper,2p,pf} {я=SPRO,sg,1p=(abl|dat)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!
+Что{что=SPRO,sg,n,inan=(acc|nom)} мне{я=SPRO,sg,1p=(abl|dat)} делать{делать=V,ipf,tran=inf} с{с=PR=} пьяною{пьяный=A=ins,sg,plen,f} оравой{орава=S,f,inan=ins,sg}?
+Как{как=ADVPRO=} попал{попадать=V,intr=praet,sg,indic,m,pf} сюда{сюда=ADVPRO=} я{я=SPRO,sg,1p=nom}, Боже{боже=S,voc,sg,m,anim=} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)}?
+Если{если=CONJ=} я{я=SPRO,sg,1p=nom} на{на=PR=} то{то=SPRO,sg,n,inan=(acc|nom)} имею{иметь=V,ipf,tran=inpraes,sg,indic,1p} право{право=S,n,inan=(acc,sg|nom,sg)}, —
+Разменяйте{разменивать=V,tran=pl,imper,2p,pf} мне{я=SPRO,sg,1p=(abl|dat)} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}!

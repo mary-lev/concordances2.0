@@ -1,19 +1,19 @@
-{вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ужас=S,m,inan=(acc,sg|nom,sg)}. {черный=A=(acc,pl,plen,inan|nom,pl,plen)} {трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{вопль=S,m,inan=(acc,sg|nom,sg)}, {исполнять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
-{бегемот=S,m,anim=(acc,sg|gen,sg)} {с=PR=} {шея=S,f,inan=ins,sg} {лебединый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{силуэт=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {лунный=A=ins,sg,plen,f} {вода=S,f,inan=ins,sg}.
+Вечный{вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ужас{ужас=S,m,inan=(acc,sg|nom,sg)}. Черные{черный=A=(acc,pl,plen,inan|nom,pl,plen)} трясины{трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Вопль{вопль=S,m,inan=(acc,sg|nom,sg)}, исполненный{исполнять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} тоски{тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} ночной{ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Бегемота{бегемот=S,m,anim=(acc,sg|gen,sg)} с{с=PR=} шеей{шея=S,f,inan=ins,sg} лебединой{лебединый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Силуэт{силуэт=S,m,inan=(acc,sg|nom,sg)} над{над=PR=} лунною{лунный=A=ins,sg,plen,f} водой{вода=S,f,inan=ins,sg}.
 
-{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)} — {чудовище=S,n,anim=(acc,pl|gen,pl)} {без=PR=} {название=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
-{кто=SPRO,sg,m,anim=nom} {ты=SPRO,sg,2p=(abl|dat)} {позволять=V,tran=praet,sg,indic,m,pf} {переживать=V,tran=inf,pf}?
-{кто=SPRO,sg,m,anim=ins} {ты=SPRO,sg,2p=(abl|dat)} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass} {самосознание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зверь=S,m,anim=nom,sg}, {уметь=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {грешить=V,ipf,intr=inf}?
+Тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} существ{существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)} — чудовищ{чудовище=S,n,anim=(acc,pl|gen,pl)} без{без=PR=} названья{название=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+Кто{кто=SPRO,sg,m,anim=nom} тебе{ты=SPRO,sg,2p=(abl|dat)} позволил{позволять=V,tran=praet,sg,indic,m,pf} пережить{переживать=V,tran=inf,pf}?
+Кем{кто=SPRO,sg,m,anim=ins} тебе{ты=SPRO,sg,2p=(abl|dat)} дано{давать=V,tran=praet,sg,partcp,brev,n,pf,pass} самосознанье{самосознание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} зверь{зверь=S,m,anim=nom,sg}, умеющий{уметь=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} грешить{грешить=V,ipf,intr=inf}?
 
-{мочь=V,ipf,intr=inpraes,sg,indic,3p} {быть=V,intr=inf,ipf}, {я=SPRO,sg,1p=nom} {этот=APRO=acc,sg,f} {знать=V,ipf,tran=inpraes,sg,indic,1p} {тайна=S,f,inan=acc,sg}:
-{поутру=ADV=}, {бродить=V,ipf,intr=inpraes,ger} {в=PR=} {лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{острый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {камень=S,m,inan=(acc,sg|nom,sg)} {ты=SPRO,sg,2p=nom} {находить=V=praet,sg,indic,m,pf,tran} {случайно=ADV,parenth=}
-{и=CONJ=} {впотьмах=ADV=} {младенческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Может{мочь=V,ipf,intr=inpraes,sg,indic,3p} быть{быть=V,intr=inf,ipf}, я{я=SPRO,sg,1p=nom} эту{этот=APRO=acc,sg,f} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p} тайну{тайна=S,f,inan=acc,sg}:
+Поутру{поутру=ADV=}, бродя{бродить=V,ipf,intr=inpraes,ger} в{в=PR=} лесной{лесной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} глуши{глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Острый{острый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} камень{камень=S,m,inan=(acc,sg|nom,sg)} ты{ты=SPRO,sg,2p=nom} нашел{находить=V=praet,sg,indic,m,pf,tran} случайно{случайно=ADV,parenth=}
+И{и=CONJ=} впотьмах{впотьмах=ADV=} младенческой{младенческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} души{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
 
-{боязливо=ADV=}, {как=CONJ=} {слепой=S,m,anim=nom,sg}, {пошарить=V,pf,intr=praet,sg,indic,m},
-{камень=S,m,inan=(acc,sg|nom,sg)} {прочно=ADV=} {к=PR=} {палка=S,f,inan=(abl,sg|dat,sg)} {прикреплять=V,tran=praet,sg,indic,m,pf},
-{подстерегать=V=praet,sg,indic,m,pf} {враг=S,m,anim=(acc,sg|gen,sg)}, {в=PR=} {висок=S,m,inan=(acc,sg|nom,sg)} {ударять=V,tran=praet,sg,indic,m,pf}
-{и=CONJ=} {задумываться=V,intr=praet,sg,indic,m,pf}, {когда=CONJ=} {убивать=V,tran=praet,sg,indic,m,pf}.
+Боязливо{боязливо=ADV=}, как{как=CONJ=} слепой{слепой=S,m,anim=nom,sg}, пошарил{пошарить=V,pf,intr=praet,sg,indic,m},
+Камень{камень=S,m,inan=(acc,sg|nom,sg)} прочно{прочно=ADV=} к{к=PR=} палке{палка=S,f,inan=(abl,sg|dat,sg)} прикрепил{прикреплять=V,tran=praet,sg,indic,m,pf},
+Подстерег{подстерегать=V=praet,sg,indic,m,pf} врага{враг=S,m,anim=(acc,sg|gen,sg)}, в{в=PR=} висок{висок=S,m,inan=(acc,sg|nom,sg)} ударил{ударять=V,tran=praet,sg,indic,m,pf}
+И{и=CONJ=} задумался{задумываться=V,intr=praet,sg,indic,m,pf}, когда{когда=CONJ=} убил{убивать=V,tran=praet,sg,indic,m,pf}.

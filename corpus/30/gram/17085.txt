@@ -1,14 +1,14 @@
-{дневной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кошмар=S,m,inan=(acc,sg|nom,sg)} {неистощимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {скука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{что=CONJ=} {каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {съедать=V=inpraes,sg,indic,3p,ipf,tran} {жизнь=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=acc,sg,f},
-{что=SPRO,sg,n,inan=(acc|nom)} {давить=V,ipf,tran=inpraes,sg,indic,3p} {ум=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {утомлять=V,tran=inpraes,sg,indic,3p,ipf} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{что=CONJ=} {я=SPRO,sg,1p=nom} {напрасно=ADV=} {жечь=V,ipf,tran=inpraes,sg,indic,1p} {и=CONJ=} {раздавать=V=inpraes,sg,indic,1p,ipf,tran};
+Дневной{дневной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кошмар{кошмар=S,m,inan=(acc,sg|nom,sg)} неистощимой{неистощимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} скуки{скука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Что{что=CONJ=} каждый{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} съедает{съедать=V=inpraes,sg,indic,3p,ipf,tran} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} мою{мой=APRO=acc,sg,f},
+Что{что=SPRO,sg,n,inan=(acc|nom)} давит{давить=V,ipf,tran=inpraes,sg,indic,3p} ум{ум=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} утомляет{утомлять=V,tran=inpraes,sg,indic,3p,ipf} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Что{что=CONJ=} я{я=SPRO,sg,1p=nom} напрасно{напрасно=ADV=} жгу{жечь=V,ipf,tran=inpraes,sg,indic,1p} и{и=CONJ=} раздаю{раздавать=V=inpraes,sg,indic,1p,ipf,tran};
 
-{о=PR=}, {вы=SPRO,pl,2p=nom}, {картонка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {перо=S,n,inan=(acc,pl|nom,pl)}, {нитка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {папка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{обрезок=S,m,inan=(acc,pl|nom,pl)} {кружева=S,pl,inan=gen}, {лента=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {лоскуток=S,m,inan=(acc,pl|nom,pl)},
-{крючок=S,m,inan=(acc,pl|nom,pl)}, {флакон=S,m,inan=(acc,pl|nom,pl)}, {пряжка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {бусы=S,pl,inan=(acc|nom)}, {тряпка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{дневной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кошмар=S,m,inan=(acc,sg|nom,sg)} {уныние=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+О{о=PR=}, вы{вы=SPRO,pl,2p=nom}, картонки{картонка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, перья{перо=S,n,inan=(acc,pl|nom,pl)}, нитки{нитка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, папки{папка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Обрезки{обрезок=S,m,inan=(acc,pl|nom,pl)} кружев{кружева=S,pl,inan=gen}, ленты{лента=S,f,inan=(acc,pl|gen,sg|nom,pl)}, лоскутки{лоскуток=S,m,inan=(acc,pl|nom,pl)},
+Крючки{крючок=S,m,inan=(acc,pl|nom,pl)}, флаконы{флакон=S,m,inan=(acc,pl|nom,pl)}, пряжки{пряжка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, бусы{бусы=S,pl,inan=(acc|nom)}, тряпки{тряпка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Дневной{дневной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кошмар{кошмар=S,m,inan=(acc,sg|nom,sg)} унынья{уныние=S,n,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} тоски{тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
 
-{откуда=ADVPRO=} {вы=SPRO,pl,2p=nom}? {к=PR=} {что=SPRO,sg,n,inan=dat} {вы=SPRO,pl,2p=nom}? {для=PR=} {что=SPRO,sg,n,inan=gen} {вы=SPRO,pl,2p=nom}?
-{прийти=V,pf,intr=inpraes,sg,indic,3p} {ли=PART=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {герой=S,m,anim=nom,sg},
-{кто=SPRO,sg,m,anim=nom} {не=PART=} {посмотреть=V,pf,tran=inpraes,sg,indic,3p}, {старый=A=pl,brev} {вы=SPRO,pl,2p=nom} {иль=CONJ=} {новый=A=pl,brev},
-{а=CONJ=} {выбрасывать=V=inpraes,sg,indic,3p,pf} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {хлам=S,m,inan=(acc,sg|nom,sg)} {долой=ADV=}!
+Откуда{откуда=ADVPRO=} вы{вы=SPRO,pl,2p=nom}? К{к=PR=} чему{что=SPRO,sg,n,inan=dat} вы{вы=SPRO,pl,2p=nom}? Для{для=PR=} чего{что=SPRO,sg,n,inan=gen} вы{вы=SPRO,pl,2p=nom}?
+Придет{прийти=V,pf,intr=inpraes,sg,indic,3p} ли{ли=PART=} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} неведомый{неведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} герой{герой=S,m,anim=nom,sg},
+Кто{кто=SPRO,sg,m,anim=nom} не{не=PART=} посмотрит{посмотреть=V,pf,tran=inpraes,sg,indic,3p}, стары{старый=A=pl,brev} вы{вы=SPRO,pl,2p=nom} иль{иль=CONJ=} новы{новый=A=pl,brev},
+А{а=CONJ=} выбросит{выбрасывать=V=inpraes,sg,indic,3p,pf} весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} хлам{хлам=S,m,inan=(acc,sg|nom,sg)} долой{долой=ADV=}!

@@ -1,17 +1,17 @@
-{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {линия=S,f,inan=nom,sg} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{ток=S,m,inan=(acc,sg|nom,sg)} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {русло=S,n,inan=abl,pl} {жить=V,ipf,intr=praet,sg,indic,m}, {как=CONJ=} {по=PR=} {ложбина=S,f,inan=dat,pl}.
-{строение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {губа=S,f,inan=gen,pl}, {бровь=S,f,inan=gen,pl}, {зрачок=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {орлиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
-{полет=S,m,inan=ins,sg} {к=PR=} {солнце=S,n,inan=dat,sg}. {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {струя=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {сон=S,m,inan=(acc,pl|nom,pl)}.
+Весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} человек{человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} линия{линия=S,f,inan=nom,sg} волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Ток{ток=S,m,inan=(acc,sg|nom,sg)} крови{кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} в{в=PR=} руслах{русло=S,n,inan=abl,pl} жил{жить=V,ipf,intr=praet,sg,indic,m}, как{как=CONJ=} по{по=PR=} ложбинам{ложбина=S,f,inan=dat,pl}.
+Строенье{строение=S,n,inan=(abl,sg|acc,sg|nom,sg)} губ{губа=S,f,inan=gen,pl}, бровей{бровь=S,f,inan=gen,pl}, зрачок{зрачок=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} орлиным{орлиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+Полетом{полет=S,m,inan=ins,sg} к{к=PR=} Солнцу{солнце=S,n,inan=dat,sg}. Волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}. Струи{струя=S,f,inan=(acc,pl|gen,sg|nom,pl)}. Сны{сон=S,m,inan=(acc,pl|nom,pl)}.
 
-{мы=SPRO,pl,1p=nom} {влага=S,f,inan=ins,sg} {и=CONJ=} {огонь=S,m,inan=ins,sg} {воплощать=V,tran=praet,pl,partcp,brev,pf,pass}.
-{и=CONJ=} {наш=APRO=acc,sg,f} {мысль=S,f,inan=(acc,sg|nom,sg)} {всегда=ADVPRO=} {влечь=V,ipf,tran=inpraes,sg,indic,3p} {к=PR=} {глубина=S,f,inan=dat,pl}.
-{и=CONJ=} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {знак=S,m,inan=(acc,sg|nom,sg)} {вести=V,ipf,tran=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=(abl|acc|gen)} {по=PR=} {вершина=S,f,inan=dat,pl}.
-{мы=SPRO,pl,1p=dat} {любо=ADV,praed=} {знать=V,ipf,tran=inf} {опасность=S,f,inan=(acc,sg|nom,sg)} {крутизна=S,sg,f,inan=gen}.
+Мы{мы=SPRO,pl,1p=nom} влагой{влага=S,f,inan=ins,sg} и{и=CONJ=} огнем{огонь=S,m,inan=ins,sg} воплощены{воплощать=V,tran=praet,pl,partcp,brev,pf,pass}.
+И{и=CONJ=} нашу{наш=APRO=acc,sg,f} мысль{мысль=S,f,inan=(acc,sg|nom,sg)} всегда{всегда=ADVPRO=} влечет{влечь=V,ipf,tran=inpraes,sg,indic,3p} к{к=PR=} глубинам{глубина=S,f,inan=dat,pl}.
+И{и=CONJ=} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} же{же=PART=} знак{знак=S,m,inan=(acc,sg|nom,sg)} ведет{вести=V,ipf,tran=inpraes,sg,indic,3p} нас{мы=SPRO,pl,1p=(abl|acc|gen)} по{по=PR=} вершинам{вершина=S,f,inan=dat,pl}.
+Нам{мы=SPRO,pl,1p=dat} любо{любо=ADV,praed=} знать{знать=V,ipf,tran=inf} опасность{опасность=S,f,inan=(acc,sg|nom,sg)} крутизны{крутизна=S,sg,f,inan=gen}.
 
-{от=PR=} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=nom}, {но=CONJ=} {мы=SPRO,pl,1p=nom} {из=PR=} {океан=S,m,inan=gen,sg}.
-{индийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)}. {на=PR=} {влага=S,f,inan=(abl,sg|dat,sg)} {мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{на=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} {миг=S,m,inan=dat,sg} {лик=S,m,inan=(acc,sg|nom,sg)} {являть=V,tran=inpraes,ger,ipf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)}, —
+От{от=PR=} Солнца{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)} мы{мы=SPRO,pl,1p=nom}, но{но=CONJ=} мы{мы=SPRO,pl,1p=nom} из{из=PR=} Океана{океан=S,m,inan=gen,sg}.
+Индийский{индийский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сон{сон=S,m,inan=(acc,sg|nom,sg)}. На{на=PR=} влаге{влага=S,f,inan=(abl,sg|dat,sg)} мировой{мировой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+На{на=PR=} вечном{вечный=A=(abl,sg,plen,m|abl,sg,plen,n)} мигу{миг=S,m,inan=dat,sg} лик{лик=S,m,inan=(acc,sg|nom,sg)} являя{являть=V,tran=inpraes,ger,ipf} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)}, —
 
-{с=PR=} {заря=S,f,inan=ins,sg}, {велеть=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} {просыпаться=V,intr=inf,ipf} {рано=ADV=},
-{раскрываться=V,intr=praet,sg,indic,m,pf} {чаша=S,f,inan=ins,sg} {лотос=S,m,inan=(acc,sg|nom,sg)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
-{и=CONJ=} {бог=S,m,anim=nom,sg} {в=PR=} {цветок=S,m,inan=abl,sg}. {а=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {цветок=S,m,inan=gen,sg} {медвяный=A=sg,brev,f}.
+С{с=PR=} зарей{заря=S,f,inan=ins,sg}, велящей{велеть=V,intr=(inpraes,abl,sg,partcp,plen,f,ipf,act|inpraes,dat,sg,partcp,plen,f,ipf,act|inpraes,gen,sg,partcp,plen,f,ipf,act|inpraes,ins,sg,partcp,plen,f,ipf,act)} просыпаться{просыпаться=V,intr=inf,ipf} рано{рано=ADV=},
+Раскрылся{раскрываться=V,intr=praet,sg,indic,m,pf} чашей{чаша=S,f,inan=ins,sg} лотос{лотос=S,m,inan=(acc,sg|nom,sg)} голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+И{и=CONJ=} бог{бог=S,m,anim=nom,sg} в{в=PR=} цветке{цветок=S,m,inan=abl,sg}. А{а=CONJ=} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} цветка{цветок=S,m,inan=gen,sg} медвяна{медвяный=A=sg,brev,f}.

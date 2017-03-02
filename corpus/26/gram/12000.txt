@@ -1,24 +1,24 @@
-{карлик=S,m,anim=nom,sg} {безрукий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {во=PR=} {фрак=S,m,inan=abl,sg},
-{глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {неловкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {пингвин=S,m,anim=nom,sg},
-{помнить=V,ipf,tran=inpraes,sg,indic,2p} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {во=PR=} {мрак=S,m,inan=abl,sg},
-{синий=A=(acc,pl,plen,inan|nom,pl,plen)} {выступ=S,m,inan=(acc,pl|nom,pl)} {льдина=S,f,inan=gen,pl}?
+Карлик{карлик=S,m,anim=nom,sg} безрукий{безрукий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} во{во=PR=} фраке{фрак=S,m,inan=abl,sg},
+глупый{глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, неловкий{неловкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} пингвин{пингвин=S,m,anim=nom,sg},
+помнишь{помнить=V,ipf,tran=inpraes,sg,indic,2p} сиянье{сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} во{во=PR=} мраке{мрак=S,m,inan=abl,sg},
+синие{синий=A=(acc,pl,plen,inan|nom,pl,plen)} выступы{выступ=S,m,inan=(acc,pl|nom,pl)} льдин{льдина=S,f,inan=gen,pl}?
 
-{помнить=V,ipf,tran=inpraes,sg,indic,2p} {зарница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ночной=A=(acc,pl,plen,inan|nom,pl,plen)},
-{кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {складка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {огонь=S,m,inan=gen,sg}?
-{помнить=V,ipf,tran=inpraes,sg,indic,2p} {туман=S,m,inan=(acc,pl|nom,pl)} {седой=A=(acc,pl,plen,inan|nom,pl,plen)}
-{длинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {длинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}?
+Помнишь{помнить=V,ipf,tran=inpraes,sg,indic,2p} зарницы{зарница=S,f,inan=(acc,pl|gen,sg|nom,pl)} ночные{ночной=A=(acc,pl,plen,inan|nom,pl,plen)},
+кольца{кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} складки{складка=S,f,inan=(acc,pl|gen,sg|nom,pl)} огня{огонь=S,m,inan=gen,sg}?
+Помнишь{помнить=V,ipf,tran=inpraes,sg,indic,2p} туманы{туман=S,m,inan=(acc,pl|nom,pl)} седые{седой=A=(acc,pl,plen,inan|nom,pl,plen)}
+длинного{длинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, длинного{длинный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} дня{день=S,m,inan=gen,sg}?
 
-{грустный=A=nom,sg,plen,f} {птица=S,f,anim=nom,sg}, {смешной=A=nom,sg,plen,f},
-{глядеть=V,ipf,tran=inpraes,ger} {на=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}, {на=PR=} {человек=S,m,anim=(acc,pl|gen,pl)},
-{плакать=V,ipf,intr=inpraes,sg,indic,2p} {ли=PART=} {ты=SPRO,sg,2p=nom}, {вспоминать=V,ipf,tran=inpraes,ger}
-{ласковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {морж=S,m,anim=(acc,pl|gen,pl)}?
+Грустная{грустный=A=nom,sg,plen,f} птица{птица=S,f,anim=nom,sg}, смешная{смешной=A=nom,sg,plen,f},
+глядя{глядеть=V,ipf,tran=inpraes,ger} на{на=PR=} нас{мы=SPRO,pl,1p=(abl|acc|gen)}, на{на=PR=} людей{человек=S,m,anim=(acc,pl|gen,pl)},
+плачешь{плакать=V,ipf,intr=inpraes,sg,indic,2p} ли{ли=PART=} ты{ты=SPRO,sg,2p=nom}, вспоминая{вспоминать=V,ipf,tran=inpraes,ger}
+ласковых{ласковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, черных{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} моржей{морж=S,m,anim=(acc,pl|gen,pl)}?
 
-{помнить=V,ipf,tran=inpraes,sg,indic,2p} {ли=PART=} {птица=S,f,anim=acc,sg}-{подруга=S,f,anim=acc,sg},
-{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {высокий=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} {скала=S,f,inan=(abl,sg|dat,sg)},
-{вьюга=S,f,inan=acc,sg}, {волшебный=A=acc,sg,plen,f} {вьюга=S,f,inan=acc,sg},
-{снежный=A=(acc,pl,plen,inan|nom,pl,plen)} {вихорь=S,m,inan=(acc,pl|nom,pl)} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)}...
+Помнишь{помнить=V,ipf,tran=inpraes,sg,indic,2p} ли{ли=PART=} птицу{птица=S,f,anim=acc,sg}-подругу{подруга=S,f,anim=acc,sg},
+встречи{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)} на{на=PR=} высшей{высокий=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} скале{скала=S,f,inan=(abl,sg|dat,sg)},
+вьюгу{вьюга=S,f,inan=acc,sg}, волшебную{волшебный=A=acc,sg,plen,f} вьюгу{вьюга=S,f,inan=acc,sg},
+снежные{снежный=A=(acc,pl,plen,inan|nom,pl,plen)} вихри{вихорь=S,m,inan=(acc,pl|nom,pl)} во{во=PR=} мгле{мгла=S,f,inan=(abl,sg|dat,sg)}...
 
-{ах=INTJ=}, {этот=APRO=(nom,pl|acc,pl,inan)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}! {а=CONJ=} {ныне=ADV=}:
-{душный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {искусственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грот=S,m,inan=(acc,sg|nom,sg)},
-{имя=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} {по-латыни=ADV=},
-{пятиалтынный=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {вход=S,m,inan=(acc,sg|nom,sg)}...
+Ах{ах=INTJ=}, эти{этот=APRO=(nom,pl|acc,pl,inan)} встречи{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}! А{а=CONJ=} ныне{ныне=ADV=}:
+душный{душный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, искусственный{искусственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} грот{грот=S,m,inan=(acc,sg|nom,sg)},
+имя{имя=S,n,inan=(acc,sg|nom,sg)} твое{твой=APRO=(acc,sg,n|nom,sg,n)} по-латыни{по-латыни=ADV=},
+пятиалтынный{пятиалтынный=S,m,inan=(acc,sg|nom,sg)} за{за=PR=} вход{вход=S,m,inan=(acc,sg|nom,sg)}...

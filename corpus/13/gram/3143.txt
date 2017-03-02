@@ -1,20 +1,20 @@
-{я=SPRO,sg,1p=nom} {спрашивать=V=praet,sg,indic,m,ipf,tran} {мудрец=S,m,anim=(acc,pl|gen,pl)} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}: 
-«{зачем=ADVPRO=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {греть=V,ipf,tran=inpraes,sg,indic,3p}? 
-{зачем=ADVPRO=} {ветер=S,m,inan=(acc,sg|nom,sg)} {дуть=V,ipf,tran=inpraes,sg,indic,3p}? 
-{зачем=ADVPRO=} {человек=S,m,anim=nom,pl} {родиться=V,ipf,intr=inpraes,pl,indic,3p}?»
+Я{я=SPRO,sg,1p=nom} спрашивал{спрашивать=V=praet,sg,indic,m,ipf,tran} мудрецов{мудрец=S,m,anim=(acc,pl|gen,pl)} вселенной{вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}: 
+«Зачем{зачем=ADVPRO=} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} греет{греть=V,ipf,tran=inpraes,sg,indic,3p}? 
+зачем{зачем=ADVPRO=} ветер{ветер=S,m,inan=(acc,sg|nom,sg)} дует{дуть=V,ipf,tran=inpraes,sg,indic,3p}? 
+зачем{зачем=ADVPRO=} люди{человек=S,m,anim=nom,pl} родятся{родиться=V,ipf,intr=inpraes,pl,indic,3p}?»
 
-{отвечать=V,intr=praet,pl,indic,ipf} {мудрец=S,m,anim=nom,pl} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}:
-— {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {греть=V,ipf,tran=inpraes,sg,indic,3p} {затем=ADV=},
-{чтоб=CONJ=} {созревать=V,intr=praet,sg,indic,m,ipf} {хлеб=S,m,inan=(acc,sg|nom,sg)} {для=PR=} {пища=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
-{и=CONJ=} {чтобы=CONJ=} {человек=S,m,anim=nom,pl} {от=PR=} {зараза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мереть=V,ipf,intr=praet,pl,indic}.
-{ветер=S,m,inan=(acc,sg|nom,sg)} {дуть=V,ipf,tran=inpraes,sg,indic,3p} {затем=ADV=},
-{чтоб=CONJ=} {приводить=V=inf,ipf,tran} {корабль=S,m,inan=(acc,pl|nom,pl)} {к=PR=} {пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
-{и=CONJ=} {чтоб=CONJ=} {песок=S,m,inan=ins,sg} {засыпать=V=inf,ipf,tran} {караван=S,m,inan=(acc,pl|nom,pl)}.
-{человек=S,m,anim=nom,pl} {родиться=V,ipf,intr=inpraes,pl,indic,3p} {затем=ADV=},
-{чтоб=CONJ=} {расставаться=V,intr=inf,pf} {с=PR=} {милый=A=ins,sg,plen,f} {жизнь=S,f,inan=ins,sg}
-{и=CONJ=} {чтоб=CONJ=} {от=PR=} {они=SPRO,pl=(abl|acc|gen)} {рождаться=V,intr=praet,pl,indic,pf} {другой=APRO=(nom,pl|acc,pl,inan)} {для=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Отвечали{отвечать=V,intr=praet,pl,indic,ipf} мудрецы{мудрец=S,m,anim=nom,pl} вселенной{вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}:
+— Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} греет{греть=V,ipf,tran=inpraes,sg,indic,3p} затем{затем=ADV=},
+чтоб{чтоб=CONJ=} созревал{созревать=V,intr=praet,sg,indic,m,ipf} хлеб{хлеб=S,m,inan=(acc,sg|nom,sg)} для{для=PR=} пищи{пища=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+и{и=CONJ=} чтобы{чтобы=CONJ=} люди{человек=S,m,anim=nom,pl} от{от=PR=} заразы{зараза=S,f,inan=(acc,pl|gen,sg|nom,pl)} мёрли{мереть=V,ipf,intr=praet,pl,indic}.
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)} дует{дуть=V,ipf,tran=inpraes,sg,indic,3p} затем{затем=ADV=},
+чтоб{чтоб=CONJ=} приводить{приводить=V=inf,ipf,tran} корабли{корабль=S,m,inan=(acc,pl|nom,pl)} к{к=PR=} пристани{пристань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} дальней{дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+и{и=CONJ=} чтоб{чтоб=CONJ=} песком{песок=S,m,inan=ins,sg} засыпать{засыпать=V=inf,ipf,tran} караваны{караван=S,m,inan=(acc,pl|nom,pl)}.
+Люди{человек=S,m,anim=nom,pl} родятся{родиться=V,ipf,intr=inpraes,pl,indic,3p} затем{затем=ADV=},
+чтоб{чтоб=CONJ=} расстаться{расставаться=V,intr=inf,pf} с{с=PR=} милою{милый=A=ins,sg,plen,f} жизнью{жизнь=S,f,inan=ins,sg}
+и{и=CONJ=} чтоб{чтоб=CONJ=} от{от=PR=} них{они=SPRO,pl=(abl|acc|gen)} родились{рождаться=V,intr=praet,pl,indic,pf} другие{другой=APRO=(nom,pl|acc,pl,inan)} для{для=PR=} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
 
-«{почему=ADVPRO=} {ж=PART=} {бог=S,m,anim=nom,pl} {так=ADVPRO=} {все=ADV=} {создавать=V,tran=praet,pl,indic,pf}?»
-— {потому=ADVPRO=} {же=PART=},
-{почему=ADVPRO=} {в=PR=} {ты=SPRO,sg,2p=(acc|gen)} {вкладывать=V,tran=praet,pl,indic,pf} {желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
-{задавать=V,tran=inf,ipf} {праздный=A=(acc,pl,plen,inan|nom,pl,plen)} {вопрос=S,m,inan=(acc,pl|nom,pl)}.
+«Почему{почему=ADVPRO=} ж{ж=PART=} боги{бог=S,m,anim=nom,pl} так{так=ADVPRO=} всё{все=ADV=} создали{создавать=V,tran=praet,pl,indic,pf}?»
+— Потому{потому=ADVPRO=} же{же=PART=},
+почему{почему=ADVPRO=} в{в=PR=} тебя{ты=SPRO,sg,2p=(acc|gen)} вложили{вкладывать=V,tran=praet,pl,indic,pf} желанье{желание=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+задавать{задавать=V,tran=inf,ipf} праздные{праздный=A=(acc,pl,plen,inan|nom,pl,plen)} вопросы{вопрос=S,m,inan=(acc,pl|nom,pl)}.

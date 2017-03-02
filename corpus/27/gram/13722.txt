@@ -1,14 +1,14 @@
-{дымиться=V,ipf,intr=inpraes,sg,indic,3p} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {рассвет=S,m,inan=(acc,sg|nom,sg)} {белеть=V,ipf,intr=inpraes,sg,indic,3p},
-{в=PR=} {степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кричать=V,ipf,intr=inpraes,pl,indic,3p} {орел=S,m,anim=nom,pl},
-{и=CONJ=} {дико=ADV=}-{звонок=S,m,inan=(acc,sg|nom,sg)} {они=SPRO,pl=(acc|gen)} {плач=S,m,inan=(acc,sg|nom,sg)} {голодный=S,m,anim=nom,sg}
-{среди=PR=} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {плыть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Дымится{дымиться=V,ipf,intr=inpraes,sg,indic,3p} поле{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}, рассвет{рассвет=S,m,inan=(acc,sg|nom,sg)} белеет{белеть=V,ipf,intr=inpraes,sg,indic,3p},
+В{в=PR=} степи{степь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} туманной{туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кричат{кричать=V,ipf,intr=inpraes,pl,indic,3p} орлы{орел=S,m,anim=nom,pl},
+И{и=CONJ=} дико{дико=ADV=}-звонок{звонок=S,m,inan=(acc,sg|nom,sg)} их{они=SPRO,pl=(acc|gen)} плач{плач=S,m,inan=(acc,sg|nom,sg)} голодный{голодный=S,m,anim=nom,sg}
+Среди{среди=PR=} холодной{холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} плывущей{плыть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} мглы{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{в=PR=} {роса=S,f,inan=(abl,sg|dat,sg)} {они=SPRO,pl=(acc|gen)} {крыло=S,n,inan=(acc,pl|nom,pl)}, {в=PR=} {роса=S,f,inan=(abl,sg|dat,sg)} {бурьян=S,m,inan=(acc,pl|nom,pl)},
-{благоухать=V,ipf,intr=inpraes,pl,indic,3p} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {со=PR=} {сон=S,m,inan=gen,sg}...
-{заря=S,f,inan=ins,sg} {сладкий=A=sg,brev,m} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {бодрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {холод=S,m,inan=(acc,sg|nom,sg)},
-{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {голод=S,m,inan=(acc,sg|nom,sg)}, — {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {зов=S,m,inan=(acc,sg|nom,sg)}, {весна=S,f,inan=nom,sg}!
+В{в=PR=} росе{роса=S,f,inan=(abl,sg|dat,sg)} их{они=SPRO,pl=(acc|gen)} крылья{крыло=S,n,inan=(acc,pl|nom,pl)}, в{в=PR=} росе{роса=S,f,inan=(abl,sg|dat,sg)} бурьяны{бурьян=S,m,inan=(acc,pl|nom,pl)},
+Благоухают{благоухать=V,ipf,intr=inpraes,pl,indic,3p} поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} со{со=PR=} сна{сон=S,m,inan=gen,sg}...
+Зарею{заря=S,f,inan=ins,sg} сладок{сладкий=A=sg,brev,m} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} бодрый{бодрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} холод{холод=S,m,inan=(acc,sg|nom,sg)},
+Твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} томный{томный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} голод{голод=S,m,inan=(acc,sg|nom,sg)}, — твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} зов{зов=S,m,inan=(acc,sg|nom,sg)}, весна{весна=S,f,inan=nom,sg}!
 
-{ты=SPRO,sg,2p=nom} {побеждать=V=praet,sg,indic,f,pf}, — {весь=APRO=nom,sg,f} {степь=S,f,inan=(acc,sg|nom,sg)} {дымиться=V,ipf,intr=inpraes,sg,indic,3p},
-{над=PR=} {степь=S,f,inan=ins,sg} {властно=ADV=} {кричать=V,ipf,intr=inpraes,pl,indic,3p} {орел=S,m,anim=nom,pl},
-{и=CONJ=} {туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жаркий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {пожар=S,m,inan=ins,sg},
-{и=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {шар=S,m,inan=ins,sg} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {из=PR=} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+Ты{ты=SPRO,sg,2p=nom} победила{побеждать=V=praet,sg,indic,f,pf}, — вся{весь=APRO=nom,sg,f} степь{степь=S,f,inan=(acc,sg|nom,sg)} дымится{дымиться=V,ipf,intr=inpraes,sg,indic,3p},
+Над{над=PR=} степью{степь=S,f,inan=ins,sg} властно{властно=ADV=} кричат{кричать=V,ipf,intr=inpraes,pl,indic,3p} орлы{орел=S,m,anim=nom,pl},
+И{и=CONJ=} тучи{туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} жарким{жаркий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} горят{гореть=V,ipf,intr=inpraes,pl,indic,3p} пожаром{пожар=S,m,inan=ins,sg},
+И{и=CONJ=} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} шаром{шар=S,m,inan=ins,sg} встает{вставать=V,intr=inpraes,sg,indic,3p,ipf} из{из=PR=} мглы{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

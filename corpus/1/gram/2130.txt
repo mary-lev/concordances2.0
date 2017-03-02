@@ -1,14 +1,14 @@
-{ты=SPRO,sg,2p=nom} — {буйный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зов=S,m,inan=(acc,sg|nom,sg)} {рог=S,m,inan=gen,pl} {призывной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{влекущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {на=PR=} {неверный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {след=S,m,inan=(acc,sg|nom,sg)},
-{ты=SPRO,sg,2p=nom} — {серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)} {река=S,f,inan=gen,pl} {разливной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{обманчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {болотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}.
+Ты{ты=SPRO,sg,2p=nom} — буйный{буйный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} зов{зов=S,m,inan=(acc,sg|nom,sg)} рогов{рог=S,m,inan=gen,pl} призывных{призывной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Влекущий{влекущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} на{на=PR=} неверный{неверный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} след{след=S,m,inan=(acc,sg|nom,sg)},
+Ты{ты=SPRO,sg,2p=nom} — серый{серый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ветер{ветер=S,m,inan=(acc,sg|nom,sg)} рек{река=S,f,inan=gen,pl} разливных{разливной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Обманчивый{обманчивый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} болотный{болотный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свет{свет=S,sg,m,inan=(acc|nom)}.
 
-{любить=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)}, {как=CONJ=} {посох=S,m,inan=(acc,sg|nom,sg)} — {странник=S,m,anim=nom,sg},
-{как=ADVPRO=} {воин=S,m,anim=nom,sg} — {милый=A=acc,sg,plen,f} {в=PR=} {бой=S,m,inan=(dat,sg|loc,sg)},
-{ты=SPRO,sg,2p=(acc|gen)} {провидеть=V,ipf,tran=inpraes,sg,indic,1p}, {как=CONJ=} {изгнанник=S,m,anim=nom,sg}
-{провидеть=V,ipf,tran=inpraes,sg,indic,3p} {родина=S,f,inan=acc,sg} {свой=APRO=acc,sg,f}.
+Люблю{любить=V,ipf,tran=inpraes,sg,indic,1p} тебя{ты=SPRO,sg,2p=(acc|gen)}, как{как=CONJ=} посох{посох=S,m,inan=(acc,sg|nom,sg)} — странник{странник=S,m,anim=nom,sg},
+Как{как=ADVPRO=} воин{воин=S,m,anim=nom,sg} — милую{милый=A=acc,sg,plen,f} в{в=PR=} бою{бой=S,m,inan=(dat,sg|loc,sg)},
+Тебя{ты=SPRO,sg,2p=(acc|gen)} провижу{провидеть=V,ipf,tran=inpraes,sg,indic,1p}, как{как=CONJ=} изгнанник{изгнанник=S,m,anim=nom,sg}
+Провидит{провидеть=V,ipf,tran=inpraes,sg,indic,3p} родину{родина=S,f,inan=acc,sg} свою{свой=APRO=acc,sg,f}.
 
-{но=CONJ=} {лик=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {я=SPRO,sg,1p=(abl|dat)} {незримый=A=sg,brev,m}, {неведомый=A=sg,brev,m},
-{твой=APRO=nom,sg,f} {непостижимый=A=sg,brev,f} {власть=S,f,inan=(acc,sg|nom,sg)}:
-{вести=V,ipf,tran=inpraes,ger} {я=SPRO,sg,1p=(acc|gen)}, {как=CONJ=} {вождь=S,m,anim=nom,sg}, {к=PR=} {победа=S,f,inan=dat,pl},
-{испепелять=V,tran=inpraes,sg,indic,2p,ipf} {ты=SPRO,sg,2p=nom}, {как=CONJ=} {страсть=S,f,inan=(acc,sg|nom,sg)}.
+Но{но=CONJ=} лик{лик=S,m,inan=(acc,sg|nom,sg)} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} мне{я=SPRO,sg,1p=(abl|dat)} незрим{незримый=A=sg,brev,m}, неведом{неведомый=A=sg,brev,m},
+Твоя{твой=APRO=nom,sg,f} непостижима{непостижимый=A=sg,brev,f} власть{власть=S,f,inan=(acc,sg|nom,sg)}:
+Ведя{вести=V,ipf,tran=inpraes,ger} меня{я=SPRO,sg,1p=(acc|gen)}, как{как=CONJ=} вождь{вождь=S,m,anim=nom,sg}, к{к=PR=} победам{победа=S,f,inan=dat,pl},
+Испепеляешь{испепелять=V,tran=inpraes,sg,indic,2p,ipf} ты{ты=SPRO,sg,2p=nom}, как{как=CONJ=} страсть{страсть=S,f,inan=(acc,sg|nom,sg)}.

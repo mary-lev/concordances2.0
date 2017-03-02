@@ -1,19 +1,19 @@
-{гаснуть=V,ipf,intr=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)}. {сиять=V,ipf,intr=inpraes,sg,indic,3p} {вечер=S,m,inan=(acc,sg|nom,sg)}. 
-{парус=S,m,inan=(acc,pl|gen,sg|nom,pl)}. {шуметь=V,ipf,intr=inpraes,pl,indic,3p} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
-{человеческий=A=(acc,pl,plen,inan|nom,pl,plen)} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
-{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} {голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+Гаснет{гаснуть=V,ipf,intr=inpraes,sg,indic,3p} мир{мир=S,m,inan=(acc,sg|nom,sg)}. Сияет{сиять=V,ipf,intr=inpraes,sg,indic,3p} вечер{вечер=S,m,inan=(acc,sg|nom,sg)}. 
+Паруса{парус=S,m,inan=(acc,pl|gen,sg|nom,pl)}. Шумят{шуметь=V,ipf,intr=inpraes,pl,indic,3p} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
+Человеческие{человеческий=A=(acc,pl,plen,inan|nom,pl,plen)} речи{речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, 
+Ангельские{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} голоса{голос=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{человеческий=A=(acc,sg,plen,n|nom,sg,plen,n)} {горе=S,sg,n,inan=(abl|acc|nom)}, 
-{ангельский=A=(acc,sg,plen,n|nom,sg,plen,n)} {торжество=S,n,inan=(acc,sg|nom,sg)}... 
-{только=PART=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {только=PART=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
-{только=PART=}. {много=ADV=comp} {ничто=SPRO,sg,n=gen}.
+Человеческое{человеческий=A=(acc,sg,plen,n|nom,sg,plen,n)} горе{горе=S,sg,n,inan=(abl|acc|nom)}, 
+Ангельское{ангельский=A=(acc,sg,plen,n|nom,sg,plen,n)} торжество{торжество=S,n,inan=(acc,sg|nom,sg)}... 
+Только{только=PART=} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}. Только{только=PART=} море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+Только{только=PART=}. Больше{много=ADV=comp} ничего{ничто=SPRO,sg,n=gen}.
 
-{без=PR=} {число=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {сиять=V,ipf,intr=inpraes,pl,indic,3p} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
-{сладко=ADV=comp} {мгла=S,f,inan=nom,sg}. {колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
-{черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {бархат=S,m,inan=ins,sg} {на=PR=} {плечо=S,n,inan=(acc,pl|nom,pl)} 
-{вечность=S,f,inan=(acc,sg|nom,sg)} {звездный=A=nom,sg,plen,f} {ложиться=V,intr=praet,sg,indic,f,pf}.
+Без{без=PR=} числа{число=S,n,inan=(acc,pl|gen,sg|nom,pl)}, сияют{сиять=V,ipf,intr=inpraes,pl,indic,3p} свечи{свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+Слаще{сладко=ADV=comp} мгла{мгла=S,f,inan=nom,sg}. Колокола{колокол=S,m,inan=(acc,pl|gen,sg|nom,pl)}. 
+Черным{черный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} бархатом{бархат=S,m,inan=ins,sg} на{на=PR=} плечи{плечо=S,n,inan=(acc,pl|nom,pl)} 
+Вечность{вечность=S,f,inan=(acc,sg|nom,sg)} звездная{звездный=A=nom,sg,plen,f} легла{ложиться=V,intr=praet,sg,indic,f,pf}.
 
-{тихо=ADV=comp}... {это=PART=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {уходить=V,intr=inpraes,sg,indic,3p,ipf}, 
-{все=SPRO,pl=(acc|nom)} {любить=V,ipf,tran=inpraes,ger} {и=CONJ=} {все=SPRO,pl=(acc|nom)} {губить=V,ipf,tran=inpraes,ger}. 
-{слышать=V,ipf,tran=inpraes,sg,indic,2p}? {это=PART=} {ночь=S,f,inan=(acc,sg|nom,sg)} {уводить=V=inpraes,sg,indic,3p,ipf,tran} 
-{в=PR=} {вечность=S,f,inan=(acc,sg|nom,sg)} {звездный=A=acc,sg,plen,f} {ты=SPRO,sg,2p=(acc|gen)}.
+Тише{тихо=ADV=comp}... Это{это=PART=} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} уходит{уходить=V,intr=inpraes,sg,indic,3p,ipf}, 
+Все{все=SPRO,pl=(acc|nom)} любя{любить=V,ipf,tran=inpraes,ger} и{и=CONJ=} все{все=SPRO,pl=(acc|nom)} губя{губить=V,ipf,tran=inpraes,ger}. 
+Слышишь{слышать=V,ipf,tran=inpraes,sg,indic,2p}? Это{это=PART=} ночь{ночь=S,f,inan=(acc,sg|nom,sg)} уводит{уводить=V=inpraes,sg,indic,3p,ipf,tran} 
+В{в=PR=} вечность{вечность=S,f,inan=(acc,sg|nom,sg)} звездную{звездный=A=acc,sg,plen,f} тебя{ты=SPRO,sg,2p=(acc|gen)}.

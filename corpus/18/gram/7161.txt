@@ -1,85 +1,85 @@
-{вставать=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {помолиться=V,pf,intr=praet,ger},
-{пойти=V,pf,intr=inpraes,sg,indic,1p} {перекреститься?=V,intr=inpraes,ger,ipf},
-{из=PR=} {дверь=S,f,inan=gen,pl} {в=PR=} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
-{из=PR=} {ворота=S,pl,inan=gen} {в=PR=} {ворота=S,pl,inan=(acc|nom)} —
-{утренний=A=ins,pl,plen} {тропа=S,f,inan=ins,pl},
-{огненный=A=ins,pl,plen} {стопа=S,f,inan=ins,pl},
-{во=PR=} {чисто=ADV=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{на=PART=} {белый=A=sg,brev,m}-{горючий=A=sg,brev,m} {камень=S,m,inan=(acc,sg|nom,sg)}.
+Встану{вставать=V,intr=inpraes,sg,indic,1p,pf} я{я=SPRO,sg,1p=nom} помолясь{помолиться=V,pf,intr=praet,ger},
+Пойду{пойти=V,pf,intr=inpraes,sg,indic,1p} перекрестясь{перекреститься?=V,intr=inpraes,ger,ipf},
+Из{из=PR=} дверей{дверь=S,f,inan=gen,pl} в{в=PR=} двери{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+Из{из=PR=} ворот{ворота=S,pl,inan=gen} в{в=PR=} ворота{ворота=S,pl,inan=(acc|nom)} —
+Утренними{утренний=A=ins,pl,plen} тропами{тропа=S,f,inan=ins,pl},
+Огненными{огненный=A=ins,pl,plen} стопами{стопа=S,f,inan=ins,pl},
+Во{во=PR=} чисто{чисто=ADV=} поле{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+На{на=PART=} бел{белый=A=sg,brev,m}-горюч{горючий=A=sg,brev,m} камень{камень=S,m,inan=(acc,sg|nom,sg)}.
 
-{становиться=V,intr=inpraes,sg,indic,1p,pf} {я=SPRO,sg,1p=nom} {на=PR=} {восток=S,geo,m,inan=(acc,sg|nom,sg)} {лицо=S,n,inan=ins,sg},
-{на=PR=} {запад=S,geo,m,inan=(acc,sg|nom,sg)} {хребет=S,m,inan=ins,sg},
-{оглянуться=V,pf,intr=inpraes,sg,indic,1p} {на=PR=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {четыре=NUM=(nom|acc,inan)} {сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)}: 
-{на=PR=} {семь=NUM=(acc|nom)} {море=S,n,inan=gen,pl},
-{на=PR=} {три=NUM=(nom|acc,inan)} {океан=S,m,inan=gen,sg},
-{на=PR=} {семьдесят=NUM=(acc|nom)} {семь=NUM=(acc|nom)} {племя=S,n,inan=gen,pl},
-{на=PR=} {тридцать=NUM=(acc|nom)} {три=NUM=(nom|acc,inan)} {царство=S,n,inan=(acc,pl|gen,sg|nom,pl)} - 
-{на=PR=} {весь=APRO=acc,sg,f} {земля=S,f,inan=acc,sg} {святой=A=sg,brev,n}-{русский=A=acc,sg,plen,f}.
+Стану{становиться=V,intr=inpraes,sg,indic,1p,pf} я{я=SPRO,sg,1p=nom} на{на=PR=} восток{восток=S,geo,m,inan=(acc,sg|nom,sg)} лицом{лицо=S,n,inan=ins,sg},
+На{на=PR=} запад{запад=S,geo,m,inan=(acc,sg|nom,sg)} хребтом{хребет=S,m,inan=ins,sg},
+Оглянусь{оглянуться=V,pf,intr=inpraes,sg,indic,1p} на{на=PR=} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} четыре{четыре=NUM=(nom|acc,inan)} стороны{сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)}: 
+На{на=PR=} семь{семь=NUM=(acc|nom)} морей{море=S,n,inan=gen,pl},
+На{на=PR=} три{три=NUM=(nom|acc,inan)} океана{океан=S,m,inan=gen,sg},
+На{на=PR=} семьдесят{семьдесят=NUM=(acc|nom)} семь{семь=NUM=(acc|nom)} племен{племя=S,n,inan=gen,pl},
+На{на=PR=} тридцать{тридцать=NUM=(acc|nom)} три{три=NUM=(nom|acc,inan)} царства{царство=S,n,inan=(acc,pl|gen,sg|nom,pl)} - 
+На{на=PR=} всю{весь=APRO=acc,sg,f} землю{земля=S,f,inan=acc,sg} Свято{святой=A=sg,brev,n}-Русскую{русский=A=acc,sg,plen,f}.
 
-{не=PART=} {слыхать=V,ipf,tran=inf} {человек=S,m,anim=(acc,pl|gen,pl)},
-{не=PART=} {видать=V,ipf,tran=inf} {церковь=S,f,inan=gen,pl},
-{ни=CONJ=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {монастырь=S,m,inan=gen,pl}, - 
-{лежать=V,ipf,intr=inpraes,sg,indic,3p} {русь=S,geo,sg,f,inan=(acc|nom)} - 
-{разорять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass},
-{кровавить=V,ipf,tran=praet,nom,sg,partcp,plen,f,pass}, {опалять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}.
-{по=PR=} {весь=APRO=(dat,sg,m|dat,sg,n)} {поле=S,n,inan=dat,sg} - 
-{дикий=A=(dat,sg,plen,m|dat,sg,plen,n)} — {великий=A=(dat,sg,plen,m|dat,sg,plen,n)} - 
-{кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сухой=A=(acc,pl,plen,inan|nom,pl,plen)} - {пустой=A=(acc,pl,plen,inan|nom,pl,plen)},
-{мертвый=A=(acc,pl,plen,inan|nom,pl,plen)} - {желтый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{сабля=S,f,inan=ins,sg} {сечь=V,ipf,tran=praet,pl,partcp,brev,pass},
-{пуля=S,f,inan=ins,sg} {меченый=A=pl,brev},
-{коньми?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {топтать=V,ipf,tran=praet,pl,partcp,brev,pass}.
+Не{не=PART=} слыхать{слыхать=V,ipf,tran=inf} людей{человек=S,m,anim=(acc,pl|gen,pl)},
+Не{не=PART=} видать{видать=V,ipf,tran=inf} церквей{церковь=S,f,inan=gen,pl},
+Ни{ни=CONJ=} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} монастырей{монастырь=S,m,inan=gen,pl}, - 
+Лежит{лежать=V,ipf,intr=inpraes,sg,indic,3p} Русь{русь=S,geo,sg,f,inan=(acc|nom)} - 
+Разоренная{разорять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass},
+Кровавленная{кровавить=V,ipf,tran=praet,nom,sg,partcp,plen,f,pass}, опаленная{опалять=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}.
+По{по=PR=} всему{весь=APRO=(dat,sg,m|dat,sg,n)} полю{поле=S,n,inan=dat,sg} - 
+Дикому{дикий=A=(dat,sg,plen,m|dat,sg,plen,n)} — Великому{великий=A=(dat,sg,plen,m|dat,sg,plen,n)} - 
+Кости{кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} сухие{сухой=A=(acc,pl,plen,inan|nom,pl,plen)} - пустые{пустой=A=(acc,pl,plen,inan|nom,pl,plen)},
+Мертвые{мертвый=A=(acc,pl,plen,inan|nom,pl,plen)} - желтые{желтый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Саблей{сабля=S,f,inan=ins,sg} сечены{сечь=V,ipf,tran=praet,pl,partcp,brev,pass},
+Пулей{пуля=S,f,inan=ins,sg} мечены{меченый=A=pl,brev},
+Коньми{коньми?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} топтаны{топтать=V,ipf,tran=praet,pl,partcp,brev,pass}.
 
-{ходить=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {поле=S,n,inan=dat,sg} {железный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {муж=S,m,anim=nom,sg},
-{бить=V,ipf,tran=inpraes,sg,indic,3p} {по=PR=} {кость=S,f,inan=dat,pl} 
-{железный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {жезл=S,m,inan=ins,sg}:
-«{с=PR=} {четыре=NUM=(abl|gen|acc,anim)} {сторона=S,f,inan=gen,pl},
-{с=PR=} {четыре=NUM=(abl|gen|acc,anim)} {ветер=S,m,inan=gen,pl} 
-{дохнуть=V,pf,intr=sg,imper,2p}, {дух=S,m,inan=(acc,sg|nom,sg)}!
-{оживать=V,intr=sg,imper,2p,pf} {кость=S,f,inan=(acc,sg|nom,sg)}!»
+Ходит{ходить=V,ipf,intr=inpraes,sg,indic,3p} по{по=PR=} полю{поле=S,n,inan=dat,sg} железный{железный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Муж{муж=S,m,anim=nom,sg},
+Бьет{бить=V,ipf,tran=inpraes,sg,indic,3p} по{по=PR=} костям{кость=S,f,inan=dat,pl} 
+Железным{железный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} жезлом{жезл=S,m,inan=ins,sg}:
+«С{с=PR=} четырех{четыре=NUM=(abl|gen|acc,anim)} сторон{сторона=S,f,inan=gen,pl},
+С{с=PR=} четырех{четыре=NUM=(abl|gen|acc,anim)} ветров{ветер=S,m,inan=gen,pl} 
+Дохни{дохнуть=V,pf,intr=sg,imper,2p}, Дух{дух=S,m,inan=(acc,sg|nom,sg)}!
+Оживи{оживать=V,intr=sg,imper,2p,pf} кость{кость=S,f,inan=(acc,sg|nom,sg)}!»
 
-{не=PART=} {пламень=S,inan=(acc,sg,n|nom,sg,n)} {гудеть=V,ipf,intr=inpraes,sg,indic,3p},
-{не=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)} {шуршать=V,ipf,intr=inpraes,sg,indic,3p},
-{не=PART=} {рожь=S,f,inan=(acc,sg|nom,sg)} {шелестеть=V,ipf,intr=inpraes,sg,indic,3p} —
-{кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {шуршать=V,ipf,intr=inpraes,pl,indic,3p},
-{плоть=S,f,inan=(acc,sg|nom,sg)} {шелестеть=V,ipf,intr=inpraes,sg,indic,3p},
-{жизнь=S,f,inan=(acc,sg|nom,sg)} {разгораться=V,intr=inpraes,sg,indic,3p,ipf}...
+Не{не=PART=} пламя{пламень=S,inan=(acc,sg,n|nom,sg,n)} гудит{гудеть=V,ipf,intr=inpraes,sg,indic,3p},
+Не{не=PART=} ветер{ветер=S,m,inan=(acc,sg|nom,sg)} шуршит{шуршать=V,ipf,intr=inpraes,sg,indic,3p},
+Не{не=PART=} рожь{рожь=S,f,inan=(acc,sg|nom,sg)} шелестит{шелестеть=V,ipf,intr=inpraes,sg,indic,3p} —
+Кости{кость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} шуршат{шуршать=V,ipf,intr=inpraes,pl,indic,3p},
+Плоть{плоть=S,f,inan=(acc,sg|nom,sg)} шелестит{шелестеть=V,ipf,intr=inpraes,sg,indic,3p},
+Жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} разгорается{разгораться=V,intr=inpraes,sg,indic,3p,ipf}...
 
-{как=CONJ=} {с=PR=} {кость=S,f,inan=ins,sg} {кость=S,f,inan=(acc,sg|nom,sg)} {сходиться=V,intr=inpraes,sg,indic,3p,ipf},
-{как=CONJ=} {плоть=S,f,inan=ins,sg} {кость=S,f,inan=(acc,sg|nom,sg)} {одеваться=V,intr=inpraes,sg,indic,3p,ipf},
-{как=CONJ=} {жилой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {плоть=S,f,inan=(acc,sg|nom,sg)} {зашиваться=V,intr=inpraes,sg,indic,3p,ipf},
-{как=CONJ=} {мышца=S,f,inan=ins,sg} {плоть=S,f,inan=(acc,sg|nom,sg)} {собираться=V,intr=inpraes,sg,indic,3p,ipf}, — 
-{так=ADVPRO=} —
-      {вставать=V,intr=sg,imper,2p,pf}, {русь=S,geo,sg,f,inan=(acc|nom)}! {подниматься=V,intr=sg,imper,2p,pf}, 
-{оживать=V,intr=sg,imper,2p,pf}, {собираться=V,intr=sg,imper,2p,pf}, {срастаться=V,intr=(inf,pf|sg,imper,2p,pf)} - 
-{царство=S,n,inan=(acc,sg|nom,sg)} {к=PR=} {царство=S,n,inan=dat,sg}, {племя=S,n,inan=(acc,sg|nom,sg)} {к=PR=} {племя=S,n,inan=(abl,sg|dat,sg|gen,sg)}.
+Как{как=CONJ=} с{с=PR=} костью{кость=S,f,inan=ins,sg} кость{кость=S,f,inan=(acc,sg|nom,sg)} сходится{сходиться=V,intr=inpraes,sg,indic,3p,ipf},
+Как{как=CONJ=} плотью{плоть=S,f,inan=ins,sg} кость{кость=S,f,inan=(acc,sg|nom,sg)} одевается{одеваться=V,intr=inpraes,sg,indic,3p,ipf},
+Как{как=CONJ=} жилой{жилой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} плоть{плоть=S,f,inan=(acc,sg|nom,sg)} зашивается{зашиваться=V,intr=inpraes,sg,indic,3p,ipf},
+Как{как=CONJ=} мышцей{мышца=S,f,inan=ins,sg} плоть{плоть=S,f,inan=(acc,sg|nom,sg)} собирается{собираться=V,intr=inpraes,sg,indic,3p,ipf}, — 
+Так{так=ADVPRO=} —
+      встань{вставать=V,intr=sg,imper,2p,pf}, Русь{русь=S,geo,sg,f,inan=(acc|nom)}! подымись{подниматься=V,intr=sg,imper,2p,pf}, 
+Оживи{оживать=V,intr=sg,imper,2p,pf}, соберись{собираться=V,intr=sg,imper,2p,pf}, срастись{срастаться=V,intr=(inf,pf|sg,imper,2p,pf)} - 
+Царство{царство=S,n,inan=(acc,sg|nom,sg)} к{к=PR=} царству{царство=S,n,inan=dat,sg}, племя{племя=S,n,inan=(acc,sg|nom,sg)} к{к=PR=} племени{племя=S,n,inan=(abl,sg|dat,sg|gen,sg)}.
 
-{ковать=V,ipf,tran=inpraes,sg,indic,3p} {кузнец=S,m,anim=nom,sg} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {венец=S,m,inan=(acc,sg|nom,sg)} —
-{обруч=S,m,inan=(acc,sg|nom,sg)} {ковать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}:
-{царство=S,n,inan=(acc,sg|nom,sg)} {русский=A=(acc,sg,plen,n|nom,sg,plen,n)}
-{собирать=V=inf,ipf,tran}, {сковывать=V=inf,pf}, {заклепывать=V,tran=inf,pf}
-{крепко-накрепко=ADV=},
-{туго-натуго=ADV=},
-{чтоб=CONJ=} {оно=SPRO,sg,3p,n=nom} - {царство=S,n,inan=(acc,sg|nom,sg)} {русский=A=(acc,sg,plen,n|nom,sg,plen,n)} - 
-{не=PART=} {рассыпаться=V,intr=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)},
-{не=PART=} {расплавляться=V,intr=praet,sg,indic,n,pf},
-{не=PART=} {расплескиваться=V,intr=praet,sg,indic,n,pf}...
+Кует{ковать=V,ipf,tran=inpraes,sg,indic,3p} кузнец{кузнец=S,m,anim=nom,sg} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} венец{венец=S,m,inan=(acc,sg|nom,sg)} —
+Обруч{обруч=S,m,inan=(acc,sg|nom,sg)} кованный{ковать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}:
+Царство{царство=S,n,inan=(acc,sg|nom,sg)} Русское{русский=A=(acc,sg,plen,n|nom,sg,plen,n)}
+Собирать{собирать=V=inf,ipf,tran}, сковать{сковывать=V=inf,pf}, заклепать{заклепывать=V,tran=inf,pf}
+Крепко-накрепко{крепко-накрепко=ADV=},
+Туго-натуго{туго-натуго=ADV=},
+Чтоб{чтоб=CONJ=} оно{оно=SPRO,sg,3p,n=nom} - Царство{царство=S,n,inan=(acc,sg|nom,sg)} Русское{русский=A=(acc,sg,plen,n|nom,sg,plen,n)} - 
+Не{не=PART=} рассыпалось{рассыпаться=V,intr=(praet,sg,indic,n,ipf|praet,sg,indic,n,pf)},
+Не{не=PART=} расплавилось{расплавляться=V,intr=praet,sg,indic,n,pf},
+Не{не=PART=} расплескалось{расплескиваться=V,intr=praet,sg,indic,n,pf}...
 
-{чтобы=CONJ=} {мы=SPRO,pl,1p=nom} {его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} - {царство=S,n,inan=(acc,sg|nom,sg)} {русский=A=(acc,sg,plen,n|nom,sg,plen,n)} —
-{в=PR=} {гульба=S,sg,f,inan=(abl|dat)} {не=PART=} {разгуливать=V=praet,pl,indic,pf,tran},
-{в=PR=} {плясне?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {не=PART=} {расплясать?=V,pf,tran=praet,pl,indic},
-{в=PR=} {торги=S,pl,inan=abl} {не=PART=} {расторговывать=V=praet,pl,indic,pf},
-{в=PR=} {слово=S,n,inan=abl,pl} {не=PART=} {разговаривать=V=praet,pl,indic,pf,tran},
-{в=PR=} {хвастня=S,f,inan=(abl,sg|dat,sg)} {не=PART=} {расхвастать=V,pf,intr=praet,pl,indic}.
+Чтобы{чтобы=CONJ=} мы{мы=SPRO,pl,1p=nom} его{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} - Царство{царство=S,n,inan=(acc,sg|nom,sg)} Русское{русский=A=(acc,sg,plen,n|nom,sg,plen,n)} —
+В{в=PR=} гульбе{гульба=S,sg,f,inan=(abl|dat)} не{не=PART=} разгуляли{разгуливать=V=praet,pl,indic,pf,tran},
+В{в=PR=} плясне{плясне?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} не{не=PART=} расплясали{расплясать?=V,pf,tran=praet,pl,indic},
+В{в=PR=} торгах{торги=S,pl,inan=abl} не{не=PART=} расторговали{расторговывать=V=praet,pl,indic,pf},
+В{в=PR=} словах{слово=S,n,inan=abl,pl} не{не=PART=} разговорили{разговаривать=V=praet,pl,indic,pf,tran},
+В{в=PR=} хвастне{хвастня=S,f,inan=(abl,sg|dat,sg)} не{не=PART=} расхвастали{расхвастать=V,pf,intr=praet,pl,indic}.
 
-{чтоб=CONJ=} {оно=SPRO,sg,3p,n=nom} — {царство=S,n,inan=(acc,sg|nom,sg)} {русский=A=(acc,sg,plen,n|nom,sg,plen,n)} —
-{рдеть=V,ipf,intr=praet,sg,indic,n}-{зориться?=V,ipf,intr=praet,sg,indic,n}
-{жизнь=S,f,inan=ins,sg} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{смерть=S,f,inan=ins,sg} {святой=S,m,anim=(abl,pl|acc,pl|gen,pl)},
-{мука=S,f,inan=ins,pl} {мучить=V,ipf=(praet,abl,pl,partcp,plen,pass,tran|praet,acc,pl,partcp,plen,pass,anim,tran|praet,gen,pl,partcp,plen,pass,tran)}.
+Чтоб{чтоб=CONJ=} оно{оно=SPRO,sg,3p,n=nom} — Царство{царство=S,n,inan=(acc,sg|nom,sg)} Русское{русский=A=(acc,sg,plen,n|nom,sg,plen,n)} —
+Рдело{рдеть=V,ipf,intr=praet,sg,indic,n}-зорилось{зориться?=V,ipf,intr=praet,sg,indic,n}
+Жизнью{жизнь=S,f,inan=ins,sg} живых{живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Смертью{смерть=S,f,inan=ins,sg} святых{святой=S,m,anim=(abl,pl|acc,pl|gen,pl)},
+Муками{мука=S,f,inan=ins,pl} мученных{мучить=V,ipf=(praet,abl,pl,partcp,plen,pass,tran|praet,acc,pl,partcp,plen,pass,anim,tran|praet,gen,pl,partcp,plen,pass,tran)}.
 
-{быть=V,intr=pl,imper,2p}, {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мой=APRO=(nom,pl|acc,pl,inan)}, {крепкий=A=pl,brev} {и=CONJ=} {лепка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
-{сольче?=ADV=} {соль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)}...
-{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} {замыкать=V,tran=inpraes,sg,indic,1p,pf},
-{а=CONJ=} {ключ=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)}-{океан=S,m,inan=(acc,sg|nom,sg)} {опускать=V=inpraes,sg,indic,1p,pf}.
+Будьте{быть=V,intr=pl,imper,2p}, слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} мои{мой=APRO=(nom,pl|acc,pl,inan)}, крепки{крепкий=A=pl,brev} и{и=CONJ=} лепки{лепка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, 
+Сольче{сольче?=ADV=} соли{соль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Жгучей{жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} пламени{пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)}...
+Слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)} замкну{замыкать=V,tran=inpraes,sg,indic,1p,pf},
+А{а=CONJ=} ключи{ключ=S,m,inan=(acc,pl|nom,pl)} в{в=PR=} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)}-Океан{океан=S,m,inan=(acc,sg|nom,sg)} опущу{опускать=V=inpraes,sg,indic,1p,pf}.

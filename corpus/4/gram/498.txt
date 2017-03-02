@@ -1,14 +1,14 @@
-{пустовать=V,ipf,intr=inpraes,sg,indic,3p} {место=S,n,inan=(acc,sg|nom,sg)}. {вечер=S,m,inan=(acc,sg|nom,sg)} {длиться=V,ipf,intr=inpraes,sg,indic,3p},
-{твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {отсутствие=S,n,inan=ins,sg} {томить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}.
-{назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {уста=S,pl,inan=dat} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}
-{напиток=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {стол=S,m,inan=abl,sg} {дымиться=V,ipf,intr=inpraes,sg,indic,3p}.
+Пустует{пустовать=V,ipf,intr=inpraes,sg,indic,3p} место{место=S,n,inan=(acc,sg|nom,sg)}. Вечер{вечер=S,m,inan=(acc,sg|nom,sg)} длится{длиться=V,ipf,intr=inpraes,sg,indic,3p},
+Твоим{твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} отсутствием{отсутствие=S,n,inan=ins,sg} томим{томить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}.
+Назначенный{назначать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} устам{уста=S,pl,inan=dat} твоим{твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}
+Напиток{напиток=S,m,inan=(acc,sg|nom,sg)} на{на=PR=} столе{стол=S,m,inan=abl,sg} дымится{дымиться=V,ipf,intr=inpraes,sg,indic,3p}.
 
-{так=ADVPRO=} {ворожить=V,ipf,intr=inpraes,ins,pl,partcp,plen,act} {шаг=S,m,inan=ins,pl}
-{пустынница=S,f,anim=(gen,sg|nom,pl)} {не=PART=} {подходить=V,intr=inpraes,sg,indic,2p,pf};
-{и=CONJ=} {на=PR=} {стекло=S,n,inan=abl,sg} {не=PART=} {проводить=V=inpraes,sg,indic,2p,pf}
-{узор=S,m,inan=gen,sg} {спящий=A=ins,pl,plen} {губа=S,f,inan=ins,pl};
+Так{так=ADVPRO=} ворожащими{ворожить=V,ipf,intr=inpraes,ins,pl,partcp,plen,act} шагами{шаг=S,m,inan=ins,pl}
+Пустынницы{пустынница=S,f,anim=(gen,sg|nom,pl)} не{не=PART=} подойдешь{подходить=V,intr=inpraes,sg,indic,2p,pf};
+И{и=CONJ=} на{на=PR=} стекле{стекло=S,n,inan=abl,sg} не{не=PART=} проведешь{проводить=V=inpraes,sg,indic,2p,pf}
+Узора{узор=S,m,inan=gen,sg} спящими{спящий=A=ins,pl,plen} губами{губа=S,f,inan=ins,pl};
 
-{напрасно=ADV=} {резвый=A=(acc,pl,plen,inan|nom,pl,plen)} {извив=S,m,inan=(acc,pl|nom,pl)} —
-{покуда=CONJ=} {он=SPRO,sg,3p,m=nom} {еще=ADV=} {дымить=V,ipf,intr=inpraes,sg,indic,3p} —
-{в=PR=} {пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)} {воздух=S,m,inan=abl,sg} {чертить=V,ipf,tran=inpraes,sg,indic,3p}
-{напиток=S,m,inan=(acc,sg|nom,sg)} {долготерпеливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+Напрасно{напрасно=ADV=} резвые{резвый=A=(acc,pl,plen,inan|nom,pl,plen)} извивы{извив=S,m,inan=(acc,pl|nom,pl)} —
+Покуда{покуда=CONJ=} он{он=SPRO,sg,3p,m=nom} еще{еще=ADV=} дымит{дымить=V,ipf,intr=inpraes,sg,indic,3p} —
+В{в=PR=} пустынном{пустынный=A=(abl,sg,plen,m|abl,sg,plen,n)} воздухе{воздух=S,m,inan=abl,sg} чертит{чертить=V,ipf,tran=inpraes,sg,indic,3p}
+Напиток{напиток=S,m,inan=(acc,sg|nom,sg)} долготерпеливый{долготерпеливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.

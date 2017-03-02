@@ -1,24 +1,24 @@
-{смерть=S,f,inan=(acc,sg|nom,sg)} — {это=PART=} {нет=PART=},
-{смерть=S,f,inan=(acc,sg|nom,sg)} — {это=PART=} {нет=PART=},
-{смерть=S,f,inan=(acc,sg|nom,sg)} — {это=PART=} {нет=PART=}.
-{нет=PART=} — {мать=S,f,anim=dat,pl},
-{нет=PART=} — {пекарь=S,m,anim=dat,pl}.
-({выпек=S,m,inan=(acc,sg|nom,sg)} — {не=PART=} {съедать=V=(inpraes,sg,indic,2p,pf|sg,imper,2p,pf)}!)
+Смерть{смерть=S,f,inan=(acc,sg|nom,sg)} — это{это=PART=} нет{нет=PART=},
+Смерть{смерть=S,f,inan=(acc,sg|nom,sg)} — это{это=PART=} нет{нет=PART=},
+Смерть{смерть=S,f,inan=(acc,sg|nom,sg)} — это{это=PART=} нет{нет=PART=}.
+Нет{нет=PART=} — матерям{мать=S,f,anim=dat,pl},
+Нет{нет=PART=} — пекарям{пекарь=S,m,anim=dat,pl}.
+(Выпек{выпек=S,m,inan=(acc,sg|nom,sg)} — не{не=PART=} съешь{съедать=V=(inpraes,sg,indic,2p,pf|sg,imper,2p,pf)}!)
 
-{смерть=S,f,inan=(acc,sg|nom,sg)} — {это=PART=} {так=ADVPRO=}:
-{недостроенный=A,plen=(acc,sg,m,inan|nom,sg,m)} {дом=S,m,inan=(acc,sg|nom,sg)},
-{недовзращивать?=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {сын=S,m,anim=nom,sg},
-{недовязанный=A,plen=(acc,sg,m,inan|nom,sg,m)} {сноп=S,m,inan=(acc,sg|nom,sg)},
-{недодышанный?=A,plen=(acc,sg,m,inan|nom,sg,m)} {вздох=S,m,inan=(acc,sg|nom,sg)},
-{недокрикивать?=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {крик=S,m,inan=(acc,sg|nom,sg)}.
+Смерть{смерть=S,f,inan=(acc,sg|nom,sg)} — это{это=PART=} так{так=ADVPRO=}:
+Недостроенный{недостроенный=A,plen=(acc,sg,m,inan|nom,sg,m)} дом{дом=S,m,inan=(acc,sg|nom,sg)},
+Недовзращенный{недовзращивать?=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} сын{сын=S,m,anim=nom,sg},
+Недовязанный{недовязанный=A,plen=(acc,sg,m,inan|nom,sg,m)} сноп{сноп=S,m,inan=(acc,sg|nom,sg)},
+Недодышанный{недодышанный?=A,plen=(acc,sg,m,inan|nom,sg,m)} вздох{вздох=S,m,inan=(acc,sg|nom,sg)},
+Недокрикнутый{недокрикивать?=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} крик{крик=S,m,inan=(acc,sg|nom,sg)}.
 
-{я=SPRO,sg,1p=nom} — {это=PART=} {да=PART=},
-{да=CONJ=} — {навсегда=ADV=},
-{да=PART=} — {вопреки=PR=},
-{да=CONJ=} — {через=PR=} {все=SPRO,pl=(acc|nom)}!
-{даже=PART=} {ты=SPRO,sg,2p=(abl|dat)}
-{да=PART=} {кричать=V,ipf,intr=inpraes,sg,indic,1p}, {нет=PART=}!
+Я{я=SPRO,sg,1p=nom} — это{это=PART=} да{да=PART=},
+Да{да=CONJ=} — навсегда{навсегда=ADV=},
+Да{да=PART=} — вопреки{вопреки=PR=},
+Да{да=CONJ=} — через{через=PR=} всё{все=SPRO,pl=(acc|nom)}!
+Даже{даже=PART=} тебе{ты=SPRO,sg,2p=(abl|dat)}
+Да{да=PART=} кричу{кричать=V,ipf,intr=inpraes,sg,indic,1p}, Нет{нет=PART=}!
 
-{становиться=V,intr=praet,sg,indic,n,pf} {быть=V,intr=inf,ipf} — {нет=PART=},
-{становиться=V,intr=praet,sg,indic,n,pf} {быть=V,intr=inf,ipf} — {вздор=S,m,inan=(acc,sg|nom,sg)},
-{календарный=A=nom,sg,plen,f} {ложь=S,f,inan=(acc,sg|nom,sg)}!
+Стало{становиться=V,intr=praet,sg,indic,n,pf} быть{быть=V,intr=inf,ipf} — нет{нет=PART=},
+Стало{становиться=V,intr=praet,sg,indic,n,pf} быть{быть=V,intr=inf,ipf} — вздор{вздор=S,m,inan=(acc,sg|nom,sg)},
+Календарная{календарный=A=nom,sg,plen,f} ложь{ложь=S,f,inan=(acc,sg|nom,sg)}!

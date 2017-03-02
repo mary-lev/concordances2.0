@@ -1,19 +1,19 @@
-{я=SPRO,sg,1p=(abl|dat)} {странно=ADV=} {видеть=V,ipf,tran=inf} {лицо=S,n,inan=(acc,sg|nom,sg)} {людской=A,plen=(acc,sg,n|nom,sg,n)},
-{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {взор=S,m,inan=(acc,pl|nom,pl)} {существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)} {иной=APRO=(abl,pl|gen,pl|acc,pl,anim)},
-{со=PR=} {я=SPRO,sg,1p=ins} {ветер=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {морской=A,plen=(acc,sg,n|nom,sg,n)},
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {то=SPRO,sg,n,inan=(acc|nom)}, {что=CONJ=} {чуждый=A=sg,brev,n} {для=PR=} {дума=S,f,inan=gen,pl} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+Мне{я=SPRO,sg,1p=(abl|dat)} странно{странно=ADV=} видеть{видеть=V,ipf,tran=inf} лицо{лицо=S,n,inan=(acc,sg|nom,sg)} людское{людской=A,plen=(acc,sg,n|nom,sg,n)},
+Я{я=SPRO,sg,1p=nom} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} взоры{взор=S,m,inan=(acc,pl|nom,pl)} существ{существо=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)} иных{иной=APRO=(abl,pl|gen,pl|acc,pl,anim)},
+Со{со=PR=} мною{я=SPRO,sg,1p=ins} ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} морское{морской=A,plen=(acc,sg,n|nom,sg,n)},
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} то{то=SPRO,sg,n,inan=(acc|nom)}, что{что=CONJ=} чуждо{чуждый=A=sg,brev,n} для{для=PR=} дум{дума=S,f,inan=gen,pl} земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
 
-{со=PR=} {я=SPRO,sg,1p=ins} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {за=PR=} {я=SPRO,sg,1p=ins} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {сказка=S,f,inan=acc,sg} {морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {глубина=S,f,inan=gen,pl},
-{я=SPRO,sg,1p=nom} {царь=S,m,anim=nom,sg} {над=PR=} {царство=S,n,inan=ins,sg} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {видение=S,n,inan=gen,pl},
-{всегда=ADVPRO=} {свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {всегда=ADVPRO=} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.
+Со{со=PR=} мною{я=SPRO,sg,1p=ins} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, за{за=PR=} мною{я=SPRO,sg,1p=ins} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Я{я=SPRO,sg,1p=nom} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} сказку{сказка=S,f,inan=acc,sg} морских{морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} глубин{глубина=S,f,inan=gen,pl},
+Я{я=SPRO,sg,1p=nom} царь{царь=S,m,anim=nom,sg} над{над=PR=} царством{царство=S,n,inan=ins,sg} живых{живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} видений{видение=S,n,inan=gen,pl},
+Всегда{всегда=ADVPRO=} свободный{свободный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, всегда{всегда=ADVPRO=} один{один=APRO=(acc,sg,m,inan|nom,sg,m)}.
 
-{я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {буря=S,f,inan=acc,sg}, {удар=S,m,inan=(acc,pl|nom,pl)} {гром=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{пожар=S,m,inan=(acc,pl|nom,pl)} {молния=S,f,inan=gen,pl} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {вдали=ADV=},
-{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {остров=S,m,inan=(acc,sg|nom,sg)}, {где=ADVPRO=} {все=SPRO,pl=(acc|nom)} {знакомый=A=sg,brev,n},
-{где=ADVPRO=} {я=SPRO,sg,1p=nom} — {владыка=S,m,anim=nom,sg} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Я{я=SPRO,sg,1p=nom} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} бурю{буря=S,f,inan=acc,sg}, удары{удар=S,m,inan=(acc,pl|nom,pl)} грома{гром=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+Пожары{пожар=S,m,inan=(acc,pl|nom,pl)} молний{молния=S,f,inan=gen,pl} горят{гореть=V,ipf,intr=inpraes,pl,indic,3p} вдали{вдали=ADV=},
+Я{я=SPRO,sg,1p=nom} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} Остров{остров=S,m,inan=(acc,sg|nom,sg)}, где{где=ADVPRO=} все{все=SPRO,pl=(acc|nom)} знакомо{знакомый=A=sg,brev,n},
+Где{где=ADVPRO=} я{я=SPRO,sg,1p=nom} — владыка{владыка=S,m,anim=nom,sg} моей{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {безмолвный=A=pl,brev},
-{я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {сердце=S,n,inan=ins,sg} {полет=S,m,inan=(acc,sg|nom,sg)} {время=S,n,inan=gen,pl},
-{со=PR=} {я=SPRO,sg,1p=ins} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {за=PR=} {я=SPRO,sg,1p=ins} {волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — {все=SPRO,pl=(acc|nom)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} — {сон=S,m,inan=(acc,sg|nom,sg)}.
+В{в=PR=} душе{душа=S,f,inan=(abl,sg|dat,sg)} холодной{холодный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} безмолвны{безмолвный=A=pl,brev},
+Я{я=SPRO,sg,1p=nom} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} сердцем{сердце=S,n,inan=ins,sg} полет{полет=S,m,inan=(acc,sg|nom,sg)} времен{время=S,n,inan=gen,pl},
+Со{со=PR=} мною{я=SPRO,sg,1p=ins} волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)}, за{за=PR=} мною{я=SPRO,sg,1p=ins} волны{волна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Я{я=SPRO,sg,1p=nom} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} вечный{вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} — все{все=SPRO,pl=(acc|nom)} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} же{же=PART=} — Сон{сон=S,m,inan=(acc,sg|nom,sg)}.

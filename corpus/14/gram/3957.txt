@@ -1,20 +1,20 @@
-{небо=S,n,inan=(acc,sg|nom,sg)} {мелкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дождик=S,m,inan=(acc,sg|nom,sg)} {сеять=V,ipf,tran=inpraes,sg,indic,3p}
-{на=PR=} {зацветать=V,intr=praet,acc,sg,partcp,plen,f,pf,act} {сирень=S,f,inan=(acc,sg|nom,sg)}.
-{за=PR=} {окно=S,n,inan=ins,sg} {крыло=S,n,inan=ins,pl} {веять=V,ipf,tran=inpraes,sg,indic,3p}
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,anim=(acc,pl|gen,pl)} {день=S,m,inan=(acc,sg|nom,sg)}.
+Небо{небо=S,n,inan=(acc,sg|nom,sg)} мелкий{мелкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} дождик{дождик=S,m,inan=(acc,sg|nom,sg)} сеет{сеять=V,ipf,tran=inpraes,sg,indic,3p}
+На{на=PR=} зацветшую{зацветать=V,intr=praet,acc,sg,partcp,plen,f,pf,act} сирень{сирень=S,f,inan=(acc,sg|nom,sg)}.
+За{за=PR=} окном{окно=S,n,inan=ins,sg} крылами{крыло=S,n,inan=ins,pl} веет{веять=V,ipf,tran=inpraes,sg,indic,3p}
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Духов{дух=S,m,anim=(acc,pl|gen,pl)} день{день=S,m,inan=(acc,sg|nom,sg)}.
 
-{нынче=ADV=} {друг=S,m,anim=dat,sg} {возвращаться=V,intr=inf,pf}
-{из-за=PR=} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} — {крайний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {срок=S,m,inan=(acc,sg|nom,sg)}.
-{все=SPRO,pl=(acc|nom)} {я=SPRO,sg,1p=(abl|dat)} {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {берег=S,m,inan=(acc,sg|nom,sg)} {сниться=V,ipf,intr=inpraes,sg,indic,3p},
-{камень=S,m,inan=(acc,pl|nom,pl)}, {башня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {песок=S,m,inan=(acc,sg|nom,sg)}.
+Нынче{нынче=ADV=} другу{друг=S,m,anim=dat,sg} возвратиться{возвращаться=V,intr=inf,pf}
+Из-за{из-за=PR=} моря{море=S,n,inan=(acc,pl|gen,sg|nom,pl)} — крайний{крайний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} срок{срок=S,m,inan=(acc,sg|nom,sg)}.
+Все{все=SPRO,pl=(acc|nom)} мне{я=SPRO,sg,1p=(abl|dat)} дальний{дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} берег{берег=S,m,inan=(acc,sg|nom,sg)} снится{сниться=V,ipf,intr=inpraes,sg,indic,3p},
+Камни{камень=S,m,inan=(acc,pl|nom,pl)}, башни{башня=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} песок{песок=S,m,inan=(acc,sg|nom,sg)}.
 
-{на=PR=} {один=APRO=acc,sg,f} {из=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {башня=S,f,inan=gen,pl}
-{я=SPRO,sg,1p=nom} {восходить=V,intr=inpraes,sg,indic,1p,pf}, {встречать=V,tran=inpraes,ger,ipf} {свет=S,sg,m,inan=(acc|nom)}...
-{да=CONJ=} {в=PR=} {страна=S,f,inan=(abl,sg|dat,sg)} {болото=S,n,inan=gen,pl} {и=CONJ=} {пашня=S,f,inan=gen,pl}
-{и=CONJ=} {в=PR=} {помин=S,m,inan=abl,sg} {башня=S,f,inan=gen,pl} {нет=PART=}.
+На{на=PR=} одну{один=APRO=acc,sg,f} из{из=PR=} этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} башен{башня=S,f,inan=gen,pl}
+Я{я=SPRO,sg,1p=nom} взойду{восходить=V,intr=inpraes,sg,indic,1p,pf}, встречая{встречать=V,tran=inpraes,ger,ipf} свет{свет=S,sg,m,inan=(acc|nom)}...
+Да{да=CONJ=} в{в=PR=} стране{страна=S,f,inan=(abl,sg|dat,sg)} болот{болото=S,n,inan=gen,pl} и{и=CONJ=} пашен{пашня=S,f,inan=gen,pl}
+И{и=CONJ=} в{в=PR=} помине{помин=S,m,inan=abl,sg} башен{башня=S,f,inan=gen,pl} нет{нет=PART=}.
 
-{только=PART=} {садиться=V,intr=inpraes,sg,indic,1p,pf} {на=PR=} {порог=S,m,inan=abl,sg},
-{там=ADVPRO=} {еще=ADV=} {густой=A=nom,sg,plen,f} {тень=S,f,inan=(acc,sg|nom,sg)}.
-{помогать=V,intr=sg,imper,2p,pf} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {тревога=S,f,inan=(abl,sg|dat,sg)},
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,anim=(acc,pl|gen,pl)} {день=S,m,inan=(acc,sg|nom,sg)}!
+Только{только=PART=} сяду{садиться=V,intr=inpraes,sg,indic,1p,pf} на{на=PR=} пороге{порог=S,m,inan=abl,sg},
+Там{там=ADVPRO=} еще{еще=ADV=} густая{густой=A=nom,sg,plen,f} тень{тень=S,f,inan=(acc,sg|nom,sg)}.
+Помоги{помогать=V,intr=sg,imper,2p,pf} моей{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} тревоге{тревога=S,f,inan=(abl,sg|dat,sg)},
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Духов{дух=S,m,anim=(acc,pl|gen,pl)} день{день=S,m,inan=(acc,sg|nom,sg)}!
 

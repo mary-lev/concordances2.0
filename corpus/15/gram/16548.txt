@@ -1,17 +1,17 @@
-{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {раз=S,m,inan=gen,sg} {человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {в=PR=} {мудрый=A=(abl,sg,plen,m|abl,sg,plen,n)} {лик=S,m,inan=abl,sg} {змея=S,f,anim=nom,sg}:
-{когда=CONJ=} {он=SPRO,sg,3p,m=nom} {приручать=V,tran=praet,sg,indic,m,pf} {к=PR=} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {дело=S,n,inan=dat,pl} {огонь=S,m,inan=(acc,sg|nom,sg)},
-{когда=CONJ=} {они=SPRO,pl=dat} {укрощать=V,tran=praet,sg,partcp,brev,m,pf,pass} {быть=V,intr=praet,sg,indic,m,ipf} {дико=ADV=} {ржать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {конь=S,m,anim=nom,sg}, —
-{и=CONJ=} {покорять=V,tran=inf,pf} {конь=S,m,anim=(acc,sg|gen,sg)} {гораздо=ADV=} {мудрено=ADV=comp}.
+Два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} раза{раз=S,m,inan=gen,sg} человек{человек=S,m,anim=(acc,pl|gen,pl|nom,sg)} был{быть=V,intr=praet,sg,indic,m,ipf} в{в=PR=} мудром{мудрый=A=(abl,sg,plen,m|abl,sg,plen,n)} лике{лик=S,m,inan=abl,sg} змея{змея=S,f,anim=nom,sg}:
+Когда{когда=CONJ=} он{он=SPRO,sg,3p,m=nom} приручил{приручать=V,tran=praet,sg,indic,m,pf} к{к=PR=} своим{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} делам{дело=S,n,inan=dat,pl} огонь{огонь=S,m,inan=(acc,sg|nom,sg)},
+Когда{когда=CONJ=} им{они=SPRO,pl=dat} укрощен{укрощать=V,tran=praet,sg,partcp,brev,m,pf,pass} был{быть=V,intr=praet,sg,indic,m,ipf} дико{дико=ADV=} ржущий{ржать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} конь{конь=S,m,anim=nom,sg}, —
+И{и=CONJ=} покорить{покорять=V,tran=inf,pf} коня{конь=S,m,anim=(acc,sg|gen,sg)} гораздо{гораздо=ADV=} мудренее{мудрено=ADV=comp}.
 
-{огонь=S,m,inan=(acc,sg|nom,sg)} {постигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {гореть=V,ipf,intr=inpraes,sg,indic,3p}, {грозить=V,ipf,intr=inpraes,ger} {и=CONJ=} {рдеть=V,ipf,intr=inpraes,ger},
-{но=CONJ=} {подчиняться=V,intr=inpraes,sg,indic,3p,ipf}, {лишь=PART=} {в=PR=} {плоть=S,f,inan=(acc,sg|nom,sg)} {он=SPRO,sg,3p,m=(acc|gen)} {не=PART=} {тронуть=V,pf,tran=sg,imper,2p}.
-{а=CONJ=} {сделать=V,pf,tran=inf}, {чтобы=CONJ=} {зверь=S,m,anim=nom,sg} {быть=V,intr=praet,sg,indic,m,ipf} {бег=S,sg,m,inan=(acc|nom)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {погоня=S,f,inan=gen,pl}
-{стократно=ADV=} {трудный=A=nom,sg,plen,f} {и=CONJ=} {хитрый=A=nom,sg,plen,f} {затея=S,f,inan=nom,sg}.
+Огонь{огонь=S,m,inan=(acc,sg|nom,sg)} постигнутый{постигать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} горит{гореть=V,ipf,intr=inpraes,sg,indic,3p}, грозя{грозить=V,ipf,intr=inpraes,ger} и{и=CONJ=} рдея{рдеть=V,ipf,intr=inpraes,ger},
+Но{но=CONJ=} подчиняется{подчиняться=V,intr=inpraes,sg,indic,3p,ipf}, лишь{лишь=PART=} в{в=PR=} плоть{плоть=S,f,inan=(acc,sg|nom,sg)} его{он=SPRO,sg,3p,m=(acc|gen)} не{не=PART=} тронь{тронуть=V,pf,tran=sg,imper,2p}.
+А{а=CONJ=} сделать{сделать=V,pf,tran=inf}, чтобы{чтобы=CONJ=} зверь{зверь=S,m,anim=nom,sg} был{быть=V,intr=praet,sg,indic,m,ipf} бег{бег=S,sg,m,inan=(acc|nom)} твоих{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} погонь{погоня=S,f,inan=gen,pl}
+Стократно{стократно=ADV=} трудная{трудный=A=nom,sg,plen,f} и{и=CONJ=} хитрая{хитрый=A=nom,sg,plen,f} затея{затея=S,f,inan=nom,sg}.
 
-{в=PR=} {сказание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {о=PR=} {брингильда?=S,f,anim=(abl,sg|dat,sg)} {мы=SPRO,pl,1p=nom} {видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, {кто=SPRO,sg,m,anim=nom} {сильно=ADV=comp}.
-{оплот=S,m,inan=ins,sg} {сон=S,m,inan=gen,sg} {она=SPRO,sg,3p,f=(acc|gen)} {служить=V,ipf,tran=praet,sg,indic,m} {не=PART=} {дуб=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {камень=S,m,inan=(acc,sg|nom,sg)},
-{а=CONJ=} {зачарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {непогасать?=V,intr=(praet,acc,sg,partcp,plen,m,ipf,act,inan|praet,nom,sg,partcp,plen,m,ipf,act)} {пламень=S,inan=(nom,sg,m|acc,sg,m)}.
+В{в=PR=} сказанье{сказание=S,n,inan=(abl,sg|acc,sg|nom,sg)} о{о=PR=} Брингильде{брингильда?=S,f,anim=(abl,sg|dat,sg)} мы{мы=SPRO,pl,1p=nom} видим{видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)}, кто{кто=SPRO,sg,m,anim=nom} сильней{сильно=ADV=comp}.
+Оплотом{оплот=S,m,inan=ins,sg} сна{сон=S,m,inan=gen,sg} ее{она=SPRO,sg,3p,f=(acc|gen)} служил{служить=V,ipf,tran=praet,sg,indic,m} не{не=PART=} дуб{дуб=S,m,inan=(acc,sg|nom,sg)}, не{не=PART=} камень{камень=S,m,inan=(acc,sg|nom,sg)},
+А{а=CONJ=} зачарованный{зачарованный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} непогасавший{непогасать?=V,intr=(praet,acc,sg,partcp,plen,m,ipf,act,inan|praet,nom,sg,partcp,plen,m,ipf,act)} пламень{пламень=S,inan=(nom,sg,m|acc,sg,m)}.
 
-{но=CONJ=} {проскакать=V,pf,tran=praet,sg,indic,m} {сигурд=S,persn,m,anim=nom,sg} {сквозь=PR=} {изгородь=S,f,inan=(acc,sg|nom,sg)} {огонь=S,m,inan=gen,pl}.
-{быть=V,intr=praet,sg,indic,m,ipf} {победитель=S,m,anim=ins,sg}, {сказание=S,n,inan=ins,sg} {званый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{ведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=ins,sg} {конь=S,m,anim=nom,sg} {в=PR=} {сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {состязание=S,n,inan=gen,pl}.
+Но{но=CONJ=} проскакал{проскакать=V,pf,tran=praet,sg,indic,m} Сигурд{сигурд=S,persn,m,anim=nom,sg} сквозь{сквозь=PR=} изгородь{изгородь=S,f,inan=(acc,sg|nom,sg)} огней{огонь=S,m,inan=gen,pl}.
+Был{быть=V,intr=praet,sg,indic,m,ipf} победителем{победитель=S,m,anim=ins,sg}, сказаньем{сказание=S,n,inan=ins,sg} званый{званый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Грани{грань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Ведомый{ведомый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} духом{дух=S,m,inan=ins,sg} конь{конь=S,m,anim=nom,sg} в{в=PR=} сверканье{сверкание=S,n,inan=(abl,sg|acc,sg|nom,sg)} состязаний{состязание=S,n,inan=gen,pl}.

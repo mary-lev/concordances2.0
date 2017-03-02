@@ -1,14 +1,14 @@
-{символ=S,m,inan=(acc,sg|nom,sg)} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {символ=S,m,inan=(acc,sg|nom,sg)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {бить=V,ipf,tran=inpraes,sg,indic,3p} {полночный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)},
-{чтобы=CONJ=} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {зажигаться=V,intr=praet,sg,indic,m,pf}, {старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {угасать=V,intr=praet,sg,indic,m,pf}.
+Символ{символ=S,m,inan=(acc,sg|nom,sg)} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, символ{символ=S,m,inan=(acc,sg|nom,sg)} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, бьет{бить=V,ipf,tran=inpraes,sg,indic,3p} полночный{полночный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} час{час=S,m,inan=(acc,sg|nom,sg)},
+Чтобы{чтобы=CONJ=} новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} день{день=S,m,inan=(acc,sg|nom,sg)} зажегся{зажигаться=V,intr=praet,sg,indic,m,pf}, старый{старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} день{день=S,m,inan=(acc,sg|nom,sg)} угас{угасать=V,intr=praet,sg,indic,m,pf}.
 
-{содрогаться=V,intr=praet,sg,indic,f,pf} {ночь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {зачатие=S,n,inan=abl,sg} {новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бодрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сила=S,f,inan=gen,pl},
-{и=CONJ=} {заплаканный=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {выходить=V,intr=praet,pl,indic,pf} {из=PR=} {могила=S,f,inan=gen,pl}.
+Содрогнулась{содрогаться=V,intr=praet,sg,indic,f,pf} ночь{ночь=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} зачатьи{зачатие=S,n,inan=abl,sg} новых{новый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} бодрых{бодрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} сил{сила=S,f,inan=gen,pl},
+И{и=CONJ=} заплаканные{заплаканный=A=(acc,pl,plen,inan|nom,pl,plen)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} вышли{выходить=V,intr=praet,pl,indic,pf} из{из=PR=} могил{могила=S,f,inan=gen,pl}.
 
-{лишь=PART=} {на=PR=} {краткий=A=(acc,pl,plen,inan|nom,pl,plen)} {мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {мрак=S,m,inan=dat,sg} {власть=S,f,inan=(acc,sg|nom,sg)} {давать=V,tran=praet,sg,partcp,brev,f,pf,pass},
-{чтоб=CONJ=} {созревать=V,intr=praet,sg,indic,f,pf} {возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {новый=A=nom,sg,plen,f} {волна=S,f,inan=nom,sg}.
+Лишь{лишь=PART=} на{на=PR=} краткие{краткий=A=(acc,pl,plen,inan|nom,pl,plen)} мгновенья{мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} мраку{мрак=S,m,inan=dat,sg} власть{власть=S,f,inan=(acc,sg|nom,sg)} дана{давать=V,tran=praet,sg,partcp,brev,f,pf,pass},
+Чтоб{чтоб=CONJ=} созрела{созревать=V,intr=praet,sg,indic,f,pf} возрожденья{возрождение=S,n,inan=(acc,pl|gen,sg|nom,pl)} новая{новый=A=nom,sg,plen,f} волна{волна=S,f,inan=nom,sg}.
 
-{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {поныне=ADV=} {видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} {чудо=S,n,inan=(acc,sg|nom,sg)} {из=PR=} {чудо=S,n,inan=gen,pl},
-{всходить=V,intr=inpraes,sg,indic,3p,ipf} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {светить=V,ipf,intr=inpraes,sg,indic,3p} {мир=S,m,inan=dat,sg}, {гнать=V,ipf,tran=inpraes,sg,indic,3p} {мрак=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {небо=S,n,inan=gen,pl}.
+Каждый{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} поныне{поныне=ADV=} видим{видеть=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)} чудо{чудо=S,n,inan=(acc,sg|nom,sg)} из{из=PR=} чудес{чудо=S,n,inan=gen,pl},
+Всходит{всходить=V,intr=inpraes,sg,indic,3p,ipf} Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, светит{светить=V,ipf,intr=inpraes,sg,indic,3p} миру{мир=S,m,inan=dat,sg}, гонит{гнать=V,ipf,tran=inpraes,sg,indic,3p} мрак{мрак=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} Небес{небо=S,n,inan=gen,pl}.
 
-{мир=S,m,inan=(acc,sg|nom,sg)} {исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass} {восхищение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {миллион=S,m,inan=(acc,pl|nom,pl)} {год=S,m,inan=gen,pl},
-{видеть=V,ipf,tran=inpraes,ger} {тайна=S,f,inan=acc,sg} {превращение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {лучистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}.
+Мир{мир=S,m,inan=(acc,sg|nom,sg)} исполнен{исполнять=V,tran=praet,sg,partcp,brev,m,pf,pass} восхищенья{восхищение=S,n,inan=(acc,pl|gen,sg|nom,pl)} миллионы{миллион=S,m,inan=(acc,pl|nom,pl)} лет{год=S,m,inan=gen,pl},
+Видя{видеть=V,ipf,tran=inpraes,ger} тайну{тайна=S,f,inan=acc,sg} превращенья{превращение=S,n,inan=(acc,pl|gen,sg|nom,pl)} тьмы{тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} лучистый{лучистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свет{свет=S,sg,m,inan=(acc|nom)}.

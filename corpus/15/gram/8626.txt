@@ -1,9 +1,9 @@
-{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {ярко=ADV=}-{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{степень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {различный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {теплота=S,sg,f,inan=gen}.
-{незабудка=S,f,inan=nom,sg}, {стебель=S,m,inan=(acc,sg|nom,sg)}, {лютик=S,m,inan=(acc,sg|nom,sg)}, {арум?=S,persn,m,anim=nom,sg} {страстный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{этот=APRO=(acc,sg,n|nom,sg,n)} — {возрастание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {красочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, зеленый{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, желтый{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, ярко{ярко=ADV=}-красный{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Степени{степень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} различной{различный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} светлой{светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} теплоты{теплота=S,sg,f,inan=gen}.
+Незабудка{незабудка=S,f,inan=nom,sg}, стебель{стебель=S,m,inan=(acc,sg|nom,sg)}, лютик{лютик=S,m,inan=(acc,sg|nom,sg)}, арум{арум?=S,persn,m,anim=nom,sg} страстный{страстный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Это{этот=APRO=(acc,sg,n|nom,sg,n)} — возрастанье{возрастание=S,n,inan=(abl,sg|acc,sg|nom,sg)} красочной{красочный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} {око=S,n,inan=(acc,pl|nom,pl)} {детство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
-{изумруд=S,m,inan=(acc,pl|nom,pl)} {май=S,sg,m,inan=gen}, {лето=S,sg,n,inan=(acc|nom)}, {страсть=S,f,inan=(acc,sg|nom,sg)}, {зима=S,f,inan=nom,sg},
-{душный=A=(acc,pl,plen,inan|nom,pl,plen)} {теплица=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {ночь=S,f,inan=(acc,sg|nom,sg)} — {и=CONJ=} {снова=ADV=}, {снова=ADV=}
-{лампа=S,f,inan=nom,sg}, {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {взор=S,m,inan=(acc,pl|nom,pl)}, {сказка=S,f,inan=nom,sg}, {ласка=S,f,inan=nom,sg}, {тьма=S,f,inan=nom,sg}.
+Голубые{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} очи{око=S,n,inan=(acc,pl|nom,pl)} детства{детство=S,n,inan=(acc,pl|gen,sg|nom,pl)} золотого{золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+Изумруды{изумруд=S,m,inan=(acc,pl|nom,pl)} мая{май=S,sg,m,inan=gen}, лето{лето=S,sg,n,inan=(acc|nom)}, страсть{страсть=S,f,inan=(acc,sg|nom,sg)}, зима{зима=S,f,inan=nom,sg},
+Душные{душный=A=(acc,pl,plen,inan|nom,pl,plen)} теплицы{теплица=S,f,inan=(acc,pl|gen,sg|nom,pl)}, ночь{ночь=S,f,inan=(acc,sg|nom,sg)} — и{и=CONJ=} снова{снова=ADV=}, снова{снова=ADV=}
+Лампа{лампа=S,f,inan=nom,sg}, звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}, взоры{взор=S,m,inan=(acc,pl|nom,pl)}, сказка{сказка=S,f,inan=nom,sg}, ласка{ласка=S,f,inan=nom,sg}, тьма{тьма=S,f,inan=nom,sg}.

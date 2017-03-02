@@ -1,29 +1,29 @@
-{страх=S,m,inan=(acc,sg|nom,sg)} {ребенок=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {старый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {нянька=S,f,anim=(acc,pl|gen,pl)},
-{ведьма=S,f,anim=dat,pl} {казать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {язык=S,m,inan=(acc,sg|nom,sg)},
-{дух=S,m,inan=(acc,sg|nom,sg)} {смешливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {болотняник?=S,m,anim=nom,sg},
-{а=CONJ=} {иначе=CONJ=} {водовик?=S,m,inan=(acc,sg|nom,sg)}.
+Страх{страх=S,m,inan=(acc,sg|nom,sg)} детей{ребенок=S,m,anim=(acc,pl|gen,pl)} и{и=CONJ=} старых{старый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} нянек{нянька=S,f,anim=(acc,pl|gen,pl)},
+Ведьмам{ведьма=S,f,anim=dat,pl} кажущий{казать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} язык{язык=S,m,inan=(acc,sg|nom,sg)},
+Дух{дух=S,m,inan=(acc,sg|nom,sg)} смешливый{смешливый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, болотняник{болотняник?=S,m,anim=nom,sg},
+А{а=CONJ=} иначе{иначе=CONJ=} водовик{водовик?=S,m,inan=(acc,sg|nom,sg)}.
 
-{если=CONJ=} {он=SPRO,sg,3p,m=nom} {кто=SPRO,sg,m,anim=(acc|gen)} {встречать=V,tran=inpraes,sg,indic,3p,ipf},
-{он=SPRO,sg,3p,m=nom} {как=CONJ=} {кочка=S,f,inan=nom,sg} {представать=V,intr=inpraes,sg,indic,3p,ipf},
-{схватывать=V,tran=inpraes,sg,indic,3p,pf} {за=PR=} {нога=S,f,inan=acc,sg}, {качать=V,ipf,tran=inpraes,sg,indic,3p},
-{чуть=ADV=} {замедлять=V,tran=inpraes,sg,indic,2p,pf}, {кончать=V,tran=praet,sg,partcp,brev,m,pf,pass} {счет=S,m,inan=(acc,sg|nom,sg)}.
+Если{если=CONJ=} он{он=SPRO,sg,3p,m=nom} кого{кто=SPRO,sg,m,anim=(acc|gen)} встречает{встречать=V,tran=inpraes,sg,indic,3p,ipf},
+Он{он=SPRO,sg,3p,m=nom} как{как=CONJ=} кочка{кочка=S,f,inan=nom,sg} предстает{представать=V,intr=inpraes,sg,indic,3p,ipf},
+Схватит{схватывать=V,tran=inpraes,sg,indic,3p,pf} за{за=PR=} ногу{нога=S,f,inan=acc,sg}, качает{качать=V,ipf,tran=inpraes,sg,indic,3p},
+Чуть{чуть=ADV=} замедлишь{замедлять=V,tran=inpraes,sg,indic,2p,pf}, кончен{кончать=V,tran=praet,sg,partcp,brev,m,pf,pass} счет{счет=S,m,inan=(acc,sg|nom,sg)}.
 
-{он=SPRO,sg,3p,m=nom} {лягушка=S,f,anim=acc,sg} {не=PART=} {утапливать=V,tran=inpraes,sg,indic,3p,pf},
-{любить=V,ipf,tran=inpraes,sg,indic,3p} {кваканье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {трясина=S,f,inan=gen,pl},
-{но=CONJ=} {под=PR=} {земля=S,f,inan=acc,sg} {поторопить=V,pf,tran=inpraes,sg,indic,3p}
-{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {чей=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)} — {божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {сын=S,m,anim=nom,sg}.
+Он{он=SPRO,sg,3p,m=nom} лягушку{лягушка=S,f,anim=acc,sg} не{не=PART=} утопит{утапливать=V,tran=inpraes,sg,indic,3p,pf},
+Любит{любить=V,ipf,tran=inpraes,sg,indic,3p} кваканье{кваканье=S,n,inan=(abl,sg|acc,sg|nom,sg)} трясин{трясина=S,f,inan=gen,pl},
+Но{но=CONJ=} под{под=PR=} землю{земля=S,f,inan=acc,sg} поторопит{поторопить=V,pf,tran=inpraes,sg,indic,3p}
+Тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, чье{чей=APRO=(acc,sg,n|nom,sg,n)} имя{имя=S,n,inan=(acc,sg|nom,sg)} — Божий{божий=A,plen=(acc,sg,m,inan|nom,sg,m)} сын{сын=S,m,anim=nom,sg}.
 
-{так=ADVPRO=} {тихонько=ADV=}, {так=ADVPRO=} {без=PR=} {злоба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{забирать=V=inpraes,sg,indic,3p,pf} {и=CONJ=} {засасывать=V,tran=inpraes,sg,indic,3p,pf}: —
-{все=SPRO,pl=(acc|nom)} — {из=PR=} {матерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {утроба=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {земля=S,f,inan=acc,sg}-{мать=S,f,anim=(acc,sg|nom,sg)} {пойти=V,pf,intr=inpraes,sg,indic,3p}.
+Так{так=ADVPRO=} тихонько{тихонько=ADV=}, так{так=ADVPRO=} без{без=PR=} злобы{злоба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Заберет{забирать=V=inpraes,sg,indic,3p,pf} и{и=CONJ=} засосет{засасывать=V,tran=inpraes,sg,indic,3p,pf}: —
+Все{все=SPRO,pl=(acc|nom)} — из{из=PR=} матерней{матерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} утробы{утроба=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Каждый{каждый=APRO=(acc,sg,m,inan|nom,sg,m)} в{в=PR=} Землю{земля=S,f,inan=acc,sg}-мать{мать=S,f,anim=(acc,sg|nom,sg)} пойдет{пойти=V,pf,intr=inpraes,sg,indic,3p}.
 
-{что=SPRO,sg,n,inan=(acc|nom)} {же=PART=} {медлить=V,ipf,intr=inf}? {скоро=ADV=comp}: —
-{мало=ADV=comp} {путь=S,m,inan=(acc,sg|nom,sg)} — {короче=ADV=comp,parenth} {грех=ADV,praed=}.
-{вставать=V,intr=praet,sg,indic,f,pf} {кочка=S,f,inan=nom,sg}, {зеленеть=V,ipf,intr=inpraes,ger},
-{чу=INTJ=}, {под=PR=} {кочка=S,f,inan=ins,sg} {сжатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {смех=S,m,inan=(acc,sg|nom,sg)}.
+Что{что=SPRO,sg,n,inan=(acc|nom)} же{же=PART=} медлить{медлить=V,ipf,intr=inf}? Поскорее{скоро=ADV=comp}: —
+Меньше{мало=ADV=comp} путь{путь=S,m,inan=(acc,sg|nom,sg)} — короче{короче=ADV=comp,parenth} грех{грех=ADV,praed=}.
+Встала{вставать=V,intr=praet,sg,indic,f,pf} кочка{кочка=S,f,inan=nom,sg}, зеленея{зеленеть=V,ipf,intr=inpraes,ger},
+Чу{чу=INTJ=}, под{под=PR=} кочкой{кочка=S,f,inan=ins,sg} сжатый{сжатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} смех{смех=S,m,inan=(acc,sg|nom,sg)}.
 
-{чу=INTJ=}, {под=PR=} {кочка=S,f,inan=ins,sg} {чей-то=APRO=(nom,pl|acc,pl,inan)} {стон=S,m,inan=(acc,pl|nom,pl)},
-{стираться=V,intr=praet,sg,indic,m,pf} {в=PR=} {топь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)} {лик=S,m,inan=(acc,sg|nom,sg)}.
-{болотняник?=S,m,anim=nom,sg}, {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{утешать=V,tran=inpraes,sg,indic,3p,ipf}: {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {двойник=S,m,inan=(acc,sg|nom,sg)}!
+Чу{чу=INTJ=}, под{под=PR=} кочкой{кочка=S,f,inan=ins,sg} чьи-то{чей-то=APRO=(nom,pl|acc,pl,inan)} стоны{стон=S,m,inan=(acc,pl|nom,pl)},
+Стерся{стираться=V,intr=praet,sg,indic,m,pf} в{в=PR=} топи{топь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} чей-то{чей-то=APRO=(acc,sg,m,anim|acc,sg,m,inan|nom,sg,m)} лик{лик=S,m,inan=(acc,sg|nom,sg)}.
+Болотняник{болотняник?=S,m,anim=nom,sg}, весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} зеленый{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Утешает{утешать=V,tran=inpraes,sg,indic,3p,ipf}: Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} двойник{двойник=S,m,inan=(acc,sg|nom,sg)}!

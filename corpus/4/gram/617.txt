@@ -1,14 +1,14 @@
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {обитаемый=A=nom,sg,plen,f} {дух=S,m,inan=ins,sg}
-{свобода=S,f,inan=nom,sg} — {избранный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {удел=S,m,inan=(acc,sg|nom,sg)}.
-{орлиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зрение=S,n,inan=ins,sg}, {дивный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слух=S,m,inan=ins,sg}
-{священник=S,m,anim=nom,sg} {римский=S,famn,m,anim=nom,sg} {уцелеть=V,pf,intr=praet,sg,indic,m}.
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} обитаемая{обитаемый=A=nom,sg,plen,f} духом{дух=S,m,inan=ins,sg}
+Свобода{свобода=S,f,inan=nom,sg} — избранных{избранный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} удел{удел=S,m,inan=(acc,sg|nom,sg)}.
+Орлиным{орлиный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} зреньем{зрение=S,n,inan=ins,sg}, дивным{дивный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} слухом{слух=S,m,inan=ins,sg}
+Священник{священник=S,m,anim=nom,sg} римский{римский=S,famn,m,anim=nom,sg} уцелел{уцелеть=V,pf,intr=praet,sg,indic,m}.
 |
-{и=CONJ=} {голубь=S,m,anim=nom,sg} {не=PART=} {бояться=V,ipf,intr=inpraes,sg,indic,3p} {гром=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {церковь=S,f,inan=(acc,sg|nom,sg)} {говорить=V,ipf,tran=inpraes,sg,indic,3p};
-{в=PR=} {апостольский=A=(abl,sg,plen,m|abl,sg,plen,n)} {созвучие=S,n,inan=abl,sg}: {Roma??}! —
-{он=SPRO,sg,3p,m=nom} {только=PART=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {веселить=V,ipf,tran=inpraes,sg,indic,3p}.
+И{и=CONJ=} голубь{голубь=S,m,anim=nom,sg} не{не=PART=} боится{бояться=V,ipf,intr=inpraes,sg,indic,3p} грома{гром=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+Которым{который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} церковь{церковь=S,f,inan=(acc,sg|nom,sg)} говорит{говорить=V,ipf,tran=inpraes,sg,indic,3p};
+В{в=PR=} апостольском{апостольский=A=(abl,sg,plen,m|abl,sg,plen,n)} созвучьи{созвучие=S,n,inan=abl,sg}: Roma{Roma??}! —
+Он{он=SPRO,sg,3p,m=nom} только{только=PART=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} веселит{веселить=V,ipf,tran=inpraes,sg,indic,3p}.
 |
-{я=SPRO,sg,1p=nom} {повторять=V,tran=inpraes,sg,indic,1p,ipf} {этот=APRO=(acc,sg,n|nom,sg,n)} {имя=S,n,inan=(acc,sg|nom,sg)}
-{под=PR=} {вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {купол=S,m,inan=ins,sg} {небо=S,n,inan=gen,pl},
-{хоть=PART=} {говорить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {я=SPRO,sg,1p=(abl|dat)} {о=PR=} {рим=S,geo,m,inan=abl,sg}
-{в=PR=} {священный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сумрак=S,m,inan=abl,sg} {исчезать=V,intr=praet,sg,indic,m,pf}!
+Я{я=SPRO,sg,1p=nom} повторяю{повторять=V,tran=inpraes,sg,indic,1p,ipf} это{этот=APRO=(acc,sg,n|nom,sg,n)} имя{имя=S,n,inan=(acc,sg|nom,sg)}
+Под{под=PR=} вечным{вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} куполом{купол=S,m,inan=ins,sg} небес{небо=S,n,inan=gen,pl},
+Хоть{хоть=PART=} говоривший{говорить=V,ipf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} мне{я=SPRO,sg,1p=(abl|dat)} о{о=PR=} Риме{рим=S,geo,m,inan=abl,sg}
+В{в=PR=} священном{священный=A=(abl,sg,plen,m|abl,sg,plen,n)} сумраке{сумрак=S,m,inan=abl,sg} исчез{исчезать=V,intr=praet,sg,indic,m,pf}!

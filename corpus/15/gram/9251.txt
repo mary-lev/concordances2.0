@@ -1,9 +1,9 @@
-{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {вечерний=A=(acc,pl,plen,inan|nom,pl,plen)}. {печальный=A=(acc,pl,plen,inan|nom,pl,plen)} {закат=S,m,inan=(acc,pl|nom,pl)}.
-{холодность=S,f,inan=(acc,sg|nom,sg)} {бледный=A=nom,sg,plen,f} {осенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {облако=S,n,inan=gen,pl}.
-{в=PR=} {грустить=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {видение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {тесно=ADV=} {сжинать=V=praet,pl,partcp,brev,pf,pass}.
-{создание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {день=S,m,inan=gen,pl} {иной=APRO=(abl,pl|gen,pl|acc,pl,anim)} {и=CONJ=} {невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сон=S,m,inan=gen,pl}.
+Поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} вечерние{вечерний=A=(acc,pl,plen,inan|nom,pl,plen)}. Печальные{печальный=A=(acc,pl,plen,inan|nom,pl,plen)} закаты{закат=S,m,inan=(acc,pl|nom,pl)}.
+Холодность{холодность=S,f,inan=(acc,sg|nom,sg)} бледная{бледный=A=nom,sg,plen,f} осенних{осенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} облаков{облако=S,n,inan=gen,pl}.
+В{в=PR=} грустящей{грустить=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} памяти{память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} виденья{видение=S,n,inan=(acc,pl|gen,sg|nom,pl)} тесно{тесно=ADV=} сжаты{сжинать=V=praet,pl,partcp,brev,pf,pass}.
+Созданья{создание=S,n,inan=(acc,pl|gen,sg|nom,pl)} дней{день=S,m,inan=gen,pl} иных{иной=APRO=(abl,pl|gen,pl|acc,pl,anim)} и{и=CONJ=} невозвратных{невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} снов{сон=S,m,inan=gen,pl}.
 
-{тихонько=ADV=} {сетовать=V,ipf,intr=inpraes,ger}, {печалиться=V,ipf,intr=inpraes,ger}, {и=CONJ=} {тосковать=V,ipf,intr=inpraes,ger},
-{беззвучно=ADV=} {шептаться=V,ipf,intr=inpraes,pl,indic,3p} {поблекнуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{и=CONJ=} {словно=CONJ=} {чудиться=V,ipf,intr=inpraes,sg,indic,3p} {прощальность?=S,f,inan=(acc,sg|nom,sg)} {поцелуй=S,m,inan=gen,sg}
-{в=PR=} {туманный=A=(abl,sg,plen,m|abl,sg,plen,n)} {шествие=S,n,inan=abl,sg} {вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {темнота=S,sg,f,inan=gen}.
+Тихонько{тихонько=ADV=} сетуя{сетовать=V,ipf,intr=inpraes,ger}, печалясь{печалиться=V,ipf,intr=inpraes,ger}, и{и=CONJ=} тоскуя{тосковать=V,ipf,intr=inpraes,ger},
+Беззвучно{беззвучно=ADV=} шепчутся{шептаться=V,ipf,intr=inpraes,pl,indic,3p} поблекшие{поблекнуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} словно{словно=CONJ=} чудится{чудиться=V,ipf,intr=inpraes,sg,indic,3p} прощальность{прощальность?=S,f,inan=(acc,sg|nom,sg)} поцелуя{поцелуй=S,m,inan=gen,sg}
+В{в=PR=} туманном{туманный=A=(abl,sg,plen,m|abl,sg,plen,n)} шествии{шествие=S,n,inan=abl,sg} вечерней{вечерний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} темноты{темнота=S,sg,f,inan=gen}.

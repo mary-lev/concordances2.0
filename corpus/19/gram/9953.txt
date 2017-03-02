@@ -1,14 +1,14 @@
-{разорвалось?=S,m,anim=(acc,sg|gen,sg)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {от=PR=} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{от=PR=} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {неотвязный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {гнетущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {всегда=ADVPRO=},
-{от=PR=} {томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {житейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {неволя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{безнадежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {стыд=S,m,inan=gen,sg}.
+Разорвалося{разорвалось?=S,m,anim=(acc,sg|gen,sg)} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} от{от=PR=} боли{боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+От{от=PR=} глухой{глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, неотвязной{неотвязный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, гнетущей{гнетущий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} всегда{всегда=ADVPRO=},
+От{от=PR=} томительной{томительный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} боли{боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} житейской{житейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} неволи{неволя=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Безнадежной{безнадежный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} тоски{тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} стыда{стыд=S,m,inan=gen,sg}.
 
-{разрываться=V,intr=praet,sg,indic,n,pf}, — {и=CONJ=} {кровь=S,f,inan=ins,sg} {обливать=V=praet,sg,partcp,brev,f,pf,pass},
-{наслаждаться=V,intr=inpraes,sg,indic,3p,ipf} {смертный=A=ins,sg,plen,f} {мука=S,f,inan=ins,sg} {грудь=S,f,inan=(acc,sg|nom,sg)}:
-{наконец=ADV,parenth=}, {наконец=ADV,parenth=}, {этот=APRO=nom,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {переживать=V,tran=praet,sg,partcp,brev,f,pf,pass},
-{и=CONJ=} {проходить=V,intr=praet,sg,partcp,brev,m,pf,pass} {утомительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)}.
+Разорвалось{разрываться=V,intr=praet,sg,indic,n,pf}, — и{и=CONJ=} кровью{кровь=S,f,inan=ins,sg} облита{обливать=V=praet,sg,partcp,brev,f,pf,pass},
+Наслаждается{наслаждаться=V,intr=inpraes,sg,indic,3p,ipf} смертною{смертный=A=ins,sg,plen,f} мукою{мука=S,f,inan=ins,sg} грудь{грудь=S,f,inan=(acc,sg|nom,sg)}:
+Наконец{наконец=ADV,parenth=}, наконец{наконец=ADV,parenth=}, эта{этот=APRO=nom,sg,f} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} пережита{переживать=V,tran=praet,sg,partcp,brev,f,pf,pass},
+И{и=CONJ=} пройден{проходить=V,intr=praet,sg,partcp,brev,m,pf,pass} утомительный{утомительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} путь{путь=S,m,inan=(acc,sg|nom,sg)}.
 
-{смерть=S,f,inan=(acc,sg|nom,sg)} {грозить=V,ipf,intr=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(abl|dat)} {костлявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рука=S,f,inan=ins,sg}.
-{нет=PART=}, {покончить=V,pf,tran=praet,pl,partcp,brev,pass} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {я=SPRO,sg,1p=nom} {твердо=ADV=} {умирать=V,intr=inpraes,sg,indic,1p,pf}:
-{я=SPRO,sg,1p=nom} {весь=APRO=acc,sg,f} {жизнь=S,f,inan=(acc,sg|nom,sg)} {посвящать=V,tran=praet,sg,indic,m,pf} {непосильный=A=(dat,sg,plen,m|dat,sg,plen,n)} {бой=S,m,inan=(dat,sg|loc,sg)},
-{порываться=V,intr=inpraes,ger,ipf} {к=PR=} {свобода=S,f,inan=(abl,sg|dat,sg)}, {к=PR=} {труд=S,m,inan=dat,sg}.
+Смерть{смерть=S,f,inan=(acc,sg|nom,sg)} грозит{грозить=V,ipf,intr=inpraes,sg,indic,3p} мне{я=SPRO,sg,1p=(abl|dat)} костлявой{костлявый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} рукою{рука=S,f,inan=ins,sg}.
+Нет{нет=PART=}, покончены{покончить=V,pf,tran=praet,pl,partcp,brev,pass} муки{мука=S,f,inan=(acc,pl|gen,sg|nom,pl)}, я{я=SPRO,sg,1p=nom} твердо{твердо=ADV=} умру{умирать=V,intr=inpraes,sg,indic,1p,pf}:
+Я{я=SPRO,sg,1p=nom} всю{весь=APRO=acc,sg,f} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} посвятил{посвящать=V,tran=praet,sg,indic,m,pf} непосильному{непосильный=A=(dat,sg,plen,m|dat,sg,plen,n)} бою{бой=S,m,inan=(dat,sg|loc,sg)},
+Порываясь{порываться=V,intr=inpraes,ger,ipf} к{к=PR=} свободе{свобода=S,f,inan=(abl,sg|dat,sg)}, к{к=PR=} труду{труд=S,m,inan=dat,sg}.

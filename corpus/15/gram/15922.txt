@@ -1,27 +1,27 @@
-{батюшка=S,m,anim=nom,sg} {шатер=S,m,inan=(acc,sg|nom,sg)},
-{матушка=S,f,anim=nom,sg} {ладья=S,f,inan=nom,sg}.
-{гей=S,m,anim=nom,sg}, {конь=S,m,anim=(acc,sg|gen,sg)} {скоро=ADV=comp},
-{быть=V,intr=inpraes,sg,indic,3p} {веселый=A=comp},
-{отдыхать=V,intr=inpraes,sg,indic,3p,pf} {весло=S,n,inan=(acc,sg|nom,sg)}.
-{хотеть=V,ipf,tran=inpraes,sg,indic,2p} {пить=V,ipf,tran=inf}, {так=ADVPRO=} {пить=V,ipf,tran=sg,imper,2p},
-{в=PR=} {разум=S,m,inan=abl,sg} {светло=ADV=}.
-{знать=V,ipf,tran=praet,sg,indic,m} {я=SPRO,sg,1p=nom} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {простор=S,m,inan=(acc,sg|nom,sg)},
-{снова=ADV=} {с=PR=} {вы=SPRO,pl,2p=ins} {я=SPRO,sg,1p=nom},
-{матушка=S,f,anim=nom,sg} {ладья=S,f,inan=nom,sg},
-{батюшка=S,m,anim=nom,sg} {шатер=S,m,inan=(acc,sg|nom,sg)}.
-{порешить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} {спор=S,m,inan=(acc,sg|nom,sg)},
-{для=PR=} {житие=S,n,inan=(acc,pl|gen,sg|nom,pl)}-{бытие?=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Батюшка{батюшка=S,m,anim=nom,sg} шатер{шатер=S,m,inan=(acc,sg|nom,sg)},
+Матушка{матушка=S,f,anim=nom,sg} ладья{ладья=S,f,inan=nom,sg}.
+Гей{гей=S,m,anim=nom,sg}, коня{конь=S,m,anim=(acc,sg|gen,sg)} скорей{скоро=ADV=comp},
+Будет{быть=V,intr=inpraes,sg,indic,3p} веселей{веселый=A=comp},
+Отдохнет{отдыхать=V,intr=inpraes,sg,indic,3p,pf} весло{весло=S,n,inan=(acc,sg|nom,sg)}.
+Хочешь{хотеть=V,ipf,tran=inpraes,sg,indic,2p} пить{пить=V,ipf,tran=inf}, так{так=ADVPRO=} пей{пить=V,ipf,tran=sg,imper,2p},
+В{в=PR=} разуме{разум=S,m,inan=abl,sg} светло{светло=ADV=}.
+Знал{знать=V,ipf,tran=praet,sg,indic,m} я{я=SPRO,sg,1p=nom} весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} простор{простор=S,m,inan=(acc,sg|nom,sg)},
+Снова{снова=ADV=} с{с=PR=} вами{вы=SPRO,pl,2p=ins} я{я=SPRO,sg,1p=nom},
+Матушка{матушка=S,f,anim=nom,sg} ладья{ладья=S,f,inan=nom,sg},
+Батюшка{батюшка=S,m,anim=nom,sg} шатер{шатер=S,m,inan=(acc,sg|nom,sg)}.
+Порешите{порешить=V,pf,tran=(inpraes,pl,indic,2p|pl,imper,2p)} спор{спор=S,m,inan=(acc,sg|nom,sg)},
+Для{для=PR=} житья{житие=S,n,inan=(acc,pl|gen,sg|nom,pl)}-бытья{бытие?=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{небо=S,n,inan=ins,sg} {давать=V,tran=praet,sg,partcp,brev,m,pf,pass} {шатер=S,m,inan=(acc,sg|nom,sg)},
-{влага=S,f,inan=ins,sg} — {ладья=S,f,inan=nom,sg}.
-{с=PR=} {месяц=S,m,inan=ins,sg} {ночной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
-{день=S,m,inan=gen,pl} {уходить=V,intr=inpraes,sg,indic,3p,ipf} {дым=S,m,inan=(acc,sg|nom,sg)}.
-{снова=ADV=} {по=PR=} {степь=S,f,inan=dat,pl},
-{по=PR=} {гора=S,f,inan=dat,pl} {крутой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
-{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {там=PART=}, {вон=PART=} {там=ADVPRO=}.
-{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {маяк=S,m,inan=(acc,sg|nom,sg)} — {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {взор=S,m,inan=(acc,sg|nom,sg)},
-{даль=S,f,inan=(acc,sg|nom,sg)} — {жена=S,f,anim=nom,sg} {твой=APRO=nom,sg,f}.
-{уплывать=V,intr=sg,imper,2p,ipf}, {ладья=S,f,inan=nom,sg},
-{догорать=V,intr=sg,imper,2p,ipf}, {шатер=S,m,inan=(acc,sg|nom,sg)}.
-{батюшка=S,m,anim=nom,sg} {шатер=S,m,inan=(acc,sg|nom,sg)},
-{матушка=S,f,anim=nom,sg} {ладья=S,f,inan=nom,sg}.
+Небом{небо=S,n,inan=ins,sg} дан{давать=V,tran=praet,sg,partcp,brev,m,pf,pass} шатер{шатер=S,m,inan=(acc,sg|nom,sg)},
+Влагою{влага=S,f,inan=ins,sg} — ладья{ладья=S,f,inan=nom,sg}.
+С{с=PR=} Месяцем{месяц=S,m,inan=ins,sg} ночным{ночной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+Дней{день=S,m,inan=gen,pl} уходит{уходить=V,intr=inpraes,sg,indic,3p,ipf} дым{дым=S,m,inan=(acc,sg|nom,sg)}.
+Снова{снова=ADV=} по{по=PR=} степям{степь=S,f,inan=dat,pl},
+По{по=PR=} горам{гора=S,f,inan=dat,pl} крутым{крутой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}.
+Счастье{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} там{там=PART=}, вон{вон=PART=} там{там=ADVPRO=}.
+Твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} маяк{маяк=S,m,inan=(acc,sg|nom,sg)} — твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} взор{взор=S,m,inan=(acc,sg|nom,sg)},
+Даль{даль=S,f,inan=(acc,sg|nom,sg)} — жена{жена=S,f,anim=nom,sg} твоя{твой=APRO=nom,sg,f}.
+Уплывай{уплывать=V,intr=sg,imper,2p,ipf}, ладья{ладья=S,f,inan=nom,sg},
+Догорай{догорать=V,intr=sg,imper,2p,ipf}, шатер{шатер=S,m,inan=(acc,sg|nom,sg)}.
+Батюшка{батюшка=S,m,anim=nom,sg} шатер{шатер=S,m,inan=(acc,sg|nom,sg)},
+Матушка{матушка=S,f,anim=nom,sg} ладья{ладья=S,f,inan=nom,sg}.

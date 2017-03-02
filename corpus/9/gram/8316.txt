@@ -1,34 +1,34 @@
-{плестись=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {по=PR=} {гриб=S,m,inan=(acc,pl|nom,pl)}.
-{шоссе=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}. {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}. {канава=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{дорожный=A=(acc,pl,plen,inan|nom,pl,plen)} {столб=S,m,inan=(acc,pl|nom,pl)}
-{налево=ADV=} {и=CONJ=} {направо=ADV=}.
+Плетемся{плестись=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} по{по=PR=} грибы{гриб=S,m,inan=(acc,pl|nom,pl)}.
+Шоссе{шоссе=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}. Леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)}. Канавы{канава=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Дорожные{дорожный=A=(acc,pl,plen,inan|nom,pl,plen)} столбы{столб=S,m,inan=(acc,pl|nom,pl)}
+Налево{налево=ADV=} и{и=CONJ=} направо{направо=ADV=}.
 
-{с=PR=} {широкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {шоссе=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
-{идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} {во=PR=} {тьма=S,f,inan=acc,sg} {лесной=A=acc,sg,plen,f}.
-{по=PR=} {щиколка?=S,f,inan=acc,sg} {в=PR=} {роса=S,f,inan=(abl,sg|dat,sg)}
-{плутать=V,ipf,intr=inpraes,pl,indic,1p} {врассыпную=ADV=}.
+С{с=PR=} широкого{широкий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} шоссе{шоссе=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+Идем{идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)} во{во=PR=} тьму{тьма=S,f,inan=acc,sg} лесную{лесной=A=acc,sg,plen,f}.
+По{по=PR=} щиколку{щиколка?=S,f,inan=acc,sg} в{в=PR=} росе{роса=S,f,inan=(abl,sg|dat,sg)}
+Плутаем{плутать=V,ipf,intr=inpraes,pl,indic,1p} врассыпную{врассыпную=ADV=}.
 
-{а=CONJ=} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {под=PR=} {куст=S,m,inan=(acc,pl|nom,pl)}
-{на=PART=} {груздь=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {волнушка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{чрез=PR=} {дебри=S,pl,inan=(acc|nom)} {темнота=S,sg,f,inan=gen}
-{бросать=V=inpraes,sg,indic,3p,ipf,tran} {свет=S,sg,m,inan=(acc|nom)} {с=PR=} {опушка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+А{а=CONJ=} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} под{под=PR=} кусты{куст=S,m,inan=(acc,pl|nom,pl)}
+На{на=PART=} грузди{груздь=S,m,inan=(acc,pl|nom,pl)} и{и=CONJ=} волнушки{волнушка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Чрез{чрез=PR=} дебри{дебри=S,pl,inan=(acc|nom)} темноты{темнота=S,sg,f,inan=gen}
+Бросает{бросать=V=inpraes,sg,indic,3p,ipf,tran} свет{свет=S,sg,m,inan=(acc|nom)} с{с=PR=} опушки{опушка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{гриб=S,m,inan=(acc,sg|nom,sg)} {прятаться=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {пень=S,m,inan=(acc,sg|nom,sg)},
-{на=PR=} {пень=S,m,inan=(acc,sg|nom,sg)} {садиться=V,intr=inpraes,sg,indic,3p,ipf} {птица=S,f,anim=nom,sg}.
-{мы=SPRO,pl,1p=dat} {веха=S,f,inan=ins,sg} — {наш=APRO=nom,sg,f} {тень=S,f,inan=(acc,sg|nom,sg)},
-{чтобы=CONJ=} {с=PR=} {путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {не=PART=} {сбиваться=V,intr=inf,pf}.
+Гриб{гриб=S,m,inan=(acc,sg|nom,sg)} прячется{прятаться=V,ipf,intr=inpraes,sg,indic,3p} за{за=PR=} пень{пень=S,m,inan=(acc,sg|nom,sg)},
+На{на=PR=} пень{пень=S,m,inan=(acc,sg|nom,sg)} садится{садиться=V,intr=inpraes,sg,indic,3p,ipf} птица{птица=S,f,anim=nom,sg}.
+Нам{мы=SPRO,pl,1p=dat} вехой{веха=S,f,inan=ins,sg} — наша{наш=APRO=nom,sg,f} тень{тень=S,f,inan=(acc,sg|nom,sg)},
+Чтобы{чтобы=CONJ=} с{с=PR=} пути{путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} не{не=PART=} сбиться{сбиваться=V,intr=inf,pf}.
 
-{но=CONJ=} {время=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {сентябрь=S,m,inan=abl,sg}
-{отмеривать=V,tran=praet,sg,partcp,brev,n,pf,pass} {так=ADVPRO=} {куцо=ADV=}:
-{едва=ADV=} {ль=PART=} {до=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)} {заря=S,f,inan=(abl,sg|dat,sg)}
-{сквозь=PR=} {чаща=S,f,inan=acc,sg} {дотягиваться=V,intr=inf,pf}.
+Но{но=CONJ=} время{время=S,n,inan=(acc,sg|nom,sg)} в{в=PR=} сентябре{сентябрь=S,m,inan=abl,sg}
+Отмерено{отмеривать=V,tran=praet,sg,partcp,brev,n,pf,pass} так{так=ADVPRO=} куцо{куцо=ADV=}:
+Едва{едва=ADV=} ль{ль=PART=} до{до=PR=} нас{мы=SPRO,pl,1p=(abl|acc|gen)} заре{заря=S,f,inan=(abl,sg|dat,sg)}
+Сквозь{сквозь=PR=} чащу{чаща=S,f,inan=acc,sg} дотянуться{дотягиваться=V,intr=inf,pf}.
 
-{набивать=V,tran=praet,pl,partcp,brev,pf,pass} {кузовок=S,m,inan=(acc,pl|nom,pl)},
-{наполнять=V,tran=praet,pl,partcp,brev,pf,pass} {корзина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{один=APRO=(nom,pl|acc,pl,inan)} {боровик=S,m,inan=(acc,pl|nom,pl)}
-{у=PR=} {добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {половина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Набиты{набивать=V,tran=praet,pl,partcp,brev,pf,pass} кузовки{кузовок=S,m,inan=(acc,pl|nom,pl)},
+Наполнены{наполнять=V,tran=praet,pl,partcp,brev,pf,pass} корзины{корзина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Одни{один=APRO=(nom,pl|acc,pl,inan)} боровики{боровик=S,m,inan=(acc,pl|nom,pl)}
+У{у=PR=} доброй{добрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} половины{половина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{уходить=V,intr=inpraes,pl,indic,1p,ipf}. {за=PR=} {спина=S,f,inan=ins,sg} —
-{стена=S,f,inan=ins,sg} {лес=S,m,inan=(acc,sg|nom,sg)} {недвижный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{где=ADVPRO=} {день=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {краса=S,f,inan=(abl,sg|dat,sg)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{сгорать=V,intr=praet,sg,indic,m,pf} {скоропостижный=A=sg,brev,n}.
+Уходим{уходить=V,intr=inpraes,pl,indic,1p,ipf}. За{за=PR=} спиной{спина=S,f,inan=ins,sg} —
+Стеною{стена=S,f,inan=ins,sg} лес{лес=S,m,inan=(acc,sg|nom,sg)} недвижный{недвижный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Где{где=ADVPRO=} день{день=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} красе{краса=S,f,inan=(abl,sg|dat,sg)} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Сгорел{сгорать=V,intr=praet,sg,indic,m,pf} скоропостижно{скоропостижный=A=sg,brev,n}.

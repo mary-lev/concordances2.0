@@ -1,15 +1,15 @@
-{двадцать=NUM=(acc|nom)} {первый=ANUM=(acc,sg,n|nom,sg,n)}. {ночь=S,f,inan=(acc,sg|nom,sg)}. {понедельник=S,m,inan=(acc,sg|nom,sg)}.
-{очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {столица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)}.
-{сочинять=V,tran=praet,sg,indic,m,pf} {же=PART=} {какой-то=APRO=(acc,sg,m,anim|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {бездельник=S,m,anim=nom,sg},
-{что=SPRO,sg,n,inan=(acc|nom)} {бывать=V,ipf,intr=inpraes,sg,indic,3p} {любовь=S,f,inan=(acc,sg|nom,sg)} {на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)}.
+Двадцать{двадцать=NUM=(acc|nom)} первое{первый=ANUM=(acc,sg,n|nom,sg,n)}. Ночь{ночь=S,f,inan=(acc,sg|nom,sg)}. Понедельник{понедельник=S,m,inan=(acc,sg|nom,sg)}.
+Очертанья{очертание=S,n,inan=(acc,pl|gen,sg|nom,pl)} столицы{столица=S,f,inan=(acc,pl|gen,sg|nom,pl)} во{во=PR=} мгле{мгла=S,f,inan=(abl,sg|dat,sg)}.
+Сочинил{сочинять=V,tran=praet,sg,indic,m,pf} же{же=PART=} какой-то{какой-то=APRO=(acc,sg,m,anim|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} бездельник{бездельник=S,m,anim=nom,sg},
+Что{что=SPRO,sg,n,inan=(acc|nom)} бывает{бывать=V,ipf,intr=inpraes,sg,indic,3p} любовь{любовь=S,f,inan=(acc,sg|nom,sg)} на{на=PR=} земле{земля=S,f,inan=(abl,sg|dat,sg)}.
 
-{и=CONJ=} {от=PR=} {леность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {или=CONJ=} {от=PR=} {скука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{все=SPRO,pl=(acc|nom)} {поверять=V=praet,pl,indic,pf}, {так=ADVPRO=} {и=CONJ=} {жить=V,ipf,intr=inpraes,pl,indic,3p}:
-{ждать=V,ipf,tran=inpraes,pl,indic,3p} {свидание=S,n,inan=gen,pl}, {бояться=V,ipf,intr=inpraes,pl,indic,3p} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{и=CONJ=} {любовный=A=(acc,pl,plen,inan|nom,pl,plen)} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {петь=V,ipf,tran=inpraes,pl,indic,3p}.
+И{и=CONJ=} от{от=PR=} лености{леность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} или{или=CONJ=} от{от=PR=} скуки{скука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Все{все=SPRO,pl=(acc|nom)} поверили{поверять=V=praet,pl,indic,pf}, так{так=ADVPRO=} и{и=CONJ=} живут{жить=V,ipf,intr=inpraes,pl,indic,3p}:
+Ждут{ждать=V,ipf,tran=inpraes,pl,indic,3p} свиданий{свидание=S,n,inan=gen,pl}, боятся{бояться=V,ipf,intr=inpraes,pl,indic,3p} разлуки{разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+И{и=CONJ=} любовные{любовный=A=(acc,pl,plen,inan|nom,pl,plen)} песни{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} поют{петь=V,ipf,tran=inpraes,pl,indic,3p}.
 
-{но=CONJ=} {иной=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {открываться=V,intr=inpraes,sg,indic,3p,ipf} {тайна=S,f,inan=nom,sg},
-{и=PART=} {почить=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {на=PR=} {они=SPRO,pl=(abl|acc|gen)} {тишина=S,sg,f,inan=nom}...
-{я=SPRO,sg,1p=nom} {на=PR=} {это=SPRO,sg,n,inan=(acc|nom)} {наткнуться=V,pf,intr=praet,sg,indic,f} {случайно=ADV,parenth=}
-{и=CONJ=} {с=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} {все=SPRO,pl=(acc|nom)} {как=ADVPRO=} {будто=PART=} {больной=A=sg,brev,f}.
+Но{но=CONJ=} иным{иной=APRO=(dat,pl|ins,sg,m|ins,sg,n)} открывается{открываться=V,intr=inpraes,sg,indic,3p,ipf} тайна{тайна=S,f,inan=nom,sg},
+И{и=PART=} почиет{почить=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} на{на=PR=} них{они=SPRO,pl=(abl|acc|gen)} тишина{тишина=S,sg,f,inan=nom}...
+Я{я=SPRO,sg,1p=nom} на{на=PR=} это{это=SPRO,sg,n,inan=(acc|nom)} наткнулась{наткнуться=V,pf,intr=praet,sg,indic,f} случайно{случайно=ADV,parenth=}
+И{и=CONJ=} с{с=PR=} тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} пор{пора=S,f,inan=gen,pl} все{все=SPRO,pl=(acc|nom)} как{как=ADVPRO=} будто{будто=PART=} больна{больной=A=sg,brev,f}.
 

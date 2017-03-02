@@ -1,17 +1,17 @@
-{знакомый=S,m,anim=nom,sg} {шум=S,m,inan=(acc,sg|nom,sg)} {зардеться=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} {вершина=S,f,inan=gen,pl}
-{смешаться=V,pf,intr=praet,sg,indic,m} {с=PR=} {привходить=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}, {незнакомый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{отдельный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {звук=S,m,inan=ins,sg}, — {словно=CONJ=} {водоем=S,m,inan=ins,sg}
-{промчаться=V,pf,intr=praet,sg,indic,m} {ветер=S,m,inan=(acc,sg|nom,sg)}, {нести=V,ipf,tran=inpraes,ger} {зачатие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {льдина=S,f,inan=gen,pl}.
+Знакомый{знакомый=S,m,anim=nom,sg} шум{шум=S,m,inan=(acc,sg|nom,sg)} зардевшихся{зардеться=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)} вершин{вершина=S,f,inan=gen,pl}
+Смешался{смешаться=V,pf,intr=praet,sg,indic,m} с{с=PR=} привходящим{привходить=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}, незнакомым{незнакомый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+Отдельным{отдельный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} звуком{звук=S,m,inan=ins,sg}, — словно{словно=CONJ=} водоемом{водоем=S,m,inan=ins,sg}
+Промчался{промчаться=V,pf,intr=praet,sg,indic,m} ветр{ветер=S,m,inan=(acc,sg|nom,sg)}, неся{нести=V,ipf,tran=inpraes,ger} зачатье{зачатие=S,n,inan=(abl,sg|acc,sg|nom,sg)} льдин{льдина=S,f,inan=gen,pl}.
 
-{враждебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {слух=S,m,inan=dat,sg} {шорох=S,m,inan=(acc,sg|nom,sg)}. {знак=S,m,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,m,inan|nom,sg,m)},
-{что=CONJ=} {новый=A=(acc,sg,plen,n|nom,sg,plen,n)} {приходить=V,intr=praet,sg,indic,n,pf}. {конец=S,m,inan=(acc,sg|nom,sg)} {истома=S,f,inan=dat,pl},
-{что=SPRO,sg,n,inan=(acc|nom)} {замыкаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)} {молния=S,f,inan=ins,sg} {и=CONJ=} {гром=S,m,inan=ins,sg}.
-{от=PR=} {серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {облак?=S,m,inan=(acc,sg|nom,sg)} {пасть=V,pf,intr=praet,sg,indic,m} {налет=S,m,inan=(acc,sg|nom,sg)} {седина=S,f,inan=gen,pl}.
+Враждебный{враждебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} слуху{слух=S,m,inan=dat,sg} шорох{шорох=S,m,inan=(acc,sg|nom,sg)}. Знак{знак=S,m,inan=(acc,sg|nom,sg)} один{один=APRO=(acc,sg,m,inan|nom,sg,m)},
+Что{что=CONJ=} новое{новый=A=(acc,sg,plen,n|nom,sg,plen,n)} пришло{приходить=V,intr=praet,sg,indic,n,pf}. Конец{конец=S,m,inan=(acc,sg|nom,sg)} истомам{истома=S,f,inan=dat,pl},
+Что{что=SPRO,sg,n,inan=(acc|nom)} замыкались{замыкаться=V,intr=(praet,pl,indic,ipf|praet,pl,indic,pf)} молнией{молния=S,f,inan=ins,sg} и{и=CONJ=} громом{гром=S,m,inan=ins,sg}.
+От{от=PR=} серых{серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} облак{облак?=S,m,inan=(acc,sg|nom,sg)} пал{пасть=V,pf,intr=praet,sg,indic,m} налет{налет=S,m,inan=(acc,sg|nom,sg)} седин{седина=S,f,inan=gen,pl}.
 
-{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {звук=S,m,inan=(acc,sg|nom,sg)}, {разлука=S,f,inan=acc,sg} {сердце=S,n,inan=dat,sg} {спеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)},
-{не=PART=} {человечий=A,plen=(acc,sg,m,inan|nom,sg,m)}, {нет=ADV,praed=}, {не=PART=} {птичий=A,plen=(acc,sg,m,inan|nom,sg,m)} {свист=S,m,inan=(acc,sg|nom,sg)},
-{в=PR=} {шуршание=S,n,inan=abl,sg} {ускользающий?=A=sg,brev,m} {и=CONJ=} {сквозистый=A=sg,brev,m}.
+Тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} малый{малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} звук{звук=S,m,inan=(acc,sg|nom,sg)}, разлуку{разлука=S,f,inan=acc,sg} сердцу{сердце=S,n,inan=dat,sg} спевший{спеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)},
+Не{не=PART=} человечий{человечий=A,plen=(acc,sg,m,inan|nom,sg,m)}, нет{нет=ADV,praed=}, не{не=PART=} птичий{птичий=A,plen=(acc,sg,m,inan|nom,sg,m)} свист{свист=S,m,inan=(acc,sg|nom,sg)},
+В{в=PR=} шуршаньи{шуршание=S,n,inan=abl,sg} ускользающ{ускользающий?=A=sg,brev,m} и{и=CONJ=} сквозист{сквозистый=A=sg,brev,m}.
 
-{прощальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шорох=S,m,inan=(acc,sg|nom,sg)}, {первый=ANUM=(acc,sg,m,inan|nom,sg,m)} {пожелтеть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)},
-{дожигать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {жизнь=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {наземь=ADV=} {лист=S,m,inan=(acc,sg|nom,sg)},
-{в=PR=} {падение=S,n,inan=abl,sg} {поцелуй=S,m,inan=ins,sg} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {задеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)}.
+Прощальный{прощальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} шорох{шорох=S,m,inan=(acc,sg|nom,sg)}, первый{первый=ANUM=(acc,sg,m,inan|nom,sg,m)} пожелтевший{пожелтеть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)},
+Дожегший{дожигать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} и{и=CONJ=} павший{пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} наземь{наземь=ADV=} лист{лист=S,m,inan=(acc,sg|nom,sg)},
+В{в=PR=} паденьи{падение=S,n,inan=abl,sg} поцелуем{поцелуй=S,m,inan=ins,sg} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} задевший{задеть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)}.

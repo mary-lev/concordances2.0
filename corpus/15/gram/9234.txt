@@ -1,20 +1,20 @@
-{ходить=V,ipf,intr=inpraes,sg,indic,3p} {без=PR=} {нога=S,f,inan=gen,pl}
-{цепко=ADV=} {без=PR=} {рука=S,f,inan=gen,pl},
-{уста=S,pl,inan=(acc|nom)} {без=PR=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
-{прийти=V,pf,intr=inpraes,sg,indic,3p} {на=PR=} {порог=S,m,inan=(acc,sg|nom,sg)},
-{предвестник=S,m=(ins,sg,anim|ins,sg,inan)} {мука=S,f,inan=gen,pl}
-{таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Ходит{ходить=V,ipf,intr=inpraes,sg,indic,3p} без{без=PR=} ног{нога=S,f,inan=gen,pl}
+Цепко{цепко=ADV=} без{без=PR=} рук{рука=S,f,inan=gen,pl},
+Уста{уста=S,pl,inan=(acc|nom)} без{без=PR=} речи{речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Придет{прийти=V,pf,intr=inpraes,sg,indic,3p} на{на=PR=} порог{порог=S,m,inan=(acc,sg|nom,sg)},
+Предвестником{предвестник=S,m=(ins,sg,anim|ins,sg,inan)} мук{мука=S,f,inan=gen,pl}
+Таинственной{таинственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} встречи{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{и=CONJ=} {взор=S,m,inan=ins,sg} {слепой=S,m,anim=(dat,pl|ins,sg)}
-{глядеть=V,ipf,tran=inpraes,sg,indic,3p} {без=PR=} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
-{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {покидать=V,tran=inpraes,sg,indic,3p,pf}.
-{густеть=V,ipf,intr=inpraes,sg,indic,3p} {как=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}
-{темнеть=V,ipf,intr=inpraes,sg,indic,3p}, {стыть=V,ipf=inpraes,sg,indic,3p}.
+И{и=CONJ=} взором{взор=S,m,inan=ins,sg} слепым{слепой=S,m,anim=(dat,pl|ins,sg)}
+Глядит{глядеть=V,ipf,tran=inpraes,sg,indic,3p} без{без=PR=} глаз{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+Души{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} покинет{покидать=V,tran=inpraes,sg,indic,3p,pf}.
+Густеет{густеть=V,ipf,intr=inpraes,sg,indic,3p} как{как=CONJ=} дым{дым=S,m,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} наш{наш=APRO=(acc,sg,m,inan|nom,sg,m)} час{час=S,m,inan=(acc,sg|nom,sg)}
+Темнеет{темнеть=V,ipf,intr=inpraes,sg,indic,3p}, стынет{стыть=V,ipf=inpraes,sg,indic,3p}.
 
-{ползти=V,ipf,intr=inpraes,sg,indic,3p} {без=PR=} {нога=S,f,inan=gen,pl},
-{хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)} {без=PR=} {рука=S,f,inan=gen,pl},
-{говорить=V,ipf,tran=inpraes,sg,indic,3p} {без=PR=} {речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
-{и=CONJ=} {доныне=ADV=} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}
-{ум=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {лукавство=S,n,inan=ins,sg} {наука=S,f,inan=gen,pl}
-{избегать=V,intr=inf,pf} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Ползет{ползти=V,ipf,intr=inpraes,sg,indic,3p} без{без=PR=} ног{нога=S,f,inan=gen,pl},
+Хватает{хватать=V,ipf=(inpraes,sg,indic,3p|inpraes,indic)} без{без=PR=} рук{рука=S,f,inan=gen,pl},
+Говорит{говорить=V,ipf,tran=inpraes,sg,indic,3p} без{без=PR=} речи{речь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+И{и=CONJ=} доныне{доныне=ADV=} не{не=PART=} мог{мочь=V,ipf,intr=praet,sg,indic,m}
+Ум{ум=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} лукавством{лукавство=S,n,inan=ins,sg} наук{наука=S,f,inan=gen,pl}
+Избежать{избегать=V,intr=inf,pf} этой{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} встречи{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

@@ -1,19 +1,19 @@
-{дух=S,m,inan=(acc,sg|nom,sg)} {пряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {март=S,m,inan=gen,sg} {быть=V,intr=praet,sg,indic,m,ipf} {в=PR=} {лунный=A=(abl,sg,plen,m|abl,sg,plen,n)} {круг=S,m,inan=abl,sg},
-{под=PR=} {талый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {снег=S,m,inan=ins,sg} {хрустеть=V,ipf,intr=praet,sg,indic,m} {песок=S,m,inan=(acc,sg|nom,sg)}.
-{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {город=S,m,inan=(acc,sg|nom,sg)} {истаивать=V,intr=praet,sg,indic,m,pf} {в=PR=} {мокрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вьюга=S,f,inan=(abl,sg|dat,sg)},
-{рыдать=V,ipf,intr=praet,sg,indic,m}, {влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {у=PR=} {чей-то=APRO=(abl,pl|gen,pl|acc,pl,anim)} {нога=S,f,inan=gen,pl}.
+Дух{дух=S,m,inan=(acc,sg|nom,sg)} пряный{пряный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} марта{март=S,m,inan=gen,sg} был{быть=V,intr=praet,sg,indic,m,ipf} в{в=PR=} лунном{лунный=A=(abl,sg,plen,m|abl,sg,plen,n)} круге{круг=S,m,inan=abl,sg},
+Под{под=PR=} талым{талый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} снегом{снег=S,m,inan=ins,sg} хрустел{хрустеть=V,ipf,intr=praet,sg,indic,m} песок{песок=S,m,inan=(acc,sg|nom,sg)}.
+Мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} город{город=S,m,inan=(acc,sg|nom,sg)} истаял{истаивать=V,intr=praet,sg,indic,m,pf} в{в=PR=} мокрой{мокрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} вьюге{вьюга=S,f,inan=(abl,sg|dat,sg)},
+Рыдал{рыдать=V,ipf,intr=praet,sg,indic,m}, влюбленный{влюбленный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, у{у=PR=} чьих-то{чей-то=APRO=(abl,pl|gen,pl|acc,pl,anim)} ног{нога=S,f,inan=gen,pl}.
 
-{ты=SPRO,sg,2p=nom} {прижиматься=V,intr=praet,sg,indic,f,ipf} {все=ADV=} {суеверно=ADV=comp},
-{и=CONJ=} {я=SPRO,sg,1p=(abl|dat)} {казаться=V,ipf,intr=praet,sg,indic,n} — {сквозь=PR=} {храп=S,m,inan=(acc,sg|nom,sg)} {конь=S,m,anim=(acc,sg|gen,sg)} —
-{венгерский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {танец=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{звенеть=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {плакать=V,ipf,intr=inpraes,sg,indic,3p}, {дразнить=V,ipf,tran=inpraes,ger} {я=SPRO,sg,1p=(acc|gen)}.
+Ты{ты=SPRO,sg,2p=nom} прижималась{прижиматься=V,intr=praet,sg,indic,f,ipf} всё{все=ADV=} суеверней{суеверно=ADV=comp},
+И{и=CONJ=} мне{я=SPRO,sg,1p=(abl|dat)} казалось{казаться=V,ipf,intr=praet,sg,indic,n} — сквозь{сквозь=PR=} храп{храп=S,m,inan=(acc,sg|nom,sg)} коня{конь=S,m,anim=(acc,sg|gen,sg)} —
+Венгерский{венгерский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} танец{танец=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} небесной{небесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} черни{чернь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Звенит{звенеть=V,ipf,intr=inpraes,sg,indic,3p} и{и=CONJ=} плачет{плакать=V,ipf,intr=inpraes,sg,indic,3p}, дразня{дразнить=V,ipf,tran=inpraes,ger} меня{я=SPRO,sg,1p=(acc|gen)}.
 
-{а=CONJ=} {шалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=(acc,sg|nom,sg)}, {носиться=V,ipf,intr=inpraes,ger} {над=PR=} {даль=S,f,inan=ins,sg}, —
-{хотеть=V,ipf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=nom} {выжигать=V=inf,pf} {душа=S,f,inan=acc,sg} {я=SPRO,sg,1p=(abl|dat)},
-{в=PR=} {лицо=S,n,inan=(acc,sg|nom,sg)} {швырять=V,ipf,tran=inpraes,ger} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {вуаль=S,f,inan=ins,sg}
-{и=CONJ=} {запевать=V,tran=inpraes,ger,ipf} {о=PR=} {старина=S,f,inan=(abl,sg|dat,sg)}...
+А{а=CONJ=} шалый{шалый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, носясь{носиться=V,ipf,intr=inpraes,ger} над{над=PR=} далью{даль=S,f,inan=ins,sg}, —
+Хотел{хотеть=V,ipf,tran=praet,sg,indic,m} он{он=SPRO,sg,3p,m=nom} выжечь{выжигать=V=inf,pf} душу{душа=S,f,inan=acc,sg} мне{я=SPRO,sg,1p=(abl|dat)},
+В{в=PR=} лицо{лицо=S,n,inan=(acc,sg|nom,sg)} швыряя{швырять=V,ipf,tran=inpraes,ger} твоей{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} вуалью{вуаль=S,f,inan=ins,sg}
+И{и=CONJ=} запевая{запевать=V,tran=inpraes,ger,ipf} о{о=PR=} старине{старина=S,f,inan=(abl,sg|dat,sg)}...
 
-{и=CONJ=} {вдруг=ADV=} — {ты=SPRO,sg,2p=nom}, {дальний=A=nom,sg,plen,f}, {чужой=A,plen=nom,sg,f},
-{сказать=V,pf,tran=praet,sg,indic,f} {с=PR=} {молния=S,f,inan=ins,sg} {в=PR=} {глаз=S,m,inan=abl,pl}:
-{то=CONJ=} {душа=S,f,inan=nom,sg}, {на=PR=} {последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {вступать=V,intr=inpraes,ger,ipf},
-{безумно=ADV=} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {о=PR=} {прошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {сон=S,m,inan=abl,pl}.
+И{и=CONJ=} вдруг{вдруг=ADV=} — ты{ты=SPRO,sg,2p=nom}, дальняя{дальний=A=nom,sg,plen,f}, чужая{чужой=A,plen=nom,sg,f},
+Сказала{сказать=V,pf,tran=praet,sg,indic,f} с{с=PR=} молнией{молния=S,f,inan=ins,sg} в{в=PR=} глазах{глаз=S,m,inan=abl,pl}:
+То{то=CONJ=} душа{душа=S,f,inan=nom,sg}, на{на=PR=} последний{последний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} путь{путь=S,m,inan=(acc,sg|nom,sg)} вступая{вступать=V,intr=inpraes,ger,ipf},
+Безумно{безумно=ADV=} плачет{плакать=V,ipf,intr=inpraes,sg,indic,3p} о{о=PR=} прошлых{прошлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} снах{сон=S,m,inan=abl,pl}.

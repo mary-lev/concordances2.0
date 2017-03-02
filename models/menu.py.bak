@@ -4,7 +4,6 @@
 #########################################################################
 ## Customize your APP title, subtitle and menus here
 #########################################################################
-from zauthor import au
 
 response.logo = A(B('concor',SPAN('dances')),XML('.ru'),
                   _class="brand",_href="http://concordances.ru")
@@ -72,10 +71,10 @@ def _():
         (T('Поиск слова'), False, URL('concordance', 'ask_model')),
         (T('Животные'), False, URL('concordance', 'zveri')),
         (T('Птицы'), False, URL('concordance', 'birds')),
-        ] )
+        ] ),
+        (SPAN('', _class='highlighted'), False, URL('zatochnik', 'index'))
          ]
-    response.menu.append(['Test', False, '#',
-                              [[all.name, False, URL('author', 'all_author', args=all.id)] for all in au()]])
+
 if DEVELOPMENT_MENU: _()
 
 if "auth" in locals(): auth.wikimenu()

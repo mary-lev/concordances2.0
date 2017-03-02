@@ -1,14 +1,14 @@
-{вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {город=S,m,inan=(acc,sg|nom,sg)}! {снова=ADV=} {танк=S,m,inan=(acc,pl|nom,pl)},
-{хоть=PART=} {и=CONJ=} {дружеский=A=(acc,pl,plen,inan|nom,pl,plen)} {ныне=ADV=},
-{у=PR=} {дверь=S,f,inan=gen,pl} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {святыня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {на=PR=} {стогна=S,f,inan=abl,pl} {древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {янки=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
+Вечный{вечный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} город{город=S,m,inan=(acc,sg|nom,sg)}! Снова{снова=ADV=} танки{танк=S,m,inan=(acc,pl|nom,pl)},
+Хоть{хоть=PART=} и{и=CONJ=} дружеские{дружеский=A=(acc,pl,plen,inan|nom,pl,plen)} ныне{ныне=ADV=},
+У{у=PR=} дверей{дверь=S,f,inan=gen,pl} твоей{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} святыни{святыня=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} на{на=PR=} стогнах{стогна=S,f,inan=abl,pl} древних{древний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} янки{янки=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}
 
-{пьянствовать=V,ipf,intr=inpraes,pl,indic,3p}, {и=CONJ=} {полнить=V,ipf,tran=inpraes,sg,indic,3p} {рынок=S,m,inan=(acc,pl|nom,pl)}
-{клект?=S,m,inan=(acc,sg|nom,sg)} {гортанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мусульман?=S,m,inan=gen,sg},
-{и=CONJ=} {шотландский=A,geo=(acc,pl,plen,inan|nom,pl,plen)} {волынка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{под=PR=} {столп=S,m,inan=ins,sg} {дудеть=V,ipf,intr=inpraes,pl,indic,3p} {траян=S,persn,m,anim=(acc,sg|gen,sg)}.
+Пьянствуют{пьянствовать=V,ipf,intr=inpraes,pl,indic,3p}, и{и=CONJ=} полнит{полнить=V,ipf,tran=inpraes,sg,indic,3p} рынки{рынок=S,m,inan=(acc,pl|nom,pl)}
+Клёкт{клект?=S,m,inan=(acc,sg|nom,sg)} гортанный{гортанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мусульмана{мусульман?=S,m,inan=gen,sg},
+И{и=CONJ=} шотландские{шотландский=A,geo=(acc,pl,plen,inan|nom,pl,plen)} волынки{волынка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Под{под=PR=} столпом{столп=S,m,inan=ins,sg} дудят{дудеть=V,ipf,intr=inpraes,pl,indic,3p} Траяна{траян=S,persn,m,anim=(acc,sg|gen,sg)}.
 
-{воля=S,f,inan=ins,sg} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {сокровенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{так=ADVPRO=}, {на=PR=} {клич=S,m,inan=(acc,sg|nom,sg)} {мирской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {тревога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{все=SPRO,pl=(acc|nom)} {вести=V,ipf,tran=inpraes,pl,indic,3p} {в=PR=} {ты=SPRO,sg,2p=(acc|gen)} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{средоточие=S,n,inan=(acc,sg|nom,sg)} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}!
+Волей{воля=S,f,inan=ins,sg} неба{небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} сокровенной{сокровенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Так{так=ADVPRO=}, на{на=PR=} клич{клич=S,m,inan=(acc,sg|nom,sg)} мирской{мирской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} тревоги{тревога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Все{все=SPRO,pl=(acc|nom)} ведут{вести=V,ipf,tran=inpraes,pl,indic,3p} в{в=PR=} тебя{ты=SPRO,sg,2p=(acc|gen)} дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Средоточие{средоточие=S,n,inan=(acc,sg|nom,sg)} вселенной{вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}!

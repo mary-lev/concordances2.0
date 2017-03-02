@@ -1,56 +1,56 @@
-{медленный=A=(acc,pl,plen,inan|nom,pl,plen)} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-      {утро=S,n,inan=ins,sg} {рано=ADV=},
-{из=PR=} {туман=S,m,inan=gen,sg},
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {выглядывать=V,intr=inpraes,sg,indic,3p,pf} {для=PR=} {мы=SPRO,pl,1p=(abl|acc|gen)}.
-{и=CONJ=} {освещать=V,tran=inpraes,sg,indic,3p,pf},
-{и=CONJ=} {замечать=V,tran=inpraes,sg,indic,3p,pf}
-{все=SPRO,pl=(abl|acc|gen)}, {кто=SPRO,sg,m,anim=nom} {любить=V,ipf,tran=inpraes,sg,indic,3p} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {час=S,m,inan=(acc,sg|nom,sg)}.
+Медленные{медленный=A=(acc,pl,plen,inan|nom,pl,plen)} строки{строка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+      Утром{утро=S,n,inan=ins,sg} рано{рано=ADV=},
+Из{из=PR=} тумана{туман=S,m,inan=gen,sg},
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} выглянет{выглядывать=V,intr=inpraes,sg,indic,3p,pf} для{для=PR=} нас{мы=SPRO,pl,1p=(abl|acc|gen)}.
+И{и=CONJ=} осветит{освещать=V,tran=inpraes,sg,indic,3p,pf},
+И{и=CONJ=} заметит{замечать=V,tran=inpraes,sg,indic,3p,pf}
+Всех{все=SPRO,pl=(abl|acc|gen)}, кто{кто=SPRO,sg,m,anim=nom} любит{любить=V,ipf,tran=inpraes,sg,indic,3p} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} час{час=S,m,inan=(acc,sg|nom,sg)}.
 
-      {ночь=S,f,inan=ins,sg},
-{скучно=ADV=}, {однозвучный=A=sg,brev,n},
-{упадать=V,ipf,intr=inpraes,sg,indic,3p} {звон=S,m,inan=(acc,sg|nom,sg)} {минута=S,f,inan=gen,pl}.
-      {о=PR=}	{минувший=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{обманывать=V,tran=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)}
-{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {напев=S,m,inan=(acc,pl|nom,pl)} {мы=SPRO,pl,1p=dat} {петь=V,ipf,tran=inpraes,pl,indic,3p}.
+      Ночью{ночь=S,f,inan=ins,sg},
+скучно{скучно=ADV=}, Однозвучно{однозвучный=A=sg,brev,n},
+Упадает{упадать=V,ipf,intr=inpraes,sg,indic,3p} звон{звон=S,m,inan=(acc,sg|nom,sg)} минут{минута=S,f,inan=gen,pl}.
+      О{о=PR=}	минувшем{минувший=A=(abl,sg,plen,m|abl,sg,plen,n)},
+Обманувшем{обманывать=V,tran=(praet,abl,sg,partcp,plen,m,pf,act|praet,abl,sg,partcp,plen,n,pf,act)}
+Их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} напевы{напев=S,m,inan=(acc,pl|nom,pl)} нам{мы=SPRO,pl,1p=dat} поют{петь=V,ipf,tran=inpraes,pl,indic,3p}.
 
-{точно=ADV=} {с=PR=} {крыша=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{тихо=ADV=comp}, {тихо=ADV=comp},
-{капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {падать=V,ipf,intr=inpraes,pl,indic,3p} {дождь=S,m,inan=gen,sg}.
-      {все=SPRO,pl=(acc|nom)} {проливаться=V,intr=inpraes,pl,indic,3p,pf},
-      {не=PART=} {вернуться=V,pf,intr=inpraes,pl,indic,3p},
-{этот=APRO=(acc,sg,m,inan|nom,sg,m)} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {путь=S,m,inan=(acc,sg|nom,sg)} {пройти=V,pf,tran=praet,ger}.
+Точно{точно=ADV=} с{с=PR=} крыши{крыша=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Тише{тихо=ADV=comp}, тише{тихо=ADV=comp},
+Капли{капля=S,f,inan=(acc,pl|gen,sg|nom,pl)} падают{падать=V,ipf,intr=inpraes,pl,indic,3p} дождя{дождь=S,m,inan=gen,sg}.
+      Все{все=SPRO,pl=(acc|nom)} прольются{проливаться=V,intr=inpraes,pl,indic,3p,pf},
+      Не{не=PART=} вернутся{вернуться=V,pf,intr=inpraes,pl,indic,3p},
+Этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} темный{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} путь{путь=S,m,inan=(acc,sg|nom,sg)} пройдя{пройти=V,pf,tran=praet,ger}.
 
-      {звук=S,m,inan=(acc,sg|nom,sg)} {неясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{безучастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{панихида=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мы=SPRO,pl,1p=dat} {петь=V,ipf,tran=inpraes,sg,indic,3p}.
-«{верить=V,ipf,intr=pl,imper,2p}, {верить=V,ipf,intr=pl,imper,2p}
-{только=PART=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
-{чет=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {нечет=S,m,inan=(acc,sg|nom,sg)}! {нечет=S,m,inan=(acc,sg|nom,sg)}, {чет=S,m,inan=(acc,sg|nom,sg)}!
+      Звук{звук=S,m,inan=(acc,sg|nom,sg)} неясный{неясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Безучастный{безучастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Панихиды{панихида=S,f,inan=(acc,pl|gen,sg|nom,pl)} нам{мы=SPRO,pl,1p=dat} поет{петь=V,ipf,tran=inpraes,sg,indic,3p}.
+«Верьте{верить=V,ipf,intr=pl,imper,2p}, верьте{верить=V,ipf,intr=pl,imper,2p}
+Только{только=PART=} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+Чет{чет=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} нечет{нечет=S,m,inan=(acc,sg|nom,sg)}! Нечет{нечет=S,m,inan=(acc,sg|nom,sg)}, чет{чет=S,m,inan=(acc,sg|nom,sg)}!
 
-{чет=S,m,inan=(acc,sg|nom,sg)} {счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
-{и=CONJ=} {красивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{слабый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {нечет=S,m,inan=(acc,sg|nom,sg)}, {недочет=S,m,inan=(acc,sg|nom,sg)}!
-{но=CONJ=}, {редеть=V,ipf,intr=inpraes,ger},
-{холодеть=V,ipf,intr=inpraes,ger},
-{чет=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {нечет=S,m,inan=(acc,sg|nom,sg)} {протекать=V,intr=inpraes,sg,indic,3p,pf}!»
+Чет{чет=S,m,inan=(acc,sg|nom,sg)} счастливым{счастливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+И{и=CONJ=} красивым{красивый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+Слабым{слабый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} нечет{нечет=S,m,inan=(acc,sg|nom,sg)}, недочет{недочет=S,m,inan=(acc,sg|nom,sg)}!
+Но{но=CONJ=}, редея{редеть=V,ipf,intr=inpraes,ger},
+Холодея{холодеть=V,ipf,intr=inpraes,ger},
+Чет{чет=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} нечет{нечет=S,m,inan=(acc,sg|nom,sg)} протечет{протекать=V,intr=inpraes,sg,indic,3p,pf}!»
 
-{звук=S,m,inan=(acc,sg|nom,sg)} {неясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{безучастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{ты=SPRO,sg,2p=nom} {поесть=V,pf,tran=(inpraes,sg,indic,2p|sg,imper,2p)}, {обман=S,m,inan=(acc,sg|nom,sg)} {таить=V,ipf,tran=inpraes,ger}.
-{нет=PART=}, {не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p},
-      {и=CONJ=} {в=PR=} {потеря=S,f,inan=acc,sg}
-{смысл=S,m,inan=(acc,sg|nom,sg)} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {влагать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}.
+Звук{звук=S,m,inan=(acc,sg|nom,sg)} неясный{неясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Безучастный{безучастный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Ты{ты=SPRO,sg,2p=nom} поешь{поесть=V,pf,tran=(inpraes,sg,indic,2p|sg,imper,2p)}, обман{обман=S,m,inan=(acc,sg|nom,sg)} тая{таить=V,ipf,tran=inpraes,ger}.
+Нет{нет=PART=}, не{не=PART=} верю{верить=V,ipf,intr=inpraes,sg,indic,1p},
+      И{и=CONJ=} в{в=PR=} потерю{потеря=S,f,inan=acc,sg}
+Смысл{смысл=S,m,inan=(acc,sg|nom,sg)} иной{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} влагаю{влагать=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom}.
 
-      {верить=V,ipf,intr=pl,imper,2p}, {верить=V,ipf,intr=pl,imper,2p}
-{только=PART=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{мы=SPRO,pl,1p=(abl|acc|gen)} {понимать=V=(praet,acc,sg,partcp,plen,m,pf,act,anim,tran|praet,gen,sg,partcp,plen,m,pf,act,tran|praet,gen,sg,partcp,plen,n,pf,act,tran)} {христос=S,famn,m,anim=(acc,sg|gen,sg)}!
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {вставать=V,intr=inpraes,sg,indic,3p,pf},
-{не=PART=} {обманывать=V,tran=inpraes,sg,indic,3p,pf},
-{вечно=ADV=} {светить=V,ipf,intr=inpraes,sg,indic,3p} {красота=S,f,inan=nom,sg}!
+      Верьте{верить=V,ipf,intr=pl,imper,2p}, верьте{верить=V,ipf,intr=pl,imper,2p}
+Только{только=PART=} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Нас{мы=SPRO,pl,1p=(abl|acc|gen)} понявшего{понимать=V=(praet,acc,sg,partcp,plen,m,pf,act,anim,tran|praet,gen,sg,partcp,plen,m,pf,act,tran|praet,gen,sg,partcp,plen,n,pf,act,tran)} Христа{христос=S,famn,m,anim=(acc,sg|gen,sg)}!
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} встанет{вставать=V,intr=inpraes,sg,indic,3p,pf},
+Не{не=PART=} обманет{обманывать=V,tran=inpraes,sg,indic,3p,pf},
+Вечно{вечно=ADV=} светит{светить=V,ipf,intr=inpraes,sg,indic,3p} красота{красота=S,f,inan=nom,sg}!
 
-{цель=S,f,inan=(acc,sg|nom,sg)} {страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} {мы=SPRO,pl,1p=dat} {светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {давать=V,tran=inpraes,sg,indic,3p,pf} {отчет=S,m,inan=(acc,sg|nom,sg)}.
-{в=PR=} {мир=S,m,inan=(acc,sg|nom,sg)} {согласный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{вечно=ADV=}-{ясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{чет=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {нечет=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=(abl|acc|gen)} {влечь=V,ipf,tran=inpraes,sg,indic,3p}.
+Цель{цель=S,f,inan=(acc,sg|nom,sg)} страданья{страдание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Ожиданья{ожидание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Всем{весь=APRO=(dat,pl|abl,sg,m|abl,sg,n|ins,sg,m|ins,sg,n)} нам{мы=SPRO,pl,1p=dat} светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} даст{давать=V,tran=inpraes,sg,indic,3p,pf} отчет{отчет=S,m,inan=(acc,sg|nom,sg)}.
+В{в=PR=} мир{мир=S,m,inan=(acc,sg|nom,sg)} согласный{согласный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Вечно{вечно=ADV=}-ясный{ясный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Чет{чет=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} нечет{нечет=S,m,inan=(acc,sg|nom,sg)} нас{мы=SPRO,pl,1p=(abl|acc|gen)} влечет{влечь=V,ipf,tran=inpraes,sg,indic,3p}.

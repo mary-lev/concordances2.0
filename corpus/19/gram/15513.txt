@@ -1,19 +1,19 @@
-{час=S,m,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {отрадный=A=sg,brev,m}
-{для=PR=} {бесстрашный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {душа=S,f,inan=ins,sg}.
-{воздух=S,m,inan=(acc,sg|nom,sg)} {нежный=A=sg,brev,m} {и=CONJ=} {прохладный=A=sg,brev,m},
-{темный=A=sg,brev,m} {мрак=S,m,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Час{час=S,m,inan=(acc,sg|nom,sg)} ночной{ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} отраден{отрадный=A=sg,brev,m}
+Для{для=PR=} бесстрашного{бесстрашный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} душой{душа=S,f,inan=ins,sg}.
+Воздух{воздух=S,m,inan=(acc,sg|nom,sg)} нежен{нежный=A=sg,brev,m} и{и=CONJ=} прохладен{прохладный=A=sg,brev,m},
+Темен{темный=A=sg,brev,m} мрак{мрак=S,m,inan=(acc,sg|nom,sg)} ночной{ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{только=PART=} {звезда=S,f,inan=gen,pl} {узор=S,m,inan=(acc,pl|nom,pl)},
-{да=CONJ=} {вдали=ADV=} {кой-где=ADV=} {огонь=S,m,inan=(acc,pl|nom,pl)}
-{различать=V,tran=inpraes,pl,indic,3p,ipf} {смутно=ADV=} {взор=S,m,inan=(acc,pl|nom,pl)}.
-{грусть=S,f,inan=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f}, {уснуть=V,pf,intr=sg,imper,2p}!
+Только{только=PART=} звезд{звезда=S,f,inan=gen,pl} узоры{узор=S,m,inan=(acc,pl|nom,pl)},
+Да{да=CONJ=} вдали{вдали=ADV=} кой-где{кой-где=ADV=} огни{огонь=S,m,inan=(acc,pl|nom,pl)}
+Различают{различать=V,tran=inpraes,pl,indic,3p,ipf} смутно{смутно=ADV=} взоры{взор=S,m,inan=(acc,pl|nom,pl)}.
+Грусть{грусть=S,f,inan=(acc,sg|nom,sg)} моя{мой=APRO=nom,sg,f}, усни{уснуть=V,pf,intr=sg,imper,2p}!
 
-{весь=APRO=nom,sg,f} {обычность=S,f,inan=(acc,sg|nom,sg)} {скрывать=V=praet,sg,partcp,brev,f,pf,pass},
-{тьма=S,f,inan=ins,sg} {смывать=V=praet,pl,partcp,brev,pf,pass} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {черта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{ночь=S,f,inan=(acc,sg|nom,sg)} — {безмолвный=A=nom,sg,plen,f} {защита=S,f,inan=nom,sg}
-{я=SPRO,sg,1p=(abl|dat)} {от=PR=} {суета=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Вся{весь=APRO=nom,sg,f} обычность{обычность=S,f,inan=(acc,sg|nom,sg)} скрыта{скрывать=V=praet,sg,partcp,brev,f,pf,pass},
+Тьмою{тьма=S,f,inan=ins,sg} смыты{смывать=V=praet,pl,partcp,brev,pf,pass} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} черты{черта=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Ночь{ночь=S,f,inan=(acc,sg|nom,sg)} — безмолвная{безмолвный=A=nom,sg,plen,f} защита{защита=S,f,inan=nom,sg}
+Мне{я=SPRO,sg,1p=(abl|dat)} от{от=PR=} суеты{суета=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{кто-то=SPRO,sg,m,anim=nom} {близко=ADV=} {ходить=V,ipf,intr=inpraes,sg,indic,3p},
-{кто-то=SPRO,sg,m,anim=nom} {нежно=ADV=} {стеречь=V,ipf,tran=inpraes,sg,indic,3p},
-{чуткий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {с=PR=} {я=SPRO,sg,1p=(acc|gen)} {не=PART=} {сводить=V=inpraes,sg,indic,3p,ipf,tran},
-{но=CONJ=} {не=PART=} {подходить=V,intr=inpraes,sg,indic,3p,pf}.
+Кто-то{кто-то=SPRO,sg,m,anim=nom} близко{близко=ADV=} ходит{ходить=V,ipf,intr=inpraes,sg,indic,3p},
+Кто-то{кто-то=SPRO,sg,m,anim=nom} нежно{нежно=ADV=} стережет{стеречь=V,ipf,tran=inpraes,sg,indic,3p},
+Чутких{чуткий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} глаз{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} с{с=PR=} меня{я=SPRO,sg,1p=(acc|gen)} не{не=PART=} сводит{сводить=V=inpraes,sg,indic,3p,ipf,tran},
+Но{но=CONJ=} не{не=PART=} подойдет{подходить=V,intr=inpraes,sg,indic,3p,pf}.

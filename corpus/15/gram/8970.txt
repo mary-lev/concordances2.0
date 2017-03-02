@@ -1,11 +1,11 @@
-{свет=S,sg,m,inan=(acc|nom)} {чудесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {свет=S,sg,m,inan=(acc|nom)} {прелестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {светить=V,ipf,intr=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat} {с=PR=} {небо=S,n,inan=gen,pl},
-{он=SPRO,sg,3p,m=nom} {в=PR=} {другой=APRO=(abl,sg,m|abl,sg,n)} {край=S,m,inan=(dat,sg|loc,sg)} {засвечивать=V,tran=inpraes,sg,indic,3p,pf}, {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {в=PR=} {один=APRO=(abl,sg,m|abl,sg,n)} {исчезать=V,intr=praet,sg,indic,m,pf}.
+Свет{свет=S,sg,m,inan=(acc|nom)} чудесный{чудесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, свет{свет=S,sg,m,inan=(acc|nom)} прелестный{прелестный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} светит{светить=V,ipf,intr=inpraes,sg,indic,3p} нам{мы=SPRO,pl,1p=dat} с{с=PR=} Небес{небо=S,n,inan=gen,pl},
+Он{он=SPRO,sg,3p,m=nom} в{в=PR=} другом{другой=APRO=(abl,sg,m|abl,sg,n)} краю{край=S,m,inan=(dat,sg|loc,sg)} засветит{засвечивать=V,tran=inpraes,sg,indic,3p,pf}, раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} в{в=PR=} одном{один=APRO=(abl,sg,m|abl,sg,n)} исчез{исчезать=V,intr=praet,sg,indic,m,pf}.
 
-{он=SPRO,sg,3p,m=nom} {в=PR=} {один=APRO=(abl,pl|gen,pl|acc,pl,anim)} {око=S,n,inan=abl,pl} {кончать=V,tran=inpraes,sg,indic,3p,ipf}, {а=CONJ=} {в=PR=} {око=S,n,inan=abl,pl} {другой=APRO=(abl,pl|gen,pl|acc,pl,anim)}
-{чуть=ADV=} {заметно=ADV=} {начинать=V,tran=inpraes,sg,indic,3p,ipf}, {как=CONJ=} {запевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {стих=S,m,inan=(acc,sg|nom,sg)}.
+Он{он=SPRO,sg,3p,m=nom} в{в=PR=} одних{один=APRO=(abl,pl|gen,pl|acc,pl,anim)} очах{око=S,n,inan=abl,pl} кончает{кончать=V,tran=inpraes,sg,indic,3p,ipf}, а{а=CONJ=} в{в=PR=} очах{око=S,n,inan=abl,pl} других{другой=APRO=(abl,pl|gen,pl|acc,pl,anim)}
+Чуть{чуть=ADV=} заметно{заметно=ADV=} начинает{начинать=V,tran=inpraes,sg,indic,3p,ipf}, как{как=CONJ=} запетый{запевать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} стих{стих=S,m,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=} {один=APRO=(nom,pl|acc,pl,inan)} {темнеть=V,ipf,intr=inpraes,pl,indic,3p} {око=S,n,inan=(acc,pl|nom,pl)}, {чтоб=CONJ=} {в=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {уснуть=V,pf,intr=inf},
-{чтоб=CONJ=} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}, {в=PR=} {угроза=S,f,inan=acc,sg} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {вместо=PR=} {они=SPRO,pl=(abl|acc|gen)} {блеснуть=V,pf,intr=inf}.
+И{и=CONJ=} одни{один=APRO=(nom,pl|acc,pl,inan)} темнеют{темнеть=V,ipf,intr=inpraes,pl,indic,3p} очи{око=S,n,inan=(acc,pl|nom,pl)}, чтоб{чтоб=CONJ=} в{в=PR=} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} уснуть{уснуть=V,pf,intr=inf},
+Чтоб{чтоб=CONJ=} другим{другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}, в{в=PR=} угрозу{угроза=S,f,inan=acc,sg} Ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, вместо{вместо=PR=} них{они=SPRO,pl=(abl|acc|gen)} блеснуть{блеснуть=V,pf,intr=inf}.
 
-{а=CONJ=} {заснуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {сиять=V,ipf,intr=inpraes,pl,indic,3p} — {где=ADVPRO=} {шатер=S,m,inan=(acc,sg|nom,sg)} {небо=S,n,inan=gen,pl},
-{чтоб=CONJ=} {не=PART=} {думать=V,ipf,intr=praet,pl,indic}, {что=CONJ=} {будто=PART=} {ночь=S,f,inan=ins,sg} {свет=S,sg,m,inan=(acc|nom)} {исчезать=V,intr=praet,sg,indic,m,pf}.
+А{а=CONJ=} заснувшие{заснуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} сияют{сиять=V,ipf,intr=inpraes,pl,indic,3p} — где{где=ADVPRO=} шатер{шатер=S,m,inan=(acc,sg|nom,sg)} Небес{небо=S,n,inan=gen,pl},
+Чтоб{чтоб=CONJ=} не{не=PART=} думали{думать=V,ipf,intr=praet,pl,indic}, что{что=CONJ=} будто{будто=PART=} ночью{ночь=S,f,inan=ins,sg} свет{свет=S,sg,m,inan=(acc|nom)} исчез{исчезать=V,intr=praet,sg,indic,m,pf}.

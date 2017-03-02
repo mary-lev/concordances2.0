@@ -1,27 +1,27 @@
-{благо=S,n,inan=(acc,sg|nom,sg)}
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {отвага=S,f,inan=nom,sg},
-{в=PR=} {битва=S,f,inan=acc,sg} {выходить=V,intr=sg,imper,2p,ipf}.
-{если=CONJ=}
-{ты=SPRO,sg,2p=nom} {умный=A=sg,brev,m}, {спрашивать=V=sg,imper,2p,pf}, {не=PART=} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {ли=PART=}
-{вражий=A,plen=(acc,sg,m,inan|nom,sg,m)} {корпус=S,m,inan=(acc,sg|nom,sg)} {впереди=ADV=}.
+Благо{благо=S,n,inan=(acc,sg|nom,sg)}
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} в{в=PR=} груди{грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} твоей{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} отвага{отвага=S,f,inan=nom,sg},
+В{в=PR=} битву{битва=S,f,inan=acc,sg} выходи{выходить=V,intr=sg,imper,2p,ipf}.
+Если{если=CONJ=}
+Ты{ты=SPRO,sg,2p=nom} умен{умный=A=sg,brev,m}, спроси{спрашивать=V=sg,imper,2p,pf}, не{не=PART=} весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} ли{ли=PART=}
+Вражий{вражий=A,plen=(acc,sg,m,inan|nom,sg,m)} корпус{корпус=S,m,inan=(acc,sg|nom,sg)} впереди{впереди=ADV=}.
 
-{прежде=ADV=}
-{ты=SPRO,sg,2p=nom} {ходить=V,ipf,intr=praet,sg,indic,m} {в=PR=} {морской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {одежда=S,f,inan=(abl,sg|dat,sg)}
-{часто=ADV=} {босиком=ADV=}.
-{после=ADV=}
-{быть=V,intr=inpraes,sg,indic,2p} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {ты=SPRO,sg,2p=nom} {водоросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{там=ADVPRO=}, {на=PR=} {дно=S,n,inan=abl,sg} {морской=A,plen=(abl,sg,m|abl,sg,n)}.
+Прежде{прежде=ADV=}
+Ты{ты=SPRO,sg,2p=nom} ходил{ходить=V,ipf,intr=praet,sg,indic,m} в{в=PR=} морской{морской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} одежде{одежда=S,f,inan=(abl,sg|dat,sg)}
+Часто{часто=ADV=} босиком{босиком=ADV=}.
+После{после=ADV=}
+Будешь{быть=V,intr=inpraes,sg,indic,2p} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} ты{ты=SPRO,sg,2p=nom} водоросли{водоросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Там{там=ADVPRO=}, на{на=PR=} дне{дно=S,n,inan=abl,sg} морском{морской=A,plen=(abl,sg,m|abl,sg,n)}.
 
-{возле=ADV=}
-{что=SPRO,sg,n,inan=(acc|nom)} {такой=APRO=(acc,sg,n|nom,sg,n)}? {не=PART=} {обоз=S,m,inan=(acc,sg|nom,sg)} {ли=PART=}?
-{ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)} {же=PART=} {вперед=ADV=}...
-{сзади=ADV=}
-{ни=PART=} {обоз=S,m,inan=gen,sg} {нет=ADV,praed=}, {ни=PART=} {класть=V,ipf=sg,imper,2p,tran}!
-{вот=PART=} {так=ADVPRO=} {оборот=S,m,inan=(acc,sg|nom,sg)}!
+Возле{возле=ADV=}
+Что{что=SPRO,sg,n,inan=(acc|nom)} такое{такой=APRO=(acc,sg,n|nom,sg,n)}? не{не=PART=} обоз{обоз=S,m,inan=(acc,sg|nom,sg)} ли{ли=PART=}?
+Едем{ехать=V,ipf,intr=(inpraes,pl,indic,1p|sg,imper,1p)} же{же=PART=} вперед{вперед=ADV=}...
+Сзади{сзади=ADV=}
+Ни{ни=PART=} обоза{обоз=S,m,inan=gen,sg} нет{нет=ADV,praed=}, ни{ни=PART=} клади{класть=V,ipf=sg,imper,2p,tran}!
+Вот{вот=PART=} так{так=ADVPRO=} оборот{оборот=S,m,inan=(acc,sg|nom,sg)}!
 
-{разве=PART=}
-{и=CONJ=} {на=PR=} {ваш=APRO=(abl,sg,m|abl,sg,n)} {тело=S,n,inan=abl,sg} {язва=S,f,inan=(abl,sg|dat,sg)}
-{трудно=ADV=} {побывать=V,pf,intr=inf}?
-{впрочем=CONJ,parenth=},
-{мы=SPRO,pl,1p=nom} {дурной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {не=PART=} {пророчить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
-{что=SPRO,sg,n,inan=(acc|nom)} {ж=PART=} {тут=ADVPRO=} {горевать=V,ipf,intr=inf}!
+Разве{разве=PART=}
+И{и=CONJ=} на{на=PR=} вашем{ваш=APRO=(abl,sg,m|abl,sg,n)} теле{тело=S,n,inan=abl,sg} язве{язва=S,f,inan=(abl,sg|dat,sg)}
+Трудно{трудно=ADV=} побывать{побывать=V,pf,intr=inf}?
+Впрочем{впрочем=CONJ,parenth=},
+Мы{мы=SPRO,pl,1p=nom} дурного{дурной=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} не{не=PART=} пророчим{пророчить=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+Что{что=SPRO,sg,n,inan=(acc|nom)} ж{ж=PART=} тут{тут=ADVPRO=} горевать{горевать=V,ipf,intr=inf}!

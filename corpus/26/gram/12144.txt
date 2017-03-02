@@ -1,24 +1,24 @@
-{пожар=S,m,inan=ins,sg} {яростный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {крап=S,m,inan=gen,sg}
-{маячить=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {травяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{где=ADVPRO=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {след=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {росный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {запах=S,m,inan=(acc,sg|nom,sg)}
-{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {промчаться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Пожаром{пожар=S,m,inan=ins,sg} яростного{яростный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} крапа{крап=S,m,inan=gen,sg}
+маячу{маячить=V,ipf,intr=inpraes,sg,indic,1p} в{в=PR=} травяной{травяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} глуши{глушь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+где{где=ADVPRO=} дышит{дышать=V,ipf,intr=inpraes,sg,indic,3p} след{след=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} росный{росный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} запах{запах=S,m,inan=(acc,sg|nom,sg)}
+твоей{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} промчавшейся{промчаться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} души{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{и=CONJ=} {в=PR=} {нестерпимый=A=(acc,pl,plen,inan|nom,pl,plen)} {предел=S,m,inan=(acc,pl|nom,pl)},
-{то=PART=} {близко=ADV=}, {то=CONJ=} {вдали=ADV=} {звенеть=V,ipf,intr=inpraes,ger},
-{лететь=V,ipf,intr=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {смех=S,m,inan=(acc,sg|nom,sg)} {обезумелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{и=CONJ=} {мучить=V,ipf=inpraes,sg,indic,3p,tran} {и=CONJ=} {пьянить=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)}.
+И{и=CONJ=} в{в=PR=} нестерпимые{нестерпимый=A=(acc,pl,plen,inan|nom,pl,plen)} пределы{предел=S,m,inan=(acc,pl|nom,pl)},
+то{то=PART=} близко{близко=ADV=}, то{то=CONJ=} вдали{вдали=ADV=} звеня{звенеть=V,ipf,intr=inpraes,ger},
+летит{лететь=V,ipf,intr=inpraes,sg,indic,3p} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} смех{смех=S,m,inan=(acc,sg|nom,sg)} обезумелый{обезумелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+и{и=CONJ=} мучит{мучить=V,ipf=inpraes,sg,indic,3p,tran} и{и=CONJ=} пьянит{пьянить=V,ipf,tran=inpraes,sg,indic,3p} меня{я=SPRO,sg,1p=(acc|gen)}.
 
-{луна=S,f,inan=nom,sg} {пылать=V,ipf,intr=inpraes,sg,indic,3p} {молодой=A=nom,sg,plen,f},
-{мед=S,m,inan=(acc,sg|nom,sg)} {капать=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {жаркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мех=S,m,inan=(acc,sg|nom,sg)};
-{бить=V,ipf,tran=inpraes,sg,indic,3p}, {скатываться=V,ipf,intr=inpraes,sg,indic,3p}, {рыдать=V,ipf,intr=inpraes,ger},
-{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {задыхаться=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {смех=S,m,inan=(acc,sg|nom,sg)}.
+Луна{луна=S,f,inan=nom,sg} пылает{пылать=V,ipf,intr=inpraes,sg,indic,3p} молодая{молодой=A=nom,sg,plen,f},
+мед{мед=S,m,inan=(acc,sg|nom,sg)} каплет{капать=V,ipf,intr=inpraes,sg,indic,3p} на{на=PR=} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} жаркий{жаркий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мех{мех=S,m,inan=(acc,sg|nom,sg)};
+бьет{бить=V,ipf,tran=inpraes,sg,indic,3p}, скатывается{скатываться=V,ipf,intr=inpraes,sg,indic,3p}, рыдая{рыдать=V,ipf,intr=inpraes,ger},
+твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} задыхающийся{задыхаться=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} смех{смех=S,m,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=} {в=PR=} {липкий=A=(abl,sg,plen,m|abl,sg,plen,n)} {сумрак=S,m,inan=abl,sg} {зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{пожар=S,m,inan=ins,sg} {гибкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {и=CONJ=} {слепой=S,m,anim=(dat,pl|ins,sg)},
-{кружиться=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}, {опьянять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {звон=S,m,inan=ins,sg},
-{полет=S,m,inan=ins,sg}, {запах=S,m,inan=ins,sg} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}...
+И{и=CONJ=} в{в=PR=} липком{липкий=A=(abl,sg,plen,m|abl,sg,plen,n)} сумраке{сумрак=S,m,inan=abl,sg} зеленом{зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)},
+пожаром{пожар=S,m,inan=ins,sg} гибким{гибкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} и{и=CONJ=} слепым{слепой=S,m,anim=(dat,pl|ins,sg)},
+кружусь{кружиться=V,ipf,intr=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom}, опьяненный{опьянять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} звоном{звон=S,m,inan=ins,sg},
+полетом{полет=S,m,inan=ins,sg}, запахом{запах=S,m,inan=ins,sg} твоим{твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)}...
 
-{но=CONJ=} {не=PART=} {уходить=V,intr=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom}! {в=PR=} {полнолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{в=PR=} {тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {настигать=V=inpraes,sg,indic,1p,pf} {у=PR=} {ручей=S,m,inan=gen,sg},
-{сминать=V=inpraes,sg,indic,1p,pf} {ты=SPRO,sg,2p=(acc|gen)}, {мой=APRO=(acc,sg,n|nom,sg,n)} {безумие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{серебряный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {лань=S,f,anim=(acc,sg|nom,sg)} {мой=APRO=nom,sg,f}.
+Но{но=CONJ=} не{не=PART=} уйдешь{уходить=V,intr=inpraes,sg,indic,2p,pf} ты{ты=SPRO,sg,2p=nom}! В{в=PR=} полнолунье{полнолуние=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+в{в=PR=} тиши{тишь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} настигну{настигать=V=inpraes,sg,indic,1p,pf} у{у=PR=} ручья{ручей=S,m,inan=gen,sg},
+сомну{сминать=V=inpraes,sg,indic,1p,pf} тебя{ты=SPRO,sg,2p=(acc|gen)}, мое{мой=APRO=(acc,sg,n|nom,sg,n)} безумье{безумие=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+серебряное{серебряный=A=(acc,sg,plen,n|nom,sg,plen,n)}, лань{лань=S,f,anim=(acc,sg|nom,sg)} моя{мой=APRO=nom,sg,f}.

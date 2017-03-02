@@ -1,20 +1,20 @@
-{становиться=V,intr=inpraes,sg,indic,3p,pf} {шар=S,m,inan=(acc,sg|nom,sg)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тесно=ADV=comp},
-{мы=SPRO,pl,1p=nom} {содвигаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} {плотно=ADV=comp},
-{распрясть?=V,pf=(inpraes,pl,indic,1p,tran|pl,imper,1p,tran)|распрясть?=V,pf=(inpraes,pl,indic,1p,tran|pl,imper,1p,tran)} {кудель=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {клубок=S,m,inan=(acc,sg|nom,sg)}.
-{мы=SPRO,pl,1p=nom} — {волчок=S,m,inan=(acc,sg|nom,sg)} {над=PR=} {бездна=S,f,inan=ins,sg} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)};
-{пред=PR=} {вселенная=S,f,inan=ins,sg} {огромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
-{звездный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мы=SPRO,pl,1p=nom} {комок=S,m,inan=(acc,sg|nom,sg)}.
+Станет{становиться=V,intr=inpraes,sg,indic,3p,pf} шар{шар=S,m,inan=(acc,sg|nom,sg)} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} теснее{тесно=ADV=comp},
+Мы{мы=SPRO,pl,1p=nom} содвинемся{содвигаться=V,intr=(pl,imper,1p,pf|inpraes,pl,indic,1p,pf)} плотнее{плотно=ADV=comp},
+Распрядем{распрясть?=V,pf=(inpraes,pl,indic,1p,tran|pl,imper,1p,tran)|распрясть?=V,pf=(inpraes,pl,indic,1p,tran|pl,imper,1p,tran)} кудель{кудель=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} клубок{клубок=S,m,inan=(acc,sg|nom,sg)}.
+Мы{мы=SPRO,pl,1p=nom} — волчок{волчок=S,m,inan=(acc,sg|nom,sg)} над{над=PR=} бездной{бездна=S,f,inan=ins,sg} темной{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)};
+Пред{пред=PR=} вселенною{вселенная=S,f,inan=ins,sg} огромной{огромный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
+Звездной{звездный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} пыли{пыль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} мы{мы=SPRO,pl,1p=nom} комок{комок=S,m,inan=(acc,sg|nom,sg)}.
 
-{вопрошать=V=inpraes,sg,indic,3p,pf} {судья=S,mf,anim=nom,sg}, {от=PR=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)}
-{смутно=ADV=} {ждать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}, {человек=S,m,anim=(acc,sg|gen,sg)}:
-«{видеть=V,ipf,tran=inpraes,sg,indic,2p}, {как=ADVPRO=} {ты=SPRO,sg,2p=nom} {маленький=A=sg,brev,m} {и=CONJ=} {сир=S,m,anim=nom,sg}?»
-{в=PR=} {гордый=A=(abl,sg,plen,m|abl,sg,plen,n)} {помысел=S,m,inan=abl,sg} {не=PART=} {каяться=V,ipf,intr=sg,imper,2p},
-{от=PR=} {себя=SPRO=(acc|gen)} {не=PART=} {отрекаться=V,intr=sg,imper,2p,ipf},
-{смело=ADV=} {молвить=V,pf,tran=sg,imper,2p}: «{я=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} — {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {мир=S,m,inan=(acc,sg|nom,sg)}».
+Вопросит{вопрошать=V=inpraes,sg,indic,3p,pf} Судья{судья=S,mf,anim=nom,sg}, от{от=PR=} века{век=S,m,inan=(acc,pl|gen,sg|nom,pl)}
+Смутно{смутно=ADV=} жданный{ждать=V,ipf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}, Человека{человек=S,m,anim=(acc,sg|gen,sg)}:
+«Видишь{видеть=V,ipf,tran=inpraes,sg,indic,2p}, как{как=ADVPRO=} ты{ты=SPRO,sg,2p=nom} мал{маленький=A=sg,brev,m} и{и=CONJ=} сир{сир=S,m,anim=nom,sg}?»
+В{в=PR=} гордом{гордый=A=(abl,sg,plen,m|abl,sg,plen,n)} помысле{помысел=S,m,inan=abl,sg} не{не=PART=} кайся{каяться=V,ipf,intr=sg,imper,2p},
+От{от=PR=} себя{себя=SPRO=(acc|gen)} не{не=PART=} отрекайся{отрекаться=V,intr=sg,imper,2p,ipf},
+Смело{смело=ADV=} молви{молвить=V,pf,tran=sg,imper,2p}: «Я{я=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} — твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} мир{мир=S,m,inan=(acc,sg|nom,sg)}».
 
-{и=CONJ=} {чудесный=A=ins,sg,plen,f} {спираль=S,f,inan=ins,sg}
-{расклубиться?=V,ipf,intr=inpraes,ger}, {ты=SPRO,sg,2p=nom} {даль=S,f,inan=(acc,sg|nom,sg)} {за=PR=} {даль=S,f,inan=ins,sg}
-{обвивать=V=inpraes,sg,indic,2p,pf} {твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {кольцо=S,n,inan=ins,sg}
-{и=CONJ=} {представать=V,intr=inpraes,sg,indic,2p,pf} {взор=S,m,inan=dat,pl} {отчим=S,m,anim=nom,sg}
-{уж=PART=} {не=PART=} {известь=S,f,inan=ins,sg} {пред=PR=} {зодчий=S,m,anim=(dat,pl|ins,sg)},
-{а=CONJ=} {он=SPRO,sg,3p,m=(acc|gen)} {другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {лицо=S,n,inan=ins,sg}.
+И{и=CONJ=} чудесною{чудесный=A=ins,sg,plen,f} спиралью{спираль=S,f,inan=ins,sg}
+Расклубясь{расклубиться?=V,ipf,intr=inpraes,ger}, ты{ты=SPRO,sg,2p=nom} даль{даль=S,f,inan=(acc,sg|nom,sg)} за{за=PR=} далью{даль=S,f,inan=ins,sg}
+Обовьешь{обвивать=V=inpraes,sg,indic,2p,pf} твоим{твой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} кольцом{кольцо=S,n,inan=ins,sg}
+И{и=CONJ=} предстанешь{представать=V,intr=inpraes,sg,indic,2p,pf} взорам{взор=S,m,inan=dat,pl} Отчим{отчим=S,m,anim=nom,sg}
+Уж{уж=PART=} не{не=PART=} известью{известь=S,f,inan=ins,sg} пред{пред=PR=} Зодчим{зодчий=S,m,anim=(dat,pl|ins,sg)},
+А{а=CONJ=} Его{он=SPRO,sg,3p,m=(acc|gen)} другим{другой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} Лицом{лицо=S,n,inan=ins,sg}.

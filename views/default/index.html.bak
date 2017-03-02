@@ -22,12 +22,12 @@
 <h6> Сегодня, {{=d}} {{=m}}, были написаны тексты:</h6>
             {{for all in day:}}
             {{if all.title:}}
-            <li>{{=A(all.title, ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            <li>{{=A(all.title, '. ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
             {{else:}}
-            <li>{{=A('«', all.first_string, '»', ' ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
+            <li>{{=A('«', all.first_string, '»', '. ', all.author.name, " ", all.author.family, " (", all.year_writing, ")", _href=URL('show', 'show1', args = all.id))}}</li>
             {{pass}}
             {{pass}}
-
+{{=d}} {{=m}}
             {{include}}
             {{end}}
         </div>

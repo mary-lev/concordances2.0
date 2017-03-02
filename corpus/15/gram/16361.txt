@@ -1,19 +1,19 @@
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {женщина=S,f,anim=nom,sg}. {имя=S,n,inan=(acc,sg|nom,sg)} — {окэр?=S,famn,m,anim=(acc,sg|gen,sg)}.
-{день=S,m,inan=ins,sg} {она=SPRO,sg,3p,f=nom} {светиться=V,ipf,intr=inpraes,sg,indic,3p}. {бродить=V,ipf,intr=inpraes,sg,indic,3p} {внизу=ADV=}.
-{ходить=V,ipf,intr=inpraes,sg,indic,3p}, {восходить=V,intr=inpraes,sg,indic,3p,ipf}. {свершаться=V,intr=inpraes,sg,indic,3p,ipf} {мера=S,f,inan=nom,sg}.
-{туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} {проводить=V=inpraes,sg,indic,3p,ipf,tran}. {сбирать=V,ipf,tran=inpraes,sg,indic,3p} {гроза=S,f,inan=acc,sg}.
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} женщина{женщина=S,f,anim=nom,sg}. Имя{имя=S,n,inan=(acc,sg|nom,sg)} — Окэра{окэр?=S,famn,m,anim=(acc,sg|gen,sg)}.
+Днем{день=S,m,inan=ins,sg} она{она=SPRO,sg,3p,f=nom} светится{светиться=V,ipf,intr=inpraes,sg,indic,3p}. Бродит{бродить=V,ipf,intr=inpraes,sg,indic,3p} внизу{внизу=ADV=}.
+Ходит{ходить=V,ipf,intr=inpraes,sg,indic,3p}, восходит{восходить=V,intr=inpraes,sg,indic,3p,ipf}. Свершается{свершаться=V,intr=inpraes,sg,indic,3p,ipf} мера{мера=S,f,inan=nom,sg}.
+Тучи{туча=S,f,inan=(acc,pl|gen,sg|nom,pl)} проводит{проводить=V=inpraes,sg,indic,3p,ipf,tran}. Сбирает{сбирать=V,ipf,tran=inpraes,sg,indic,3p} грозу{гроза=S,f,inan=acc,sg}.
 
-{вот=PART=} {нагуляться=V,pf,intr=praet,sg,indic,f} {в=PR=} {поле=S,n,inan=abl,pl} {распростирать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)}.
-{хотеться=V,ipf,intr=inpraes,indic} {спать=V,ipf,intr=inf} {она=SPRO,sg,3p,f=(dat|ins)}. {уютно=ADV=} {ли=PART=} {тут=ADVPRO=}.
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {чрез=PR=} {область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)}.
-{только=PART=} {приближаться=V,intr=praet,sg,indic,f,pf}, {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {расти=V,ipf,intr=inpraes,pl,indic,3p}.
+Вот{вот=PART=} нагулялась{нагуляться=V,pf,intr=praet,sg,indic,f} в{в=PR=} полях{поле=S,n,inan=abl,pl} распростертых{распростирать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)}.
+Хочется{хотеться=V,ipf,intr=inpraes,indic} спать{спать=V,ipf,intr=inf} ей{она=SPRO,sg,3p,f=(dat|ins)}. Уютно{уютно=ADV=} ли{ли=PART=} тут{тут=ADVPRO=}.
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} проходит{проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} чрез{чрез=PR=} области{область=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} мертвых{мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)}.
+Только{только=PART=} приблизилась{приближаться=V,intr=praet,sg,indic,f,pf}, тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} растут{расти=V,ipf,intr=inpraes,pl,indic,3p}.
 
-{солнце=S,n,inan=dat,sg} {блестящий=A=(dat,sg,plen,m|dat,sg,plen,n)} {призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {рад=A,brev=pl},
-{смотреть=V,ipf,tran=inpraes,pl,indic,3p}, {толпиться=V,ipf,intr=inpraes,pl,indic,3p}, {звать=V,ipf,tran=inpraes,pl,indic,3p} {погостить=V,pf,intr=inf}.
-{только=PART=} {недолгий=A=pl,brev} {ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {услада=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{утро=S,n,inan=ins,sg} {она=SPRO,sg,3p,f=(dat|ins)} {нужно=ADV,praed=} {от=PR=} {они=SPRO,pl=(abl|acc|gen)} {уходить=V,intr=inf,ipf}.
+Солнцу{солнце=S,n,inan=dat,sg} блестящему{блестящий=A=(dat,sg,plen,m|dat,sg,plen,n)} призраки{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} рады{рад=A,brev=pl},
+Смотрят{смотреть=V,ipf,tran=inpraes,pl,indic,3p}, толпятся{толпиться=V,ipf,intr=inpraes,pl,indic,3p}, зовут{звать=V,ipf,tran=inpraes,pl,indic,3p} погостить{погостить=V,pf,intr=inf}.
+Только{только=PART=} недолги{недолгий=A=pl,brev} ночные{ночной=A=(acc,pl,plen,inan|nom,pl,plen)} услады{услада=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Утром{утро=S,n,inan=ins,sg} ей{она=SPRO,sg,3p,f=(dat|ins)} нужно{нужно=ADV,praed=} от{от=PR=} них{они=SPRO,pl=(abl|acc|gen)} уходить{уходить=V,intr=inf,ipf}.
 
-{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {из=PR=} {тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} {провожать=V=inpraes,pl,indic,3p,ipf,tran}.
-{красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {шкура=S,f,inan=acc,sg} {давать=V,tran=inpraes,pl,indic,3p,ipf} {кэнгуру?=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
-{скучно=ADV=} {они=SPRO,pl=dat}. {пасмурный=A=pl,brev}. {сумрачно=ADV=} {таять=V,ipf,intr=inpraes,pl,indic,3p}.
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {же=PART=} {красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {поутру=ADV=}.
+Призраки{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} из{из=PR=} тьмы{тьма=S,f,inan=(acc,pl|gen,sg|nom,pl)} провожают{провожать=V=inpraes,pl,indic,3p,ipf,tran}.
+Красного{красный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} шкуру{шкура=S,f,inan=acc,sg} дают{давать=V,tran=inpraes,pl,indic,3p,ipf} кэнгуру{кэнгуру?=S,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}.
+Скучно{скучно=ADV=} им{они=SPRO,pl=dat}. Пасмурны{пасмурный=A=pl,brev}. Сумрачно{сумрачно=ADV=} тают{таять=V,ipf,intr=inpraes,pl,indic,3p}.
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} же{же=PART=} красным{красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} встает{вставать=V,intr=inpraes,sg,indic,3p,ipf} поутру{поутру=ADV=}.

@@ -1,30 +1,30 @@
-{ходить=V,ipf,intr=praet,sg,indic,f} {дева=S,f,anim=nom,sg} {по=PR=} {чистый=A=(dat,sg,plen,m|dat,sg,plen,n)} {поле=S,n,inan=dat,sg}.
-{не=PART=} {в=PR=} {зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {поле=S,n,inan=abl,pl}, {в=PR=} {голубой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
-{гулять=V,ipf,intr=praet,sg,indic,f} {в=PR=} {поле=S,n,inan=abl,pl}, {нагулялася?=S,persn,mf,anim=nom,sg} {вволю=ADV=}.
-{и=CONJ=} {запевать=V,tran=praet,sg,indic,f,pf} {певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стих=S,m,inan=(acc,sg|nom,sg)}.
-{и=CONJ=} {запевать=V,tran=praet,sg,indic,f,pf}, {и=CONJ=} {быть=V,intr=praet,pl,indic,ipf} {глубокий=A=pl,brev} {намек=S,m,inan=(acc,pl|nom,pl)},
-{что=SPRO,sg,n,inan=(acc|nom)} {складываться=V,intr=praet,pl,indic,pf} {в=PR=} {тот=APRO=(nom,pl|acc,pl,inan)} {звездный=A=(acc,pl,plen,inan|nom,pl,plen)} {строка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{а=CONJ=} {навстречу=ADV=} {идти=V,ipf,intr=inpraes,sg,indic,3p} {к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {христов=A,plen,poss=(acc,sg,m,inan|nom,sg,m)} {пророк=S,m,anim=nom,sg},
-{привлекать=V=praet,sg,partcp,brev,m,pf,pass} {осиянность?=S,f,inan=ins,sg} {строка=S,f,inan=gen,pl}.
-«{что=SPRO,sg,n,inan=(acc|nom)} {ходить=V,ipf,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom}, {дева=S,f,anim=nom,sg}, {по=PR=} {чистый=A=(dat,sg,plen,m|dat,sg,plen,n)} {поле=S,n,inan=dat,sg}?
-{о=PR=} {что=SPRO,sg,n,inan=(abl|ins)} {ты=SPRO,sg,2p=nom} {петь=V,ipf,tran=inpraes,sg,indic,2p} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {стих=S,m,inan=(acc,sg|nom,sg)}?»
-«— {я=SPRO,sg,1p=nom} {сын=S,m,anim=(acc,sg|gen,sg)} {искать=V,ipf,tran=inpraes,sg,indic,1p}, {и=CONJ=} {заветный=A=acc,sg,plen,f} {доля=S,f,inan=acc,sg}.
-{где=ADVPRO=} {сын=S,m,anim=nom,sg}?» — «{здесь=ADVPRO=}, {в=PR=} {поле=S,n,inan=abl,pl} {голубой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
-{ты=SPRO,sg,2p=nom} {далеко=ADV=comp} {идти=V,ipf,intr=sg,imper,2p}, {о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, {петь=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,act} {дева=S,f,anim=nom,sg},
-{три=NUM=(nom|acc,inan)} {древо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {увидеть=V,pf,tran=inpraes,sg,indic,2p}, {три=NUM=(nom|acc,inan)} {древо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
-{и=CONJ=} {древо=S,n,inan=(acc,sg|nom,sg)} {один=APRO=(acc,sg,n|nom,sg,n)} — {кипарисовый=A=(acc,sg,plen,n|nom,sg,plen,n)},
-{другой=APRO=(acc,sg,n|nom,sg,n)} {же=PART=} {древо=S,n,inan=(acc,sg|nom,sg)} — {анисовый=A=(acc,sg,plen,n|nom,sg,plen,n)},
-{а=CONJ=} {третий=ANUM=(acc,sg,n|nom,sg,n)} {еще=ADV=} — {барбарисовый=A=(acc,sg,plen,n|nom,sg,plen,n)}.
-{из=PR=} {три=NUM=(abl|gen|acc,anim)} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {древо=S,n,inan=gen,pl} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {построить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {храм=S,m,inan=(acc,sg|nom,sg)},
-{три=NUM=(nom|acc,inan)} {птица=S,f,anim=(gen,sg|nom,pl)} {петь=V,ipf,tran=inpraes,pl,indic,3p} {песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {райский=A=(acc,pl,plen,inan|nom,pl,plen)} {там=ADVPRO=},
-„{аллилуйя=ADV,praed=}!" {петь=V,ipf,tran=inpraes,pl,indic,3p}, „{аллилуйя=ADV,praed=}!" {петь=V,ipf,tran=inpraes,pl,indic,3p}.
-{сын=S,m,anim=nom,sg} {сидеть=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {высота=S,f,inan=(abl,sg|dat,sg)}. {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {нежно=ADV=} {цвести=V,ipf,intr=inpraes,pl,indic,3p}.
-{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} {они=SPRO,pl=nom},
-{словно=CONJ=} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кругом=ADV=}.
-{сын=S,m,anim=nom,sg} {сидеть=V,ipf,intr=inpraes,sg,indic,3p} {на=PR=} {престол=S,m,inan=abl,sg} {свой=APRO=(abl,sg,m|abl,sg,n)} {золото=S,sg,n,inan=ins},
-{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {и=CONJ=} {синий=A=(acc,pl,plen,inan|nom,pl,plen)} {всюду=ADVPRO=} {огонь=S,m,inan=(acc,pl|nom,pl)}.
-{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {в=PR=} {черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {одежда=S,f,inan=abl,pl} {к=PR=} {престол=S,m,inan=dat,sg} {идти=V,ipf,intr=inpraes,pl,indic,3p}.
-{и=CONJ=} {подходить=V,intr=inpraes,pl,indic,3p,ipf} {румяный=A=(acc,pl,plen,inan|nom,pl,plen)} {день=S,m,inan=(acc,pl|nom,pl)}.
-{и=CONJ=} {цветок=S,m,inan=(acc,pl|nom,pl)}, {наклоняться=V,intr=inpraes,ger,ipf}, {цвести=V,ipf,intr=inpraes,pl,indic,3p}.
-{словно=CONJ=} {синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} {море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {кругом=ADV=}.
-{он=SPRO,sg,3p,m=nom} {мы=SPRO,pl,1p=(abl|acc|gen)} {ждать=V,ipf,tran=inpraes,sg,indic,3p} {осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}». — «{идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}!»
+Ходила{ходить=V,ipf,intr=praet,sg,indic,f} Дева{дева=S,f,anim=nom,sg} по{по=PR=} чистому{чистый=A=(dat,sg,plen,m|dat,sg,plen,n)} полю{поле=S,n,inan=dat,sg}.
+Не{не=PART=} в{в=PR=} зеленых{зеленый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} полях{поле=S,n,inan=abl,pl}, в{в=PR=} голубых{голубой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+Гуляла{гулять=V,ipf,intr=praet,sg,indic,f} в{в=PR=} полях{поле=S,n,inan=abl,pl}, нагулялася{нагулялася?=S,persn,mf,anim=nom,sg} вволю{вволю=ADV=}.
+И{и=CONJ=} запела{запевать=V,tran=praet,sg,indic,f,pf} певучий{певучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} стих{стих=S,m,inan=(acc,sg|nom,sg)}.
+И{и=CONJ=} запела{запевать=V,tran=praet,sg,indic,f,pf}, и{и=CONJ=} были{быть=V,intr=praet,pl,indic,ipf} глубоки{глубокий=A=pl,brev} намеки{намек=S,m,inan=(acc,pl|nom,pl)},
+Что{что=SPRO,sg,n,inan=(acc|nom)} сложились{складываться=V,intr=praet,pl,indic,pf} в{в=PR=} те{тот=APRO=(nom,pl|acc,pl,inan)} звездные{звездный=A=(acc,pl,plen,inan|nom,pl,plen)} строки{строка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+А{а=CONJ=} навстречу{навстречу=ADV=} идет{идти=V,ipf,intr=inpraes,sg,indic,3p} к{к=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} Христов{христов=A,plen,poss=(acc,sg,m,inan|nom,sg,m)} пророк{пророк=S,m,anim=nom,sg},
+Привлечен{привлекать=V=praet,sg,partcp,brev,m,pf,pass} осиянностью{осиянность?=S,f,inan=ins,sg} строк{строка=S,f,inan=gen,pl}.
+«Что{что=SPRO,sg,n,inan=(acc|nom)} ходишь{ходить=V,ipf,intr=inpraes,sg,indic,2p} ты{ты=SPRO,sg,2p=nom}, Дева{дева=S,f,anim=nom,sg}, по{по=PR=} чистому{чистый=A=(dat,sg,plen,m|dat,sg,plen,n)} полю{поле=S,n,inan=dat,sg}?
+О{о=PR=} чем{что=SPRO,sg,n,inan=(abl|ins)} ты{ты=SPRO,sg,2p=nom} поешь{петь=V,ipf,tran=inpraes,sg,indic,2p} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} стих{стих=S,m,inan=(acc,sg|nom,sg)}?»
+«— Я{я=SPRO,sg,1p=nom} Сына{сын=S,m,anim=(acc,sg|gen,sg)} ищу{искать=V,ipf,tran=inpraes,sg,indic,1p}, и{и=CONJ=} заветную{заветный=A=acc,sg,plen,f} долю{доля=S,f,inan=acc,sg}.
+Где{где=ADVPRO=} Сын{сын=S,m,anim=nom,sg}?» — «Здесь{здесь=ADVPRO=}, в{в=PR=} полях{поле=S,n,inan=abl,pl} голубых{голубой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}.
+Ты{ты=SPRO,sg,2p=nom} дальше{далеко=ADV=comp} иди{идти=V,ipf,intr=sg,imper,2p}, о{о=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}, поющая{петь=V,ipf,tran=inpraes,nom,sg,partcp,plen,f,act} Дева{дева=S,f,anim=nom,sg},
+Три{три=NUM=(nom|acc,inan)} древа{древо=S,n,inan=(acc,pl|gen,sg|nom,pl)} увидишь{увидеть=V,pf,tran=inpraes,sg,indic,2p}, три{три=NUM=(nom|acc,inan)} древа{древо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} древо{древо=S,n,inan=(acc,sg|nom,sg)} одно{один=APRO=(acc,sg,n|nom,sg,n)} — кипарисовое{кипарисовый=A=(acc,sg,plen,n|nom,sg,plen,n)},
+Другое{другой=APRO=(acc,sg,n|nom,sg,n)} же{же=PART=} древо{древо=S,n,inan=(acc,sg|nom,sg)} — анисовое{анисовый=A=(acc,sg,plen,n|nom,sg,plen,n)},
+А{а=CONJ=} третье{третий=ANUM=(acc,sg,n|nom,sg,n)} еще{еще=ADV=} — барбарисовое{барбарисовый=A=(acc,sg,plen,n|nom,sg,plen,n)}.
+Из{из=PR=} трех{три=NUM=(abl|gen|acc,anim)} этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} древ{древо=S,n,inan=gen,pl} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} построенный{построить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} храм{храм=S,m,inan=(acc,sg|nom,sg)},
+Три{три=NUM=(nom|acc,inan)} птицы{птица=S,f,anim=(gen,sg|nom,pl)} поют{петь=V,ipf,tran=inpraes,pl,indic,3p} песни{песня=S,f,inan=(acc,pl|gen,sg|nom,pl)} райские{райский=A=(acc,pl,plen,inan|nom,pl,plen)} там{там=ADVPRO=},
+„Аллилуйя{аллилуйя=ADV,praed=}!" поют{петь=V,ipf,tran=inpraes,pl,indic,3p}, „Аллилуйя{аллилуйя=ADV,praed=}!" поют{петь=V,ipf,tran=inpraes,pl,indic,3p}.
+Сын{сын=S,m,anim=nom,sg} сидит{сидеть=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} высоте{высота=S,f,inan=(abl,sg|dat,sg)}. Травы{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} нежно{нежно=ADV=} цветут{цвести=V,ipf,intr=inpraes,pl,indic,3p}.
+Голубые{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} они{они=SPRO,pl=nom},
+Словно{словно=CONJ=} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} кругом{кругом=ADV=}.
+Сын{сын=S,m,anim=nom,sg} сидит{сидеть=V,ipf,intr=inpraes,sg,indic,3p} на{на=PR=} престоле{престол=S,m,inan=abl,sg} своем{свой=APRO=(abl,sg,m|abl,sg,n)} золотом{золото=S,sg,n,inan=ins},
+Золотые{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} и{и=CONJ=} синие{синий=A=(acc,pl,plen,inan|nom,pl,plen)} всюду{всюду=ADVPRO=} огни{огонь=S,m,inan=(acc,pl|nom,pl)}.
+Ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} в{в=PR=} черных{черный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} одеждах{одежда=S,f,inan=abl,pl} к{к=PR=} престолу{престол=S,m,inan=dat,sg} идут{идти=V,ipf,intr=inpraes,pl,indic,3p}.
+И{и=CONJ=} подходят{подходить=V,intr=inpraes,pl,indic,3p,ipf} румяные{румяный=A=(acc,pl,plen,inan|nom,pl,plen)} дни{день=S,m,inan=(acc,pl|nom,pl)}.
+И{и=CONJ=} цветы{цветок=S,m,inan=(acc,pl|nom,pl)}, наклоняясь{наклоняться=V,intr=inpraes,ger,ipf}, цветут{цвести=V,ipf,intr=inpraes,pl,indic,3p}.
+Словно{словно=CONJ=} синее{синий=A=(acc,sg,plen,n|nom,sg,plen,n|comp)} Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} кругом{кругом=ADV=}.
+Он{он=SPRO,sg,3p,m=nom} нас{мы=SPRO,pl,1p=(abl|acc|gen)} ждет{ждать=V,ipf,tran=inpraes,sg,indic,3p} осиянный{осиять=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)}». — «Идем{идти=V,ipf,intr=(inpraes,pl,indic,1p|pl,imper,1p)}!»

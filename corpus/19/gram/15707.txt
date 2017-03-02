@@ -1,34 +1,34 @@
-{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} {лик=S,m,inan=(acc,pl|nom,pl)},
-{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} {хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{дым=S,m,inan=(acc,sg|nom,sg)} {благоухание=S,n,inan=gen,pl}, —
-{у=PR=} {творец=S,m,anim=(acc,sg|gen,sg)}-{владыка=S,m,anim=(gen,sg|nom,pl)}
-{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страдание=S,n,inan=gen,pl}.
+Ангельские{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} лики{лик=S,m,inan=(acc,pl|nom,pl)},
+Светлое{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} хваленье{хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Дым{дым=S,m,inan=(acc,sg|nom,sg)} благоуханий{благоухание=S,n,inan=gen,pl}, —
+У{у=PR=} Творца{творец=S,m,anim=(acc,sg|gen,sg)}-Владыки{владыка=S,m,anim=(gen,sg|nom,pl)}
+Вечное{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} забвенье{забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+Всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} страданий{страдание=S,n,inan=gen,pl}.
 
-{ангел=S,m,anim=nom,sg} {вопрошать=V=inpraes,sg,indic,3p,ipf,tran}:
-— {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {отрок=S,m,anim=nom,sg}, {ты=SPRO,sg,2p=nom} {откуда=ADVPRO=}?
-{рано=ADV=} {день=S,m,inan=(acc,pl|nom,pl)} {ты=SPRO,sg,2p=(abl|dat)} {наскучивать=V,intr=praet,pl,indic,pf}. —
-{отрок=S,m,anim=nom,sg} {отвечать=V,intr=inpraes,sg,indic,3p,ipf}:
-— {на=PR=} {земля=S,f,inan=(abl,sg|dat,sg)} {я=SPRO,sg,1p=(abl|dat)} {быть=V,intr=praet,sg,indic,n,ipf} {худо=ADV=}.
-{мать=S,f,anim=(acc,sg|nom,sg)} {с=PR=} {отец=S,m,anim=ins,sg} {я=SPRO,sg,1p=(acc|gen)} {замучивать=V,tran=praet,pl,indic,pf}.
+Ангел{ангел=S,m,anim=nom,sg} вопрошает{вопрошать=V=inpraes,sg,indic,3p,ipf,tran}:
+— Бледный{бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} отрок{отрок=S,m,anim=nom,sg}, ты{ты=SPRO,sg,2p=nom} откуда{откуда=ADVPRO=}?
+Рано{рано=ADV=} дни{день=S,m,inan=(acc,pl|nom,pl)} тебе{ты=SPRO,sg,2p=(abl|dat)} наскучили{наскучивать=V,intr=praet,pl,indic,pf}. —
+Отрок{отрок=S,m,anim=nom,sg} отвечает{отвечать=V,intr=inpraes,sg,indic,3p,ipf}:
+— На{на=PR=} земле{земля=S,f,inan=(abl,sg|dat,sg)} мне{я=SPRO,sg,1p=(abl|dat)} было{быть=V,intr=praet,sg,indic,n,ipf} худо{худо=ADV=}.
+Мать{мать=S,f,anim=(acc,sg|nom,sg)} с{с=PR=} отцом{отец=S,m,anim=ins,sg} меня{я=SPRO,sg,1p=(acc|gen)} замучили{замучивать=V,tran=praet,pl,indic,pf}.
 
-{у=PR=} {творец=S,m,anim=(acc,sg|gen,sg)}-{владыка=S,m,anim=(gen,sg|nom,pl)}
-{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страдание=S,n,inan=gen,pl}, —
-{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} {лик=S,m,inan=(acc,pl|nom,pl)},
-{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} {хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{дым=S,m,inan=(acc,sg|nom,sg)} {благоухание=S,n,inan=gen,pl}.
+У{у=PR=} Творца{творец=S,m,anim=(acc,sg|gen,sg)}-Владыки{владыка=S,m,anim=(gen,sg|nom,pl)}
+Вечное{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} забвенье{забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+Всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} страданий{страдание=S,n,inan=gen,pl}, —
+Ангельские{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} лики{лик=S,m,inan=(acc,pl|nom,pl)},
+Светлое{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} хваленье{хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Дым{дым=S,m,inan=(acc,sg|nom,sg)} благоуханий{благоухание=S,n,inan=gen,pl}.
 
-— {целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {день=S,m,inan=(acc,sg|nom,sg)} {бранить=V,ipf,tran=praet,pl,indic},
-{ночь=S,f,inan=ins,sg} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=(abl|dat)} {связывать=V=praet,pl,indic,pf},
-{на=PR=} {чердак=S,m,inan=(acc,sg|nom,sg)} {сводить=V=praet,pl,indic,pf} {раздетый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
-{долго=ADV=} {палка=S,f,inan=ins,sg} {бить=V,ipf,tran=praet,pl,indic},
-{долго=ADV=} {розга=S,f,inan=ins,pl} {терзать=V,ipf,tran=praet,pl,indic}, —
-{вот=PART=} {и=CONJ=} {умирать=V,intr=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom} {от=PR=} {это=SPRO,sg,n,inan=gen}. —
+— Целый{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} день{день=S,m,inan=(acc,sg|nom,sg)} бранили{бранить=V,ipf,tran=praet,pl,indic},
+Ночью{ночь=S,f,inan=ins,sg} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)} мне{я=SPRO,sg,1p=(abl|dat)} связали{связывать=V=praet,pl,indic,pf},
+На{на=PR=} чердак{чердак=S,m,inan=(acc,sg|nom,sg)} свели{сводить=V=praet,pl,indic,pf} раздетого{раздетый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+Долго{долго=ADV=} палкой{палка=S,f,inan=ins,sg} били{бить=V,ipf,tran=praet,pl,indic},
+Долго{долго=ADV=} розгами{розга=S,f,inan=ins,pl} терзали{терзать=V,ipf,tran=praet,pl,indic}, —
+Вот{вот=PART=} и{и=CONJ=} умер{умирать=V,intr=praet,sg,indic,m,pf} я{я=SPRO,sg,1p=nom} от{от=PR=} этого{это=SPRO,sg,n,inan=gen}. —
 
-{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} {лик=S,m,inan=(acc,pl|nom,pl)},
-{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} {хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{дым=S,m,inan=(acc,sg|nom,sg)} {благоухание=S,n,inan=gen,pl}, —
-{у=PR=} {творец=S,m,anim=(acc,sg|gen,sg)}-{владыка=S,m,anim=(gen,sg|nom,pl)}
-{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} {забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {страдание=S,n,inan=gen,pl}.
+Ангельские{ангельский=A=(acc,pl,plen,inan|nom,pl,plen)} лики{лик=S,m,inan=(acc,pl|nom,pl)},
+Светлое{светлый=A=(acc,sg,plen,n|nom,sg,plen,n)} хваленье{хваление=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Дым{дым=S,m,inan=(acc,sg|nom,sg)} благоуханий{благоухание=S,n,inan=gen,pl}, —
+У{у=PR=} Творца{творец=S,m,anim=(acc,sg|gen,sg)}-Владыки{владыка=S,m,anim=(gen,sg|nom,pl)}
+Вечное{вечный=A=(acc,sg,plen,n|nom,sg,plen,n)} забвенье{забвение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+Всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} страданий{страдание=S,n,inan=gen,pl}.

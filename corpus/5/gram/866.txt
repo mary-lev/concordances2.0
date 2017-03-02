@@ -1,23 +1,23 @@
-{здравствовать=V,ipf,intr=sg,imper,2p},—
-{желанный=A=nom,sg,plen,f}
-{воля=S,f,inan=nom,sg} —
-{свободный=A=nom,sg,plen,f},
-{воля=S,f,inan=nom,sg}
-{победный=A=nom,sg,plen,f},
-{даль=S,f,inan=(acc,sg|nom,sg)} {осиять=V,pf,tran=praet,nom,sg,partcp,plen,f,pass},—
-{холодный=A=nom,sg,plen,f},
-{бледный=A=nom,sg,plen,f}.
+Здравствуй{здравствовать=V,ipf,intr=sg,imper,2p},—
+Желанная{желанный=A=nom,sg,plen,f}
+Воля{воля=S,f,inan=nom,sg} —
+Свободная{свободный=A=nom,sg,plen,f},
+Воля{воля=S,f,inan=nom,sg}
+Победная{победный=A=nom,sg,plen,f},
+Даль{даль=S,f,inan=(acc,sg|nom,sg)} осиянная{осиять=V,pf,tran=praet,nom,sg,partcp,plen,f,pass},—
+Холодная{холодный=A=nom,sg,plen,f},
+Бледная{бледный=A=nom,sg,plen,f}.
 
-{ветер=S,m,inan=(acc,sg|nom,sg)} {проноситься=V,ipf,intr=inpraes,sg,indic,3p}, {желтый=A=(acc,pl,plen,inan|nom,pl,plen)} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {колебать=V,ipf,tran=inpraes,ger},—
-{цветик=S,m,inan=(acc,pl|nom,pl)} {поздний=A=(acc,pl,plen,inan|nom,pl,plen)}, {белый=A=(acc,pl,plen,inan|nom,pl,plen)}.
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)} проносится{проноситься=V,ipf,intr=inpraes,sg,indic,3p}, желтые{желтый=A=(acc,pl,plen,inan|nom,pl,plen)} травы{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)} колебля{колебать=V,ipf,tran=inpraes,ger},—
+Цветики{цветик=S,m,inan=(acc,pl|nom,pl)} поздние{поздний=A=(acc,pl,plen,inan|nom,pl,plen)}, белые{белый=A=(acc,pl,plen,inan|nom,pl,plen)}.
 
-{пасть=V,pf,intr=praet,sg,indic,m} {на=PR=} {холодный=A=acc,sg,plen,f} {земля=S,f,inan=acc,sg}.
-{странный=A=pl,brev} {размах=S,m,inan=(acc,pl|nom,pl)} {упругий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {стебель=S,m,inan=gen,sg},
-{вольный=A=(acc,pl,plen,inan|nom,pl,plen)}, {смелый=A=(acc,pl,plen,inan|nom,pl,plen)}.
-{шелест=S,m,inan=(dat,sg|part,sg)} {внимать=V,intr=inpraes,sg,indic,1p,ipf}. {тихо=ADV=comp}...
-{довольно=ADV=}:
-{цветик=S,m,inan=(acc,pl|nom,pl)}
-{поздний=A=(acc,pl,plen,inan|nom,pl,plen)}, {бледный=A=(acc,pl,plen,inan|nom,pl,plen)}, {белый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{цветик=S,m,inan=(acc,pl|nom,pl)},
-{тихо=ADV=comp}...
-{я=SPRO,sg,1p=nom} {платить=V,ipf,tran=inpraes,sg,indic,1p}: {я=SPRO,sg,1p=(abl|dat)} {больно=ADV=}.
+Пал{пасть=V,pf,intr=praet,sg,indic,m} на{на=PR=} холодную{холодный=A=acc,sg,plen,f} землю{земля=S,f,inan=acc,sg}.
+Странны{странный=A=pl,brev} размахи{размах=S,m,inan=(acc,pl|nom,pl)} упругого{упругий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} стебля{стебель=S,m,inan=gen,sg},
+Вольные{вольный=A=(acc,pl,plen,inan|nom,pl,plen)}, смелые{смелый=A=(acc,pl,plen,inan|nom,pl,plen)}.
+Шелесту{шелест=S,m,inan=(dat,sg|part,sg)} внемлю{внимать=V,intr=inpraes,sg,indic,1p,ipf}. Тише{тихо=ADV=comp}...
+Довольно{довольно=ADV=}:
+Цветики{цветик=S,m,inan=(acc,pl|nom,pl)}
+Поздние{поздний=A=(acc,pl,plen,inan|nom,pl,plen)}, бледные{бледный=A=(acc,pl,plen,inan|nom,pl,plen)}, белые{белый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Цветики{цветик=S,m,inan=(acc,pl|nom,pl)},
+Тише{тихо=ADV=comp}...
+Я{я=SPRO,sg,1p=nom} плачу{платить=V,ipf,tran=inpraes,sg,indic,1p}: мне{я=SPRO,sg,1p=(abl|dat)} больно{больно=ADV=}.

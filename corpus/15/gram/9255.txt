@@ -1,11 +1,11 @@
-{я=SPRO,sg,1p=nom} {возглас=S,m,inan=(acc,sg|nom,sg)} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {я=SPRO,sg,1p=nom} {крик=S,m,inan=(acc,sg|nom,sg)} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{я=SPRO,sg,1p=nom} {камень=S,m,inan=(acc,sg|nom,sg)}, {пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {на=PR=} {дно=S,n,inan=(acc,sg|nom,sg)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Я{я=SPRO,sg,1p=nom} возглас{возглас=S,m,inan=(acc,sg|nom,sg)} боли{боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, я{я=SPRO,sg,1p=nom} крик{крик=S,m,inan=(acc,sg|nom,sg)} тоски{тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Я{я=SPRO,sg,1p=nom} камень{камень=S,m,inan=(acc,sg|nom,sg)}, павший{пасть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} на{на=PR=} дно{дно=S,n,inan=(acc,sg|nom,sg)} реки{река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{я=SPRO,sg,1p=nom} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {стебель=S,m,inan=(acc,sg|nom,sg)} {подводный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {трава=S,f,inan=gen,pl},
-{я=SPRO,sg,1p=nom} {бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {облик=S,m,inan=(acc,sg|nom,sg)} {речной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {купава=S,f,inan=gen,pl}.
+Я{я=SPRO,sg,1p=nom} тайный{тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} стебель{стебель=S,m,inan=(acc,sg|nom,sg)} подводных{подводный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} трав{трава=S,f,inan=gen,pl},
+Я{я=SPRO,sg,1p=nom} бледный{бледный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} облик{облик=S,m,inan=(acc,sg|nom,sg)} речных{речной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} купав{купава=S,f,inan=gen,pl}.
 
-{я=SPRO,sg,1p=nom} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {меж=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {мир=S,m,inan=gen,pl}.
-{я=SPRO,sg,1p=nom} {сказка=S,f,inan=nom,sg} {взор=S,m,inan=gen,pl}. {я=SPRO,sg,1p=nom} {взгляд=S,m,inan=(acc,sg|nom,sg)} {без=PR=} {слово=S,n,inan=gen,pl}.
+Я{я=SPRO,sg,1p=nom} легкий{легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} призрак{призрак=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} меж{меж=PR=} двух{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} миров{мир=S,m,inan=gen,pl}.
+Я{я=SPRO,sg,1p=nom} сказка{сказка=S,f,inan=nom,sg} взоров{взор=S,m,inan=gen,pl}. Я{я=SPRO,sg,1p=nom} взгляд{взгляд=S,m,inan=(acc,sg|nom,sg)} без{без=PR=} слов{слово=S,n,inan=gen,pl}.
 
-{я=SPRO,sg,1p=nom} {знак=S,m,inan=(acc,sg|nom,sg)} {заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {и=CONJ=} {лишь=PART=} {со=PR=} {я=SPRO,sg,1p=ins}
-{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=inpraes,sg,indic,2p} {сердце=S,n,inan=ins,sg}: «{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {мир=S,m,inan=(acc,sg|nom,sg)} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}».
+Я{я=SPRO,sg,1p=nom} знак{знак=S,m,inan=(acc,sg|nom,sg)} заветный{заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, и{и=CONJ=} лишь{лишь=PART=} со{со=PR=} мной{я=SPRO,sg,1p=ins}
+Ты{ты=SPRO,sg,2p=nom} скажешь{сказать=V,pf,tran=inpraes,sg,indic,2p} сердцем{сердце=S,n,inan=ins,sg}: «Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} мир{мир=S,m,inan=(acc,sg|nom,sg)} иной{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}».

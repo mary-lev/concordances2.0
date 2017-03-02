@@ -1,44 +1,44 @@
-{цикада=S,f,anim=(gen,sg|nom,pl)}, {цикада=S,f,anim=(gen,sg|nom,pl)}!
-{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)} {палящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
-{кузница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{вы=SPRO,pl,2p=nom} {ковач=S,m,anim=nom,pl}!
-{молотобойный?=A=(acc,pl,plen,inan|nom,pl,plen)},
-{скрежетопильный?=A=(acc,pl,plen,inan|nom,pl,plen)},
-{звонко=ADV=}-{гремучий=A=(acc,pl,plen,inan|nom,pl,plen)}
-{вы=SPRO,pl,2p=nom} {ковач=S,m,anim=nom,pl}!
-{любить=V,ipf,tran=inpraes,pl,indic,3p} {вы=SPRO,pl,2p=(abl|acc|gen)} {муза=S,f,anim=(gen,sg|nom,pl)}:
-{пение=S,n,inan=ins,sg} {в=PR=} {узы=S,pl,inan=(acc|nom)}
-{солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дрема=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {истома=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{ковать=V,ipf,tran=pl,imper,2p} {луч=S,m,inan=(acc,pl|nom,pl)} —
-{в=PR=} {час=S,m,inan=(acc,sg|nom,sg)}, {когда=CONJ=} {дафнис=S,persn,m,anim=nom,sg} {не=PART=} {спать=V,ipf,intr=inpraes,sg,indic,3p}, {а=CONJ=} {пан=S,m,anim=nom,sg} {грезить=V,ipf,intr=inpraes,sg,indic,3p} {под=PR=} {облако=S,n,inan=ins,sg} {зной=S,m,inan=gen,sg}
+Цикады{цикада=S,f,anim=(gen,sg|nom,pl)}, цикады{цикада=S,f,anim=(gen,sg|nom,pl)}!
+Луга{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)} палящего{палящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+Кузницы{кузница=S,f,inan=(acc,pl|gen,sg|nom,pl)} жаркой{жаркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Вы{вы=SPRO,pl,2p=nom} ковачи{ковач=S,m,anim=nom,pl}!
+Молотобойные{молотобойный?=A=(acc,pl,plen,inan|nom,pl,plen)},
+Скрежетопильные{скрежетопильный?=A=(acc,pl,plen,inan|nom,pl,plen)},
+Звонко{звонко=ADV=}-гремучие{гремучий=A=(acc,pl,plen,inan|nom,pl,plen)}
+Вы{вы=SPRO,pl,2p=nom} ковачи{ковач=S,m,anim=nom,pl}!
+Любят{любить=V,ipf,tran=inpraes,pl,indic,3p} вас{вы=SPRO,pl,2p=(abl|acc|gen)} Музы{муза=S,f,anim=(gen,sg|nom,pl)}:
+Пением{пение=S,n,inan=ins,sg} в{в=PR=} узы{узы=S,pl,inan=(acc|nom)}
+Солнечной{солнечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дремы{дрема=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Пьяной{пьяный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} истомы{истома=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Куйте{ковать=V,ipf,tran=pl,imper,2p} лучи{луч=S,m,inan=(acc,pl|nom,pl)} —
+В{в=PR=} час{час=S,m,inan=(acc,sg|nom,sg)}, когда{когда=CONJ=} Дафнис{дафнис=S,persn,m,anim=nom,sg} не{не=PART=} спит{спать=V,ipf,intr=inpraes,sg,indic,3p}, а{а=CONJ=} Пан{пан=S,m,anim=nom,sg} грезит{грезить=V,ipf,intr=inpraes,sg,indic,3p} под{под=PR=} облаком{облако=S,n,inan=ins,sg} зноя{зной=S,m,inan=gen,sg}
 
-{цикада=S,f,anim=(gen,sg|nom,pl)}, {цикада=S,f,anim=(gen,sg|nom,pl)}!
-{море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {слепящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
-{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {среброзарка?=S,f,anim=ins,sg}
-{плавить=V,ipf,tran=pl,imper,2p} {меч=S,m,inan=(acc,pl|nom,pl)}!
-{серебро=S,sg,n,inan=(acc|nom)} {в=PR=} {знойный=A=(acc,pl,plen,inan|nom,pl,plen)}
-{горный=A=pl,brev} {плавильный=A=(acc,pl,plen,inan|nom,pl,plen)}
-{сыпать=V,ipf,tran=pl,imper,2p} {в=PR=} {кипучий=A=(acc,pl,plen,inan|nom,pl,plen)},
-{плавить=V,ipf,tran=pl,imper,2p} {в=PR=} {печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}!
-{серебро=S,sg,n,inan=gen} {белый=A=pl,brev}:
-{ковать=V,ipf,tran=pl,imper,2p} {я=SPRO,sg,1p=(abl|dat)} {стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{томный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {пылание=S,n,inan=gen,pl},
-{пьяный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {желание=S,n,inan=gen,pl},
-{о=PR=}, {ковач=S,m,anim=nom,pl}, —
-{под=PR=} {теревинф?=S,geo,m,inan=ins,sg} {смолистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {где=ADVPRO=} {сонно=ADV=} {раскидываться=V,intr=praet,sg,indic,f,pf} {хлоя=S,persn,sg,f,anim=nom}!...
+Цикады{цикада=S,f,anim=(gen,sg|nom,pl)}, цикады{цикада=S,f,anim=(gen,sg|nom,pl)}!
+Моря{море=S,n,inan=(acc,pl|gen,sg|nom,pl)} слепящего{слепящий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+Мглы{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} среброзаркой{среброзарка?=S,f,anim=ins,sg}
+Плавьте{плавить=V,ipf,tran=pl,imper,2p} мечи{меч=S,m,inan=(acc,pl|nom,pl)}!
+Серебро{серебро=S,sg,n,inan=(acc|nom)} в{в=PR=} знойные{знойный=A=(acc,pl,plen,inan|nom,pl,plen)}
+Горны{горный=A=pl,brev} плавильные{плавильный=A=(acc,pl,plen,inan|nom,pl,plen)}
+Сыпьте{сыпать=V,ipf,tran=pl,imper,2p} в{в=PR=} кипучие{кипучий=A=(acc,pl,plen,inan|nom,pl,plen)},
+Плавьте{плавить=V,ipf,tran=pl,imper,2p} в{в=PR=} печи{печь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}!
+Серебра{серебро=S,sg,n,inan=gen} белы{белый=A=pl,brev}:
+Куйте{ковать=V,ipf,tran=pl,imper,2p} мне{я=SPRO,sg,1p=(abl|dat)} стрелы{стрела=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Томных{томный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} пыланий{пылание=S,n,inan=gen,pl},
+Пьяных{пьяный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} желаний{желание=S,n,inan=gen,pl},
+О{о=PR=}, ковачи{ковач=S,m,anim=nom,pl}, —
+Под{под=PR=} теревинфом{теревинф?=S,geo,m,inan=ins,sg} смолистым{смолистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, где{где=ADVPRO=} сонно{сонно=ADV=} раскинулась{раскидываться=V,intr=praet,sg,indic,f,pf} Хлоя{хлоя=S,persn,sg,f,anim=nom}!...
 
-{цикада=S,f,anim=(gen,sg|nom,pl)}, {цикада=S,f,anim=(gen,sg|nom,pl)}!
-{полдень=S,m,inan=gen,sg} {калить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)},
-{кузница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{вы=SPRO,pl,2p=nom} {ковач=S,m,anim=nom,pl}!
-{молот=S,m,inan=(acc,pl|nom,pl)} {стройный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{скрежет=S,m,inan=(acc,pl|nom,pl)} {сильный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{зной=S,m,inan=gen,sg} {трескучий=A=(acc,pl,plen,inan|nom,pl,plen)}
-{вы=SPRO,pl,2p=nom} {трубач=S,m,anim=nom,pl}!
-{муза=S,f,anim=dat,pl} {вы=SPRO,pl,2p=nom} {люба=S,persn,f,anim=(gen,sg|nom,pl)}:
-{ковать=V,ipf,tran=pl,imper,2p} {я=SPRO,sg,1p=(abl|dat)} {в=PR=} {труба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{сладостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{серебро=S,sg,n,inan=gen} {сплав=S,m,inan=(acc,pl|nom,pl)},
-{злата=S,persn,f,anim=nom,sg} {луч=S,m,inan=(acc,pl|nom,pl)} —
-{под=PR=} {теревинф?=S,geo,m,inan=ins,sg} {победа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {где=ADVPRO=} {с=PR=} {дафнис=S,persn,m,anim=ins,sg} — {томный=A=nom,sg,plen,f} {хлоя=S,persn,sg,f,anim=nom}!
+Цикады{цикада=S,f,anim=(gen,sg|nom,pl)}, цикады{цикада=S,f,anim=(gen,sg|nom,pl)}!
+Полдня{полдень=S,m,inan=gen,sg} калящего{калить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,anim|inpraes,gen,sg,partcp,plen,m,act|inpraes,gen,sg,partcp,plen,n,act)},
+Кузницы{кузница=S,f,inan=(acc,pl|gen,sg|nom,pl)} яркой{яркий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Вы{вы=SPRO,pl,2p=nom} ковачи{ковач=S,m,anim=nom,pl}!
+Молоты{молот=S,m,inan=(acc,pl|nom,pl)} стройные{стройный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Скрежеты{скрежет=S,m,inan=(acc,pl|nom,pl)} сильные{сильный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Зноя{зной=S,m,inan=gen,sg} трескучие{трескучий=A=(acc,pl,plen,inan|nom,pl,plen)}
+Вы{вы=SPRO,pl,2p=nom} трубачи{трубач=S,m,anim=nom,pl}!
+Музам{муза=S,f,anim=dat,pl} вы{вы=SPRO,pl,2p=nom} любы{люба=S,persn,f,anim=(gen,sg|nom,pl)}:
+Куйте{ковать=V,ipf,tran=pl,imper,2p} мне{я=SPRO,sg,1p=(abl|dat)} в{в=PR=} трубы{труба=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Сладостной{сладостный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} славы{слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Серебра{серебро=S,sg,n,inan=gen} сплавы{сплав=S,m,inan=(acc,pl|nom,pl)},
+Злата{злата=S,persn,f,anim=nom,sg} лучи{луч=S,m,inan=(acc,pl|nom,pl)} —
+Под{под=PR=} теревинфом{теревинф?=S,geo,m,inan=ins,sg} победы{победа=S,f,inan=(acc,pl|gen,sg|nom,pl)}, где{где=ADVPRO=} с{с=PR=} Дафнисом{дафнис=S,persn,m,anim=ins,sg} — томная{томный=A=nom,sg,plen,f} Хлоя{хлоя=S,persn,sg,f,anim=nom}!

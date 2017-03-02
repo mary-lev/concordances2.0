@@ -1,19 +1,19 @@
-{спать=V,ipf,intr=inpraes,pl,indic,3p}, {не=PART=} {разнимать=V,tran=inpraes,ger,ipf} {рука=S,f,inan=gen,pl},
-{с=PR=} {брат=S,m,anim=ins,sg} — {брат=S,m,anim=nom,sg},
-{с=PR=} {друг=S,m,anim=ins,sg}-{друг=S,m,anim=nom,sg}.
-{вместе=ADV=}, {на=PR=} {один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {постель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Спят{спать=V,ipf,intr=inpraes,pl,indic,3p}, не{не=PART=} разнимая{разнимать=V,tran=inpraes,ger,ipf} рук{рука=S,f,inan=gen,pl},
+С{с=PR=} братом{брат=S,m,anim=ins,sg} — брат{брат=S,m,anim=nom,sg},
+С{с=PR=} другом{друг=S,m,anim=ins,sg}-друг{друг=S,m,anim=nom,sg}.
+Вместе{вместе=ADV=}, на{на=PR=} одной{один=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} постели{постель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
 
-{вместе=ADV=} {пить=V,ipf,tran=praet,pl,indic}, {вместе=ADV=} {петь=V,ipf,tran=praet,pl,indic}.
+Вместе{вместе=ADV=} пили{пить=V,ipf,tran=praet,pl,indic}, вместе{вместе=ADV=} пели{петь=V,ipf,tran=praet,pl,indic}.
 
-{я=SPRO,sg,1p=nom} {укутывать=V,tran=praet,sg,indic,f,pf} {они=SPRO,pl=(acc|gen)} {в=PR=} {плед=S,m,inan=(acc,sg|nom,sg)},
-{полюбить=V,pf,tran=praet,sg,indic,f} {они=SPRO,pl=(acc|gen)} {навеки=ADV=}.
-{я=SPRO,sg,1p=nom} {сквозь=PR=} {сомкнутый=A=(acc,pl,plen,inan|nom,pl,plen)} {веко=S,n,inan=(acc,pl|nom,pl)}
-{странный=A=(acc,pl,plen,inan|nom,pl,plen)} {читать=V,ipf,tran=inpraes,sg,indic,1p} {весть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}:
+Я{я=SPRO,sg,1p=nom} укутала{укутывать=V,tran=praet,sg,indic,f,pf} их{они=SPRO,pl=(acc|gen)} в{в=PR=} плед{плед=S,m,inan=(acc,sg|nom,sg)},
+Полюбила{полюбить=V,pf,tran=praet,sg,indic,f} их{они=SPRO,pl=(acc|gen)} навеки{навеки=ADV=}.
+Я{я=SPRO,sg,1p=nom} сквозь{сквозь=PR=} сомкнутые{сомкнутый=A=(acc,pl,plen,inan|nom,pl,plen)} веки{веко=S,n,inan=(acc,pl|nom,pl)}
+Странные{странный=A=(acc,pl,plen,inan|nom,pl,plen)} читаю{читать=V,ipf,tran=inpraes,sg,indic,1p} вести{весть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}:
 
-{радуга=S,f,inan=nom,sg}: {двойной=A=nom,sg,plen,f} {слава=S,f,inan=nom,sg},
-{зарево=S,n,inan=(acc,sg|nom,sg)}: {двойной=A=nom,sg,plen,f} {смерть=S,f,inan=(acc,sg|nom,sg)}.
+Радуга{радуга=S,f,inan=nom,sg}: двойная{двойной=A=nom,sg,plen,f} слава{слава=S,f,inan=nom,sg},
+Зарево{зарево=S,n,inan=(acc,sg|nom,sg)}: двойная{двойной=A=nom,sg,plen,f} смерть{смерть=S,f,inan=(acc,sg|nom,sg)}.
 
-{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {рука=S,f,inan=gen,pl} {не=PART=} {разводить=V=inpraes,sg,indic,1p,pf}.
-{хорошо=ADV=comp,parenth} {быть=V,intr=inpraes,sg,indic,1p},
-{хорошо=ADV=comp,parenth} {быть=V,intr=inpraes,sg,indic,1p}
-{полымя=S,sg,n,inan=ins} {пылать=V,ipf,intr=inf} {в=PR=} {ад=S,sg,m,inan=(dat|loc)}!
+Этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} рук{рука=S,f,inan=gen,pl} не{не=PART=} разведу{разводить=V=inpraes,sg,indic,1p,pf}.
+Лучше{хорошо=ADV=comp,parenth} буду{быть=V,intr=inpraes,sg,indic,1p},
+Лучше{хорошо=ADV=comp,parenth} буду{быть=V,intr=inpraes,sg,indic,1p}
+Полымем{полымя=S,sg,n,inan=ins} пылать{пылать=V,ipf,intr=inf} в{в=PR=} аду{ад=S,sg,m,inan=(dat|loc)}!

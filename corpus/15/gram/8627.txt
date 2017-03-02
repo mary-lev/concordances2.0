@@ -1,14 +1,14 @@
-{лютик=S,m,inan=(acc,sg|nom,sg)} {золотистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{греза=S,f,inan=nom,sg} {влажный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {место=S,n,inan=gen,pl},
-{луч=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {шелк=S,m,inan=(acc,sg|nom,sg)} {цветистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {невеста=S,f,anim=(acc,pl|gen,pl)}.
+Лютик{лютик=S,m,inan=(acc,sg|nom,sg)} золотистый{золотистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Греза{греза=S,f,inan=nom,sg} влажных{влажный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} мест{место=S,n,inan=gen,pl},
+Луч{луч=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} шелк{шелк=S,m,inan=(acc,sg|nom,sg)} цветистый{цветистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Светлый{светлый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сон{сон=S,m,inan=(acc,sg|nom,sg)} невест{невеста=S,f,anim=(acc,pl|gen,pl)}.
 
-{пляска=S,f,inan=nom,sg} {брызги=S,pl,inan=gen} {огнистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
-{в=PR=} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} {костер=S,m,inan=gen,pl},
-{между=PR=} {красный=A=sg,brev,n}-{мглистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
-{быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {огонек=S,m,inan=gen,pl}.
+Пляска{пляска=S,f,inan=nom,sg} брызг{брызги=S,pl,inan=gen} огнистых{огнистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+В{в=PR=} пламени{пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} костров{костер=S,m,inan=gen,pl},
+Между{между=PR=} красно{красный=A=sg,brev,n}-мглистых{мглистый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+Быстрых{быстрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} огоньков{огонек=S,m,inan=gen,pl}.
 
-{колос=S,m,inan=(acc,sg|nom,sg)}, {отягчать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
-{число=S,n,inan=ins,pl} {зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{вечер=S,m,inan=(acc,sg|nom,sg)} {позлащать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
-{полный=A=nom,sg,plen,f} {луна=S,f,inan=nom,sg}.
+Колос{колос=S,m,inan=(acc,sg|nom,sg)}, отягченный{отягчать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)}
+Числами{число=S,n,inan=ins,pl} зерна{зерно=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Вечер{вечер=S,m,inan=(acc,sg|nom,sg)} позлащенный{позлащать=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)},
+Полная{полный=A=nom,sg,plen,f} Луна{луна=S,f,inan=nom,sg}.

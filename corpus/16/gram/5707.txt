@@ -1,81 +1,81 @@
 1
-{жить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {фарфор=S,m,inan=ins,sg} {дворец=S,m,inan=abl,sg}
-{принцесса=S,f,anim=nom,sg} {нежный=A=nom,sg,plen,f} {мимоза=S,f,inan=nom,sg}
-    {с=PR=} {улыбка=S,f,inan=ins,sg} {грустный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {на=PR=} {лицо=S,n,inan=abl,sg}.
-{жить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {фарфоровый=A=(abl,sg,plen,m|abl,sg,plen,n)} {дворец=S,m,inan=abl,sg}...
-    {летать=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {гость=S,m,anim=nom,pl} {к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {стрекоза=S,f,anim=(gen,sg|nom,pl)}.
-{жучок=S,m,anim=nom,pl} {дежурить=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {крыльцо=S,n,inan=abl,sg}.
-{жить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {фарфоровый=A=(abl,sg,plen,m|abl,sg,plen,n)} {дворец=S,m,inan=abl,sg}
-{принцесса=S,f,anim=nom,sg} {нежный=A=nom,sg,plen,f} {мимоза=S,f,inan=nom,sg}.
+Живет{жить=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} фарфором{фарфор=S,m,inan=ins,sg} дворце{дворец=S,m,inan=abl,sg}
+Принцесса{принцесса=S,f,anim=nom,sg} нежная{нежный=A=nom,sg,plen,f} Мимоза{мимоза=S,f,inan=nom,sg}
+    С{с=PR=} улыбкой{улыбка=S,f,inan=ins,sg} грустной{грустный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} на{на=PR=} лице{лицо=S,n,inan=abl,sg}.
+Живет{жить=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} фарфоровом{фарфоровый=A=(abl,sg,plen,m|abl,sg,plen,n)} дворце{дворец=S,m,inan=abl,sg}...
+    Летают{летать=V,ipf,intr=inpraes,pl,indic,3p} в{в=PR=} гости{гость=S,m,anim=nom,pl} к{к=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} стрекозы{стрекоза=S,f,anim=(gen,sg|nom,pl)}.
+Жучки{жучок=S,m,anim=nom,pl} дежурят{дежурить=V,ipf,intr=inpraes,pl,indic,3p} на{на=PR=} крыльце{крыльцо=S,n,inan=abl,sg}.
+Живет{жить=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} фарфоровом{фарфоровый=A=(abl,sg,plen,m|abl,sg,plen,n)} дворце{дворец=S,m,inan=abl,sg}
+Принцесса{принцесса=S,f,anim=nom,sg} нежная{нежный=A=nom,sg,plen,f} Мимоза{мимоза=S,f,inan=nom,sg}.
 2
-{она=SPRO,sg,3p,f=nom} {стыдливый=A=sg,brev,f} {и=CONJ=} {чистый=A=sg,brev,f},
-{и=CONJ=} {ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бархатный=A=(acc,pl,plen,inan|nom,pl,plen)} {хрупкий=A=pl,brev};
-{наряд=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {скромный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лист=S,m,inan=gen,sg}.
-{она=SPRO,sg,3p,f=nom} {стыдливый=A=sg,brev,f} {и=CONJ=} {чистый=A=sg,brev,f},
-{как=CONJ=} {вздох=S,m,inan=(acc,pl|nom,pl)} {девственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {голубка=S,f,anim=(gen,sg|nom,pl)},
-{как=CONJ=} {в=PR=} {ранний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {уста=S,pl,inan=(acc|nom)}.
-{она=SPRO,sg,3p,f=nom} {стыдливый=A=sg,brev,f} {и=CONJ=} {чистый=A=sg,brev,f},
-{и=CONJ=} {ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {бархатный=A=(acc,pl,plen,inan|nom,pl,plen)} {хрупкий=A=pl,brev}.
+Она{она=SPRO,sg,3p,f=nom} стыдлива{стыдливый=A=sg,brev,f} и{и=CONJ=} чиста{чистый=A=sg,brev,f},
+И{и=CONJ=} ручки{ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)} бархатные{бархатный=A=(acc,pl,plen,inan|nom,pl,plen)} хрупки{хрупкий=A=pl,brev};
+Наряд{наряд=S,m,inan=(acc,sg|nom,sg)} из{из=PR=} скромного{скромный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} листа{лист=S,m,inan=gen,sg}.
+Она{она=SPRO,sg,3p,f=nom} стыдлива{стыдливый=A=sg,brev,f} и{и=CONJ=} чиста{чистый=A=sg,brev,f},
+Как{как=CONJ=} вздохи{вздох=S,m,inan=(acc,pl|nom,pl)} девственной{девственный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} голубки{голубка=S,f,anim=(gen,sg|nom,pl)},
+Как{как=CONJ=} в{в=PR=} ранней{ранний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} юности{юность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} уста{уста=S,pl,inan=(acc|nom)}.
+Она{она=SPRO,sg,3p,f=nom} стыдлива{стыдливый=A=sg,brev,f} и{и=CONJ=} чиста{чистый=A=sg,brev,f},
+И{и=CONJ=} ручки{ручка=S,f,inan=(acc,pl|gen,sg|nom,pl)} бархатные{бархатный=A=(acc,pl,plen,inan|nom,pl,plen)} хрупки{хрупкий=A=pl,brev}.
 3
-{дрожать=V,ipf,intr=inpraes,sg,indic,3p} {сердечко=S,n,inan=(acc,sg|nom,sg)}, {как=CONJ=} {струна=S,f,inan=nom,sg}
-{у=PR=} {арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {дивный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {сладкозвучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}:
-{она=SPRO,sg,3p,f=nom} {впервые=ADV=} {влюбленный=A=sg,brev,f};
-{петь=V,ipf,tran=inpraes,sg,indic,3p} {сердечко=S,n,inan=(acc,sg|nom,sg)}, {как=CONJ=} {струна=S,f,inan=nom,sg},
-{и=CONJ=} {во=PR=} {дворец=S,m,inan=abl,sg} {теперь=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {скучно=ADV=},
-{она=SPRO,sg,3p,f=nom} {давно=ADV=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p} {сон=S,m,inan=gen,sg};
-{петь=V,ipf,tran=inpraes,sg,indic,3p} {сердечко=S,n,inan=(acc,sg|nom,sg)}, {как=CONJ=} {струна=S,f,inan=nom,sg},
-{у=PR=} {арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {громкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {сладкозвучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Дрожит{дрожать=V,ipf,intr=inpraes,sg,indic,3p} сердечко{сердечко=S,n,inan=(acc,sg|nom,sg)}, как{как=CONJ=} струна{струна=S,f,inan=nom,sg}
+У{у=PR=} арфы{арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} дивной{дивный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, сладкозвучной{сладкозвучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}:
+Она{она=SPRO,sg,3p,f=nom} впервые{впервые=ADV=} влюблена{влюбленный=A=sg,brev,f};
+Поет{петь=V,ipf,tran=inpraes,sg,indic,3p} сердечко{сердечко=S,n,inan=(acc,sg|nom,sg)}, как{как=CONJ=} струна{струна=S,f,inan=nom,sg},
+И{и=CONJ=} во{во=PR=} дворце{дворец=S,m,inan=abl,sg} теперь{теперь=ADV=} ей{она=SPRO,sg,3p,f=(dat|ins)} скучно{скучно=ADV=},
+Она{она=SPRO,sg,3p,f=nom} давно{давно=ADV=} не{не=PART=} знает{знать=V,ipf,tran=inpraes,sg,indic,3p} сна{сон=S,m,inan=gen,sg};
+Поет{петь=V,ipf,tran=inpraes,sg,indic,3p} сердечко{сердечко=S,n,inan=(acc,sg|nom,sg)}, как{как=CONJ=} струна{струна=S,f,inan=nom,sg},
+У{у=PR=} арфы{арфа=S,f,inan=(acc,pl|gen,sg|nom,pl)} громкой{громкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, сладкозвучной{сладкозвучный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 4
-{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {избранник=S,m,anim=nom,sg}, {мотылек=S,m,anim=nom,sg},
-{веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {резвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {златотканный?=A,plen=(acc,sg,m,inan|nom,sg,m)},
-{она=SPRO,sg,3p,f=(dat|ins)} {сделать=V,pf,tran=praet,sg,indic,m} {о=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {намек=S,m,inan=(acc,sg|nom,sg)};
-{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {избранник=S,m,anim=nom,sg}, {мотылек=S,m,anim=nom,sg},
-    {любить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)} {она=SPRO,sg,3p,f=ins} {и=CONJ=} {желанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{подносить=V=inpraes,sg,indic,3p,ipf,tran} {станс=S,m,inan=(acc,pl|nom,pl)} {в=PR=} {восемь=NUM=(acc|nom)} {строка=S,f,inan=gen,pl}
-{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {избранник=S,m,anim=nom,sg} {мотылек=S,m,anim=nom,sg}, —
-{поэт=S,m,anim=nom,sg} {с=PR=} {душа=S,f,inan=ins,sg} {златотканный?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+Ее{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} избранник{избранник=S,m,anim=nom,sg}, Мотылек{мотылек=S,m,anim=nom,sg},
+Веселый{веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, резвый{резвый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, златотканный{златотканный?=A,plen=(acc,sg,m,inan|nom,sg,m)},
+Ей{она=SPRO,sg,3p,f=(dat|ins)} сделал{сделать=V,pf,tran=praet,sg,indic,m} о{о=PR=} любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} намек{намек=S,m,inan=(acc,sg|nom,sg)};
+Ее{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} избранник{избранник=S,m,anim=nom,sg}, Мотылек{мотылек=S,m,anim=nom,sg},
+    Любимый{любить=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,pass,inan|inpraes,nom,sg,partcp,plen,m,pass)} ею{она=SPRO,sg,3p,f=ins} и{и=CONJ=} желанный{желанный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Подносит{подносить=V=inpraes,sg,indic,3p,ipf,tran} стансы{станс=S,m,inan=(acc,pl|nom,pl)} в{в=PR=} восемь{восемь=NUM=(acc|nom)} строк{строка=S,f,inan=gen,pl}
+Ее{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} избранник{избранник=S,m,anim=nom,sg} Мотылек{мотылек=S,m,anim=nom,sg}, —
+Поэт{поэт=S,m,anim=nom,sg} с{с=PR=} душою{душа=S,f,inan=ins,sg} златотканной{златотканный?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
 5
-{мимоза=S,f,inan=acc,sg} {робко=ADV=} {просить=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom}
-{дозволять=V,tran=inf,pf} {сливаться=V,intr=inf,pf} {поцелуй=S,m,inan=ins,sg},
-    {короткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {как=CONJ=} {волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)};
-{мимоза=S,f,inan=acc,sg} {страстно=ADV=} {просить=V,ipf,tran=inpraes,sg,indic,3p} {он=SPRO,sg,3p,m=nom},
-{любовь=S,f,inan=ins,sg} {пылкий=A=ins,sg,plen,f} {волновать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
-    {за=PR=} {поцелуй=S,m,inan=(acc,sg|nom,sg)} {давать=V,tran=inpraes,sg,indic,3p,ipf} {она=SPRO,sg,3p,f=(dat|ins)} {трон=S,m,inan=(acc,sg|nom,sg)}.
-{мимоза=S,f,inan=acc,sg} {умолять=V,tran=inpraes,sg,indic,3p,ipf} {он=SPRO,sg,3p,m=nom}
-{дозволять=V,tran=inf,pf} {сливаться=V,intr=inf,pf} {поцелуй=S,m,inan=ins,sg}!
+Мимозу{мимоза=S,f,inan=acc,sg} робко{робко=ADV=} просит{просить=V,ipf,tran=inpraes,sg,indic,3p} он{он=SPRO,sg,3p,m=nom}
+Дозволить{дозволять=V,tran=inf,pf} слиться{сливаться=V,intr=inf,pf} поцелуем{поцелуй=S,m,inan=ins,sg},
+    Коротким{короткий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, как{как=CONJ=} волшебный{волшебный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сон{сон=S,m,inan=(acc,sg|nom,sg)};
+Мимозу{мимоза=S,f,inan=acc,sg} страстно{страстно=ADV=} просит{просить=V,ipf,tran=inpraes,sg,indic,3p} он{он=SPRO,sg,3p,m=nom},
+Любовью{любовь=S,f,inan=ins,sg} пылкою{пылкий=A=ins,sg,plen,f} волнуем{волновать=V,ipf,tran=(inpraes,pl,indic,1p|inpraes,sg,partcp,brev,m,pass)},
+    За{за=PR=} поцелуй{поцелуй=S,m,inan=(acc,sg|nom,sg)} дает{давать=V,tran=inpraes,sg,indic,3p,ipf} ей{она=SPRO,sg,3p,f=(dat|ins)} трон{трон=S,m,inan=(acc,sg|nom,sg)}.
+Мимозу{мимоза=S,f,inan=acc,sg} умоляет{умолять=V,tran=inpraes,sg,indic,3p,ipf} он{он=SPRO,sg,3p,m=nom}
+Дозволить{дозволять=V,tran=inf,pf} слиться{сливаться=V,intr=inf,pf} поцелуем{поцелуй=S,m,inan=ins,sg}!
 6
-{принцесса=S,f,anim=nom,sg} {любить=V,ipf,tran=inpraes,sg,indic,3p}... {почему=ADVPRO=} {ж=PART=}
-{он=SPRO,sg,3p,m=(acc|gen)} {противиться=V,ipf,intr=inf} {желание=S,n,inan=dat,sg}?
-    {притом=CONJ=} {он=SPRO,sg,3p,m=nom} {вскоре=ADV=} {быть=V,intr=inpraes,sg,indic,3p} {муж=S,m,anim=nom,sg}...
-{принцесса=S,f,anim=nom,sg} {любить=V,ipf,tran=inpraes,sg,indic,3p}... {почему=ADVPRO=} {ж=PART=}?!
-    {уже=ADV=} {назначать=V,tran=praet,sg,partcp,brev,n,pf,pass} {свидание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-    {и=CONJ=} {близиться=V,ipf,intr=inpraes,sg,indic,3p} {слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {душа=S,f,inan=gen,pl};
-{принцесса=S,f,anim=nom,sg} {любить=V,ipf,tran=inpraes,sg,indic,3p}... {почему=ADVPRO=} {ж=PART=}?
-{противиться=V,ipf,intr=inf} {ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {желание=S,n,inan=dat,sg}?
+Принцесса{принцесса=S,f,anim=nom,sg} любит{любить=V,ipf,tran=inpraes,sg,indic,3p}... Почему{почему=ADVPRO=} ж{ж=PART=}
+Его{он=SPRO,sg,3p,m=(acc|gen)} противиться{противиться=V,ipf,intr=inf} желанью{желание=S,n,inan=dat,sg}?
+    Притом{притом=CONJ=} он{он=SPRO,sg,3p,m=nom} вскоре{вскоре=ADV=} будет{быть=V,intr=inpraes,sg,indic,3p} муж{муж=S,m,anim=nom,sg}...
+Принцесса{принцесса=S,f,anim=nom,sg} любит{любить=V,ipf,tran=inpraes,sg,indic,3p}... Почему{почему=ADVPRO=} ж{ж=PART=}?!
+    Уже{уже=ADV=} назначено{назначать=V,tran=praet,sg,partcp,brev,n,pf,pass} свиданье{свидание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+    И{и=CONJ=} близится{близиться=V,ipf,intr=inpraes,sg,indic,3p} слиянье{слияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} душ{душа=S,f,inan=gen,pl};
+Принцесса{принцесса=S,f,anim=nom,sg} любит{любить=V,ipf,tran=inpraes,sg,indic,3p}... Почему{почему=ADVPRO=} ж{ж=PART=}?
+Противиться{противиться=V,ipf,intr=inf} ее{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} желанью{желание=S,n,inan=dat,sg}?
 7
-{как=CONJ=} {обнадеживать=V,tran=praet,sg,partcp,brev,m,pf,pass} {мотылек=S,m,anim=nom,sg} —
-{поэт=S,m,anim=nom,sg} {и=CONJ=} {юноша=S,m,anim=nom,sg} {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
-    {в=PR=} {благоуханный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечерок=S,m,inan=(acc,sg|nom,sg)}
-{к=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {подлетать=V,intr=inpraes,sg,indic,3p,ipf} {мотылек=S,m,anim=nom,sg}.
-    {принцесса=S,f,anim=nom,sg} {око=S,n,inan=(acc,pl|nom,pl)} {клонить=V,ipf,tran=inpraes,sg,indic,3p} {долу=ADV=}
-{он=SPRO,sg,3p,m=nom} {наклоняться=V,intr=inpraes,sg,indic,3p,ipf} {и=CONJ=} — {чмок=INTJ=}!
-{мимоза=S,f,inan=acc,sg} {шустрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мотылек=S,m,anim=nom,sg}, —
-{поэт=S,m,anim=nom,sg} {и=CONJ=} {юноша=S,m,anim=nom,sg} {веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
+Как{как=CONJ=} обнадежен{обнадеживать=V,tran=praet,sg,partcp,brev,m,pf,pass} Мотылек{мотылек=S,m,anim=nom,sg} —
+Поэт{поэт=S,m,anim=nom,sg} и{и=CONJ=} юноша{юноша=S,m,anim=nom,sg} веселый{веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}!
+    В{в=PR=} благоуханный{благоуханный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вечерок{вечерок=S,m,inan=(acc,sg|nom,sg)}
+К{к=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} подлетает{подлетать=V,intr=inpraes,sg,indic,3p,ipf} Мотылек{мотылек=S,m,anim=nom,sg}.
+    Принцесса{принцесса=S,f,anim=nom,sg} очи{око=S,n,inan=(acc,pl|nom,pl)} клонит{клонить=V,ipf,tran=inpraes,sg,indic,3p} долу{долу=ADV=}
+Он{он=SPRO,sg,3p,m=nom} наклоняется{наклоняться=V,intr=inpraes,sg,indic,3p,ipf} и{и=CONJ=} — чмок{чмок=INTJ=}!
+Мимозу{мимоза=S,f,inan=acc,sg} шустрый{шустрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Мотылек{мотылек=S,m,anim=nom,sg}, —
+Поэт{поэт=S,m,anim=nom,sg} и{и=CONJ=} юноша{юноша=S,m,anim=nom,sg} веселый{веселый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}.
 8
-{и=CONJ=} {вдруг=ADV=} {смежать=V,tran=praet,sg,indic,f,pf} {вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg}
-{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {лазурный=A=(acc,pl,plen,inan|nom,pl,plen)} {принцесса=S,f,anim=nom,sg}
-    {пред=PR=} {потрясать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {мотылек=S,m,anim=ins,sg}?
-{увы=INTJ=}! {смежать=V,tran=praet,sg,indic,f,pf} {вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg}.
-{сокрыть=V,pf,tran=praet,sg,indic,f} {счастие=S,n,inan=(acc,sg|nom,sg)} {завеса=S,f,inan=nom,sg},
-    {и=CONJ=} {веять=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {холодок=S,m,inan=ins,sg},
-{когда=CONJ=} {смежать=V,tran=praet,sg,indic,f,pf} {вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сон=S,m,inan=ins,sg}
-{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} {невинный=A=(acc,pl,plen,inan|nom,pl,plen)} {принцесса=S,f,anim=nom,sg}.
+И{и=CONJ=} вдруг{вдруг=ADV=} смежила{смежать=V,tran=praet,sg,indic,f,pf} вечным{вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} сном{сон=S,m,inan=ins,sg}
+Глаза{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} лазурные{лазурный=A=(acc,pl,plen,inan|nom,pl,plen)} принцесса{принцесса=S,f,anim=nom,sg}
+    Пред{пред=PR=} потрясенным{потрясать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} Мотыльком{мотылек=S,m,anim=ins,sg}?
+Увы{увы=INTJ=}! Смежила{смежать=V,tran=praet,sg,indic,f,pf} вечным{вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} сном{сон=S,m,inan=ins,sg}.
+Сокрыла{сокрыть=V,pf,tran=praet,sg,indic,f} счастие{счастие=S,n,inan=(acc,sg|nom,sg)} завеса{завеса=S,f,inan=nom,sg},
+    И{и=CONJ=} веет{веять=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} холодком{холодок=S,m,inan=ins,sg},
+Когда{когда=CONJ=} смежила{смежать=V,tran=praet,sg,indic,f,pf} вечным{вечный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} сном{сон=S,m,inan=ins,sg}
+Глаза{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)} невинные{невинный=A=(acc,pl,plen,inan|nom,pl,plen)} принцесса{принцесса=S,f,anim=nom,sg}.
 9
-{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {святой=A=nom,sg,plen,f} {чистота=S,sg,f,inan=nom} —
-{причина=S,f,inan=nom,sg} {гибель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{что=CONJ=} {чистый=A=comp} {вешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лист=S,m,inan=gen,sg}.
-{в=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {духовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {чистота=S,sg,f,inan=nom},
-    {а=CONJ=} {не=PART=} {в=PR=} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {рабыня=S,f,anim=(abl,sg|dat,sg)} {проза=S,f,inan=(acc,pl|gen,sg|nom,pl)};
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {для=PR=} {один=APRO=(abl,pl|gen,pl|acc,pl,anim)} {молитва=S,f,inan=gen,pl} {уста=S,pl,inan=(acc|nom)},
-{и=CONJ=} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {святой=A=nom,sg,plen,f} {чистота=S,sg,f,inan=nom} —
-{причина=S,f,inan=nom,sg} {гибель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+Ее{ее=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} святая{святой=A=nom,sg,plen,f} чистота{чистота=S,sg,f,inan=nom} —
+Причина{причина=S,f,inan=nom,sg} гибели{гибель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} Мимозы{мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Что{что=CONJ=} чище{чистый=A=comp} вешнего{вешний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} листа{лист=S,m,inan=gen,sg}.
+В{в=PR=} любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} духовной{духовный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — чистота{чистота=S,sg,f,inan=nom},
+    А{а=CONJ=} не{не=PART=} в{в=PR=} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, рабыне{рабыня=S,f,anim=(abl,sg|dat,sg)} прозы{проза=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} для{для=PR=} одних{один=APRO=(abl,pl|gen,pl|acc,pl,anim)} молитв{молитва=S,f,inan=gen,pl} уста{уста=S,pl,inan=(acc|nom)},
+И{и=CONJ=} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} святая{святой=A=nom,sg,plen,f} чистота{чистота=S,sg,f,inan=nom} —
+Причина{причина=S,f,inan=nom,sg} гибели{гибель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} Мимозы{мимоза=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

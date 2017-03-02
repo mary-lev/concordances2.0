@@ -1,19 +1,19 @@
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}. {ворох=S,m,inan=(acc,sg|nom,sg)} {роза=S,f,inan=gen,pl}.
-{старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лорд=S,m,anim=nom,sg} {в=PR=} {богатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рама=S,f,inan=(abl,sg|dat,sg)}.
-{ты=SPRO,sg,2p=nom} {я=SPRO,sg,1p=(abl|dat)} {ленточка=S,f,inan=acc,sg} {приносить=V=praet,sg,indic,m,pf}?
-{дэзи?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {становиться=V,intr=praet,sg,indic,f,pf} {знатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дама=S,f,anim=ins,sg}.
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Год{год=S,m,inan=(acc,sg|nom,sg)}. Ворох{ворох=S,m,inan=(acc,sg|nom,sg)} роз{роза=S,f,inan=gen,pl}.
+Старый{старый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} лорд{лорд=S,m,anim=nom,sg} в{в=PR=} богатой{богатый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} раме{рама=S,f,inan=(abl,sg|dat,sg)}.
+Ты{ты=SPRO,sg,2p=nom} мне{я=SPRO,sg,1p=(abl|dat)} ленточку{ленточка=S,f,inan=acc,sg} принес{приносить=V=praet,sg,indic,m,pf}?
+Дэзи{дэзи?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} стала{становиться=V,intr=praet,sg,indic,f,pf} знатной{знатный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дамой{дама=S,f,anim=ins,sg}.
 
-{с=PR=} {длинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {крыло=S,n,inan=gen,pl} — {натекать=V,intr=inpraes,sg,indic,3p,pf}.
-{я=SPRO,sg,1p=(abl|dat)} {не=PART=} {надо=ADV,praed=} {красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лента=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{здесь=ADVPRO=} {не=PART=} {больно=ADV=} {почет=S,m,inan=(acc,sg|nom,sg)}
-{серафим=S,m,anim=dat,pl} {и=CONJ=} {студент=S,m,anim=dat,pl}.
+С{с=PR=} длинных{длинный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} крыл{крыло=S,n,inan=gen,pl} — натечет{натекать=V,intr=inpraes,sg,indic,3p,pf}.
+Мне{я=SPRO,sg,1p=(abl|dat)} не{не=PART=} надо{надо=ADV,praed=} красной{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ленты{лента=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Здесь{здесь=ADVPRO=} не{не=PART=} больно{больно=ADV=} почет{почет=S,m,inan=(acc,sg|nom,sg)}
+Серафимам{серафим=S,m,anim=dat,pl} и{и=CONJ=} студентам{студент=S,m,anim=dat,pl}.
 
-{что=SPRO,sg,n,inan=(acc|nom)}? {один=APRO=(acc,sg,m,inan|nom,sg,m)} {не=PART=} {уходить=V,intr=inpraes,sg,indic,2p,pf},
-{увезти=V,pf=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)} {на=PR=} {мальта=S,geo,f,inan=acc,sg}.
-{тот=APRO=nom,sg,f} {же=PART=} {наглость=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {то=SPRO,sg,n,inan=(acc|nom)} {ж=PART=}
-{несравненный=A=(acc,sg,plen,n|nom,sg,plen,n)} {контральто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!
+Что{что=SPRO,sg,n,inan=(acc|nom)}? Один{один=APRO=(acc,sg,m,inan|nom,sg,m)} не{не=PART=} уйдешь{уходить=V,intr=inpraes,sg,indic,2p,pf},
+Увези{увезти=V,pf=sg,imper,2p} меня{я=SPRO,sg,1p=(acc|gen)} на{на=PR=} Мальту{мальта=S,geo,f,inan=acc,sg}.
+Та{тот=APRO=nom,sg,f} же{же=PART=} наглость{наглость=S,f,inan=(acc,sg|nom,sg)} и{и=CONJ=} то{то=SPRO,sg,n,inan=(acc|nom)} ж{ж=PART=}
+Несравненное{несравненный=A=(acc,sg,plen,n|nom,sg,plen,n)} контральто{контральто=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!
 
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}! {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {год=S,m,inan=(acc,sg|nom,sg)}!
-{чек=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {смитсон?=S,famn,m,anim=(acc,sg|gen,sg)} {в=PR=} {букет=S,m,inan=abl,sg}!
- — {алкать=V,ipf,intr=inpraes,sg,indic,3p} {у=PR=} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ворота=S,pl,inan=gen}
-{зябкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {серафим=S,persn,m,anim=nom,sg} {россетти?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Год{год=S,m,inan=(acc,sg|nom,sg)}! Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Год{год=S,m,inan=(acc,sg|nom,sg)}!
+Чек{чек=S,m,inan=(acc,sg|nom,sg)} на{на=PR=} Смитсона{смитсон?=S,famn,m,anim=(acc,sg|gen,sg)} в{в=PR=} букете{букет=S,m,inan=abl,sg}!
+ — Алчет{алкать=V,ipf,intr=inpraes,sg,indic,3p} у{у=PR=} моих{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} ворот{ворота=S,pl,inan=gen}
+Зябкий{зябкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} серафим{серафим=S,persn,m,anim=nom,sg} Россетти{россетти?=S,persn,f,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}!

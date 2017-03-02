@@ -1,32 +1,32 @@
-{кентавр=S,m,anim=nom,sg} {бородатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{мохнатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{и=CONJ=} {голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{на=PR=} {стража=S,f,inan=(abl,sg|dat,sg)}
-{у=PR=} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {стоять=V,ipf,intr=inpraes,sg,indic,3p}.
-{с=PR=} {дубина=S,f,inan=ins,sg} {тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{от=PR=} {зависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {вражий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
-{жена=S,f,anim=acc,sg} {и=CONJ=} {ребенок=S,m,anim=(acc,pl|gen,pl)} {сторожить=V,ipf,tran=inpraes,sg,indic,3p}.
+Кентавр{кентавр=S,m,anim=nom,sg} бородатый{бородатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+мохнатый{мохнатый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+и{и=CONJ=} голый{голый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+на{на=PR=} страже{стража=S,f,inan=(abl,sg|dat,sg)}
+у{у=PR=} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} стоит{стоять=V,ipf,intr=inpraes,sg,indic,3p}.
+С{с=PR=} дубиной{дубина=S,f,inan=ins,sg} тяжелой{тяжелый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+от{от=PR=} зависти{зависть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} вражьей{вражий=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}
+жену{жена=S,f,anim=acc,sg} и{и=CONJ=} детей{ребенок=S,m,anim=(acc,pl|gen,pl)} сторожит{сторожить=V,ipf,tran=inpraes,sg,indic,3p}.
 
-{в=PR=} {пещера=S,f,inan=(abl,sg|dat,sg)} {кентаврих?=S,m,inan=gen,sg} {кормить=V,ipf,tran=inpraes,sg,indic,3p} {ребенок=S,m,anim=(acc,sg|gen,sg)}
-{пьянящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
-{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {молоко=S,n,inan=ins,sg}.
-{шутливо=ADV=} {трубить=V,ipf,tran=inpraes,pl,indic,3p} {молодой=A=(acc,pl,plen,inan|nom,pl,plen)} {кентавр=S,m,anim=nom,pl} {над=PR=} {звонко=ADV=}
-{шуметь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}
-{ручей=S,m,inan=ins,sg}.
+В{в=PR=} пещере{пещера=S,f,inan=(abl,sg|dat,sg)} кентавриха{кентаврих?=S,m,inan=gen,sg} кормит{кормить=V,ipf,tran=inpraes,sg,indic,3p} ребенка{ребенок=S,m,anim=(acc,sg|gen,sg)}
+пьянящим{пьянящий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+своим{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} молоком{молоко=S,n,inan=ins,sg}.
+Шутливо{шутливо=ADV=} трубят{трубить=V,ipf,tran=inpraes,pl,indic,3p} молодые{молодой=A=(acc,pl,plen,inan|nom,pl,plen)} кентавры{кентавр=S,m,anim=nom,pl} над{над=PR=} звонко{звонко=ADV=}
+шумящим{шуметь=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}
+ручьем{ручей=S,m,inan=ins,sg}.
 
-{вскакивать=V=praet,ger,pf,intr} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {на=PR=} {другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)},
-{копыто=S,n,inan=ins,pl} {стискивать=V,tran=praet,ger,pf} {спина=S,f,inan=acc,sg},
-{кусать=V,ipf,tran=inpraes,pl,indic,3p} {друг=S,m,anim=nom,sg} {друг=S,m,anim=(acc,sg|gen,sg)}, {заржать=V,pf,intr=praet,ger}.
-{согревать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {жар=S,sg,m,inan=ins} {тепло=S,sg,n,inan=gen} {золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
-{другой=APRO=(nom,pl|acc,pl,inan)} {глядеть=V,ipf,tran=inpraes,pl,indic,3p} {на=PR=} {картина=S,f,inan=acc,sg},
-{а=CONJ=} {третий=ANUM=(nom,pl|acc,pl,inan)} {валяться=V,ipf,intr=inpraes,pl,indic,3p}, {нога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {задирать=V=praet,ger,pf,tran}.
+Вскочивши{вскакивать=V=praet,ger,pf,intr} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} на{на=PR=} другого{другой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)},
+копытами{копыто=S,n,inan=ins,pl} стиснувши{стискивать=V,tran=praet,ger,pf} спину{спина=S,f,inan=acc,sg},
+кусают{кусать=V,ipf,tran=inpraes,pl,indic,3p} друг{друг=S,m,anim=nom,sg} друга{друг=S,m,anim=(acc,sg|gen,sg)}, заржав{заржать=V,pf,intr=praet,ger}.
+Согретые{согревать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} жаром{жар=S,sg,m,inan=ins} тепла{тепло=S,sg,n,inan=gen} золотого{золотой=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)},
+другие{другой=APRO=(nom,pl|acc,pl,inan)} глядят{глядеть=V,ipf,tran=inpraes,pl,indic,3p} на{на=PR=} картину{картина=S,f,inan=acc,sg},
+а{а=CONJ=} третьи{третий=ANUM=(nom,pl|acc,pl,inan)} валяются{валяться=V,ipf,intr=inpraes,pl,indic,3p}, ноги{нога=S,f,inan=(acc,pl|gen,sg|nom,pl)} задрав{задирать=V=praet,ger,pf,tran}.
 
-{тревожно=ADV=} {зафыркать=V,pf,intr=praet,sg,indic,m} {старик=S,m,anim=nom,sg}, {дубина=S,f,inan=ins,sg} {корнистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{взмахивать=V,intr=praet,ger,pf}.
-{в=PR=} {лес=S,m,inan=(acc,sg|nom,sg)} {пасмурно=ADV=}-{мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{умчаться=V,pf,intr=praet,sg,indic,m}, {хвост=S,m,inan=ins,sg} {поседеть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)} {вильнуть=V,pf,intr=praet,ger}.
+Тревожно{тревожно=ADV=} зафыркал{зафыркать=V,pf,intr=praet,sg,indic,m} старик{старик=S,m,anim=nom,sg}, дубиной{дубина=S,f,inan=ins,sg} корнистой{корнистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+взмахнув{взмахивать=V,intr=praet,ger,pf}.
+В{в=PR=} лес{лес=S,m,inan=(acc,sg|nom,sg)} пасмурно{пасмурно=ADV=}-мглистый{мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+умчался{умчаться=V,pf,intr=praet,sg,indic,m}, хвостом{хвост=S,m,inan=ins,sg} поседевшим{поседеть=V,pf,intr=(praet,dat,pl,partcp,plen,act|praet,ins,sg,partcp,plen,m,act|praet,ins,sg,partcp,plen,n,act)} вильнув{вильнуть=V,pf,intr=praet,ger}.
 
-{и=CONJ=} {вмиг=ADV=} {присмиреть=V,pf,intr=praet,pl,indic} {кентавр=S,m,anim=nom,pl}, {оставлять=V,tran=praet,ger,pf} {затея=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {скоп=S,m,inan=ins,sg},
-{испуганно=ADV=} {вытягивать=V,tran=praet,ger,pf} {шея=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{к=PR=} {пещера=S,f,inan=(abl,sg|dat,sg)} {помчаться=V,pf,intr=praet,pl,indic} {галоп=S,m,inan=ins,sg}.
+И{и=CONJ=} вмиг{вмиг=ADV=} присмирели{присмиреть=V,pf,intr=praet,pl,indic} кентавры{кентавр=S,m,anim=nom,pl}, оставив{оставлять=V,tran=praet,ger,pf} затеи{затея=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+и{и=CONJ=} скопом{скоп=S,m,inan=ins,sg},
+испуганно{испуганно=ADV=} вытянув{вытягивать=V,tran=praet,ger,pf} шеи{шея=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+к{к=PR=} пещере{пещера=S,f,inan=(abl,sg|dat,sg)} помчались{помчаться=V,pf,intr=praet,pl,indic} галопом{галоп=S,m,inan=ins,sg}.

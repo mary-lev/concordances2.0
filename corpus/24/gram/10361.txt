@@ -1,9 +1,9 @@
-{высота=S,f,inan=gen,pl} {недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} {озеро=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
-{отверстый=A=(acc,pl,plen,inan|nom,pl,plen)} {зеница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гора=S,f,inan=gen,pl} —
-{мгла=S,f,inan=ins,sg} {неразгаданный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {взор=S,m,inan=gen,sg}
-{небо=S,n,inan=gen,pl} {глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мерить=V,ipf,tran=inpraes,pl,indic,3p} {взор=S,m,inan=(acc,sg|nom,sg)}.
+Высот{высота=S,f,inan=gen,pl} недвижные{недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} озёра{озеро=S,n,inan=(acc,pl|gen,sg|nom,pl)} —
+Отверстые{отверстый=A=(acc,pl,plen,inan|nom,pl,plen)} зеницы{зеница=S,f,inan=(acc,pl|gen,sg|nom,pl)} гор{гора=S,f,inan=gen,pl} —
+Мглой{мгла=S,f,inan=ins,sg} неразгаданного{неразгаданный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} взора{взор=S,m,inan=gen,sg}
+Небес{небо=S,n,inan=gen,pl} глубокий{глубокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мерят{мерить=V,ipf,tran=inpraes,pl,indic,3p} взор{взор=S,m,inan=(acc,sg|nom,sg)}.
 
-{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=inpraes,sg,indic,2p}: {в=PR=} {ясный=A=(acc,pl,plen,inan|nom,pl,plen)} {глядеться=V,ipf,intr=inpraes,sg,indic,3p}
-{с=PR=} {улыбка=S,f,inan=ins,sg} {дикий=A=ins,sg,plen,f} {сатира=S,f,inan=gen,pl}, —
-{он=SPRO,sg,3p,m=nom}, {тайна=S,f,inan=acc,sg} {мойра=S,f,anim=(acc,pl|gen,pl)} {шепнуть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {в=PR=} {мир=S,m,inan=(acc,sg|nom,sg)},
-{что=CONJ=} {жребий=S,m,inan=(acc,sg|nom,sg)} {хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} — {не=PART=} {родиться=V,ipf,intr=inf}.
+Ты{ты=SPRO,sg,2p=nom} скажешь{сказать=V,pf,tran=inpraes,sg,indic,2p}: в{в=PR=} ясные{ясный=A=(acc,pl,plen,inan|nom,pl,plen)} глядится{глядеться=V,ipf,intr=inpraes,sg,indic,3p}
+С{с=PR=} улыбкой{улыбка=S,f,inan=ins,sg} дикою{дикий=A=ins,sg,plen,f} Сатир{сатира=S,f,inan=gen,pl}, —
+Он{он=SPRO,sg,3p,m=nom}, тайну{тайна=S,f,inan=acc,sg} Мойр{мойра=S,f,anim=(acc,pl|gen,pl)} шепнувший{шепнуть=V,pf,tran=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} в{в=PR=} мир{мир=S,m,inan=(acc,sg|nom,sg)},
+Что{что=CONJ=} жребий{жребий=S,m,inan=(acc,sg|nom,sg)} лучший{хороший=A=(acc,sg,plen,supr,m,inan|nom,sg,plen,supr,m)} — не{не=PART=} родиться{родиться=V,ipf,intr=inf}.

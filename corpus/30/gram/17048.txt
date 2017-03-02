@@ -1,17 +1,17 @@
-{великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {маг=S,m,anim=nom,sg}, {властитель=S,m,anim=nom,sg} {душа=S,f,inan=gen,pl} {влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{простереть=V,pf=praet,sg,indic,m} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {жезл=S,m,inan=(acc,sg|nom,sg)} {чудесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {надо=ADV,praed=} {я=SPRO,sg,1p=ins}.
-{усталый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вежды=S,pl,inan=gen} {око=S,n,inan=gen,pl} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {гореть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {жажда=S,f,inan=ins,sg} {неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Великий{великий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Маг{маг=S,m,anim=nom,sg}, властитель{властитель=S,m,anim=nom,sg} душ{душа=S,f,inan=gen,pl} влюбленных{влюбленный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Простер{простереть=V,pf=praet,sg,indic,m} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} жезл{жезл=S,m,inan=(acc,sg|nom,sg)} чудесный{чудесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} надо{надо=ADV,praed=} мной{я=SPRO,sg,1p=ins}.
+Усталых{усталый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} вежд{вежды=S,pl,inan=gen} очей{око=S,n,inan=gen,pl} моих{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} бессонных{бессонный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Груди{грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, горящей{гореть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} жаждой{жажда=S,f,inan=ins,sg} неземной{неземной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
 
-{и=CONJ=} {жаркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {уста=S,pl,inan=gen}, {без=PR=} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} {сжигать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)},
-{касаться=V,intr=praet,sg,indic,m,pf} {властно=ADV=} {скипетр=S,m,inan=(acc,sg|nom,sg)} {золотой=S,m,inan=(acc,sg|nom,sg)};
-{он=SPRO,sg,3p,m=nom} {быть=V,intr=praet,sg,indic,m,ipf} {обвивать=V=praet,sg,partcp,brev,m,pf,pass} {спираль=S,f,inan=ins,sg} {змей=S,m,anim=nom,sg} {сплетать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)},
-{он=SPRO,sg,3p,m=nom} {заклинать=V=praet,sg,indic,m,ipf,tran} {змеиный=A=ins,sg,plen,f} {чета=S,f,inan=ins,sg}!
+И{и=CONJ=} жарких{жаркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} уст{уста=S,pl,inan=gen}, без{без=PR=} пламени{пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)} сожженных{сжигать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)},
+Коснулся{касаться=V,intr=praet,sg,indic,m,pf} властно{властно=ADV=} скипетр{скипетр=S,m,inan=(acc,sg|nom,sg)} золотой{золотой=S,m,inan=(acc,sg|nom,sg)};
+Он{он=SPRO,sg,3p,m=nom} был{быть=V,intr=praet,sg,indic,m,ipf} обвит{обвивать=V=praet,sg,partcp,brev,m,pf,pass} спиралью{спираль=S,f,inan=ins,sg} змей{змей=S,m,anim=nom,sg} сплетенных{сплетать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)},
+Он{он=SPRO,sg,3p,m=nom} заклинал{заклинать=V=praet,sg,indic,m,ipf,tran} змеиною{змеиный=A=ins,sg,plen,f} четой{чета=S,f,inan=ins,sg}!
 
-{и=CONJ=} {с=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} {бессильный=A=pl,brev} – {грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гений=S,m,anim=nom,sg}
-{нежданный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {встреча=S,f,inan=gen,pl} {и=CONJ=} {демон=S,m,anim=nom,sg} {обольщение=S,n,inan=gen,pl},
-{сон=S,m,inan=(acc,pl|nom,pl)} {бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)} – {все=SPRO,pl=(acc|nom)} {глухой=A=comp}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {немой=A=comp}.
+И{и=CONJ=} с{с=PR=} этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} пор{пора=S,f,inan=gen,pl} бессильны{бессильный=A=pl,brev} – грозный{грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Гений{гений=S,m,anim=nom,sg}
+Нежданных{нежданный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} встреч{встреча=S,f,inan=gen,pl} и{и=CONJ=} Демон{демон=S,m,anim=nom,sg} Обольщений{обольщение=S,n,inan=gen,pl},
+Сны{сон=S,m,inan=(acc,pl|nom,pl)} бытия{бытие=S,n,inan=(acc,pl|gen,sg|nom,pl)} – все{все=SPRO,pl=(acc|nom)} глуше{глухой=A=comp}, все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} немей{немой=A=comp}.
 
-{и=CONJ=} {с=PR=} {этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пора=S,f,inan=gen,pl} – {хотеть=V,ipf,tran=inpraes,sg,indic,1p} {ль=PART=} {отдаваться=V,intr=inf,pf} {чудо=S,n,inan=dat,sg},
-{хотеть=V,ipf,tran=inpraes,sg,indic,1p} {ль=PART=} {восставать=V,intr=inf,pf} – {но=CONJ=} {всюду=ADVPRO=}, {всюду=ADVPRO=}, {всюду=ADVPRO=}
-{я=SPRO,sg,1p=nom} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {знак=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {сплетать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {змея=S,f,anim=(acc,pl|gen,pl)}!
+И{и=CONJ=} с{с=PR=} этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} пор{пора=S,f,inan=gen,pl} – хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} ль{ль=PART=} отдаться{отдаваться=V,intr=inf,pf} чуду{чудо=S,n,inan=dat,sg},
+Хочу{хотеть=V,ipf,tran=inpraes,sg,indic,1p} ль{ль=PART=} восстать{восставать=V,intr=inf,pf} – но{но=CONJ=} всюду{всюду=ADVPRO=}, всюду{всюду=ADVPRO=}, всюду{всюду=ADVPRO=}
+Я{я=SPRO,sg,1p=nom} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} знак{знак=S,m,inan=(acc,sg|nom,sg)} из{из=PR=} двух{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} сплетенных{сплетать=V=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} змей{змея=S,f,anim=(acc,pl|gen,pl)}!

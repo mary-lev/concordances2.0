@@ -1,14 +1,14 @@
-{самовар=S,m,inan=(acc,sg|nom,sg)} {отшуметь=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {заглохнуть=V,pf,intr=praet,sg,indic,m};
-{погружаться=V,intr=inpraes,sg,indic,3p,ipf} {дом=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {полутьма=S,f,inan=acc,sg}.
-{я=SPRO,sg,1p=(abl|dat)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {надо=ADV,praed=}, — {он=SPRO,sg,3p,m=dat}
-{отдавать=V,tran=sg,imper,2p,pf} {мой=APRO=(acc,sg,n|nom,sg,n)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {бог=S,m,anim=nom,sg}!
+Самовар{самовар=S,m,inan=(acc,sg|nom,sg)} отшумевший{отшуметь=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} заглох{заглохнуть=V,pf,intr=praet,sg,indic,m};
+Погружается{погружаться=V,intr=inpraes,sg,indic,3p,ipf} дом{дом=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} полутьму{полутьма=S,f,inan=acc,sg}.
+Мне{я=SPRO,sg,1p=(abl|dat)} счастья{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} надо{надо=ADV,praed=}, — ему{он=SPRO,sg,3p,m=dat}
+Отдай{отдавать=V,tran=sg,imper,2p,pf} мое{мой=APRO=(acc,sg,n|nom,sg,n)} счастье{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, Бог{бог=S,m,anim=nom,sg}!
 
-{зимний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сумрак=S,m,inan=(acc,sg|nom,sg)} {касаться=V,intr=inpraes,sg,indic,3p,ipf} {роза=S,f,inan=gen,pl}
-{на=PR=} {обои=S,pl,inan=abl} {и=CONJ=} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {уголь=S,m,inan=gen,pl}.
-{пойти=V,pf,intr=praet,pl,indic} {он=SPRO,sg,3p,m=dat} {вечер=S,m,inan=(acc,sg|nom,sg)} {светлый=A=comp},
-{тепло=ADV=comp}, {чем=CONJ=} {я=SPRO,sg,1p=(abl|dat)}, {христос=S,famn,m,anim=nom,sg}!
+Зимний{зимний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сумрак{сумрак=S,m,inan=(acc,sg|nom,sg)} касается{касаться=V,intr=inpraes,sg,indic,3p,ipf} роз{роза=S,f,inan=gen,pl}
+На{на=PR=} обоях{обои=S,pl,inan=abl} и{и=CONJ=} ярких{яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} углей{уголь=S,m,inan=gen,pl}.
+Пошли{пойти=V,pf,intr=praet,pl,indic} ему{он=SPRO,sg,3p,m=dat} вечер{вечер=S,m,inan=(acc,sg|nom,sg)} светлей{светлый=A=comp},
+Теплее{тепло=ADV=comp}, чем{чем=CONJ=} мне{я=SPRO,sg,1p=(abl|dat)}, Христос{христос=S,famn,m,anim=nom,sg}!
 
-{я=SPRO,sg,1p=nom} {сдерживать=V,tran=inpraes,sg,indic,1p,pf} {и=CONJ=} {улыбка=S,f,inan=acc,sg} {и=CONJ=} {вздох=S,m,inan=(acc,sg|nom,sg)},
-{я=SPRO,sg,1p=nom} {с=PR=} {проклятие=S,n,inan=ins,sg} {рука=S,f,inan=gen,pl} {не=PART=} {сжимать=V=inpraes,sg,indic,1p,pf},
-{но=CONJ=} {только=PART=} — {давать=V,tran=sg,imper,2p,pf} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {он=SPRO,sg,3p,m=dat},
-{о=INTJ=}, {давать=V,tran=sg,imper,2p,pf} {он=SPRO,sg,3p,m=dat} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {бог=S,m,anim=nom,sg}!
+Я{я=SPRO,sg,1p=nom} сдержу{сдерживать=V,tran=inpraes,sg,indic,1p,pf} и{и=CONJ=} улыбку{улыбка=S,f,inan=acc,sg} и{и=CONJ=} вздох{вздох=S,m,inan=(acc,sg|nom,sg)},
+Я{я=SPRO,sg,1p=nom} с{с=PR=} проклятием{проклятие=S,n,inan=ins,sg} рук{рука=S,f,inan=gen,pl} не{не=PART=} сожму{сжимать=V=inpraes,sg,indic,1p,pf},
+Но{но=CONJ=} только{только=PART=} — дай{давать=V,tran=sg,imper,2p,pf} счастье{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} ему{он=SPRO,sg,3p,m=dat},
+О{о=INTJ=}, дай{давать=V,tran=sg,imper,2p,pf} ему{он=SPRO,sg,3p,m=dat} счастье{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)}, Бог{бог=S,m,anim=nom,sg}!

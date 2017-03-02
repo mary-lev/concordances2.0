@@ -1,9 +1,9 @@
-{цвести=V,ipf,intr=inpraes,sg,indic,3p} {миндаль=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {перекресток=S,m,inan=abl,sg};
-{мерцать=V,ipf,intr=inpraes,sg,indic,3p} {дымка=S,f,inan=nom,sg} {над=PR=} {гора=S,f,inan=ins,sg};
-{бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} {серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{по=PR=} {гладь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {море=S,n,inan=(acc,pl|gen,sg|nom,pl)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Цветет{цвести=V,ipf,intr=inpraes,sg,indic,3p} миндаль{миндаль=S,m,inan=(acc,sg|nom,sg)} на{на=PR=} перекрестке{перекресток=S,m,inan=abl,sg};
+мерцает{мерцать=V,ipf,intr=inpraes,sg,indic,3p} дымка{дымка=S,f,inan=nom,sg} над{над=PR=} горой{гора=S,f,inan=ins,sg};
+бегут{бежать=V,intr=(inpraes,pl,indic,3p,ipf|inpraes,pl,indic,3p,pf)} серебряные{серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} блестки{блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+по{по=PR=} глади{гладь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} моря{море=S,n,inan=(acc,pl|gen,sg|nom,pl)} голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{щебетать=V,ipf,intr=inpraes,pl,indic,3p} {птица=S,f,anim=(gen,sg|nom,pl)} {вдохновенно=ADV=comp};
-{вечно=ADV=}-{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ярко=ADV=comp} {лист=S,m,inan=(acc,sg|nom,sg)}.
-{блаженный=A=sg,brev,m}, {кто=SPRO,sg,m,anim=nom} {в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{восклицать=V,intr=inpraes,sg,indic,3p,pf} {искренно=ADV=}: «{я=SPRO,sg,1p=nom} {чистый=A=sg,brev,m}!»
+Щебечут{щебетать=V,ipf,intr=inpraes,pl,indic,3p} птицы{птица=S,f,anim=(gen,sg|nom,pl)} вдохновенней{вдохновенно=ADV=comp};
+вечно{вечно=ADV=}-зеленый{зеленый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ярче{ярко=ADV=comp} лист{лист=S,m,inan=(acc,sg|nom,sg)}.
+Блажен{блаженный=A=sg,brev,m}, кто{кто=SPRO,sg,m,anim=nom} в{в=PR=} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} весенний{весенний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+воскликнет{восклицать=V,intr=inpraes,sg,indic,3p,pf} искренно{искренно=ADV=}: «Я{я=SPRO,sg,1p=nom} чист{чистый=A=sg,brev,m}!»

@@ -1,9 +1,9 @@
-{лохмотья=S,pl,inan=(acc|nom)}, {нож=S,m,inan=(acc,sg|nom,sg)} — {и=CONJ=} {цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} {черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} {глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
-{сон=S,m,inan=(acc,sg|nom,sg)} {давний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl} {на=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {новь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
-{петь=V,ipf,tran=inpraes,pl,indic,3p} {дрозд=S,m,anim=nom,pl}. {пять=NUM=(acc|nom)}-{шесть=NUM=(acc|nom)} {овца=S,f,anim=(acc,pl|gen,pl)}, {коза=S,f,anim=nom,sg}.
+Лохмотья{лохмотья=S,pl,inan=(acc|nom)}, нож{нож=S,m,inan=(acc,sg|nom,sg)} — и{и=CONJ=} цвета{цвет=S,m,inan=(acc,pl|gen,sg|nom,pl)} черной{черный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} крови{кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Недвижные{недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} глаза{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}...
+Сон{сон=S,m,inan=(acc,sg|nom,sg)} давних{давний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дней{день=S,m,inan=gen,pl} на{на=PR=} этой{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} древней{древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} нови{новь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Поют{петь=V,ipf,tran=inpraes,pl,indic,3p} дрозды{дрозд=S,m,anim=nom,pl}. Пять{пять=NUM=(acc|nom)}-шесть{шесть=NUM=(acc|nom)} овец{овца=S,f,anim=(acc,pl|gen,pl)}, коза{коза=S,f,anim=nom,sg}.
 
-{кругом=ADV=}, {в=PR=} {пустыня=S,f,inan=(abl,sg|dat,sg)} {каменистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{желтеть=V,ipf,intr=inpraes,sg,indic,3p} {дрок=S,m,inan=(acc,sg|nom,sg)}. {вдали=ADV=} {руины=S,pl,inan=(acc|nom)}, {храм=S,m,inan=(acc,sg|nom,sg)}.
-{вдали=ADV=} {полдневный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гора=S,f,inan=gen,pl} {хребет=S,m,inan=(acc,sg|nom,sg)} {лазурно=ADV=}-{мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{и=CONJ=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {облако=S,n,inan=gen,pl} {по=PR=} {выжигать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {бугор=S,m,inan=dat,pl}.
+Кругом{кругом=ADV=}, в{в=PR=} пустыне{пустыня=S,f,inan=(abl,sg|dat,sg)} каменистой{каменистый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Желтеет{желтеть=V,ipf,intr=inpraes,sg,indic,3p} дрок{дрок=S,m,inan=(acc,sg|nom,sg)}. Вдали{вдали=ADV=} руины{руины=S,pl,inan=(acc|nom)}, храм{храм=S,m,inan=(acc,sg|nom,sg)}.
+Вдали{вдали=ADV=} полдневных{полдневный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гор{гора=S,f,inan=gen,pl} хребет{хребет=S,m,inan=(acc,sg|nom,sg)} лазурно{лазурно=ADV=}-мглистый{мглистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+И{и=CONJ=} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} облаков{облако=S,n,inan=gen,pl} по{по=PR=} выжженным{выжигать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} буграм{бугор=S,m,inan=dat,pl}.

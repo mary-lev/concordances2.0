@@ -1,0 +1,10 @@
+{{extend 'layout.html'}}
+<h1>Построчная таблица всех списков «Слова Даниила Заточника»</h1>
+<table border='1px'>
+{{for x in range(0, 786):}}
+<tr>{{for all in texts:}}
+    <td>{{=all[x]}}</td>
+    {{pass}}
+</tr>
+{{pass}}
+</table>

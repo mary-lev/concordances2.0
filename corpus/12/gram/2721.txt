@@ -1,14 +1,14 @@
-{расцветать=V,intr=inpraes,sg,indic,3p,ipf} {сад=S,m,inan=(acc,sg|nom,sg)}, {отцветать=V,intr=inpraes,sg,indic,3p,ipf} {сад=S,m,inan=(acc,sg|nom,sg)}.
-{ветер=S,m,inan=(acc,sg|nom,sg)} {встреча=S,f,inan=gen,pl} {подуть=V,pf,intr=praet,sg,indic,m}, {ветер=S,m,inan=(acc,sg|nom,sg)} {мчать=V,ipf,tran=inpraes,sg,indic,3p} {разлука=S,f,inan=gen,pl}.
-{из=PR=} {обряд=S,m,inan=gen,pl} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {чтить=V,ipf=inpraes,sg,indic,1p,tran} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {обряд=S,m,inan=(acc,sg|nom,sg)}:
-{целование=S,n,inan=(abl,sg|acc,sg|nom,sg)} {рука=S,f,inan=gen,pl}.
+Расцветает{расцветать=V,intr=inpraes,sg,indic,3p,ipf} сад{сад=S,m,inan=(acc,sg|nom,sg)}, отцветает{отцветать=V,intr=inpraes,sg,indic,3p,ipf} сад{сад=S,m,inan=(acc,sg|nom,sg)}.
+Ветер{ветер=S,m,inan=(acc,sg|nom,sg)} встреч{встреча=S,f,inan=gen,pl} подул{подуть=V,pf,intr=praet,sg,indic,m}, ветер{ветер=S,m,inan=(acc,sg|nom,sg)} мчит{мчать=V,ipf,tran=inpraes,sg,indic,3p} разлук{разлука=S,f,inan=gen,pl}.
+Из{из=PR=} обрядов{обряд=S,m,inan=gen,pl} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} чту{чтить=V,ipf=inpraes,sg,indic,1p,tran} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} обряд{обряд=S,m,inan=(acc,sg|nom,sg)}:
+Целованье{целование=S,n,inan=(abl,sg|acc,sg|nom,sg)} рук{рука=S,f,inan=gen,pl}.
 
-{город=S,m,inan=(acc,pl|gen,sg|nom,pl)} {стоять=V,ipf,intr=inpraes,pl,indic,3p}, {и=CONJ=} {стоять=V,ipf,intr=inpraes,pl,indic,3p} {дом=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
-{юный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {женщина=S,f,anim=dat,pl} — {красота=S,f,inan=nom,sg} {давать=V,tran=praet,sg,partcp,brev,f,pf,pass},
-{чтоб=CONJ=} {сходить=V,intr=inf,ipf} {с=PR=} {ум=S,m,inan=gen,sg} — {и=CONJ=} {сводить=V=inf,ipf,tran} {с=PR=} {ум=S,m,inan=gen,sg}
-{город=S,m,inan=(acc,pl|gen,sg|nom,pl)}. {дома=ADV=}.
+Города{город=S,m,inan=(acc,pl|gen,sg|nom,pl)} стоят{стоять=V,ipf,intr=inpraes,pl,indic,3p}, и{и=CONJ=} стоят{стоять=V,ipf,intr=inpraes,pl,indic,3p} дома{дом=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+Юным{юный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} женщинам{женщина=S,f,anim=dat,pl} — красота{красота=S,f,inan=nom,sg} дана{давать=V,tran=praet,sg,partcp,brev,f,pf,pass},
+Чтоб{чтоб=CONJ=} сходить{сходить=V,intr=inf,ipf} с{с=PR=} ума{ум=S,m,inan=gen,sg} — и{и=CONJ=} сводить{сводить=V=inf,ipf,tran} с{с=PR=} ума{ум=S,m,inan=gen,sg}
+Города{город=S,m,inan=(acc,pl|gen,sg|nom,pl)}. Дома{дома=ADV=}.
 
-{в=PR=} {мир=S,m,inan=abl,sg} {музыка=S,f,inan=nom,sg} — {изо=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {окно=S,n,inan=gen,pl},
-{и=CONJ=} {цвести=V,ipf,intr=inpraes,sg,indic,3p}, {цвести=V,ipf,intr=inpraes,sg,indic,3p} {моисеев=S,famn,m,anim=nom,sg} {куст=S,m,inan=(acc,sg|nom,sg)}.
-{из=PR=} {закон=S,m,inan=gen,pl} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} — {чтить=V,ipf=inpraes,sg,indic,1p,tran} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {закон=S,m,inan=(acc,sg|nom,sg)}:
-{целование=S,n,inan=(abl,sg|acc,sg|nom,sg)} {уста=S,pl,inan=gen}.
+В{в=PR=} мире{мир=S,m,inan=abl,sg} музыка{музыка=S,f,inan=nom,sg} — изо{изо=PR=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} окон{окно=S,n,inan=gen,pl},
+И{и=CONJ=} цветет{цвести=V,ipf,intr=inpraes,sg,indic,3p}, цветет{цвести=V,ipf,intr=inpraes,sg,indic,3p} Моисеев{моисеев=S,famn,m,anim=nom,sg} куст{куст=S,m,inan=(acc,sg|nom,sg)}.
+Из{из=PR=} законов{закон=S,m,inan=gen,pl} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} — чту{чтить=V,ipf=inpraes,sg,indic,1p,tran} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} закон{закон=S,m,inan=(acc,sg|nom,sg)}:
+Целованье{целование=S,n,inan=(abl,sg|acc,sg|nom,sg)} уст{уста=S,pl,inan=gen}.

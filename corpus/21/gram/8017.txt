@@ -1,19 +1,19 @@
-{я=SPRO,sg,1p=nom} {рождаться=V,intr=praet,sg,indic,m,pf} {в=PR=} {москва=S,geo,f,inan=(abl,sg|dat,sg)}. {я=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {дым=S,m,inan=gen,sg}
-{над=PR=} {польский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кровля=S,f,inan=ins,sg} {не=PART=} {видать=V,ipf,tran=praet,sg,indic,m},
-{и=CONJ=} {ладанка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {с=PR=} {земля=S,f,inan=ins,sg} {родимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{я=SPRO,sg,1p=(abl|dat)} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {отец=S,m,anim=nom,sg} {не=PART=} {завещать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)}.
+Я{я=SPRO,sg,1p=nom} родился{рождаться=V,intr=praet,sg,indic,m,pf} в{в=PR=} Москве{москва=S,geo,f,inan=(abl,sg|dat,sg)}. Я{я=S,abbr=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} дыма{дым=S,m,inan=gen,sg}
+Над{над=PR=} польской{польский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кровлей{кровля=S,f,inan=ins,sg} не{не=PART=} видал{видать=V,ipf,tran=praet,sg,indic,m},
+И{и=CONJ=} ладанки{ладанка=S,f,inan=(acc,pl|gen,sg|nom,pl)} с{с=PR=} землей{земля=S,f,inan=ins,sg} родимой{родимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Мне{я=SPRO,sg,1p=(abl|dat)} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} отец{отец=S,m,anim=nom,sg} не{не=PART=} завещал{завещать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)}.
 
-{россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {пасынок=S,m,anim=nom,sg}, {а=CONJ=} {польша=S,geo,f,inan=(abl,sg|dat,sg)} —
-{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p} {сам=APRO=(acc,sg,m,inan|nom,sg,m)}, {кто=SPRO,sg,m,anim=nom} {польша=S,geo,f,inan=(abl,sg|dat,sg)} {я=SPRO,sg,1p=nom}.
-{но=CONJ=}: {восемь=NUM=(acc|nom)} {томик=S,m,inan=gen,pl}, {не=PART=} {много=ADV=comp}, —
-{и=CONJ=} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {весь=APRO=nom,sg,f} {родина=S,f,inan=nom,sg} {мой=APRO=nom,sg,f}.
+России{россия=S,geo,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — пасынок{пасынок=S,m,anim=nom,sg}, а{а=CONJ=} Польше{польша=S,geo,f,inan=(abl,sg|dat,sg)} —
+Не{не=PART=} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p} сам{сам=APRO=(acc,sg,m,inan|nom,sg,m)}, кто{кто=SPRO,sg,m,anim=nom} Польше{польша=S,geo,f,inan=(abl,sg|dat,sg)} я{я=SPRO,sg,1p=nom}.
+Но{но=CONJ=}: восемь{восемь=NUM=(acc|nom)} томиков{томик=S,m,inan=gen,pl}, не{не=PART=} больше{много=ADV=comp}, —
+И{и=CONJ=} в{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} вся{весь=APRO=nom,sg,f} родина{родина=S,f,inan=nom,sg} моя{мой=APRO=nom,sg,f}.
 
-{вы=SPRO,pl,2p=dat} — {под=PR=} {ярмо=S,n,inan=(acc,sg|nom,sg)} {ль=PART=} {подставлять=V,tran=inf,pf} {выя=S,f,inan=acc,sg}
-{иль=CONJ=} {жить=V,ipf,intr=inf} {в=PR=} {изгнание=S,n,inan=abl,sg}, {в=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)}.
-{а=CONJ=} {я=SPRO,sg,1p=nom} {с=PR=} {себя=SPRO=ins} {свой=APRO=acc,sg,f} {россия=S,geo,f,inan=acc,sg}
-{в=PR=} {дорожный=A=(abl,sg,plen,m|abl,sg,plen,n)} {уносить=V=inpraes,sg,indic,1p,ipf,tran} {мешок=S,m,inan=abl,sg}.
+Вам{вы=SPRO,pl,2p=dat} — под{под=PR=} ярмо{ярмо=S,n,inan=(acc,sg|nom,sg)} ль{ль=PART=} подставить{подставлять=V,tran=inf,pf} выю{выя=S,f,inan=acc,sg}
+Иль{иль=CONJ=} жить{жить=V,ipf,intr=inf} в{в=PR=} изгнании{изгнание=S,n,inan=abl,sg}, в{в=PR=} тоске{тоска=S,f,inan=(abl,sg|dat,sg)}.
+А{а=CONJ=} я{я=SPRO,sg,1p=nom} с{с=PR=} собой{себя=SPRO=ins} свою{свой=APRO=acc,sg,f} Россию{россия=S,geo,f,inan=acc,sg}
+В{в=PR=} дорожном{дорожный=A=(abl,sg,plen,m|abl,sg,plen,n)} уношу{уносить=V=inpraes,sg,indic,1p,ipf,tran} мешке{мешок=S,m,inan=abl,sg}.
 
-{вы=SPRO,pl,2p=dat} {нужный=A=sg,brev,m} {прах=S,m,inan=(acc,sg|nom,sg)} {отчизна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {грубый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{а=CONJ=} {я=SPRO,sg,1p=nom} {где=ADVPRO=} {б=PART=} {ни=PART=} {быть=V,intr=praet,sg,indic,m,ipf} — {шептать=V,ipf,tran=inpraes,pl,indic,3p} {я=SPRO,sg,1p=(abl|dat)}
-{арапский=A=(acc,pl,plen,inan|nom,pl,plen)} {святой=A=(acc,pl,plen,inan|nom,pl,plen)} {губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{о=PR=} {небывалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сторона=S,f,inan=(abl,sg|dat,sg)}.
+Вам{вы=SPRO,pl,2p=dat} нужен{нужный=A=sg,brev,m} прах{прах=S,m,inan=(acc,sg|nom,sg)} отчизны{отчизна=S,f,inan=(acc,pl|gen,sg|nom,pl)} грубый{грубый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+А{а=CONJ=} я{я=SPRO,sg,1p=nom} где{где=ADVPRO=} б{б=PART=} ни{ни=PART=} был{быть=V,intr=praet,sg,indic,m,ipf} — шепчут{шептать=V,ipf,tran=inpraes,pl,indic,3p} мне{я=SPRO,sg,1p=(abl|dat)}
+Арапские{арапский=A=(acc,pl,plen,inan|nom,pl,plen)} святые{святой=A=(acc,pl,plen,inan|nom,pl,plen)} губы{губа=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+О{о=PR=} небывалой{небывалый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} стороне{сторона=S,f,inan=(abl,sg|dat,sg)}.

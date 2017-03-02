@@ -1,14 +1,14 @@
-{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {душа=S,f,inan=(abl,sg|dat,sg)} {закат=S,m,inan=(acc,sg|nom,sg)}!
-{в=PR=} {зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)} {небо=S,n,inan=abl,sg} {алый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дым=S,m,inan=ins,sg}
-{туман=S,m,inan=(acc,pl|nom,pl)} {легкое=S,n,inan=(acc,pl|nom,pl)} {лететь=V,ipf,intr=inpraes,pl,indic,3p}
-{над=PR=} {молчаливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {крым=S,geo,m,inan=ins,sg}.
+Земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, чужой{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} душе{душа=S,f,inan=(abl,sg|dat,sg)} закат{закат=S,m,inan=(acc,sg|nom,sg)}!
+В{в=PR=} зеленом{зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)} небе{небо=S,n,inan=abl,sg} алым{алый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} дымом{дым=S,m,inan=ins,sg}
+Туманы{туман=S,m,inan=(acc,pl|nom,pl)} легкие{легкое=S,n,inan=(acc,pl|nom,pl)} летят{лететь=V,ipf,intr=inpraes,pl,indic,3p}
+Над{над=PR=} молчаливым{молчаливый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} зимним{зимний=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} Крымом{крым=S,geo,m,inan=ins,sg}.
 
-{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, {тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {чатырдах?=S,m,inan=(acc,sg|nom,sg)}!
-{звезда=S,f,inan=nom,sg} {мелькать=V,ipf,intr=inpraes,sg,indic,3p} {золотой=A=nom,sg,plen,f}
-{в=PR=} {зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)} {небо=S,n,inan=abl,sg}, {в=PR=} {облако=S,n,inan=abl,pl}, —
-{кто=SPRO,sg,m,anim=dat} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=nom}, {блистать=V,ipf,intr=inpraes,ger}?
+Чужой{чужой=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}, тяжелый{тяжелый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Чатырдах{чатырдах?=S,m,inan=(acc,sg|nom,sg)}!
+Звезда{звезда=S,f,inan=nom,sg} мелькает{мелькать=V,ipf,intr=inpraes,sg,indic,3p} золотая{золотой=A=nom,sg,plen,f}
+В{в=PR=} зеленом{зеленый=A=(abl,sg,plen,m|abl,sg,plen,n)} небе{небо=S,n,inan=abl,sg}, в{в=PR=} облаках{облако=S,n,inan=abl,pl}, —
+Кому{кто=SPRO,sg,m,anim=dat} горит{гореть=V,ipf,intr=inpraes,sg,indic,3p} она{она=SPRO,sg,3p,f=nom}, блистая{блистать=V,ipf,intr=inpraes,ger}?
 
-{она=SPRO,sg,3p,f=nom} {гореть=V,ipf,intr=inpraes,sg,indic,3p} {душа=S,f,inan=(abl,sg|dat,sg)} {мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
-{она=SPRO,sg,3p,f=nom} {звать=V,ipf,tran=inpraes,sg,indic,3p}, — {я=SPRO,sg,1p=nom} {это=SPRO,sg,n,inan=(acc|nom)} {знать=V,ipf,tran=inpraes,sg,indic,1p}
-{с=PR=} {первоначальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {детский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}, —
-{к=PR=} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {страна=S,f,inan=(abl,sg|dat,sg)}, {к=PR=} {родной=A=(dat,sg,plen,m|dat,sg,plen,n)} {край=S,m,inan=(dat,sg|loc,sg)}!
+Она{она=SPRO,sg,3p,f=nom} горит{гореть=V,ipf,intr=inpraes,sg,indic,3p} душе{душа=S,f,inan=(abl,sg|dat,sg)} моей{мой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+Она{она=SPRO,sg,3p,f=nom} зовет{звать=V,ipf,tran=inpraes,sg,indic,3p}, — я{я=SPRO,sg,1p=nom} это{это=SPRO,sg,n,inan=(acc|nom)} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p}
+С{с=PR=} первоначальных{первоначальный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} детских{детский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дней{день=S,m,inan=gen,pl}, —
+К{к=PR=} иной{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} стране{страна=S,f,inan=(abl,sg|dat,sg)}, к{к=PR=} родному{родной=A=(dat,sg,plen,m|dat,sg,plen,n)} краю{край=S,m,inan=(dat,sg|loc,sg)}!

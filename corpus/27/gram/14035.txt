@@ -1,27 +1,27 @@
-{ехать=V,ipf,intr=inpraes,sg,indic,3p} {стрелок=S,m,anim=nom,sg} {в=PR=} {зелень=S,f,inan=ins,sg} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ли=CONJ=} {луг=S,m,inan=abl,pl} {осока=S,f,inan=nom,sg} {да=CONJ=} {куга=S,sg,f,inan=nom},
-{в=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ли=CONJ=} {луг=S,m,inan=abl,pl} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {чемирать?=V=praet,sg,indic,m,pf} {да=CONJ=} {цветок=S,m,inan=(acc,pl|nom,pl)},
-{вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вода=S,f,inan=ins,sg} {низы=S,pl,inan=(acc|nom)} {наливать=V,tran=praet,pl,partcp,brev,pf,pass}.
-— {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {олень=S,m,anim=nom,sg}, {золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {рог=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
-{ты=SPRO,sg,2p=nom} {не=PART=} {топтать=V,ipf,tran=sg,imper,2p} {заливной=A=(acc,pl,plen,inan|nom,pl,plen)} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+Едет{ехать=V,ipf,intr=inpraes,sg,indic,3p} стрелок{стрелок=S,m,anim=nom,sg} в{в=PR=} зеленью{зелень=S,f,inan=ins,sg} луга{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} ли{ли=CONJ=} лугах{луг=S,m,inan=abl,pl} осока{осока=S,f,inan=nom,sg} да{да=CONJ=} куга{куга=S,sg,f,inan=nom},
+В{в=PR=} тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)} ли{ли=CONJ=} лугах{луг=S,m,inan=abl,pl} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} чемёр{чемирать?=V=praet,sg,indic,m,pf} да{да=CONJ=} цветы{цветок=S,m,inan=(acc,pl|nom,pl)},
+Вешней{вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} водою{вода=S,f,inan=ins,sg} низы{низы=S,pl,inan=(acc|nom)} налиты{наливать=V,tran=praet,pl,partcp,brev,pf,pass}.
+— Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Олень{олень=S,m,anim=nom,sg}, Золотые{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} Рога{рог=S,m,inan=(acc,pl|gen,sg|nom,pl)}!
+Ты{ты=SPRO,sg,2p=nom} не{не=PART=} топчи{топтать=V,ipf,tran=sg,imper,2p} заливные{заливной=A=(acc,pl,plen,inan|nom,pl,plen)} луга{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{прянуть=V,pf,intr=praet,sg,indic,m} {олень=S,m,anim=nom,sg}, {увидать=V,pf=praet,ger,tran} {стрелок=S,m,anim=(acc,sg|gen,sg)},
-{конь=S,m,anim=nom,sg} {богатырский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {шатнуться=V,pf,intr=praet,sg,indic,m} {слегка=ADV=},
-{плетка=S,f,inan=ins,sg} {стрелок=S,m,anim=nom,sg} {по=PR=} {олень=S,m,anim=dat,sg} {стебнуть?=V,obsc,pf=praet,sg,indic,m},
-{крепкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рука=S,f,inan=ins,sg} {самострел=S,m,inan=(acc,sg|nom,sg)} {натягивать=V,tran=praet,sg,indic,m,pf},
-{да=CONJ=} {опускаться=V,intr=praet,sg,indic,f,pf} {на=PR=} {грива=S,f,inan=acc,sg} {рука=S,f,inan=nom,sg}:
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {олень=S,m,anim=nom,sg}, {погубить=V,pf,tran=praet,sg,indic,m} {ты=SPRO,sg,2p=nom} {стрелка=S,f,inan=nom,sg}!
+Прянул{прянуть=V,pf,intr=praet,sg,indic,m} Олень{олень=S,m,anim=nom,sg}, увидавши{увидать=V,pf=praet,ger,tran} стрелка{стрелок=S,m,anim=(acc,sg|gen,sg)},
+Конь{конь=S,m,anim=nom,sg} богатырский{богатырский=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} шатнулся{шатнуться=V,pf,intr=praet,sg,indic,m} слегка{слегка=ADV=},
+Плеткой{плетка=S,f,inan=ins,sg} стрелок{стрелок=S,m,anim=nom,sg} по{по=PR=} Оленю{олень=S,m,anim=dat,sg} стебнул{стебнуть?=V,obsc,pf=praet,sg,indic,m},
+Крепкой{крепкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} рукой{рука=S,f,inan=ins,sg} самострел{самострел=S,m,inan=(acc,sg|nom,sg)} натянул{натягивать=V,tran=praet,sg,indic,m,pf},
+Да{да=CONJ=} опустилась{опускаться=V,intr=praet,sg,indic,f,pf} на{на=PR=} гриву{грива=S,f,inan=acc,sg} рука{рука=S,f,inan=nom,sg}:
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Олень{олень=S,m,anim=nom,sg}, погубил{погубить=V,pf,tran=praet,sg,indic,m} ты{ты=SPRO,sg,2p=nom} стрелка{стрелка=S,f,inan=nom,sg}!
 
-— {ты=SPRO,sg,2p=nom} {не=PART=} {стебать=V,ipf,tran=sg,imper,2p}, {не=PART=} {стрелять=V,ipf,tran=sg,imper,2p}, {молодец=S,m,anim=nom,sg},
-{принимать=V=inpraes,sg,indic,2p,pf} {ты=SPRO,sg,2p=nom} {скоро=ADV=} {заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {венец=S,m,inan=(acc,sg|nom,sg)},
-{в=PR=} {некий=APRO=(acc,sg,n|nom,sg,n)} {время=S,n,inan=(acc,sg|nom,sg)} {сгодиться=V,pf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {ты=SPRO,sg,2p=(abl|dat)},
-{с=PR=} {луг=S,m,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {прийти=V,pf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {изба=S,f,inan=(abl,sg|dat,sg)}:
-{тут=ADVPRO=} {и=CONJ=} {забава=S,f,inan=dat,pl} {стрелецкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {конец=S,m,inan=(acc,sg|nom,sg)} —
-{быть=V,intr=inpraes,sg,indic,2p} {ты=SPRO,sg,2p=nom} {дома=ADV=} {сидеть=V,ipf,intr=inf}, {молодец=S,m,anim=nom,sg}.
+— Ты{ты=SPRO,sg,2p=nom} не{не=PART=} стебай{стебать=V,ipf,tran=sg,imper,2p}, не{не=PART=} стреляй{стрелять=V,ipf,tran=sg,imper,2p}, молодец{молодец=S,m,anim=nom,sg},
+Примешь{принимать=V=inpraes,sg,indic,2p,pf} ты{ты=SPRO,sg,2p=nom} скоро{скоро=ADV=} заветный{заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} венец{венец=S,m,inan=(acc,sg|nom,sg)},
+В{в=PR=} некое{некий=APRO=(acc,sg,n|nom,sg,n)} время{время=S,n,inan=(acc,sg|nom,sg)} сгожусь{сгодиться=V,pf,intr=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} тебе{ты=SPRO,sg,2p=(abl|dat)},
+С{с=PR=} луга{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)} к{к=PR=} веселой{веселый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} приду{прийти=V,pf,intr=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} избе{изба=S,f,inan=(abl,sg|dat,sg)}:
+Тут{тут=ADVPRO=} и{и=CONJ=} забавам{забава=S,f,inan=dat,pl} стрелецким{стрелецкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} конец{конец=S,m,inan=(acc,sg|nom,sg)} —
+Будешь{быть=V,intr=inpraes,sg,indic,2p} ты{ты=SPRO,sg,2p=nom} дома{дома=ADV=} сидеть{сидеть=V,ipf,intr=inf}, молодец{молодец=S,m,anim=nom,sg}.
 
-{становиться=V,intr=inpraes,sg,indic,1p,pf}, {олень=S,m,anim=nom,sg}, {на=PR=} {двор=S,m,inan=abl,sg} {я=SPRO,sg,1p=nom} {с=PR=} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{златой=A=(abl,sg,plen,m|abl,sg,plen,n)} {рог=S,m,inan=gen,pl} {освеча?=S,f,inan=acc,sg} {полдвор?=S,m,inan=gen,sg}.
-{сладкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вино=S,n,inan=ins,sg} {поезжанин=S,m,anim=(acc,pl|gen,pl)} {напоить=V,pf,tran=inpraes,sg,indic,1p},
-{все=SPRO,pl=(abl|acc|gen)} {особливый=A=comp} {невеста=S,f,anim=acc,sg} {твой=APRO=acc,sg,f}:
-{чтоб=CONJ=} {не=PART=} {мочить=V,ipf,tran=praet,sg,indic,f} {слеза=S,f,inan=ins,pl} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{чтоб=CONJ=} {не=PART=} {бояться=V,ipf,intr=praet,sg,indic,f} {кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {венец=S,m,inan=gen,sg}.
+Стану{становиться=V,intr=inpraes,sg,indic,1p,pf}, Олень{олень=S,m,anim=nom,sg}, на{на=PR=} дворе{двор=S,m,inan=abl,sg} я{я=SPRO,sg,1p=nom} с{с=PR=} утра{утро=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Златом{златой=A=(abl,sg,plen,m|abl,sg,plen,n)} рогов{рог=S,m,inan=gen,pl} освечу{освеча?=S,f,inan=acc,sg} полдвора{полдвор?=S,m,inan=gen,sg}.
+Сладким{сладкий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} вином{вино=S,n,inan=ins,sg} поезжан{поезжанин=S,m,anim=(acc,pl|gen,pl)} напою{напоить=V,pf,tran=inpraes,sg,indic,1p},
+Всех{все=SPRO,pl=(abl|acc|gen)} особливей{особливый=A=comp} невесту{невеста=S,f,anim=acc,sg} твою{твой=APRO=acc,sg,f}:
+Чтоб{чтоб=CONJ=} не{не=PART=} мочила{мочить=V,ipf,tran=praet,sg,indic,f} слезами{слеза=S,f,inan=ins,pl} лица{лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Чтоб{чтоб=CONJ=} не{не=PART=} боялась{бояться=V,ipf,intr=praet,sg,indic,f} кольца{кольцо=S,n,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} венца{венец=S,m,inan=gen,sg}.

@@ -121,11 +121,11 @@ def slovar():
 
 def slovar1():
     #file = ['/home/concordance/stem/2.txt']
-    all_text = trymysql(trymysql.text1.author==7).select()
+    all_text = trymysql(trymysql.text1.author==30).select()
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'
-        z2 = 'corpus/' + str(row.author) + '/gram2/'
+        z2 = 'corpus/' + str(row.author) + '/gram/'
         filename = row.filename.replace(z, z2)
         author = row.author
         with open(filename, 'rb') as fi:
@@ -133,6 +133,8 @@ def slovar1():
         n = 0
         for line in lines:
             n += 1
+            if '}-' in line:
+                line=line.replace('}-', '} -')
             if '{' in line:
                 line = line.split(' ')
                 for word in line:
@@ -143,6 +145,9 @@ def slovar1():
                         if '«' in word:
                             trymysql.mystem.insert(word = '«', lemma = '«', title=text, author=author, partos = 'PNCT', location = n)
                             word = word.replace('«', '')
+                        if word.startswith('-'):
+                            trymysql.mystem.insert(word = '-', lemma = '-', title=text, author=author, partos = 'PNCT', location = n)
+                            word = word.replace('-', '')
                         lemma_end = word.find('{')
                         lemma = word[:lemma_end]
                         word = word[lemma_end:]

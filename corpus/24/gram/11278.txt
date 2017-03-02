@@ -1,13 +1,13 @@
-{идти=V,ipf,intr=praet,sg,indic,m} {молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пастух=S,m,anim=nom,sg} {с=PR=} {жезл=S,m,inan=ins,sg};
-{сидеть=V,ipf,intr=inpraes,sg,indic,3p} {за=PR=} {темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вода=S,f,inan=gen,pl} {русло=S,n,inan=ins,sg}
-{купальщица=S,f,anim=nom,sg} {и=CONJ=} {кормить=V,ipf,tran=inpraes,sg,indic,3p} {грудь=S,f,inan=ins,sg}.
-{закрывать=V=praet,sg,indic,f,pf} {день=S,m,inan=(acc,sg|nom,sg)} {гроза=S,f,inan=nom,sg} {крыло=S,n,inan=ins,sg};
-{и=CONJ=} {виться=V,ipf,intr=inpraes,sg,indic,3p} {молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {излом=S,m,inan=(acc,sg|nom,sg)}
-{над=PR=} {облачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {зеленый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {муть=S,f,inan=ins,sg}.
+Шел{идти=V,ipf,intr=praet,sg,indic,m} молодой{молодой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} пастух{пастух=S,m,anim=nom,sg} с{с=PR=} жезлом{жезл=S,m,inan=ins,sg};
+Сидит{сидеть=V,ipf,intr=inpraes,sg,indic,3p} за{за=PR=} темных{темный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} вод{вода=S,f,inan=gen,pl} руслом{русло=S,n,inan=ins,sg}
+Купальщица{купальщица=S,f,anim=nom,sg} и{и=CONJ=} кормит{кормить=V,ipf,tran=inpraes,sg,indic,3p} грудью{грудь=S,f,inan=ins,sg}.
+Закрыла{закрывать=V=praet,sg,indic,f,pf} день{день=S,m,inan=(acc,sg|nom,sg)} гроза{гроза=S,f,inan=nom,sg} крылом{крыло=S,n,inan=ins,sg};
+И{и=CONJ=} вьется{виться=V,ipf,intr=inpraes,sg,indic,3p} молнии{молния=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} излом{излом=S,m,inan=(acc,sg|nom,sg)}
+Над{над=PR=} облачной{облачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} зеленой{зеленый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} мутью{муть=S,f,inan=ins,sg}.
 
-{древо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {дрожать=V,ipf,intr=inpraes,pl,indic,3p}. {сквозь=PR=} {медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мрак=S,m,inan=(acc,sg|nom,sg)}
-{бледнеть=V,ipf,intr=inpraes,sg,indic,3p} {здание=S,n,inan=gen,pl} {дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зрак=S,m,inan=(acc,sg|nom,sg)},
-{безглавый=A=(acc,sg,plen,n|nom,sg,plen,n)} {двустолпье?=S,n,inan=(abl,sg|acc,sg|nom,sg)|двустолпье?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} {храм=S,m,inan=gen,sg}.
-{читать=V,ipf,tran=inpraes,sg,indic,1p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)}, {джорджон?=S,persn,m,anim=abl,sg}, {знак=S,m,inan=(acc,sg|nom,sg)}:
-{твой=APRO=nom,sg,f} {гроза=S,f,inan=nom,sg} — {семелин?=S,famn,m,anim=nom,sg} {брак=S,m,inan=(acc,sg|nom,sg)},
-{небо=S,n,inan=gen,pl} {и=CONJ=} {недра=S,pl,inan=gen} {эпиталама=S,f,inan=nom,sg}.
+Древа{древо=S,n,inan=(acc,pl|gen,sg|nom,pl)} дрожат{дрожать=V,ipf,intr=inpraes,pl,indic,3p}. Сквозь{сквозь=PR=} медный{медный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мрак{мрак=S,m,inan=(acc,sg|nom,sg)}
+Бледнеет{бледнеть=V,ipf,intr=inpraes,sg,indic,3p} зданий{здание=S,n,inan=gen,pl} дальний{дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} зрак{зрак=S,m,inan=(acc,sg|nom,sg)},
+Безглавое{безглавый=A=(acc,sg,plen,n|nom,sg,plen,n)} двустолпье{двустолпье?=S,n,inan=(abl,sg|acc,sg|nom,sg)|двустолпье?=S,n,inan=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)} храма{храм=S,m,inan=gen,sg}.
+Читаю{читать=V,ipf,tran=inpraes,sg,indic,1p} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)}, Джорджоне{джорджон?=S,persn,m,anim=abl,sg}, знак{знак=S,m,inan=(acc,sg|nom,sg)}:
+Твоя{твой=APRO=nom,sg,f} Гроза{гроза=S,f,inan=nom,sg} — Семелин{семелин?=S,famn,m,anim=nom,sg} брак{брак=S,m,inan=(acc,sg|nom,sg)},
+Небес{небо=S,n,inan=gen,pl} и{и=CONJ=} недр{недра=S,pl,inan=gen} эпиталама{эпиталама=S,f,inan=nom,sg}.

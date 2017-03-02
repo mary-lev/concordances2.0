@@ -1,24 +1,24 @@
-{петь=V,ipf,tran=inpraes,sg,indic,3p} {облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)|облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} {лес=S,m,inan=(acc,sg|nom,sg)}
-{мы=SPRO,pl,1p=dat} {голос=S,m,inan=ins,sg} {старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бард=S,m,anim=(acc,sg|gen,sg)}.
-{у=PR=} {склон=S,m,inan=gen,sg} {воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl}
-{протягивать=V,tran=praet,sg,partcp,brev,f,pf,pass} {шкура=S,f,inan=nom,sg} {гепард=S,m,anim=(acc,sg|gen,sg)}.
+Поет{петь=V,ipf,tran=inpraes,sg,indic,3p} облетающий{облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)|облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} лес{лес=S,m,inan=(acc,sg|nom,sg)}
+нам{мы=SPRO,pl,1p=dat} голосом{голос=S,m,inan=ins,sg} старого{старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} барда{бард=S,m,anim=(acc,sg|gen,sg)}.
+У{у=PR=} склона{склон=S,m,inan=gen,sg} воздушных{воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} небес{небо=S,n,inan=gen,pl}
+протянута{протягивать=V,tran=praet,sg,partcp,brev,f,pf,pass} шкура{шкура=S,f,inan=nom,sg} гепарда{гепард=S,m,anim=(acc,sg|gen,sg)}.
 
-{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,2p}, {что=CONJ=} {ясный=A=sg,brev,m} {так=ADVPRO=} {день=S,m,inan=(acc,sg|nom,sg)},
-{что=CONJ=} {прежний=A=(acc,sg,plen,n|nom,sg,plen,n)} {счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {возможно=ADV,praed=}.
-{с=PR=} {восток=S,geo,m,inan=gen,sg} {приближаться=V,intr=praet,sg,indic,f,pf} {тень=S,f,inan=(acc,sg|nom,sg)}
-{тревожно=ADV=}.
+Не{не=PART=} веришь{верить=V,ipf,intr=inpraes,sg,indic,2p}, что{что=CONJ=} ясен{ясный=A=sg,brev,m} так{так=ADVPRO=} день{день=S,m,inan=(acc,sg|nom,sg)},
+что{что=CONJ=} прежнее{прежний=A=(acc,sg,plen,n|nom,sg,plen,n)} счастье{счастие=S,n,inan=(abl,sg|acc,sg|nom,sg)} возможно{возможно=ADV,praed=}.
+С{с=PR=} востока{восток=S,geo,m,inan=gen,sg} приблизилась{приближаться=V,intr=praet,sg,indic,f,pf} тень{тень=S,f,inan=(acc,sg|nom,sg)}
+тревожно{тревожно=ADV=}.
 
-{венок=S,m,inan=(acc,sg|nom,sg)} {возлагать=V,tran=praet,sg,indic,m,pf} {я=SPRO,sg,1p=nom}, {любить=V,ipf,tran=inpraes,ger},
-{из=PR=} {роза=S,f,inan=gen,pl} — {и=CONJ=} {он=SPRO,sg,3p,m=nom} {вспыхивать=V,intr=praet,sg,indic,m,pf} {огонь=S,m,inan=ins,pl}.
-{и=CONJ=} {вот=PART=} {я=SPRO,sg,1p=nom} {смотреть=V,ipf,tran=inpraes,sg,indic,1p} {на=PR=} {ты=SPRO,sg,2p=(acc|gen)},
-{смотреть=V,ipf,tran=inpraes,sg,indic,1p}, {зачаровывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {сон=S,m,inan=ins,pl}.
+Венок{венок=S,m,inan=(acc,sg|nom,sg)} возложил{возлагать=V,tran=praet,sg,indic,m,pf} я{я=SPRO,sg,1p=nom}, любя{любить=V,ipf,tran=inpraes,ger},
+из{из=PR=} роз{роза=S,f,inan=gen,pl} — и{и=CONJ=} он{он=SPRO,sg,3p,m=nom} вспыхнул{вспыхивать=V,intr=praet,sg,indic,m,pf} огнями{огонь=S,m,inan=ins,pl}.
+И{и=CONJ=} вот{вот=PART=} я{я=SPRO,sg,1p=nom} смотрю{смотреть=V,ipf,tran=inpraes,sg,indic,1p} на{на=PR=} тебя{ты=SPRO,sg,2p=(acc|gen)},
+смотрю{смотреть=V,ipf,tran=inpraes,sg,indic,1p}, зачарованный{зачаровывать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} снами{сон=S,m,inan=ins,pl}.
 
-{и=CONJ=} {мниться=V,ipf,intr=inpraes,sg,indic,3p} — {я=SPRO,sg,1p=nom} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {мечта=S,f,inan=ins,sg}
-{весь=APRO=acc,sg,f} {бездна=S,f,inan=acc,sg} {восторг=S,m,inan=gen,sg} {измерять=V,tran=inpraes,sg,indic,1p,pf}.
-{ты=SPRO,sg,2p=nom} {сказать=V,pf,tran=inpraes,sg,indic,2p} — {восторг=S,m,inan=(acc,sg|nom,sg)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...
-{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p}!
+И{и=CONJ=} мнится{мниться=V,ipf,intr=inpraes,sg,indic,3p} — я{я=SPRO,sg,1p=nom} этой{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} мечтой{мечта=S,f,inan=ins,sg}
+всю{весь=APRO=acc,sg,f} бездну{бездна=S,f,inan=acc,sg} восторга{восторг=S,m,inan=gen,sg} измерю{измерять=V,tran=inpraes,sg,indic,1p,pf}.
+Ты{ты=SPRO,sg,2p=nom} скажешь{сказать=V,pf,tran=inpraes,sg,indic,2p} — восторг{восторг=S,m,inan=(acc,sg|nom,sg)} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} святой{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}...
+Не{не=PART=} верю{верить=V,ipf,intr=inpraes,sg,indic,1p}!
 
-{петь=V,ipf,tran=inpraes,sg,indic,3p} {облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)|облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} {лес=S,m,inan=(acc,sg|nom,sg)}
-{мы=SPRO,pl,1p=dat} {голос=S,m,inan=ins,sg} {старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бард=S,m,anim=(acc,sg|gen,sg)}.
-{на=PR=} {склон=S,m,inan=abl,sg} {воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {небо=S,n,inan=gen,pl}
-{сжигать=V=praet,nom,sg,partcp,plen,f,pf,pass} {шкура=S,f,inan=nom,sg} {гепард=S,m,anim=(acc,sg|gen,sg)}.
+Поет{петь=V,ipf,tran=inpraes,sg,indic,3p} облетающий{облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)|облетать=V=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,act,tran)} лес{лес=S,m,inan=(acc,sg|nom,sg)}
+нам{мы=SPRO,pl,1p=dat} голосом{голос=S,m,inan=ins,sg} старого{старый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} барда{бард=S,m,anim=(acc,sg|gen,sg)}.
+На{на=PR=} склоне{склон=S,m,inan=abl,sg} воздушных{воздушный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} небес{небо=S,n,inan=gen,pl}
+сожженная{сжигать=V=praet,nom,sg,partcp,plen,f,pf,pass} шкура{шкура=S,f,inan=nom,sg} гепарда{гепард=S,m,anim=(acc,sg|gen,sg)}.

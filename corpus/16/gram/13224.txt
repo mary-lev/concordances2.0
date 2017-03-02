@@ -1,14 +1,14 @@
-{быть=V,intr=praet,sg,indic,m,ipf} {дух=S,m,inan=(acc,sg|nom,sg)} {крылатый=A=sg,brev,m},
-{бескрылый=A=sg,brev,n} {тело=S,n,inan=(acc,sg|nom,sg)}.
-{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {палата=S,f,inan=gen,pl}
-{не=PART=} {захотеть=V,pf,tran=praet,sg,indic,n}.
+Был{быть=V,intr=praet,sg,indic,m,ipf} дух{дух=S,m,inan=(acc,sg|nom,sg)} крылат{крылатый=A=sg,brev,m},
+Бескрыло{бескрылый=A=sg,brev,n} тело{тело=S,n,inan=(acc,sg|nom,sg)}.
+Земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} палат{палата=S,f,inan=gen,pl}
+Не{не=PART=} захотело{захотеть=V,pf,tran=praet,sg,indic,n}.
 
-{приобретать=V=praet,sg,indic,n,pf}
-{у=PR=} {птица=S,f,anim=(gen,sg|nom,pl)} {крыло=S,n,inan=(acc,pl|nom,pl)},
-{превозмогать=V=praet,sg,indic,n,pf}
-{свое=SPRO,sg,n,inan=(acc|nom)} {бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+Приобрело{приобретать=V=praet,sg,indic,n,pf}
+У{у=PR=} птицы{птица=S,f,anim=(gen,sg|nom,pl)} крылья{крыло=S,n,inan=(acc,pl|nom,pl)},
+Превозмогло{превозмогать=V=praet,sg,indic,n,pf}
+Свое{свое=SPRO,sg,n,inan=(acc|nom)} бессилье{бессилие=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
 
-{все=ADV=} {побороть=V,pf,tran=inf}!
-{не=PART=} {тут-то=ADVPRO=} {быть=V,intr=praet,sg,indic,n,ipf}:
-{крылатый=A=sg,brev,f} {плоть=S,f,inan=(acc,sg|nom,sg)},
-{душа=S,f,inan=nom,sg} {бескрыл=S,m,anim=(acc,sg|gen,sg)}.
+Всё{все=ADV=} побороть{побороть=V,pf,tran=inf}!
+Не{не=PART=} тут-то{тут-то=ADVPRO=} было{быть=V,intr=praet,sg,indic,n,ipf}:
+Крылата{крылатый=A=sg,brev,f} плоть{плоть=S,f,inan=(acc,sg|nom,sg)},
+Душа{душа=S,f,inan=nom,sg} бескрыла{бескрыл=S,m,anim=(acc,sg|gen,sg)}.

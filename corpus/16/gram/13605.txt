@@ -1,17 +1,17 @@
-{душистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)} {бездушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {духота=S,sg,f,inan=gen}
-{гнилой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {фокстротный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {пошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {кокаинный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
-{изобретать=V=praet,ger,pf} {особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {жанр=S,m,inan=(acc,sg|nom,sg)} {кретинный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{он=SPRO,sg,3p,m=nom} {смех=S,m,inan=(acc,sg|nom,sg)} {низводить=V=praet,sg,indic,m,pf} {на=PR=} {степень=S,f,inan=(acc,sg|nom,sg)} {смехота=S,sg,f,inan=gen}.
+Душистый{душистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} дух{дух=S,m,inan=(acc,sg|nom,sg)} бездушной{бездушный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} духоты{духота=S,sg,f,inan=gen}
+Гнилой{гнилой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, фокстротной{фокстротный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, пошлой{пошлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, кокаинной{кокаинный?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Изобретя{изобретать=V=praet,ger,pf} особый{особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} жанр{жанр=S,m,inan=(acc,sg|nom,sg)} кретинный{кретинный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Он{он=SPRO,sg,3p,m=nom} смех{смех=S,m,inan=(acc,sg|nom,sg)} низвел{низводить=V=praet,sg,indic,m,pf} на{на=PR=} степень{степень=S,f,inan=(acc,sg|nom,sg)} смехоты{смехота=S,sg,f,inan=gen}.
 
-{от=PR=} {смех=S,m,inan=gen,sg} {надрывать=V,tran=inpraes,pl,indic,3p,ipf} {живот=S,m,inan=(acc,pl|nom,pl)}
-{и=CONJ=} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лить=V,ipf,tran=inpraes,pl,indic,3p}, {смотря=ADV=}, {как=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{делец=S,m,anim=nom,sg} {и=CONJ=} {плут=S,m,anim=nom,sg}, {певец=S,m,anim=nom,sg} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {перинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{жестикулировать=V,ipf,intr=inpraes,sg,indic,3p} {из=PR=} {пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+От{от=PR=} смеха{смех=S,m,inan=gen,sg} надрывают{надрывать=V,tran=inpraes,pl,indic,3p,ipf} животы{живот=S,m,inan=(acc,pl|nom,pl)}
+И{и=CONJ=} слезы{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} льют{лить=V,ipf,tran=inpraes,pl,indic,3p}, смотря{смотря=ADV=}, как{как=CONJ=} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} длинный{длинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Делец{делец=S,m,anim=nom,sg} и{и=CONJ=} плут{плут=S,m,anim=nom,sg}, певец{певец=S,m,anim=nom,sg} любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} перинной{перинный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Жестикулирует{жестикулировать=V,ipf,intr=inpraes,sg,indic,3p} из{из=PR=} пустоты{пустота=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{все=SPRO,pl=(acc|nom)} {в=PR=} {мимика=S,f,inan=(abl,sg|dat,sg)} {он=SPRO,sg,3p,m=(acc|gen)} {красноречиво=ADV=}:
-{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {глубина=S,f,inan=nom,sg} {бездонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {обрыв=S,m,inan=gen,sg},
-{куда=ADVPRO=} {лететь=V,ipf,intr=inpraes,sg,indic,3p} {земля=S,f,inan=nom,sg} {на=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {пары=S,pl,inan=abl}.
+Все{все=SPRO,pl=(acc|nom)} в{в=PR=} мимике{мимика=S,f,inan=(abl,sg|dat,sg)} его{он=SPRO,sg,3p,m=(acc|gen)} красноречиво{красноречиво=ADV=}:
+В{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} глубина{глубина=S,f,inan=nom,sg} бездонного{бездонный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} обрыва{обрыв=S,m,inan=gen,sg},
+Куда{куда=ADVPRO=} летит{лететь=V,ipf,intr=inpraes,sg,indic,3p} Земля{земля=S,f,inan=nom,sg} на{на=PR=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} парах{пары=S,pl,inan=abl}.
 
-{не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {как=CONJ=} {разнузданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {европа=S,geo,f,inan=(abl,sg|dat,sg)},
-{рехнуться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {от=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {и=CONJ=} {утопия=S,f,inan=gen,pl},
-{но=CONJ=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {клоун=S,m,anim=nom,sg} {я=SPRO,sg,1p=(abl|dat)} {внушать=V,tran=inpraes,sg,indic,3p,ipf} {страх=S,m,inan=(acc,sg|nom,sg)}.
+Не{не=PART=} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p}, как{как=CONJ=} разнузданной{разнузданный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Европе{европа=S,geo,f,inan=(abl,sg|dat,sg)},
+Рехнувшейся{рехнуться=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} от{от=PR=} крови{кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} и{и=CONJ=} утопий{утопия=S,f,inan=gen,pl},
+Но{но=CONJ=} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} клоун{клоун=S,m,anim=nom,sg} мне{я=SPRO,sg,1p=(abl|dat)} внушает{внушать=V,tran=inpraes,sg,indic,3p,ipf} страх{страх=S,m,inan=(acc,sg|nom,sg)}.

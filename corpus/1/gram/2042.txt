@@ -1,36 +1,36 @@
-{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {опускать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {скромно=ADV=},
-{плечо=S,n,inan=(acc,sg|nom,sg)}, {закрывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} {фата=S,f,inan=ins,sg}...
-{ты=SPRO,sg,2p=nom} {многие=SPRO,pl=dat} {казаться=V,ipf,intr=inpraes,sg,indic,2p} {святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{но=CONJ=} {ты=SPRO,sg,2p=nom}, {мария=S,persn,f,anim=nom,sg}, {вероломный=A=sg,brev,f}...
+Глаза{глаз=S,m,inan=(acc,pl|gen,sg|nom,pl)}, опущенные{опускать=V=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} скромно{скромно=ADV=},
+Плечо{плечо=S,n,inan=(acc,sg|nom,sg)}, закрытое{закрывать=V=(praet,acc,sg,partcp,plen,n,pf,pass|praet,nom,sg,partcp,plen,n,pf,pass)} фатой{фата=S,f,inan=ins,sg}...
+Ты{ты=SPRO,sg,2p=nom} многим{многие=SPRO,pl=dat} кажешься{казаться=V,ipf,intr=inpraes,sg,indic,2p} святой{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Но{но=CONJ=} Ты{ты=SPRO,sg,2p=nom}, Мария{мария=S,persn,f,anim=nom,sg}, вероломна{вероломный=A=sg,brev,f}...
 
-{быть=V,intr=inf,ipf} {с=PR=} {дева=S,f,anim=ins,sg} — {быть=V,intr=inf,ipf} {во=PR=} {власть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
-{качаться=V,ipf,intr=inf} {на=PR=} {морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {волна=S,f,inan=abl,pl}...
-{и=CONJ=} {не=PART=} {напрасно=ADV=} {этот=APRO=(nom,pl|acc,pl,inan)} {око=S,n,inan=(acc,pl|nom,pl)}
-{к=PR=} {мирянин=S,m,anim=dat,pl} {ревновать=V,ipf,tran=praet,sg,indic,m} {монах=S,m,anim=nom,sg}:
+Быть{быть=V,intr=inf,ipf} с{с=PR=} девой{дева=S,f,anim=ins,sg} — быть{быть=V,intr=inf,ipf} во{во=PR=} власти{власть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+Качаться{качаться=V,ipf,intr=inf} на{на=PR=} морских{морской=A,plen=(abl,pl|gen,pl|acc,pl,anim)} волнах{волна=S,f,inan=abl,pl}...
+И{и=CONJ=} не{не=PART=} напрасно{напрасно=ADV=} эти{этот=APRO=(nom,pl|acc,pl,inan)} очи{око=S,n,inan=(acc,pl|nom,pl)}
+К{к=PR=} мирянам{мирянин=S,m,anim=dat,pl} ревновал{ревновать=V,ipf,tran=praet,sg,indic,m} монах{монах=S,m,anim=nom,sg}:
 
-{он=SPRO,sg,3p,m=nom} {в=PR=} {ниша=S,f,inan=(abl,sg|dat,sg)} {сумрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {церковный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{поставлять=V,tran=praet,sg,indic,m,pf} {с=PR=} {братия=S,f,inan=ins,sg} {она=SPRO,sg,3p,f=(acc|gen)} —
-{далекий=A=comp} {от=PR=} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} {греховный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{в=PR=} {молитвенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {забытье=S,sg,n,inan=(abl|acc|nom)}...
+Он{он=SPRO,sg,3p,m=nom} в{в=PR=} нише{ниша=S,f,inan=(abl,sg|dat,sg)} сумрачной{сумрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} церковной{церковный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Поставил{поставлять=V,tran=praet,sg,indic,m,pf} с{с=PR=} братией{братия=S,f,inan=ins,sg} Ее{она=SPRO,sg,3p,f=(acc|gen)} —
+Подальше{далекий=A=comp} от{от=PR=} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)} греховной{греховный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+В{в=PR=} молитвенное{молитвенный=A=(acc,sg,plen,n|nom,sg,plen,n)} забытье{забытье=S,sg,n,inan=(abl|acc|nom)}...
 
-{однако=CONJ=}, {брат=S,m,anim=dat,pl} {надоедать=V,intr=praet,sg,indic,n,pf}...
+Однако{однако=CONJ=}, братьям{брат=S,m,anim=dat,pl} надоело{надоедать=V,intr=praet,sg,indic,n,pf}...
 
-{конец=S,m,inan=(acc,sg|nom,sg)} {предание=S,n,inan=dat,pl} {и=CONJ=} {туман=S,m,inan=dat,pl}!
-{теперь=ADV=} — {во=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {церковь=S,f,inan=abl,pl} {она=SPRO,sg,3p,f=nom}
-{равно=CONJ=} {монах=S,m,anim=dat,pl} {и=CONJ=} {мирянин=S,m,anim=dat,pl}
-{на=PR=} {поругание=S,n,inan=(abl,sg|acc,sg|nom,sg)} {преданный=A=sg,brev,f}...
+Конец{конец=S,m,inan=(acc,sg|nom,sg)} преданьям{предание=S,n,inan=dat,pl} и{и=CONJ=} туманам{туман=S,m,inan=dat,pl}!
+Теперь{теперь=ADV=} — во{во=PR=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} церквах{церковь=S,f,inan=abl,pl} Она{она=SPRO,sg,3p,f=nom}
+Равно{равно=CONJ=} монахам{монах=S,m,anim=dat,pl} и{и=CONJ=} мирянам{мирянин=S,m,anim=dat,pl}
+На{на=PR=} поруганье{поругание=S,n,inan=(abl,sg|acc,sg|nom,sg)} предана{преданный=A=sg,brev,f}...
 
-{но=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {вздыхатель=S,m,anim=nom,sg} {тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{краса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {божественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — {поэт=S,m,anim=nom,sg}...
-{он=SPRO,sg,3p,m=nom} {видеть=V,ipf,tran=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {необычайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{немеркнущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {мария=S,persn,f,anim=nom,sg}, {свет=S,sg,m,inan=(acc|nom)}!
+Но{но=CONJ=} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} вздыхатель{вздыхатель=S,m,anim=nom,sg} тайный{тайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Красы{краса=S,f,inan=(acc,pl|gen,sg|nom,pl)} Божественной{божественный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} — поэт{поэт=S,m,anim=nom,sg}...
+Он{он=SPRO,sg,3p,m=nom} видит{видеть=V,ipf,tran=inpraes,sg,indic,3p} Твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} необычайный{необычайный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Немеркнущий{немеркнущий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, Мария{мария=S,persn,f,anim=nom,sg}, свет{свет=S,sg,m,inan=(acc|nom)}!
 
-{он=SPRO,sg,3p,m=nom} {на=PR=} {колено=S,n,inan=abl,pl} {в=PR=} {ниша=S,f,inan=(abl,sg|dat,sg)} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{замаливать=V,tran=inpraes,sg,indic,3p,pf} {страстный=A=(acc,pl,plen,inan|nom,pl,plen)} {грех=S,m,inan=(acc,pl|nom,pl)},
-{замаливать=V,tran=inpraes,sg,indic,3p,pf} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {восторг=S,m,inan=(acc,sg|nom,sg)} {нескромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{свой=APRO=(nom,pl|acc,pl,inan)} {греховный=A=(acc,pl,plen,inan|nom,pl,plen)} {стих=S,m,inan=(acc,pl|nom,pl)}!
+Он{он=SPRO,sg,3p,m=nom} на{на=PR=} коленях{колено=S,n,inan=abl,pl} в{в=PR=} нише{ниша=S,f,inan=(abl,sg|dat,sg)} темной{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Замолит{замаливать=V,tran=inpraes,sg,indic,3p,pf} страстные{страстный=A=(acc,pl,plen,inan|nom,pl,plen)} грехи{грех=S,m,inan=(acc,pl|nom,pl)},
+Замолит{замаливать=V,tran=inpraes,sg,indic,3p,pf} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} восторг{восторг=S,m,inan=(acc,sg|nom,sg)} нескромный{нескромный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Свои{свой=APRO=(nom,pl|acc,pl,inan)} греховные{греховный=A=(acc,pl,plen,inan|nom,pl,plen)} стихи{стих=S,m,inan=(acc,pl|nom,pl)}!
 
-{и=CONJ=} {ты=SPRO,sg,2p=nom}, {чей=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {благосклонно=ADV=},
-{не=PART=} {гневаться=V,ipf,intr=sg,imper,2p} {и=CONJ=} {не=PART=} {дивиться=V,ipf,intr=sg,imper,2p},
-{что=SPRO,sg,n,inan=(acc|nom)} {взглядывать=V,intr=inpraes,sg,indic,3p,pf} {он=SPRO,sg,3p,m=nom} {пора=S,f,inan=ins,sg} {влюбленно=ADV=}
-{в=PR=} {твой=APRO=acc,sg,f} {ласкать=V,ipf,tran=inpraes,acc,sg,partcp,plen,f,act} {высь=S,f,inan=(acc,sg|nom,sg)}!
+И{и=CONJ=} Ты{ты=SPRO,sg,2p=nom}, Чье{чей=APRO=(acc,sg,n|nom,sg,n)} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} благосклонно{благосклонно=ADV=},
+Не{не=PART=} гневайся{гневаться=V,ipf,intr=sg,imper,2p} и{и=CONJ=} не{не=PART=} дивись{дивиться=V,ipf,intr=sg,imper,2p},
+Что{что=SPRO,sg,n,inan=(acc|nom)} взглянет{взглядывать=V,intr=inpraes,sg,indic,3p,pf} он{он=SPRO,sg,3p,m=nom} порой{пора=S,f,inan=ins,sg} влюбленно{влюбленно=ADV=}
+В{в=PR=} Твою{твой=APRO=acc,sg,f} ласкающую{ласкать=V,ipf,tran=inpraes,acc,sg,partcp,plen,f,act} высь{высь=S,f,inan=(acc,sg|nom,sg)}!

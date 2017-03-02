@@ -1,17 +1,17 @@
-{цветок=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {цветок=S,m,inan=ins,sg}, {цветок=S,m,inan=(acc,pl|nom,pl)} {петь=V,ipf,tran=inpraes,pl,indic,3p} {цвет=S,m,inan=dat,pl},
-{весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сила=S,f,inan=ins,sg} {посылать=V=(inpraes,abl,pl,partcp,plen,ipf,pass,tran|inpraes,acc,pl,partcp,plen,ipf,pass,anim,tran|inpraes,gen,pl,partcp,plen,ipf,pass,tran)} {дыхание=S,n,inan=gen,pl},
-{струя=S,f,inan=ins,sg} {пыльца=S,sg,f,inan=gen}, {игра=S,f,inan=ins,sg} {восточный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ткань=S,f,inan=gen,pl},
-{прийти=V,pf,intr=sg,imper,2p}, {любовь=S,f,inan=(acc,sg|nom,sg)}, {я=SPRO,sg,1p=nom} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {ты=SPRO,sg,2p=(abl|dat)} {отдавать=V,tran=inpraes,sg,indic,1p,pf}.
+Цветок{цветок=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} цветком{цветок=S,m,inan=ins,sg}, цветы{цветок=S,m,inan=(acc,pl|nom,pl)} поют{петь=V,ipf,tran=inpraes,pl,indic,3p} цветам{цвет=S,m,inan=dat,pl},
+Всей{весь=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} силой{сила=S,f,inan=ins,sg} посылаемых{посылать=V=(inpraes,abl,pl,partcp,plen,ipf,pass,tran|inpraes,acc,pl,partcp,plen,ipf,pass,anim,tran|inpraes,gen,pl,partcp,plen,ipf,pass,tran)} дыханий{дыхание=S,n,inan=gen,pl},
+Струей{струя=S,f,inan=ins,sg} пыльцы{пыльца=S,sg,f,inan=gen}, игрой{игра=S,f,inan=ins,sg} восточных{восточный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} тканей{ткань=S,f,inan=gen,pl},
+Приди{прийти=V,pf,intr=sg,imper,2p}, любовь{любовь=S,f,inan=(acc,sg|nom,sg)}, я{я=SPRO,sg,1p=nom} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} тебе{ты=SPRO,sg,2p=(abl|dat)} отдам{отдавать=V,tran=inpraes,sg,indic,1p,pf}.
 
-{и=CONJ=} {слышно=ADV=parenth} {здесь=ADVPRO=}, {как=CONJ=} {пламенеть=V,ipf,intr=inpraes,sg,indic,3p} {там=ADVPRO=},
-{за=PR=} {грань=S,f,inan=ins,pl}, {кадильница=S,f,inan=nom,sg} {сгорание=S,n,inan=gen,pl},
-{жасмин=S,m,inan=(acc,pl|nom,pl)}, {роза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {головня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {герань=S,f,inan=gen,pl},
-{пожар=S,m,inan=(acc,pl|nom,pl)}, {посвящать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} {звезда=S,f,inan=dat,pl}.
+И{и=CONJ=} слышно{слышно=ADV=parenth} здесь{здесь=ADVPRO=}, как{как=CONJ=} пламенеет{пламенеть=V,ipf,intr=inpraes,sg,indic,3p} там{там=ADVPRO=},
+За{за=PR=} гранями{грань=S,f,inan=ins,pl}, кадильница{кадильница=S,f,inan=nom,sg} сгораний{сгорание=S,n,inan=gen,pl},
+Жасмины{жасмин=S,m,inan=(acc,pl|nom,pl)}, розы{роза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, головни{головня=S,f,inan=(acc,pl|gen,sg|nom,pl)} гераней{герань=S,f,inan=gen,pl},
+Пожары{пожар=S,m,inan=(acc,pl|nom,pl)}, посвященные{посвящать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)} звездам{звезда=S,f,inan=dat,pl}.
 
-{пока=CONJ=} {на=PR=} {дно=S,n,inan=abl,sg} {небо=S,n,inan=gen,pl} {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} {ток=S,m,inan=(acc,pl|nom,pl)},
-{певучий=A=(acc,pl,plen,inan|nom,pl,plen)} {ряд=S,m,inan=(acc,pl|nom,pl)}, {к=PR=} {звезда=S,f,inan=(abl,sg|dat,sg)} {звезда=S,f,inan=nom,sg},
-{влюбляться=V,intr=praet,sg,indic,f,pf} {в=PR=} {берег=S,m,inan=(acc,sg|nom,sg)} {здешний=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg}.
+Пока{пока=CONJ=} на{на=PR=} дне{дно=S,n,inan=abl,sg} небес{небо=S,n,inan=gen,pl} проходят{проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)} токи{ток=S,m,inan=(acc,pl|nom,pl)},
+Певучие{певучий=A=(acc,pl,plen,inan|nom,pl,plen)} ряды{ряд=S,m,inan=(acc,pl|nom,pl)}, к{к=PR=} звезде{звезда=S,f,inan=(abl,sg|dat,sg)} звезда{звезда=S,f,inan=nom,sg},
+Влюбилась{влюбляться=V,intr=praet,sg,indic,f,pf} в{в=PR=} берег{берег=S,m,inan=(acc,sg|nom,sg)} здешняя{здешний=A=nom,sg,plen,f} вода{вода=S,f,inan=nom,sg}.
 
-{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {облик=S,m,inan=gen,sg}. {они=SPRO,pl=nom} {зеленоокий?=A=pl,brev}.
-{и=CONJ=} {слышный=A=sg,brev,m} {вздох=S,m,inan=(acc,sg|nom,sg)}: «{ты=SPRO,sg,2p=ins} {счастливый=A=sg,brev,m} {я=SPRO,sg,1p=nom}».
-{и=CONJ=} {вторить=V,ipf,intr=inpraes,sg,indic,3p} {нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вздох=S,m,inan=(acc,sg|nom,sg)}: «{твой=APRO=nom,sg,f}. {твой=APRO=nom,sg,f}».
+Два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} облика{облик=S,m,inan=gen,sg}. Они{они=SPRO,pl=nom} зеленооки{зеленоокий?=A=pl,brev}.
+И{и=CONJ=} слышен{слышный=A=sg,brev,m} вздох{вздох=S,m,inan=(acc,sg|nom,sg)}: «Тобою{ты=SPRO,sg,2p=ins} счастлив{счастливый=A=sg,brev,m} я{я=SPRO,sg,1p=nom}».
+И{и=CONJ=} вторит{вторить=V,ipf,intr=inpraes,sg,indic,3p} нежный{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вздох{вздох=S,m,inan=(acc,sg|nom,sg)}: «Твоя{твой=APRO=nom,sg,f}. Твоя{твой=APRO=nom,sg,f}».

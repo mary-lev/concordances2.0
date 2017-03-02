@@ -1,19 +1,19 @@
-{сумерки=S,pl,inan=(acc|nom)}, {серый=A=(acc,pl,plen,inan|nom,pl,plen)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{вестник=S,m,inan=(acc,pl|nom,pl)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {и=CONJ=} {сон=S,m,inan=gen,sg}.
-{вялость=S,f,inan=(acc,sg|nom,sg)} {тоскующий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
-{скучный=A=nom,sg,plen,f} {вкруг=PR=} {тишина=S,sg,f,inan=nom}.
+Сумерки{сумерки=S,pl,inan=(acc|nom)}, серые{серый=A=(acc,pl,plen,inan|nom,pl,plen)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Вестники{вестник=S,m,inan=(acc,pl|nom,pl)} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} и{и=CONJ=} сна{сон=S,m,inan=gen,sg}.
+Вялость{вялость=S,f,inan=(acc,sg|nom,sg)} тоскующей{тоскующий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} лени{лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Скучная{скучный=A=nom,sg,plen,f} вкруг{вкруг=PR=} тишина{тишина=S,sg,f,inan=nom}.
 
-{зорька=S,f,inan=nom,sg} {потухать=V,intr=praet,sg,indic,f,pf}. {белеть=V,ipf,intr=inpraes,sg,indic,3p}
-{снег=S,m,inan=(acc,sg|nom,sg)}, {подтаивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {день=S,m,inan=ins,sg}.
-{что-то=SPRO,sg,n,inan=(acc|nom)} {маячить=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {реять=V,ipf,intr=inpraes,sg,indic,3p}
-{там=ADVPRO=}, {наверху=ADV=}, {за=PR=} {окно=S,n,inan=ins,sg}.
+Зорька{зорька=S,f,inan=nom,sg} потухла{потухать=V,intr=praet,sg,indic,f,pf}. Белеет{белеть=V,ipf,intr=inpraes,sg,indic,3p}
+Снег{снег=S,m,inan=(acc,sg|nom,sg)}, подтаявший{подтаивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} днем{день=S,m,inan=ins,sg}.
+Что-то{что-то=SPRO,sg,n,inan=(acc|nom)} маячит{маячить=V,ipf,intr=inpraes,sg,indic,3p} и{и=CONJ=} реет{реять=V,ipf,intr=inpraes,sg,indic,3p}
+Там{там=ADVPRO=}, наверху{наверху=ADV=}, за{за=PR=} окном{окно=S,n,inan=ins,sg}.
 
-{крыло=S,n,inan=ins,pl} {быстро=ADV=} {махать=V,ipf,intr=inpraes,ger},
-{чайка=S,f,anim=(gen,sg|nom,pl)} {ль=PART=} {уноситься=V,intr=inpraes,pl,indic,3p,ipf} {вдаль=ADV=}?
-{молча=ADV=} {сидеть=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {вздыхать=V,intr=inpraes,ger,ipf},
-{в=PR=} {душа=S,f,inan=acc,sg} {закрадываться=V,intr=praet,sg,indic,f,pf} {печаль=S,f,inan=(acc,sg|nom,sg)}.
+Крыльями{крыло=S,n,inan=ins,pl} быстро{быстро=ADV=} махая{махать=V,ipf,intr=inpraes,ger},
+Чайки{чайка=S,f,anim=(gen,sg|nom,pl)} ль{ль=PART=} уносятся{уноситься=V,intr=inpraes,pl,indic,3p,ipf} вдаль{вдаль=ADV=}?
+Молча{молча=ADV=} сижу{сидеть=V,ipf,intr=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} вздыхая{вздыхать=V,intr=inpraes,ger,ipf},
+В{в=PR=} душу{душа=S,f,inan=acc,sg} закралась{закрадываться=V,intr=praet,sg,indic,f,pf} печаль{печаль=S,f,inan=(acc,sg|nom,sg)}.
 
-{что=SPRO,sg,n,inan=(acc|nom)} {это=SPRO,sg,n,inan=(acc|nom)}? {боже=INTJ=} {мой=APRO=(acc,sg,m,inan|nom,sg,m)}! {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{вот=PART=} {чем=CONJ=} {в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {обливать=V=praet,pl,partcp,brev,pf,pass}
-{греза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {лазурный=A=(acc,pl,plen,inan|nom,pl,plen)} {греза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{и=CONJ=} {золотой=A=(acc,pl,plen,inan|nom,pl,plen)} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+Что{что=SPRO,sg,n,inan=(acc|nom)} это{это=SPRO,sg,n,inan=(acc|nom)}? Боже{боже=INTJ=} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)}! Слезы{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Вот{вот=PART=} чем{чем=CONJ=} в{в=PR=} душе{душа=S,f,inan=(abl,sg|dat,sg)} облиты{обливать=V=praet,pl,partcp,brev,pf,pass}
+Грезы{греза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, лазурные{лазурный=A=(acc,pl,plen,inan|nom,pl,plen)} грезы{греза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+И{и=CONJ=} золотые{золотой=A=(acc,pl,plen,inan|nom,pl,plen)} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}!

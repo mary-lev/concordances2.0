@@ -1,34 +1,34 @@
-{бог=S,m,anim=nom,sg} {погода=S,f,inan=nom,sg}, {юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{в=PR=} {васильковый=A=(abl,sg,plen,m|abl,sg,plen,n)} {он=SPRO,sg,3p,m=nom} {венок=S,m,inan=abl,sg},
-{у=PR=} {он=SPRO,sg,3p,m=(acc|gen)} {румянец=S,m,inan=(acc,sg|nom,sg)} {алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{перстень=S,m,inan=(acc,sg|nom,sg)} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {на=PR=} {рука=S,f,inan=(abl,sg|dat,sg)}.
+Бог{бог=S,m,anim=nom,sg} Погода{погода=S,f,inan=nom,sg}, юный{юный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, малый{малый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+В{в=PR=} васильковом{васильковый=A=(abl,sg,plen,m|abl,sg,plen,n)} он{он=SPRO,sg,3p,m=nom} венке{венок=S,m,inan=abl,sg},
+У{у=PR=} него{он=SPRO,sg,3p,m=(acc|gen)} румянец{румянец=S,m,inan=(acc,sg|nom,sg)} алый{алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Перстень{перстень=S,m,inan=(acc,sg|nom,sg)} синий{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} на{на=PR=} руке{рука=S,f,inan=(abl,sg|dat,sg)}.
 
-{перстень=S,m,inan=(acc,sg|nom,sg)} {синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {с=PR=} {бирюза=S,sg,f,inan=ins},
-{крыло=S,n,inan=(acc,pl|nom,pl)} {тонкий=A=pl,brev} {мотылек=S,m,anim=(acc,sg|gen,sg)},
-{нежный=A=sg,brev,m} {цвет=S,m,inan=(acc,sg|nom,sg)}, {перед=PR=} {гроза=S,f,inan=ins,sg},
-{васильковый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {венок=S,m,inan=gen,sg}.
+Перстень{перстень=S,m,inan=(acc,sg|nom,sg)} синий{синий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, с{с=PR=} бирюзою{бирюза=S,sg,f,inan=ins},
+Крылья{крыло=S,n,inan=(acc,pl|nom,pl)} тонки{тонкий=A=pl,brev} мотылька{мотылек=S,m,anim=(acc,sg|gen,sg)},
+Нежен{нежный=A=sg,brev,m} цвет{цвет=S,m,inan=(acc,sg|nom,sg)}, перед{перед=PR=} грозою{гроза=S,f,inan=ins,sg},
+Василькового{васильковый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} венка{венок=S,m,inan=gen,sg}.
 
-{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {серебристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{развеваться=V,ipf,intr=inpraes,sg,indic,3p} {покров=S,m,inan=(acc,sg|nom,sg)},
-{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {он=SPRO,sg,3p,m=nom} {легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {сквозистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{бог=S,m,anim=nom,sg} {цветок=S,m,inan=gen,pl} {и=CONJ=} {мотылек=S,m,anim=(acc,pl|gen,pl)}.
+Голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} и{и=CONJ=} серебристый{серебристый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Развевается{развеваться=V,ipf,intr=inpraes,sg,indic,3p} покров{покров=S,m,inan=(acc,sg|nom,sg)},
+Весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} он{он=SPRO,sg,3p,m=nom} легкий{легкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} сквозистый{сквозистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Бог{бог=S,m,anim=nom,sg} цветов{цветок=S,m,inan=gen,pl} и{и=CONJ=} мотыльков{мотылек=S,m,anim=(acc,pl|gen,pl)}.
 
-{бог=S,m,anim=nom,sg} {приятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {покой=S,m,inan=gen,sg},
-{шелестение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {трава=S,f,inan=gen,pl},
-{сладкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {отдых=S,m,inan=gen,pl} {от=PR=} {зной=S,m,inan=gen,sg},
-{прохладительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {забава=S,f,inan=gen,pl}.
+Бог{бог=S,m,anim=nom,sg} приятного{приятный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} покоя{покой=S,m,inan=gen,sg},
+Шелестенья{шелестение=S,n,inan=(acc,pl|gen,sg|nom,pl)} светлых{светлый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} трав{трава=S,f,inan=gen,pl},
+Сладких{сладкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} отдыхов{отдых=S,m,inan=gen,pl} от{от=PR=} зноя{зной=S,m,inan=gen,sg},
+Прохладительных{прохладительный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} забав{забава=S,f,inan=gen,pl}.
 
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {иной=APRO=(nom,pl|acc,pl,inan)}, {что=CONJ=} {серьезный=A=pl,brev},
-{хмурить=V,ipf,tran=inpraes,pl,indic,3p} {око=S,n,inan=(acc,pl|nom,pl)}, {жечь=V,ipf,tran=inpraes,pl,indic,3p} {огонь=S,m,inan=ins,sg},
-{бог=S,m,anim=nom,pl} {лютый=A=pl,brev}, {бог=S,m,anim=nom,pl} {грозный=A=pl,brev},
-{тот=APRO=(nom,pl|acc,pl,inan)}, {что=CONJ=} {любить=V,ipf,tran=inpraes,pl,indic,3p} {кров=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {гром=S,m,inan=(acc,sg|nom,sg)}.
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} иные{иной=APRO=(nom,pl|acc,pl,inan)}, что{что=CONJ=} серьезны{серьезный=A=pl,brev},
+Хмурят{хмурить=V,ipf,tran=inpraes,pl,indic,3p} очи{око=S,n,inan=(acc,pl|nom,pl)}, жгут{жечь=V,ipf,tran=inpraes,pl,indic,3p} огнем{огонь=S,m,inan=ins,sg},
+Боги{бог=S,m,anim=nom,pl} люты{лютый=A=pl,brev}, боги{бог=S,m,anim=nom,pl} грозны{грозный=A=pl,brev},
+Те{тот=APRO=(nom,pl|acc,pl,inan)}, что{что=CONJ=} любят{любить=V,ipf,tran=inpraes,pl,indic,3p} кров{кров=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} гром{гром=S,m,inan=(acc,sg|nom,sg)}.
 
-{бог=S,m,anim=nom,sg} {погода=S,f,inan=nom,sg} {жертва=S,f,inan=gen,pl} {не=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,3p},
-{в=PR=} {храм=S,m,inan=abl,pl} {душно=ADV=}, {мчаться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {лес=S,m,inan=(acc,sg|nom,sg)},
-{вон=PART=}, {с=PR=} {касатка=S,f,anim=ins,sg} {он=SPRO,sg,3p,m=nom} {хохотать=V,ipf,intr=inpraes,sg,indic,3p},
-{с=PR=} {быстрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ласточка=S,f,anim=ins,sg} {исчезать=V,intr=praet,sg,indic,m,pf}.
+Бог{бог=S,m,anim=nom,sg} Погода{погода=S,f,inan=nom,sg} жертв{жертва=S,f,inan=gen,pl} не{не=PART=} хочет{хотеть=V,ipf,tran=inpraes,sg,indic,3p},
+В{в=PR=} храмах{храм=S,m,inan=abl,pl} душно{душно=ADV=}, мчится{мчаться=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} лес{лес=S,m,inan=(acc,sg|nom,sg)},
+Вон{вон=PART=}, с{с=PR=} касаткой{касатка=S,f,anim=ins,sg} он{он=SPRO,sg,3p,m=nom} хохочет{хохотать=V,ipf,intr=inpraes,sg,indic,3p},
+С{с=PR=} быстрой{быстрый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ласточкой{ласточка=S,f,anim=ins,sg} исчез{исчезать=V,intr=praet,sg,indic,m,pf}.
 
-{бог=S,m,anim=dat,sg} {юный=A=(dat,sg,plen,m|dat,sg,plen,n)}, {погода=S,f,inan=(abl,sg|dat,sg)},
-{все=SPRO,pl=(acc|nom)} {и=CONJ=} {дело=S,n,inan=(acc,sg|nom,sg)} {что=CONJ=} {летать=V,ipf,intr=inf},
-{промелькнуть=V,pf,intr=inf} {на=PR=} {небосвод=S,m,inan=abl,sg},
-{и=CONJ=} {земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {с=PR=} {земной=A=ins,pl,plen} {становиться=V,intr=inf,pf}.
+Богу{бог=S,m,anim=dat,sg} юному{юный=A=(dat,sg,plen,m|dat,sg,plen,n)}, Погоде{погода=S,f,inan=(abl,sg|dat,sg)},
+Все{все=SPRO,pl=(acc|nom)} и{и=CONJ=} дело{дело=S,n,inan=(acc,sg|nom,sg)} что{что=CONJ=} летать{летать=V,ipf,intr=inf},
+Промелькнуть{промелькнуть=V,pf,intr=inf} на{на=PR=} небосводе{небосвод=S,m,inan=abl,sg},
+И{и=CONJ=} земным{земной=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} с{с=PR=} земными{земной=A=ins,pl,plen} стать{становиться=V,intr=inf,pf}.

@@ -1,14 +1,14 @@
-{первый=ANUM=nom,sg,f} {звездочка=S,f,inan=nom,sg}! {око=S,n,inan=(acc,sg|nom,sg)} {вечерний=A=(acc,sg,plen,n|nom,sg,plen,n)},
-	{привет=S,m,inan=(acc,sg|nom,sg)} {ты=SPRO,sg,2p=(abl|dat)}!
-{вечер=S,m,inan=ins,sg} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мой=APRO=(acc,sg,n|nom,sg,n)} {суеверно=ADV=comp}:
-	{молиться=V,ipf,intr=inpraes,sg,indic,1p} {судьба=S,f,inan=(abl,sg|dat,sg)}.
+Первая{первый=ANUM=nom,sg,f} звездочка{звездочка=S,f,inan=nom,sg}! око{око=S,n,inan=(acc,sg|nom,sg)} вечернее{вечерний=A=(acc,sg,plen,n|nom,sg,plen,n)},
+	Привет{привет=S,m,inan=(acc,sg|nom,sg)} тебе{ты=SPRO,sg,2p=(abl|dat)}!
+Вечером{вечер=S,m,inan=ins,sg} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} мое{мой=APRO=(acc,sg,n|nom,sg,n)} суевернее{суеверно=ADV=comp}:
+	Молюсь{молиться=V,ipf,intr=inpraes,sg,indic,1p} Судьбе{судьба=S,f,inan=(abl,sg|dat,sg)}.
 
-{первый=ANUM=nom,sg,f} {звездочка=S,f,inan=nom,sg}! {быть=V,intr=sg,imper,2p} {обещание=S,n,inan=ins,sg}
-	{счастливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=gen,pl}!
-{слишком=ADV=} {измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass} {я=SPRO,sg,1p=nom} {долгий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {блуждание=S,n,inan=ins,sg}
-	{в=PR=} {круг=S,m,inan=(dat,sg|loc,sg)} {тень=S,f,inan=gen,pl}.
+Первая{первый=ANUM=nom,sg,f} звездочка{звездочка=S,f,inan=nom,sg}! будь{быть=V,intr=sg,imper,2p} обещанием{обещание=S,n,inan=ins,sg}
+	Счастливых{счастливый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дней{день=S,m,inan=gen,pl}!
+Слишком{слишком=ADV=} измучен{измучивать=V,tran=praet,sg,partcp,brev,m,pf,pass} я{я=SPRO,sg,1p=nom} долгим{долгий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} блужданием{блуждание=S,n,inan=ins,sg}
+	В{в=PR=} кругу{круг=S,m,inan=(dat,sg|loc,sg)} теней{тень=S,f,inan=gen,pl}.
 
-{глянуть=V,pf,intr=praet,pl,indic} {сестра=S,f,anim=(gen,sg|nom,pl)} {твой=APRO=(nom,pl|acc,pl,inan)}, {светлоокий=A=(acc,pl,plen,inan|nom,pl,plen)},
-	{вот=PART=} {здесь=ADVPRO=}, {вот=PART=} {там=ADVPRO=}...
-{звездочка=S,f,inan=(acc,pl|gen,sg|nom,pl)}! {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)}! — {святой=A=(acc,pl,plen,inan|nom,pl,plen)}, {далекий=A=(acc,pl,plen,inan|nom,pl,plen)}! —
-	{я=SPRO,sg,1p=nom} {верить=V,ipf,intr=inpraes,sg,indic,1p} {вы=SPRO,pl,2p=dat}!
+Глянули{глянуть=V,pf,intr=praet,pl,indic} сестры{сестра=S,f,anim=(gen,sg|nom,pl)} твои{твой=APRO=(nom,pl|acc,pl,inan)}, светлоокие{светлоокий=A=(acc,pl,plen,inan|nom,pl,plen)},
+	Вот{вот=PART=} здесь{здесь=ADVPRO=}, вот{вот=PART=} там{там=ADVPRO=}...
+Звездочки{звездочка=S,f,inan=(acc,pl|gen,sg|nom,pl)}! блестки{блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)}! — святые{святой=A=(acc,pl,plen,inan|nom,pl,plen)}, далекие{далекий=A=(acc,pl,plen,inan|nom,pl,plen)}! —
+	Я{я=SPRO,sg,1p=nom} верю{верить=V,ipf,intr=inpraes,sg,indic,1p} вам{вы=SPRO,pl,2p=dat}!

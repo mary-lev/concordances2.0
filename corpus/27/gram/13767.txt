@@ -1,9 +1,9 @@
-{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {гореть=V,ipf,intr=inpraes,pl,indic,3p} {над=PR=} {безлюдный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=ins,sg},
-{царственно=ADV=} {блистать=V,ipf,intr=inpraes,sg,indic,3p} {святой=A=(acc,sg,plen,n|nom,sg,plen,n)} {созвездие=S,n,inan=(acc,sg|nom,sg)} {пес=S,m,anim=(acc,sg|gen,sg)}:
-{вдруг=ADV=} {потемнеть=V,pf,intr=praet,sg,indic,n} — {и=CONJ=} {огненный=A=sg,brev,n}-{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {змея=S,f,anim=ins,sg}
-{кто-то=SPRO,sg,m,anim=nom} {прорезать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} {над=PR=} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {земля=S,f,inan=ins,sg} {небо=S,n,inan=(acc,pl|nom,pl)}.
+Звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} горят{гореть=V,ipf,intr=inpraes,pl,indic,3p} над{над=PR=} безлюдной{безлюдный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} землею{земля=S,f,inan=ins,sg},
+Царственно{царственно=ADV=} блещет{блистать=V,ipf,intr=inpraes,sg,indic,3p} святое{святой=A=(acc,sg,plen,n|nom,sg,plen,n)} созвездие{созвездие=S,n,inan=(acc,sg|nom,sg)} Пса{пес=S,m,anim=(acc,sg|gen,sg)}:
+Вдруг{вдруг=ADV=} потемнело{потемнеть=V,pf,intr=praet,sg,indic,n} — и{и=CONJ=} огненно{огненный=A=sg,brev,n}-красной{красный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} змеею{змея=S,f,anim=ins,sg}
+Кто-то{кто-то=SPRO,sg,m,anim=nom} прорезал{прорезать=V,tran=(praet,sg,indic,m,ipf|praet,sg,indic,m,pf)} над{над=PR=} темной{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} землей{земля=S,f,inan=ins,sg} небеса{небо=S,n,inan=(acc,pl|nom,pl)}.
 
-{путник=S,m,anim=nom,sg}, {не=PART=} {бояться=V,ipf,intr=sg,imper,2p}! {в=PR=} {пустыня=S,f,inan=(abl,sg|dat,sg)} {чудесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {много=ADV,praed=}.
-{это=SPRO,sg,n,inan=(acc|nom)} {не=PART=} {вихорь=S,m,inan=(acc,pl|nom,pl)}, {а=CONJ=} {джинн=S,m,anim=nom,pl} {тревожить=V,ipf,tran=inpraes,pl,indic,3p} {она=SPRO,sg,3p,f=(acc|gen)},
-{это=PART=} {архангел=S,m,anim=nom,sg}, {слуга=S,m,anim=nom,sg} {милосердый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {бог=S,m,anim=(acc,sg|gen,sg)},
-{в=PR=} {демон=S,m,anim=(acc,pl|gen,pl)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {метнуть=V,pf,tran=praet,sg,indic,m} {золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {копье=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+Путник{путник=S,m,anim=nom,sg}, не{не=PART=} бойся{бояться=V,ipf,intr=sg,imper,2p}! В{в=PR=} пустыне{пустыня=S,f,inan=(abl,sg|dat,sg)} чудесного{чудесный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} много{много=ADV,praed=}.
+Это{это=SPRO,sg,n,inan=(acc|nom)} не{не=PART=} вихри{вихорь=S,m,inan=(acc,pl|nom,pl)}, а{а=CONJ=} джинны{джинн=S,m,anim=nom,pl} тревожат{тревожить=V,ipf,tran=inpraes,pl,indic,3p} ее{она=SPRO,sg,3p,f=(acc|gen)},
+Это{это=PART=} архангел{архангел=S,m,anim=nom,sg}, слуга{слуга=S,m,anim=nom,sg} милосердого{милосердый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} бога{бог=S,m,anim=(acc,sg|gen,sg)},
+В{в=PR=} демонов{демон=S,m,anim=(acc,pl|gen,pl)} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} метнул{метнуть=V,pf,tran=praet,sg,indic,m} золотое{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} копье{копье=S,n,inan=(abl,sg|acc,sg|nom,sg)}.

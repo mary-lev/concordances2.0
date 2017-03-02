@@ -1,14 +1,14 @@
-{дарить=V,ipf,tran=inpraes,sg,indic,3p} {я=SPRO,sg,1p=(acc|gen)} {двойной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {отрада=S,f,inan=ins,sg}
-{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {стих=S,m,inan=gen,pl} {вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {свет=S,sg,m,inan=(acc|nom)}:
-{и=CONJ=} {мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ясный=A=ins,sg,plen,f} {прохлада=S,f,inan=ins,sg},
-{и=CONJ=} {то=SPRO,sg,n,inan=ins}, {что=SPRO,sg,n,inan=dat} {название=S,n,inan=(acc,pl|gen,sg|nom,pl)} {нет=ADV,praed=}.
+Дарит{дарить=V,ipf,tran=inpraes,sg,indic,3p} меня{я=SPRO,sg,1p=(acc|gen)} двойной{двойной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} отрадой{отрада=S,f,inan=ins,sg}
+Твоих{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} стихов{стих=S,m,inan=gen,pl} вечерний{вечерний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} свет{свет=S,sg,m,inan=(acc|nom)}:
+И{и=CONJ=} мысли{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} ясною{ясный=A=ins,sg,plen,f} прохладой{прохлада=S,f,inan=ins,sg},
+И{и=CONJ=} тем{то=SPRO,sg,n,inan=ins}, чему{что=SPRO,sg,n,inan=dat} названья{название=S,n,inan=(acc,pl|gen,sg|nom,pl)} нет{нет=ADV,praed=}.
 
-{какой=APRO=nom,sg,f} {осень=S,f,inan=(acc,sg|nom,sg)}! {странно=ADV=} {что-то=SPRO,sg,n,inan=(acc|nom)}:
-{хоть=PART=} {без=PR=} {жара=S,sg,f,inan=gen} {и=CONJ=} {бурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гроза=S,f,inan=gen,pl},
-{твой=APRO=(acc,sg,m,inan|nom,sg,m)} {день=S,m,inan=(acc,sg|nom,sg)} {от=PR=} {солнцеповорот?=S,m,inan=gen,sg}
-{не=PART=} {убывать=V,intr=praet,sg,indic,m,ipf}, {а=CONJ=} {только=PART=} {расти=V,ipf,intr=praet,sg,indic,m}.
+Какая{какой=APRO=nom,sg,f} осень{осень=S,f,inan=(acc,sg|nom,sg)}! Странно{странно=ADV=} что-то{что-то=SPRO,sg,n,inan=(acc|nom)}:
+Хоть{хоть=PART=} без{без=PR=} жары{жара=S,sg,f,inan=gen} и{и=CONJ=} бурных{бурный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гроз{гроза=S,f,inan=gen,pl},
+Твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} день{день=S,m,inan=(acc,sg|nom,sg)} от{от=PR=} солнцеповорота{солнцеповорот?=S,m,inan=gen,sg}
+Не{не=PART=} убывал{убывать=V,intr=praet,sg,indic,m,ipf}, а{а=CONJ=} только{только=PART=} рос{расти=V,ipf,intr=praet,sg,indic,m}.
 
-{так=ADVPRO=} {пусть=PART=} {он=SPRO,sg,3p,m=nom} {блистать=V,ipf,intr=inpraes,sg,indic,3p} {и=CONJ=} {зима=S,f,inan=ins,sg},
-{когда=CONJ=} {ж=PART=} {блистать=V,ipf,intr=inf} {не=PART=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {вмочь?=ADV,praed=},
-{засвечивать=V,tran=inpraes,sg,indic,3p,pf} {вещий=A=ins,sg,plen,f} {заря=S,f,inan=ins,sg}, —
-{заря=S,f,inan=ins,sg} {во=PR=} {весь=APRO=acc,sg,f} {немой=A=acc,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+Так{так=ADVPRO=} пусть{пусть=PART=} он{он=SPRO,sg,3p,m=nom} блещет{блистать=V,ipf,intr=inpraes,sg,indic,3p} и{и=CONJ=} зимою{зима=S,f,inan=ins,sg},
+Когда{когда=CONJ=} ж{ж=PART=} блистать{блистать=V,ipf,intr=inf} не{не=PART=} станет{становиться=V,intr=inpraes,sg,indic,3p,pf} вмочь{вмочь?=ADV,praed=},
+Засветит{засвечивать=V,tran=inpraes,sg,indic,3p,pf} вещею{вещий=A=ins,sg,plen,f} зарею{заря=S,f,inan=ins,sg}, —
+Зарей{заря=S,f,inan=ins,sg} во{во=PR=} всю{весь=APRO=acc,sg,f} немую{немой=A=acc,sg,plen,f} ночь{ночь=S,f,inan=(acc,sg|nom,sg)}.

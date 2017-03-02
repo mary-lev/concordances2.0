@@ -1,30 +1,30 @@
-{красный=A=nom,sg,plen,f} {осень=S,f,inan=(acc,sg|nom,sg)}
-{гнать=V,ipf,tran=inpraes,sg,indic,3p} {поблекнуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} {лист=S,m,inan=(acc,pl|nom,pl)}:
-«{прочь=ADV=} {улетать=V,intr=pl,imper,2p,ipf}
-{к=PR=} {тень=S,f,inan=dat,pl} {аида=S,persn,f,anim=nom,sg},
-{плакать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {вечно=ADV=}
-{по=PR=} {краткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
-{прочь=ADV=} {улетать=V,intr=pl,imper,2p,ipf}
-{с=PR=} {пажить=S,f,inan=gen,pl}, {ждать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}
-{новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}!»
+Красная{красный=A=nom,sg,plen,f} Осень{осень=S,f,inan=(acc,sg|nom,sg)}
+Гонит{гнать=V,ipf,tran=inpraes,sg,indic,3p} поблекшие{поблекнуть=V,pf,intr=(praet,nom,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,inan)} листья{лист=S,m,inan=(acc,pl|nom,pl)}:
+«Прочь{прочь=ADV=} улетайте{улетать=V,intr=pl,imper,2p,ipf}
+К{к=PR=} теням{тень=S,f,inan=dat,pl} Аида{аида=S,persn,f,anim=nom,sg},
+Плачущим{плакать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} вечно{вечно=ADV=}
+По{по=PR=} краткой{краткий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}!
+Прочь{прочь=ADV=} улетайте{улетать=V,intr=pl,imper,2p,ipf}
+С{с=PR=} пажитей{пажить=S,f,inan=gen,pl}, ждущих{ждать=V,ipf,tran=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}
+Новой{новый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} весны{весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}!»
 
-{нисходить=V,intr=inpraes,sg,indic,3p,ipf} {ночь=S,f,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {с=PR=} {черный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)}
-{глядеть=V,ipf,tran=inpraes,pl,indic,3p} {неприступный=A=sg,brev,n}
-{на=PR=} {пажить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Нисходит{нисходить=V,intr=inpraes,sg,indic,3p,ipf} ночь{ночь=S,f,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} с{с=PR=} черного{черный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} неба{небо=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+Глядят{глядеть=V,ipf,tran=inpraes,pl,indic,3p} неприступно{неприступный=A=sg,brev,n}
+На{на=PR=} пажити{пажить=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Вечные{вечный=A=(acc,pl,plen,inan|nom,pl,plen)} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{блаженный=A=sg,brev,m}, {чей=APRO=(nom,pl|acc,pl,inan)} {крыло=S,n,inan=(acc,pl|nom,pl)}
-{царственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {дух=S,m,inan=(acc,sg|nom,sg)}
-{от=PR=} {пажить=S,f,inan=gen,pl} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{возносить=V=inpraes,pl,indic,3p,ipf,tran} {по=PR=} {воля=S,f,inan=(abl,sg|dat,sg)}
-{к=PR=} {пламенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сфера=S,f,inan=dat,pl}!
-{садиться=V,intr=inpraes,sg,indic,3p,ipf} {избранник=S,m,anim=nom,sg}
-{на=PR=} {вечный=A=(acc,pl,plen,inan|nom,pl,plen)} {трон=S,m,inan=(acc,pl|nom,pl)} —
-{и=CONJ=} {с=PR=} {дух=S,m,inan=ins,pl} {твердь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{в=PR=} {недвижный=A=(abl,sg,plen,m|abl,sg,plen,n)} {сияние=S,n,inan=abl,sg},
-{царь=S,m,anim=(acc,sg|gen,sg)}, {обтекать=V=inpraes,sg,indic,3p,ipf,tran}
-{по=PR=} {волна=S,f,inan=dat,pl} {эон?=S,inform,obsc,m,inan=gen,pl}
-{остров=S,m,inan=(acc,sg|nom,sg)} {желание=S,n,inan=gen,pl},
-{надежда=S,f,inan=gen,pl} {и=CONJ=} {разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мгновенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Блажен{блаженный=A=sg,brev,m}, чьи{чей=APRO=(nom,pl|acc,pl,inan)} крылья{крыло=S,n,inan=(acc,pl|nom,pl)}
+Царственный{царственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} дух{дух=S,m,inan=(acc,sg|nom,sg)}
+От{от=PR=} пажитей{пажить=S,f,inan=gen,pl} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Возносят{возносить=V=inpraes,pl,indic,3p,ipf,tran} по{по=PR=} воле{воля=S,f,inan=(abl,sg|dat,sg)}
+К{к=PR=} пламенным{пламенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} сферам{сфера=S,f,inan=dat,pl}!
+Садится{садиться=V,intr=inpraes,sg,indic,3p,ipf} избранник{избранник=S,m,anim=nom,sg}
+На{на=PR=} вечные{вечный=A=(acc,pl,plen,inan|nom,pl,plen)} троны{трон=S,m,inan=(acc,pl|nom,pl)} —
+И{и=CONJ=} с{с=PR=} духами{дух=S,m,inan=ins,pl} тверди{твердь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+В{в=PR=} недвижном{недвижный=A=(abl,sg,plen,m|abl,sg,plen,n)} сияньи{сияние=S,n,inan=abl,sg},
+Царя{царь=S,m,anim=(acc,sg|gen,sg)}, обтекает{обтекать=V=inpraes,sg,indic,3p,ipf,tran}
+По{по=PR=} волнам{волна=S,f,inan=dat,pl} эонов{эон?=S,inform,obsc,m,inan=gen,pl}
+Остров{остров=S,m,inan=(acc,sg|nom,sg)} желаний{желание=S,n,inan=gen,pl},
+Надежд{надежда=S,f,inan=gen,pl} и{и=CONJ=} разлуки{разлука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} мгновенной{мгновенный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.

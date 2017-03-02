@@ -1,14 +1,14 @@
-{ждать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {холодный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}, 
-{сумерки=S,pl,inan=gen} {серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {я=SPRO,sg,1p=nom} {ждать=V,ipf,tran=inpraes,sg,indic,1p}. 
-{замирать=V,intr=praet,sg,indic,n,pf} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {звенеть=V,ipf,intr=inpraes,ger}:
-{ты=SPRO,sg,2p=nom} {говорить=V,ipf,tran=praet,sg,indic,f}: "{прийти=V,pf,intr=inpraes,sg,indic,1p}, -
+Жду{ждать=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} холодного{холодный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} дня{день=S,m,inan=gen,sg}, 
+Сумерек{сумерки=S,pl,inan=gen} серых{серый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} я{я=SPRO,sg,1p=nom} жду{ждать=V,ipf,tran=inpraes,sg,indic,1p}. 
+Замерло{замирать=V,intr=praet,sg,indic,n,pf} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, звеня{звенеть=V,ipf,intr=inpraes,ger}:
+Ты{ты=SPRO,sg,2p=nom} говорила{говорить=V,ipf,tran=praet,sg,indic,f}: "Приду{прийти=V,pf,intr=inpraes,sg,indic,1p}, -
 
-{ждать=V,ipf,tran=sg,imper,2p} {на=PR=} {распутья?=S,f,inan=(acc,pl|gen,sg|nom,pl)} - {вдали=ADV=} 
-{людный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {и=CONJ=} {яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl},
-{чтобы=CONJ=} {с=PR=} {величие=S,n,inan=ins,sg} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
-{ты=SPRO,sg,2p=nom} {разлучаться=V,intr=inf,pf} {не=PART=} {мочь=V,ipf,intr=praet,sg,indic,m}.
+Жди{ждать=V,ipf,tran=sg,imper,2p} на{на=PR=} распутьи{распутья?=S,f,inan=(acc,pl|gen,sg|nom,pl)} - вдали{вдали=ADV=} 
+Людных{людный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} и{и=CONJ=} ярких{яркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дорог{дорога=S,f,inan=gen,pl},
+Чтобы{чтобы=CONJ=} с{с=PR=} величьем{величие=S,n,inan=ins,sg} земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+Ты{ты=SPRO,sg,2p=nom} разлучиться{разлучаться=V,intr=inf,pf} не{не=PART=} мог{мочь=V,ipf,intr=praet,sg,indic,m}.
 
-{тихо=ADV=} {прийти=V,pf,intr=inpraes,sg,indic,1p} {и=CONJ=} {замирать=V,intr=inpraes,sg,indic,1p,pf}, 
-{как=CONJ=} {твой=APRO=(acc,sg,n|nom,sg,n)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {звенеть=V,ipf,intr=inpraes,ger}, 
-{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {ты=SPRO,sg,2p=(abl|dat)} {отпирать=V=inpraes,sg,indic,1p,pf} 
-{в=PR=} {сумерки=S,pl,inan=abl} {зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {день=S,m,inan=gen,sg}".
+Тихо{тихо=ADV=} приду{прийти=V,pf,intr=inpraes,sg,indic,1p} и{и=CONJ=} замру{замирать=V,intr=inpraes,sg,indic,1p,pf}, 
+Как{как=CONJ=} твое{твой=APRO=(acc,sg,n|nom,sg,n)} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}, звеня{звенеть=V,ipf,intr=inpraes,ger}, 
+Двери{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} тебе{ты=SPRO,sg,2p=(abl|dat)} отопру{отпирать=V=inpraes,sg,indic,1p,pf} 
+В{в=PR=} сумерках{сумерки=S,pl,inan=abl} зимнего{зимний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} дня{день=S,m,inan=gen,sg}".

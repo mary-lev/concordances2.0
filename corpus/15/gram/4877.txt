@@ -1,9 +1,9 @@
-{ты=SPRO,sg,2p=nom} — {шелест=S,m,inan=(acc,sg|nom,sg)} {нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {листок=S,m,inan=gen,sg},
-{ты=SPRO,sg,2p=nom} — {ветер=S,m,inan=(acc,sg|nom,sg)}, {шептать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {украдкой=ADV=},
-{ты=SPRO,sg,2p=nom} — {свет=S,sg,m,inan=(acc|nom)}, {бросать=V=(inpraes,acc,sg,partcp,plen,m,ipf,pass,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,pass,tran)} {лампадка=S,f,inan=ins,sg},
-{где=ADVPRO=} {брезжить=V,ipf,intr=inpraes,sg,indic,3p} {сладкий=A=nom,sg,plen,f} {тоска=S,f,inan=nom,sg}.
+Ты{ты=SPRO,sg,2p=nom} — шелест{шелест=S,m,inan=(acc,sg|nom,sg)} нежного{нежный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} листка{листок=S,m,inan=gen,sg},
+Ты{ты=SPRO,sg,2p=nom} — ветер{ветер=S,m,inan=(acc,sg|nom,sg)}, шепчущий{шептать=V,ipf,tran=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} украдкой{украдкой=ADV=},
+Ты{ты=SPRO,sg,2p=nom} — свет{свет=S,sg,m,inan=(acc|nom)}, бросаемый{бросать=V=(inpraes,acc,sg,partcp,plen,m,ipf,pass,inan,tran|inpraes,nom,sg,partcp,plen,m,ipf,pass,tran)} лампадкой{лампадка=S,f,inan=ins,sg},
+Где{где=ADVPRO=} брезжит{брезжить=V,ipf,intr=inpraes,sg,indic,3p} сладкая{сладкий=A=nom,sg,plen,f} тоска{тоска=S,f,inan=nom,sg}.
 
-{я=SPRO,sg,1p=(abl|dat)} {чудиться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {я=SPRO,sg,1p=nom} {когда-то=ADVPRO=}
-{ты=SPRO,sg,2p=(acc|gen)} {видать=V,ipf,tran=praet,sg,indic,m}, {с=PR=} {ты=SPRO,sg,2p=ins} {быть=V,intr=praet,sg,indic,m,ipf},
-{когда=CONJ=} {я=SPRO,sg,1p=nom} {сердце=S,n,inan=ins,sg} {то=CONJ=} {любить=V,ipf,tran=praet,sg,indic,m},
-{к=PR=} {что=SPRO,sg,n,inan=dat} {я=SPRO,sg,1p=(abl|dat)} {больше=ADV=} {нет=ADV,praed=} {возврат=S,m,inan=gen,sg}.
+Мне{я=SPRO,sg,1p=(abl|dat)} чудится{чудиться=V,ipf,intr=inpraes,sg,indic,3p}, что{что=CONJ=} я{я=SPRO,sg,1p=nom} когда-то{когда-то=ADVPRO=}
+Тебя{ты=SPRO,sg,2p=(acc|gen)} видал{видать=V,ipf,tran=praet,sg,indic,m}, с{с=PR=} тобою{ты=SPRO,sg,2p=ins} был{быть=V,intr=praet,sg,indic,m,ipf},
+Когда{когда=CONJ=} я{я=SPRO,sg,1p=nom} сердцем{сердце=S,n,inan=ins,sg} то{то=CONJ=} любил{любить=V,ipf,tran=praet,sg,indic,m},
+К{к=PR=} чему{что=SPRO,sg,n,inan=dat} мне{я=SPRO,sg,1p=(abl|dat)} больше{больше=ADV=} нет{нет=ADV,praed=} возврата{возврат=S,m,inan=gen,sg}.

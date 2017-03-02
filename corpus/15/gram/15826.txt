@@ -1,20 +1,20 @@
-{божий=A,plen=(acc,sg,m,inan|nom,sg,m)} {кузнец=S,m,anim=nom,sg},
-{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ковать=V,ipf,tran=inpraes,sg,indic,3p},
-{зима=S,f,inan=(abl,sg|dat,sg)} {изо=PR=} {лед=S,m,inan=gen,sg} {он=SPRO,sg,3p,m=nom} {готовить=V,ipf,tran=inpraes,sg,indic,3p} {ларец=S,m,inan=(acc,sg|nom,sg)},
-{алмаз=S,m,inan=(acc,pl|nom,pl)} {вбивать=V,tran=inpraes,sg,indic,3p,ipf} {в=PR=} {холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {венец=S,m,inan=(acc,sg|nom,sg)},
-{рассыпать=V,pf,tran=praet,ger} {снег=S,m,inan=(acc,sg|nom,sg)}, {разукрашивать=V=praet,ger,pf} {лед=S,m,inan=(acc,sg|nom,sg)},
-{звонко=ADV=} {ковать=V,ipf,tran=inpraes,sg,indic,3p}.
-{белый=A=nom,sg,plen,f} {кузница=S,f,inan=nom,sg} — {мир=S,m,inan=(acc,sg|nom,sg)},
-{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {оковывать=V=praet,sg,indic,m,pf},
-{в=PR=} {иней=S,m,inan=(acc,sg|nom,sg)} {не=PART=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {и=CONJ=} {не=PART=} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {одевать=V,tran=praet,sg,indic,m,ipf}
-{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} {и=CONJ=} {лес=S,m,inan=(acc,sg|nom,sg)},
-{кликать=V,ipf,tran=inpraes,sg,indic,3p} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {на=PR=} {пир=S,m,inan=(acc,sg|nom,sg)},
-{смотреть=V,ipf,tran=inpraes,sg,indic,3p} {на=PR=} {яркий=A=(acc,pl,plen,inan|nom,pl,plen)} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {небо=S,n,inan=gen,pl},
-{словно=CONJ=} {и=CONJ=} {он=SPRO,sg,3p,m=ins} {он=SPRO,sg,3p,m=nom} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мостить=V,ipf,tran=inpraes,sg,indic,3p},
-{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {по=PR=} {снег=S,m,inan=(dat,sg|part,sg|loc,sg)}, {и=CONJ=} {звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {вон=PART=} {там=ADVPRO=},
-{думать=V,ipf,intr=inpraes,sg,indic,3p}, {думать=V,ipf,intr=inpraes,sg,indic,3p}, {вдруг=ADV=} {засвистать=V,pf,intr=inpraes,sg,indic,3p},
-{мчаться=V,ipf,intr=inpraes,sg,indic,3p}, {лететь=V,ipf,intr=inpraes,sg,indic,3p}, {по=PR=} {лес=S,m,inan=dat,pl}, {по=PR=} {куст=S,m,inan=dat,pl},
-{снова=ADV=} — {ковать=V,ipf,tran=inf}, {и=CONJ=} {гвоздить=V,ipf,tran=inpraes,sg,indic,3p}, {и=CONJ=} {гвоздить=V,ipf,tran=inpraes,sg,indic,3p},
-{гроб=S,m,inan=(acc,sg|nom,sg)}, {что=CONJ=} {ли=PART=}, {мы=SPRO,pl,1p=dat}?
-{саван=S,m,inan=ins,sg} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {в=PR=} {ночь=S,f,inan=abl,pl} {шелестеть=V,ipf,intr=inpraes,sg,indic,3p},
-{искриться=V,ipf,intr=inpraes,sg,indic,3p} {белый=A=nom,sg,plen,f} {смерть=S,f,inan=(acc,sg|nom,sg)} {по=PR=} {снег=S,m,inan=dat,pl}.
+Божий{божий=A,plen=(acc,sg,m,inan|nom,sg,m)} кузнец{кузнец=S,m,anim=nom,sg},
+Дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} реки{река=S,f,inan=(acc,pl|gen,sg|nom,pl)} кует{ковать=V,ipf,tran=inpraes,sg,indic,3p},
+Зиме{зима=S,f,inan=(abl,sg|dat,sg)} изо{изо=PR=} льда{лед=S,m,inan=gen,sg} он{он=SPRO,sg,3p,m=nom} готовит{готовить=V,ipf,tran=inpraes,sg,indic,3p} ларец{ларец=S,m,inan=(acc,sg|nom,sg)},
+Алмазы{алмаз=S,m,inan=(acc,pl|nom,pl)} вбивает{вбивать=V,tran=inpraes,sg,indic,3p,ipf} в{в=PR=} холодный{холодный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} венец{венец=S,m,inan=(acc,sg|nom,sg)},
+Рассыпавши{рассыпать=V,pf,tran=praet,ger} снег{снег=S,m,inan=(acc,sg|nom,sg)}, разукрасивши{разукрашивать=V=praet,ger,pf} лед{лед=S,m,inan=(acc,sg|nom,sg)},
+Звонко{звонко=ADV=} кует{ковать=V,ipf,tran=inpraes,sg,indic,3p}.
+Белая{белый=A=nom,sg,plen,f} кузница{кузница=S,f,inan=nom,sg} — мир{мир=S,m,inan=(acc,sg|nom,sg)},
+Весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} оковал{оковывать=V=praet,sg,indic,m,pf},
+В{в=PR=} иней{иней=S,m,inan=(acc,sg|nom,sg)} не{не=PART=} раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} и{и=CONJ=} не{не=PART=} два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} одевал{одевать=V,tran=praet,sg,indic,m,ipf}
+Поле{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)} и{и=CONJ=} лес{лес=S,m,inan=(acc,sg|nom,sg)},
+Кличет{кликать=V,ipf,tran=inpraes,sg,indic,3p} метели{метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} на{на=PR=} пир{пир=S,m,inan=(acc,sg|nom,sg)},
+Смотрит{смотреть=V,ipf,tran=inpraes,sg,indic,3p} на{на=PR=} яркие{яркий=A=(acc,pl,plen,inan|nom,pl,plen)} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} Небес{небо=S,n,inan=gen,pl},
+Словно{словно=CONJ=} и{и=CONJ=} им{он=SPRO,sg,3p,m=ins} он{он=SPRO,sg,3p,m=nom} дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)} мостит{мостить=V,ipf,tran=inpraes,sg,indic,3p},
+Звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} по{по=PR=} снегу{снег=S,m,inan=(dat,sg|part,sg|loc,sg)}, и{и=CONJ=} звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} вон{вон=PART=} там{там=ADVPRO=},
+Думает{думать=V,ipf,intr=inpraes,sg,indic,3p}, думает{думать=V,ipf,intr=inpraes,sg,indic,3p}, вдруг{вдруг=ADV=} засвистит{засвистать=V,pf,intr=inpraes,sg,indic,3p},
+Мчится{мчаться=V,ipf,intr=inpraes,sg,indic,3p}, летит{лететь=V,ipf,intr=inpraes,sg,indic,3p}, по{по=PR=} лесам{лес=S,m,inan=dat,pl}, по{по=PR=} кустам{куст=S,m,inan=dat,pl},
+Снова{снова=ADV=} — ковать{ковать=V,ipf,tran=inf}, и{и=CONJ=} гвоздит{гвоздить=V,ipf,tran=inpraes,sg,indic,3p}, и{и=CONJ=} гвоздит{гвоздить=V,ipf,tran=inpraes,sg,indic,3p},
+Гроб{гроб=S,m,inan=(acc,sg|nom,sg)}, что{что=CONJ=} ли{ли=PART=}, нам{мы=SPRO,pl,1p=dat}?
+Саваном{саван=S,m,inan=ins,sg} белым{белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} в{в=PR=} ночах{ночь=S,f,inan=abl,pl} шелестит{шелестеть=V,ipf,intr=inpraes,sg,indic,3p},
+Искрится{искриться=V,ipf,intr=inpraes,sg,indic,3p} белая{белый=A=nom,sg,plen,f} смерть{смерть=S,f,inan=(acc,sg|nom,sg)} по{по=PR=} снегам{снег=S,m,inan=dat,pl}.

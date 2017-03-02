@@ -1,63 +1,63 @@
-{покаран?=S,persn,m,anim=nom,sg} {мир=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} {вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{свой=APRO=(nom,pl|acc,pl,inan)} {ужасный=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} {из=PR=} {катастрофа=S,f,inan=gen,pl}:
-{в=PR=} {кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} {цвести=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {долина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{орудие=S,n,inan=gen,pl} {шторм=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {груда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мертвец=S,m,anim=(acc,pl|gen,pl)},
-{развал=S,m,inan=(acc,sg|nom,sg)} {культура=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крах=S,m,inan=(acc,sg|nom,sg)} {наука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{искусство=S,n,inan=(acc,sg|nom,sg)} {в=PR=} {угнетение=S,n,inan=abl,sg}, {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{царь=S,m,anim=nom,sg} {голод=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гроб=S,m,inan=gen,pl}.
+Покаран{покаран?=S,persn,m,anim=nom,sg} мир{мир=S,m,inan=(acc,sg|nom,sg)} за{за=PR=} тягостные{тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} вины{вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Свои{свой=APRO=(nom,pl|acc,pl,inan)} ужаснейшей{ужасный=A=(abl,sg,plen,supr,f|dat,sg,plen,supr,f|gen,sg,plen,supr,f|ins,sg,plen,supr,f)} из{из=PR=} катастроф{катастрофа=S,f,inan=gen,pl}:
+В{в=PR=} крови{кровь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} людской{людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)} цветущие{цвести=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} долины{долина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Орудий{орудие=S,n,inan=gen,pl} шторм{шторм=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} груды{груда=S,f,inan=(acc,pl|gen,sg|nom,pl)} мертвецов{мертвец=S,m,anim=(acc,pl|gen,pl)},
+Развал{развал=S,m,inan=(acc,sg|nom,sg)} культуры{культура=S,f,inan=(acc,pl|gen,sg|nom,pl)}, грозный{грозный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} крах{крах=S,m,inan=(acc,sg|nom,sg)} науки{наука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Искусство{искусство=S,n,inan=(acc,sg|nom,sg)} в{в=PR=} угнетеньи{угнетение=S,n,inan=abl,sg}, слезы{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)}, муки{мука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Царь{царь=S,m,anim=nom,sg} Голод{голод=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} процессии{процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} гробов{гроб=S,m,inan=gen,pl}.
 
-{царь=S,m,anim=nom,sg} {голод=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гроб=S,m,inan=gen,pl},
-{пир=S,m,inan=(acc,sg|nom,sg)} {хам=S,m,anim=(acc,pl|gen,pl)} {и=CONJ=} {тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)} {кончина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {притеснение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ум=S,m,inan=gen,pl},
-{и=CONJ=} {танк=S,m,inan=(acc,pl|nom,pl)}, {и=CONJ=} {ньюпор?=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {цеппелин=S,m,inan=(acc,pl|nom,pl)},
-{и=CONJ=} {дьявол=S,m,anim=nom,sg}, {учреждать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {фирма=S,f,inan=acc,sg} {крупп=S,persn,m,anim=nom,sg},
-{испанский=A=nom,sg,plen,f} {болезнь=S,f,inan=(acc,sg|nom,sg)}, {холера=S,f,inan=nom,sg}, {крупа=S,f,inan=gen,pl} —
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {притом=CONJ=} {не=PART=} {без=PR=} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
+Царь{царь=S,m,anim=nom,sg} Голод{голод=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} процессии{процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} гробов{гроб=S,m,inan=gen,pl},
+Пир{пир=S,m,inan=(acc,sg|nom,sg)} хамов{хам=S,m,anim=(acc,pl|gen,pl)} и{и=CONJ=} тяжелые{тяжелый=A=(acc,pl,plen,inan|nom,pl,plen)} кончины{кончина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} притесненье{притеснение=S,n,inan=(abl,sg|acc,sg|nom,sg)} солнечных{солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} умов{ум=S,m,inan=gen,pl},
+И{и=CONJ=} танки{танк=S,m,inan=(acc,pl|nom,pl)}, и{и=CONJ=} ньюпор{ньюпор?=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} цеппелины{цеппелин=S,m,inan=(acc,pl|nom,pl)},
+И{и=CONJ=} дьявол{дьявол=S,m,anim=nom,sg}, учредивший{учреждать=V=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} фирму{фирма=S,f,inan=acc,sg} Крупп{крупп=S,persn,m,anim=nom,sg},
+Испанская{испанский=A=nom,sg,plen,f} болезнь{болезнь=S,f,inan=(acc,sg|nom,sg)}, холера{холера=S,f,inan=nom,sg}, круп{крупа=S,f,inan=gen,pl} —
+Всё{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} бедствия{бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, притом{притом=CONJ=} не{не=PART=} без{без=PR=} причины{причина=S,f,inan=(acc,pl|gen,sg|nom,pl)}...
 
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {притом=CONJ=} {не=PART=} {без=PR=} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
-{от=PR=} {деяние=S,n,inan=gen,pl}, {от=PR=} {мысль=S,f,inan=gen,pl} {и=CONJ=} {от=PR=} {слово=S,n,inan=gen,pl}.
-{еще=ADV=} {порхать=V,ipf,intr=inpraes,pl,indic,3p} {ножка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {балерина=S,f,anim=(gen,sg|nom,pl)},
-{еще=ADV=} {не=PART=} {смолкать=V,intr=praet,pl,indic,pf} {ветерок=S,m,inan=(acc,pl|nom,pl)} {стих=S,m,inan=gen,pl},
-{еще=ADV=} {звучать=V,ipf,intr=inpraes,pl,indic,3p} {цветение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {соната=S,f,inan=gen,pl},
-{еще=ADV=} {ворковать=V,ipf,intr=inpraes,pl,indic,3p} {сладко=ADV=} {адвокат=S,m,anim=nom,pl}, —
-{а=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {приять=V,pf,tran=inf} {конец=S,m,inan=(acc,sg|nom,sg)} {уже=ADV=} {готовый=A=sg,brev,m}.
+Всё{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} бедствия{бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, притом{притом=CONJ=} не{не=PART=} без{без=PR=} причины{причина=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+От{от=PR=} деяний{деяние=S,n,inan=gen,pl}, от{от=PR=} мыслей{мысль=S,f,inan=gen,pl} и{и=CONJ=} от{от=PR=} слов{слово=S,n,inan=gen,pl}.
+Еще{еще=ADV=} порхают{порхать=V,ipf,intr=inpraes,pl,indic,3p} ножки{ножка=S,f,inan=(acc,pl|gen,sg|nom,pl)} балерины{балерина=S,f,anim=(gen,sg|nom,pl)},
+Еще{еще=ADV=} не{не=PART=} смолкли{смолкать=V,intr=praet,pl,indic,pf} ветерки{ветерок=S,m,inan=(acc,pl|nom,pl)} стихов{стих=S,m,inan=gen,pl},
+Еще{еще=ADV=} звучат{звучать=V,ipf,intr=inpraes,pl,indic,3p} цветения{цветение=S,n,inan=(acc,pl|gen,sg|nom,pl)} сонат{соната=S,f,inan=gen,pl},
+Еще{еще=ADV=} воркуют{ворковать=V,ipf,intr=inpraes,pl,indic,3p} сладко{сладко=ADV=} адвокаты{адвокат=S,m,anim=nom,pl}, —
+А{а=CONJ=} мир{мир=S,m,inan=(acc,sg|nom,sg)} приять{приять=V,pf,tran=inf} конец{конец=S,m,inan=(acc,sg|nom,sg)} уже{уже=ADV=} готов{готовый=A=sg,brev,m}.
 
-{да=PART=}, {мир=S,m,inan=(acc,sg|nom,sg)} {приять=V,pf,tran=inf} {конец=S,m,inan=(acc,sg|nom,sg)} {уже=ADV=} {готовый=A=sg,brev,m}
-{в=PR=} {коготь=S,m,inan=abl,pl} {нечеловеческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кручина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{пред=PR=} {судный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {лик=S,m,inan=ins,sg} {массовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {голгофа=S,f,inan=gen,pl}
-{и=CONJ=} {пред=PR=} {разверстый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пропасть=S,f,inan=ins,sg} {трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{но=CONJ=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {живой=A=sg,brev,f}, {и=CONJ=} {значит=ADV,parenth=} — {быть=V,intr=inpraes,sg,indic,3p} {живой=A=sg,brev,m}
-{и=CONJ=} {грешный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)} — {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {трепет=S,m,inan=(acc,sg|nom,sg)}, {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {порыв=S,m,inan=(acc,sg|nom,sg)}!
-{он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {жить=V,ipf,intr=inf}, {взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {на=PR=} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+Да{да=PART=}, мир{мир=S,m,inan=(acc,sg|nom,sg)} приять{приять=V,pf,tran=inf} конец{конец=S,m,inan=(acc,sg|nom,sg)} уже{уже=ADV=} готов{готовый=A=sg,brev,m}
+В{в=PR=} когтях{коготь=S,m,inan=abl,pl} нечеловеческой{нечеловеческий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кручины{кручина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Пред{пред=PR=} судным{судный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} ликом{лик=S,m,inan=ins,sg} массовых{массовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} голгоф{голгофа=S,f,inan=gen,pl}
+И{и=CONJ=} пред{пред=PR=} разверстой{разверстый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} пропастью{пропасть=S,f,inan=ins,sg} трясины{трясина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Но{но=CONJ=} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} жива{живой=A=sg,brev,f}, и{и=CONJ=} значит{значит=ADV,parenth=} — будет{быть=V,intr=inpraes,sg,indic,3p} жив{живой=A=sg,brev,m}
+И{и=CONJ=} грешный{грешный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мир{мир=S,m,inan=(acc,sg|nom,sg)} — весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} трепет{трепет=S,m,inan=(acc,sg|nom,sg)}, весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} порыв{порыв=S,m,inan=(acc,sg|nom,sg)}!
+Он{он=SPRO,sg,3p,m=nom} будет{быть=V,intr=inpraes,sg,indic,3p} жить{жить=V,ipf,intr=inf}, взнесенный{взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} на{на=PR=} вершины{вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
 
-{он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {жить=V,ipf,intr=inf}, {взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {на=PR=} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {благоуханный=A=(abl,sg,plen,m|abl,sg,plen,n)} {шелест=S,m,inan=abl,sg} {дуброва=S,f,inan=gen,pl},
-{в=PR=} {сияние=S,n,inan=abl,sg} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {в=PR=} {звук=S,m,inan=abl,pl} {мандолина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {протяжный=A=(abl,sg,plen,m|abl,sg,plen,n)} {гуд=S,m,inan=abl,sg} {северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ветер=S,m,inan=gen,pl},
-{в=PR=} {любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сердце=S,n,inan=gen,pl}, {в=PR=} {изнежие?=S,n,inan=abl,sg} {малина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {симфония=S,f,inan=abl,pl} {и=CONJ=} {в=PR=} {медь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {четкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {строфа=S,f,inan=gen,pl}.
-{мир=S,m,inan=(acc,sg|nom,sg)} {исполин=S,m,anim=nom,sg} — {бессмертный=A=pl,brev} {исполин=S,m,anim=nom,pl}!
+Он{он=SPRO,sg,3p,m=nom} будет{быть=V,intr=inpraes,sg,indic,3p} жить{жить=V,ipf,intr=inf}, взнесенный{взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} на{на=PR=} вершины{вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} благоуханном{благоуханный=A=(abl,sg,plen,m|abl,sg,plen,n)} шелесте{шелест=S,m,inan=abl,sg} дубров{дуброва=S,f,inan=gen,pl},
+В{в=PR=} сияньи{сияние=S,n,inan=abl,sg} солнца{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, в{в=PR=} звуках{звук=S,m,inan=abl,pl} мандолины{мандолина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} протяжном{протяжный=A=(abl,sg,plen,m|abl,sg,plen,n)} гуде{гуд=S,m,inan=abl,sg} северных{северный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} ветров{ветер=S,m,inan=gen,pl},
+В{в=PR=} любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} сердец{сердце=S,n,inan=gen,pl}, в{в=PR=} изнежии{изнежие?=S,n,inan=abl,sg} малины{малина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} симфониях{симфония=S,f,inan=abl,pl} и{и=CONJ=} в{в=PR=} меди{медь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} четких{четкий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} строф{строфа=S,f,inan=gen,pl}.
+Мир{мир=S,m,inan=(acc,sg|nom,sg)} исполин{исполин=S,m,anim=nom,sg} — бессмертны{бессмертный=A=pl,brev} исполины{исполин=S,m,anim=nom,pl}!
 
-{мир=S,m,inan=(acc,sg|nom,sg)} {исполин=S,m,anim=nom,sg}, — {бессмертный=A=pl,brev} {исполин=S,m,anim=nom,pl}!
-{он=SPRO,sg,3p,m=nom} {быть=V,intr=inpraes,sg,indic,3p} {до=PR=} {скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {век=S,m,inan=gen,pl}
-{сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {себя=SPRO=ins}: {тенет?=S,m,inan=(acc,pl|nom,pl)} {паутина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{он=SPRO,sg,3p,m=dat} {не=PART=} {страшный=A=pl,brev} — {бог=S,m,anim=dat,sg} {из=PR=} {бог=S,m,anim=(acc,pl|gen,pl)}!
-{да=CONJ=} {здравствовать=V,ipf,intr=inpraes,sg,indic,3p} {вовек=ADV=} {величие=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мир=S,m,inan=gen,sg}!
-{да=CONJ=} {славить=V,ipf,tran=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)} {восторженный=A=nom,sg,plen,f} {лира=S,f,inan=nom,sg}!
-{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {радостный=A=sg,brev,m}, {и=CONJ=} {новый=A=sg,brev,m}!
+Мир{мир=S,m,inan=(acc,sg|nom,sg)} исполин{исполин=S,m,anim=nom,sg}, — бессмертны{бессмертный=A=pl,brev} исполины{исполин=S,m,anim=nom,pl}!
+Он{он=SPRO,sg,3p,m=nom} будет{быть=V,intr=inpraes,sg,indic,3p} до{до=PR=} скончания{скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)} веков{век=S,m,inan=gen,pl}
+Самим{сам=APRO=(dat,pl|ins,sg,m|ins,sg,n)} собой{себя=SPRO=ins}: тенеты{тенет?=S,m,inan=(acc,pl|nom,pl)} паутины{паутина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Ему{он=SPRO,sg,3p,m=dat} не{не=PART=} страшны{страшный=A=pl,brev} — богу{бог=S,m,anim=dat,sg} из{из=PR=} богов{бог=S,m,anim=(acc,pl|gen,pl)}!
+Да{да=CONJ=} здравствует{здравствовать=V,ipf,intr=inpraes,sg,indic,3p} вовек{вовек=ADV=} величье{величие=S,n,inan=(abl,sg|acc,sg|nom,sg)} мира{мир=S,m,inan=gen,sg}!
+Да{да=CONJ=} славит{славить=V,ipf,tran=inpraes,sg,indic,3p} мир{мир=S,m,inan=(acc,sg|nom,sg)} восторженная{восторженный=A=nom,sg,plen,f} лира{лира=S,f,inan=nom,sg}!
+Да{да=CONJ=} будет{быть=V,intr=inpraes,sg,indic,3p} мир{мир=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} радостен{радостный=A=sg,brev,m}, и{и=CONJ=} нов{новый=A=sg,brev,m}!
 
-{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {радостный=A=sg,brev,m}, {и=CONJ=} {новый=A=sg,brev,m}!
-{греметь=V,ipf,intr=sg,imper,2p}, {оркестр=S,m,inan=(acc,sg|nom,sg)}! {цвести=V,ipf,intr=pl,imper,2p}, {апельсин=S,m,inan=(acc,pl|nom,pl)}!
-{пылать=V,ipf,intr=sg,imper,2p}, {костер=S,m,inan=(acc,sg|nom,sg)}! {я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {зов=S,m,inan=(acc,sg|nom,sg)}!
-{перед=PR=} {глаз=S,m,inan=ins,pl} — {чарный?=A=(acc,pl,plen,inan|nom,pl,plen)} {картина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {давать=V,tran=praet,pl,indic,pf} {веять=V,ipf,tran=inpraes,pl,indic,3p} {свежесть=S,f,inan=ins,sg} {морской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
-{но=CONJ=} {помнить=V,ipf,tran=sg,imper,2p} {впредь=ADV=}, {безбожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {род=S,m,inan=(acc,sg|nom,sg)} {людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}:
-{покаран?=S,persn,m,anim=nom,sg} {мир=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} {вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Да{да=CONJ=} будет{быть=V,intr=inpraes,sg,indic,3p} мир{мир=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} радостен{радостный=A=sg,brev,m}, и{и=CONJ=} нов{новый=A=sg,brev,m}!
+Греми{греметь=V,ipf,intr=sg,imper,2p}, оркестр{оркестр=S,m,inan=(acc,sg|nom,sg)}! Цветите{цвести=V,ipf,intr=pl,imper,2p}, апельсины{апельсин=S,m,inan=(acc,pl|nom,pl)}!
+Пылай{пылать=V,ipf,intr=sg,imper,2p}, костер{костер=S,m,inan=(acc,sg|nom,sg)}! Я{я=SPRO,sg,1p=nom} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} зов{зов=S,m,inan=(acc,sg|nom,sg)}!
+Перед{перед=PR=} глазами{глаз=S,m,inan=ins,pl} — чарные{чарный?=A=(acc,pl,plen,inan|nom,pl,plen)} картины{картина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} дали{давать=V,tran=praet,pl,indic,pf} веют{веять=V,ipf,tran=inpraes,pl,indic,3p} свежестью{свежесть=S,f,inan=ins,sg} морской{морской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}.
+Но{но=CONJ=} помни{помнить=V,ipf,tran=sg,imper,2p} впредь{впредь=ADV=}, безбожный{безбожный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} род{род=S,m,inan=(acc,sg|nom,sg)} людской{людской=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}:
+Покаран{покаран?=S,persn,m,anim=nom,sg} мир{мир=S,m,inan=(acc,sg|nom,sg)} за{за=PR=} тягостные{тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} вины{вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{покаран?=S,persn,m,anim=nom,sg} {мир=S,m,inan=(acc,sg|nom,sg)} {за=PR=} {тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} {вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
-{царь=S,m,anim=nom,sg} {голод=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {гроб=S,m,inan=gen,pl} —
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {притом=CONJ=} {не=PART=} {без=PR=} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {мир=S,m,inan=(acc,sg|nom,sg)} {приять=V,pf,tran=inf} {конец=S,m,inan=(acc,sg|nom,sg)} {уже=ADV=} {готовый=A=sg,brev,m},
-{но=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {жить=V,ipf,intr=inf}, {взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {на=PR=} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{мир=S,m,inan=(acc,sg|nom,sg)} {исполин=S,m,anim=nom,sg}, — {бессмертный=A=pl,brev} {исполин=S,m,anim=nom,pl}!
-{да=CONJ=} {быть=V,intr=inpraes,sg,indic,3p} {мир=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {радостный=A=sg,brev,m}, {и=CONJ=} {новый=A=sg,brev,m}!
+Покаран{покаран?=S,persn,m,anim=nom,sg} мир{мир=S,m,inan=(acc,sg|nom,sg)} за{за=PR=} тягостные{тягостный=A=(acc,pl,plen,inan|nom,pl,plen)} вины{вина=S,f,inan=(acc,pl|gen,sg|nom,pl)}:
+Царь{царь=S,m,anim=nom,sg} Голод{голод=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} процессии{процессия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} гробов{гроб=S,m,inan=gen,pl} —
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} бедствия{бедствие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, притом{притом=CONJ=} не{не=PART=} без{без=PR=} причины{причина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} мир{мир=S,m,inan=(acc,sg|nom,sg)} приять{приять=V,pf,tran=inf} конец{конец=S,m,inan=(acc,sg|nom,sg)} уже{уже=ADV=} готов{готовый=A=sg,brev,m},
+Но{но=CONJ=} будет{быть=V,intr=inpraes,sg,indic,3p} жить{жить=V,ipf,intr=inf}, взнесенный{взносить=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} на{на=PR=} вершины{вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Мир{мир=S,m,inan=(acc,sg|nom,sg)} исполин{исполин=S,m,anim=nom,sg}, — бессмертны{бессмертный=A=pl,brev} исполины{исполин=S,m,anim=nom,pl}!
+Да{да=CONJ=} будет{быть=V,intr=inpraes,sg,indic,3p} мир{мир=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} радостен{радостный=A=sg,brev,m}, и{и=CONJ=} нов{новый=A=sg,brev,m}!

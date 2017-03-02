@@ -1,24 +1,24 @@
-{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{троичность=S,f,inan=(acc,sg|nom,sg)} {цветок=S,m,inan=gen,pl},
-{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {выдумка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{явность=S,f,inan=(acc,sg|nom,sg)} {три=NUM=(abl|gen|acc,anim)} {основа=S,f,inan=gen,pl}.
+Красный{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, желтый{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Троичность{троичность=S,f,inan=(acc,sg|nom,sg)} цветов{цветок=S,m,inan=gen,pl},
+Краски{краска=S,f,inan=(acc,pl|gen,sg|nom,pl)} выдумки{выдумка=S,f,inan=(acc,pl|gen,sg|nom,pl)} живой{живой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Явность{явность=S,f,inan=(acc,sg|nom,sg)} трех{три=NUM=(abl|gen|acc,anim)} основ{основа=S,f,inan=gen,pl}.
 
-{кислород=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {углерод=S,m,inan=(acc,sg|nom,sg)}
-{странный=A=(acc,pl,plen,inan|nom,pl,plen)} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{но=CONJ=} {и=CONJ=} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {поэт=S,m,anim=nom,sg} {взять=V,pf,tran=inpraes,sg,indic,3p},
-{в=PR=} {они=SPRO,pl=(abl|acc|gen)} {душа=S,f,inan=nom,sg} {живой=A=sg,brev,f}.
+Кислород{кислород=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} углерод{углерод=S,m,inan=(acc,sg|nom,sg)}
+Странные{странный=A=(acc,pl,plen,inan|nom,pl,plen)} слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Но{но=CONJ=} и{и=CONJ=} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} поэт{поэт=S,m,anim=nom,sg} возьмет{взять=V,pf,tran=inpraes,sg,indic,3p},
+В{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} душа{душа=S,f,inan=nom,sg} жива{живой=A=sg,brev,f}.
 
-{кислород=S,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {углерод=S,m,inan=(acc,sg|nom,sg)},
-{водород=S,m,inan=(acc,sg|nom,sg)} — {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{но=CONJ=} {и=CONJ=} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мед=S,m,inan=(acc,sg|nom,sg)},
-{вешний=A=nom,sg,plen,f} {трава=S,f,inan=nom,sg}.
+Кислород{кислород=S,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} углерод{углерод=S,m,inan=(acc,sg|nom,sg)},
+Водород{водород=S,m,inan=(acc,sg|nom,sg)} — слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Но{но=CONJ=} и{и=CONJ=} в{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} желтый{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мед{мед=S,m,inan=(acc,sg|nom,sg)},
+Вешняя{вешний=A=nom,sg,plen,f} трава{трава=S,f,inan=nom,sg}.
 
-{да=CONJ=}, {в=PR=} {напев=S,m,inan=(acc,sg|nom,sg)} {поэт=S,m,anim=nom,sg} {взять=V,pf,tran=inpraes,sg,indic,3p}
-{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} {сон=S,m,inan=(acc,pl|nom,pl)},
-{золотистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {летний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мед=S,m,inan=(acc,sg|nom,sg)},
-{алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {блеск=S,m,inan=(acc,sg|nom,sg)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Да{да=CONJ=}, в{в=PR=} напев{напев=S,m,inan=(acc,sg|nom,sg)} поэт{поэт=S,m,anim=nom,sg} возьмет{взять=V,pf,tran=inpraes,sg,indic,3p}
+Голубые{голубой=A=(acc,pl,plen,inan|nom,pl,plen)} сны{сон=S,m,inan=(acc,pl|nom,pl)},
+Золотистый{золотистый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} летний{летний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мед{мед=S,m,inan=(acc,sg|nom,sg)},
+Алый{алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} блеск{блеск=S,m,inan=(acc,sg|nom,sg)} весны{весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
-{троичность=S,f,inan=(acc,sg|nom,sg)} {основа=S,f,inan=gen,pl}.
-{оставаться=V,intr=inpraes,ger,ipf} {сам=APRO=(acc,sg,m,inan|nom,sg,m)} {себя=SPRO=ins},
-{мир=S,m,inan=(acc,sg|nom,sg)} {наш=APRO=(acc,sg,m,inan|nom,sg,m)} — {они=SPRO,pl=ins} {новый=A=sg,brev,m}.
+Красный{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, желтый{желтый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
+Троичность{троичность=S,f,inan=(acc,sg|nom,sg)} основ{основа=S,f,inan=gen,pl}.
+Оставаясь{оставаться=V,intr=inpraes,ger,ipf} сам{сам=APRO=(acc,sg,m,inan|nom,sg,m)} собой{себя=SPRO=ins},
+Мир{мир=S,m,inan=(acc,sg|nom,sg)} наш{наш=APRO=(acc,sg,m,inan|nom,sg,m)} — ими{они=SPRO,pl=ins} нов{новый=A=sg,brev,m}.

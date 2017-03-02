@@ -1,14 +1,14 @@
-{выходить=V,intr=sg,imper,2p,pf} {на=PR=} {кровля=S,f,inan=acc,sg}... {склоняться=V,intr=sg,imper,2p,pf} {на=PR=} {четыре=NUM=(nom|acc,inan)}
-{сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)} {свет=S,sg,m,inan=gen}, {простереть=V,pf=praet,ger} {ладонь=S,f,inan=(acc,sg|nom,sg)}.
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}... {вода=S,f,inan=nom,sg}... {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}... {огонь=S,m,inan=(acc,sg|nom,sg)}...
-{все=SPRO,pl=(acc|nom)}, {что=SPRO,sg,n,inan=(acc|nom)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {прекрасный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {в=PR=} {мир=S,m,inan=abl,sg}...
+Выйди{выходить=V,intr=sg,imper,2p,pf} на{на=PR=} кровлю{кровля=S,f,inan=acc,sg}... Склонись{склоняться=V,intr=sg,imper,2p,pf} на{на=PR=} четыре{четыре=NUM=(nom|acc,inan)}
+Стороны{сторона=S,f,inan=(acc,pl|gen,sg|nom,pl)} света{свет=S,sg,m,inan=gen}, простерши{простереть=V,pf=praet,ger} ладонь{ладонь=S,f,inan=(acc,sg|nom,sg)}.
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)}... вода{вода=S,f,inan=nom,sg}... облака{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}... огонь{огонь=S,m,inan=(acc,sg|nom,sg)}...
+Всё{все=SPRO,pl=(acc|nom)}, что{что=SPRO,sg,n,inan=(acc|nom)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} прекрасного{прекрасный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} в{в=PR=} мире{мир=S,m,inan=abl,sg}...
 
-{факел=S,m,inan=(acc,sg|nom,sg)} {косматый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {в=PR=} {шафранный=A=(abl,sg,plen,m|abl,sg,plen,n)} {туман=S,m,inan=abl,sg},
-{влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {парча=S,f,inan=ins,sg} {расплескивать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {луч=S,m,inan=(acc,sg|nom,sg)},
-{к=PR=} {небо=S,n,inan=dat,sg} {из=PR=} {пена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {простертый=A=(acc,pl,plen,inan|nom,pl,plen)} {длань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {грамота=S,f,inan=gen,pl} {закатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сургуч=S,m,inan=(acc,sg|nom,sg)}.
+Факел{факел=S,m,inan=(acc,sg|nom,sg)} косматый{косматый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} в{в=PR=} шафранном{шафранный=A=(abl,sg,plen,m|abl,sg,plen,n)} тумане{туман=S,m,inan=abl,sg},
+Влажной{влажный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} парчою{парча=S,f,inan=ins,sg} расплесканный{расплескивать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} луч{луч=S,m,inan=(acc,sg|nom,sg)},
+К{к=PR=} небу{небо=S,n,inan=dat,sg} из{из=PR=} пены{пена=S,f,inan=(acc,pl|gen,sg|nom,pl)} простертые{простертый=A=(acc,pl,plen,inan|nom,pl,plen)} длани{длань=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Облачных{облачный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} грамот{грамота=S,f,inan=gen,pl} закатный{закатный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сургуч{сургуч=S,m,inan=(acc,sg|nom,sg)}.
 
-{гаснуть=V,ipf,intr=inpraes,pl,indic,3p} {во=PR=} {время=S,n,inan=(abl,sg|dat,sg|gen,sg)}, {тонуть=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {пространство=S,n,inan=abl,sg}
-{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {событие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {корабль=S,m,inan=(acc,pl|nom,pl)}...
-{я=SPRO,sg,1p=nom} {ж=PART=} {уносить=V=inpraes,sg,indic,1p,ipf,tran} {в=PR=} {свой=APRO=(acc,sg,n|nom,sg,n)} {странствие=S,n,inan=(acc,sg|nom,sg)} {странствие=S,n,inan=gen,pl}
-{хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)} {из=PR=} {наваждение=S,n,inan=gen,pl} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Гаснут{гаснуть=V,ipf,intr=inpraes,pl,indic,3p} во{во=PR=} времени{время=S,n,inan=(abl,sg|dat,sg|gen,sg)}, тонут{тонуть=V,ipf,intr=inpraes,pl,indic,3p} в{в=PR=} пространстве{пространство=S,n,inan=abl,sg}
+Мысли{мысль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, событья{событие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, корабли{корабль=S,m,inan=(acc,pl|nom,pl)}...
+Я{я=SPRO,sg,1p=nom} ж{ж=PART=} уношу{уносить=V=inpraes,sg,indic,1p,ipf,tran} в{в=PR=} свое{свой=APRO=(acc,sg,n|nom,sg,n)} странствие{странствие=S,n,inan=(acc,sg|nom,sg)} странствий{странствие=S,n,inan=gen,pl}
+Лучшее{хороший=A=(acc,sg,plen,supr,n|nom,sg,plen,supr,n)} из{из=PR=} наваждений{наваждение=S,n,inan=gen,pl} земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

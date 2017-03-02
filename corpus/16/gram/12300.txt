@@ -1,24 +1,24 @@
-{царство=S,n,inan=(acc,sg|nom,sg)} {здравый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {смысл=S,m,inan=gen,sg} —
-{твой=APRO=nom,sg,f} {страна=S,f,inan=nom,sg}.
-{чуждый=A=sg,brev,n} {над=PR=} {она=SPRO,sg,3p,f=ins} {нависать=V,intr=praet,sg,indic,f,pf}
-{мой=APRO=nom,sg,f} {луна=S,f,inan=nom,sg}.
+Царство{царство=S,n,inan=(acc,sg|nom,sg)} Здравого{здравый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} Смысла{смысл=S,m,inan=gen,sg} —
+Твоя{твой=APRO=nom,sg,f} страна{страна=S,f,inan=nom,sg}.
+Чуждо{чуждый=A=sg,brev,n} над{над=PR=} нею{она=SPRO,sg,3p,f=ins} нависла{нависать=V,intr=praet,sg,indic,f,pf}
+Моя{мой=APRO=nom,sg,f} луна{луна=S,f,inan=nom,sg}.
 
-{все=SPRO,pl=(acc|nom)} {в=PR=} {образцовый=A=(abl,sg,plen,m|abl,sg,plen,n)} {порядок=S,m,inan=abl,sg}
-{в=PR=} {страна=S,f,inan=(abl,sg|dat,sg)} {твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)};
-{улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} {блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {гладкий=A=pl,brev},
-{полный=A=pl,brev} {человек=S,m,anim=(acc,pl|gen,pl)}.
+Все{все=SPRO,pl=(acc|nom)} в{в=PR=} образцовом{образцовый=A=(abl,sg,plen,m|abl,sg,plen,n)} порядке{порядок=S,m,inan=abl,sg}
+В{в=PR=} стране{страна=S,f,inan=(abl,sg|dat,sg)} твоей{твой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)};
+Улицы{улица=S,f,inan=(acc,pl|gen,sg|nom,pl)} блестки{блестка=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} гладки{гладкий=A=pl,brev},
+Полны{полный=A=pl,brev} людей{человек=S,m,anim=(acc,pl|gen,pl)}.
 
-{человек=S,m,anim=nom,pl} {жить=V,ipf,intr=inpraes,pl,indic,3p}, {проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)}
-{туда-сюда=ADVPRO=},
-{все=SPRO,pl=(acc|nom)}, {что=CONJ=} {они=SPRO,pl=dat} {нужно=ADV,praed=}, {находить=V=inpraes,pl,indic,3p,ipf},
-{и=CONJ=} {без=PR=} {труд=S,m,inan=gen,sg}.
+Люди{человек=S,m,anim=nom,pl} живут{жить=V,ipf,intr=inpraes,pl,indic,3p}, проходят{проходить=V=(inpraes,pl,indic,3p,pf,tran|inpraes,pl,indic,3p,ipf,tran)}
+Туда-сюда{туда-сюда=ADVPRO=},
+Все{все=SPRO,pl=(acc|nom)}, что{что=CONJ=} им{они=SPRO,pl=dat} нужно{нужно=ADV,praed=}, находят{находить=V=inpraes,pl,indic,3p,ipf},
+И{и=CONJ=} без{без=PR=} труда{труд=S,m,inan=gen,sg}.
 
-{учиться=V,ipf,intr=inpraes,pl,indic,3p}, {и=CONJ=} {на=PR=} {спектакль=S,m,inan=(acc,pl|nom,pl)}
-{ходить=V,ipf,intr=inpraes,pl,indic,3p} {подчас=ADV=}.
-{только=PART=} {поэт=S,m,anim=nom,pl} {иссякать=V,intr=praet,pl,indic,pf}
-{что-то=SPRO,sg,n,inan=(acc|nom)} {у=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)}...
+Учатся{учиться=V,ipf,intr=inpraes,pl,indic,3p}, и{и=CONJ=} на{на=PR=} спектакли{спектакль=S,m,inan=(acc,pl|nom,pl)}
+Ходят{ходить=V,ipf,intr=inpraes,pl,indic,3p} подчас{подчас=ADV=}.
+Только{только=PART=} поэты{поэт=S,m,anim=nom,pl} иссякли{иссякать=V,intr=praet,pl,indic,pf}
+Что-то{что-то=SPRO,sg,n,inan=(acc|nom)} у{у=PR=} вас{вы=SPRO,pl,2p=(abl|acc|gen)}...
 
-{да=PART=}! {но=CONJ=} {никто=SPRO,sg,m,anim=nom} {не=PART=} {скучать=V,ipf,intr=inpraes,sg,indic,3p}:
-{мало=NUM=comp} {грех=S,m,inan=gen,pl},
-{благо=S,n,inan=(acc,sg|nom,sg)}, {страна=S,f,inan=nom,sg} {процветать=V,intr=inpraes,sg,indic,3p,ipf}
-{и=CONJ=} {без=PR=} {стих=S,m,inan=gen,pl}...
+Да{да=PART=}! Но{но=CONJ=} никто{никто=SPRO,sg,m,anim=nom} не{не=PART=} скучает{скучать=V,ipf,intr=inpraes,sg,indic,3p}:
+Меньше{мало=NUM=comp} грехов{грех=S,m,inan=gen,pl},
+Благо{благо=S,n,inan=(acc,sg|nom,sg)}, страна{страна=S,f,inan=nom,sg} процветает{процветать=V,intr=inpraes,sg,indic,3p,ipf}
+И{и=CONJ=} без{без=PR=} стихов{стих=S,m,inan=gen,pl}...

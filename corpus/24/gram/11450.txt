@@ -1,31 +1,31 @@
-{тесный=A=ins,pl,plen} {семья=S,f,inan=ins,pl} {сестринский=A=pl,brev}-{сродный=A=(acc,pl,plen,inan|nom,pl,plen)}
-{в=PR=} {отчий=A=(abl,sg,plen,m|abl,sg,plen,n)} {просторный=A=(abl,sg,plen,m|abl,sg,plen,n)} {дом=S,m,inan=(dat,sg|part,sg|loc,sg)}
-{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {жить=V,ipf,intr=inpraes,pl,indic,3p} {и=CONJ=} {чреда=S,f,inan=ins,sg}, {свободный=S,m,anim=nom,pl},
-{сходить=V,intr=inpraes,pl,indic,3p,ipf} {в=PR=} {земной=A=acc,sg,plen,f} {тюрьма=S,f,inan=acc,sg}.
-{каждый=APRO=nom,sg,f} {глянуть=V,pf,intr=inpraes,sg,indic,3p} {в=PR=} {колодезь=S,m,inan=(acc,sg|nom,sg)} {дремучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{каждый=APRO=nom,sg,f} {кануть=V,pf,intr=inpraes,sg,indic,3p} {звезда=S,f,inan=ins,sg} {падучая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
-{с=PR=} {дерево=S,n,inan=(acc,pl|gen,sg|nom,pl)} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {в=PR=} {летейский?=A=acc,sg,plen,f} {тьма=S,f,inan=acc,sg}.
+Тесными{тесный=A=ins,pl,plen} семьями{семья=S,f,inan=ins,pl} сестрински{сестринский=A=pl,brev}-сродные{сродный=A=(acc,pl,plen,inan|nom,pl,plen)}
+В{в=PR=} Отчем{отчий=A=(abl,sg,plen,m|abl,sg,plen,n)} просторном{просторный=A=(abl,sg,plen,m|abl,sg,plen,n)} дому{дом=S,m,inan=(dat,sg|part,sg|loc,sg)}
+Души{душа=S,f,inan=(acc,pl|gen,sg|nom,pl)} живут{жить=V,ipf,intr=inpraes,pl,indic,3p} и{и=CONJ=} чредою{чреда=S,f,inan=ins,sg}, свободные{свободный=S,m,anim=nom,pl},
+Сходят{сходить=V,intr=inpraes,pl,indic,3p,ipf} в{в=PR=} земную{земной=A=acc,sg,plen,f} тюрьму{тюрьма=S,f,inan=acc,sg}.
+Каждая{каждый=APRO=nom,sg,f} глянет{глянуть=V,pf,intr=inpraes,sg,indic,3p} в{в=PR=} колодезь{колодезь=S,m,inan=(acc,sg|nom,sg)} дремучий{дремучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Каждая{каждый=APRO=nom,sg,f} канет{кануть=V,pf,intr=inpraes,sg,indic,3p} звездою{звезда=S,f,inan=ins,sg} падучей{падучая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+С{с=PR=} Дерева{дерево=S,n,inan=(acc,pl|gen,sg|nom,pl)} Жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} в{в=PR=} летейскую{летейский?=A=acc,sg,plen,f} тьму{тьма=S,f,inan=acc,sg}.
 
-{каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} — {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {суд=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {возмездие=S,n,inan=(abl,sg|acc,sg|nom,sg)}; {но=CONJ=} {связанный=A=sg,brev,f}
-{общий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {порука=S,f,inan=ins,sg} {семья=S,f,inan=nom,sg}:
-{цельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {единый=A=nom,sg,plen,f} {цель=S,f,inan=(acc,sg|nom,sg)} {предуказывать?=V=praet,sg,partcp,brev,f,pf,pass},
-{светить=V,ipf,intr=inpraes,sg,indic,3p} {единый=A=(acc,sg,plen,n|nom,sg,plen,n)} {я=SPRO,sg,1p=nom}.
-{если=CONJ=} {в=PR=} {скитание=S,n,inan=abl,sg} {сестра=S,f,anim=nom,sg} {изнемогать=V,intr=inpraes,sg,indic,3p,pf},
-{вслед=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {сестра=S,f,anim=nom,sg} {низлетать?=V,intr=inpraes,sg,indic,3p,pf} {и=CONJ=} {помогать=V,intr=inpraes,sg,indic,3p,pf}:
-{каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {заслуга=S,f,inan=nom,sg} — {победа=S,f,inan=nom,sg} {твой=APRO=nom,sg,f}.
+Каждой{каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} — свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} суд{суд=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} возмездье{возмездие=S,n,inan=(abl,sg|acc,sg|nom,sg)}; но{но=CONJ=} связана{связанный=A=sg,brev,f}
+Общей{общий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} порукой{порука=S,f,inan=ins,sg} семья{семья=S,f,inan=nom,sg}:
+Цельной{цельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} единая{единый=A=nom,sg,plen,f} цель{цель=S,f,inan=(acc,sg|nom,sg)} предуказана{предуказывать?=V=praet,sg,partcp,brev,f,pf,pass},
+Светит{светить=V,ipf,intr=inpraes,sg,indic,3p} единое{единый=A=(acc,sg,plen,n|nom,sg,plen,n)} я{я=SPRO,sg,1p=nom}.
+Если{если=CONJ=} в{в=PR=} скитаньи{скитание=S,n,inan=abl,sg} сестра{сестра=S,f,anim=nom,sg} изнеможет{изнемогать=V,intr=inpraes,sg,indic,3p,pf},
+Вслед{вслед=ADV=} ей{она=SPRO,sg,3p,f=(dat|ins)} сестра{сестра=S,f,anim=nom,sg} низлетит{низлетать?=V,intr=inpraes,sg,indic,3p,pf} и{и=CONJ=} поможет{помогать=V,intr=inpraes,sg,indic,3p,pf}:
+Каждой{каждый=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} заслуга{заслуга=S,f,inan=nom,sg} — победа{победа=S,f,inan=nom,sg} твоя{твой=APRO=nom,sg,f}.
 
-{брама=S,persn,m,anim=(gen,sg|nom,pl)} {рабыня=S,f,anim=ins,sg} {ты=SPRO,sg,2p=(acc|gen)} {чернокудрый=A=ins,sg,plen,f}
-{видеть=V,ipf,tran=inpraes,sg,indic,1p} {на=PR=} {ганг=S,famn,m,anim=abl,sg} {святой=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{в=PR=} {терем=S,m,inan=abl,sg} {киевский=A=(abl,sg,plen,m|abl,sg,plen,n)} {ольга=S,persn,f,anim=ins,sg} {премудрый=A=ins,sg,plen,f},
-{жрица=S,f,anim=ins,sg} {в=PR=} {египет=S,geo,m,inan=abl,sg} {седой=A=(abl,sg,plen,m|abl,sg,plen,n)};
-{видеть=V,ipf,tran=inpraes,sg,indic,1p} {ты=SPRO,sg,2p=(acc|gen)} {исповедница=S,f,anim=ins,sg} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{дева=S,f,anim=ins,sg}, {ослепнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {за=PR=} {имя=S,n,inan=(acc,sg|nom,sg)} {христов=A,plen,poss=(acc,sg,n|nom,sg,n)},
-{усекновенный?=A=ins,sg,plen,f} {римский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {меч=S,m,inan=ins,sg}.
+Брамы{брама=S,persn,m,anim=(gen,sg|nom,pl)} рабыней{рабыня=S,f,anim=ins,sg} тебя{ты=SPRO,sg,2p=(acc|gen)} чернокудрою{чернокудрый=A=ins,sg,plen,f}
+Вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} на{на=PR=} Ганге{ганг=S,famn,m,anim=abl,sg} святом{святой=A=(abl,sg,plen,m|abl,sg,plen,n)},
+В{в=PR=} тереме{терем=S,m,inan=abl,sg} киевском{киевский=A=(abl,sg,plen,m|abl,sg,plen,n)} Ольгой{ольга=S,persn,f,anim=ins,sg} премудрою{премудрый=A=ins,sg,plen,f},
+Жрицей{жрица=S,f,anim=ins,sg} в{в=PR=} Египте{египет=S,geo,m,inan=abl,sg} седом{седой=A=(abl,sg,plen,m|abl,sg,plen,n)};
+Вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} тебя{ты=SPRO,sg,2p=(acc|gen)} исповедницей{исповедница=S,f,anim=ins,sg} Слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Девой{дева=S,f,anim=ins,sg}, ослепшей{ослепнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} за{за=PR=} Имя{имя=S,n,inan=(acc,sg|nom,sg)} Христово{христов=A,plen,poss=(acc,sg,n|nom,sg,n)},
+Усекновенною{усекновенный?=A=ins,sg,plen,f} римским{римский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} мечом{меч=S,m,inan=ins,sg}.
 
-{ты=SPRO,sg,2p=nom} {ли=PART=} {за=PR=} {памятный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {сердце=S,n,inan=dat,sg} {святыня=S,f,inan=ins,sg}
-{идти=V,ipf,intr=praet,sg,indic,f}, {воплощение=S,n,inan=gen,pl} {тропа=S,f,inan=ins,sg},
-{то=CONJ=} {баядера=S,f,anim=ins,sg}, {то=CONJ=} {вещь=S,f,inan=gen,pl} {княгиня=S,f,anim=ins,sg},
-{то=CONJ=} {христианка=S,f,anim=ins,sg} {слепой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}?..
-{нет=PART=}!.. {но=CONJ=} {себя=SPRO=ins} {на=PR=} {отчий=A=(abl,sg,plen,m|abl,sg,plen,n)} {порог=S,m,inan=abl,sg}
-{вспомнить=V,pf,tran=inpraes,sg,indic,3p} {душа=S,f,inan=nom,sg} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {сестра=S,f,anim=(acc,pl|gen,pl)} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {в=PR=} {бог=S,m,anim=abl,sg},
-{с=PR=} {единосущный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {воскресать=V,intr=praet,ger,pf} {толпа=S,f,inan=ins,sg}.
+Ты{ты=SPRO,sg,2p=nom} ли{ли=PART=} за{за=PR=} памятной{памятный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} сердцу{сердце=S,n,inan=dat,sg} святынею{святыня=S,f,inan=ins,sg}
+Шла{идти=V,ipf,intr=praet,sg,indic,f}, воплощений{воплощение=S,n,inan=gen,pl} тропой{тропа=S,f,inan=ins,sg},
+То{то=CONJ=} баядерой{баядера=S,f,anim=ins,sg}, то{то=CONJ=} вещей{вещь=S,f,inan=gen,pl} княгинею{княгиня=S,f,anim=ins,sg},
+То{то=CONJ=} христианкой{христианка=S,f,anim=ins,sg} слепой{слепой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}?..
+Нет{нет=PART=}!.. Но{но=CONJ=} собою{себя=SPRO=ins} на{на=PR=} Отчем{отчий=A=(abl,sg,plen,m|abl,sg,plen,n)} пороге{порог=S,m,inan=abl,sg}
+Вспомнит{вспомнить=V,pf,tran=inpraes,sg,indic,3p} душа{душа=S,f,inan=nom,sg} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} сестер{сестра=S,f,anim=(acc,pl|gen,pl)} своих{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} в{в=PR=} Боге{бог=S,m,anim=abl,sg},
+С{с=PR=} единосущной{единосущный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} воскреснув{воскресать=V,intr=praet,ger,pf} толпой{толпа=S,f,inan=ins,sg}.

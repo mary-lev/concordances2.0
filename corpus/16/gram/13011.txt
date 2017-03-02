@@ -1,19 +1,19 @@
-{жизнь=S,f,inan=(acc,sg|nom,sg)} {догорать=V,intr=inpraes,sg,indic,3p,ipf}... {мир=S,m,inan=(acc,sg|nom,sg)} {умирать=V,intr=inpraes,sg,indic,3p,ipf}...
-{небо=S,n,inan=(acc,sg|nom,sg)} {карать=V,ipf,tran=inpraes,sg,indic,3p} {грешный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {человек=S,m,anim=(acc,pl|gen,pl)}.
-{бог=S,m,anim=nom,sg} {собирать=V=inpraes,sg,indic,3p,ipf,tran} {и=CONJ=} {отбирать=V=inpraes,sg,indic,3p,ipf,tran}
-{правый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {от=PR=} {грешный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {бог=S,m,anim=nom,sg} — {чародей=S,m,anim=nom,sg}.
+Жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} догорает{догорать=V,intr=inpraes,sg,indic,3p,ipf}... Мир{мир=S,m,inan=(acc,sg|nom,sg)} умирает{умирать=V,intr=inpraes,sg,indic,3p,ipf}...
+Небо{небо=S,n,inan=(acc,sg|nom,sg)} карает{карать=V,ipf,tran=inpraes,sg,indic,3p} грешных{грешный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} людей{человек=S,m,anim=(acc,pl|gen,pl)}.
+Бог{бог=S,m,anim=nom,sg} собирает{собирать=V=inpraes,sg,indic,3p,ipf,tran} и{и=CONJ=} отбирает{отбирать=V=inpraes,sg,indic,3p,ipf,tran}
+Правых{правый=S,m,anim=(abl,pl|acc,pl|gen,pl)} от{от=PR=} грешных{грешный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, Бог{бог=S,m,anim=nom,sg} — Чародей{чародей=S,m,anim=nom,sg}.
 
-{всюду=ADVPRO=} {ворчание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {всюду=ADVPRO=} {кричанье?=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{всюду=ADVPRO=} {рычание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, — {человек=S,m,anim=nom,pl} {ли=PART=} {вы=SPRO,pl,2p=nom}?
-{но=CONJ=} {в=PR=} {отвечание?=S,n,inan=(abl,sg|acc,sg|nom,sg)} {слышный=A=sg,brev,n} {молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
-{человек=S,m,anim=nom,pl} — {как=CONJ=} {тигр=S,m,anim=nom,pl}! {человек=S,m,anim=nom,pl} — {как=CONJ=} {лев=S,m,anim=nom,pl}!
+Всюду{всюду=ADVPRO=} ворчанье{ворчание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, всюду{всюду=ADVPRO=} кричанье{кричанье?=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Всюду{всюду=ADVPRO=} рычанье{рычание=S,n,inan=(abl,sg|acc,sg|nom,sg)}, — люди{человек=S,m,anim=nom,pl} ли{ли=PART=} вы{вы=SPRO,pl,2p=nom}?
+Но{но=CONJ=} в{в=PR=} отвечанье{отвечание?=S,n,inan=(abl,sg|acc,sg|nom,sg)} слышно{слышный=A=sg,brev,n} молчанье{молчание=S,n,inan=(abl,sg|acc,sg|nom,sg)}:
+Люди{человек=S,m,anim=nom,pl} — как{как=CONJ=} тигры{тигр=S,m,anim=nom,pl}! люди{человек=S,m,anim=nom,pl} — как{как=CONJ=} львы{лев=S,m,anim=nom,pl}!
 
-{все=SPRO,pl=(acc|nom)} {друг=S,m,anim=nom,sg} {на=PR=} {друг=S,m,anim=(acc,sg|gen,sg)}: {с=PR=} {север=S,m,inan=gen,sg}, {с=PR=} {юг=S,m,inan=gen,sg},
-{друг=S,m,anim=nom,sg} {и=CONJ=} {подруга=S,f,anim=nom,sg} — {все=SPRO,pl=(acc|nom)} {против=PR=} {все=SPRO,pl=(abl|acc|gen)}!
-{нет=PART=} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {испуг=S,m,inan=gen,sg}, {в=PR=} {голос=S,m,inan=abl,sg} — {вьюга=S,f,inan=nom,sg},
-{в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {преступность=S,f,inan=(acc,sg|nom,sg)}, {в=PR=} {помысел=S,m,inan=abl,pl} {грех=S,m,inan=(acc,sg|nom,sg)}..
+Все{все=SPRO,pl=(acc|nom)} друг{друг=S,m,anim=nom,sg} на{на=PR=} друга{друг=S,m,anim=(acc,sg|gen,sg)}: с{с=PR=} севера{север=S,m,inan=gen,sg}, с{с=PR=} юга{юг=S,m,inan=gen,sg},
+Друг{друг=S,m,anim=nom,sg} и{и=CONJ=} подруга{подруга=S,f,anim=nom,sg} — все{все=SPRO,pl=(acc|nom)} против{против=PR=} всех{все=SPRO,pl=(abl|acc|gen)}!
+Нет{нет=PART=} в{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} испуга{испуг=S,m,inan=gen,sg}, в{в=PR=} голосе{голос=S,m,inan=abl,sg} — вьюга{вьюга=S,f,inan=nom,sg},
+В{в=PR=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} преступность{преступность=S,f,inan=(acc,sg|nom,sg)}, в{в=PR=} помыслах{помысел=S,m,inan=abl,pl} грех{грех=S,m,inan=(acc,sg|nom,sg)}..
 
-{полно=ADV=} {вы=SPRO,pl,2p=dat}, {быть=V,intr=inpraes,sg,indic,3p}! {бог=S,m,anim=nom,sg} {вы=SPRO,pl,2p=(abl|acc|gen)} {рассудить=V,pf,tran=inpraes,sg,indic,3p},
-{бог=S,m,anim=nom,sg} {вы=SPRO,pl,2p=(abl|acc|gen)} {очудить?=V,pf,intr=inpraes,sg,indic,3p}! {клекот=S,m,inan=(acc,sg|nom,sg)} {орел=S,m,anim=(acc,sg|gen,sg)}
-{мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} {пробуждать=V=inpraes,sg,indic,3p,pf}, {грешник=S,m,anim=(acc,pl|gen,pl)} {сгрудить=V,pf,tran=inpraes,sg,indic,3p},
-{верить=V,ipf,intr=inf} {понуждать=V=inpraes,sg,indic,3p,pf}: {смерть=S,f,inan=(acc,sg|nom,sg)} {умирать=V,intr=praet,sg,indic,f,pf}!
+Полно{полно=ADV=} вам{вы=SPRO,pl,2p=dat}, будет{быть=V,intr=inpraes,sg,indic,3p}! Бог{бог=S,m,anim=nom,sg} вас{вы=SPRO,pl,2p=(abl|acc|gen)} рассудит{рассудить=V,pf,tran=inpraes,sg,indic,3p},
+Бог{бог=S,m,anim=nom,sg} вас{вы=SPRO,pl,2p=(abl|acc|gen)} очудит{очудить?=V,pf,intr=inpraes,sg,indic,3p}! Клекот{клекот=S,m,inan=(acc,sg|nom,sg)} орла{орел=S,m,anim=(acc,sg|gen,sg)}
+Мертвых{мертвый=S,m,anim=(abl,pl|acc,pl|gen,pl)} пробудит{пробуждать=V=inpraes,sg,indic,3p,pf}, грешников{грешник=S,m,anim=(acc,pl|gen,pl)} сгрудит{сгрудить=V,pf,tran=inpraes,sg,indic,3p},
+Верить{верить=V,ipf,intr=inf} понудит{понуждать=V=inpraes,sg,indic,3p,pf}: смерть{смерть=S,f,inan=(acc,sg|nom,sg)} умерла{умирать=V,intr=praet,sg,indic,f,pf}!

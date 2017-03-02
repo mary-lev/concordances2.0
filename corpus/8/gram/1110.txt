@@ -1,24 +1,24 @@
-{знать=V,ipf,tran=inpraes,sg,indic,2p}, {миньон=S,m,inan=gen,sg}, {один=APRO=(acc,sg,m,inan|nom,sg,m)} {только=PART=} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}
-{быть=V,intr=praet,pl,indic,ipf} {с=PR=} {ты=SPRO,sg,2p=ins} {мы=SPRO,pl,1p=nom} {близкий=A=pl,brev}:
-{час=S,m,inan=(acc,sg|nom,sg)} {лишь=PART=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=praet,sg,indic,m,ipf} {действительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)},
-{прочий=A,plen=(nom,pl|acc,pl,inan)} — {бледный=A=(acc,pl,plen,inan|nom,pl,plen)} {список=S,m,inan=(acc,pl|nom,pl)}!
+Знаешь{знать=V,ipf,tran=inpraes,sg,indic,2p}, Миньона{миньон=S,m,inan=gen,sg}, один{один=APRO=(acc,sg,m,inan|nom,sg,m)} только{только=PART=} раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)}
+Были{быть=V,intr=praet,pl,indic,ipf} с{с=PR=} тобою{ты=SPRO,sg,2p=ins} мы{мы=SPRO,pl,1p=nom} близки{близкий=A=pl,brev}:
+Час{час=S,m,inan=(acc,sg|nom,sg)} лишь{лишь=PART=} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} был{быть=V,intr=praet,sg,indic,m,ipf} действительный{действительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} час{час=S,m,inan=(acc,sg|nom,sg)},
+Прочие{прочий=A,plen=(nom,pl|acc,pl,inan)} — бледные{бледный=A=(acc,pl,plen,inan|nom,pl,plen)} списки{список=S,m,inan=(acc,pl|nom,pl)}!
 
-{свет=S,sg,m,inan=(acc|nom)} {озарять=V,tran=praet,sg,indic,m,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} {и=CONJ=} {быстро=ADV=} {погасать=V,intr=praet,sg,indic,m,pf},
-{сжиматься=V,intr=praet,pl,indic,pf} {извив=S,m,inan=(acc,pl|nom,pl)} {объятие=S,n,inan=gen,pl},
-{стрелка=S,f,inan=nom,sg} {час=S,m,inan=gen,pl} {обозначать=V,tran=praet,sg,indic,f,pf}: «{час=S,m,inan=(acc,sg|nom,sg)}»
-{на=PR=} {роковый=A=(abl,sg,plen,m|abl,sg,plen,n)} {циферблат=S,m,inan=abl,sg}!
+Свет{свет=S,sg,m,inan=(acc|nom)} озарил{озарять=V,tran=praet,sg,indic,m,pf} нас{мы=SPRO,pl,1p=(abl|acc|gen)} и{и=CONJ=} быстро{быстро=ADV=} погас{погасать=V,intr=praet,sg,indic,m,pf},
+Сжались{сжиматься=V,intr=praet,pl,indic,pf} извивы{извив=S,m,inan=(acc,pl|nom,pl)} объятий{объятие=S,n,inan=gen,pl},
+Стрелка{стрелка=S,f,inan=nom,sg} часов{час=S,m,inan=gen,pl} обозначила{обозначать=V,tran=praet,sg,indic,f,pf}: «час{час=S,m,inan=(acc,sg|nom,sg)}»
+На{на=PR=} роковом{роковый=A=(abl,sg,plen,m|abl,sg,plen,n)} циферблате{циферблат=S,m,inan=abl,sg}!
 
-{в=PR=} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {лишь=PART=} {миг=S,m,inan=(acc,sg|nom,sg)}, {лишь=PART=} {единственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
-{видеть=V,ipf,tran=praet,sg,indic,m} {ты=SPRO,sg,2p=(acc|gen)} {я=SPRO,sg,1p=nom} {мой=APRO=ins,sg,f}!
-{как=ADVPRO=} {объяснять=V,tran=inf,pf}, {что=CONJ=} {покидать=V,tran=praet,sg,indic,n,pf} {мы=SPRO,pl,1p=(abl|acc|gen)}?
-{нет=PART=}, {не=PART=} {мочь=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {уметь=V,ipf,intr=inpraes,sg,indic,1p}!
+В{в=PR=} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} лишь{лишь=PART=} миг{миг=S,m,inan=(acc,sg|nom,sg)}, лишь{лишь=PART=} единственный{единственный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+Видел{видеть=V,ipf,tran=praet,sg,indic,m} тебя{ты=SPRO,sg,2p=(acc|gen)} я{я=SPRO,sg,1p=nom} моею{мой=APRO=ins,sg,f}!
+Как{как=ADVPRO=} объяснить{объяснять=V,tran=inf,pf}, что{что=CONJ=} покинуло{покидать=V,tran=praet,sg,indic,n,pf} нас{мы=SPRO,pl,1p=(abl|acc|gen)}?
+Нет{нет=PART=}, не{не=PART=} могу{мочь=V,ipf,intr=inpraes,sg,indic,1p}, не{не=PART=} умею{уметь=V,ipf,intr=inpraes,sg,indic,1p}!
 
-{яркий=A=sg,brev,m}, {как=CONJ=} {прежде=PR=}, {огонь=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
-{ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {исполнять=V,tran=praet,pl,partcp,brev,pf,pass} {яд=S,m,inan=gen,sg}.
-{свет=S,sg,m,inan=(acc|nom)} {озарять=V,tran=praet,sg,indic,m,pf} {мы=SPRO,pl,1p=(abl|acc|gen)} {и=CONJ=} {быстро=ADV=} {погасать=V,intr=praet,sg,indic,m,pf}...
-{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! {чего=ADVPRO=} {ж=PART=} {ты=SPRO,sg,2p=(abl|dat)} {надо=ADV,praed=}?
+Ярок{яркий=A=sg,brev,m}, как{как=CONJ=} прежде{прежде=PR=}, огонь{огонь=S,m,inan=(acc,sg|nom,sg)} твоих{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} глаз{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)},
+Ласки{ласка=S,f,inan=(acc,pl|gen,sg|nom,pl)} исполнены{исполнять=V,tran=praet,pl,partcp,brev,pf,pass} яда{яд=S,m,inan=gen,sg}.
+Свет{свет=S,sg,m,inan=(acc|nom)} озарил{озарять=V,tran=praet,sg,indic,m,pf} нас{мы=SPRO,pl,1p=(abl|acc|gen)} и{и=CONJ=} быстро{быстро=ADV=} погас{погасать=V,intr=praet,sg,indic,m,pf}...
+Сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)}! чего{чего=ADVPRO=} ж{ж=PART=} тебе{ты=SPRO,sg,2p=(abl|dat)} надо{надо=ADV,praed=}?
 
-{нет=PART=}, {не=PART=} {всесильный=A=sg,brev,m} {любовный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {экстаз=S,m,inan=(acc,sg|nom,sg)},
-{нет=PART=}, {мы=SPRO,pl,1p=nom} {с=PR=} {ты=SPRO,sg,2p=ins} {не=PART=} {близкий=A=pl,brev}!
-{час=S,m,inan=(acc,sg|nom,sg)} {лишь=PART=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {быть=V,intr=praet,sg,indic,m,ipf} {действительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {час=S,m,inan=(acc,sg|nom,sg)},
-{прочий=A,plen=(nom,pl|acc,pl,inan)} — {бледный=A=(acc,pl,plen,inan|nom,pl,plen)} {список=S,m,inan=(acc,pl|nom,pl)}!
+Нет{нет=PART=}, не{не=PART=} всесилен{всесильный=A=sg,brev,m} любовный{любовный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} экстаз{экстаз=S,m,inan=(acc,sg|nom,sg)},
+Нет{нет=PART=}, мы{мы=SPRO,pl,1p=nom} с{с=PR=} тобою{ты=SPRO,sg,2p=ins} не{не=PART=} близки{близкий=A=pl,brev}!
+Час{час=S,m,inan=(acc,sg|nom,sg)} лишь{лишь=PART=} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} был{быть=V,intr=praet,sg,indic,m,ipf} действительный{действительный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} час{час=S,m,inan=(acc,sg|nom,sg)},
+Прочие{прочий=A,plen=(nom,pl|acc,pl,inan)} — бледные{бледный=A=(acc,pl,plen,inan|nom,pl,plen)} списки{список=S,m,inan=(acc,pl|nom,pl)}!

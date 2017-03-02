@@ -78,6 +78,15 @@ def clear1(line):
     line = [all.replace(' ', '') for all in line]
     return ' '.join(line)
 
+def line_table():
+    variants = trymysql(trymysql.drafts.text==10277).select()
+    texts = []
+    for all in variants:
+        with open(all.filename, 'rb') as f:
+            text = f.readlines()
+        texts.append(text)
+    return dict(texts=texts)
+
 def table():
     variant = trymysql(trymysql.drafts.text==10277).select()
     text = []

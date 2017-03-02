@@ -1,13 +1,13 @@
-{умываться=V,intr=praet,pl,indic,ipf}, {одеваться=V,intr=praet,pl,indic,ipf},
-{после=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {целоваться=V,ipf,intr=praet,pl,indic},
-{после=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ласка=S,f,inan=gen,pl}.
-{на=PR=} {сервиз=S,m,inan=abl,sg} {лиловатый=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{будто=CONJ=} {с=PR=} {гость=S,m,anim=ins,sg}, {будто=PART=} {с=PR=} {брат=S,m,anim=ins,sg}, 
-{пить=V,ipf,tran=praet,pl,indic} {чай=S,m,inan=(acc,sg|nom,sg)}, {не=PART=} {снимать=V,tran=praet,ger,pf} {маск?=S,m,anim=nom,sg}.
+Умывались{умываться=V,intr=praet,pl,indic,ipf}, одевались{одеваться=V,intr=praet,pl,indic,ipf},
+После{после=PR=} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} целовались{целоваться=V,ipf,intr=praet,pl,indic},
+После{после=PR=} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)}, полной{полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ласк{ласка=S,f,inan=gen,pl}.
+На{на=PR=} сервизе{сервиз=S,m,inan=abl,sg} лиловатом{лиловатый=A=(abl,sg,plen,m|abl,sg,plen,n)},
+Будто{будто=CONJ=} с{с=PR=} гостем{гость=S,m,anim=ins,sg}, будто{будто=PART=} с{с=PR=} братом{брат=S,m,anim=ins,sg}, 
+Пили{пить=V,ipf,tran=praet,pl,indic} чай{чай=S,m,inan=(acc,sg|nom,sg)}, не{не=PART=} снявши{снимать=V,tran=praet,ger,pf} маск{маск?=S,m,anim=nom,sg}.
 
-{наш=APRO=(nom,pl|acc,pl,inan)} {маска=S,f,inan=(acc,pl|gen,sg|nom,pl)} {улыбаться=V,intr=praet,pl,indic,ipf},
-{наш=APRO=(nom,pl|acc,pl,inan)} {взор=S,m,inan=(acc,pl|nom,pl)} {не=PART=} {встречаться=V,intr=praet,pl,indic,ipf},
-{и=CONJ=} {уста=S,pl,inan=(acc|nom)} {наш=APRO=(nom,pl|acc,pl,inan)} {немой=A=pl,brev}.
-{петь=V,ipf,tran=praet,pl,indic} «{фауст=S,famn,m,anim=(acc,sg|gen,sg)}», {играть=V,ipf,tran=praet,pl,indic},
-{будто=PART=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {мы=SPRO,pl,1p=nom} {не=PART=} {знать=V,ipf,tran=praet,pl,indic},
-{тот=APRO=(nom,pl|acc,pl,inan)}, {ночной=A=(acc,pl,plen,inan|nom,pl,plen)}, {тот=APRO=(nom,pl|acc,pl,inan)} — {не=PART=} {мы=SPRO,pl,1p=nom}.
+Наши{наш=APRO=(nom,pl|acc,pl,inan)} маски{маска=S,f,inan=(acc,pl|gen,sg|nom,pl)} улыбались{улыбаться=V,intr=praet,pl,indic,ipf},
+Наши{наш=APRO=(nom,pl|acc,pl,inan)} взоры{взор=S,m,inan=(acc,pl|nom,pl)} не{не=PART=} встречались{встречаться=V,intr=praet,pl,indic,ipf},
+И{и=CONJ=} уста{уста=S,pl,inan=(acc|nom)} наши{наш=APRO=(nom,pl|acc,pl,inan)} немы{немой=A=pl,brev}.
+Пели{петь=V,ipf,tran=praet,pl,indic} «Фауста{фауст=S,famn,m,anim=(acc,sg|gen,sg)}», играли{играть=V,ipf,tran=praet,pl,indic},
+Будто{будто=PART=} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} мы{мы=SPRO,pl,1p=nom} не{не=PART=} знали{знать=V,ipf,tran=praet,pl,indic},
+Те{тот=APRO=(nom,pl|acc,pl,inan)}, ночные{ночной=A=(acc,pl,plen,inan|nom,pl,plen)}, те{тот=APRO=(nom,pl|acc,pl,inan)} — не{не=PART=} мы{мы=SPRO,pl,1p=nom}.

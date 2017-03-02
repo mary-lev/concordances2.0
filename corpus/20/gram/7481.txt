@@ -1,9 +1,9 @@
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {цветок=S,m,inan=(acc,sg|nom,sg)} {я=SPRO,sg,1p=nom} {находить=V=inpraes,sg,indic,1p,pf,tran} {в=PR=} {лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.
-	{в=PR=} {твой=APRO=acc,sg,f} {неответность?=S,f,inan=(acc,sg|nom,sg)} {не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p}, {не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p}!
-{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {лиловый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {я=SPRO,sg,1p=nom} {приносить=V=inpraes,sg,indic,1p,pf}
-	{в=PR=} {дом=S,m,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {прозрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {с=PR=} {узкий=A=ins,sg,plen,f} {дверь=S,f,inan=ins,sg}.
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} цветок{цветок=S,m,inan=(acc,sg|nom,sg)} я{я=SPRO,sg,1p=nom} найду{находить=V=inpraes,sg,indic,1p,pf,tran} в{в=PR=} лесу{лес=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+	В{в=PR=} твою{твой=APRO=acc,sg,f} неответность{неответность?=S,f,inan=(acc,sg|nom,sg)} не{не=PART=} верю{верить=V,ipf,intr=inpraes,sg,indic,1p}, не{не=PART=} верю{верить=V,ipf,intr=inpraes,sg,indic,1p}!
+Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, лиловый{лиловый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} я{я=SPRO,sg,1p=nom} принесу{приносить=V=inpraes,sg,indic,1p,pf}
+	В{в=PR=} дом{дом=S,m,inan=(acc,sg|nom,sg)} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} прозрачный{прозрачный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, с{с=PR=} узкою{узкий=A=ins,sg,plen,f} дверью{дверь=S,f,inan=ins,sg}.
 
-{но=CONJ=} {становиться=V,intr=praet,sg,indic,n,pf} {я=SPRO,sg,1p=(abl|dat)} {страшно=ADV=} {там=ADVPRO=}, {у=PR=} {ручей=S,m,inan=gen,sg}:
-	{вздымиться?=V,pf,intr=praet,sg,indic,m} {туман=S,m,inan=(acc,sg|nom,sg)} {из=PR=} {ущелие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {стылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{тихо=ADV=} {шипеть=V,ipf,intr=inpraes,ger}, {проползать=V=praet,sg,indic,f,pf} {змея=S,f,anim=nom,sg}...
-	{и=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {находить=V=praet,sg,indic,m,pf,tran} {цветок=S,m,inan=gen,sg} {для=PR=} {милая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}.
+Но{но=CONJ=} стало{становиться=V,intr=praet,sg,indic,n,pf} мне{я=SPRO,sg,1p=(abl|dat)} страшно{страшно=ADV=} там{там=ADVPRO=}, у{у=PR=} ручья{ручей=S,m,inan=gen,sg}:
+	Вздымился{вздымиться?=V,pf,intr=praet,sg,indic,m} туман{туман=S,m,inan=(acc,sg|nom,sg)} из{из=PR=} ущелья{ущелие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, стылый{стылый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Тихо{тихо=ADV=} шипя{шипеть=V,ipf,intr=inpraes,ger}, проползла{проползать=V=praet,sg,indic,f,pf} змея{змея=S,f,anim=nom,sg}...
+	И{и=CONJ=} я{я=SPRO,sg,1p=nom} не{не=PART=} нашел{находить=V=praet,sg,indic,m,pf,tran} цветка{цветок=S,m,inan=gen,sg} для{для=PR=} милой{милая=S,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}.

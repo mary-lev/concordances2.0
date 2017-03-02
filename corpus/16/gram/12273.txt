@@ -1,14 +1,14 @@
-{есть=V,ipf,tran=inf} {в=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=abl,pl} {лиловость?=S,f,inan=(acc,sg|nom,sg)},
-{лиловость?=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {ночь=S,f,inan=abl,pl}.
-{в=PR=} {нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {око=S,n,inan=abl,pl} — {суровость=S,f,inan=(acc,sg|nom,sg)},
-{суровость=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {око=S,n,inan=abl,pl}...
+Есть{есть=V,ipf,tran=inf} в{в=PR=} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} ночах{ночь=S,f,inan=abl,pl} лиловость{лиловость?=S,f,inan=(acc,sg|nom,sg)},
+Лиловость{лиловость?=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} ночах{ночь=S,f,inan=abl,pl}.
+В{в=PR=} нежных{нежный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} очах{око=S,n,inan=abl,pl} — суровость{суровость=S,f,inan=(acc,sg|nom,sg)},
+Суровость{суровость=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} твоих{твой=APRO=(abl,pl|gen,pl|acc,pl,anim)} очах{око=S,n,inan=abl,pl}...
 
-{в=PR=} {фиалка=S,f,inan=(abl,sg|dat,sg)} {бывать=V,ipf,intr=inpraes,sg,indic,3p} {бледность=S,f,inan=(acc,sg|nom,sg)},
-{бледность=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {лиловый=A=(abl,sg,plen,m|abl,sg,plen,n)} {цветок=S,m,inan=abl,sg}.
-{в=PR=} {златоприческа?=S,f,inan=(abl,sg|dat,sg)} — {медность?=S,f,inan=(acc,sg|nom,sg)},
-{медь=S,f,inan=(acc,sg|nom,sg)} {в=PR=} {золотой=A=(abl,sg,plen,m|abl,sg,plen,n)} {волосок=S,m,inan=abl,sg}.
+В{в=PR=} фиалке{фиалка=S,f,inan=(abl,sg|dat,sg)} бывает{бывать=V,ipf,intr=inpraes,sg,indic,3p} бледность{бледность=S,f,inan=(acc,sg|nom,sg)},
+Бледность{бледность=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} лиловом{лиловый=A=(abl,sg,plen,m|abl,sg,plen,n)} цветке{цветок=S,m,inan=abl,sg}.
+В{в=PR=} златоприческе{златоприческа?=S,f,inan=(abl,sg|dat,sg)} — медность{медность?=S,f,inan=(acc,sg|nom,sg)},
+Медь{медь=S,f,inan=(acc,sg|nom,sg)} в{в=PR=} золотом{золотой=A=(abl,sg,plen,m|abl,sg,plen,n)} волоске{волосок=S,m,inan=abl,sg}.
 
-{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {что-то=SPRO,sg,n,inan=(acc|nom)} {в=PR=} {весна=S,f,inan=(abl,sg|dat,sg)} {старушье?=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{как=CONJ=} {вешний=A=(acc,sg,plen,n|nom,sg,plen,n)} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {в=PR=} {былой=A=(abl,sg,plen,m|abl,sg,plen,n)}.
-{в=PR=} {душа=S,f,inan=(abl,sg|dat,sg)} {у=PR=} {ты=SPRO,sg,2p=(acc|gen)} — {бездушие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{душа=S,f,inan=nom,sg} — {в=PR=} {бездушие=S,n,inan=abl,sg} {твой=APRO=(abl,sg,m|abl,sg,n)}!
+Есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} что-то{что-то=SPRO,sg,n,inan=(acc|nom)} в{в=PR=} весне{весна=S,f,inan=(abl,sg|dat,sg)} старушье{старушье?=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Как{как=CONJ=} вешнее{вешний=A=(acc,sg,plen,n|nom,sg,plen,n)} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} в{в=PR=} былом{былой=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+В{в=PR=} душе{душа=S,f,inan=(abl,sg|dat,sg)} у{у=PR=} тебя{ты=SPRO,sg,2p=(acc|gen)} — бездушье{бездушие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Душа{душа=S,f,inan=nom,sg} — в{в=PR=} бездушьи{бездушие=S,n,inan=abl,sg} твоем{твой=APRO=(abl,sg,m|abl,sg,n)}!

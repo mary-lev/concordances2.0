@@ -1,17 +1,17 @@
-{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {гарем=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,m,ipf} {кладбище=S,n,inan=(abl,sg|acc,sg|nom,sg)}, {чей=APRO=(acc,sg,m,inan|nom,sg,m)} {зев=S,m,inan=(acc,sg|nom,sg)}
-{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {поглощать=V,tran=praet,sg,indic,m,ipf}, {отдавать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} {небо=S,n,inan=dat,sg} {душа=S,f,inan=acc,sg}.
-{в=PR=} {ночь=S,f,inan=(acc,sg|nom,sg)} {часто=ADV=} {под=PR=} {дичующий?=A=acc,sg,plen,f} {груша=S,f,inan=acc,sg}
-{с=PR=} {лопата=S,f,inan=ins,sg} {прокрадываться=V,intr=praet,sg,indic,m,ipf} {стеф=S,persn,m,anim=nom,sg}.
+Его{его=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} гарем{гарем=S,m,inan=(acc,sg|nom,sg)} был{быть=V,intr=praet,sg,indic,m,ipf} кладбище{кладбище=S,n,inan=(abl,sg|acc,sg|nom,sg)}, чей{чей=APRO=(acc,sg,m,inan|nom,sg,m)} зев{зев=S,m,inan=(acc,sg|nom,sg)}
+Всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} поглощал{поглощать=V,tran=praet,sg,indic,m,ipf}, отдавших{отдавать=V,tran=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)} небу{небо=S,n,inan=dat,sg} душу{душа=S,f,inan=acc,sg}.
+В{в=PR=} ночь{ночь=S,f,inan=(acc,sg|nom,sg)} часто{часто=ADV=} под{под=PR=} дичующую{дичующий?=A=acc,sg,plen,f} грушу{груша=S,f,inan=acc,sg}
+С{с=PR=} лопатою{лопата=S,f,inan=ins,sg} прокрадывался{прокрадываться=V,intr=praet,sg,indic,m,ipf} Стеф{стеф=S,persn,m,anim=nom,sg}.
 
-{он=SPRO,sg,3p,m=nom} {вынимать=V,tran=praet,sg,indic,m,ipf} {покойница=S,f,anim=acc,sg}, {раздевать=V,tran=praet,ger,pf},
-{шептать=V,ipf,tran=inpraes,ger}: «{прощать=V=sg,imper,2p,pf}, {я=SPRO,sg,1p=nom} {твой=APRO=(acc,sg,m,inan|nom,sg,m)} {покой=S,m,inan=(acc,sg|nom,sg)} {нарушать=V,tran=inpraes,sg,indic,1p,pf}...»
-{и=CONJ=} {на=PR=} {плечо=S,n,inan=(acc,pl|nom,pl)} {взваливать=V,tran=praet,ger,pf} {мечта=S,f,inan=acc,sg}, — {как=CONJ=} {туша=S,f,inan=acc,sg}, —
-{в=PR=} {каморка=S,f,inan=acc,sg} {нести=V,ipf,tran=praet,sg,indic,m}. {и=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {все=SPRO,pl=(acc|nom)} — {как=ADVPRO=} {блеф=S,m,inan=(acc,sg|nom,sg)}...
+Он{он=SPRO,sg,3p,m=nom} вынимал{вынимать=V,tran=praet,sg,indic,m,ipf} покойницу{покойница=S,f,anim=acc,sg}, раздев{раздевать=V,tran=praet,ger,pf},
+Шепча{шептать=V,ipf,tran=inpraes,ger}: «Прости{прощать=V=sg,imper,2p,pf}, я{я=SPRO,sg,1p=nom} твой{твой=APRO=(acc,sg,m,inan|nom,sg,m)} покой{покой=S,m,inan=(acc,sg|nom,sg)} нарушу{нарушать=V,tran=inpraes,sg,indic,1p,pf}...»
+И{и=CONJ=} на{на=PR=} плечи{плечо=S,n,inan=(acc,pl|nom,pl)} взвалив{взваливать=V,tran=praet,ger,pf} мечту{мечта=S,f,inan=acc,sg}, — как{как=CONJ=} тушу{туша=S,f,inan=acc,sg}, —
+В{в=PR=} каморку{каморка=S,f,inan=acc,sg} нес{нести=V,ipf,tran=praet,sg,indic,m}. И{и=CONJ=} было{быть=V,intr=praet,sg,indic,n,ipf} все{все=SPRO,pl=(acc|nom)} — как{как=ADVPRO=} блеф{блеф=S,m,inan=(acc,sg|nom,sg)}...
 
-{и=CONJ=} {не=PART=} {один=APRO=nom,sg,f} {из=PR=} {юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {миловидный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{еще=ADV=} {в=PR=} {напев=S,m,inan=abl,pl} {тлеть=V,ipf,intr=inpraes,ger} {панихидный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
-{он=SPRO,sg,3p,m=dat} {не=PART=} {отказывать=V,intr=praet,sg,indic,f,pf} {в=PR=} {связь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {с=PR=} {он=SPRO,sg,3p,m=ins},
+И{и=CONJ=} не{не=PART=} одна{один=APRO=nom,sg,f} из{из=PR=} юных{юный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} миловидных{миловидный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Еще{еще=ADV=} в{в=PR=} напевах{напев=S,m,inan=abl,pl} тлея{тлеть=V,ipf,intr=inpraes,ger} панихидных{панихидный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)},
+Ему{он=SPRO,sg,3p,m=dat} не{не=PART=} отказала{отказывать=V,intr=praet,sg,indic,f,pf} в{в=PR=} связи{связь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} с{с=PR=} ним{он=SPRO,sg,3p,m=ins},
 
-{почти=ADV=} {обрадованно=ADV=} {разделять=V,tran=inpraes,ger,ipf} {ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
-{и=CONJ=} {смерть=S,f,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,f,ipf} {тогда=ADVPRO=} {на=PR=} {жизнь=S,f,inan=(acc,sg|nom,sg)} {похожий=A=sg,brev,f}:
-{невинность=S,f,inan=(acc,sg|nom,sg)}, {грех=S,m,inan=(acc,sg|nom,sg)} — {все=SPRO,pl=(acc|nom)} {идти=V,ipf,intr=praet,sg,indic,n} {путем=PR=} {один=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.
+Почти{почти=ADV=} обрадованно{обрадованно=ADV=} разделяя{разделять=V,tran=inpraes,ger,ipf} ложе{ложе=S,n,inan=(abl,sg|acc,sg|nom,sg)}.
+И{и=CONJ=} смерть{смерть=S,f,inan=(acc,sg|nom,sg)} была{быть=V,intr=praet,sg,indic,f,ipf} тогда{тогда=ADVPRO=} на{на=PR=} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} похожа{похожий=A=sg,brev,f}:
+Невинность{невинность=S,f,inan=(acc,sg|nom,sg)}, грех{грех=S,m,inan=(acc,sg|nom,sg)} — все{все=SPRO,pl=(acc|nom)} шло{идти=V,ipf,intr=praet,sg,indic,n} путем{путем=PR=} одним{один=APRO=(dat,pl|ins,sg,m|ins,sg,n)}.

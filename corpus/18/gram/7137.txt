@@ -1,54 +1,54 @@
-{скакать=V,ipf,intr=inf} {на=PR=} {красный=A=(abl,sg,plen,m|abl,sg,plen,n)} {парад=S,m,inan=abl,sg} 
-{с=PR=} {кокарда=S,f,inan=ins,sg} {на=PR=} {голова=S,f,inan=(abl,sg|dat,sg)} 
-{в=PR=} {расплавлять=V,tran=(praet,abl,sg,partcp,plen,m,pf,pass|praet,abl,sg,partcp,plen,n,pf,pass)} {петроград=S,geo,m,inan=abl,sg},
-{в=PR=} {революционный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {москва=S,geo,f,inan=(abl,sg|dat,sg)}.
+Скакать{скакать=V,ipf,intr=inf} на{на=PR=} красном{красный=A=(abl,sg,plen,m|abl,sg,plen,n)} параде{парад=S,m,inan=abl,sg} 
+С{с=PR=} кокардой{кокарда=S,f,inan=ins,sg} на{на=PR=} голове{голова=S,f,inan=(abl,sg|dat,sg)} 
+В{в=PR=} расплавленном{расплавлять=V,tran=(praet,abl,sg,partcp,plen,m,pf,pass|praet,abl,sg,partcp,plen,n,pf,pass)} Петрограде{петроград=S,geo,m,inan=abl,sg},
+В{в=PR=} революционной{революционный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Москве{москва=S,geo,f,inan=(abl,sg|dat,sg)}.
 
-{в=PR=} {бред=S,sg,m,inan=(dat|loc|part)} {и=CONJ=} {в=PR=} {хмельной=A=(abl,sg,plen,m|abl,sg,plen,n)} {азарт=S,m,inan=abl,sg} 
-{отдаваться=V,intr=inf,pf} {лихой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {игра=S,f,inan=(abl,sg|dat,sg)},
-{стоять=V,ipf,intr=inf} {за=PR=} {родзянка?=S,f,inan=acc,sg} {в=PR=} {март=S,m,inan=abl,sg},
-{за=PR=} {большевик=S,m,anim=(acc,pl|gen,pl)} {в=PR=} {октябрь=S,m,inan=abl,sg}.
+В{в=PR=} бреду{бред=S,sg,m,inan=(dat|loc|part)} и{и=CONJ=} в{в=PR=} хмельном{хмельной=A=(abl,sg,plen,m|abl,sg,plen,n)} азарте{азарт=S,m,inan=abl,sg} 
+Отдаться{отдаваться=V,intr=inf,pf} лихой{лихой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} игре{игра=S,f,inan=(abl,sg|dat,sg)},
+Стоять{стоять=V,ipf,intr=inf} за{за=PR=} Родзянку{родзянка?=S,f,inan=acc,sg} в{в=PR=} марте{март=S,m,inan=abl,sg},
+За{за=PR=} большевиков{большевик=S,m,anim=(acc,pl|gen,pl)} в{в=PR=} октябре{октябрь=S,m,inan=abl,sg}.
 
-{толпиться=V,ipf,intr=inf} {по=PR=} {коридор=S,m,inan=dat,pl} 
-{таврический=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {дворец=S,m,inan=gen,sg},
-{не=PART=} {видеть=V,ipf,tran=inpraes,ger} {буржуйной?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {спор=S,m,inan=dat,pl} 
-{ни=CONJ=} {выход=S,m,inan=gen,sg}, {ни=CONJ=} {конец=S,m,inan=gen,sg}.
+Толпиться{толпиться=V,ipf,intr=inf} по{по=PR=} коридорам{коридор=S,m,inan=dat,pl} 
+Таврического{таврический=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} дворца{дворец=S,m,inan=gen,sg},
+Не{не=PART=} видя{видеть=V,ipf,tran=inpraes,ger} буржуйным{буржуйной?=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} спорам{спор=S,m,inan=dat,pl} 
+Ни{ни=CONJ=} выхода{выход=S,m,inan=gen,sg}, ни{ни=CONJ=} конца{конец=S,m,inan=gen,sg}.
 
-{оборачиваться=V,intr=inf,pf} {к=PR=} {собрание=S,n,inan=dat,sg},
-{рука=S,f,inan=ins,sg} {поправлять=V,tran=inf,pf} {ус=S,m,inan=(acc,sg|nom,sg)},
-{хлестнуть=V,pf,tran=inf} {площадной=A=ins,sg,plen,f} {брань=S,f,inan=ins,sg}, 
-{на=PR=} {ухо=S,n,inan=(acc,sg|nom,sg)} {заламывать=V,tran=praet,ger,pf} {картуз=S,m,inan=(acc,sg|nom,sg)}.
+Оборотиться{оборачиваться=V,intr=inf,pf} к{к=PR=} собранью{собрание=S,n,inan=dat,sg},
+Рукою{рука=S,f,inan=ins,sg} поправить{поправлять=V,tran=inf,pf} ус{ус=S,m,inan=(acc,sg|nom,sg)},
+Хлестнуть{хлестнуть=V,pf,tran=inf} площадною{площадной=A=ins,sg,plen,f} бранью{брань=S,f,inan=ins,sg}, 
+На{на=PR=} ухо{ухо=S,n,inan=(acc,sg|nom,sg)} заломив{заламывать=V,tran=praet,ger,pf} картуз{картуз=S,m,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=}, {показываться=V,intr=praet,ger,pf} {толковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},— 
-{ввиду=PR=} {особый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {заслуга=S,f,inan=gen,pl} 
-{быть=V,intr=inf,ipf} {посылать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {с=PR=} {муравьев=S,famn,m,anim=(dat,pl|ins,sg)} 
-{для=PR=} {пропаганда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {юг=S,m,inan=(acc,sg|nom,sg)}.
+И{и=CONJ=}, показавшись{показываться=V,intr=praet,ger,pf} толковым{толковый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},— 
+Ввиду{ввиду=PR=} особых{особый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} заслуг{заслуга=S,f,inan=gen,pl} 
+Быть{быть=V,intr=inf,ipf} посланным{посылать=V=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} с{с=PR=} Муравьевым{муравьев=S,famn,m,anim=(dat,pl|ins,sg)} 
+Для{для=PR=} пропаганды{пропаганда=S,f,inan=(acc,pl|gen,sg|nom,pl)} на{на=PR=} юг{юг=S,m,inan=(acc,sg|nom,sg)}.
 
-{идти=V,ipf,intr=inf} {запущенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {сад=S,m,inan=ins,sg}.
-{щупать=V,ipf,tran=inf} {замок=S,m,inan=(acc,sg|nom,sg)} {штык=S,m,inan=ins,sg}. 
-{высаживать=V=inf,ipf,tran} {дверь=S,f,inan=(acc,sg|nom,sg)} {приклад=S,m,inan=ins,sg}. 
-{толпа=S,f,inan=ins,sg} {врываться=V,ipf,intr=inf} {в=PR=} {дом=S,m,inan=(acc,sg|nom,sg)}.
+Идти{идти=V,ipf,intr=inf} запущенным{запущенный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} садом{сад=S,m,inan=ins,sg}.
+Щупать{щупать=V,ipf,tran=inf} замок{замок=S,m,inan=(acc,sg|nom,sg)} штыком{штык=S,m,inan=ins,sg}. 
+Высаживать{высаживать=V=inf,ipf,tran} дверь{дверь=S,f,inan=(acc,sg|nom,sg)} прикладом{приклад=S,m,inan=ins,sg}. 
+Толпою{толпа=S,f,inan=ins,sg} врываться{врываться=V,ipf,intr=inf} в{в=PR=} дом{дом=S,m,inan=(acc,sg|nom,sg)}.
 
-{у=PR=} {бочка=S,f,inan=gen,pl} {выламывать=V,tran=praet,ger,pf} {днище=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {подвал=S,m,inan=(acc,sg|nom,sg)} {выпускать=V=inf,ipf,tran} {вино=S,n,inan=(acc,sg|nom,sg)},
-{потом=ADVPRO=} {подпаливать=V,tran=inf,pf} {горища=S,f,inan=(abl,sg|dat,sg)} 
-{да=CONJ=} {выбивать=V,tran=inf,pf} {плечо=S,n,inan=ins,sg} {окно=S,n,inan=(acc,sg|nom,sg)}.
+У{у=PR=} бочек{бочка=S,f,inan=gen,pl} выломав{выламывать=V,tran=praet,ger,pf} днища{днище=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} подвал{подвал=S,m,inan=(acc,sg|nom,sg)} выпускать{выпускать=V=inf,ipf,tran} вино{вино=S,n,inan=(acc,sg|nom,sg)},
+Потом{потом=ADVPRO=} подпалить{подпаливать=V,tran=inf,pf} горище{горища=S,f,inan=(abl,sg|dat,sg)} 
+Да{да=CONJ=} выбить{выбивать=V,tran=inf,pf} плечом{плечо=S,n,inan=ins,sg} окно{окно=S,n,inan=(acc,sg|nom,sg)}.
 
-{в=PR=} {раздельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {под=PR=} {красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рог=S,m,inan=ins,sg} 
-{громить=V,ipf,tran=inf} {поместье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {прочь=ADV=} 
-{в=PR=} {степь=S,f,inan=abl,pl} {по=PR=} {грязный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дорога=S,f,inan=dat,pl} 
-{скакать=V,ipf,intr=inf} {в=PR=} {осенний=A=acc,sg,plen,f} {ночь=S,f,inan=(acc,sg|nom,sg)}.
+В{в=PR=} Раздельной{раздельный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, под{под=PR=} Красным{красный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} Рогом{рог=S,m,inan=ins,sg} 
+Громить{громить=V,ipf,tran=inf} поместья{поместье=S,n,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} прочь{прочь=ADV=} 
+В{в=PR=} степях{степь=S,f,inan=abl,pl} по{по=PR=} грязным{грязный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} дорогам{дорога=S,f,inan=dat,pl} 
+Скакать{скакать=V,ipf,intr=inf} в{в=PR=} осеннюю{осенний=A=acc,sg,plen,f} ночь{ночь=S,f,inan=(acc,sg|nom,sg)}.
 
-{забирать=V=praet,ger,pf,tran} {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {хлеб=S,m,inan=(acc,sg|nom,sg)}, {о=PR=} «{свобода=S,f,inan=abl,pl}» 
-{размазывать=V=inf,ipf,tran} {мужик=S,m,anim=dat,pl}.
-{искать=V,ipf,tran=inf} {лошадь=S,f,anim=(acc,pl|gen,pl)} {в=PR=} {комод=S,m,inan=abl,pl} 
-{да=CONJ=} {пушка=S,f,inan=gen,pl} {по=PR=} {коробка=S,f,inan=dat,pl}.
+Забравши{забирать=V=praet,ger,pf,tran} весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} хлеб{хлеб=S,m,inan=(acc,sg|nom,sg)}, о{о=PR=} «свободах{свобода=S,f,inan=abl,pl}» 
+Размазывать{размазывать=V=inf,ipf,tran} мужикам{мужик=S,m,anim=dat,pl}.
+Искать{искать=V,ipf,tran=inf} лошадей{лошадь=S,f,anim=(acc,pl|gen,pl)} в{в=PR=} комодах{комод=S,m,inan=abl,pl} 
+Да{да=CONJ=} пушек{пушка=S,f,inan=gen,pl} по{по=PR=} коробкам{коробка=S,f,inan=dat,pl}.
 
-{палить=V,ipf,tran=inf} {из=PR=} {пулемет=S,m,inan=gen,pl}:
-{кто=SPRO,sg,m,anim=nom}? {с=PR=} {кто=SPRO,sg,m,anim=ins}? {да=CONJ=} {не=PART=} {все=ADV=} {ль=PART=} {равный=A=sg,brev,n}? 
-{петлюра=S,persn,m,anim=nom,sg}, {григорьев=S,famn,m,anim=nom,sg}, {кот=S,m,anim=(acc,pl|gen,pl)}, 
-{таранов=S,famn,m,anim=nom,sg} {или=CONJ=} {махно?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}...
+Палить{палить=V,ipf,tran=inf} из{из=PR=} пулеметов{пулемет=S,m,inan=gen,pl}:
+Кто{кто=SPRO,sg,m,anim=nom}? С{с=PR=} кем{кто=SPRO,sg,m,anim=ins}? Да{да=CONJ=} не{не=PART=} всё{все=ADV=} ль{ль=PART=} равно{равный=A=sg,brev,n}? 
+Петлюра{петлюра=S,persn,m,anim=nom,sg}, Григорьев{григорьев=S,famn,m,anim=nom,sg}, Котов{кот=S,m,anim=(acc,pl|gen,pl)}, 
+Таранов{таранов=S,famn,m,anim=nom,sg} или{или=CONJ=} Махно{махно?=S,persn,mf,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)}...
 
-{слоняться=V,ipf,intr=inf} {буйный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {орава=S,f,inan=ins,sg}.
-{становиться=V,intr=inf,pf} {все=SPRO,pl=dat} {свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {невтерпеж=ADV=}.
-{и=CONJ=} {умирать=V,intr=inf,pf} {под=PR=} {канава=S,f,inan=ins,sg} 
-{расстреливать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} {за=PR=} {грабеж=S,m,inan=(acc,sg|nom,sg)}.
+Слоняться{слоняться=V,ipf,intr=inf} буйной{буйный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} оравой{орава=S,f,inan=ins,sg}.
+Стать{становиться=V,intr=inf,pf} всем{все=SPRO,pl=dat} своим{свой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} невтерпеж{невтерпеж=ADV=}.
+И{и=CONJ=} умереть{умирать=V,intr=inf,pf} под{под=PR=} канавой{канава=S,f,inan=ins,sg} 
+Расстрелянным{расстреливать=V,tran=(praet,dat,pl,partcp,plen,pf,pass|praet,ins,sg,partcp,plen,m,pf,pass|praet,ins,sg,partcp,plen,n,pf,pass)} за{за=PR=} грабеж{грабеж=S,m,inan=(acc,sg|nom,sg)}.

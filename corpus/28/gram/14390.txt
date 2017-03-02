@@ -1,24 +1,24 @@
-{мчать=V,ipf,tran=sg,imper,2p} {я=SPRO,sg,1p=(acc|gen)}, {память=S,f,inan=(acc,sg|nom,sg)}, {крыло=S,n,inan=ins,sg} {нестареющий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
-{в=PR=} {милый=A=acc,sg,plen,f} {сердце=S,n,inan=dat,sg} {страна=S,f,inan=acc,sg}.
-{видеть=V,ipf,tran=inpraes,sg,indic,1p} {она=SPRO,sg,3p,f=(acc|gen)} {на=PR=} {пожарище=S,n,inan=(abl,sg|acc,sg|nom,sg)} {тлеющий=A=(abl,sg,plen,m|abl,sg,plen,n)}
-{в=PR=} {сумрак=S,m,inan=abl,sg} {зимний=A=(abl,sg,plen,m|abl,sg,plen,n)} {один=APRO=acc,sg,f}.
+Мчи{мчать=V,ipf,tran=sg,imper,2p} меня{я=SPRO,sg,1p=(acc|gen)}, память{память=S,f,inan=(acc,sg|nom,sg)}, крылом{крыло=S,n,inan=ins,sg} нестареющим{нестареющий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}
+В{в=PR=} милую{милый=A=acc,sg,plen,f} сердцу{сердце=S,n,inan=dat,sg} страну{страна=S,f,inan=acc,sg}.
+Вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} ее{она=SPRO,sg,3p,f=(acc|gen)} на{на=PR=} пожарище{пожарище=S,n,inan=(abl,sg|acc,sg|nom,sg)} тлеющем{тлеющий=A=(abl,sg,plen,m|abl,sg,plen,n)}
+В{в=PR=} сумраке{сумрак=S,m,inan=abl,sg} зимнем{зимний=A=(abl,sg,plen,m|abl,sg,plen,n)} одну{один=APRO=acc,sg,f}.
 
-{горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тоска=S,f,inan=ins,sg} {душа=S,f,inan=nom,sg} {разрываться=V,intr=inpraes,sg,indic,3p,ipf},
-{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {там=ADVPRO=} {два=NUM=(nom,f|acc,f,inan)} {сжигать=V=praet,pl,partcp,brev,pf,pass},
-{новый=A=(acc,sg,plen,n|nom,sg,plen,n)} {что-то=SPRO,sg,n,inan=(acc|nom)} {вдали=ADV=} {начинаться=V,intr=inpraes,sg,indic,3p,ipf}
-{вместо=PR=} {погибший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Горькой{горький=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} тоскою{тоска=S,f,inan=ins,sg} душа{душа=S,f,inan=nom,sg} разрывается{разрываться=V,intr=inpraes,sg,indic,3p,ipf},
+Жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} там{там=ADVPRO=} две{два=NUM=(nom,f|acc,f,inan)} сожжены{сжигать=V=praet,pl,partcp,brev,pf,pass},
+Новое{новый=A=(acc,sg,plen,n|nom,sg,plen,n)} что-то{что-то=SPRO,sg,n,inan=(acc|nom)} вдали{вдали=ADV=} начинается{начинаться=V,intr=inpraes,sg,indic,3p,ipf}
+Вместо{вместо=PR=} погибшей{погибший=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} весны{весна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{далее=ADV=}, {память=S,f,inan=(acc,sg|nom,sg)}! {крыло=S,n,inan=ins,sg} {тиховеть?=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}
-{образ=S,m,inan=(acc,sg|nom,sg)} {навевать=V,tran=sg,imper,2p,pf} {я=SPRO,sg,1p=(abl|dat)} {иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}...
-{видеть=V,ipf,tran=inpraes,sg,indic,1p} {она=SPRO,sg,3p,f=(acc|gen)} {на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)} {зеленеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)}
-{светлый=A=ins,sg,plen,f} {летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {пора=S,f,inan=ins,sg}.
+Далее{далее=ADV=}, память{память=S,f,inan=(acc,sg|nom,sg)}! Крылом{крыло=S,n,inan=ins,sg} тиховеющим{тиховеть?=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)}
+Образ{образ=S,m,inan=(acc,sg|nom,sg)} навей{навевать=V,tran=sg,imper,2p,pf} мне{я=SPRO,sg,1p=(abl|dat)} иной{иной=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|acc,sg,m,inan|nom,sg,m)}...
+Вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} ее{она=SPRO,sg,3p,f=(acc|gen)} на{на=PR=} лугу{луг=S,m,inan=(dat,sg|loc,sg)} зеленеющем{зеленеть=V,ipf,intr=(inpraes,abl,sg,partcp,plen,m,act|inpraes,abl,sg,partcp,plen,n,act)}
+Светлою{светлый=A=ins,sg,plen,f} летней{летний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} порой{пора=S,f,inan=ins,sg}.
 
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {играть=V,ipf,tran=inpraes,sg,indic,3p} {над=PR=} {дикий=A=ins,sg,plen,f} {тосна=S,geo,sg,f,inan=ins},
-{берег=S,m,inan=(acc,sg|nom,sg)} {отвесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {высокий=A=sg,brev,m}...
-{видеть=V,ipf,tran=inpraes,sg,indic,1p} {знакомый=S,m,anim=nom,pl} {старый=A=(acc,pl,plen,inan|nom,pl,plen)} {сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {я=SPRO,sg,1p=nom},
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сыпучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {песок=S,m,inan=(acc,sg|nom,sg)}...
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} играет{играть=V,ipf,tran=inpraes,sg,indic,3p} над{над=PR=} дикою{дикий=A=ins,sg,plen,f} Тосною{тосна=S,geo,sg,f,inan=ins},
+Берег{берег=S,m,inan=(acc,sg|nom,sg)} отвесный{отвесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} высок{высокий=A=sg,brev,m}...
+Вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} знакомые{знакомый=S,m,anim=nom,pl} старые{старый=A=(acc,pl,plen,inan|nom,pl,plen)} сосны{сосна=S,f,inan=(acc,pl|gen,sg|nom,pl)} я{я=SPRO,sg,1p=nom},
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сыпучий{сыпучий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} песок{песок=S,m,inan=(acc,sg|nom,sg)}...
 
-{память=S,f,inan=(acc,sg|nom,sg)}, {довольно=ADV=}! {весь=APRO=nom,sg,f} {скорбь=S,f,inan=(acc,sg|nom,sg)} {переживать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}
-{вновь=ADV=} {овладевать=V,intr=praet,sg,indic,f,pf} {душа=S,f,inan=ins,sg},
-{словно=CONJ=} {тот=APRO=(nom,pl|acc,pl,inan)} {прежний=A=(acc,pl,plen,inan|nom,pl,plen)} {слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} {проливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}
-{литься=V,ipf,intr=inpraes,pl,indic,3p} {воскресать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} {волна=S,f,inan=ins,sg}.
+Память{память=S,f,inan=(acc,sg|nom,sg)}, довольно{довольно=ADV=}! Вся{весь=APRO=nom,sg,f} скорбь{скорбь=S,f,inan=(acc,sg|nom,sg)} пережитая{переживать=V,tran=praet,nom,sg,partcp,plen,f,pf,pass}
+Вновь{вновь=ADV=} овладела{овладевать=V,intr=praet,sg,indic,f,pf} душой{душа=S,f,inan=ins,sg},
+Словно{словно=CONJ=} те{тот=APRO=(nom,pl|acc,pl,inan)} прежние{прежний=A=(acc,pl,plen,inan|nom,pl,plen)} слезы{слеза=S,f,inan=(acc,pl|gen,sg|nom,pl)} пролитые{проливать=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)}
+Льются{литься=V,ipf,intr=inpraes,pl,indic,3p} воскресшей{воскресать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)} волной{волна=S,f,inan=ins,sg}.

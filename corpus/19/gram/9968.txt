@@ -1,19 +1,19 @@
-{пряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {запах=S,m,inan=ins,sg} {сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{сладко=ADV=} {дышать=V,ipf,intr=inpraes,sg,indic,3p} {темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сад=S,m,inan=(acc,sg|nom,sg)}.
-{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ландыш=S,m,inan=(acc,sg|nom,sg)} {искать=V,ipf,tran=inpraes,sg,indic,3p} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{лить=V,ipf,tran=inpraes,sg,indic,3p} {невинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {аромат=S,m,inan=(acc,sg|nom,sg)}.
+Пряным{пряный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} запахом{запах=S,m,inan=ins,sg} сирени{сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Сладко{сладко=ADV=} дышит{дышать=V,ipf,intr=inpraes,sg,indic,3p} темный{темный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сад{сад=S,m,inan=(acc,sg|nom,sg)}.
+Нежный{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ландыш{ландыш=S,m,inan=(acc,sg|nom,sg)} ищет{искать=V,ipf,tran=inpraes,sg,indic,3p} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Льет{лить=V,ipf,tran=inpraes,sg,indic,3p} невинный{невинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} аромат{аромат=S,m,inan=(acc,sg|nom,sg)}.
 
-{там=ADVPRO=} {под=PR=} {тенистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {каштан=S,m,inan=ins,sg}
-{в=PR=} {летний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {зной=S,m,inan=(acc,sg|nom,sg)} {мы=SPRO,pl,1p=dat} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {приют=S,m,inan=(acc,sg|nom,sg)}.
-{там=ADVPRO=}, {обрызгивать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {фонтан=S,m,inan=ins,sg},
-{в=PR=} {сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {дремать=V,ipf,intr=inpraes,sg,indic,3p} {пруд=S,m,inan=(acc,sg|nom,sg)}.
+Там{там=ADVPRO=} под{под=PR=} тенистым{тенистый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} каштаном{каштан=S,m,inan=ins,sg}
+В{в=PR=} летний{летний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} зной{зной=S,m,inan=(acc,sg|nom,sg)} нам{мы=SPRO,pl,1p=dat} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} приют{приют=S,m,inan=(acc,sg|nom,sg)}.
+Там{там=ADVPRO=}, обрызганный{обрызгивать=V=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} фонтаном{фонтан=S,m,inan=ins,sg},
+В{в=PR=} сладкой{сладкий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} лени{лень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} дремлет{дремать=V,ipf,intr=inpraes,sg,indic,3p} пруд{пруд=S,m,inan=(acc,sg|nom,sg)}.
 
-{выбегать=V,intr=inpraes,ger,ipf} {из-под=PR=} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{к=PR=} {освещать=V,tran=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)} {пруд=S,m,inan=(dat,sg|loc,sg)},
-{гнуться=V,ipf,intr=inpraes,pl,indic,3p} {шаткий=A=(acc,pl,plen,inan|nom,pl,plen)} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{по=PR=} {который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {я=SPRO,sg,1p=nom} {идти=V,ipf,intr=inpraes,sg,indic,1p}, —
+Выбегая{выбегать=V,intr=inpraes,ger,ipf} из-под{из-под=PR=} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+К{к=PR=} освещенному{освещать=V,tran=(praet,dat,sg,partcp,plen,m,pf,pass|praet,dat,sg,partcp,plen,n,pf,pass)} пруду{пруд=S,m,inan=(dat,sg|loc,sg)},
+Гнутся{гнуться=V,ipf,intr=inpraes,pl,indic,3p} шаткие{шаткий=A=(acc,pl,plen,inan|nom,pl,plen)} ступени{ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+По{по=PR=} которым{который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} я{я=SPRO,sg,1p=nom} иду{идти=V,ipf,intr=inpraes,sg,indic,1p}, —
 
-{и=CONJ=}, {пока=CONJ=} {я=SPRO,sg,1p=(acc|gen)} {объять=V,tran=inpraes,sg,indic,3p,ipf}
-{с=PR=} {тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {ропот=S,m,inan=ins,sg} {волна=S,f,inan=nom,sg},
-{сад=S,m,inan=(acc,sg|nom,sg)} {задумываться=V,intr=praet,sg,indic,m,pf} {и=CONJ=} {дремать=V,ipf,intr=inpraes,sg,indic,3p}
-{и=CONJ=} {царить=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {немой=A=sg,brev,m} {тишина=S,sg,f,inan=nom}.
+И{и=CONJ=}, пока{пока=CONJ=} меня{я=SPRO,sg,1p=(acc|gen)} объемлет{объять=V,tran=inpraes,sg,indic,3p,ipf}
+С{с=PR=} тихим{тихий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} ропотом{ропот=S,m,inan=ins,sg} волна{волна=S,f,inan=nom,sg},
+Сад{сад=S,m,inan=(acc,sg|nom,sg)} задумался{задумываться=V,intr=praet,sg,indic,m,pf} и{и=CONJ=} дремлет{дремать=V,ipf,intr=inpraes,sg,indic,3p}
+И{и=CONJ=} царит{царить=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} нем{немой=A=sg,brev,m} тишина{тишина=S,sg,f,inan=nom}.

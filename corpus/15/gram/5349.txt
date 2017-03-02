@@ -1,9 +1,9 @@
-{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p} {человек=S,m,anim=(acc,pl|gen,pl)} {с=PR=} {голубой=A=ins,pl,plen} {глаз=S,m,inan=ins,pl},
-{я=SPRO,sg,1p=nom} {знать=V,ipf,tran=inpraes,sg,indic,1p}, {что=CONJ=} {принимать=V=praet,sg,partcp,brev,n,pf,pass} {думать=V,ipf,intr=inf} {о=PR=} {они=SPRO,pl=(abl|acc|gen)}.
-{но=CONJ=} {этот=APRO=(acc,sg,n|nom,sg,n)} {молчание=S,n,inan=(acc,sg|nom,sg)} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {над=PR=} {мы=SPRO,pl,1p=ins}
-{не=PART=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {ли=PART=} {гореть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {безмолвие=S,n,inan=ins,sg} {стих=S,m,inan=(acc,sg|nom,sg)}?
+Я{я=SPRO,sg,1p=nom} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p} людей{человек=S,m,anim=(acc,pl|gen,pl)} с{с=PR=} голубыми{голубой=A=ins,pl,plen} глазами{глаз=S,m,inan=ins,pl},
+Я{я=SPRO,sg,1p=nom} знаю{знать=V,ipf,tran=inpraes,sg,indic,1p}, что{что=CONJ=} принято{принимать=V=praet,sg,partcp,brev,n,pf,pass} думать{думать=V,ipf,intr=inf} о{о=PR=} них{они=SPRO,pl=(abl|acc|gen)}.
+Но{но=CONJ=} это{этот=APRO=(acc,sg,n|nom,sg,n)} молчание{молчание=S,n,inan=(acc,sg|nom,sg)} Неба{небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} над{над=PR=} нами{мы=SPRO,pl,1p=ins}
+Не{не=PART=} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} ли{ли=PART=} горящий{гореть=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} безмолвием{безмолвие=S,n,inan=ins,sg} стих{стих=S,m,inan=(acc,sg|nom,sg)}?
 
-{не=PART=} {стихать=V,intr=praet,sg,indic,m,pf}, {а=CONJ=} {поэма=S,f,inan=nom,sg}, {о=PR=} {то=SPRO,sg,n,inan=abl}, {что=CONJ=} {лазурность?=S,f,inan=(acc,sg|nom,sg)}
-{все=SPRO,pl=(acc|nom)} {видеть=V,ipf,tran=inpraes,sg,indic,3p}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {знать=V,ipf,tran=inpraes,sg,indic,3p}, {всегда=ADVPRO=} {глубина=S,f,inan=nom,sg},
-{и=CONJ=} {молча=ADV=} {твердить=V,ipf,tran=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat}: «{безбурность?=S,f,inan=(acc,sg|nom,sg)}. {безбурность?=S,f,inan=(acc,sg|nom,sg)}.
-«{я=SPRO,sg,1p=nom} {хорошо=ADV=comp,parenth}, {чем=CONJ=} {буря=S,f,inan=nom,sg}. {я=SPRO,sg,1p=nom} {счастие=S,n,inan=(acc,sg|nom,sg)} {сон=S,m,inan=gen,sg}».
+Не{не=PART=} стих{стихать=V,intr=praet,sg,indic,m,pf}, а{а=CONJ=} поэма{поэма=S,f,inan=nom,sg}, о{о=PR=} том{то=SPRO,sg,n,inan=abl}, что{что=CONJ=} лазурность{лазурность?=S,f,inan=(acc,sg|nom,sg)}
+Все{все=SPRO,pl=(acc|nom)} видит{видеть=V,ipf,tran=inpraes,sg,indic,3p}, все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} знает{знать=V,ipf,tran=inpraes,sg,indic,3p}, всегда{всегда=ADVPRO=} глубина{глубина=S,f,inan=nom,sg},
+И{и=CONJ=} молча{молча=ADV=} твердит{твердить=V,ipf,tran=inpraes,sg,indic,3p} нам{мы=SPRO,pl,1p=dat}: «Безбурность{безбурность?=S,f,inan=(acc,sg|nom,sg)}. Безбурность{безбурность?=S,f,inan=(acc,sg|nom,sg)}.
+«Я{я=SPRO,sg,1p=nom} лучше{хорошо=ADV=comp,parenth}, чем{чем=CONJ=} буря{буря=S,f,inan=nom,sg}. Я{я=SPRO,sg,1p=nom} счастие{счастие=S,n,inan=(acc,sg|nom,sg)} сна{сон=S,m,inan=gen,sg}».

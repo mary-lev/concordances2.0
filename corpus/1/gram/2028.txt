@@ -1,12 +1,12 @@
-{день=S,m,inan=(acc,sg|nom,sg)} {полувеселый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, {полустрадный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{голубой=A=nom,sg,plen,f} {гарь=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {умбрский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гора=S,f,inan=gen,pl}.
-{вдруг=ADV=} — {минутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ливень=S,m,inan=(acc,sg|nom,sg)}, {ветер=S,m,inan=(acc,sg|nom,sg)} {прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{за=PR=} {окно=S,n,inan=ins,sg} {открытый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — {громкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {хор=S,m,inan=(acc,sg|nom,sg)}.
+День{день=S,m,inan=(acc,sg|nom,sg)} полувеселый{полувеселый?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}, полустрадный{полустрадный?=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Голубая{голубой=A=nom,sg,plen,f} гарь{гарь=S,f,inan=(acc,sg|nom,sg)} от{от=PR=} Умбрских{умбрский=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гор{гора=S,f,inan=gen,pl}.
+Вдруг{вдруг=ADV=} — минутный{минутный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ливень{ливень=S,m,inan=(acc,sg|nom,sg)}, ветр{ветер=S,m,inan=(acc,sg|nom,sg)} прохладный{прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+За{за=PR=} окном{окно=S,n,inan=ins,sg} открытым{открытый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} — громкий{громкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} хор{хор=S,m,inan=(acc,sg|nom,sg)}.
 
-{там=ADVPRO=} — {в=PR=} {окно=S,n,inan=abl,sg}, {под=PR=} {фреска=S,f,inan=ins,sg} {перуджино?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
-{черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {смеяться=V,ipf,intr=inpraes,sg,indic,3p}, {дышать=V,ipf,intr=inpraes,sg,indic,3p} {грудь=S,f,inan=(acc,sg|nom,sg)}:
-{кто-то=SPRO,sg,m,anim=nom} {смуглый=A=ins,sg,plen,f} {рука=S,f,inan=ins,sg} {корзина=S,f,inan=acc,sg}
-{хотеть=V,ipf,tran=inpraes,sg,indic,3p} {и=CONJ=} {не=PART=} {сметь=V,ipf,intr=inpraes,sg,indic,3p} {дотягивать=V,tran=inf,pf}...
+Там{там=ADVPRO=} — в{в=PR=} окне{окно=S,n,inan=abl,sg}, под{под=PR=} фреской{фреска=S,f,inan=ins,sg} Перуджино{перуджино?=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+Черный{черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} глаз{глаз=S,m,inan=(acc,sg|gen,pl|nom,sg)} смеется{смеяться=V,ipf,intr=inpraes,sg,indic,3p}, дышит{дышать=V,ipf,intr=inpraes,sg,indic,3p} грудь{грудь=S,f,inan=(acc,sg|nom,sg)}:
+Кто-то{кто-то=SPRO,sg,m,anim=nom} смуглою{смуглый=A=ins,sg,plen,f} рукой{рука=S,f,inan=ins,sg} корзину{корзина=S,f,inan=acc,sg}
+Хочет{хотеть=V,ipf,tran=inpraes,sg,indic,3p} и{и=CONJ=} не{не=PART=} смеет{сметь=V,ipf,intr=inpraes,sg,indic,3p} дотянуть{дотягивать=V,tran=inf,pf}...
 
-{на=PR=} {корзина=S,f,inan=(abl,sg|dat,sg)} — {белый=A=nom,sg,plen,f} {записка=S,f,inan=nom,sg}:
-"{Questa??} {sera??}... {монастырь=S,m,inan=(acc,sg|nom,sg)} {франциск=S,persn,m,anim=(acc,sg|gen,sg)}..."
+На{на=PR=} корзине{корзина=S,f,inan=(abl,sg|dat,sg)} — белая{белый=A=nom,sg,plen,f} записка{записка=S,f,inan=nom,sg}:
+"Questa{Questa??} sera{sera??}... монастырь{монастырь=S,m,inan=(acc,sg|nom,sg)} Франциска{франциск=S,persn,m,anim=(acc,sg|gen,sg)}..."

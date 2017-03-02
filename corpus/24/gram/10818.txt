@@ -1,21 +1,21 @@
-{высокий=A=pl,brev} {три=NUM=(abl|gen|acc,anim)} {гора=S,f,inan=gen,pl} {вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{глубокий=A=pl,brev} {три=NUM=(nom|acc,inan)} {ямовина?=S,f,inan=(acc,pl|gen,sg|nom,pl)};
-{на=PR=} {гора=S,f,inan=abl,pl} {три=NUM=(nom|acc,inan)} {домовина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Высоки{высокий=A=pl,brev} трех{три=NUM=(abl|gen|acc,anim)} гор{гора=S,f,inan=gen,pl} вершины{вершина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Глубоки{глубокий=A=pl,brev} три{три=NUM=(nom|acc,inan)} ямовины{ямовина?=S,f,inan=(acc,pl|gen,sg|nom,pl)};
+На{на=PR=} горах{гора=S,f,inan=abl,pl} три{три=NUM=(nom|acc,inan)} домовины{домовина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{на=PR=} {гора=S,f,inan=(abl,sg|dat,sg)} {ли=CONJ=} {поднебесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{сам=APRO=(acc,sg,m,inan|nom,sg,m)} {лежать=V,ipf,intr=inpraes,sg,indic,3p} {отец=S,m,anim=nom,sg} {небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)};
-{что=SPRO,sg,n,inan=(acc|nom)} {низкий=A=comp} {ли=PART=} {гробница=S,f,inan=nom,sg} —
-{в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {небесный=A=nom,sg,plen,f} {царица=S,f,anim=nom,sg};
-{по=PR=} {пригорье?=S,geo,sg,n,inan=dat} {недалече=ADV=}
-{третий=ANUM=(acc,sg,m,inan|nom,sg,m)} {гроб=S,m,inan=(acc,sg|nom,sg)} — {иван=S,persn,m,anim=nom,sg}-{предтеча=S,mf,anim=(gen,sg|nom,pl)}.
+На{на=PR=} горе{гора=S,f,inan=(abl,sg|dat,sg)} ли{ли=CONJ=} поднебесной{поднебесный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Сам{сам=APRO=(acc,sg,m,inan|nom,sg,m)} лежит{лежать=V,ipf,intr=inpraes,sg,indic,3p} Отец{отец=S,m,anim=nom,sg} Небесный{небесный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)};
+Что{что=SPRO,sg,n,inan=(acc|nom)} пониже{низкий=A=comp} ли{ли=PART=} гробница{гробница=S,f,inan=nom,sg} —
+В{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} Небесная{небесный=A=nom,sg,plen,f} Царица{царица=S,f,anim=nom,sg};
+По{по=PR=} пригорью{пригорье?=S,geo,sg,n,inan=dat} недалече{недалече=ADV=}
+Третий{третий=ANUM=(acc,sg,m,inan|nom,sg,m)} гроб{гроб=S,m,inan=(acc,sg|nom,sg)} — Иван{иван=S,persn,m,anim=nom,sg}-Предтечи{предтеча=S,mf,anim=(gen,sg|nom,pl)}.
 
-{где=ADVPRO=} {мария=S,persn,f,anim=nom,sg} {почивать=V,ipf,intr=inpraes,sg,indic,3p},
-{алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {розан=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} {расцветать=V,intr=inpraes,sg,indic,3p,ipf},
-{лепесточек=S,m,inan=(acc,pl|nom,pl)} {распускать=V=inpraes,sg,indic,3p,ipf,tran},
-{голубочек=S,m,anim=(acc,sg|gen,sg)} {выпускать=V=inpraes,sg,indic,3p,ipf,tran}.
-{голубь=S,m,anim=nom,sg}-{птица=S,f,anim=nom,sg} {воспархивать?=V,intr=praet,sg,indic,f,pf},
-{мать=S,f,anim=(obsol,acc,sg|obsol,nom,sg)} {божий=A,plen=nom,sg,f} {воздыхать=V,intr=praet,sg,indic,f,pf}.
+Где{где=ADVPRO=} Мария{мария=S,persn,f,anim=nom,sg} почивает{почивать=V,ipf,intr=inpraes,sg,indic,3p},
+Алый{алый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} розан{розан=S,m=(nom,sg,anim|acc,sg,inan|nom,sg,inan)} расцветает{расцветать=V,intr=inpraes,sg,indic,3p,ipf},
+Лепесточки{лепесточек=S,m,inan=(acc,pl|nom,pl)} распускает{распускать=V=inpraes,sg,indic,3p,ipf,tran},
+Голубочка{голубочек=S,m,anim=(acc,sg|gen,sg)} выпускает{выпускать=V=inpraes,sg,indic,3p,ipf,tran}.
+Голубь{голубь=S,m,anim=nom,sg}-Птица{птица=S,f,anim=nom,sg} воспорхнула{воспархивать?=V,intr=praet,sg,indic,f,pf},
+Матерь{мать=S,f,anim=(obsol,acc,sg|obsol,nom,sg)} Божья{божий=A,plen=nom,sg,f} воздохнула{воздыхать=V,intr=praet,sg,indic,f,pf}.
 
-«{выходить=V,intr=sg,imper,2p,pf}, {отче=S,voc,sg,m,anim=} {вседержитель=S,m,anim=nom,sg}!
-{солетать?=V,pf,intr=sg,imper,2p}, {иван=S,persn,m,anim=nom,sg}-{креститель=S,m,anim=nom,sg}!
-{рождаться=V,intr=praet,sg,indic,m,pf} {земля=S,f,inan=(abl,sg|dat,sg)} {спаситель=S,m,anim=nom,sg}».
+«Выйди{выходить=V,intr=sg,imper,2p,pf}, Отче{отче=S,voc,sg,m,anim=} Вседержитель{вседержитель=S,m,anim=nom,sg}!
+Солетай{солетать?=V,pf,intr=sg,imper,2p}, Иван{иван=S,persn,m,anim=nom,sg}-Креститель{креститель=S,m,anim=nom,sg}!
+Родился{рождаться=V,intr=praet,sg,indic,m,pf} земле{земля=S,f,inan=(abl,sg|dat,sg)} Спаситель{спаситель=S,m,anim=nom,sg}».

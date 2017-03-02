@@ -1,17 +1,17 @@
-{высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {лес=S,m,inan=(acc,sg|nom,sg)}, {сквозной=A=(acc,pl,plen,inan|nom,pl,plen)} {бор=S,m,inan=(acc,pl|nom,pl)},
-{измятый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ветер=S,m,inan=ins,sg}, {дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бурелом=S,m,inan=(acc,sg|nom,sg)},
-{медянка=S,f,anim=nom,sg}, {тусклый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {свивать=V=praet,nom,sg,partcp,plen,f,pf,pass} {узел=S,m,inan=ins,sg},
-{лесной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вершина=S,f,inan=gen,pl} {глухой=A=(acc,pl,plen,inan|nom,pl,plen)} {разговор=S,m,inan=(acc,pl|nom,pl)}, —
+Высокий{высокий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} красный{красный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} лес{лес=S,m,inan=(acc,sg|nom,sg)}, сквозные{сквозной=A=(acc,pl,plen,inan|nom,pl,plen)} боры{бор=S,m,inan=(acc,pl|nom,pl)},
+Измятый{измятый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ветром{ветер=S,m,inan=ins,sg}, дикий{дикий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} бурелом{бурелом=S,m,inan=(acc,sg|nom,sg)},
+Медянка{медянка=S,f,anim=nom,sg}, тусклым{тусклый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} свитая{свивать=V=praet,nom,sg,partcp,plen,f,pf,pass} узлом{узел=S,m,inan=ins,sg},
+Лесных{лесной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} вершин{вершина=S,f,inan=gen,pl} глухие{глухой=A=(acc,pl,plen,inan|nom,pl,plen)} разговоры{разговор=S,m,inan=(acc,pl|nom,pl)}, —
 
-{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}, {холм=S,m,inan=(acc,pl|nom,pl)}, {раздробленный=A=(acc,pl,plen,inan|nom,pl,plen)} {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{камень=S,m,inan=gen,pl} {огромный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {косвенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {излом=S,m,inan=(acc,sg|nom,sg)},
-{тиски=S,pl,inan=(acc|nom)} {стремнина=S,f,inan=gen,pl}, {где=ADVPRO=} {буря=S,f,inan=(acc,pl|gen,sg|nom,pl)} {копить=V,ipf,tran=inpraes,pl,indic,3p} {гром=S,m,inan=(acc,sg|nom,sg)},
-{плести=V,ipf,tran=inpraes,ger} {он=SPRO,sg,3p,m=dat} {пушистый=A=(acc,pl,plen,inan|nom,pl,plen)} {убор=S,m,inan=(acc,pl|nom,pl)}, —
+Луга{луг=S,m,inan=(acc,pl|gen,sg|nom,pl)}, холмы{холм=S,m,inan=(acc,pl|nom,pl)}, раздробленные{раздробленный=A=(acc,pl,plen,inan|nom,pl,plen)} горы{гора=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Камней{камень=S,m,inan=gen,pl} огромных{огромный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} косвенный{косвенный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} излом{излом=S,m,inan=(acc,sg|nom,sg)},
+Тиски{тиски=S,pl,inan=(acc|nom)} стремнин{стремнина=S,f,inan=gen,pl}, где{где=ADVPRO=} бури{буря=S,f,inan=(acc,pl|gen,sg|nom,pl)} копят{копить=V,ipf,tran=inpraes,pl,indic,3p} гром{гром=S,m,inan=(acc,sg|nom,sg)},
+Плетя{плести=V,ipf,tran=inpraes,ger} ему{он=SPRO,sg,3p,m=dat} пушистые{пушистый=A=(acc,pl,plen,inan|nom,pl,plen)} уборы{убор=S,m,inan=(acc,pl|nom,pl)}, —
 
-{вот=PART=} {мир=S,m,inan=(acc,sg|nom,sg)}, {достойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {помысел=S,m,inan=gen,sg} {и=CONJ=} {струна=S,f,inan=gen,pl}.
-{вести=V,ipf,tran=praet,pl,indic} {мечта=S,f,inan=dat,pl}, {чтоб=CONJ=} {в=PR=} {бег=S,sg,m,inan=abl} {быть=V,intr=praet,pl,indic,ipf} {рьяный=A=pl,brev},
-{как=ADVPRO=} {ржать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} {табун=S,m,inan=(acc,sg|nom,sg)},
+Вот{вот=PART=} мир{мир=S,m,inan=(acc,sg|nom,sg)}, достойный{достойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} помысла{помысел=S,m,inan=gen,sg} и{и=CONJ=} струн{струна=S,f,inan=gen,pl}.
+Вели{вести=V,ipf,tran=praet,pl,indic} мечтам{мечта=S,f,inan=dat,pl}, чтоб{чтоб=CONJ=} в{в=PR=} беге{бег=S,sg,m,inan=abl} были{быть=V,intr=praet,pl,indic,ipf} рьяны{рьяный=A=pl,brev},
+Как{как=ADVPRO=} ржущий{ржать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} убегающий{убегать=V,intr=(inpraes,acc,sg,partcp,plen,m,ipf,act,inan|inpraes,nom,sg,partcp,plen,m,ipf,act)} табун{табун=S,m,inan=(acc,sg|nom,sg)},
 
-{как=CONJ=} {врания?=S,persn,f,anim=(acc,pl|gen,pl)} {голос=S,m,inan=(acc,sg|nom,sg)} {чернокнижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {руно=S,n,inan=gen,pl},
-{как=ADVPRO=} {пчела=S,f,anim=(gen,sg|nom,pl)}, {что=CONJ=} {от=PR=} {красный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {мак=S,m,inan=gen,pl} {пьяный=A=pl,brev}, —
-{чтоб=CONJ=} {знать=V,ipf,tran=inf}, {что=CONJ=} {ты=SPRO,sg,2p=nom} {воистину=ADV,parenth=} {быть=V,intr=praet,sg,indic,m,ipf} {юный=A=sg,brev,m}.
+Как{как=CONJ=} враний{врания?=S,persn,f,anim=(acc,pl|gen,pl)} голос{голос=S,m,inan=(acc,sg|nom,sg)} чернокнижных{чернокнижный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} рун{руно=S,n,inan=gen,pl},
+Как{как=ADVPRO=} пчелы{пчела=S,f,anim=(gen,sg|nom,pl)}, что{что=CONJ=} от{от=PR=} красных{красный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} маков{мак=S,m,inan=gen,pl} пьяны{пьяный=A=pl,brev}, —
+Чтоб{чтоб=CONJ=} знать{знать=V,ipf,tran=inf}, что{что=CONJ=} ты{ты=SPRO,sg,2p=nom} воистину{воистину=ADV,parenth=} был{быть=V,intr=praet,sg,indic,m,ipf} юн{юный=A=sg,brev,m}.

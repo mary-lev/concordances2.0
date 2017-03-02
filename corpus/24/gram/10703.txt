@@ -1,15 +1,15 @@
-{три=NUM=(nom|acc,inan)} {жать=V,ipf,tran=praet,sg,indic,f} {зыбить=V,ipf=inpraes,sg,indic,3p,tran} {в=PR=} {уста=S,pl,inan=abl} {змеиный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
-{мой=APRO=nom,sg,f} {волшба=S,sg,f,inan=nom}:
-{по=PR=} {ты=SPRO,sg,2p=(abl|dat)} {я=SPRO,sg,1p=nom} {изгаснуть?=V,pf,intr=inpraes,sg,indic,1p} {в=PR=} {глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {кручина=S,f,inan=abl,pl};
-{твой=APRO=nom,sg,f} {ж=PART=} {судьба=S,f,inan=nom,sg} —
-{измлеть?=V,ipf,intr=inf}, {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {пепел=S,m,inan=(acc,sg|nom,sg)} {дыхание=S,n,inan=ins,sg} {грей=S,famn,m,anim=(acc,sg|gen,sg)},
-{пронзать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)} {желание=S,n,inan=ins,sg} {над=PR=} {урна=S,f,inan=ins,sg} {болеть=V,ipf,intr=inpraes,ger}
-{о=PR=} {день=S,m,inan=abl,pl} {невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}...
+Три{три=NUM=(nom|acc,inan)} жала{жать=V,ipf,tran=praet,sg,indic,f} зыблет{зыбить=V,ipf=inpraes,sg,indic,3p,tran} в{в=PR=} устах{уста=S,pl,inan=abl} змеиных{змеиный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}
+Моя{мой=APRO=nom,sg,f} волшба{волшба=S,sg,f,inan=nom}:
+По{по=PR=} тебе{ты=SPRO,sg,2p=(abl|dat)} я{я=SPRO,sg,1p=nom} изгасну{изгаснуть?=V,pf,intr=inpraes,sg,indic,1p} в{в=PR=} глухих{глухой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} кручинах{кручина=S,f,inan=abl,pl};
+Твоя{твой=APRO=nom,sg,f} ж{ж=PART=} судьба{судьба=S,f,inan=nom,sg} —
+Измлеть{измлеть?=V,ipf,intr=inf}, мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} пепел{пепел=S,m,inan=(acc,sg|nom,sg)} дыханьем{дыхание=S,n,inan=ins,sg} грея{грей=S,famn,m,anim=(acc,sg|gen,sg)},
+Пронзенным{пронзать=V=(praet,dat,pl,partcp,plen,pf,pass,tran|praet,ins,sg,partcp,plen,m,pf,pass,tran|praet,ins,sg,partcp,plen,n,pf,pass,tran)} желаньем{желание=S,n,inan=ins,sg} над{над=PR=} урной{урна=S,f,inan=ins,sg} болея{болеть=V,ipf,intr=inpraes,ger}
+О{о=PR=} днях{день=S,m,inan=abl,pl} невозвратных{невозвратный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}...
 
-{иль=CONJ=} {становиться=V,intr=inpraes,sg,indic,3p,pf} {мрак=S,m,inan=gen,sg} {железный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рука=S,f,inan=ins,sg}
-{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {мольба=S,f,inan=nom,sg};
-{повлечь=V,pf,tran=inpraes,sg,indic,3p} {твой=APRO=(acc,sg,n|nom,sg,n)} {тело=S,n,inan=(acc,sg|nom,sg)} {стримон?=S,m,anim=ins,sg}-{река=S,f,inan=ins,sg}
-{мой=APRO=nom,sg,f} {алчба=S,sg,f,inan=nom} —
-{безгласный=A=(acc,sg,plen,n|nom,sg,plen,n)} {тело=S,n,inan=(acc,sg|nom,sg)} {вакхоборец?=S,m,anim=(acc,sg|gen,sg)}-{орфей=S,persn,m,anim=(acc,sg|gen,sg)}...
-{третий=ANUM=(acc,sg,n|nom,sg,n)} {ль=PART=} {жало=S,n,inan=(acc,sg|nom,sg)} {ужалить=V,pf,tran=inpraes,sg,indic,3p}: {ты=SPRO,sg,2p=nom} {прийти=V,pf,intr=inpraes,sg,indic,2p}, {вожделеть=V,ipf,intr=inpraes,ger}
-{дар=S,m,inan=gen,pl} {неотвратный=A,plen=(abl,pl|gen,pl|acc,pl,anim)}.
+Иль{иль=CONJ=} станет{становиться=V,intr=inpraes,sg,indic,3p,pf} мрака{мрак=S,m,inan=gen,sg} железной{железный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} рукою{рука=S,f,inan=ins,sg}
+Любви{любовь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} мольба{мольба=S,f,inan=nom,sg};
+Повлечет{повлечь=V,pf,tran=inpraes,sg,indic,3p} твое{твой=APRO=(acc,sg,n|nom,sg,n)} тело{тело=S,n,inan=(acc,sg|nom,sg)} Стримоном{стримон?=S,m,anim=ins,sg}-рекою{река=S,f,inan=ins,sg}
+Моя{мой=APRO=nom,sg,f} алчба{алчба=S,sg,f,inan=nom} —
+Безгласное{безгласный=A=(acc,sg,plen,n|nom,sg,plen,n)} тело{тело=S,n,inan=(acc,sg|nom,sg)} вакхоборца{вакхоборец?=S,m,anim=(acc,sg|gen,sg)}-Орфея{орфей=S,persn,m,anim=(acc,sg|gen,sg)}...
+Третье{третий=ANUM=(acc,sg,n|nom,sg,n)} ль{ль=PART=} жало{жало=S,n,inan=(acc,sg|nom,sg)} ужалит{ужалить=V,pf,tran=inpraes,sg,indic,3p}: ты{ты=SPRO,sg,2p=nom} придешь{прийти=V,pf,intr=inpraes,sg,indic,2p}, вожделея{вожделеть=V,ipf,intr=inpraes,ger}
+Даров{дар=S,m,inan=gen,pl} неотвратных{неотвратный=A,plen=(abl,pl|gen,pl|acc,pl,anim)}.

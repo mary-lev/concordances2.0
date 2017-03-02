@@ -1,17 +1,17 @@
-{светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)} {день=S,m,inan=gen,sg} {сиять=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {печать=S,f,inan=ins,sg}
-{скреплять=V,tran=inpraes,sg,indic,3p,ipf} {в=PR=} {небо=S,n,inan=abl,sg} {приговор=S,m,inan=(acc,sg|nom,sg)} {судьба=S,f,inan=gen,pl}:
-{и=CONJ=} {то=PART=}, {что=CONJ=} {колос=S,m,inan=(acc,sg|nom,sg)} {быть=V,intr=praet,sg,indic,n,ipf}, {становиться=V,intr=praet,sg,indic,n,pf} {хлеб=S,m,inan=(acc,sg|nom,sg)};
-{закон=S,m,inan=ins,sg} {то=PART=}, {что=CONJ=} {быть=V,intr=praet,sg,indic,n,ipf} {благодать=S,f,inan=ins,sg}.
+Светило{светило=S,n=(nom,sg,anim|acc,sg,inan|nom,sg,inan|acc,sg,anim)} дня{день=S,m,inan=gen,sg} сияющей{сиять=V,ipf,intr=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} печатью{печать=S,f,inan=ins,sg}
+Скрепляет{скреплять=V,tran=inpraes,sg,indic,3p,ipf} в{в=PR=} небе{небо=S,n,inan=abl,sg} приговор{приговор=S,m,inan=(acc,sg|nom,sg)} судеб{судьба=S,f,inan=gen,pl}:
+И{и=CONJ=} то{то=PART=}, что{что=CONJ=} колос{колос=S,m,inan=(acc,sg|nom,sg)} было{быть=V,intr=praet,sg,indic,n,ipf}, стало{становиться=V,intr=praet,sg,indic,n,pf} хлеб{хлеб=S,m,inan=(acc,sg|nom,sg)};
+Законом{закон=S,m,inan=ins,sg} то{то=PART=}, что{что=CONJ=} было{быть=V,intr=praet,sg,indic,n,ipf} благодатью{благодать=S,f,inan=ins,sg}.
 
-{и=CONJ=}, {фебов=S,famn,m,anim=dat,sg} {послушный=A=(acc,sg,plen,n|nom,sg,plen,n)} {заклятие=S,n,inan=dat,sg},
-{возможный=A=(acc,sg,plen,n|nom,sg,plen,n)}, {как=CONJ=} {тень=S,f,inan=(acc,sg|nom,sg)}, {бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {в=PR=} {эреб?=S,m,anim=nom,sg};
-{лишь=PART=} {нужный=A=(acc,sg,plen,n|nom,sg,plen,n)} {для=PR=} {роковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {потреба=S,f,inan=gen,pl}
-{пощадить=V,pf,tran=praet,sg,partcp,brev,n,pass} {луч=S,m,inan=gen,pl} {копьистый?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {рать=S,f,inan=ins,sg}.
+И{и=CONJ=}, Фебову{фебов=S,famn,m,anim=dat,sg} послушное{послушный=A=(acc,sg,plen,n|nom,sg,plen,n)} заклятью{заклятие=S,n,inan=dat,sg},
+Возможное{возможный=A=(acc,sg,plen,n|nom,sg,plen,n)}, как{как=CONJ=} тень{тень=S,f,inan=(acc,sg|nom,sg)}, бежит{бежать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} в{в=PR=} Эреб{эреб?=S,m,anim=nom,sg};
+Лишь{лишь=PART=} нужное{нужный=A=(acc,sg,plen,n|nom,sg,plen,n)} для{для=PR=} роковых{роковый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} потреб{потреба=S,f,inan=gen,pl}
+Пощажено{пощадить=V,pf,tran=praet,sg,partcp,brev,n,pass} лучей{луч=S,m,inan=gen,pl} копьистой{копьистый?=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ратью{рать=S,f,inan=ins,sg}.
 
-{но=CONJ=} {дух=S,m,inan=dat,sg} {чуждый=A=sg,brev,m}, {враждебный=A=sg,brev,m} {этот=APRO=(acc,sg,m,inan|nom,sg,m)} {суд=S,m,inan=(acc,sg|nom,sg)}, —
-{и=CONJ=} {крыло=S,n,inan=(acc,pl|nom,pl)} {память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {я=SPRO,sg,1p=(acc|gen)} {нести=V,ipf,tran=inpraes,pl,indic,3p}
-{в=PR=} {край=S,m,inan=(acc,sg|nom,sg)} {душа=S,f,inan=gen,pl}, {вослед=PR=} {несбыточный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {надежда=S,f,inan=(abl,sg|dat,sg)}.
+Но{но=CONJ=} духу{дух=S,m,inan=dat,sg} чужд{чуждый=A=sg,brev,m}, враждебен{враждебный=A=sg,brev,m} этот{этот=APRO=(acc,sg,m,inan|nom,sg,m)} суд{суд=S,m,inan=(acc,sg|nom,sg)}, —
+И{и=CONJ=} крылья{крыло=S,n,inan=(acc,pl|nom,pl)} Памяти{память=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} меня{я=SPRO,sg,1p=(acc|gen)} несут{нести=V,ipf,tran=inpraes,pl,indic,3p}
+В{в=PR=} край{край=S,m,inan=(acc,sg|nom,sg)} душ{душа=S,f,inan=gen,pl}, вослед{вослед=PR=} несбыточной{несбыточный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Надежде{надежда=S,f,inan=(abl,sg|dat,sg)}.
 
-{там=ADVPRO=} {обнимать=V,tran=inpraes,sg,indic,1p,ipf} {мертвый=A=acc,sg,plen,f} {любовь=S,f,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {в=PR=} {часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {трепетный=A=(acc,pl,plen,inan|nom,pl,plen)} {прежде=ADV=},
-{лить=V,ipf,tran=inpraes,sg,indic,1p} {жаркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {жить=V,ipf,intr=praet,sg,indic,m} {остаточный=A=acc,sg,plen,f} {кровь=S,f,inan=(acc,sg|nom,sg)}.
+Там{там=ADVPRO=} обнимаю{обнимать=V,tran=inpraes,sg,indic,1p,ipf} мертвую{мертвый=A=acc,sg,plen,f} Любовь{любовь=S,f,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} в{в=PR=} части{часть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} сердца{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}, трепетные{трепетный=A=(acc,pl,plen,inan|nom,pl,plen)} прежде{прежде=ADV=},
+Лью{лить=V,ipf,tran=inpraes,sg,indic,1p} жарких{жаркий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} жил{жить=V,ipf,intr=praet,sg,indic,m} остаточную{остаточный=A=acc,sg,plen,f} кровь{кровь=S,f,inan=(acc,sg|nom,sg)}.

@@ -71,7 +71,8 @@ def _():
         (T('Поиск слова'), False, URL('concordance', 'ask_model')),
         (T('Животные'), False, URL('concordance', 'zveri')),
         (T('Птицы'), False, URL('concordance', 'birds')),
-        ] )
+        ] ),
+        (SPAN('Заточник', _class='highlighted'), False, URL('zatochnik', 'index'))
          ]
 
 if DEVELOPMENT_MENU: _()

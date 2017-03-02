@@ -1,33 +1,33 @@
-{ангел=S,m,anim=nom,pl} {опальный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{светлый=A=(acc,pl,plen,inan|nom,pl,plen)}, {печальный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{блеск=S,m,inan=(acc,pl|nom,pl)} {погребальный=A=(acc,pl,plen,inan|nom,pl,plen)}
-{тающий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {свеча=S,f,inan=gen,pl}; —
-{грустный=A=(acc,pl,plen,inan|nom,pl,plen)}, {безбольный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{звон=S,m,inan=(acc,pl|nom,pl)} {колокольный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{отзвук=S,m,inan=(acc,pl|nom,pl)} {невольный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{отсвет=S,m,inan=(acc,pl|nom,pl)} {луч=S,m,inan=gen,pl}; —
-{взор=S,m,inan=(acc,pl|nom,pl)} {полусонный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{нежный=A=(acc,pl,plen,inan|nom,pl,plen)}, {влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{дымка=S,f,inan=ins,sg} {окаймлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
-{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} {черта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{то=CONJ=} {мой=APRO=(nom,pl|acc,pl,inan)} {несмелый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{то=CONJ=} {воздушно=ADV=}-{белый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{сладко=ADV=} {онемелый=A=(acc,pl,plen,inan|nom,pl,plen)},
-{легкое=S,n,inan=(acc,pl|nom,pl)} {цветок=S,m,inan=(acc,pl|nom,pl)}.
+Ангелы{ангел=S,m,anim=nom,pl} опальные{опальный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Светлые{светлый=A=(acc,pl,plen,inan|nom,pl,plen)}, печальные{печальный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Блески{блеск=S,m,inan=(acc,pl|nom,pl)} погребальные{погребальный=A=(acc,pl,plen,inan|nom,pl,plen)}
+Тающих{тающий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} свечей{свеча=S,f,inan=gen,pl}; —
+Грустные{грустный=A=(acc,pl,plen,inan|nom,pl,plen)}, безбольные{безбольный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Звоны{звон=S,m,inan=(acc,pl|nom,pl)} колокольные{колокольный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Отзвуки{отзвук=S,m,inan=(acc,pl|nom,pl)} невольные{невольный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Отсветы{отсвет=S,m,inan=(acc,pl|nom,pl)} лучей{луч=S,m,inan=gen,pl}; —
+Взоры{взор=S,m,inan=(acc,pl|nom,pl)} полусонные{полусонный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Нежные{нежный=A=(acc,pl,plen,inan|nom,pl,plen)}, влюбленные{влюбленный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Дымкой{дымка=S,f,inan=ins,sg} окаймленные{окаймлять=V,tran=(praet,acc,pl,partcp,plen,pf,pass,inan|praet,nom,pl,partcp,plen,pf,pass)},
+Тонкие{тонкий=A=(acc,pl,plen,inan|nom,pl,plen)} черты{черта=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+То{то=CONJ=} мои{мой=APRO=(nom,pl|acc,pl,inan)} несмелые{несмелый=A=(acc,pl,plen,inan|nom,pl,plen)},
+То{то=CONJ=} воздушно{воздушно=ADV=}-белые{белый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Сладко{сладко=ADV=} онемелые{онемелый=A=(acc,pl,plen,inan|nom,pl,plen)},
+Легкие{легкое=S,n,inan=(acc,pl|nom,pl)} цветы{цветок=S,m,inan=(acc,pl|nom,pl)}.
 
-{чувственно=ADV=}-{неясный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{девственный=A=sg,brev,n} {прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{в=PR=} {страстность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {бесстрастный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}; —
-{шорох=S,m,inan=(acc,sg|nom,sg)} {приближение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{радость=S,f,inan=(acc,sg|nom,sg)} {отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {грех=S,m,inan=(acc,sg|nom,sg)} {внушение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{дышать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} {едва=ADV=}; —
-{зыбкий=A=(acc,pl,plen,inan|nom,pl,plen)} {и=CONJ=} {странный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{вкрадчивый=A=sg,brev,n}-{туманный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{в=PR=} {смелость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {нежданный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{проблеск=S,m,inan=(acc,pl|nom,pl)} {огонь=S,m,inan=gen,sg}, —
-{то=PART=} {мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {что=CONJ=} {встречаться=V,intr=inpraes,pl,indic,3p,pf}
-{с=PR=} {тот=APRO=ins,pl}, {кто=SPRO,sg,m,anim=ins} {отмечаться=V,intr=inpraes,pl,indic,3p,pf},
-{и=CONJ=} {опять=ADV=} {засвечиваться=V,intr=inpraes,pl,indic,3p,pf}
-{эхо=S,n,inan=ins,sg} {для=PR=} {я=SPRO,sg,1p=(acc|gen)}!
+Чувственно{чувственно=ADV=}-неясные{неясный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Девственно{девственный=A=sg,brev,n} прекрасные{прекрасный=A=(acc,pl,plen,inan|nom,pl,plen)},
+В{в=PR=} страстности{страстность=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} бесстрастные{бесстрастный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Тайны{тайна=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} слова{слово=S,n,inan=(acc,pl|gen,sg|nom,pl)}; —
+Шорох{шорох=S,m,inan=(acc,sg|nom,sg)} приближения{приближение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Радость{радость=S,f,inan=(acc,sg|nom,sg)} отражения{отражение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Нежный{нежный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} грех{грех=S,m,inan=(acc,sg|nom,sg)} внушения{внушение=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Дышащий{дышать=V,ipf,intr=(inpraes,acc,sg,partcp,plen,m,act,inan|inpraes,nom,sg,partcp,plen,m,act)} едва{едва=ADV=}; —
+Зыбкие{зыбкий=A=(acc,pl,plen,inan|nom,pl,plen)} и{и=CONJ=} странные{странный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Вкрадчиво{вкрадчивый=A=sg,brev,n}-туманные{туманный=A=(acc,pl,plen,inan|nom,pl,plen)},
+В{в=PR=} смелости{смелость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} нежданные{нежданный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Проблески{проблеск=S,m,inan=(acc,pl|nom,pl)} огня{огонь=S,m,inan=gen,sg}, —
+То{то=PART=} мечты{мечта=S,f,inan=(acc,pl|gen,sg|nom,pl)}, что{что=CONJ=} встретятся{встречаться=V,intr=inpraes,pl,indic,3p,pf}
+С{с=PR=} теми{тот=APRO=ins,pl}, кем{кто=SPRO,sg,m,anim=ins} отметятся{отмечаться=V,intr=inpraes,pl,indic,3p,pf},
+И{и=CONJ=} опять{опять=ADV=} засветятся{засвечиваться=V,intr=inpraes,pl,indic,3p,pf}
+Эхом{эхо=S,n,inan=ins,sg} для{для=PR=} меня{я=SPRO,sg,1p=(acc|gen)}!

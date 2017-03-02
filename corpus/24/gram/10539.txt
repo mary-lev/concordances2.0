@@ -1,14 +1,14 @@
-{мой=APRO=(acc,sg,n|nom,sg,n)} {томление=S,n,inan=(acc,sg|nom,sg)}, {светить=V,ipf,intr=praet,sg,indic,f} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
-{вы=SPRO,pl,2p=nom} {видеть=V,ipf,tran=inpraes,pl,indic,2p}! {в=PR=} {страна=S,f,inan=(abl,sg|dat,sg)} {родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{когда=CONJ=} {я=SPRO,sg,1p=nom} {возводить=V=praet,sg,indic,m,ipf,tran} {с=PR=} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {надежда=S,f,inan=ins,sg} {око=S,n,inan=(acc,pl|nom,pl)}:
-{на=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)}, {царь=S,m,anim=nom,pl} {судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)} {земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}?
+Мое{мой=APRO=(acc,sg,n|nom,sg,n)} томление{томление=S,n,inan=(acc,sg|nom,sg)}, светила{светить=V,ipf,intr=praet,sg,indic,f} темной{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+Вы{вы=SPRO,pl,2p=nom} видите{видеть=V,ipf,tran=inpraes,pl,indic,2p}! В{в=PR=} стране{страна=S,f,inan=(abl,sg|dat,sg)} родной{родной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Когда{когда=CONJ=} я{я=SPRO,sg,1p=nom} возводил{возводить=V=praet,sg,indic,m,ipf,tran} с{с=PR=} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} надеждой{надежда=S,f,inan=ins,sg} очи{око=S,n,inan=(acc,pl|nom,pl)}:
+На{на=PR=} вас{вы=SPRO,pl,2p=(abl|acc|gen)}, цари{царь=S,m,anim=nom,pl} судьбы{судьба=S,f,inan=(acc,pl|gen,sg|nom,pl)} земной{земной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}?
 
-{житейский=A=(acc,sg,plen,n|nom,sg,plen,n)} {оставлять=V,tran=praet,ger,pf} {попечение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
-{о=PR=} {вечный=A=(abl,sg,plen,m|abl,sg,plen,n)},{о=PR=} {достойный=A=(abl,sg,plen,m|abl,sg,plen,n)} {вы=SPRO,pl,2p=(abl|acc|gen)}
-{я=SPRO,sg,1p=nom} {с=PR=} {вы=SPRO,pl,2p=ins} {говорить=V,ipf,tran=praet,sg,indic,m}. {а=CONJ=} {ныне=ADV=}, {в=PR=} {заточение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{вопрос=S,m,inan=(acc,sg|nom,sg)} {единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {к=PR=} {вы=SPRO,pl,2p=dat}: {прийти=V,pf,intr=inpraes,sg,indic,3p} {ли=PART=} {воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {час=S,m,inan=(acc,sg|nom,sg)}?
+Житейское{житейский=A=(acc,sg,plen,n|nom,sg,plen,n)} оставив{оставлять=V,tran=praet,ger,pf} попеченье{попечение=S,n,inan=(abl,sg|acc,sg|nom,sg)}
+О{о=PR=} вечном{вечный=A=(abl,sg,plen,m|abl,sg,plen,n)},о{о=PR=} достойном{достойный=A=(abl,sg,plen,m|abl,sg,plen,n)} вас{вы=SPRO,pl,2p=(abl|acc|gen)}
+Я{я=SPRO,sg,1p=nom} с{с=PR=} вами{вы=SPRO,pl,2p=ins} говорил{говорить=V,ipf,tran=praet,sg,indic,m}. А{а=CONJ=} ныне{ныне=ADV=}, в{в=PR=} заточенье{заточение=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Вопрос{вопрос=S,m,inan=(acc,sg|nom,sg)} единый{единый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} к{к=PR=} вам{вы=SPRO,pl,2p=dat}: придет{прийти=V,pf,intr=inpraes,sg,indic,3p} ли{ли=PART=} воли{воля=S,f,inan=(acc,pl|gen,sg|nom,pl)} час{час=S,m,inan=(acc,sg|nom,sg)}?
 
-{глядеть=V,ipf,tran=inpraes,sg,indic,1p} {на=PR=} {вы=SPRO,pl,2p=(abl|acc|gen)} {с=PR=} {тоска=S,f,inan=ins,sg} {суеверный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
-{и=CONJ=} {детски=ADV=} {ждать=V,ipf,tran=inpraes,sg,indic,1p}:
-{услышать=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} {молитва=S,f,inan=gen,pl} {увидеть=V,pf,tran=inpraes,sg,indic,1p} {ль=CONJ=} {признак=S,m,inan=(acc,sg|nom,sg)} {верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
-{падучий=A=acc,sg,plen,f} {звезда=S,f,inan=acc,sg}?
+Гляжу{глядеть=V,ipf,tran=inpraes,sg,indic,1p} на{на=PR=} вас{вы=SPRO,pl,2p=(abl|acc|gen)} с{с=PR=} тоскою{тоска=S,f,inan=ins,sg} суеверной{суеверный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} —
+И{и=CONJ=} детски{детски=ADV=} жду{ждать=V,ipf,tran=inpraes,sg,indic,1p}:
+Услышанных{услышать=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} молитв{молитва=S,f,inan=gen,pl} увижу{увидеть=V,pf,tran=inpraes,sg,indic,1p} ль{ль=CONJ=} признак{признак=S,m,inan=(acc,sg|nom,sg)} верный{верный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
+Падучую{падучий=A=acc,sg,plen,f} звезду{звезда=S,f,inan=acc,sg}?

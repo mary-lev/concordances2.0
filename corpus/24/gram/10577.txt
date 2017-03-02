@@ -1,10 +1,10 @@
-{пусть=PART=} {голод=S,m,inan=(acc,sg|nom,sg)} {пленница=S,f,anim=(acc,pl|gen,pl)}-{душа=S,f,inan=gen,pl} {неутолимый=A=sg,brev,m}:
-{все=SPRO,pl=(acc|nom)} {ж=PART=} {ночь=S,f,inan=ins,sg} {вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {колокол=S,m,inan=(acc,sg|nom,sg)} {пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{как=ADVPRO=} {белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {луч=S,m,inan=(acc,sg|nom,sg)}, {в=PR=} {тюрьма=S,f,inan=(abl,sg|dat,sg)} {сердце=S,n,inan=gen,pl} {страдальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{затепливать=V,tran=inpraes,sg,indic,3p,pf} {новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {иерусалим=S,geo,m,inan=(acc,sg|nom,sg)}.
+Пусть{пусть=PART=} голод{голод=S,m,inan=(acc,sg|nom,sg)} пленниц{пленница=S,f,anim=(acc,pl|gen,pl)}-душ{душа=S,f,inan=gen,pl} неутолим{неутолимый=A=sg,brev,m}:
+Все{все=SPRO,pl=(acc|nom)} ж{ж=PART=} ночью{ночь=S,f,inan=ins,sg} вешней{вешний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} колокол{колокол=S,m,inan=(acc,sg|nom,sg)} пасхальный{пасхальный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Как{как=ADVPRO=} белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} луч{луч=S,m,inan=(acc,sg|nom,sg)}, в{в=PR=} тюрьме{тюрьма=S,f,inan=(abl,sg|dat,sg)} сердец{сердце=S,n,inan=gen,pl} страдальной{страдальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Затеплит{затепливать=V,tran=inpraes,sg,indic,3p,pf} Новый{новый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Иерусалим{иерусалим=S,geo,m,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=} {вновь=ADV=} {на=PR=} {миг=S,m,inan=(acc,sg|nom,sg)} {подвигнуться=V,pf,intr=inpraes,pl,indic,3p} {сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
-{и=CONJ=} {трепетно=ADV=} {соприкасаться=V,intr=inpraes,pl,indic,3p,pf} {свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{огнепричастие?=S,n,inan=ins,sg} {богоносный?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{и=CONJ=} {вспыхивать=V,intr=inpraes,sg,indic,3p,pf} {сокровенный=A=(acc,sg,plen,n|nom,sg,plen,n)} {далече=ADV=}
-{на=PR=} {лицо=S,n,inan=abl,pl} {отсвет=S,m,inan=ins,sg} {единый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} вновь{вновь=ADV=} на{на=PR=} миг{миг=S,m,inan=(acc,sg|nom,sg)} подвигнутся{подвигнуться=V,pf,intr=inpraes,pl,indic,3p} сердца{сердце=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} трепетно{трепетно=ADV=} соприкоснутся{соприкасаться=V,intr=inpraes,pl,indic,3p,pf} свечи{свеча=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Огнепричастьем{огнепричастие?=S,n,inan=ins,sg} богоносной{богоносный?=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} встречи{встреча=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} вспыхнет{вспыхивать=V,intr=inpraes,sg,indic,3p,pf} сокровенное{сокровенный=A=(acc,sg,plen,n|nom,sg,plen,n)} далече{далече=ADV=}
+На{на=PR=} лицах{лицо=S,n,inan=abl,pl} отсветом{отсвет=S,m,inan=ins,sg} Единого{единый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} Лица{лицо=S,n,inan=(acc,pl|gen,sg|nom,pl)}.

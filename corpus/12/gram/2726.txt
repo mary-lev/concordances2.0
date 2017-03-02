@@ -1,20 +1,20 @@
-{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {ангел=S,m,anim=(acc,sg|gen,sg)}, {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {брат=S,m,anim=(acc,sg|gen,sg)},
-{на=PR=} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {вспенивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} {конь=S,m,anim=abl,pl}!
-{гореть=V,ipf,intr=inpraes,pl,indic,3p} {серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} {латы=S,pl,inan=(acc|nom)}
-{на=PR=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {грядущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {день=S,m,inan=abl,pl}.
-{и=CONJ=} {оттого=ADVPRO=}, {что=CONJ=} {вы=SPRO,pl,2p=nom} {крылатый=A=pl,brev} — 
-{я=SPRO,sg,1p=nom} {с=PR=} {жадность=S,f,inan=ins,sg} {целый=A=acc,sg,plen,f} {прах=S,m,inan=(acc,sg|nom,sg)}.
+Два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} ангела{ангел=S,m,anim=(acc,sg|gen,sg)}, два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} брата{брат=S,m,anim=(acc,sg|gen,sg)},
+На{на=PR=} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} вспененных{вспенивать=V,tran=(praet,abl,pl,partcp,plen,pf,pass|praet,acc,pl,partcp,plen,pf,pass,anim|praet,gen,pl,partcp,plen,pf,pass)} конях{конь=S,m,anim=abl,pl}!
+Горят{гореть=V,ipf,intr=inpraes,pl,indic,3p} серебряные{серебряный=A=(acc,pl,plen,inan|nom,pl,plen)} латы{латы=S,pl,inan=(acc|nom)}
+На{на=PR=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} моих{мой=APRO=(abl,pl|gen,pl|acc,pl,anim)} грядущих{грядущий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} днях{день=S,m,inan=abl,pl}.
+И{и=CONJ=} оттого{оттого=ADVPRO=}, что{что=CONJ=} вы{вы=SPRO,pl,2p=nom} крылаты{крылатый=A=pl,brev} — 
+Я{я=SPRO,sg,1p=nom} с{с=PR=} жадностью{жадность=S,f,inan=ins,sg} целую{целый=A=acc,sg,plen,f} прах{прах=S,m,inan=(acc,sg|nom,sg)}.
 
-{где=ADVPRO=} {стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {благовест=S,m,inan=(acc,sg|nom,sg)} {негромкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{брести=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {через=PR=} {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
-{купец=S,m,anim=nom,sg} {с=PR=} {лоток=S,m,inan=ins,sg}, {слепец=S,m,anim=nom,sg} {с=PR=} {котомка=S,f,inan=ins,sg}...
- — {дымить=V,ipf,intr=inpraes,pl,indic,3p}, {пылать=V,ipf,intr=inpraes,ger} {и=CONJ=} {греметь=V,ipf,intr=inpraes,ger},
-{под=PR=} {конский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {топот=S,m,inan=ins,sg} — {обломок=S,m,inan=(acc,pl|nom,pl)}
-{китай-город=S,geo,sg,m,inan=gen} {и=CONJ=} {кремль=S,m,inan=gen,sg}!
+Где{где=ADVPRO=} стройный{стройный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} благовест{благовест=S,m,inan=(acc,sg|nom,sg)} негромкий{негромкий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Бредущие{брести=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} через{через=PR=} поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)}
+Купец{купец=S,m,anim=nom,sg} с{с=PR=} лотком{лоток=S,m,inan=ins,sg}, слепец{слепец=S,m,anim=nom,sg} с{с=PR=} котомкой{котомка=S,f,inan=ins,sg}...
+ — Дымят{дымить=V,ipf,intr=inpraes,pl,indic,3p}, пылая{пылать=V,ipf,intr=inpraes,ger} и{и=CONJ=} гремя{греметь=V,ipf,intr=inpraes,ger},
+Под{под=PR=} конским{конский=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} топотом{топот=S,m,inan=ins,sg} — обломки{обломок=S,m,inan=(acc,pl|nom,pl)}
+Китай-города{китай-город=S,geo,sg,m,inan=gen} и{и=CONJ=} Кремля{кремль=S,m,inan=gen,sg}!
 
-{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {всадник=S,m,anim=(acc,sg|gen,sg)}! {два=NUM=(nom,f|acc,f,inan)} {белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
-{в=PR=} {безумный=A=(abl,sg,plen,m|abl,sg,plen,n)} {цирковой=A=(abl,sg,plen,m|abl,sg,plen,n)} {круг=S,m,inan=(dat,sg|loc,sg)}
-{я=SPRO,sg,1p=nom} {вы=SPRO,pl,2p=(abl|acc|gen)} {узнавать=V,tran=praet,sg,indic,f,pf}. — {ты=SPRO,sg,2p=nom}, {курчавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
-{архангел=S,m,anim=ins,sg} {вопить=V,ipf,intr=inpraes,sg,indic,2p} {в=PR=} {труба=S,f,inan=acc,sg}.
-{ты=SPRO,sg,2p=nom} — {над=PR=} {московский=A=ins,sg,plen,f} {держава=S,f,inan=ins,sg}
-{вздымать=V,ipf,tran=inpraes,sg,indic,2p} {радуга=S,f,inan=acc,sg}-{дуга=S,f,inan=acc,sg}.
+Два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} всадника{всадник=S,m,anim=(acc,sg|gen,sg)}! Две{два=NUM=(nom,f|acc,f,inan)} белых{белый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} славы{слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}!
+В{в=PR=} безумном{безумный=A=(abl,sg,plen,m|abl,sg,plen,n)} цирковом{цирковой=A=(abl,sg,plen,m|abl,sg,plen,n)} кругу{круг=S,m,inan=(dat,sg|loc,sg)}
+Я{я=SPRO,sg,1p=nom} вас{вы=SPRO,pl,2p=(abl|acc|gen)} узнала{узнавать=V,tran=praet,sg,indic,f,pf}. — Ты{ты=SPRO,sg,2p=nom}, курчавый{курчавый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)},
+Архангелом{архангел=S,m,anim=ins,sg} вопишь{вопить=V,ipf,intr=inpraes,sg,indic,2p} в{в=PR=} трубу{труба=S,f,inan=acc,sg}.
+Ты{ты=SPRO,sg,2p=nom} — над{над=PR=} Московскою{московский=A=ins,sg,plen,f} Державой{держава=S,f,inan=ins,sg}
+Вздымаешь{вздымать=V,ipf,tran=inpraes,sg,indic,2p} радугу{радуга=S,f,inan=acc,sg}-дугу{дуга=S,f,inan=acc,sg}.

@@ -89,7 +89,7 @@ def author_all_color():
         color_list = []
         pros = [p.pro for p in trymysql(trymysql.slovar1.word==all).select()]
         pros.append(all)
-        rows = d((d.mystem.word.belongs(pros))&(d.mystem.author==request.args(0))).select()
+        rows = trymysql((trymysql.mystem.word.belongs(pros))&(trymysql.mystem.author==request.args(0))).select()
         for r in rows:
             filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '/' + str(r.title) + '.txt'
             with open(filename, 'rb') as f:
@@ -107,9 +107,9 @@ def author_index(): # сохраняем авторские данные в те
     for all in color2:
         all_word = [w.pro for w in trymysql(trymysql.slovar1.word==all).select()]
         all_word.append(all)
-        summa = d((d.mystem.word.belongs(all_word))&(d.mystem.author==request.args(0))).count()
+        summa = trymysql((trymysql.mystem.word.belongs(all_word))&(trymysql.mystem.author==request.args(0))).count()
         result.append(str(summa))
-    all_words2 = d((d.mystem.author==request.args(0))&(d.mystem.partos!='None')).count()
+    all_words2 = trymysql((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='None')).count()
     result.append(str(all_words2))
     result = ','.join(result) + '\n'
     with open(colorfile, 'a') as f:

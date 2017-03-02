@@ -1,16 +1,16 @@
-{белый=A=nom,sg,plen,f} {лошадь=S,f,anim=(acc,sg|nom,sg)} {брести=V,ipf,intr=inpraes,sg,indic,3p} {без=PR=} {упряжка=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
-{белый=A=nom,sg,plen,f} {лошадь=S,f,anim=(acc,sg|nom,sg)}, {куда=ADVPRO=} {ты=SPRO,sg,2p=nom} {брести=V,ipf,intr=inpraes,sg,indic,2p}? 
-{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {сиять=V,ipf,intr=inpraes,sg,indic,3p}. {платок=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {рубашка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
-{трепать=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)} {предвесенний=A=nom,sg,plen,f} {дрожь=S,f,inan=(acc,sg|nom,sg)}.
+Белая{белый=A=nom,sg,plen,f} лошадь{лошадь=S,f,anim=(acc,sg|nom,sg)} бредет{брести=V,ipf,intr=inpraes,sg,indic,3p} без{без=PR=} упряжки{упряжка=S,f,inan=(acc,pl|gen,sg|nom,pl)}. 
+Белая{белый=A=nom,sg,plen,f} лошадь{лошадь=S,f,anim=(acc,sg|nom,sg)}, куда{куда=ADVPRO=} ты{ты=SPRO,sg,2p=nom} бредешь{брести=V,ipf,intr=inpraes,sg,indic,2p}? 
+Солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} сияет{сиять=V,ipf,intr=inpraes,sg,indic,3p}. Платки{платок=S,m,inan=(acc,pl|nom,pl)} и{и=CONJ=} рубашки{рубашка=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+Треплет{трепать=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} саду{сад=S,m,inan=(dat,sg|loc,sg)} предвесенняя{предвесенний=A=nom,sg,plen,f} дрожь{дрожь=S,f,inan=(acc,sg|nom,sg)}.
 
-{я=SPRO,sg,1p=nom}, {что=CONJ=} {когда-то=ADVPRO=} {с=PR=} {россия=S,geo,f,inan=ins,sg} {прощаться=V,intr=praet,sg,indic,m,pf} 
-({ночь=S,f,inan=ins,sg} {навстречу=ADV=} {полярный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {заря=S,f,inan=(abl,sg|dat,sg)}),
-{не=PART=} {оглянуться=V,pf,intr=praet,sg,indic,m}, {не=PART=} {перекрещиваться=V,intr=praet,sg,indic,m,pf} 
-{и=CONJ=} {не=PART=} {замечать=V,tran=praet,sg,indic,m,pf}, {как=CONJ=} {вдруг=ADV=} {очутиться=V,pf,intr=praet,sg,indic,m} 
-{в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {европейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дыра=S,f,inan=(abl,sg|dat,sg)}.
+Я{я=SPRO,sg,1p=nom}, что{что=CONJ=} когда-то{когда-то=ADVPRO=} с{с=PR=} Россией{россия=S,geo,f,inan=ins,sg} простился{прощаться=V,intr=praet,sg,indic,m,pf} 
+(Ночью{ночь=S,f,inan=ins,sg} навстречу{навстречу=ADV=} полярной{полярный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} заре{заря=S,f,inan=(abl,sg|dat,sg)}),
+Не{не=PART=} оглянулся{оглянуться=V,pf,intr=praet,sg,indic,m}, не{не=PART=} перекрестился{перекрещиваться=V,intr=praet,sg,indic,m,pf} 
+И{и=CONJ=} не{не=PART=} заметил{замечать=V,tran=praet,sg,indic,m,pf}, как{как=CONJ=} вдруг{вдруг=ADV=} очутился{очутиться=V,pf,intr=praet,sg,indic,m} 
+В{в=PR=} этой{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} глухой{глухой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} европейской{европейский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дыре{дыра=S,f,inan=(abl,sg|dat,sg)}.
 
-{хоть=PART=} {поскучать=V,pf,intr=inf} {бы=PART=}... {но=CONJ=} {я=SPRO,sg,1p=nom} {не=PART=} {скучать=V,ipf,intr=inpraes,sg,indic,1p}. 
-{жизнь=S,f,inan=(acc,sg|nom,sg)} {потерять=V,pf,tran=praet,sg,indic,m}, {а=CONJ=} {покой=S,m,inan=(acc,sg|nom,sg)} {берег=S,m,inan=(dat,sg|loc,sg)}. 
-{письмо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {от=PR=} {мертвый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {друг=S,m,anim=(acc,pl|gen,pl)} {получать=V,tran=inpraes,sg,indic,1p,ipf} 
-{и=CONJ=}, {прочитывать=V=praet,ger,pf}, {с=PR=} {облегчение=S,n,inan=ins,sg} {жечь=V,ipf,tran=inpraes,sg,indic,1p} 
-{на=PR=} {голубой=A=(abl,sg,plen,m|abl,sg,plen,n)} {предвесенний=A=(abl,sg,plen,m|abl,sg,plen,n)} {снег=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+Хоть{хоть=PART=} поскучать{поскучать=V,pf,intr=inf} бы{бы=PART=}... Но{но=CONJ=} я{я=SPRO,sg,1p=nom} не{не=PART=} скучаю{скучать=V,ipf,intr=inpraes,sg,indic,1p}. 
+Жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} потерял{потерять=V,pf,tran=praet,sg,indic,m}, а{а=CONJ=} покой{покой=S,m,inan=(acc,sg|nom,sg)} берегу{берег=S,m,inan=(dat,sg|loc,sg)}. 
+Письма{письмо=S,n,inan=(acc,pl|gen,sg|nom,pl)} от{от=PR=} мертвых{мертвый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} друзей{друг=S,m,anim=(acc,pl|gen,pl)} получаю{получать=V,tran=inpraes,sg,indic,1p,ipf} 
+И{и=CONJ=}, прочитав{прочитывать=V=praet,ger,pf}, с{с=PR=} облегчением{облегчение=S,n,inan=ins,sg} жгу{жечь=V,ipf,tran=inpraes,sg,indic,1p} 
+На{на=PR=} голубом{голубой=A=(abl,sg,plen,m|abl,sg,plen,n)} предвесеннем{предвесенний=A=(abl,sg,plen,m|abl,sg,plen,n)} снегу{снег=S,m,inan=(dat,sg|part,sg|loc,sg)}.

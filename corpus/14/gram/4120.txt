@@ -1,20 +1,20 @@
-{один=APRO=(nom,pl|acc,pl,inan)} {глядеться=V,ipf,intr=inpraes,pl,indic,3p} {в=PR=} {ласковый=A=(acc,pl,plen,inan|nom,pl,plen)} {взор=S,m,inan=(acc,pl|nom,pl)},
-{другой=APRO=(nom,pl|acc,pl,inan)} {пить=V,ipf,tran=inpraes,pl,indic,3p} {до=PR=} {солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {луч=S,m,inan=gen,pl},
-{а=CONJ=} {я=SPRO,sg,1p=nom} {весь=APRO=acc,sg,f} {ночь=S,f,inan=(acc,sg|nom,sg)} {вести=V,ipf,tran=inpraes,sg,indic,1p} {переговоры=S,pl,inan=(acc|nom)}
-{с=PR=} {неукротимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {совесть=S,f,inan=ins,sg} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
+Одни{один=APRO=(nom,pl|acc,pl,inan)} глядятся{глядеться=V,ipf,intr=inpraes,pl,indic,3p} в{в=PR=} ласковые{ласковый=A=(acc,pl,plen,inan|nom,pl,plen)} взоры{взор=S,m,inan=(acc,pl|nom,pl)},
+Другие{другой=APRO=(nom,pl|acc,pl,inan)} пьют{пить=V,ipf,tran=inpraes,pl,indic,3p} до{до=PR=} солнечных{солнечный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} лучей{луч=S,m,inan=gen,pl},
+А{а=CONJ=} я{я=SPRO,sg,1p=nom} всю{весь=APRO=acc,sg,f} ночь{ночь=S,f,inan=(acc,sg|nom,sg)} веду{вести=V,ipf,tran=inpraes,sg,indic,1p} переговоры{переговоры=S,pl,inan=(acc|nom)}
+С{с=PR=} неукротимой{неукротимый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} совестью{совесть=S,f,inan=ins,sg} своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)}.
 
-{я=SPRO,sg,1p=nom} {говорить=V,ipf,tran=inpraes,sg,indic,1p}: «{твой=APRO=(acc,sg,n|nom,sg,n)} {нести=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {бремя=S,n,inan=(acc,sg|nom,sg)}
-{тяжелый=A=(acc,sg,plen,n|nom,sg,plen,n)}, {ты=SPRO,sg,2p=nom} {знать=V,ipf,tran=inpraes,sg,indic,2p}, {сколько=ADV=} {год=S,m,inan=gen,pl}».
-{но=CONJ=} {для=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {не=PART=} {существовать=V,ipf,intr=inpraes,sg,indic,3p} {время=S,n,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {для=PR=} {она=SPRO,sg,3p,f=(acc|gen)} {пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {мир=S,m,inan=abl,sg} {нет=ADV,praed=}.
+Я{я=SPRO,sg,1p=nom} говорю{говорить=V,ipf,tran=inpraes,sg,indic,1p}: «Твое{твой=APRO=(acc,sg,n|nom,sg,n)} несу{нести=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} бремя{бремя=S,n,inan=(acc,sg|nom,sg)}
+Тяжелое{тяжелый=A=(acc,sg,plen,n|nom,sg,plen,n)}, ты{ты=SPRO,sg,2p=nom} знаешь{знать=V,ipf,tran=inpraes,sg,indic,2p}, сколько{сколько=ADV=} лет{год=S,m,inan=gen,pl}».
+Но{но=CONJ=} для{для=PR=} нее{она=SPRO,sg,3p,f=(acc|gen)} не{не=PART=} существует{существовать=V,ipf,intr=inpraes,sg,indic,3p} время{время=S,n,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} для{для=PR=} нее{она=SPRO,sg,3p,f=(acc|gen)} пространства{пространство=S,n,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} мире{мир=S,m,inan=abl,sg} нет{нет=ADV,praed=}.
 
-{и=CONJ=} {снова=ADV=} {черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {масленичный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечер=S,m,inan=(acc,sg|nom,sg)},
-{зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {парк=S,m,inan=(acc,sg|nom,sg)}, {неспешный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {бег=S,sg,m,inan=(acc|nom)} {конь=S,m,anim=(acc,sg|gen,sg)}.
-{и=CONJ=} {полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)} {ветер=S,m,inan=(acc,sg|nom,sg)},
-{с=PR=} {небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {круча=S,f,inan=gen,pl} {слетать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {на=PR=} {я=SPRO,sg,1p=(acc|gen)}.
+И{и=CONJ=} снова{снова=ADV=} черный{черный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} масленичный{масленичный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вечер{вечер=S,m,inan=(acc,sg|nom,sg)},
+Зловещий{зловещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} парк{парк=S,m,inan=(acc,sg|nom,sg)}, неспешный{неспешный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} бег{бег=S,sg,m,inan=(acc|nom)} коня{конь=S,m,anim=(acc,sg|gen,sg)}.
+И{и=CONJ=} полный{полный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} счастья{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} веселья{веселие=S,n,inan=(acc,pl|gen,sg|nom,pl)} ветер{ветер=S,m,inan=(acc,sg|nom,sg)},
+С{с=PR=} небесных{небесный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} круч{круча=S,f,inan=gen,pl} слетевший{слетать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} на{на=PR=} меня{я=SPRO,sg,1p=(acc|gen)}.
 
-{а=CONJ=} {надо=ADV,praed=} {я=SPRO,sg,1p=ins} {спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {двурогий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{стоять=V,ipf,intr=inpraes,sg,indic,3p} {свидетель=S,m,anim=nom,sg}... {о=PR=}, {туда=ADVPRO=}, {туда=ADVPRO=},
-{по=PR=} {древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {подкапризовой?=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорога=S,f,inan=(abl,sg|dat,sg)},
-{где=ADVPRO=} {лебедь=S,m,anim=nom,pl} {и=CONJ=} {мертвый=A=nom,sg,plen,f} {вода=S,f,inan=nom,sg}.
+А{а=CONJ=} надо{надо=ADV,praed=} мной{я=SPRO,sg,1p=ins} спокойный{спокойный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} и{и=CONJ=} двурогий{двурогий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Стоит{стоять=V,ipf,intr=inpraes,sg,indic,3p} свидетель{свидетель=S,m,anim=nom,sg}... о{о=PR=}, туда{туда=ADVPRO=}, туда{туда=ADVPRO=},
+По{по=PR=} древней{древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} Подкапризовой{подкапризовой?=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дороге{дорога=S,f,inan=(abl,sg|dat,sg)},
+Где{где=ADVPRO=} лебеди{лебедь=S,m,anim=nom,pl} и{и=CONJ=} мертвая{мертвый=A=nom,sg,plen,f} вода{вода=S,f,inan=nom,sg}.
 

@@ -1,24 +1,24 @@
-{избирать=V=inf,pf} {из=PR=} {два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} {грозить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {зло=S,n,inan=gen,pl}
-{один=APRO=(acc,sg,n|nom,sg,n)}, {где=ADVPRO=} {менее=ADV=} {мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)}?
-{не=PART=} {давать=V,tran=inpraes,sg,indic,3p,pf} {внезапный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {произвол=S,m,inan=(acc,sg|nom,sg)}
-{минута=S,f,inan=(acc,pl|gen,sg|nom,pl)} {даже=PART=} {для=PR=} {сравнение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
+Избрать{избирать=V=inf,pf} из{из=PR=} двух{два=NUM=(abl|gen|acc,m,anim|acc,f,anim)} грозящих{грозить=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} зол{зло=S,n,inan=gen,pl}
+Одно{один=APRO=(acc,sg,n|nom,sg,n)}, где{где=ADVPRO=} менее{менее=ADV=} мученья{мучение=S,n,inan=(acc,pl|gen,sg|nom,pl)}?
+Не{не=PART=} даст{давать=V,tran=inpraes,sg,indic,3p,pf} внезапный{внезапный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} произвол{произвол=S,m,inan=(acc,sg|nom,sg)}
+Минуты{минута=S,f,inan=(acc,pl|gen,sg|nom,pl)} даже{даже=PART=} для{для=PR=} сравненья{сравнение=S,n,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{и=CONJ=} {затруднительный=A=sg,brev,n} {решать=V,tran=inf,pf},
-{что=SPRO,sg,n,inan=(acc|nom)} {легко=ADV=comp}, {розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {иль=CONJ=} {крапива=S,f,inan=nom,sg}.
-{ведь=PART=} {просто=ADV=comp} {быть=V,intr=praet,sg,indic,n,ipf} {бы=PART=} {сравнивать=V,tran=inf,pf},
-{что=SPRO,sg,n,inan=(acc|nom)} {сладко=ADV=comp}, {вишня=S,f,inan=nom,sg} {или=CONJ=} {слива=S,f,inan=nom,sg}.
+И{и=CONJ=} затруднительно{затруднительный=A=sg,brev,n} решить{решать=V,tran=inf,pf},
+Что{что=SPRO,sg,n,inan=(acc|nom)} легче{легко=ADV=comp}, розги{розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} иль{иль=CONJ=} крапива{крапива=S,f,inan=nom,sg}.
+Ведь{ведь=PART=} проще{просто=ADV=comp} было{быть=V,intr=praet,sg,indic,n,ipf} бы{бы=PART=} сравнить{сравнивать=V,tran=inf,pf},
+Что{что=SPRO,sg,n,inan=(acc|nom)} слаще{сладко=ADV=comp}, вишня{вишня=S,f,inan=nom,sg} или{или=CONJ=} слива{слива=S,f,inan=nom,sg}.
 
-{крапива=S,f,inan=ins,sg} {высекать=V=inpraes,pl,indic,3p,pf}, — {так=ADVPRO=} {жечь=V,ipf,tran=inpraes,sg,indic,3p},
-{как=ADVPRO=} {будто=PART=} {вырываться=V,intr=praet,sg,indic,m,pf} {из=PR=} {печь=V,ipf,tran=praet,sg,indic,f},
-{а=CONJ=} {если=CONJ=} {розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {мать=S,f,anim=(acc,sg|nom,sg)} {брать=V,ipf,tran=inpraes,sg,indic,3p}, —
-{ах=INTJ=}, {хорошо=ADV=comp,parenth} {бы=PART=} {крапива=S,f,inan=ins,sg} {сечь=V,ipf,tran=praet,sg,indic,f}!
+Крапивой{крапива=S,f,inan=ins,sg} высекут{высекать=V=inpraes,pl,indic,3p,pf}, — так{так=ADVPRO=} жжет{жечь=V,ipf,tran=inpraes,sg,indic,3p},
+Как{как=ADVPRO=} будто{будто=PART=} вырвался{вырываться=V,intr=praet,sg,indic,m,pf} из{из=PR=} пекла{печь=V,ipf,tran=praet,sg,indic,f},
+А{а=CONJ=} если{если=CONJ=} розги{розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} мать{мать=S,f,anim=(acc,sg|nom,sg)} берет{брать=V,ipf,tran=inpraes,sg,indic,3p}, —
+Ах{ах=INTJ=}, лучше{хорошо=ADV=comp,parenth} бы{бы=PART=} крапивой{крапива=S,f,inan=ins,sg} секла{сечь=V,ipf,tran=praet,sg,indic,f}!
 
-{но=CONJ=} {опыт=S,m,inan=(acc,sg|nom,sg)} {мальчик=S,m,anim=dat,sg} {твердить=V,ipf,tran=inpraes,sg,indic,3p},
-{что=CONJ=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {же=PART=} {розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} {выбирать=V=inf,pf} {надо=ADV,praed=}:
-{укус=S,m,inan=(acc,sg|nom,sg)} {крапива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {ядовитый=A=sg,brev,m},
-{а=CONJ=} {в=PR=} {розга=S,f,inan=abl,pl} {нет=PART=} {такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} {яд=S,m,inan=gen,sg}.
+Но{но=CONJ=} опыт{опыт=S,m,inan=(acc,sg|nom,sg)} мальчику{мальчик=S,m,anim=dat,sg} твердит{твердить=V,ipf,tran=inpraes,sg,indic,3p},
+Что{что=CONJ=} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} же{же=PART=} розги{розга=S,f,inan=(acc,pl|gen,sg|nom,pl)} выбрать{выбирать=V=inf,pf} надо{надо=ADV,praed=}:
+Укус{укус=S,m,inan=(acc,sg|nom,sg)} крапивы{крапива=S,f,inan=(acc,pl|gen,sg|nom,pl)} ядовит{ядовитый=A=sg,brev,m},
+А{а=CONJ=} в{в=PR=} розгах{розга=S,f,inan=abl,pl} нет{нет=PART=} такого{такой=APRO=(acc,sg,m,anim|gen,sg,m|gen,sg,n)} яда{яд=S,m,inan=gen,sg}.
 
-{крапива=S,f,inan=(acc,pl|gen,sg|nom,pl)} {зуд=S,m,inan=(acc,sg|nom,sg)} {невыносимый=A=sg,brev,m},
-{укус=S,m,inan=(acc,pl|nom,pl)} {долг=S,m,inan=(acc,pl|nom,pl)} {и=CONJ=} {жестокий=A=pl,brev},
-{а=CONJ=} {после=PR=} {розга=S,f,inan=gen,pl} {только=CONJ=} {дым=S,m,inan=(acc,sg|nom,sg)}
-{стыд=S,m,inan=gen,sg} {раскрашивать=V=inpraes,sg,indic,3p,ipf,tran} {щека=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Крапивы{крапива=S,f,inan=(acc,pl|gen,sg|nom,pl)} зуд{зуд=S,m,inan=(acc,sg|nom,sg)} невыносим{невыносимый=A=sg,brev,m},
+Укусы{укус=S,m,inan=(acc,pl|nom,pl)} долги{долг=S,m,inan=(acc,pl|nom,pl)} и{и=CONJ=} жестоки{жестокий=A=pl,brev},
+А{а=CONJ=} после{после=PR=} розог{розга=S,f,inan=gen,pl} только{только=CONJ=} дым{дым=S,m,inan=(acc,sg|nom,sg)}
+Стыда{стыд=S,m,inan=gen,sg} раскрашивает{раскрашивать=V=inpraes,sg,indic,3p,ipf,tran} щеки{щека=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

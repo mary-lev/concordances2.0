@@ -1,19 +1,19 @@
-{холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {утро=S,n,inan=ins,sg} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {дымка=S,f,inan=(abl,sg|dat,sg)}
-{стоять=V,ipf,intr=inpraes,sg,indic,3p} {столб=S,m,inan=ins,sg} {огонь=S,m,inan=gen,sg} {в=PR=} {дым=S,m,inan=(dat,sg|part,sg|loc,sg)}.
-{я=SPRO,sg,1p=nom} {тоже=PART=}, {как=CONJ=} {на=PR=} {скверный=A=(abl,sg,plen,m|abl,sg,plen,n)} {снимок=S,m,inan=abl,sg},
-{совсем=ADV=} {неотличимый=A=sg,brev,m} {он=SPRO,sg,3p,m=dat}.
+Холодным{холодный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} утром{утро=S,n,inan=ins,sg} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} в{в=PR=} дымке{дымка=S,f,inan=(abl,sg|dat,sg)}
+Стоит{стоять=V,ipf,intr=inpraes,sg,indic,3p} столбом{столб=S,m,inan=ins,sg} огня{огонь=S,m,inan=gen,sg} в{в=PR=} дыму{дым=S,m,inan=(dat,sg|part,sg|loc,sg)}.
+Я{я=SPRO,sg,1p=nom} тоже{тоже=PART=}, как{как=CONJ=} на{на=PR=} скверном{скверный=A=(abl,sg,plen,m|abl,sg,plen,n)} снимке{снимок=S,m,inan=abl,sg},
+Совсем{совсем=ADV=} неотличим{неотличимый=A=sg,brev,m} ему{он=SPRO,sg,3p,m=dat}.
 
-{пока=CONJ=} {оно=SPRO,sg,3p,n=nom} {из=PR=} {мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {выходить=V,intr=inpraes,sg,indic,3p,pf},
-{блеснуть=V,pf,intr=praet,ger} {за=PR=} {пруд=S,m,inan=ins,sg} {на=PR=} {луг=S,m,inan=(dat,sg|loc,sg)},
-{я=SPRO,sg,1p=(acc|gen)} {дерево=S,n,inan=(acc,pl|nom,pl)} {плохо=ADV=} {видеть=V,ipf,tran=inpraes,pl,indic,3p}
-{на=PR=} {отдаленный=A=(abl,sg,plen,m|abl,sg,plen,n)} {берег=S,m,inan=(dat,sg|loc,sg)}.
+Пока{пока=CONJ=} оно{оно=SPRO,sg,3p,n=nom} из{из=PR=} мглы{мгла=S,f,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} выйдет{выходить=V,intr=inpraes,sg,indic,3p,pf},
+Блеснув{блеснуть=V,pf,intr=praet,ger} за{за=PR=} прудом{пруд=S,m,inan=ins,sg} на{на=PR=} лугу{луг=S,m,inan=(dat,sg|loc,sg)},
+Меня{я=SPRO,sg,1p=(acc|gen)} деревья{дерево=S,n,inan=(acc,pl|nom,pl)} плохо{плохо=ADV=} видят{видеть=V,ipf,tran=inpraes,pl,indic,3p}
+На{на=PR=} отдаленном{отдаленный=A=(abl,sg,plen,m|abl,sg,plen,n)} берегу{берег=S,m,inan=(dat,sg|loc,sg)}.
 
-{прохожий=S,m,anim=nom,sg} {узнаваться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {поздно=ADV=comp},
-{что=SPRO,sg,n,inan=(abl|ins)} {он=SPRO,sg,3p,m=nom} {пройти=V,pf,tran=inpraes,sg,indic,3p}, {нырнуть=V,pf,intr=praet,ger} {в=PR=} {туман=S,m,inan=(acc,sg|nom,sg)}.
-{мороз=S,m,inan=(acc,sg|nom,sg)} {покрывать=V=praet,sg,partcp,brev,m,pf,pass} {гусиный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {кожа=S,f,inan=ins,sg},
-{и=CONJ=} {воздух=S,m,inan=(acc,sg|nom,sg)} {лживый=A=sg,brev,m}, {как=CONJ=} {слой=S,m,inan=(acc,sg|nom,sg)} {румяный=A=sg,brev,m}.
+Прохожий{прохожий=S,m,anim=nom,sg} узнается{узнаваться=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} позже{поздно=ADV=comp},
+Чем{что=SPRO,sg,n,inan=(abl|ins)} он{он=SPRO,sg,3p,m=nom} пройдет{пройти=V,pf,tran=inpraes,sg,indic,3p}, нырнув{нырнуть=V,pf,intr=praet,ger} в{в=PR=} туман{туман=S,m,inan=(acc,sg|nom,sg)}.
+Мороз{мороз=S,m,inan=(acc,sg|nom,sg)} покрыт{покрывать=V=praet,sg,partcp,brev,m,pf,pass} гусиной{гусиный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кожей{кожа=S,f,inan=ins,sg},
+И{и=CONJ=} воздух{воздух=S,m,inan=(acc,sg|nom,sg)} лжив{лживый=A=sg,brev,m}, как{как=CONJ=} слой{слой=S,m,inan=(acc,sg|nom,sg)} румян{румяный=A=sg,brev,m}.
 
-{идти=V,ipf,intr=inpraes,sg,indic,2p} {по=PR=} {иней=S,m,inan=(dat,sg|part,sg)} {дорожка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{как=CONJ=} {по=PR=} {настил=S,m,inan=dat,sg} {из=PR=} {рогожа=S,f,inan=gen,pl}.
-{земля=S,f,inan=(abl,sg|dat,sg)} {дышать=V,ipf,intr=inf} {ботва=S,sg,f,inan=ins} {картошка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{и=CONJ=} {стынуть=V,ipf,intr=inf} {много=ADV=comp} {невтерпеж=ADV=}.
+Идешь{идти=V,ipf,intr=inpraes,sg,indic,2p} по{по=PR=} инею{иней=S,m,inan=(dat,sg|part,sg)} дорожки{дорожка=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Как{как=CONJ=} по{по=PR=} настилу{настил=S,m,inan=dat,sg} из{из=PR=} рогож{рогожа=S,f,inan=gen,pl}.
+Земле{земля=S,f,inan=(abl,sg|dat,sg)} дышать{дышать=V,ipf,intr=inf} ботвой{ботва=S,sg,f,inan=ins} картошки{картошка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+И{и=CONJ=} стынуть{стынуть=V,ipf,intr=inf} больше{много=ADV=comp} невтерпеж{невтерпеж=ADV=}.

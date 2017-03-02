@@ -1,19 +1,19 @@
-{открывать=V=praet,pl,partcp,brev,pf,pass} {жнивье=S,n,inan=(acc,pl|gen,sg|nom,pl)} {золотой=A=(acc,pl,plen,inan|nom,pl,plen)},
-{и=CONJ=} {светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {казаться=V,ipf,intr=inpraes,pl,indic,3p} {мечта=S,f,inan=ins,sg}
-{простор=S,m,inan=(acc,sg|nom,sg)} {небо=S,n,inan=gen,pl}, {поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} {пустой=A=(acc,pl,plen,inan|nom,pl,plen)}
-{и=CONJ=} {день=S,m,inan=(acc,sg|nom,sg)}, {прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {и=CONJ=} {пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Открыты{открывать=V=praet,pl,partcp,brev,pf,pass} жнивья{жнивье=S,n,inan=(acc,pl|gen,sg|nom,pl)} золотые{золотой=A=(acc,pl,plen,inan|nom,pl,plen)},
+И{и=CONJ=} светлой{светлый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} кажутся{казаться=V,ipf,intr=inpraes,pl,indic,3p} мечтой{мечта=S,f,inan=ins,sg}
+Простор{простор=S,m,inan=(acc,sg|nom,sg)} небес{небо=S,n,inan=gen,pl}, поля{поле=S,n,inan=(acc,pl|gen,sg|nom,pl)} пустые{пустой=A=(acc,pl,plen,inan|nom,pl,plen)}
+И{и=CONJ=} день{день=S,m,inan=(acc,sg|nom,sg)}, прохладный{прохладный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} и{и=CONJ=} пустой{пустой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{орел=S,m,anim=nom,sg}, {с=PR=} {дозорный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {курган=S,m,inan=gen,sg}
-{взмахивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {в=PR=} {этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {пустота=S,f,inan=(abl,sg|dat,sg)},
-{как=CONJ=} {над=PR=} {равнина=S,f,inan=ins,sg} {океан=S,m,inan=gen,sg}
-{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {четко=ADV=} {видный=A=sg,brev,m} {в=PR=} {высота=S,f,inan=(abl,sg|dat,sg)}.
+Орел{орел=S,m,anim=nom,sg}, с{с=PR=} дозорного{дозорный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} кургана{курган=S,m,inan=gen,sg}
+Взмахнувший{взмахивать=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} в{в=PR=} этой{этот=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} пустоте{пустота=S,f,inan=(abl,sg|dat,sg)},
+Как{как=CONJ=} над{над=PR=} равниной{равнина=S,f,inan=ins,sg} океана{океан=S,m,inan=gen,sg}
+Весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} четко{четко=ADV=} виден{видный=A=sg,brev,m} в{в=PR=} высоте{высота=S,f,inan=(abl,sg|dat,sg)}.
 
-{и=CONJ=} {на=PR=} {курган=S,m,inan=abl,sg} {одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)},
-{сдерживать=V,tran=praet,ger,pf} {горячий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {конь=S,m,anim=(acc,sg|gen,sg)},
-{степь=S,f,inan=(acc,sg|nom,sg)} {от=PR=} {закат=S,m,inan=gen,sg} {до=PR=} {восток=S,geo,m,inan=gen,sg}
-{в=PR=} {прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {видеть=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom}.
+И{и=CONJ=} на{на=PR=} кургане{курган=S,m,inan=abl,sg} одиноком{одинокий=A=(abl,sg,plen,m|abl,sg,plen,n)},
+Сдержав{сдерживать=V,tran=praet,ger,pf} горячего{горячий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} коня{конь=S,m,anim=(acc,sg|gen,sg)},
+Степь{степь=S,f,inan=(acc,sg|nom,sg)} от{от=PR=} заката{закат=S,m,inan=gen,sg} до{до=PR=} востока{восток=S,geo,m,inan=gen,sg}
+В{в=PR=} прозрачной{прозрачный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дали{даль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} вижу{видеть=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom}.
 
-{как=ADVPRO=} {низко=ADV=}, {вольно=ADV=} {и=CONJ=} {просторно=ADV=}
-{степной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {отава=S,f,inan=gen,pl} {раскидывать=V=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)} {круг=S,m,inan=(acc,sg|nom,sg)}!
-{и=CONJ=} {как=ADVPRO=} {легко=ADV=} {фата=S,f,inan=ins,sg} {узорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{плыть=V,ipf,intr=inpraes,pl,indic,3p} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} {облачко=S,n,inan=(acc,pl|gen,sg|nom,pl)} {на=PR=} {юг=S,m,inan=(acc,sg|nom,sg)}!
+Как{как=ADVPRO=} низко{низко=ADV=}, вольно{вольно=ADV=} и{и=CONJ=} просторно{просторно=ADV=}
+Степных{степной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} отав{отава=S,f,inan=gen,pl} раскинут{раскидывать=V=(praet,sg,partcp,brev,m,pf,pass|inpraes,pl,indic,3p,pf)} круг{круг=S,m,inan=(acc,sg|nom,sg)}!
+И{и=CONJ=} как{как=ADVPRO=} легко{легко=ADV=} фатой{фата=S,f,inan=ins,sg} узорной{узорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Плывут{плыть=V,ipf,intr=inpraes,pl,indic,3p} два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)} облачка{облачко=S,n,inan=(acc,pl|gen,sg|nom,pl)} на{на=PR=} юг{юг=S,m,inan=(acc,sg|nom,sg)}!

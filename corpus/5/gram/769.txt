@@ -1,14 +1,14 @@
-{ослепнуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {викинг=S,m,anim=nom,sg} {вставать=V,intr=praet,sg,indic,m,pf} {над=PR=} {скала=S,f,inan=ins,pl},
-{спалить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {бог=S,m,anim=ins,sg}.
-{трубить=V,ipf,tran=inpraes,sg,indic,3p} {печально=ADV=} {над=PR=} {провал=S,m,inan=ins,pl}
-{загнутый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {рог=S,m,inan=ins,sg}.
+Ослепший{ослепнуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} викинг{викинг=S,m,anim=nom,sg} встал{вставать=V,intr=praet,sg,indic,m,pf} над{над=PR=} скалами{скала=S,f,inan=ins,pl},
+спаленный{спалить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} богом{бог=S,m,anim=ins,sg}.
+Трубит{трубить=V,ipf,tran=inpraes,sg,indic,3p} печально{печально=ADV=} над{над=PR=} провалами{провал=S,m,inan=ins,pl}
+загнутым{загнутый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} рогом{рог=S,m,inan=ins,sg}.
 
-{сердитый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {тор=S,persn,m,anim=nom,sg} {за=PR=} {белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {глетчер=S,m,inan=ins,sg}
-{укрываться=V,intr=praet,sg,indic,m,pf} {в=PR=} {туча=S,f,inan=(abl,sg|dat,sg)}.
-{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} {пылать=V,ipf,intr=inpraes,pl,indic,3p} {ясный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {вечер=S,m,inan=ins,sg}
-{на=PR=} {дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {крутой=A=comp}.
+Сердитый{сердитый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} Тор{тор=S,persn,m,anim=nom,sg} за{за=PR=} белым{белый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} глетчером{глетчер=S,m,inan=ins,sg}
+укрылся{укрываться=V,intr=praet,sg,indic,m,pf} в{в=PR=} туче{туча=S,f,inan=(abl,sg|dat,sg)}.
+Леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} пылают{пылать=V,ipf,intr=inpraes,pl,indic,3p} ясным{ясный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} вечером{вечер=S,m,inan=ins,sg}
+на{на=PR=} дальней{дальний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} круче{крутой=A=comp}.
 
-{извив=S,m,inan=(acc,pl|nom,pl)} {лапчатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)},
-{танцевать=V,ipf,tran=inpraes,ger}, {блистать=V,ipf,intr=inpraes,pl,indic,3p}:
-{так=ADVPRO=} {клок=S,m,inan=(acc,pl|nom,pl)} {палевый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {знамя=S,n,inan=(abl,sg|dat,sg|gen,sg)}
-{в=PR=} {лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {плескать=V,ipf,tran=inpraes,pl,indic,3p}.
+Извивы{извив=S,m,inan=(acc,pl|nom,pl)} лапчатого{лапчатый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} пламени{пламень=S,inan=(gen,sg,n|abl,sg,n|dat,sg,n)},
+танцуя{танцевать=V,ipf,tran=inpraes,ger}, блещут{блистать=V,ipf,intr=inpraes,pl,indic,3p}:
+так{так=ADVPRO=} клочья{клок=S,m,inan=(acc,pl|nom,pl)} палевого{палевый=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} знамени{знамя=S,n,inan=(abl,sg|dat,sg|gen,sg)}
+в{в=PR=} лазури{лазурь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} плещут{плескать=V,ipf,tran=inpraes,pl,indic,3p}.

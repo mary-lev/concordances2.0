@@ -1,14 +1,14 @@
-{вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {крик=S,m,inan=(acc,sg|nom,sg)} {осенний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
-{завертываться=V,intr=praet,ger,pf} {в=PR=} {складка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
-{стонать=V,ipf,intr=inpraes,sg,indic,3p} {бурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вечер=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)} {бездомный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
-	{стонать=V,ipf,intr=inpraes,sg,indic,3p} {от=PR=} {боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Вещий{вещий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} крик{крик=S,m,inan=(acc,sg|nom,sg)} осеннего{осенний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} ветра{ветер=S,m,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} поле{поле=S,n,inan=(abl,sg|acc,sg|nom,sg)}. 
+Завернувшись{завертываться=V,intr=praet,ger,pf} в{в=PR=} складки{складка=S,f,inan=(acc,pl|gen,sg|nom,pl)} одежды{одежда=S,f,inan=(acc,pl|gen,sg|nom,pl)} темной{темный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+Стонет{стонать=V,ipf,intr=inpraes,sg,indic,3p} бурный{бурный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вечер{вечер=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} тоске{тоска=S,f,inan=(abl,sg|dat,sg)} бездомной{бездомный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, 
+	Стонет{стонать=V,ipf,intr=inpraes,sg,indic,3p} от{от=PR=} боли{боль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
 
-{раздирать=V=inpraes,ger,ipf,tran} {тьма=S,f,inan=acc,sg}, {облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {туман=S,m,inan=(acc,pl|nom,pl)},
-{простирать=V=inpraes,ger,ipf,tran} {алый=A=(acc,pl,plen,inan|nom,pl,plen)} {к=PR=} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{обнажать=V,tran=inpraes,sg,indic,3p,ipf} {вечер=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {порыв=S,m,inan=abl,sg} {мука=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
-	{рдяный=A=(acc,pl,plen,inan|nom,pl,plen)} {рана=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Раздирая{раздирать=V=inpraes,ger,ipf,tran} тьму{тьма=S,f,inan=acc,sg}, облака{облако=S,n,inan=(acc,pl|gen,sg|nom,pl)}, туманы{туман=S,m,inan=(acc,pl|nom,pl)},
+Простирая{простирать=V=inpraes,ger,ipf,tran} алые{алый=A=(acc,pl,plen,inan|nom,pl,plen)} к{к=PR=} Ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} руки{рука=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Обнажает{обнажать=V,tran=inpraes,sg,indic,3p,ipf} Вечер{вечер=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} порыве{порыв=S,m,inan=abl,sg} муки{мука=S,f,inan=(acc,pl|gen,sg|nom,pl)} 
+	Рдяные{рдяный=A=(acc,pl,plen,inan|nom,pl,plen)} раны{рана=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{плакать=V,ipf,intr=pl,imper,2p}, {плакать=V,ipf,intr=pl,imper,2p}, {плакать=V,ipf,intr=pl,imper,2p}, {безумец=S,m,anim=nom,pl}-{ветер=S,m,inan=(acc,pl|nom,pl)}, 
-{над=PR=} {гора=S,f,inan=ins,sg}, {над=PR=} {поле=S,n,inan=ins,sg} {глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, {над=PR=} {пашня=S,f,inan=ins,sg}... 
-{слышать=V,ipf,tran=inpraes,sg,indic,1p} {в=PR=} {голый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {прут=S,m,inan=abl,pl}, {в=PR=} {трава=S,f,inan=(abl,sg|dat,sg)} {вчерашний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
-	{вопль=S,m,inan=(acc,pl|nom,pl)} {деметра=S,persn,mf,anim=(gen,sg|nom,pl)}.
+Плачьте{плакать=V,ipf,intr=pl,imper,2p}, плачьте{плакать=V,ipf,intr=pl,imper,2p}, плачьте{плакать=V,ipf,intr=pl,imper,2p}, безумцы{безумец=S,m,anim=nom,pl}-ветры{ветер=S,m,inan=(acc,pl|nom,pl)}, 
+Над{над=PR=} горой{гора=S,f,inan=ins,sg}, над{над=PR=} полем{поле=S,n,inan=ins,sg} глухим{глухой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)}, над{над=PR=} пашней{пашня=S,f,inan=ins,sg}... 
+Слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} в{в=PR=} голых{голый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} прутьях{прут=S,m,inan=abl,pl}, в{в=PR=} траве{трава=S,f,inan=(abl,sg|dat,sg)} вчерашней{вчерашний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} 
+	Вопли{вопль=S,m,inan=(acc,pl|nom,pl)} Деметры{деметра=S,persn,mf,anim=(gen,sg|nom,pl)}.

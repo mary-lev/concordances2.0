@@ -1,14 +1,14 @@
-{туманный=A=(acc,sg,plen,n|nom,sg,plen,n)} {утро=S,n,inan=(acc,sg|nom,sg)} {зима=S,f,inan=ins,sg}.
-{кирпичный=A=(acc,pl,plen,inan|nom,pl,plen)} {стена=S,f,inan=(acc,pl|gen,sg|nom,pl)} {унылый=A=pl,brev}.
-{летать=V,ipf,intr=inpraes,pl,indic,3p} {за=PR=} {белый=A=ins,sg,plen,f} {тьма=S,f,inan=ins,sg}
-{глашатай=S,m,anim=nom,pl} {страшный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Туманное{туманный=A=(acc,sg,plen,n|nom,sg,plen,n)} утро{утро=S,n,inan=(acc,sg|nom,sg)} зимой{зима=S,f,inan=ins,sg}.
+Кирпичные{кирпичный=A=(acc,pl,plen,inan|nom,pl,plen)} стены{стена=S,f,inan=(acc,pl|gen,sg|nom,pl)} унылы{унылый=A=pl,brev}.
+Летают{летать=V,ipf,intr=inpraes,pl,indic,3p} за{за=PR=} белою{белый=A=ins,sg,plen,f} тьмой{тьма=S,f,inan=ins,sg}
+Глашатаи{глашатай=S,m,anim=nom,pl} страшной{страшный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} могилы{могила=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{привычный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {дорога=S,f,inan=ins,sg} {идти=V,ipf,intr=inpraes,sg,indic,1p},
-{у=PR=} {стена=S,f,inan=gen,pl} {пробираться=V,intr=inpraes,sg,indic,1p,ipf} {пугливо=ADV=},
-{к=PR=} {постылый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {дело=S,n,inan=dat,pl} {и=CONJ=} {к=PR=} {труд=S,m,inan=dat,sg},
-{и=CONJ=} {дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} {лепетать=V,ipf,tran=inpraes,pl,indic,3p} {лениво=ADV=},
+Привычной{привычный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} дорогой{дорога=S,f,inan=ins,sg} иду{идти=V,ipf,intr=inpraes,sg,indic,1p},
+У{у=PR=} стен{стена=S,f,inan=gen,pl} пробираюсь{пробираться=V,intr=inpraes,sg,indic,1p,ipf} пугливо{пугливо=ADV=},
+К{к=PR=} постылым{постылый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} делам{дело=S,n,inan=dat,pl} и{и=CONJ=} к{к=PR=} труду{труд=S,m,inan=dat,sg},
+И{и=CONJ=} думы{дума=S,f,inan=(acc,pl|gen,sg|nom,pl)} лепечут{лепетать=V,ipf,tran=inpraes,pl,indic,3p} лениво{лениво=ADV=},
 
-{и=CONJ=} {млечный=A=nom,sg,plen,f} {тайна=S,f,inan=nom,sg} {вокруг=ADV=},
-{и=CONJ=} {близкий=A=pl,brev} {недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} {стена=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{со=PR=} {я=SPRO,sg,1p=ins} {мой=APRO=(acc,sg,m,inan|nom,sg,m)} {недруг=S,m,anim=nom,sg} {и=CONJ=} {друг=S,m,anim=nom,sg},
-{мой=APRO=(acc,sg,m,inan|nom,sg,m)} {страж=S,m,anim=nom,sg} {без=PR=} {пощада=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {без=PR=} {смена=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} млечная{млечный=A=nom,sg,plen,f} тайна{тайна=S,f,inan=nom,sg} вокруг{вокруг=ADV=},
+И{и=CONJ=} близки{близкий=A=pl,brev} недвижные{недвижный=A=(acc,pl,plen,inan|nom,pl,plen)} стены{стена=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Со{со=PR=} мною{я=SPRO,sg,1p=ins} мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} недруг{недруг=S,m,anim=nom,sg} и{и=CONJ=} друг{друг=S,m,anim=nom,sg},
+Мой{мой=APRO=(acc,sg,m,inan|nom,sg,m)} страж{страж=S,m,anim=nom,sg} без{без=PR=} пощады{пощада=S,f,inan=(acc,pl|gen,sg|nom,pl)}, без{без=PR=} смены{смена=S,f,inan=(acc,pl|gen,sg|nom,pl)}.

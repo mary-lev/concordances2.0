@@ -1,7 +1,21 @@
 {{extend 'layout.html'}}
 <h1>Контекст слова {{=I(request.vars.word)}}</h1>
-<ul>
+<ol>
 {{for all in strings:}}
-<li>{{=all[0]}} ({{=A(all[1], _href=URL("show", "show1", args=all[3]))}}, {{=all[2][0]}} {{=all[2][1]}}) </li>
+<li>{{for word in all[0].split():}}
+        {{if word != ',':}}
+            {{word = ' ' + word}}
+        {{pass}}
+        {{if word.startswith('&'):}}
+                <span style="color:blue; font-weight: bold">{{=word[1:]}}</span>
+        {{else:}}
+                {{=word+' '}}
+        {{pass}}
+    {{pass}}
+    ({{=A(all[1], _href=URL("show", "show1", args=all[3]))}}, {{=all[2][0]}} {{=all[2][1]}}) </li>
 {{pass}}
-</ul>
+</ol>
+
+{{for a in strings:}}
+{{=a[0]}}
+{{pass}}

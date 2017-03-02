@@ -1,24 +1,24 @@
-{часы=S,pl,inan=(acc|nom)} {стучать=V,ipf,intr=inpraes,pl,indic,3p} {невнятный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{нет=PART=} {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {тишина=S,sg,f,inan=gen}.
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {понятный=A=(acc,pl,plen,inan|nom,pl,plen)},
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — {скучный=A=pl,brev}.
+Часы{часы=S,pl,inan=(acc|nom)} стучат{стучать=V,ipf,intr=inpraes,pl,indic,3p} невнятные{невнятный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Нет{нет=PART=} полной{полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} тишины{тишина=S,sg,f,inan=gen}.
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} горести{горесть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — понятные{понятный=A=(acc,pl,plen,inan|nom,pl,plen)},
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} радости{радость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} — скучны{скучный=A=pl,brev}.
 
-{угроза=S,f,inan=nom,sg} {одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {обет=S,m,inan=(acc,sg|nom,sg)}...
-{не=PART=} {верить=V,ipf,intr=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {в=PR=} {пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
-{ни=CONJ=} {счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, {ни=CONJ=} {беда=S,f,inan=gen,pl}.
+Угроза{угроза=S,f,inan=nom,sg} одиночества{одиночество=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Свидания{свидание=S,n,inan=(acc,pl|gen,sg|nom,pl)} обет{обет=S,m,inan=(acc,sg|nom,sg)}...
+Не{не=PART=} верю{верить=V,ipf,intr=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} в{в=PR=} пророчества{пророчество=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+Ни{ни=CONJ=} счастия{счастие=S,n,inan=(acc,pl|gen,sg|nom,pl)}, ни{ни=CONJ=} бед{беда=S,f,inan=gen,pl}.
 
-{не=PART=} {ждать=V,ipf,tran=inpraes,sg,indic,1p} {необычайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}:
-{все=SPRO,pl=(acc|nom)} {просто=PART=} {и=CONJ=} {мертво=ADV=}.
-{ни=CONJ=} {страшный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, {ни=CONJ=} {тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} 
-{нет=PART=} {в=PR=} {жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {ничто=SPRO,sg,n=gen}.
+Не{не=PART=} жду{ждать=V,ipf,tran=inpraes,sg,indic,1p} необычайного{необычайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}:
+Всё{все=SPRO,pl=(acc|nom)} просто{просто=PART=} и{и=CONJ=} мертво{мертво=ADV=}.
+Ни{ни=CONJ=} страшного{страшный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)}, ни{ни=CONJ=} тайного{тайный=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} 
+Нет{нет=PART=} в{в=PR=} жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} ничего{ничто=SPRO,sg,n=gen}.
 
-{везде=ADV=} {однообразие=S,n,inan=(acc,sg|nom,sg)},
-{мы=SPRO,pl,1p=nom} — {ребенок=S,m,anim=nom,pl} {без=PR=} {отец=S,m,anim=(acc,sg|gen,sg)},
-{и=CONJ=} {близко=ADV=} {безобразие=S,n,inan=(acc,sg|nom,sg)} 
-{последний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {конец=S,m,inan=gen,sg}.
+Везде{везде=ADV=} однообразие{однообразие=S,n,inan=(acc,sg|nom,sg)},
+Мы{мы=SPRO,pl,1p=nom} — дети{ребенок=S,m,anim=nom,pl} без{без=PR=} Отца{отец=S,m,anim=(acc,sg|gen,sg)},
+И{и=CONJ=} близко{близко=ADV=} безобразие{безобразие=S,n,inan=(acc,sg|nom,sg)} 
+Последнего{последний=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} конца{конец=S,m,inan=gen,sg}.
 
-{но=CONJ=} {слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {смирение=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
-{я=SPRO,sg,1p=nom} {душа=S,f,inan=acc,sg} {не=PART=} {отдавать=V,tran=inpraes,sg,indic,1p,pf}.
-{не=PART=} {надо=ADV,praed=} {искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
-{кощунственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {слово=S,n,inan=dat,pl}!
+Но{но=CONJ=} слабости{слабость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} смирения{смирение=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+Я{я=SPRO,sg,1p=nom} душу{душа=S,f,inan=acc,sg} не{не=PART=} отдам{отдавать=V,tran=inpraes,sg,indic,1p,pf}.
+Не{не=PART=} надо{надо=ADV,praed=} искупления{искупление=S,n,inan=(acc,pl|gen,sg|nom,pl)} 
+Кощунственным{кощунственный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} словам{слово=S,n,inan=dat,pl}!

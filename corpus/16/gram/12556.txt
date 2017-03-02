@@ -1,24 +1,24 @@
-{один=APRO=(acc,sg,n|nom,sg,n)} — {сказать=V,pf,tran=inf}: «{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {человек=S,m,anim=nom,pl} {правый=A=pl,brev}».
-{иной=APRO=(acc,sg,n|nom,sg,n)} — {оправдывать=V,tran=inf,pf} {разбой=S,m,inan=(acc,sg|nom,sg)}.
-{один=APRO=(acc,sg,n|nom,sg,n)} — {искать=V,ipf,tran=inf} {позорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{иной=APRO=(acc,sg,n|nom,sg,n)} — {слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} {голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Одно{один=APRO=(acc,sg,n|nom,sg,n)} — сказать{сказать=V,pf,tran=inf}: «Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} люди{человек=S,m,anim=nom,pl} правы{правый=A=pl,brev}».
+Иное{иной=APRO=(acc,sg,n|nom,sg,n)} — оправдать{оправдывать=V,tran=inf,pf} разбой{разбой=S,m,inan=(acc,sg|nom,sg)}.
+Одно{один=APRO=(acc,sg,n|nom,sg,n)} — искать{искать=V,ipf,tran=inf} позорной{позорный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} славы{слава=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Иное{иной=APRO=(acc,sg,n|nom,sg,n)} — славы{слава=S,f,inan=(acc,pl|gen,sg|nom,pl)} голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{холоп=S,m,anim=ins,sg} {называть=V,tran=inf,ipf} {профан=S,m,anim=(acc,sg|gen,sg)}
-{не=PART=} {значить=V,ipf,tran=inpraes,sg,indic,3p}: {брат=S,m,anim=(acc,sg|gen,sg)} — «{мужик=S,m,anim=ins,sg}».
-{я=SPRO,sg,1p=nom}, {сливаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} {с=PR=} {природа=S,f,inan=ins,sg} {рано=ADV=},
-{с=PR=} {такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {наречие=S,n,inan=ins,sg} {незнакомый=A=sg,brev,m}...
+Холопом{холоп=S,m,anim=ins,sg} называть{называть=V,tran=inf,ipf} профана{профан=S,m,anim=(acc,sg|gen,sg)}
+Не{не=PART=} значит{значить=V,ipf,tran=inpraes,sg,indic,3p}: брата{брат=S,m,anim=(acc,sg|gen,sg)} — «мужиком{мужик=S,m,anim=ins,sg}».
+Я{я=SPRO,sg,1p=nom}, слившийся{сливаться=V,intr=(praet,acc,sg,partcp,plen,m,pf,act,inan|praet,nom,sg,partcp,plen,m,pf,act)} с{с=PR=} природой{природа=S,f,inan=ins,sg} рано{рано=ADV=},
+С{с=PR=} таким{такой=APRO=(dat,pl|ins,sg,m|ins,sg,n)} наречьем{наречие=S,n,inan=ins,sg} незнаком{незнакомый=A=sg,brev,m}...
 
-{любить=V,ipf,tran=inpraes,ger} {культурный=A=(acc,pl,plen,inan|nom,pl,plen)} {изыск=S,m,inan=(acc,pl|nom,pl)}
-{не=PART=} {мало=ADV=comp} {истый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {горожанин=S,m,anim=(acc,pl|gen,pl)},
-{любить=V,ipf,tran=inpraes,sg,indic,1p} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {шорох=S,m,inan=(acc,pl|nom,pl)}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {писк=S,m,inan=(acc,pl|nom,pl)}
-{весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {лесов?=A,plen,poss=(abl,pl|gen,pl|acc,pl,anim)} {поляна=S,f,inan=gen,pl}.
+Любя{любить=V,ipf,tran=inpraes,ger} культурные{культурный=A=(acc,pl,plen,inan|nom,pl,plen)} изыски{изыск=S,m,inan=(acc,pl|nom,pl)}
+Не{не=PART=} меньше{мало=ADV=comp} истых{истый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} горожан{горожанин=S,m,anim=(acc,pl|gen,pl)},
+Люблю{любить=V,ipf,tran=inpraes,sg,indic,1p} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} шорохи{шорох=S,m,inan=(acc,pl|nom,pl)}, все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} писки{писк=S,m,inan=(acc,pl|nom,pl)}
+Весенних{весенний=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} лесовых{лесов?=A,plen,poss=(abl,pl|gen,pl|acc,pl,anim)} полян{поляна=S,f,inan=gen,pl}.
 
-{любить=V,ipf,tran=inpraes,ger} {эксцессный?=A,plen=(nom,pl|acc,pl,inan)} {ликер=S,m,inan=(acc,pl|nom,pl)}
-{и=CONJ=} {разбираться=V,intr=inpraes,ger,ipf} {в=PR=} {они=SPRO,pl=(abl|acc|gen)} {легко=ADV=},
-{любить=V,ipf,tran=inpraes,sg,indic,1p} {зеленый=A=(acc,pl,plen,inan|nom,pl,plen)} {простор=S,m,inan=(acc,pl|nom,pl)},
-{давать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)} {я=SPRO,sg,1p=(abl|dat)} {молоко=S,n,inan=(acc,sg|nom,sg)}.
+Любя{любить=V,ipf,tran=inpraes,ger} эксцессные{эксцессный?=A,plen=(nom,pl|acc,pl,inan)} ликеры{ликер=S,m,inan=(acc,pl|nom,pl)}
+И{и=CONJ=} разбираясь{разбираться=V,intr=inpraes,ger,ipf} в{в=PR=} них{они=SPRO,pl=(abl|acc|gen)} легко{легко=ADV=},
+Люблю{любить=V,ipf,tran=inpraes,sg,indic,1p} зеленые{зеленый=A=(acc,pl,plen,inan|nom,pl,plen)} просторы{простор=S,m,inan=(acc,pl|nom,pl)},
+Дающие{давать=V,tran=(inpraes,nom,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,inan)} мне{я=SPRO,sg,1p=(abl|dat)} молоко{молоко=S,n,inan=(acc,sg|nom,sg)}.
 
-{я=SPRO,sg,1p=nom} {выпивать=V,tran=inpraes,sg,indic,1p,pf} {жизнь=S,f,inan=(acc,sg|nom,sg)} {из=PR=} {полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{пока=CONJ=} {не=PART=} {сказать=V,pf,tran=inpraes,sg,indic,3p} {смерть=S,f,inan=(acc,sg|nom,sg)}: «{пора=S,f,inan=nom,sg}!»
-{сегодня=ADV=} — {гречневый=A=nom,sg,plen,f} {каша=S,f,inan=nom,sg},
-{а=CONJ=} {завтра=ADV=} — {свежий=A=nom,sg,plen,f} {икра=S,f,inan=nom,sg}!..
+Я{я=SPRO,sg,1p=nom} выпью{выпивать=V,tran=inpraes,sg,indic,1p,pf} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} из{из=PR=} полной{полный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} чаши{чаша=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Пока{пока=CONJ=} не{не=PART=} скажет{сказать=V,pf,tran=inpraes,sg,indic,3p} смерть{смерть=S,f,inan=(acc,sg|nom,sg)}: «пора{пора=S,f,inan=nom,sg}!»
+Сегодня{сегодня=ADV=} — гречневая{гречневый=A=nom,sg,plen,f} каша{каша=S,f,inan=nom,sg},
+А{а=CONJ=} завтра{завтра=ADV=} — свежая{свежий=A=nom,sg,plen,f} икра{икра=S,f,inan=nom,sg}!..

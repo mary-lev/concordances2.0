@@ -1,39 +1,39 @@
-{всадник=S,m,anim=nom,sg} {ехать=V,ipf,intr=praet,sg,indic,m} {по=PR=} {дорога=S,f,inan=(abl,sg|dat,sg)},
-{быть=V,intr=praet,sg,indic,n,ipf} {поздно=ADV=}, {выть=V,ipf,intr=praet,pl,indic} {пес=S,m,anim=nom,pl},
-{волчий=A,plen=(acc,sg,n|nom,sg,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {месяц=S,m,inan=(acc,sg|nom,sg)} {строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
-{лить=V,ipf,tran=praet,sg,indic,m} {сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} {на=PR=} {овес=S,m,inan=(acc,pl|nom,pl)}.
+Всадник{всадник=S,m,anim=nom,sg} ехал{ехать=V,ipf,intr=praet,sg,indic,m} по{по=PR=} дороге{дорога=S,f,inan=(abl,sg|dat,sg)},
+Было{быть=V,intr=praet,sg,indic,n,ipf} поздно{поздно=ADV=}, выли{выть=V,ipf,intr=praet,pl,indic} псы{пес=S,m,anim=nom,pl},
+Волчье{волчий=A,plen=(acc,sg,n|nom,sg,n)} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — месяц{месяц=S,m,inan=(acc,sg|nom,sg)} строгий{строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} —
+Лил{лить=V,ipf,tran=praet,sg,indic,m} сиянье{сияние=S,n,inan=(abl,sg|acc,sg|nom,sg)} на{на=PR=} овсы{овес=S,m,inan=(acc,pl|nom,pl)}.
 
-{и=CONJ=} {внезапно=ADV=} {за=PR=} {деревня=S,f,inan=ins,sg}
-{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {камень=S,m,inan=(acc,sg|nom,sg)} {возле=ADV=} {пень=S,m,inan=gen,sg}
-{испугать=V,pf,tran=praet,sg,indic,m} {усмешка=S,f,inan=ins,sg} {древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
-{задремать=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} {конь=S,m,anim=(acc,sg|gen,sg)}.
+И{и=CONJ=} внезапно{внезапно=ADV=} за{за=PR=} деревней{деревня=S,f,inan=ins,sg}
+Белый{белый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} камень{камень=S,m,inan=(acc,sg|nom,sg)} возле{возле=ADV=} пня{пень=S,m,inan=gen,sg}
+Испугал{испугать=V,pf,tran=praet,sg,indic,m} усмешкой{усмешка=S,f,inan=ins,sg} древней{древний=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}
+Задремавшего{задремать=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} коня{конь=S,m,anim=(acc,sg|gen,sg)}.
 
-{тот=APRO=(acc,sg,m,inan|nom,sg,m)} {метнуться=V,pf,intr=praet,sg,indic,m}: {темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {бред=S,sg,m,inan=ins}
-{вдруг=ADV=} {ворваться=V,pf,intr=praet,sg,indic,m} {в=PR=} {душа=S,f,inan=acc,sg} {сам=APRO=(acc,sg,m,inan|nom,sg,m)}
-{древний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ужас=S,m,inan=(acc,sg|nom,sg)}, {тот=APRO=(acc,sg,m,inan|nom,sg,m)}, {что=CONJ=} {ведомый=A=sg,brev,m}
-{в=PR=} {мир=S,m,inan=abl,sg} {только=PART=} {лошадь=S,f,anim=dat,pl}.
+Тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} метнулся{метнуться=V,pf,intr=praet,sg,indic,m}: темным{темный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} бредом{бред=S,sg,m,inan=ins}
+Вдруг{вдруг=ADV=} ворвался{ворваться=V,pf,intr=praet,sg,indic,m} в{в=PR=} душу{душа=S,f,inan=acc,sg} сам{сам=APRO=(acc,sg,m,inan|nom,sg,m)}
+Древний{древний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ужас{ужас=S,m,inan=(acc,sg|nom,sg)}, тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)}, что{что=CONJ=} ведом{ведомый=A=sg,brev,m}
+В{в=PR=} мире{мир=S,m,inan=abl,sg} только{только=PART=} лошадям{лошадь=S,f,anim=dat,pl}.
 
-{дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {гул=S,m,inan=(acc,sg|nom,sg)} {землетрясение=S,n,inan=gen,pl},
-{пестрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {тигр=S,m,anim=(acc,pl|gen,pl)} {хищный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вой=S,m,inan=(acc,sg|nom,sg)}
-{и=CONJ=} {победа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {привидение=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}
-{над=PR=} {живой=A=ins,pl,plen} {в=PR=} {час=S,m,inan=(acc,sg|nom,sg)} {ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
+Дальний{дальний=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} гул{гул=S,m,inan=(acc,sg|nom,sg)} землетрясений{землетрясение=S,n,inan=gen,pl},
+Пестрых{пестрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} тигров{тигр=S,m,anim=(acc,pl|gen,pl)} хищный{хищный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вой{вой=S,m,inan=(acc,sg|nom,sg)}
+И{и=CONJ=} победы{победа=S,f,inan=(acc,pl|gen,sg|nom,pl)} привидений{привидение=S,n=(acc,pl,anim|gen,pl,anim|gen,pl,inan)}
+Над{над=PR=} живыми{живой=A=ins,pl,plen} в{в=PR=} час{час=S,m,inan=(acc,sg|nom,sg)} ночной{ночной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}.
 
-{око=S,n,inan=(acc,pl|nom,pl)} {круглый=A=pl,brev} {и=CONJ=} {кровавый=A=pl,brev},
-{ноздря=S,f,inan=(acc,pl|gen,sg|nom,pl)} {пена=S,f,inan=ins,sg} {полный=A=pl,brev},
-{конь=S,m,anim=nom,sg}, {как=CONJ=} {буря=S,f,inan=nom,sg}, {топтать=V,ipf,tran=inpraes,sg,indic,3p} {трава=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{разрывать=V,tran=inpraes,sg,indic,3p,ipf} {грудь=S,f,inan=ins,sg} {лен=S,m,inan=(acc,pl|nom,pl)}.
+Очи{око=S,n,inan=(acc,pl|nom,pl)} круглы{круглый=A=pl,brev} и{и=CONJ=} кровавы{кровавый=A=pl,brev},
+Ноздри{ноздря=S,f,inan=(acc,pl|gen,sg|nom,pl)} пеною{пена=S,f,inan=ins,sg} полны{полный=A=pl,brev},
+Конь{конь=S,m,anim=nom,sg}, как{как=CONJ=} буря{буря=S,f,inan=nom,sg}, топчет{топтать=V,ipf,tran=inpraes,sg,indic,3p} травы{трава=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Разрывает{разрывать=V,tran=inpraes,sg,indic,3p,ipf} грудью{грудь=S,f,inan=ins,sg} льны{лен=S,m,inan=(acc,pl|nom,pl)}.
 
-{он=SPRO,sg,3p,m=nom} {то=PART=} {стлаться=V,ipf,intr=inpraes,sg,indic,3p} {по=PR=} {ширь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{то=CONJ=} {слетать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} {с=PR=} {дикий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {круча=S,f,inan=gen,pl},
-{и=CONJ=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p}, {где=ADVPRO=} {он=SPRO,sg,3p,m=nom} — {в=PR=} {мир=S,m,inan=abl,sg}
-{или=CONJ=} {в=PR=} {небо=S,n,inan=abl,sg} {между=PR=} {туча=S,f,inan=gen,pl}.
+Он{он=SPRO,sg,3p,m=nom} то{то=PART=} стелется{стлаться=V,ipf,intr=inpraes,sg,indic,3p} по{по=PR=} шири{ширь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+То{то=CONJ=} слетает{слетать=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,sg,indic,3p,pf)} с{с=PR=} диких{дикий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} круч{круча=S,f,inan=gen,pl},
+И{и=CONJ=} не{не=PART=} знает{знать=V,ipf,tran=inpraes,sg,indic,3p}, где{где=ADVPRO=} он{он=SPRO,sg,3p,m=nom} — в{в=PR=} мире{мир=S,m,inan=abl,sg}
+Или{или=CONJ=} в{в=PR=} небе{небо=S,n,inan=abl,sg} между{между=PR=} туч{туча=S,f,inan=gen,pl}.
 
-{утро=S,n,inan=(acc,sg|nom,sg)}. {камень=S,m,inan=(acc,sg|nom,sg)} {у=PR=} {дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{робко=ADV=} {спрятать=V,pf,tran=praet,sg,indic,m} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {оскал=S,m,inan=(acc,sg|nom,sg)}.
-{волчий=A,plen=(acc,sg,n|nom,sg,n)} {солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — {месяц=S,m,inan=(acc,sg|nom,sg)} {строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{освещать=V,tran=inf,ipf} {он=SPRO,sg,3p,m=(acc|gen)} {уставать=V,intr=praet,sg,indic,m,pf}.
+Утро{утро=S,n,inan=(acc,sg|nom,sg)}. Камень{камень=S,m,inan=(acc,sg|nom,sg)} у{у=PR=} дороги{дорога=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Робко{робко=ADV=} спрятал{спрятать=V,pf,tran=praet,sg,indic,m} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} оскал{оскал=S,m,inan=(acc,sg|nom,sg)}.
+Волчье{волчий=A,plen=(acc,sg,n|nom,sg,n)} солнце{солнце=S,n,inan=(abl,sg|acc,sg|nom,sg)} — месяц{месяц=S,m,inan=(acc,sg|nom,sg)} строгий{строгий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Освещать{освещать=V,tran=inf,ipf} его{он=SPRO,sg,3p,m=(acc|gen)} устал{уставать=V,intr=praet,sg,indic,m,pf}.
 
-{на=PR=} {село=S,n,inan=abl,sg} {собака=S,f,anim=(gen,sg|nom,pl)} {выть=V,ipf,intr=praet,pl,indic},
-{человек=S,m,anim=nom,pl} {хмуро=ADV=} {в=PR=} {церковь=S,f,inan=(acc,sg|nom,sg)} {идти=V,ipf,intr=praet,pl,indic}.
-{конь=S,m,anim=nom,sg} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {приходить=V,intr=praet,sg,indic,m,pf}, {весь=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {мыло=S,n,inan=abl,sg},
-{господин=S,m,anim=(acc,sg|gen,sg)} {не=PART=} {находить=V=praet,pl,indic,pf,tran}.
+На{на=PR=} селе{село=S,n,inan=abl,sg} собаки{собака=S,f,anim=(gen,sg|nom,pl)} выли{выть=V,ipf,intr=praet,pl,indic},
+Люди{человек=S,m,anim=nom,pl} хмуро{хмуро=ADV=} в{в=PR=} церковь{церковь=S,f,inan=(acc,sg|nom,sg)} шли{идти=V,ipf,intr=praet,pl,indic}.
+Конь{конь=S,m,anim=nom,sg} один{один=APRO=(acc,sg,m,inan|nom,sg,m)} пришел{приходить=V,intr=praet,sg,indic,m,pf}, весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} в{в=PR=} мыле{мыло=S,n,inan=abl,sg},
+Господина{господин=S,m,anim=(acc,sg|gen,sg)} не{не=PART=} нашли{находить=V=praet,pl,indic,pf,tran}.

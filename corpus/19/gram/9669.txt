@@ -1,24 +1,24 @@
-{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {знать=V,ipf,tran=inpraes,sg,indic,3p} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{но=CONJ=} {быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} {мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {предел=S,m,inan=(acc,sg|nom,sg)}:
-{на=PR=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)} {закон=S,m,inan=(acc,sg|nom,sg)} {судьбина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{над=PR=} {земля=S,f,inan=ins,sg} {отяготеть=V,pf,intr=praet,sg,indic,m}.
+Мудрый{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} знает{знать=V,ipf,tran=inpraes,sg,indic,3p} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} причины{причина=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Но{но=CONJ=} есть{быть=V,intr=(inpraes,sg,indic,3p,ipf|inpraes,pl,indic,3p,ipf|praes,pl,indic,1p,ipf|praes,sg,indic,1p,ipf|praes,pl,indic,2p,ipf|praes,sg,indic,2p,ipf|praes,pl,indic,3p,ipf|praes,sg,indic,3p,ipf)} мудрости{мудрость=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} предел{предел=S,m,inan=(acc,sg|nom,sg)}:
+На{на=PR=} века{век=S,m,inan=(acc,pl|gen,sg|nom,pl)} закон{закон=S,m,inan=(acc,sg|nom,sg)} судьбины{судьбина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Над{над=PR=} землей{земля=S,f,inan=ins,sg} отяготел{отяготеть=V,pf,intr=praet,sg,indic,m}.
 
-{своенравный=A=sg,brev,f}, {своевольный=A=sg,brev,f},
-{что=SPRO,sg,n,inan=(acc|nom)} {захотеть=V,pf,tran=inpraes,sg,indic,3p}, {то=PART=} {творить=V,ipf,tran=inpraes,sg,indic,3p}.
-{она=SPRO,sg,3p,f=(dat|ins)} {причина=S,f,inan=gen,pl} {всегда=ADVPRO=} {довольно=ADV=},
-{и=CONJ=} {конец=S,m,inan=(acc,sg|nom,sg)} {все=SPRO,pl=(abl|acc|gen)} {дело=S,n,inan=gen,pl} {сокрыть=V,pf,tran=praet,sg,partcp,brev,m,pass}.
+Своенравна{своенравный=A=sg,brev,f}, своевольна{своевольный=A=sg,brev,f},
+Что{что=SPRO,sg,n,inan=(acc|nom)} захочет{захотеть=V,pf,tran=inpraes,sg,indic,3p}, то{то=PART=} творит{творить=V,ipf,tran=inpraes,sg,indic,3p}.
+Ей{она=SPRO,sg,3p,f=(dat|ins)} причин{причина=S,f,inan=gen,pl} всегда{всегда=ADVPRO=} довольно{довольно=ADV=},
+И{и=CONJ=} конец{конец=S,m,inan=(acc,sg|nom,sg)} всех{все=SPRO,pl=(abl|acc|gen)} дел{дело=S,n,inan=gen,pl} сокрыт{сокрыть=V,pf,tran=praet,sg,partcp,brev,m,pass}.
 
-{натворить=V,pf,tran=inpraes,sg,indic,3p} {добро=S,sg,n,inan=(acc|nom)} {иль=CONJ=} {худо=ADV=},
-{глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сказать=V,pf,tran=inpraes,sg,indic,3p}: — {не=PART=} {понимать=V=inpraes,sg,indic,1p,pf}. —
-{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сказать=V,pf,tran=inpraes,sg,indic,3p} {мы=SPRO,pl,1p=dat}, {откуда=ADVPRO=},
-{отчего=ADVPRO=} {и=CONJ=} {почему=ADVPRO=}.
+Натворит{натворить=V,pf,tran=inpraes,sg,indic,3p} добро{добро=S,sg,n,inan=(acc|nom)} иль{иль=CONJ=} худо{худо=ADV=},
+Глупый{глупый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} скажет{сказать=V,pf,tran=inpraes,sg,indic,3p}: — Не{не=PART=} пойму{понимать=V=inpraes,sg,indic,1p,pf}. —
+Мудрый{мудрый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} скажет{сказать=V,pf,tran=inpraes,sg,indic,3p} нам{мы=SPRO,pl,1p=dat}, откуда{откуда=ADVPRO=},
+Отчего{отчего=ADVPRO=} и{и=CONJ=} почему{почему=ADVPRO=}.
 
-{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {причина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {знать=V,ipf,tran=inpraes,sg,indic,3p} {ясно=ADV=},
-{но=CONJ=} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p}, — {вот=PART=} {беда=S,f,inan=nom,sg}! —
-{тут=ADVPRO=} {и=CONJ=} {спрашивать=V=inf,ipf,tran} {напрасно=ADV=}:
-{для=PR=} {что=SPRO,sg,n,inan=gen}, {зачем=ADVPRO=}, {куда=ADVPRO=}.
+Все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} причины{причина=S,f,inan=(acc,pl|gen,sg|nom,pl)} знает{знать=V,ipf,tran=inpraes,sg,indic,3p} ясно{ясно=ADV=},
+Но{но=CONJ=} не{не=PART=} знает{знать=V,ipf,tran=inpraes,sg,indic,3p}, — вот{вот=PART=} беда{беда=S,f,inan=nom,sg}! —
+Тут{тут=ADVPRO=} и{и=CONJ=} спрашивать{спрашивать=V=inf,ipf,tran} напрасно{напрасно=ADV=}:
+Для{для=PR=} чего{что=SPRO,sg,n,inan=gen}, зачем{зачем=ADVPRO=}, куда{куда=ADVPRO=}.
 
-{здесь=ADVPRO=} {неметь=V,ipf,intr=inpraes,sg,indic,3p} {наш=APRO=(acc,sg,n|nom,sg,n)} {знание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{и=CONJ=} {один=APRO=(acc,sg,m,inan|nom,sg,m)} {лишь=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p} {бог=S,m,anim=nom,sg},
-{для=PR=} {что=SPRO,sg,n,inan=gen} {же=PART=} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {скитание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{где=ADVPRO=} {конец=S,m,inan=(acc,sg|nom,sg)} {земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {дорога=S,f,inan=gen,pl}.
+Здесь{здесь=ADVPRO=} немеет{неметь=V,ipf,intr=inpraes,sg,indic,3p} наше{наш=APRO=(acc,sg,n|nom,sg,n)} знанье{знание=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+И{и=CONJ=} Один{один=APRO=(acc,sg,m,inan|nom,sg,m)} лишь{лишь=PART=} знает{знать=V,ipf,tran=inpraes,sg,indic,3p} Бог{бог=S,m,anim=nom,sg},
+Для{для=PR=} чего{что=SPRO,sg,n,inan=gen} же{же=PART=} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} скитанья{скитание=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Где{где=ADVPRO=} конец{конец=S,m,inan=(acc,sg|nom,sg)} земных{земной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} дорог{дорога=S,f,inan=gen,pl}.

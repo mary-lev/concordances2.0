@@ -1,24 +1,24 @@
-{заснуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {дом=S,m,inan=(acc,sg|nom,sg)}. {один=APRO=(acc,sg,m,inan|nom,sg,m)}, {во=PR=} {мгла=S,f,inan=(abl,sg|dat,sg)}
-{проходить=V,intr=praet,sg,indic,m,pf} {с=PR=} {зажигать=V=praet,ins,sg,partcp,plen,f,pf,pass} {лучина=S,f,inan=ins,sg}.
-{на=PR=} {бледный=A=(abl,sg,plen,m|abl,sg,plen,n)}, {мертвенный=A=(abl,sg,plen,m|abl,sg,plen,n)} {чело=S,n,inan=abl,sg}
-{глухой=A=nom,sg,plen,f} {скорбь=S,f,inan=(acc,sg|nom,sg)} {ложиться=V,intr=praet,sg,indic,f,pf} {морщина=S,f,inan=ins,sg}.
+Заснувший{заснуть=V,pf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} дом{дом=S,m,inan=(acc,sg|nom,sg)}. Один{один=APRO=(acc,sg,m,inan|nom,sg,m)}, во{во=PR=} мгле{мгла=S,f,inan=(abl,sg|dat,sg)}
+Прошел{проходить=V,intr=praet,sg,indic,m,pf} с{с=PR=} зажженною{зажигать=V=praet,ins,sg,partcp,plen,f,pf,pass} лучиною{лучина=S,f,inan=ins,sg}.
+На{на=PR=} бледном{бледный=A=(abl,sg,plen,m|abl,sg,plen,n)}, мертвенном{мертвенный=A=(abl,sg,plen,m|abl,sg,plen,n)} челе{чело=S,n,inan=abl,sg}
+Глухая{глухой=A=nom,sg,plen,f} скорбь{скорбь=S,f,inan=(acc,sg|nom,sg)} легла{ложиться=V,intr=praet,sg,indic,f,pf} морщиною{морщина=S,f,inan=ins,sg}.
 
-{поджигать=V=praet,sg,indic,m,pf} {бумага=S,f,inan=(acc,pl|gen,sg|nom,pl)}. {огонек=S,m,inan=(acc,sg|nom,sg)}
-{заползать=V,pf=praet,sg,indic,m} {синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}, {жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} {пчелка=S,f,anim=ins,sg}.
-{он=SPRO,sg,3p,m=nom} {запирать=V=praet,sg,indic,m,pf} {дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {на=PR=} {замок=S,m,inan=(acc,sg|nom,sg)},
-{объять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} {тьма=S,f,inan=ins,sg} {студеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {колкий=A=ins,sg,plen,f}.
+Поджег{поджигать=V=praet,sg,indic,m,pf} бумаги{бумага=S,f,inan=(acc,pl|gen,sg|nom,pl)}. Огонек{огонек=S,m,inan=(acc,sg|nom,sg)}
+Заползал{заползать=V,pf=praet,sg,indic,m} синей{синий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)}, жгучей{жгучий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f|comp)} пчелкою{пчелка=S,f,anim=ins,sg}.
+Он{он=SPRO,sg,3p,m=nom} запер{запирать=V=praet,sg,indic,m,pf} двери{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} на{на=PR=} замок{замок=S,m,inan=(acc,sg|nom,sg)},
+Объятый{объять=V,tran=(praet,acc,sg,partcp,plen,m,pf,pass,inan|praet,nom,sg,partcp,plen,m,pf,pass)} тьмой{тьма=S,f,inan=ins,sg} студеной{студеный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, колкою{колкий=A=ins,sg,plen,f}.
 
-{команда=S,f,inan=nom,sg} {в=PR=} {полночь=S,f,inan=(acc,sg|nom,sg)} {пролететь=V,pf=inpraes,sg,indic,3p}
-{над=PR=} {мостовый=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {тряский=A=ins,sg,plen,f}; —
-{и=INTJ=} {факел=S,m,inan=(acc,sg|nom,sg)} {странно=ADV=} {зачадить=V,pf,intr=inpraes,sg,indic,3p}
-{над=PR=} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {сверкнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} {каска=S,f,inan=ins,sg}.
+Команда{команда=S,f,inan=nom,sg} в{в=PR=} полночь{полночь=S,f,inan=(acc,sg|nom,sg)} пролетит{пролететь=V,pf=inpraes,sg,indic,3p}
+Над{над=PR=} мостовой{мостовый=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} сырой{сырой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} и{и=CONJ=} тряскою{тряский=A=ins,sg,plen,f}; —
+И{и=INTJ=} факел{факел=S,m,inan=(acc,sg|nom,sg)} странно{странно=ADV=} зачадит{зачадить=V,pf,intr=inpraes,sg,indic,3p}
+Над{над=PR=} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, сверкнувшей{сверкнуть=V,pf,intr=(praet,abl,sg,partcp,plen,f,act|praet,dat,sg,partcp,plen,f,act|praet,gen,sg,partcp,plen,f,act|praet,ins,sg,partcp,plen,f,act)} каскою{каска=S,f,inan=ins,sg}.
 
-{вот=PART=} {затягивать=V,tran=praet,sg,indic,n,pf} {серп=S,m,inan=(acc,sg|nom,sg)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{хрустальный=A=(acc,pl,plen,inan|nom,pl,plen)} {стрекотать=V,ipf,intr=inpraes,pl,indic,3p} {градина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{из=PR=} {белоструйный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {седина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{глядеть=V,ipf,tran=inpraes,pl,indic,3p} {чернеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} {впадина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Вот{вот=PART=} затянуло{затягивать=V,tran=praet,sg,indic,n,pf} серп{серп=S,m,inan=(acc,sg|nom,sg)} луны{луна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Хрустальные{хрустальный=A=(acc,pl,plen,inan|nom,pl,plen)} стрекочут{стрекотать=V,ipf,intr=inpraes,pl,indic,3p} градины{градина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Из{из=PR=} белоструйной{белоструйный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} седины{седина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Глядят{глядеть=V,ipf,tran=inpraes,pl,indic,3p} чернеющие{чернеть=V,ipf,intr=(inpraes,nom,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,inan)} впадины{впадина=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{седина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {биться=V,ipf,intr=inpraes,pl,indic,3p} {на=PR=} {чело=S,n,inan=abl,sg}.
-{проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} {улица=S,f,inan=ins,sg} {пустынный=A=ins,sg,plen,f}...
-{на=PR=} {каланча=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {мгла=S,f,inan=(abl,sg|dat,sg)}
-{взвиваться=V,intr=inpraes,sg,indic,3p,ipf} {звезда=S,f,inan=nom,sg} {рубинный=A=nom,sg,plen,f}.
+Седины{седина=S,f,inan=(acc,pl|gen,sg|nom,pl)} бьются{биться=V,ipf,intr=inpraes,pl,indic,3p} на{на=PR=} челе{чело=S,n,inan=abl,sg}.
+Проходит{проходить=V=(inpraes,sg,indic,3p,pf,tran|inpraes,sg,indic,3p,ipf,tran)} улицей{улица=S,f,inan=ins,sg} пустынною{пустынный=A=ins,sg,plen,f}...
+На{на=PR=} каланче{каланча=S,f,inan=(abl,sg|dat,sg)} в{в=PR=} туманной{туманный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} мгле{мгла=S,f,inan=(abl,sg|dat,sg)}
+Взвивается{взвиваться=V,intr=inpraes,sg,indic,3p,ipf} звезда{звезда=S,f,inan=nom,sg} рубинная{рубинный=A=nom,sg,plen,f}.

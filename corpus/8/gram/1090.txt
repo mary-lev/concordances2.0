@@ -1,11 +1,11 @@
-{заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {сон=S,m,inan=(acc,sg|nom,sg)} {вступать=V,intr=inpraes,sg,indic,3p,ipf} {на=PR=} {ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)};
-{мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} {дверь=S,f,inan=(acc,sg|nom,sg)} {приотворять=V,tran=inpraes,sg,indic,3p,ipf} {он=SPRO,sg,3p,m=nom}...
-{вот=PART=} {на=PR=} {стена=S,f,inan=(abl,sg|dat,sg)} {смешаться=V,pf,intr=praet,pl,indic} {оба=NUM=(nom,f|acc,f,inan)} {тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{и=CONJ=} {в=PR=} {зеркало=S,n,inan=abl,sg} ({стыдливость=S,f,inan=(acc,sg|nom,sg)} {наслаждение=S,n,inan=gen,pl}!)
-{ряд=S,m,inan=(acc,sg|nom,sg)} {отражение=S,n,inan=gen,pl} {затемнять=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+Заветный{заветный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} сон{сон=S,m,inan=(acc,sg|nom,sg)} вступает{вступать=V,intr=inpraes,sg,indic,3p,ipf} на{на=PR=} ступени{ступень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)};
+Мгновенья{мгновение=S,n,inan=(acc,pl|gen,sg|nom,pl)} дверь{дверь=S,f,inan=(acc,sg|nom,sg)} приотворяет{приотворять=V,tran=inpraes,sg,indic,3p,ipf} он{он=SPRO,sg,3p,m=nom}...
+Вот{вот=PART=} на{на=PR=} стене{стена=S,f,inan=(abl,sg|dat,sg)} смешались{смешаться=V,pf,intr=praet,pl,indic} обе{оба=NUM=(nom,f|acc,f,inan)} тени{тень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+И{и=CONJ=} в{в=PR=} зеркале{зеркало=S,n,inan=abl,sg} (стыдливость{стыдливость=S,f,inan=(acc,sg|nom,sg)} наслаждений{наслаждение=S,n,inan=gen,pl}!)
+Ряд{ряд=S,m,inan=(acc,sg|nom,sg)} отражений{отражение=S,n,inan=gen,pl} затемнен{затемнять=V,tran=praet,sg,partcp,brev,m,pf,pass}.
 
-{о=INTJ=}, {не=PART=} {жалеть=V,ipf,tran=sg,imper,2p}, {что=CONJ=} {яркость=S,f,inan=(acc,sg|nom,sg)} {побледнеть=V,pf,intr=praet,sg,indic,f}!
-{когда-нибудь=ADVPRO=}, {в=PR=} {печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {смена=S,f,inan=(abl,sg|dat,sg)} {год=S,m,inan=gen,pl},
-{вернуться=V,pf,intr=inpraes,sg,indic,3p} {все=SPRO,pl=(acc|nom)},— {и=CONJ=} {не=PART=} {погасать=V,intr=inpraes,sg,indic,3p,pf} {свет=S,sg,m,inan=(acc|nom)},
-{и=CONJ=} {в=PR=} {зеркало=S,n,inan=abl,sg}, {заученно=ADV=} {и=CONJ=} {смело=ADV=},
-{приникать=V,intr=inpraes,sg,indic,3p,pf} {к=PR=} {тело=S,n,inan=dat,sg} {тело=S,n,inan=(acc,sg|nom,sg)}.
+О{о=INTJ=}, не{не=PART=} жалей{жалеть=V,ipf,tran=sg,imper,2p}, что{что=CONJ=} яркость{яркость=S,f,inan=(acc,sg|nom,sg)} побледнела{побледнеть=V,pf,intr=praet,sg,indic,f}!
+Когда-нибудь{когда-нибудь=ADVPRO=}, в{в=PR=} печальной{печальный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} смене{смена=S,f,inan=(abl,sg|dat,sg)} лет{год=S,m,inan=gen,pl},
+Вернется{вернуться=V,pf,intr=inpraes,sg,indic,3p} все{все=SPRO,pl=(acc|nom)},— и{и=CONJ=} не{не=PART=} погаснет{погасать=V,intr=inpraes,sg,indic,3p,pf} свет{свет=S,sg,m,inan=(acc|nom)},
+И{и=CONJ=} в{в=PR=} зеркале{зеркало=S,n,inan=abl,sg}, заученно{заученно=ADV=} и{и=CONJ=} смело{смело=ADV=},
+Приникнет{приникать=V,intr=inpraes,sg,indic,3p,pf} к{к=PR=} телу{тело=S,n,inan=dat,sg} тело{тело=S,n,inan=(acc,sg|nom,sg)}.

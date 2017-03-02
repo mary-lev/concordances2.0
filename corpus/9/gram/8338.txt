@@ -1,273 +1,273 @@
-{город=S,m,inan=(acc,sg|nom,sg)}. {зимний=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)}.
-{тьма=S,f,inan=nom,sg}. {пролет=S,m,inan=(acc,pl|nom,pl)} {ворота=S,pl,inan=gen}.
-{у=PR=} {борис=S,persn,m,anim=(acc,sg|gen,sg)} {и=CONJ=} {глеб=S,persn,m,anim=(acc,sg|gen,sg)}
-{свет=S,sg,m,inan=(acc|nom)}, {и=CONJ=} {служба=S,f,inan=nom,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}.
+Город{город=S,m,inan=(acc,sg|nom,sg)}. Зимнее{зимний=A=(acc,sg,plen,n|nom,sg,plen,n)} небо{небо=S,n,inan=(acc,sg|nom,sg)}.
+Тьма{тьма=S,f,inan=nom,sg}. Пролеты{пролет=S,m,inan=(acc,pl|nom,pl)} ворот{ворота=S,pl,inan=gen}.
+У{у=PR=} Бориса{борис=S,persn,m,anim=(acc,sg|gen,sg)} и{и=CONJ=} Глеба{глеб=S,persn,m,anim=(acc,sg|gen,sg)}
+Свет{свет=S,sg,m,inan=(acc|nom)}, и{и=CONJ=} служба{служба=S,f,inan=nom,sg} идет{идти=V,ipf,intr=inpraes,sg,indic,3p}.
 
-{лоб=S,m,inan=(acc,pl|nom,pl)} {молиться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}, {риза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{и=CONJ=} {старуха=S,f,anim=(acc,pl|gen,pl)} {шушун=S,m,inan=(acc,pl|nom,pl)}
-{свечка=S,f,inan=gen,pl} {пламень=S,inan=ins,sg,n} {снизу=ADV=}
-{слабо=ADV=} {озарять=V,tran=praet,pl,partcp,brev,pf,pass}.
+Лбы{лоб=S,m,inan=(acc,pl|nom,pl)} молящихся{молиться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)}, ризы{риза=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+И{и=CONJ=} старух{старуха=S,f,anim=(acc,pl|gen,pl)} шушуны{шушун=S,m,inan=(acc,pl|nom,pl)}
+Свечек{свечка=S,f,inan=gen,pl} пламенем{пламень=S,inan=ins,sg,n} снизу{снизу=ADV=}
+Слабо{слабо=ADV=} озарены{озарять=V,tran=praet,pl,partcp,brev,pf,pass}.
 
-{а=CONJ=} {на=PR=} {улица=S,f,inan=(abl,sg|dat,sg)} {вьюга=S,f,inan=nom,sg}
-{все=SPRO,pl=(acc|nom)} {смешать=V,pf,tran=praet,sg,indic,f} {в=PR=} {один=APRO=(acc,sg,n|nom,sg,n)},
-{и=CONJ=} {пробиваться=V,intr=inf,pf} {друг=S,m,anim=nom,sg} {к=PR=} {друг=S,m,anim=dat,sg}
-{никто=SPRO,sg,m,anim=dat} {не=PART=} {давать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
+А{а=CONJ=} на{на=PR=} улице{улица=S,f,inan=(abl,sg|dat,sg)} вьюга{вьюга=S,f,inan=nom,sg}
+Все{все=SPRO,pl=(acc|nom)} смешала{смешать=V,pf,tran=praet,sg,indic,f} в{в=PR=} одно{один=APRO=(acc,sg,n|nom,sg,n)},
+И{и=CONJ=} пробиться{пробиваться=V,intr=inf,pf} друг{друг=S,m,anim=nom,sg} к{к=PR=} другу{друг=S,m,anim=dat,sg}
+Никому{никто=SPRO,sg,m,anim=dat} не{не=PART=} дано{давать=V,tran=praet,sg,partcp,brev,n,pf,pass}.
 
-{в=PR=} {завывание=S,n,inan=abl,sg} {буран=S,m,inan=gen,sg}
-{потопать=V=praet,pl,indic,pf}: {тюрьма=S,f,inan=nom,sg},
-{экскаватор=S,m,inan=(acc,pl|nom,pl)}, {кран=S,m,inan=(acc,pl|nom,pl)},
-{новостройка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, {дом=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} завываньи{завывание=S,n,inan=abl,sg} бурана{буран=S,m,inan=gen,sg}
+Потонули{потопать=V=praet,pl,indic,pf}: тюрьма{тюрьма=S,f,inan=nom,sg},
+Экскаваторы{экскаватор=S,m,inan=(acc,pl|nom,pl)}, краны{кран=S,m,inan=(acc,pl|nom,pl)},
+Новостройки{новостройка=S,f,inan=(acc,pl|gen,sg|nom,pl)}, дома{дом=S,m,inan=(acc,pl|gen,sg|nom,pl)},
 
-{клок=S,m,inan=(acc,pl|nom,pl)} {репертуар=S,m,inan=gen,sg}
-{на=PR=} {афишный=A=(abl,sg,plen,m|abl,sg,plen,n)} {столб=S,m,inan=abl,sg}
-{и=CONJ=} {дерево=S,n,inan=(acc,pl|nom,pl)} {бульвар=S,m,inan=gen,sg}
-{в=PR=} {серебристый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {резьба=S,f,inan=(abl,sg|dat,sg)}.
+Клочья{клок=S,m,inan=(acc,pl|nom,pl)} репертуара{репертуар=S,m,inan=gen,sg}
+На{на=PR=} афишном{афишный=A=(abl,sg,plen,m|abl,sg,plen,n)} столбе{столб=S,m,inan=abl,sg}
+И{и=CONJ=} деревья{дерево=S,n,inan=(acc,pl|nom,pl)} бульвара{бульвар=S,m,inan=gen,sg}
+В{в=PR=} серебристой{серебристый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} резьбе{резьба=S,f,inan=(abl,sg|dat,sg)}.
 
-{и=CONJ=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {эпоха=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{след=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {каждый=APRO=(abl,sg,m|abl,sg,n)} {шаг=S,m,inan=(dat,sg|part,sg|loc,sg)} —
-{в=PR=} {толчея=S,f,inan=(abl,sg|dat,sg)}, {в=PR=} {суматоха=S,f,inan=(abl,sg|dat,sg)},
-{в=PR=} {метка=S,f,inan=abl,pl} {шина=S,f,inan=gen,pl} {на=PR=} {снег=S,m,inan=(dat,sg|part,sg|loc,sg)},
+И{и=CONJ=} великой{великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} эпохи{эпоха=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+След{след=S,m,inan=(acc,sg|nom,sg)} на{на=PR=} каждом{каждый=APRO=(abl,sg,m|abl,sg,n)} шагу{шаг=S,m,inan=(dat,sg|part,sg|loc,sg)} —
+В{в=PR=} толчее{толчея=S,f,inan=(abl,sg|dat,sg)}, в{в=PR=} суматохе{суматоха=S,f,inan=(abl,sg|dat,sg)},
+В{в=PR=} метках{метка=S,f,inan=abl,pl} шин{шина=S,f,inan=gen,pl} на{на=PR=} снегу{снег=S,m,inan=(dat,sg|part,sg|loc,sg)},
 
-{в=PR=} {ломка=S,f,inan=(abl,sg|dat,sg)} {взгляд=S,m,inan=gen,pl} — {симптом=S,m,inan=abl,pl}
-{вековой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {перемена=S,f,inan=gen,pl}, —
-{в=PR=} {наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} {добрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {знакомый=S,m,anim=(abl,pl|acc,pl|gen,pl)},
-{в=PR=} {туча=S,f,inan=abl,pl} {мачта=S,f,inan=gen,pl} {и=CONJ=} {антенна=S,f,inan=gen,pl},
+В{в=PR=} ломке{ломка=S,f,inan=(abl,sg|dat,sg)} взглядов{взгляд=S,m,inan=gen,pl} — симптомах{симптом=S,m,inan=abl,pl}
+Вековых{вековой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} перемен{перемена=S,f,inan=gen,pl}, —
+В{в=PR=} наших{наш=APRO=(abl,pl|gen,pl|acc,pl,anim)} добрых{добрый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} знакомых{знакомый=S,m,anim=(abl,pl|acc,pl|gen,pl)},
+В{в=PR=} тучах{туча=S,f,inan=abl,pl} мачт{мачта=S,f,inan=gen,pl} и{и=CONJ=} антенн{антенна=S,f,inan=gen,pl},
 
-{на=PR=} {фасад=S,m,inan=abl,pl}, {в=PR=} {костюм=S,m,inan=abl,pl},
-{в=PR=} {простота=S,f,inan=(abl,sg|dat,sg)} {без=PR=} {прикраса=S,f,inan=gen,pl},
-{в=PR=} {разговор=S,m,inan=abl,pl} {и=CONJ=} {дума=S,f,inan=abl,pl},
-{умилять=V,tran=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} {мы=SPRO,pl,1p=(abl|acc|gen)}.
+На{на=PR=} фасадах{фасад=S,m,inan=abl,pl}, в{в=PR=} костюмах{костюм=S,m,inan=abl,pl},
+В{в=PR=} простоте{простота=S,f,inan=(abl,sg|dat,sg)} без{без=PR=} прикрас{прикраса=S,f,inan=gen,pl},
+В{в=PR=} разговорах{разговор=S,m,inan=abl,pl} и{и=CONJ=} думах{дума=S,f,inan=abl,pl},
+Умиляющих{умилять=V,tran=(inpraes,abl,pl,partcp,plen,ipf,act|inpraes,gen,pl,partcp,plen,ipf,act|inpraes,acc,pl,partcp,plen,ipf,act,anim)} нас{мы=SPRO,pl,1p=(abl|acc|gen)}.
 
-{и=CONJ=} {в=PR=} {значение=S,n,inan=abl,sg} {двоякий=A=(abl,sg,plen,m|abl,sg,plen,n)}
-{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, {бедный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {на=PR=} {взгляд=S,m,inan=(acc,sg|nom,sg)},
-{но=CONJ=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {под=PR=} {знак=S,m,inan=ins,sg}
-{понести=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} {утрата=S,f,inan=gen,pl}.
+И{и=CONJ=} в{в=PR=} значеньи{значение=S,n,inan=abl,sg} двояком{двоякий=A=(abl,sg,plen,m|abl,sg,plen,n)}
+Жизни{жизнь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}, бедной{бедный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} на{на=PR=} взгляд{взгляд=S,m,inan=(acc,sg|nom,sg)},
+Но{но=CONJ=} великой{великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} под{под=PR=} знаком{знак=S,m,inan=ins,sg}
+Понесенных{понести=V,pf,tran=(praet,abl,pl,partcp,plen,pass|praet,acc,pl,partcp,plen,pass,anim|praet,gen,pl,partcp,plen,pass)} утрат{утрата=S,f,inan=gen,pl}.
 
-«{зима=S,f,inan=(acc,pl|gen,sg|nom,pl)}», «{зис=S,m,inan=(acc,pl|nom,pl)}» {и=CONJ=} «{татра=S,f,inan=(acc,pl|gen,sg|nom,pl)}»,
-{сдвигать=V,tran=praet,ger,pf} {полоса=S,f,inan=(acc,pl|gen,sg|nom,pl)} {фара=S,f,inan=gen,pl},
-{подъезжать=V,intr=inpraes,pl,indic,3p,ipf} {к=PR=} {театр=S,m,inan=dat,sg},
-{и=CONJ=} {слепить=V,ipf,tran=inpraes,pl,indic,3p} {тротуар=S,m,inan=(acc,sg|nom,sg)}.
+«Зимы{зима=S,f,inan=(acc,pl|gen,sg|nom,pl)}», «зисы{зис=S,m,inan=(acc,pl|nom,pl)}» и{и=CONJ=} «татры{татра=S,f,inan=(acc,pl|gen,sg|nom,pl)}»,
+Сдвинув{сдвигать=V,tran=praet,ger,pf} полосы{полоса=S,f,inan=(acc,pl|gen,sg|nom,pl)} фар{фара=S,f,inan=gen,pl},
+Подъезжают{подъезжать=V,intr=inpraes,pl,indic,3p,ipf} к{к=PR=} театру{театр=S,m,inan=dat,sg},
+И{и=CONJ=} слепят{слепить=V,ipf,tran=inpraes,pl,indic,3p} тротуар{тротуар=S,m,inan=(acc,sg|nom,sg)}.
 
-{затериваться=V,intr=praet,ger,pf} {в=PR=} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{перекупщик=S,m,anim=nom,pl} {место=S,n,inan=gen,pl}
-{осаждать=V=inpraes,pl,indic,3p,ipf,tran} {без=PR=} {цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{театральный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {подъезд=S,m,inan=(acc,sg|nom,sg)}.
+Затерявшись{затериваться=V,intr=praet,ger,pf} в{в=PR=} метели{метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Перекупщики{перекупщик=S,m,anim=nom,pl} мест{место=S,n,inan=gen,pl}
+Осаждают{осаждать=V=inpraes,pl,indic,3p,ipf,tran} без{без=PR=} цели{цель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Театральный{театральный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} подъезд{подъезд=S,m,inan=(acc,sg|nom,sg)}.
 
-{все=SPRO,pl=(acc|nom)} {идти=V,ipf,intr=inpraes,pl,indic,3p} {вереница=S,f,inan=ins,sg},
-{как=CONJ=} {сквозь=PR=} {строй=S,m,inan=(acc,sg|nom,sg)} {алебарда=S,f,inan=gen,pl},
-{торопиться=V,ipf,intr=inpraes,ger} {протесниться=V,pf,intr=inf}
-{на=PR=} «{мария=S,persn,f,anim=acc,sg} {стюарт=S,famn,m,anim=nom,sg}».
+Все{все=SPRO,pl=(acc|nom)} идут{идти=V,ipf,intr=inpraes,pl,indic,3p} вереницей{вереница=S,f,inan=ins,sg},
+Как{как=CONJ=} сквозь{сквозь=PR=} строй{строй=S,m,inan=(acc,sg|nom,sg)} алебард{алебарда=S,f,inan=gen,pl},
+Торопясь{торопиться=V,ipf,intr=inpraes,ger} протесниться{протесниться=V,pf,intr=inf}
+На{на=PR=} «Марию{мария=S,persn,f,anim=acc,sg} Стюарт{стюарт=S,famn,m,anim=nom,sg}».
 
-{молодежь=S,f,inan=(acc,sg|nom,sg)} {по=PR=} {записка=S,f,inan=(abl,sg|dat,sg)}
-{добывать=V=inpraes,sg,indic,3p,ipf,tran} {билет=S,m,inan=(acc,sg|nom,sg)}
-{и=CONJ=} {великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {артистка=S,f,anim=(abl,sg|dat,sg)}
-{слать=V,ipf,tran=inpraes,sg,indic,3p} {горячий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {привет=S,m,inan=(acc,sg|nom,sg)}.
+Молодежь{молодежь=S,f,inan=(acc,sg|nom,sg)} по{по=PR=} записке{записка=S,f,inan=(abl,sg|dat,sg)}
+Добывает{добывать=V=inpraes,sg,indic,3p,ipf,tran} билет{билет=S,m,inan=(acc,sg|nom,sg)}
+И{и=CONJ=} великой{великий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} артистке{артистка=S,f,anim=(abl,sg|dat,sg)}
+Шлет{слать=V,ipf,tran=inpraes,sg,indic,3p} горячий{горячий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} привет{привет=S,m,inan=(acc,sg|nom,sg)}.
 
-{за=PR=} {дверь=S,f,inan=ins,pl} {еще=ADV=} {драка=S,f,inan=nom,sg},
-{а=CONJ=} {уж=PART=} {средь=PR=} {темнота=S,sg,f,inan=gen}
-{вырастать=V,intr=inpraes,pl,indic,3p,ipf} {из=PR=} {мрак=S,m,inan=gen,sg}
-{декорация=S,f,inan=gen,pl} {холст=S,m,inan=(acc,pl|nom,pl)}.
+За{за=PR=} дверьми{дверь=S,f,inan=ins,pl} еще{еще=ADV=} драка{драка=S,f,inan=nom,sg},
+А{а=CONJ=} уж{уж=PART=} средь{средь=PR=} темноты{темнота=S,sg,f,inan=gen}
+Вырастают{вырастать=V,intr=inpraes,pl,indic,3p,ipf} из{из=PR=} мрака{мрак=S,m,inan=gen,sg}
+Декораций{декорация=S,f,inan=gen,pl} холсты{холст=S,m,inan=(acc,pl|nom,pl)}.
 
-{словно=CONJ=} {выбегать=V,intr=praet,ger,pf} {с=PR=} {танец=S,m,inan=gen,pl}
-{и=CONJ=} {покидать=V,tran=praet,ger,pf} {они=SPRO,pl=(acc|gen)} {круг=S,m,inan=(acc,sg|nom,sg)},
-{королева=S,f,anim=nom,sg} {шотландец=S,m,anim=(acc,pl|gen,pl)}
-{появляться=V,intr=inpraes,sg,indic,3p,ipf} {вдруг=ADV=}.
+Словно{словно=CONJ=} выбежав{выбегать=V,intr=praet,ger,pf} с{с=PR=} танцев{танец=S,m,inan=gen,pl}
+И{и=CONJ=} покинув{покидать=V,tran=praet,ger,pf} их{они=SPRO,pl=(acc|gen)} круг{круг=S,m,inan=(acc,sg|nom,sg)},
+Королева{королева=S,f,anim=nom,sg} шотландцев{шотландец=S,m,anim=(acc,pl|gen,pl)}
+Появляется{появляться=V,intr=inpraes,sg,indic,3p,ipf} вдруг{вдруг=ADV=}.
 
-{все=SPRO,pl=(acc|nom)} {в=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {жизнь=S,f,inan=(acc,sg|nom,sg)}, {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {свобода=S,f,inan=nom,sg},
-{и=CONJ=} {в=PR=} {грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {колотье=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{и=CONJ=} {тюремный=A=(acc,pl,plen,inan|nom,pl,plen)} {свод=S,m,inan=(acc,pl|nom,pl)}
-{не=PART=} {сламывать=V,tran=praet,pl,indic,pf} {она=SPRO,sg,3p,f=(acc|gen)}.
+Все{все=SPRO,pl=(acc|nom)} в{в=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)}, все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} свобода{свобода=S,f,inan=nom,sg},
+И{и=CONJ=} в{в=PR=} груди{грудь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} колотье{колотье=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+И{и=CONJ=} тюремные{тюремный=A=(acc,pl,plen,inan|nom,pl,plen)} своды{свод=S,m,inan=(acc,pl|nom,pl)}
+Не{не=PART=} сломили{сламывать=V,tran=praet,pl,indic,pf} ее{она=SPRO,sg,3p,f=(acc|gen)}.
 
-{стрекоза=S,f,anim=ins,sg} {такой=APRO=ins,sg,f}
-{рожать=V=praet,sg,indic,f,pf,tran} {она=SPRO,sg,3p,f=(acc|gen)} {мать=S,f,anim=(acc,sg|nom,sg)}
-{ранить=V,tran=(inf,ipf|inf,pf)} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {мужской=A,plen=(acc,sg,n|nom,sg,n)},
-{женский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ласка=S,f,inan=ins,sg} {пленять=V,tran=inf,ipf}.
+Стрекозою{стрекоза=S,f,anim=ins,sg} такою{такой=APRO=ins,sg,f}
+Родила{рожать=V=praet,sg,indic,f,pf,tran} ее{она=SPRO,sg,3p,f=(acc|gen)} мать{мать=S,f,anim=(acc,sg|nom,sg)}
+Ранить{ранить=V,tran=(inf,ipf|inf,pf)} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} мужское{мужской=A,plen=(acc,sg,n|nom,sg,n)},
+Женской{женский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} лаской{ласка=S,f,inan=ins,sg} пленять{пленять=V,tran=inf,ipf}.
 
-{и=CONJ=} {за=PR=} {это=SPRO,sg,n,inan=(acc|nom)}, {быть=V,intr=inf,ipf} {мочь=V,ipf,intr=inpraes,sg,indic,3p},
-{как=CONJ=} {огонь=S,m,inan=(acc,sg|nom,sg)} {горячий=A=sg,brev,f},
-{дочка=S,f,anim=nom,sg} {голова=S,f,inan=acc,sg} {слагать=V,tran=inpraes,sg,indic,3p,pf}
-{под=PR=} {рука=S,f,inan=ins,sg} {палач=S,m,anim=(acc,sg|gen,sg)}.
+И{и=CONJ=} за{за=PR=} это{это=SPRO,sg,n,inan=(acc|nom)}, быть{быть=V,intr=inf,ipf} может{мочь=V,ipf,intr=inpraes,sg,indic,3p},
+Как{как=CONJ=} огонь{огонь=S,m,inan=(acc,sg|nom,sg)} горяча{горячий=A=sg,brev,f},
+Дочка{дочка=S,f,anim=nom,sg} голову{голова=S,f,inan=acc,sg} сложит{слагать=V,tran=inpraes,sg,indic,3p,pf}
+Под{под=PR=} рукой{рука=S,f,inan=ins,sg} палача{палач=S,m,anim=(acc,sg|gen,sg)}.
 
-{в=PR=} {юбка=S,f,inan=(abl,sg|dat,sg)} {пепельный=A=sg,brev,n}-{сизый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
-{садиться=V,intr=praet,sg,indic,f,pf} {с=PR=} {край=S,m,inan=(dat,sg|loc,sg)} {за=PR=} {стол=S,m,inan=(acc,sg|nom,sg)}.
-{рампа=S,f,inan=nom,sg} {яркий=A=nom,sg,plen,f} {снизу=ADV=}
-{лить=V,ipf,tran=inpraes,sg,indic,3p} {она=SPRO,sg,3p,f=(dat|ins)} {свет=S,sg,m,inan=(acc|nom)} {на=PR=} {подол=S,m,inan=(acc,sg|nom,sg)}.
+В{в=PR=} юбке{юбка=S,f,inan=(abl,sg|dat,sg)} пепельно{пепельный=A=sg,brev,n}-сизой{сизый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}
+Села{садиться=V,intr=praet,sg,indic,f,pf} с{с=PR=} краю{край=S,m,inan=(dat,sg|loc,sg)} за{за=PR=} стол{стол=S,m,inan=(acc,sg|nom,sg)}.
+Рампа{рампа=S,f,inan=nom,sg} яркая{яркий=A=nom,sg,plen,f} снизу{снизу=ADV=}
+Льет{лить=V,ipf,tran=inpraes,sg,indic,3p} ей{она=SPRO,sg,3p,f=(dat|ins)} свет{свет=S,sg,m,inan=(acc|nom)} на{на=PR=} подол{подол=S,m,inan=(acc,sg|nom,sg)}.
 
-{нипочем=ADVPRO=} {вертихвостка=S,f,anim=(abl,sg|dat,sg)}
-{похождение=S,n,inan=gen,pl} {угар=S,m,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {стих=S,m,inan=(acc,pl|nom,pl)}, {и=CONJ=} {подмостки=S,pl,inan=(acc|nom)},
-{и=CONJ=} {париж=S,geo,m,inan=(acc,sg|nom,sg)}, {и=CONJ=} {ронсар?=S,persn,m,anim=nom,sg}.
+Нипочем{нипочем=ADVPRO=} вертихвостке{вертихвостка=S,f,anim=(abl,sg|dat,sg)}
+Похождений{похождение=S,n,inan=gen,pl} угар{угар=S,m,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} стихи{стих=S,m,inan=(acc,pl|nom,pl)}, и{и=CONJ=} подмостки{подмостки=S,pl,inan=(acc|nom)},
+И{и=CONJ=} Париж{париж=S,geo,m,inan=(acc,sg|nom,sg)}, и{и=CONJ=} Ронсар{ронсар?=S,persn,m,anim=nom,sg}.
 
-{к=PR=} {смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {приговаривать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)},
-{что=SPRO,sg,n,inan=(acc|nom)} {она=SPRO,sg,3p,f=(dat|ins)} {пища=S,f,inan=nom,sg} {и=CONJ=} {кров=S,m,inan=(acc,sg|nom,sg)},
-{ров=S,m,inan=(acc,pl|nom,pl)}, {форт=S,m,inan=(acc,pl|nom,pl)}, {бастион=S,m,inan=(acc,pl|nom,pl)},
-{пламень=S,inan=(acc,sg,n|nom,sg,n)} {рефлектор=S,m,inan=gen,pl}?
+К{к=PR=} смерти{смерть=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} приговоренной{приговаривать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)},
+Что{что=SPRO,sg,n,inan=(acc|nom)} ей{она=SPRO,sg,3p,f=(dat|ins)} пища{пища=S,f,inan=nom,sg} и{и=CONJ=} кров{кров=S,m,inan=(acc,sg|nom,sg)},
+Рвы{ров=S,m,inan=(acc,pl|nom,pl)}, форты{форт=S,m,inan=(acc,pl|nom,pl)}, бастионы{бастион=S,m,inan=(acc,pl|nom,pl)},
+Пламя{пламень=S,inan=(acc,sg,n|nom,sg,n)} рефлекторов{рефлектор=S,m,inan=gen,pl}?
 
-{но=CONJ=} {конец=S,m,inan=(acc,sg|nom,sg)} {героиня=S,f,anim=(gen,sg|nom,pl)}
-{до=PR=} {скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)} {время=S,n,inan=gen,pl}
-{быть=V,intr=inpraes,sg,indic,3p} {слава=S,f,inan=ins,sg} {отныне=ADV=}
-{и=CONJ=} {молва=S,sg,f,inan=ins} {окружать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
+Но{но=CONJ=} конец{конец=S,m,inan=(acc,sg|nom,sg)} героини{героиня=S,f,anim=(gen,sg|nom,pl)}
+До{до=PR=} скончанья{скончание=S,n,inan=(acc,pl|gen,sg|nom,pl)} времен{время=S,n,inan=gen,pl}
+Будет{быть=V,intr=inpraes,sg,indic,3p} славой{слава=S,f,inan=ins,sg} отныне{отныне=ADV=}
+И{и=CONJ=} молвой{молва=S,sg,f,inan=ins} окружен{окружать=V,tran=praet,sg,partcp,brev,m,pf,pass}.
 
-{тот=APRO=(acc,sg,n|nom,sg,n)} {же=PART=} {бешенство=S,n,inan=(acc,sg|nom,sg)} {риск=S,m,inan=gen,sg},
-{тот=APRO=nom,sg,f} {же=PART=} {радость=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {боль=S,f,inan=(acc,sg|nom,sg)}
-{сливать=V=praet,pl,indic,pf} {роль=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {артистка=S,f,anim=acc,sg},
-{и=CONJ=} {артистка=S,f,anim=acc,sg} {и=CONJ=} {роль=S,f,inan=(acc,sg|nom,sg)}.
+То{тот=APRO=(acc,sg,n|nom,sg,n)} же{же=PART=} бешенство{бешенство=S,n,inan=(acc,sg|nom,sg)} риска{риск=S,m,inan=gen,sg},
+Та{тот=APRO=nom,sg,f} же{же=PART=} радость{радость=S,f,inan=(acc,sg|nom,sg)} и{и=CONJ=} боль{боль=S,f,inan=(acc,sg|nom,sg)}
+Слили{сливать=V=praet,pl,indic,pf} роль{роль=S,f,inan=(acc,sg|nom,sg)} и{и=CONJ=} артистку{артистка=S,f,anim=acc,sg},
+И{и=CONJ=} артистку{артистка=S,f,anim=acc,sg} и{и=CONJ=} роль{роль=S,f,inan=(acc,sg|nom,sg)}.
 
-{словно=CONJ=} {буйство=S,n,inan=(acc,sg|nom,sg)} {премьерша=S,f,anim=(gen,sg|nom,pl)}
-{через=PR=} {столько=NUM=(acc|nom)} {век=S,m,inan=gen,pl}
-{помогать=V,intr=inpraes,sg,indic,3p,ipf} {умирать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)}
-{убегать=V,intr=inf,pf} {из=PR=} {оковы=S,pl,inan=gen}.
+Словно{словно=CONJ=} буйство{буйство=S,n,inan=(acc,sg|nom,sg)} премьерши{премьерша=S,f,anim=(gen,sg|nom,pl)}
+Через{через=PR=} столько{столько=NUM=(acc|nom)} веков{век=S,m,inan=gen,pl}
+Помогает{помогать=V,intr=inpraes,sg,indic,3p,ipf} умершей{умирать=V,intr=(praet,abl,sg,partcp,plen,f,pf,act|praet,dat,sg,partcp,plen,f,pf,act|praet,gen,sg,partcp,plen,f,pf,act|praet,ins,sg,partcp,plen,f,pf,act)}
+Убежать{убегать=V,intr=inf,pf} из{из=PR=} оков{оковы=S,pl,inan=gen}.
 
-{сколько=CONJ=} {надо=ADV,praed=} {отвага=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{чтоб=CONJ=} {играть=V,ipf,tran=inf} {на=PR=} {век=S,m,inan=(acc,pl|gen,sg|nom,pl)},
-{как=ADVPRO=} {играть=V,ipf,tran=inpraes,pl,indic,3p} {овраг=S,m,inan=(acc,pl|nom,pl)},
-{как=ADVPRO=} {играть=V,ipf,tran=inpraes,sg,indic,3p} {река=S,f,inan=nom,sg}.
+Сколько{сколько=CONJ=} надо{надо=ADV,praed=} отваги{отвага=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Чтоб{чтоб=CONJ=} играть{играть=V,ipf,tran=inf} на{на=PR=} века{век=S,m,inan=(acc,pl|gen,sg|nom,pl)},
+Как{как=ADVPRO=} играют{играть=V,ipf,tran=inpraes,pl,indic,3p} овраги{овраг=S,m,inan=(acc,pl|nom,pl)},
+Как{как=ADVPRO=} играет{играть=V,ipf,tran=inpraes,sg,indic,3p} река{река=S,f,inan=nom,sg}.
 
-{как=ADVPRO=} {играть=V,ipf,tran=inpraes,pl,indic,3p} {алмаз=S,m,inan=(acc,pl|nom,pl)},
-{как=ADVPRO=} {играть=V,ipf,tran=inpraes,sg,indic,3p} {вино=S,n,inan=(acc,sg|nom,sg)},
-{как=ADVPRO=} {играть=V,ipf,tran=inf} {без=PR=} {отказ=S,m,inan=gen,sg}
-{иногда=ADV=} {суждено=ADV,praed=}.
+Как{как=ADVPRO=} играют{играть=V,ipf,tran=inpraes,pl,indic,3p} алмазы{алмаз=S,m,inan=(acc,pl|nom,pl)},
+Как{как=ADVPRO=} играет{играть=V,ipf,tran=inpraes,sg,indic,3p} вино{вино=S,n,inan=(acc,sg|nom,sg)},
+Как{как=ADVPRO=} играть{играть=V,ipf,tran=inf} без{без=PR=} отказа{отказ=S,m,inan=gen,sg}
+Иногда{иногда=ADV=} суждено{суждено=ADV,praed=}.
 
-{как=ADVPRO=} {играться=V,ipf,intr=praet,sg,indic,n} {подросток=S,m,anim=dat,sg}
-{на=PR=} {народ=S,m,inan=abl,sg} {простой=A=(abl,sg,plen,m|abl,sg,plen,n)}
-{в=PR=} {белый=A=(abl,sg,plen,m|abl,sg,plen,n)} {платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} {в=PR=} {полоска=S,f,inan=acc,sg}
-{и=CONJ=} {с=PR=} {косой=A=ins,sg,plen,f} {жгут=S,m,inan=ins,sg}.
+Как{как=ADVPRO=} игралось{играться=V,ipf,intr=praet,sg,indic,n} подростку{подросток=S,m,anim=dat,sg}
+На{на=PR=} народе{народ=S,m,inan=abl,sg} простом{простой=A=(abl,sg,plen,m|abl,sg,plen,n)}
+В{в=PR=} белом{белый=A=(abl,sg,plen,m|abl,sg,plen,n)} платье{платье=S,n,inan=(abl,sg|acc,sg|nom,sg)} в{в=PR=} полоску{полоска=S,f,inan=acc,sg}
+И{и=CONJ=} с{с=PR=} косою{косой=A=ins,sg,plen,f} жгутом{жгут=S,m,inan=ins,sg}.
 
-{и=CONJ=} {опять=ADV=} {мы=SPRO,pl,1p=nom} {в=PR=} {метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{а=CONJ=} {она=SPRO,sg,3p,f=nom} {все=SPRO,pl=(acc|nom)} {мести=V,ipf,tran=inpraes,sg,indic,3p},
-{и=CONJ=} {в=PR=} {церковный=A=(abl,sg,plen,m|abl,sg,plen,n)} {придел=S,m,inan=abl,sg}
-{свет=S,sg,m,inan=(acc|nom)}, {и=CONJ=} {служба=S,f,inan=nom,sg} {идти=V,ipf,intr=inpraes,sg,indic,3p}.
+И{и=CONJ=} опять{опять=ADV=} мы{мы=SPRO,pl,1p=nom} в{в=PR=} метели{метель=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+А{а=CONJ=} она{она=SPRO,sg,3p,f=nom} все{все=SPRO,pl=(acc|nom)} метет{мести=V,ipf,tran=inpraes,sg,indic,3p},
+И{и=CONJ=} в{в=PR=} церковном{церковный=A=(abl,sg,plen,m|abl,sg,plen,n)} приделе{придел=S,m,inan=abl,sg}
+Свет{свет=S,sg,m,inan=(acc|nom)}, и{и=CONJ=} служба{служба=S,f,inan=nom,sg} идет{идти=V,ipf,intr=inpraes,sg,indic,3p}.
 
-{где-то=ADVPRO=} {зимний=A=(acc,sg,plen,n|nom,sg,plen,n)} {небо=S,n,inan=(acc,sg|nom,sg)},
-{проходной=A=(acc,pl,plen,inan|nom,pl,plen)} {двор=S,m,inan=(acc,pl|nom,pl)},
-{и=CONJ=} {окно=S,n,inan=(acc,sg|nom,sg)} {ширпотреб=S,m,inan=gen,sg}
-{под=PR=} {гора=S,f,inan=ins,sg} {мишура=S,sg,f,inan=gen}.
+Где-то{где-то=ADVPRO=} зимнее{зимний=A=(acc,sg,plen,n|nom,sg,plen,n)} небо{небо=S,n,inan=(acc,sg|nom,sg)},
+Проходные{проходной=A=(acc,pl,plen,inan|nom,pl,plen)} дворы{двор=S,m,inan=(acc,pl|nom,pl)},
+И{и=CONJ=} окно{окно=S,n,inan=(acc,sg|nom,sg)} ширпотреба{ширпотреб=S,m,inan=gen,sg}
+Под{под=PR=} горой{гора=S,f,inan=ins,sg} мишуры{мишура=S,sg,f,inan=gen}.
 
-{где-то=ADVPRO=} {пир=S,m,inan=(acc,sg|nom,sg)}, {где-то=ADVPRO=} {пьянка=S,f,inan=nom,sg},
-{именинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {кутеж=S,m,inan=(acc,sg|nom,sg)}.
-{мех=S,m,inan=ins,sg} {вверх=ADV=}, {наизнанку=ADV=}
-{сваливать=V=praet,sg,partcp,brev,m,pf,pass,tran} {ворох=S,m,inan=(acc,sg|nom,sg)} {одежа=S,f,inan=gen,pl}.
+Где-то{где-то=ADVPRO=} пир{пир=S,m,inan=(acc,sg|nom,sg)}, где-то{где-то=ADVPRO=} пьянка{пьянка=S,f,inan=nom,sg},
+Именинный{именинный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} кутеж{кутеж=S,m,inan=(acc,sg|nom,sg)}.
+Мехом{мех=S,m,inan=ins,sg} вверх{вверх=ADV=}, наизнанку{наизнанку=ADV=}
+Свален{сваливать=V=praet,sg,partcp,brev,m,pf,pass,tran} ворох{ворох=S,m,inan=(acc,sg|nom,sg)} одёж{одежа=S,f,inan=gen,pl}.
 
-{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} {с=PR=} {лестница=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {сени=S,pl,inan=(acc|nom)},
-{смех=S,m,inan=(acc,sg|nom,sg)} {и=CONJ=} {мнение=S,n,inan=gen,pl} {обмен=S,m,inan=(acc,sg|nom,sg)}.
-{три=NUM=(nom|acc,inan)} {корзина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
-{ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {цикламен=S,m,inan=(acc,sg|nom,sg)}.
+Двери{дверь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)} с{с=PR=} лестницы{лестница=S,f,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} сени{сени=S,pl,inan=(acc|nom)},
+Смех{смех=S,m,inan=(acc,sg|nom,sg)} и{и=CONJ=} мнений{мнение=S,n,inan=gen,pl} обмен{обмен=S,m,inan=(acc,sg|nom,sg)}.
+Три{три=NUM=(nom|acc,inan)} корзины{корзина=S,f,inan=(acc,pl|gen,sg|nom,pl)} сирени{сирень=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}.
+Ледяной{ледяной=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} цикламен{цикламен=S,m,inan=(acc,sg|nom,sg)}.
 
-{по=PR=} {соседство=S,n,inan=dat,sg} {в=PR=} {столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
-{зелень=S,f,inan=(acc,sg|nom,sg)}, {гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} {икра=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{в=PR=} {сервировка=S,f,inan=(abl,sg|dat,sg)} {лилова=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}
-{семга=S,f,anim=nom,sg}, {сельдь=S,f=(acc,pl,inan|gen,sg,anim|gen,sg,inan|abl,sg,anim|abl,sg,inan|dat,sg,anim|dat,sg,inan|nom,pl,anim|nom,pl,inan)}, {сыр=S,m,inan=(acc,pl|nom,pl)}.
+По{по=PR=} соседству{соседство=S,n,inan=dat,sg} в{в=PR=} столовой{столовая=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+Зелень{зелень=S,f,inan=(acc,sg|nom,sg)}, горы{гора=S,f,inan=(acc,pl|gen,sg|nom,pl)} икры{икра=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+В{в=PR=} сервировке{сервировка=S,f,inan=(abl,sg|dat,sg)} лиловой{лилова=S,famn,f,anim=(abl,sg|dat,sg|gen,sg|ins,sg)}
+Семга{семга=S,f,anim=nom,sg}, сельди{сельдь=S,f=(acc,pl,inan|gen,sg,anim|gen,sg,inan|abl,sg,anim|abl,sg,inan|dat,sg,anim|dat,sg,inan|nom,pl,anim|nom,pl,inan)}, сыры{сыр=S,m,inan=(acc,pl|nom,pl)}.
 
-{и=CONJ=} {хрустение?=S,n,inan=(abl,sg|acc,sg|nom,sg)} {салфетка=S,f,inan=gen,pl},
-{и=CONJ=} {приправа=S,f,inan=gen,pl} {острота=S,f,inan=nom,sg},
-{и=CONJ=} {вино=S,n,inan=(acc,sg|nom,sg)} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {расцветка=S,f,inan=gen,pl},
-{и=CONJ=} {весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} {водка=S,f,inan=gen,pl} {сорт=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
+И{и=CONJ=} хрустенье{хрустение?=S,n,inan=(abl,sg|acc,sg|nom,sg)} салфеток{салфетка=S,f,inan=gen,pl},
+И{и=CONJ=} приправ{приправа=S,f,inan=gen,pl} острота{острота=S,f,inan=nom,sg},
+И{и=CONJ=} вино{вино=S,n,inan=(acc,sg|nom,sg)} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} расцветок{расцветка=S,f,inan=gen,pl},
+И{и=CONJ=} всех{весь=APRO=(abl,pl|gen,pl|acc,pl,anim)} водок{водка=S,f,inan=gen,pl} сорта{сорт=S,m,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{и=CONJ=} {под=PR=} {говор=S,m,inan=(acc,sg|nom,sg)} {стоустый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{люстра=S,f,inan=nom,sg} {топить=V,ipf,tran=inpraes,sg,indic,3p} {в=PR=} {луч=S,m,inan=abl,pl}
-{плечо=S,n,inan=(acc,pl|nom,pl)}, {спина=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {бюст=S,m,inan=(acc,pl|nom,pl)}
-{и=CONJ=} {сережка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {в=PR=} {ухо=S,n,inan=abl,pl}.
+И{и=CONJ=} под{под=PR=} говор{говор=S,m,inan=(acc,sg|nom,sg)} стоустый{стоустый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Люстра{люстра=S,f,inan=nom,sg} топит{топить=V,ipf,tran=inpraes,sg,indic,3p} в{в=PR=} лучах{луч=S,m,inan=abl,pl}
+Плечи{плечо=S,n,inan=(acc,pl|nom,pl)}, спины{спина=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} бюсты{бюст=S,m,inan=(acc,pl|nom,pl)}
+И{и=CONJ=} сережки{сережка=S,f,inan=(acc,pl|gen,sg|nom,pl)} в{в=PR=} ушах{ухо=S,n,inan=abl,pl}.
 
-{и=CONJ=} {смертельный=A=comp} {картечь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{этот=APRO=(nom,pl|acc,pl,inan)} {линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {рот=S,m,inan=gen,sg},
-{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {рука=S,f,inan=gen,pl} {бессердечие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
-{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} {губа=S,f,inan=gen,pl} {доброта=S,f,inan=nom,sg}.
+И{и=CONJ=} смертельней{смертельный=A=comp} картечи{картечь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Эти{этот=APRO=(nom,pl|acc,pl,inan)} линии{линия=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} рта{рот=S,m,inan=gen,sg},
+Этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} рук{рука=S,f,inan=gen,pl} бессердечье{бессердечие=S,n,inan=(abl,sg|acc,sg|nom,sg)},
+Этих{этот=APRO=(abl,pl|gen,pl|acc,pl,anim)} губ{губа=S,f,inan=gen,pl} доброта{доброта=S,f,inan=nom,sg}.
 
-{и=CONJ=} {на=PR=} {этот=APRO=(nom,pl|acc,pl,inan)}-{то=PART=} {дива=S,f,anim=nom,sg}
-{глядеть=V,ipf,tran=inpraes,ger}, {как=CONJ=} {маниак=S,m,anim=nom,sg},
-{кто-то=SPRO,sg,m,anim=nom} {пить=V,ipf,tran=inpraes,sg,indic,3p} {молчаливо=ADV=}
-{до=PR=} {рассвет=S,m,inan=gen,sg} {коньяк=S,m,inan=(acc,sg|nom,sg)}.
+И{и=CONJ=} на{на=PR=} эти{этот=APRO=(nom,pl|acc,pl,inan)}-то{то=PART=} дива{дива=S,f,anim=nom,sg}
+Глядя{глядеть=V,ipf,tran=inpraes,ger}, как{как=CONJ=} маниак{маниак=S,m,anim=nom,sg},
+Кто-то{кто-то=SPRO,sg,m,anim=nom} пьет{пить=V,ipf,tran=inpraes,sg,indic,3p} молчаливо{молчаливо=ADV=}
+До{до=PR=} рассвета{рассвет=S,m,inan=gen,sg} коньяк{коньяк=S,m,inan=(acc,sg|nom,sg)}.
 
-{уж=PART=} {над=PR=} {он=SPRO,sg,3p,m=ins} {межеумок=S,m,inan=(acc,pl|nom,pl)}
-{проливать=V,tran=inpraes,pl,indic,3p,ipf} {слеза=S,f,inan=acc,sg}.
-{на=PR=} {шестнадцатый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {рюмка=S,f,inan=(abl,sg|dat,sg)}
-{ни=PART=} {в=PR=} {один=APRO=(abl,sg,m|abl,sg,n)} {он=SPRO,sg,3p,m=nom} {глаз=S,m,inan=(dat,sg|loc,sg)}.
+Уж{уж=PART=} над{над=PR=} ним{он=SPRO,sg,3p,m=ins} межеумки{межеумок=S,m,inan=(acc,pl|nom,pl)}
+Проливают{проливать=V,tran=inpraes,pl,indic,3p,ipf} слезу{слеза=S,f,inan=acc,sg}.
+На{на=PR=} шестнадцатой{шестнадцатый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} рюмке{рюмка=S,f,inan=(abl,sg|dat,sg)}
+Ни{ни=PART=} в{в=PR=} одном{один=APRO=(abl,sg,m|abl,sg,n)} он{он=SPRO,sg,3p,m=nom} глазу{глаз=S,m,inan=(dat,sg|loc,sg)}.
 
-{за=PR=} {себя=SPRO=ins} {упрочивать=V,tran=praet,ger,pf}
-{право=S,n,inan=(acc,sg|nom,sg)} {зваться=V,ipf,intr=inf} {немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{он=SPRO,sg,3p,m=nom} {средь=PR=} {женщина=S,f,anim=(acc,pl|gen,pl)} {находчивый=A=sg,brev,m},
-{средь=PR=} {мужчина=S,m,anim=(acc,pl|gen,pl)} — {нелюдимый=A=sg,brev,m}.
+За{за=PR=} собою{себя=SPRO=ins} упрочив{упрочивать=V,tran=praet,ger,pf}
+Право{право=S,n,inan=(acc,sg|nom,sg)} зваться{зваться=V,ipf,intr=inf} немым{немой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+Он{он=SPRO,sg,3p,m=nom} средь{средь=PR=} женщин{женщина=S,f,anim=(acc,pl|gen,pl)} находчив{находчивый=A=sg,brev,m},
+Средь{средь=PR=} мужчин{мужчина=S,m,anim=(acc,pl|gen,pl)} — нелюдим{нелюдимый=A=sg,brev,m}.
 
-{в=PR=} {третий=ANUM=(acc,sg,m,inan|nom,sg,m)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {разведенец=S,m,anim=nom,sg},
-{и=CONJ=} {доживать=V,tran=praet,ger,pf} {до=PR=} {седина=S,f,inan=gen,pl},
-{жизнь=S,f,inan=(acc,sg|nom,sg)} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {современница=S,f,anim=(acc,pl|gen,pl)}
-{оправдывать=V,tran=praet,sg,indic,m,pf} {он=SPRO,sg,3p,m=nom} {один=APRO=(acc,sg,m,inan|nom,sg,m)}.
+В{в=PR=} третий{третий=ANUM=(acc,sg,m,inan|nom,sg,m)} раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} разведенец{разведенец=S,m,anim=nom,sg},
+И{и=CONJ=} дожив{доживать=V,tran=praet,ger,pf} до{до=PR=} седин{седина=S,f,inan=gen,pl},
+Жизнь{жизнь=S,f,inan=(acc,sg|nom,sg)} своих{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} современниц{современница=S,f,anim=(acc,pl|gen,pl)}
+Оправдал{оправдывать=V,tran=praet,sg,indic,m,pf} он{он=SPRO,sg,3p,m=nom} один{один=APRO=(acc,sg,m,inan|nom,sg,m)}.
 
-{дар=S,m,inan=(acc,sg|nom,sg)} {подруга=S,f,anim=(acc,pl|gen,pl)} {и=CONJ=} {товарка=S,f,anim=(acc,pl|gen,pl)}
-{он=SPRO,sg,3p,m=nom} {пускать=V=praet,sg,indic,m,pf} {в=PR=} {оборот=S,m,inan=(acc,sg|nom,sg)}
-{и=CONJ=} {вернуть=V,pf,tran=praet,sg,indic,m} {он=SPRO,sg,3p,m=ins} {в=PR=} {подарок=S,m,inan=(acc,sg|nom,sg)}
-{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {мир=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {свой=APRO=(acc,sg,m,inan|nom,sg,m)} {черед=S,m,inan=(acc,sg|nom,sg)}.
+Дар{дар=S,m,inan=(acc,sg|nom,sg)} подруг{подруга=S,f,anim=(acc,pl|gen,pl)} и{и=CONJ=} товарок{товарка=S,f,anim=(acc,pl|gen,pl)}
+Он{он=SPRO,sg,3p,m=nom} пустил{пускать=V=praet,sg,indic,m,pf} в{в=PR=} оборот{оборот=S,m,inan=(acc,sg|nom,sg)}
+И{и=CONJ=} вернул{вернуть=V,pf,tran=praet,sg,indic,m} им{он=SPRO,sg,3p,m=ins} в{в=PR=} подарок{подарок=S,m,inan=(acc,sg|nom,sg)}
+Целый{целый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} мир{мир=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} свой{свой=APRO=(acc,sg,m,inan|nom,sg,m)} черед{черед=S,m,inan=(acc,sg|nom,sg)}.
 
-{но=CONJ=} {для=PR=} {первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {же=PART=} {юбка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{он=SPRO,sg,3p,m=nom} {порывать=V,tran=inpraes,sg,indic,3p,pf} {повод=S,m,inan=gen,sg},
-{и=CONJ=} {какой=APRO=(nom,pl|acc,pl,inan)} {поступок=S,m,inan=(acc,pl|nom,pl)}
-{совершать=V,tran=inpraes,sg,indic,3p,pf} {он=SPRO,sg,3p,m=nom} {тогда=ADVPRO=}!
+Но{но=CONJ=} для{для=PR=} первой{первый=ANUM=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} же{же=PART=} юбки{юбка=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Он{он=SPRO,sg,3p,m=nom} порвет{порывать=V,tran=inpraes,sg,indic,3p,pf} повода{повод=S,m,inan=gen,sg},
+И{и=CONJ=} какие{какой=APRO=(nom,pl|acc,pl,inan)} поступки{поступок=S,m,inan=(acc,pl|nom,pl)}
+Совершит{совершать=V,tran=inpraes,sg,indic,3p,pf} он{он=SPRO,sg,3p,m=nom} тогда{тогда=ADVPRO=}!
 
-{средь=PR=} {гость=S,m,anim=(acc,pl|gen,pl)} {танцовщица=S,f,anim=nom,sg}
-{помирать=V,intr=inpraes,sg,indic,3p,ipf} {с=PR=} {тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{он=SPRO,sg,3p,m=nom} {с=PR=} {она=SPRO,sg,3p,f=(abl|dat|gen|ins)} {рядом=ADV=} {садиться=V,intr=inpraes,sg,indic,3p,ipf},
-{это=SPRO,sg,n,inan=(acc|nom)} {ведь=PART=} {двойник=S,m,anim=nom,pl}.
+Средь{средь=PR=} гостей{гость=S,m,anim=(acc,pl|gen,pl)} танцовщица{танцовщица=S,f,anim=nom,sg}
+Помирает{помирать=V,intr=inpraes,sg,indic,3p,ipf} с{с=PR=} тоски{тоска=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Он{он=SPRO,sg,3p,m=nom} с{с=PR=} ней{она=SPRO,sg,3p,f=(abl|dat|gen|ins)} рядом{рядом=ADV=} садится{садиться=V,intr=inpraes,sg,indic,3p,ipf},
+Это{это=SPRO,sg,n,inan=(acc|nom)} ведь{ведь=PART=} двойники{двойник=S,m,anim=nom,pl}.
 
-{этот=APRO=nom,sg,f} {тоже=PART=} {открывать=V=praet,sg,partcp,brev,n,pf,pass}
-{может=ADV,parenth=} {ложиться=V,intr=inf,pf} {на=PR=} {ура=INTJ=}
-{королева=S,f,anim=ins,sg} {без=PR=} {свита=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{под=PR=} {удар=S,m,inan=(acc,sg|nom,sg)} {топор=S,m,inan=gen,sg}.
+Эта{этот=APRO=nom,sg,f} тоже{тоже=PART=} открыто{открывать=V=praet,sg,partcp,brev,n,pf,pass}
+Может{может=ADV,parenth=} лечь{ложиться=V,intr=inf,pf} на{на=PR=} ура{ура=INTJ=}
+Королевой{королева=S,f,anim=ins,sg} без{без=PR=} свиты{свита=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Под{под=PR=} удар{удар=S,m,inan=(acc,sg|nom,sg)} топора{топор=S,m,inan=gen,sg}.
 
-{и=CONJ=} {свой=APRO=acc,sg,f} {королева=S,f,anim=acc,sg}
-{он=SPRO,sg,3p,m=nom} {на=PR=} {лестничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {ход=S,m,inan=(acc,sg|nom,sg)}
-{от=PR=} {печь=S,f,inan=gen,pl} {перегрев=S,m,inan=gen,sg}
-{освежаться=V,intr=inf,pf} {вести=V,ipf,tran=inpraes,sg,indic,3p}.
+И{и=CONJ=} свою{свой=APRO=acc,sg,f} королеву{королева=S,f,anim=acc,sg}
+Он{он=SPRO,sg,3p,m=nom} на{на=PR=} лестничный{лестничный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} ход{ход=S,m,inan=(acc,sg|nom,sg)}
+От{от=PR=} печей{печь=S,f,inan=gen,pl} перегрева{перегрев=S,m,inan=gen,sg}
+Освежиться{освежаться=V,intr=inf,pf} ведет{вести=V,ipf,tran=inpraes,sg,indic,3p}.
 
-{хорошо=PART=} {хризантема=S,f,inan=(abl,sg|dat,sg)}
-{стыть=V,ipf=inf} {на=PR=} {стужа=S,f,inan=(abl,sg|dat,sg)} {в=PR=} {цвет=S,m,inan=dat,sg}.
-{но=CONJ=} {назад=ADV=} {уже=ADV=} {время=S,n,inan=(acc,sg|nom,sg)} —
-{в=PR=} {духота=S,sg,f,inan=acc}, {в=PR=} {теснота=S,sg,f,inan=acc}.
+Хорошо{хорошо=PART=} хризантеме{хризантема=S,f,inan=(abl,sg|dat,sg)}
+Стыть{стыть=V,ipf=inf} на{на=PR=} стуже{стужа=S,f,inan=(abl,sg|dat,sg)} в{в=PR=} цвету{цвет=S,m,inan=dat,sg}.
+Но{но=CONJ=} назад{назад=ADV=} уже{уже=ADV=} время{время=S,n,inan=(acc,sg|nom,sg)} —
+В{в=PR=} духоту{духота=S,sg,f,inan=acc}, в{в=PR=} тесноту{теснота=S,sg,f,inan=acc}.
 
-{с=PR=} {табак=S,m,inan=ins,sg} {в=PR=} {чайный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} {чашка=S,f,inan=abl,pl}
-{весь=APRO=(acc,sg,m,inan|nom,sg,m)} {в=PR=} {окурок=S,m,inan=abl,pl} {буфет=S,m,inan=(acc,sg|nom,sg)}.
-{стол=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {конфетный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {бумажка=S,f,inan=abl,pl}.
-{наступать=V,intr=inpraes,sg,indic,3p,ipf} {рассвет=S,m,inan=(acc,sg|nom,sg)}.
+С{с=PR=} табаком{табак=S,m,inan=ins,sg} в{в=PR=} чайных{чайный=A,plen=(abl,pl|gen,pl|acc,pl,anim)} чашках{чашка=S,f,inan=abl,pl}
+Весь{весь=APRO=(acc,sg,m,inan|nom,sg,m)} в{в=PR=} окурках{окурок=S,m,inan=abl,pl} буфет{буфет=S,m,inan=(acc,sg|nom,sg)}.
+Стол{стол=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} конфетных{конфетный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} бумажках{бумажка=S,f,inan=abl,pl}.
+Наступает{наступать=V,intr=inpraes,sg,indic,3p,ipf} рассвет{рассвет=S,m,inan=(acc,sg|nom,sg)}.
 
-{и=CONJ=} {свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} {балерина=S,f,anim=(abl,sg|dat,sg)},
-{перетягивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} {так=ADVPRO=},
-{точно=CONJ=} {стан=S,m,inan=(acc,sg|nom,sg)} {на=PR=} {пружина=S,f,inan=(abl,sg|dat,sg)},
-{он=SPRO,sg,3p,m=nom} {шнуровать=V,ipf,tran=inpraes,sg,indic,3p} {башмак=S,m,inan=(acc,sg|nom,sg)}.
+И{и=CONJ=} своей{свой=APRO=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)} балерине{балерина=S,f,anim=(abl,sg|dat,sg)},
+Перетянутой{перетягивать=V,tran=(praet,abl,sg,partcp,plen,f,pf,pass|praet,dat,sg,partcp,plen,f,pf,pass|praet,gen,sg,partcp,plen,f,pf,pass|praet,ins,sg,partcp,plen,f,pf,pass)} так{так=ADVPRO=},
+Точно{точно=CONJ=} стан{стан=S,m,inan=(acc,sg|nom,sg)} на{на=PR=} пружине{пружина=S,f,inan=(abl,sg|dat,sg)},
+Он{он=SPRO,sg,3p,m=nom} шнурует{шнуровать=V,ipf,tran=inpraes,sg,indic,3p} башмак{башмак=S,m,inan=(acc,sg|nom,sg)}.
 
-{между=PR=} {они=SPRO,pl=ins} {особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
-{распорядок=S,m,inan=(acc,sg|nom,sg)} {с=PR=} {утро=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{и=CONJ=} {теперь=ADV=} {они=SPRO,pl=nom} {оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)}
-{точно=PART=} {брат=S,m,anim=nom,sg} {и=CONJ=} {сестра=S,f,anim=nom,sg}.
+Между{между=PR=} ними{они=SPRO,pl=ins} особый{особый=A=(acc,sg,plen,m,inan|nom,sg,plen,m)}
+Распорядок{распорядок=S,m,inan=(acc,sg|nom,sg)} с{с=PR=} утра{утро=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+И{и=CONJ=} теперь{теперь=ADV=} они{они=SPRO,pl=nom} оба{оба=NUM=(acc,m,inan|nom,m|acc,n|nom,n)}
+Точно{точно=PART=} брат{брат=S,m,anim=nom,sg} и{и=CONJ=} сестра{сестра=S,f,anim=nom,sg}.
 
-{перед=PR=} {она=SPRO,sg,3p,f=ins} {в=PR=} {гостиная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
-{не=PART=} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {он=SPRO,sg,3p,m=nom} {с=PR=} {колено=S,n,inan=gen,pl}.
-{на=PR=} {дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {картина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{смотреть=V,ipf,tran=inpraes,pl,indic,3p} {строго=ADV=} {со=PR=} {стена=S,f,inan=gen,pl}.
+Перед{перед=PR=} нею{она=SPRO,sg,3p,f=ins} в{в=PR=} гостиной{гостиная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+Не{не=PART=} встает{вставать=V,intr=inpraes,sg,indic,3p,ipf} он{он=SPRO,sg,3p,m=nom} с{с=PR=} колен{колено=S,n,inan=gen,pl}.
+На{на=PR=} дела{дело=S,n,inan=(acc,pl|gen,sg|nom,pl)} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} картины{картина=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Смотрят{смотреть=V,ipf,tran=inpraes,pl,indic,3p} строго{строго=ADV=} со{со=PR=} стен{стена=S,f,inan=gen,pl}.
 
-{впрочем=CONJ,parenth=}, {что=CONJ=} {они=SPRO,pl=dat}, {бесстыжий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
-{жалость=S,f,inan=(acc,sg|nom,sg)}, {совесть=S,f,inan=(acc,sg|nom,sg)} {и=CONJ=} {страх=S,m,inan=(acc,sg|nom,sg)}
-{пред=PR=} {живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {чернокнижие=S,n,inan=ins,sg}
-{в=PR=} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {рука=S,f,inan=abl,pl}?
+Впрочем{впрочем=CONJ,parenth=}, что{что=CONJ=} им{они=SPRO,pl=dat}, бесстыжим{бесстыжий=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)},
+Жалость{жалость=S,f,inan=(acc,sg|nom,sg)}, совесть{совесть=S,f,inan=(acc,sg|nom,sg)} и{и=CONJ=} страх{страх=S,m,inan=(acc,sg|nom,sg)}
+Пред{пред=PR=} живым{живой=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} чернокнижьем{чернокнижие=S,n,inan=ins,sg}
+В{в=PR=} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} горячих{горячий=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} руках{рука=S,f,inan=abl,pl}?
 
-{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} {они=SPRO,pl=dat} {по=PR=} {колено=S,n,inan=(acc,sg|nom,sg)},
-{и=CONJ=} {в=PR=} {безумие=S,n,inan=abl,sg} {свой=APRO=(abl,sg,m|abl,sg,n)}
-{они=SPRO,pl=dat} {дорогой=A=comp} {вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
-{миг=S,m,inan=(acc,sg|nom,sg)} {короткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {вдвоем=ADV=}.
+Море{море=S,n,inan=(abl,sg|acc,sg|nom,sg)} им{они=SPRO,pl=dat} по{по=PR=} колено{колено=S,n,inan=(acc,sg|nom,sg)},
+И{и=CONJ=} в{в=PR=} безумьи{безумие=S,n,inan=abl,sg} своем{свой=APRO=(abl,sg,m|abl,sg,n)}
+Им{они=SPRO,pl=dat} дороже{дорогой=A=comp} вселенной{вселенная=S,f,inan=(abl,sg|dat,sg|gen,sg|ins,sg)}
+Миг{миг=S,m,inan=(acc,sg|nom,sg)} короткий{короткий=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} вдвоем{вдвоем=ADV=}.
 
-{цветок=S,m,inan=(acc,pl|nom,pl)} {ночной=A=(acc,pl,plen,inan|nom,pl,plen)} {утро=S,n,inan=ins,sg} {спать=V,ipf,intr=inpraes,pl,indic,3p},
-{не=PART=} {прошибать=V,tran=inpraes,sg,indic,3p,ipf} {их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} {поливка=S,f,inan=nom,sg},
-{хоть=PART=} {выкатить=V,pf,tran=sg,imper,2p} {на=PR=} {они=SPRO,pl=(abl|acc|gen)} {ушат=S,m,inan=(acc,sg|nom,sg)}.
-{в=PR=} {ухо=S,n,inan=abl,pl} {у=PR=} {они=SPRO,pl=(abl|acc|gen)} {два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)}-{три=NUM=(nom|acc,inan)} {обрывок=S,m,inan=gen,sg}
-{то=SPRO,sg,n,inan=gen}, {что=CONJ=} {тридцать=NUM=(acc|nom)} {раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} {подряд=ADV=}
-{петь=V,ipf,tran=praet,sg,indic,m} {телефонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} {аппарат=S,m,inan=(acc,sg|nom,sg)}.
-{так=ADVPRO=} {спать=V,ipf,intr=inpraes,pl,indic,3p} {цветок=S,m,inan=(acc,pl|nom,pl)} {садовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {гряда=S,f,inan=gen,pl}
-{в=PR=} {плен=S,m,inan=(dat,sg|loc,sg)} {свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {фантазия=S,f,inan=gen,pl}.
-{они=SPRO,pl=nom} {не=PART=} {помнить=V,ipf,tran=inpraes,pl,indic,3p} {безобразие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
-{твориться=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} {час=S,m,inan=(acc,sg|nom,sg)} {назад=ADV=}.
-{состав=S,m,inan=(acc,sg|nom,sg)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {не=PART=} {знать=V,ipf,tran=inpraes,sg,indic,3p} {грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
-{все=SPRO,pl=(acc|nom)} {очищать=V=inpraes,sg,indic,3p,ipf,tran} {аромат=S,m,inan=(acc,sg|nom,sg)},
-{который=APRO=(acc,sg,m,inan|nom,sg,m)} {лить=V,ipf,tran=inpraes,sg,indic,3p} {без=PR=} {всякий=APRO=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {связь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
-{десяток=S,m,inan=(acc,sg|nom,sg)} {роза=S,f,inan=gen,pl} {в=PR=} {стеклянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ваза=S,f,inan=(abl,sg|dat,sg)}.
-{проходить=V,intr=praet,sg,indic,n,pf} {ночной=A=(acc,sg,plen,n|nom,sg,plen,n)} {торжество=S,n,inan=(acc,sg|nom,sg)}.
-{забывать=V=praet,pl,partcp,brev,pf,pass} {шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} {и=CONJ=} {проделка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{на=PR=} {кухня=S,f,inan=(abl,sg|dat,sg)} {вымывать=V=praet,pl,partcp,brev,pf,pass} {тарелка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{никто=SPRO,sg,m,anim=nom} {не=PART=} {помнить=V,ipf,tran=inpraes,sg,indic,3p} {ничто=SPRO,sg,n=gen}.
+Цветы{цветок=S,m,inan=(acc,pl|nom,pl)} ночные{ночной=A=(acc,pl,plen,inan|nom,pl,plen)} утром{утро=S,n,inan=ins,sg} спят{спать=V,ipf,intr=inpraes,pl,indic,3p},
+Не{не=PART=} прошибает{прошибать=V,tran=inpraes,sg,indic,3p,ipf} их{их=APRO=(abl,pl|dat,pl|gen,pl|ins,pl|nom,pl|nom,sg,f|acc,sg,m,anim|gen,sg,m|gen,sg,n|acc,sg,n|nom,sg,n|abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f|abl,sg,m|abl,sg,n|dat,sg,m|dat,sg,n|acc,sg,f|acc,pl,inan|acc,sg,m,inan|nom,sg,m|ins,sg,m|ins,sg,n|acc,pl,anim|abl,pl,n|acc,pl,n|dat,pl,n|gen,pl,n|ins,pl,n|nom,pl,n|abl,pl,m|acc,pl,m|acc,sg,m|dat,pl,m)} поливка{поливка=S,f,inan=nom,sg},
+Хоть{хоть=PART=} выкати{выкатить=V,pf,tran=sg,imper,2p} на{на=PR=} них{они=SPRO,pl=(abl|acc|gen)} ушат{ушат=S,m,inan=(acc,sg|nom,sg)}.
+В{в=PR=} ушах{ухо=S,n,inan=abl,pl} у{у=PR=} них{они=SPRO,pl=(abl|acc|gen)} два{два=NUM=(acc,m,inan|nom,m|acc,n|nom,n)}-три{три=NUM=(nom|acc,inan)} обрывка{обрывок=S,m,inan=gen,sg}
+Того{то=SPRO,sg,n,inan=gen}, что{что=CONJ=} тридцать{тридцать=NUM=(acc|nom)} раз{раз=S,m,inan=(acc,sg|gen,pl|nom,sg)} подряд{подряд=ADV=}
+Пел{петь=V,ipf,tran=praet,sg,indic,m} телефонный{телефонный=A=(acc,sg,plen,m,inan|nom,sg,plen,m)} аппарат{аппарат=S,m,inan=(acc,sg|nom,sg)}.
+Так{так=ADVPRO=} спят{спать=V,ipf,intr=inpraes,pl,indic,3p} цветы{цветок=S,m,inan=(acc,pl|nom,pl)} садовых{садовый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} гряд{гряда=S,f,inan=gen,pl}
+В{в=PR=} плену{плен=S,m,inan=(dat,sg|loc,sg)} своих{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} ночных{ночной=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} фантазий{фантазия=S,f,inan=gen,pl}.
+Они{они=SPRO,pl=nom} не{не=PART=} помнят{помнить=V,ipf,tran=inpraes,pl,indic,3p} безобразья{безобразие=S,n,inan=(acc,pl|gen,sg|nom,pl)},
+Творившегося{твориться=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,anim|praet,gen,sg,partcp,plen,m,act|praet,gen,sg,partcp,plen,n,act)} час{час=S,m,inan=(acc,sg|nom,sg)} назад{назад=ADV=}.
+Состав{состав=S,m,inan=(acc,sg|nom,sg)} земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)} не{не=PART=} знает{знать=V,ipf,tran=inpraes,sg,indic,3p} грязи{грязь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)},
+Все{все=SPRO,pl=(acc|nom)} очищает{очищать=V=inpraes,sg,indic,3p,ipf,tran} аромат{аромат=S,m,inan=(acc,sg|nom,sg)},
+Который{который=APRO=(acc,sg,m,inan|nom,sg,m)} льет{лить=V,ipf,tran=inpraes,sg,indic,3p} без{без=PR=} всякой{всякий=APRO=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} связи{связь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)}
+Десяток{десяток=S,m,inan=(acc,sg|nom,sg)} роз{роза=S,f,inan=gen,pl} в{в=PR=} стеклянной{стеклянный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} вазе{ваза=S,f,inan=(abl,sg|dat,sg)}.
+Прошло{проходить=V,intr=praet,sg,indic,n,pf} ночное{ночной=A=(acc,sg,plen,n|nom,sg,plen,n)} торжество{торжество=S,n,inan=(acc,sg|nom,sg)}.
+Забыты{забывать=V=praet,pl,partcp,brev,pf,pass} шутки{шутка=S,f,inan=(acc,pl|gen,sg|nom,pl)} и{и=CONJ=} проделки{проделка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+На{на=PR=} кухне{кухня=S,f,inan=(abl,sg|dat,sg)} вымыты{вымывать=V=praet,pl,partcp,brev,pf,pass} тарелки{тарелка=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Никто{никто=SPRO,sg,m,anim=nom} не{не=PART=} помнит{помнить=V,ipf,tran=inpraes,sg,indic,3p} ничего{ничто=SPRO,sg,n=gen}.

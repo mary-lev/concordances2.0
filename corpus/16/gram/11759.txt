@@ -1,24 +1,24 @@
-{петь=V,ipf,tran=inpraes,sg,indic,3p} {метель=S,f,inan=(acc,sg|nom,sg)} {над=PR=} {тихо=ADV=} {спать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} {бор=S,m,inan=ins,sg};
-{мерцать=V,ipf,intr=inpraes,sg,indic,3p} {луч=S,m,inan=(acc,sg|nom,sg)} {холодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, {тусклый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {звезда=S,f,inan=gen,pl};
-{я=SPRO,sg,1p=nom} {ехать=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {глушь=S,f,inan=(acc,sg|nom,sg)}, {и=CONJ=} {любопытный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {взор=S,m,inan=ins,sg} 
-{смотреть=V,ipf,tran=inpraes,sg,indic,1p} {на=PR=} {туча=S,f,inan=gen,pl} {волноваться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} {рост=S,m,inan=(acc,sg|nom,sg)}.
+Поет{петь=V,ipf,tran=inpraes,sg,indic,3p} метель{метель=S,f,inan=(acc,sg|nom,sg)} над{над=PR=} тихо{тихо=ADV=} спящим{спать=V,ipf,intr=(inpraes,dat,pl,partcp,plen,act|inpraes,ins,sg,partcp,plen,m,act|inpraes,ins,sg,partcp,plen,n,act)} бором{бор=S,m,inan=ins,sg};
+Мерцает{мерцать=V,ipf,intr=inpraes,sg,indic,3p} луч{луч=S,m,inan=(acc,sg|nom,sg)} холодных{холодный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)}, тусклых{тусклый=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} звезд{звезда=S,f,inan=gen,pl};
+Я{я=SPRO,sg,1p=nom} еду{ехать=V,ipf,intr=inpraes,sg,indic,1p} в{в=PR=} глушь{глушь=S,f,inan=(acc,sg|nom,sg)}, и{и=CONJ=} любопытным{любопытный=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} взором{взор=S,m,inan=ins,sg} 
+Смотрю{смотреть=V,ipf,tran=inpraes,sg,indic,1p} на{на=PR=} туч{туча=S,f,inan=gen,pl} волнующихся{волноваться=V,ipf,intr=(inpraes,abl,pl,partcp,plen,act|inpraes,gen,pl,partcp,plen,act|inpraes,acc,pl,partcp,plen,act,anim)} рост{рост=S,m,inan=(acc,sg|nom,sg)}.
 
-{я=SPRO,sg,1p=nom} {ехать=V,ipf,intr=inpraes,sg,indic,1p} {в=PR=} {глушь=S,f,inan=(acc,sg|nom,sg)}, {в=PR=} {забытый=A=acc,sg,plen,f} {усадьба=S,f,inan=acc,sg},
-{на=PR=} {берег=S,m,inan=(acc,pl|gen,sg|nom,pl)} {играть=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} {река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
-{я=SPRO,sg,1p=(abl|dat)} {чудиться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {леший=S,m,anim=nom,sg} {править=V,ipf,tran=inpraes,sg,indic,3p} {свадьба=S,f,inan=acc,sg} 
-{пировать=V,ipf,intr=inpraes,ger} {у=PR=} {невеста=S,f,anim=(gen,sg|nom,pl)}, {у=PR=} {яга=S,f,anim=(gen,sg|nom,pl)}.
+Я{я=SPRO,sg,1p=nom} еду{ехать=V,ipf,intr=inpraes,sg,indic,1p} в{в=PR=} глушь{глушь=S,f,inan=(acc,sg|nom,sg)}, в{в=PR=} забытую{забытый=A=acc,sg,plen,f} усадьбу{усадьба=S,f,inan=acc,sg},
+На{на=PR=} берега{берег=S,m,inan=(acc,pl|gen,sg|nom,pl)} играющей{играть=V,ipf,tran=(inpraes,abl,sg,partcp,plen,f,act|inpraes,dat,sg,partcp,plen,f,act|inpraes,gen,sg,partcp,plen,f,act|inpraes,ins,sg,partcp,plen,f,act)} реки{река=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Мне{я=SPRO,sg,1p=(abl|dat)} чудится{чудиться=V,ipf,intr=inpraes,sg,indic,3p}, что{что=CONJ=} леший{леший=S,m,anim=nom,sg} правит{править=V,ipf,tran=inpraes,sg,indic,3p} свадьбу{свадьба=S,f,inan=acc,sg} 
+Пируя{пировать=V,ipf,intr=inpraes,ger} у{у=PR=} невесты{невеста=S,f,anim=(gen,sg|nom,pl)}, у{у=PR=} Яги{яга=S,f,anim=(gen,sg|nom,pl)}.
 
-{я=SPRO,sg,1p=(abl|dat)} {чудиться=V,ipf,intr=inpraes,sg,indic,3p}, {что=CONJ=} {рядом=ADV=} {плясать=V,ipf,tran=inpraes,pl,indic,3p} {бес=S,m,anim=nom,pl},
-{и=CONJ=} {ведьма=S,f,anim=(gen,sg|nom,pl)} {сзади=ADV=} {водить=V,ipf,tran=inpraes,pl,indic,3p} {хоровод=S,m,inan=(acc,sg|nom,sg)};
-{я=SPRO,sg,1p=(abl|dat)} {слышаться=V,ipf,intr=inpraes,sg,indic,3p} {в=PR=} {тоска=S,f,inan=(abl,sg|dat,sg)} {мелодия=S,f,inan=gen,pl} {лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
-{пора=S,f,inan=ins,sg} {песнь=S,f,inan=(acc,sg|nom,sg)}. {но=CONJ=} {кто=SPRO,sg,m,anim=nom} {она=SPRO,sg,3p,f=(acc|gen)} {петь=V,ipf,tran=inpraes,sg,indic,3p}?
+Мне{я=SPRO,sg,1p=(abl|dat)} чудится{чудиться=V,ipf,intr=inpraes,sg,indic,3p}, что{что=CONJ=} рядом{рядом=ADV=} пляшут{плясать=V,ipf,tran=inpraes,pl,indic,3p} бесы{бес=S,m,anim=nom,pl},
+И{и=CONJ=} ведьмы{ведьма=S,f,anim=(gen,sg|nom,pl)} сзади{сзади=ADV=} водят{водить=V,ipf,tran=inpraes,pl,indic,3p} хоровод{хоровод=S,m,inan=(acc,sg|nom,sg)};
+Мне{я=SPRO,sg,1p=(abl|dat)} слышится{слышаться=V,ipf,intr=inpraes,sg,indic,3p} в{в=PR=} тоске{тоска=S,f,inan=(abl,sg|dat,sg)} мелодий{мелодия=S,f,inan=gen,pl} леса{лес=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+Порою{пора=S,f,inan=ins,sg} песнь{песнь=S,f,inan=(acc,sg|nom,sg)}. Но{но=CONJ=} кто{кто=SPRO,sg,m,anim=nom} ее{она=SPRO,sg,3p,f=(acc|gen)} поет{петь=V,ipf,tran=inpraes,sg,indic,3p}?
 
-{пора=S,f,inan=ins,sg} {смех=S,m,inan=(acc,sg|nom,sg)}, {пора=S,f,inan=ins,sg} {восклицание=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
-{я=SPRO,sg,1p=(abl|dat)} {слышаться=V,ipf,intr=inpraes,sg,indic,3p}, {вселять=V,tran=inpraes,ger,ipf} {в=PR=} {душа=S,f,inan=acc,sg} {страх=S,m,inan=(acc,sg|nom,sg)}.
-{чей=APRO=(acc,sg,n|nom,sg,n)} {скорбный=A=(acc,sg,plen,n|nom,sg,plen,n)} {лицо=S,n,inan=(acc,sg|nom,sg)} {вставать=V,intr=inpraes,sg,indic,3p,ipf} {в=PR=} {слеза=S,f,inan=abl,pl}?
-{чей=APRO=(acc,sg,n|nom,sg,n)} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {я=SPRO,sg,1p=nom} {безумный=A=(acc,sg,plen,n|nom,sg,plen,n)} {рыдание=S,n,inan=(abl,sg|acc,sg|nom,sg)}?
+Порою{пора=S,f,inan=ins,sg} смех{смех=S,m,inan=(acc,sg|nom,sg)}, порою{пора=S,f,inan=ins,sg} восклицанье{восклицание=S,n,inan=(abl,sg|acc,sg|nom,sg)} 
+Мне{я=SPRO,sg,1p=(abl|dat)} слышится{слышаться=V,ipf,intr=inpraes,sg,indic,3p}, вселяя{вселять=V,tran=inpraes,ger,ipf} в{в=PR=} душу{душа=S,f,inan=acc,sg} страх{страх=S,m,inan=(acc,sg|nom,sg)}.
+Чье{чей=APRO=(acc,sg,n|nom,sg,n)} скорбное{скорбный=A=(acc,sg,plen,n|nom,sg,plen,n)} лицо{лицо=S,n,inan=(acc,sg|nom,sg)} встает{вставать=V,intr=inpraes,sg,indic,3p,ipf} в{в=PR=} слезах{слеза=S,f,inan=abl,pl}?
+Чье{чей=APRO=(acc,sg,n|nom,sg,n)} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} я{я=SPRO,sg,1p=nom} безумное{безумный=A=(acc,sg,plen,n|nom,sg,plen,n)} рыданье{рыдание=S,n,inan=(abl,sg|acc,sg|nom,sg)}?
 
-{кто=SPRO,sg,m,anim=nom} {плакать=V,ipf,intr=inpraes,sg,indic,3p} {здесь=ADVPRO=}, {здесь=ADVPRO=}, {в=PR=} {мерзлый=A=(abl,sg,plen,m|abl,sg,plen,n)} {царство=S,n,inan=abl,sg} {снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
-{и=CONJ=} {почему=ADVPRO=} {здесь=ADVPRO=} {сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)} {голос=S,m,inan=gen,pl}?
-{в=PR=} {ответ=S,m,inan=(acc,sg|nom,sg)} {мечта=S,f,inan=(abl,sg|dat,sg)} {я=SPRO,sg,1p=nom} {слышать=V,ipf,tran=inpraes,sg,indic,1p} {топот=S,m,inan=(acc,sg|nom,sg)} {бег=S,sg,m,inan=gen} 
-{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} {конь=S,m,anim=(acc,pl|gen,pl)} {да=CONJ=} {говор=S,m,inan=(acc,sg|nom,sg)} {бубенец=S,m,inan=gen,pl}.
+Кто{кто=SPRO,sg,m,anim=nom} плачет{плакать=V,ipf,intr=inpraes,sg,indic,3p} здесь{здесь=ADVPRO=}, здесь{здесь=ADVPRO=}, в{в=PR=} мерзлом{мерзлый=A=(abl,sg,plen,m|abl,sg,plen,n)} царстве{царство=S,n,inan=abl,sg} снега{снег=S,m,inan=(acc,pl|gen,sg|nom,pl)} 
+И{и=CONJ=} почему{почему=ADVPRO=} здесь{здесь=ADVPRO=} сотни{сотня=S,f,inan=(acc,pl|gen,sg|nom,pl)} голосов{голос=S,m,inan=gen,pl}?
+В{в=PR=} ответ{ответ=S,m,inan=(acc,sg|nom,sg)} мечте{мечта=S,f,inan=(abl,sg|dat,sg)} я{я=SPRO,sg,1p=nom} слышу{слышать=V,ipf,tran=inpraes,sg,indic,1p} топот{топот=S,m,inan=(acc,sg|nom,sg)} бега{бег=S,sg,m,inan=gen} 
+Своих{свой=APRO=(abl,pl|gen,pl|acc,pl,anim)} коней{конь=S,m,anim=(acc,pl|gen,pl)} да{да=CONJ=} говор{говор=S,m,inan=(acc,sg|nom,sg)} бубенцов{бубенец=S,m,inan=gen,pl}.

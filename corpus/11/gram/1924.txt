@@ -1,29 +1,29 @@
-{золото=S,sg,n,inan=(acc|nom)} {холодный=A=(acc,sg,plen,n|nom,sg,plen,n)} {луна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
-{запах=S,m,inan=(acc,sg|nom,sg)} {олеандр=S,m,inan=gen,sg} {и=CONJ=} {левкой=S,m,inan=gen,sg}.
-{хорошо=ADV=parenth} {бродить=V,ipf,intr=inf} {среди=PR=} {покой=S,m,inan=gen,sg}
-{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {и=CONJ=} {ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
+Золото{золото=S,sg,n,inan=(acc|nom)} холодное{холодный=A=(acc,sg,plen,n|nom,sg,plen,n)} луны{луна=S,f,inan=(acc,pl|gen,sg|nom,pl)},
+Запах{запах=S,m,inan=(acc,sg|nom,sg)} олеандра{олеандр=S,m,inan=gen,sg} и{и=CONJ=} левкоя{левкой=S,m,inan=gen,sg}.
+Хорошо{хорошо=ADV=parenth} бродить{бродить=V,ipf,intr=inf} среди{среди=PR=} покоя{покой=S,m,inan=gen,sg}
+Голубой{голубой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} и{и=CONJ=} ласковой{ласковый=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} страны{страна=S,f,inan=(acc,pl|gen,sg|nom,pl)}.
 
-{далеко=ADV=}-{далече=ADV=} {там=ADVPRO=} {багдад=S,geo,m,inan=(acc,sg|nom,sg)},
-{где=ADVPRO=} {жить=V,ipf,intr=praet,sg,indic,f} {и=CONJ=} {петь=V,ipf,tran=praet,sg,indic,f} {шахразада?=S,persn,f,anim=nom,sg}.
-{но=CONJ=} {теперь=ADV=} {она=SPRO,sg,3p,f=(dat|ins)} {ничто=SPRO,sg,n=gen} {не=PART=} {надо=ADV,praed=}.
-{отзвенеть=V,pf,intr=praet,sg,indic,m} {давно=ADV=} {звенеть=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} {сад=S,m,inan=(acc,sg|nom,sg)}.
+Далеко{далеко=ADV=}-далече{далече=ADV=} там{там=ADVPRO=} Багдад{багдад=S,geo,m,inan=(acc,sg|nom,sg)},
+Где{где=ADVPRO=} жила{жить=V,ipf,intr=praet,sg,indic,f} и{и=CONJ=} пела{петь=V,ipf,tran=praet,sg,indic,f} Шахразада{шахразада?=S,persn,f,anim=nom,sg}.
+Но{но=CONJ=} теперь{теперь=ADV=} ей{она=SPRO,sg,3p,f=(dat|ins)} ничего{ничто=SPRO,sg,n=gen} не{не=PART=} надо{надо=ADV,praed=}.
+Отзвенел{отзвенеть=V,pf,intr=praet,sg,indic,m} давно{давно=ADV=} звеневший{звенеть=V,ipf,intr=(praet,acc,sg,partcp,plen,m,act,inan|praet,nom,sg,partcp,plen,m,act)} сад{сад=S,m,inan=(acc,sg|nom,sg)}.
 
-{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} {далекий=A=(acc,pl,plen,inan|nom,pl,plen)} {земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
-{поросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {кладбищенский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {трава=S,f,inan=ins,sg}.
-{ты=SPRO,sg,2p=nom} {же=PART=}, {путник=S,m,anim=nom,sg}, {мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {не=PART=} {внимать=V,intr=sg,imper,2p,ipf},
-{не=PART=} {склоняться=V,intr=sg,imper,2p,ipf} {к=PR=} {плита=S,f,inan=dat,pl} {голова=S,f,inan=ins,sg}.
+Призраки{призрак=S,m=(acc,pl,inan|nom,pl,anim|nom,pl,inan)} далекие{далекий=A=(acc,pl,plen,inan|nom,pl,plen)} земли{земля=S,f,inan=(acc,pl|gen,sg|nom,pl)}
+Поросли{поросль=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} кладбищенской{кладбищенский=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} травою{трава=S,f,inan=ins,sg}.
+Ты{ты=SPRO,sg,2p=nom} же{же=PART=}, путник{путник=S,m,anim=nom,sg}, мертвым{мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} не{не=PART=} внемли{внимать=V,intr=sg,imper,2p,ipf},
+Не{не=PART=} склоняйся{склоняться=V,intr=sg,imper,2p,ipf} к{к=PR=} плитам{плита=S,f,inan=dat,pl} головою{голова=S,f,inan=ins,sg}.
 
-{оглянуться=V,pf,intr=sg,imper,2p}, {как=ADVPRO=} {хорошо=ADV=parenth} {кругом=ADV=}:
-{губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} {к=PR=} {роза=S,f,inan=dat,pl} {так=ADVPRO=} {и=CONJ=} {тянуть=V,ipf,tran=inpraes,sg,indic,3p}, {тянуть=V,ipf,tran=inpraes,sg,indic,3p}.
-{помириться=V,pf,intr=sg,imper,2p} {лишь=PART=} {в=PR=} {сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} {со=PR=} {враг=S,m,anim=ins,sg} —
-{и=CONJ=} {ты=SPRO,sg,2p=(acc|gen)} {блаженство=S,n,inan=ins,sg} {ошафранит?=S,m,inan=(acc,sg|nom,sg)}.
+Оглянись{оглянуться=V,pf,intr=sg,imper,2p}, как{как=ADVPRO=} хорошо{хорошо=ADV=parenth} кругом{кругом=ADV=}:
+Губы{губа=S,f,inan=(acc,pl|gen,sg|nom,pl)} к{к=PR=} розам{роза=S,f,inan=dat,pl} так{так=ADVPRO=} и{и=CONJ=} тянет{тянуть=V,ipf,tran=inpraes,sg,indic,3p}, тянет{тянуть=V,ipf,tran=inpraes,sg,indic,3p}.
+Помирись{помириться=V,pf,intr=sg,imper,2p} лишь{лишь=PART=} в{в=PR=} сердце{сердце=S,n,inan=(abl,sg|acc,sg|nom,sg)} со{со=PR=} врагом{враг=S,m,anim=ins,sg} —
+И{и=CONJ=} тебя{ты=SPRO,sg,2p=(acc|gen)} блаженством{блаженство=S,n,inan=ins,sg} ошафранит{ошафранит?=S,m,inan=(acc,sg|nom,sg)}.
 
-{жить=V,ipf,intr=inf} — {так=ADVPRO=} {жить=V,ipf,intr=inf}, {любить=V,ipf,tran=inf} — {так=ADVPRO=} {уж=PART=} {влюбляться=V,intr=inf,ipf}.
-{в=PR=} {лунный=A=(abl,sg,plen,m|abl,sg,plen,n)} {золото=S,sg,n,inan=abl} {целоваться=V,ipf,intr=sg,imper,2p} {и=CONJ=} {гулять=V,ipf,intr=sg,imper,2p},
-{если=CONJ=} {ж=PART=} {хотеть=V,ipf,tran=inpraes,sg,indic,2p} {мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} {поклоняться=V,ipf,intr=inf},
-{то=CONJ=} {живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {сон=S,m,inan=ins,sg} {не=PART=} {отравлять=V,tran=sg,imper,2p,ipf}.
+Жить{жить=V,ipf,intr=inf} — так{так=ADVPRO=} жить{жить=V,ipf,intr=inf}, любить{любить=V,ipf,tran=inf} — так{так=ADVPRO=} уж{уж=PART=} влюбляться{влюбляться=V,intr=inf,ipf}.
+В{в=PR=} лунном{лунный=A=(abl,sg,plen,m|abl,sg,plen,n)} золоте{золото=S,sg,n,inan=abl} целуйся{целоваться=V,ipf,intr=sg,imper,2p} и{и=CONJ=} гуляй{гулять=V,ipf,intr=sg,imper,2p},
+Если{если=CONJ=} ж{ж=PART=} хочешь{хотеть=V,ipf,tran=inpraes,sg,indic,2p} мертвым{мертвый=A=(dat,pl,plen|ins,sg,plen,m|ins,sg,plen,n)} поклоняться{поклоняться=V,ipf,intr=inf},
+То{то=CONJ=} живых{живой=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} тем{тот=APRO=(dat,pl|ins,sg,m|ins,sg,n)} сном{сон=S,m,inan=ins,sg} не{не=PART=} отравляй{отравлять=V,tran=sg,imper,2p,ipf}.
 
-{это=SPRO,sg,n,inan=(acc|nom)} {петь=V,ipf,tran=praet,sg,indic,f} {даже=PART=} {шахразада?=S,persn,f,anim=nom,sg},—
-{так=ADVPRO=} {вторично=ADV=} {сказать=V,pf,tran=inpraes,sg,indic,3p} {лист=S,m,inan=gen,pl} {медь=S,f,inan=(acc,sg|nom,sg)}.
-{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} {ничто=SPRO,sg,n=gen} {не=PART=} {надо=ADV,praed=},
-{только=PART=} {можно=ADV,praed=} {в=PR=} {мир=S,m,inan=abl,sg} {пожалеть=V,pf,tran=inf}.
+Это{это=SPRO,sg,n,inan=(acc|nom)} пела{петь=V,ipf,tran=praet,sg,indic,f} даже{даже=PART=} Шахразада{шахразада?=S,persn,f,anim=nom,sg},—
+Так{так=ADVPRO=} вторично{вторично=ADV=} скажет{сказать=V,pf,tran=inpraes,sg,indic,3p} листьев{лист=S,m,inan=gen,pl} медь{медь=S,f,inan=(acc,sg|nom,sg)}.
+Тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, которым{который=APRO=(dat,pl|ins,sg,m|ins,sg,n)} ничего{ничто=SPRO,sg,n=gen} не{не=PART=} надо{надо=ADV,praed=},
+Только{только=PART=} можно{можно=ADV,praed=} в{в=PR=} мире{мир=S,m,inan=abl,sg} пожалеть{пожалеть=V,pf,tran=inf}.

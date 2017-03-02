@@ -1,17 +1,17 @@
-{близ=PR=} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {камень=S,m,inan=gen,sg} {песок=S,m,inan=(acc,sg|nom,sg)} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{песок=S,m,inan=(acc,sg|nom,sg)} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, {измельчить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} {вода=S,f,inan=ins,sg}.
+Близ{близ=PR=} Синего{синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} камня{камень=S,m,inan=gen,sg} песок{песок=S,m,inan=(acc,sg|nom,sg)} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Песок{песок=S,m,inan=(acc,sg|nom,sg)} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)}, измельченный{измельчить=V,pf,tran=(praet,acc,sg,partcp,plen,m,pass,inan|praet,nom,sg,partcp,plen,m,pass)} Водой{вода=S,f,inan=ins,sg}.
 
-{вода=S,f,inan=nom,sg} — {голубой=A=nom,sg,plen,f}, {прозрачный=A=nom,sg,plen,f} {день=S,m,inan=ins,sg},
-{и=CONJ=} {черный=A=nom,sg,plen,f}, {злой=A=nom,sg,plen,f} {во=PR=} {мрак=S,m,inan=abl,sg} {ночной=A=(abl,sg,plen,m|abl,sg,plen,n)}.
+Вода{вода=S,f,inan=nom,sg} — голубая{голубой=A=nom,sg,plen,f}, прозрачная{прозрачный=A=nom,sg,plen,f} днем{день=S,m,inan=ins,sg},
+И{и=CONJ=} черная{черный=A=nom,sg,plen,f}, злая{злой=A=nom,sg,plen,f} во{во=PR=} мраке{мрак=S,m,inan=abl,sg} ночном{ночной=A=(abl,sg,plen,m|abl,sg,plen,n)}.
 
-{близ=PR=} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {камень=S,m,inan=gen,sg} {песок=S,m,inan=(acc,sg|nom,sg)} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{и=CONJ=} {падать=V,ipf,intr=inpraes,sg,indic,3p} {с=PR=} {небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} {звезда=S,f,inan=nom,sg} {за=PR=} {звезда=S,f,inan=ins,sg}.
+Близ{близ=PR=} Синего{синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} камня{камень=S,m,inan=gen,sg} песок{песок=S,m,inan=(acc,sg|nom,sg)} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+И{и=CONJ=} падает{падать=V,ipf,intr=inpraes,sg,indic,3p} с{с=PR=} Неба{небо=S,n,inan=(acc,pl|gen,sg|nom,pl)} звезда{звезда=S,f,inan=nom,sg} за{за=PR=} звездой{звезда=S,f,inan=ins,sg}.
 
-{вода=S,f,inan=nom,sg} {умножать=V,tran=inpraes,sg,indic,3p,ipf} {и=CONJ=} {точить=V,ipf,tran=inpraes,sg,indic,3p} {песок=S,m,inan=(acc,sg|nom,sg)},
-{а=CONJ=} {камень=S,m,inan=(acc,sg|nom,sg)} {все=SPRO,pl=(acc|nom)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=}, {и=CONJ=} {путь=S,m,inan=(acc,sg|nom,sg)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {далекий=A=sg,brev,m}.
+Вода{вода=S,f,inan=nom,sg} умножает{умножать=V,tran=inpraes,sg,indic,3p,ipf} и{и=CONJ=} точит{точить=V,ipf,tran=inpraes,sg,indic,3p} песок{песок=S,m,inan=(acc,sg|nom,sg)},
+А{а=CONJ=} Камень{камень=S,m,inan=(acc,sg|nom,sg)} все{все=SPRO,pl=(acc|nom)} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} же{же=PART=}, и{и=CONJ=} путь{путь=S,m,inan=(acc,sg|nom,sg)} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} далек{далекий=A=sg,brev,m}.
 
-{путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} {весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} {далекий=A=pl,brev} {для=PR=} {тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, {кто=SPRO,sg,m,anim=nom} {идти=V,ipf,intr=inpraes,sg,indic,3p}
-{песок=S,m,inan=ins,sg} {измельчить=V,pf,tran=(praet,dat,pl,partcp,plen,pass|praet,ins,sg,partcp,plen,m,pass|praet,ins,sg,partcp,plen,n,pass)}, {над=PR=} {сказка=S,f,inan=ins,sg} {вода=S,f,inan=gen,pl}.
+Пути{путь=S,m,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl)} все{весь=APRO=(nom,pl|acc,sg,n|nom,sg,n|acc,pl,inan)} далеки{далекий=A=pl,brev} для{для=PR=} тех{тот=APRO=(abl,pl|gen,pl|acc,pl,anim)}, кто{кто=SPRO,sg,m,anim=nom} идет{идти=V,ipf,intr=inpraes,sg,indic,3p}
+Песком{песок=S,m,inan=ins,sg} измельченным{измельчить=V,pf,tran=(praet,dat,pl,partcp,plen,pass|praet,ins,sg,partcp,plen,m,pass|praet,ins,sg,partcp,plen,n,pass)}, над{над=PR=} сказкою{сказка=S,f,inan=ins,sg} вод{вода=S,f,inan=gen,pl}.
 
-{и=CONJ=} {вечно=ADV=} {все=SPRO,pl=(acc|nom)} {тот=APRO=(acc,sg,m,inan|nom,sg,m)} {же=PART=} {песок=S,m,inan=(acc,sg|nom,sg)} {золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
-{близ=PR=} {синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {камень=S,m,inan=gen,sg}, {над=PR=} {вечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {вода=S,f,inan=ins,sg}.
+И{и=CONJ=} вечно{вечно=ADV=} все{все=SPRO,pl=(acc|nom)} тот{тот=APRO=(acc,sg,m,inan|nom,sg,m)} же{же=PART=} песок{песок=S,m,inan=(acc,sg|nom,sg)} золотой{золотой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)},
+Близ{близ=PR=} Синего{синий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} камня{камень=S,m,inan=gen,sg}, над{над=PR=} вечной{вечный=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Водой{вода=S,f,inan=ins,sg}.

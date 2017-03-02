@@ -24,15 +24,19 @@ def index():
         month = '0' + str(today.month)
     else:
         month = str(today.month)
-    day = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==today.day)).select(orderby=trymysql.text1.year_writing)
+    if today.day < 10:
+        day = '0' + str(today.day)
+    else:
+        day = str(today.day)
+    poems = trymysql((trymysql.text1.month_writing==month)&(trymysql.text1.day_writing==day)).select(orderby=trymysql.text1.year_writing)
     for all in texts:
         number = trymysql(trymysql.text1.author==all.id).count()
-        numbers.append([all.name, all.family,all.id, number])
+        numbers.append([all.name, all.family, all.id, number])
         n += number
 
     ex = ['5', '7', '10', '11', '17'] # исключаем не-книжки из блока "Издания"
     books = trymysql(~trymysql.biblio.id.belongs(ex)).select(orderby=trymysql.biblio.short)
-    return dict(texts=texts, numbers=numbers, n = n, day=day, d = today.day, m = m, books=books)
+    return dict(texts=texts, numbers=numbers, n = n, poems=poems, d = day, m = m, books=books)
 
 def user():
     """
