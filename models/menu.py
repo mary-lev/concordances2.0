@@ -61,7 +61,7 @@ def _():
         (T('Контекстный поиск'), False, URL('context', 'index')),
         (T('Морфологический поиск'), False, URL('morpho', 'search'))       ] ),
 
-        (SPAN('Конкорданс', _class='highlighted'), False, URL('concordance', 'create_concordance') ),
+        (SPAN('Конкорданс', _class='highlighted'), False, URL('concordance', 'conc') ),
 
         (SPAN('Статистика', _class='highlighted'), False, URL('count', 'index'), [
         (T('Части речи'), False, URL('count', 'index')),

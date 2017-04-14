@@ -1,0 +1,3 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон count/stat_view.html</h1>
+{{=BEAUTIFY(response._vars)}}

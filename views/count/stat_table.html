@@ -1,0 +1,14 @@
+{{extend 'layout.html'}}
+<h1>Статистические показатели по авторам</h1>
+<table border='1px'>
+    <tr><td><b>Параметры</b></td><td></td>{{for all in authors:}} <td><b>{{=all.family}}</b> </td>{{pass}}</tr>
+    <tr><td><b>Среднее количество ЗП в тексте</b></td><td></td>{{for all in table.keys():}}<td>{{=round(table[all]['all_punct'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Среднее количество слов в тексте</b></td><td></td>{{for all in table.keys():}}<td>{{=round(table[all]['all_words'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Средняя длина слова</b></td><td></td>{{for all in table.keys():}}<td>{{=round(table[all]['len_word'], 3)}}</td>{{pass}}</tr>
+     <tr><td><b>Насыщенность словаря</b></td><td></td>{{for all in table.keys():}}<td>{{=round(table[all]['w_range'], 3)}}</td>{{pass}}</tr>
+      <tr><td>Пунктуация</td><td>.</td>{{for all in table.keys():}}<td>{{=round(table[all]['punct']['.'], 3)}}</td>{{pass}}</tr>
+      <tr><td>Пунктуация</td><td>,</td>{{for all in table.keys():}}<td>{{=round(table[all]['punct'][','], 3)}}</td>{{pass}}</tr>
+      <tr><td>Пунктуация</td><td>!</td>{{for all in table.keys():}}<td>{{=round(table[all]['punct']['!'], 3)}}</td>{{pass}}</tr>
+
+      <tr><td>Пунктуация</td><td>?</td>{{for all in table.keys():}}<td>{{=round(table[all]['punct']['?'], 3)}}</td>{{pass}}</tr>
+      </table>

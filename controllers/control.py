@@ -26,7 +26,7 @@ def epi():
     return dict(filename=filename)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    rows = trymysql(trymysql.text1.group_text==118).select()
+    rows = trymysql((trymysql.text1.group_text==None)&(trymysql.text1.author==8)).select()
     #for x in xrange(11164,11334): # if text not yet in database (last:4811,7088, 10260) 11334 11452
     for all in rows:
         #text2 = trymysql(trymysql.text1.id=all.id).select()[0]
@@ -121,13 +121,19 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=8, group_text=118, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=8, writing_location=location, body = ''.join(text['t']))
             if epi:
                 maxID=trymysql(trymysql.text1).select(trymysql.text1.id.max()).first()[trymysql.text1.id.max()]
                 filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(maxID) + '.txt'
                 trymysql.epi.insert(text=maxID, epi_text=epi, epi_author=a_epi, epi_filename=filename)
-                with open(filename, 'wb') as f:
-                    f.write(epi)
+                if '/' in epi:
+                    epi = epi.split('/')
+                    with open(filename, 'wb') as f:
+                        for all in epi:
+                            f.write(all+'\n')
+                else:
+                    with open(filename, 'wb') as f:
+                        f.write(epi)
                 if epi2:
                     new_filename = filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(maxID) + '_1' + '.txt'
                     trymysql.epi.insert(text=maxID, epi_text=epi2, epi_author=aut2, epi_filename=new_filename)

@@ -27,10 +27,18 @@ def index(): # concordance of one text
     return dict(lens=lens, vocab=vocab)
 
 def create_concordance():
-    f = open('/home/concordance/dictionary.txt', 'r')
-    words = f.readlines()
-    count=len(words)
-    return dict(words=words, count=count)
+    #f = open('/home/concordance/dictionary.txt', 'r')
+    #words = f.readlines()
+    #count=len(words)
+    #return dict(words=words, count=count)
+    count = trymysql.mystem.id.count()
+    words = []
+    for row in trymysql(trymysql.mystem.id>0).select(trymysql.mystem.word, count, groupby=trymysql.mystem.word):
+        if row[count] >500:
+            words.append([row.mystem.word, row[count]])
+    words.sort(key = itemgetter(1), reverse=True)
+
+    return dict(words=words)
 
 def create_number():
     all_texts=trymysql(trymysql.allword.title<10).select()
@@ -65,10 +73,20 @@ def word2vec():
     model1.save("/home/concordance/web2py/applications/test/uploads/models/model_from_10_win2_size300")
     return dict(model1=model1)
 
+def word2vec_new():
+    sentences = []
+    for all in trymysql(trymysql.text1.id>0).select():
+        one = [alles.word for alles in trymysql(trymysql.mystem.title==all.id).select()]
+        sentences.append(one)
+    model = gensim.models.Word2Vec(sentences1, min_count=20, window=30, size=300)
+    model.save("/home/concordance/web2py/applications/test/uploads/models/model_13_04_2017")
+    return dict(model=model)
+
 def model():
     #new_model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/a_model_from_50_win20_size300")
-    new_model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/model_from_10_win2_size300")
+    ##new_model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/model_from_10_win2_size300")
     #new_model = gensim.models.Word2Vec.load('/home/concordance/deposit/model3')
+    new_model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/new_model")
     words = ['город', 'конь', 'сон', 'огонь', 'мир', 'море', 'день', 'дом', 'ночь']
     words = [all.decode('utf-8') for all in words]
     return dict(model1=new_model, words=words)
@@ -82,6 +100,7 @@ def ask_model():
 def resp_model():
     model = gensim.models.Word2Vec.load("/home/concordance/web2py/applications/test/uploads/models/model_from_10_win2_size300")
     model1 = gensim.models.Word2Vec.load('/home/concordance/deposit/model10t_20_15')
+    model2 = gensim.models.Word2Vec.load('/home/concordance/web2py/applications/test/uploads/models/xx_stemmed_10_10_300')
     model2 = gensim.models.Word2Vec.load('/home/concordance/web2py/applications/test/uploads/models/xx_stemmed_10_10_300')
     words = request.vars.first
     return dict(model=model, words=words, model1=model1, model2=model2)
@@ -169,11 +188,11 @@ def zveri():
     return dict(model1=new_model, words=words)
 
 def conc(): #самые употребляемые слова (от 500)
-    count = trymysql.allword.id.count()
+    count = trymysql.mystem.id.count()
     words = []
-    for row in trymysql(trymysql.allword.id>0).select(trymysql.allword.word, count, groupby=trymysql.allword.word):
+    for row in trymysql((trymysql.mystem.id>0)&(trymysql.mystem.partos!='PNCT')).select(trymysql.mystem.word, count, groupby=trymysql.mystem.word):
         if row[count] >500:
-            words.append([row.allword.word, row[count]])
+            words.append([row.mystem.word, row[count]])
     words.sort(key = itemgetter(1), reverse=True)
 
     return dict(words=words)

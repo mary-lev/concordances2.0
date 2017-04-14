@@ -4,8 +4,8 @@
 <table>
 
 <tr>
-<td><h4>{{=words[0]}}</h4>
-{{for all in model1.most_similar(positive=['город'], topn=20):}}
+<td><h4>Любовь</h4>
+{{for all in model1.most_similar(positive=['любовь'.decode('utf-8')], topn=20):}}
 <li>{{=all[0]}}, {{=all[1]}}</li>
 {{pass}}
     </td>
@@ -19,7 +19,7 @@
 <li>{{=all[0]}}, {{=all[1]}}</li>
 {{pass}}
     </td>
-     
+
                <td>
                    <h4>{{=words[3]}}</h4>
 {{for all in model1.most_similar(positive=['огонь'], topn=20):}}

@@ -1,3 +1,7 @@
 {{extend 'layout.html'}}
-<h1>Это шаблон concordance/conc.html</h1>
-{{=BEAUTIFY(response._vars)}}
+<h1>Самые частотные слова в корпусе (более 500 употреблений)</h1>
+<ol>
+{{for all in words:}}
+<li>{{=all[0]}} — {{=all[1]}}</li>
+{{pass}}
+    </ol>

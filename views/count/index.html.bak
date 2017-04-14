@@ -1,8 +1,4 @@
 {{extend 'layout.html'}}
-{{for author in authors:}}
-        {{=A(author.name, " ", author.family, ". ", _href=URL('count_all', args=author.id))}}
-
-{{pass}}
 
 <table>
 {{for text in authors:}}

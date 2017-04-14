@@ -1,9 +1,74 @@
 {{extend 'layout.html'}}
+<h1>Таблица встречаемости морфологических форм у авторов корпуса</h1>
+<h5>(доля от общего количества словоупотреблений в текстах)</h5>
+{{=A('Визуализация морфологической схожести', _href=URL('count', 'table_view'))}}
+<table border='1px'>
+    <tr><td><b>Параметры</b></td><td></td>{{for all in authors:}} <td><b>{{=all.family}}</b> </td>{{pass}}</tr>
+    <tr><td><b>Форма</b></td><td>Краткая</td>{{for all in table.keys():}}<td>{{=round(table[all]['forma']['brev'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Полная</td>{{for all in table.keys():}}<td>{{=round(table[all]['forma']['plen'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Одушевленность</b></td><td>Одушевленное</td>{{for all in table.keys():}}<td>{{=round(table[all]['anim']['anim'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Неодушевленное</td>{{for all in table.keys():}}<td>{{=round(table[all]['anim']['inan'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Род</b></td><td>Мужской</td>{{for all in table.keys():}}<td>{{=round(table[all]['gender']['m'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Женский</td>{{for all in table.keys():}}<td>{{=round(table[all]['gender']['f'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Средний</td>{{for all in table.keys():}}<td>{{=round(table[all]['gender']['n'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Падеж</b></td><td>Именит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['nom'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Род.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['gen'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Дат.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['dat'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Винит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['acc'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Творит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['ins'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Предложн.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['abl'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Партитив</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['part'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Местный</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['loc'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Зват.</td>{{for all in table.keys():}}<td>{{=round(table[all]['cas']['voc'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Степень сравнения</b></td><td>Превосходная</td>{{for all in table.keys():}}<td>{{=round(table[all]['comp']['supr'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Сравнит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['comp']['comp'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Залог</b></td><td>Активный</td>{{for all in table.keys():}}<td>{{=round(table[all]['voice']['act'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Пассивный</td>{{for all in table.keys():}}<td>{{=round(table[all]['voice']['pass'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Число</b></td><td>Ед.</td>{{for all in table.keys():}}<td>{{=round(table[all]['number']['sg'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Мн.</td>{{for all in table.keys():}}<td>{{=round(table[all]['number']['pl'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Лицо</b></td><td>1-ое</td>{{for all in table.keys():}}<td>{{=round(table[all]['person']['1p'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>2-е</td>{{for all in table.keys():}}<td>{{=round(table[all]['person']['2p'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>3-е</td>{{for all in table.keys():}}<td>{{=round(table[all]['person']['3p'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Часть речи</b></td><td>Прилаг.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['A'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Наречие</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['ADV'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Мест. наречие</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['ADVPRO'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Числит.-прилаг.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['ANUM'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Мест.-прилаг.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['APRO'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Часть сложного слова</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['COM'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Союз</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['CONJ'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Междом.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['INTJ'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Числит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['NUM'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Частица</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['PART'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Предлог</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['PR'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Существ.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['S'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Мест.-сущ.</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['SPRO'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Глагол</td>{{for all in table.keys():}}<td>{{=round(table[all]['parts']['V'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Время</b></td><td>Прошедш.</td>{{for all in table.keys():}}<td>{{=round(table[all]['tense']['praet'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Непрошедш.</td>{{for all in table.keys():}}<td>{{=round(table[all]['tense']['inpraes'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Наст.</td>{{for all in table.keys():}}<td>{{=round(table[all]['tense']['praes'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Вид</b></td><td>Несов.</td>{{for all in table.keys():}}<td>{{=round(table[all]['aspect']['ipf'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Сов.</td>{{for all in table.keys():}}<td>{{=round(table[all]['aspect']['pf'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Глагол</b></td><td>Дееприч.</td>{{for all in table.keys():}}<td>{{=round(table[all]['verb']['ger'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Инфинитив</td>{{for all in table.keys():}}<td>{{=round(table[all]['verb']['inf'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Причастие</td>{{for all in table.keys():}}<td>{{=round(table[all]['verb']['partcp'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Изъявит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['verb']['indic'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Повелит.</td>{{for all in table.keys():}}<td>{{=round(table[all]['verb']['imper'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Переходность</b></td><td>Переходн.</td>{{for all in table.keys():}}<td>{{=round(table[all]['trans']['tran'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Непереходн.</td>{{for all in table.keys():}}<td>{{=round(table[all]['trans']['intr'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Имена собств.</b></td><td>Имя</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['persn'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Отчество</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['patrn'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Фамилия</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['famn'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Геогр.</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['geo'], 3)}}</td>{{pass}}</tr>
+    <tr><td><b>Другое</b></td><td>Вводное слово</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['parenth'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Затрудн.</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['awkw'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Общая форма м/ж</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['mf'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Обсцен.</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['obsc'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Предикатив</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['praed'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Разг.</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['inform'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Редкое</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['rare'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Сокращение</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['abbr'], 3)}}</td>{{pass}}</tr>
+    <tr><td></td><td>Устар.</td>{{for all in table.keys():}}<td>{{=round(table[all]['other']['obsol'], 3)}}</td>{{pass}}</tr>
 
-<table>
-{{for text in authors:}}
-        {{=TR(TD(text.name, " ", text.family, ". "), TD(A("Насыщенность словаря", _href=URL("words_range", args=text.id))), TD(A("Средняя длина слова", _href=URL("words_len", args=text.id))), TD(A("Средняя длина предложения", _href=URL("sentence_len", args=text.id))), TD(A("Части речи", _href=URL("count_partos", args=text.id))))}}
-    {{pass}}
+
 </table>
 
-{{=A("Самые частотные существительные", _href=URL('count_concordance'))}}

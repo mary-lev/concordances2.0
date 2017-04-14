@@ -121,7 +121,7 @@ def slovar():
 
 def slovar1():
     #file = ['/home/concordance/stem/2.txt']
-    all_text = trymysql(trymysql.text1.author==24).select()[700:]
+    all_text = trymysql(trymysql.text1.author==13).select()
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'

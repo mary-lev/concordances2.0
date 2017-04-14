@@ -12,7 +12,7 @@ def index():
     return dict()
 
 def index1():
-    tt = trymysql(trymysql.text1.author==14).select()
+    tt = trymysql((trymysql.text1.author==16)&(trymysql.text1.id>9561)).select()
     ids = [all.id for all in tt]
     for x in ids:
         words=[]

@@ -1,0 +1,34 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон concordance/word2vec.html</h1>
+{{=BEAUTIFY(response._vars)}}
+
+<table>
+<tr>
+<td><h4>Белый</h4>
+{{for all in model.most_similar(positive=['белый'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+    <td><h4>Красный</h4>
+{{for all in model.most_similar(positive=['красный'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+       <td><h4>Черный</h4>
+{{for all in model.most_similar(positive=['чёрный'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+           <td><h4>Золотой</h4>
+{{for all in model.most_similar(positive=['золотой'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+               <td>
+                   <h4>Синий</h4>
+{{for all in model.most_similar(positive=['синий'], topn=20):}}
+<li>{{=all[0]}}</li>
+{{pass}}
+    </td>
+        </tr></table>
+Белый/черный{{=model.similarity('белый', 'чёрный')}}<br/>

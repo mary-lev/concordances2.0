@@ -1,5 +1,7 @@
 {{extend 'layout.html'}}
 <h1>Частотный словарь по корпусу: {{=count}} слов</h1>
+<ol>
 {{for w in words[:3000]:}}
 <li>{{=w}}</li>
 {{pass}}
+    </ol>

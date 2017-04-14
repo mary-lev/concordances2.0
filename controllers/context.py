@@ -31,6 +31,9 @@ def context1():
 def context():
     text1 = request.vars.word
     texts = trymysql(trymysql.mystem.word==request.vars.word).select()
+    if len(texts)==0:
+        word = text1+'?'
+        texts = trymysql(trymysql.mystem.word==word).select()
     strings=[]
     for all in texts:
         location = all.location

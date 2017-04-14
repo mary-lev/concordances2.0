@@ -122,7 +122,7 @@ def doc2vec_find():
     return dict(documents=c, docs=docs, osn=osn)
 
 def doc2vec_load():
-    form = SQLFORM.factory(Field('first')).process()
+    form = SQLFORM.factory(Field('first', label=T('Текст'))).process()
     if form.accepted:
         redirect(URL('doc2vec_find', vars = form.vars))
     return dict(form=form)

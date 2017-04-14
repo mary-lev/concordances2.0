@@ -12,7 +12,7 @@ def index():
     return dict()
 
 def index1():
-    tt = trymysql(trymysql.text1.author==14).select()
+    tt = trymysql((trymysql.text1.id>10260)&(trymysql.text1.id<11000)).select()
     ids = [all.id for all in tt]
     for x in ids:
         words=[]
@@ -256,7 +256,7 @@ def find_s():
 def find_sonet():
     sonnet = ['|4|4|3|3|', '|4|4|4|2|', '|4|4|6|', '|4|4|2|2|2|', '|12|2|']
     texts = [t.title for t in trymysql(trymysql.stih.strofa.belongs(sonnet)).select()]
-    ttt = trymysql(trymysql.text1.id.belongs(texts)).select(orderby=trymysql.stih.author)
+    ttt = trymysql(trymysql.text1.id.belongs(texts)).select(orderby=trymysql.text1.author)
     return dict(ttt=ttt)
 
 def find_2():

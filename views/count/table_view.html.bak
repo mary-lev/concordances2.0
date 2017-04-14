@@ -1,0 +1,21 @@
+{{extend 'layout.html'}}
+<h1>Морфологическая близость авторов</h1>
+
+{{=IMG(_src=URL('static', i))}}
+
+<table>
+    <tr>{{for all in authors:}} <td>{{=all.family}} </td>{{pass}}</tr>
+    <tr>{{for all in table.keys():}}<td>{{=all}} {{=table[all]}}</td>{{pass}}</tr>
+    </table>
+
+
+{{for all in data_array:}}
+<h1>Новый</h1>
+<ol>{{for e in all:}}
+<li>{{=e}}</li>
+    {{pass}}
+    </ol>
+{{pass}}
+
+{{=data_array}}
+{{=values}}

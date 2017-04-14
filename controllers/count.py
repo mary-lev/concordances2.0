@@ -1,11 +1,34 @@
 # coding: utf8
+from transliterate import translit
+import json
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from sklearn.manifold import MDS
+import pandas as pd
+import numpy as np
 from operator import itemgetter
+from draw_kmeans_plt import *
 
 partos = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
 
 def index():
-    authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.family)
-    return dict(authors=authors)
+    no = [3, 22, 23]
+    authors = trymysql(trymysql.author.id>0).select()
+    table = {}
+    for all in no:
+        authors.exclude(lambda row: row.id == all)
+    a_numbers = [all.id for all in authors if str(all.id) not in no]
+    names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
+    for all in a_numbers:
+        try:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(all) + '_data.txt'
+            d = json.load(open(filename))
+            table[all] = d
+        except:
+            pass
+    return dict(table=table, authors=authors)
 
 def count_partos():
     part = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
@@ -47,30 +70,165 @@ def words_range(): # count variety of dictionary of the author
 
 punct = ['.', ',', '!', '?', '—']
 
-def table_data():
-    all_words = trymysql(trymysql.allword.author==request.args(0)).count()
-    all_texts = trymysql(trymysql.text1.author==request.args(0)).count()
-    data = []
-    for all in partos:
-        words = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos==all)).count()
-        data.append(words)
+ypartos = ['A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V'] #
+ytense = ['tense', 'praes',	'inpraes', 'praet']
+ycase = ['cas', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
+ynum = ['number', 'sg', 'pl']
+yverb = ['verb', 'ger', 'inf', 'partcp', 'indic', 'imper']
+yform = ['forma', 'brev', 'plen', 'poss']
+ycomp = ['comp', 'supr', 'comp']
+yperson = ['person', '1p', '2p', '3p']
+ygender = ['gender', 'm', 'f', 'n']
+yaspect = ['aspect', 'ipf', 'pf']
+yvoice = ['voice', 'act', 'pass']
+yanim = ['anim', 'anim', 'inan']
+ytrans = ['trans', 'tran', 'intr']
+yother = ['other', 'parenth', 'geo', 'awkw', 'persn', 'dist', 'mf', 'obsc', 'patrn', 'praed', 'inform', 'rare', 'abbr', 'obsol', 'famn']
+
+all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect, yvoice, yanim, ytrans, yother]
+
+def stat_data(): # собираем данные по каждому автору для записи в файл
+    #query = ((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='PNCT'))
+    a = request.args(0)
+    query = trymysql.executesql('SELECT (id) from mystem WHERE author= %s and partos!=%s;', placeholders = (a, 'PNCT',))
+    query1 = trymysql.executesql('SELECT (id) from text1 WHERE author=%s;', placeholders = (a,))
+    #all_words = trymysql.executesql('SELECT COUNT (id) from mystem WHERE author= %s and partos!=%s;', placeholders =(15, 'PNCT',))
+    all_words = len(query)
+    all_texts = len(query1)
+    data = {}
+    data['all_words']=float(all_words)/all_texts
     pun = []
-    all_pun = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word.belongs(punct))).count()
+    #punct1 = [all.encode('utf-8') for all in punct]
+    #all_pun = trymysql((query1)&(trymysql.mystem.word.belongs(punct))).count()
+    pun = trymysql.executesql('SELECT (id) from mystem where (author)=%s and (word) in %s;', placeholders=(a, punct,))
+    all_pun = len(pun)
+    #all_pun = trymysql.executesql('SELECT COUNT * FROM mystem WHERE word IN %s;', punct1)
+    data['all_punct'] = float(all_pun)/all_texts
+    data['punct'] = {}
     for all in punct:
-        words = trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.word==all)).count()
-        pun.append(words)
-    # length of words
-    words = [all.lemma for all in trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos.belongs(partos))).select()]
+        #words = trymysql((query1)&(trymysql.mystem.word==all)).count()
+        word = trymysql.executesql('SELECT (id) from mystem where author=%s and word=%s;', placeholders=(a, all,))
+        words = len(word)
+        data['punct'][all] = float(words)/all_texts
+
+    #length of words (средняя длина слова)
+    #words = [all.lemma for all in trymysql(trymysql.mystem.author==a).select()]
+    word = trymysql.executesql('select (lemma) from mystem where author=%s and partos!=%s;', placeholders=(a, 'PNCT'))
     len_words = 0
-    for all in words:
-        len_words = len_words+len(all)
-    lw = len_words/len(words)
-    inan = trymysql(trymysql.allword.anim=='inan').count()
-    anim = trymysql(trymysql.allword.anim=='anim').count()
-    masc = trymysql(trymysql.allword.gendr=='masc').count()
-    femn = trymysql(trymysql.allword.gendr=='femn').count()
-    past = trymysql(trymysql.allword.tense=='past').count()
-    pres = trymysql(trymysql.allword.tense=='pres').count()
-    futr = trymysql(trymysql.allword.tense=='futr').count()
-    name = trymysql(trymysql.allword.sobstv!='None').count()
-    return dict(data=data, all_words=all_words, all_texts=all_texts, pun = pun, all_pun=all_pun, lw=lw, inan=inan, anim=anim, masc=masc, femn=femn, past=past, pres=pres, futr=futr, name=name)
+    word = list(word)
+    for all in word:
+        len_words = len_words+len(all[0])
+    lw = float(len_words)/len(word)
+    data['len_word'] = lw
+
+    #words_range (насыщенность словаря)
+    #words_word = [all.word for all in trymysql(trymysql.mystem.author==a).select()]
+    words_word = trymysql.executesql('select (word) from mystem where author=%s;', placeholders=(a,))
+    lemmas = [all[0] for all in words_word]
+    lemmas_sort = sorted(set(list(lemmas)))
+    w_range = float(len(lemmas_sort)/(len(words_word)*1.0))
+    data['w_range'] = w_range
+    filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '_stat.txt'
+    json.dump(data, open(filename,'w'))
+    short = [all for all in word if len(all) <=2]
+    return dict(data=data, all_words=all_words, all_texts=all_texts, all_pun=all_pun, len_words = len_words, l = len(word), wt = short)
+
+def table_data(): # собираем морфологические данные по каждому автору и записываем в файл
+    query = ((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='PNCT'))
+    all_words = trymysql(query).count()
+    data = {}
+    for all in all_parts:
+        data[all[0]] = {}
+        for each in all:
+            t = trymysql((query)&(trymysql.mystem[all[0]]==each)).count()
+            data[all[0]][each] = t
+    data['parts'] = {}
+    for all in ypartos:
+        words = trymysql((query)&(trymysql.mystem.partos==all)).count()
+        data['parts'][all]=words
+    # %
+    proc = {}
+    for key, value in data.iteritems():
+        proc[key] = {}
+        for k, v in value.iteritems():
+            proc[key][k] = float(v)/all_words
+    filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '_data.txt'
+    json.dump(proc, open(filename,'w'))
+    return dict(data=data, proc=proc)
+
+def table_view():
+    no = [3, 22, 23]
+    authors = trymysql(trymysql.author.id>0).select()
+    table = {}
+    for all in no:
+        authors.exclude(lambda row: row.id == all)
+    a_numbers = [all.id for all in authors if str(all.id) not in no]
+    names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
+    for all in a_numbers:
+        try:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(all) + '_data.txt'
+            d = json.load(open(filename))
+            table[all] = d
+        except:
+            pass
+    data_array = []
+    values = []
+    for n, all in table.iteritems():
+        new_list = []
+        for key, value in all.iteritems():
+            values.append(value)
+            for k, v in value.iteritems():
+                new_list.append(v)
+        data_array.append(new_list)
+    X = np.array(data_array, dtype=float)
+    filename = 'authors.png'
+    draw(X, names, filename)
+    return dict(table=table, authors=authors, data_array=data_array, values=values, i=filename)
+
+def stat_view():
+    no = [3, 22, 23]
+    authors = trymysql(trymysql.author.id>0).select()
+    table = {}
+    for all in no:
+        authors.exclude(lambda row: row.id == all)
+    a_numbers = [all.id for all in authors if str(all.id) not in no]
+    names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
+    for all in a_numbers:
+        try:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(all) + '_stat.txt'
+            d = json.load(open(filename))
+            table[all] = d
+        except:
+            pass
+    data_array = []
+    values = []
+    for n, all in table.iteritems():
+        new_list = []
+        for key, value in all.iteritems():
+            if key=='punct':
+                for k, v in value.iteritems():
+                    new_list.append(v)
+            else:
+                new_list.append(value)
+        data_array.append(new_list)
+    X = np.array(data_array, dtype=float)
+    filename = 'stat.png'
+    draw(X, names, filename)
+    return dict(table=table, authors=authors, data_array=data_array, values=values, i=filename)
+
+def stat_table():
+    no = [3, 22, 23]
+    authors = trymysql(trymysql.author.id>0).select()
+    table = {}
+    for all in no:
+        authors.exclude(lambda row: row.id == all)
+    a_numbers = [all.id for all in authors if str(all.id) not in no]
+    names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
+    for all in a_numbers:
+        try:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(all) + '_stat.txt'
+            d = json.load(open(filename))
+            table[all] = d
+        except:
+            pass
+    return dict(table=table, authors=authors)

@@ -121,7 +121,7 @@ def slovar():
 
 def slovar1():
     #file = ['/home/concordance/stem/2.txt']
-    all_text = trymysql(trymysql.text1.author==30).select()
+    all_text = trymysql(trymysql.text1.author==13).select()[350:]
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'
@@ -184,6 +184,8 @@ def slovar1():
                             trymysql.mystem.insert(word = punct, lemma=punct, title=text, author=author, partos = 'PNCT', location = n)
     return dict(new=new, n=n)
 
+ypartos = ['None', 'A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V']
+
 def count_partos(): # count categories by author
     new = []
     authors = [1,4,5,7,8,9,10,11, 12]
@@ -230,21 +232,35 @@ def count_tense_group():
         new.append((name['title'], tense))
     return dict(new=new)
 
+ytense = ['None', 'praes',	'inpraes', 'praet']
+ycase = ['None', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
+ynum = ['None', 'sg', 'pl']
+yverb = ['None', 'ger', 'inf', 'partcp', 'indic', 'imper']
+yform = ['None', 'brev', 'plen', 'poss']
+ycomp = ['None', 'supr', 'comp']
+yperson = ['None', '1p', '2p', '3p']
+ygender = ['None', 'm', 'f', 'n']
+yaspect = ['None', 'ipf', 'pf']
+yvoice = ['None', 'act', 'pass']
+yanim = ['None', 'anim', 'inan']
+ytrans = ['None', 'tran', 'intr']
+ynames = ['None', 'persn', 'patrn', 'famn', 'geo']
+
 def search():
     options2 = [OPTION(texts.name, " ", texts.family, _value=texts.id) for texts in trymysql().select(trymysql.author.ALL)]
     form=FORM(TABLE(TR("Автор", SELECT(*options2, _name="author")),
-                    TR("Часть речи",SELECT(*partos, _name="first")),
-                    TR("Падеж",SELECT(*case, _name="second")),
-                    TR("Одушевленность",SELECT(*animacy, _name="animacy")),
-                    TR("Род", SELECT(*gender, _name="gender")),
-                    TR("Время", SELECT(*tenses, _name="tenses")),
-                    TR("Вид", SELECT(*aspect, _name = "aspect")),
-                    TR("Залог", SELECT(*voice, _name = "voice")),
-                    TR("Лицо", SELECT(*person, _name = "person")),
-                    TR("Переходность", SELECT(*trans, _name = "trans")),
-                    TR("Число", SELECT(*number, _name = "number")),
-                    TR("Наклонение", SELECT(*mood, _name="mood")),
-                    TR("Имена собственные", SELECT(*names, _name="names")),
+                    TR("Часть речи",SELECT(*ypartos, _name="first")),
+                    TR("Падеж",SELECT(*ycase, _name="second")),
+                    TR("Одушевленность",SELECT(*yanim, _name="animacy")),
+                    TR("Род", SELECT(*ygender, _name="gender")),
+                    TR("Время", SELECT(*ytense, _name="tenses")),
+                    TR("Вид", SELECT(*yaspect, _name = "aspect")),
+                    TR("Залог", SELECT(*yvoice, _name = "voice")),
+                    TR("Лицо", SELECT(*yperson, _name = "person")),
+                    TR("Переходность", SELECT(*ytrans, _name = "trans")),
+                    TR("Число", SELECT(*ynum, _name = "number")),
+                    TR("Наклонение", SELECT(*yverb, _name="mood")),
+                    TR("Имена собственные", SELECT(*ynames, _name="names")),
                     TR("",INPUT(_type="submit",_value="SUBMIT"))))
     if form.process(formname='form_one').accepted:
         redirect(URL('search_result', args =
@@ -271,38 +287,38 @@ def search_result():
     gender = request.args(3)
     author = request.args(4)
     tense = request.args(5)
-    words = trymysql(trymysql.allword.author==request.args(4)).select(trymysql.allword.id)
+    words = trymysql(trymysql.mystem.author==request.args(4)).select(trymysql.mystem.id)
     if request.args(0) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.partos==request.args(0))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.partos==request.args(0))).select()
     if request.args(1) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.cas==request.args(1))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.cas==request.args(1))).select()
     if request.args(2) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.anim==request.args(2))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.anim==request.args(2))).select()
     if request.args(3) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.gendr==request.args(3))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.gender==request.args(3))).select()
     if request.args(5) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.tense==request.args(5))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.tense==request.args(5))).select()
     if request.args(6) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.aspect==request.args(6))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.aspect==request.args(6))).select()
     if request.args(7) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.voice==request.args(7))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.voice==request.args(7))).select()
     if request.args(8) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.person==request.args(8))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.person==request.args(8))).select()
     if request.args(9) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.transitivity==request.args(9))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.trans==request.args(9))).select()
     if request.args(10) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.number==request.args(10))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.number==request.args(10))).select()
     if request.args(11) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.mood==request.args(11))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.verb==request.args(11))).select()
     if request.args(12) != 'None':
-        words = trymysql((trymysql.allword.id.belongs(words))&(trymysql.allword.sobstv==request.args(12))).select()
+        words = trymysql((trymysql.mystem.id.belongs(words))&(trymysql.mystem.other==request.args(12))).select()
     message=""
     strings=[]
     if len(words) == 0:
         message = "Sorry, nothing found"
     else:
         for all in words:
-            location = all.text_location
+            location = all.location
             title1 = trymysql(trymysql.text1.id==int(all.title)).select()[0]
             title=title1.title
             author= (title1.author.name, title1.author.family)
@@ -310,7 +326,7 @@ def search_result():
             blue_word = all.lemma
             for x in range(all.id-6, all.id+6):
                 try:
-                    for_string = trymysql(trymysql.allword.id==x).select()[0]
+                    for_string = trymysql(trymysql.mystem.id==x).select()[0]
                     string= string + " " + str(for_string.lemma)
                 except:
                     pass
@@ -327,14 +343,28 @@ def fix():
 
 @auth.requires_login()
 def correct_word():
-    record = trymysql.allword(request.args(0))
-    form = SQLFORM(trymysql.allword, record)
+    record = trymysql.mystem(request.args(0))
+    form = SQLFORM(trymysql.mystem, record)
     if form.process().accepted:
        response.flash = 'form accepted'
     return dict(form=form)
 
+ytense = ['None', 'praes',	'inpraes', 'praet']
+ycase = ['None', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
+ynum = ['None', 'sg', 'pl']
+yverb = ['None', 'ger', 'inf', 'partcp', 'indic', 'imper']
+yform = ['None', 'brev', 'plen', 'poss']
+ycomp = ['None', 'supr', 'comp']
+yperson = ['None', '1p', '2p', '3p']
+ygender = ['None', 'm', 'f', 'n']
+yaspect = ['None', 'ipf', 'pf']
+yvoice = ['None', 'act', 'pass']
+yanim = ['None', 'anim', 'inan']
+ytrans = ['None', 'tran', 'intr']
+ynames = ['None', 'persn', 'patrn', 'famn', 'geo']
+
 def correct():
-    record = trymysql(trymysql.allword.id==request.args(0)).select()[0]
+    record = trymysql(trymysql.mystem.id==request.args(0)).select()[0]
     text= trymysql(trymysql.text1.id == record.title).select()[0]
     f = open(text.filename, 'rb')
     author = text.author.family
@@ -343,19 +373,18 @@ def correct():
     content = f.readlines()
     form=FORM(TABLE(TR("Слово", INPUT(_type='text', _name="word", value=record.word)),
                     TR("Форма", INPUT(_type='text', _name = "lemma", value = record.lemma)),
-                    TR("Часть речи",SELECT(*partos, _name="first", value = record.partos)),
-                    TR("Падеж",SELECT(*case, _name="second", value=record.cas)),
-                    TR("Одушевленность",SELECT(*animacy, _name="animacy", value = record.anim)),
-                    TR("Род", SELECT(*gender, _name="gender", value = record.gendr)),
-                    TR("Время", SELECT(*tenses, _name="tenses", value = record.tense)),
-                    TR("Вид", SELECT(*aspect, _name = "aspect", value= record.aspect)),
-                    TR("Залог", SELECT(*voice, _name = "voice", value = record.voice)),
-                    TR("Лицо", SELECT(*person, _name = "person", value = record.person)),
-                    TR("Переходность", SELECT(*trans, _name = "trans", value = record.transitivity)),
-                    TR("Число", SELECT(*number, _name = "number", value = record.number)),
-                    TR("Наклонение", SELECT(*mood, _name="mood", value = record.mood)),
-                    TR("Имена собственные", SELECT(*names, _name="names", value = record.sobstv)),
-                    TR("Стиль", SELECT(*style, _name="style", value = record.style)),
+                    TR("Часть речи",SELECT(*ypartos, _name="first", value = record.partos)),
+                    TR("Падеж",SELECT(*ycase, _name="second", value=record.cas)),
+                    TR("Одушевленность",SELECT(*yanim, _name="animacy", value = record.anim)),
+                    TR("Род", SELECT(*ygender, _name="gender", value = record.gender)),
+                    TR("Время", SELECT(*ytense, _name="tenses", value = record.tense)),
+                    TR("Вид", SELECT(*yaspect, _name = "aspect", value= record.aspect)),
+                    TR("Залог", SELECT(*yvoice, _name = "voice", value = record.voice)),
+                    TR("Лицо", SELECT(*yperson, _name = "person", value = record.person)),
+                    TR("Переходность", SELECT(*ytrans, _name = "trans", value = record.trans)),
+                    TR("Число", SELECT(*ynum, _name = "number", value = record.number)),
+                    TR("Наклонение", SELECT(*yverb, _name="mood", value = record.verb)),
+                    TR("Имена собственные", SELECT(*ynames, _name="names", value = record.other)),
                     TR("",INPUT(_type="submit",_value="SUBMIT"))))
     if form.process().accepted:
         record.update_record(word = form.vars['word'],
@@ -369,8 +398,7 @@ def correct():
                       person = form.vars['person'],
                       transitivity = form.vars['trans'],
                       number = form.vars['number'],
-                      mood = form.vars['mood'],
-                      sobstv = form.vars['names'],
-                      style = form.vars['style'])
+                      verb = form.vars['mood'],
+                      other = form.vars['names'])
         response.flash="form accepted"
     return dict(form=form, content = content, author=author, a_name = a_name, title = title, word=record.lemma)
