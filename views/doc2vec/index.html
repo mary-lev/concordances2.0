@@ -1,0 +1,17 @@
+{{extend 'layout.html'}}
+<h1>Это шаблон concordance/doc2vec.html</h1>
+{{=string1.title}} {{=string1.first_string}}. {{=string1.author.family}}
+
+
+<ul>
+{{for a in poems:}}
+    <li>{{=A(a.author.family, '. ', a.title, _href=URL('show', 'show3', args=a.text.id))}}</li>
+{{pass}}</ul>
+
+<ul>
+    {{for all in drafts:}}
+    <li>
+        {{=all[0]}}, {{=all[1]}}
+    </li>
+    {{pass}}
+</ul>
