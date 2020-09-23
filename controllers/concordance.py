@@ -105,18 +105,18 @@ def resp_model():
     words = request.vars.first
     return dict(model=model, words=words, model1=model1, model2=model2)
 
+part=['A', 'ADV', 'ANUM', 'COM', 'S', 'SPRO', 'V']
+
 def doc2vec():
+    authors = [1,4]
     documents = []
-    authors = [1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
-    #authors = [1,5]
-    titles = [all.id for all in trymysql(trymysql.text1.id>0).select()]
-    part=['ADJF', 'NOUN', 'VERB']
+    titles = [all.id for all in trymysql(trymysql.text1.author.belongs(authors)).select()]
     for all in titles:
-        one = [alles.word for alles in trymysql((trymysql.allword.title==all)&(trymysql.allword.partos.belongs(part))).select()]
+        one = [alles.word for alles in trymysql((trymysql.mystem.title==all)&(trymysql.mystem.partos.belongs(part))).select()]
         docs = gensim.models.doc2vec.TaggedDocument(words=one, tags=[all])
         documents.append(docs)
     model = gensim.models.doc2vec.Doc2Vec(documents, size=100, window=8, min_count=5, workers=4)
-    model.save("/home/concordance/web2py/applications/test/uploads/models/allpoets")
+    model.save("/home/concordance/web2py/applications/test/uploads/models/allpoets_new")
     c = model.docvecs.most_similar(1)
     docs = []
     for all in c:
@@ -125,9 +125,21 @@ def doc2vec():
     osn = trymysql(trymysql.text1.id==1).select()[0]
     return dict(documents=c, docs= docs, osn=osn)
 
+def doc2vec_train():
+    documents = []
+    titles = [all.id for all in trymysql(trymysql.text1.author==request.args(0)).select()]
+    model = gensim.models.doc2vec.Doc2Vec.load("/home/concordance/web2py/applications/test/uploads/models/allpoets_new")
+    for all in titles:
+        one = [alles.word for alles in trymysql((trymysql.mystem.title==all)&(trymysql.mystem.partos.belongs(part))).select()]
+        docs = gensim.models.doc2vec.TaggedDocument(words=one, tags=[all])
+        documents.append(docs)
+    model.train(documents)
+    model.save("/home/concordance/web2py/applications/test/uploads/models/allpoets_new")
+    return dict(model=model)
+
 def doc2vec_find():
     poem = int(request.vars.first)
-    model = gensim.models.doc2vec.Doc2Vec.load("/home/concordance/web2py/applications/test/uploads/models/allpoets")
+    model = gensim.models.doc2vec.Doc2Vec.load("/home/concordance/web2py/applications/test/uploads/models/allpoets_new")
     c = model.docvecs.most_similar(poem)
 
     docs = []

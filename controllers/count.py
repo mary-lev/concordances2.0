@@ -1,17 +1,10 @@
 # coding: utf8
 from transliterate import translit
 import json
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-from sklearn.manifold import MDS
-import pandas as pd
 import numpy as np
 from operator import itemgetter
 from draw_kmeans_plt import *
-
-partos = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
+from categories import *
 
 def index():
     no = [3, 22, 23]
@@ -31,8 +24,7 @@ def index():
     return dict(table=table, authors=authors)
 
 def count_partos():
-    part = ['NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
-    parts=[trymysql((trymysql.allword.partos==all)&(trymysql.allword.author==request.args(0))).count() for all in part]
+    parts=[trymysql((trymysql.allword.partos==all)&(trymysql.allword.author==request.args(0))).count() for all in partos]
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     author=author1['family']
     return dict(parts=parts, author=author)
@@ -61,31 +53,6 @@ def words_len(): # count mean of length of all words of the author and draw a di
     distribution = sorted(set([(all, list_lemma.count(all)) for all in list_lemma]))
     words_length = round(sum(list_lemma)/(len(texts)*1.0), 3)
     return dict(words_length=words_length, distribution=distribution)
-
-def words_range(): # count variety of dictionary of the author
-    words = [all.word for all in trymysql((trymysql.allword.author==request.args(0))&(trymysql.allword.partos!='None')&(trymysql.allword.partos!="PNCT")).select()]
-    lemmas_sort = sorted(set(words))
-    w_range = float(len(lemmas_sort)/(len(words)*1.0))
-    return dict(w_range=w_range)
-
-punct = ['.', ',', '!', '?', '—']
-
-ypartos = ['A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V'] #
-ytense = ['tense', 'praes',	'inpraes', 'praet']
-ycase = ['cas', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
-ynum = ['number', 'sg', 'pl']
-yverb = ['verb', 'ger', 'inf', 'partcp', 'indic', 'imper']
-yform = ['forma', 'brev', 'plen', 'poss']
-ycomp = ['comp', 'supr', 'comp']
-yperson = ['person', '1p', '2p', '3p']
-ygender = ['gender', 'm', 'f', 'n']
-yaspect = ['aspect', 'ipf', 'pf']
-yvoice = ['voice', 'act', 'pass']
-yanim = ['anim', 'anim', 'inan']
-ytrans = ['trans', 'tran', 'intr']
-yother = ['other', 'parenth', 'geo', 'awkw', 'persn', 'dist', 'mf', 'obsc', 'patrn', 'praed', 'inform', 'rare', 'abbr', 'obsol', 'famn']
-
-all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect, yvoice, yanim, ytrans, yother]
 
 def stat_data(): # собираем данные по каждому автору для записи в файл
     #query = ((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='PNCT'))
@@ -121,6 +88,16 @@ def stat_data(): # собираем данные по каждому автор�
     lw = float(len_words)/len(word)
     data['len_word'] = lw
 
+    #length of poems
+    poems = trymysql(trymysql.text1.author==request.args(0)).select()
+    lines = 0
+    for all in poems:
+        filename = all.filename
+        with open(filename, 'r') as f:
+            text = f.readlines()
+        lines += len(text)
+    data['len_poem'] = round(float(lines)/len(poems), 3)
+
     #words_range (насыщенность словаря)
     #words_word = [all.word for all in trymysql(trymysql.mystem.author==a).select()]
     words_word = trymysql.executesql('select (word) from mystem where author=%s;', placeholders=(a,))
@@ -128,10 +105,11 @@ def stat_data(): # собираем данные по каждому автор�
     lemmas_sort = sorted(set(list(lemmas)))
     w_range = float(len(lemmas_sort)/(len(words_word)*1.0))
     data['w_range'] = w_range
+
     filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '_stat.txt'
     json.dump(data, open(filename,'w'))
     short = [all for all in word if len(all) <=2]
-    return dict(data=data, all_words=all_words, all_texts=all_texts, all_pun=all_pun, len_words = len_words, l = len(word), wt = short)
+    return dict(data=data, all_texts=all_texts, all_pun=all_pun, len_words = len_words, l = len(word))
 
 def table_data(): # собираем морфологические данные по каждому автору и записываем в файл
     query = ((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='PNCT'))

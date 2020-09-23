@@ -1,6 +1,14 @@
 # coding: utf8
 from __future__ import division
-
+from transliterate import translit
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from sklearn.manifold import MDS
+import pandas as pd
+import numpy as np
+from draw_kmeans_plt import *
 color=["зелёный", "золотой", "голубой", "красный", "белый", "жёлтый", "чёрный", "коричневый", "синий", "розовый", "пурпурный", "фиолетовый", "серый", "жолтый", "лазурный", "алый", "лазоревый", "синева", "золотистый", "рыжий", "голубоватый", "златой", "бирюзовый", "лазурь", "бирюза", "пурпуровый", "чернеть", "белеть"]
 
 color2=["зеленый", "золото", "голубой", "красный", "белый", "желтый", "черный", "коричневый", "синий", "розовый", "пурпур", "фиолетовый", "серый", "лазурь", "алый", "рыжий", "бирюза", 'оранжевый', 'багровый', 'багряный', 'лиловый', 'сирень', 'сизый', 'серебро']
@@ -49,6 +57,29 @@ def index():
         response.flash="form accepted"
     return dict(colours2=colours2, all_colours=all_colours, all_words=all_words, authors=authors, auts=auts, form=form, form2=form2, proc=proc, average_pro = average_pro, au_pro = au_pro)
 
+def vis():
+    with open(colorfile, 'r') as f:
+        data = f.readlines()
+    data_new = [all.split(',')[1:] for all in data]
+    author = [all.split(',')[0] for all in data]
+    authors = []
+    for a in author:
+        authors.append(trymysql(trymysql.author.id == a).select(trymysql.author.family)[0])
+    names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
+    proc = []
+    for all in data_new:
+        last = all.pop()
+        l = [int(n) for n in all]
+        s = sum(l)
+        new_list = [float(each)/s for each in l]
+        zvetnost = float(s)/int(last)
+        new_list.append(zvetnost)
+        proc.append(new_list)
+    X = np.array(proc, dtype=float)
+    filename = 'authors_colors.png'
+    draw(X, names, filename)
+    return dict(i=filename, data_new=data_new, proc=proc)
+
 def index1():
     authors = trymysql().select(trymysql.author.ALL)
     a = d((d.mystem.partos!="None")&(d.mystem.partos!='PNCT')).count()
@@ -82,28 +113,34 @@ def author(): # отображение данных по цветообозна�
 
 def author_all_color():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
+    authors = trymysql().select(trymysql.author.ALL)
     result = []
-    test_words = ['сизый']
-    for all in test_words:
-        rows = d((d.mystem.word==all)&(d.mystem.author==request.args(0))).select()
-        word_title_number = [[w.title, int(w.id)] for w in rows]
-        result.append(word_title_number)
-    before_text = []
-    for r in result:
-        gram_text_words = [w.word for w in d((d.mystem.title==r[0])&(d.mystem.id<r[1])).select()]
-        before_text.append(gram_text_words)
-    return dict(before_text=result, t = type(result[0]))
+    #test_words = ['сизый']
+    for all in color2:
+        color_list = []
+        pros = [p.pro for p in trymysql(trymysql.slovar1.word==all).select()]
+        pros.append(all)
+        rows = trymysql((trymysql.mystem.word.belongs(pros))&(trymysql.mystem.author==request.args(0))).select()
+        for r in rows:
+            filename = '/home/concordance/web2py/applications/test/corpus/' + str(request.args(0)) + '/' + str(r.title) + '.txt'
+            with open(filename, 'rb') as f:
+                text = f.readlines()
+            corpus_text = text[int(r.location)-1]
+            text = trymysql(trymysql.text1.id == r.title).select()[0]
+            color_list.append([corpus_text, text])
+        result.append([all, color_list])
+    return dict(text=result, author = author1, authors=authors)
 
-@auth.requires_login()
+#@auth.requires_login()
 def author_index(): # сохраняем авторские данные в текстовый файл для ускорения рисования кружочков
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     result=[str(author1.id)]
     for all in color2:
         all_word = [w.pro for w in trymysql(trymysql.slovar1.word==all).select()]
         all_word.append(all)
-        summa = d((d.mystem.word.belongs(all_word))&(d.mystem.author==request.args(0))).count()
+        summa = trymysql((trymysql.mystem.word.belongs(all_word))&(trymysql.mystem.author==request.args(0))).count()
         result.append(str(summa))
-    all_words2 = d((d.mystem.author==request.args(0))&(d.mystem.partos!='None')).count()
+    all_words2 = trymysql((trymysql.mystem.author==request.args(0))&(trymysql.mystem.partos!='None')).count()
     result.append(str(all_words2))
     result = ','.join(result) + '\n'
     with open(colorfile, 'a') as f:
@@ -113,8 +150,8 @@ def author_index(): # сохраняем авторские данные в те
 def image_compare(): # Сравниваем цвета двух текстов
     base_id=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(0)).select()]
     base_id0=[int(all.id) for all in trymysql(trymysql.text1.group_text==request.args(1)).select()]
-    colours=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id))).count() for all in color]
-    colours2=[trymysql((trymysql.allword.word==all)&(trymysql.allword.title.belongs(base_id0))).count() for all in color]
+    colours=[trymysql((trymysql.mystem.word==all)&(trymysql.mystem.title.belongs(base_id))).count() for all in color]
+    colours2=[trymysql((trymysql.mystem.word==all)&(trymysql.mystem.title.belongs(base_id0))).count() for all in color]
     all_colours = sum([int(x) for x in colours])
     all_colours2 = sum([int(x) for x in colours2])
     title_1 = trymysql(trymysql.group_text.id==request.args(0)).select().first()
@@ -168,3 +205,21 @@ def seasons():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     author=author1['family']
     return dict(colours=colours, all_colours=all_colours, all=all, author=author)
+
+def years():
+    authors = [int(a.id) for a in trymysql().select(trymysql.author.ALL, orderby=trymysql.author.year_birth)]
+    with open(colorfile, 'r') as f:
+        data = f.readlines()
+    # считаем процент цвета для каждого автора
+    new_data = [a.split(',') for a in data] # готовим к подсчету авторского процента цветообозначений
+    data = []
+    for a in authors:
+        for line in new_data:
+            if int(line[0]) == a:
+                s = line.pop(0)
+
+                words = int(line.pop(-1))
+                all_col = sum([int(al) for al in line])
+                pro = round(float(all_col)/float(words)*100, 2)
+                data.append([s, pro])
+    return dict(authors = authors, data = data)

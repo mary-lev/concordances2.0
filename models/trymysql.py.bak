@@ -236,6 +236,29 @@ trymysql.define_table('epi',
                        Field('epi_text_id', trymysql.text1, requires=None),
                        Field('epi_filename', label='Файл'))
 
+trymysql.define_table('mystem',
+               Field('word', label="Слово"),
+               Field('lemma', label='Словоформа'),
+               Field('title', trymysql.text1, label="Текст"),
+               Field('partos', label="Часть речи"),
+               Field('anim', label="Одушевленность"),
+               Field('gender', label="Род"),
+               Field('forma', label = "Форма"),
+               Field('comp', label = "Сравнит"),
+               Field('number', label="Число"),
+               Field('cas', label="Падеж"),
+               Field('tense', label="Время"),
+               Field('aspect', label="Вид"),
+               Field('person', label="Лицо"),
+               Field('trans', label="Переходность"),
+               Field('verb', label="Форма глагола"),
+               Field('voice', label="Залог"),
+               Field('other', label="Другое"),
+               Field('lexical_group', label="Лексическая группа"),
+               Field('location', label='Номер в тексте'),
+               Field('concordance_number',  label="Номер в конкордансе"),
+               Field('author', trymysql.author, label="Автор") )
+
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)
 b = (trymysql.variants.comment_book==trymysql.biblio.id)

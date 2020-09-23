@@ -4,124 +4,18 @@ SQLEDITABLE.init()
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
 import csv
+from categories import *
 
-names = ['None', 'Abbr', 'Name', 'Surn', 'Patr', 'Geox', 'Init']
-style = ['None', 'Infr', 'Slng', 'Arch', 'Litr', 'Erro', 'Dist']
-other = ['Ques', 'Dmns', 'Prnt', 'Prdx', 'Af-p', 'Anph', 'Inmx', 'V-be', 'V-en', 'V-ie', 'V-bi', 'V-ey', 'V-oy', 'Cmp2', 'V-ej', 'Fimp', 'Coun', 'Coll', 'V-sh', 'Vpre', 'Supr', 'Qual', 'Apro', 'Anum', 'Poss']
-
-partos = ['None', 'NOUN', 'ADJF', 'ADJS', 'VERB', 'INFN', 'GRND', 'PRTF', 'PRTS', 'ADVB', 'PREP', 'CONJ', 'NPRO', 'PRCL' ]
-animacy = ['None', 'anim', 'inan']
-gender = ['None', 'masc', 'femn', 'neut', 'Ms-f']
-number = ['None', 'sing', 'plur', 'Sgtm', 'Pltm']
-case = ['None', 'nomn', 'gent', 'datv', 'accs', 'ablt', 'loct', 'voct', 'gen1', 'gen2', 'acc2', 'loc1', 'loc2']
-aspect = ['None', 'perf', 'impf']
-trans = ['None', 'tran', 'intr']
-person = ['None', '1per', '2per', '3per']
-tenses = ['None', 'past', 'pres', 'futr']
-mood = ['None', 'indc', 'impr']
-voice = ['None', 'actv', 'pssv']
+a = c('a')
 
 def index():
     authors = trymysql().select(trymysql.author.ALL, orderby=trymysql.author.id)
     return dict(authors=authors)
 
-def index1():
-    titles = [x for x in range(7848,7941)] # last: 3500, 7088, 10261
-    texts = trymysql(trymysql.allword.title.belongs(titles)).select()
-    for all in texts:
-        the_word = all.lemma.decode("utf-8")
-        normal = morph.parse(the_word)[0]
-        parsed_other = parse_tags(normal.tag, other)['result']
-        parsed_style = parse_tags(normal.tag, style)['result']
-        parsed_name = parse_tags(normal.tag, names[1:])['result']
-        if all.partos != 'None':
-            all.update_record(anim = str(normal.tag.animacy), gendr=str(normal.tag.gender), number = str(normal.tag.number), cas = str(normal.tag.case), tense = str(normal.tag.tense), aspect = str(normal.tag.aspect), person = str(normal.tag.person), transitivity= str(normal.tag.transitivity), mood = str(normal.tag.mood), involvment = str(normal.tag.involvement), voice = str(normal.tag.voice), sobstv=parsed_name, style = parsed_style, other = parsed_other)
-    return dict()
-
-def parse_tags(tags, list_tags):
-    parsed = [x for x in list_tags if x in tags]
-    result = 'None'
-    for all in parsed:
-        if all != 'None':
-            result = str(all)
-    return dict(result=result)
-
-ytense = ['tense', 'praes',	'inpraes', 'praet']
-ycase = ['case', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
-ynum = ['number', 'sg', 'pl']
-yverb = ['verb', 'ger', 'inf', 'partcp', 'indic', 'imper']
-yform = ['form', 'brev', 'plen', 'poss']
-ycomp = ['comp', 'supr', 'comp']
-yperson = ['person', '1p', '2p', '3p']
-ygender = ['gender', 'm', 'f', 'n']
-yaspect = ['aspect', 'ipf', 'pf']
-yvoice = ['voice', 'act', 'pass']
-yanim = ['anim', 'anim', 'inan']
-ytrans = ['trans', 'tran', 'intr']
-yother = ['other', 'parenth', 'geo', 'awkw', 'persn', 'dist', 'mf', 'obsc', 'patrn', 'praed', 'inform', 'rare', 'abbr', 'obsol', 'famn']
-
-all_parts = [ytense, ycase, ynum, yverb, yform, ycomp, yperson, ygender, yaspect, yvoice, yanim, ytrans, yother]
-
-@auth.requires_login()
-def slovar():
-    all_text = trymysql(trymysql.text1.author==7).select()
-    for row in all_text:
-        text = row.id
-        z = 'corpus/' + str(row.author) + '/'
-        z2 = 'corpus/' + str(row.author) + '/gram/'
-        filename = row.filename.replace(z, z2)
-        author = row.author
-        with open(filename, 'rb') as fi:
-            lines = fi.readlines()
-        n = 0
-        for line in lines:
-            n += 1
-            if '{' in line:
-                line = line.split(' ')
-                for word in line:
-                    punct=''
-                    if not word.startswith('{'):
-                        punct = word.split('{')[0]
-                        if punct:
-                            d.mystem.insert(word = punct, title=text, author=author, partos = 'PNCT', location = n)
-                        punct = ''
-                        word = ''.join(word.split('{')[1:])
-                    if not word.endswith('}'):
-                        punct = word.split('}')[-1]
-                        punct = punct.replace('\n', '')
-                        word = ''.join(word.split('}')[:-1])
-                    num = {}
-                    new = word.replace('{', '').replace('}', '').split('=')
-                    num['word'] = new[0]
-                    l = []
-                    if len(new) > 2:
-                        if '|' in new[2]:
-                            point = new[2].find('|')
-                            ptime = new[2][1:point].split(',')
-                        else:
-                            ptime = new[2].split(',')
-                        l += ptime
-                    if len(new) > 1:
-                        partos = new[1].split(',')
-                        num['part'] = partos.pop(0)
-                        l += partos
-                    num['l'] = l
-                    for p in all_parts:
-                        num[p[0]] = ''.join(set(p).intersection(l))
-                    try:
-                        d.mystem.insert(word = num['word'], title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], \
-                                    comp = num['comp'], number = num['number'], cas = num['case'], tense = num['tense'], aspect = num['aspect'], \
-                                    person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
-                                    other = num['other'], author = author, location = n)
-                    except:
-                        pass
-                    if punct:
-                        d.mystem.insert(word = punct, title=text, author=author, partos = 'PNCT', location = n)
-    return dict(new=new, n=n)
-
+#@auth.requires_login()
 def slovar1():
     #file = ['/home/concordance/stem/2.txt']
-    all_text = trymysql(trymysql.text1.author==13).select()[350:]
+    all_text = trymysql(trymysql.text1.author==65).select()
     for row in all_text:
         text = row.id
         z = 'corpus/' + str(row.author) + '/'
@@ -173,48 +67,19 @@ def slovar1():
                         num['l'] = l
                         for p in all_parts:
                             num[p[0]] = ''.join(set(p).intersection(l))
+
                         try:
-                            trymysql.mystem.insert(word = num['word'], lemma = lemma, title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['form'], \
-                                    comp = num['comp'], number = num['number'], cas = num['case'], tense = num['tense'], aspect = num['aspect'], \
+                            trymysql.mystem.insert(word = num['word'], lemma = lemma, title = text, partos=num['part'], anim=num['anim'], gender=num['gender'], forma = num['forma'], \
+                                    comp = num['comp'], number = num['number'], cas = num['cas'], tense = num['tense'], aspect = num['aspect'], \
                                     person = num['person'], trans = num['trans'], verb = num['verb'], voice = num['voice'], \
                                     other = num['other'], author = author, location = n)
                         except:
-                            pass
+                            trymysql.mystem.insert(word = num['word'], lemma = lemma, author = author, location = n)
                         if punct:
                             trymysql.mystem.insert(word = punct, lemma=punct, title=text, author=author, partos = 'PNCT', location = n)
     return dict(new=new, n=n)
 
-ypartos = ['None', 'A', 'ADV', 'ADVPRO', 'ANUM', 'APRO', 'COM', 'CONJ', 'INTJ', 'NUM', 'PART', 'PR', 'S', 'SPRO', 'V']
-
-def count_partos(): # count categories by author
-    new = []
-    authors = [1,4,5,7,8,9,10,11, 12]
-    for each in authors:
-        family = trymysql(trymysql.author.id==each).select()[0]
-        result = [family['family']]
-        for all in case[1:]:
-            count = trymysql((trymysql.allword.author==each)&(trymysql.allword.cas==all)).count()
-            total = trymysql((trymysql.allword.author==each)&(trymysql.allword.cas!='None')).count()
-            proc = round((float((count)*1.0)/int(total))*100, 3)
-            result.append(proc)
-        for all in partos[1:]:
-            count = trymysql((trymysql.allword.author==each)&(trymysql.allword.partos==all)).count()
-            total = trymysql((trymysql.allword.author==each)&(trymysql.allword.partos.belongs(partos))).count()
-            proc = round((float((count)*1.0)/int(total))*100, 2)
-            result.append(proc)
-        for all in person[1:]:
-            count = trymysql((trymysql.allword.author==each)&(trymysql.allword.person==all)).count()
-            total = trymysql((trymysql.allword.author==each)&(trymysql.allword.person!='None')).count()
-            proc = round((float((count)*1.0)/int(total))*100, 2)
-            result.append(proc)
-        new.append(result)
-    new_tense = []
-    for every in authors:
-        family = trymysql(trymysql.author.id==every).select()[0]
-        total = trymysql((trymysql.allword.author==every)&(trymysql.allword.tense!='None')).count()
-        tense = [round(float(trymysql((trymysql.allword.author==every)&(trymysql.allword.tense==all)).count())*1.0/int(total)*100,2) for all in tenses]
-        new_tense.append((family['family'],tense))
-    return dict(new=new, new_tense=new_tense)
+#ypartos = ['None'] + ypartos
 
 def count_tense_group():
     groups = [row.id for row in trymysql(trymysql.group_text.author==request.args(0)).select()]
@@ -349,20 +214,6 @@ def correct_word():
        response.flash = 'form accepted'
     return dict(form=form)
 
-ytense = ['None', 'praes',	'inpraes', 'praet']
-ycase = ['None', 'nom', 'gen',	'dat', 'acc', 'ins', 'abl', 'part', 'loc', 'voc']
-ynum = ['None', 'sg', 'pl']
-yverb = ['None', 'ger', 'inf', 'partcp', 'indic', 'imper']
-yform = ['None', 'brev', 'plen', 'poss']
-ycomp = ['None', 'supr', 'comp']
-yperson = ['None', '1p', '2p', '3p']
-ygender = ['None', 'm', 'f', 'n']
-yaspect = ['None', 'ipf', 'pf']
-yvoice = ['None', 'act', 'pass']
-yanim = ['None', 'anim', 'inan']
-ytrans = ['None', 'tran', 'intr']
-ynames = ['None', 'persn', 'patrn', 'famn', 'geo']
-
 def correct():
     record = trymysql(trymysql.mystem.id==request.args(0)).select()[0]
     text= trymysql(trymysql.text1.id == record.title).select()[0]
@@ -382,7 +233,7 @@ def correct():
                     TR("Залог", SELECT(*yvoice, _name = "voice", value = record.voice)),
                     TR("Лицо", SELECT(*yperson, _name = "person", value = record.person)),
                     TR("Переходность", SELECT(*ytrans, _name = "trans", value = record.trans)),
-                    TR("Число", SELECT(*ynumber, _name = "number", value = record.number)),
+                    TR("Число", SELECT(*ynum, _name = "number", value = record.number)),
                     TR("Наклонение", SELECT(*yverb, _name="mood", value = record.verb)),
                     TR("Имена собственные", SELECT(*ynames, _name="names", value = record.other)),
                     TR("",INPUT(_type="submit",_value="SUBMIT"))))
@@ -402,3 +253,24 @@ def correct():
                       other = form.vars['names'])
         response.flash="form accepted"
     return dict(form=form, content = content, author=author, a_name = a_name, title = title, word=record.lemma)
+
+def index1(): # parse by pymorphy for trymysql.allword
+    titles = [x for x in range(7848,7941)] # last: 3500, 7088, 10261
+    texts = trymysql(trymysql.allword.title.belongs(titles)).select()
+    for all in texts:
+        the_word = all.lemma.decode("utf-8")
+        normal = morph.parse(the_word)[0]
+        parsed_other = parse_tags(normal.tag, other)['result']
+        parsed_style = parse_tags(normal.tag, style)['result']
+        parsed_name = parse_tags(normal.tag, names[1:])['result']
+        if all.partos != 'None':
+            all.update_record(anim = str(normal.tag.animacy), gendr=str(normal.tag.gender), number = str(normal.tag.number), cas = str(normal.tag.case), tense = str(normal.tag.tense), aspect = str(normal.tag.aspect), person = str(normal.tag.person), transitivity= str(normal.tag.transitivity), mood = str(normal.tag.mood), involvment = str(normal.tag.involvement), voice = str(normal.tag.voice), sobstv=parsed_name, style = parsed_style, other = parsed_other)
+    return dict()
+
+def parse_tags(tags, list_tags):
+    parsed = [x for x in list_tags if x in tags]
+    result = 'None'
+    for all in parsed:
+        if all != 'None':
+            result = str(all)
+    return dict(result=result)

@@ -1,16 +1,16 @@
-{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} {побледнеть=V,pf,intr=praet,pl,indic},
-{небо=S,n,inan=(acc,sg|nom,sg)} {на=PR=} {восток=S,geo,m,inan=abl,sg} {зеленеть=V,ipf,intr=inpraes,sg,indic,3p},
-{ветер=S,m,inan=(acc,sg|nom,sg)} {подниматься=V,intr=praet,sg,indic,m,pf},
-{скоро=ADV=} {заря=S,f,inan=nom,sg} {засвечивать=V,tran=inpraes,sg,indic,3p,pf}.
-{как=ADVPRO=} {легко=ADV=} {дышать=V,ipf,intr=inf}
-{после=PR=} {долгий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
-{после=PR=} {душный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} {горница=S,f,inan=gen,pl},
-{после=PR=} {чадо=S,n,anim=(gen,sg|nom,pl)} {свеча=S,f,inan=gen,pl} {заплывать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)}!
-{пение=S,n,inan=(abl,sg|acc,sg|nom,sg)} {доноситься=V,intr=inpraes,sg,indic,3p,ipf} {снизу=ADV=},
-{с=PR=} {кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)} {видный=A=sg,brev,m} {город=S,m,inan=(acc,sg|nom,sg)},
-{все=ADV=} {спать=V,ipf,intr=inpraes,sg,indic,3p}, {все=ADV=} {тихий=A=sg,brev,n},
-{только=PART=} {ветер=S,m,inan=(acc,sg|nom,sg)} {в=PR=} {сад=S,m,inan=(dat,sg|loc,sg)} {пробегать=V,ipf,intr=inpraes,sg,indic,3p}.
-{как=ADVPRO=} {лицо=S,n,inan=(acc,sg|nom,sg)} {твой=APRO=(acc,sg,n|nom,sg,n)} {бледный=A=sg,brev,n}
-{в=PR=} {свет=S,sg,m,inan=abl} {звезда=S,f,inan=gen,pl} {побледнеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)},
-{в=PR=} {свет=S,sg,m,inan=abl} {заря=S,f,inan=gen,sg} {нерожденный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
-{в=PR=} {свет=S,sg,m,inan=abl} {грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} {солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}!
+Звезды{звезда=S,f,inan=(acc,pl|gen,sg|nom,pl)} побледнели{побледнеть=V,pf,intr=praet,pl,indic},
+небо{небо=S,n,inan=(acc,sg|nom,sg)} на{на=PR=} востоке{восток=S,geo,m,inan=abl,sg} зеленеет{зеленеть=V,ipf,intr=inpraes,sg,indic,3p},
+ветер{ветер=S,m,inan=(acc,sg|nom,sg)} поднялся{подниматься=V,intr=praet,sg,indic,m,pf},
+скоро{скоро=ADV=} заря{заря=S,f,inan=nom,sg} засветит{засвечивать=V,tran=inpraes,sg,indic,3p,pf}.
+Как{как=ADVPRO=} легко{легко=ADV=} дышать{дышать=V,ipf,intr=inf}
+после{после=PR=} долгой{долгий=A=(abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} ночи{ночь=S,f,inan=(abl,sg|acc,pl|dat,sg|gen,sg|nom,pl|loc,sg)},
+после{после=PR=} душных{душный=A=(abl,pl,plen|acc,pl,plen,anim|gen,pl,plen)} горниц{горница=S,f,inan=gen,pl},
+после{после=PR=} чада{чадо=S,n,anim=(gen,sg|nom,pl)} свечей{свеча=S,f,inan=gen,pl} заплывших{заплывать=V,intr=(praet,abl,pl,partcp,plen,pf,act|praet,gen,pl,partcp,plen,pf,act|praet,acc,pl,partcp,plen,pf,act,anim)}!
+Пенье{пение=S,n,inan=(abl,sg|acc,sg|nom,sg)} доносится{доноситься=V,intr=inpraes,sg,indic,3p,ipf} снизу{снизу=ADV=},
+с{с=PR=} кровли{кровля=S,f,inan=(acc,pl|gen,sg|nom,pl)} виден{видный=A=sg,brev,m} город{город=S,m,inan=(acc,sg|nom,sg)},
+всё{все=ADV=} спит{спать=V,ipf,intr=inpraes,sg,indic,3p}, всё{все=ADV=} тихо{тихий=A=sg,brev,n},
+только{только=PART=} ветер{ветер=S,m,inan=(acc,sg|nom,sg)} в{в=PR=} саду{сад=S,m,inan=(dat,sg|loc,sg)} пробегает{пробегать=V,ipf,intr=inpraes,sg,indic,3p}.
+Как{как=ADVPRO=} лицо{лицо=S,n,inan=(acc,sg|nom,sg)} твое{твой=APRO=(acc,sg,n|nom,sg,n)} бледно{бледный=A=sg,brev,n}
+в{в=PR=} свете{свет=S,sg,m,inan=abl} звезд{звезда=S,f,inan=gen,pl} побледневших{побледнеть=V,pf,intr=(praet,abl,pl,partcp,plen,act|praet,gen,pl,partcp,plen,act|praet,acc,pl,partcp,plen,act,anim)},
+в{в=PR=} свете{свет=S,sg,m,inan=abl} зари{заря=S,f,inan=gen,sg} нерожденной{нерожденный=A,plen=(abl,sg,f|dat,sg,f|gen,sg,f|ins,sg,f)},
+в{в=PR=} свете{свет=S,sg,m,inan=abl} грядущего{грядущий=A=(acc,sg,plen,m,anim|gen,sg,plen,m|gen,sg,plen,n)} солнца{солнце=S,n,inan=(acc,pl|gen,sg|nom,pl)}!

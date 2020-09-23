@@ -26,7 +26,7 @@ def epi():
     return dict(filename=filename)
 
 def tokenize_all(): # prepares text for tokenization (decoding) and write result in database trymysql.allword, after - morpho/index1.html
-    rows = trymysql((trymysql.text1.group_text==None)&(trymysql.text1.author==8)).select()
+    rows = trymysql(trymysql.text1.author==66).select()
     #for x in xrange(11164,11334): # if text not yet in database (last:4811,7088, 10260) 11334 11452
     for all in rows:
         #text2 = trymysql(trymysql.text1.id=all.id).select()[0]
@@ -83,7 +83,7 @@ def parse_tags(tags, list_tags):
             result = str(all)
     return dict(result=result)
 
-@auth.requires_login()
+
 def search_for_files():
     path = "/home/concordance/web2py/applications/test/corpus/new/"
     files = [f for f in listdir(path) if isfile(join(path,f)) ]
@@ -121,7 +121,7 @@ def search_for_files():
         elif "*" in all:
             text['t']=stih
             poems.append(text)
-            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=8, writing_location=location, body = ''.join(text['t']))
+            trymysql.text1.insert(title=zagl, first_string=stih[0]+str("..."), year_writing=year, epigraph = epi, epigraph_author = a_epi, dedication= ded, month_writing=month, day_writing=day, author=66, writing_location=location, body = ''.join(text['t']))
             if epi:
                 maxID=trymysql(trymysql.text1).select(trymysql.text1.id.max()).first()[trymysql.text1.id.max()]
                 filename = '/home/concordance/web2py/applications/test/corpus/epi/' + str(maxID) + '.txt'
@@ -400,3 +400,56 @@ def save_files():
     with open(f, 'w') as ff:
         for all in t:
             print>>ff, all
+
+def search_for_files2():
+    path = "/home/concordance/web2py/applications/test/corpus/new/"
+    files = [f for f in listdir(path) if isfile(join(path,f)) ]
+    filename=str(path)+files[0]
+    new = open(filename, 'rb')
+    content = new.readlines()
+    poems = []
+    text = {}
+    n=0
+    stih=[]
+    zagl=ded=year=day=month=location=epi=a_epi=epi2=aut2=''
+    string_number=0
+    for all in content:
+        string_number +=1
+        if 'NNN' in all:
+            zagl = all[3:]
+        elif 'ppp' in all:
+            page = all[3:]
+        elif 'ggg' in all:
+            year = all[3:]
+        elif "*" in all:
+            text['t']=stih
+            poems.append(text)
+            new_filename = '/home/concordance/web2py/applications/test/corpus/4/variants/19/' + page.strip() + '.txt'
+            with open(new_filename, 'wb') as nf:
+                nf.write(''.join(text['t']))
+            trymysql.drafts.insert(title=zagl, book=19, book_page = page, year=year, filename = new_filename, author=4)
+            stih = []
+            text= {}
+            year=''
+            zagl=''
+            month=''
+            day=''
+            location=''
+            ded=epi=a_epi=epi2=aut2=''
+            n+=1
+            string_number=0
+        else:
+            stih.append(all)
+    return dict(poems=poems)
+
+def find_drafts():
+    drafts = trymysql((trymysql.drafts.book==request.args(0))&(trymysql.drafts.text==None)).select().first()
+    options2 = [OPTION(texts.first_string, _value=texts.id) for texts in trymysql(trymysql.text1.author==4).select()[200:]]
+    with open(drafts.filename, 'r') as f:
+        draft_text = f.readlines()[0]
+    form = FORM(TABLE(TR("Канонический текст", SELECT(*options2, _name="text")),
+                    TR("Вариант", SELECT(draft_text, _value = draft_text, _name = 'old', _selected=True)),
+                    TR("",INPUT(_type="submit",_value="SUBMIT"))))
+    if form.process().accepted:
+        drafts.update_record(text=form.vars['text'])
+    return dict(form=form, options2=options2)

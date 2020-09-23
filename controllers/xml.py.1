@@ -69,7 +69,7 @@ def create_xml():
     outFile.close()
 
 def create_xml_unique(): # create one xml for one text
-    author_texts = [all.id for all in trymysql(trymysql.text1.author==1).select()[799:]]
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==13).select()] # 9458, 10188, 10261 for author 8, 8236 for author 9
     for x in author_texts:
         page = etree.Element('results') # create xml tree
         doc = etree.ElementTree(page)
@@ -109,15 +109,98 @@ def create_xml_unique(): # create one xml for one text
                             else:
                                 slovo = etree.SubElement(string, 'word', number=str(slovo_from_base.id), pos = slovo_from_base.partos).text=slovo_from_base.lemma.decode('utf-8')
                     word_number+=1 # update word's id
-        path = "applications/test/uploads/xml/1/"
+        path = "applications/test/uploads/xml/13/"
         new_name=path+str(x) + ".xml"
         DECLARATION = """<?xml version="1.0" encoding="utf-8"?>
         <?xml-stylesheet type="text/xsl" href="style.xslt"?>\n"""
         with open(new_name, 'w') as output: # would be better to write to temp file and rename
             output.write(DECLARATION)
             doc.write(output, xml_declaration=False, pretty_print=True, encoding='utf-8')
+            output.close()
 
 def table_as_xml(): #no view yet, for view: {{=TAG(r)}}
     words = trymysql(trymysql.allword.title==15).select()
     r = words.xml()
     return dict(r=r)
+
+
+def for_tei():
+    n = str(request.args(0))
+    path = "applications/test/uploads/xml/"
+    author_texts = [all.id for all in trymysql(trymysql.text1.author==request.args(0)).select()]
+    author_id = trymysql(trymysql.author.id==request.args(0)).select().first()
+    page = etree.Element('teiCorpus', xmlns="http://www.tei-c.org/ns/1.0") # create xml tree
+    doc = etree.ElementTree(page)
+    main_header = etree.SubElement(page, 'teiHeader')
+    main_info = etree.SubElement(main_header, 'fileDesc')
+    main_titleStmt = etree.SubElement(main_info, 'titleStmt')
+    zag = str(authors_id.name) + " " + str(author_id.family) + " в tei"
+    main_title = etree.SubElement(main_titleStmt, 'title').text=zag.decode('utf-8')
+    main_publication = etree.SubElement(main_info, 'publicationStmt')
+    main_publisher = etree.SubElement(main_publication, 'publisher').text="ConcorDances.Ru"
+    main_source = etree.SubElement(main_info, 'sourceDesc')
+    ab = etree.SubElement(main_source, 'ab').text = 'http://concordances.ru'
+    for x in author_texts:
+        texts = trymysql(trymysql.text1.id==int(x)).select()[0] # select one poem
+        f = open(texts.filename, 'rb')
+        content = f.readlines()
+        f.close()
+        tei = etree.SubElement(page, 'TEI')
+        header = etree.SubElement(tei, 'teiHeader')
+        info = etree.SubElement(header, 'fileDesc')
+        titleStmt = etree.SubElement(info, 'titleStmt')
+        aut = texts.author.name + ' ' + texts.author.family
+        one = etree.SubElement(titleStmt, 'title').text = texts.title.decode('utf-8')
+        teiauthor = etree.SubElement(titleStmt, 'author').text=aut.decode('utf-8')
+
+        publication = etree.SubElement(info, 'publicationStmt')
+        publisher = etree.SubElement(publication, 'publisher').text="ConcorDances.Ru"
+        profileDesc = etree.SubElement(header, 'profileDesc')
+
+        if texts.book:
+            sourceDesc = etree.SubElement(info, 'sourceDesc')
+            p = etree.SubElement(sourceDesc, 'p').text=texts.book.decode('utf-8')
+        if texts.group_text:
+            group = etree.SubElement(info, 'group').text=texts.group_text.title.decode('utf-8')
+
+        creation = ''
+        if texts.year_writing:
+            creation += str(texts.year_writing)
+        if texts.month_writing:
+            creation = creation + '-' + str(texts.month_writing)
+        if texts.day_writing:
+            creation = creation + '-' + str(texts.day_writing)
+        creation_tei = etree.SubElement(profileDesc, 'creation')
+        tei_date = etree.SubElement(creation_tei, 'date').text= creation.decode('utf-8')
+        if texts.writing_location:
+            place = etree.SubElement(creation_tei, 'rs').text=texts.writing_location.decode('utf-8')
+
+        text = etree.SubElement(tei, 'text')
+        if len(texts.dedication)>0:
+            front = etree.SubElement(text, 'front')
+            dedication = etree.SubElement(front, 'div', type = 'dedication')
+            ded = etree.SubElement(dedication, 'p').text=texts.dedication.decode('utf-8')
+        body = etree.SubElement(text, 'body')
+        count_stanza = 1                                             # count stanzas
+        line_count = 1                   # get first word's id from allword base
+        stanza = etree.SubElement(body,  'lg', n = str(count_stanza))
+        for lines in content:
+            if lines in ['\n', '\r\n', '|'] or '|' in lines:
+                count_stanza += 1
+                stanza = etree.SubElement(body, 'lg', n = str(count_stanza))
+            else:
+                string = etree.SubElement(stanza, 'l', n = str(line_count)).text = lines.decode('utf-8')
+                line_count +=1
+    new_name=str(str(n)) + ".xml"
+    DECLARATION = """<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>"""
+    #outFile = open(new_name, 'w')
+    #doc.write(outFile, pretty_print=True, xml_declaration=True, encoding='utf-16')
+    #outFile.close()
+    
+    with open(new_name, 'w') as output: # would be better to write to temp file and rename
+            output.write(DECLARATION)
+            doc.write(output, xml_declaration=False, pretty_print=True, encoding='utf-8')
+            output.close()

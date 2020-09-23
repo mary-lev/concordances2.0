@@ -1,0 +1,36 @@
+# coding: utf8
+import gensim, logging
+from gensim import corpora, models, similarities
+from gensim.models import doc2vec
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
+def index():
+    documents = []
+    titles = trymysql(trymysql.text1.author==4).select()
+    part=['V', 'S', 'A']
+    for all in titles:
+        one = []
+        for lines in all.body.split():
+            for word in lines.split():
+                one.append(word)
+
+        docus = gensim.models.doc2vec.TaggedDocument(words=one, tags=[all.id])
+        documents.append(docus)
+    drafts = trymysql(trymysql.drafts.author==4).select()
+    for d in drafts:
+        with open(d.filename, 'r') as f:
+            dtext = f.read()
+        new = []
+        for w in dtext.split():
+            new.append(w)
+        new_docs = gensim.models.doc2vec.TaggedDocument(words = new, tags = 'd' +str(d.id))
+        documents.append(new_docs)
+    model = gensim.models.doc2vec.Doc2Vec(documents, size=100, window=8, min_count=1, workers=4)
+    model.save("/home/concordance/web2py/applications/test/uploads/models/mand")
+    c = model.docvecs.most_similar(433)
+    docs = []
+    for all in c:
+        docs.append(all[0])
+    i = documents[433][1][1:-1]
+    osn = trymysql(trymysql.drafts.id==i).select()[0]
+    return dict(c=c, docs= docs, osn=osn, dtext=new_docs, docus=docus)

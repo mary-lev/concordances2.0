@@ -3,11 +3,12 @@ from __future__ import division
 from transliterate import translit
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import matplotlib as mpl
+#import matplotlib.pyplot as plt
+#import matplotlib as mpl
 from sklearn.manifold import MDS
-import pandas as pd
+#import pandas as pd
 import numpy as np
+from draw_kmeans_plt import draw
 color=["зелёный", "золотой", "голубой", "красный", "белый", "жёлтый", "чёрный", "коричневый", "синий", "розовый", "пурпурный", "фиолетовый", "серый", "жолтый", "лазурный", "алый", "лазоревый", "синева", "золотистый", "рыжий", "голубоватый", "златой", "бирюзовый", "лазурь", "бирюза", "пурпуровый", "чернеть", "белеть"]
 
 color2=["зеленый", "золото", "голубой", "красный", "белый", "желтый", "черный", "коричневый", "синий", "розовый", "пурпур", "фиолетовый", "серый", "лазурь", "алый", "рыжий", "бирюза", 'оранжевый', 'багровый', 'багряный', 'лиловый', 'сирень', 'сизый', 'серебро']
@@ -59,7 +60,7 @@ def index():
 def vis():
     with open(colorfile, 'r') as f:
         data = f.readlines()
-    data_new = [all.split(',')[1:-1] for all in data]
+    data_new = [all.split(',')[1:] for all in data]
     author = [all.split(',')[0] for all in data]
     authors = []
     for a in author:
@@ -67,53 +68,17 @@ def vis():
     names = [translit(all.family.decode('utf-8'), reversed=True) for all in authors]
     proc = []
     for all in data_new:
+        last = all.pop()
         l = [int(n) for n in all]
         s = sum(l)
         new_list = [float(each)/s for each in l]
+        zvetnost = float(s)/int(last)
+        new_list.append(zvetnost)
         proc.append(new_list)
     X = np.array(proc, dtype=float)
-    num_clusters = 6
-    km = KMeans(n_clusters=num_clusters)
-    km.fit(X)
-    dist = 1 - cosine_similarity(X)
-    clusters = km.labels_.tolist()
-    mds = MDS(n_components=2, dissimilarity="precomputed", random_state=1)
-    pos = mds.fit_transform(dist)  # shape (n_components, n_samples)
-    xs, ys = pos[:, 0], pos[:, 1]
-    df = pd.DataFrame(dict(x=xs, y=ys, label=clusters, title=names))
-    groups = df.groupby('label')
-    # set up plot
-    fig, ax = plt.subplots(figsize=(14, 8)) # set size
-    ax.margins(0.05) # Optional, just adds 5% padding to the autoscaling
-
-#iterate through groups to layer the plot
-#note that I use the cluster_name and cluster_color dicts with the 'name' lookup to return the appropriate color/label
-    for name, group in groups:
-        ax.plot(group.x, group.y, marker='o', linestyle='', ms=12, mec='none')
-        ax.set_aspect('auto')
-        ax.tick_params(\
-                       axis= 'x',          # changes apply to the x-axis
-                       which='both',      # both major and minor ticks are affected
-                       bottom='off',      # ticks along the bottom edge are off
-                       top='off',         # ticks along the top edge are off
-                       labelbottom='off')
-        ax.tick_params(\
-                       axis= 'y',         # changes apply to the y-axis
-                       which='both',      # both major and minor ticks are affected
-                       left='off',      # ticks along the bottom edge are off
-                       top='off',         # ticks along the top edge are off
-                       labelleft='off')
-
-    ax.legend(numpoints=1)  #show legend with only 1 point
-
-    #add label in x,y position with the label as the film title
-    for i in range(len(df)):
-        ax.text(df.ix[i]['x'], df.ix[i]['y'], df.ix[i]['title'], size=8)
-    i = 'authors_colors.png'
-    f = '/home/concordance/web2py/applications/test/static/' + i
-    plt.savefig(f) #show the plot
-
-    return dict(i=i, data_new=data_new, proc=proc)
+    filename = 'authors_colors.png'
+    draw(X, names, filename)
+    return dict(i=filename, data_new=data_new, proc=proc)
 
 def index1():
     authors = trymysql().select(trymysql.author.ALL)
@@ -166,7 +131,7 @@ def author_all_color():
         result.append([all, color_list])
     return dict(text=result, author = author1, authors=authors)
 
-@auth.requires_login()
+#@auth.requires_login()
 def author_index(): # сохраняем авторские данные в текстовый файл для ускорения рисования кружочков
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     result=[str(author1.id)]
@@ -240,3 +205,20 @@ def seasons():
     author1=trymysql(trymysql.author.id==request.args(0)).select()[0]
     author=author1['family']
     return dict(colours=colours, all_colours=all_colours, all=all, author=author)
+
+def years():
+    authors = [int(a.id) for a in trymysql().select(trymysql.author.ALL, orderby=trymysql.author.year_birth)]
+    with open(colorfile, 'r') as f:
+        data = f.readlines()
+    # считаем процент цвета для каждого автора
+    new_data = [a.split(',') for a in data] # готовим к подсчету авторского процента цветообозначений
+    data = []
+    for a in authors[1:]:
+        for line in new_data:
+            if int(line[0]) == a:
+                s = line.pop(0)
+                all_col = sum([int(al) for al in line[:-1]])
+                pro = round(float(all_col)/float(line[-1])*100, 2)
+                name = trymysql(trymysql.author.id==s).select()[0].year_birth
+                data.append([s, pro])
+    return dict(authors = authors, data = data, name=name)

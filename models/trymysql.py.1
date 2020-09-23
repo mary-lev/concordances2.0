@@ -38,6 +38,7 @@ trymysql.define_table('text1',
                   Field('dday_writing', label="Неточный день написания"),
                   Field('writing_location', label="Место написания"),
                   Field('year_publishing', label="Год первой публикации"),
+                  Field('au_comm', label="Авторское примечание"),
                   Field('genre', label="Жанр"),
                   Field('under_title', label="Подзаголовок"),
                   Field('dedication', label="Посвящение"),
@@ -88,6 +89,14 @@ trymysql.define_table('allword',
                   Field('warning', label = "Warning"),
                   Field('author', label="Автор"),
                   migrate=False,fake_migrate=True)
+
+trymysql.define_table('slovar',
+                      Field('word', label='Основа'),
+                      Field('pro', label='Производные'))
+
+trymysql.define_table('slovar1',
+                      Field('word', label='Основа'),
+                      Field('pro', label='Производные'))
 
 trymysql.define_table('concordances',
                   Field('word', label="Слово"),
@@ -200,12 +209,13 @@ trymysql.define_table('page',
                        Field('filename', label="Файл"),
                        Field('text', trymysql.text1),
                        Field('variant', trymysql.drafts),
-                       Field('old_text', trymysql.old, label='В старой орфографии'))
+                       Field('old_text', label='В старой орфографии'))
 
 trymysql.define_table('old',
                       Field('author', trymysql.author),
                       Field('text', trymysql.text1),
                       Field('title', label="Название"),
+                      Field('first_string', label="Первая строка"),
                       Field('filename', 'string'),
                       Field('epi', 'text', label="Эпиграф"),
                       Field('epi_author', label="Автор эпиграфа"),
@@ -217,6 +227,38 @@ trymysql.define_table('old',
                       Field('date', label='Неточная дата'),
                       Field('book', trymysql.biblio),
                       Field('book_page', label='Страница'))
+
+trymysql.define_table('epi',
+                       Field('text', trymysql.text1),
+                       Field('epi_text', 'text', label='Текст'),
+                       Field('epi_author', label='Автор'),
+                       Field('epi_author_id', trymysql.author, requires=None),
+                       Field('epi_book', label='Книга'),
+                       Field('epi_text_id', trymysql.text1, requires=None),
+                       Field('epi_filename', label='Файл'))
+
+trymysql.define_table('mystem',
+               Field('word', label="Слово"),
+               Field('lemma', label='Словоформа'),
+               Field('title', trymysql.text1, label="Текст"),
+               Field('partos', label="Часть речи"),
+               Field('anim', label="Одушевленность"),
+               Field('gender', label="Род"),
+               Field('forma', label = "Форма"),
+               Field('comp', label = "Сравнит"),
+               Field('number', label="Число"),
+               Field('cas', label="Падеж"),
+               Field('tense', label="Время"),
+               Field('aspect', label="Вид"),
+               Field('person', label="Лицо"),
+               Field('trans', label="Переходность"),
+               Field('verb', label="Форма глагола"),
+               Field('voice', label="Залог"),
+               Field('other', label="Другое"),
+               Field('lexical_group', label="Лексическая группа"),
+               Field('location', label='Номер в тексте'),
+               Field('concordance_number',  label="Номер в конкордансе"),
+               Field('author', trymysql.author, label="Автор") )
 
 #purchased = (trymysql.author.name==trymysql.text1.author)&(trymysql.author.id==trymysql.words.author)
 #n2ew = (trymysql.text1.title==trymysql.words.title)&(trymysql.text1.id==trymysql.words.title)

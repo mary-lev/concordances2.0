@@ -1,3 +1,9 @@
 {{extend 'layout.html'}}
 <h1>Это шаблон geo/index.html</h1>
-{{=BEAUTIFY(response._vars)}}
+<ol>
+
+{{for all in geotag:}}
+  <li> {{=A(all.writing_location, _href=URL('show', 'show1', args = all.id))}}</li>
+    {{pass}}
+    </ol>
+{{pass}}

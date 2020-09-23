@@ -6,7 +6,7 @@
 #########################################################################
 
 response.logo = A(B('concor',SPAN('dances')),XML('.ru'),
-                  _class="brand",_href="http://concordances.ru")
+                  _class="brand",_href="http://concordance.pythonanywhere.com")
 response.title = request.application.replace('_',' ').title()
 response.subtitle = ''
 
@@ -51,6 +51,7 @@ def _():
 
         (SPAN('Цвета', _class='highlighted'), False, URL('color', 'index'), [
         (T('В корпусе'), False, URL('color', 'index')),
+        (T('Цветовая близость'), False, URL('color', 'vis')),
         (T('Александр Блок'), False, URL('color', 'author', args='1')),
         (T('Николай Гумилев'), False, URL('color', 'author', args='2')),
         (T('Осип Мандельштам'), False, URL('color', 'author', args='4')),

@@ -1,7 +1,7 @@
-{морской=A,plen=(acc,sg,n|nom,sg,n)} {марево=S,n,inan=(acc,sg|nom,sg)},
-{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} {зарево=S,n,inan=(acc,sg|nom,sg)},
-{красить=V,ipf,tran=sg,imper,2p} {жарко=ADV=}
-{узор=S,m,inan=(acc,sg|nom,sg)} {глыба=S,f,inan=gen,pl}!
-{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
-{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} {марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
-{пойти=V,pf,intr=praet,pl,indic} {рыба=S,f,anim=(acc,pl|gen,pl)}!
+Морское{морской=A,plen=(acc,sg,n|nom,sg,n)} марево{марево=S,n,inan=(acc,sg|nom,sg)},
+Золотое{золотой=A=(acc,sg,plen,n|nom,sg,plen,n)} зарево{зарево=S,n,inan=(acc,sg|nom,sg)},
+Крась{красить=V,ipf,tran=sg,imper,2p} жарко{жарко=ADV=}
+Узор{узор=S,m,inan=(acc,sg|nom,sg)} глыб{глыба=S,f,inan=gen,pl}!
+Святой{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Марко{марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+Святой{святой=A=(acc,sg,plen,m,inan|nom,sg,plen,m|abl,sg,plen,f|dat,sg,plen,f|gen,sg,plen,f|ins,sg,plen,f)} Марко{марко=S,persn,m,anim=(abl,pl|abl,sg|acc,pl|acc,sg|dat,pl|dat,sg|gen,pl|gen,sg|ins,pl|ins,sg|nom,pl|nom,sg)},
+Пошли{пойти=V,pf,intr=praet,pl,indic} рыб{рыба=S,f,anim=(acc,pl|gen,pl)}!
