@@ -1,10 +1,15 @@
+from typing import List, Union
 from sqlalchemy.orm import Session
+from sqlalchemy.orm import joinedload
 import models
 import schemas
 
 # AuthorSchema CRUD operations
 def get_author(db: Session, author_id: int):
     return db.query(models.Author).filter(models.Author.id == author_id).first()
+
+def get_authors(db: Session, skip: int = 0, limit: int = 100):
+    return db.query(models.Author).offset(skip).limit(limit).all()
 
 def create_author(db: Session, author: schemas.AuthorBase):
     db_author = models.Author(**author.model_dump())
@@ -68,6 +73,28 @@ def create_grouptext(db: Session, grouptext: schemas.GroupTextCreate):
 # TextSchema CRUD operations
 def get_text(db: Session, text_id: int) -> models.Text | None:
     return db.query(models.Text).filter(models.Text.id == text_id).first()
+
+def get_texts_by_author(db: Session, author_id: int) -> List[dict]:
+    results = db.query(
+        models.Text.id,
+        models.Text.title,
+        models.Text.first_string,
+        models.DateOfWriting.exact_year
+    ).join(
+        models.DateOfWriting, models.Text.date_of_writing_id == models.DateOfWriting.id
+    ).filter(
+        models.Text.author_id == author_id
+    ).all()
+
+    # Convert the results to a list of dictionaries
+    texts = [{"id": id, "title": title, "first_string": first_string, "year": year} for id, title, first_string, year in results]
+
+    return texts
+
+
+
+def get_texts_count_by_author(db: Session, author_id: int) -> int:
+    return db.query(models.Text).filter(models.Text.author_id == author_id).count()
 
 def create_text(db: Session, text: schemas.TextBase):
     db_text = models.Text(**text.model_dump())

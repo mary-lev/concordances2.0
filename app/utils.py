@@ -28,7 +28,6 @@ def get_date(row, db):
                 })
             else:
                 date_data = schemas.DateOfWritingCreate(**{"exact_year": year})
-            print(date_data)
             year_from_db = crud.create_date(db=db, date=date_data)
         if year_from_db:
             year_from_db = year_from_db.id

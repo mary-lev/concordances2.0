@@ -134,8 +134,8 @@ class TextBase(TextBaseBase):
     first_string: Optional[str] = None
     body: Optional[str] = None
     filename: Optional[str]
-    n_in_group: Optional[int] = None
-    group_text: Optional[GroupTextBase] = None
+    n_in_group: int = None
+    group_text_id: int | None = None
 
 class TextCreate(TextBase):
     body: str

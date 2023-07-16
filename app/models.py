@@ -93,8 +93,8 @@ class Text(TextBase):
     filename = Column(String)
     genre = Column(String)
     n_in_group = Column(Integer)
-    group_id = Column(Integer, ForeignKey("grouptexts.id"))
-    group_text = relationship("GroupText", back_populates="texts", foreign_keys=[group_id])
+    group_text_id = Column(Integer, ForeignKey("grouptexts.id"), nullable=True)
+    group_text = relationship("GroupText", back_populates="texts", foreign_keys=[group_text_id])
     variants = relationship("Variant", back_populates="text_variant_of", foreign_keys="Variant.text_id")
     olds = relationship("Old", back_populates="text_variant_of", foreign_keys="Old.text_variant_of_id")
         
@@ -113,7 +113,7 @@ class GroupText(TextBase):
     __mapper_args__ = {
         'polymorphic_identity':'grouptext',
     }
-    texts = relationship("Text", back_populates="group_text", foreign_keys="Text.group_id")
+    texts = relationship("Text", back_populates="group_text", foreign_keys="Text.group_text_id")
 
 class Variant(TextBase):
     __tablename__ = 'variants'

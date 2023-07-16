@@ -1,6 +1,7 @@
-from typing import List
+from typing import List, Dict
 import pandas as pd
 from fastapi import FastAPI, Depends, HTTPException, File, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import crud, models, schemas
 from database import SessionLocal, engine
@@ -18,9 +19,28 @@ def get_db():
     finally:
         db.close()
 
+origins = [
+    "http://localhost:3000",  # React app address
+    "http://localhost:8000",  # FastAPI server address
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 @app.post("/authors/", response_model=schemas.AuthorBase)
 def create_author(author: schemas.AuthorBase, db: Session = Depends(get_db)):
     return crud.create_author(db=db, author=author)
+
+@app.get("/authors/", response_model=List[schemas.AuthorInDBBase])
+def read_authors(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    authors = crud.get_authors(db, skip=skip, limit=limit)
+    return authors
 
 @app.post("/upload_publications/")
 async def upload_publication_from_csv(file: UploadFile = File(...), db: Session = Depends(get_db)):
@@ -128,6 +148,7 @@ async def upload_group_texts(file: UploadFile = File(...), db: Session = Depends
 async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_db)):
     df = pd.read_csv(file.file)
     df = df.fillna('')
+    df.replace('<NULL>', '', inplace=True)
     for _, row in df.iterrows():
         author_id = int(row['text1.author'])
         date_of_writing = get_date(row, db)
@@ -148,7 +169,7 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
             "publication_id": None,
             "book_page_start": "",
             "book_page_end": "",
-            "n_in_group": int(row['text1.n_in_group']) if pd.notna(row['text1.n_in_group']) and row['text1.n_in_group'] != '' else None,
+            "n_in_group": int(row['text1.n_in_group']) if pd.notna(row['text1.n_in_group']) and row['text1.n_in_group'] != '' else 0,
             "group_text_id": int(row['text1.group_text']) if pd.notna(row['text1.group_text']) and row['text1.group_text'] != '' else None,
         }
         
@@ -227,6 +248,20 @@ def read_text(text_id: int, db: Session = Depends(get_db)):
     if db_text is None:
         raise HTTPException(status_code=404, detail="Text not found")
     return db_text
+
+@app.get("/texts/author/", response_model=List[Dict])
+def read_texts_by_author(author_id: int, db: Session = Depends(get_db)):
+    db_texts = crud.get_texts_by_author(db, author_id=author_id)
+    if db_texts is None:
+        raise HTTPException(status_code=404, detail="Text not found")
+    return db_texts
+
+@app.get("/texts/count/author/", response_model=int)
+def read_texts_count_by_author(author_id: int, db: Session = Depends(get_db)):
+    db_texts = crud.get_texts_count_by_author(db, author_id=author_id)
+    if db_texts is None:
+        raise HTTPException(status_code=404, detail="Text not found")
+    return db_texts
 
 @app.post("/dateofwritings/", response_model=schemas.DateOfWritingBase)
 def create_date(date: schemas.DateOfWritingBase, db: Session = Depends(get_db)):
