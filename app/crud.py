@@ -1,6 +1,5 @@
-from typing import List, Union
+from typing import List
 from sqlalchemy.orm import Session
-from sqlalchemy.orm import joinedload
 import models
 import schemas
 
