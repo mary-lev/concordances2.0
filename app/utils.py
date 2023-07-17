@@ -3,13 +3,14 @@ import crud, schemas
 
 def get_date(row, db):
     year = row['text1.year_writing']
+    print(row["text1.id"])
     year_from_db = None
     if pd.notna(year) and year != '':
         year_from_db = crud.get_date(db=db, date_id=year)
         if not year_from_db:
             if isinstance(year, float):
                 year = str(int(year))
-                date_data = schemas.DateOfWritingCreate(**{"exact_year": year})
+                date_data = schemas.DateOfWritingCreate(**{"exact_year": int(year)})
             elif "—" in year:
                 date_data = schemas.DateOfWritingCreate(**{
                     "start_year": int(year.split("—")[0]),
@@ -27,7 +28,7 @@ def get_date(row, db):
                     "end_year": int(end_year),
                 })
             else:
-                date_data = schemas.DateOfWritingCreate(**{"exact_year": year})
+                date_data = schemas.DateOfWritingCreate(**{"exact_year": int(year)})
             year_from_db = crud.create_date(db=db, date=date_data)
         if year_from_db:
             year_from_db = year_from_db.id

@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import crud, models, schemas
 from database import SessionLocal, engine
-from utils import get_date
+#from utils import get_date
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -87,36 +87,24 @@ async def upload_authors_from_csv(file: UploadFile = File(...), db: Session = De
 async def upload_group_texts(file: UploadFile = File(...), db: Session = Depends(get_db)):
     df = pd.read_csv(file.file)
     df = df.fillna('')
+    date_data = {}
     for _, row in df.iterrows():
         author_id = int(row['group_text.author'])
         year = row['group_text.year']
-        year_from_db = None
         if pd.notna(year) and year != '':
-            year_from_db = crud.get_date(db=db, date_id=year)
-            if not year_from_db:
-                if "—" in year:
-                    date_data = schemas.DateOfWritingCreate(**{
-                        "start_year": int(year.split("—")[0]),
-                        "end_year": int(year.split("—")[1]),
-                    })
-                elif "–" in year:
-                    date_data = schemas.DateOfWritingCreate(**{
-                        "start_year": int(year.split("–")[0]),
-                        "end_year": int(year.split("–")[1]),
-                    })
+            if "—" in year:
+                date_data["start_year"] = int(year.split("—")[0])
+                date_data["end_year"] = int(year.split("—")[1])
+            elif "–" in year:
+                date_data["start_year"] = int(year.split("–")[0])
+                date_data["end_year"] = int(year.split("–")[1])
+            elif "-" in year:
+                start_year, end_year = year.split("-")
+                date_data["start_year"] = int(start_year)
+                date_data["end_year"] = int(end_year)
+            else:
+                date_data["exact_year"] = int(year)
 
-                elif "-" in year:
-                    start_year, end_year = year.split("-")
-                    date_data = schemas.DateOfWritingCreate(**{
-                        "start_year": int(start_year),
-                        "end_year": int(end_year),
-                    })
-                else:
-                    date_data = schemas.DateOfWritingCreate(**{"exact_year": year})
-                print(date_data)
-                year_from_db = crud.create_date(db=db, date=date_data)
-            if year_from_db:
-                year_from_db = year_from_db.id
         group_data = {
             "id": row['group_text.id'],
             "title": row['group_text.title'],
@@ -125,7 +113,9 @@ async def upload_group_texts(file: UploadFile = File(...), db: Session = Depends
             "supergroup": int(row['group_text.superpgroup']) if pd.notna(row['group_text.superpgroup']) and row['group_text.superpgroup'] != '' else None,
             "subtitle": "",
             "author_comment": "",
-            "date_of_writing_id": year_from_db or None,
+            "exact_year": date_data.get("exact_year"),
+            "start_year": date_data.get("start_year"),
+            "end_year": date_data.get("end_year"),
             "writing_location_id": None,
             "publication_id": None,
             "book_page_start": "",
@@ -150,9 +140,8 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
     df = df.fillna('')
     df.replace('<NULL>', '', inplace=True)
     for _, row in df.iterrows():
+        print(row['text1.id'])
         author_id = int(row['text1.author'])
-        date_of_writing = get_date(row, db)
-        # epi, publication, location
         text_data = {
             "id": row['text1.id'],
             "title": row['text1.title'],
@@ -161,10 +150,15 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
             "filename": row['text1.filename'],
             "author_id": author_id,
             "dedication": row['text1.dedication'],
-            "group_text_id": int(row['text1.group_text']) if pd.notna(row['text1.group_text']) and row['text1.group_text'] != '' else None,
             "subtitle": row["text1.under_title"],
             "author_comment": row["text1.v"],
-            "date_of_writing_id": date_of_writing or None,
+            "exact_year": int(row['text1.year_writing']) if pd.notna(row['text1.year_writing']) and row['text1.year_writing'] != '' else None,
+            "exact_month": int(row['text1.month_writing']) if pd.notna(row['text1.month_writing']) and row['text1.month_writing'] != '' else None,
+            "exact_day": int(row['text1.day_writing']) if pd.notna(row['text1.day_writing']) and row['text1.day_writing'] != '' else None,
+            "dubious_year": row['text1.dyear_writing'],
+            "dubious_month": row['text1.dmonth_writing'],
+            "dubious_day": row['text1.dday_writing'],
+            "season": row['text1.season_writing'],
             "writing_location_id": None,
             "publication_id": None,
             "book_page_start": "",
@@ -249,7 +243,7 @@ def read_text(text_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Text not found")
     return db_text
 
-@app.get("/texts/author/", response_model=List[Dict])
+@app.get("/texts/author/", response_model=List[schemas.TextInDBBase])
 def read_texts_by_author(author_id: int, db: Session = Depends(get_db)):
     db_texts = crud.get_texts_by_author(db, author_id=author_id)
     if db_texts is None:
@@ -262,8 +256,3 @@ def read_texts_count_by_author(author_id: int, db: Session = Depends(get_db)):
     if db_texts is None:
         raise HTTPException(status_code=404, detail="Text not found")
     return db_texts
-
-@app.post("/dateofwritings/", response_model=schemas.DateOfWritingBase)
-def create_date(date: schemas.DateOfWritingBase, db: Session = Depends(get_db)):
-    return crud.create_date(db=db, date=date)
-

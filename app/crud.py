@@ -45,15 +45,6 @@ def create_location(db: Session, location: schemas.LocationBase):
     db.refresh(db_location)
     return db_location
 
-def get_date(db: Session, date_id: int):
-    return db.query(models.DateOfWriting).filter(models.DateOfWriting.exact_year == date_id).first()
-
-def create_date(db: Session, date: schemas.DateOfWritingBase):
-    db_date = models.DateOfWriting(**date.model_dump())
-    db.add(db_date)
-    db.commit()
-    db.refresh(db_date)
-    return db_date
 
 # GroupTextSchema CRUD operations
 def get_grouptext(db: Session, grouptext_id: int):
@@ -73,22 +64,10 @@ def create_grouptext(db: Session, grouptext: schemas.GroupTextCreate):
 def get_text(db: Session, text_id: int) -> models.Text | None:
     return db.query(models.Text).filter(models.Text.id == text_id).first()
 
-def get_texts_by_author(db: Session, author_id: int) -> List[dict]:
-    results = db.query(
-        models.Text.id,
-        models.Text.title,
-        models.Text.first_string,
-        models.DateOfWriting.exact_year
-    ).join(
-        models.DateOfWriting, models.Text.date_of_writing_id == models.DateOfWriting.id
-    ).filter(
-        models.Text.author_id == author_id
-    ).all()
+def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
+    results = db.query(models.Text).filter(models.Text.author_id == author_id).all()
 
-    # Convert the results to a list of dictionaries
-    texts = [{"id": id, "title": title, "first_string": first_string, "year": year} for id, title, first_string, year in results]
-
-    return texts
+    return results
 
 
 

@@ -73,32 +73,6 @@ class LocationInDBBase(LocationBase):
         orm_mode = True
 
 
-class DateOfWritingBase(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
-    exact_year: Optional[int] = None
-    exact_month: Optional[int] = None
-    exact_day: Optional[int] = None
-    dubious_year: Optional[int] = None
-    dubious_month: Optional[int] = None
-    dubious_day: Optional[int] = None
-    start_year: Optional[int] = None
-    end_year: Optional[int] = None
-    season: Optional[str] = None
-
-class DateOfWritingCreate(DateOfWritingBase):
-    pass
-
-
-class DateOfWritingUpdate(DateOfWritingBase):
-    pass
-
-class DateOfWritingInDBBase(DateOfWritingBase):
-    id: int
-
-    class Config:
-        orm_mode = True
-
-
 class TextBaseBase(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     """Abstract base class for TextBase and GroupTextBase"""
@@ -107,7 +81,15 @@ class TextBaseBase(BaseModel):
     subtitle: str | None = None
     author_comment: str | None = None
     dedication: str | None = None
-    date_of_writing_id: int | None = None
+    exact_year: int | None = None
+    exact_month: int | None = None
+    exact_day: int | None = None
+    dubious_year: str | None = None
+    dubious_month: str | None = None
+    dubious_day: str | None = None
+    start_year: int | None = None
+    end_year: int | None = None
+    season: str | None = None
     writing_location_id: int | None = None
     publication_id: int | None = None
     book_page_start: str | None = None
@@ -181,4 +163,5 @@ class EpigraphCreate(EpigraphBase):
 class EpigraphSchema(EpigraphBase):
     id: int
 
-
+    class Config:
+        orm_mode = True

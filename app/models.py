@@ -46,21 +46,6 @@ class Location(Base):
     texts = relationship('TextBase', back_populates='writing_location')
 
 
-class DateOfWriting(Base):
-    __tablename__ = 'dateofwritings'
-    id = Column(Integer, primary_key=True)
-    exact_year = Column(Integer, nullable=True)
-    exact_month = Column(Integer, nullable=True)
-    exact_day = Column(Integer, nullable=True)
-    dubious_year = Column(Integer, nullable=True)
-    dubious_month = Column(Integer, nullable=True)
-    dubious_day = Column(Integer, nullable=True)
-    start_year = Column(Integer, nullable=True)
-    end_year = Column(Integer, nullable=True)
-    season = Column(String, nullable=True)
-    texts = relationship('TextBase', back_populates='date_of_writing')
-
-
 class TextBase(Base):
     __tablename__ = 'textbases'
     id = Column(Integer, primary_key=True)
@@ -75,8 +60,15 @@ class TextBase(Base):
         'polymorphic_identity':'textbase',
         'polymorphic_on':type
     }
-    date_of_writing_id = Column(Integer, ForeignKey('dateofwritings.id'), nullable=True)
-    date_of_writing = relationship('DateOfWriting', back_populates='texts')
+    exact_year = Column(Integer, nullable=True)
+    exact_month = Column(Integer, nullable=True)
+    exact_day = Column(Integer, nullable=True)
+    dubious_year = Column(String, nullable=True)
+    dubious_month = Column(String, nullable=True)
+    dubious_day = Column(String, nullable=True)
+    start_year = Column(Integer, nullable=True)
+    end_year = Column(Integer, nullable=True)
+    season = Column(String, nullable=True)
     writing_location_id = Column(Integer, ForeignKey('locations.id'), nullable=True)
     writing_location = relationship('Location', back_populates='texts')
     publication_id = Column(Integer, ForeignKey("publications.id"), nullable=True)
