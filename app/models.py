@@ -18,6 +18,8 @@ class Author(Base):
     birth_location = Column(String)
     death_location = Column(String)
     texts = relationship('TextBase', back_populates='author')
+    variants = relationship('Variant', back_populates='author')
+    olds = relationship('Old', back_populates='author')
 
 
 class Publication(Base):
@@ -33,6 +35,8 @@ class Publication(Base):
     author_id = Column(Integer, ForeignKey('authors.id'), nullable=True)
     author = relationship('Author')
     textbases = relationship('TextBase', back_populates='publication')
+    variants = relationship('Variant', back_populates='publication')
+
 
 class Location(Base):
     __tablename__ = 'locations'
@@ -80,6 +84,7 @@ class TextBase(Base):
 class Text(TextBase):
     __tablename__ = 'texts'
     id = Column(Integer, ForeignKey('textbases.id'), primary_key=True)
+    text_id = Column(Integer)  # id from trymysql database
     first_string = Column(String)
     body = Column(String)
     filename = Column(String)
@@ -87,10 +92,8 @@ class Text(TextBase):
     n_in_group = Column(Integer)
     group_text_id = Column(Integer, ForeignKey("grouptexts.id"), nullable=True)
     group_text = relationship("GroupText", back_populates="texts", foreign_keys=[group_text_id])
-    variants = relationship("Variant", back_populates="text_variant_of", foreign_keys="Variant.text_id")
-    olds = relationship("Old", back_populates="text_variant_of", foreign_keys="Old.text_variant_of_id")
-        
-    
+    variants = relationship("Variant", back_populates="variant_of_text", foreign_keys="Variant.variant_of_text_id")
+    olds = relationship("Old", back_populates="old_variant_of_text", foreign_keys="Old.old_variant_of_text_id")
     __mapper_args__ = {
         'polymorphic_identity':'text',
     }
@@ -99,6 +102,7 @@ class Text(TextBase):
 class GroupText(TextBase):
     __tablename__ = 'grouptexts'
     id = Column(Integer, ForeignKey('textbases.id'), primary_key=True)
+    group_text_id = Column(Integer)
     comment = Column(String, nullable=True)
     genre = Column(String, nullable=True)
     supergroup = Column(String, nullable=True)
@@ -107,27 +111,49 @@ class GroupText(TextBase):
     }
     texts = relationship("Text", back_populates="group_text", foreign_keys="Text.group_text_id")
 
-class Variant(TextBase):
+class Variant(Base):
     __tablename__ = 'variants'
-    id = Column(Integer, ForeignKey('textbases.id'), primary_key=True)
+    id = Column(Integer, primary_key=True)
+    first_string = Column(String)
     filename = Column(String)
-    text_id = Column(Integer, ForeignKey("texts.id"))
-    text_variant_of = relationship("Text", back_populates="variants", foreign_keys=[text_id])
-    
+    body = Column(String, nullable=True)
+    author_id = Column(Integer, ForeignKey('authors.id'))
+    author = relationship('Author')
+    title = Column(String, nullable=True)
+    subtitle = Column(String, nullable=True)
+    dedication = Column(String, nullable=True)
+    year = Column(Integer, nullable=True)
+    date = Column(String, nullable=True)
+    publication_id = Column(Integer, ForeignKey("publications.id"), nullable=True)
+    publication = relationship("Publication", back_populates="variants")
+    book_page_start = Column(Integer, nullable=True)
+    book_page_end = Column(Integer, nullable=True)
+    variant_of_text_id = Column(Integer, ForeignKey("texts.id"))
+    variant_of_text = relationship("Text", back_populates="variants", foreign_keys=[variant_of_text_id])
+    epi_text = Column(String, nullable=True)
+    epi_author = Column(String, nullable=True)
     __mapper_args__ = {
         'polymorphic_identity':'variant',
     }
 
-class Old(TextBase):
+class Old(Base):
     __tablename__ = 'olds'
-    id = Column(Integer, ForeignKey('textbases.id'), primary_key=True)
+    id = Column(Integer, primary_key=True)
     first_string = Column(String)
     filename = Column(String)
-    text_variant_of_id = Column(Integer, ForeignKey('texts.id'))
-    text_variant_of = relationship('Text', back_populates='olds', foreign_keys=[text_variant_of_id])
+    date = Column(String, nullable=True)
+    body = Column(String, nullable=True)
+    old_variant_of_text_id = Column(Integer, ForeignKey('texts.id'))
+    old_variant_of_text = relationship('Text', back_populates='olds', foreign_keys=[old_variant_of_text_id])
     __mapper_args__ = {
         'polymorphic_identity':'old',
     }
+    author_id = Column(Integer, ForeignKey('authors.id'))
+    author = relationship('Author')
+    title = Column(String, nullable=True)
+    subtitle = Column(String, nullable=True)
+    dedication = Column(String, nullable=True)
+
 
 class Epigraph(Base):
     __tablename__ = 'epigraphs'

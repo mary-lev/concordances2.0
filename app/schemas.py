@@ -97,6 +97,7 @@ class TextBaseBase(BaseModel):
 
 
 class GroupTextBase(TextBaseBase):
+    group_text_id: int | None = None
     supergroup: Optional[str]
 
 class GroupTextCreate(GroupTextBase):
@@ -107,12 +108,14 @@ class GroupTextUpdate(GroupTextBase):
 
 class GroupTextInDBBase(GroupTextBase):
     id: int
+    text_id: int
 
     class Config:
         orm_mode = True
 
 
 class TextBase(TextBaseBase):
+    text_id: int
     first_string: Optional[str] = None
     body: Optional[str] = None
     filename: Optional[str]
@@ -127,26 +130,53 @@ class TextUpdate(TextBase):
 
 class TextInDBBase(TextBase):
     id: int
+    text_id: int
 
     class Config:
         orm_mode = True
 
-class VariantBase(TextBaseBase):
+class VariantBase(BaseModel):
     first_string: Optional[str] = None
     filename: Optional[str]
-    text_variant_of: Optional[TextBase] = None
+    body: Optional[str] = None
+    variant_of_text: Optional[TextBase] = None
+    variant_of_text_id: int
 
 class VariantCreate(VariantBase):
     filename: str
+    variant_of_text_id: int
+
+class VariantUpdate(VariantBase):
+    pass
+
+class VariantInDBBase(VariantBase):
+    id: int
+    variant_of_text_id: int
+    class Config:
+        orm_mode = True
 
 
-class OldBase(TextBaseBase):
+class OldBase(BaseModel):
     first_string: Optional[str] = None
     filename: Optional[str]
-    text_variant_of: Optional[TextBase] = None
+    date: Optional[str] = None
+    body: Optional[str] = None
+    old_variant_of_text: Optional[TextBase] = None
+    old_variant_of_text_id: int
 
-class OldSchema(OldBase):
+
+class OldCreate(OldBase):
+    filename: str
+
+class OldUpdate(OldBase):
+    pass
+
+class OldInDBBase(OldBase):
     id: int
+    old_variant_of_text_id: int
+
+    class Config:
+        orm_mode = True
 
 
 class EpigraphBase(BaseModel):

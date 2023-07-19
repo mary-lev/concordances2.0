@@ -1,5 +1,6 @@
 from typing import List
 from sqlalchemy.orm import Session
+from sqlalchemy.orm import joinedload, load_only
 import models
 import schemas
 
@@ -21,6 +22,9 @@ def create_author(db: Session, author: schemas.AuthorBase):
 def get_publication(db: Session, publication_id: int):
     return db.query(models.Publication).filter(models.Publication.id == publication_id).first()
 
+def get_publications(db: Session, skip: int = 0, limit: int = 100):
+    return db.query(models.Publication).offset(skip).limit(limit).all()
+
 def get_publication_by_title(db: Session, title: str):
     return db.query(models.Publication).filter(models.Publication.title == title).first()
 
@@ -32,11 +36,14 @@ def create_publication(db: Session, publication: schemas.PublicationBase):
     return db_publication
 
 # LocationSchema CRUD operations
-def get_location(db: Session, location_id: int):
-    return db.query(models.Location).filter(models.Location.id == location_id).first()
+def get_location(db: Session, location_id: int) -> schemas.LocationInDBBase | None:
+    return db.query(models.Location.name).filter(models.Location.id == location_id).first()
 
-def get_location_by_name(db: Session, name: str):
-    return db.query(models.Location).filter(models.Location.name == name).first()
+def get_location_by_name(db: Session, name: str) -> schemas.LocationInDBBase | None:
+    return db.query(models.Location).filter(models.Location.name==name).first()
+
+def get_locations(db: Session, skip: int = 0, limit: int = 100) -> List[tuple]:
+    return db.query(models.Location.id, models.Location.name).offset(skip).all()
 
 def create_location(db: Session, location: schemas.LocationBase):
     db_location = models.Location(**location.model_dump())
@@ -62,14 +69,40 @@ def create_grouptext(db: Session, grouptext: schemas.GroupTextCreate):
 
 # TextSchema CRUD operations
 def get_text(db: Session, text_id: int) -> models.Text | None:
-    return db.query(models.Text).filter(models.Text.id == text_id).first()
+    return db.query(models.Text).filter(models.Text.text_id == text_id).first()
 
 def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
-    results = db.query(models.Text).filter(models.Text.author_id == author_id).all()
+    return db.query(models.Text).filter(models.Text.author_id == author_id).all()
 
-    return results
+def get_texts_by_author_with_group(db: Session, author_id: int) -> List[dict]:
+    results = (
+        db.query(
+            models.Text.text_id,
+            models.Text.title,
+            models.Text.first_string,
+            models.Text.exact_year,
+            models.GroupText.title.label("group_text_title")
+        )
+        .outerjoin(models.Text.group_text)
+        .filter(models.Text.author_id == author_id)
+        .all()
+    )
+    return [
+        {
+            "id": res.text_id,
+            "title": res.title,
+            "first_string": res.first_string,
+            "exact_year": res.exact_year,
+            "group_text_title": res.group_text_title,
+        }
+        for res in results
+    ]
 
-
+def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
+    res = db.query(models.Text).filter(models.Text.text_id == old_id).first()
+    print(res)
+    print(res.id)
+    return res.id
 
 def get_texts_count_by_author(db: Session, author_id: int) -> int:
     return db.query(models.Text).filter(models.Text.author_id == author_id).count()
@@ -82,8 +115,12 @@ def create_text(db: Session, text: schemas.TextBase):
     return db_text
 
 # VariantSchema CRUD operations
-def get_variant(db: Session, variant_id: int):
-    return db.query(models.Variant).filter(models.Variant.id == variant_id).first()
+def get_variant(db: Session, id: int) -> models.Variant | None:
+    return db.query(models.Variant).filter(models.Variant.id == id).first()
+
+def get_variants_for_text_id(db: Session, text_id: int) -> list:
+    res = db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
+    return db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
 
 def create_variant(db: Session, variant: schemas.VariantBase):
     db_variant = models.Variant(**variant.model_dump())
@@ -92,9 +129,13 @@ def create_variant(db: Session, variant: schemas.VariantBase):
     db.refresh(db_variant)
     return db_variant
 
+
 # OldSchema CRUD operations
-def get_old(db: Session, old_id: int):
-    return db.query(models.Old).filter(models.Old.id == old_id).first()
+def get_old(db: Session, id: int) -> models.Old | None:
+    return db.query(models.Old).filter(models.Old.id == id).first()
+
+def get_old_for_text(db: Session, text_id: int) -> models.Old | None:
+    return db.query(models.Old).filter(models.Old.old_variant_of_text_id == text_id).first()
 
 def create_old(db: Session, old: schemas.OldBase):
     db_old = models.Old(**old.model_dump())
