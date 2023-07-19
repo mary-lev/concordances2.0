@@ -1,6 +1,5 @@
 from typing import List
 from sqlalchemy.orm import Session
-from sqlalchemy.orm import joinedload, load_only
 import models
 import schemas
 
@@ -99,10 +98,7 @@ def get_texts_by_author_with_group(db: Session, author_id: int) -> List[dict]:
     ]
 
 def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
-    res = db.query(models.Text).filter(models.Text.text_id == old_id).first()
-    print(res)
-    print(res.id)
-    return res.id
+    return db.query(models.Text).filter(models.Text.text_id == old_id).first().id
 
 def get_texts_count_by_author(db: Session, author_id: int) -> int:
     return db.query(models.Text).filter(models.Text.author_id == author_id).count()
@@ -115,7 +111,7 @@ def create_text(db: Session, text: schemas.TextBase):
     return db_text
 
 # VariantSchema CRUD operations
-def get_variant(db: Session, id: int) -> models.Variant | None:
+def get_variant(db: Session, id) -> models.Variant | None:
     return db.query(models.Variant).filter(models.Variant.id == id).first()
 
 def get_variants_for_text_id(db: Session, text_id: int) -> list:
@@ -131,7 +127,7 @@ def create_variant(db: Session, variant: schemas.VariantBase):
 
 
 # OldSchema CRUD operations
-def get_old(db: Session, id: int) -> models.Old | None:
+def get_old(db: Session, id) -> models.Old | None:
     return db.query(models.Old).filter(models.Old.id == id).first()
 
 def get_old_for_text(db: Session, text_id: int) -> models.Old | None:

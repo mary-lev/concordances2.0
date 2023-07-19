@@ -5,8 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import crud, models, schemas
 from database import SessionLocal, engine
-#from utils import get_date
-import urllib.parse
+
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -213,7 +212,7 @@ async def upload_variants(file: UploadFile = File(...), db: Session = Depends(ge
             "epi_text": row.get("drafts.epi"),
             "epi_author": row.get("drafts.epi_author"),
         }
-        variant = models.Variant(**variant_data)   
+        variant = models.Variant(**variant_data)
         db.add(variant)
     db.commit()
 
@@ -351,7 +350,7 @@ async def create_old(old: schemas.OldCreate, db: Session = Depends(get_db)):
     return crud.create_old(db=db, old=old)
 
 @app.get("/old/{id}", response_model=schemas.OldInDBBase, tags=["old"])
-def read_old(id: int, db: Session = Depends(get_db)):
+def read_old(id, db: Session = Depends(get_db)):
     db_old = crud.get_old(db, id=id)
     if db_old is None:
         raise HTTPException(status_code=404, detail="Old not found")
@@ -372,14 +371,14 @@ async def get_old_for_text(text_id: int, db: Session = Depends(get_db)):
     return old
 
 @app.get("/variant/{id}", response_model=schemas.VariantInDBBase, tags=["variants"])
-def read_variant(id: int, db: Session = Depends(get_db)):
+def read_variant(id, db: Session = Depends(get_db)):
     db_variant = crud.get_variant(db, id=id)
     if db_variant is None:
         raise HTTPException(status_code=404, detail="Variant not found")
     return db_variant
 
 @app.get("/variant/text/{text_id}", response_model=schemas.VariantInDBBase, tags=["variants"])
-def read_variant(text_id: int, db: Session = Depends(get_db)):
+def read_variant_by_text_id(text_id: int, db: Session = Depends(get_db)):
     #db_text_id = crud.get_new_text_id_by_old_id(db, old_id=text_id)
     db_variant = crud.get_variants_for_text_id(db, text_id)
     if db_variant is None:
