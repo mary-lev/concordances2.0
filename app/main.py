@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 import crud, models, schemas
 from database import SessionLocal, engine
+from utils import get_date
 
 
 models.Base.metadata.create_all(bind=engine)
@@ -92,47 +93,28 @@ async def upload_authors_from_csv(file: UploadFile = File(...), db: Session = De
 async def upload_group_texts(file: UploadFile = File(...), db: Session = Depends(get_db)):
     df = pd.read_csv(file.file)
     df = df.fillna('')
-    date_data = {}
     for _, row in df.iterrows():
         author_id = int(row['group_text.author'])
-        year = row['group_text.year']
-        if pd.notna(year) and year != '':
-            if "—" in year:
-                date_data["start_year"] = int(year.split("—")[0])
-                date_data["end_year"] = int(year.split("—")[1])
-            elif "–" in year:
-                date_data["start_year"] = int(year.split("–")[0])
-                date_data["end_year"] = int(year.split("–")[1])
-            elif "-" in year:
-                start_year, end_year = year.split("-")
-                date_data["start_year"] = int(start_year)
-                date_data["end_year"] = int(end_year)
-            else:
-                date_data["exact_year"] = int(year)
-
+        date_id = get_date(row, db, "group_text")
         group_data = {
-            "group_text_id": row['group_text.id'],
+            "id": row['group_text.id'],
             "title": row['group_text.title'],
             "author_id": author_id,
             "dedication": row['group_text.dedication'],
             "supergroup": int(row['group_text.superpgroup']) if pd.notna(row['group_text.superpgroup']) and row['group_text.superpgroup'] != '' else None,
             "subtitle": "",
             "author_comment": "",
-            "exact_year": date_data.get("exact_year"),
-            "start_year": date_data.get("start_year"),
-            "end_year": date_data.get("end_year"),
-            "writing_location_id": None,
-            "publication_id": None,
-            "book_page_start": "",
-            "book_page_end": "",
+            "text_date_id": date_id,
+            "location_id": None,
         }
         
         group = schemas.GroupTextCreate(**group_data)
+        print(group)
         group_instance = crud.create_grouptext(db=db, grouptext=group)
         if 'group_text.epigraph' in row and pd.notna(row['group_text.epigraph']) and row['group_text.epigraph'] != '':
             epi = {
                 "epi_text": row['group_text.epigraph'],
-                "textbase_id": group_instance.id,
+                "text_id": group_instance.id,
             }
             epi_data = schemas.EpigraphCreate(**epi)
             crud.create_epigraph(db=db, epigraph=epi_data)
@@ -218,6 +200,10 @@ async def upload_variants(file: UploadFile = File(...), db: Session = Depends(ge
 
     return {"filename": file.filename}
 
+@app.post("/text/create/", tags=["texts"])
+async def create_text(text: schemas.TextCreate, db: Session = Depends(get_db)):
+    return crud.create_text(db=db, text=text)
+
 @app.post("/upload_texts/", tags=["texts"])
 async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_db)):
     df = pd.read_csv(file.file)
@@ -226,6 +212,7 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
     for _, row in df.iterrows():
         print(row['text1.id'])
         author_id = int(row['text1.author'])
+        date_id = get_date(row, db, "text1")
         text_data = {
             "text_id": row['text1.id'],
             "title": row['text1.title'],
@@ -236,14 +223,8 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
             "dedication": row['text1.dedication'],
             "subtitle": row["text1.under_title"],
             "author_comment": row["text1.v"],
-            "exact_year": int(row['text1.year_writing']) if pd.notna(row['text1.year_writing']) and row['text1.year_writing'] != '' else None,
-            "exact_month": int(row['text1.month_writing']) if pd.notna(row['text1.month_writing']) and row['text1.month_writing'] != '' else None,
-            "exact_day": int(row['text1.day_writing']) if pd.notna(row['text1.day_writing']) and row['text1.day_writing'] != '' else None,
-            "dubious_year": row['text1.dyear_writing'],
-            "dubious_month": row['text1.dmonth_writing'],
-            "dubious_day": row['text1.dday_writing'],
-            "season": row['text1.season_writing'],
-            "writing_location_id": None,
+            "text_date_id": date_id,
+            "location_id": None,
             "publication_id": None,
             "book_page_start": "",
             "book_page_end": "",
@@ -253,22 +234,19 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
         
         text = schemas.TextCreate(**text_data)
         text_instance = crud.create_text(db=db, text=text)
-        """if "text.epigraph_author" in row and pd.notna(row['text.epigraph_author']) and row['text.epigraph_author'] != '':
-            author = {
-                "name": row['text.epigraph_author'],
-                "textbase_id": text_instance.id,
-            }
-            author_data = schemas.AuthorCreate(**author)
-            crud.create_author(db=db, author=author_data)"""
-        """if 'text.epigraph' in row and pd.notna(row['text.epigraph']) and row['text.epigraph'] != '':
-            epi = {
-                "epi_text": row['text.epigraph'],
-                "epi_author": row['text.epigraph_author'],
-                "epi_book": row['text.epigraph_text_name'],
-                "textbase_id": text_instance.id,
-            }
-            epi_data = schemas.EpigraphCreate(**epi)
-            crud.create_epigraph(db=db, epigraph=epi_data)"""
+        if "text1.group_text" in row and pd.notna(row['text1.group_text']) and row['text1.group_text'] != '':
+            print("group text", row['text1.group_text'])
+            group_text = crud.get_grouptext(db, grouptext_id=int(row['text1.group_text']))
+            print(group_text)
+            text_instance.group_text_id = group_text.id
+            text_instance.group_text = group_text
+            print(text_instance.group_text)
+            db.flush()
+        if date_id:
+            text_instance.text_date_id = date_id
+            text_instance.text_date = crud.get_date(db, date_id=date_id)
+            db.flush()
+
         if 'text1.book' in row and pd.notna(row['text1.book']) and row['text1.book'] != '':
             # find book
             book = crud.get_publication_by_title(db, title=row['text1.book'])
@@ -280,7 +258,7 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
                 book = crud.create_publication(db=db, publication=pub_data)
                 if book:
                     text_instance.publication_id = book.id
-                    db.commit()
+                    db.flush()
         if 'text1.writing_location' in row and pd.notna(row['text1.writing_location']) and row['text1.writing_location'] != '':
             new_location = row['text1.writing_location'].strip()
             location = crud.get_location_by_name(db, name=new_location)
@@ -291,9 +269,9 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
                 loc_data = schemas.LocationCreate(**loc)
                 location = crud.create_location(db=db, location=loc_data)
             if location:
-                text_instance.writing_location_id = location.id
-                db.commit()
-        
+                text_instance.location_id = location.id
+                db.flush()
+        db.commit()
     return {"filename": file.filename}
 
 @app.get("/authors/{author_id}", response_model=schemas.AuthorInDBBase, tags=["authors"])
@@ -335,7 +313,7 @@ def read_texts_by_author(author_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Text not found")
     return db_texts
 
-@app.get("/texts/author/with_group/", response_model=List[dict], tags=["texts"])
+@app.get("/texts/author/with_group/", response_model=List[schemas.TextInDBBase], tags=["texts"])
 def read_texts_by_author_with_group(author_id: int,db: Session = Depends(get_db)):
     db_texts = crud.get_texts_by_author_with_group(db, author_id=author_id)
     if db_texts is None:
@@ -379,10 +357,10 @@ def read_variant(id, db: Session = Depends(get_db)):
 
 @app.get("/variant/text/{text_id}", response_model=schemas.VariantInDBBase, tags=["variants"])
 def read_variant_by_text_id(text_id: int, db: Session = Depends(get_db)):
-    #db_text_id = crud.get_new_text_id_by_old_id(db, old_id=text_id)
     db_variant = crud.get_variants_for_text_id(db, text_id)
-    if db_variant is None:
+    if len(db_variant) == 0:
         raise HTTPException(status_code=404, detail="Variant not found")
+
     filename = db_variant[0].filename
     filename = filename.replace("/home/concordance/web2py/applications/test/", "../")
     with open(filename, "r") as f:

@@ -1,5 +1,7 @@
 from typing import List
 from sqlalchemy.orm import Session
+from sqlalchemy.orm import joinedload
+
 import models
 import schemas
 
@@ -51,6 +53,40 @@ def create_location(db: Session, location: schemas.LocationBase):
     db.refresh(db_location)
     return db_location
 
+def create_date(db: Session, date: schemas.TextDateBase):
+    db_date = models.TextDate(**date.model_dump())
+    db.add(db_date)
+    db.commit()
+    db.refresh(db_date)
+    return db_date
+
+def get_date(db: Session, date_id: int):
+    return db.query(models.TextDate).filter(models.TextDate.id == date_id).first()
+
+def get_exact_date(
+        db: Session,
+        year: int,
+        month: int,
+        day: int,
+        dubious_year: str = None,
+        dubious_month: str = None,
+        dubious_day: str = None,
+        season: str = None,
+        start_year: int = None,
+        end_year: int = None,
+    ):
+    return db.query(models.TextDate).filter(
+        models.TextDate.year == year,
+        models.TextDate.month == month,
+        models.TextDate.day == day,
+        models.TextDate.dubious_year == dubious_year,
+        models.TextDate.dubious_month == dubious_month,
+        models.TextDate.dubious_day == dubious_day,
+        models.TextDate.season == season,
+        models.TextDate.start_year == start_year,
+        models.TextDate.end_year == end_year,
+    ).first()
+
 
 # GroupTextSchema CRUD operations
 def get_grouptext(db: Session, grouptext_id: int):
@@ -73,29 +109,42 @@ def get_text(db: Session, text_id: int) -> models.Text | None:
 def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
     return db.query(models.Text).filter(models.Text.author_id == author_id).all()
 
-def get_texts_by_author_with_group(db: Session, author_id: int) -> List[dict]:
+from sqlalchemy import label
+
+def get_texts_by_author_with_group(db: Session, author_id: int) -> List[models.Text]:
+    return db.query(models.Text).filter(models.Text.author_id == author_id).all
+
+def get_texts_by_author_with_group2(db: Session, author_id: int) -> List[dict]:
     results = (
         db.query(
             models.Text.text_id,
             models.Text.title,
             models.Text.first_string,
-            models.Text.exact_year,
-            models.GroupText.title.label("group_text_title")
+            models.TextDate.year,
+            models.TextDate.month,
+            models.TextDate.day,
+            models.GroupText.title.label("group_text_title"),
         )
-        .outerjoin(models.Text.group_text)
+        .join(models.TextDate, models.Text.text_date_id == models.TextDate.id, isouter=True)  # Join with TextDate table
+        .join(models.GroupText, models.Text.group_text_id == models.GroupText.id, isouter=True)  # Join with GroupText table
         .filter(models.Text.author_id == author_id)
         .all()
     )
+
     return [
         {
             "id": res.text_id,
             "title": res.title,
             "first_string": res.first_string,
-            "exact_year": res.exact_year,
+            "year": res.year,
+            "month": res.month,
+            "day": res.day,
             "group_text_title": res.group_text_title,
         }
         for res in results
     ]
+
+
 
 def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
     return db.query(models.Text).filter(models.Text.text_id == old_id).first().id
@@ -105,6 +154,7 @@ def get_texts_count_by_author(db: Session, author_id: int) -> int:
 
 def create_text(db: Session, text: schemas.TextBase):
     db_text = models.Text(**text.model_dump())
+    print(db_text.__dict__)
     db.add(db_text)
     db.commit()
     db.refresh(db_text)
@@ -115,7 +165,6 @@ def get_variant(db: Session, id) -> models.Variant | None:
     return db.query(models.Variant).filter(models.Variant.id == id).first()
 
 def get_variants_for_text_id(db: Session, text_id: int) -> list:
-    res = db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
     return db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
 
 def create_variant(db: Session, variant: schemas.VariantBase):

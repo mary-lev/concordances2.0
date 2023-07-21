@@ -72,33 +72,54 @@ class LocationInDBBase(LocationBase):
     class Config:
         orm_mode = True
 
-
-class TextBaseBase(BaseModel):
+class TextDateBase(BaseModel):
     model_config = ConfigDict(from_attributes=True)
-    """Abstract base class for TextBase and GroupTextBase"""
+    year: Optional[int] = None
+    month: Optional[int] = None
+    day: Optional[int] = None
+    dubious_year: Optional[str] = None
+    dubious_month: Optional[str] = None
+    dubious_day: Optional[str] = None
+    start_year: Optional[int] = None
+    end_year: Optional[int] = None
+    season: Optional[str] = None
+    comment: Optional[str] = None
+
+
+class TextDateCreate(TextDateBase):
+    pass
+
+class TextDateUpdate(TextDateBase):
+    pass
+
+class TextDateInDBBase(TextDateBase):
+    id: int
+    year: int
+    month: int
+    day: int
+    dubious_day: str
+    dubious_month: str
+    dubious_year: str
+    start_year: int
+    end_year: int
+    season: str
+
+    class Config:
+        orm_mode = True
+
+
+class GroupTextBase(BaseModel):
+    supergroup: Optional[str]
+    location_id: Optional[int] = None
+    location: Optional[LocationBase] = None
     author_id: int
     title: str | None = None
+    dedication: str | None = None
     subtitle: str | None = None
     author_comment: str | None = None
-    dedication: str | None = None
-    exact_year: int | None = None
-    exact_month: int | None = None
-    exact_day: int | None = None
-    dubious_year: str | None = None
-    dubious_month: str | None = None
-    dubious_day: str | None = None
-    start_year: int | None = None
-    end_year: int | None = None
-    season: str | None = None
-    writing_location_id: int | None = None
-    publication_id: int | None = None
-    book_page_start: str | None = None
-    book_page_end: str | None = None
+    text_date_id: int | None = None
+    location_id: int | None = None
 
-
-class GroupTextBase(TextBaseBase):
-    group_text_id: int | None = None
-    supergroup: Optional[str]
 
 class GroupTextCreate(GroupTextBase):
     title: str
@@ -108,19 +129,31 @@ class GroupTextUpdate(GroupTextBase):
 
 class GroupTextInDBBase(GroupTextBase):
     id: int
-    text_id: int
 
     class Config:
         orm_mode = True
 
 
-class TextBase(TextBaseBase):
+class TextBase(BaseModel):
     text_id: int
+    title: str | None = None
+    subtitle: str | None = None
     first_string: Optional[str] = None
     body: Optional[str] = None
     filename: Optional[str]
     n_in_group: int = None
-    group_text_id: int | None = None
+    author_id: int
+    author_comment: str | None = None
+    dedication: str | None = None
+    group_text_id: Optional[int] = None
+    group_text: Optional[GroupTextBase] = None
+    publication_id: Optional[int] = None
+    publication: Optional[PublicationBase] = None
+    location_id: Optional[int] = None
+    location: Optional[LocationBase] = None
+    text_date_id: Optional[int] = None
+    text_date: Optional[TextDateBase] = None
+
 
 class TextCreate(TextBase):
     body: str
@@ -131,16 +164,53 @@ class TextUpdate(TextBase):
 class TextInDBBase(TextBase):
     id: int
     text_id: int
+    publication: Optional[PublicationBase] = None
+    publication_id: Optional[int] = None
+
+    class Config:
+        orm_mode = True
+
+
+class EpigraphBase(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    epi_text: Optional[str] = None
+    epi_author: Optional[str] = None
+    epi_book: Optional[str] = None
+    epi_filename: Optional[str] = None
+    text_id: Optional[int] = None
+
+class EpigraphCreate(EpigraphBase):
+    epi_text: str
+
+class EpigraphSchema(EpigraphBase):
+    id: int
 
     class Config:
         orm_mode = True
 
 class VariantBase(BaseModel):
     first_string: Optional[str] = None
-    filename: Optional[str]
+    filename: Optional[str] = None
     body: Optional[str] = None
+    title: Optional[str] = None
+    subtitle: Optional[str] = None
+    author_comment: Optional[str] = None
+    dedication: Optional[str] = None
+    year: Optional[str] = None
+    date: Optional[str] = None
+    publication_id: Optional[int] = None
+    publication: Optional[PublicationBase] = None
+    location_id: Optional[int] = None
+    location: Optional[LocationBase] = None
+    book_page_start: Optional[int|str] = None
+    book_page_end: Optional[int] = None
     variant_of_text: Optional[TextBase] = None
     variant_of_text_id: int
+    epi_text: Optional[str] = None
+    epigraph: Optional[EpigraphBase] = None
+    author: Optional[AuthorBase] = None
+    author_id: int
+    text_date_id: Optional[int] = None
 
 class VariantCreate(VariantBase):
     filename: str
@@ -151,7 +221,11 @@ class VariantUpdate(VariantBase):
 
 class VariantInDBBase(VariantBase):
     id: int
+    filename: str
+    publication_id: int
+    body: str
     variant_of_text_id: int
+
     class Config:
         orm_mode = True
 
@@ -173,25 +247,8 @@ class OldUpdate(OldBase):
 
 class OldInDBBase(OldBase):
     id: int
-    old_variant_of_text_id: int
 
     class Config:
         orm_mode = True
 
 
-class EpigraphBase(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
-    epi_text: Optional[str] = None
-    epi_author: Optional[str] = None
-    epi_book: Optional[str] = None
-    epi_filename: Optional[str] = None
-    textbase_id: Optional[int] = None
-
-class EpigraphCreate(EpigraphBase):
-    epi_text: str
-
-class EpigraphSchema(EpigraphBase):
-    id: int
-
-    class Config:
-        orm_mode = True
