@@ -142,6 +142,7 @@ class TextBase(BaseModel):
     body: Optional[str] = None
     filename: Optional[str]
     n_in_group: int = None
+    author: Optional[AuthorBase] = None
     author_id: int
     author_comment: str | None = None
     dedication: str | None = None

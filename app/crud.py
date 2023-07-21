@@ -1,6 +1,5 @@
 from typing import List
 from sqlalchemy.orm import Session
-from sqlalchemy.orm import joinedload
 
 import models
 import schemas
@@ -109,42 +108,8 @@ def get_text(db: Session, text_id: int) -> models.Text | None:
 def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
     return db.query(models.Text).filter(models.Text.author_id == author_id).all()
 
-from sqlalchemy import label
-
 def get_texts_by_author_with_group(db: Session, author_id: int) -> List[models.Text]:
     return db.query(models.Text).filter(models.Text.author_id == author_id).all
-
-def get_texts_by_author_with_group2(db: Session, author_id: int) -> List[dict]:
-    results = (
-        db.query(
-            models.Text.text_id,
-            models.Text.title,
-            models.Text.first_string,
-            models.TextDate.year,
-            models.TextDate.month,
-            models.TextDate.day,
-            models.GroupText.title.label("group_text_title"),
-        )
-        .join(models.TextDate, models.Text.text_date_id == models.TextDate.id, isouter=True)  # Join with TextDate table
-        .join(models.GroupText, models.Text.group_text_id == models.GroupText.id, isouter=True)  # Join with GroupText table
-        .filter(models.Text.author_id == author_id)
-        .all()
-    )
-
-    return [
-        {
-            "id": res.text_id,
-            "title": res.title,
-            "first_string": res.first_string,
-            "year": res.year,
-            "month": res.month,
-            "day": res.day,
-            "group_text_title": res.group_text_title,
-        }
-        for res in results
-    ]
-
-
 
 def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
     return db.query(models.Text).filter(models.Text.text_id == old_id).first().id
