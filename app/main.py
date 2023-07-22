@@ -161,11 +161,11 @@ async def upload_old(file: UploadFile = File(...), db: Session = Depends(get_db)
         author_id = int(row['old.author'])
         text_id = int(row['old.text'])
         # find textbase id
-        textbase = crud.get_new_text_id_by_old_id(db=db, old_id=text_id)
+        text = crud.get_text(db=db, id=text_id)
         old_data = {
             "title": row['old.title'],
             #"old_variant_of_text": textbase,
-            "old_variant_of_text_id": textbase,
+            "old_variant_of_text_id": text_id,
             "first_string": row['old.first_string'],
             "filename": row['old.filename'],
             "dedication": row['old.dedication'],
@@ -214,7 +214,6 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
     df = df.fillna('')
     df.replace('<NULL>', '', inplace=True)
     for _, row in df.iterrows():
-        print(row['text1.id'])
         author_id = int(row['text1.author'])
         date_id = get_date(row, db, "text1")
         text_data = {
@@ -223,6 +222,7 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
             "first_string": row['text1.first_string'],
             "body": row['text1.body'],
             "filename": row['text1.filename'],
+            "source": row['text1.book'],
             "author_id": author_id,
             "dedication": row['text1.dedication'],
             "subtitle": row["text1.under_title"],
@@ -235,34 +235,25 @@ async def upload_texts(file: UploadFile = File(...), db: Session = Depends(get_d
             "n_in_group": int(row['text1.n_in_group']) if pd.notna(row['text1.n_in_group']) and row['text1.n_in_group'] != '' else 0,
             "group_text_id": int(row['text1.group_text']) if pd.notna(row['text1.group_text']) and row['text1.group_text'] != '' else None,
         }
-        
+       
         text = schemas.TextCreate(**text_data)
         text_instance = crud.create_text(db=db, text=text)
         if "text1.group_text" in row and pd.notna(row['text1.group_text']) and row['text1.group_text'] != '':
-            print("group text", row['text1.group_text'])
             group_text = crud.get_grouptext(db, grouptext_id=int(row['text1.group_text']))
-            print(group_text)
             text_instance.group_text_id = group_text.id
             text_instance.group_text = group_text
-            print(text_instance.group_text)
+            db.flush()
+        
+        author = crud.get_author(db, author_id=author_id)
+        if author:
+            text_instance.author_id = author_id
+            text_instance.author = author
             db.flush()
         if date_id:
             text_instance.text_date_id = date_id
             text_instance.text_date = crud.get_date(db, date_id=date_id)
             db.flush()
 
-        if 'text1.book' in row and pd.notna(row['text1.book']) and row['text1.book'] != '':
-            # find book
-            book = crud.get_publication_by_title(db, title=row['text1.book'])
-            if book is None:
-                pub = {
-                    "title": row['text1.book'],
-                }
-                pub_data = schemas.PublicationCreate(**pub)
-                book = crud.create_publication(db=db, publication=pub_data)
-                if book:
-                    text_instance.publication_id = book.id
-                    db.flush()
         if 'text1.writing_location' in row and pd.notna(row['text1.writing_location']) and row['text1.writing_location'] != '':
             new_location = row['text1.writing_location'].strip()
             location = crud.get_location_by_name(db, name=new_location)
@@ -303,9 +294,9 @@ def read_grouptext(grouptext_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="GroupText not found")
     return db_grouptext
 
-@app.get("/texts/{text_id}", response_model=schemas.TextInDBBase, tags=["texts"])
-def read_text(text_id: int, db: Session = Depends(get_db)):
-    db_text = crud.get_text(db, text_id=text_id)
+@app.get("/texts/{id}", response_model=schemas.TextBase, tags=["texts"])
+def read_text(id: int, db: Session = Depends(get_db)):
+    db_text = crud.get_text(db, id=id)
     if db_text is None:
         raise HTTPException(status_code=404, detail="Text not found")
     return db_text

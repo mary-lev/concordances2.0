@@ -77,12 +77,12 @@ class Text(Base):
     __tablename__ = 'texts'
     id = Column(Integer, primary_key=True)
     text_id = Column(Integer, nullable=True)
-    type = Column(String(50))
     title = Column(String, nullable=True)
     subtitle = Column(String, nullable=True)
     body = Column(String)
     filename = Column(String)
     first_string = Column(String)
+    source = Column(String, nullable=True)
     genre = Column(String)
     dedication = Column(String, nullable=True)
     author_comment = Column(String, nullable=True)

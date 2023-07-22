@@ -142,6 +142,7 @@ class TextBase(BaseModel):
     first_string: Optional[str] = None
     body: Optional[str] = None
     filename: Optional[str]
+    source: Optional[str] = None
     n_in_group: int = None
     author: Optional[AuthorBase] = None
     author_id: int
@@ -165,9 +166,6 @@ class TextUpdate(TextBase):
 
 class TextInDBBase(TextBase):
     id: int
-    text_id: int
-    publication: Optional[PublicationBase] = None
-    publication_id: Optional[int] = None
 
     class Config:
         orm_mode = True

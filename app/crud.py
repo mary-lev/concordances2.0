@@ -108,8 +108,8 @@ def create_grouptext(db: Session, grouptext: schemas.GroupTextCreate):
     return db_grouptext
 
 # TextSchema CRUD operations
-def get_text(db: Session, text_id: int) -> models.Text | None:
-    return db.query(models.Text).filter(models.Text.text_id == text_id).first()
+def get_text(db: Session, id: int) -> models.Text | None:
+    return db.query(models.Text).filter(models.Text.id == id).first()
 
 def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
     return db.query(models.Text).filter(models.Text.author_id == author_id).all()

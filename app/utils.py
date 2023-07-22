@@ -39,12 +39,10 @@ def get_date(row, db, table_name):
     dmonth = row.get(f'{table_name}.dmonth_writing')
     dday = row.get(f'{table_name}.dday_writing')
     season = row.get(f'{table_name}.season_writing')
-    print("Dates: ", year, month, day, dyear, dmonth, dday, season)
     if table_name == 'group_text':
         year = row["group_text.year_writing"]
     if pd.notna(year) and year != '':
         year, start_year, end_year = parse_year(year)
-        print("Parsed year: ", year, start_year, end_year)
         date = crud.get_exact_date(
             db=db,
             year=parse_to_int(year),
@@ -70,6 +68,5 @@ def get_date(row, db, table_name):
                 "end_year": end_year,
             })
             date = crud.create_date(db=db, date=date_data)
-            print("created date: ", date)
         return date.id
     return None
