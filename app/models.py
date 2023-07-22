@@ -143,15 +143,12 @@ class Variant(Base):
     dedication = Column(String, nullable=True)
     year = Column(Integer, nullable=True)
     date = Column(String, nullable=True)
-    publication_id = Column(Integer, ForeignKey(
-        "publications.id"), nullable=True)
-    publication = relationship(
-        "Publication", back_populates="variants", foreign_keys=[publication_id])
+    publication_id = Column(Integer, ForeignKey("publications.id"), nullable=True)
+    publication = relationship("Publication", back_populates="variants", foreign_keys=[publication_id])
     book_page_start = Column(Integer, nullable=True)
     book_page_end = Column(Integer, nullable=True)
     variant_of_text_id = Column(Integer, ForeignKey("texts.id"))
-    variant_of_text = relationship(
-        "Text", back_populates="variants", foreign_keys=[variant_of_text_id])
+    variant_of_text = relationship("Text", back_populates="variants", foreign_keys=[variant_of_text_id])
     location_id = Column(Integer, ForeignKey('locations.id'), nullable=True)
     location = relationship(
         'Location', back_populates='variants', foreign_keys=[location_id])

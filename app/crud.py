@@ -28,6 +28,12 @@ def get_publications(db: Session, skip: int = 0, limit: int = 100):
 def get_publication_by_title(db: Session, title: str):
     return db.query(models.Publication).filter(models.Publication.title == title).first()
 
+def get_publication_by_author(db: Session, author_id: int) -> List[models.Publication]:
+    return db.query(models.Publication).filter(models.Publication.author_id == author_id).all()
+
+def count_publications_by_author(db: Session, author_id: int) -> int:
+    return db.query(models.Publication).filter(models.Publication.author_id == author_id).count()
+
 def create_publication(db: Session, publication: schemas.PublicationBase):
     db_publication = models.Publication(**publication.model_dump())
     db.add(db_publication)
@@ -129,7 +135,7 @@ def create_text(db: Session, text: schemas.TextBase):
 def get_variant(db: Session, id) -> models.Variant | None:
     return db.query(models.Variant).filter(models.Variant.id == id).first()
 
-def get_variants_for_text_id(db: Session, text_id: int) -> list:
+def get_variants_for_text_id(db: Session, text_id: int) -> List[models.Variant]:
     return db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
 
 def create_variant(db: Session, variant: schemas.VariantBase):

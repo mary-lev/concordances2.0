@@ -46,6 +46,7 @@ class PublicationUpdate(PublicationBase):
 
 class PublicationInDBBase(PublicationBase):
     id: int
+    title: str
 
     class Config:
         orm_mode = True
@@ -197,21 +198,23 @@ class VariantBase(BaseModel):
     subtitle: Optional[str] = None
     author_comment: Optional[str] = None
     dedication: Optional[str] = None
-    year: Optional[str] = None
+    year: Optional[str|int] = None
     date: Optional[str] = None
     publication_id: Optional[int] = None
     publication: Optional[PublicationBase] = None
     location_id: Optional[int] = None
     location: Optional[LocationBase] = None
-    book_page_start: Optional[int|str] = None
+    book_page_start: Optional[int] = None
     book_page_end: Optional[int] = None
     variant_of_text: Optional[TextBase] = None
     variant_of_text_id: int
     epi_text: Optional[str] = None
     epigraph: Optional[EpigraphBase] = None
+    epi_author: Optional[str] = None
     author: Optional[AuthorBase] = None
     author_id: int
     text_date_id: Optional[int] = None
+    text_date: Optional[TextDateBase] = None
 
 class VariantCreate(VariantBase):
     filename: str
@@ -222,10 +225,6 @@ class VariantUpdate(VariantBase):
 
 class VariantInDBBase(VariantBase):
     id: int
-    filename: str
-    publication_id: int
-    body: str
-    variant_of_text_id: int
 
     class Config:
         orm_mode = True

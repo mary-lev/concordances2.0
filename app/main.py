@@ -68,6 +68,10 @@ async def read_publications(skip: int = 0, limit: int = 100, db: Session = Depen
     publications = crud.get_publications(db, skip=skip, limit=limit)
     return publications
 
+@app.get("/publications/count/{author_id}", response_model=int, tags=["publications"])
+async def count_publications(author_id: int, db: Session = Depends(get_db)):
+    return crud.count_publications_by_author(db, author_id=author_id)
+
 @app.post("/upload_authors/", tags=["authors"])
 async def upload_authors_from_csv(file: UploadFile = File(...), db: Session = Depends(get_db)):
     df = pd.read_csv(file.file)
@@ -355,17 +359,17 @@ def read_variant(id, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Variant not found")
     return db_variant
 
-@app.get("/variant/text/{text_id}", response_model=schemas.VariantInDBBase, tags=["variants"])
+@app.get("/variant/text/{text_id}", response_model=List[schemas.VariantInDBBase], tags=["variants"])
 def read_variant_by_text_id(text_id: int, db: Session = Depends(get_db)):
     db_variant = crud.get_variants_for_text_id(db, text_id)
     if len(db_variant) == 0:
         raise HTTPException(status_code=404, detail="Variant not found")
-
-    filename = db_variant[0].filename
-    filename = filename.replace("/home/concordance/web2py/applications/test/", "../")
-    with open(filename, "r") as f:
-        db_variant[0].body = f.read()
-    return db_variant[0]
+    for variant in db_variant:
+        filename = variant.filename
+        filename = filename.replace("/home/concordance/web2py/applications/test/", "../")
+        with open(filename, "r") as f:
+            variant.body = f.read()
+    return db_variant
 
 @app.get("/texts/count/author/", response_model=int, tags=["texts"])
 def read_texts_count_by_author(author_id: int, db: Session = Depends(get_db)):
