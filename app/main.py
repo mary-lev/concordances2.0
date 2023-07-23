@@ -332,8 +332,8 @@ def read_old(id, db: Session = Depends(get_db)):
 
 @app.get("/old/text/{text_id}", response_model=schemas.OldInDBBase, tags=["old"])
 async def get_old_for_text(text_id: int, db: Session = Depends(get_db)):
-    new_text_id = crud.get_new_text_id_by_old_id(db, text_id)
-    old = crud.get_old_for_text(db, new_text_id)
+    text_id = crud.get_new_text_id_by_old_id(db, text_id)
+    old = crud.get_old_for_text(db, text_id)
     if old is None:
         raise HTTPException(status_code=404, detail="Old not found")
     filename = old.filename
@@ -352,6 +352,7 @@ def read_variant(id, db: Session = Depends(get_db)):
 
 @app.get("/variant/text/{text_id}", response_model=List[schemas.VariantInDBBase], tags=["variants"])
 def read_variant_by_text_id(text_id: int, db: Session = Depends(get_db)):
+    text_id = crud.get_new_text_id_by_old_id(db, text_id)
     db_variant = crud.get_variants_for_text_id(db, text_id)
     if len(db_variant) == 0:
         raise HTTPException(status_code=404, detail="Variant not found")

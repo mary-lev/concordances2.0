@@ -118,14 +118,13 @@ def get_texts_by_author_with_group(db: Session, author_id: int) -> List[models.T
     return db.query(models.Text).filter(models.Text.author_id == author_id).all
 
 def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
-    return db.query(models.Text).filter(models.Text.text_id == old_id).first().id
+    return db.query(models.Text).filter(models.Text.id == old_id).first().text_id
 
 def get_texts_count_by_author(db: Session, author_id: int) -> int:
     return db.query(models.Text).filter(models.Text.author_id == author_id).count()
 
 def create_text(db: Session, text: schemas.TextBase):
     db_text = models.Text(**text.model_dump())
-    print(db_text.__dict__)
     db.add(db_text)
     db.commit()
     db.refresh(db_text)
