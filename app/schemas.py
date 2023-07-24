@@ -110,7 +110,6 @@ class TextDateInDBBase(TextDateBase):
 
 
 class GroupTextBase(BaseModel):
-    supergroup: Optional[str]
     location_id: Optional[int] = None
     location: Optional[LocationBase] = None
     author_id: int

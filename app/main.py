@@ -105,7 +105,7 @@ async def upload_group_texts(file: UploadFile = File(...), db: Session = Depends
             "title": row['group_text.title'],
             "author_id": author_id,
             "dedication": row['group_text.dedication'],
-            "supergroup": int(row['group_text.superpgroup']) if pd.notna(row['group_text.superpgroup']) and row['group_text.superpgroup'] != '' else None,
+            #"supergroup": int(row['group_text.superpgroup']) if pd.notna(row['group_text.superpgroup']) and row['group_text.superpgroup'] != '' else None,
             "subtitle": "",
             "author_comment": "",
             "text_date_id": date_id,
