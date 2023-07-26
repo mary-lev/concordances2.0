@@ -109,6 +109,8 @@ def create_grouptext(db: Session, grouptext: schemas.GroupTextCreate):
 
 # TextSchema CRUD operations
 def get_text(db: Session, id: int) -> models.Text | None:
+    print(id)
+    print(db.query(models.Text).filter(models.Text.id == id).first())
     return db.query(models.Text).filter(models.Text.id == id).first()
 
 def get_texts_by_author(db: Session, author_id: int) -> List[models.Text]:
@@ -118,7 +120,7 @@ def get_texts_by_author_with_group(db: Session, author_id: int) -> List[models.T
     return db.query(models.Text).filter(models.Text.author_id == author_id).all
 
 def get_new_text_id_by_old_id(db: Session, old_id: int) -> int | None:
-    return db.query(models.Text).filter(models.Text.id == old_id).first().text_id
+    return db.query(models.Text).filter(models.Text.text_id == old_id).first().text_id
 
 def get_texts_count_by_author(db: Session, author_id: int) -> int:
     return db.query(models.Text).filter(models.Text.author_id == author_id).count()
@@ -134,7 +136,7 @@ def create_text(db: Session, text: schemas.TextBase):
 def get_variant(db: Session, id) -> models.Variant | None:
     return db.query(models.Variant).filter(models.Variant.id == id).first()
 
-def get_variants_for_text_id(db: Session, text_id: int) -> List[models.Variant]:
+def get_variants_for_text_id(db: Session, text_id: int) -> List[schemas.VariantInDBBase]:
     return db.query(models.Variant).filter(models.Variant.variant_of_text_id == text_id).all()
 
 def create_variant(db: Session, variant: schemas.VariantBase):

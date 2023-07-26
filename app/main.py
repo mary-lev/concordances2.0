@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 import crud, models, schemas
 from database import SessionLocal, engine
 from utils import get_date
+from create_tei import create_TEI
 
 
 models.Base.metadata.create_all(bind=engine)
@@ -62,6 +63,13 @@ async def upload_publication_from_csv(file: UploadFile = File(...), db: Session 
         publication = schemas.PublicationBase(**publication_data)
         crud.create_publication(db=db, publication=publication)
     return {"message": "Publications created"}
+
+@app.get("/publication/{publication_id}", response_model=schemas.PublicationInDBBase, tags=["publications"])
+def read_publication(publication_id: int, db: Session = Depends(get_db)):
+    db_publication = crud.get_publication(db, publication_id=publication_id)
+    if db_publication is None:
+        raise HTTPException(status_code=404, detail="Publication not found")
+    return db_publication
 
 @app.get("/publications/", response_model=List[schemas.PublicationInDBBase], tags=["publications"])
 async def read_publications(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
@@ -177,7 +185,6 @@ async def upload_old(file: UploadFile = File(...), db: Session = Depends(get_db)
         db.add(old)
     db.commit()
     return {"filename": file.filename}
-
 
 @app.post("/upload_variants/", tags=["variants"])
 async def upload_variants(file: UploadFile = File(...), db: Session = Depends(get_db)):
@@ -350,7 +357,7 @@ def read_variant(id, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Variant not found")
     return db_variant
 
-@app.get("/variant/text/{text_id}", response_model=List[schemas.VariantInDBBase], tags=["variants"])
+@app.get("/variant/text/{text_id}", tags=["variants"])
 def read_variant_by_text_id(text_id: int, db: Session = Depends(get_db)):
     text_id = crud.get_new_text_id_by_old_id(db, text_id)
     db_variant = crud.get_variants_for_text_id(db, text_id)
@@ -384,3 +391,12 @@ def read_location(location_name: str, db: Session = Depends(get_db)):
     if db_location is None:
         raise HTTPException(status_code=404, detail="Location not found")
     return db_location
+
+@app.get("/texts/create_tei/{id}", tags=["texts"])
+def create_tei(id: int, db: Session = Depends(get_db)):
+    id = crud.get_new_text_id_by_old_id(db, id)
+    text = crud.get_text(db, id=id)
+    print(text)
+    if text is None:
+        raise HTTPException(status_code=404, detail="Text not found")
+    return create_TEI(text)

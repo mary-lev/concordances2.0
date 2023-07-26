@@ -133,7 +133,7 @@ class GroupText(Base):
 class Variant(Base):
     __tablename__ = 'variants'
     id = Column(Integer, primary_key=True)
-    first_string = Column(String)
+    first_string = Column(String, nullable=True)
     filename = Column(String)
     body = Column(String, nullable=True)
     author_id = Column(Integer, ForeignKey('authors.id'))

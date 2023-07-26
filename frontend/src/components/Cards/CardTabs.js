@@ -1,21 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
 const CardTabs = ({ text }) => {
-    const [openTab, setOpenTab] = useState(1);
+    const [openTab, setOpenTab] = useState(1);  // eslint-disable-next-line
     const [variants, setVariants] = useState(null);
     const [old, setOldText] = useState(null);
+    const [publications, setPublications] = useState(null);
+    const [tei, setTei] = useState(null);
+    console.log("Text", text)
 
     useEffect(() => {
-        fetch(`http://localhost:8000/variant/text/${text.text_id}`)
-            .then(response => response.json())
-            .then(data => {
-                setVariants(data);
-            })
-            .catch(err => console.error(err));
-    }, [text.text_id]);
-
-    useEffect(() => {
-        fetch(`http://localhost:8000/old/text/${text.id}`)
+        fetch(`http://localhost:8000/old/text/${text.text_id}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('No old orthography available');
@@ -29,9 +23,46 @@ const CardTabs = ({ text }) => {
                 console.error(err);
                 setOldText(null);
             });
-    }, [text.id]);
+    }, [text.text_id]);
 
-    console.log("Old: ", old);
+    useEffect(() => {
+        fetch(`http://localhost:8000/variant/text/${text.text_id}`)
+            .then(response => response.json())
+            .then(data => {
+                setVariants(data);
+                // Create an array to hold all the publications
+                let publicationsData = [];  // This is a local variable, not a state variable
+                data.forEach(variant => {
+                    fetch(`http://localhost:8000/publication/${variant.publication_id}`)
+                        .then(response => response.json())
+                        .then(publication => {
+                            // Push each publication into the local array
+                            publicationsData.push(publication);
+                        })
+                        .catch(err => console.error(err));
+                });
+                // Set the state of publications to the fetched data
+                setPublications(publicationsData);
+            })
+            .catch(err => console.error(err));
+    }, [text.text_id]);
+
+    useEffect(() => {
+        fetch(`http://localhost:8000/texts/create_tei/${text.text_id}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('No TEI available');
+                }
+                return response.text();
+            })
+            .then(data => {
+                setTei(data);
+            })
+            .catch(err => {
+                console.error(err);
+                setTei(null);
+            });
+    }, [text.text_id]);
 
     return (
         <>
@@ -130,29 +161,30 @@ const CardTabs = ({ text }) => {
                                     className={openTab === 2 ? "block" : "hidden"}
                                     id="link2"
                                 >
-                                    <p>
-                                        {old && old.body
-                                            ? <div style={{ fontFamily: 'EB Garamond', fontSize: '18px' }} dangerouslySetInnerHTML={{ __html: old.body.replace(/\n/g, '<br/>') }} />
-                                            : "No old orthography available"}
-                                    </p>
+
+                                    {old && old.body
+                                        ? <div style={{ fontFamily: 'EB Garamond', fontSize: '18px' }} dangerouslySetInnerHTML={{ __html: old.body.replace(/\n/g, '<br/>') }} />
+                                        : "No old orthography available"}
                                 </div>
 
                                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                                    <p>{text.publication ? `${text.publication.author}. ${text.publication.title}. ${text.publication.city}: ${text.publication.publisher}, ${text.publication.year}` : ""}</p>
-                                    {Array.isArray(variants)
-                                        ? variants.map((variant, index) => (
-                                            variant.publication ? (
-                                                <p key={index}>
-                                                    {variant.publication.title}. {variant.publication.city}: {variant.publication.publisher}, {variant.publication.year}.
-                                                </p>
-                                            ) : null
+                                    {publications && publications.length > 0
+                                        ? publications.map((publication, index) => (
+                                            <p key={index}>
+                                                {publication.title}. {publication.city}: {publication.publisher}, {publication.year}.
+                                            </p>
                                         ))
-                                        : <p>No variants available</p>}
+                                        : <p>No publications available</p>}
                                 </div>
-                                <div className={openTab === 4 ? "block" : "hidden"} id="link4">
-                                    <div style={{ fontFamily: 'EB Garamond', fontSize: '14px' }}> <pre>{text.body}</pre> </div>
 
+                                <div className={openTab === 4 ? "block" : "hidden"} id="link4">
+                                    <div style={{ fontFamily: 'EB Garamond', fontSize: '14px' }}>
+                                        <pre>
+                                            <code>{tei ? tei.replace(/\\n/g, '\n').replace(/\\"/g, '"').slice(1, -1).replace(/\n</g, '<') : 'No TEI available'}</code>
+                                        </pre>
+                                    </div>
                                 </div>
+
 
 
 

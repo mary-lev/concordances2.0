@@ -197,8 +197,8 @@ class VariantBase(BaseModel):
     dedication: Optional[str] = None
     year: Optional[str|int] = None
     date: Optional[str] = None
-    publication_id: Optional[int] = None
     publication: Optional[PublicationBase] = None
+    publication_id: Optional[int] = None
     location_id: Optional[int] = None
     location: Optional[LocationBase] = None
     book_page_start: Optional[int] = None
@@ -222,6 +222,7 @@ class VariantUpdate(VariantBase):
 
 class VariantInDBBase(VariantBase):
     id: int
+    publication: PublicationBase
 
     class Config:
         orm_mode = True

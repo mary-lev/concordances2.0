@@ -5,7 +5,7 @@ import CardTabs from "components/Cards/CardTabs.js";
 // components
 
 export default function CardTextDetail({text}) {
-    console.log("Text", text);
+    console.log("Text from CardTextDetail", text);
   return (
     <>
       <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0">
