@@ -3,7 +3,7 @@ from xml.dom import minidom
 import re
 
 def create_TEI(text):
-    author = text.author.name
+    author = f"{text.author.name} {text.author.surname} {text.author.family}"
     title = text.title
     poem = text.body
     date = text.text_date.year
@@ -36,11 +36,10 @@ def create_TEI(text):
     div.set('type', 'poem')
 
     # Split the poem into stanzas and lines and add them to the XML
-    stanzas = poem.split('\n\n')
+    stanzas = re.split("\r\n\r\n", poem)
     for stanza in stanzas:
-        lg = SubElement(div, 'lg')
-        lg.set('type', 'stanza')
         lines = stanza.split('\n')
+        lg = SubElement(div, 'lg', type="stanza")
         for line in lines:
             l = SubElement(lg, 'l')
             l.text = line

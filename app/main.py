@@ -396,7 +396,6 @@ def read_location(location_name: str, db: Session = Depends(get_db)):
 def create_tei(id: int, db: Session = Depends(get_db)):
     id = crud.get_new_text_id_by_old_id(db, id)
     text = crud.get_text(db, id=id)
-    print(text)
     if text is None:
         raise HTTPException(status_code=404, detail="Text not found")
     return create_TEI(text)
