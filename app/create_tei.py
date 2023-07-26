@@ -6,7 +6,8 @@ def create_TEI(text):
     author = f"{text.author.name} {text.author.surname} {text.author.family}"
     title = text.title
     poem = text.body
-    date = text.text_date.year
+    if text.text_date:
+        date = text.text_date.year
 
     # Create the root TEI element
     root = Element('TEI')
@@ -30,8 +31,8 @@ def create_TEI(text):
     SubElement(sourceDesc, 'p').text = 'Automatically created from the database.'
 
     # Create the text body
-    text = SubElement(root, 'text')
-    body = SubElement(text, 'body')
+    tei = SubElement(root, 'text')
+    body = SubElement(tei, 'body')
     div = SubElement(body, 'div')
     div.set('type', 'poem')
 
@@ -45,9 +46,11 @@ def create_TEI(text):
             l.text = line
 
     # Add the date
-    date_element = SubElement(div, 'date')
-    date_element.set('when', str(date))
-    date_element.text = str(date)
+    if text.text_date:
+        date = text.text_date.year
+        date_element = SubElement(div, 'date')
+        date_element.set('when', str(date))
+        date_element.text = str(date)
 
     # Convert the XML to a string
     xml_string = tostring(root, 'utf-8')
