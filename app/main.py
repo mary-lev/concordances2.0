@@ -339,7 +339,6 @@ def read_old(id, db: Session = Depends(get_db)):
 
 @app.get("/old/text/{text_id}", response_model=schemas.OldInDBBase, tags=["old"])
 async def get_old_for_text(text_id: int, db: Session = Depends(get_db)):
-    text_id = crud.get_new_text_id_by_old_id(db, text_id)
     old = crud.get_old_for_text(db, text_id)
     if old is None:
         raise HTTPException(status_code=404, detail="Old not found")

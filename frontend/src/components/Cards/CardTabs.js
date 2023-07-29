@@ -125,7 +125,7 @@ const CardTabs = ({ text }) => {
                                 href="#link3"
                                 role="tablist"
                             >
-                                Publications
+                                Variants
                             </a>
                         </li>
                         <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -174,7 +174,7 @@ const CardTabs = ({ text }) => {
                                                 {publication.title}. {publication.city}: {publication.publisher}, {publication.year}.
                                             </p>
                                         ))
-                                        : <p>No publications available</p>}
+                                        : <p>No variants available</p>}
                                 </div>
 
                                 <div className={openTab === 4 ? "block" : "hidden"} id="link4">

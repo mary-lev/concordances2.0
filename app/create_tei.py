@@ -24,7 +24,7 @@ def create_TEI(text):
 
     # Add the publicationStmt
     publicationStmt = SubElement(fileDesc, 'publicationStmt')
-    SubElement(publicationStmt, 'p').text = 'Unpublished'
+    SubElement(publicationStmt, 'p').text = text.source
 
     # Add the sourceDesc
     sourceDesc = SubElement(fileDesc, 'sourceDesc')
